@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Thinking About Object Models</title>
+  <link>http://devhawk.net/2006/05/31/thinking-about-object-models/</link>
+  <pubDate>Wed, 31 May 2006 22:54:05 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c719933e-eb08-4303-a078-9a4151fd5368</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm doing some experiments with Amazon's S3 Service. Very cool service, I might add. Anyway, the sample C# REST code basically wraps the network requests with a single connection class that has individual methods for each type of service interaction (list all my buckets, list all objects in a bucket, create a bucket, create an object, you get the idea). </p><p>However, S3's service is a natural hierarchy. The Service contains many Buckets, which in turn contain many Objects. So another way to wrap the service interaction is with a series of objects that are related to one another and only implement the service interactions relevant to that class. (Service would implement List My Buckets and perhaps Create Bucket. Bucket would implement List Objects and Delete Bucket. Again, you get the idea.)</p><p>For an interface as relatively simple as S3 (the SOAP interface has a grand total of 13 operations) it probably doesn't matter one way or the other. Furthermore, it's probably a question of personal preference. My question: What's <em>your</em> personal preference? A single object with many methods or a hierarchy of objects each with fewer methods?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">752</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-05-31 22:54:05</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-05-31 22:54:05</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">thinking-about-object-models</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c719933e-eb08-4303-a078-9a4151fd5368]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Thinking+About+Object+Models]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/06/01/Thinking+About+Object+Models]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2362</wp:comment_id>
+    <wp:comment_author><![CDATA[orcmid]]></wp:comment_author>
+    <wp:comment_author_email>dennis.hamilton@acm.org</wp:comment_author_email>
+    <wp:comment_author_url>http://orcmid.com/blog/</wp:comment_author_url>
+    <wp:comment_author_IP>216.160.65.145</wp:comment_author_IP>
+    <wp:comment_date>2006-06-01 11:22:17</wp:comment_date>
+    <wp:comment_date_gmt>2006-06-01 18:22:17</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Well .... this is a pretty abstract question and circumstances matter.  But I will put on my T-shirt and take an abstracted architectural view.  
+
+First, you need to know that I find classes like CFile to be repelling.  I don't like classes like that any more than I like control coupling (one method, many parameters, some parameters say what needs to be done).  It is a separation of concerns for me.  Making it one object and many methods (often hairy ones) is some improvement but basically a dual of the same problem.
+
+OK, it isn't so much hierarchy for me although many situations do come out that way, especially when navigating information systems.  But what I see it as is separation of concerns.  The first part has to do with breaking down the work and using helpers and functions that work on parts of the procedure I'm developing.  What objects do I pass to other methods (for their use), or do I by inheritance graft other methods onto?  Can I keep the surface that I expose to other processes/objects/methods be kept small and understandable and invariant (that is, making a contract) and that leaves out everything that is irrelevant stuff.  (Example from CFile -- I may have a process to apply against a file, I should not have to deal with it being able to close, re-open, and otherwise mess with the file I've opened to be processed.)  So I want to pass it a live data stream.  Also, I may want what it does to not interfere with *my* current position in the data stream (or I may want choice in the matter).
+
+Beside separation of concerns and removing extraneous elements from interface agreements (so they are not brittle and are easily preserved over time and substitutions) is the opportunity that factoring objects into hierarchies or subordinates (or interfaces) provides. For example, if you need to be holding onto more than one place under an access, you can arrange your object design to support that.  It's like having multiple cursors and enumerators and whatnot.  Also there is no reason to expose write methods on a component that I will only use for reading and that I only want some other service to read with.  That's my thinking about all of that. Some of this can be handled by factoring out a nice set of true interfaces and others involve methods that make new objects or that take objects/interfaces and use them.  
+
+The down side?  This can become too fine-grained and performance and understandability can both go out the window (especially if remoting is happening).  I was reading some code the other day where it began with this traditional stack of declarations where each new one was for an object that was delivered by a method on the object declared and initialized one line above.  It was all to get to one deep "place" and the upshot of all this methodology was to insert an element in an XML document being used to hold a configuration.  
+
+So sometimes it is necessary to breach conceptual purity to handle a simple use case.  Nothing wrong with that.  The definition of a shortcut/accelerator method can be in terms of the "pure" ones, and the implementation might be one that performs better.  But it takes all the lifting away from the user and lets the simple thing be done with a simple method.  I've done that in places where it worked quite well (and preserved legacy code that used a flatter model that I had refactored to get a clean conceptual breakdown of the architecture). 
+
+It all depends.  It especially depends on whether others (including you later) will be (re-) using what you've done, and how much attention to factoring you can put in up front.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2363</wp:comment_id>
+    <wp:comment_author><![CDATA[01976]]></wp:comment_author>
+    <wp:comment_author_email>wendysystems@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>67.66.49.192</wp:comment_author_IP>
+    <wp:comment_date>2006-06-16 15:56:50</wp:comment_date>
+    <wp:comment_date_gmt>2006-06-16 22:56:50</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi,
+How do you deal with thinking in so many dimensional thoughts.
+Oh,well.I way to tired to read your blog right now.my abstract mind would rather look at pictures.
+
+Thanks though,I appreciate your efforts,
+Thanks, 01976]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

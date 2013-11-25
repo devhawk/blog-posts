@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>DevHawk on TheServerSide.net</title>
+  <link>http://devhawk.net/2004/06/18/devhawk-on-theserverside-net/</link>
+  <pubDate>Fri, 18 Jun 2004 07:14:29 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://36fe0849-05a6-4c9f-95a0-8e5d0a31b94b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://www.theserverside.net">TSS.net</a> just published a new <a href="http://www.theserverside.net/talks/index.tss">Tech Talk</a>, <a href="http://www.theserverside.net/news/thread.tss?thread_id=26644">this time</a> with yours truly. Tech Talks are interviews with “.NET luminaries” (their name). Previous talks on TSS.net include <a href="http://blogs.msdn.com/pathelland">Pat</a> and <a href="http://www.simonguest.com/">Simon</a> from my team as well as others such as <a href="http://www.gotdotnet.com/team/dbox/default.aspx">Don Box</a> and <a href="http://weblogs.asp.net/scottgu/">Scott Guthrie</a>. Nice company to be in! </p><p>The interview is pretty broad reaching - we spend thirty minutes about architecture (with a lower case a), community, patterns, aspects, messaging, service oriented way plus job advice for <a href="http://www.neward.net/ted/weblog">Ted's</a> 10 year old son. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">384</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-06-18 07:14:29</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-06-18 07:14:29</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">devhawk-on-theserverside-net</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[36fe0849-05a6-4c9f-95a0-8e5d0a31b94b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[DevHawk+On+TheServerSidenet]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/06/18/DevHawk+On+TheServerSidenet]]></wp:meta_value>
+  </wp:postmeta>
+</item>

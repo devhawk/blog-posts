@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The Annoying C# 3.0 "Unsupported Version" Dialog</title>
+  <link>http://devhawk.net/2006/03/17/the-annoying-c-3-0-unsupported-version-dialog/</link>
+  <pubDate>Fri, 17 Mar 2006 14:41:45 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://1f3ac744-fd2b-435b-b379-3d98a451ecb7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I am sick and tired of the warning dialog box for the <a href="http://download.microsoft.com/download/4/7/0/4703eba2-78c4-4b09-8912-69f6c38d3a56/linq%20preview.msi">C# 3.0 preview</a>. Every time you launch VS it pops up a dialog reading "This is an unsupported version of Microsoft Visual C# 3.0. As such many features may not work as expected." You know, this isn't my first time working with alpha or beta quality software. I'm also running <a href="http://msdn.microsoft.com/windowsvista/downloads/getthebeta/default.aspx">WinFX Feb CTP</a>, <a href="http://download.microsoft.com/download/b/3/1/b3141ee3-4a13-4061-a96e-4ae3c37ea0e0/LINQ%20VB%20Preview%20(Jan%202006).msi">VB 9.0 Jan CTP</a> and the <a href="http://www.microsoft.com/products/expression/en/interactive_designer/id_free_trial.aspx">Expression Interactive Designer March CTP</a>. None of them feel the need to constantly remind me that they're unsupported. </p><p>Who suddenly thought C# developers need hand holding?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">726</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-03-17 14:41:45</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-03-17 14:41:45</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-annoying-c-3-0-unsupported-version-dialog</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[1f3ac744-fd2b-435b-b379-3d98a451ecb7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+Annoying+C+30+Unsupported+Version+Dialog]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/03/17/The+Annoying+C+30+Unsupported+Version+Dialog]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2336</wp:comment_id>
+    <wp:comment_author><![CDATA[Cyrus Najmabadi]]></wp:comment_author>
+    <wp:comment_author_email>cyrusn@microsoft.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/cyrusn</wp:comment_author_url>
+    <wp:comment_author_IP>24.18.158.57</wp:comment_author_IP>
+    <wp:comment_date>2006-03-25 23:20:23</wp:comment_date>
+    <wp:comment_date_gmt>2006-03-26 06:20:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Devhawk!  I'm Cyrus, a developer on the C# team primarily responsible for IntelliSense.  I wanted to explain why you're getting this dialog and what our reasoning was for designing the preview this way.
+
+You brought up some counter examples of preview software that doesn't behave the same way, however there's a subtle distinction i see between them and the preview we've released.  Simply put, it all comes down to support and "version numbers".  What do i mean by that?  Well, when you're running the WinFX February CTP there's absolutely no confusion for you or Product Support Services as to what you're running and what the support policy is for it.  If you contact PSS and say "i'm having a problem with the [insert product name]", they'll say "please go to [some location] and get the version number by looking at [something]".  This method works with all the many preview releases.  However, with the C# 3.0 preview we did things slightly different.  Notice that you're not pulling down an entirely new version of VS.  Instead, we're providing the preview "in place".  And, in actuality, all that happens is that exactly one dll on your machine is replaced with one of ours.  
+
+As it turns out, this can lead to quite a support nightmare.  To both the user and the support teams this "frankenbuild" scenario is practically indistinguishable from the actual RTM release of Visual Studio 2005 (version 50727.42).  And, while you might remember that this is preview software for a while, after using it for several months will you still remember?  And, once you've forgotten, and you later on experience a crash (due to the highly alpha nature of this release) will you realize what's up?  Or will you contact PSS and go through a bunch of expensive rigamarole until, weeks later, someone finally realizes what's going on and why something is only happening on your machine and not on any others. 
+
+Of course, when i say "you" i'm actually referring to the larger developer community out there.  *You* may actually be fine without the prompt, however we have to consider the larger group of developers out there that we're targetting.
+
+We may consider removing the prompt in the future (or making it user configurable).  However, i have a distinct worry that people will download the preview, install it and later on totally forget that they've done this.  And when that happens and the user experiences crashes, instability, and data loss in a product that looks virtually indistinguishable from VS2005 then there can be a lot of angst and anger that can easily be avoided with just a simple dialog.
+
+If you'd like to talk more about this, feel free to contact me through my blog (there's a "contact" link on that page).
+
+In short, there was a conscious decision made around this and we did feel that this behavior was warrented since our preview was sufficiently different from others that MS has released.
+
+Thanks for the feedback!
+
+             -- Cyrus]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

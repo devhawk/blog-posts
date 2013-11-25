@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Checkin Comments for IronPython Source</title>
+  <link>http://devhawk.net/2009/05/07/checkin-comments-for-ironpython-source/</link>
+  <pubDate>Thu, 07 May 2009 11:19:38 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://9d828751-7047-4ba0-96dd-7caba92eb59f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>We’ve been slowly but surely increasing the frequency of IronPython source drops. When I joined the team last April, we we only pushing the source about twice a month (sometimes only once a month). By last July, we were pushing source about once a week. Since mid-January, we’ve pushed out the latest source 131 times, which comes to about once a day on average since the start of the year. Big kudos to <a href="http://knowbody.livejournal.com/">Dave Fugate</a>, who’s primarily responsible for improving the frequency of our source code drops.</p><p>However, while we’ve been good about source code drop frequency, we haven’t been good about transparency. All those source drops have the same less-than-useful checkin comment “Latest IP sources migrated to CodePlex TFS”. If you wanted to know what was changed in a given changeset, you had to do the diff yourself.</p><p>But all that opaque code changes is a thing of the past now. Dave upgraded out source push script so that it emails a list of changes as well as the checkin comments whenever we update the source on CodePlex. For example, check out the <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2009-May/010275.html">source push announcement</a> for our <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/49849">latest source drop</a>.  Now we publish added, deleted and modified sources as well as the comments for any checkins included in the source drop. </p><p>As Dave <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2009-May/010245.html">said on the mailing list</a>, please let us know if you have any feedback on these source update emails. I think they’re awesome (though I did have <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2009-May/010277.html">one small suggestion</a>) but we want to know what you think. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1259</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-05-07 11:19:38</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-05-07 11:19:38</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">checkin-comments-for-ironpython-source</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[9d828751-7047-4ba0-96dd-7caba92eb59f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Checkin+Comments+For+IronPython+Source]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/05/07/Checkin+Comments+For+IronPython+Source]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Grady Booch sez "Throw Models Away"</title>
+  <link>http://devhawk.net/2005/11/07/grady-booch-sez-throw-models-away/</link>
+  <pubDate>Mon, 07 Nov 2005 15:57:58 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4aa1697c-9cab-4c62-be7d-c805cbd4c1c3</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I wasn't there, but apparently <a href="http://www-128.ibm.com/developerworks/blogs/dw_blog.jspa?blog=317">Grady Booch</a> made a comment at <a href="http://www.oopsla.org/2005">OOPSLA</a> last month that throwing away models is a good thing. <a href="http://www.metacase.com/blogs/jpt/blogView">Juha-Pekka's</a><a href="http://www.metacase.com/blogs/jpt/blogView?showComments=true&amp;entry=3308396982">account</a> of the <a href="http://www.oopsla.org/2005/ShowEvent.do?id=304">Design and Modern Software Practices Panel</a> has Grady saying "when the project gets closer to the delivery you normally throw away UML models. This is a natural choice since the efforts needed for keeping the design - user view, dynamics, behavior, interaction etc. - linked with the implementation are simply too high." <a href="http://ivan.truemesh.com/">Ivan Moore</a><a href="http://ivan.truemesh.com/archives/000542.html">has Grady saying</a> "I often throw models away but tend not to throw away the source code." </p><p>I've gotta believe that this comment was somehow taken out of context and that the Grand Poobah of the <a href="http://devhawk.net/2004/12/10/Booch+On+DSLs+Round+3.aspx">Common Semantic Model</a> doesn't actually believe that tossing the model at the end o the project is a good thing. If we view these comments thru the lens of <a href="http://devhawk.net/2005/10/05/Code+Is+Model.aspx">Code is Model</a>, you realize this is a major violation of the "Models must be Intrinsic to the Development Process" tenet. Since code is model, it seems silly to throw out the UML model and keep the code model. The only reason I could think to do that, is because the UML model has no value.</p><p>And this leaves me wondering, exactly how much benefit does Grady Booch get from his UML model if he's willing to throw them away near the end of the project.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">649</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-11-07 15:57:58</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-11-07 15:57:58</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">grady-booch-sez-throw-models-away</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4aa1697c-9cab-4c62-be7d-c805cbd4c1c3]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Grady+Booch+Sez+Throw+Models+Away]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/11/07/Grady+Booch+Sez+Throw+Models+Away]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2867</wp:comment_id>
+    <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+    <wp:comment_author_email>tomasr@mvps.org</wp:comment_author_email>
+    <wp:comment_author_url>http://www.winterdom.com/weblog</wp:comment_author_url>
+    <wp:comment_author_IP>200.116.198.52</wp:comment_author_IP>
+    <wp:comment_date>2005-11-08 03:09:35</wp:comment_date>
+    <wp:comment_date_gmt>2005-11-08 11:09:35</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Well, to me the UML diagrams are just a tool, a means to an end, but not the end itself. They are very nice to quickly visualize and start thinking about the relationships in the code and it's behavior, but there comes a moment at which code is just so much better at it that it might not be useful to keep synching them by hand. 
+
+What I mean is that, at that point, the UML diagrams become useful as a visualization tool, and no longer as useful as a design tool (though by no means useless); and that's where model generation from code becomes far more interesting.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2868</wp:comment_id>
+    <wp:comment_author><![CDATA[CatoTheElderII]]></wp:comment_author>
+    <wp:comment_author_email>jefffee@yahoo.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>63.103.225.2</wp:comment_author_IP>
+    <wp:comment_date>2005-11-09 14:39:36</wp:comment_date>
+    <wp:comment_date_gmt>2005-11-09 22:39:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I think what they are saying is that you should use the UML at first to design the system, but since UML tools do not do a good job of making it easy to keep code and UML models in synch you get to a point where the maintenance is no longer worth the benefit, and therefore they toss the UML models in the trash after that point is reached.  There would be no point in keeping them unless you intend to keep them up to date with the code, and since that becomes very burdensome after a while, it is more economical to throw them away.  This, of course, has nothing to do with wether or not UML models are useful, of course they are.  It has everything to do with the failure of the tools to provide an easy means of syncrhonizing code and models.  Makes sense to me.  If the tools vendors make the link then you will find the "throw them away" rule abandonned and people will then say, "Keep them".   That's my take.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2869</wp:comment_id>
+    <wp:comment_author><![CDATA[Peter Provost]]></wp:comment_author>
+    <wp:comment_author_email>peter@provost.org</wp:comment_author_email>
+    <wp:comment_author_url>http://www.peterprovost.org/</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2005-11-12 15:21:48</wp:comment_date>
+    <wp:comment_date_gmt>2005-11-12 23:21:48</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[If Code-Is-Model is really an accurate statement, then throwing away the non-code model (the UML) is a completely legitimate thing to do as soon as it loses its value or gets in the way of maintaining the model that matters (the code).
+
+I think Grady's point here (I wasn't there) had to be something like this: Use a UML model (or whatever other high abstraction language you choose) when it has value and throw it away the moment it gets in your way or become an intolerable tax on your project.
+
+This is why I've always felt that all "code-as-model" modeling tools should use the code as the serialization format for the model. This is what the old Together tool did and that is why people liked it so much. The UML was just a way to visualize your code. There was no such thing as round tripping because there was only one thing...
+
+The code.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Dino Rocks so now I can Rock and Roll</title>
+  <link>http://devhawk.net/2005/03/06/dino-rocks-so-now-i-can-rock-and-roll/</link>
+  <pubDate>Mon, 07 Mar 2005 06:15:19 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0eb6ab87-d64d-4824-9ab5-ea41d0350369</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Last weekend, I <a href="http://devhawk.net/DIY+Car+Radio+Harder+Than+I+Thought.aspx">tried in vain</a> to install a <a href="http://www.pie.net/index-2-details.cfm?recordID=GM9-AUX">PIE GM9-AUX</a> in my Chevy Blazer. The GM9-AUX converts the CD changer port on the stock CD player that came in the car to a standard RCA jack, which I can plug any one of my four <a href="http://nomadworld.com">Nomad</a> media players into (though I imaging 99.9% of the time, it will be the Zen Micro) via a standard miniplug to RCA adapter cable. This weekend, my neighbor Dino helped out and we got it installed. He did most of the dashboard removal work and I did the cable installtion and threading it thru the dashboard to somewhere accessable from the driver seat. Thanks Dino!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">567</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-03-06 22:15:19</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-03-07 06:15:19</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">dino-rocks-so-now-i-can-rock-and-roll</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="music"><![CDATA[Music]]></category>
+  <category domain="category" nicename="personal"><![CDATA[Personal]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0eb6ab87-d64d-4824-9ab5-ea41d0350369]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Dino+Rocks+So+Now+I+Can+Rock+And+Roll]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/03/07/Dino+Rocks+So+Now+I+Can+Rock+And+Roll]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2802</wp:comment_id>
+    <wp:comment_author><![CDATA[mearls@hotmail.com (Michael Earls)]]></wp:comment_author>
+    <wp:comment_author_email>mearls@hotmail.comMichaelEarls</wp:comment_author_email>
+    <wp:comment_author_url>http://www.cerkit.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-07 09:17:30</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-07 17:17:30</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Congratulations!  I'll bet it's much better than the FM transmitter option.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

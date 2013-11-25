@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Cool App: WMP Mixer</title>
+  <link>http://devhawk.net/2003/08/17/cool-app-wmp-mixer/</link>
+  <pubDate>Sun, 17 Aug 2003 17:27:10 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://988f161e-1908-4f7f-aa60-a21d5ad2a04b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://erablog.net/blogs/sean/">Sean Alexander</a> had a link to <a href="http://www.wmplugins.com/ItemDetail.aspx?ItemID=335">WMP Mixer</a> Friday. This is a cool app that lets you have two media streams and mix between them DJ style. </p><p>I used to DJ back in college for the campus radio station. We had a remote kit so we could spin tunes for frat parties. Typically, my job at these remotes was to lug heavy DJ equipment, but I did occasionally spin at parties. The one thing WMP Mixer is missing is the ability to preview the next song while the current song is playing. Of course, you'd need more than the standard single audio out that most PCs have these days. I have a <a href="http://us.hercules.com/products/showpage.php?p=56&amp;b=0&amp;f=1">5.1 sound card</a> that I bought for my Media Center and haven't installed. I wonder if you could play media streams to separate channels (rear speakers could be used for preview). I'm curious if different instances of WMP will let you drive different sound card outputs. I'm guessing no, since I can't seem to find an option to change the sound output of WMP. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">173</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-08-17 17:27:10</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-08-17 17:27:10</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">cool-app-wmp-mixer</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/08/18/Cool+App+WMP+Mixer]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[988f161e-1908-4f7f-aa60-a21d5ad2a04b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Cool+App+WMP+Mixer]]></wp:meta_value>
+  </wp:postmeta>
+</item>

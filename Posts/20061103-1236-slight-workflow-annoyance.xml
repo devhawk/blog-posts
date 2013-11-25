@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Slight Workflow Annoyance</title>
+  <link>http://devhawk.net/2006/11/03/slight-workflow-annoyance/</link>
+  <pubDate>Fri, 03 Nov 2006 12:36:39 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e42581ae-6d27-4c06-8a28-f77432ddfcc4</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>One of the cool things about WF is that you can specify the Guid it uses to identify a workflow instance. <a href="http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.workflowruntime.createworkflow.aspx">WorkflowRuntime.CreateWorkflow</a> has an <a href="http://windowssdk.msdn.microsoft.com/en-us/library/ms594870.aspx">overload</a> (actually <a href="http://windowssdk.msdn.microsoft.com/en-us/library/ms594866.aspx">two</a>) where you can specify said workflow instance identifier. This is awesome for using WF with Service Broker, as Service Broker already has the idea of a <a href="http://msdn2.microsoft.com/en-us/library/ms166131.aspx">conversation group</a> which is roughly analogous to a <a href="http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.workflowinstance.aspx">workflow instance</a>. Conversation groups even use a Guid identifier, so there's not even any mapping required to go from conversation group to workflow instance. </p><p>However, things get less cool when you call <a href="http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.workflowruntime.getworkflow.aspx">WorkflowRuntime.GetWorkflow</a>. If you call GetWorkflow with a Guid that has no corresponding workflow instance, it throws an InvalidOperationException instead of just returning null. That seems like an odd choice. If you're going to support specifying the instance identifier when you create the workflow instance, doesn't it make sense that you should also gracefully support the scenario where an instance identifier is invalid?</p><p>I see two ways to deal with this:</p><ul><li>Iterate through the list of <a href="http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.workflowruntime.getloadedworkflows.aspx">loaded</a> and <a href="http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.hosting.sqlworkflowpersistenceservice.getallworkflows.aspx">persisted</a> workflow instances looking for the one in question.</li><li>Call GetWorkflow and swallow the exception.</li></ul><p>I ended up picking the "Swallow the Exception" approach as I can't imagine the iteration thru every loaded and persisted instance would be very performant. But swallowing exceptions always makes me feel icky. I'm a fan of the "exceptions only for exceptional situations" approach and as far as I'm concerned, an invalid instance identifier isn't that exceptional. Still, it's a minor annoyance, especially given how cool it is to be able to specify the workflow instance identifier in the first place.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">827</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-11-03 12:36:39</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-11-03 12:36:39</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">slight-workflow-annoyance</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="service-broker"><![CDATA[Service Broker]]></category>
+  <category domain="post_tag" nicename="wf"><![CDATA[WF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Slight+Workflow+Annoyance]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e42581ae-6d27-4c06-8a28-f77432ddfcc4]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/11/03/Slight+Workflow+Annoyance]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2423</wp:comment_id>
+    <wp:comment_author><![CDATA[Ingo Rammer]]></wp:comment_author>
+    <wp:comment_author_email>ingo.rammer@thinktecture.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>84.153.126.10</wp:comment_author_IP>
+    <wp:comment_date>2006-11-03 13:10:25</wp:comment_date>
+    <wp:comment_date_gmt>2006-11-03 20:10:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'd respectfully tend to disagree. I am a firm believer in the idea that exceptions should be thrown when a method can't perform the operation which is implied by its name. (This is a bit more concrete than the "exceptional condition"). Which now means that the semantic implication of "get" (as in GetWorkflow) is the thing we'd need to argue about. Here, I usually tend to prefer the pattern that get/load/retrieve-methods do indeed throw an exception if the can't get the specified item (after all, they couldn't do what their name implies) whereas methods like FindWorkflow() - if they would exist - would happily return empty lists if there were no matches for the given criteria. In essence, I would have expected the WF runtime to perform this operation exactly in the way it does.
+
+Just my 2c,
+-Ingo]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

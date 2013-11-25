@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Studio Busting</title>
+  <link>http://devhawk.net/2007/12/03/studio-busting/</link>
+  <pubDate>Mon, 03 Dec 2007 11:25:55 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://054e8f9b-d398-4904-835e-b6586c8a087d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>A week ago, I <a href="http://devhawk.net/2007/11/26/Fans4Writers.aspx" target="_blank">wrote</a> that the ongoing writers strike might accelerate the transition to Media 2.0. Several other folks think the same way and explain why much better than I have. Marc Andreessen (aka <a href="http://en.wikipedia.org/wiki/Marc_Andreessen" target="_blank">creator of Mosaic</a>) has a <a href="http://blog.pmarca.com/2007/11/rebuilding-holl.html" target="_blank">fantastic post</a> that not only explains this transition better than I can, it also helped me understand my views on unions in general.</p><p>In the post, he describes two economic models - the Hollywood model and the Silicon Valley model. The Hollywood model is highly-centralized, with a small number of huge companies (aka "big media") owning practically everything. In contrast, the Silicon Valley model is highly-decentralized, where pretty much anyone can create a company or bring a product to market. Marc believes that the entertainment industry at large is transitioning to the decentralized model. I agree 110% - the general decentralization trend is one I highlight in my "Moving Beyond Industrial Software" presentation that I've been delivering recently.</p><p>Unions are a response to the dramatic power differential between an employer and individual employees. By pooling (aka centralizing) their bargaining power, the union provides a counter-balance to the power wielded by the employer(s). But in a decentralized model, unions aren't really necessary. Marc describes the "alignment of interests between creators and financiers" as "near-perfect". Near-perfect might be a bit on the rosy side, but it's a model I'm much more comfortable with than mega-corporations &amp; unions. </p><p>Some believe that the AMPTP (aka the studios) is trying to <a href="http://unitedhollywood.blogspot.com/2007/12/amptp-union-busting-is-our-middle-name.html" target="_blank">break the entertainment unions</a>. But what if those unions decided to break the studios? I gotta think that while there are lots of quality writers out there, the best in the business are members of the writers guild. What if they just decided to stop writing for the studios and go into business for themselves? Patrick Goldstein of the LA Times <a href="http://www.latimes.com/entertainment/news/movies/la-et-gold20nov20,0,372891.story?coll=la-home-entertainment" target="_blank">wonders the exact same thing</a>. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1064</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-12-03 11:25:55</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-12-03 11:25:55</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">studio-busting</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="entertainment"><![CDATA[Entertainment]]></category>
+  <category domain="post_tag" nicename="media-2-0"><![CDATA[Media 2.0]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[054e8f9b-d398-4904-835e-b6586c8a087d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Studio+Busting]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/12/03/Studio+Busting]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 139</title>
+  <link>http://devhawk.net/2008/01/21/morning-coffee-139/</link>
+  <pubDate>Mon, 21 Jan 2008 09:34:53 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://2e67e840-754b-4e7c-9ddc-6c9658e61803</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Big news on the WGA strike front: the AMPTP <a href="http://www.ew.com/ew/article/0,,20172430,00.html">reached a deal</a> with the Directors Guild last weeks. Initial reaction from United Hollywood is <a href="http://unitedhollywood.blogspot.com/2008/01/first-glance-at-deal-summary.html">mixed</a>, but I'm hopeful this will at least get the AMPTP / WGA talks started again.  </li><li>Speaking of new media, Xbox 360 Fanboy has a <a href="http://www.xbox360fanboy.com/2008/01/16/sundance-short-films-coming-to-video-marketplace/">rundown</a> of 45 short films from Sundance that are getting released on Xbox Live Marketplace. That's pretty a-typical content for XBLM. Typically, new content on XBLM has been from "<a href="http://www.microsoft.com/presspass/press/2008/jan08/01-06ABCMGMXboxLivePR.mspx">Hollywood Heavyweights</a>". I'm pretty excited to see them branch out content wise.  </li><li>Speaking of Xbox 360, seems <a href="http://gamerscoreblog.com/team/archive/2008/01/17/556724.aspx">they had a good year</a>. Congrats!  </li><li>Still speaking of Xbox 360, everyone <a href="http://gamerscoreblog.com/team/archive/2008/01/18/UndertowFreeofCharge.aspx">gets a free copy of Undertow</a> this week.  </li><li>Scott Guthrie <a href="http://gamerscoreblog.com/team/archive/2008/01/18/UndertowFreeofCharge.aspx">announces</a> the availability of the .NET Framework Source Code. Shawn Burke has <a href="http://blogs.msdn.com/sburke/archive/2008/01/16/configuring-visual-studio-to-debug-net-framework-source-code.aspx">instructions</a> for how to use it with VS08. So far, they've made the core base class libraries, ASP.NET, Windows Forms, WPF, ADO.NET and XML available. LINQ, WCF and WF are expected to become available "in the weeks and months ahead".  </li><li>Ted Neward wonders if Java is <a href="http://blogs.tedneward.com/2008/01/15/Java+QuotDonequot+Like+The+Patriots+Or+QuotDonequot+Like+The+Dolphins.aspx">"Done" like the Patriots, or "Done" like the Dolphins?</a> If you want my opinion (I'm guessing yes, since you're reading my blog), definitely done like the Dolphins. <a href="http://en.wikipedia.org/wiki/OpenJDK">OpenJDK</a> was a desperation move to make Java "cool" again, but it won't work. People who want an open source stack are using LAMP and language wonks who saw Java as mainstream SmallTalk have moved on to Ruby. The question will be if <a href="http://www.mysql.com/news-and-events/sun-to-acquire-mysql.html">Sun buying MySQL</a> will make Sun cool or MySQL uncool by association. I'm guessing the latter. </li><li>Speaking of Ted, he's got a great post about the <a href="http://blogs.tedneward.com/2008/01/17/Youre+Without+A+Point+Mr+Zachmann.aspx">relevance of game programming</a> to the mainstream or enterprise developer.  </li><li>Speaking of game development, David Weller points to all the <a href="http://feeds.feedburner.com/~r/LetsKillDave/~3/218525110/tons-of-content-for-xna-game-studio-2-0.aspx">new XNA GS 2.0 content</a> up on <a href="http://creators.xna.com/">Creators Club Online</a>.  </li><li>There's a <a href="http://research.microsoft.com/research/downloads/Details/7ac148a7-149b-4056-aa06-1e6754efd36f/Details.aspx">new version (1.9.3.14) of F# out</a>, but no announcement from <a href="http://blogs.msdn.com/dsyme/default.aspx">Don</a> regarding what's new. I reviewed the release notes, seems like this is primarily a bug-fix release with only very minor feature additions. </li><li>Speaking of F#, Don points to <a href="http://sky.fit.qut.edu.au/~neverov/">Greg Neverov's</a> implementation of <a href="http://cs.hubfs.net/blogs/hell_is_other_languages/archive/2008/01/16/4565.aspx">Software Transactional Memory in F#</a>. This immediately reminded me of <a href="http://devhawk.net/2006/02/13/The+Next+Mainstream+Programming+Language.aspx">Tim Sweeney's Next Mainstream Programming Language talk</a>. Tim suggested said language would need to support a combination of side-effect free functional code and software transactional memory. F# is looking to be closer to that language all the time. </li><li>Still speaking of F#, Don Syme's <a href="http://blogs.msdn.com/dsyme/archive/2008/01/17/expert-f-now-available-really.aspx">Expert F#</a> book is out. I read the draft version - it rocks - but I'm still going to get my own real copy. You should too.  </li><li>With their <a href="http://www.nhl.com/scores/htmlreports/20072008/GS020711.HTM">win Saturday</a>, the Caps are back to .500 for the first time since late October. Since Thanksgiving, the <a href="http://peerlessprognosticator.blogspot.com/2008/01/caps-fansthe-only-power-ranking-youll.html">Caps are 15-7-4</a>. Only four teams in the league have a better record over that time span. We play one of them tonight - <a href="http://www2.nhl.com/nhl/app?service=page&amp;page=Preview&amp;gameNumber=725&amp;season=20072008&amp;gameType=2">the Penguins</a> - and it's on <a href="http://www.versus.com/nhl/">Versus</a>, so I'll even get to see it. In HD no less.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1092</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-01-21 09:34:53</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-01-21 09:34:53</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-139</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="net-framework"><![CDATA[.NET Framework]]></category>
+  <category domain="post_tag" nicename="entertainment"><![CDATA[Entertainment]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="game-development"><![CDATA[Game Development]]></category>
+  <category domain="post_tag" nicename="hockey"><![CDATA[Hockey]]></category>
+  <category domain="post_tag" nicename="java"><![CDATA[Java]]></category>
+  <category domain="post_tag" nicename="media-2-0"><![CDATA[Media 2.0]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="washington-capitals"><![CDATA[Washington Capitals]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <category domain="post_tag" nicename="xna"><![CDATA[XNA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[2e67e840-754b-4e7c-9ddc-6c9658e61803]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+139]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/01/21/Morning+Coffee+139]]></wp:meta_value>
+  </wp:postmeta>
+</item>

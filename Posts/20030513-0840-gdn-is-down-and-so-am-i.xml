@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>GDN is down, and so am I</title>
+  <link>http://devhawk.net/2003/05/13/gdn-is-down-and-so-am-i/</link>
+  <pubDate>Tue, 13 May 2003 08:40:19 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://8c78c126-4338-42ec-bf56-fb082863f1f9</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[GDN being down is usually just annoying. Now, it's keeping me from <a href="http://blogs.gotdotnet.com/anathan/">Adam's</a><a href="http://blogs.gotdotnet.com/anathan/permalink.aspx/976d1677-a6d1-4a25-9c7b-8448824b8267"> CLRSpy</a>. I <a href="http://dotnetweblogs.com/sgentile/posts/6971.aspx">hear</a> it's awesome. Damn!]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">83</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-05-13 08:40:19</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-05-13 08:40:19</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">gdn-is-down-and-so-am-i</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[8c78c126-4338-42ec-bf56-fb082863f1f9]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[GDN+Is+Down+And+So+Am+I]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/05/13/GDN+Is+Down+And+So+Am+I]]></wp:meta_value>
+  </wp:postmeta>
+</item>

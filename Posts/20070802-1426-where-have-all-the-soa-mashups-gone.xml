@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Where Have All the SOA Mashups Gone?</title>
+  <link>http://devhawk.net/2007/08/02/where-have-all-the-soa-mashups-gone/</link>
+  <pubDate>Thu, 02 Aug 2007 14:26:27 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://328fb172-dc3a-4fc4-84a8-0ad8634e71ed</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>John Heintz <a href="http://johnheintz.blogspot.com/2007/08/rest-serendipity-and-hard-work.html">responded</a> to my <a href="http://devhawk.net/2007/07/31/Is+Serendipity+The+Heart+Of+The+WSREST+Debate.aspx">serendipitous reuse post</a>. Nice to see I misunderstood his opinions about how easy RESTful systems are to integrate:</p><blockquote><p>I didn't mean to imply that building RESTful system would lead to magical integration without any hard work. I can see how that came across in my post, and I guess I got the reaction I asked for ;)</p></blockquote><p>I get the feeling that John would be a good guy to have a beer with. </p><p>John spends most of his post writing about the <a href="http://blogs.msdn.com/jevdemon/archive/2007/07/20/soa-in-the-real-world-now-available.aspx">SOA in the Real World</a> book. I've flipped thru it and I'm familiar with the model (it is my old team after all) but I haven't read it so I don't really want to comment about the book specifically. But there were two things John mentioned that I did want to comment on.</p><p>First, at the end of his post John writes:</p><blockquote><p>Can some of the constraints of REST be applied to SOA? Absolutely. I think an asynchronous, message-passing architecture with a uniform interface would be astoundingly interesting! I'm not the only one: see <a href="http://savas.parastatidis.name/2005/01/29/544a6902-40e1-47e8-a51c-18776f3dd036.aspx">MEST</a>, <a href="http://www.ampq.com/">AMPQ</a>, and <a href="http://www.erlang.org/">Erlang</a>.</p></blockquote><p>This goes back to <a href="http://devhawk.net/2007/06/05/A+REST+Question.aspx">a REST question</a> I asked two months ago: is it still REST if you don't use HTTP? I'm guessing John would say yes. </p><p>I might be going out on a limb here, I'll bet the core of John's problem with SOA is how toolkits like WCF all but force you to build RPC style services that can easily be modeled as <a href="http://msdn2.microsoft.com/en-us/library/system.servicemodel.operationcontractattribute.aspx">method calls</a>. That's certainly one of <em>my</em> problems with SOA. Tim Ewald <a href="http://pluralsight.com/blogs/tewald/archive/2007/04/26/46984.aspx">said it best</a>:</p><blockquote><p>It's depressing to think that SOAP started just about 10 years ago and that now that everything is said and done, we built RPC again. I know SOAP is really an XML messaging protocol, you can do oneway async stuff, etc, etc, but let's face it. The tools make the technology and the tools (and the examples and the advice you get) point at RPC. And we know what the problems with RPC are. If you want to build something that is genuinely loosely-coupled, RPC is a pretty hard path to take.</p></blockquote><p>If SOA == RPC and REST == loosely coupled messages, then I'll start growing dreadlocks right now. Frankly, as Tim says, I think it's a problem with the tools (I'm looking at you WCF) and not the underlying architecture, but how many people can distinguish the architecture from the tools? Not many, I'm afraid.</p><p>Second, John asks an interesting question:</p><blockquote><p>Where are the SOA mashups?</p></blockquote><p>That's easy! They're inside the firewall where you can't see them! ;) </p><p>Seriously, I'm not sure about "SOA" mashups, but I'm working with what you might call a huge "enterprise" mashup system inside Microsoft. Our Enterprise Data Integration Services push around massive amounts of data to downstream systems. There are over fifty datasets in production, each with scores of tables, millions of rows and hundreds of subscribing systems. One example, our Products dataset, has over 100 tables and nearly 300 subscribing systems.  </p><p>Is it "service oriented"? No, but then again it was originally developed ten years ago on SQL 6.5. But is it a mashup? Is it an "<a href="http://en.wikipedia.org/wiki/Mashup_%28web_application_hybrid%29">application that combines content from more than one source into an integrated experience</a>"? Yep. Is it easy to work with? No, but guess why I'm involved? We're looking at ways to "modernize" the system. Am I going to build RPC style services as part of this modernization? Hell, no.  </p><p>So John, am I right or wrong about that beer?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1020</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-02 14:26:27</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-02 14:26:27</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">where-have-all-the-soa-mashups-gone</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="rest"><![CDATA[REST]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[328fb172-dc3a-4fc4-84a8-0ad8634e71ed]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Where+Have+All+The+SOA+Mashups+Gone]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/02/Where+Have+All+The+SOA+Mashups+Gone]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2559</wp:comment_id>
+    <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+    <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+    <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>65.248.23.250</wp:comment_author_IP>
+    <wp:comment_date>2007-08-03 11:08:54</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-03 18:08:54</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Those mashups are stuffed into a shoebox along with our web services.  Four years ago, weren't there meant to be *millions* of web services thriving in a new market?  What happened (hint -- it had nothing to do with WS-*)?  
+
+It's one thing to show a mashup, quite another to commercially rely on a mashup, and yet another to profit when mashups use your content.  
+
+Viable, cross-enterprise, commercial mashups have startup with large commodity/service companies like FedEx content embedded in an eCommerce site (where's my stuff?).  But beyond that, it will be vertical applications that are further automating a specific business chain.  I think you'll find web services have submerged similarly to industry-specific applications.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

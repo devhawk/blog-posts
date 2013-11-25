@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>PVR HDTV?</title>
+  <link>http://devhawk.net/2003/12/09/pvr-hdtv/</link>
+  <pubDate>Tue, 09 Dec 2003 21:42:16 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://aac52374-cf24-472b-a196-dda01d77f1b0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>From Sean Alexander's <a href="http://blog.seanalexander.com/">Addicted to Digital Media</a> blog, I learned that the Dish Network is planning on bringing a <a href="http://blog.seanalexander.com/PermaLink.aspx?guid=d4ab807b-d01d-4f6c-a283-c5fcc4ebba03">HDTV-PVR system</a> to market in a few weeks. I was just begining to wonder about HDTV + PVR functionallity. I'm really interested in how <a href="http://www.microsoft.com/windowsxp/mediacenter/">Media Center</a> systems will incorporate this functionallity. I really dig the new <a href="http://www.gateway.com/dw/home/fmc901_proddesc.shtml">Gateway Media Center</a> with it's stereo-component form factor. According to the specs, it has Composite A/V inputs to the TV Tuner card. Does that mean it can PVR HDTV too?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">245</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-12-09 21:42:16</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-12-09 21:42:16</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">pvr-hdtv</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="home-theater"><![CDATA[Home Theater]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[aac52374-cf24-472b-a196-dda01d77f1b0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[PVR+HDTV]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/12/10/PVR+HDTV]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2930</wp:comment_id>
+    <wp:comment_author><![CDATA[Sean]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://blog.seanalexander.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2003-12-09 21:52:47</wp:comment_date>
+    <wp:comment_date_gmt>2003-12-10 05:52:47</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Short answer: no.  MyPVR and some others can do HDTV but it's really flakey right now. Even my Samsung HDTV tuner needs a cold boot 2x a month.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

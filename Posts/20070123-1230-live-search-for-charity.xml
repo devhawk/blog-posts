@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Live Search for Charity</title>
+  <link>http://devhawk.net/2007/01/23/live-search-for-charity/</link>
+  <pubDate>Tue, 23 Jan 2007 12:30:31 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://bcdadb05-e3e4-48a9-ab45-6a7a93c8aca9</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Dare <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=4bf96ba0-1229-4349-ab2b-fb9552da5794">posts</a> about two charity search sites hosted by <a href="http://blogs.msdn.com/livesearch/archive/2007/01/22/use-live-search-and-we-ll-donate-to-team-seattle-and-ninemillion-org.aspx">Live Search</a>. Use <a href="http://teamseattle.live.com/Search/Charity/TeamSeattle/Default.aspx"><u>teamseattle.live.com</u></a> to search and you help sponsor Children's Hospital. Use <a href="http://click4thecause.live.com/"><u>click4thecause.live.com</u></a> to search and you help sponsor <a href="http://ninemillion.org/">Ninemillion.org</a>, which is working to help the 9 million refugee children worldwide. </p><p>GIven that I'm already using Live Search, changing my default search page from Live.com to one of these two seems was a no brainer. I use the IE7 Search Box more often than not, so I also set up a <a href="http://www.microsoft.com/windows/ie/searchguide/en-en/default.mspx">custom search provider</a>. However, that's a bit of a PITA, so I took the <a href="http://opensearch.a9.com/spec/1.1/description/">OpenSearch Description</a> XML files and hosted them here @ DevHawk. Click the links below to add them to IE7 search box. </p><ul><li>Add <a onclick="window.external.AddSearchProvider(&quot;http://devhawk.net/content/binary/Click4TheCause.xml&quot;);" href="#">Click4TheCause Charity Search</a> to your IE7 Search Box</li><li>Add <a onclick="window.external.AddSearchProvider(&quot;http://devhawk.net/content/binary/TeamSeattle.xml&quot;);" href="#">TeamSeattle Charity Search</a> to your IE7 Search Box</li></ul><p>I'm sure there's a way to do this for Firefox's search bar, but I have no idea how. If you - dear reader - know how to add search providers, please <a href="mailto:harry.pierson@microsoft.com">send me email</a> and I'll update this post accordingly.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">858</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-01-23 12:30:31</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-01-23 12:30:31</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">live-search-for-charity</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="windows-live"><![CDATA[Windows Live]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Live+Search+For+Charity]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/01/23/Live+Search+For+Charity]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[bcdadb05-e3e4-48a9-ab45-6a7a93c8aca9]]></wp:meta_value>
+  </wp:postmeta>
+</item>

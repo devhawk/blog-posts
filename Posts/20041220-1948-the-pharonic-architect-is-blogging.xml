@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The Pharonic Architect is Blogging</title>
+  <link>http://devhawk.net/2004/12/20/the-pharonic-architect-is-blogging/</link>
+  <pubDate>Mon, 20 Dec 2004 19:48:01 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://44f51e18-4d21-4c5d-b090-2aa48ff2d443</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Speaking of DSL Tools, Software Factories co-author <a href="http://blogs.msdn.com/jackgr">Jack Greenfield</a> just started blogging. He has <a href="http://blogs.msdn.com/jackgr/archive/2004/12/20/327726.aspx">jumped into</a> the running debate between IBM's <a href="http://www-106.ibm.com/developerworks/blogs/dw_blog.jspa?blog=317&amp;roll=0">Grady Booch</a> and a variety of MS folks including <a href="http://blogs.msdn.com/stevecook/archive/2004/12/08/278507.aspx">Steve</a>, <a href="http://blogs.msdn.com/alan_cameron_wills/archive/2004/11/11/255831.aspx">Alan</a> and <a href="http://devhawk.net/PermaLink.aspx?guid=4ce7a305-e9a4-4fff-a3f4-095fcca52988">myself</a>. He does a good job summarizing the argument including pointing out where he and Booch agree:</p><blockquote><p>In particular, we share the conviction that packaging knowledge for reuse in patterns, languages, frameworks, tools and other form factors is “the right next stage in cutting the Gordian knot of software”. </p></blockquote><p>Jack rightly points out that while we all agree on these mechanisms for packaging knowledge that the devil is in the details. I look forward to seeing more on these details from Jack in the future.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">507</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-12-20 19:48:01</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-12-20 19:48:01</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-pharonic-architect-is-blogging</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[44f51e18-4d21-4c5d-b090-2aa48ff2d443]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+Pharonic+Architect+Is+Blogging]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/12/21/The+Pharonic+Architect+Is+Blogging]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 146</title>
+  <link>http://devhawk.net/2008/02/13/morning-coffee-146/</link>
+  <pubDate>Wed, 13 Feb 2008 18:04:29 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a3b80c29-e3bb-4a25-8ce2-01484cbc5ddc</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>The writers strike is <a href="http://unitedhollywood.blogspot.com/2008/02/letter-from-presidents-to-membership.html">officially over</a>. Everyone goes back to work today. Thomas Cleaver has what I thought was <a href="http://www.thecarpetbaggerreport.com/archives/14553.html">the best post</a> summarizing how the writers won. TV Guide has <a href="http://community.tvguide.com/blog-entry/TVGuide-Editors-Blog/Ausiello-Report/Wga-Strike-Favorite/800032698">a rundown</a> of how and when various shows will resume. I can't wait to see <a href="http://www.thedailyshow.com">Daily Show</a> and <a href="http://www.comedycentral.com/shows/the_colbert_report">Colbert Report</a> tonight. Lost - aka the best show on TV - <a href="http://community.tvguide.com/blog-entry/TVGuide-Editors-Blog/Ausiello-Report/Exclusive-Ilosti-Boss/800033076">looks like</a> it will be getting five more episodes (in addition to the eight shot before the strike).  </li><li>Speaking of TV, Battlestar Galactica Fans: <a href="http://community.tvguide.com/blog-entry/TVGuide-News-Blog/Todays-News/Battlestar-Galactica-Returns/800032799">circle April 4th</a> on your calendar.  </li><li>Obama <a href="http://www.msnbc.msn.com/id/23123924/">won all three</a> "Potomac Primaries" yesterday, and is now the <a href="http://firstread.msnbc.msn.com/archive/2008/02/13/661146.aspx">Democratic front-runner</a>, though there's a long way to go before the convention. Scott Adams of Dilbert fame has <a href="http://dilbertblog.typepad.com/the_dilbert_blog/2008/02/experience.html">a great take</a> on presidential experience - I'm guessing he's an Obama fan.  </li><li>In minor acquisition news, Microsoft is <a href="http://virtualearth.spaces.live.com/Blog/cns!2BBC66E99FDCDB98!11432.entry">acquiring</a><a href="http://www.caligari.com/">Caligari</a>, makers of 3D modeling tool <a href="http://www.caligari.com/Products/trueSpace/tS75/brochure/intro.asp?Cate=BIntro">trueSpace</a>. The Caligari folks are joining the Virtual Earth team, though I wonder what the XNA folks think of the acquisition. This isn't the first 3D modeling product Microsoft ever acquired - we owned <a href="http://en.wikipedia.org/wiki/Softimage">Softimage</a> for four years in the '90s.  </li><li><a href="http://www.hanselman.com/blog/UsingAnIDEToWritePowerShellScripts.aspx">Scott Hanselman</a> and <a href="http://www.hanselman.com/blog/UsingAnIDEToWritePowerShellScripts.aspx">Tomas Resprepo</a> both write about <a href="http://www.powershell.com/plus/">PowerShellPlus</a>, which I saw week before last @ Lang.NET. Scott really likes it, for both PS novices and gurus, but Tomas thinks the UI is busy, based on the screenshots. Personally, I'm not doing much PS work lately - occasional one off stuff, but that's it - so it doesn't seem worth the effort.  </li><li>Speaking of Scott &amp; Tomas, Scott also has a <a href="http://feeds.feedburner.com/~r/ScottHanselman/~3/231269818/VisualStudioProgrammerThemesGallery.aspx">nice gallery of VS themes</a>. I'm partial to Tomas' <a href="http://www.winterdom.com/weblog/2007/10/13/RagnarokAVS2005ColorScheme.aspx">Ragnarok Grey</a>. Is there a VSThemesGallery.com site somewhere?  </li><li>Still speaking of Scott, he <a href="http://www.hanselman.com/blog/ASPNETWikiBeta.aspx">points to</a> the new <a href="http://wiki.asp.net/">ASP.NET Developer Wiki (beta)</a>. I poked around, but didn't find anything shiny. I was very surprised that searching for "MVC" returned no results.  </li><li>Speaking of MVC, Scott Guthrie <a href="http://weblogs.asp.net/scottgu/archive/2008/02/12/asp-net-mvc-framework-road-map-update.aspx">has a rundown</a> on what's coming in the MIX preview release of ASP.NET MVC. Biggest news IMO is that it's /bin deployable - i.e. you don't need your hoster to do anything special to support MVC (assuming they already support ASP.NET 3.5). Also big news, they're releasing the source so you can build and patch (and enhance?) it yourself.  </li><li>Chris Taveres <a href="http://www.tavaresstudios.com/Blog/post.aspx?id=3008ff6d-8f02-4dbc-a769-d27273d93e95">continues</a> is ObjectBuilder series and Tomas continues is <a href="http://www.winterdom.com/weblog/2008/02/13/DLRNotes4.aspx">DLR Notes</a> series. BTW, my F# based DLR experimentation continues, albeit slowly (frakking day job). Hope to be able to post on this soon.  </li><li>One of the things driving my interest in F# is <a href="http://en.wikipedia.org/wiki/Manycore_processing_unit">manycore</a>. An interesting tangent to manycore is general purpose programming on graphics processing units (aka <a href="http://en.wikipedia.org/wiki/GPGPU">GPGPU</a>). MS Research just released a <a href="http://research.microsoft.com/research/downloads/Details/648909e1-cb85-46c4-9a94-3cca55971b1d/Details.aspx">new version</a> of <a href="http://research.microsoft.com/research/pubs/view.aspx?tr_id=1040&amp;0sr=a">Accelerator</a>, just such a GPGPU system. I personally haven't played with it - I've been focused on writing parsers, not parallel code. </li><li>Is <a href="http://en.wikipedia.org/wiki/XQuery">XQuery</a> really "a promising technology of the future" as <a href="http://pluralsight.com/blogs/dbox/archive/2008/02/07/50180.aspx">Don Box suggests</a>? I see exactly zero demand or use for it in my day-to-day work. Of course, Don's paid to build future platform goo, so maybe it is promising and Don's afore-mentioned goo will leverage it, though I remain skeptical. As for XML being "Done like a well-cooked steak", I'd say XML is like a great steak cooked perfectly, except it's done exactly how you <em>don't</em> like it. You can appreciate its quality, but you don't really enjoy it as much as you could have. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1102</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-02-13 10:04:29</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-02-13 18:04:29</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-146</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="asp-net"><![CDATA[ASP.NET]]></category>
+  <category domain="post_tag" nicename="battlestar-galactica"><![CDATA[Battlestar Galactica]]></category>
+  <category domain="post_tag" nicename="concurrency"><![CDATA[Concurrency]]></category>
+  <category domain="post_tag" nicename="entertainment"><![CDATA[Entertainment]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="lost"><![CDATA[Lost]]></category>
+  <category domain="post_tag" nicename="microsoft"><![CDATA[Microsoft]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="post_tag" nicename="visual-studio"><![CDATA[Visual Studio]]></category>
+  <category domain="post_tag" nicename="xml"><![CDATA[XML]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a3b80c29-e3bb-4a25-8ce2-01484cbc5ddc]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+146]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/02/13/Morning+Coffee+146]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

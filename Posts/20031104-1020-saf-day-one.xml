@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>SAF Day One</title>
+  <link>http://devhawk.net/2003/11/04/saf-day-one/</link>
+  <pubDate>Tue, 04 Nov 2003 10:20:09 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://9da64df6-9621-44ab-992b-b67547b383b9</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Day one of SAF was great, if short. It didn't get started until 2PM so people could fly in that morning. The event is held @ the MS Conference Center on campus. The MSCC is pretty sterile, like most conference centers, so we bring in comfy furniture, rugs, zen gardens, fountains, plants so the rooms have a much friendlier feel to them. The only technology trappings are that the main meeting room is ringed with shared PCs and we have a ton of power strips strategically placed though mostly out of site under furniture. We also have bookshelves - the content of which is pretty funny. Mostly knick-knacks and very few books. The one closest to me has two books: <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0679764208/102-8801487-9011317?v=glance"> Hunting Dinosaurs</a> and <a href="http://www.geocities.com/NapaValley/1132/christmas.html#Great Taste Low Fat Holiday Cooking"> Great Taste-Low Fat Holiday Cooking</a>. Interesting choices for an architect event. Of course, we're not expecting anyone to sit and read.</p><p>We had two keynotes yesterday: Pat Helland and David Campbell. For those following along at home, yes they presented the first two sessions @ the PDC Architecture Symposium. While the content was similar (baring changes Pat made @ 10pm Sunday night to adjust to the new PPT template), the big new addition was the launch of our new "Metropolis" metaphor. I hope to get this deck posted to the <a href="http://msdn.microsoft.com/architecture/">architecture center</a> soon, but the basic idea is to draw an analogy between the way cities evolved in the late 1800's with the advent of the railroad and the ways IT shops will evolve with the advent of the Internet. It's a very interesting metaphor that I think we can learn a lot about where we are headed in this industry. More when we get the deck posted.</p><p>Today, we are having mostly breakout discussions. Instead of big breakout sessions, a la the PDC, we limit our discussion breakouts to around fifteen customers plus the MSFT speaker, moderator and note taker. Today, I'm moderating discussions on Envisioning the Service Oriented Enterprise and Microsoft's Internal Approach to Enterprise Architecture. I'll blog on those later. We also have a keynote by John Shewchuk, architect from the Indigo team. Should be quite a day.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">223</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-11-04 10:20:09</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-11-04 10:20:09</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">saf-day-one</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/11/04/SAF+Day+One]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[SAF+Day+One]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[9da64df6-9621-44ab-992b-b67547b383b9]]></wp:meta_value>
+  </wp:postmeta>
+</item>

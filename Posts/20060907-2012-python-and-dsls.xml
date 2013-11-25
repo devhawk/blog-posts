@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Python and DSLs</title>
+  <link>http://devhawk.net/2006/09/07/python-and-dsls/</link>
+  <pubDate>Thu, 07 Sep 2006 20:12:58 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7331ef05-9c2a-487e-87ad-78e983f9e39e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>When I read <a href="http://www.knowing.net/">Larry O'Brien's</a> post <a href="http://www.knowing.net/PermaLink,guid,fde14e86-4d1e-461d-9751-950a1f2e6974.aspx">IronPython as a Foundation for DSLs</a>, I had a strong sense of deja-vu. I went thru a very similar thought process when I discovered the early versions of IronPython were written in Python. I figured that meant Python must have some support that makes building compilers easier. Unfortunately, that doesn't turn out to be the case. Python provides a <a href="http://docs.python.org/lib/module-parser.html">standard module called parser</a> which "provides an interface to Python's internal parser". That means that compiling Python is easy, but there's no support for compiling any language other than Python. </p><p>I've been doing a little experimenting in this space. First, as I've <a href="http://devhawk.net/2006/08/15/Modular+Compilers.aspx">written before</a>, I've been playing with <a href="http://pdos.csail.mit.edu/~baford/packrat/">parsing expression grammars</a>. Second, I want to take a close look at <a href="http://plas.fit.qut.edu.au/metaphor/">Metaphor</a> from <a href="http://plas.fit.qut.edu.au/Default.aspx">QUT</a>:</p><blockquote><p>Metaphor is a programming language with support for type-safe run-time code generation -- a form of meta-programming. Metaphor is based on a subset of C# or Java and combines the imperative, object-oriented nature of these languages with the multi-stage programming constructs from <a href="http://www.metaocaml.org">MetaOCaml</a>. Metaphor uses the static type system of multi-stage languages to achieve compile-time safety of run-time generated code...</p><p>Metaphor is implemented as a compiler on the Microsoft CLR.</p></blockquote><p>Finally, I need to take a closer look at <a href="http://www.antlr.org/">ANTLR</a>. Don't know how I missed it, but I had never seen <a href="http://www.antlr.org/works/">ANTLRWorks</a> until Larry linked to it. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">791</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-09-07 20:12:58</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-09-07 20:12:58</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">python-and-dsls</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/09/08/Python+And+DSLs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Python+And+DSLs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7331ef05-9c2a-487e-87ad-78e983f9e39e]]></wp:meta_value>
+  </wp:postmeta>
+</item>

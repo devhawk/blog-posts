@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 69</title>
+  <link>http://devhawk.net/2007/04/24/morning-coffee-69/</link>
+  <pubDate>Tue, 24 Apr 2007 10:48:04 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://ec744e26-b688-4f63-90c7-f5846127f0b2</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>John Shewchuk <a href="http://connectedsystems.spaces.live.com/blog/cns!10E0A1CD60CAE1A9!248.entry">introduces</a> the new <a href="http://labs.biztalk.net/">BizTalk Services</a>. Well, "new" is a bit of a misnomer: STS and Relay (now called <a href="https://identity.biztalk.net/">Identity</a> and <a href="http://connect.biztalk.net/">Connectivity</a>) were previously available under the <a href="http://labs.live.com/">Live Labs</a> umbrella and the other new services they announced aren't available yet. Bt these new services they announced are compelling: <a href="http://servicebus.biztalk.net/">ServiceBus</a> is an pub/sub event delivery mechanism that scales to the internet and <a href="http://workflow.biztalk.net/">Workflow</a> is a WF hosting solution. I'm looking forward to experimenting with these new services (when they become available). </li><li>Nick Malik <a href="http://blogs.msdn.com/nickmalik/archive/2007/04/22/redefining-soa-governance.aspx">continues his series</a> of posts on governance. Money quote: "Tools manage, People govern". I feel a little bad because I punted on the governance presentation that's he's preping, so maybe I'll get that on a <a href="http://www.zazzle.com/product/128254336003627152">bumper sticker</a> for him or something. </li><li>Chris Anderson has a <a href="http://www.longtail.com/the_long_tail/2007/04/im_in_halo_3.html">few voice-over lines</a> in Halo 3. While that's cool for him, he mentions a new feature I was unaware of: "the one thing that completely blew me away (aside from the graphics, animation, level design and new vehicles and weapons) was the ability to record a game and play it back on Xbox Live, freezing the action at any point and flying around the scene, Matrix style. It may sound just like a standard replay function, but take my word for it, it's not. I think it's revolutionary, and I predict that Halo 3 will take <a href="http://en.wikipedia.org/wiki/Machinima">machinima</a> to a whole new level." Cool! </li><li><a href="http://blogs.msdn.com/xna/archive/2007/04/24/xna-game-studio-express-1-0-refresh-released.aspx">According</a> to the XNA Team Blog, the new XNA GSE Refresh is <a href="http://msdn2.microsoft.com/en-us/xna/aa937795.aspx">now available</a>. And as a thanks for our patience, they <a href="http://blogs.msdn.com/xna/archive/2007/04/23/that-s-not-a-billing-system-error-enjoy-an-additional-4-months-in-the-xna-creators-club-on-us.aspx">added four free months</a> to all creator club members subscriptions. Thanks guys!</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">942</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-24 10:48:04</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-24 10:48:04</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-69</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="biztalk"><![CDATA[BizTalk]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[ec744e26-b688-4f63-90c7-f5846127f0b2]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+69]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/24/Morning+Coffee+69]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2487</wp:comment_id>
+    <wp:comment_author><![CDATA[Bill]]></wp:comment_author>
+    <wp:comment_author_email>bill@yahoo.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.volny.cz/winstrol</wp:comment_author_url>
+    <wp:comment_author_IP>80.60.51.148</wp:comment_author_IP>
+    <wp:comment_date>2007-06-03 05:23:00</wp:comment_date>
+    <wp:comment_date_gmt>2007-06-03 12:23:00</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Nice site. Thanks:
+ <a href="http://www.volny.cz/winstrol" rel="nofollow">winstrol</a> <a href="http://www.volny.cz/clenbuterol" rel="nofollow">clenbuterol</a>  ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

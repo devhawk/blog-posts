@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Durable and RESTful</title>
+  <link>http://devhawk.net/2007/12/05/durable-and-restful/</link>
+  <pubDate>Wed, 05 Dec 2007 10:50:40 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://becd3f0f-5484-4a9e-ae6a-4a61cebc2a4a</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>A while back I <a href="http://devhawk.net/2007/06/05/A+REST+Question.aspx">wondered</a> if it's still REST if you don't use HTTP. The reason I wondered that is because like many I've become disillusioned with the WS-* stack over time and see REST as a viable alternative to all that spec-driven complexity. However, just because I'm looking to REST means I'm willing to give up on <a href="http://devhawk.net/2007/05/30/The+Case+For+Durable+Messaging+In+Service+Orientation.aspx">durable messaging</a>. So I shouldn't be asking "can I do REST without HTTP?" I should be asking "what protocol can I use to do durable messaging with REST?"</p><p>It turns out HTTP is just fine for RESTful durable messaging, if you take the time to make your POSTs idempotent. There's even a IETF RFC that builds on HTTP and specifies a mechanism to do it.</p><p>As I wrote last month, <a href="http://devhawk.net/2007/11/09/The+Importance+Of+Idempotence.aspx">idempotence is critically important</a> to ensuring "things" happen exactly once when connecting disparate systems together. At the end of that post, I asked you, dear reader, to contemplate just how durable messaging systems ensures exactly once delivery. They do it by assigning messages to be delivered a unique identifier. Any non-idempotent operations can be made idempotent with unique identifiers and a message ID log.</p><blockquote><p>"<u>Not Idempotent</u>: <br />     Withdrawing $1 Billion. <br /><u>Idempotent</u>: <br />     If Haven’t Yet Done Withdrawal #XYZ for $1 Billion, <br />     Then Withdraw $1 Billion and Label as #XYZ" <br />Pat Helland </p></blockquote><p>For example, when you send a message in MSMQ, it's assigned a <a href="http://msdn2.microsoft.com/en-us/library/ms705091.aspx">20 byte identifier</a> which is "unique within your enterprise." [1] If the destination system receives multiple messages with the same message ID, it knows they are duplicates and can safely toss all but one of the messages with the same ID. Exactly once, no transactions.</p><p>While many operations in REST are naturally idempotent, using REST doesn't magically make all your operations idempotent, contrary to <a href="http://diveintomark.org/archives/2004/09/29/restagra">popular belief</a>. Have you ever seen a message like "please don't press submit order twice" on the checkout page of an e-commerce website? It's there because POST is <u>not</u> naturally idempotent and the site hasn't taken any extra steps to identify duplicate POSTs. If the site embedded a unique ID in a hidden form field, it could use that to identify duplicate orders. </p><p>If you're a RESTifarian, haven't you <a href="http://bitworking.org/projects/atom/rfc5023.html">seen this approach somewhere before</a>?</p><p>Given that POST isn't <u>naturally</u> idempotent, I think it's kinda surprising that new <a href="http://bitworking.org/projects/atom/rfc5023.html#crwp">resources are created in AtomPub</a> by POSTing them to a collection rather than PUTting them to a specific URL. <a href="http://www.oreilly.com/catalog/9780596529260/" target="_blank">RESTful Web Services</a> specifically points out that PUT is idempotent, so I wonder why AtomPub uses POST. I'd guess most AtomPub implementations (aka blogs) aren't much concerned about ensuring Exactly Once. If an blog entry gets posted twice, you delete one and go on with your life. </p><p>However, if you wanted to use AtomPub and ensure Exactly Once, you can use the fact that Atom entries <a href="http://tools.ietf.org/html/rfc4287#section-4.1.2">must contain exactly one ID element</a> which as per the spec <a href="http://tools.ietf.org/html/rfc4287#section-4.2.6">must be universally unique</a>. From reading the Atom spec, the ID element seems primarily designed for Atom feed consumers, but AtomPub servers could also use it as an "idempotence identifier", similar to how MSMQ uses the message ID. If you end up with multiple entries with the same entry ID, discard all but one.</p><p>So by creating a unique identifier on the client side and logging that identifier on the server side, we can make any REST service idempotent. We can make it a durable service if we write the outgoing message - with the message ID we generate - to a durable store before trying to send it. If you write it to a durable store within the scope of a local transaction, you're even closer to duplicating MSMQ's functionality, yet the only protocol requirement beyond vanilla HTTP is having a unique message ID.</p><p>The one problem with the Atom entity ID approach is that it requires cracking the message in order to see if we should process it. For REST services, I would think we'd want to stick the idempotence identifier in an HTTP header. We already headers to implement <a href="http://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers">conditional GET</a>, why not a header for what amounts to conditional POST?</p><p>Turns out such a header exists in the <a href="http://www.ietf.org/rfc/rfc4130.txt" target="_blank">AS2 spec</a>, i.e. "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP". AS2 defines a <a href="http://tools.ietf.org/html/rfc4130#section-5.3.3" target="_blank">Message-Id HTTP header</a> which "SHOULD be globally unique". In the case of <a href="http://tools.ietf.org/html/rfc4130#section-5.5" target="_blank">an HTTP error</a>, AS2 specifies the "POST operation with identical content, including same Message-ID, SHOULD be repeated" and that "Servers SHOULD be prepared to receive a POST with a repeated Message-ID." I assume this implies a server shouldn't process a message with the same ID twice.</p><p>So what would a durable REST service look like? I think like this:</p><ol><li>Sending system records the intent to send a message by saving it to a local durable store, potentially in the scope of a local transaction. As part of saving the message, a unique message id is generated (I'd use a <a href="http://en.wikipedia.org/wiki/Guid" target="_blank">GUID</a>, but as long as it's unique it doesn't matter.) 
+</li><li>A background thread in the sending system monitors the durable message store. When a new to-be-sent message arrives, the thread POSTs it to the destination, setting the Message-Id HTTP header to the unique identifier generated in step 1. 
+</li><li>The receiving system stores the Message-Id header value in a log table and processes the received message, potentially in the scope of a local transaction. Optionally, it can store the return message (if there is one) in the durable store as well. 
+</li><li>If the sending system doesn't receive a 2xx status code, it rePOSTs the message to the receiving system until it does. 
+</li><li>If the receiving system receives a message that's already listed in the log table, it ignores it and returns a success status code. Optionally, if the return message has been saved, the receiving system can resend the return message as long as it doesn't redo the work.</li></ol><p>This seems like a better approach than my original direction of doing REST over a durable protocol like MSMQ or SSB. What do you think? </p><p>UPDATE - <a class="commentPermalinkStyle" href="http://appside.blogspot.com/" rel="nofollow"><font color="#017cbc">Erik Johnson</font></a> <a href="http://devhawk.net/CommentView,guid,becd3f0f-5484-4a9e-ae6a-4a61cebc2a4a.aspx#commentstart">points out</a> that an HTTP POST's idempotency is "left unsaid". So my statement that "POST isn't idempotent" isn't quite correct. POST isn't <em>naturally</em> idempotent. I've updated the post accordingly.</p><p></p><hr /><p></p><p></p><p>[1] Technically, the MSMQ message ID isn't universally unique as it is a 16 byte GUID representing the source system + a 4 byte sequence number. The sequence number can rollover, after sending 2^32 messages. In practice, rolling over the message ID after 4 billion messages is rarely an issue.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1065</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-12-05 10:50:40</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-12-05 10:50:40</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">durable-and-restful</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="durable-messaging"><![CDATA[Durable Messaging]]></category>
+  <category domain="post_tag" nicename="rest"><![CDATA[REST]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[becd3f0f-5484-4a9e-ae6a-4a61cebc2a4a]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Durable+And+RESTful]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/12/05/Durable+And+RESTful]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>1994</wp:comment_id>
+    <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+    <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+    <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>70.181.194.38</wp:comment_author_IP>
+    <wp:comment_date>2007-12-05 21:40:18</wp:comment_date>
+    <wp:comment_date_gmt>2007-12-06 05:40:18</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[> Given that POST isn't idempotent...
+
+But like you said, idempotency is in the eye of the HTTP implementor.  The HTTP spec says that PUT and GET are meant to be idempotent and leaves the idempotency (is that a word?) of POST lesft unsaid.  It doesn't say POST MUST NOT be idempotent.  
+
+One issue with PUT is that the spec says that I am saving a whole resource (replacing the data rep) which implies a programming model around that semantic.  There's nothing wrong with that, but it might not be the best fit for Pat's withdraw-a-billion-bucks scenario.
+
+POST just says I am handing data to a processor.  Your notion of having the implementing the idempotent behavior using HTTP headers is fine.  So does putting the message ID tags inside the payload.  Since the HTTP spec leaves the implementation of idempotency up to you (for all verbs) both are equally cool for RESTful apps.
+
+Anyway, I just wanted to point out that POST doesn't have to mean non-idempotent -- and then I started rambling as usual.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>1995</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>24.16.13.109</wp:comment_author_IP>
+    <wp:comment_date>2007-12-05 23:35:11</wp:comment_date>
+    <wp:comment_date_gmt>2007-12-06 07:35:11</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Good point, Erik. POST isn't *naturally* idempotent. I'll change the text to reflect your comment.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>1996</wp:comment_id>
+    <wp:comment_author><![CDATA[Libor SOUCEK]]></wp:comment_author>
+    <wp:comment_author_email>lsoucek@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://lsblog.wordpress.com</wp:comment_author_url>
+    <wp:comment_author_IP>81.30.227.92</wp:comment_author_IP>
+    <wp:comment_date>2007-12-06 06:02:19</wp:comment_date>
+    <wp:comment_date_gmt>2007-12-06 14:02:19</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Wouldn’t be generally safer base idempotent behavior rather on business data then on some kind of communication protocol?
+
+Sure with described approach you will discard all duplicate messages right on transport layer which is perfectly legal and saves recipient service from unnecessary processing but works only for certain scenarios.
+
+Especially this approach works poorly in case message source service makes “failover” to different HW/geo location where it might “rerun” already once processed messages (i.e. source service tries to ensure all data were rely processed) and start with completely different message numbers. This is more highlighted with use of GUID which is not tight to data content what so ever.
+
+With GUID as “Unique ID” you have yet another problem. You would not be able on message recipient side define order in which messages were generated/send. This might be problem not only on UDP based messaging protocol as widely known. Another case is when sending data from two location after service failover. And much less known/mentioned message reordering problem is surprisingly on TCP based connection in certain network configurations as well (e.g. prime example of this behavior is on highly resilient network setup where are routers cross connected to ensure at least one network route cross routers is always available).
+
+I’m not saying is not usable for your scenarios but it could be generalized more. All depends on requirements and environment you are running in.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>1997</wp:comment_id>
+    <wp:comment_author><![CDATA[Mark Baker]]></wp:comment_author>
+    <wp:comment_author_email>distobj@acm.org</wp:comment_author_email>
+    <wp:comment_author_url>http://www.markbaker.ca</wp:comment_author_url>
+    <wp:comment_author_IP>209.161.202.187</wp:comment_author_IP>
+    <wp:comment_date>2007-12-06 12:09:25</wp:comment_date>
+    <wp:comment_date_gmt>2007-12-06 20:09:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[FWIW, POST is idempotent by definition.  Erik's confusing what the server does with the message with what the message means.  It is not inconsistent for the former to be idempotent and the latter to be non-idempotent.
+
+Also, re APP and PUT vs. POST, PUT can only be used for creation when the client knows the URI it is to use.  As it doesn't in the typical scenario, the server has to provide the URI so POST is appropriate.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>1998</wp:comment_id>
+    <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+    <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+    <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>70.181.194.38</wp:comment_author_IP>
+    <wp:comment_date>2007-12-06 15:53:11</wp:comment_date>
+    <wp:comment_date_gmt>2007-12-06 23:53:11</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Mark,  I'm not the guru -- am I looking at the wrong spec (it wouldn't be the first time)?  
+
+RFC-2616 section 9.1.2 (Idempotent Methods) says:  "Methods can also have the property of "idempotence"...The methods GET, HEAD, PUT and DELETE share this property."
+
+Looking further down at the section describing POST, I don't see anything about idempotency.  
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>1999</wp:comment_id>
+    <wp:comment_author><![CDATA[Mark Baker]]></wp:comment_author>
+    <wp:comment_author_email>distobj@acm.org</wp:comment_author_email>
+    <wp:comment_author_url>http://www.markbaker.ca</wp:comment_author_url>
+    <wp:comment_author_IP>209.161.202.187</wp:comment_author_IP>
+    <wp:comment_date>2007-12-07 04:20:36</wp:comment_date>
+    <wp:comment_date_gmt>2007-12-07 12:20:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Yes, of course.  I meant POST was *non*-idempotent.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>MSDN Patterns Repository</title>
+  <link>http://devhawk.net/2003/04/24/msdn-patterns-repository/</link>
+  <pubDate>Thu, 24 Apr 2003 13:23:24 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://d9d41e73-172f-4f56-8350-8421c697cb39</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[With the launch of VS.NET 2003, there's a bunch of new architecture information from Microsoft. A whole new <a href="http://msdn.microsoft.com/practices/type/Patterns/default.asp">Pattern Repository</a> site is up, featuring patterns for <a href="http://msdn.microsoft.com/practices/type/patterns/03/">web presentation</a>, <a href="http://msdn.microsoft.com/practices/type/patterns/04/">deployment</a>, <a href="http://msdn.microsoft.com/practices/type/patterns/05/">distributed systems</a> and <a href="http://msdn.microsoft.com/practices/type/patterns/07/"> performance and reliability</a>. All of the patterns have communities - check out the <a href="http://www.gotdotnet.com/team/architecture/">Community Resources for Architecture and Design</a> on GotDotNet, including areas on <a href="http://www.gotdotnet.com/team/architecture/Enterprise/">Enterprise Architecture</a>, <a href="http://www.gotdotnet.com/team/architecture/Application">Application Architecture</a>, <a href="http://www.gotdotnet.com/team/architecture/Systems"> Systems Architecture</a> and <a href="http://www.gotdotnet.com/team/architecture/Patterns">Patterns and Templates</a>. Tools like a <a href="http://www.gotdotnet.com/Community/Workspaces/newsitem.aspx?id=dba1898c-8ac0-4516-98d4-7a7b811e0b75&amp;newsId=635"> TDL Policy Editor</a> and <a href="http://www.gotdotnet.com/Community/Workspaces/newsitem.aspx?id=4d0c6c0d-a17a-4418-9698-6ee9d3ab9429&amp;newsId=634"> new Enterprise Templates</a> are also available. ]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">76</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-04-24 13:23:24</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-04-24 13:23:24</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">msdn-patterns-repository</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[d9d41e73-172f-4f56-8350-8421c697cb39]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[MSDN+Patterns+Repository]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/04/24/MSDN+Patterns+Repository]]></wp:meta_value>
+  </wp:postmeta>
+</item>

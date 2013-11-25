@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython 2.0.1</title>
+  <link>http://devhawk.net/2009/02/15/ironpython-2-0-1/</link>
+  <pubDate>Sun, 15 Feb 2009 20:20:21 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://abcc82dd-e7ba-4210-9b3d-51b360aaaedf</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I’m on vacation this week, but I wanted to quickly point out that we shipped <a href="http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=12481">IronPython v2.0.1</a> last Friday. This has been a performance focused release, as you can see via our <a href="http://www.codeplex.com/IronPython/Wiki/View.aspx?title=IP201VsIP20Perf">2.0 vs. 2.0.1 benchmarks</a>. We have improved our PyStone performance by about 11.5% and our Richards performance by just over 4%. Thanks to <a href="http://blogs.msdn.com/dinoviehland/">Dino</a> for the perf improvements and <a href="http://knowbody.livejournal.com/">Dave</a> for the great performance report.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1215</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-02-15 20:20:21</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-02-15 20:20:21</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-2-0-1</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[abcc82dd-e7ba-4210-9b3d-51b360aaaedf]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+201]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/02/16/IronPython+201]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2172</wp:comment_id>
+    <wp:comment_author><![CDATA[Stefan Dobrev]]></wp:comment_author>
+    <wp:comment_author_email>stefan.dobrev@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.telerik.com/stefandobrev</wp:comment_author_url>
+    <wp:comment_author_IP>78.90.67.97</wp:comment_author_IP>
+    <wp:comment_date>2009-02-17 12:46:13</wp:comment_date>
+    <wp:comment_date_gmt>2009-02-17 20:46:13</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Looking at the numbers it looks like Richards performance has been degraded by 4% :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2173</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.80</wp:comment_author_IP>
+    <wp:comment_date>2009-02-23 09:47:51</wp:comment_date>
+    <wp:comment_date_gmt>2009-02-23 17:47:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@stefan, we had a copy and paste error - Since it's a measure of average time per iteration, lower numbers are better. So v2.0.1 is a 4% improvement over v2.0. But thanks for pointing it out! We've updated the webpage accordingly.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

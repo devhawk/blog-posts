@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Article on Ward</title>
+  <link>http://devhawk.net/2004/01/30/article-on-ward/</link>
+  <pubDate>Fri, 30 Jan 2004 09:05:13 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3d68b917-2722-4a2d-b7a2-7c40ba617ec6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>From <a href="http://geekswithblogs.net/jalexander/">John Alexander's Blog</a>, I found a link to an <a href="http://seattlepi.nwsource.com/business/158020_msftnotebook26.html">article in the Seattle PI</a> about <a href="http://c2.com/cgi/wiki?WardCunningham">Ward Cunningham</a> joining Microsoft. The article focuses primarily on descibing wikis, but it does mention he now works for PAG doing pattern work. I liked this quote: 
+</p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px"><p>"I write the seed of the idea and I come back in a week and see how the idea has grown."</p></blockquote><p>It's also interesting to see that it took a month and a half for the news to go from <a href="PermaLink.aspx?guid=6e7c2137-7b31-4494-bf37-a78f238b5512">blogs</a> to a "mainstream" news source.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">295</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-01-30 09:05:13</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-01-30 09:05:13</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">article-on-ward</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="patterns"><![CDATA[Patterns]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3d68b917-2722-4a2d-b7a2-7c40ba617ec6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Article+On+Ward]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/01/30/Article+On+Ward]]></wp:meta_value>
+  </wp:postmeta>
+</item>

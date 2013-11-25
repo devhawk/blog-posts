@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Architecture Center Banner</title>
+  <link>http://devhawk.net/2004/07/09/architecture-center-banner/</link>
+  <pubDate>Fri, 09 Jul 2004 16:00:14 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f8f3664a-3146-4fc0-ae52-763d27c14496</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div style="FLOAT: left"><a href="http://winisp.net/harrypierson/BlogPhoto/ArchCenterBanner_1.jpg"><img hspace="5" src="http://s3.amazonaws.com/devhawk_images/ArchCenterBanner_1_thumb.jpg" border="0" /></a></div><p>For TechEd, we got a big banner to hang in the lunch room to advertise <a href="http://msdn.microsoft.com/architecture">Architecture Center</a>. When we got it back, we hung it in the atrium of building 18 - our new home. Looks pretty cool, doesn't it? In the pic, from left to right, are my boss Adam Denning, yours truly (in desperate need of a haircut) and <a href="http://blogs.msdn.com/jdevados">John deVadoss</a>. Massive thanks to Richard and Megan who got the banner hung in the first place.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">395</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-07-09 16:00:14</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-07-09 16:00:14</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">architecture-center-banner</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f8f3664a-3146-4fc0-ae52-763d27c14496]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Architecture+Center+Banner]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/07/09/Architecture+Center+Banner]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2632</wp:comment_id>
+    <wp:comment_author><![CDATA[anonymous]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-07-12 15:02:25</wp:comment_date>
+    <wp:comment_date_gmt>2004-07-12 22:02:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Now that's what I call a big M.A.C. ! ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The New Year Is Upon Us</title>
+  <link>http://devhawk.net/2005/01/01/the-new-year-is-upon-us/</link>
+  <pubDate>Sat, 01 Jan 2005 16:12:27 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6c224a74-a294-439f-9838-ac2149f855d0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Christmas was spent with just my local family - me, <a href="http://techiewife.com/">Julie</a>, Patrick and Julie's mom Patty (who lives ten minutes away). New Year's was spent with Julie's side of the family - three of Patty's four children and all six of her grandkids are at Brother Jim's in Santa Barbara. Even Julie's dad drove up, making it the first time this much of her family was together since Julie and I got married 4 1/2 years ago.</p><p>However, it's hard to be happy without feeling for the people who's family and friends were devastated by last week's tsunami. I've got a few friends in the area - I've done TechEd Malaysia twice and have been working closely with the Indian MSFT office of late. I've heard from I think everyone I know in the region and luckily they're all OK (though one had a close call). Of course, there are countless others who were not so lucky and my heart goes out to them. I wish I had more to say, but given the scale and scope of this tragedy, mere words seem almost trite. </p><p>I don't make resolutions anymore, since they are pretty much the same every year (more time with family, lose weight, smarter with money, etc.) I make a little progress on each every year - enough to be somewhat proud of but not enough that I can quit working on it. I've been reading <a href="http://www.chaordic.org/who_hock2.html">Dee Hock's</a><a href="http://www.amazon.com/o/ASIN/1576750744">Birth of the Chaordic Age</a> which my <a href="http://halpierson.blogspot.com/">Dad</a> lent me at thanksgiving and I'm really enjoying it. I've marked down several passages, but this one seems most appropriate for the new year:</p><blockquote><p>"Riches are not in the number of possessions, but the fewness of wants."</p></blockquote><p>By that measure, I know few richer than myself. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">515</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-01-01 16:12:27</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-01-01 16:12:27</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-new-year-is-upon-us</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="family"><![CDATA[Family]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6c224a74-a294-439f-9838-ac2149f855d0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+New+Year+Is+Upon+Us]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/01/02/The+New+Year+Is+Upon+Us]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2757</wp:comment_id>
+    <wp:comment_author><![CDATA[Hal Pierson]]></wp:comment_author>
+    <wp:comment_author_email>halpierson@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-01-01 16:32:41</wp:comment_date>
+    <wp:comment_date_gmt>2005-01-02 00:32:41</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Here are some more Dee Hock...isms
+
+http://www.fastcompany.com/online/05/dee2.html]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

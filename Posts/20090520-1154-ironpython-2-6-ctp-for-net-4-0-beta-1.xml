@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython 2.6 CTP for .NET 4.0 Beta 1</title>
+  <link>http://devhawk.net/2009/05/20/ironpython-2-6-ctp-for-net-4-0-beta-1/</link>
+  <pubDate>Wed, 20 May 2009 11:54:30 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://892c4513-9a42-440c-9971-b28b231f8bcf</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>The .NET Framework 4.0 and Visual Studio 2010 Beta 1 is now <a href="http://go.microsoft.com/fwlink/?LinkID=151797">generally available</a> for download. Jason Zander has a very thorough rundown on <a href="http://blogs.msdn.com/jasonz/archive/2009/05/18/announcing-vs2010-net-framework-4-0-beta-1.aspx">some of the new features</a> in this release. Of course, my favorite new features in VS2010 is the new dynamic language support in <a href="http://msdn.microsoft.com/en-us/library/dd264736(VS.100).aspx">C#</a> and <a href="http://msdn.microsoft.com/en-us/library/dd537660(VS.100).aspx">Visual Basic</a>, which let’s you easily call out to IronPython code from those languages. </p><p>For anyone who wants to experiment with interoperating C# or VB with IronPython, we released <a href="http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=27320">IronPython 2.6 CTP for .NET 4.0 Beta 1</a> today. There’s also a <a href="http://msdn.microsoft.com/en-us/library/dd867744.aspx">walkthru</a> showing how you can use the standard Python library module <a href="http://docs.python.org/library/random.html">random</a> from both C# and VB. <strike>Note, there’s currently a URL bug in that walkthru – it links to IronPython 2.6 Alpha 1 rather than the .NET 4.0 Beta 1 IronPython CTP. Make sure you pick up the right version of IronPython if you want to try out the walkthru.</strike> Looks like they fixed the redirect in the walkthru.</p><p>FYI, this is a CTP quality release with about the same functionality as IronPython 2.6 Alpha 1.  Essentially, this is the version of IronPython that was in the source tree when the VS team branched for Beta 1. </p><p>If you’ve got any feedback, please drop us a line on the <a href="http://lists.ironpython.com/listinfo.cgi/users-ironpython.com">mailing list</a>.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1261</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-05-20 11:54:30</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-05-20 11:54:30</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-2-6-ctp-for-net-4-0-beta-1</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[892c4513-9a42-440c-9971-b28b231f8bcf]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+26+CTP+For+NET+40+Beta+1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/05/20/IronPython+26+CTP+For+NET+40+Beta+1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Eggnog 132</title>
+  <link>http://devhawk.net/2007/12/20/morning-eggnog-132/</link>
+  <pubDate>Thu, 20 Dec 2007 12:18:12 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f5bd9a40-08ae-4411-9a2a-f7bec0a0c348</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>My parents are coming into town tomorrow so I'm off for the remaining week or so of the year. Blogging will likely be non-existent, unless I blog something I come up with while geeking out with my dad.  </li><li>Juergen van Gael <a href="http://mlg.eng.cam.ac.uk/jurgen/blog/?p=6" target="_blank">demonstrates</a> how to use <a href="http://blogs.msdn.com/dsyme/archive/2007/12/18/using-parallel-extensions-from-f.aspx" target="_blank">TPL</a> from F#. He wrote this <a href="http://cs.hubfs.net/blogs/f_team/archive/2007/10/18/3774.aspx" target="_blank">once before</a> using F#'s async workflows feature. I like the TPL version, though the "new Action&lt;int&gt;(RowTask)" is a little wordy. I'm guessing the eventual F# syntax will probably become something compact like "action RowTask". (via <a href="http://blogs.msdn.com/dsyme/archive/2007/12/18/using-parallel-extensions-from-f.aspx" target="_blank">Don Syme</a>)  </li><li>Andrew Peter ported RoR's <a href="http://haml.hamptoncatlin.com/" target="_blank">Haml view engine</a> to ASP.NET MVC, calling the result <a href="http://andrewpeters.net/2007/12/19/introducing-nhaml-an-aspnet-mvc-view-engine/" target="_blank">NHaml</a>. I haven't played around with the new MVC stuff much, but I'm guessing ASP.NET's control-based approach doesn't work well when you separate out the controller code. If I'm manually authoring view templates, I'd much rather type NHaml's syntax than the standard ASP.NET &lt;% ...%&gt; syntax. On the other hand, there aren't any design tools out there today handle the NHaml syntax. Also, I wonder if Andrew is working on a <a href="http://haml.hamptoncatlin.com/docs/sass" target="_blank">Sass</a> port. (via <a href="http://www.dotnetkicks.com/aspnet/Introducing_NHaml_An_ASP_NET_MVC_View_Engine" target="_blank">DNK</a>)</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1082</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-12-20 12:18:12</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-12-20 12:18:12</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-eggnog-132</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="asp-net"><![CDATA[ASP.NET]]></category>
+  <category domain="post_tag" nicename="concurrency"><![CDATA[Concurrency]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f5bd9a40-08ae-4411-9a2a-f7bec0a0c348]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Eggnog+132]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/12/20/Morning+Eggnog+132]]></wp:meta_value>
+  </wp:postmeta>
+</item>

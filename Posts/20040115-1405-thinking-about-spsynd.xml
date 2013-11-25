@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Thinking about SPSynd</title>
+  <link>http://devhawk.net/2004/01/15/thinking-about-spsynd/</link>
+  <pubDate>Thu, 15 Jan 2004 14:05:44 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e51fbcc1-eb84-47a4-8211-60e4ab60452f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm kicking around <a href="unsaved:///prj_SharePointSynd.aspx">SharePoint Syndication</a> again. There are a variety of reasons. I got email from someone @ the <a href="http://www.microsoft.com/sharepoint/downloads/components/default.asp">SP Web Component Directory</a> about it. According to Scoble, the Front Page team is <a href="http://radio.weblogs.com/0001011/2004/01/15.html#a6193">interested in RSS</a>. And the primary kicker, there's a project going on in my group internally that is using WSS and wants to expose RSS feeds. </p><p>Glad to know it's popular. Too bad it's not done and I'm not sure how to finish it.</p><p>Generic feed generation works just fine. The problem is customization. I need a user-friendly way (i.e. not hacking XML in the config file) to configure the feeds. Currently, the config file specifies which lists and webs expose feeds as well as the format of the feed for different list templates. I want to move that config so that it can be managed by the administrator using a simple UI, not the XML file. But that leads to questions: Do I try and stash my config data into the existing web and list configuration via the standard object model or do I bite the bullet and store it somewhere else (i.e. another DB)? What's the best way to add admin of the feed to the existing admin pages? Frankly, I don't know the answer to these questions.</p><p>One way to solve this problem would be to completely refactor the solution. Instead of relying on the <a href="http://msdn.microsoft.com/library/en-us/spptsdk/html/SPPTWSSClassLibrary.asp">WSS object model</a>, I would leverage the <a href="http://msdn.microsoft.com/library/en-us/spptsdk/html/soapnsMicrosoftSharePointSoapServer2.asp">WSS web services</a>. This would let me run the feed generator outside of the confines of WSS. Basically, I'd just be translating formats - the output of the web services into RSS and OPML. This would be really great for <a href="http://www.microsoft.com/windowsserver2003/techinfo/sharepoint/trial.mspx">hosted WSS</a> since it wouldn't require any change to the WSS site itself. However, doing the security right for this scenario would be a pain in the ass. WSS web services use transport level authentication which means it's difficult to "hop" credentials across servers. </p><p>I don't know if the answers to these dilemmas are out there in the blogosphere, but I figured I might as well put the questions out there.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">280</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-01-15 14:05:44</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-01-15 14:05:44</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">thinking-about-spsynd</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="sharepoint"><![CDATA[SharePoint]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e51fbcc1-eb84-47a4-8211-60e4ab60452f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Thinking+About+SPSynd]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/01/15/Thinking+About+SPSynd]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2959</wp:comment_id>
+    <wp:comment_author><![CDATA[Mike Walsh]]></wp:comment_author>
+    <wp:comment_author_email>englantilainen@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-16 01:34:04</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-16 09:34:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[>there's a project going on in my >group internally that is using WSS >and wants to expose RSS feeds. 
+
+I presume they know that there is already a free web part available for RSS feeds that works fine in WSS.
+
+http://www.timheuer.com/stuff.htm
+
+(I am not Tim Heuer just a user)
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2960</wp:comment_id>
+    <wp:comment_author><![CDATA[Harry]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://devhawk.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-16 07:23:10</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-16 15:23:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I've seen that component in the SP Web Component Directory. However, that web part is for reading RSS feeds while my SPSynd project is for creating RSS feeds from WSS lists.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2961</wp:comment_id>
+    <wp:comment_author><![CDATA[Travis Illig]]></wp:comment_author>
+    <wp:comment_author_email>padrino@cs.pdx.edu</wp:comment_author_email>
+    <wp:comment_author_url>http://www.paraesthesia.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-21 07:47:23</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-21 15:47:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[We're actually going to be configuring and using SPSynd internally, in conjunction with a custom RSS reader part I wrote (which does audience targeting of feeds, individual feed caching, and has configurable options for display format), and I've been thinking about the same thing - an easier way to configure SPSynd.  I've toyed with the idea of getting the schema for the configuration file, making a typed Dataset out of it, and doing up some sort of MMC-style admin console (which is part of the reason I joined the GotDotNet workspace for the project), but got sidetracked on other projects.
+
+The use of the web services might be an interesting idea - if you could set up a domain service account, then grant access to the appropriate lists to that user within WSS, you wouldn't even really need to say "this list is OK to see, this one isn't"; you just authenticate as your service account (which is easy enough - rather than using pass-through authentication, you specifically create a crendential set with the service account info) and if that user has permissions to the list, it displays.  If not, no display.  Done.  That would alleviate the need for the "sites" element in the spsynd.config file.
+
+That said, you're still going to have the rest of the config file to deal with, so it doesn't get you out of making a nicer admin interface. :(]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

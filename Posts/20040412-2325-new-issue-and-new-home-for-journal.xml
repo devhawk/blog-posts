@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Issue and New Home for JOURNAL</title>
+  <link>http://devhawk.net/2004/04/12/new-issue-and-new-home-for-journal/</link>
+  <pubDate>Mon, 12 Apr 2004 23:25:00 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://25dec6f9-97dc-48ad-a733-3327dea0aa7a</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[ Last December, Arvindra Sehmi of Microsoft EMEA (Europe, Middle East and Africa) created JOURNAL - the Microsoft's Architects JOURNAL - to great success. Now, with the publication of JOURNAL 2, we have launched <a href="http://msdn.microsoft.com/architecture/journal/">JOURNAL's new homepage</a> on the <a href="http://msdn.microsoft.com/architecture/">MSDN Architecture Center</a>. You can read the articles online in the MSDN library or download the full issues as PDFs. (To anyone who previously downloaded the JOURNAL 1 PDF, we've reformatted the PDF so that it will print on A4 or US Letter sized paper without having to shrink it to the point of near-unreadability.) 
+<p>BTW, you do have to fill out a profile questionnaire to get access to the PDF's. And since we want to encourage people to fill out the profile questionnaire, we've only published one article from JOURNAL 2 on MSDN so far. We'll publish one of the remaining articles on MSDN every couple of weeks. However, to whet your appetite, the article we choose to publish is the cornerstone of JOURNAL 2 - <a href="http://msdn.microsoft.com/architecture/journal/default.aspx?pull=/library/en-us/dnmaj/html/aj2metrop.asp">Pat Helland's Metropolis</a>. It's based from Pat's <a href="http://msdn.microsoft.com/architecture/overview/series">Architecture Strategy Series</a> presentation of the same title, where he drawn a parallel between the evolution of cities and the evolution of information technology shops. It's a very powerful analogy for understanding that we're at the very beginning of the Information Revolution and that we have a long long way to go.</p><p>Please <a href="mailto:hpierson@microsoft.com?subject=Microsoft's Architects JOURNAL">drop me a line</a> or leave a comment with your thoughts on JOURNAL. It's a quarterly publication, so look for JOURNAL 3 in July. In the meantime, we're always looking for authors, so <a href="mailto:hpierson@microsoft.com?subject=I want to write for JOURNAL!">let me know</a> if you have an idea for an article.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">351</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-04-12 23:25:00</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-04-12 23:25:00</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-issue-and-new-home-for-journal</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[25dec6f9-97dc-48ad-a733-3327dea0aa7a]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Issue+And+New+Home+For+JOURNAL]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/04/13/New+Issue+And+New+Home+For+JOURNAL]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2586</wp:comment_id>
+    <wp:comment_author><![CDATA[Mike Walsh]]></wp:comment_author>
+    <wp:comment_author_email>englantilainen@mvps.org</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-04-13 02:05:36</wp:comment_date>
+    <wp:comment_date_gmt>2004-04-13 09:05:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[There's a minor annoyance with the questionnaire in that it insists on answers to all the questions before letting you proceed. In my case I didn't think that any of "Which of the following do you use in your organization" applied to my organisation. So to get past this block I lied. Perhaps not the quality stats you had in mind ?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2587</wp:comment_id>
+    <wp:comment_author><![CDATA[Darrell]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://dotnetjunkies.com/WebLog/darrell.norton/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-04-13 05:30:47</wp:comment_date>
+    <wp:comment_date_gmt>2004-04-13 12:30:47</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I got an error on the certificate using Firefox 0.8.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2588</wp:comment_id>
+    <wp:comment_author><![CDATA[Hal Pierson]]></wp:comment_author>
+    <wp:comment_author_email>halpierson@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-04-13 07:08:08</wp:comment_date>
+    <wp:comment_date_gmt>2004-04-13 14:08:08</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I agree with Mike's comment!
+
+How many people checked "platform independence"?
+
+      hal]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2589</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-04-13 17:45:14</wp:comment_date>
+    <wp:comment_date_gmt>2004-04-14 00:45:14</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks for the feedback. The lack of an "Other" or "None" option on the question you mentioned, Mike, was an oversight on our part. We will get that fixed. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

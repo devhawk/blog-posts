@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IPy Post 2.0 Roadmap Clarifications</title>
+  <link>http://devhawk.net/2008/07/30/ipy-post-2-0-roadmap-clarifications/</link>
+  <pubDate>Wed, 30 Jul 2008 15:43:40 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://79c950fa-5fc9-46b9-b17a-fda01477f3ae</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Two weeks ago, I posted a <a href="http://devhawk.net/2008/07/17/IronPython+Post+20+Roadmap.aspx">roadmap</a> for where IPy is heading after we get 2.0 out the door later this year. I got two questions in <a href="http://devhawk.net/CommentView,guid,663bc86a-8185-4c5b-8a5b-c01634a1b1bc.aspx#commentstart">the comments</a> that I wanted to address. </p><ul><li><a href="http://www.ironpythoninaction.com">Michael Foord</a> wants to know "will you actively maintain IronPython 2 and IronPython 3 in parallel?"  </li><li><a href="http://francois.schnell.free.fr">francois</a> wants to know for the VS integration "Will it be necessary to buy VS standard/Pro to benefit from it?"</li></ul><p>As to the first question, Curt Hagenlocher (aka <a href="http://blogs.msdn.com/curth/">Iron Curt</a>) from the IPy dev team <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2008-July/007728.html">wrote the following</a> on the IPy mailing list:</p><blockquote><p>"I think it's fair to say that this will be driven mostly by the needs of our community and of the larger Python community. By the time IronPython 3.0 ships, it's likely that CPython 3.0 will have been out for a year or even longer, and we'll have a much better idea of what the uptake is like in the community."</p></blockquote><p>Let me second Curt's comment. I used to think getting to 3.0 as quickly as possible was one of our highest priorities. However, it looks like the CPy 3.0 uptake rate is a real open question right now. If the Python community takes 3-4 years to fully embrace 3.0 (as <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2008-July/007729.html">Michael suggested</a>) then I don't see how we will have any choice but to maintain both in parallel. It also suggests that better 2.6 support may be more important than 3.0 support, at least for the next 18-24 months.</p><p>Francois's question is much easier: No, we will not require you to buy any version of VS in order to get IPy VS integration. It will work with the <a href="http://msdn.microsoft.com/en-us/vstudio/bb510103.aspx">Visual Studio Shell</a>, much like the current IronPythonStudio VSX sample does today. </p><p>For out first release, we are focusing on the integrated mode scenario. This means that if you own a copy of VS (other than express), the IPy tools will snap into your existing VS installation. If you don't own a copy of VS, you'll be able to download and install the integrated shell for free and our IPy tools will snap into that. Down the road, we might investigate an "IronPython Express" version that leverages the isolated shell, but that's not a priority right now.</p><p>The VS shell <a href="http://msdn.microsoft.com/en-us/vstudio/bb856491.aspx">includes support</a> for the WinForms and WPF designers and we expect to support both eventually. WPF support is fairly straightforward since the designer works with XAML files rather than code files. WinForms support is harder, since it wants to emit statically typed code into code files - a neat trick for a dynamically typed language like Python. The current implementation that the IronPythonStudio sample uses requires us to inject a bunch of custom type hints disguised as python @decorators in order to round trip between the designer and code views. However, we're not bringing those custom type hints forward in the 2.0 release so we'll need to find a better way to integrate with the WinForms designer. </p><p>As for web apps, ASP.NET support is currently on the back burner while Jimmy and David <a href="http://blog.jimmy.schementi.com/2008/07/aspnet-and-dynamic-languages.html">drink coffee and expensive juice</a> while they figure out the ASP.NET / dynamic language story. We also want to support Silverlight development for IronPython in VS, but I'm exactly sure how we get Silverlight designer support yet. <a href="http://go.microsoft.com/fwlink/?LinkId=120319">Silverlight Tools for VS08</a> today require VS Standard, so I'm guessing there's some leg work to do if we want to support the SL designer in VS Shell.</p><p>As always, feel free to ask here or on <a href="http://lists.ironpython.com/listinfo.cgi/users-ironpython.com">the mailing list</a> if you've got any questions or feedback on our plans. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1160</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-07-30 15:43:40</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-07-30 15:43:40</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ipy-post-2-0-roadmap-clarifications</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[79c950fa-5fc9-46b9-b17a-fda01477f3ae]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IPy+Post+20+Roadmap+Clarifications]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/07/30/IPy+Post+20+Roadmap+Clarifications]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2097</wp:comment_id>
+    <wp:comment_author><![CDATA[francois]]></wp:comment_author>
+    <wp:comment_author_email>schneo@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://francois.schnell.free.fr</wp:comment_author_url>
+    <wp:comment_author_IP>82.227.72.2</wp:comment_author_IP>
+    <wp:comment_date>2008-07-31 13:51:40</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-31 20:51:40</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks for these informations, I will look forward for this VS integration :) ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Office</title>
+  <link>http://devhawk.net/2004/04/23/new-office/</link>
+  <pubDate>Fri, 23 Apr 2004 17:10:53 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://dce0faed-a1ce-4d94-bbf5-33222e59b705</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Almost our whole team moved offices yesterday. We used to be spread out across campus in 34, 40, 22 and 119. Now, we'll all be on one hallway in 18. It's a little unnerving to be able to walk the hall and see <em>everybody</em> after spending 6 months on a team who saw each other about once a month. Unnerving, but very very cool. </p><p>As you can see on this <a href="http://www.microsoft.com/careers/images/campus_map.gif">map</a>, 18 is in the NW corner of the main campus. From the posters left behind, I'm guessing Mac Office used to be here - I <a href="http://blogs.msdn.com/loripe/archive/2004/04/12/111732.aspx">think</a> the whole Office group is moving to 36, the newest building on campus. (36 is so new, it's not even on the map yet. It's to the east of 3.) Not sure how nice 36 is, but 18 is much nicer than 22. About 30 feet from my office is a large lounge area with ~10 couches and wireless access. We have a full size cafe with ATM. And, now that we're on main campus, we're much closer to meetings with other groups (other than DevDiv - we used to be just across the street from them).</p><p>I was going to bring a camera and post some pictures of our new offices, but I forgot in a haze of sleeplessness. Julie and Patrick went to LA this morning for the weekend, and we had to get up at 5am to get her to the airport in time to get all the baby gear thru security. Since I can't post any office pictures, here's a picture of a <a href="http://s3.amazonaws.com/devhawk_images/Flahawk.JPG">nesting hawk</a> my friend (and hoster) Tom emailed me.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">356</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-04-23 17:10:53</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-04-23 17:10:53</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-office</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="working-at-msft"><![CDATA[Working at MSFT]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[dce0faed-a1ce-4d94-bbf5-33222e59b705]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Office]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/04/24/New+Office]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2596</wp:comment_id>
+    <wp:comment_author><![CDATA[Omar Shahine]]></wp:comment_author>
+    <wp:comment_author_email>shahineo@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.shahine.com/omar</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-04-24 19:57:52</wp:comment_date>
+    <wp:comment_date_gmt>2004-04-25 02:57:52</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Mac Office was in 18 about 4 years ago ;-), and it was 17 actually now that I think about. I'm sure that the mac posters were because the Mac Outlook team (part of Win Outlook) was in 18.
+
+But anyway, 16, 17 and 18 were and have always been the Win Office buildings till now ;-).]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

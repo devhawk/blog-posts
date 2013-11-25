@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython 1.1.2 RC</title>
+  <link>http://devhawk.net/2008/07/15/ironpython-1-1-2-rc/</link>
+  <pubDate>Tue, 15 Jul 2008 11:16:25 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3d24829f-4d1d-45cd-aec2-4f83d0a206ad</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>It's a little late, but we just pushed out the <a href="http://www.codeplex.com/Release/ProjectReleases.aspx?ProjectName=IronPython&amp;ReleaseId=15198">RC for IronPython 1.1.2</a>. This is a minor release with a bunch of bug fixes we've backported from our 2.0 work. </p><p>However, there are two minor breaking changes I wanted to highlight:</p><ol><li>Work Item <a href="http://www.codeplex.com/IronPython/WorkItem/View.aspx?WorkItemId=16348">#16348</a> - We've changed the nt.unlink method so that it raises an exception if the file doesn't exist. This brings nt.unlink in line with CPython's behavior, but does change the public behavior of the method.  </li><li>Work Item <a href="http://www.codeplex.com/IronPython/WorkItem/View.aspx?WorkItemId=16735">#16735</a> - We've changed the return type of IronPython.Runtime.Operations.Ops.Id() from long to object. We return a boxed 32-bit integer for Ops.Id(), unless you've allocated over 2^32 objects in which case we roll over to our arbitrary precision IronMath.BigInteger type. Note, this only would affect statically typed languages compiled against the IronPython assembly. It wouldn't affect python  code in any way.</li></ol><p>We think these are fairly minor (hence the reason we green-lit them) and furthermore these changes mirrors the eventual behavior of 2.0. Please let me know if either of the changes is a problem for you or your project. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1152</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-07-15 11:16:25</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-07-15 11:16:25</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-1-1-2-rc</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3d24829f-4d1d-45cd-aec2-4f83d0a206ad]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+112+RC]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/07/15/IronPython+112+RC]]></wp:meta_value>
+  </wp:postmeta>
+</item>

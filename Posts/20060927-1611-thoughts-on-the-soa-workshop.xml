@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Thoughts on the SOA Workshop</title>
+  <link>http://devhawk.net/2006/09/27/thoughts-on-the-soa-workshop/</link>
+  <pubDate>Wed, 27 Sep 2006 16:11:00 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://1ed04a69-9af6-4d7b-921a-c815b739fd66</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Last week, I attended an <a href="http://www.soasystems.com/events151.asp">SOA workshop</a> presented by <a href="http://www.soasystems.com/">SOA Systems</a> and delivered by "top-selling SOA author" <a href="http://www.thomaserl.com/">Thomas Erl</a>. It was two SOA-jammed days + the drive to Vancouver and back primarily discussing SOA with <a href="http://halfmybrain.spaces.live.com/blog/">Dale</a>. In other words, it was a lot of SOA. I went up expecting to take Erl to task for his "Services are Stateless" principle. However, that turned out to be a <a href="http://devhawk.net/2006/09/20/Stateless+Stateless.aspx">misunderstanding</a> on my part about how Erl uses the term stateless. However, while Erl and I agreed on optimizing memory utilization (which is what he means by stateless), that wasn't much else when it came to common ground. As I wrote last week, Erl's vision of service-orientation is predicated on unrealistic organizational behavior and offer at best unproven promises of cost and time savings in the long run via black box reuse.</p><p>Erl spends a lot of time talking about service reuse. I think it's safe to say, in Erl's mind, reuse is the primary value of service orientation. However, he didn't offer any reason to believe we can reuse services any more successfully than we were able to reuse objects. Furthermore, his predictions about the amount of reuse you can achieve are completely made up. At one point, he was giving actual reuse numbers (i.e. 35% new code, 65% existing code). When I asked him where those numbers came from, Erl admitted that they were "estimates" because "there hasn't been enough activity in serious SOA projects to provide accurate metrics" and that there is "no short term way of proving" the amount of service reuse. In other words, Erl made those numbers up out of thin air.</p><p>This whole "serious" or "real" SOA is a major theme with Erl. One the one hand, I agree that SOA is a horribly overused term. Many projects labeled SOA have little or nothing to do with SO. On the other hand, it seems pretty convenient to chalk up failed projects as not being "real" SOA so you can continue to spout attractive yet completely fictional reuse numbers. I asked about the Gartner's 20% service reuse prediction and Erl responded that low reuse number was because the <a href="http://msdn.microsoft.com/webservices/webservices/understanding/specs/default.aspx">WS-* specs</a> are still in process. While I agree that the WS-* specs are critical to the advancement of SO, I fail to see how lack of security, reliable messaging and transactions are holding back reuse. If anything, I would expect those specs to <em>impede</em> reuse, as it adds further contextual requirements to the service. </p><p>While I think Erl is mistaken when it comes to the potential for service reuse, he's absolutely dreaming when it comes to the organizational structure and behavior that has to be in place for this potential service reuse to happen in the first place. I'm not sure what Erl was doing before he became a "top-selling SOA author," but I find it hard to believe it included any time in any significantly sized IT shop. </p><p>Erl expects services - "real" services, anyway - to take around 30% more time and money than he traditional siloed approach. The upside for spending this extra time and money is the potential service reuse. The obvious problem with this is that we don't know how much reuse we're going to see for this extra time and money. If you spend 30% more but can only reuse 20% of your services (as Gartner predicts), is it worth it? If you end up spending 50% more but are only able to reuse 10% of your services, is it worth it? Where's the line where it's no longer worth it to do SOA? Given that there's no real way to know how much reuse you're going to see, Erl's vision of SOA requires a huge leap of faith on the part of the implementer. "Huge leap of faith" doesn't go so well with "corporate IT department".</p><p>Furthermore, the next IT project I encounter that is willing to invest any additional time and money - much less 30% - in order to achieve some theoretical organizational benefit down the road will be the first. Most projects I've encountered (including inside MSIT) sacrifice long term time and money in return for short term gain. When asked how to make this 30% investment happen, Erl suggested that the CIO has to have a "dictatorial" relationship with the projects in the IT shop. I'm thinking that CIO's that adopt a dictatorial stance won't get much cooperation from the IT department and will soon be ex-CIO's.</p><p>In the end, I got a lot less out of this workshop than I was hoping to. As long as SO takes 30% more time and money and the primary benefit is the same retread promises of reuse that OO failed to deliver on, I have a hard time imagining SO making much headway. </p><p>PS - I have a barely used copy of "<a href="http://www.soabooks.com">Service-Oriented Architecture: Concepts, Technology, and Design</a>" if anyone wants to trade for it. It's not a <a href="http://oneredpaperclip.blogspot.com/">red paperclip</a>, but it's like new - only flipped through once. :)</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">804</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-09-27 16:11:00</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-09-27 16:11:00</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">thoughts-on-the-soa-workshop</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Thoughts+On+The+SOA+Workshop]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[1ed04a69-9af6-4d7b-921a-c815b739fd66]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/09/27/Thoughts+On+The+SOA+Workshop]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2410</wp:comment_id>
+    <wp:comment_author><![CDATA[David Clement]]></wp:comment_author>
+    <wp:comment_author_email>david.clement@visiphor.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>208.181.139.17</wp:comment_author_IP>
+    <wp:comment_date>2006-09-28 09:39:07</wp:comment_date>
+    <wp:comment_date_gmt>2006-09-28 16:39:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Ouch!  ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2411</wp:comment_id>
+    <wp:comment_author><![CDATA[Arnon Rotem-Gal-Oz]]></wp:comment_author>
+    <wp:comment_author_email>arnon@rgoarchitects.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.ddj.com/dept/architect</wp:comment_author_url>
+    <wp:comment_author_IP>217.132.168.250</wp:comment_author_IP>
+    <wp:comment_date>2006-09-28 13:03:25</wp:comment_date>
+    <wp:comment_date_gmt>2006-09-28 20:03:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[
+> PS - I have a barely used copy of "Service-Oriented Architecture:
+> Concepts, Technology, and Design" if anyone wants to trade for it
+>It's not a red paperclip, but it's like new - only flipped through once. :)
+
+I have a similar experience with his "Service-Oriented Architecture: A Field Guide to Integrating XML and Web Services" :)
+
+Arnon]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2412</wp:comment_id>
+    <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+    <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+    <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>65.248.23.250</wp:comment_author_IP>
+    <wp:comment_date>2006-10-02 09:30:33</wp:comment_date>
+    <wp:comment_date_gmt>2006-10-02 16:30:33</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[It came to me a while back that half the time I talk to someone about SOA, we aren't even talking about the same objectives.  Working for an ISV, we try to think about service-oriented application design rather than the target implementer's enterprise architecture.  They are different things.
+
+I agree you can't expect reuse in SOA to materialize any differently than you would for objects.  Cohesion is cohesion.  But if you can design an application to at least minimize the invasiveness required to deploy that app into someone else's enterprise architecture, you can get some economy back reminiscent of "reuse".  Anyway, I wrote up some thoughts along these lines over the weekend on the 'ol blog.  ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

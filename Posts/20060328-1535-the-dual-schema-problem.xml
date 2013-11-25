@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The Dual Schema Problem</title>
+  <link>http://devhawk.net/2006/03/28/the-dual-schema-problem/</link>
+  <pubDate>Tue, 28 Mar 2006 15:35:03 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3e4f284e-9be2-491c-aee3-dd427ced2020</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[A few months ago, Ted Neward wrote a <a href="http://msdn.microsoft.com/library/en-us/dndotnet/html/linqcomparisons.asp">great article</a> about the history of the Object Relational Impedance Mismatch problem and how <a href="http://msdn.microsoft.com/netframework/future/linq">LINQ</a> is addressing it in a new way. Basically, LINQ is introducing new language abstractions and complementary libraries to enable queries as a first class concept within the language. However, I don't believe that O/R Impedance Mismatch is the whole problem. More specifically, it's a follow-on problem to what I would call the Dual Schema problem.
+
+In a nutshell, the Dual Schema problem is that you have to design and implement two separate versions of your persistent entities. There's the in memory version, typically written in an OO language like C# or Java. Then there's the on disk version, typically written in SQL. Regardless of the difficulties translating between the two versions (i.e. the aforementioned impedance mismatch), you have to first deal with the complexity of keeping the two versions in sync. While LINQ does a great job eliminating much of the friction translating between on disk and in memory formats, it could go much farther by eliminating the need for translation in the first place.
+
+A variety of solutions to the Dual Schema problem have evolved, primarily outside the hallowed halls of enterprise vendors (i.e. MS and others like us). One such solution is <a href="http://www.rubyonrails.com/">Ruby on Rails</a>. In a Rails environment, I simply declare the existence of a given persistent entity:
+<pre class="brush:ruby">class Person &lt; ActiveRecord::Base
+end</pre>
+The ActiveRecord base class (a standard part of Rails) will dynamically create methods and attributes on the Person object at runtime, based on the schema of the People table in the database. (Rails is smart enough to understand English plurals, hence the automatic connection of Person and People.) So technically there are still two schemas, but the in-memory version is automatically derived of the on-disk version.
+
+(Note, DLinq provides a conceptually similar tool - SqlMetal - that can generate the static types from a given database schema. However, as static types they have to be defined at compile time. So while SqlMetal reduces the effort to keep schemas in sync, it doesn't eliminate it the way Rails does.)
+
+By slaving the object schema to the database schema, Rails essentially solves the Dual Schema problem. The problem with the Rails approach is that defining a database schema requires a significant amount of skill and effort. Defining classes is typically trivial in comparison.The fact Rails allows you to implement a persistent entity with almost no code doesn’t help you much if you have to write and maintain a ton of SQL code to define your database schema.
+
+I believe the Rails model is actually backwards. It would be much better for the developer if they could define their persistent entity in code and slave the database schema to the object model instead of the other way around.
+
+Of course, this approach isn't exactly news. In his article, Ted writes of the rise and fall of OO database management systems, which were supposed to solve the Dual Schema and Impedance Mismatch problems. I'm certainly not suggesting a return to the heyday of OODBMS. However, one of the reasons Ted points out OODBMS failed was because big companies were already wedded to RDBMS. But those big companies are the short head. As you move down the <a href="http://bnoopy.typepad.com/bnoopy/2005/03/the_long_tail_o.html">long tail of software</a>, relational database as the primary storage paradigm makes less and less sense. For the vast majority of applications, relational databases are overkill.
+
+Ted's other point about OODBMS is that loose coupling between the data store and the in memory representation is a feature, not a flaw. He's totally right. But can't we advance the state of the art in database typing to the level of modern day OO languages? How about eliminating anachronisms like fixed length strings? What if we derive the database schema from the object model - Rails in reverse if you will - but is still loosely coupled enough to allow for schema evolution?
+
+An example of this code-centric model for data storage is <a href="http://www.garret.ru/~knizhnik/consus.html">Consus</a>. It’s written by Konstantin Knizhnik, who has written a bunch of <a href="http://www.garret.ru/~knizhnik/databases.html">open source, object-oriented and object-relational databases</a> across a wide variety of languages and execution environments, including CLR. Consus is actually written in Java, but he provides version compiled for .NET using <a href="http://msdn.microsoft.com/vjsharp/">Visual J#</a>. Consus lets you to define your data either as tables or objects. So you can do this:
+<pre class="brush:java">Statement st = db.createStatement();
+st.executeUpdate("create table Person (name string, address string, salary bigint)");
+st.executeUpdate("insert into Person values ('John Smith', '1 Guildhall St.', 75000)");
+ResultSet rs = st.executeQuery("select name, address, salary from Person where salary &gt; 100000");</pre>
+Or you can do this:
+<p style="font-family: 'Courier New';"><span style="font-family: Georgia, 'Bitstream Charter', serif;">
+<pre class="brush:java">class Person {
+    String name;
+    String address;
+    long salary;
+    Person(String aName, long aSalary, String aAddress) {
+        name = aName;
+        salary = aSalary;
+        address = aAddress;
+    }
+};
+
+Person p = new Person("John Smith", 75000, "1 Guildhall St.");
+ConsusStatement st = db.createStatement();
+stmt.insert(p);
+ConsusResultSet cursor = (ConsusResultSet)st.executeQuery(
+    "select from Person where salary &gt; 100000");
+</pre>
+Consus also handles OO concepts like derivation and containment. Of course, the embedded queries are ugly, but you could imagine DLinq style support for Consus. In fact, one of the primary issues with Consus is that it supports both object and tuple style queries. When you explicitly request tables (i.e. "select name, address salary from Person"), you’ve got a tuple style query. When you don’t (i.e. "select from Person”) you’ve got an object style query. Of course, the issues with tuple style queries are well documented in Ted’s article and is exactly the problem that LINQ is designed to solve.</span></p>
+(Konstantin, if you’re reading this, <a href="mailto:harry.pierson@microsoft.com">drop me a line</a> and I’ll look into getting you hooked up with the LINQ folks if you’re interested in adding LINQ support to Consus.NET.)
+
+The tradeoff between the Rails approach and the Consus approach is one of performance. I have a ton of respect for Konstantin and the work he’s done on Consus and other OO and OR databases available from his site. However, I sure the combined developer forces at major database vendors like Microsoft (and other DB companies) means SQL Server (and the like) will out perform Consus by a significant margin, especially on large scale databases. So if execution performance is your primary criteria, the Ruby on Rails approach is better (leaving aside discussion of the Ruby runtime itself). However, in the long run execution performance is much less important than developer productivity. So I believe that &nbsp;for all the current interest in Rails, I think a Consus-style model will become dominant.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">731</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-03-28 15:35:03</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-03-28 15:35:03</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-dual-schema-problem</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="database"><![CDATA[Database]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="scripting"><![CDATA[Scripting]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3e4f284e-9be2-491c-aee3-dd427ced2020]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+Dual+Schema+Problem]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/03/28/The+Dual+Schema+Problem]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2343</wp:comment_id>
+    <wp:comment_author><![CDATA[David]]></wp:comment_author>
+    <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.from9till2.com</wp:comment_author_url>
+    <wp:comment_author_IP>81.159.21.197</wp:comment_author_IP>
+    <wp:comment_date>2006-03-29 04:49:58</wp:comment_date>
+    <wp:comment_date_gmt>2006-03-29 11:49:58</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[>So I believe that  for all the current interest in Rails, I think a Consus-style model will become dominant.
+
+Hmm, I'm not so sure, in the long run the Rails 'model by convention' is the simplest form of solution, and we've seen how powerful/persuasive the 'simplest' can be in getting the mass adoption going, i.e. say RSS vs ATOM, RDBMS vs OODBMS, POX vs SOAP. So, not being a zealot but just pointing out that I've seen a lot of great ideas/tech fall away due to not being the 'shortest/simplest path'.
+
+Also, just for thoughts, the 'Dual Schema' is often more than just 2 views on the same thing. If you think CLR -> XML, CLR -> RDB, myXML -> yourXML, then you end up with a few combinations. The 'canonical schema' could be defined in the code-first way, but that has always led to compromises for other non-OO representations. Hence the constant mapping issues. A model is needed, but getting the model accepted as part of a decent/productive dev process is the trick.
+
+The impedance you talk about can refer to web services/xsd/messages just as much as it can mean RDB mapping. 
+
+Also (since I'm typing), databases are, I agree, an overkill for a lot of apps, but they aren't just used for storage - aspects like concurrency (awkward in mainstream programming) and transactions come along for the ride and make it worth the while. Also, an app that doesnt require a full RDBMS at the beginning of its life tends to convert over badly when it does need it, hence the convention of just using the 'littlest RDBMS' you can find rather than changing paradigm when you get bigger.
+
+PS See you at TechEd Harry.
+
+- David]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2344</wp:comment_id>
+    <wp:comment_author><![CDATA[Alex]]></wp:comment_author>
+    <wp:comment_author_email>Alex@base4.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.base4.net</wp:comment_author_url>
+    <wp:comment_author_IP>219.89.81.114</wp:comment_author_IP>
+    <wp:comment_date>2006-03-29 22:28:59</wp:comment_date>
+    <wp:comment_date_gmt>2006-03-30 05:28:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[One thing that I think is vital going forward is to provide the ability to create Schemas that reference other Schemas. This becomes particularly valuable when talking to existing Legacy databases. The process is this:
+1) Make a schema for the legacy database
+2) Make a new schema to support new functionality that references (1). 
+This is the approach taken by WinFS, and indeed my own open source product Base4. 
+
+PS: I'm not sure if I understand you correctly but by my reckoning WinFS slaves both the Database and the CLR objects to the WinFS schema, does that mean you have just one schema?
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

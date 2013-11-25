@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Gamer Card Plugin for WL Writer</title>
+  <link>http://devhawk.net/2006/09/15/gamer-card-plugin-for-wl-writer/</link>
+  <pubDate>Fri, 15 Sep 2006 16:48:10 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://de72827b-c398-454b-960c-8ed0c6bcbf95</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p></p><p><img style="MARGIN: 0px 0px 0px 5px" src="http://s3.amazonaws.com/devhawk_images/GamerCardPluginScreenShot.jpg" align="right" border="0" />In my <a href="http://devhawk.net/2006/09/15/Hawkeye+On+NHL+07.aspx">last post</a>, I wanted to include a link to my gamer card, showing the NHL 07 logo on it. It turns out that in addition to the <a href="http://www.xbox.com/en-US/MyXbox/embedgamercard.htm">"official" gamer card</a> from Xbox.com, there's also the <a href="http://www.mygamercard.net/">MyGamerCard.net</a> site which provides both image and flash versions of gamer cards. Since I'm using <a href="http://ideas.live.com/programpage.aspx?versionid=4372c8c2-b76f-4d44-aea1-9835b61d8dc1">Windows Live Writer</a>, and I hear it's really <a href="http://dev.live.com/blogs/devlive/archive/2006/08/14/44.aspx">easy to extend</a>, I decided to throw together a plugin for inserting Gamer Cards. It was, as advertised, extremely easy. I spent more time laying out the dialog box than I did writing the code to interface with WL Writer.</p><p>The plug in provides basically five Gamer Card options:</p><ul><li>Standard Xbox.com Gamer Card 
+</li><li>MGC.net Gamer Card image with link to Xbox.com Profile 
+</li><li>MGC.net Gamer Card image with link to MGC.net Profile 
+</li><li>MGC.net Gamer Card image only 
+</li><li>MGC.net Gamer Card flash movie</li></ul><p><a href="http://profile.mygamercard.net/RayTracer"><img style="MARGIN: 0px 5px 0px 0px" src="http://card.mygamercard.net/h2o/RayTracer.png" align="left" border="0" /></a></p><p>I'm interested in feedback and suggestions for future versions. MyGamerCard.net provides ten different Gamer Card styles (that's my Gamer Card in the "H2O" style to the left) so that's an obvious enhancement for another day. I'd also like to evolve the plugin into a "Smart Content Source", which allows you to edit the content after it's been created (like the default "Insert Map" option). Finally, I'm thinking of adding support for <a href="http://gamerscorechart.com/">GamerScoreChart.com</a>.</p><p>Download <a href="http://cid-0d9bc809858885a4.office.live.com/self.aspx/DevHawk%20Content/BlogFiles/GamerCard.WriterPlugin.Setup.zip">GamerCard.WriterPlugin.Setup.zip (142.41 KB)</a> and enjoy. <a href="mailto:harry@devhawk.net">Let me know</a> what you think.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">793</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-09-15 16:48:10</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-09-15 16:48:10</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">gamer-card-plugin-for-wl-writer</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="windows-live"><![CDATA[Windows Live]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[de72827b-c398-454b-960c-8ed0c6bcbf95]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Gamer+Card+Plugin+For+WL+Writer]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/09/15/Gamer+Card+Plugin+For+WL+Writer]]></wp:meta_value>
+  </wp:postmeta>
+</item>

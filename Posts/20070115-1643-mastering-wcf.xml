@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Mastering WCF</title>
+  <link>http://devhawk.net/2007/01/15/mastering-wcf/</link>
+  <pubDate>Mon, 15 Jan 2007 16:43:54 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e2475cd1-5bf4-4558-b09c-ce588c1e18a8</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://codebetter.com/blogs/sam.gentile/archive/2007/01/10/New-and-Notable-134.aspx">Sam Gentile writes</a>:</p><blockquote><p><a href="http://devhawk.net/2007/01/05/Morning+Coffee+4.aspx">Harry finds Indigo daunting</a>. Me, I find mastering 8 different stacks (COM+/ES, ASMX, WSE, Remoting, MSMQ, etc) to do the same thing and all the strange nuances a hell of a lot more daunting but that's just me, although the number of timeout settings and config settings is astronomical.</p></blockquote><p>While mastering many different stacks <em>is</em> daunting, the reality is you don't have to master all of them to use one of them. Knowing Sam, he probably has mastered all the different stacks, but MVP's like Sam are an edge case. Most developer don't master <em>any </em>of the stacks, they get comfortable with the one or two stacks they use all the time. </p><p>From that perspective, WCF replaces the "legacy" stack a given developer understands with something much more complex, since WCF replaces legacy stacks <em>other</em> than the one said developer is familiar with. Options like message exchange patterns and network protocol were typically implicit to a given technology stack. For example, if you used ASMX, you could use any network protocol you want, as long as it's HTTP. Using WCF, you get to / have to choose which network protocol you want to use. Multiply that decision making process by the "astronomical" number of choices WCF provides, and you've got to spend a long time making decisions that the "legacy" stacks handled for you automatically.</p><p>To me, it looks like WCF's primary design goals were to support web service standards (aka WS-*) as well as to unify the disparate communications stacks. And I think WCF was fairly successful at these two goals. Previously, the capabilities you needed would drive your communication stack choice. Need web service interop? Use ASMX. Need low-level control over the message pipeline? Use .NET Remoting. Need to flow transactions? Use COM+. Need to flow transactions over web services with low-level control over the message pipeline? Until WCF came along, you were SOL. </p><p>However, if "ease of development" was a goal for WCF, it doesn't look like it was high on the list. And frankly, that's fine. As I've <a href="http://devhawk.net/wcf+karma.aspx">written before</a>, I'd rather have a flexible if complicated low-level foundation to build higher-abstracted application infrastrucutre on top of. </p><p>Just don't try and sell me that WCF is making my life easier, because it's not. Not yet, anyway.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">852</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-01-15 16:43:54</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-01-15 16:43:54</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">mastering-wcf</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/01/16/Mastering+WCF]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Mastering+WCF]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e2475cd1-5bf4-4558-b09c-ce588c1e18a8]]></wp:meta_value>
+  </wp:postmeta>
+</item>

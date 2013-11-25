@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 138</title>
+  <link>http://devhawk.net/2008/01/16/morning-coffee-138/</link>
+  <pubDate>Wed, 16 Jan 2008 19:14:57 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://78184293-7277-4094-8a46-cc2b19c222a5</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>In writers strike news, the WGA has made side deals with <a href="http://www.deadlinehollywooddaily.com/letterman-story-upcoming/">Worldwide Pants</a> (aka Dave Letterman's company), <a href="http://www.deadlinehollywooddaily.com/wga-ua-side-deal-officially-unveiled/">United Artists</a> (aka Tom Cruise's company) and <a href="http://www.deadlinehollywooddaily.com/heroic-harvey-hardly/">The Weinstein Company</a> (<strike>previously known as Miramax</strike>). The WGA strategy of divide and conquer seems to me making slow progress. Update: The Weinstein Company was founded by Miramax's founders Harvey and Bob Weinstein after they left Miramax. But Miramax is still around. Thanks to GrantC for the correction. </li><li>They're still two games under .500, but the Caps completed a season sweep of the Eastern Conference leading Ottawa Senators last night. They're only 3 games out of the top spot in the (admittedly very weak) Southeast division  </li><li>Big tech news today isn't coming from MSFT-land. <a href="http://blogs.sun.com/jonathan/entry/winds_of_change_are_blowing">Sun is buying MySQL</a> and <a href="http://online.wsj.com/article/SB120048691486294361.html">Oracle is (finally) buying BEA</a>. Both deals seem like pretty significant culture clashes, though Sun/MySQL seems like the better fit of the two.  </li><li>There's a <a href="http://www.w3.org/TR/2008/WD-sml-20080114/">new draft</a> of Service Modeling Language 1.1 available. If you'll recall, this used to be called the <a href="http://www.microsoft.com/business/dsi/sdmwp.mspx">System Definition Model</a>, part of the <a href="http://www.microsoft.com/business/dsi/default.mspx">Dynamic Systems Initiative</a>. Hadn't heard anything from those folks in a while, good to see they're making progress.  </li><li>Stephan Tolksdorf dropped me a line to tell me he was able to "vastly simplify" <a href="http://www.quanttec.com/fparsec/">FParsec</a>, and as a result it now runs on the current version of F#. Awesome!  </li><li>Speaking of F#, Scott Hanselman has a new <a href="http://www.hanselman.com/blog/HanselminutesPodcast96StartingSmallWithFWithDustinCampbell.aspx">F# podcast</a>, this time interviewing <a href="http://diditwith.net/">Dustin Campbell</a>. Check out all of Dustin's <a href="http://diditwith.net/CategoryView,category,F%23.aspx">F# posts</a>.  </li><li>I didn't know about the <a href="http://blog.spontaneouspublicity.com/2007/12/10/productivity-tip-copy-as-path/">"Copy as Path" feature</a> in Vista. Why is it hidden?  </li><li>I was a big fan of the <a href="http://www.microsoft.com/windows/products/winfamily/desktopsearch/choose/windowsdesktopsearch.mspx">WDS</a> deskbar shortcut feature - a feature that is missing in Vista. Enter <a href="http://brandontools.com/content/StartPlusPlus.aspx ">Start++</a> by <a href="http://brandonlive.com/">Brandon Paddock</a>, which adds shortcuts to Vista's search box. It also supports "<a href="http://brandonlive.com/2007/08/18/iphone-apps-in-your-start-menu/">iPhone apps</a>" and <a href="http://brandonlive.com/2007/05/19/start-upcoming-feature-scripting/">scripting</a>. But JScript? Where's the PowerShell love, Brandon?  </li><li>EA released the <a href="http://www.donhopkins.com/home/micropolis/">source code to the original SimCity</a> under the GPL. Bil Simser is <a href="http://weblogs.asp.net/bsimser/archive/2008/01/14/building-a-city-the-series.aspx">digging into the code</a> and it looks like he's going to port it to XNA. (via <a href="http://ozymandias.com/archive/2008/01/14/simcity-sourcecode-released-under-gnu-gpl.aspx">Ozymandias</a>)  </li><li>Wes Haggard has <a href="http://weblogs.asp.net/whaggard/archive/2008/01/14/added-codehtmler-project-at-codeplex.aspx">published the source code</a> to <a href="http://codeplex.com/CodeHtmer">CodeHTMLer on CodePlex</a>. He took two updates from me: the F# language definition as well as the ability to choose the font when not using PRE tags. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1090</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-01-16 11:14:57</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-01-16 19:14:57</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-138</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="games"><![CDATA[Games]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="washington-capitals"><![CDATA[Washington Capitals]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[78184293-7277-4094-8a46-cc2b19c222a5]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+138]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/01/16/Morning+Coffee+138]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2012</wp:comment_id>
+    <wp:comment_author><![CDATA[GrantC]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>208.120.13.121</wp:comment_author_IP>
+    <wp:comment_date>2008-01-19 09:47:43</wp:comment_date>
+    <wp:comment_date_gmt>2008-01-19 17:47:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Dept. of Fact Checking: technically The Weinstein Company is not the company previously known as Miramax. The Weinstein Bros. left Miramax after sparring with its owner, Disney. TWC is the new company they founded, Miramax continues to operate today just w/o Bob and Harvey.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

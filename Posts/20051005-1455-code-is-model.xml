@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Code is Model</title>
+  <link>http://devhawk.net/2005/10/05/code-is-model/</link>
+  <pubDate>Wed, 05 Oct 2005 14:55:20 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7d6d6cb2-2300-4e39-8ad8-a2910d81d498</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>In the foreword to <a href="http://www.microsoft.com/architecture/default.aspx?pid=journal.3">Architecture Journal 3</a>, I wrote the following:</p><blockquote><p>Abstraction is the architect's key tool for dealing with complexity. We've seen the evolution of architectural abstractions techniques such as models and patterns; however, we have yet to realize much in the way of measurable value from them. Models and patterns are useful for communicating effectively with our peers, but so far they haven't helped drastically reduce the amount of resources it takes to build and operate a system. In order to continue to deal with increasing complexity, we need to get much more pragmatic about using abstraction to solve problems.</p></blockquote><p>Because the lack of measurable value to date, the IT industry at large has come to view models at best as "pretty pictures" and at worst as a pointless waste of time and resources. But the reality is, we use models in the IT industry all the time. I don't know what you're favorite modeling tool it, but my current favorite is C#. Before that was VB and before that was C++. I realize some of my readers might be more partial to Java, Ruby, or even Assembly. But the reality is: all of these so-called "higher level" programming languages are simply models of the CPU execution environment. </p><p>The only code that the CPU can understand is machine code. But nobody wants to write and debug all their code using 0’s and 1’s. So we move up a level of abstraction and use a language that humans can read more easily and that can be automatically translated (i.e. compiled) into machine code the CPU can execute. The simplest step above machine code is assembly language. But ASM isn't particularly productive so work with, so the industry has continuously raised the level of abstraction in the languages they use. C is a higher level of abstraction than ASM, adding concepts like types and functions. C++ is a higher level of abstraction than C, adding concepts like classes and inheritance. Each of these levels of abstraction presents a new model of the execution environment with new features that make programming more productive (and sometimes <a href="http://devhawk.net/2005/09/08/Portability+Without+Productivity.aspx">more portable</a>). Different languages offer different models of the execution environment. For example, the Ruby model of the execution environment allows for the manipulation of class instances while the C++ model allows for multiple inheritance. This isn't to say one is better than the other - they are just different. </p><p>In the past decade, we've seen the rise in popularity of VM based programming environments - primarily Java and CLR. In these environments, there are multiple models at work. CLR languages and Java are models above the underling VM execution environment. The VM execution environment is, in turn, a model of the physical execution environment. As an example, a C#/Java program is translated into IL/bytecode at compile time and then from IL/bytecode to machine code at runtime. So in these VMs, two model translations have to occur in order to go from programming language to machine code. It turns out that this multiple step translation approach is also useful in non-VM environments. For example, the original C++ compiler output vanilla C code which was, in turn, compiled with a vanilla C compiler. C# and Java use a similar approach, except that the second translation occurs at runtime, not compile time.</p><p>So if Code is Model, what can we learn from looking at the success of mainstream text-based programming languages to help us in the development of higher abstraction modeling languages that are actually useful. This isn't an exhaustive list, but here are a few things (tenets?) I've thought of:</p><ul><li><u><b>Models must be Precise</b></u><br />There must be no ambiguity in the meaning of the elements in a model. In C#, every statement and keyword has an exact well-defined meaning. There is never a question as to what any given piece of C# code means. There may be context-sensitive meanings, such as how the keyword "using" has different meanings in C# depending on where it is used. If you don't have a similar level of precision in your model, there's no way to transform it to lower abstraction models in a deterministic fashion. Models that can't be transformed into lower abstraction models are nothing more than pretty pictures - perhaps useful for communication with other people on the project, but useless as development artifacts. 
+</li><li><u><b>Model Transformation must be Deterministic</b></u><br />By definition (or at least by convention), models are at a higher level of abstraction than both your execution domain and mainstream programming languages - perhaps significantly higher. In order to derive value from a model, you must be able to transform it into the execution domain. Like the C# to IL to machine code example, the model transformation may comprise multiple steps. But each transformation between models must be as precise as the models themselves. When you compile a given piece of C# code, you get the same IL output every time. However, this transformation can vary across target models. For example, when you run a managed app on a x86 machine you get different machine code than if you ran it on an x64 machine. 
+</li><li><u><b>Models must be Intrinsic to the Development Process<br /></b></u>Even if you have precise models and deterministic transformations, you have to make them first class citizens of the development process or they will become outdated quickly. How often have you blueprinted your classes with UML at the start of the project, only to have that class diagram be horribly out of date by the end of the project? In order to keep models up to date, they must be used through-out the development process. If you need to make a change, make the change to the model and then retransform into the execution domain. Think of C# and IL - do we use C# as a blueprint, transform once to IL and then hand edit the IL? No! We change the C# directly and retransform into IL. We need to have the same process even as we move into higher levels of abstraction. 
+</li><li><u><b>Models Aren't Always Graphical<br /></b></u>Some things are best visualized as pictures, some things aren't. To date, we're much better at graphically modeling static structure than dynamic behavior. That's changing - for example, check out the <a href="http://msdn.microsoft.com/library/en-us/sdk/htm/ebiz_prog_useod.gif">BTS</a> or <a href="http://www.windowsworkflow.net/images/Temp/WWF%20Designer%20Screenshot%20-%20thumbnail2.jpg">WF</a> tools. But generally, it's easier to model structure than behavior graphically. Don't try and put a square peg in a round hole. If a text based language is the best choice, that's fine. Think about the Windows Forms Designer in VS - you use a graphical "language" to lay out your user interface, but you implement event handlers using a text-based language. 
+</li><li><u><b>Explicitly Call Out Models vs. Views <br /></b></u>One of the areas that I get easily confused about is model views. If I'm looking at two different model visualizations (text or graphical), when are they different models and when are they views into the same model. People don't seem to care much one way or the other, but I think the difference is critical. For example, a UML class model and a C# class are two separate models - you need a transformation to go back and forth between them. However, the VS <a href="http://blogs.msdn.com/classdesigner/">Class Designer</a> is a graphical view into the model described by the C# class definitions. Changes in one view are immediately visible in the other - no transformation required. If you look at the <a href="http://blogs.msdn.com/classdesigner/archive/2005/07/29/444501.aspx">Class Designer file format</a>, you'll notice only diagram rendering specific information is stored (ShowAsAssociation, Position, Collapsed, etc.). I guess this could fall under "Models must be Precise" - i.e. you should precisely define if a given visualization is a view or a model - but I think this area is muddy enough to warrant it's own tenet.</li></ul><p>I'm sure there are more thoughts for this list, but that's a good start. Please feel free to leave your opinion on these tenets and suggestions for new ones in <a href="http://devhawk.net/CommentView,guid,7d6d6cb2-2300-4e39-8ad8-a2910d81d498.aspx">my comments</a>.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">639</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-10-05 14:55:20</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-10-05 14:55:20</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">code-is-model</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7d6d6cb2-2300-4e39-8ad8-a2910d81d498]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Code+Is+Model]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/10/05/Code+Is+Model]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2850</wp:comment_id>
+    <wp:comment_author><![CDATA[Steven Kelly]]></wp:comment_author>
+    <wp:comment_author_email>stevek@metacase.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.metacase.com/blogs/stevek/blogView</wp:comment_author_url>
+    <wp:comment_author_IP>193.209.12.111</wp:comment_author_IP>
+    <wp:comment_date>2005-10-06 04:53:44</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-06 11:53:44</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[[Hmm, trying to submit a comment returned me to the same page with my comment text, let's try again...]
+
+Great piece of writing, Harry! Here are some additions (also added in my blog, link above):
+
+Models Aren't Always Graphical:
+The only alternative to graphical models that you mention is text. I'd like to add matrices and tables. A matrix is normally like in IBM's Business Systems Planning, with objects on the axes and relationships marked in the cell at the intersection of their object. A table is basically an ordered list of objects and their properties: graphical models are otherwise poor at representing an ordered list. It's probably also useful to distinguish "standard" bubble-and-line graphical models from things like Sequence Diagrams, Constraint Diagrams, Spider Diagrams and even UI layouts, where the exact position of elements, and their position relative to each other, has semantic content.
+
+To return to text: Unfortunately, text doesn't integrate well with other models, primarily because it has no notion of object identity. If I write a piece of code to go with a model, I often want to use the name of one of the model's objects in the code, but there is currently no good way to do this. Copying and pasting loses the link, i.e. if I update the name in the model, it will (at least in a half-way decent modeling tool) update everywhere else in the model where that name is visible, but the text will still contain the old value. 
+
+Clearly, we need Smart Text, but exactly what that is and how it would work is an interesting research topic. Current text-based tools at best try to parse the text and cobble the links back together after changes, but that's time consuming, error prone, and basically bolting the stable door well after the horse has left. 
+
+I guess Intentional Programming is aiming to be something like Smart Text. My impression so far though is that the Intentional Programming crowd aren't particularly amenable to graphical representations - "nah, we don't want those, we can do it all in text". Hopefully I'm wrong or that is going to change: model-driven development and Smart Text would complement each other perfectly.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2851</wp:comment_id>
+    <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+    <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://from9till2.com</wp:comment_author_url>
+    <wp:comment_author_IP>86.138.201.98</wp:comment_author_IP>
+    <wp:comment_date>2005-10-06 06:59:18</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-06 13:59:18</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Good points Harry. I'm not a great fan of tenets though… ;-)
+
+I whole-heartily agree that an important lesson not to forget from the 'CASE-years' is that (a) we can't lose fidelity between the execution side (code) and the design representations in any modeling approach and (b) no oceans will require boiling. It is interesting though that saying exactly what is 'code' is actually getting increasingly harder to do. 
+
+To carry on your thread, it seems to me we are heading for more and more declarative style systems definitions either at the system framework level (Workflow State persistence, XAML presentation, Policy assertions) or at the DSL's for specific configuration points of a custom framework. The languages of C# and the like will always play the majority part, but it's the libraries/run-times and the like will really need the 'abstraction points' more. Perhaps it's the interface definitions (schema?) and the behaviors around those that need the most thought in terms of their expression in the model?
+
+Another thought is that what we lack is the common conventions for visualization of these 'non-imperative' styles. To be a useful abstraction it would seem to be important to be able to relate and summarize these things concisely. Text is useful (and can be very precise) but polymetric visualizations (the sort of stuff that Edward Tufte has been on about for years) seems to be a harvestful area for models. In the last 20 years we've spent a lot of time working out that a class shouldn't look like a cloud but a rectangle, for example. We did that so we could scale model bits to used from *AsASketch to *AsABluePrint. As computer system designers we obviously dont have a lot of faith in computer system tools as a reliable enabler?
+
+If we could let go of the UML mindset of a paper-printable-centric model representation that treats the run-time as a generic block then we could be making good progress for MDD. It's a note of irony of course that the MDA/MOF may be the exact opposite of what it will take to get to a next step of handling increased complexity. Maybe we should be letting go of those representations to move forward?
+
+We do seem to be hitting a wall with the level of complexity we have at the moment and that a 'Unified' approach ain't gonna cut it. IMO.
+
+PS Good 'model' refresher paper here for those interested: 
+
+http://www.bptrends.com/publicationfiles/01-04%20COL%20Dom%20Spec%20Modeling%20Frankel-Cook.pdf 
+
+- David
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2852</wp:comment_id>
+    <wp:comment_author><![CDATA[Alan Cameron Wills]]></wp:comment_author>
+    <wp:comment_author_email>awills@microsoft.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/alan_cameron_wills/</wp:comment_author_url>
+    <wp:comment_author_IP>213.199.128.147</wp:comment_author_IP>
+    <wp:comment_date>2005-10-06 09:41:21</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-06 16:41:21</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Good stuff.
+
+"Models are Precise" - well:
+
+(a) There is a use for imprecise models. When I'm sketching an architecture on the corner of a whiteboard, I don't need a precise semantics: I need a notation familiar enough that I can convey and discuss my ideas. What's familiar might depend on the business context and the level of implementation detail I'm talking at - flight paths, tube map, org charts, or maybe sequence charts.
+
+(b) Where we do use models for precise purposes - generating code or configurations or whatever - it is useful if the precise notation is related to, and can easily degenerate into, the familiar imprecise form. So that I can quickly sketch an impression of what I want, and later fix up the detail to make it work.
+
+Models are Abstract - no, this wasn't one of your headers, but I think it nearly was! Abstract means leaving stuff out; the power of it is that it lets me squeeze big ideas into my small brain. There's less information in an abstraction.  For me, this is the essential thing that makes it a "model": it leaves out information.
+
+There are several distinct ways a model can be abstract - i.e. leave out information:
+
+ 1. Leave out unvarying assumptions. 
+   1a   C is an abstraction of ASM because it's assumed your code follows some conventions -- for example, keeping stuff on the stack while calling a subroutine. By restricting ourselves to those assumptions, we can read the code more easily; the information is put back by the compiler.  Of course, a great benefit is that we can 'put back' different variants of the left-out stuff, to work atop different platforms.
+
+   1b   A DSL that drives a framework - for example to configure a mobile phone or a watch - is abstract because it doesn't include the stuff that's the same every time: the basic structure of the phones.  In the DSL, we omit the information about those assumptions, and the generators and execution framework put it information back.
+
+ 2. Separation of concerns.
+    A model that's about the sequence of pages in a GUI can leave out stuff about the appearance of the pages. The appearance can be dealt with in a separate language elsewhere. Here, the separate models leave out the information dealt with elsewhere, and the left-out information is put back when the different aspects or viewpoints are composed (by whatever mechanism).
+
+(I suppose that really (1) is a particular case of (2) -- the place where you choose what platform you want to implement on is a separate language, and the choice of compiler is the composition mechanism.)
+
+ 3. Indeterminacy.
+    The model is abstract because some of the information hasn't been determined or decided yet; or is maybe different every time. So for example:
+   - an HTML page specifies a sequence of words, but it rarely defines exactly how they're arranged on a screen -- that depends on the width of the window etc.
+   - programs in C# specify a sequence of behavior, but don't specify the exact timings of events; by contrast, MIDI defines the exact timings of the musical notes.
+   - a test script defines a result (like "out*out==in", or "X less than 12") without saying how you might achieve it, nor even exactly what the result must be -- just some conditions it must fulfill.  
+   - a specification - whether it's formal or informal, a slide show or a test script, or a set of example instances, or just a list of bullet points - is a model. If written well (!) it allows you to discuss the system or solution, without including all the fine detail.
+
+To me, the indeterminate kind of abstraction is a very important kind of model in software engineering. It allows you to talk sensibly about things without having decided everything yet.  This is an essential, because you can't decide everything all at once.  
+
+Programming languages aren't terribly good at this - they tend only to make sense once all the decisions have been made.  While we're half-way through a design, I want something that helps me think and talk about half-formed stuff. When working more towards the code, I want things like sequence diagrams etc; when more at the business end, I want languages appropriate to the kind of business domain; and the more I work in a particular domain, the more I want languages attuned to that domain. But again: if it's only good at expressing finished ideas, it's a kind of programming language; for me, a real *modeling* language is one that helps me while I'm developing the ideas.
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2853</wp:comment_id>
+    <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+    <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://from9till2.com</wp:comment_author_url>
+    <wp:comment_author_IP>86.138.201.98</wp:comment_author_IP>
+    <wp:comment_date>2005-10-06 12:24:19</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-06 19:24:19</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hello Alan - I almost agree.
+
+I think imprecise *Sketch Models are 'ok', and are in many ways, they are where we are now, i.e. UML2. I just wanted to add a thought though.
+
+But [and at this point I think it's fair to claim a coup d'etat on Harry's blog, just by sheer weight of text] I also think Sketching ability inhibits us slightly from keeping the models nice and tight to the execution-side. One of my greatest fears (goodness, that sounds over-dramatic) is in that progress in Modeling will be held back by going through a number of new rounds of gathering consensus around over a common display notation. If we can't degenerate for pen&board the Model notation then so be it - the steam train rolls on, but if we can, then great; just don't want to sacrifice anything for it. 
+
+I think that the benefits of a sketched/shared notation are actually only a small part of the battle in making sure that two people are sharing the same context when designing something. It's often all 'about the run-time' and how well you both share knowledge of it. The sketched rectangles help like they helped pattern languages, you can still talk at cross purposes for as long as you can keep reality at bay. RE:What most people think a Singleton or even MVC patterns do.
+
+Also, as soon as the model becomes an purely optional part of the development cycle is where it runs the risk of being irrelevant and seen as a withering design artifact for 'that guy in an office down the hall'. 
+
+Put another way, I'd trade some common Sketch notation ability any day of the week, as long as it meant I could always get to an execution 'vehicle' and could model early in terms of validating my ideas with the framework's help, i.e. rather than the whiteboard's. I want to 'run' my model as a part of an iterative design process?
+With the frameworks getting so complex now then the gap between being able to try your ideas from some sort of limited notation into actually running them is getting smaller. We seem to be growing 'rails' all the time, let's make use of that. 
+
+Anyhoo, I would be tempted to rename 'Models must be Precise' with something like 'Models must be in Context' or 'Models make Assumptions' or even 'Models Miss Things Out We Already Know Because Our Brains Are Too Small'. I like the last one best.
+
+I did like your comments on abstraction very much, but for me personally I sway towards a modeling language that helps me validate my ideas early rather than share them early.
+
+- David
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2854</wp:comment_id>
+    <wp:comment_author><![CDATA[Arnon Rotem-Gal-Oz]]></wp:comment_author>
+    <wp:comment_author_email>arnon@rgoarchitects.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.rgoarchitects.com</wp:comment_author_url>
+    <wp:comment_author_IP>85.250.250.77</wp:comment_author_IP>
+    <wp:comment_date>2005-10-06 14:15:46</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-06 21:15:46</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[[also appears in my blog]
+Hi Harry,
+
+While I tend to agree that there is a place for precise formal models that can be transformed easily to lower levels. 
+I would also like to argue that 
+	○ I think that imprecise models are also very useful, since at different points in time during the development you cannot fully specify all the finest details (even if for the "current" level of abstraction) esp. since most projects these days are iterative.
+	○ Which brings me to the next point - for imprecise models - I don't necessarily think that there's a need to keep (all of) them updated during the development life-cycle. The high-level designs can be replaces by detailed designs and they in turn can be replaces with the code itself - good code explains itself beautifully :) . 
+	○ You should carefully weight the ROI for creating such a precise model. For example I happened to work on a large (hundreds of man-year) project where the initial thought was to use a tool (Vitech's Core (http://www.vtcorp.com/overview.html) ) to for requirements analysis. The benefit was that (if done right) the model created can be "run" using their built-in simulator. After spending more than half a year (of a rather large team) we finally decided to drop this precise model for a much less precise model of use-cases which allow for a varying level of abstraction. It should be noted though, that (cross-subsystems) use cases are later refined into a DSL  which is actively used for generating cross-subsystem interfaces and simulate  missing system during  integrations. 
+	○ Another point from the former example is on the timing of requiring the precision. Modeling tools should allow several levels of precision, since in earlier stages you (usually) cannot determine all the bits and bytes that will allow for a "deterministic transformation" 
+	 
+	
+Just my 2 cents 
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2855</wp:comment_id>
+    <wp:comment_author><![CDATA[Magnus Christerson]]></wp:comment_author>
+    <wp:comment_author_email>magnus@intentsoft.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>12.109.87.34</wp:comment_author_IP>
+    <wp:comment_date>2005-10-09 08:51:51</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-09 15:51:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Great post, Harry!
+
+We often use the term "higher level of abstraction" as the one and only right answer to manage complexity. A better description would be to use the "appropriate level of abstraction" for the task at hand and I blogged on it here http://blog.intentionalsoftware.com/intentional_software/2005/09/appropriate_lev.html
+
+In that blog we also discussed the need for multiple levels of abstractions that are editable. So the issue of bi-directional transformations between models comes up. Mentally, we think of it as a refinement between the appropriate level. The trick is to maintain model level consistency as editing progresses. In the real messy world, where code is stored in simple text files, that can be edited at will, this is a tricky and expensive problem. Integrating the code in a smarter way might make it a lot easier.
+
+As for Steven Kelly's earlier blog comment about Intentional only doing SmartText based stuff: Your hopes are correct, we think a combination of text and graphics is the most powerful, and also the most natuaral to use.
+
+/Magnus]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2856</wp:comment_id>
+    <wp:comment_author><![CDATA[Jimmy Nilsson]]></wp:comment_author>
+    <wp:comment_author_email>Jimmy.Nilsson@jnsk.se</wp:comment_author_email>
+    <wp:comment_author_url>http://www.jnsk.se/weblog/</wp:comment_author_url>
+    <wp:comment_author_IP>62.181.74.138</wp:comment_author_IP>
+    <wp:comment_date>2005-10-10 10:35:35</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-10 17:35:35</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Harry,
+
+I posted the following as a comment:
+http://www.jnsk.se/weblog/posts/codeismodel.htm
+
+Best Regards,
+Jimmy
+www.jnsk.se/weblog/
+###]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2857</wp:comment_id>
+    <wp:comment_author><![CDATA[John]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/jevdemon</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2005-10-11 12:18:56</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-11 19:18:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I have to admit I was ready to debunk this until you got into the (somewhat philosophical) discussion of code being an abstraction layer between the CPU and the developer - nice touch!  That said, I think we can agree that there are different types of models for different types of purposes.  Developers will easily buy into Code is Model but business analysts (and to a lesser extent, architects) will not.  The concept of domain-specfic models helps address this issue.   The one (minor) quibble is the section at the end dealing with views.  Just as we can have different types of models we can also have differnet types views of a single model.  We might have a code view versus a graphical view or an individual participant's view of a larger business process (e.g. a raw material supplier's view of their role and responsibilities in a larger manufacturer's supply chain).  
+Nice post!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2858</wp:comment_id>
+    <wp:comment_author><![CDATA[orcmid]]></wp:comment_author>
+    <wp:comment_author_email>dennis.hamilton@acm.org</wp:comment_author_email>
+    <wp:comment_author_url>http://nfocentrale.net/orcmid/blog/</wp:comment_author_url>
+    <wp:comment_author_IP>216.160.65.145</wp:comment_author_IP>
+    <wp:comment_date>2006-02-21 13:44:51</wp:comment_date>
+    <wp:comment_date_gmt>2006-02-21 21:44:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I've been waiting to come up with something profound to toss in here, and I will give that up to point out one particular thing.  First, I agree about (machine) code.  You can tell that from "What Computers Know" (http://nfocentrale.net/orcmid/blog/2006/02/what-computers-know.asp).
+
+But I'm not sure that we are raising the level of abstraction exactly (though raising something, for sure) as we move up through layers of programming languages, maybe not even domain-specific languages.  
+
+Why do I say that?
+
+Well, because the model is not married to the behavior that is elicited from the computer.  We are doing something about the expressibility of certain things, but we need to understand that a good part of that expressibility having to do with what the program is for is an illusion that only we know and understand.  It has no impact on what the computer does.
+
+My simple illustration has to do with obfuscation of code.  Run your source-code-as-model through a really-great obfuscator.  Same behavior by the computer; clearly a fully-equivalent program is produced.  But where's the model now?
+
+In some sense, the transformation from source to executable preserves something and it also delivers something.  The delivery is (at best) very loosely-related to our intention for the software.  It seems to me that the programs we write preserve our model while being indifferent to it.  That this works at all is a consequence of our care and only our care.
+
+That says to me that the articulation of the model will likely always have to be elsewhere.  Source code doesn't really carry it except as a kind of computer-ignored narrative and cues (choice of identifiers) that are for us and not the machine.  Furthermore, our model is generally different than one that deals at the level of abstraction which has the computer's behavior as its "extensional" meaning.
+
+[I don't want to rule out the value of model-driven schemes at this point, although I think it is important to understand where the design rules come from and how that is not anything the computer "knows" on its own.]
+
+Hmm, maybe this is baked enough to start writing about ... .
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

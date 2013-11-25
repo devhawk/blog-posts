@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Architect Bloggers</title>
+  <link>http://devhawk.net/2004/07/23/new-architect-bloggers/</link>
+  <pubDate>Fri, 23 Jul 2004 17:03:05 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a14e76e5-0269-4fbf-854f-ce2f1178fc51</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>A couple new MSFT architect bloggers to note. <a href="http://blogs.msdn.com/maarten_mullender/">Maarten</a>, author of the recent <a href="http://msdn.microsoft.com/isapi/CTRedir.asp?type=CT&amp;source=MSDN&amp;sPage=WP_DevCenterHeadlines_C715FFDA-C1CA-434A-8301-2EB52B230298|DevCenterHeadlines||Dealing%20with%20Concurrency%3A%20%22Waiter%2C%20is%20this%20data%20fresh%3F%22&amp;tPage=http://msdn.microsoft.com/architecture/default.aspx?pull=/library/en-us/dnbda/html/concurev4m.asp">Dealing with Concurrency</a> article, <a href="http://blogs.msdn.com/maarten_mullender/archive/2004/07/23/193524.aspx">details</a> his <a href="http://blogs.msdn.com/maarten_mullender/archive/2004/07/20/189342.aspx">issues</a> with CRUD. <a href="http://www.davidjwhite.net/blog/">David “Lottery” White</a> has restarted his blog and writes about <a href="http://www.davidjwhite.net/blog/PermaLink.aspx?guid=9a6d66e7-c870-44d9-af57-84c3663d5573">the practical architect</a>. <a href="http://weblogs.asp.net/bobrien">Bill O'Brein</a> blogs about <a href="http://weblogs.asp.net/bobrien/archive/2004/07/07/175355.aspx">presenting on patterns</a> at TechEd Europe. Both <a href="http://blogs.msdn.com/smguest">Simon</a> and <a href="http://blogs.msdn.com/kevinha">Kevin</a> have both been experimenting custom MQ transport providers for <a href="http://msdn.microsoft.com/webservices/building/wse/default.aspx">WSE2</a> - Simon <a href="http://blogs.msdn.com/smguest/archive/2004/07/15/184420.aspx">using MQ Series</a> and Kevin <a href="http://blogs.msdn.com/kevinha/archive/2004/07/12/181026.aspx">using MSMQ</a>. <a href="http://pluralsight.com/blogs/tewald/default.aspx">Tim Ewald</a> is back in blog on the PluralSight site, <a href="http://pluralsight.com/blogs/tewald/archive/2004/07/12/1618.aspx">blogging</a> about the differences between XSD and OO inheritance. And my old teammate <a href="http://blogs.msdn.com/marleyg">Marley</a> explains the <a href="http://blogs.msdn.com/marleyg/archive/2004/07/23/192556.aspx">game of Spoons</a>. Not sure what that has to do with architecture, but it appears my old team had a very good time in Atlanta. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">403</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-07-23 17:03:05</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-07-23 17:03:05</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-architect-bloggers</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a14e76e5-0269-4fbf-854f-ce2f1178fc51]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Architect+Bloggers]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/07/24/New+Architect+Bloggers]]></wp:meta_value>
+  </wp:postmeta>
+</item>

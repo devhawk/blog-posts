@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Quickies</title>
+  <link>http://devhawk.net/2003/07/09/quickies/</link>
+  <pubDate>Wed, 09 Jul 2003 08:15:08 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://91470942-55d1-4be3-92db-4b3a09588a8b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Happy belated July 4th. There's a big internal sales conference for Microsoft next week, so I've been spending as much time with my family and not with my computer. But right now I'm in Phoenix, where it's getting into the "one-teens", so there's no reason not to blog.</p><ul><li>I've got 3 new members of the <a href="http://www.gotdotnet.com/Community/Workspaces/workspace.aspx?id=bef1fffe-6d20-42c8-a72d-ae7e9a5a194b"> SPSynd Workspace</a>. It's kinda weird since it's basically an anonymous system. Do I trust people I don't know anything about to have upload rights to the project? In the end, I decided yes, since it's under source control. Here's my GDN ask - can we get an activity ranking for members like we do for directories? Or maybe this isn't a good idea - I'd probably have a very low rank.</li><li>I've gotten some interest for <a href="PermaLink.aspx?guid=76e1d3ed-5624-43aa-bd8f-8de5bdcf7100">making workspaces</a> for other projects of mine. I've been a little busy with work (fiscal year ended with June) and family to do this. I also have to check w/ Chris Sells since <a href="prj_messenger.aspx">Messenger.NET</a> is built on his <a href="http://www.sellsbrothers.com/tools/#imcli">imcli</a> library.</li><li>I joined <a href="http://dotnetweblogs.com/JAlexander/">Jason Alexander's</a><a href="http://www.gotdotnet.com/Community/Workspaces/Workspace.aspx?id=7adcc4ca-95d8-46bb-bb24-1e4b9eacb858"> nGallery workspace</a>. I have a <a href="http://www.winisp.net/harrypierson/">gallery of baby photos</a> that I built using FrontPage. But I want to turn this into a full fledged ASP.NET app. nGallery looks pretty cool so far, so I'm looking forward to getting involved. (I haven't yet - see early bullet about having a low member rank)</li><li>I'm listed in an article on MSFT weblogers in the <a href="http://seattlepi.nwsource.com/business/129927_msftblog08.html"> Seattle PI yesderday</a>. <a href="http://radio.weblogs.com/0001011">Robert</a> gets his picture taken. <a href="http://www.netcrucible.com/blog">Joshua</a> and <a href="http://www.sellsbrothers.com">Chris</a> get quoted. I get listed as a good place to find other MSFT weblogs. Not glamorous, but it's better than nothing I guess. Near the end, the article mentions that MSFT has a hands-off approach to employee blogs. I <a href="PermaLink.aspx?guid=576cf7cf-8645-49e1-a922-996b698446ec">still don't get</a> why this is such a big deal.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">144</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-07-09 08:15:08</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-07-09 08:15:08</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">quickies</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/07/09/Quickies]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Quickies]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[91470942-55d1-4be3-92db-4b3a09588a8b]]></wp:meta_value>
+  </wp:postmeta>
+</item>

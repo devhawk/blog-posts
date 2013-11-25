@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Restating the Concurrency Problem</title>
+  <link>http://devhawk.net/2007/07/10/restating-the-concurrency-problem/</link>
+  <pubDate>Tue, 10 Jul 2007 12:05:41 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://9167a850-9f84-494d-a871-5fd2cb2300de</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'll be honest, I recommended Herb Sutter's concurrency series in <a href="http://devhawk.net/2007/07/10/Morning+Coffee+99.aspx">today's Morning Coffee</a> because it a series on concurrency by Herb Sutter. In other words, I hadn't actually read it yet, but I know how good Sutter's stuff is. Now I have read it and I wanted to re-issue my recommendation, even more strongly. <a href="http://www.ddj.com/dept/architect/200001985">Go read it</a>. </p><p>Interestingly enough, I like the article because it doesn't provide an "answer" to the problem of concurrency. Rather, by providing a mental model, it essentially is a concise and precise restatement of the <em>problem</em>. Often, in the rush to find a solution to a problem, this step is skipped and it isn't until the end that you realize that you misunderstood the original problem and what you built doesn't match what you need.</p><p>I've often argued that this is also the key to selling in the enterprise. In my experience, whatever solution you're selling is usually way too complicated to be understood by the people who have the purchasing power to buy it. So explaining how your solution works or how your solution solves the problem isn't going to get you very far. However, the buyer does understand the problem at hand. Being able to demonstrate that you understand the fundamental nature of the problem and can communicate it back to them garners you a great deal of trust in the selling process. If you can show that you understand their problem, then you probably know how to fix it - even if the buyer doesn't understand how your solution works.</p><p>One other quick thought on Sutter's article. In discussing the use of concurrency to keep a GUI responsive (aka Pillar 1), he wrote the following:</p><blockquote><p>Today, we typically express Pillar 1 by running the background work on its own thread or as a work item on a thread pool; the foreground task that wants to stay responsive is typically long-running and is usually a thread; and communication happens through message queues and message-like abstractions like futures (Java <i>Future</i>, .NET <i>IAsyncResult</i>). In coming years, we'll get new tools and abstractions in this pillar, where potential candidates include active objects/services (objects that conceptually run on their own thread, and calling a method is an asynchronous message); channels of communication between two or more tasks; and <span style="font-weight: bold; background-color: #ffff00">contracts that let us explicitly express, enforce, and validate the expected order of messages</span>. [emphasis added]</p></blockquote><p>If we're going to provide the ability to express, enforce and validate the expected order of messages between concurrent blocks of code, can we also do it for services across the network? WSDL is wholly deficient in this area. <a href="http://ssdl.org">SSDL's</a><a href="http://ssdl.org/docs/v1.3/html/CSP%20SSDL%20Protocol%20Framework%20v1.3.html">Communicating Sequential Processes</a> (CSP) and <a href="http://ssdl.org/docs/v1.3/html/Rules%20SSDL%20Protocol%20Framework%20v1.3.html">Rules-based</a> Protocol Frameworks are a good start.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1002</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-07-10 12:05:41</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-07-10 12:05:41</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">restating-the-concurrency-problem</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="concurrency"><![CDATA[Concurrency]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[9167a850-9f84-494d-a871-5fd2cb2300de]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Restating+The+Concurrency+Problem]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/07/10/Restating+The+Concurrency+Problem]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Doughnuts 7</title>
+  <link>http://devhawk.net/2007/06/04/morning-doughnuts-7/</link>
+  <pubDate>Mon, 04 Jun 2007 10:18:01 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dale</dc:creator>
+  <guid isPermaLink="false">http://8a26279e-c514-46be-bab9-dfa17163f2a2</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Once again I get the chance to fill in for Harry while he is gone. I will attempt to keep up with the high standard he has set.</p><ul><li>Be careful with trampolines. I have a four year old that was bouncing on a trampoline this weekend. He twisted his knee slightly on landing, and decided that the fastest way to get comfort was to jump off the edge. His knee gave out and he fractured his tibia. I don't think this was how he planned to start his summer. At least he is pretty calm about the whole thing.</li><li>It looks like there is a good product out there named <a href="http://www.secureteam.net/">CliSecure</a> to obfuscate .net code. From what I was able to read it looks like a pretty decent product, even hiding the code while its in memory. (via <a href="http://www.larkware.com/dg8/TheDailyGrind1156.aspx">Larkware</a>)</li><li><a href="https://www1.msteched.com/public/agenda.aspx">TechEd</a> started this morning. While I am sure Harry will be giving some on-site reports there is a link to the virtual site <a href="http://www.virtualteched.com/Pages/default.aspx">here</a>.</li><li>There is a great <a href="http://www.infoq.com/presentations/hohpe-soa-development">video</a> showing <a href="http://www.enterpriseintegrationpatterns.com/gregor.html">Gregor Hohpe</a> talking about SOA, and the many unrealistic claims in the industry. If you have read any of Hohpe's work it is clear that he has a great understanding of the topic. (via <a href="http://blogs.msdn.com/nickmalik/archive/2007/06/01/debunking-soa-myths.aspx">Nick Malik</a>)</li><li>The <a href="http://netscape.nba.com/finals2007/index.html">NBA Finals</a> will begin this week with the <a href="http://www.nba.com/spurs/news/playoffs_2007.html">Spurs</a> playing the <a href="http://www.nba.com/cavaliers/">Cavaliers</a> and <a href="http://en.wikipedia.org/wiki/LeBron_James">King LeBron</a>. I wonder if this will help rescue the NBA from what seems to be a real apathy on the part of the average fan. Other than the series between Dallas and Golden State earlier in the play-offs it really seems there haven't been any compelling stories. The NBA really needs a shot in the arm to become relevant again.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">974</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-06-04 10:18:01</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-06-04 10:18:01</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-doughnuts-7</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="family"><![CDATA[Family]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[8a26279e-c514-46be-bab9-dfa17163f2a2]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Doughnuts+7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/06/04/Morning+Doughnuts+7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

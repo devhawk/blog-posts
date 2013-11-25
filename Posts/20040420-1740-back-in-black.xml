@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Back in Black</title>
+  <link>http://devhawk.net/2004/04/20/back-in-black/</link>
+  <pubDate>Tue, 20 Apr 2004 17:40:26 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://2e887642-693a-4db6-adce-04746461051e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>It's been a busy week. I was on <a href="http://www.franklins.net/fnetdotnetrocks/dotnetrocks.aspx?showid=61">.NET Rocks</a>, we published <a href="http://msdn.microsoft.com/architecture/journal">JOURNAL</a> and I seem to have stirred up some discussion with my <a href="http://devhawk.net/PermaLink.aspx?guid=950774a9-b33b-4a46-bb2b-a481cf946251">endangered middle-tier post</a>. </p><p>But then I was silenced by a floppy disk. </p><p>My friend Tom, who hosts DevHawk and <a href="http://techiewife.com">TechieWife</a> for me, is on a contract job out-of-state and couldn't remotely diagnose why the web server that hosts this blog wouldn't reboot after a power-outage. Turns out there was a floppy in the drive and go figure, the server tried to boot from the floppy. So I've been offline all week. Still, I have to give Tom props as</p><ol><li>He hosts me for free</li><li>I have admin access to the machine</li><li>He's down to try new things</li></ol><p>Being on .NET Rocks last week reminded my a little of my old <a href="http://devhawk.net/PermaLink.aspx?guid=a902cf28-c4c3-4ed1-9c8a-ee71eaa760db">college DJ days</a>. I've got an idea I'd like to play around, but I'd need a media server. That's where #3 above comes into play. I ask Tom and I receive. No idea what I'm going to do with it yet, but now I have a media server to play with. Thanks, Tom...You Rock!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">352</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-04-20 17:40:26</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-04-20 17:40:26</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">back-in-black</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[2e887642-693a-4db6-adce-04746461051e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Back+In+Black]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/04/21/Back+In+Black]]></wp:meta_value>
+  </wp:postmeta>
+</item>

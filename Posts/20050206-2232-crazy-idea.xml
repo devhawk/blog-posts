@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Crazy Idea </title>
+  <link>http://devhawk.net/2005/02/06/crazy-idea/</link>
+  <pubDate>Sun, 06 Feb 2005 22:32:38 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://951a05f3-95b1-4477-ac23-9dba308b012d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>When web servers were first built, there was a one-to-one mapping between virtual files (i.e. addressable via http) and the physical files (the ones in the file system). Over time, two important capabilities were added. First, the contents of a given file became dynamic. So while you the reader always come back to default.aspx (or rss.aspx as the case may be) the content changes everytime I post something new. Secondly, the physical file dependency was removed. It's not used much in dasBlog, but in .TEXT this is very prevelant. My <a href="http://blogs.msdn.com/devhawk/archive/2005/02/01/364380.aspx">last post</a> on blogs.msdn.com is located at http://blogs.msdn.com/devhawk/archive/2005/02/01/364380.aspx. Obviously, there is no actual file named 364380.aspx, .TEXT uses the filename as a key into the DB to find the actual entry content. This technique is used extensively in the new <a href="msdn2.microsoft.com">MSDN2</a> (if you haven't already, check out <a href="http://www.pluralsight.com/blogs/tewald/default.aspx">Tim Ewald's</a> MSDN Magazine <a href="http://msdn.microsoft.com/msdnmag/issues/05/02/InsideMSDN/default.aspx">article</a> about URL design for MSDN2).</p><p>So now for the funky idea part - why couldn't we generate dynamic local files the same way? I'm not sure I've got a great use for this yet - most of the apps I use are programmable to some extent, so dynamic content can be generated at the app level rather than at the file system level. But I'm thinking there may be some scenarios where it would make sense to do this at the file system. For example, in the new <a href="http://www.microsoft.com/genuine/offers/details.aspx?displaylang=en&amp;OfferId=74AA1C1D-DFFC-4D91-BC6F-515BE8E59948">Winter Fun Pack</a> there's a new version of the WMP blogging plugin that autoupdates the Outlook and Outlook Express signature files whenever the song being played changes (a la Duncan's Coding4Fun <a href="http://msdn.microsoft.com/library/en-us/dncodefun/html/code4fun09072004.asp">article</a>). But with virtual files in the file system, you could generate these files when they are accessed instead of writing new ones everytime the song changes, even if Outlook open.</p><p>Of course, our local file system typically has more writing activity than the web, so I'm thinking this isn't that great an idea. But I figured I'd share in case someone else could think of some good uses. Or maybe this already exists and I just don't know about it.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">531</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-02-06 22:32:38</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-02-06 22:32:38</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">crazy-idea</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[951a05f3-95b1-4477-ac23-9dba308b012d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Crazy+Idea]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/02/07/Crazy+Idea]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2771</wp:comment_id>
+    <wp:comment_author><![CDATA[Tiago Pascoal]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-07 02:11:10</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-07 10:11:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Humm i think Linux (i'm sure other unixes have it too) has this, /proc/* for example. But this is done at a kernel level, not sure if such thing exists at the user process level, i bet there is something. But if there isn't i sure it would be an easy hack.
+
+What kind of semantics were you thinking? would these virtual files be seekable? how would they be versioned? what kind of concurrency controls would need to exist? 
+
+Sure pull instead of push (with a lot of unnecessary pushing ocurring in your described scenario) is nice, but i wonder if the effort would be worth it?
+
+just wondering.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2772</wp:comment_id>
+    <wp:comment_author><![CDATA[Chris Bilson]]></wp:comment_author>
+    <wp:comment_author_email>cbilson@pobox.com</wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.factored-software.com/chris</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-07 05:56:28</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-07 13:56:28</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I agree that there are some exciting possibilities for this type of thing, and I use several "virtual filesystems" everyday (Daemontools (for mounting ISO files), web folders (for mounting WebDAV directories)), etc. If you zoom in a little closer, I think you'll see all filesystems are virtual. There aren't actually any files on a disk...just sectors/blocks.
+
+But I think there are some dangers too. I think the assumption that filesystems are fairly static and computationally cheap to access is too baked into most software. I think this goes back to the idea that, "boundaries should be explicit."
+
+If you really wanted to, however, you could make a fairly decent dynamic virtual file system using web folders and WebDAV pointing at a web server.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2773</wp:comment_id>
+    <wp:comment_author><![CDATA[Oran]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-07 09:54:51</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-07 17:54:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Check out the "subst" command that comes with Windows.  This might get you part of the way there.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

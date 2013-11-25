@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Putting a Square Peg Model in a Round Hole Tool</title>
+  <link>http://devhawk.net/2005/02/25/putting-a-square-peg-model-in-a-round-hole-tool/</link>
+  <pubDate>Fri, 25 Feb 2005 17:34:22 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0b5ae99e-f851-4a35-bc55-ad9912559622</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Robert Bauman left the following <a href="http://blogs.msdn.com/devhawk/archive/2005/02/24/379473.aspx#379697">comment</a> on my <a href="http://devhawk.net/MDA+And+Software+Factories++Separated+At+Birth.aspx">Separated at Birth</a> post?</p><blockquote><p>The nice thing about using a general purpose modeler is that you can house all of your requirements, use cases, etc. in the same model. Rational provides the 4+1 view, Sparx Systems Enterprise Architect provides several views out of the box that you can easily navigate around... It means that everyone is working off of the same set of rules.</p><p>As soon as you start putting those rules into Visual Studio, they change and deviate from the model. It's true that the AndroMDA does require you to remember to use certain stereotypes, but that's all part of the game anyhow. <br /><br />That's like saying, "well, the GoF patterns are nice, but then you have to remember what it means to have an Observer pattern". Furthermore, UML tools let you customize the list of stereotypes that show in the dropdown, and even the picture that should be associated with those stereotypes. Why mess with some other modeling standard when you can do it all with a proper UML tool</p></blockquote><p>The point I was making is that when you start using the class model to design something other than classes, you're using a domain specific language - even if you're using a general purpose modeling tool.  Take a look at this <a href="http://www.andromda.org/modeling.html">example</a> from the AndroMDA website. Their example reads:</p><blockquote><p>You tag a CustomerService class with a &lt;&lt;Service&gt;&gt; stereotype. AndroMDA sees this stereotype, looks into its internal dictionary of available code generation components (called "cartridges") and finds the EJB cartridge. In the EJB cartridge, two templates correspond to the &lt;&lt;Service&gt;&gt; stereotype: SessionBean.vsl and SessionBeanImpl.vsl. AndroMDA uses the internal representation of CustomerService loaded from the model, calls the processing engine twice, and two output files are generated: CustomerServiceBean.java and CustomerServiceBeanImpl.java. </p></blockquote><p>In this example, classes with the &lt;&lt;Service&gt;&gt; stereotype actually generate two code classes - the Bean and the BeanImpl. But if we were using the class diagram <i>as it was intended</i>, wouldn't there be a one-to-one mapping between a class in the model and a class in the code? As soon as you break that one-to-one mapping, you're no longer modeling classes. A &lt;&lt;Service&gt;&gt; is something at a higher level of abstraction than a class - otherwise it wouldn't take two classes to implement it.</p><p>BTW, I'm not saying that there is anything wrong with this approach at all! I'm just pointing out the similarities between an approach that many people are using to achieve practical results with UML today and what you can do with the modeling tools that Microsoft is building. </p><p>The key difference comes down to tools. Yes, you can use the class diagram and stereotypes to model stuff at a higher level of abstraction like Services and Entities. But putting a square peg in a round hole like that has problems. Since you're not using the tools as they were designed, you have to manually enforce rules that the tool doesn't know about. Sure, you can add some semantics via stereotypes, but you can't take anything away. How easy is it to build a valid class model that isn't a valid service model? Pretty easy. For example, do services support inheritance? Classes do. My EJB is a little rusty, but I don't think beans do. It certainly doesn't make sense for a service to inherit from an entity or vis-versa. Yet, the class modeler will happily let you do this, even though it makes no sense in the domain you're actually trying to model.</p><p>The value of domain specific languages is that have a tool that is specifically designed to model the domain you're working in. If you're designing classes, of course you'd want to use a class model. We have a <a href="http://msdn.com/library/en-us/dv_vstechart/html/clssdsgnr.asp">great one</a> coming in VS2005. But if you're designing services or entities or page flows or whatever else, why wouldn't you want a tool that's specific to the problem at hand?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">557</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-02-25 17:34:22</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-02-25 17:34:22</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">putting-a-square-peg-model-in-a-round-hole-tool</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0b5ae99e-f851-4a35-bc55-ad9912559622]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Putting+A+Square+Peg+Model+In+A+Round+Hole+Tool]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/02/26/Putting+A+Square+Peg+Model+In+A+Round+Hole+Tool]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2791</wp:comment_id>
+    <wp:comment_author><![CDATA[Javier Muñoz]]></wp:comment_author>
+    <wp:comment_author_email>jmunoz@dsic.upv.es</wp:comment_author_email>
+    <wp:comment_author_url>http://www.dsic.upv.es/~jmunoz</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-28 04:14:30</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-28 12:14:30</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[In general, I agree with the content of the post but...
+
+> But if we were using the class diagram as it was intended, wouldn't there be a one-to-one mapping between a class in the model and a class in the code?
+
+I suppose you are assuming that the Class Diagram is intended to be used for design purposes. Then, a class diagram could be considered simply as a code visualizer. In this case, what about nxn relationships? Why are they used in class diagramas if they don't have a one-to-one mapping?
+
+I think that the class diagram is usually (or sometimes) used for conceptual modelling purposes, where you are capturing the structure of your domain and not the structure of your software. Then, we need one-to-many mappings for converting the class diagram into software classes.
+
+Anyhow, I completely agree we should use DSLs. In fact we are all using DSLs when we are "intepreting" the semantics of UML (even when we use it without stereotypes) in the transformation from UML to code.
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2792</wp:comment_id>
+    <wp:comment_author><![CDATA[Charles Rivet]]></wp:comment_author>
+    <wp:comment_author_email>tevirselrahc@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-28 08:31:48</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-28 16:31:48</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Javier already stated an obvious problem with your diatribe, so I will not go over that again. Although, if you look at elaborationist model driven development, you will see that there are "analysis" classes that are developed from use cases that then fan-out to "design" classes. And these _can_ also fan-out to "implementation" classes, depending on the implementation language...
+
+You also state:
+
+"Since you're not using the tools as they were designed, you have to manually enforce rules that the tool doesn't know about. Sure, you can add some semantics via stereotypes, but you can't take anything away."
+
+Actually, you can...  To continue your example, I can define a profile that restricts the inheritance from "service" classes. This can be done today by attaching an OCL constraint to, for example, a class (and making it the default behaviour).
+
+Now if I were to create new icons for the service and have this type of constraint defined in the profile, I would have a DSL!
+
+Now there are cases where it is very difficult to extend UML to provide correct DSL support, but the example you provide in this post are not likely to convince people who understand how this works. And in cases where UML can not be used, then a DSL building tool would certainly help!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2793</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-28 18:52:06</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-01 02:52:06</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Charles, I'm not sure I'd call this a diatribe, but your point is well taken. I did not realize you can use OCL to constrain the model - in the discussion that we had at the IASA user group meeting last week, that idea was rejected by those that use UML tools in this way as "not working very well". So maybe they're just using the wrong tool. 
+
+Either way, as you point out, you end up with a DSL! My primary point is that how more similar these approachs are than they are different.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2794</wp:comment_id>
+    <wp:comment_author><![CDATA[Charles Rivet]]></wp:comment_author>
+    <wp:comment_author_email>tevirselrahc@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-01 07:13:07</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-01 15:13:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I completely agree!!!
+
+Too many people are making up a lot of noise about how these approaches are very different when they are talking about basically the same thing: the need to present people with constructs that they understand at _their_ level of abstractions.
+
+If you can do that on a common base, then you gain the benefit of existing tools. But if the DSL is too complex for that common base, let's not shy away from creating a new tool. The important thing, in the end, is the user's productivity.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Perusing Powershell Part 2: Error or No Output?</title>
+  <link>http://devhawk.net/2007/02/07/perusing-powershell-part-2-error-or-no-output/</link>
+  <pubDate>Wed, 07 Feb 2007 12:00:35 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://99d7e902-9225-48e9-89f9-c390ce84afff</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[In <a href="http://devhawk.net/2007/02/06/Perusing+Powershell+Part+1+GetSQLServer.aspx">yesterday's post on PS</a>, I provided the source for my implementation of Get-SQLServer. I realized after I made the post that there was a significant bug in the ProcessRecord method. If you specify a service instance (default or named), the cmdlet makes no effort to actually validate that such a SQL server instance exists. So if you ask for a instance that doesn't exist, Get-SQLServer will happily write an invalid Server object to the pipeline. So I changed it to actually validate that the specified instance exists. I connect to the specified machine (local machine if not specified) using <a href="http://msdn2.microsoft.com/library/microsoft.sqlserver.management.smo.wmi.managedcomputer.aspx">ManagedComputer</a> and look in it's ServerInstances collection for the specified SQL instance.
+
+The question is, what should you do if the specified SQL instance <em>doesn't</em> exist on the specified machine? One the one hand, you could <a href="http://msdn2.microsoft.com/library/system.management.automation.cmdlet.writeerror.aspx">write an error</a> indicating that the SQL instance doesn't exist. Or, you could simply write nothing to the output pipeline, which may cause an error down the line.
+
+Which is the right approach?
+
+At first, I wrote an error when I couldn't find the instance, but decided that wasn't the right approach. It isn't really an error unless you attempt to act on that instance, right? So I thought the more PS friendly approach would be to write nothing and let the down stream cmdlets deal with it. I do <a href="http://msdn2.microsoft.com/library/system.management.automation.cmdlet.writedebug.aspx">write a debug message</a> if the specified instance doesn't exist, so the scripter isn't completely in the dark.
+
+So here's the new and improved ProcessRecord method of my Get-SQLServer cmdlet:
+
+&nbsp;
+<pre class="brush:csharp">protected override void ProcessRecord() 
+{ 
+    //Make sure both -Name and -Default aren’t specified
+    if (!string.IsNullOrEmpty(_Name) &amp;&amp; _Default.IsPresent) 
+    { 
+        WriteError(new ErrorRecord( 
+            new ArgumentException( 
+                “Default and Name parameters can’t both be specified”),
+            “DefaultAndName”, 
+            ErrorCategory.InvalidArgument, 
+            null));
+        return; 
+    }
+
+    //If the machine name is not specified, assume the local machine 
+    //(via the “.” value)
+    string machine = string.IsNullOrEmpty(_MachineName) ? “.” : _MachineName;
+
+    //Connect to the specified machine via the SMO WMI ManagedComputer object
+    SmoWmi.ManagedComputer mc = new SmoWmi.ManagedComputer(machine);
+
+    if (string.IsNullOrEmpty(_Name) &amp;&amp; !_Default.IsPresent) 
+    { 
+        //If neither Name or Default are specified, write all the 
+        //server instances on specified machine
+        foreach (SmoWmi.ServerInstance si in mc.ServerInstances) 
+            WriteServerObject(si);
+
+        return; 
+    }
+
+    string instanceName = _Default.IsPresent ? “MSSQLSERVER” : _Name;
+
+    if (mc.ServerInstances.Contains(instanceName)) 
+        WriteServerObject(mc.ServerInstances[instanceName]); 
+    else
+        WriteDebug(“The specified SQL instance does not exist”); 
+}
+
+//Helper method to create a SMO Server object from a 
+//SMO WMI ServerInstance object and write it to the pipeline
+private void WriteServerObject(SmoWmi.ServerInstance si) 
+{ 
+    if (si.Name == “MSSQLSERVER”) 
+        WriteObject(new Smo.Server(si.Parent.Name)); 
+    else
+        WriteObject(new Smo.Server(si.Parent.Name + “\” + si.Name));
+}</pre>
+&nbsp;
+
+&nbsp;]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">877</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-02-07 12:00:35</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-02-07 12:00:35</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">perusing-powershell-part-2-error-or-no-output</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/02/07/Perusing+Powershell+Part+2+Error+Or+No+Output]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Perusing+Powershell+Part+2+Error+Or+No+Output]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[99d7e902-9225-48e9-89f9-c390ce84afff]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

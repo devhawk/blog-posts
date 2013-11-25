@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 31</title>
+  <link>http://devhawk.net/2007/02/14/morning-coffee-31/</link>
+  <pubDate>Wed, 14 Feb 2007 09:59:21 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://79beb4c8-b455-42bf-a26c-59c839e07ef5</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Architect MVP business news keeps on coming. Today it's Corillian - the company Scott Hansleman works for - <a href="http://www.hanselman.com/blog/TheNextStepCheckFreeToAcquireCorillianFor245m.aspx">getting acquired by CheckFree</a>. </li><li>Los Angeles is looking to provide <a href="http://www.latimes.com/news/local/la-fi-wifi14feb14,0,3502072.story">city-wide low-cost (maybe free) wireless access</a>. My father has often suggested that Internet access be treated like other utilities like water and power. Sounds like LA is heading down that path. I wonder if they're looking at WiMAX?</li><li>The <a href="http://msdn2.microsoft.com/en-us/embedded/bb267253.aspx">.NET Micro Framework</a> - which powers <a href="http://direct.msn.com/">the SPOT watch</a> - now has an SDK. For those keeping track, that makes three embedded solution platforms from Microsoft, the Micro FX, <a href="http://www.microsoft.com/windows/embedded/eval/wince">Windows CE</a> (which also just shipped a <a href="http://www.microsoft.com/presspass/press/2007/feb07/02-11WM6SoftwarePR.mspx">new version</a>) and <a href="http://www.microsoft.com/windows/embedded/eval/xpe">Windows XP Embedded</a>. (via <a href="http://www.larkware.com/dg7/TheDailyGrind1078.aspx">Larkware</a>)</li><li>BEA's Bruce Graham <a href="http://www.cbronline.com/article_news.asp?guid=D330D400-0914-4683-B152-0764854853C6">talks somewhat obtusely</a> on a topic I am particularly passionate about: putting more power in business people's hands to build their own systems. (via <a href="http://blogs.zdnet.com/service-oriented/?p=814">Joe McKendrick</a>)</li><li>Register for the <a href="http://connect.microsoft.com/WindowsHomeServer">Windows Home Server beta</a>. Also check out the <a href="http://forums.microsoft.com/WindowsHomeServer/default.aspx?SiteID=50">forums</a>, <a href="http://blogs.technet.com/homeserver/default.aspx">team blog</a> and <a href="http://www.winsupersite.com/reviews/whs_preview.asp">SuperSite Preview</a>. Looks pretty sweet (via <a href="http://www.hanselman.com/blog/SignUpForWindowsHomeServerBeta2.aspx">Scott Hansleman</a>)</li><li>The final version of <a href="http://mobile.search.live.com/about/">Live Search for Mobile</a> was released a few days ago. This program rocks. I'm using the Windows Mobile version, but there's also J2ME version as well. (via <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=96d7d686-ede6-4a3e-8345-a96c12c55fa9">Dare Obasanjo</a>)</li><li>Any lingering interest I had in Ruby vanished yesterday as got to chapter 8 of <a href="http://www.manning.com/payette/">Windows Powershell in Action</a>. Chapter 8 is called "ScriptBlocks and Objects" and it is specifically about meta-programming. After reading that chapter, PS seems <em>more</em> flexible in this space than Ruby, which is the current industry darling for metaprogramming. For example, in Ruby you can optionally pass a block of code to any method. In PS, you can define a ScriptBlock like any other parameter. That means you can tell from the method signature that the ScriptBlock is used. Or you can define a function that takes multiple ScriptBlock parameters. Much more thought on this is needed.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">882</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-02-14 09:59:21</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-02-14 09:59:21</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-31</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="embedded"><![CDATA[Embedded]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[79beb4c8-b455-42bf-a26c-59c839e07ef5]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+31]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/02/14/Morning+Coffee+31]]></wp:meta_value>
+  </wp:postmeta>
+</item>

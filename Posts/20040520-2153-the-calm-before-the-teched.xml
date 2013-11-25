@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The Calm Before The TechEd</title>
+  <link>http://devhawk.net/2004/05/20/the-calm-before-the-teched/</link>
+  <pubDate>Thu, 20 May 2004 21:53:59 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://488fac0d-7b1b-4c72-ac1f-a5aa1081847e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Sorry it's been so quiet around here. And I just had a meeting with a few days ago with <a href="http://blogs.msdn.com/saraw/">Sara Williams</a> where we talked, among many other things, about the need to blog regularly...</p><p>I've been heads down on final <a href="http://www.microsoft.com/teched">TechEd</a> prep. I'm fairly certain that I'm the only track owner who is also presenting. I know I'm the only track owner who is also doing a track general session. If you keep a close eye on the list of <a href="http://www.msteched.com/content/breakouts.aspx">breakouts</a>, you'll notice that I'm not only presenting ARC 402 (Data in SOA) but I'm now also presenting ARC 300 (Metropolis). Unfortunately, <a href="http://blogs.msdn.com/pathelland">Pat</a> had to cancel his trip to TechEd at the last minute for personal reasons. So, in addition to all the normal last-minute billion details that a track owner has to deal with (most of which would have slipped thru the cracks with out the help of my trusty cabana cohorts Ed and Richard - thanks guys!), I'm also putting the finishing touches on my own session and having to prepare to do Pat's. I've presented Metropolis many times before, most recently last week at the <a href="http://www.pnpsummit.com/">P&amp;P Summit</a>, so presenting ARC 300 isn't a huge deal. However, we did have to cancel ARC 303 and are still figuring out if we can cover ARC 302. I'm bummed about that, but we're going to try and get that material recorded at <a href="http://www.microsoft.com/europe/teched/">TechEd Europe</a> next month for inclusion in the <a href="http://msdn.microsoft.com/architecture/overview/series/">Architecture Strategy Series</a>. </p><p>Even without ARC 302 &amp; 303, we still have a great track. One thing we really tried to do is cover all categories of architecture. Most of our track covers application / solution architecture, but we also have several sessions on infrastructure architecture. I'm really looking forward to ARC 404 - Managing SOA Using Existing Platforms. We had a bit of a crisis on this session a few weeks ago, but we took care of it and the session looks great. I'm guessing lots of people will be interested in "how Microsoft is internally managing Services using current Microsoft technologies". ARC 304 (Bridging the Gap) and ARC 403 (Defense in Depth) also cover infrastructure architecture and should be really good. We're also have a session on Business Architecture. ARC 301 (Service Oriented Business Architecture). It's really interesting to think about how SOA is going to affect the business as well as the application architecture.</p><p>See you in San Diego!</p><p><strong>Update</strong> - for ARC 302, we're going to have a Metropolis Discussion where we can talk about the Metropolis overview as well as drill down on how applications learn and how data interoperates (i.e. the combined contents of the original ARC 302 &amp; 303 talks). I'll be moderating and several members of my team will be on hand, but we're hoping to listen as much as if not more than we talk.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">366</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-05-20 21:53:59</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-05-20 21:53:59</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-calm-before-the-teched</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[488fac0d-7b1b-4c72-ac1f-a5aa1081847e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+Calm+Before+The+TechEd]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/05/21/The+Calm+Before+The+TechEd]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2609</wp:comment_id>
+    <wp:comment_author><![CDATA[mearls@hotmail.com (Michael Earls)]]></wp:comment_author>
+    <wp:comment_author_email>mearls@hotmail.comMichaelEarls</wp:comment_author_email>
+    <wp:comment_author_url>http://www.cerkit.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-05-20 23:06:51</wp:comment_date>
+    <wp:comment_date_gmt>2004-05-21 06:06:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'm sorry to hear about Pat.  I hope things turn out OK.  I'm looking forward to your presentations.  I just scheduled my breakouts and I'm looking forward to all of the parties.
+
+See you Sunday!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

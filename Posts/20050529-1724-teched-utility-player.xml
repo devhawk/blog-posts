@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>TechEd Utility Player</title>
+  <link>http://devhawk.net/2005/05/29/teched-utility-player/</link>
+  <pubDate>Sun, 29 May 2005 17:24:51 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7a6e882d-6c71-4a76-8da0-01a7261909a3</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>So we're one week out on TechEd. This time next week, the final prep will be done and we'll be ready to let this thing fly. Some of the core team goes down this week, though as a track owner, I'm not really needed on site until Sunday.</p><p>What a difference a year makes. Last year, I was freaking out - it was my first TechEd. Now I feel like the old hand at this. Of course, I wouldn't have made it through last year with out the assistance of a few key individuals. Among others was <a href="http://spaces.msn.com/members/TechEd05Schorr/">Esther</a>, who just started blogging for this year's TechEd. She's got a <a href="http://spaces.msn.com/members/TechEd05Schorr/Blog/cns!1prBmci9mgNi52HFewHJdIvQ!105.entry">long post</a> about the track cabanas. Last year, they were a big hit, but there were a few glitches. Esther writes about some of the changes they made this year to address those issues. </p><p>If you're going to TechEd, make sure to stop by the ARC cabana and say hi.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">603</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-05-29 17:24:51</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-05-29 17:24:51</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">teched-utility-player</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7a6e882d-6c71-4a76-8da0-01a7261909a3]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[TechEd+Utility+Player]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/05/30/TechEd+Utility+Player]]></wp:meta_value>
+  </wp:postmeta>
+</item>

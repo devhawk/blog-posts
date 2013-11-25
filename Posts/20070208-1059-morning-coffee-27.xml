@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 27</title>
+  <link>http://devhawk.net/2007/02/08/morning-coffee-27/</link>
+  <pubDate>Thu, 08 Feb 2007 10:59:44 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5f29bfa4-48e7-4092-a561-0b154973187f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Is there a good solution to colorize source code that looks good in RSS feeds? I've tried <a href="http://gallery.live.com/liveItemDetail.aspx?li=1f57bd9b-a692-4593-9e9e-e2962d9c0eee&amp;l=8">Insert Code</a> and <a href="http://gallery.live.com/liveItemDetail.aspx?li=d8835a5e-28da-4242-82eb-e1a006b083b9&amp;l=8">Paste from VS</a> for <a href="http://ideas.live.com/programpage.aspx?versionid=4372c8c2-b76f-4d44-aea1-9835b61d8dc1">WL Writer</a> and both look fine in HTML but awful in RSS.  </li><li>My friend <a href="http://www.whatcounts.com/blog?pid=965AABA79286169C">David Geller</a> launched his latest venture <a href="http://www.eyejot.com">Eyejot</a> recently. Eyejot is a Flash-based video messaging system, so you can send and receive video clips without having to install anything but a webcam. According to the <a href="http://blog.eyejot.com/">Eyejot blog</a>, they're getting some good press. See an interview with David about Eyejot <a href="http://www.youtube.com/watch?v=BGMRLMFLdF4">up on YouTube</a>. </li><li>Here's an <a href="http://developer.amazonwebservices.com/connect/entry.jspa?entryID=635&amp;ref=featured">interesting article</a> on using WF with Amazon's Mechanical Turk service. Invoking MTurk isn't that interesting - it's just a web service and WF has a built-in InvokeWebService activity. But since MTurk has no way to asynchronously call out to the WF, you have no choice but to regularly poll MTurk to see if the task is complete. Yuck. (via <a href="http://www.larkware.com/dg7/TheDailyGrind1074.aspx">Larkware</a>) </li><li><a href="http://pipes.yahoo.com/">Yahoo! Pipes</a> looks interesting. At least the screen shots of it on various websites and blogs look cool. Too bad the site is absolutely hammered this morning. (via <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=258d634c-df5e-4420-a986-3e9d87a8f6da">Dare Obasanjo</a>) </li><li>Like <a href="http://msdn2.microsoft.com/en-us/teamsystem/aa718948.aspx">GAT</a>? Like <a href="http://msdn2.microsoft.com/en-us/vstudio/aa718368.aspx">DSL</a>? Then <a href="http://msdn2.microsoft.com/en-us/architecture/aa905334.aspx">use them together</a>! </li><li>If I can more than <a href="http://www.xbox.com/en-US/community/news/2007/0205-xboxrewards.htm">raise my Gamerscore</a> by 1,500 points by April 12th (i.e. more than double it), I can get a <a href="http://www.xbox.com/games/contraxboxlivearcade/">free $5 game</a>. But why wait to start the contest until next Monday? Doesn't that discourage people from playing until then?</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">878</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-02-08 10:59:44</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-02-08 10:59:44</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-27</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="software-factories"><![CDATA[Software Factories]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <category domain="post_tag" nicename="wf"><![CDATA[WF]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5f29bfa4-48e7-4092-a561-0b154973187f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+27]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/02/08/Morning+Coffee+27]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2453</wp:comment_id>
+    <wp:comment_author><![CDATA[Shane Courtrille]]></wp:comment_author>
+    <wp:comment_author_email>shanecourtrille@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>216.126.25.195</wp:comment_author_IP>
+    <wp:comment_date>2007-02-08 11:26:11</wp:comment_date>
+    <wp:comment_date_gmt>2007-02-08 19:26:11</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[In regards to the Gamescore thing.  The price you receive is based on your annual Gamescore at time of registration.  So in reality they are giving you till Monday to play as much as possible to bump yourself up into a new category and win bigger prices if you do get that 1,500 points in the specified time period.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2454</wp:comment_id>
+    <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+    <wp:comment_author_email>tomas@winterdom.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.winterdom.com/weblog</wp:comment_author_url>
+    <wp:comment_author_IP>200.116.233.120</wp:comment_author_IP>
+    <wp:comment_date>2007-02-08 14:28:57</wp:comment_date>
+    <wp:comment_date_gmt>2007-02-08 22:28:57</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Regarding the Colorized code in feeds, I'd like to know to. Several people seem to be able to do it without problems, but even though I've repeatedly asked about it (directly and indirectly) I have yet to hear an answer. Must be an important secret to guard it so closely.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2455</wp:comment_id>
+    <wp:comment_author><![CDATA[Davidg Geller]]></wp:comment_author>
+    <wp:comment_author_email>davidg@eyejot.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.eyejot.com</wp:comment_author_url>
+    <wp:comment_author_IP>216.254.2.162</wp:comment_author_IP>
+    <wp:comment_date>2007-02-08 17:14:17</wp:comment_date>
+    <wp:comment_date_gmt>2007-02-09 01:14:17</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks Harry! I owe you a morning coffee.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

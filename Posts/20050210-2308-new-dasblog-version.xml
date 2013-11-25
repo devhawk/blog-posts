@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New DasBlog Version</title>
+  <link>http://devhawk.net/2005/02/10/new-dasblog-version/</link>
+  <pubDate>Thu, 10 Feb 2005 23:08:02 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://719c41f4-c740-45f9-bbad-283fb3220006</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I just finished upgrading my blog to the new 1.7.2 RC build. I'm excited about some of the new features, such as the major caching improvements, CAPTCHA for avoiding comment spam, and the new permalinks. The permalinks one is pretty silly, esp. because I pushed for a version that used pluses for spaces. So the permalink for this post will be New+DasBlog+Version.aspx instead of NewDasBlogVersion.aspx. But it's a style thing (I <em>am</em> in marketing now, right?). Speaking of style, I also upgraded the site template and pared down my navigation links. I moved the blogs on that list to a new "friends and family" blogroll. I did add a link to the new <a href="http://devhawk.net/archives.aspx">Archives</a> page, which lists all the posts I've ever made, by category. And I added flair links to add this blog to your <a href="feed://devhawk.net/rss.ashx">desktop newsreader</a> of choice (that supports feed://) as well as to <a href="http://my.msn.com/addtomymsn.armx?id=rss&amp;ut=http://devhawk.net/rss.ashx&amp;ru=http://devhawk.net">My MSN</a> and <a href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http://devhawk.net/rss.ashx">NewsGator</a>.</p><p>There's still room for improvement. DasBlog still need story support, IMO. Also, I'd like to have a good offline posting experience. None of the existing blog authoring tools work for me since I use crossposts for my <a href="http://blogs.msdn.com/devhawk">MSDN blog</a> (which is what gets pulled into <a href="http://msdn.microsoft.com/architecture">Architecture Center</a>). I end up writing my posts in FrontPage and then cutting and pasting into the dasBlog web interface. Yuck. </p><p>One quick note - because of the new permalink title support, a set of existing URL mappings on my site started causing internal exceptions. This is because any URL ending in aspx that isn't a file on disk is assumed to be a permalink. Of course, all my existing mappings aren't files on disk nor are they permalinks to blog entries. I changed these mappings from *.aspx to *.ashx to avoid these exceptions and my template and navigation links to match. The only .aspx mapping I left intact was rss.aspx, since pretty much all of my subscribers use that as my rss feed. When I upgraded from my original blog engine, I had to add the rss.aspx mapping to avoid breaking any existing subscribers. Of course, I certainly don't want to break those subscribers now. As a quick and <em>very </em>dirty workaround, I created an empty rss.aspx file in my web app directory. Now, the title mapper doesn't attempt to map to a permalink since there's an existing file on disk. Oh well, that's why this is a release candidate version.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">534</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-02-10 23:08:02</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-02-10 23:08:02</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-dasblog-version</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="dasblog"><![CDATA[dasBlog]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[719c41f4-c740-45f9-bbad-283fb3220006]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+DasBlog+Version]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/02/11/New+DasBlog+Version]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2774</wp:comment_id>
+    <wp:comment_author><![CDATA[Ray D]]></wp:comment_author>
+    <wp:comment_author_email>ray@raysblog.com</wp:comment_author_email>
+    <wp:comment_author_url>http://raysblog.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-11 00:36:12</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-11 08:36:12</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Congrats on the upgrade!  I'm looking forward to the .2 release.  :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2775</wp:comment_id>
+    <wp:comment_author><![CDATA[Omar Shahine]]></wp:comment_author>
+    <wp:comment_author_email>shahineo@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-16 22:08:26</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-17 06:08:26</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You could do a permanent redirect from your rss.aspx to something else... All RSS readers should change your subscription to the new location.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

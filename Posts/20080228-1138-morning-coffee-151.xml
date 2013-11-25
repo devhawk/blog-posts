@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 151</title>
+  <link>http://devhawk.net/2008/02/28/morning-coffee-151/</link>
+  <pubDate>Thu, 28 Feb 2008 11:38:23 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c0822e63-8c6e-4138-9b28-05995a43e519</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li><a href="http://www.codeplex.com/unity">Unity's</a> first CTP was just over two weeks ago, but <a href="http://blogs.msdn.com/agile/archive/2008/02/27/entlib-unity-roadmap.aspx">according to Grigori Melnik</a>, it's shipping just over two weeks from now. That seems pretty speedy to me. By the time I get a change to take a closer look at Unity, it'll probably have shipped.  </li><li>I discovered <a href="http://weblogs.asp.net/podwysocki/default.aspx">Matthew Podwysocki</a> blog <a href="http://www.dotnetkicks.com/patterns/IoC_and_the_Unity_Application_Block_Once_Again">via DNK</a>. I don't typically subscribe to blogs that I discover via DNK, but Matthew has written about <a href="http://weblogs.asp.net/podwysocki/archive/2008/02/26/ioc-and-the-unity-application-block-once-again.aspx">IoC/Unity</a>, <a href="http://weblogs.asp.net/podwysocki/archive/2008/02/21/adventures-in-f-f-101-part-2.aspx">F#</a> and <a href="http://weblogs.asp.net/podwysocki/archive/2008/02/08/adventures-in-compilers-building-on-the-dlr.aspx">DLR</a> lately so I'm thinking I should be a regular reader.  </li><li>Corporate VP David Treadwell has an <a href="http://dev.live.com/blogs/devlive/archive/2008/02/27/213.aspx">extensive post</a> on updates to the Windows Live Platform Services that are being unveiled at MIX next week. The updates include the new <a href="http://msdn2.microsoft.com/en-us/library/cc298458.aspx">WL Messenger Library</a>, a <a href="http://msdn2.microsoft.com/en-us/library/cc287637.aspx">new SDK</a> for <a href="http://winliveid.spaces.live.com/blog/cns!AEE1BB0D86E23AAC!1460.entry">WL ID Delegated Authentication</a>, a <a href="http://msdn2.microsoft.com/en-us/library/bb932323.aspx">new WL Photo API</a>, a new CTP of <a href="http://dev.live.com/tools/">WL Tools</a>, <a href="http://blogs.msdn.com/astoriateam/archive/2008/02/13/atompub-support-in-the-ado-net-data-services-framework.aspx">standardized support for AtomPub</a>, updates to <a href="http://msdn2.microsoft.com/en-us/library/bb463989.aspx">WL Contacts API</a> and <a href="http://silverlight.live.com/">Sivlerlight Streaming</a> and a new "experimental" service called Application Based Storage that "allows application developers to store a small amount of state/configuration data in the WL data centers on behalf of a user". I'm sure there'll be more WL news at the MIX conference proper, but that's quite a good chunk of features to start digging into. Personally, I'm particularly interested in WL Delegated Auth, esp. how it deals with phishing, something <a href="http://devhawk.net/2007/11/19/Morning+Coffee+124.aspx">I don't think OAuth handles very well</a>.  </li><li>Windows Live isn't the only group making announcements in advance of MIX. Adobe <a href="http://www.infoworld.com/article/08/02/26/adobe-player_1.html">announced a research project</a> that allows "cross-compiling existing code from C, C++, Java, Python, and Ruby to ActionScript." This seems pretty obviously a response to Silverlight 2.0's embedded CLR, announced last year @ MIX. Support for C++ is very interesting - Adobe evangelist Ted Patrick <a href="http://www.onflex.org/ted/2008/02/extending-adobe-flash-player-and-adobe.php">claims</a> they were even able to cross-compile Quake 1 to Flash. Interesting, but this is an internal research project @ Adobe with no projected release date while Silverlight 2.0 goes <a href="http://weblogs.asp.net/scottgu/archive/2008/02/22/first-look-at-silverlight-2.aspx">into beta next week</a>.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1111</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-02-28 11:38:23</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-02-28 11:38:23</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-151</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="dependency-injection"><![CDATA[Dependency Injection]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="patterns-and-practices"><![CDATA[patterns &amp; practices]]></category>
+  <category domain="post_tag" nicename="silverlight"><![CDATA[Silverlight]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <category domain="post_tag" nicename="windows-live"><![CDATA[Windows Live]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c0822e63-8c6e-4138-9b28-05995a43e519]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+151]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/02/28/Morning+Coffee+151]]></wp:meta_value>
+  </wp:postmeta>
+</item>

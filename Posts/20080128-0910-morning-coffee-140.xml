@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 140</title>
+  <link>http://devhawk.net/2008/01/28/morning-coffee-140/</link>
+  <pubDate>Mon, 28 Jan 2008 09:10:08 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3e301c9c-27ab-41da-bda7-48428ac83196</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I only posted one Morning Coffee post last week. It wasn't a lack of content, it was a lack of drive on my part. I had 20-30 items flagged in my news reader, but for some reason I couldn't work up the interest in posting them. So some of these are a bit old.  </li><li>I'm at the Language.NET Symposium this week, so look for lots of language blogging. I've already chatted with <a href="http://tomasp.net/">Tomáš Petříček</a> and <a href="http://www.iunknown.com/">John Lam</a>. If someone <a href="http://blogs.tedneward.com/2008/01/25/By+The+Way+If+Anybody+Wants+To+Argue+About+Languages+Next+Week.aspx">kicks Ted Neward's ass</a> because he <a href="http://blogs.tedneward.com/2008/01/25/So+I+Dont+Like+Perl+Sue+Me.aspx">hates Perl</a>, I'll try and liveblog it.  </li><li>Speaking of Ted Neward, he <a href="http://blogs.tedneward.com/2008/01/24/Can+Dynamic+Languages+Scale.aspx">discusses</a> the question "Can Dynamic Languages Scale?" without devolving into a flame-fest. I agree 100% with his point about the difference between performance scaling and complexity scaling. Personally, I tend to err on the side of better complexity scaling, since buying hardware is easier than hiring developers.  </li><li>Nick Malik <a href="http://blogs.msdn.com/nickmalik/archive/2008/01/23/the-future-can-be-seen-if-we-decide-to-look.aspx">responds</a> to me calling his shared global integration vision <a href="http://devhawk.net/2008/01/22/Nicks+Flawed+Vision+Of+A+Shared+Integration+Model.aspx">flawed</a>. He points to NGOSS/eTOM as an example of a shared iterative model that works. I know squat about that shared model, so I'll refrain from commenting until I do a little homework on the telco industry.  </li><li>Speaking of shared interop models, Microsoft is <a href="http://dev.live.com/blogs/devlive/archive/2008/01/24/203.aspx">joining DataPortability.org</a>. <a href="http://www.25hoursaday.com/weblog/2008/01/24/MicrosoftJoinsDataportabilityorg.aspx">Dare Obasanjo</a> and <a href="http://blog.broadbandmechanics.com/2008/01/dataportabilityorg-gradually-eeking-its-way-out-of-the-reality-distortion-echo-chamber#comments">Marc Canter</a> are skeptical that so far this effort is all hype and no substance. Reminds me a bit of AttentionTrust.org. But if DataPortability.org can get off the ground, maybe there's hope for Nick's vision (or vis-versa). </li><li>Don Syme <a href="http://blogs.msdn.com/dsyme/archive/2008/01/25/update-to-the-f-1-9-3-release.aspx">lists what's new</a> in the latest F# release. As I said, this release is pretty light on features. Hopefully, I'll get some details  </li><li>Tomas Restrepo <a href="http://www.winterdom.com/weblog/2008/01/24/ModifyingTheHomeInPowerShell.aspx">shows</a> how to change your home folder in PowerShell. I need to do this.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1095</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-01-28 09:10:08</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-01-28 09:10:08</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-140</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="dynamic-languages"><![CDATA[Dynamic Languages]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3e301c9c-27ab-41da-bda7-48428ac83196]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+140]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/01/28/Morning+Coffee+140]]></wp:meta_value>
+  </wp:postmeta>
+</item>

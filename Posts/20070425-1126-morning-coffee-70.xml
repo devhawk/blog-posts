@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 70</title>
+  <link>http://devhawk.net/2007/04/25/morning-coffee-70/</link>
+  <pubDate>Wed, 25 Apr 2007 11:26:04 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://1df64df1-f119-4d8a-b1e3-3ee464e94a55</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Scott Hanselman <a href="http://www.hanselman.com/blog/RemovingSecurityFromDownloadedPowerShellScriptsWithAlternativeDataStreams.aspx">details</a> how the "unblock" feature in Windows works. Basically, when you download a file with IE, it adds an <a href="http://msdn2.microsoft.com/en-us/library/aa364404.aspx">alternate data stream</a> that specifies the zone the file came from (Internet, Intranet, Trusted, etc.). Even <a href="http://community.bartdesmet.net/blogs/bart/archive/2005/08/19/3485.aspx">more details</a> on Bart de Smet's blog.  </li><li>Nick Carr <a href="http://www.roughtype.com/archives/2007/04/sanger.php">gets off on a rant</a> on Wikipedia, Citizedium and "the truth" that's pretty funny.  </li><li>Remus Rusanu <a href="http://blogs.msdn.com/remusrusanu/archive/2007/04/24/reusing-conversations.aspx">shows how</a> to to reuse SSB conversations in a data syndication scenario. A while back, he wrote about a <a href="http://blogs.msdn.com/remusrusanu/archive/2005/12/12/502942.aspx">lightweight pub/sub SSB implementation</a> - barely 200 lines of T-SQL code - that would also be very useful in data syndication scenarios. I've got data syndication on the brain right now, so this stuff is very timely. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">944</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-25 11:26:04</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-25 11:26:04</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-70</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="service-broker"><![CDATA[Service Broker]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[1df64df1-f119-4d8a-b1e3-3ee464e94a55]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+70]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/25/Morning+Coffee+70]]></wp:meta_value>
+  </wp:postmeta>
+</item>

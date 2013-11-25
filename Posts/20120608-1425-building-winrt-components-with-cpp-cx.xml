@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Building WinRT Components with C++/CX</title>
+  <link>http://devhawk.net/2012/06/08/building-winrt-components-with-cpp-cx/</link>
+  <pubDate>Fri, 08 Jun 2012 21:25:55 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://devhawk.net/?p=1941</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[I don't get out to talk to customers like I used to in previous jobs. &lt;sigh&gt; But a few weeks ago, I got a chance to do a session at Channel 9's <a href="http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-style-apps-in-Cpp">Developing Windows 8 Metro style apps with C++</a> <a href="http://channel9.msdn.com/Events/Windows-Camp">Windows Camp</a>. There were some great talks at the event on <a href="http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-style-apps-in-Cpp/Building-Metro-style-apps-with-XAML-and-Cpp">XAML with C++</a>, <a href="http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-style-apps-in-Cpp/Cpp-and-DirectX-for-Metro-Style-Games">C++ for Metro Style Games</a> and  using <a href="http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-style-apps-in-Cpp/Building-Apps-with-Cpp-XAML-and-DirectX">DirectX and XAML together</a>. My talk was on building <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh441572(v=vs.110).aspx">Windows Runtime Components </a>in C++. Here's the abstract:
+<blockquote>The Windows Runtime enables developers from a variety of languages – JavaScript, C#, Visual Basic and C++ - to use the Windows APIs in a natural and familiar way. But did you know that you can build your own components that project into those same languages for use in your Metro style apps? Watch this session to learn how to build your own Windows Runtime components with C++ that can be used across languages in Metro style applications.</blockquote>
+I haven't had time, but I plan to blog the demo step-by-step like I did for my <a href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/">//build demo</a>. In the meantime, check out the talk:
+
+<iframe style="width: 620px; height: 351px;" src="http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-style-apps-in-Cpp/Building-Windows-Runtime-Components-with-Cpp/player?w=620&amp;h=351" frameborder="0" scrolling="no" width="320" height="240"></iframe>
+
+(Note, the static image below appears cut-off, but the video should scale to the width of my blog automatically. If not, head on over to the <a href="http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-style-apps-in-Cpp/Building-Windows-Runtime-Components-with-Cpp">official page</a> for the talk over on Channel 9)]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1941</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2012-06-08 14:25:55</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2012-06-08 21:25:55</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">building-winrt-components-with-cpp-cx</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-plus-plus"><![CDATA[C++]]></category>
+  <category domain="post_tag" nicename="c-plus-plus-cx"><![CDATA[C++/cx]]></category>
+  <category domain="post_tag" nicename="channel-9"><![CDATA[Channel 9]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+  <category domain="post_tag" nicename="windows-8"><![CDATA[Windows 8]]></category>
+  <category domain="post_tag" nicename="windows-camp"><![CDATA[Windows Camp]]></category>
+  <category domain="category" nicename="windows-runtime"><![CDATA[Windows Runtime]]></category>
+  <category domain="post_tag" nicename="winrt-components"><![CDATA[WinRT Components]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_wp_old_slug</wp:meta_key>
+    <wp:meta_value><![CDATA[building-winrt-components-with-cppcx]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3239</wp:comment_id>
+    <wp:comment_author><![CDATA[Dew Drop &ndash; June 11, 2012 | Alvin Ashcraft&#039;s Morning Dew]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.alvinashcraft.com/2012/06/11/dew-drop-june-11-2012/</wp:comment_author_url>
+    <wp:comment_author_IP>72.47.228.20</wp:comment_author_IP>
+    <wp:comment_date>2012-06-11 04:43:29</wp:comment_date>
+    <wp:comment_date_gmt>2012-06-11 11:43:29</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[[...] Building WinRT Components with C++/CX (Harry Pierson) [...]]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type>pingback</wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_result</wp:meta_key>
+      <wp:meta_value><![CDATA[false]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1339415009.0828";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340116048.4654";s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3270</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk &#8211; Windows Camp Demo, Part One]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://devhawk.net/2012/06/19/windows-camp-demo-part-one/</wp:comment_author_url>
+    <wp:comment_author_IP>184.168.254.1</wp:comment_author_IP>
+    <wp:comment_date>2012-06-19 20:13:43</wp:comment_date>
+    <wp:comment_date_gmt>2012-06-20 03:13:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[[...] weeks ago, I did a talk on building Windows Runtime components in C++. As part of that talk, I did a demo that showed accessing a WinRT component written in C++ from a [...]]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type>pingback</wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_result</wp:meta_key>
+      <wp:meta_value><![CDATA[false]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340162023.7642";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340162143.0962";s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+  </wp:comment>
+</item>

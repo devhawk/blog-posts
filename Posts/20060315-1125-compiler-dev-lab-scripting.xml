@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Compiler Dev Lab - Scripting</title>
+  <link>http://devhawk.net/2006/03/15/compiler-dev-lab-scripting/</link>
+  <pubDate>Wed, 15 Mar 2006 11:25:22 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://866fb4d2-37de-4f84-b8ba-66b9f1c9b27b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Day Two of the Compiler Dev Lab was all about scripting. <a href="http://www.gotdotnet.com/workspaces/workspace.aspx?id=ad7acff7-ab1e-4bcb-99c0-57ac5a3a9742">Iron Python</a> was the primary focus of the day, but they also had <a href="http://www.php-compiler.net/">Phalanger</a> (Managed <a href="http://www.php.net/">PHP</a>) and <a href="http://blogs.msdn.com/monad/">Monad</a> folks there as well. </p><ul><li>I hadn't realized just how performant these dynamic languages are on the CLR when compared to their native versions. The <a href="http://www.ironpython.com/">original version</a> of Iron Python was 1.7x faster than the standard C implementation back in the summer of '04. Now with CLR 2.0, that version is now 2x faster with out any code changes. The Phalanger folks said they are 2.5x faster than the native version of PHP (1.7x faster than PHP + the <a href="http://www.zend.com/products/zend_optimizer">Zend Optimizer</a>). That's pretty impressive performance. 
+</li><li>The IronPython folks are heavy users of the new <a href="http://msdn2.microsoft.com/en-us/library/system.reflection.emit.dynamicmethod(VS.80).aspx">DynamicMethod class</a> from .NET 2.0. Otherwise known as Lightweight Code Generation, DynamicMethod allows you emit a static function but have it get garbage collected when it's no longer needed. IP almost never generates new classes, since new types can't be garbage collected. The only times they generate actual classes are when you inherit from an existing .NET class or when you generate a new delegate type. 
+</li><li>It's really hard to serve the dual masters of both the existing language community and the .NET community. <a href="http://blogs.msdn.com/hugunin/default.aspx">Jim Hugunin</a> used the example of String.Trim(). A .NET developer would expect String.Trim() to "just work". A Python developer would expect that to throw an AttributeError exception (the Python equivalent of Trim is strip). How do you handle this? In IP, it defaults to pure Python mode, but if you enter "import clr", you move into .NET hybrid mode. 
+</li><li>One of the typical features of dynamic languages is the ability to change the base class of an object on the fly. Jim demoed this with WPF. He created a class that inherited from one type of panel and then set the __class__ property of the object to a different panel and the display changed immediately. Freaky, but cool. 
+</li><li>Jim showed a demo of a WPF app that hosted Python for extensibility. One of the scripts in turn hosted Python to create an interactive console for the app. Having a scripting engine that can host itself is awesome. 
+</li><li>The <a href="http://affiliate.vsipmembers.com/affiliate/downloadfiles.aspx">VSIP SDK CTP</a> (reg required) includes an sample lanugage integration project for Iron Python. So you can get both the source into IP language itself as well as the source to the integration into Visual Studio. 
+</li><li>I got an email yesterday from someone asking about the possibility of Visual Ruby.NET. I haven't heard anything about it, but it would be cool to see <a href="http://www.rubyonrails.com/">Ruby on Rails</a> runing under CLR. <a href="http://www.iunknown.com/">John Lam</a> is working on <a href="http://www.iunknown.com/articles/2006/02/20/second-drop-of-rubyclr">RubyCLR</a>, but my understanding is that is a bridge between the CLR and the Ruby runtime, not a CLR implemenation of the Ruby runtime. (IP is a CLR implementation of the Python runtime.) I'm thinking that there are some similarities between Ruby and Python, so having the source of IronPython would be a huge help in building a Visual Ruby implementation. For example, both Ruby and Python have <a href="http://martinfowler.com/bliki/Closure.html">closures</a>. IP has a <font size="2">FunctionEnvironment </font>class which is used to lift stack variables onto the heap in a variety of scenarios, including closures. So if I was building Visual Ruby, having access to the FunctionEnvironment class would be a good start. 
+</li><li>I said yesterday that I need to learn more about F#. They showed a video of an internal F# presentation, but I spent most of my time cracking jokes with <a href="http://codebetter.com/blogs/sam.gentile/default.aspx">Sam Gentile</a> who's in town for an <a href="http://www.gotdotnet.com/codegallery/codegallery.aspx?id=941d2228-3bb5-42fd-8004-c08595821170">SC-BAT</a> workshop. 
+</li><li>I didn't pay enough attention to the Monad presentation. :(</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">723</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-03-15 11:25:22</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-03-15 11:25:22</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">compiler-dev-lab-scripting</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="post_tag" nicename="scripting"><![CDATA[Scripting]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[866fb4d2-37de-4f84-b8ba-66b9f1c9b27b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Compiler+Dev+Lab+Scripting]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/03/15/Compiler+Dev+Lab+Scripting]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2332</wp:comment_id>
+    <wp:comment_author><![CDATA[John Lam]]></wp:comment_author>
+    <wp:comment_author_email>jlam@iunknown.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.iunknown.com</wp:comment_author_url>
+    <wp:comment_author_IP>67.69.151.82</wp:comment_author_IP>
+    <wp:comment_date>2006-03-17 14:58:16</wp:comment_date>
+    <wp:comment_date_gmt>2006-03-17 21:58:16</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[RubyCLR is a bridge, although I do generate a lot of CIL on the fly for my proxies. The next release will let me implement arbitrary CLR interfaces on Ruby objects (I already support delegates today). So I can get most of the way there; and without having to compromise the semantics of Ruby itself (the JRuby guys are having a heck of a time doing just that).
+
+A bigger blocking issue in the short term is adding support for OS native threads to Ruby itself. Since the Ruby interpreter is *not* safe for concurrent access, this limits the kinds of things that you can do with Ruby talking to .NET (ASP.NET just ain't gonna happen). This might be the reason to drive to a native Ruby.NET implementation. But that's a lot more work :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

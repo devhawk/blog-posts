@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>(Late) Morning Coffee 36</title>
+  <link>http://devhawk.net/2007/03/01/late-morning-coffee-36/</link>
+  <pubDate>Thu, 01 Mar 2007 12:06:47 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://b92f96e2-0232-4854-8aa8-6b14679e9670</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>It snowed <em>again</em> yesterday. Last year we had one snowstorm, the year before that none. We've now had I think five this year plus the massive windstorm that knocked out power for days.</li><li>Technorati told me that "social news aggregator" Megite is <a href="http://www.megite.com/technology/1170964019/41">linking to me</a>. For some reason, <a href="http://devhawk.net/2007/02/07/Perusing+Powershell+Part+2+Error+Or+No+Output.aspx">this post of mine</a> on Powershell is considered related to "<a href="http://www.strumpette.com/archives/300-Is-PR-Too-Stupid-for-Conversational-Marketing.html">Is PR Too Stupid for Conversational Marketing?</a>" from <a href="http://www.strumpette.com/">Amanda Chapel</a>. Seems like Megite has some bugs to work out.</li><li>Paul Andrew <a href="http://blogs.msdn.com/pandrew/archive/2007/02/25/Microsoft-provides-BPEL-2.0-in-WF-_2D00_-BPEL-for-Windows-Workflow-Foundation-March-CTP.aspx">announces</a> BPEL support for WF but David Chappel <a href="http://www.davidchappell.com/blog/2007/02/windows-workflow-foundation-and-bpel.html">writes</a> "no one should interpret the announcement as an embrace of BPEL-based development by Microsoft". Personally, I think BPEL is just the latest attempt at "write once, run anywhere" and will meet with the same limited success of previous attempts. The last thing I think MSFT should do is embrace BPEL based development.</li><li>BPEL actually has two flavors, Executable and Abstract. Abstract BPEL is potentially fairly useful. You could use to exchange of the publicly viewable parts of a process with a partner in order to make two processes work together. That's fairly exciting. I would welcome Abstract BPEL support for WF and/or BTS. But as far as I can tell, most of the BPEL focus has been around Executable BPEL, which as I wrote above is attempting to be a platform independent language for implementing business process. That's fairly unexciting since we've been down this road before many times (UNIX, CORBA, J2EE) and it has never worked out. </li><li>Soma <a href="http://blogs.msdn.com/somasegar/archive/2007/03/01/beginner-developer-learning-center-launched.aspx">announces</a> the launch of the <a href="http://msdn.microsoft.com/vstudio/express/beginner/">Beginner Developer Learning Center</a>. It includes <a href="http://msdn.microsoft.com/vstudio/express/beginner/kids/">Kid's Corner</a> with the cutely named <a href="http://msdn.microsoft.com/vstudio/express/beginner/kids/csharp">C# for Sharp Kids</a> and <a href="http://msdn.microsoft.com/vstudio/express/beginner/kids/vb">VB for Very Bright Kids</a> e-books. Very cool, I can't wait to share this with my kids in a few years. Only complaint: where's the <a href="http://msdn2.microsoft.com/xna/">XNA</a> love?</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">899</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-03-01 12:06:47</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-03-01 12:06:47</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">late-morning-coffee-36</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="education"><![CDATA[Education]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="wf"><![CDATA[WF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[b92f96e2-0232-4854-8aa8-6b14679e9670]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Late+Morning+Coffee+36]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/03/01/Late+Morning+Coffee+36]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>P2P Problems Solved</title>
+  <link>http://devhawk.net/2003/08/30/p2p-problems-solved/</link>
+  <pubDate>Sat, 30 Aug 2003 09:57:39 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://9583d859-dee0-408c-b889-124d97a8ffb9</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Someone from the P2P team internally saw my blog and set me a list of commands to execute and send back to him to help troubleshoot my problem. One of those commands was "net start pnrpsvc". Aha! I hadn't realized that the <a href="http://msdn.microsoft.com/downloads/list/winxppeer.asp">WinXP Adv. Networking Pack</a> installed any services. Turns out it installs four, including the "Peer Name Resolution Protocol" service (i.e. pnrpsvc). What's odd is that now that I've started it manually once, it seems to autostart on demand now. I can resolve addresses, as well as <a href="PermaLink.aspx?guid=5410b65a-7609-4e56-ac6f-c16ab6e19a24">ping the seed server</a>. GraphChat doesn't work yet, but I think that's because the IPv6 firewall only has two ports open by default - PNRP (UDP 3540) and Grouping (TCP 3587). The GraphChat sample uses a dynamically chosen port, which would be blocked. </p><p>So now that I'm back on track, I've got the PNRP namespace provider API wrapped in Managed C++. I can <a href="http://msdn.microsoft.com/library/en-us/p2psdk/p2p/registering_a_peer_name.asp">register</a>, <a href="http://msdn.microsoft.com/library/en-us/p2psdk/p2p/unregistering_a_peer_name.asp">unregister</a>, <a href="http://msdn.microsoft.com/library/en-us/p2psdk/p2p/resolving_a_peer_name.asp">resolve</a> and <a href="http://msdn.microsoft.com/library/en-us/p2psdk/p2p/enumerating_clouds.asp">enumerate PNRP clouds</a> from managed code. I've also got a first pass of the <a href="http://msdn.microsoft.com/library/en-us/p2psdk/p2p/identity_manager_api.asp">Identity Manager API</a> and a skeleton of the <a href="http://msdn.microsoft.com/library/en-us/p2psdk/p2p/graphing_api.asp">Graphing API</a> done. I'll post code when I have a managed GraphChat sample working.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">180</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-08-30 09:57:39</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-08-30 09:57:39</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">p2p-problems-solved</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="p2p"><![CDATA[P2P]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/08/30/P2P+Problems+Solved]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[P2P+Problems+Solved]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[9583d859-dee0-408c-b889-124d97a8ffb9]]></wp:meta_value>
+  </wp:postmeta>
+</item>

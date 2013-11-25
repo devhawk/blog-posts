@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>HawkEye on Entity Data Model Announcement</title>
+  <link>http://devhawk.net/2006/06/26/hawkeye-on-entity-data-model-announcement/</link>
+  <pubDate>Mon, 26 Jun 2006 14:35:02 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://091b69ed-aea1-4df4-b3e3-4bf9a3c48bb4</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>My pal <a href="http://blogs.msdn.com/timmall">Tim</a> dropped me an email last week to let me know they (the ADO.NET team) were publishing their <a href="http://blogs.msdn.com/dataaccess/archive/2006/06/20/638378.aspx">vNext vision around entities</a>. Of course, they picked the week when I'm in San Diego! So I didn't get a chance to look at it until today. In a nutshell, they are raising the level of abstraction for databases. Regular DevHawk readers know I talk about <a href="http://devhawk.net/SearchView.aspx?q=abstraction">abstraction</a> a lot around here. In fact, one of my earliest posts on this blog - 1 house, 2 kids and 5 jobs ago - was on <a class="TitleLinkStyle" href="http://devhawk.net/2003/01/17/Disruptive+Programming+Language+Technologies.aspx">Disruptive Programming Language Technologies</a>. So this is a topic near and dear to my heart. </p><p>This is an amazingly good thing. Think of the impact VB had on the development industry, but bigger. The abstraction level of databases hasn't been raised in decades. It's about freaking time we did.</p><p>My only problem with the article is that it's pretty obtuse. Referring to this as "Making the Conceptual Level Real" makes it sound much less exciting than it really is. Nobody refers to C# as a "conceptual" programming language. But if you use the terminology from the vision article, that's exactly what it is. Machine code is the physical level, IL is the logical layer and C# would then be the conceptual layer. But lets say you build a compiler that compiles C# directly to machine code. Would it suddenly become the logical layer? Who knows? Who cares? Let's just raise the level of abstraction and not get all caught up naming the level we're currently at.</p><p>VB was introduced <a href="http://www.panopticoncentral.net/archive/2006/05/24/12200.aspx">15 years ago</a> in 1991. Most developers in the industry are aware and remember the impact VB had (if you don't, check out <a href="http://ftponline.com/weblogger/forum.aspx?id=18">Billy Hollis</a>' <a href="http://dotnetmasters.com/historyofbasic.htm">History of BASIC</a>). The relational model was <a href="http://www.acm.org/classics/nov95/toc.html">introduced 36 years ago</a>, The <a href="http://en.wikipedia.org/wiki/Multics_Relational_Data_Store">first RDBMS</a> was introduced in 28 years ago. I'd bet the majority of developers in the industry today don't remember a time before databases. Hell, I was introduced 36 years old myself. (I'm sure my dad remembers programming before databases, but he doesn't code much these days.)</p><p>As I said, this is going to be big and it's about freaking time. So hats off to the <a href="http://blogs.msdn.com/dataaccess/default.aspx">ADO.NET team</a>. Can't wait to see this running. <a href="http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=488135&amp;SiteID=1">According to this</a>, first CTP drop is August, so you don't even have to wait too long. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">763</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-06-26 14:35:02</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-06-26 14:35:02</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">hawkeye-on-entity-data-model-announcement</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="database"><![CDATA[Database]]></category>
+  <category domain="post_tag" nicename="hawkeye"><![CDATA[HawkEye]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[091b69ed-aea1-4df4-b3e3-4bf9a3c48bb4]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[HawkEye+On+Entity+Data+Model+Announcement]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/06/26/HawkEye+On+Entity+Data+Model+Announcement]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2378</wp:comment_id>
+    <wp:comment_author><![CDATA[Alex James]]></wp:comment_author>
+    <wp:comment_author_email>alex@Base4.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.base4.net/blog.aspx?Tag=ADO.NET</wp:comment_author_url>
+    <wp:comment_author_IP>219.89.81.114</wp:comment_author_IP>
+    <wp:comment_date>2006-07-27 19:44:32</wp:comment_date>
+    <wp:comment_date_gmt>2006-07-28 02:44:32</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[My blog has a whole lot of material on ADO.NET entities if you are interested.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

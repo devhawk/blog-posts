@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Early Christmas from Iron Languages and DLR</title>
+  <link>http://devhawk.net/2008/11/26/early-christmas-from-iron-languages-and-dlr/</link>
+  <pubDate>Wed, 26 Nov 2008 22:49:09 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://1a76f687-68e4-4016-aa67-fe9ad494d1be</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Tomorrow may be Thanksgiving, but the Microsoft DevDiv dynamic language teams are trying to make it feel like Christmas with three separate pre-holiday releases.</p><ol><li><a href="http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=19841">IronPython 2.0 RC2</a>  <br />We were really hoping to only have one release candidate, but we ended up with a couple of significant bugs that we couldn’t push off to 2.0.1. With December holidays coming soon, RC2 has a pretty small window before we declare RTM so now is the time to download the release and try your code out.</li><li><a href="http://rubyforge.org/frs/?group_id=4359&amp;release_id=28422">IronRuby 1.0 Alpha 2</a>  <br />There’s been zero blog traffic on this, just a <a href="http://rubyforge.org/pipermail/ironruby-core/2008-November/003231.html">notice on the IronRuby mailing list</a>. As per said notice, “Notable features” include “the inclusion of iirb.bat, igem.bat, irails.bat, irake.bat”. </li><li><a href="http://www.codeplex.com/dlr">New DLR CodePlex Project</a> T      <br />he DLR source has been available as part of IronPython for <a href="http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=438">over a year</a> but now they have their own home on CodePlex. Check out the <a href="http://www.codeplex.com/dlr/Wiki/View.aspx?title=0.9%20beta%20release%20notes&amp;referringTitle=Home">Release Notes</a> for an overview, reads some <a href="http://www.codeplex.com/dlr/Wiki/View.aspx?title=Docs%20and%20specs&amp;referringTitle=0.9%20beta%20release%20notes">Docs and Specs</a> or just download their <a href="http://www.codeplex.com/dlr/Release/ProjectReleases.aspx?ReleaseId=19885#ReleaseFiles">initial v0.9 beta</a>. Their v0.9 beta is synced with IPy 2.0 RC2 (and their v0.9 final will sync with IPy 2.0 RTM) but it also includes synced versions of IronRuby and ToyScript in both source and binaries. Plus, Sesh <a href="http://blogs.msdn.com/seshadripv/archive/2008/11/26/dlr-v0-9-beta-released-in-codeplex.aspx">has promised</a> “weekly code drops”. Finally, unlike IronPython and IronRuby, DLR is using the <a href="http://www.codeplex.com/dlr/Thread/List.aspx">discussion section</a> of their CodePlex site – I’m eager to see how well the <a href="http://blogs.msdn.com/codeplex/archive/2008/07/23/codeplex-project-discussions-mailing-lists.aspx">new-ish discussion/mailing list integration</a> works.</li></ol><p>So there you go, new versions of IronPython and IronRuby plus a whole new DLR CodePlex project to boot. Enjoy.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1197</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-11-26 22:49:09</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-11-26 22:49:09</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">early-christmas-from-iron-languages-and-dlr</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="dlr"><![CDATA[DLR]]></category>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="ironruby"><![CDATA[IronRuby]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[1a76f687-68e4-4016-aa67-fe9ad494d1be]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Early+Christmas+From+Iron+Languages+And+DLR]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/11/27/Early+Christmas+From+Iron+Languages+And+DLR]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2148</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Letterle]]></wp:comment_author>
+    <wp:comment_author_email>michaeldotnet@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blog.prokrams.com</wp:comment_author_url>
+    <wp:comment_author_IP>76.188.15.221</wp:comment_author_IP>
+    <wp:comment_date>2008-11-27 21:20:05</wp:comment_date>
+    <wp:comment_date_gmt>2008-11-28 05:20:05</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[For me the biggest news was IronRuby moving to github along with a more "open" structure.  Far overshadowed the 1.0 alpha 2 release for me!
+
+http://github.com/ironruby/ironruby/tree/master]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2149</wp:comment_id>
+    <wp:comment_author><![CDATA[Sesh]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/seshadripv</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.83</wp:comment_author_IP>
+    <wp:comment_date>2008-12-05 10:10:22</wp:comment_date>
+    <wp:comment_date_gmt>2008-12-05 18:10:22</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA["Sesh has promised “weekly code drops”."
+
+Here it is - http://www.codeplex.com/dlr/SourceControl/ListDownloadableCommits.aspx. My blog post on the same is here - http://blogs.msdn.com/seshadripv/archive/2008/12/04/codeplex-com-dlr-is-now-setup-to-receive-regular-source-updates.aspx]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

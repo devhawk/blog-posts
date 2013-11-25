@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Introducing the Architecture Resource Center</title>
+  <link>http://devhawk.net/2005/05/26/introducing-the-architecture-resource-center/</link>
+  <pubDate>Thu, 26 May 2005 15:43:31 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://bc890bfa-f4e7-4410-bbdf-a60d4adc32cf</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Shortly after joining the Architecture Strategy Team, we worked with MSDN to re-launch the .NET Architecture Center. While we've had good success with that site, we realized after running it for several months that we needed a new approach in order to engage architects of all kinds. While Solution Architects are a key audience of ours that is well served by our MSDN site, there are also enterprise and infrastructure architects that we want to be able to engage with via the website. For these audiences, the MSDN site is not really the optimal channel. So today we've launched a new site - the <a href="http://www.microsoft.com/architecture">Architecture Resource Center</a> on microsoft.com. We've also re-launched the MSDN site, now called the <a href="http://msdn.microsoft.com/architecture/">MSDN Solution Architecture Center</a>.</p><p>One of the key differences you'll notice about the sites is that we have a new way of categorizing our content. Previously, we used a topic based approach with categories such as service oriented architecture and application architecture. Now, we have a taxonomy with categories for <a href="http://www.microsoft.com/architecture/default.aspx?pid=think">think ahead</a>, <a href="http://www.microsoft.com/architecture/default.aspx?pid=learn">learn more</a>, <a href="http://www.microsoft.com/architecture/default.aspx?pid=solve">solve now</a> and <a href="http://www.microsoft.com/architecture/default.aspx?pid=share">share ideas</a>. This gives us a new way of differentiating content such as <a href="http://www.microsoft.com/architecture/library.aspx?pid=think.integrate&amp;id=http://www.msdn.microsoft.com/architecture/journal/default.aspx?pull=/library/en-us/dnmaj/html/aj2metrop.asp">Metropolis</a>, which really is about the future of architecture, from content such as the <a href="http://www.msdn.microsoft.com/architecture/solvenow/solveimpdes/default.aspx?pull=/library/en-us/dnpag/html/SCAG.asp">Smart Client Architecture and Design Guide</a>, which really is about solving a specific design problems today. Over time, as we add both more content as well as more personalization features, we think this approach will make it much easier for our customers to find the content they are looking for.</p><p>Of course, as "community guy", I'm most excited about the Share Ideas section. In addition to a <a href="http://www.microsoft.com/architecture/siterss/">site wide RSS feed</a>, we also have an <a href="http://www.microsoft.com/architecture/aggregate.aspx?pid=share.read">aggregate architecture blog</a> (and <a href="http://www.microsoft.com/architecture/blogrss/">RSS feed</a>)  featuring both Microsoft architects like myself and <a href="http://blogs.msdn.com/smguest">Simon Guest</a> as well as and 3rd party architects such as Architect MVP's <a href="http://www.jnsk.se/weblog/">Jimmy Nilsson</a> and <a href="http://objectsharp.com/Blogs/barry">Barry Gervin</a> as well as Architecture Advisory Board members <a href="http://www.from9till2.com/">David Ing</a> and <a href="http://martinfowler.com/bliki/">Martin Fowler</a>. There's info on the new <a href="http://www.microsoft.com/architecture/default.aspx?pid=share.certification">architecture certification</a>, upcoming <a href="http://www.microsoft.com/architecture/default.aspx?pid=share.check">events and webcasts</a> as well as <a href="http://www.microsoft.com/architecture/default.aspx?pid=share.vision.people">profiles of my coworkers</a> on the Architecture Strategy Team.</p><p>Finally, I'm very excited to announce that JOURNAL is becoming <a href="http://www.microsoft.com/architecture/default.aspx?pid=journal">The Architecture Journal</a> and that you can sign up for a free print subscription to this great quarterly publication. We saw a huge traffic spike when JOURNAL was introduced on Architecture Center last spring, so I'm thrilled that that great content will now be available in print format delivered right to your home or office! Watch for print copies of the <a href="http://www.microsoft.com/architecture/default.aspx?pid=journal.best.vol1">Best of the Journal</a> issue at TechEd.</p><p>Of course, with any new venture, there will be tweaks, hiccups and improvements. Please leave a comment or <a href="mailto:hpierson@microsoft.com?subject=Architecture Resource Center">email me</a> with your thoughts, opinions and suggestions on how we can continue to improve this site to meet the needs of all kinds of architects. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">601</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-05-26 15:43:31</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-05-26 15:43:31</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">introducing-the-architecture-resource-center</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[bc890bfa-f4e7-4410-bbdf-a60d4adc32cf]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Introducing+The+Architecture+Resource+Center]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/05/26/Introducing+The+Architecture+Resource+Center]]></wp:meta_value>
+  </wp:postmeta>
+</item>

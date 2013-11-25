@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Is This Thing On?</title>
+  <link>http://devhawk.net/2004/07/22/is-this-thing-on/</link>
+  <pubDate>Thu, 22 Jul 2004 23:23:24 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://09f68056-41ce-42ab-a64a-7f36d825242c</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm behind on blogging. Not just writing, I'm behind on reading blogs as well. I hit 1000 unread posts today, and scrapped them all. I can offer up excuses like I was on the road most of July so far, my son hasn't been feeling well, the start of the fiscal year is always busy (all true - I had to get up and soothe Patrick back to sleep after he woke up coughing as I wrote this post) but there's no real point in making excuses. I started an outlook task list of “Shit to Blog” back at TechEd, and so far I've only removed two items from the list. Part of the reason for that is that I've been reading <a href="http://www.softwarefactories.com/TheBook.html">Software Factories</a> which isn't generally available, so I'm holding off on blogging my thoughts until the book ships. Next week, I'm off for New Zealand and Australia for TechEd, which is going to be awesome but probably mean still less blogging.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">400</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-07-22 23:23:24</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-07-22 23:23:24</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">is-this-thing-on</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[09f68056-41ce-42ab-a64a-7f36d825242c]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Is+This+Thing+On]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/07/23/Is+This+Thing+On]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2633</wp:comment_id>
+    <wp:comment_author><![CDATA[frank arrigo]]></wp:comment_author>
+    <wp:comment_author_email>frankarr@microsoft.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/frankarr</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-07-26 04:21:38</wp:comment_date>
+    <wp:comment_date_gmt>2004-07-26 11:21:38</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[dont forget to register on http://www.techedbloggers.net 
+
+see you in canberra next week]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

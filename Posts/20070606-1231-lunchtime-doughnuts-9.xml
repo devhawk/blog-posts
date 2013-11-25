@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Lunchtime Doughnuts 9</title>
+  <link>http://devhawk.net/2007/06/06/lunchtime-doughnuts-9/</link>
+  <pubDate>Wed, 06 Jun 2007 12:31:14 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dale</dc:creator>
+  <guid isPermaLink="false">http://d0240651-cf80-4a66-ba82-2e3467d16c90</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I am a few days behind on this, but <a href="http://updates.zdnet.com/tags/Joe+McKendrick.html">Joe McKendrick</a><a href="http://blogs.zdnet.com/service-oriented/?p=887">writes</a> an interesting piece on if businesspeople are begging for SOA. It is fascinating because I believe that SOA should come from the business, not because of the delivery mechanism, but because of the results. If services will truly make a business more adaptable and responsive to change shouldn't all business people desire those results? At the same time they don't care how that end is achieved, just that it is. That's where we in the IT industry need to do a better job of working out the details amongst ourselves and show the business how SOA can benefit them. Once we do that we should see more SOA adoptions go smoother and real ROI can be seen.</li><li><a href="http://www.ldscio.org/about-joel/">Joel Dehlin</a> has <a href="http://www.ldscio.org/2007/06/05/the-myth-of-youth/">blogged</a> on the myth of youth being the ones that use instant messaging, publish and read blogs, participate in social networks, etc. I agree that the technology has been integrated into every layer of society. If you have ever been at the airport or at a <a href="http://www.starbucks.com/">Starbucks</a> you know what I mean. Who is it exactly that has a <a href="http://abcnews.go.com/WNT/Technology/story?id=2348779">Crackberry addiction</a>? It seems technology has really become a part of our culture, and that it's not just one age group that is adopting the changes.</li><li><a href="http://blogs.msdn.com/vsxteam/archive/2007/06/05/Announcing-the-Visual-Studio-2008-Shell.aspx">Visual Studio 2008 shell</a> was announced at <a href="http://www.microsoft.com/events/teched2007/registration.mspx">TechEd</a> yesterday. Even <a href="http://devhawk.net/2007/06/06/TechEd+2007+Day+Three.aspx">Harry</a> who was on-site missed the release, but it certainly looks <a href="http://msdn2.microsoft.com/en-us/vstudio/bb510103.aspx">cool</a>.</li><li>If you have ever met me you would quickly discover I have quite a background in <a href="http://halfmybrain.spaces.live.com/blog/cns!DF6CA820250998D2!328.entry">Unix</a>. That being the case I couldn't ignore the <a href="http://scobleizer.com/2007/06/05/sun-releases-new-blades/">news</a> that Sun is releasing new <a href="http://www.podtech.net/scobleshow/technology/1522/sun-microsystems-releases-new-blades">blades</a> for the desktop. I had a blade on my desk for several years and it was really a nice system to use. For those that would bash me since I work at Microsoft now I will just say that when you support Solaris boxes, having one on your desk is quite helpful. I don't take sides in the Holy War. :-) (via <a href="http://scobleizer.com/">Scoble</a>)</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">979</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-06-06 12:31:14</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-06-06 12:31:14</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">lunchtime-doughnuts-9</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="hardware"><![CDATA[Hardware]]></category>
+  <category domain="post_tag" nicename="microsoft"><![CDATA[Microsoft]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="teched"><![CDATA[TechEd]]></category>
+  <category domain="post_tag" nicename="visual-studio"><![CDATA[Visual Studio]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[d0240651-cf80-4a66-ba82-2e3467d16c90]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Lunchtime+Doughnuts+9]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/06/06/Lunchtime+Doughnuts+9]]></wp:meta_value>
+  </wp:postmeta>
+</item>

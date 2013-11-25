@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>More TechEd 05 ARC Track Changes</title>
+  <link>http://devhawk.net/2005/06/09/more-teched-05-arc-track-changes/</link>
+  <pubDate>Thu, 09 Jun 2005 05:04:17 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7f5736f1-2bf8-4966-bfd8-dd6f2d71a572</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>As per yesterday's update, here are the latest changes to the ARC track for those in Orlando</p><ul><li>ARC304R - We're repeating the <a href="http://www1.msteched.com/content/sessionview.aspx?TopicID=8d2bce0e-9627-423a-9f41-8f6ed5b67bec">Smart Client Architecture</a> talk Thursday at 5pm in room S 220 E. Note, this repeat session will only feature <a href="http://www.dotnetmasters.com/">Billy Hollis</a> as the speaker. 
+</li><li>GAT Lab - Due to technical difficulties, the <a href="http://lab.msdn.microsoft.com/teamsystem/workshop/gat/">Guidance Automation Toolkit</a> lab didn't make it to the HoL floor. However, you can <a href="http://guidanceautomation.net/cs/library/View.aspx?tab=3&amp;Id=40">download the lab</a> from the brand new <a href="http://www.guidanceautomation.net/">GAT community site</a>. In addition to <a href="http://www.guidanceautomation.net/blogs">blogs</a>, <a href="http://www.guidanceautomation.net/forums">forums</a> and a <a href="http://www.guidanceautomation.net/wiki">wiki</a>, <a href="http://www.guidanceautomation.net/">GuidanceAutomation.net</a> features a <a href="http://www.guidanceautomation.net/library">library</a> where you can find and share GAT resources - including the TechEd Lab - with other members of the community.</li></ul><p>Update (02-23-06): Updated link to the GAT Lab.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">609</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-06-09 05:04:17</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-06-09 05:04:17</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">more-teched-05-arc-track-changes</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7f5736f1-2bf8-4966-bfd8-dd6f2d71a572]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[More+TechEd+05+ARC+Track+Changes]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/06/09/More+TechEd+05+ARC+Track+Changes]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Enterprise Service Bus? Give Me an Extra Special Bitter Instead</title>
+  <link>http://devhawk.net/2007/04/25/enterprise-service-bus-give-me-an-extra-special-bitter-instead/</link>
+  <pubDate>Wed, 25 Apr 2007 16:19:33 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a2e5c112-fcfc-40d0-8e6e-9923d5a9a6e0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I went to a talk on BizTalk and ESB at lunch today that was sponsored by the <a href="http://www.nwconnectedsystems.org/">local connected systems user group</a>. Like many terms in this space (SOA and governance to name two others), ESB doesn't seem to have a consistent definition. The industry seems to be inventing terms at a fair clip as vendors attempt to differentiate themselves on what to me seem like fairly minor solution aspects. </p><p>Today's speaker talked at length about a "large health care company in California" that he had personally worked with, building an ESB for them with BizTalk. He spoke in glowing terms of the size of the BizTalk environment and the number of messages passing through the bus every day. Then someone asked how many systems this unnamed company had hooked up to the bus. He paused, then admitted: "Six". </p><p>Six? Not six <em>whole </em>systems! That's gotta be a record! </p><p>Of course, I realize that there are deployed ESB's out there that are integrating more than six systems. My group - the Integration Center of Excellence (ICoE for short) - runs a comparably sized BizTalk environment and we're connecting around 50 internal systems and hundreds of external partners. But 50 is still a fairly small number. I can't help but wonder how well will this ESB approach is going scale as the number of systems goes up a couple orders of magnitude. Frankly, I think the answer is "not well". </p><p>The problem I have with ESB is that it's a centralized approach. Given that one of the overriding trends of society in general and IT in particular is decentralization, the ESB approach feels like it's swimming against the current instead of with it. </p><p>As an analogy, consider how well would the Internet work if every connection went thru a central hub? See what I mean? Centralized systems don't scale like decentralized ones do. </p><p>I admit that there are scenarios where ESB-esque technology solves a practical problem. Transport adaptation and content based routing leap to mind. Services that need those capabilities should leverage ESB-esque technology. But whenever I listen to ESB proponents, I feel that the need for these capabilities is exaggerated to the point that every message exchanged between every service inside your enterprise travels on a central bus, which doesn't seem realistic to me.</p><p>Am I wrong about this characterization? Do ESB proponents think that all messages must travel on the bus? How about <em>you</em>? What do you think? Inquiring minds (aka me) want to know...</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">943</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-25 16:19:33</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-25 16:19:33</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">enterprise-service-bus-give-me-an-extra-special-bitter-instead</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a2e5c112-fcfc-40d0-8e6e-9923d5a9a6e0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Enterprise+Service+Bus+Give+Me+An+Extra+Special+Bitter+Instead]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/25/Enterprise+Service+Bus+Give+Me+An+Extra+Special+Bitter+Instead]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2490</wp:comment_id>
+    <wp:comment_author><![CDATA[Hans Valcke]]></wp:comment_author>
+    <wp:comment_author_email>hans.valcke@unilin.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.linkedin.com/myprofile?trk=tab_pro</wp:comment_author_url>
+    <wp:comment_author_IP>84.195.232.190</wp:comment_author_IP>
+    <wp:comment_date>2007-04-29 05:41:38</wp:comment_date>
+    <wp:comment_date_gmt>2007-04-29 12:41:38</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi,Harry
+
+We had a fairly large Biztalk env. in our company and we already implemented 2 hub's one in EU, one in US in 2004. Then we added the ESB concepts so we can deploy federated biztalk servers around the globe with central routing tables and central console. We can use messaging and services in the ESB design and can scale as large as you want, just add more hubs to the ESB.
+
+We also wrote ESB-switches which can also route the messages thoughout the ESB and we to dynamic routing so we can re-route if a hub is down -All hubs use services to check for new routing and give hartbeats to our main hub's. We also implemeted enterprise dymensionnal routing so we can monitor and simulate the impact of changes in routing.
+
+Currently we're implementing 15 federeted hub across the globe.
+
+Hans.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2488</wp:comment_id>
+    <wp:comment_author><![CDATA[Udi Dahan - The Software Simplis]]></wp:comment_author>
+    <wp:comment_author_email>blog@UdiDahan.com</wp:comment_author_email>
+    <wp:comment_author_url>http://udidahan.weblogs.us</wp:comment_author_url>
+    <wp:comment_author_IP>84.228.172.24</wp:comment_author_IP>
+    <wp:comment_date>2007-04-25 21:47:39</wp:comment_date>
+    <wp:comment_date_gmt>2007-04-26 04:47:39</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry,
+
+The problems that you are attributing to ESB's are really those of the Broker style that BizTalk supports. That central hub you talk about is not a part of message exchanges in the Bus style, although many ESB's do have some sort of central location to jumpstart interactions.
+
+This is the main problem I have with Microsoft's ESB message. BizTalk is a broker and will not be a bus until it is redesigned from the ground up. At least, that's what I think :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2489</wp:comment_id>
+    <wp:comment_author><![CDATA[Curt Peterson]]></wp:comment_author>
+    <wp:comment_author_email>curt.peterson@neudesic.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.neudesic.com/esb</wp:comment_author_url>
+    <wp:comment_author_IP>76.80.169.55</wp:comment_author_IP>
+    <wp:comment_date>2007-04-26 13:28:07</wp:comment_date>
+    <wp:comment_date_gmt>2007-04-26 20:28:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry,
+
+I couldn't agree more that a centralized approach to messaging has some less than desired side effects, as you mentioned.  However, consider an alternative, point to point.  If you go down this path, for example using WCF just like it is (any channel you choose), how do you deal with all of the management issues you guys are dealing with in ICOE, or deployment, or service reuse, or mediation, or versioning, etc.?  I'm confident you would agree there are a certain set of common capabilities required to have a decent messaging solution, as well as some nice to have's you could throw in there.  If we did that, why not consider that a definition of an ESB?  What that collection of specific features is called isn't as important, I'll offer, as the fact that were abstracting common elements of an enterprise communications system into a reusable pattern, and delivering that as a real solution, reusable, and available today.  This saves, time, money, etc.
+
+We've crafted a solution, using all MSFT technologies that achieves exactly this http://www.neudesic.com/esb, is available now, is super easy to use, dramatically reduces the cost of wiring together services, and provides features that enable many of the promises of distributed, loosely coupled architectures to be realized.  Our solution is not physically centralized, it is logically centralized, but physically decentralized.  This gives you the best of both worlds; the maintenance ease of a centralized system, with the flexibility, performance, etc. of a decentralized solution.  Check it out, I have implemented these kinds of solutions for nearly 20 years, and it's great to finally have a complete MSFT solution, now we can introduce a product that is very easy to use, into an existing environment, with no impact on the current communications, and bring all of the power of CBR, CEP, BPM, BAM, QoS, security, mediation, reconfigurability, BRE, workflow, and many other fantastic tools, in a matter of minutes.  Shoot me an email, if you want to know more, I'm always happy to prove it, not just say it!!!  The correct communications tools (read good ESB) can and does do wonders for small, medium, and large projects.  Cheers!!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

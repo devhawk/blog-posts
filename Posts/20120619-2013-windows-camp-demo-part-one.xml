@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Windows Camp Demo, Part One</title>
+  <link>http://devhawk.net/2012/06/19/windows-camp-demo-part-one/</link>
+  <pubDate>Wed, 20 Jun 2012 03:13:34 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://devhawk.net/?p=2002</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[Several weeks ago, I did a talk on <a href="http://devhawk.net/2012/06/08/building-winrt-components-with-cpp-cx/">building Windows Runtime components in C++</a>. As part of that talk, I did a demo that showed accessing a WinRT component written in C++ from a C# XAML application. Like I did for <a href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/">my //build talk</a>, I’ve written this walkthrough so you can follow along at home without having to read code off the recorded video stream. I’ve also published the source up on <a href="https://github.com/devhawk/WindowsCampDemo">GitHub</a>.
+
+The demo had two parts – the first was a “Hello, world!” style demo, the second demonstrated wrapping an <a href="http://bitmap.codeplex.com/">existing C++ library</a> in a WinRT component to make it callable from other languages. This post covers the first part of the demo. I’ll post a walkthrough of the second part of the demo soon.
+
+In order to follow along, you’ll need the <a href="http://windows.microsoft.com/en-US/windows-8/release-preview">Windows 8 Release Preview</a> as well as <a href="http://msdn.microsoft.com/en-us/windows/apps/hh852659">Visual Studio 2012 Express RC for Windows 8</a>. You should be able to use the RC version of VS 2012 <a href="http://www.microsoft.com/visualstudio/11/en-us/professional">Pro</a>, <a href="http://www.microsoft.com/visualstudio/11/en-us/premium">Premium</a> or <a href="http://www.microsoft.com/visualstudio/11/en-us/ultimate">Ultimate</a>, but I’ve only tested with Express. Note, the original presentation was done on Win8 Consumer Preview / VS 11 Beta, but I figured it made more sense to write up the walkthrough on the latest bits.
+
+We’re going to start by creating the C# XAML app we’ll use as the component client. Fire up VS 2012 RC and select new project. Select Visual C# -&gt; Windows Metro Style -&gt; Blank App (XAML), name the project “WindowsCamp” and press OK. Once the project has been created, open up the MainPage.xaml file, replace the Grid element that’s there by default with the following XAML code:
+<pre class="brush:xml">&lt;StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}"&gt;
+    &lt;Button Click="Button_Click_1"&gt;Click me&lt;/Button&gt;
+    &lt;TextBlock x:Name="myText" FontSize="20"&gt;&lt;/TextBlock&gt;
+    &lt;Image x:Name="myImage"&gt;&lt;/Image&gt;
+&lt;/StackPanel&gt;</pre>
+As you can see, my UX skills have not improved since //build.
+
+Now, we need to add a project for the C++ WinRT component. Right click on solution in the Solution Explorer and select Add -&gt; New Project. In the New Project dialog, Select Visual C++ -&gt; Windows Metro Style -&gt; Windows Runtime Component, name the project “WindowsCampComponent” and press OK.
+
+Once the component project has been created, we’re going to add some code to it. Open Class1.h if it’s not already open. Update the file to read as follows:
+<pre class="brush:cpp">#pragma once
+
+using namespace Platform;
+
+namespace WindowsCampComponent
+{
+    public ref class Class1 sealed
+    {
+    public:
+        Class1();
+
+        String^ SayHello(String^ name) {
+            return String::Concat(
+                ref new String(L"Hello there "),
+                name);
+        };
+    };
+}</pre>
+The code is a bit more complex than your typical Hello, world. The SayHello method takes a string parameter that represents someone’s name. The method concatenates the provided name with a hard coded greeting string and returns the resulting string. Doesn’t get much simpler. However, even though it’s just a single line of code there are several concepts that are important to point out:
+<ul>
+	<li>ref class – WinRT objects are projected in C++/CX as ref classes and vise-versa. Since we’re building a WinRT component to consume from C#, we define it as a ref class. Note, unless you’re writing a XAML control, all WinRT classes must be sealed.</li>
+	<li>Hats – The ‘^’ character after the String type declarations is the handle-to-object modifier. It’s basically the pointer-to-object modifier (aka ‘*’) but for ref classes. We’ll see in the second part of the demo that you invoke members on a ref class using the same ‘-&gt;’ syntax that you use in vanilla C++.</li>
+	<li>ref new – You create instances of ref clases using “ref new” instead of “new” as you do in vanilla C++. Ref new returns a handle to the newly created ref class – a String^ in this case.</li>
+	<li>Platform::String – C++/CX projects some non-class WinRT types as ref classes in the Platform namespace. In this case, C++/CX projects the new language interoperable string type <a href="http://msdn.microsoft.com/en-us/library/br205775(v=vs.85).aspx">HSTRING</a> as a Platform::String ref class. HSTRINGS are UTF-16, so Platform::String provides a constructor that takes a wide string literal. We imported the Platform namespace via the “using namespace” directive so we wouldn’t have to type “Platform::” multiple times.</li>
+</ul>
+For more information about the design of the C++/CX language, check out <a href="http://blogs.msdn.com/b/vcblog/archive/2011/10/20/10228473.aspx">Jim Springfield’s post</a> on the <a href="http://blogs.msdn.com/b/vcblog/">Visual C++ team blog</a>.
+
+Now that we’ve written our WinRT component, we’ll write the code to consume it in C#. First, we need to add a reference to the C++ WinRT component project in our C# Metro style XAML app. WinRT references are added just like traditional CLR references – via the Add Reference dialog. Right click on the WindowsCamp node of the Solution explorer, select “Add Reference…” from the menu, click the check box next to the WindowsCampComponent project from the solution and press OK.
+
+Go back to MainPage.xaml and double click on the button labeled “Click Me” in the designer. This will add a click event handler named Button_Click_1 and take you to MainPage.xaml.cs so you can write the code for it. Type in “var wcc = new Windows” and look at the resulting intellisense list. Notice that WindowsCampComponent is missing.
+
+<img class="alignnone size-full wp-image-2004" title="WCDemo1-Intellisense1" src="http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-Intellisense1.png" alt="" width="496" height="241" />
+
+This is because the C++ component hasn’t been compiled yet. We need compile the C++ component project in order to generate the Windows metadata file (aka the file with the .winmd extension) that is used to drive intellisense. Delete the line of code you just added and compile the solution. Now type that line of code again, and you’ll notice that the WindowsCampComponent namespace is available.
+
+<img class="alignnone size-full wp-image-2005" title="WCDemo1-Intellisense2" src="http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-Intellisense2.png" alt="" width="490" height="238" />
+
+Now, update the button click event handler to read as follows:
+<pre class="brush:csharp">private void Button_Click_1(object sender, RoutedEventArgs e)
+{
+    var wcc = new WindowsCampComponent.Class1();
+    myText.Text = wcc.SayHello("Herb Sutter");
+}</pre>
+<img class="size-thumbnail wp-image-2008 alignleft" title="WCDemo1-RunningApp" src="http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-RunningApp-e1340161688130-150x74.png" alt="" width="150" height="74" />Now, run the app, click the “Click Me” button and marvel at the wonder of WinRT language interop to print a greeting to Herb Sutter. I used <a href="http://herbsutter.com/">Herb Sutter</a> from the C++ team since he was the keynote speaker at the Windows Camp event and was standing in the back of the room when I did the demo.
+
+And that’s it for the Hello, world demo. Kind of a lot of steps for essentially 3 lines of code – 1 line of component code and 2 lines of client code. However, we did get the infrastructure set up so we add more substantial code in the next post.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">2002</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2012-06-19 20:13:34</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2012-06-20 03:13:34</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">windows-camp-demo-part-one</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-plus-plus"><![CDATA[C++]]></category>
+  <category domain="post_tag" nicename="c-plus-plus-cx"><![CDATA[C++/cx]]></category>
+  <category domain="post_tag" nicename="channel-9"><![CDATA[Channel 9]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="metro-style-apps"><![CDATA[Metro style apps]]></category>
+  <category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+  <category domain="post_tag" nicename="windows-8"><![CDATA[Windows 8]]></category>
+  <category domain="post_tag" nicename="windows-camp"><![CDATA[Windows Camp]]></category>
+  <category domain="category" nicename="windows-runtime"><![CDATA[Windows Runtime]]></category>
+  <category domain="post_tag" nicename="winrt-components"><![CDATA[WinRT Components]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3343</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk &#8211; Windows Camp Demo, Part Two]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://devhawk.net/2012/06/19/windows-camp-demo-part-two/</wp:comment_author_url>
+    <wp:comment_author_IP>184.168.254.1</wp:comment_author_IP>
+    <wp:comment_date>2012-06-24 09:34:49</wp:comment_date>
+    <wp:comment_date_gmt>2012-06-24 16:34:49</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[[...] my previous post, we set up a C++ WinRT component project and a C# Metro style XAML app to use the component. The [...]]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type>pingback</wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_result</wp:meta_key>
+      <wp:meta_value><![CDATA[false]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340555689.8581";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340555706.0414";s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3286</wp:comment_id>
+    <wp:comment_author><![CDATA[Dew Drop &ndash; June 20, 2012 (#1,348) | Alvin Ashcraft&#039;s Morning Dew]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.alvinashcraft.com/2012/06/20/dew-drop-june-20-2012-1348/</wp:comment_author_url>
+    <wp:comment_author_IP>72.47.228.18</wp:comment_author_IP>
+    <wp:comment_date>2012-06-20 11:16:15</wp:comment_date>
+    <wp:comment_date_gmt>2012-06-20 18:16:15</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[[...] Windows Camp Demo, Part One (Harry Pierson) [...]]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type>pingback</wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_result</wp:meta_key>
+      <wp:meta_value><![CDATA[false]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340216175.6573";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340244552.3914";s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+  </wp:comment>
+</item>

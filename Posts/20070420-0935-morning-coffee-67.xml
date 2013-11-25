@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 67</title>
+  <link>http://devhawk.net/2007/04/20/morning-coffee-67/</link>
+  <pubDate>Fri, 20 Apr 2007 09:35:11 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://1a50af3f-c9a4-4675-bfeb-c61a6c862897</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Beta 1 of VS "Orcas" and .NET Framework 3.5 <a href="http://blogs.msdn.com/somasegar/archive/2007/04/19/visual-studio-orcas-and-net-fx-3-5-beta1-shipped.aspx">has shipped</a>. Get it <a href="http://msdn2.microsoft.com/en-us/vstudio/aa700831.aspx">here</a>. Besides LINQ, I'm most looking forward to experimenting with some of the new <a href="http://blogs.msdn.com/moustafa/archive/2007/03/04/visual-studio-orcasand-wf-wcf-rules-changes.aspx">WF/WCF integration work</a>. However, I don't think this beta includes <a href="http://msdn2.microsoft.com/en-us/teamsystem/aa718807.aspx">DBPro functionality</a>. Not surprising, given that DBPro only shipped a few months ago, but disappointing since I've moved all my database dev work over to that model. 
+</li><li>Korby Parnell <a href="http://blogs.msdn.com/korbyp/archive/2007/04/19/tagspace-meet-claimspace.aspx">introduces</a> Claimspace, part of the <a href="http://beta.communities.microsoft.com/">Microsoft.Community</a> family. While the other family members are retreads - <a href="http://www.microsoft.com/communities/beta/blogsoverview.mspx">blogs</a>, <a href="http://www.microsoft.com/communities/beta/forumsoverview.mspx">forums</a> and <a href="http://www.microsoft.com/communities/beta/tagspaceoverview.mspx">tagging</a> - but this seems like something fundamentally new - or at least new to me - and therefore interesting. (via <a href="http://www.larkware.com/dg8/TheDailyGrind1125.aspx">Larkware</a>) 
+</li><li>Scott Hanselman <a href="http://www.hanselman.com/blog/NewReleaseOfNotepad2UpdatedAgainWithRubySupport.aspx">updates</a> the <a href="http://www.flos-freeware.ch/notepad2.html">new version of Notepad2</a> to re-enable Ruby support <a href="http://wesnerm.blogs.com/net_undocumented/2005/07/notepad2_with_r.html">originally built</a> by Wesner Moise. Ruby is nice, but where's the <a href="http://www.microsoft.com/PowerShell">PowerShell</a> love? 
+</li><li>After <a href="http://www.msnbc.msn.com/id/18227600/">his performance</a> in front the Judiciary Committee, Attorney General Gonzales is grossly incompetent, lying or both. What does it say about President Bush that he was "<a href="http://www.talkingpointsmemo.com/archives/013745.php">pleased with the Attorney General’s testimony</a>"? It says Bush values loyalty over competence, is hiding something or both. Given that his approval ratings can't get much worse, I guess standing by Gonzales even in the midst of bi-partisan calls for his resignation isn't going to affect Bush much politically. On the other hand, confirming a new AG with a Democratic congress and low 30% approval rating might be devastating, depending on the bodies buried over there.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">940</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-20 09:35:11</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-20 09:35:11</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-67</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="category" nicename="politics"><![CDATA[Politics]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[1a50af3f-c9a4-4675-bfeb-c61a6c862897]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+67]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/20/Morning+Coffee+67]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 94</title>
+  <link>http://devhawk.net/2007/06/25/morning-coffee-94/</link>
+  <pubDate>Mon, 25 Jun 2007 09:57:37 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0733a021-2450-4828-acfe-14527f25b8cd</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>By <a href="http://japersrink.blogspot.com/2007/06/recapping-caps-draft.html">most accounts</a>, the Capitals had a good draft this weekend. They started the day with ten picks across the seven rounds. The ended the day with ten prospects as well as three extra picks next year, including two second rounders. According to the GM George McPhee (aka GMGM), next year's is "<a href="http://www.washingtonpost.com/wp-dyn/content/article/2007/06/23/AR2007062301097.html">supposed to be a terrific draft</a>" which is probably true but what you always say when you trade down for future picks. On the other hand, if the <a href="http://blog.washingtonpost.com/capitalsinsider/2007/06/notes_from_columbus.html">guys you want</a> are available further down, why not stock up on the future picks?  </li><li>John Lam <a href="http://www.iunknown.com/2007/06/steve-yegge-por.html">reports</a> on <a href="http://steve-yegge.blogspot.com/">Steve Yegge's</a> Rails port to JavaScript that he saw at Foo Camp. Google (aka Steve's employer) wasn't interested in adopting Ruby or Rails since they already use C++, Java, JavaScript and Python. So Steve ported Rails to JavaScript. Wow. However, it does beg the question which is more valuable, Ruby or Rails? If you could have just one or the other, which would you choose? </li><li>Speaking of dynamic languages, <a href="http://www.codeplex.com/PowerShellCX">Powershell Community Extensions</a> v1.1 is out. I want to check out the new <a href="http://keithhill.spaces.live.com/blog/cns!5A8D2641E0963A97!764.entry?_c=BlogPart">Elevate function</a>. Currently, I'm using the <a href="http://www.microsoft.com/technet/technetmag/issues/2007/06/UtilitySpotlight/default.aspx">Script Elevation PowerToys</a>, but I would rather have a pure PS solution. (via <a href="http://blogs.msdn.com/powershell/archive/2007/06/24/powershell-community-extensions-pscx-v1-1-1.aspx">Powershell Team Blog</a>) </li><li>I always know it's a slow day when I decide to check <a href="http://www.techmeme.com/">TechMeme</a> while writing my Morning Coffee post. Usually, I get plenty to write about from just my news reading. However, <a href="http://www.techmeme.com/070625/h1240">right now</a>, even TechMeme seems mostly uninteresting. Only thing remotely interesting to me is Samsung's new <a href="http://www.engadget.com/2007/06/25/samsungs-64gb-ssds-ready-to-roll/">64GB solid state drive</a>.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">992</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-06-25 09:57:37</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-06-25 09:57:37</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-94</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="post_tag" nicename="ruby"><![CDATA[Ruby]]></category>
+  <category domain="post_tag" nicename="washington-capitals"><![CDATA[Washington Capitals]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0733a021-2450-4828-acfe-14527f25b8cd]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+94]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/06/25/Morning+Coffee+94]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2532</wp:comment_id>
+    <wp:comment_author><![CDATA[Nick Malik]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/nickmalik</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-06-25 16:58:23</wp:comment_date>
+    <wp:comment_date_gmt>2007-06-25 23:58:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[So what is the Rails "answer" on the Microsoft platform?  If we don't install Ruby, do we use Rails on JS or is there a Rails version we may want to put up ourselves?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

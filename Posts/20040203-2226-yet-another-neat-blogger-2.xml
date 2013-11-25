@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Yet Another NEAT Blogger</title>
+  <link>http://devhawk.net/2004/02/03/yet-another-neat-blogger-2/</link>
+  <pubDate>Tue, 03 Feb 2004 22:26:55 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://94fd77ca-75d5-487c-a759-8eb3efbc75fe</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Say hello (and <a href="http://blogs.msdn.com/jdevados/Rss.aspx">subscribe</a>) to <a href="http://blogs.msdn.com/jdevados/">John deVadoss</a>, the latest .NEAT team member to start a blog. John's the Lead Solutions Architect for .NEAT, which means he's technical plus he manages people. He's got his <a href="http://blogs.msdn.com/jdevados/archive/2004/02/03/66984.aspx">"Hello World" post</a> out of the way where he lists his interests. I spend a lot of time <strike>hounding</strike> talking with John, so I'm looking forward to his future posts. </p><p>I think my extended team (.NET Enterprise Architecture Team plus the Field Architect Evangelists) are really starting to get into this blogging thing. Besides John and myself, we've got David <a href="http://weblogs.asp.net/dphill/archive/2004/02/03/66916.aspx">explaining</a> "what makes a Smart Client so smart?", Ram on <a href="http://weblogs.asp.net/ramkoth/archive/2004/01/31/65321.aspx">SOA and OO</a>, Mike on <a href="http://blogs.msdn.com/michael_platt/archive/2004/02/02/66099.aspx">modelling</a> and Simon on <a href="http://weblogs.asp.net/smguest/category/2055.aspx">interop</a> and <a href="http://weblogs.asp.net/smguest/archive/2004/01/18/60079.aspx">Outlook programmability</a>. Maybe I should start a .NEAT / AE blogroll? The blogrolls on my weblog are woefully out of date anyway, might be time for an overhaul.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">302</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-02-03 22:26:55</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-02-03 22:26:55</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">yet-another-neat-blogger-2</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[94fd77ca-75d5-487c-a759-8eb3efbc75fe]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Yet+Another+NEAT+Blogger]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/02/04/Yet+Another+NEAT+Blogger]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2989</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Earls]]></wp:comment_author>
+    <wp:comment_author_email>mearls@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.cerkit.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-02-04 05:39:07</wp:comment_date>
+    <wp:comment_date_gmt>2004-02-04 13:39:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'd like to get an OPML of the .NEAT/AE blogs.  That would be an excellent resource.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

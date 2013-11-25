@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Coming Up For Air</title>
+  <link>http://devhawk.net/2003/07/21/coming-up-for-air/</link>
+  <pubDate>Mon, 21 Jul 2003 12:24:35 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c7ddeecb-30ec-4674-b218-cebed351dabb</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[Wireless access has been available, but time has not. I've at least caught up on my DevHawk email. David Miles ported my <a href="prj_pagelayoutctl.aspx"> Page Layout UserControl</a> project to VB. <a href="http://weblogs.asp.net/NUnitAddin/">Jamie Cansdale</a> made <a href="prj_messenger.aspx">Messenger.NET</a> into a <a href="http://www.managedaddins.net/gallery/">VS.NET addin</a>. And George Datuashvili and <a href="http://www.douglasp.com/">Doug Purdy</a> both pointed out that the example XML in my <a href="PermaLink.aspx?guid=a948e2d7-2627-470d-bff6-17618bc87594">XML Schema Doesn't Need Inheritance</a> entry is nondeterministic. I've got quite a backlog, but I will get though it later this week.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">149</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-07-21 12:24:35</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-07-21 12:24:35</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">coming-up-for-air</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Coming+Up+For+Air]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/07/21/Coming+Up+For+Air]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c7ddeecb-30ec-4674-b218-cebed351dabb]]></wp:meta_value>
+  </wp:postmeta>
+</item>

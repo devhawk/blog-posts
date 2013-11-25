@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython 2.0 Beta 2</title>
+  <link>http://devhawk.net/2008/05/02/ironpython-2-0-beta-2/</link>
+  <pubDate>Fri, 02 May 2008 11:45:54 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://826dfa82-652e-43b0-bb59-48cf46a4e15e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>We pushed out the <a href="https://www.codeplex.com/Release/ProjectReleases.aspx?ProjectName=IronPython&amp;ReleaseId=11566">latest beta</a> of IronPython 2.0 this morning. From the <a href="http://www.codeplex.com/IronPython/Wiki/View.aspx?title=v2.0%20Beta%202%20Release%20Notes&amp;referringTitle=Home">release notes</a>:</p><blockquote><p>We’re pleased to announce the release of IronPython 2.0 Beta 2. In addition to the usual bug fixes (~25 reported on CodePlex and ~50 reported internally), this release has been partially focused on improving the performance of IronPython, in particular startup perf. Another focus of this release was improving upon our traceback support which had regressed quite a bit in 2.0B1 and had largely been broken in the 2.0 Alphas. Our traceback support should now be superior to that of IronPython 1.1!</p><p>We’ve also made a minor change to our packaging by adding a Microsoft.Scripting.Core.dll in addition to the Microsoft.Scripting.dll that’s been around since the start of 2.0. We are doing this purely as an architectural layering cleanup. Microsoft.Scripting.Core contains DLR features that are essential to building dynamic languages. Microsoft.Scripting will contain language implementation helpers that can either be re-used (e.g., BigInts) or copied (possibly e.g., the default binder). This process is all about our work to get the DLR architecture right and shouldn’t have any noticeable IronPython impact except that there’s now one more DLL to include in any package.</p><p>As a consequence of the new DLL, the deprecated file IronPython2005.sln is broken. This is the last release that will include this .sln file in the source zip file. Of course the Visual Studio 2008 version of this file, IronPython.sln, still builds.</p><p>We’d like to thank everyone in the community who reported these: kevgu, oldman, christmas, brucec, scottw, fuzzyman, haibo, Seo Sanghyeon, grizlupo, J. Merrill, perhaps, antont, 05031972, Jason Ferrara, Matt Beckius, and Davy Mitchell.</p></blockquote><p>The full release notes have details about the bugs we fixed. Congrats to the team and thanks again to the community members for their assistance. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1142</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-05-02 11:45:54</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-05-02 11:45:54</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-2-0-beta-2</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[826dfa82-652e-43b0-bb59-48cf46a4e15e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+20+Beta+2]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/05/02/IronPython+20+Beta+2]]></wp:meta_value>
+  </wp:postmeta>
+</item>

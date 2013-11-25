@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Konfabulator</title>
+  <link>http://devhawk.net/2004/11/09/konfabulator/</link>
+  <pubDate>Tue, 09 Nov 2004 17:09:32 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e7126739-bb94-4440-aa34-18e0c7691b04</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I just installed <a href="http://www.konfabulator.com/">Konfabulator</a> as I've seen several people, like <a href="http://radio.weblogs.com/0001011/2004/11/08.html#a8588">Scoble</a>, blogging about it. I think I need to dig thru the widget gallery. Of the preinstalled ones, I only like the Battery Level and WiFi Signal widgets. But I <em>really </em>like them - as in like them enough to keep the software installed just for them. I've only played with it for 5 minutes, but already I am not interested in any of the interactive widgits - having a nice partially transparent graphic displaying information at a glance works for me the best. </p><p>Esp. after the launch of Halo 2, I'd love to see a Konfabulator widget with the status of my Xbox Live Friends list. Maybe something for the <a href="http://www.xboxfriends.com/">XboxFriends</a> folks?</p><p>Speaking of Halo 2, I'm headed home now to do just that...</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">478</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-11-09 17:09:32</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-11-09 17:09:32</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">konfabulator</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e7126739-bb94-4440-aa34-18e0c7691b04]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Konfabulator]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/11/10/Konfabulator]]></wp:meta_value>
+  </wp:postmeta>
+</item>

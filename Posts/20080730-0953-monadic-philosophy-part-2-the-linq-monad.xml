@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Monadic Philosophy Part 2 - The LINQ Monad</title>
+  <link>http://devhawk.net/2008/07/30/monadic-philosophy-part-2-the-linq-monad/</link>
+  <pubDate>Wed, 30 Jul 2008 16:53:19 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6ce19647-2f6f-4d41-aff6-b202df528d21</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[If you don't come from a <a href="http://en.wikipedia.org/wiki/Monad_%28category_theory%29">math</a> or <a href="http://en.wikipedia.org/wiki/Monad_%28symbol%29">philosophy</a> background (and I don't) "monad" sounds like a made-up word. Of course, understanding OO's use of terms like "class" and "object" can be hard to grok at first too. But at least those terms have some grounding in real-world concepts that non-math geeks come across. Because I couldn't draw an analogy of monads to anything at first, it made grasping the concept of monads very hard for me.
+
+It's such a unfamiliar word that the F# team doesn't like it either:
+<blockquote>"[W]hen the designers of F# talked with the designers of Haskell about this, they agreed that the word <em>monad</em> is a bit obscure and sounds a little daunting and that using other names might be wise."
+[F# Workflows and Haskell Monads, <a href="http://www.expert-fsharp.com/default.aspx">Expert F#</a>, p232]</blockquote>
+The F# team thought about calling them workflows, but settled on <em><a href="http://research.microsoft.com/fsharp/manual/spec2.aspx#_Toc202383771">computation expression</a></em>. Frankly, I don't like these names much better. Workflow is too easily confused with <a href="http://msdn2.microsoft.com/en-us/library/bb628617.aspx">WF</a> and if the term computation expression is way to generic. Isn't everything in programming a computation expression? I think I'll just stick with monad.
+
+Of course, if there was a short, pithy way of describing a monad, I'm sure <em>that's what we'd call them</em>. It's a kinda complicated idea, so there's no simple two or three word phrase that accurately describes it. "Sequential computation with context flow" is the best I could come up with. It's a crappy description, but here's an elegant example that most .NET programmers are probably already familiar with.
+<pre class="brush: csharp">var Orders = new List&lt;Order&gt;()
+
+//code to populate orders omitted
+
+var q = Orders
+    .Where(x =&gt; x.OrderDate &lt; DateTime.Now)
+    .OrderBy(x =&gt; x.OrderDate)
+    .Select(x =&gt; new {ID = x.OrderID, Date = x.OrderDate})</pre>
+Yes it's true: LINQ is a monad. The two basic concepts about a monad from my description above is that it's a) a sequence of operations and b) there's a context that flows from operation to operation. We see both here in this simple LINQ query. I realize I'm using what looks like a LINQ to SQL query here, but for the sake of argument let's assume that this is all happening in memory.
+
+The query is a sequence of three operations: Where, OrderBy and Select. LINQ has a set of standard query operators that you can mix and match in whatever order you need to. Part of the monad's job is to enforce the sequence of actions. For C#, that's not really a big deal, since it has explicit sequencing already. However, other languages like Haskell use lazy evaluation, meaning there is no explicit order of execution. Many lazy evaluation languages use monads in areas, such as I/O, where order of execution matters.
+
+While C# doesn't need any help to enforce execution order, monads are very useful in the way they flow context between the operations. In the case of LINQ, all the standard query operators take an IEnumerable&lt;T&gt; as their first parameter and return an IEnumerable&lt;T&gt;. Since they have the same inputs and outputs, they can be plugged together in whatever order is required. Yet, you don't see any reference to GetEnumerator or the enumerator objects they return in the LINQ code above. All that code is hidden inside the LINQ query operators so the LINQ developer doesn't have to look at it.
+
+If you squint hard enough, IEnumerable kinda looks like a functional construct. It exposes a single method (GetEnumerator) and can be passed around much the same way functional languages like F# pass around first-order functions. Furthermore, the result of calling GetEnumerator is an IEnumerator object that likewise exposes one main function (MoveNext). In other words, you can think of IEnumerable sort of like a function that returns a function that you call to iterate the collection.
+
+So to sum up, a monad is a sequence of operations in a specific order that automatically flows context from one operation to the next. In the LINQ example, C# has built-in constructs - IEnumerable&lt;T&gt;, foreach and yield return - that makes the monad seem less foreign (which is why I used it as my first example!) However, as we'll see, the concepts of sequence and context flow in a monad still hold even if we're not using built in features of C# to implement them.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1161</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-07-30 09:53:19</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-07-30 16:53:19</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">monadic-philosophy-part-2-the-linq-monad</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-sharp"><![CDATA[C#]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="functional-programming"><![CDATA[Functional Programming]]></category>
+  <category domain="post_tag" nicename="monads"><![CDATA[Monads]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6ce19647-2f6f-4d41-aff6-b202df528d21]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Monadic+Philosophy+Part+2+The+LINQ+Monad]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/07/30/Monadic+Philosophy+Part+2+The+LINQ+Monad]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2098</wp:comment_id>
+    <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+    <wp:comment_author_email>barry.j.kelly@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://barrkel.blogspot.com/</wp:comment_author_url>
+    <wp:comment_author_IP>143.186.50.11</wp:comment_author_IP>
+    <wp:comment_date>2008-07-30 12:33:42</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-30 19:33:42</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I think programmers would understand monads better if they were described as a design pattern - anything that follows the monad rules is a monad, effectively.
+
+Monads are that design pattern that permits a library designer to insert himself between a user's data and the actions a user wants to apply to that data. Rather than acting directly on data, the data is stuffed into a wrapper object, and the action desired is passed as an argument; the monad then returns a new monad that has logically applied the desired action to the wrapped-up data. The whole point behind the pattern is that the monad can subtly alter the action depending on the purpose of the monad.
+
+For a List monad, it's going to apply the operation not just to one element, but to every element in the list. For a Mabye monad, it's only going to apply the operation if the wrapper actually holds any data, and not if otherwise. For an IO monad, it's going to return a value which logically contains a set of imperative instructions that, when finally interpreted after being returned by the main function, will perform operations with side-effects.
+
+The basic *design pattern* for them all is a wrapper object that takes in functions and returns a new wrapper that has logically applied the function to the contained data.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2099</wp:comment_id>
+    <wp:comment_author><![CDATA[Haskeller]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>88.100.241.85</wp:comment_author_IP>
+    <wp:comment_date>2008-07-30 13:38:53</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-30 20:38:53</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I hate seeing these Microsoft shits renaming functional theory, like its Visual Basic.... ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2100</wp:comment_id>
+    <wp:comment_author><![CDATA[atp]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>209.112.206.130</wp:comment_author_IP>
+    <wp:comment_date>2008-07-31 05:56:59</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-31 12:56:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Don't fall into the newbie trap of thinking that monads are about sequencing operations.  They aren't.  A large number of monads (for example, Reader) are commutative and do not enforce any sort of statement ordering.
+
+It seems most people are first introduced to the notion of monads when attempting to do purely functional IO or stateful computations, which is too bad.  Not only are these monads extremely complex (causing the beginner to think monads are more complex in general than they really are) but they are also not representatitive.
+
+I think the Maybe monad and List monad are better "first monads" than State or IO.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

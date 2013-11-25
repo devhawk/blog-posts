@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Hawkeye on Web Service Software Factory</title>
+  <link>http://devhawk.net/2007/01/30/hawkeye-on-web-service-software-factory/</link>
+  <pubDate>Tue, 30 Jan 2007 14:53:20 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a8ceccf6-df2a-4213-9b87-ef1d46e31516</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>As I wrote the other day, I've been investigating the <a href="http://msdn2.microsoft.com/en-us/library/aa480534.aspx">Web Service Software Factory</a>. The WSSF includes four guidance packages: Data Access, ASMX, WCF and WCF Security. The Data Access isn't service specific (I'm guessing it's also included in p&amp;p's <a href="http://msdn2.microsoft.com/en-us/library/aa137950.aspx">other factories</a>) so I didn't focus on it much. I also didn't investigate the ASMX package at all. </p><p>For the WCF and WCF Security packages, I walked through the tutorial in the documentation. The tutorial contains the usual WCF suspects such as creating a data contract, creating a service contract and implementing a service contract. While you can do these things manually, the WSSF provides wizards for most if not all these operations. This seems like overkill for some of these operations. For example, filling out the grid of data contract members was more cumbersome (for me) then just typing the values in the code file. </p><p>Also on the subject of somewhat more complex than necessary, WSSF provides wizards for building type translators. This is pretty standard stuff: given an instance of a given type, the translator returns an instance of a different type. Again, I find it faster to write the code for this directly than to individually select the matching fields in the wizard UI. Somewhere on the complexity scale between CRUD stored procedures and service data contracts is the tipping point where it's faster and easier to just write the code than it is to manipulate the wizard UI which generates the code.</p><p>On the plus side, the WSSF includes snippets which are very convenient to use. For example, WSSF includes the WCFDataMember snippet (short name: wcfDM). It's a lot like the standard prop snippet, but with the automatic addition of the DataMember attribute.</p><p>I had much more success with the main WCF package than I did with the WCF Security package. I wasn't interested in the anonymous or direct authentication mechanisms, which left only two security recipes that I cared about: kerberos and x.509 certificates. Unfortunately, I couldn't make either of these tutorials work. For kerberos, the baseline configuration works (i.e. standard wsHttpBinding with no additional configuration), but after running the "Secure a Service Using Kerberos" recipe, I get an exception that "The token provider cannot get tokens for target". It wasn't in me to debug the sample to figure out what that meant. For x.509 certificates, I can't even complete the wizard - I click OK in the certificate selection dialog, but the wizard doesn't get updated and won't let me continue. </p><p>I really dig the new <a href="http://blogs.msdn.com/tomholl/archive/2006/06/07/GuidanceNavigator.aspx">Guidance Navigator</a> window, especially the history window, but I do have one problem with it. Is there a way to mark a recipe so it doesn't show up in the history view? The WSSF includes some recipes like "View Service in Browser" and "Run Client" that don't change the project state and quickly clutter up the history view. It would be great if they didn't show up there in the first place.</p><p>I'm guessing the WSSF is designed primarily new WCF developers, so I'm not exactly in the target demographic. Many of my issues above stem from my deeper than average experience with it (though nowhere near the depth of experience some members of the community have already). But it's a good start and I'm sure it will get better with successive releases.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">867</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-01-30 14:53:20</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-01-30 14:53:20</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">hawkeye-on-web-service-software-factory</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="guidance"><![CDATA[Guidance]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/01/30/Hawkeye+On+Web+Service+Software+Factory]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Hawkeye+On+Web+Service+Software+Factory]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a8ceccf6-df2a-4213-9b87-ef1d46e31516]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2448</wp:comment_id>
+    <wp:comment_author><![CDATA[Don Smith]]></wp:comment_author>
+    <wp:comment_author_email>dons@microsoft.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/donsmith</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-01-31 11:39:42</wp:comment_date>
+    <wp:comment_date_gmt>2007-01-31 19:39:42</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[It's interesting that you took the developer perspective Harry. I can see how a real proficient dev who has memorized all the necessary WCF attributes and config sections might just choose to write the code instead of invoke wizards. Most of these recipes certainly aren't generating mind-bending code ... actually they are generating mind-numbing code. It isn't interesting code to write and certainly not fun. The exception might be the code generated by the data access guidance package - this stuff is more interesting, but there sure can be a lot of it ... but is data access the problem we want to go solve ... again? :)
+
+I'm surprised you didn't take the architect perspective. What about the ability to modify the guidance packages to include the architectural or policy decisions of the solutions? I know it isn't super easy, but it's more interesting than writing property assessors :) I would think the ability to define new code analysis rules interesting to architects too.
+
+I'll check into disabling recipes from being shown in the guidance navigator window. I'm almost positive there is a way to do this. I'll ping you offline. 
+
+I'll also have someone ping you about the x.509 and kerb issues you ran into. We don't have any known issues around these recipes so I'm interested in what caused them.
+
+As always, thanks for the feedback and insight!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

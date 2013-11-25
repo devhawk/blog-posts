@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Another InitImportantThing Approach</title>
+  <link>http://devhawk.net/2007/08/09/another-initimportantthing-approach/</link>
+  <pubDate>Thu, 09 Aug 2007 12:49:23 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f2250067-7970-401a-8ff2-93de2fba58f6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I thought of another approach to the InitImportantThing problem that I <a href="http://devhawk.net/2007/08/08/Calling+InitImportantThing.aspx" target="_blank">blogged about yesterday</a>. I think it's a bit harder to code, but it's certainly explicit and avoids the magic method that Jon <a href="http://www.masteringbiztalk.com/blogs/jon/PermaLink,guid,fa3c471d-a0f5-4790-a1b7-1fc374df651b.aspx" target="_blank">dislikes so much</a>.</p><p>The crux of the problem is that ServiceHostBase needs a valid ServiceDescription in order to operate. The WCF team chose to provide said description to ServiceHostBase via the abstract CreateDescription method. But as we saw, ServiceHostBase can't call CreateDescription from it's own constructor. So instead, derived classes are forced to call InitializeDescription in their own constructor. Since that call isn't enforced by the compiler, it's easy to forget to include it. Since the exception that gets thrown doesn't really tell you what went wrong, it's easy to spend hours trying to figure it out.</p><p>So here's a better approach: since the ServiceHostBase needs a valid ServiceDescription in order to operate, why not pass it in as a constructor parameter? </p><p>ServiceHostBase has a protected constructor with no parameters. But since it needs you to call InitializeDescription in your derived class constructor, it really needs the ServiceDescription, a collection of ContractDescriptions (also returned from CreateDescription) and a collection of base addresses (passed into InitalizeDescription). If these were parameters on ServiceHostBase's constructor, it could validate that information directly, without needing abstract or magic methods.</p><p>The one problem with this approach is that the creation of a ServiceDescription is non-trivial. ServiceHost's <a href="code://System.ServiceModel:3.0.0.0:b77a5c561934e089/System.ServiceModel.ServiceHost/CreateDescription(System.Collections.Generic.IDictionary&lt;String,System.ServiceModel.Description.ContractDescription&gt;&amp;):System.ServiceModel.Description.ServiceDescription" target="_blank">implementation of CreateDescription</a> generates the ServiceDescription by reflecting over the service type. You still need that code, but now you would call it from the base constructor initializer instead. That means it has to be a static method, but otherwise it would work just fine. Here's yesterday's code, updated for this approach:</p><pre class="brush: csharp">
+public abstract class Base 
+{ 
+    public Base(string importantThing) 
+    { 
+        if (string.IsNullOrEmpty(importantThing)) 
+            throw new Exception(); 
+
+        _importantThing = importantThing; 
+
+    } 
+
+    private string _importantThing; 
+
+    public string ImportantThing  
+    {  
+        get { return _importantThing; }  
+    } 
+} 
+
+public class Derived : Base 
+{ 
+    private object _data; 
+
+    public Derived(DateTime dt) : base(CreateImportantThing(dt)) 
+    { 
+        _data = dt; 
+    } 
+
+    private static string CreateImportantThing(DateTime dt) 
+    { 
+        //this is obviously trivial, but could be much
+        //more complicated if need be
+        return dt.ToLongDateString(); 
+    } 
+}
+</pre><p>This seems like the best approach to me. You remove the un-obvious magic method call requirement when deriving your own service host while still enforcing the data consistency check in the base class during construction. Best of both worlds, right?</p><p>So I wonder why the WCF team didn't do it this way?  </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1025</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-09 12:49:23</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-09 12:49:23</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">another-initimportantthing-approach</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-sharp"><![CDATA[C#]]></category>
+  <category domain="post_tag" nicename="object-oriented"><![CDATA[Object Oriented]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f2250067-7970-401a-8ff2-93de2fba58f6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Another+InitImportantThing+Approach]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/09/Another+InitImportantThing+Approach]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2565</wp:comment_id>
+    <wp:comment_author><![CDATA[John P]]></wp:comment_author>
+    <wp:comment_author_email>jperseo@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>72.245.126.230</wp:comment_author_IP>
+    <wp:comment_date>2007-08-09 14:12:26</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-09 21:12:26</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA["Since the ServiceHostBase needs a valid ServiceDescription in order to operate, why not pass it in as a constructor parameter? "
+
+< Sarchasm >
+You aren't suggesting that programmers should fully initialize their ImportantThings are you ? That's almost as silly as initializing variables in an old C or C++ compiler so when they're first read, Random data isn't already residing in the called memory location!
+< /Sarchasm >
+
+You approach can work as long as your have programmer that are willing to craft and modify code VS most of the current script monkeys I've dealt with who expect the compilers to do everything but collect their checks for them.
+What I mean by this is : Bad code exists for good things. Copying bad code and modifying it slightly to fit your needs tends to carry the problems instead of offering desired solutions.
+
+Lasyness is a good approach for System Administrators who's job is to keep Networks and PCs operating in an operational state ( Because by being lazy , they want to perform as little work as possible. Thusly, for that to happen, They need to measure and set the requirements and impliment the solutions so it only needs to be performed once. ). This is not applicable to programmers who's job is to properly bind and create code. Now, I'm not implying that programmers should re-invent the wheel every time, But at least look and see if all items brought into a program are required and secured to avoid Miss Takes. ;-)
+
+Then again, my programming is a little rusty.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2566</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-08-09 17:03:28</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-10 00:03:28</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA["Copying bad code and modifying it slightly to fit your needs tends to carry the problems instead of offering desired solutions." 
+
+I don't know for sure, but I'd bet that's probably how the ServiceHostBase design got broken in the first place! ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2567</wp:comment_id>
+    <wp:comment_author><![CDATA[John P]]></wp:comment_author>
+    <wp:comment_author_email>jperseo@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>68.98.131.68</wp:comment_author_IP>
+    <wp:comment_date>2007-08-09 17:07:45</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-10 00:07:45</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[So, does this mean that we have put the final nail in the coffin for "Portable , Reusable Code" ? I think not but then again ...
+
+These ARE NOT the droids we're looking for ...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

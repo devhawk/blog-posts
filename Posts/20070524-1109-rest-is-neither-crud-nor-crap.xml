@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>REST is neither CRUD nor CRAP</title>
+  <link>http://devhawk.net/2007/05/24/rest-is-neither-crud-nor-crap/</link>
+  <pubDate>Thu, 24 May 2007 11:09:32 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://8db9fdf7-636d-4bf0-bac0-c47cbe10664c</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>In the wake of <a href="http://devhawk.net/2007/05/16/Morning+Coffee+78.aspx">my praise for CRUD is CRAP</a>, <a href="http://www.from9till2.com/">David Ing</a><a href="http://devhawk.net/CommentView,guid,81028fac-5cb1-4ce3-8e71-9d29ec3ce882.aspx#commentstart">asked</a> “how do you reconcile something like REST (astoria etc) with being CRUD-adverse? Is there a happy place where the two can go for coffee?” Sure there is: I hear <a href="http://pluralsight.com/blogs/tewald/">Tim Ewald’s XML Nation</a> serves great coffee and the scones are pretty good. (*) 
+</p><p>Seriously, the key observation that Tim <a href="http://pluralsight.com/blogs/tewald/archive/2007/04/26/46984.aspx">recently made</a> is that REST != CRUD. Sure, it can be <a href="http://en.wikipedia.org/wiki/Atom_Publishing_Protocol">used that way</a> and for simple scenarios it works fine. (I’ll define “simple scenarios” in a second.) But I don’t believe CRUD style REST works in the large. Tim said you can’t build with just CRUD because it’s “to simplistic to be useful”. I’ll go even more fundamental, using REST for CRUD means having giving up transactions entirely. I've already accepted that building loosely coupled services means giving up <em>distributed </em>transactions. But the idea of giving up transactions entirely is just crazy talk. 
+</p><p>So when I said "simple scenarios" above, I meant "scenarios that don't need transactions". (I take it as a given that RESTifarians aren't hot for WS-AtomicTransaction.) ATOM Publishing is a simple scenario because the web resource authoring scenario doesn’t need transactions to protect updates to multiple resources at a time. If it did, I don't believe the REST as CRUD approach they use would work. 
+</p><p>As you might guess then, I’m not a fan of <a href="http://astoria.mslivelabs.com/">Astoria</a>. I believe the sweet spot for so called “data services” will be read only (because they don't need transactions, natch). I'm sure there are some read/write scenarios Astoria will be useful for, but I think they will be limited - at least within the enterprise. 
+</p><p>If REST != CRUD, then what is it? Let's go back to <a href="http://pluralsight.com/blogs/tewald/archive/2007/04/26/46984.aspx">Tim's post</a>: 
+</p><blockquote><p>Every communication protocol has a state machine. For some protocols they are very simple, for others they are more complex. When you implement a protocol via RPC, you build methods that modify the state of the communication. That state is maintained as a black box at the endpoint. Because the protocol state is hidden, it is easy to get things wrong. For instance, you might call Process before calling Init. People have been looking for ways to avoid these problems by annotating interface type information for a long time, but I'm not aware of any mainstream solutions. The fact that the state of the protocol is encapsulated behind method invocations that modify that state in non-obvious ways also makes versioning interesting. 
+</p><p>The essence of REST is to make the states of the protocol explicit and addressable by URIs. The current state of the protocol state machine is represented by the URI you just operated on and the state representation you retrieved. You change state by operating on the URI of the state you're moving to, making that your new state. A state's representation includes the links (arcs in the graph) to the other states that you can move to from the current state. This is exactly how browser based apps work, and there is no reason that your app's protocol can't work that way too. (The <a href="http://www.ietf.org/internet-drafts/draft-ietf-atompub-protocol-14.txt">ATOM Publishing protocol</a> is the canonical example, though its easy to think that its about entities, not a state machine.)</p></blockquote><p>While I disagree with Tim's disagreement of ATOM (i.e. I believe APP <em>is</em> about entities, but it works because it doesn't need transactions), I agree 100% that REST is about <u>protocol state</u>. Tim lays this very clear in his <a href="http://pluralsight.com/blogs/tewald/archive/2007/04/27/47031.aspx">airline reservation sample</a>. Thus, I can spurn CRUD and still embrace REST if I want to. 
+</p><p>Further, Tim's points on the opaque nature of RPC style interactions (which web services appear to have fallen into despite the best of intentions) are spot on. If you're doing simple request/response services, the protocol state is trivial, so that works fine. However, in the scenarios I face, long running services are the norm and managing the protocol state is critical. I've got some ideas on how to do that, but that's a future blog post. 
+</p><hr /><p>(*) Actually, I have no idea if Tim even likes coffee or scones. FYI, DevHawk Nation would not feature great coffee or pretty good scones. We would, however, have <a href="http://www.arrogantbastard.com/index2.html">Arrogant Bastard Ale</a> on tap. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">964</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-05-24 11:09:32</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-05-24 11:09:32</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">rest-is-neither-crud-nor-crap</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="rest"><![CDATA[REST]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="web-services"><![CDATA[Web Services]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[8db9fdf7-636d-4bf0-bac0-c47cbe10664c]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[REST+Is+Neither+CRUD+Nor+CRAP]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/05/24/REST+Is+Neither+CRUD+Nor+CRAP]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2509</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-05-25 14:53:19</wp:comment_date>
+    <wp:comment_date_gmt>2007-05-25 21:53:19</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Anders, I never said REST can't support transactions, I said REST as CRUD can't support transactions. I would say that your scenario of submitting a collection of changes to be applied transactionally moves you out of REST as CRUD and into REST as Protocol. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2510</wp:comment_id>
+    <wp:comment_author><![CDATA[Alex James]]></wp:comment_author>
+    <wp:comment_author_email>Alex@base4.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.base4.net/blog.aspx?ID=436</wp:comment_author_url>
+    <wp:comment_author_IP>219.89.81.114</wp:comment_author_IP>
+    <wp:comment_date>2007-05-30 22:16:32</wp:comment_date>
+    <wp:comment_date_gmt>2007-05-31 05:16:32</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[...To my way of thinking programming RESTfully is all about intent.
+
+A common catch cry of the anti-REST crowd or the grudging REST adopters is that it is not appropriate for Update. Essentially according to their arguments transactions are a nightmare...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2508</wp:comment_id>
+    <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+    <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.from9till2.com</wp:comment_author_url>
+    <wp:comment_author_IP>81.151.38.153</wp:comment_author_IP>
+    <wp:comment_date>2007-05-25 05:30:26</wp:comment_date>
+    <wp:comment_date_gmt>2007-05-25 12:30:26</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Harry, I didn't really respond here: http://www.from9till2.com/PermaLink.aspx?guid=2dbee669-07fd-435e-a5f9-51f709ef183f
+
+- David]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2507</wp:comment_id>
+    <wp:comment_author><![CDATA[Andres Aguiar]]></wp:comment_author>
+    <wp:comment_author_email>andres.aguiar@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/aaguiar</wp:comment_author_url>
+    <wp:comment_author_IP>190.64.218.26</wp:comment_author_IP>
+    <wp:comment_date>2007-05-24 18:58:05</wp:comment_date>
+    <wp:comment_date_gmt>2007-05-25 01:58:05</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[There are simple scenarios with transactions that can be supported with REST.
+
+For example, Astoria has a client side component that track changes in entities and sends them to the server. Those can be applied in a transaction (even if today implementation does not). So you could retrieve an order, delete a line, add another, change the header and invoke the service.
+
+
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

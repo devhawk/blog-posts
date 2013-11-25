@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Dev Partition Contents</title>
+  <link>http://devhawk.net/2005/09/19/new-dev-partition-contents/</link>
+  <pubDate>Mon, 19 Sep 2005 21:01:06 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c4ce4bdc-0f75-4dcd-be22-7e773caf40e6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm feeling particularly geeky having just re-imaged my laptop's dev partion. This is what's running on it so far:</p><ul><li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=FFD636F0-86E9-41E8-9E1C-100A4CC4888F&amp;displaylang=en">WinFX Runtime - Sept CTP</a></li><li><a href="http://lab.msdn.microsoft.com/vs2005/get/default.aspx#vsts">VS 2005 Team Suite Beta 2</a></li><li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=C20CC6C8-1F4E-4A5C-BC79-C2FE9ABE69AA&amp;displaylang=en">WinFX SDK - Sept CTP</a></li><li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=EDE1A645-2A53-42E1-8482-3BF1FADADE06&amp;displaylang=en">VS Extensions for WinFX Sept CTP</a></li><li><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7096d039-2638-4f63-8654-d2e5d98fa417&amp;displaylang=en">VS Extensions for WinWF Sept CTP</a></li><li><a href="http://msdn.microsoft.com/data/WinFS/">WinFS Beta 1</a></li><li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=57A14CC6-C084-48DD-B401-1845013BF834&amp;displaylang=en">DSL Toolkit Sept CTP</a> (I hadn't realized a new CTP shipped!)</li><li><a href="http://lab.msdn.microsoft.com/teamsystem/workshop/gat/download.aspx">Guidance Automation Toolkit Tech Preview</a></li><li><a href="http://download.microsoft.com/download/4/7/0/4703eba2-78c4-4b09-8912-69f6c38d3a56/LINQ%20Preview.msi">C#</a> and <a href="http://download.microsoft.com/download/F/5/1/F5126EC6-B8EC-440A-852B-7A661D70D637/LINQ%20VB%20(Beta%202)%20Preview.msi">VB</a> LINQ Tech Previews</li></ul><p>Not that this is of much use to anyone, but I thought it was cool. Not sure what I'm going to do with all this stuff yet, but I just had to have it all. I guess the stint in marketing didn't completely wipe out my interest in coding.</p><p>FYI, I have to give major thumbs up to <a href="http://www.terabyteunlimited.com/">Terabyte Unlimited</a>'s <a href="http://www.terabyteunlimited.com/bootitng.html">BootIt NG</a> product. My laptop runs three partitions: Production, Development and Documents. Putting all my docs on their own partition means I can pave the other two pretty much whenever I want. However, Windows XP wants to make the first partition it finds the C drive, even if you eventually choose to boot off another partition. This means I can't create an image from on partition and restore it to the other. What a pain. But with BootIt NG, I can choose which partition to boot and hide whichever of the others I want to.</p><p>I still use VPC for a lot of my dev work, but for Avalon and/or device development - where VPC isn't really practical - having a separate partition for dev work is really helpful. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">632</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-09-19 21:01:06</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-09-19 21:01:06</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-dev-partition-contents</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c4ce4bdc-0f75-4dcd-be22-7e773caf40e6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Dev+Partition+Contents]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/09/20/New+Dev+Partition+Contents]]></wp:meta_value>
+  </wp:postmeta>
+</item>

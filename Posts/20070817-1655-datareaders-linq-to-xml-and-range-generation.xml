@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>DataReaders, LINQ to XML and Range Generation</title>
+  <link>http://devhawk.net/2007/08/17/datareaders-linq-to-xml-and-range-generation/</link>
+  <pubDate>Fri, 17 Aug 2007 16:55:01 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://90dc9487-d2bc-436b-8446-25b249f1539d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[I'm doing a bunch of database / XML stuff @ work, so I decided to use to <a href="http://msdn2.microsoft.com/en-us/vstudio/aa700831.aspx" target="_blank">VS08 beta 2</a> so I can use LINQ. For reasons I don't want to get into, I needed a way to convert arbitrary database rows, read using a SqlDataReader, into XML. LINQ to SQL was out, since the code has to work against arbitrary tables (i.e. I have no compile time schema knowledge). But <span style="text-decoration: line-through;">XLinq</span> LINQ to XML helped me out a ton. Check out this example:
+<pre class="brush: csharp">const string ns = "{http://some.sample.namespace.schema}";
+
+while (dr.Read())
+{
+    XElement rowXml = new XElement(ns + tableName,
+        from i in GetRange(0, dr.FieldCount)
+        select
+            new XElement(ns + dr.GetName(i), dr.GetValue(i)));
+}</pre>
+That's pretty cool. The only strange thing in there is the GetRange method. I needed an easy way to build a range of integers from zero to the number of fields in the data reader. I wasn't sure of any standard way, so I wrote this little two line function:
+<pre class="brush: csharp">IEnumerable&lt;int&gt; GetRange(int min, int max)
+{
+    for (int i = min; i &lt; max; i++)
+        yield return i;
+}</pre>
+It's simple enough, but I found it strange that I couldn't find a standard way to generate a range with a more elegant syntax. Ruby has standard range syntax that looks like (1..10), but I couldn't find the equivalent C#. Did I miss something, or am I really on my own to write a GetRange function?
+
+<span style="text-decoration: underline;">Update</span> - As expected, I missed something. John Lewicki pointed me to the static <a href="http://msdn2.microsoft.com/en-us/library/system.linq.enumerable.range(VS.90).aspx">Enumerable.Range</a> method that does exactly what I needed.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1031</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-17 16:55:01</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-17 16:55:01</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">datareaders-linq-to-xml-and-range-generation</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="ado-net"><![CDATA[ADO.NET]]></category>
+  <category domain="post_tag" nicename="database"><![CDATA[Database]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="linq"><![CDATA[LINQ]]></category>
+  <category domain="post_tag" nicename="ruby"><![CDATA[Ruby]]></category>
+  <category domain="post_tag" nicename="xml"><![CDATA[XML]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[90dc9487-d2bc-436b-8446-25b249f1539d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[DataReaders+LINQ+To+XML+And+Range+Generation]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/17/DataReaders+LINQ+To+XML+And+Range+Generation]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2573</wp:comment_id>
+    <wp:comment_author><![CDATA[Andres Aguiar]]></wp:comment_author>
+    <wp:comment_author_email>andres.aguiar@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/aaguiar</wp:comment_author_url>
+    <wp:comment_author_IP>190.64.39.43</wp:comment_author_IP>
+    <wp:comment_date>2007-08-17 17:56:34</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-18 00:56:34</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[AFAIK there's no standard way of doing it, but you could add an extension method to 'Int32' 
+
+public static IEnumerable<int> RangeFromZero(this int number)
+{
+   for (int i = 0; i < number; i++)
+   {
+      yield return i;
+   }
+}
+
+and have something like
+
+from i in dr.FieldCount.RangeFromZero()
+
+or
+
+from i in dr.FieldCount.Range(0)
+
+with a 'Range' extension method, which is the same that you wrote but a little cooler ;).
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2574</wp:comment_id>
+    <wp:comment_author><![CDATA[Alex James]]></wp:comment_author>
+    <wp:comment_author_email>Alex@base4.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.base4.net/blog.aspx?ID=409</wp:comment_author_url>
+    <wp:comment_author_IP>219.89.81.114</wp:comment_author_IP>
+    <wp:comment_date>2007-08-17 22:04:41</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-18 05:04:41</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Even better is to add an Extension method to IDataReader to make it enumerable of IDataRecord, I mean semantically it is anyway...
+
+public static IEnumerable<IDataRecord> Enumerate(this IDataReader reader)
+{
+
+using (reader)
+    {
+
+while (reader.Read())
+
+yield return reader;
+
+    }
+}
+
+Then you can do from r in reader.Enumerate() from i in GetRange(...) etc....]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2575</wp:comment_id>
+    <wp:comment_author><![CDATA[John Lewicki]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>68.163.162.161</wp:comment_author_IP>
+    <wp:comment_date>2007-08-18 05:22:32</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-18 12:22:32</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I believe System.Linq.Enumerable.Range() is exactly the same as your GetRange method.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2576</wp:comment_id>
+    <wp:comment_author><![CDATA[Anonymous]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-08-21 10:16:04</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-21 17:16:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Another minor improvement:
+
+XNamespace ns = "http://some.sample.namespace.schema";
+while (dr.Read()) 
+{ 
+    XElement rowXml = new XElement(ns + tableName,
+                          from i in Enumerable.Range(0, dr.FieldCount) 
+                          select new XElement(ns + dr.GetName(i), dr.GetValue(i)));
+}
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

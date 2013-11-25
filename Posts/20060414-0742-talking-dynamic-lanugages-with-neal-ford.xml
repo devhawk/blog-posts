@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Talking Dynamic Lanugages with Neal Ford</title>
+  <link>http://devhawk.net/2006/04/14/talking-dynamic-lanugages-with-neal-ford/</link>
+  <pubDate>Fri, 14 Apr 2006 07:42:43 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://abc47a35-d16b-43d9-ba92-550187d382e9</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I spent a couple of hours chatting with <a href="http://memeagora.blogspot.com/">Neal Ford</a> from <a href="http://www.thoughtworks.com/">ThoughtWorks</a> yesterday. <a href="http://blogs.tedneward.com/">Ted Neward</a> had virtually introduced us a few months ago and he was in town for <a href="http://timheuer.com/blog/archive/2006/04/11/9596.aspx">MTS</a>, so he arranged a meeting. I had asked Ted to introduce me to some dynamic language folks for some research and public debate purposes, and Neal was one of the people he hooked me up with. Unfortunately, this was right before I <a href="http://devhawk.net/2006/01/24/Architect+On+The+Edge.aspx">changed roles</a> and got real busy. Of course, dynamic languages in general and <a href="http://www.ruby-lang.org/en/">Ruby</a> in particular plays a large role in Edge Architecture, so I’m thankful Neal took the time to drop me a line and meet with me.</p><p>Above all else, talking to Neal made me realize that I just don’t know enough about dynamic languages, which limits my ability to discuss them. To date, I’ve flirted with them, but haven’t made a real commitment. For example, I’ve played around with <a href="http://instantrails.rubyforge.org/">Instant Rails</a>, but hadn’t actually <a href="http://rubyforge.org/projects/rubyinstaller/">installed Ruby</a> yet. It was time to re-image my dev partition anyway, so I’m going to try using Ruby exclusively for a while.</p><p>Here’s a brain dump of some of what we talked about. Not sure what it all means yet, so I’ll try and refrain from making commentary.</p><ul><li>Hungarian notation for interfaces (i.e. ISomething) is a big <a href="http://en.wikipedia.org/wiki/Code_smell">code smell</a>. This has nothing really to do with Ruby or dynamic languages, but it’s an important point that I wanted to include here. Neal’s point is that the interface defines the semantics of the type and the concrete class is an “implementation detail”. In other words, contract-first isn’t just for web services. Apparently, ThoughtWorks doesn’t use ADO.NET directly primarily because the interfaces “aren’t pervasive enough” and are difficult to mock out. Also, they’re using <a href="http://www.ayende.com/projects/rhino-mocks.aspx">Rhino Mocks</a> which I wasn’t previously aware of.</li><li>For all the debate about static vs. dynamic languages, it seems like the value Ruby brings is in meta-programming rather than dynamic typing. Certainly, that’s one of the big differentiators for Ruby vs. other dynamic languages like Python. While <a href="http://www.rubyonrails.com/">Rails</a> has pushed the popularity of Ruby thru the roof recently, Neal seems much more enamored with Ruby than Rails. </li><li>There is an even bigger gulf between dynamic and static typing proponents than I had thought. I brought up <a href="http://research.microsoft.com/os/singularity/">Singularity</a>, which uses static typing exclusively to deliver a provably dependable system. Neal disagreed with that approach, pointing out that “tests are the best way of encoding the specification of the system” rather than compile time checking. Given my lack of expertise in this space, I’m withholding comment (for now) but I’m guessing the truth is somewhere in the middle.</li><li>However, while the dynamic vs. static typing gulf is big, meta-programming is potentially the bridge. I don’t believe meta-programming is exclusive to dynamic languages. Certainly, some of the new features in the “Orcas” versions of C# and VB bring more expressiveness to the languages while still remaining type safe. </li><li>All this meta-programming leads to domain specific languages. Ruby has strong support what <a href="http://martinfowler.com/">Martin Fowler</a> called “<a href="http://martinfowler.com/articles/languageWorkbench.html#InternalDsl">internal DSLs</a>”, but Neal thought over time the focus would shift to <a href="http://martinfowler.com/articles/languageWorkbench.html#ExternalDsl">external DSLs</a> as they are more expressive and not constrained by the semantics of an existing language. Obviously, we’re pretty <a href="http://msdn.microsoft.com/vstudio/dsltools/">heavily focused</a> on DSLs. However, Neal did think our focus on graphical DSLs is misplaced. He called them a “hangover” from CASE/UML tools. He rightfully pointed out that “business analysis speak English”. </li></ul><p>All in all, it was time well spent. Neal, I hope we can pick up the conversation again sometime.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">734</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-04-14 07:42:43</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-04-14 07:42:43</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">talking-dynamic-lanugages-with-neal-ford</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <category domain="post_tag" nicename="ruby"><![CDATA[Ruby]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[abc47a35-d16b-43d9-ba92-550187d382e9]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Talking+Dynamic+Lanugages+With+Neal+Ford]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/04/14/Talking+Dynamic+Lanugages+With+Neal+Ford]]></wp:meta_value>
+  </wp:postmeta>
+</item>

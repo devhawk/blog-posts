@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 33</title>
+  <link>http://devhawk.net/2007/02/16/morning-coffee-33/</link>
+  <pubDate>Fri, 16 Feb 2007 08:59:53 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f8a003a2-854c-499a-b677-4ea703168a7d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I realize yesterday I said I was on vacation starting today. In reality, I'm not going to the office today, but I have time to post this before my vacation starts in earnest.</p><ul><li>I hit <a href="http://www.shahine.com/omar/zeroemailbounce.aspx">Zero Email Bounce</a> in advance of my vacation. It's been quite a while since the last time I got here and I hope to hit it much more often in the future.  </li><li>The <a href="http://msdn2.microsoft.com/en-us/vstudio/aa718368.aspx">DSL tools team</a> shipped a <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=bfba74af-4f28-44cc-8de5-0c3c55d21863&amp;displaylang=en">Designer Integration PowerToy</a> that allows you to integrate models from multiple DSL designers into a single authoring tool. Gareth has <a href="http://blogs.msdn.com/garethj/archive/2007/02/16/announcing-designer-integration-powertoy.aspx">more here</a>. </li><li>Assorted PowerShell links: <a href="http://www.powershellanalyzer.com/">PowerShell Analyzer</a> and <a href="http://www.powershell.com/">PowerShellIDE</a>. Both look interesting. </li><li>Personally, I like <a href="http://www.flos-freeware.ch/notepad2.html">Notepad2</a> but apparently the only way to add a new syntax highlight scheme requires modifying the source code. Ugh. Anyone out there already added PS support to Notepad2? How about a suggestion for a simple text editor that supports extensible syntax highlighting?  </li><li><a href="http://iqueryable.com/2007/02/07/TheReesesPeanutButterCupOfServiceMessaging.aspx">Steve</a>, <a href="http://blogs.msdn.com/drnick/archive/2007/02/08/durable-is-more-than-duplex.aspx">Nick</a> and <a href="http://www.winterdom.com/weblog/2007/02/07/LongRunningServicesAndWSRM.aspx">Tomas</a> all commented on my <a href="http://devhawk.net/2007/02/06/How+I+Learned+To+Stop+Worrying+And+Love+WCF.aspx">long running services WCF post</a>. Tomas mentions Advanced Message Queuing Protocol (AMQP) which looks to be developing an open spec queuing system like MSMQ or MQ series. Interesting, but given the lack of involvement of the major MQ and DB vendors, I'm hard pressed to imagine this gaining any kind of critical mass.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">885</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-02-16 08:59:53</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-02-16 08:59:53</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-33</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="domain-specific-languages"><![CDATA[Domain Specific Languages]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f8a003a2-854c-499a-b677-4ea703168a7d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+33]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/02/16/Morning+Coffee+33]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2458</wp:comment_id>
+    <wp:comment_author><![CDATA[Shane Courtrille]]></wp:comment_author>
+    <wp:comment_author_email>shanecourtrille@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>216.126.25.195</wp:comment_author_IP>
+    <wp:comment_date>2007-02-16 12:38:41</wp:comment_date>
+    <wp:comment_date_gmt>2007-02-16 20:38:41</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Have you looked at UltraEdit as a Notepad2 replacement?  I've used it for years now and I love it.  Adding new syntax highlighting to it is fairly easy.  You can usually find a file for whatever you need (Nant for instance).]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

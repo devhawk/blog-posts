@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Member Management Component Prototype</title>
+  <link>http://devhawk.net/2004/12/13/member-management-component-prototype/</link>
+  <pubDate>Mon, 13 Dec 2004 11:24:52 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5eef8774-814a-4f1f-b446-eaf5a039d1b0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>How about this for transparency? </p><blockquote><p>The Microsoft ASP.NET v1.1 <a href="http://www.asp.net/Default.aspx?tabindex=6&amp;tabid=41">Membership Management Component Prototype</a> contains classes that allow a developer to more easily authenticate users, authorize users, and store per-user property data in a user profile. The authentication feature validates and stores user credentials which a developer can use to manage user authentication on a web site. The authorization feature lets you treat groups of users as a unit by assigning users to roles such as manager, sales, member, and so on. Combined with ASP.NET's built-in authorization functionality, Windows Shared Hosting developers have end-to-end support for maintaining user-to-role mappings and authorizing users based on this information. The profile feature enables you to provide users of your Web site with a custom experience. By defining and using profile properties, you can track any custom information your application requires, including user information and user preferences. </p><p><b>Important:</b> The functionality provided by this component is a preliminary version of the Membership, Roles, and Profile functionality coming in ASP.NET 2.0 and will change in the final release of ASP.NET 2.0. This means that any ASP.NET v1.1 applications you develop using this component will need to be updated when you migrate to the final release of ASP.NET 2.0. This is also a non Microsoft supported component.</p></blockquote><p>What I love about this the most is that it really reflects a change in mindset. In the past, I doubt we would have shipped this because it is likey to change before release. Personally, I like this approach - ship early and often and be honest about the quality and longevity. Sure, you have to deal with a few people who don't read things like “will change“ or “not supported“ but the benefits outweigh the issues dramatically.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">497</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-12-13 11:24:52</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-12-13 11:24:52</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">member-management-component-prototype</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5eef8774-814a-4f1f-b446-eaf5a039d1b0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Member+Management+Component+Prototype]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/12/13/Member+Management+Component+Prototype]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2744</wp:comment_id>
+    <wp:comment_author><![CDATA[言情小说]]></wp:comment_author>
+    <wp:comment_author_email>icebluewxl@163.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.readnovel.com/ch/2.html</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-12-14 20:56:52</wp:comment_date>
+    <wp:comment_date_gmt>2004-12-15 04:56:52</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[That question is not easy. Who can find a rather good resolution? If you can, tell me please.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

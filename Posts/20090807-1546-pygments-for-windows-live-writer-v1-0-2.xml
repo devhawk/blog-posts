@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Pygments for Windows Live Writer v1.0.2</title>
+  <link>http://devhawk.net/2009/08/07/pygments-for-windows-live-writer-v1-0-2/</link>
+  <pubDate>Fri, 07 Aug 2009 15:46:50 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://13f5634e-e472-48e0-86eb-8d51c583006d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I just uploaded a new version of my <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Pygments%20for%20WL%20Writer/Pygments.WLWriter.msi">Pygments for WL Writer plugin</a> to my skydrive. Nothing major here – some minor UI cleanup + an upgrade to <a href="http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=27350">IronPython 2.6 beta 2</a>. Installing over the old version worked on my machine, but that’s as far as my testing has gone. I also pushed the <a href="http://github.com/devhawk/pygments.wlwriter/tree/v1.0.2">latest source</a> out to GitHub.  </p><p>I’m still waiting on a fix for what <a href="http://blogs.msdn.com/dinoviehland/default.aspx">Dino</a> has taken to calling “Harry’s Pygments Import Bug” – which actually turned out to be <em>three </em>importer bugs. The Pygments lexers package is customized so as to abstract away the specific modules the individual lexers are defined in. I don’t use that functionality – I’m using <a href="http://github.com/devhawk/pygments.wlwriter/blob/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/pygments_package/pygments/lexers/__init__.py#L41">get_all_lexers</a> and <a href="http://github.com/devhawk/pygments.wlwriter/blob/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/pygments_package/pygments/lexers/__init__.py#L69">get_lexer_by_name</a> instead – but the bugs caused importing the package to fail so in the mean time I commented out the <a href="http://github.com/devhawk/pygments.wlwriter/blob/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/pygments_package/pygments/lexers/__init__.py#L202">lines that don’t work under IronPython</a>. I think Dino’s got the fixes for this checked in, but I probably won’t update Pygments for WL Writer again until IronPython 2.6 RC.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1277</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-08-07 15:46:50</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-08-07 15:46:50</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">pygments-for-windows-live-writer-v1-0-2</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="pygments"><![CDATA[Pygments]]></category>
+  <category domain="post_tag" nicename="windows-live"><![CDATA[Windows Live]]></category>
+  <category domain="post_tag" nicename="windows-live-writer"><![CDATA[Windows Live Writer]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[13f5634e-e472-48e0-86eb-8d51c583006d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Pygments+For+Windows+Live+Writer+V102]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/08/07/Pygments+For+Windows+Live+Writer+V102]]></wp:meta_value>
+  </wp:postmeta>
+</item>

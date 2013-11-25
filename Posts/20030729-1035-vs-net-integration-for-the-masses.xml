@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>VS.NET Integration for the Masses</title>
+  <link>http://devhawk.net/2003/07/29/vs-net-integration-for-the-masses/</link>
+  <pubDate>Tue, 29 Jul 2003 10:35:48 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://03e8a4e9-1566-435a-afb5-8f970c0c5c96</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<blockquote><p>"Register to become a Visual Studio Industry partner and get FREE access to the VSIP SDK. As a VSIP you will have access to the technology, private newsgroups and secured technical content to assist you in seamlessly integrating your tools, components, and languages into the Visual Studio .NET IDE."<br /><br /> Everything you always wanted to do to integrate seamlessly into VS.NET used to cost money. As of today, it's free! Wahoo!<br /> [<a href="http://www.sellsbrothers.com/news/showTopic.aspx?ixTopic=715">Marquee de Sells</a>]</p></blockquote><p>Wahoo +1. Now all the <a href="http://sharptoolbox.com">tool developers</a> in the community can integrate their tools directly into the VS.NET Shell just like the "official" or "licensed" tools are. Ultra-cool. There's also some good <a href="http://www.vsipdev.com/techinfo/">technical info</a> on how to do this.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">160</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-07-29 10:35:48</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-07-29 10:35:48</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">vs-net-integration-for-the-masses</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/07/29/VSNET+Integration+For+The+Masses]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[VSNET+Integration+For+The+Masses]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[03e8a4e9-1566-435a-afb5-8f970c0c5c96]]></wp:meta_value>
+  </wp:postmeta>
+</item>

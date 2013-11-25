@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Podcast Software Still Pretty Rudimentary</title>
+  <link>http://devhawk.net/2005/03/07/podcast-software-still-pretty-rudimentary/</link>
+  <pubDate>Mon, 07 Mar 2005 12:59:42 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6d7e2968-a595-40e0-8666-24b22b6d33e0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>So I'm experimenting with this podcasting stuff. I started by listening to a few podcasts - primarily <a href="http://www.curry.com">Daily Source Code</a> and <a href="http://radio.weblogs.com/0141212/">Mike's Manic Minute</a> - and using Doppler to pull these down to my Zen Micro. But then I started expanding out a bit - adding <a href="http://www.ronjacobs.com/podcast">Ron Jacobs</a> and <a href="http://www.majornelson.com/wp/index.php?cat=7">Major Nelson</a> - and I started to hit issues w/ the software. Of course, not everyone tags their podcasts with the same metadata style. Given the way the Zen Micro works, I want all the podcasts to have the same genre (i.e. "Podcast") and then have either one song per "album" where the album has the date in the title (preferably in the yyyymmdd format for sort purposes) or one album per artist where the song has the date in the title. That way I can see all the shows from a given podcaster on my Zen Micro in a list and can easily determine the oldest and newest shows. Doppler supports tag overriding for downloaded podcasts - i.e. so I can set them all to have the genre "Podcast". However, their "smarttags" implementation doesn't work at all. You're supposed to use smart tags like %date% and %album% in the tag overrides, if they worked that is. And even the hard coded genre override doesn't work for WMA files. I assume Doppler is using an MP3 specific library for modifying the metadata tags, rather than the Windows Media libraries that work with both. I assume these will get fixed as the tools get better. In the meantime, I've subscribed to the MP3 versions of Ron and Major Nelson's podcast feeds.</p><p>Update - Doppler tag overriding doesn't seem to work for the hardcoded genre either.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">568</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-03-07 12:59:42</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-03-07 12:59:42</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">podcast-software-still-pretty-rudimentary</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="podcasting"><![CDATA[Podcasting]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6d7e2968-a595-40e0-8666-24b22b6d33e0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Podcast+Software+Still+Pretty+Rudimentary]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/03/07/Podcast+Software+Still+Pretty+Rudimentary]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2803</wp:comment_id>
+    <wp:comment_author><![CDATA[Erwin]]></wp:comment_author>
+    <wp:comment_author_email>erwin@dopplerradio.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.dopplerradio.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-12 00:47:05</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-12 08:47:05</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Nope, Doppler uses WMP for modifying the tags if you specified WMP as a target for your downloaded MP3s. There is no MP3 specific library in Doppler. Did you enable the log file? If so, any messages in there? Check out our forum at http://forum.dopplerradio.net
+
+/Erwin]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2804</wp:comment_id>
+    <wp:comment_author><![CDATA[skitchSKS]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>24.16.188.207</wp:comment_author_IP>
+    <wp:comment_date>2005-10-12 21:20:30</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-13 04:20:30</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Same problems as you are having here.  Doppler's tagging implemenation does not work as other's have mentioned.
+
+I am up a creek right now in trying to get these podcasts to work correctly.  I have the same setup as you with doppler.  I have upgraded the firmware of the zen micro to the 'plays for sure' firmware.
+
+I have followed the instructions for autoplaylists to be synchronized at http://www.jakeludington.com/archives/000408.html
+
+There is one lousy problem.  When I delete the podcast and sync next time to WMP, the shows that I deleted from the zen are re-transferred.
+
+This is obviously a great feature for regular songs, but this behavior of syncing is not working for podcasts.
+
+I am wondering, has anyone found a way to do this?     I"m wondering if those ipods have the sync function in teh new itunes that would work better for podcasts...    The new 60 gig video ipod came out...     I feel a 'justification' reason for my purchase  ;)
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2805</wp:comment_id>
+    <wp:comment_author><![CDATA[skitchSKS]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>24.16.188.207</wp:comment_author_IP>
+    <wp:comment_date>2005-10-12 21:25:07</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-13 04:25:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[oh, erwin is a site admin at doppler, no wonder.
+
+http://forum.dopplerradio.net/viewtopic.php?t=275
+
+ERWIN WRITES:
+
+
+It has been noted, and will be fixed in 3.0 
+
+--- BTW ERWIN... version 3.0 of doppler looks promising, can't wait to use it.  
+
+Feel free to email me for beta testing! I'd love to get my hands on it to give it a whirl.. it looks great.   niXckskiXtchXXXXXcomcXast.neXt   <--- delete all X's]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

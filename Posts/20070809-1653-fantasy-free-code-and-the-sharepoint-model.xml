@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Fantasy, Free Code and the SharePoint Model</title>
+  <link>http://devhawk.net/2007/08/09/fantasy-free-code-and-the-sharepoint-model/</link>
+  <pubDate>Thu, 09 Aug 2007 16:53:35 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://b8a95052-7133-4b22-8058-5dfd6d931fcc</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>It might sounds like a fantasy, but Nick Malik really wants free code. He started <a href="http://blogs.msdn.com/nickmalik/archive/2007/06/19/not-crazy-just-lateral-thinking.aspx" target="_blank">talking about it</a> a few months ago when he was <strike>getting raked over the coals by</strike> debating Mort with the agile .NET community:</p><blockquote><p>Rather than look at "making code maintainable," what if we look at <u>making code free</u>.  Why do we need to maintain code?  Because code is expensive to write.  Therefore, it is currently cheaper to fix it than rewrite it.  On the other hand, what if code were cheap, or free?  What if it were cheaper to write it than maintain it?  Then we would never maintain it.  We'd write it from scratch every time.  </p></blockquote><p>Then about a week ago, <a href="http://blogs.msdn.com/nickmalik/archive/2007/07/30/free-code-getting-it-out-of-the-applications-business.aspx" target="_blank">he laid out the reasons</a> why free code would be a good thing. At a high level (Nick's blog has the details), those reasons are:  </p><ol><li>Lower the cost of IT through reduced skill requirements.  </li><li>The speed of development goes up.  </li><li>Projects become more agile.  </li><li>Solution quality goes up.  </li></ol><p>Talking about the benefits of free code is sorta like talking about talking about the benefits of dating a movie star. The benefits are actually pretty obvious, but talking about them doesn't really help you get there from here. </p><p>Actually, Nick isn't suggesting that all code can be free. He's focused on separating out business process modeling/development from the rest of software development. In essence, he's describing a new class of developer (should we call the persona Nick as an homage?) who needs their own class of tools and for the IT department to "formally" allow them to "easily develop, test, and deploy [aka host] their processes." For the most part, these BP developers wouldn't be traditional developers. They'd be more like software analysts who do the work directly instead of writing specs for developers.</p><p>I call this separation of business and IT concerns the SharePoint Model. <a href="http://www.microsoft.com/sharepoint/default.mspx" target="_blank">SharePoint</a>, IMO, does an amazing job of separating the concerns and needs of business and IT users when it comes to running intranet web sites. Only the truly geeky stuff that requires specialized access, knowledge or equipment - installing the SharePoint farm in the first place, keeping it backed up, installing service packs, etc. - is done by IT. Everything else is done by the business folks. Need a new site? Provision it yourself. Need to give your v-team members access to it? Do it yourself. I see similarities in the free BP code approach Nick's suggesting. I'd even argue that SharePoint is the natural "host" for such business processes. It already <a href="http://msdn2.microsoft.com/en-us/library/ms414613.aspx" target="_blank">supports WF</a> and can provide access to back-end enterprise data via the <a href="http://msdn2.microsoft.com/en-us/library/ms563661.aspx" target="_blank">Business Data Catalog</a>. </p><p>On the other hand, some of what Nick suggests seems fairly impractical. For example, he thinks IT should "formally and officially take control of managing the common enterprise information model and the business event ontology." First off, who officially manages this today? Does such an official information model or event ontology even exist? I'm guessing not. That means you've got to start by getting the business people to agree on one. That's usually a sucker's bet. Nick also suggests we "reduce the <a href="http://www.joelonsoftware.com/articles/LeakyAbstractions.html" target="_blank">leaky abstractions</a>" in our services. To suggest this is even possible seems incredibly naive. </p><p>The good news is the things that will work (evolving BP into its own development discipline, building custom tools for BP development, getting IT into the BP hosting business) don't depend in any way on the things that wont work (getting lots of folks to agree on anything, <strike>breaking the laws of physics</strike>, overcoming the law of leaky abstractions). I'm not sure it will result it truly free code, but it sure would bring the costs down dramatically. Thus, I think most of Nick's free code vision is quite practical and not a fantasy at all. </p><p>As for dating a movie star, you're on your own.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1026</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-09 16:53:35</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-09 16:53:35</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">fantasy-free-code-and-the-sharepoint-model</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="business-process-management"><![CDATA[Business Process Management]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="sharepoint"><![CDATA[SharePoint]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[b8a95052-7133-4b22-8058-5dfd6d931fcc]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Fantasy+Free+Code+And+The+SharePoint+Model]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/09/Fantasy+Free+Code+And+The+SharePoint+Model]]></wp:meta_value>
+  </wp:postmeta>
+</item>

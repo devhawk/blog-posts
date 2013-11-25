@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>OOPSLA Welcome Reception</title>
+  <link>http://devhawk.net/2004/10/26/oopsla-welcome-reception/</link>
+  <pubDate>Tue, 26 Oct 2004 13:55:46 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6c403dd0-ba18-46e1-a4b3-c0308b8e667d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I called it an early night yesterday (which explains why I'm blogging this today instead of last night) but I did go to the OOPSLA welcome reception. Ran into <a href="http://martinfowler.com/">Martin</a> again who pointed me in <a href="http://www.enterpriseintegrationpatterns.com/ramblings.html">Gregor's</a> direction. Gregor presented at TechEd last year and was one of the top five speakers in the architecture track so we chatted about doing it again at next year's TechEd. (I also got a chance to meet EIP's co-author <a href="http://www-106.ibm.com/developerworks/blogs/dw_blog.jspa?blog=392">Bobby Woolf</a>). Then Martin introduced several other attendees:</p><ul><li>Joshua Kerievsky, author of <a href="http://industriallogic.com/xp/refactoring/">Refactoring to Patterns</a></li><li>Michael Feathers, author of <a href="http://www.objectmentor.com/resources/bookstore/books/welc/">Working Effectively with Legacy Code</a></li><li>Gerard Meszaros, who runs <a href="http://www.xunitpatterns.com/">XUnitPatterns.com</a></li><li>Mark Striebeck, Director of <a href="http://www.vasoftware.com/sourceforge/index.php">SourceForge</a> Engineering</li></ul><p>We all stood around chatting for a good while. I learned quite a bit and now have to add a few books to my very long reading list. I hadn't realized that SourceForge is a <a href="http://www.vasoftware.com/sourceforge/index.php">product</a> in addition to being an <a href="http://sourceforge.net/">OSS code repository</a>. Actually, their aren't exactly the same - for example SF.net is built on PHP/Perl/Python while SF Enterprise Edition is built on J2EE. As we all started to drift off, Mark mentioned that he appreciated talking with me since didn't always talk in "glowing terms" about MSFT. Hey, we do a lot right, but that means there's always areas we can improve on and I always err on the side of honesty and transparency.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">461</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-10-26 13:55:46</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-10-26 13:55:46</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">oopsla-welcome-reception</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6c403dd0-ba18-46e1-a4b3-c0308b8e667d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[OOPSLA+Welcome+Reception]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/10/26/OOPSLA+Welcome+Reception]]></wp:meta_value>
+  </wp:postmeta>
+</item>

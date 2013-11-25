@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Site Update + More Office2k3 XML thoughts</title>
+  <link>http://devhawk.net/2003/03/10/site-update-more-office2k3-xml-thoughts/</link>
+  <pubDate>Mon, 10 Mar 2003 22:15:25 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://13a8b1c9-b7d9-456f-bbf5-13ce06b35c63</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Kudos to Scott W &amp; TripleASP.NET's <a href="http://tripleasp.net/showcode.aspx">Show My Code</a> tool. I updated the source code to my articles so the sample code would be syntax color coded. I like it. Not 100% satisfied w/ the output - I did hand tool the results a bit. Maybe there could be an option to spit out an XML adorned version of the source code? Then I could put the &lt;br&gt; tags exactly where I wanted them via an XSLT.</p><p>Speaking of XSLT, <a href="http://www.microsoft.com/office/preview/frontpage/default.asp"> FrontPage 2003</a> is supposed to have an <a href="http://www.microsoft.com/office/preview/developer/downloads/OfficeSystemAndXML.doc"> XSLT graphical editor</a>. But from some basic looking around, it appears that it only works in conjunction a <a href="http://www.microsoft.com/sharepoint/preview/default.asp">SharePoint</a> based site. Too bad, I was hoping it would compete with <a href="http://www.xmlspy.com">Altova's</a><a href="http://www.xmlspy.com/products_xsl.html">Stylevision graphical XSLT editor</a>. Given the relatively high bar for XSLT development, and <a href="http://www.microsoft.com/office/preview/default.asp">Office 2003's</a> support of XML in general and XSL in particular, I thought that FrontPage might naturally evolve into an XSLT tool.</p><p>Anyone know where WordML schema is documented?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">42</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-03-10 22:15:25</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-03-10 22:15:25</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">site-update-more-office2k3-xml-thoughts</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[13a8b1c9-b7d9-456f-bbf5-13ce06b35c63]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Site+Update+More+Office2k3+XML+Thoughts]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/03/11/Site+Update+More+Office2k3+XML+Thoughts]]></wp:meta_value>
+  </wp:postmeta>
+</item>

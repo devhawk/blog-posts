@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 8</title>
+  <link>http://devhawk.net/2007/01/11/morning-coffee-8/</link>
+  <pubDate>Thu, 11 Jan 2007 08:01:39 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://643f6ef4-b6b7-4639-803d-fc79053029c1</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>The news got the amount of snow right, but the day wrong. Instead of hitting yesterday morning, the storm hit yesterday at rush hour. My boss declaired today "1st Annual Architect work from home day" even though we've already had several weather induced work from home days this winter.</p><ul><li>Growing up in Northern VA, when we got snow it was fairly consistent. If there was about four inches at my house, everyone had about four inches. Here, it seems like there's much more variance. My teammate Buzz who lives only 15 minutes from me (when it's not snowing) said he had 10" of snow while I have about half that.</li><li>Speaking of Northern VA, the last few winters have been easy on us but hard on my parents who still live in McLean. This year seems to be the opposite. The forcast for McLean today is only 45, but it's supposed to get up to 65 by the weekend. </li><li>As it turns out, my parents are in the Bahamas right now anyway, so while I make a snowman with my kids today, they're probably on the beach!</li><li>I almost didn't make it home yesterday as I was trying to get my STS working with CardSpace. I have WCS workng in a direct client to service scenario, but not federated with an STS. I probably would have stayed there all night saying "just one more config tweak, and I'm sure it will work" if I had gotten snowed in. </li><li>Speaking of WCS, check out <a href="http://www.casadehambone.com/HowToUseWindowsCardSpaceWithASPNETFormsAuthentication.aspx">Kevin's screencast</a> on extending ASP.NET's built in SQL membership provider to support WCS. And Garrett <a href="http://blogs.msdn.com/garretts/archive/2006/11/29/asp-net-1-1-token-decryption.aspx">published</a> a WCS security token processor for .NET 1.1 and 2.0 a couple of months ago. So you can use WCS on your website, even if you don't have .NET 3.0 on your server. Pretty cool.</li><li>My old teammate <a href="http://blogs.msdn.com/jevdemon/archive/2007/01/10/nailing-jello-to-the-wall.aspx">John doesn't like</a> the JBOWS acronym. I agree with John that defining a "proper" SOA is waste of time best left to SOAholes. But web services != SOA. Making a distinction between having an architecture where the business and IT levels that rely on independent capabilities and services versus using web services as the protocol between tiers of a distributed application and hoping that you'll be able to integrate in the future makes sense to me.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">848</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-01-11 08:01:39</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-01-11 08:01:39</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-8</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="cardspace"><![CDATA[CardSpace]]></category>
+  <category domain="post_tag" nicename="family"><![CDATA[Family]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[643f6ef4-b6b7-4639-803d-fc79053029c1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+8]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/01/11/Morning+Coffee+8]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2442</wp:comment_id>
+    <wp:comment_author><![CDATA[David]]></wp:comment_author>
+    <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>81.156.188.165</wp:comment_author_IP>
+    <wp:comment_date>2007-01-12 03:16:16</wp:comment_date>
+    <wp:comment_date_gmt>2007-01-12 11:16:16</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[RE: SOAholes. You need some facts Harry! http://soafacts.com/ that is...
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

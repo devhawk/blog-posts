@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>DLR Resources &amp; Jobs</title>
+  <link>http://devhawk.net/2008/03/17/dlr-resources-jobs/</link>
+  <pubDate>Mon, 17 Mar 2008 12:25:39 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://dd88b818-9f8a-463a-b7ee-c6593ae58dde</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm back home from PyCon, but between digging out my inbox, finishing transition reports and doing my mid-year career discussion I'm a little busy. But I did want to point at a couple of recent posts from the <a href="http://blogs.msdn.com/ironpython/">IPy team blog</a>:</p><ul><li><a href="http://blogs.msdn.com/ironpython/archive/2008/03/16/dlr-resources.aspx">DLR Resources</a> is a partial list of links to blogs (where's mine?), mailing lists, specs, whitepapers and websites related to DLR, IronRuby and IronPython. I especially want to call out <a href="http://dynamicsilverlight.net/">Dynamic Silverlight</a> which not only has lots of good information but also looks frakking sweet. Props to my so-to-be teammate <a href="http://jimmy.schementi.com/blog/">Jimmy Schementi</a>.</li><li><a href="http://blogs.msdn.com/ironpython/archive/2008/02/25/ironpython-ironruby-and-f-openings-in-dev-test-and-pm.aspx">Dev and Test Job Openings on IronPython, IronRuby &amp; F#</a>. We're hiring, so if you're interested in working on language development @ MSFT, <a href="mailto://harry@devhawk.net">drop me a line</a> and I'll make sure it gets to the right people. BTW, I hear the IronPython PM position <a href="http://devhawk.net/2008/03/11/Joining+The+Dynamic+Languages+Team.aspx">has been filled</a>. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1125</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-03-17 12:25:39</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-03-17 12:25:39</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">dlr-resources-jobs</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="dynamic-languages"><![CDATA[Dynamic Languages]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="ironruby"><![CDATA[IronRuby]]></category>
+  <category domain="post_tag" nicename="working-at-msft"><![CDATA[Working at MSFT]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[dd88b818-9f8a-463a-b7ee-c6593ae58dde]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[DLR+Resources+Amp+Jobs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/03/17/DLR+Resources+Amp+Jobs]]></wp:meta_value>
+  </wp:postmeta>
+</item>

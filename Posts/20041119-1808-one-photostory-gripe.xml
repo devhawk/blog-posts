@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>One PhotoStory Gripe</title>
+  <link>http://devhawk.net/2004/11/19/one-photostory-gripe/</link>
+  <pubDate>Fri, 19 Nov 2004 18:08:25 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://39c4226e-513d-46fd-a941-4b7fc9846e7e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm pretty impressed with the <a href="http://www.microsoft.com/windowsxp/using/digitalphotography/photostory/default.mspx">new Photo Story</a>. I've been tracking this program since it was a research project so it's been cool to watch it evolve. However, I did run into something I didn't like in the new version. Once you've built a Photo Story, you can render it to a variety of target profiles. One of the target profiles is for SmartPhone. I've recently got an <a href="http://www.microsoft.com/windowsmobile/devices/devicedisplay.aspx?module=deviceDisplay;Smartphone;americas;134">MPx220</a> so I figured I'd try it out. Didn't work as Photo Story's target profile is for SmartPhone <em>with </em><a href="http://www.microsoft.com/windows/windowsmedia/player/windowsmobile/default.aspx"><em>Windows Media Player 10 Mobile</em></a> which the MPx220 doesn't have installed. Woops. And you can't upgrade the device to WMP10 Mobile. Double woops.</p><p>While I'm annoyed that I can't install WMP10 Mobile on my MPx220, I'm more annoyed at Photo Story. There's no way to build a custom target profile that would work with my phone. I was able to build an <a href="http://www.microsoft.com/windows/windowsmedia/9series/encoder/default.aspx">encoder profile</a> to convert a Photo Story rendered for the desktop to be converted down to work well on the SmartPhone. Why can't I just do that inside Photo Story?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">486</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-11-19 18:08:25</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-11-19 18:08:25</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">one-photostory-gripe</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[39c4226e-513d-46fd-a941-4b7fc9846e7e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[One+PhotoStory+Gripe]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/11/20/One+PhotoStory+Gripe]]></wp:meta_value>
+  </wp:postmeta>
+</item>

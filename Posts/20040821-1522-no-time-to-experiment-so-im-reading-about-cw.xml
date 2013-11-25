@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>No Time To Experiment, So I'm Reading About Cw</title>
+  <link>http://devhawk.net/2004/08/21/no-time-to-experiment-so-im-reading-about-cw/</link>
+  <pubDate>Sat, 21 Aug 2004 15:22:35 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4b4811fb-0108-4d08-b9a9-386052075818</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://research.microsoft.com/Comega/">COmega</a> (otherwise known as Cw since most people don't have an omega key on their keyboard) is on a long list of stuff for me to look at. But instead of actually coding with it, so far I can just read <a href="http://hyperthink.net/blog/default.aspx">Steve Maine's blog</a>. He's got interesting posts on <a href="http://hyperthink.net/blog/PermaLink,guid,9f8394a0-50df-4f7d-8a24-af2a69257728.aspx">syncronization</a> and <a href="http://hyperthink.net/blog/PermaLink,guid,24c0d2b7-59f3-4c68-8f16-6b58877b2541.aspx">streams</a>, the two big features of Cw over C# (come to think of it, we use the “#” symbol as most people don't have an actual sharp key on their keyboard). I also learned from Steve that Cw comes with basic VS integration - you get project support, syntax highlighting and some Intellisense. Now I just need a few extra hours in the day.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">423</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-08-21 15:22:35</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-08-21 15:22:35</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">no-time-to-experiment-so-im-reading-about-cw</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4b4811fb-0108-4d08-b9a9-386052075818]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[No+Time+To+Experiment+So+Im+Reading+About+Cw]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/08/21/No+Time+To+Experiment+So+Im+Reading+About+Cw]]></wp:meta_value>
+  </wp:postmeta>
+</item>

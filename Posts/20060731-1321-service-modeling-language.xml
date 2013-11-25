@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Service Modeling Language</title>
+  <link>http://devhawk.net/2006/07/31/service-modeling-language/</link>
+  <pubDate>Mon, 31 Jul 2006 13:21:11 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://cbe4ece8-aac5-469c-a5d9-20eee92900e6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>On the one hand, this seems like a somewhat arbitrary name change - from <a href="http://www.microsoft.com/windowsserversystem/dsi/sdm.mspx">System Defintion Model</a> to <a href="http://www.microsoft.com/windowsserversystem/dsi/serviceml.mspx">Service Modeling Language</a>. And the use of the term "Service" instead of "System" seems sketchy to me.</p><p>On the other hand, you gotta love this line from the <a href="http://www.microsoft.com/presspass/press/2006/jul06/07-31SMLPR.mspx">press release</a>: "The group plans to submit the draft specification to an industry standards organization later this year." Given the companies involved in "the group" - MSFT, IBM, BEA, Sun, Dell, BMC, Cicso, Intel, HP and EMC - you gotta think SML has a bright future. </p><p>Here's hoping that publishing the <a href="http://www.microsoft.com/windowsserversystem/dsi/serviceml.mspx">SML spec</a> is the first step in a public-workshop-based revision process, a la the <a href="http://msdn.microsoft.com/webservices/community/workshops/default.aspx">Web Services Protocol Workshops</a>. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">774</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-07-31 13:21:11</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-07-31 13:21:11</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">service-modeling-language</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[cbe4ece8-aac5-469c-a5d9-20eee92900e6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Service+Modeling+Language]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/07/31/Service+Modeling+Language]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2389</wp:comment_id>
+    <wp:comment_author><![CDATA[Piyush]]></wp:comment_author>
+    <wp:comment_author_email>piyushpant@yahoo.com</wp:comment_author_email>
+    <wp:comment_author_url>http://unhandledx.blogspot.com/2006/08/modelling-overload.html</wp:comment_author_url>
+    <wp:comment_author_IP>80.187.153.120</wp:comment_author_IP>
+    <wp:comment_date>2006-08-02 00:00:20</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-02 07:00:20</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[And meanwhile in the OMG parallel universe.. SysML was born.
+
+As I have commented on my blog, is this solving a problem that anyone has ?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2390</wp:comment_id>
+    <wp:comment_author><![CDATA[Pratul]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.technet.com/pratul/default.aspx</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.78</wp:comment_author_IP>
+    <wp:comment_date>2006-08-05 12:35:15</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-05 19:35:15</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I agree that the term "Service" is highly overloaded in our industry, but the name change was not arbitrary. The name "Service Modeling Language" was chosen because we expect that this modeling language will be used for building models of business and IT services and using these models to drive the complete lifecycle of these services (design, deployment, on-going management, etc.). The use of "Service" in SML is consistent with the use of "Service" in the IT Infrastructure library (ITIL) standard.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

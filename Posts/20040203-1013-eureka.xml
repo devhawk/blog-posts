@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Eureka</title>
+  <link>http://devhawk.net/2004/02/03/eureka/</link>
+  <pubDate>Tue, 03 Feb 2004 10:13:04 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a6720552-089c-4070-8cd4-32be0339138b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<blockquote><p>I had a great idea while I was in the shower this morning (all great ideas come while bathing, at least in my experience), and it proved to work famously. [<a href="http://weblogs.asp.net/rmclaws/archive/2004/02/03/66689.aspx">Robert McLaws</a>]</p></blockquote><p>I've joked in the past that if I took more showers I'd be filthy rich. Apparently, I'm not the only one who does their best thinking while bathing. It's a rich tradition, dating back to <a href="http://c2.com/cgi/wiki?AhHa">Archimedes</a> who figured out in the bath that you can measure the volume of an irregular object (in his case, a crown) by measuring the volume of the water it displaced. </p><p>Actually, I don't think it's the bathing - it's the disconnection. In my office I have a phone, two laptops connected to the Internet, four virtual PCs, <a href="PermaLink.aspx?guid=dd06efd1-cf51-4eed-927a-c82a01273b47">twelve books</a>, about a ream of various papers plus a pretty nice view of outside. In the shower, I have nothing but soap (not SOAP) and my thoughts. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">299</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-02-03 10:13:04</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-02-03 10:13:04</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">eureka</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a6720552-089c-4070-8cd4-32be0339138b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Eureka]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/02/03/Eureka]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2981</wp:comment_id>
+    <wp:comment_author><![CDATA[Colt]]></wp:comment_author>
+    <wp:comment_author_email>Colt@ASPAlliance.com</wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/ColtK</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-02-03 19:25:34</wp:comment_date>
+    <wp:comment_date_gmt>2004-02-04 03:25:34</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Haryy,
+
+Your "twelve books" link seem have a similar problem as 
+http://devhawk.net/CommentView.aspx?guid=dd06efd1-cf51-4eed-927a-c82a01273b47 :) ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2982</wp:comment_id>
+    <wp:comment_author><![CDATA[Anita Rowland]]></wp:comment_author>
+    <wp:comment_author_email>anita@anitarowland.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.anitarowland.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-02-03 23:37:51</wp:comment_date>
+    <wp:comment_date_gmt>2004-02-04 07:37:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Chip Anderson, my former boss at stockcharts.com, used to come in many mornings with some new idea or project for us to work on, the germ of which came to him in the shower. I'd joke that we needed a spray bottle of water on his desk for developing new inspirations during the workday!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2983</wp:comment_id>
+    <wp:comment_author><![CDATA[Tim Marman]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/tmarman</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-02-06 19:37:56</wp:comment_date>
+    <wp:comment_date_gmt>2004-02-07 03:37:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[One of my best friends in college used this technique religiously. If he ever got stuck on a problem, he would go take a shower - and emerge 10 minutes later with an answer. 
+
+In fact, his only problem was that once he figured things out, he never actually wanted to DO them. To him, the "challenging" part was already done.
+
+:)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

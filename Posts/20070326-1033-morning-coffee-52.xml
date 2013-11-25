@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 52</title>
+  <link>http://devhawk.net/2007/03/26/morning-coffee-52/</link>
+  <pubDate>Mon, 26 Mar 2007 10:33:33 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a22d39a4-4ce8-45c6-bcff-20aea4627b78</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I finally found a use for the <a href="http://devhawk.net/2006/09/27/Thoughts+On+The+SOA+Workshop.aspx">free SOA book I got</a> from attending that Thomas Erl workshop. I'm using it to prop up one end of my daughter's mattress while she's sick so she can sleep better. 
+</li><li>Jeff Tash states axiomatically that <a href="http://www.flashmapsystems.com/resources/articles/articles17.htm">CASE has evolved into Enterprise Architecture</a>. I agree with his points about why software construction isn't like manufacturing, but he seems to be describing <a href="http://en.wikipedia.org/wiki/BDUF">BDUF</a> rather than EA. I'm anti-BDUF too, but why blame EA? (via <a href="http://blogs.msdn.com/jdevados/archive/2007/03/24/case-and-enterprise-architecture.aspx">John deVadoss</a>) 
+</li><li>Joe McKendrick <a href="http://blogs.zdnet.com/service-oriented/?p=839">comments</a> on my <a href="http://devhawk.net/2007/03/21/When+Is+A+Service+Not+A+Service.aspx">SaaS/SOA post</a> and wonders if SOA should stand for "SOA Oriented Architecture". He also <a href="http://blogs.zdnet.com/service-oriented/?p=840">writes</a> that most organizations these days don't have an SOA, they have an AOS, "Agglomeration Of Services". So true, so true. 
+</li><li>JD Meier <a href="http://blogs.msdn.com/jmeier/archive/2007/03/26/vsts-guidance-project-update.aspx">talks up</a> the new <a href="http://www.codeplex.com/VSTSGuidance">VSTS guidance</a> available on CodePlex. Looks like some good stuff in there. I like how the p&amp;p guys are moving from documents to wikis to deliver their guidance. 
+</li><li>I've held off on getting the HD-DVD drive for my Xbox, but I think I'm going to cave soon, where soon == about two months. That's when <a href="http://www.engadgethd.com/2007/03/21/matrix-trilogy-to-hit-hd-dvd-may-22nd-blu-ray-later-this-year/">The Matrix Trilogy</a> is released on HD-DVD. Right around my birthday too, how convienent. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">921</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-03-26 10:33:33</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-03-26 10:33:33</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-52</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="visual-studio"><![CDATA[Visual Studio]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a22d39a4-4ce8-45c6-bcff-20aea4627b78]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+52]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/03/26/Morning+Coffee+52]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2476</wp:comment_id>
+    <wp:comment_author><![CDATA[Graham Shevlin]]></wp:comment_author>
+    <wp:comment_author_email>graham@grahamshevlin.com</wp:comment_author_email>
+    <wp:comment_author_url>http://grahamshevlin.com</wp:comment_author_url>
+    <wp:comment_author_IP>192.85.47.2</wp:comment_author_IP>
+    <wp:comment_date>2007-04-03 10:15:51</wp:comment_date>
+    <wp:comment_date_gmt>2007-04-03 17:15:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I looked at the article about CASE morphing into EA, and I have to say I think it is well wide of the mark. He is right that CASE was top-down, and that software creation analogies to manufacturing are of limited value. However, EA is fundamentally different to CASE. CASE was about using higher-order modeling to generate solutions. EA does not cover that area. I would argue that CASE has morphed into Software Factories/DSLs. The DSL wave is an attempt to re-introduce higher-order models as a source for code generation in a more limited way, with less of the top-down "stone tablets" approach. 
+The explanation that CASE failed because of "too many promises made by too many vendors" is deficient. That reason is a contributory factor to the failure of just about any recent I.T. technology failures; all vendors tend to over-sell new offerings (expansive hype gets you noticed in a crowded marketplace; modesty doesn't). There are a collection of inter-related reasons why CASE failed, ranging from under-investment, through the impact of disruptive technologies in the 1990's (client-server and the emergence of UML)...the list goes on. Over-selling by vendors is a very small part of the root causes. (I know...I was a CASE consultant for 8 years). ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

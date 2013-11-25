@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Lang.NET Is Helping Game Developers</title>
+  <link>http://devhawk.net/2006/08/02/lang-net-is-helping-game-developers/</link>
+  <pubDate>Wed, 02 Aug 2006 12:37:41 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://72b02910-07e9-41a0-958e-d63a9c6d15db</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Back at <a href="http://www.cs.princeton.edu/~dpw/popl/06/">POPL 06</a>, <a href="http://en.wikipedia.org/wiki/Tim_Sweeney_(game_developer)">Tim Sweeny</a> of <a href="http://www.epicgames.com/">Epic Games</a> delivered a talk titled "<a href="http://www.cs.princeton.edu/~dpw/popl/06/Tim-POPL.ppt">The Next Mainstream Programming Language: A Game Developer’s Perspective</a>". I imagine he was a little too busy getting <a href="http://www.gearsofwar.com/">Gears of War</a> out the door to attend the <a href="http://www.langnetsymposium.com/">Lang.NET Symposium</a>. Too bad, as there were interesting solutions presented that solved two of the issues Tim identified in his his POPL talk.</p><p>One of the issues Tim identified is one of Modularity. Gears of War uses the <a href="http://www.unrealtechnology.com/html/technology/ue30.shtml">Unreal Engine 3</a>. In other words, UE3 is a game framework and GoW uses that framework. As you might expect, this framework is exposed as a hierarchy of objects. Tim's example had "Actor" as the base class in the framework hierarchy, with classes like "Player", "Enemy" and "InventoryItem" inheriting from "Actor". Then he had game-specific classes like "Dragon" and "Sword" inheriting from the generic "Enemy" class. The problem is that game developers also need to extend the functionality of the framework's base classes. That is, they need a game-specific version of "Actor" or "InventoryItem" in addition to the game specific subclasses like "Dragon" and "Sword". Unfortunately, the current generation of languages don't support this, so game developers often clone the entire framework, which is error-prone and hard to support.</p><p>At Lang.NET, <a href="http://www.cs.iastate.edu/~lumpe/">Professor Markus Lumpe</a> demonstrated an implementation of the Classbox concept for .NET. Classbox is essentially a solution to the modularity problem Tim identified. They've modified C#'s using syntax to apply to individual classes. When using a class in this fashion, you can add extensions to it like new methods and new fields. I'm not sure the scope of these extensions - whether it's the file with the using clause or the containing assembly - but it's key to realize this is a local extension. The original framework isn't modified at all. Within you assembly, the metadata for the extended classes is re-written to include the new extension. So to use Tim's example, if you extended the framework's "Actor" class, it would create a YourGame.Actor class that inherited from the Framework.Actor and contained your extensions. Then it would re-write the inheritance metadata (again, only for your assembly) so classes that inherited from Framework.Actor such as Framework.Enemy and Framework.InventoryItem now inherit from YourGame.Actor.</p><p>Now I'm sure there are some nefarious uses of this type of inheritance tree hacking. But there are scenarios such as Tim's Gaming Framework example where this behavior is exactly what you want. I spoke briefly to Markus and at length with Hua Ming, one of Markus' grad students, about perhaps having a keyword indicating that a class is "classbox enabled" rather than allowing any class to be classboxed in this way. Looking forward to their future work.</p><p>Another issue Tim identified was Reliability. He called this problem "If the compiler doesn’t beep, my program should work". He showed a very simple method to iterate an index array and transform the associated vertex from a vertex array by a provided matrix. A simple function - four lines of code. Yet, the compiler can't detect null pointer or out-of-bound array access. Adding code to check those runtime conditions would easily double or triple the length of the function. While modern managed languages (C#/VB/Java) have made great strides in eliminating "random memory overwrites" (via type safety) and "memory leaks" (via garbage collection) they don't help you with these other types of dynamic failures.</p><p>At Lang.NET, Microsoft Researcher <a href="http://research.microsoft.com/users/mbarnett/">Mike Barnett</a> demonstrated <a href="http://research.microsoft.com/specsharp/">Spec#.</a> Spec# is a superset of C# that solves these and other types of dynamic errors. The idea, in Mike's words, is to better bridge developer intent and code by embedding certain specifications into the code itself. Furthermore, it uses a combination of static and data flow analysis to detect the types of dynamic errors Tim described in his talk. So if you took Tim's simple transform function and fed it into the Spec# compiler, it would warn you of the possible null pointer dereferences. Furthermore, you can eliminate this warning by specifying the caller never pass you a null pointer. This is simply accomplished by adding an exclamation point to the type declaration. In other words, the vertex array method parameter would be declared "Vertex[]! vertices" to indicate you can't pass in a null array. With Spec#, you can also specify method pre and post conditions, which can solve the out-of-bound array access issue, as well as object invariants, which can specify the valid states an object instance can be in.</p><p>I didn't see Tim give this presentation, I only saw the slides after the fact. But I get the feeling that one of Tim's points is that game development is extremely cutting edge, and the issues they're running into now will be mainstream issues in a few years. Good to see language researchers are already well on their way to solving these issues. </p><p>The only thing I worry about is when will these ideas make it into mainstream languages? And will they be extensions to existing languages - i.e. will C# 4.0 and VB 10 include classboxing and specifications - or will they be entirely new languages? How much can you improve a language by adding features until it collapses under it's own weight?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">778</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-08-02 12:37:41</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-08-02 12:37:41</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">lang-net-is-helping-game-developers</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[72b02910-07e9-41a0-958e-d63a9c6d15db]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[LangNET+Is+Helping+Game+Developers]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/08/02/LangNET+Is+Helping+Game+Developers]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2396</wp:comment_id>
+    <wp:comment_author><![CDATA[orcmid]]></wp:comment_author>
+    <wp:comment_author_email>dennis.hamilton@acm.org</wp:comment_author_email>
+    <wp:comment_author_url>http://miser-theory.info/astraendo/pn</wp:comment_author_url>
+    <wp:comment_author_IP>216.160.65.145</wp:comment_author_IP>
+    <wp:comment_date>2006-08-03 12:42:26</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-03 19:42:26</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You were there?  Dang, I should have worn my "The Architect is In" T-Shirt.  
+
+The more I talked to others, including some people from the BCL Team on Tuesday night, the more that class boxing the way Markus did it seems useful.  I rarely want simple inheritance off of an existing class.  I usually need to come up with a "parallel" class hierarchy that injects extensions/contractions on the interfaces of the original hierarchy.
+
+By the way, that was an awesome symposium.  On Monday there was no moment that I was wishing that I could check my e-mail instead.
+
+PS: Spec# can be done entirely in the IDE, as far as I can tell. That makes it a very rich idea.  I think it will be far more acceptable than formal verification, especially in use on production development projects.  (Think if FX cop but with way fewer need for test cases -- the reduction of test-coverage burden should pay for Spec# use hundreds of times over.)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2397</wp:comment_id>
+    <wp:comment_author><![CDATA[orcmid]]></wp:comment_author>
+    <wp:comment_author_email>dennis.hamilton@acm.org</wp:comment_author_email>
+    <wp:comment_author_url>http://miser-theory.info/astraendo/pn</wp:comment_author_url>
+    <wp:comment_author_IP>216.160.65.145</wp:comment_author_IP>
+    <wp:comment_date>2006-08-03 16:29:43</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-03 23:29:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Well, I pulled the trigger a little too quickly there.  
+
+There are some language tweaks that the Spec# folk put into the C# language (for example) to make it easier to assert that a reference is not allowed to be null, that sort of thing.  There are probably decorations that would not require fudging with the language, and then there might be some sugar to make the decorations less painful.  But basically, the main work and the game of verifying the assertions is accomplished with an integration into the IDE.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

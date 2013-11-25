@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Community Site</title>
+  <link>http://devhawk.net/2005/02/28/community-site/</link>
+  <pubDate>Mon, 28 Feb 2005 14:52:45 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0033c397-a697-4de0-89bb-2f787e13b7da</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm trying to set up a community site for some old friends from high school. Got the domain name, got the hosting space, just need to figure out what to run on the site. </p><p>I started by looking the old IBuySpy portal. It's been a while - it's now called the <a href="http://www.ibuyspy.com/PortalStarterKit/DesktopDefault.aspx">ASP.NET Portal Starter Kit</a>. Looks as good as it did when it first came out. However, there's a slight security issue. My hoster doesn't allow unauthenticated write access to the file system. Most of the ASP.NET Portal data is stored in the database, however the actual site layout is stored in an <a href="http://www.ibuyspy.com/PortalStarterKit/sourceviewer/srcview.aspx?path=webconfig.src&amp;file=PortalCfg.xml&amp;rows=2">on-disk XML file</a>. I could work around this by setting up a portal on my local machine, building out the site, and then uploading the relevant xml file, but I want to have my good friend back east help manage the site, so that workaround does't work too well.</p><p>Next choice was <a href="http://www.dotnetnuke.com/">DotNetNuke</a>. They're about to release their 3.0 version (3.0.11 is supposed to be the final beta). Looks really nice and installed very easily on my local testbed. However, my hoster also doesn't give my DB account owner rights - I get reader, writer, DDL and security admin but not owner. DNN installs a series of stored procedures (which works on my machine due to having DDL permissions) but doesn't give EXEC permissions to those procs to anyone except DBO. Woops. I wrote a small utility app that extracts a list of all user stored procs and calls "GRANT EXEC ON &lt;&lt;SPNAME&gt;&gt; TO PUBLIC" on each one. Seems to work fine, but given the size of the DNN codebase, I'm not sure I'm comfortable that there isn't something else out there that's expecting DBO permissions.</p><p>Assuming I don't go with ASP.NET Portal or DNN, what other choices do I have? I've got pretty stringint security requirements, plus it has to use ASP.NET (go figure). I'm still looking at:</p><ul><li><a href="http://www.rainbowportal.net">Rainbow Portal</a> - similar to DNN in that it started from the original ASP.NET Portal source code</li><li><a href="http://asp.net/StarterKits/StarterKitRedirect.aspx?Item=CommunityLive">ASP.NET Community Starter Kit</a> (CSK) - A baseline starter kit for building a community oriented site. Sounds promising.</li><li><a href="http://gotcommunitynet.com/">GotCommunityNet</a> - derivative of the community starter kit. They bill themselves as CSK 1.1. Sounds even more promising.</li></ul><p>Any other suggestions?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">560</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-02-28 14:52:45</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-02-28 14:52:45</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">community-site</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0033c397-a697-4de0-89bb-2f787e13b7da]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Community+Site]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/02/28/Community+Site]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2796</wp:comment_id>
+    <wp:comment_author><![CDATA[Chris Kinsman]]></wp:comment_author>
+    <wp:comment_author_email>ckinsman@vergentsoftware.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-28 15:03:08</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-28 23:03:08</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[www.communityserver.org
+
+Blogs (.Text), Photos (nGallery), Newsgroups (ASP.NET Forums), etc.
+
+No CMS but an active group supporting it]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2797</wp:comment_id>
+    <wp:comment_author><![CDATA[egilh]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.egilh.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-01 04:23:39</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-01 12:23:39</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[What a coincidence, I am putting up a site for keeping in touch with my ex colleagues... 
+
+I like www.communityserver.org but I went for a wiki instead (www.flexwiki.com). I like the idea of people being able to edit their own pages and extend the site as they want. 
+
+No idea how it will turn out though. I have only written my page and some "plumbing" pages using WikiTalk that allows people to find each other by year, by name and by project.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2798</wp:comment_id>
+    <wp:comment_author><![CDATA[Andrew Woodward]]></wp:comment_author>
+    <wp:comment_author_email>andrew.woodward@bxsl.co.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://www.bxsl.co.uk</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-05 07:03:35</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-05 15:03:35</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I would also recommend Community Server (www.communityserver.org), we currently have it running for a club site www.oswestryridingclub.org.uk.
+
+You may have some problems with your restriction on writing to the file system as I know the images are stored on the disk.
+
+I think a number of new add-ons will start to appear soon.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2799</wp:comment_id>
+    <wp:comment_author><![CDATA[Mayur Gondaliya]]></wp:comment_author>
+    <wp:comment_author_email>mayur.aits@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>221.135.232.129</wp:comment_author_IP>
+    <wp:comment_date>2006-10-03 11:32:05</wp:comment_date>
+    <wp:comment_date_gmt>2006-10-03 18:32:05</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Better]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

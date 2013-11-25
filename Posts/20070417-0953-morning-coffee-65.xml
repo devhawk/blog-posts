@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 65</title>
+  <link>http://devhawk.net/2007/04/17/morning-coffee-65/</link>
+  <pubDate>Tue, 17 Apr 2007 09:53:41 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://644a379c-e01b-4bc5-a1ab-1e049fd6903b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>My brother is a VaTech alumni, so the shock of the <a href="http://www.msnbc.msn.com/id/18134671/">deadly shootings there yesterday</a> hits very close to home. My heavy heart is with the grieving Hokie nation today.  </li><li>Jeff Atwood has a couple of <a href="http://www.codinghorror.com/blog/archives/000838.html">great</a><a href="http://www.codinghorror.com/blog/archives/000839.html">posts</a> on Language vs. Platform. Earlier in my MSFT career, I spent a significant amount of time explaining .NET, often to companies that had made a significant investment in Java. Picking the Java platform is fine (it's almost the best platform around!), but it seemed many people I spoke to didn't understand the fact that "[w]hen you choose a language, like it or not, you've chosen a <i>platform</i>".  </li><li>Ian Thomas <a href="http://itblagger.wordpress.com/2007/04/10/soa-as-internal-saas/">riffs</a> on my <a href="http://devhawk.net/2007/03/21/When+Is+A+Service+Not+A+Service.aspx">When is a Service Not a Service</a> post. I like Ian's thinking about SaaS as an analogy for SOA adoption - if for no other reason that SaaS is easier to "get". But trying to realize SOA via SaaS inside the enterprise is a mistake in my opinion (and I think Ian would agree with that). SaaS is a business model, and I don't think you want to turn your enterprise into an internal service marketplace. Instead, this ties back with Nick Malik's points about <a href="http://blogs.msdn.com/nickmalik/archive/2007/04/14/is-central-planning-impossible.aspx">central planning</a>. Regardless if I'm right or wrong, I <a href="http://feeds.feedburner.com/itblagger">subscribed</a> to Ian's blog (and not just because he linked to me - check out his <a title="Read Elements of the Future Business Ecosystem (Part I)" href="http://itblagger.wordpress.com/2007/04/07/elements-of-the-future-business-ecosystem-part-i/">Elements of the Future Business Ecosystem</a>) </li><li>TLA Watch: Oracle coins Application Integration Architecture (aka AIA). Joe McKendrick <a href="http://blogs.zdnet.com/service-oriented/?p=857">calls it</a> "Big SOA". Isn't this the market segment that BizTalk has been in for seven years?</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">937</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-17 09:53:41</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-17 09:53:41</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-65</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[644a379c-e01b-4bc5-a1ab-1e049fd6903b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+65]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/17/Morning+Coffee+65]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2484</wp:comment_id>
+    <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+    <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+    <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>65.248.23.250</wp:comment_author_IP>
+    <wp:comment_date>2007-04-17 14:13:56</wp:comment_date>
+    <wp:comment_date_gmt>2007-04-17 21:13:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hmmm.  Sounds familiar.  
+
+http://blogs.msdn.com/jdevados/archive/2006/08/02/687269.aspx
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2485</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-04-17 15:45:51</wp:comment_date>
+    <wp:comment_date_gmt>2007-04-17 22:45:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Great minds think alike!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

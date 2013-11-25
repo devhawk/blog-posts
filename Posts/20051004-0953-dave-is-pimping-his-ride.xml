@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Dave is Pimping his Ride</title>
+  <link>http://devhawk.net/2005/10/04/dave-is-pimping-his-ride/</link>
+  <pubDate>Tue, 04 Oct 2005 09:53:48 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5ad24094-3764-41ef-9951-480f0eb03212</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm pretty excited to read about my friend <a href="http://davidjwhite.net/myblog/">David White</a> building his own in-car navigation and entertainment system. He took a look at available systems and <a href="http://davidjwhite.net/myblog/archive/2005/09/28/40.aspx">came away</a> with the following opinions:</p><blockquote><p>The problem with all these [existing systems] is three fold as far as I am concerned: 1) they are way too expensive, 2) they are not extendable (meaning I can't program on them), and 3) they are not connected to the car. Imagine the last two put together!</p><p>&lt;snip&gt;</p><p>So what exactly is my thought? I mean there are people shoving Mac Minis and mini-ITX form factors in cars now right? Yes they are, but to me it is wrong tool for the job and just not that interesting (I would love to hear if you think I am wrong). I think there are problems with power consumption and conversion, instant on and off scenarios, dash placement, etc. So I thought to go out and build my own system. I mean build my own system -from the ground up board and all. Add a flip out screen with a wiring harness into the car bus network and away I go. I plan on using Windows mobile 5.0 and the .Net Compact Framework for the UI of applications and part way down the stack until the real time requirements outstrip what a garbage collected environment can do. </p></blockquote><p>I've always had a hankering for learning embedded development, so I'll be following David's blog with great interest. I also love the title of his blog - Architect Must Implement. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">637</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-10-04 09:53:48</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-10-04 09:53:48</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">dave-is-pimping-his-ride</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5ad24094-3764-41ef-9951-480f0eb03212]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Dave+Is+Pimping+His+Ride]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/10/04/Dave+Is+Pimping+His+Ride]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2848</wp:comment_id>
+    <wp:comment_author><![CDATA[Tom Vande Stouwe]]></wp:comment_author>
+    <wp:comment_author_email>tomv@conpro.net</wp:comment_author_email>
+    <wp:comment_author_url>http://architecturematters.net</wp:comment_author_url>
+    <wp:comment_author_IP>68.63.188.194</wp:comment_author_IP>
+    <wp:comment_date>2005-10-04 14:08:53</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-04 21:08:53</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I think the problem is beyond the obvious disconnect between software and hardware. We first have to get to the notion of a 'fly by wire' automobile paradigm. I have been looking at the options for a fully digital car, and the issue is 'standardization' of interface. By that I mean that I should be able to bring my dashboard to any car, and plug in my smart card and it will light up as if I was in my own car. Gas right where I like it with warnings at 2.3L to reserve etc.
+
+But to accomplish that, we need to start making cars truly modular. Some of the 'skate board' prototypes for fuel cell cars are in that mode. A set of chassis with all the mechanics inside, looking very much like a skateboard. A shell with passenger compartment is dropped on top, and that is where all the customization takes place. Once the car is 'by wire' then our OOP model starts to work. Until then, we are still in the custom tool shop mode.
+
+Tom
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2849</wp:comment_id>
+    <wp:comment_author><![CDATA[David White]]></wp:comment_author>
+    <wp:comment_author_email>ddsoft@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.davidjwhite.net/myblog</wp:comment_author_url>
+    <wp:comment_author_IP>208.1.137.98</wp:comment_author_IP>
+    <wp:comment_date>2005-10-05 06:54:56</wp:comment_date>
+    <wp:comment_date_gmt>2005-10-05 13:54:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I agree but the problem is an old one. The automakers only want standardization in the components they buy but not their products. There are some emerging standards used in the intercommunication of components called CAN-BUS. This will atleast simplify the communications some but the industry has seen that before in J1930 where different automakers made thier own implementation of it.
+
+Starts to sound familiar doesn't it. In fact since I deal with the automotive industry from a software level, my favorite conversation about standards, portability, and cross platform discussions start with a simple statement. So those tires on those car thingies, they are all the same right so I can take the wheels off my GM and put it on my Ford? The simple fact is every single one of them have slightly different bolt patterns. Go figure :-)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

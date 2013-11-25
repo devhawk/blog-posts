@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Done in Australia</title>
+  <link>http://devhawk.net/2004/08/04/done-in-australia/</link>
+  <pubDate>Wed, 04 Aug 2004 18:19:35 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://38749d80-2660-43c0-8ef2-acf809a9b846</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>My presentations are done. I have one more analyst meeting, and then I am officially on vacation down under for a week. I'm stoked (but don't expect too much blog traffic around here).</p><p>Doing both talks twice in the space of a week really helped improve my delivery. I still think the Data in SOA talk didn't go quite as well as the Metropolis talk, but the gap narrowed this time. Also helped that they were on separate days this time. I got lots of great questions afterwards. A couple of gentlemen from the Australian government grabbed me for over an hour after my Metropolis talk yesterday - one from Dept of Defense, the other from Dept of Statistics. At the Federal Architect Forum earlier this year, I spent some time with an architect from the US DoD and I'm coming to the conclusion that compared to most government agencies, DoD seems to be ahead of the curve on architecture. Of course, when you measure failure in human life, it behooves you to stay ahead of the curve. We were discussing business process and the gentleman from Aus DoD pointed out that we "mangle business processes in order to fit them into technology implementations." Very true. We even got into some social aspects. For example, the battlefield leaders of tomorrow are in their teens today, so they are looking at how teens communicate today. They want their battle systems of the future present information optimally for those future leaders. Each generation tends to communicate differently than previous generations. His 16 year old doesn't read or write well, but he can IM chat 6 people, send phone text messages and talk on the phone all at the same time. How will future battle systems leverage that ability. Fascinating. </p><p>We head back to Sydney tomorrow evening. This afternoon and tomorrow, we're off to find a kangaroo petting zoo and take a tour of Canberra. There's a <a href="http://www.rugby.com.au/aus.rugby/pages/105">big rugby match</a> on Saturday - the Qantas Wallabies vs. the New Zealand All Blacks competing for the <a href="http://www.rugby.com.au/aus.rugby/pages/1285/group/9619">Bledisloe Cup</a>. It's sold out, but it will be on TV. There's something about the passion of large scale sporting events like this. My parents and brother went to several matches of <a href="http://www.euro2004.com/index.html">Euro 04</a>, including the <a href="http://www.euro2004.com/Tournament/Matches/Round=1582/Match=1059188/index.html">England vs. Portugal game</a> that sent England home in penalty kicks. The parting after went on all night. World Cup 98 in France was the same way every time France won (though we had gone home by the final game that France won - I'll bet that was quite the party). I know nothing about Rugby, but I'm keen to learn.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">414</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-08-04 18:19:35</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-08-04 18:19:35</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">done-in-australia</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[38749d80-2660-43c0-8ef2-acf809a9b846]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Done+In+Australia]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/08/05/Done+In+Australia]]></wp:meta_value>
+  </wp:postmeta>
+</item>

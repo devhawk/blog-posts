@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Sacred Code Cows</title>
+  <link>http://devhawk.net/2006/04/24/sacred-code-cows/</link>
+  <pubDate>Mon, 24 Apr 2006 14:50:52 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://befc2e0c-ff9e-4732-a997-42246d9c239e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I <a href="http://devhawk.net/2006/04/14/Talking+Dynamic+Lanugages+With+Neal+Ford.aspx">wrote</a> of my meeting w/ <a href="http://memeagora.blogspot.com/">Neal Ford</a> a few weeks ago. Today he has a long post on what he calls <a href="http://memeagora.blogspot.com/2006/04/eating-sacred-hamburger.html">Eating Sacred Hamburger</a> that goes into more detail of some of the things we discussed:</p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px"><p>Software development cults tend to create sacred cows: habits and idioms that might have meant something at one time but only remain as baggage now. I tend to like to kill sacred cows and grill them up, with some nice lettuce, tomato, and a sesame seed bun. On my current project, we're actively killing some sacred cows.</p></blockquote><p dir="ltr">The main sacred cow he's talking about slaughtering is Hungarian Notation for interfaces. You know, interfaces like <a href="http://msdn2.microsoft.com/en-us/library/system.data.idbconnection.aspx">IDbConnection</a> and <a href="http://msdn2.microsoft.com/en-us/library/system.web.ihttphandler.aspx">IHttpHandler</a>. </p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px"><p dir="ltr">Thankfully, Hungarian Notation has mostly been banished, except for one lingering, annoying location in the .NET world: the stupid "I" preface on interfaces. In fact, if you understand how interfaces should be used, this is exactly the opposite of what you want. In our application, every important semantic type is represented by an interface. Using interfaces like this makes it easier to do a whole host of things, including mocking out complex dependencies for testing. Why would you destroy the most important names in your application with Hungarian Notation telling you it's an interface? Ironically enough, that your semantic type is an interface is an implementation detail -- exactly the kind of detail you want to keep out of interfaces. I suspect this nasty habit developed in the .NET world because interfaces first came to the Microsoft world as COM (or, back when it started, OLE). It's a stupid cow now, and should be slaughtered.</p></blockquote><p dir="ltr">I agree 100% with this, though I'm guessing the next time I write an interface, I'll have to go back and delete the stupid "I" because I'm so used to writing it. </p><p dir="ltr">The other convention he's looking to do away with camel and pascal casing, which is <a href="http://msdn.microsoft.com/library/en-us/cpgenref/html/cpconcapitalizationstyles.asp">convention in .NET</a>. He's a bigger fan of using underscores between words (which is big in the Ruby world). So far, he's only using underscores in his test methods since they tend to be longer, such as "Verify_end_to_end_security_connectivity_to_infrastructure". Frankly, I'm ambivalent on this one. I'm pretty good at reading camel and pascal casing and I would hope never to see a production method name like that.</p><p dir="ltr">So that's two down, but there's still an entire herd of sacred cows out there. What other ones do we need to get rid of?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">740</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-04-24 14:50:52</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-04-24 14:50:52</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">sacred-code-cows</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[befc2e0c-ff9e-4732-a997-42246d9c239e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Sacred+Code+Cows]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/04/24/Sacred+Code+Cows]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2352</wp:comment_id>
+    <wp:comment_author><![CDATA[Mike Clark]]></wp:comment_author>
+    <wp:comment_author_email>michael.clark@ofm.wa.gov</wp:comment_author_email>
+    <wp:comment_author_url>http://www.clarkmichael.com</wp:comment_author_url>
+    <wp:comment_author_IP>198.186.221.106</wp:comment_author_IP>
+    <wp:comment_date>2006-04-25 09:13:04</wp:comment_date>
+    <wp:comment_date_gmt>2006-04-25 16:13:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[NO NO NO!  No bloody underscores between words!  BIG bloody annoyance!  [Sound of light saber being activated] I will lop off the fingers of the first one of you who DARES to even THINK of deprecating Camel and Pascal casing in .NET code!  
+
+You freaks who want to code with underscores in Ruby, I hope you, too, get run out of town on a Rail!  GRRRRRR!
+
+(No, seriously, underscores are the spawn of Satan).
+
+Have a nice day!  :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2353</wp:comment_id>
+    <wp:comment_author><![CDATA[Dan McKinley]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://mcfunley.com</wp:comment_author_url>
+    <wp:comment_author_IP>198.45.18.20</wp:comment_author_IP>
+    <wp:comment_date>2006-04-25 10:48:58</wp:comment_date>
+    <wp:comment_date_gmt>2006-04-25 17:48:58</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Good post. I think this concept intersects with the phenomenon of "cargo cult" programming to some degree. On my team, the old timers are in the habit of setting local references to Nothing when using VB.NET. Ie,
+
+Public Sub Foo()
+  Dim x As New Object
+  ' Use x
+  x = Nothing
+End Sub
+
+Nobody can explain how this got started and I've had some extreme difficulty explaining this is not necessary.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2354</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.75</wp:comment_author_IP>
+    <wp:comment_date>2006-04-25 11:59:08</wp:comment_date>
+    <wp:comment_date_gmt>2006-04-25 18:59:08</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Come on Mike, tell us how you REALLY feel! :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2355</wp:comment_id>
+    <wp:comment_author><![CDATA[Eirik Mangseth]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>195.159.201.230</wp:comment_author_IP>
+    <wp:comment_date>2006-05-03 03:57:57</wp:comment_date>
+    <wp:comment_date_gmt>2006-05-03 10:57:57</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You wrote "He's a bigger fan of using underscores between words (which is big in the Ruby world)". The Ruby world got this from Eiffel and Bertrand Meyer. Just read Object-oriented Software Construction, 2nd Edition. And anyone with a modicum of knowledge knows that Ruby's inventor was heavily inspired by Eiffel and the OOSC-book.
+
+Eirik
+
+"If I can't Eiffel in heaven, I won't go."]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

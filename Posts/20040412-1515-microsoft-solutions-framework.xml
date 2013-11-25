@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Microsoft Solutions Framework </title>
+  <link>http://devhawk.net/2004/04/12/microsoft-solutions-framework/</link>
+  <pubDate>Mon, 12 Apr 2004 15:15:42 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://ea4c2c03-791d-4eba-97ea-e09d3c11bdea</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p></p><p>It's been around a while, but I only just noticed the <a href="http://www.microsoft.com/msf">Microsoft Solutions Framework</a> website because they just published their <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=A71AC896-1D28-45A4-880C-8B0CC8265C63&amp;displaylang=en">whitepapers</a> on the Download Center (<a href="http://www.thundermain.com/rss/">RSS feed</a> for Download Center provided by ThunderMain - thanks guys!)</p><p>From the <a href="http://www.microsoft.com/technet/itsolutions/techguide/msf/msfovrvw.mspx">overview</a>, MSF is:</p><blockquote><p>Microsoft Solutions Framework (MSF) is a deliberate and disciplined approach to technology projects based on a defined set of principles, models, disciplines, concepts, guidelines, and proven practices from Microsoft. This white paper introduces MSF and provides an overview of its foundational principles, core models, and essential disciplines, focusing on how their application contributes to the success of technology projects. Finally, the paper provides references for further information about MSF and references for guidance in implementing MSF within an organization. In an appendix, the paper briefly compares and contrasts MSF to other industry methodologies and standards and describes how MSF can be used in combination with them.</p></blockquote><p align="left">MSF includes two models - <a href="http://www.microsoft.com/technet/itsolutions/techguide/msf/msftm31.mspx">team</a> and <a href="http://www.microsoft.com/technet/itsolutions/techguide/msf/msfpm31.mspx">process</a> - as well as three management disciplines - <a href="http://www.microsoft.com/technet/itsolutions/techguide/msf/msfpmd11.mspx">project</a>, <a href="http://www.microsoft.com/technet/itsolutions/techguide/msf/msrmd11.mspx">risk</a> and <a href="http://www.microsoft.com/technet/itsolutions/techguide/msf/msfrmd11.mspx">readiness</a>. They also have a bunch of <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=9D2016AD-6F8A-47F5-84FA-BEC389DB18C1&amp;displaylang=en">MSF templates</a> you can use in your own projects.</p><p align="left">One of the nice things about MSF is that it works with other methodologies. I.e. you don't have to give up RUP/XP/TDD/&lt;insert your favorite methodology here&gt; in order to use MSF.</p><p align="left">UPDATE: Lorenzo has compiled a <a href="http://weblogs.asp.net/lbarbieri/articles/MSF_Resources.aspx">list of MSF links</a> you can check out.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">350</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-04-12 15:15:42</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-04-12 15:15:42</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">microsoft-solutions-framework</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="process"><![CDATA[Process]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[ea4c2c03-791d-4eba-97ea-e09d3c11bdea]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Microsoft+Solutions+Framework]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/04/12/Microsoft+Solutions+Framework]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3050</wp:comment_id>
+    <wp:comment_author><![CDATA[Lorenzo Barbieri]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/lbarbieri</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-04-13 01:27:18</wp:comment_date>
+    <wp:comment_date_gmt>2004-04-13 08:27:18</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[If you need other infos about MSF you can check my MSF Resource list here: http://weblogs.asp.net/lbarbieri/articles/MSF_Resources.aspx
+
+HTH]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

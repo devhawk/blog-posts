@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 42</title>
+  <link>http://devhawk.net/2007/03/09/morning-coffee-42/</link>
+  <pubDate>Fri, 09 Mar 2007 11:05:41 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4d56eb7f-e896-4c6b-ae2e-4fbe89ce500c</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Ever since I got back from vacation, it's been all about the Morning Coffee. I'm happy to be getting a daily post out, but I haven't written anything deep in several weeks now. My one non-MC post in the past two weeks was <a href="http://devhawk.net/2007/03/06/The+Virtuous+Cycle+Of+Virtual+Platforms.aspx">The Virtuous Cycle of Virtual Platforms</a> which frankly I wrote over a year ago for internal usage and adapted for my blog after reading <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=11c471d6-ea65-4ed2-b387-c9ec966d8418">Dare's post</a>. </p><p>One of the reasons for my lack of "deep" posting recently is post vacation re-engagement. Also, things at work that I can't blog about (yet) have been taking my attention. But I worry that this daily MC post is causing me to focus on "shallow" blog topics. Since I'm trying to average a post per day, that means at least two non-MC posts every week. Of course, more than two non-MC posts a week would be just fine.</p><ul><li>On the XNA Team Blog, Michael Klucher announces the <a href="http://blogs.msdn.com/xna/archive/2007/03/08/announcing-the-xna-game-studio-express-update.aspx">XNA Game Studio Express Update</a> is coming in April. Among the new features are Vista compatibility, 3D audio, bitmap fonts, game icons and most interesting the sharing of compiled XNA games. Currently, the only way to share something you build with XNA with the community is by sharing the source code, which is less than optimal. For more, check out the <a href="http://download.microsoft.com/download/3/0/7/307dd868-9faa-4f6f-8521-0fd5dd7f3902/xna%20game%20studio%20express.zip">XNA GSE Overview presentation</a> by <a href="http://blogs.msdn.com/mitchw/default.aspx">Mitch Walker</a> from GDC. </li><li>Speaking of gaming consoles, Sony's <a href="http://kotaku.com/gaming/gdc07/gdc07-sony-unveils-home-242332.php">"big" announcement</a> is a Second Life clone? Kotaku thinks "this is going to be one of those features that people didn't realize that wanted until they get it." Personally, I doubt that very much, but what do I know about game consoles? I just play, man.  </li><li>Jafar Husain suggests a way to do <a href="http://themechanicalbride.blogspot.com/2007/03/symbols-on-steroids-in-c.html">Ruby symbols in C# 3.0</a>. Sort of. He defines an extension method that returns the name of the property defined in a lambda function. On the plus side, it's strongly typed. On the minus side, "this.GetPropertySymbol(o =&gt; o.Name)" isn't as easy to type as ":Name". (via <a href="http://www.dotnetkicks.com/csharp/Symbols_in_C_3">DotNetKicks</a>) </li><li>While pseudo-symbol support is fairly verbose, Scott Guthrie <a href="http://weblogs.asp.net/scottgu/archive/2007/03/08/new-c-orcas-language-features-automatic-properties-object-initializers-and-collection-initializers.aspx">goes thru</a> some of the new language features for terser syntax: automatic properties, object initializes and collection initializes. While I like object and collection initializes, I'm not really sold on automatic properties. Personally, I like the VS prop snippet approach, where you automate the creation of the property once time when it's authored rather than leaving the shortcut syntax in the code in perpetuity. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">907</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-03-09 11:05:41</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-03-09 11:05:41</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-42</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-sharp"><![CDATA[C#]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4d56eb7f-e896-4c6b-ae2e-4fbe89ce500c]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+42]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/03/09/Morning+Coffee+42]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2461</wp:comment_id>
+    <wp:comment_author><![CDATA[MadTechie]]></wp:comment_author>
+    <wp:comment_author_email>JasonBeaudreau@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.madtechie.com/</wp:comment_author_url>
+    <wp:comment_author_IP>71.123.208.136</wp:comment_author_IP>
+    <wp:comment_date>2007-03-14 21:31:40</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-15 04:31:40</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry:
+
+Regarding shallow posting...sometimes that is exactly what readers are looking for in a blog.  I like to take a break from heads down work and look around at what's happening in the community.  That's one of the reasons I like your morning coffee: light, airy, and somewhat unpredictable.
+
+I caught your keynote in L.A. for Architect Connections and enjoyed it.
+
+Take it easy. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2460</wp:comment_id>
+    <wp:comment_author><![CDATA[Rob Relyea]]></wp:comment_author>
+    <wp:comment_author_email>Rob.Relyea@microsoft.com</wp:comment_author_email>
+    <wp:comment_author_url>http://rrelyea.spaces.live.com</wp:comment_author_url>
+    <wp:comment_author_IP>24.18.206.178</wp:comment_author_IP>
+    <wp:comment_date>2007-03-10 06:48:51</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-10 14:48:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Let's chat sometime again...i like the snippet approach too, but I have another idea.  Would love your feedback.
+-Rob]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

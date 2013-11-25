@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Modular Compilers</title>
+  <link>http://devhawk.net/2006/08/15/modular-compilers/</link>
+  <pubDate>Tue, 15 Aug 2006 10:46:37 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://59b31575-05b0-49d5-bebe-ffcf2c30bca7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>During Lang.NET, I ended up sitting next to Hua Ming, who's been working on the <a href="http://www.cs.iastate.edu/~lumpe/CBs/">.NET Classbox project</a> I <a href="http://devhawk.net/2006/08/02/LangNET+Is+Helping+Game+Developers.aspx">wrote about previously</a>. .NET Classbox introduces a new syntax for "using" to C# - basically, you can use individual classes as well as whole namespaces, and you can extend the individual classes you use. Obviously, that meant having a custom compiler that was 99% vanilla C# + the extra classbox syntax. Rather than building a C# compiler from scratch, the Classbox project extended the <a href="http://www.mono-project.com/">Mono Project</a> C# compiler. Hua described the process as taking a "huge amount of time" and he described the compiler as "a monster". Now, I'm not trying to knock Mono here, I imagine our C# compiler is just as hard to work with. <a href="http://msdn.microsoft.com/net/sscli">SSCLI's</a> C# compiler directory is 5.5MB of source code alone spread across 126 .h and 68 .cpp files.</p><p>Is it just me, or does it seem crazy to have to muck about with such a large code base in order to add a relatively simple language feature? What I'd like to see is a more modular way of building compilers, so that integrating a small language feature like classbox would be a small amount of effort. </p><p>Of course, there is some work that's been done in this space. MS Research had a <a href="http://research.microsoft.com/research/pubs/view.aspx?tr_id=658">Research C# compiler</a> paper, but it's three years old and <a href="http://research.microsoft.com/%7Etoddpro/">one</a> of the two authors has moved on to a <a href="http://www.microsoft.com/windows/cse/default.mspx">cool product group</a> job. I also discovered <a href="http://www-suif.stanford.edu/suif/NCI/suif.html">SUIF</a> and the <a href="http://www-suif.stanford.edu/suif/NCI/">National Compiler Infrastructure Project</a>, but these don't look like they've been updated in a while.</p><p>I like the model that the Research C# compiler proposes. Basically, it looks like this:</p><ol><li>Specify the grammar in a modular way. In the paper, the grammar is specified in an Excel file, and you can use multiple files in a modular fashion. i.e. have one file for the core language and another for the extensions.</li><li>Late bind a grammar production to an action. Typically, in a lex/yacc style scenario, you embed the action code for a given production directly into the grammar, which makes it extremely hard to extend the existing syntax. In the paper, each production is linked with an instance of a type, so swapping out a new type would seem to be possible.</li><li>Generate an abstract syntax tree, that gets processed by multiple visitors. From the paper, the compiler has broken the "traditional" compiler steps - bind, typecheck, rewrite and generate binary (in this case IL) - into separate visitors. That makes adding extra steps or chaning existing steps fairly straightforward.</li></ol><p>The only think I don't like about this specific approach is their Excel file based parser generator. It's a huge step beyond the LEX/YACC approach as it is scanner-less (having separate scanner and parser steps kills any chance of modularity) but it still has to deal with ambiguous grammars. Personally, I've been looking at <a href="http://pdos.csail.mit.edu/~baford/packrat/">Parsing Expression Grammars</a> in part because they aren't ambiguous. For programming lanugages, support ambiguity in the grammar is a bug, not a feature.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">781</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-08-15 10:46:37</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-08-15 10:46:37</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">modular-compilers</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[59b31575-05b0-49d5-bebe-ffcf2c30bca7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Modular+Compilers]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/08/15/Modular+Compilers]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2398</wp:comment_id>
+    <wp:comment_author><![CDATA[Kenny Kerr]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/kennykerr/</wp:comment_author_url>
+    <wp:comment_author_IP>205.250.157.244</wp:comment_author_IP>
+    <wp:comment_date>2006-08-15 13:09:44</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-15 20:09:44</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You should take a look at the Phoenix project. 
+
+http://research.microsoft.com/phoenix/]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2399</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2006-08-15 13:51:16</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-15 20:51:16</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[As far as I can tell, Phoenix only includes back end tools - i.e. no grammar definition and no parser. Sounds like a good choice for my #3 above, but what about the other two capabilities?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2400</wp:comment_id>
+    <wp:comment_author><![CDATA[Kenny Kerr]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/kennykerr/</wp:comment_author_url>
+    <wp:comment_author_IP>205.250.157.244</wp:comment_author_IP>
+    <wp:comment_date>2006-08-15 16:01:59</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-15 23:01:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Yep, it’s a long way off but I hope the Phoenix project (or something like it) will one day provide more support for developing the grammar and front-end for compilers.
+
+I’ve typically resorted to rolling my own but that’s obviously not practical in many cases.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2401</wp:comment_id>
+    <wp:comment_author><![CDATA[Max]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>81.178.245.106</wp:comment_author_IP>
+    <wp:comment_date>2006-09-10 02:10:47</wp:comment_date>
+    <wp:comment_date_gmt>2006-09-10 09:10:47</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[The .NET language Boo actually implements its "using" keyword as a short piece of Boo code that does a transformation on the abstract syntax tree at compile time like so (pseudocode):
+
+using object:
+  code block
+
+Becomes:
+
+Lock(object)
+try:
+  code block
+finally:
+  Unlock(object)
+
+You can define these AST transformations in your own program to implement most any construct you like, and they are really easy to write! Neat, eh? 
+
+http://boo.codehaus.org/]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

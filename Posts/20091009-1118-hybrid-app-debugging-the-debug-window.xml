@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Hybrid App Debugging - The Debug Window</title>
+  <link>http://devhawk.net/2009/10/09/hybrid-app-debugging-the-debug-window/</link>
+  <pubDate>Fri, 09 Oct 2009 11:18:35 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://fe530c58-39d6-46d5-ad44-40acd2c1cfdc</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>In my <a href="http://devhawk.net/2009/10/09/Hybrid+App+Debugging+Ndash+Threading.aspx">last installment</a>, I added support for a separate debug window on a separate thread from the main window thread. That way, I can pause the execution of the main window while the debug window stays responsive to user input. Now, let’s add some functionality to the debug window. I’m going to start by showing the source code of the python file being executed.</p><pre class="brush: csharp">
+private void OnTraceback(TraceBackFrame frame, string result, object payload)
+{
+    FunctionCode code = (FunctionCode)frame.f_code;
+    if (_curCode == null || _curCode.co_filename != code.co_filename)
+    {
+        _source.Inlines.Clear();
+        foreach (var line in System.IO.File.ReadAllLines(code.co_filename))
+        {
+            _source.Inlines.Add(new Run(line + "rn"));
+        }
+    }
+</pre><p>The TraceBackFrame instance has a property f_code that represents the FunctionCode object being executed in this frame. We have to explicitly cast to FunctionCode type because currently we’re exposing all properties that hang off TraceBackFrame as object type. Since Python is a dynamic language, we’re going to use reflection against the instance itself anyway so it doesn’t really matter what the return type is. However, I’ve asked Dino to change the TraceBackFrame type to use explicit types in order to make it easier to use SetTrace from statically typed languages like C#. Look for that in RC2.</p><p>After we cast the code object so it can be used from C#, we check to see if the currently loaded file matches the file currently loaded into the UI. I’ve <a href="http://devhawk.net/2009/07/09/Syntax+Highlighting+TextBoxes+In+WPF+Ndash+A+Sad+Story.aspx">ranted recently</a> about the limitations of WPF’s TextBox but I didn’t want to get hung up syntax highlighting for this sample so I just went ahead and used the <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.richtextbox.aspx">RichTextBox</a>. In the DebugWindow Loaded event handler, I create _source as a WPF <a href="http://msdn.microsoft.com/en-us/library/system.windows.documents.paragraph.aspx">Paragraph</a> and then wrap it in a FlowDocument and use it as the RichTextBox’s Document. I set the FlowDocument to be extremely wide, so as to avoid word wrapping. Then when I need to load a new source file, I clear _source of it’s current contents and add a single line run for every line of code in the file. This convention becomes useful later when I go to highlight the current line of code. </p><p>Once I load the current file, I save the current frame, code, result and payload in instance fields and then switch on result to determine what to do next. Currently, I’m just highlighting the relevant line of code and setting a TextBlock control in the menu bar.</p><pre class="brush: csharp">
+private void TracebackCall()
+{
+    dbgStatus.Text = string.Format("Call {0}", _curCode.co_name);
+    HighlightLine((int)_curFrame.f_lineno, 
+        Brushes.LightGreen, Brushes.Black);
+}
+
+private void TracebackReturn()
+{
+    dbgStatus.Text = string.Format("Return {0}", _curCode.co_name);
+    HighlightLine(_curCode.co_firstlineno, 
+        Brushes.LightPink, Brushes.Black);
+}
+
+private void TracebackLine()
+{
+    dbgStatus.Text = string.Format("Line {0}", _curFrame.f_lineno);
+    HighlightLine((int)_curFrame.f_lineno, 
+        Brushes.Yellow, Brushes.Black);
+}
+</pre><p></p><p>In Visual Studio, we typically highlight the current line of code in yellow. However, that doesn’t work as great in a language like Python that delineates code blocks with whitespace. In ipydbg, I <a href="http://devhawk.net/2009/03/19/Writing+An+IronPython+Debugger+Colorful+Console.aspx">indicated function return</a> with three carets. But I didn’t want to be modifying the text in the RichTextBox here so instead I used different colors for the different traceback event types: light green for call, light pink for return and yellow for line. The frame object contains the current line number, which I use for call and line, while the code object has the first line of the current code object, which I use for return. HighlightLine highlights the line in question with the colors provided and also scrolls that line into view if it isn’t already visible.</p><p>So now when a traceback is handled, it shows the text for the file being executed and highlights the appropriate line, based on the type of traceback event that happened. Now all we need is to have some way be able to continue execution. In the code, you’ll see I’ve <a href="http://github.com/devhawk/LightweightDebuggerDemo/blob/deac85aaf14b37352ce4248917fd857c173d8997/LightweightDebuggerDemo/DebugWindow.xaml.cs#L21">defined a series</a> of RoutedUICommands for common debugger commands. I’ve got the StepIn command wired up in the <a href="http://github.com/devhawk/LightweightDebuggerDemo/blob/deac85aaf14b37352ce4248917fd857c173d8997/LightweightDebuggerDemo/DebugWindow.xaml">DebugWindow XAML</a> to a menu item and the “S” keystroke. All that remains is to define StepInExecuted.</p><pre class="brush: csharp">
+private void StepInExecuted(object sender, ExecutedRoutedEventArgs e)
+{
+    dbgStatus.Text = "Running";
+
+    foreach (var i in _source.Inlines)
+    {
+        i.Background = rtbSource.Background;
+        i.Foreground = rtbSource.Foreground;
+    }
+
+    _dbgContinue.Set();
+}
+</pre><p>This function does three basic things: changes the dbgStatus text, resets all the text in the RichTextBox back to the default coloring, and sets the _dbgContinue AutoResetEvent which signals the main window thread that’s been blocked in OnTracebackReceived to continue.</p><p>With this post, I’m about even with the code that’s <a href="http://github.com/devhawk/LightweightDebuggerDemo">up on GitHub</a>. That code has a few other capabilities – notably it will stop tracing if you close the debug window and it supports StepOut command which disables traceback for the current scope by returning null in OnTracebackReceived. But I haven’t implemented things like:</p><ul><li>Set Next Statement</li><li>Viewing and changing variables</li><li>Debugger REPL</li><li>Breakpoint Management</li></ul><p>Any suggestions on which of those would you like to see next? </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1294</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-10-09 11:18:35</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-10-09 11:18:35</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">hybrid-app-debugging-the-debug-window</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="debugger"><![CDATA[Debugger]]></category>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="lightweight-debugger"><![CDATA[Lightweight Debugger]]></category>
+  <category domain="post_tag" nicename="polyglot"><![CDATA[Polyglot]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[fe530c58-39d6-46d5-ad44-40acd2c1cfdc]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Hybrid+App+Debugging+Ndash+The+Debug+Window]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/10/09/Hybrid+App+Debugging+Ndash+The+Debug+Window]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2279</wp:comment_id>
+    <wp:comment_author><![CDATA[Luiz]]></wp:comment_author>
+    <wp:comment_author_email>luiz.tuschinski@quellon.com.br</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>200.247.182.184</wp:comment_author_IP>
+    <wp:comment_date>2009-10-15 07:24:57</wp:comment_date>
+    <wp:comment_date_gmt>2009-10-15 14:24:57</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Where can We download the full sourcecode of this debug routines?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2280</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>71.231.42.80</wp:comment_author_IP>
+    <wp:comment_date>2009-10-21 19:07:29</wp:comment_date>
+    <wp:comment_date_gmt>2009-10-22 02:07:29</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[http://github.com/devhawk/LightweightDebuggerDemo]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2281</wp:comment_id>
+    <wp:comment_author><![CDATA[A B]]></wp:comment_author>
+    <wp:comment_author_email>cold_fusion@fastmail.fm</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>192.91.60.11</wp:comment_author_IP>
+    <wp:comment_date>2009-10-29 04:01:11</wp:comment_date>
+    <wp:comment_date_gmt>2009-10-29 11:01:11</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Great job, I'm happy to see settrace finally implemented and put into use.
+This actually makes IronPython a viable solution to a project we're initiating over here.
+
+Though, someone expressed concern for how slow running a script may become when break point management is implemented in the debugger.
+
+I would like to hear your thoughts about that.
+
+Thanks.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2282</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>71.231.42.80</wp:comment_author_IP>
+    <wp:comment_date>2009-11-23 22:40:19</wp:comment_date>
+    <wp:comment_date_gmt>2009-11-24 06:40:19</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@AB, running the script under the debugger is slower, but I'm not sure how much slower exactly. I'd ask Dino on the IronPython mailing list - he implemented it so I'm sure he can speak to the amount of overhead there is.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2283</wp:comment_id>
+    <wp:comment_author><![CDATA[loge]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>95.32.232.7</wp:comment_author_IP>
+    <wp:comment_date>2009-11-25 12:41:51</wp:comment_date>
+    <wp:comment_date_gmt>2009-11-25 20:41:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thank You very much for this excellent "debug" series.
+It would be good to see Your description of viewing variables during debug...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:14:"1302965671.947";s:7:"message";s:37:"devhawk reported this comment as spam";s:5:"event";s:11:"report-spam";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_user_result</wp:meta_key>
+      <wp:meta_value><![CDATA[false]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_user</wp:meta_key>
+      <wp:meta_value><![CDATA[devhawk]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1302965854.4995";s:7:"message";s:41:"devhawk reported this comment as not spam";s:5:"event";s:10:"report-ham";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+  </wp:comment>
+</item>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 149</title>
+  <link>http://devhawk.net/2008/02/22/morning-coffee-149/</link>
+  <pubDate>Fri, 22 Feb 2008 18:34:30 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3696bb29-8d2c-468a-a313-801e35d19a17</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Big news yesterday was Microsoft announcing "<a href="http://www.microsoft.com/presspass/press/2008/feb08/02-21ExpandInteroperabilityPR.mspx">Strategic Changes in Technology and Business Practices to Expand Interoperability</a>". More details available at the new <a href="http://www.microsoft.com/interop/">Interoperability website</a> and <a href="http://www.microsoft.com/presspass/features/2008/feb08/02-21Muglia.mspx">this interview</a> with Bob Muglia.  </li><li>The videos from Lang.NET 2008 are <a href="http://langnetsymposium.com/talks.asp">now available</a>, including <a href="http://langnetsymposium.com/talks/3-03%20-%20Parsing%20Expression%20Grammars%20in%20FSharp%20-%20Harry%20Pierson.html">mine</a>.  </li><li>Mix08 is just under two weeks away, and the news is ramping up. Scott Guthrie provides a "<a href="http://weblogs.asp.net/scottgu/archive/2008/02/22/first-look-at-silverlight-2.aspx">first look</a>" at the Silverlight 2.0 beta (aka the one with .NET) that will release @ Mix. He also provides a set of eight tutorials where he demonstrates building a Digg client for Silverlight 2.0. I've been doing a little Silverlight 1.0 experimentation recently, but I think I'm going to scrap it in favor of waiting for 2.0.  </li><li>Shorter Nick Malik: IoC is cool, but isn't a silver bullet. Go read the <a href="http://blogs.msdn.com/nickmalik/archive/2008/02/15/what-is-the-tradeoff-with-inversion-of-control-ioc.aspx">whole</a> thing.  </li><li>Brad Wilson has a <a href="http://bradwilson.typepad.com/blog/2008/02/dell-xps-m1330.html">new laptop with a solid-state hard drive</a>. VS08 installs in under 10 minutes? I gotta get me one of those... </li><li>In addition to the XNA news, Microsoft also <a href="http://gamerscoreblog.com/team/archive/2008/02/20/GDC08Portfolio.aspx">announced</a><a href="http://www.xbox.com/games/gearsofwar2">Gears of War 2</a>, <a href="http://www.xbox.com/games/fable2/">Fable 2</a> and <a href="http://www.xbox.com/games/ninjagaiden2/">Ninja Gaiden II</a> and <a href="http://www.xbox.com/games/toohuman">Too Human</a> will all be available this year exclusively on Xbox 360. Of those, I'm most interested in Fable 2, though Too Human is looking interesting. But what about <a href="http://www.xbox.com/games/halowars/">Halo Wars</a>? When is that shipping?</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1107</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-02-22 10:34:30</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-02-22 18:34:30</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-149</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="hardware"><![CDATA[Hardware]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="post_tag" nicename="microsoft"><![CDATA[Microsoft]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="parsing-expression-grammar"><![CDATA[Parsing Expression Grammar]]></category>
+  <category domain="post_tag" nicename="silverlight"><![CDATA[Silverlight]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3696bb29-8d2c-468a-a313-801e35d19a17]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+149]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/02/22/Morning+Coffee+149]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The Always-On Internet</title>
+  <link>http://devhawk.net/2007/02/23/the-always-on-internet/</link>
+  <pubDate>Fri, 23 Feb 2007 08:56:30 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f1f4c251-0aff-468d-ac1e-c2068ec8cbee</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p></p><p><em>(Harry is on a secret mission in uncharted space this week, so instead of the daily Morning Coffee post, you get a series of autoposted essays. As this post is about Web 2.0, it's obviously from fairly old from his previous role @ Microsoft.</em><em>)</em></p><p>In my <a href="http://devhawk.net/2007/02/23/The+Information+Revolution+Is+Just+Getting+Started.aspx">previous post</a>, I wrote that I thought of Web 2.0 as the latest evolution of our post-industrial society. This latest evolutionary step was enabled by ubiquitous access to the Internet. We’ve come a long way on that front in just the past five years. Take for example, home networking. In 2000, less than 10% of active Internet users in the US had a broadband connection. Today, that number is <a href="http://www.websiteoptimization.com/bw/0604/">just under 70%</a>. At the same time, the consumer wireless router market has exploded. In 2000, there was no such thing as a wireless router for the consumer market. Today, you can buy a wireless router for under $100. In just under five years, consumer Internet access has evolved from being slow, intermittent and isolated to being fast, persistent and available anywhere in the home.  </p><p>In addition to home networking, we’ve seen dramatic rise in mobile computer usage. Today, <a href="http://www.computerworld.com/hardwaretopics/hardware/story/0,10801,104856,00.html">laptops are ahead desktops</a> in terms of dollar sales and are expected to move ahead of desktops in terms of unit sales by 2008. Wireless access isn’t available just in the home, but in offices and at tens of thousands of wireless hotspots worldwide. Beyond WiFi and laptops, there is the availability of third generation wireless phone networks and smart phones with built in Internet and media functionality.  </p><p>These technologies combine to provide a mobile and always-on connection to the rest of the world via the Internet that society is just beginning to leverage.  </p><p>One of the earliest examples of the effect that the always-on Internet can have society was the original <a href="http://en.wikipedia.org/wiki/Napster">Napster</a>. While Napster’s history and impact on the music industry is well documented, their peer-to-peer approach was only possible because of the availability of fast and persistent Internet access. Music files are fairly large, so Napster ran better with a fast connection. Furthermore, the availability of an always-on Internet connection enabled Napster’s peer-to-peer connections to be available even when the user was away from their computer or using it for other things. This allowed individuals to contribute to the overall Napster experience, even when they weren’t using their machine.  </p><p>The dubious legality of Napster’s business eventually led to its shutdown. But the idea of connecting users directly to other users is alive in well in legal online services such as <a href="http://www.skype.com">Skype</a> and <a href="http://www.foldershare.com/">FolderShare</a>.  </p><p>This persistent connection was the final puzzle piece that has caused a fundamental shift in computing. There’s been more processing power and storage on the edge of the network for quite a while, but it was inaccessible. We needed fast, persistent and ubiquitous network connections to make that power available. As that network bandwidth has become available, the balance of computing power has shifted from the center to the edge. Today,  </p><p>And in the Information Age, where the computing power goes, society will follow.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">894</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-02-23 08:56:30</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-02-23 08:56:30</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-always-on-internet</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f1f4c251-0aff-468d-ac1e-c2068ec8cbee]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+AlwaysOn+Internet]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/02/23/The+AlwaysOn+Internet]]></wp:meta_value>
+  </wp:postmeta>
+</item>

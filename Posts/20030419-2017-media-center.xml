@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Media Center</title>
+  <link>http://devhawk.net/2003/04/19/media-center/</link>
+  <pubDate>Sat, 19 Apr 2003 20:17:02 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6afbbdd5-69a6-4f18-bd48-e59fbb7ab904</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>As was reported on <a href="http://www.sellsbrothers.com/news/showTopic.aspx?ixTopic=477">Sells Bros.</a>, <a href="http://www.microsoft.com/windowsxp/mediacenter/">Windows XP Media Center Edition</a> (MCE) is available to MSDN Universal subscribers for download. I had an older PC lying around, so I thought I'd give it a whirl. So far, pretty cool. But, of course, it doesn't matter if you can't write code for it. :) Luckily, I found the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwmt/html/extensibility_guide.asp"> Media Center Extensibility Guide</a> as well as information about <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwmt/html/remote_control.asp"> programming the remote control</a>. According to the remote control article, any XP Pro machine should support the remote control. So even if you don't have MCE, you can still buy the remote control and use it (I got mine from <a href="http://www.newegg.com/app/viewproduct.asp?description=80-100-201"> NewEgg.com</a>). Only bummer - remote control messages are mapped to a variety of windows messages - WM_INPUT, WM_APPCOMMAND, WM_KEYDOWN, etc. No convenient CLR Windows Forms mapping, even though <a href="http://msdn.microsoft.com/netframework/productinfo/overview/default.asp#section3"> MCE</a><a href="http://msdn.microsoft.com/chats/vstudio/vstudio_121802.asp"> ships</a> with the .NET Framework.</p><p>Update - the remote control does, in fact, work with XP Pro. Tried it out w/ WMP to mute, change volume, move to next track, etc.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">74</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-04-19 20:17:02</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-04-19 20:17:02</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">media-center</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6afbbdd5-69a6-4f18-bd48-e59fbb7ab904]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Media+Center]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/04/20/Media+Center]]></wp:meta_value>
+  </wp:postmeta>
+</item>

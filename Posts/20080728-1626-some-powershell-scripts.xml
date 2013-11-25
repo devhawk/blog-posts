@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Some Powershell Scripts</title>
+  <link>http://devhawk.net/2008/07/28/some-powershell-scripts/</link>
+  <pubDate>Mon, 28 Jul 2008 16:26:24 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c5d2c168-4ed0-4e2e-b78f-a4ca4ba80695</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>By popular demand, I uploaded a bunch of my scripts to <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell">my SkyDrive</a>. Included are:</p><ul><li><a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/Set%20Powershell%20Home.zip">Set Powershell Home</a> - this is actually a zip file that contains the profile redirect script. Unzip this in your Documents folder and change the path in Microsoft.PowerShell_profile to where ever you want your profile and home directories to live.</li><li><a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/%7C_profile.ps1">_profile</a> - my "real" profile script. Note, the su function requires the <a href="http://technet.microsoft.com/en-us/magazine/cc162321.aspx">Script Elevation PowerToys</a> in order to work. Also, all the various aliases are hard coded to their location on my machine. You'll probably want to change them.</li><li><a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/prompt.ps1">prompt</a> - my prompt script</li><li><a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/prepend-path.ps1">prepend-path</a> - a script to add a directory to start of my path</li><li><a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/append-path.ps1">append-path</a> - like above, but adds the directory to the end of the path</li><li><a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/append-path-perm.ps1">append-path-perm</a> - like append-path, but permanently updates the path in the registry </li></ul><p>Enjoy.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1159</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-07-28 16:26:24</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-07-28 16:26:24</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">some-powershell-scripts</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c5d2c168-4ed0-4e2e-b78f-a4ca4ba80695]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Some+Powershell+Scripts]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/07/28/Some+Powershell+Scripts]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2092</wp:comment_id>
+    <wp:comment_author><![CDATA[Richard]]></wp:comment_author>
+    <wp:comment_author_email>richard@rjcox.co.uk</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>217.146.112.218</wp:comment_author_IP>
+    <wp:comment_date>2008-07-30 10:09:10</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-30 17:09:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[From profile.ps1:
+> cmd.exe /c color 4f
+You can control the colours that PSH's console host uses by assigning to the members of $Host.PrivateData.
+E.g. $Host.PrivateData.WarningForegroundColor = "green"
+(Each is of type [System]::ConsoleColor)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2093</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2008-07-30 11:32:21</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-30 18:32:21</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@Richard, Thanks. However, that doesn't appear to let me set the background for the command shell window as a whole though. Only, the Warning, Error, Debug, Verbose and Progress fore & background colors. I can see the value of that, but my goal with that line of script is to set the entire background to red.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2094</wp:comment_id>
+    <wp:comment_author><![CDATA[Tommy Williams]]></wp:comment_author>
+    <wp:comment_author_email>twwjr@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://twwilliams.com/blog/</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2008-07-31 09:42:06</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-31 16:42:06</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[If you want to change the settings for the console, use $host.ui.rawui.foregroundcolor and .background color. I have functions like this:
+
+function green { $host.ui.rawui.foregroundcolor = "Green"; $host.ui.rawui.backgroundcolor = "Black" }
+
+function yellow { $host.ui.rawui.foregroundcolor = "Yellow"; $host.ui.rawui.backgroundcolor = "Black" }
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2095</wp:comment_id>
+    <wp:comment_author><![CDATA[Richard]]></wp:comment_author>
+    <wp:comment_author_email>richard@rjcox.co.uk</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>217.146.112.218</wp:comment_author_IP>
+    <wp:comment_date>2008-08-01 06:41:04</wp:comment_date>
+    <wp:comment_date_gmt>2008-08-01 13:41:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[> However, that doesn't appear to let me set the background for the command shell window as a whole though
+
+Follow it with a Clear-Host
+
+My current^h finally implemented elevated PSH (use scope modifiers so don't just create a local variable in the condition block containing this):
+$host.UI.RawUI.Backgroundcolor="DarkGray"
+$host.UI.RawUI.Foregroundcolor="Red"
+clear-host
+write-host "`n** Elevated Session **`n" -foreground DarkRed -background Yellow
+$global:ConsolePromptColour = "Red" # Override prompt function's default
+$global:ConfirmPreference = "Medium"
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2096</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.108</wp:comment_author_IP>
+    <wp:comment_date>2008-08-01 13:10:52</wp:comment_date>
+    <wp:comment_date_gmt>2008-08-01 20:10:52</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks Tommy and Richard! I updated my _profile script to use instead of $host.UI.RawUI.Backgroundcolor cmd.exe /c color. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

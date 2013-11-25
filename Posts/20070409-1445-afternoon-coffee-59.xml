@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Afternoon Coffee 59</title>
+  <link>http://devhawk.net/2007/04/09/afternoon-coffee-59/</link>
+  <pubDate>Mon, 09 Apr 2007 14:45:20 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a67e7b71-f6c7-4616-b80d-54793fdc997a</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Friday's Morning Coffee didn't happen because I fraked up the DNS settings when I moved devhawk.net to a new registrar. Today's morning coffee was drastically delayed on account of car troubles. Tuesday, I have an 8am meeting so tomorrow's not looking good either.</p><ul><li>The big news for Xbox 360 is details on the <a href="http://www.xbox.com/en-US/community/news/2007/0408-im.htm">Spring Update</a>. Big news is WLMessenger integration + a <a href="http://www.flickr.com/photos/gamerscore/451798354/">QWERTY thumb pad</a> that snaps right into the controller. (via <a href="http://gamerscoreblog.com/team/archive/2007/04/08/543788.aspx">Gamerscoreblog</a> and <a href="http://www.majornelson.com/archive/2007/04/08/details-of-the-may-07-dash-update.aspx">Major Nelson</a>) </li><li>Speaking of Xbox, I completed the <a href="http://xboxrewards.msgamestudios.com/challengesandrewards/ChallengeDetail.aspx?id=4">Old Spice Experience Challenge</a> today on my lunch break (couldn't go to the office due to the car troubles). My reward is an upgrade to level 2, a gamerpic I'll never use and a free copy of <a href="http://www.xbox.com/games/contraxboxlivearcade/">Contra</a>. (Estimated total value: $5) </li><li>Scott Guthrie continues his series on new language features in C#3/VB9. This time it's <a href="http://weblogs.asp.net/scottgu/archive/2007/04/08/new-orcas-language-feature-lambda-expressions.aspx">lambda expressions</a>. This is the "killer" feature in the new language version IMHO, since you can use lambda expressions either as code or data. Furthermore, it's up to the class/method handling the lambda expression to decide if it should be treated as code or data. That decision is made and design time, but the upside is that as a developer, I write my queries exactly the same way regardless if they are to be executed directly (aka code) or analyzed (aka data). Scott also metions a few new LINQ to * projects: <a href="http://linqinaction.net/blogs/main/archive/2006/09/07/Linq_to_Amazon_source_code.aspx">LINQ to Amazon</a>, <a href="http://blogs.magiconsoftware.com/blogs/bdiaz/archive/2007/04/03/implementing-linq-for-nhibernate-part-3-aggregate-and-element-operators.aspx">LINQ to NHibernate</a> and <a href="http://community.bartdesmet.net/blogs/bart/archive/2007/04/07/the-iqueryable-tales-linq-to-ldap-part-3-why-do-we-need-entities.aspx">LINQ to LDAP</a>. </li><li>Speaking of LINQ to *, here's <a href="http://blogs.msdn.com/lukeh/archive/2007/04/03/a-ray-tracer-in-c-3-0.aspx">LINQ to 3D Objects</a> in a C# ray tracer. I think it's safe to say that LINQ to *whatever* is the new hotness. (via <a href="http://www.dotnetkicks.com/csharp/Ray_Tracing_in_C_3_0">DotNetKicks</a>) </li><li>The <a href="http://blogs.msdn.com/dsyme/archive/2007/04/06/f-1-9-1-released.aspx">new version of F#</a> is out. Looks like the big new feature is Active Patterns which is described in this <a href="http://blogs.msdn.com/dsyme/archive/2007/04/07/draft-paper-on-f-active-patterns.aspx">draft paper</a>. If I only had more time to investigate this. (via <a href="http://blogs.msdn.com/dsyme">Don Syme</a>) </li><li>For the third time in the past six months, my laptop power supply has died. I've never had a problem like this before, much less three times. It's not even the same laptop as I recently moved over to a Tecra M4 Tablet. I just don't get it.  </li><li>P&amp;P has shipped the 3.0 release of <a href="http://codeplex.com/entlib">Enterprise Library</a>. Tom Hollander <a href="http://blogs.msdn.com/tomholl/archive/2007/04/05/just-released-enterprise-library-3-0-april-2007.aspx">has the details</a>. Personally, I am most interested in the new <a href="http://blogs.msdn.com/tomholl/archive/2007/02/23/announcing-the-policy-injection-application-block.aspx">Policy Injection Block</a>.  </li><li>Having worked with self-signed certificates and understanding what a PITA they are, it's nice to see that IIS 7 has <a href="http://weblogs.asp.net/scottgu/archive/2007/04/06/tip-trick-enabling-ssl-on-iis7-using-self-signed-certificates.aspx">explicit support for them</a>.  </li><li>I saw a reference to "<a href="http://www.amazon.com/Halo-Effect-Business-Delusions-Managers/dp/0743291255">The Halo Effect</a>" on one of the <a href="http://angrybear.blogspot.com/2007/04/halo-effect-and-efficiency-in-business.html">political blogs I read</a>. Needless to say, as an Xbox gamer, my first reaction was that this had something related to Master Chief. It doesn't. </li><li>Joe McKendrick compares <a href="http://blogs.zdnet.com/service-oriented/?p=850">SOA governance to national governance</a>. Given our polarized political climate, this analogy may hurt more than it helps. Also, the next enterprise architectural board that has equal "branch" footing with IT and executive management will be the first.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">930</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-09 14:45:20</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-09 14:45:20</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">afternoon-coffee-59</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="linq"><![CDATA[LINQ]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a67e7b71-f6c7-4616-b80d-54793fdc997a]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Afternoon+Coffee+59]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/09/Afternoon+Coffee+59]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

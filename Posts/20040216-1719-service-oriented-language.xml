@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Service Oriented Language</title>
+  <link>http://devhawk.net/2004/02/16/service-oriented-language/</link>
+  <pubDate>Mon, 16 Feb 2004 17:19:44 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://feb67165-4f08-4342-97f9-8ce830fa1575</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I like Jeff's <a href="http://schneider.blogspot.com/archives/2004_01_11_schneider_archive.html#107409153082470089">suggestions</a> for a Service Oriented Lanugage as well as RebelGeekz' <a href="http://geekswithblogs.net/rebelgeekz/archive/2004/02/02/1686.aspx">idea</a> of how to include XML Infoset information in a language without resorting to angle brackets. I wonder what a community developed lanugauge would look like? I've experimented with <a href="http://dotnet.jku.at/Projects/Rotor">Coco/R</a> which really reduces the effort it takes to build a parser. Of course, the language design and code generation are the hard parts!</p><p><a href="http://cocotools.sscli.net/">Source for Coco/R</a> is available on the <a href="http://www.sscli.net/servlets/ProjectList">Rotor Community Projects page</a>. Other cool projects include a port of Rotor to <a href="http://wince-port.sscli.net/">WinCE</a>, two different AOP projects - <a href="http://aop-in-csharp.sscli.net/">one for C#</a> and the other <a href="http://aspect-dot-net.sscli.net/">language neutral</a> and a set of <a href="http://aspect-dot-net.sscli.net/">improved collections</a>. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">314</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-02-16 17:19:44</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-02-16 17:19:44</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">service-oriented-language</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="post_tag" nicename="sop"><![CDATA[SOP]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[feb67165-4f08-4342-97f9-8ce830fa1575]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Service+Oriented+Language]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/02/17/Service+Oriented+Language]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2996</wp:comment_id>
+    <wp:comment_author><![CDATA[paul petro]]></wp:comment_author>
+    <wp:comment_author_email>paul.petro@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-12-05 16:51:33</wp:comment_date>
+    <wp:comment_date_gmt>2004-12-06 00:51:33</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I've been looking for a SQL92 .atg file for coco/r. Do you have any idea where I can get one?
+
+Thanks!
+Paul]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

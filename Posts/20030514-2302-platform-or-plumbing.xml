@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Platform or Plumbing</title>
+  <link>http://devhawk.net/2003/05/14/platform-or-plumbing/</link>
+  <pubDate>Wed, 14 May 2003 23:02:56 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7e40eff9-21c8-4990-bfdc-54d0ea3638c1</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<blockquote><p>I definately agree with Scott to a point. In the end, you can't have pure .NET, because even the APIs themselves are going to call COM objects. So, if .NET can do it, why not my app? Well, for one, I want my apps to work under Mono and any other runtimes that come out. Not a big deal today, but planning ahead is a good thing.<br /> [<a href="http://dotnetweblogs.com/jezell/posts/7018.aspx">Jesse Ezell's Weblog</a>]</p></blockquote><p>To me, the biggest reason to write 100% managed code is the obvious one - <a href="http://www.microsoft.com/resources/casestudies/CaseStudy.asp?CaseStudyID=14042"> less work</a>. CLR and BCL do much more heavy lifting than COM or Win32. What better reason do you need?</p><p>.NET APIs not only call to COM objects but also into the Win32 API as well. When you call System.IO.File.Open(), eventually that ends up as a call to CreateFile(). In Rotor, File.Open results in the construction of a FileStream object. You can see the call to CreateFile in the internal FileStream constructor (sscliclrsrcbclsystemiofilestream.cs). <a href="http://www.aisto.com/roeder/dotnet/">Reflector</a> reveals a similar implementation for the .NET Framework. But as we start to see other <a href="http://msdn.microsoft.com/net/sscli">CLR</a><a href="http://www.go-mono.com">implementations</a> on <a href="http://www.linux.org/">other</a><a href="http://www.freebsd.org/"> platforms</a>, I start to wonder how many of the underlying platform unmanaged API's will be consistent across platforms? Some will obviously be consistent - file access, memory management, network sockets to name a few. Others such as distributed transaction management or 3D rendering will be missing or implemented in a inconsistent manner. For example: it would be very difficult to build a generic 3D library that used DirectX or OpenGL under the hood. You'd probably wind up with a library that targets the lowest common denominator, leaving vast portions of both APIs unexposed. Developers using your 3D library would be able to target both environments, but at a stiff price - lack of access to the cutting edge features of either environment. </p><p>Here's a question I pose to blogspace: Is the .NET Framework a platform or just better plumbing for the underlying platform?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">87</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-05-14 23:02:56</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-05-14 23:02:56</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">platform-or-plumbing</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7e40eff9-21c8-4990-bfdc-54d0ea3638c1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Platform+Or+Plumbing]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/05/15/Platform+Or+Plumbing]]></wp:meta_value>
+  </wp:postmeta>
+</item>

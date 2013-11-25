@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Hard on Hardware</title>
+  <link>http://devhawk.net/2006/09/20/hard-on-hardware/</link>
+  <pubDate>Wed, 20 Sep 2006 09:17:45 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://8919ab55-ac81-45b7-9019-298e868439b8</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I guess being "Harry's Computer" is a rough gig. Right before I went on vacation a few weeks ago, the power connector on my laptop started acting up. I'd plug it in, but it wouldn't charge. Typically, replugging it would solve the issue. When I got back from vacation, the help desk tech took one look at it and realized I needed a new power connector. OK, how long will that take? Supposedly a day or two, but in the end it took a week and a half. It arrived Monday afternoon, right after I left for a two day <a href="http://www.soasystems.com/events151.asp">SOA workshop</a> (more on that later). To make matters worse, the power connector has now completely broken off, so I'm having to lug my docking station around if I want to charge my laptop.</p><p>Then, to make matters worse, my power cable had stopped working. Luckily, my buddy <a href="http://halfmybrain.spaces.live.com">Dale</a> is up here in Vancouver with me at this workshop, so I've been able to borrow his. But seriously, a broken power cable? How does that happen? I mean, it's not cut or anything. But if you share the transformer box, you can hear something broken inside rattling. That's not good.</p><p>So I have a busted power cable that I can't connect to my laptop anyway because of a broken power connector. Frankly, I'm a little worried about what will go wrong with this machine next. But since it only seems to happen when I'm on the road, and I'm not scheduled to go on the road again anytime soon, I guess I'll survive.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">798</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-09-20 09:17:45</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-09-20 09:17:45</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">hard-on-hardware</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="hardware"><![CDATA[Hardware]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/09/20/Hard+On+Hardware]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Hard+On+Hardware]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[8919ab55-ac81-45b7-9019-298e868439b8]]></wp:meta_value>
+  </wp:postmeta>
+</item>

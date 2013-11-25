@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Blogger from the Team-Formerly-Known-As-NEAT</title>
+  <link>http://devhawk.net/2004/06/10/new-blogger-from-the-team-formerly-known-as-neat/</link>
+  <pubDate>Thu, 10 Jun 2004 20:32:12 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f389142b-8686-41d1-a100-67b364557d4b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p></p><p>It's been a while - and a team name change - but another one of my teammates has made the leap into the blogosphere. <a href="http://blogs.msdn.com/jevdemon">John Evdemon</a> is a member of our vertical industry architecture team focusing on near and long term web service solutions as well as regulatory compliance solutions. Furthermore, he's a co-chair of the <a href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wsbpel">OASIS BPEL TC</a>. He <a href="http://blogs.msdn.com/jevdemon/archive/2004/06/09/152347.aspx">blogged a presentation</a> on BPEL he did at SD West. <a href="http://blogs.msdn.com/jevdemon/Rss.aspx">Subscribed</a> and added to my list of <a href="http://devhawk.net/neat.opml.aspx">Architecture Strategy and Evangelist Blogs</a></p><p>Actually, this isn't John's first foray into blogging - he's got a personal blog  <a href="http://www.xmlhacker.org/blogs/">&lt;Well-Formed/&gt;</a>. There, he describes himself as "an XML hacker and standards geek for a large software vendor." Always nice to have a standards geek around...Plus, he's a big Hitchcock (his new blog is named "Vertigo"). Do I feel a Hitch movie marathon coming on?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">380</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-06-10 20:32:12</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-06-10 20:32:12</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-blogger-from-the-team-formerly-known-as-neat</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f389142b-8686-41d1-a100-67b364557d4b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Blogger+From+The+TeamFormerlyKnownAsNEAT]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/06/11/New+Blogger+From+The+TeamFormerlyKnownAsNEAT]]></wp:meta_value>
+  </wp:postmeta>
+</item>

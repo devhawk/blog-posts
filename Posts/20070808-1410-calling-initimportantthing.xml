@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Calling InitImportantThing</title>
+  <link>http://devhawk.net/2007/08/08/calling-initimportantthing/</link>
+  <pubDate>Wed, 08 Aug 2007 14:10:03 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://388d28fc-03b8-4cb8-a28d-53915fde9250</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Jon Flanders <a href="http://www.masteringbiztalk.com/blogs/jon/PermaLink,guid,fa3c471d-a0f5-4790-a1b7-1fc374df651b.aspx" target="_blank">throws a little vitriol</a> at the WCF team fore their design of the abstract ServiceHostBase class, calling the current design "stupid". Normally, I'm not one to take up for the WCF team. I've spent many an hour banging my head against WCF for different reasons but exactly how Jon describes. However, in this case, the WCF team looks caught between a rock and a hard place, where the rock is correct behavior and the hard place is the way CLR object construction works.</p><p>The crux of Jon's beef is that if you build your own ServiceHost by inheriting from <a href="http://msdn2.microsoft.com/en-us/library/system.servicemodel.servicehostbase.aspx" target="_blank">SeviceHostBase</a>, it's not enough just to override the abstract <a href="http://msdn2.microsoft.com/en-us/library/aa717533.aspx" target="_blank">CreateDescription</a> method. You also have to call the "magic" <a href="http://msdn2.microsoft.com/en-us/library/system.servicemodel.servicehostbase.initializedescription.aspx" target="_blank">InitializeDescription</a> method in your derived class constructor. If you don't, CreateDescription never gets called. CreateDescription returns a <a href="http://msdn2.microsoft.com/en-us/library/system.servicemodel.description.servicedescription.aspx" target="_blank">ServiceDescription</a> instance which is to route messages from the channel layer to the and service layer. Jon writes that "Creating a valid ServiceDescription and returning the list of implemented contracts is essential for making your ServiceHostBase-derived class work." I.e. it's really important. Yet, unless you remember to call InitializeDescription, this "essential" ServiceDescription doesn't get configured correctly. Yep, I see how that might sound stupid.</p><p>But if this design is stupid, what would be a better design? After thinking about this specific problem a while, I'm don't think there is a better design out there. </p><p>The question is, when is<em></em>the right time to set up the service description? Jon called ServiceDescription "essential" to the operation of ServiceHostBase. That implies it should be configured during the construction of a new service host instance. It wouldn't do to have ServiceDescription unconfigured for some period of time between construction and use. What if the ServiceDescription is invalid or the call to CreateDescription throws an exception? Then you'd be in a position where you could create what looks like a valid service host, but it would throw an exception when you tried to use it. You can see why the WCF team would want to avoid that scenario.</p><p>So if you want the service host to have a valid ServiceDescription by the end of construction, what choices do you have? Given that the ServiceDescription depends on derived class data, the <em>only</em> choice is to use a magic method! Here's an example to demonstrate what I mean:</p><pre class="brush: csharp">
+public abstract class Base 
+{ 
+    public Base() 
+    { 
+    } 
+
+    private string _importantThing; 
+    protected abstract string CreateImportantThing(); 
+
+    protected void InitImportantThing() 
+    { 
+        _importantThing = CreateImportantThing(); 
+        if (_importantThing == null) 
+            throw new Exception(); 
+    } 
+
+    public string ImportantThing  
+    {  
+        get { return _importantThing; }  
+    } 
+} 
+
+public class Derived : Base 
+{ 
+    private object _data; 
+
+    public Derived(DateTime dt) 
+    { 
+        _data = dt; 
+         
+    } 
+
+    protected override string CreateImportantThing() 
+    { 
+        return _data.ToString(); 
+    } 
+}
+</pre><p>I've tried to distill out the relevant parts of ServiceHostBase. In the example, Base stores some important thing that gets created by the derived class based on data that's passed into the derived class's constructor. Remember, we want the class to be fully configured by the end of the constructor. If CreateImportantThing throws an exception or returns null, we want to know about it right away when the object is created.</p><p>In the code above, the magic method InitImportantThing never gets called and thus the _importantThing field never gets setup. This roughly corresponds to Jon's scenario where he didn't know to call InitalizeDescription. And like WCF, we can make this sample work by inserting a call to InitImportantThing at the end of Derived's constructor.</p><p>You might be tempted to put the call to InitImportantThing in Base's constructor. But that won't work because Base's constructor runs before Derived's constructor does. Thus, Derived's _data field will still be null and the call to CreateImportantThing throws a null reference exception. </p><p>The final option would be to place the a call to InitImportantThing in ImportantThing's property get method, if _importantThing is null. This defers construction of _importantThing until the first time it's used. By this time, the derived class constructor will have run and so the derived class data will be available for use. This eliminates the magic method call, but it means we don't know if the instance is valid until we go to use it - i.e. the scenario we were expressly trying to avoid.</p><p>So basically, the looks like the WCF team had two choices:</p><ol><li>Err on the side of caution and require calling InitializeDescription in the ServiceHostBase derived class's constructor.  </li><li>Err on the side of easy extensibility and call InitializeDescription the first time the ServiceDescription.</li></ol><p>Put that way, what the WCF team ended up doing doesn't seem so stupid. This is especially true when you consider that the vast majority of people aren't creating their own service hosts anyway. It would have been possible to do both: explicitly call InitializeDescription in ServiceHost's constructor but also have an implicit call in ServiceDescription property get if the field was null. But I'm not on the product team, so I don't know what other tradeoffs that implies. Checking for a null reference seems like no big deal, but I don't know how often this property gets called.</p><p>One other point: even though I don't think this design is stupid, I agree 100% with Jon that the exception is misleading.The way it's written, the immediate assumption is that your implementation of CreateDescription is bad, not that you forgot to call InitializeDescription. It turns out that ServiceHostBase is already tracking wether InitializeDescription has been called via the <a href="code://System.ServiceModel:3.0.0.0:b77a5c561934e089/System.ServiceModel.ServiceHostBase/initializeDescriptionHasFinished:Boolean" target="_blank">initializeDescriptionHasFinished</a> field. So why can't it throw an exception like "Dude, you forgot to call InitializeDescription" when that field is false? It wouldn't make the design any cleaner, but it would have saved Jon hours of digging thru the implementation of ServiceHost and ServiceHostBase in Reflector.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1023</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-08 14:10:03</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-08 14:10:03</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">calling-initimportantthing</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[388d28fc-03b8-4cb8-a28d-53915fde9250]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Calling+InitImportantThing]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/08/Calling+InitImportantThing]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2562</wp:comment_id>
+    <wp:comment_author><![CDATA[Thomas Eyde]]></wp:comment_author>
+    <wp:comment_author_email>thomas.eyde@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>195.0.195.197</wp:comment_author_IP>
+    <wp:comment_date>2007-08-09 10:23:55</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-09 17:23:55</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Here's a way to initialize last in the constructor:
+
+namespace SnippetsFromBlogs.InitializeInConstructor
+{
+    [TestFixture]
+    public class ClassTests
+    {
+        [Test]
+        public void InitializeLastInContructor()
+        {
+            Base b = new Base(new Implementation(DateTime.Today));
+            Assert.IsNotNull(b.ImportantThing);
+        }
+
+        [Test, ExpectedException(typeof (Exception))]
+        public void FailFastOnMissingConstructorInitializing()
+        {
+            new Base(new FlawedImplementation());
+        }
+    }
+
+    internal class Base
+    {
+        private string _importantThing;
+
+        public Base(IInitializer implementation)
+        {
+            // Do initial setup
+            InitImportantThing(implementation);
+        }
+
+        private void InitImportantThing(IInitializer implementation)
+        {
+            _importantThing = implementation.CreateImportantThing();
+            if (_importantThing == null)
+                throw new Exception();
+        }
+
+        public string ImportantThing
+        {
+            get { return _importantThing; }
+        }
+    }
+
+    internal class Implementation : IInitializer
+    {
+        private readonly object _data;
+
+        public Implementation(DateTime dt)
+        {
+            _data = dt;
+        }
+
+        public string CreateImportantThing()
+        {
+            return _data.ToString();
+        }
+    }
+
+    internal class FlawedImplementation : IInitializer
+    {
+        public string CreateImportantThing()
+        {
+            return null;
+        }
+    }
+
+    internal interface IInitializer
+    {
+        string CreateImportantThing();
+    }
+}]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2563</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-08-09 13:56:45</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-09 20:56:45</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thomas, that's an interesting implementation. However, this works because your implementation class doesn't inherit from the base class. Removing that restriction makes solving the problem fairly straightforward. 
+
+Plus, the way you built this makes constructing a your constructor fairly cumbersome. I'm sure the WCF team wouldn't want to force all developers to construct two objects every time they need to create a service host.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

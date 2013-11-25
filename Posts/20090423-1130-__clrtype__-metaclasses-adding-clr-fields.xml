@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>__clrtype__ Metaclasses: Adding CLR Fields</title>
+  <link>http://devhawk.net/2009/04/23/__clrtype__-metaclasses-adding-clr-fields/</link>
+  <pubDate>Thu, 23 Apr 2009 11:30:07 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://81b7f1ae-7663-4f84-88b7-4dc9de78102f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Now that we have the <a href="http://devhawk.net/2009/04/22/clrtype+Metaclasses+Customizing+The+Type+Name.aspx">basic __clrtype__ metaclass infrastructure</a> in place, let’s enhance it to add support for CLR fields. To do this, we’re going to need to add two things to our custom CLR type. First, we need to define the fields themselves. Second, we need to make sure that Python code will read and writes to the statically typed fields for the specified names rather than the storing them in the object dictionary as usual. Here’s the updated version of ClrTypeMetaclass (or you can get it <a href="http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_">from my skydrive</a>)</p><pre class="brush: python">
+class ClrTypeMetaclass(type):
+  def __clrtype__(cls):
+    baseType = super(ClrTypeMetaclass, cls).__clrtype__()
+    typename = cls._clrnamespace + "." + cls.__name__ 
+                 if hasattr(cls, "_clrnamespace") 
+                 else cls.__name__
+                 
+    typegen = Snippets.Shared.DefineType(typename, baseType, True, False)
+    typebld = typegen.TypeBuilder
+
+    for ctor in baseType.GetConstructors(): 
+      ctorparams = ctor.GetParameters()
+      ctorbld = typebld.DefineConstructor(
+                  ctor.Attributes,
+                  ctor.CallingConvention,
+                  tuple([p.ParameterType for p in ctorparams]))
+      ilgen = ctorbld.GetILGenerator()
+      ilgen.Emit(OpCodes.Ldarg, 0)
+      for index in range(len(ctorparams)):
+        ilgen.Emit(OpCodes.Ldarg, index + 1)
+      ilgen.Emit(OpCodes.Call, ctor)
+      ilgen.Emit(OpCodes.Ret)
+
+    if hasattr(cls, "_clrfields"):
+      for fldname in cls._clrfields: 
+        typebld.DefineField(
+          fldname, 
+          clr.GetClrType(cls._clrfields[fldname]), 
+          FieldAttributes.Public)
+          
+    new_type = typebld.CreateType()
+    
+    if hasattr(cls, "_clrfields"):
+      for fldname in cls._clrfields: 
+        fldinfo = new_type.GetField(fldname)
+        setattr(cls, fldname, ReflectedField(fldinfo))
+        
+    return new_type
+</pre><p>All the base type, type name, type builder and constructor code in the first half of the __clrtype__ method is the same as last time, so we’ll focus on the second half. After emitting the constructor(s), next we iterate thru a dictionary named _clrfields (if it exists in the class) that maps field names to types. For each of these dictionary entries, we emit a public field on the CLR type with the specified name and type. </p><p>The first time I tried this, I simply added the custom field generation code I just described and left it at that. Didn’t work. Python doesn’t look to store information in fields defined by the static type metadata unless explicitly instructed to. That’s why I need to iterate over the declared list of fields a second time after the type has been created. The first time creates the CLR fields, the second time inserts a <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/49291#384587">ReflectedField</a> instance into the class dictionary. ReflectedField is a <a href="http://docs.python.org/reference/datamodel.html#implementing-descriptors">Python descriptor</a> that reads and writes the field value by calling <a href="http://msdn.microsoft.com/library/system.reflection.fieldinfo.getvalue.aspx">GetValue</a> and <a href="http://msdn.microsoft.com/library/system.reflection.fieldinfo.setvalue.aspx">SetValue</a> on the contained <a href="http://msdn.microsoft.com/library/system.reflection.fieldinfo.aspx">FieldInfo object</a>. Python uses the same name resolution for fields as it does for method (In Python, methods are fields that store callable objects) so when IronPython discovers the ReflectedField descriptor in the class instance, it uses that to get or store the value rather than sticking it in the local dictionary.</p><p>Now here’s the new version of the Product class, this time with CLR fields as well as a custom type name:</p><pre class="brush: python">
+class Product(object):
+  __metaclass__ = ClrTypeMetaclass
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"   
+  _clrfields = {
+    "name":str,
+    "cost":float,
+    "quantity":int,
+    }
+    
+  def __init__(self, name, cost, quantity):
+    self.name = name
+    self.cost = cost
+    self.quantity = quantity
+    
+  def calc_total(self):
+    return self.cost * self.quantity
+</pre><p>As you can see, the only thing that’s changed is the addition of the _clrfields dictionary. But now, we can use reflection to get and set the Product fields, like so:</p><pre class="brush: text">
+&gt;&gt;&gt; p = Product("Crunchy Frog", 5.99, 10)
+&gt;&gt;&gt; t = p.GetType()
+&gt;&gt;&gt; p.name
+'Crunchy Frog'
+&gt;&gt;&gt; namefi = t.GetField("name")
+&gt;&gt;&gt; namefi.GetValue(p)
+'Crunchy Frog'
+&gt;&gt;&gt; namefi.SetValue(p, "Spring Surprise")
+&gt;&gt;&gt; p.name
+'Spring Surprise'
+</pre><p>This is great progress, but not enough to get us to our first “real” scenario: data binding in Silverlight. Silverlight only supports data binding against public properties, so I’ll need to wrap all these CLR fields in CLR properties in my next post.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1253</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-04-23 11:30:07</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-04-23 11:30:07</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">__clrtype__-metaclasses-adding-clr-fields</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="__clrtype__"><![CDATA[__clrtype__]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[81b7f1ae-7663-4f84-88b7-4dc9de78102f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[clrtype+Metaclasses+Adding+CLR+Fields]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/04/23/clrtype+Metaclasses+Adding+CLR+Fields]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2199</wp:comment_id>
+    <wp:comment_author><![CDATA[Mark]]></wp:comment_author>
+    <wp:comment_author_email>mwatts42@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>65.199.215.3</wp:comment_author_IP>
+    <wp:comment_date>2009-04-23 12:36:10</wp:comment_date>
+    <wp:comment_date_gmt>2009-04-23 19:36:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Does the DLR cache the type or will each new instance of the "Product" class that is created, also result in the overhead of the ClrTypeMetaclass being executed?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2200</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.80</wp:comment_author_IP>
+    <wp:comment_date>2009-04-24 13:55:42</wp:comment_date>
+    <wp:comment_date_gmt>2009-04-24 20:55:42</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[The CLR type only gets created once, when the associated Python class is created. We don't have the overhead of type creation for every Python class instance that gets created.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

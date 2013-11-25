@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>PowerShell find-to-set-alias</title>
+  <link>http://devhawk.net/2008/12/17/powershell-find-to-set-alias/</link>
+  <pubDate>Wed, 17 Dec 2008 15:17:09 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://ae593a6d-e9b4-40ad-9a2e-fe46accd5f78</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[I use Live Mesh to keep my PowerShell scripts folder synced between multiple machine. Some of those machines have different things installed on them or have things installed in different locations. For example, my laptop is x86 while my desktop is x64 so many things on the desktop get installed into c:\Program Files (x86) instead of the plain-old c:\Program Files folder. I wanted my shared profile script to be able to search a set of folders for a given executable to alias, and I came up with the following function.
+<pre class="brush: powershell">function find-to-set-alias($foldersearch, $file, $alias)
+{
+  dir $foldersearch |
+    %{dir $_ -Recurse -Filter $file} |
+    %{set-alias $alias $_.FullName -scope Global; break}
+}</pre>
+It’s pretty simple to use. You pass in a folder search criteria – it must have a wildcard, or the function won’t work – the file you’re looking for and the alias you want to set. The function finds all the folders matching the $foldersearch criteria, then searches them recursively looking for the $file you specified. Set-alias is called for the first matching $file found – pipeline processing is halted via the break statement.
+
+Here are the find-to-set-aliases I have in my profile:
+<pre class="brush: powershell">find-to-set-alias 'c:\program files*\IronPython*' ipy.exe ipy
+find-to-set-alias 'c:\program files*\IronPython*' chiron.exe chiron     
+
+find-to-set-alias 'c:\Python*' python.exe cpy     
+
+find-to-set-alias
+    'c:program files*\Microsoft Visual Studio 9.0\Common7' devenv.exe vs
+find-to-set-alias
+    'c:program files*\Microsoft Visual Studio 9.0\Common7' tf.exe tf     
+
+find-to-set-alias 'c:\program files*\FSharp*' fsi.exe fsi
+find-to-set-alias
+    'c:\program files*\Microsoft Repository SDK*' ipad.exe ipad
+find-to-set-alias
+    'c:\program files*\Microsoft Virtual PC*' 'Virtual pc.exe' vpc</pre>
+Python, IronPython and F# aliases, no surprise there. Chiron is the REPL server for dynamic language Silverlight development. Typically, I use <a href="http://www.tavaresstudios.com/Blog/post/The-last-vsvars32ps1-Ill-ever-need.aspx">Chris Tavares’ vsvars script</a> to configure the command shell for development purposes, but I find it’s nice to have aliases for TF and DevEnv handy at all times.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1207</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-12-17 15:17:09</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-12-17 15:17:09</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">powershell-find-to-set-alias</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[ae593a6d-e9b4-40ad-9a2e-fe46accd5f78]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[PowerShell+Findtosetalias]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/12/17/PowerShell+Findtosetalias]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2161</wp:comment_id>
+    <wp:comment_author><![CDATA[Dave]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://famoushamsandwich.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>96.237.230.113</wp:comment_author_IP>
+    <wp:comment_date>2008-12-17 16:34:55</wp:comment_date>
+    <wp:comment_date_gmt>2008-12-18 00:34:55</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I do the same thing and solved it using ${env:programfiles}.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2162</wp:comment_id>
+    <wp:comment_author><![CDATA[Brad Wilson]]></wp:comment_author>
+    <wp:comment_author_email>dotnetguy@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://bradwilson.typepad.com/</wp:comment_author_url>
+    <wp:comment_author_IP>98.203.252.139</wp:comment_author_IP>
+    <wp:comment_date>2008-12-28 12:47:47</wp:comment_date>
+    <wp:comment_date_gmt>2008-12-28 20:47:47</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks for this! I posted an expanded version suitable for use as a script file, which includes optional diagnostic/debugging information:
+
+http://bradwilson.typepad.com/blog/2008/12/find-to-set-aliasps1.html
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

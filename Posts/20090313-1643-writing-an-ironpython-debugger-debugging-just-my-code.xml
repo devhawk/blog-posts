@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Writing an IronPython Debugger: Debugging Just My Code</title>
+  <link>http://devhawk.net/2009/03/13/writing-an-ironpython-debugger-debugging-just-my-code/</link>
+  <pubDate>Fri, 13 Mar 2009 16:43:36 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7a36bcc8-a7cd-4d41-a6f8-7b600699c35e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>As I wrote last time, in order to make debug stepping actually useful in ipydbg I need to avoid stepping into frames that are part of the IronPython infrastructure. I did something similar when I <a href="http://devhawk.net/2009/03/09/Writing+An+IronPython+Debugger+Dynamic+Stack+Trace.aspx">hide infrastructure frames in the stack trace</a>. Originally, I had planned to automatically stepping again if we ended up on a frame that didn’t correspond to a python file. However, <a href="http://blogs.msdn.com/jmstall/default.aspx">Mike Stall</a> showed me a much cleaner and better performing solution: Just My Code. As I mentioned at the <a href="http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+Introduction.aspx">start of this series</a>, support for JMC is one of the main reasons I wanted to build my own debugger rather than use MDbg.</p><p>Enabling JMC in the stepper object is trivial:</p><pre class="brush: python">
+def create_stepper(thread, JMC = True):     
+  stepper = thread.ActiveFrame.CreateStepper()     
+  stepper.SetUnmappedStopMask(CorDebugUnmappedStop.STOP_NONE)     
+  stepper.SetJmcStatus(JMC)  
+  return stepper
+</pre><p>If I make that single change and run ipydbg, any step effectively turns into a full continue since none of the code has been marked as “My Code” yet. As you see, the tricky part of JMC isn’t enabling it on the stepper, it’s “painting” the parts of the code where you want JMC stepping to work. You can set JMC status at the <a href="http://msdn.microsoft.com/en-us/library/ms231586.aspx">module</a>, <a href="http://msdn.microsoft.com/en-us/library/ms230160.aspx">class</a> or the <a href="http://msdn.microsoft.com/en-us/library/ms230220.aspx">method</a> level. In the case of ipdbg, it’s easiest to work at the class level:</p><pre class="brush: python">
+infrastructure_methods =  ['TryGetExtraValue',      
+    'TrySetExtraValue',      
+    '.cctor',      
+    '.ctor',      
+    'CustomSymbolDictionary.GetExtraKeys',      
+    'IModuleDictionaryInitialization.InitializeModuleDictionary']     
+
+def OnClassLoad(self, sender, e):     
+    cmi = CorMetadataImport(e.Class.Module)     
+    mt = cmi.GetType(e.Class.Token)     
+    print "OnClassLoad", mt.Name     
+
+    if not e.Class.Module.IsDynamic:     
+      e.Class.JMCStatus = False
+    elif mt.Name.startswith('IronPython.NewTypes'):     
+      e.Class.JMCStatus = False
+    else:     
+      e.Class.JMCStatus = True
+      for mmi in mt.GetMethods():     
+        if mmi.Name in infrastructure_methods:     
+          f = e.Class.Module.GetFunctionFromToken(mmi.MetadataToken)     
+          f.JMCStatus = False
+</pre><p>OnClassLoad is where the action is. This event handler is responsible for enabling JMC for all class methods that map to python code. To understand how the logic in OnClassLoad works, you need to understand a little about the .NET types and code that IronPython generates. Note, the following description is for the IronPython 2.0 branch. Code generation evolves from release to release and I know for a fact there are changes in the upcoming 2.6 version. I assume that I’ll eventually have to sniff the IronPython version in order to set JMC correctly.</p><p>Today, IronPython generates all code into dynamic modules and methods. Since I want to limit stepping to python code only, I automatically disable JMC for non-dynamic modules. I can imagine a scenario where I want to step into non-dynamically generated code, but I think the best way to handle that would be to disable JMC at the stepper rather than widening the amount of code marked as JMC enabled.</p><p>For every module that gets loaded, IronPython generates a type. At a minimum you’re going to load two modules: site.py and whatever python script you ran. If you have the python standard library installed, site.py loads a bunch of other modules as well. Each of these module types have a bunch of standard methods that always get generated. For example, the global scope code in the module is placed in a static method on the module type called Initialize. Any python functions you define get generated static methods with mangled names on the module type [1]. All these methods have corresponding python code and should be JMC enabled. The other standard methods on a module type should not be JMC enabled. So in my debugger, I mark the class as JMC enabled but then iterate over the list of methods and mark any in the list of standard methods (except for Initialize) as JMC disabled.</p><p>Of course, you can also <a href="http://docs.python.org/reference/compound_stmts.html#class-definitions">create classes</a> in Python. As you might expect, classes in Python are generated as .NET types. However, the semantics of Python classes are very different than .NET types. For example, you can change the inheritance hierarchy of python classes at runtime. That’s obviously not allowed for .NET types. So the .NET types we generate have all the logic to implement Python class semantics. As it turns out, these .NET types *only* have the logic to implement Python class semantics, which is to say they have *none* of Python class methods code. This makes sense when you think about it – since Python can add and remove methods from a class at runtime, IronPython can’t put the method code in the .NET type itself. Instead, Python class methods are generated as static methods on the module type, just like top-level functions are. Since Python class types only contain Python class semantics logic, we never want to enable JMC for Python class types. Python class types get generated in the IronPython.NewTypes namespace, so it’s fairly easy to check the class name in OnClassLoad and automatically disable JMC for classes any in that namespace.</p><p>Adding JMC support makes ipydbg significantly more usable. It’s almost like a real tool now, isn’t it? <a href="http://github.com/devhawk/ipydbg/tree/39eb5ea81b8a493d9605d4cce4b3ef75fec4f327">Latest bits</a> are up on GitHub. </p><hr /><p>[1] FYI, IronPython generates python functions as <a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.dynamicmethod.aspx">dynamic methods</a> in release mode and static module class methods in debug mode since you can’t step into dynamic methods. The description above is specific to debug mode since ipydbg exclusively runs in debug mode.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1229</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-03-13 16:43:36</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-03-13 16:43:36</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">writing-an-ironpython-debugger-debugging-just-my-code</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="debugger"><![CDATA[Debugger]]></category>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7a36bcc8-a7cd-4d41-a6f8-7b600699c35e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Writing+An+IronPython+Debugger+Debugging+Just+My+Code]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/03/13/Writing+An+IronPython+Debugger+Debugging+Just+My+Code]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2178</wp:comment_id>
+    <wp:comment_author><![CDATA[David Lawler]]></wp:comment_author>
+    <wp:comment_author_email>djlawler@aol.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>209.155.111.140</wp:comment_author_IP>
+    <wp:comment_date>2009-03-19 05:29:22</wp:comment_date>
+    <wp:comment_date_gmt>2009-03-19 12:29:22</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Very nice!  I'm looking forward to when you get to being able to set a breakpoint and view locals.  I played with Mdbg a while back and even was able to get it working in an IP project...but using the 'higher level' interface, not CorDebug.  This looks like it will be much faster/better.  I look forward to your updates.
+
+Regards,
+
+David L.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2179</wp:comment_id>
+    <wp:comment_author><![CDATA[David Lawler]]></wp:comment_author>
+    <wp:comment_author_email>djlawler@aol.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>209.155.111.140</wp:comment_author_IP>
+    <wp:comment_date>2009-03-19 11:40:17</wp:comment_date>
+    <wp:comment_date_gmt>2009-03-19 18:40:17</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hehe - or I could do an ugly version myself:
+
+add         self.breakpoints = {}   to the run method of IPyDebugProcess
+
+add new method:
+    def update_breakpoints(self):
+        for key, active in self.breakpoints.items():
+            docname, line = key
+            if not(active):                  
+                for module, reader in self.symbol_readers.items():
+                    for doc in reader.GetDocuments():
+                        if doc.URL.endswith(docname):
+                            create_breakpoint(doc, line, module, reader)
+                            self.breakpoints[key] = True
+                            return
+
+and add this to your _input method:
+            elif k.Key == ConsoleKey.B:
+                ri = raw_input("nenter breakpoint (doc line): ")
+                raw = ri.split(" ")
+                key = (raw[0], int(raw[1]))
+                if not key in self.breakpoints.keys():
+                    self.breakpoints[key] = False
+                self.update_breakpoints()
+
+lastly add         self.update_breakpoints()
+in the OnUpdateModuleSymbols method right after self.symbol_readers[e.Module] = reader line and it works!  Probably very ugly...but who cares for now.  Now I need to allow for breakpoint deletion...
+
+Oh it's killing the formatting in my message!  Too bad.  Thanks for a fun little project!
+
+David]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2180</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>71.231.42.80</wp:comment_author_IP>
+    <wp:comment_date>2009-03-21 18:21:37</wp:comment_date>
+    <wp:comment_date_gmt>2009-03-22 01:21:37</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Wasted formatting or not, I like your code David! Breakpoints and viewing locals are definitely on my radar, so keep watching this space.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

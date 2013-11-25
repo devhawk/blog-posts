@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>More on SharePoint RSS</title>
+  <link>http://devhawk.net/2003/05/08/more-on-sharepoint-rss/</link>
+  <pubDate>Thu, 08 May 2003 10:24:04 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://d94b7d7d-f078-4247-b0a9-1be4d3a418d6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm working on v0.3 of the SharePoint RSS Feed Generator (from now on I'm calling in WSS RSS). The big feature of v0.3 will be OPML support. However, I've also made a structural change as well. Instead of using HTTP Handlers, which requires me either modify a web.config file or create a vDir off the main WSS web server, I'll be using empty WebForms. These files have nothin but the &lt;%@ Page header in the .aspx file, and I'm manually writing out the RSS/OPML from inside the Page_Load event. It seems sloppy, but since WSS remaps the HTTP Handlers to do away with everything but .aspx/System.Web.UI.PageHandlerFactory mapping, it's the best approach. Now I can drop rss.aspx/opml.aspx into the _layouts vDir and the compiled DLL into the bin subdirectory and I'm ready to go. </p><p>Other than import/export, what kind of OPML support is available in news aggregators? With WSS RSS, you'll be able to pull down an OPML directory of a WSS site. It would be nice to have an interface to pick and choose which feeds you care about, rather than importing all of them and then deleting the ones you don't want.</p><p>Also, is there any list of standard OPML outline attributes? I'm using: title, description, type, xmlUrl, htmlUrl and SharePointID. The last one is my own creation, and I put it in its own namespace. The others were the attributes of the OPML export of my subscribed news feeds in SharpReader. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">80</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-05-08 10:24:04</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-05-08 10:24:04</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">more-on-sharepoint-rss</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[d94b7d7d-f078-4247-b0a9-1be4d3a418d6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[More+On+SharePoint+RSS]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/05/08/More+On+SharePoint+RSS]]></wp:meta_value>
+  </wp:postmeta>
+</item>

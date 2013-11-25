@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Job Opening on my Team</title>
+  <link>http://devhawk.net/2009/12/07/job-opening-on-my-team/</link>
+  <pubDate>Mon, 07 Dec 2009 11:49:10 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://8b7ad043-5c02-4753-b59a-c897bce205b5</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I’m just starting the third week in my new job – though between Thanksgiving and an intestinal virus, I’ve only been in my office for five days total so far. That’s not enough time to establish enough groundwork to be comfortable talking about what my team is doing yet. However, I just found out we’re still hiring and better yet there’s a public description of the job opening. So if you’ve ever thought “I want to work for Microsoft/Windows Division/With Harry”, here’s your chance! And if you aren’t looking for a new job, at least you can get some small hints as to what I’m doing in my new gig - “building substantial improvements into the Windows development platform” sounds interesting, doesn’t it?</p><blockquote><p><strong><a href="https://careers.microsoft.com/JobDetails.aspx?jid=9986">Senior Program Manager(708846 -External)</a></strong></p><p>Job Category: Software Engineering: Program Management     <br />Location: United States, WA, Redmond      <br />Job ID: 708846 9986      <br />Product: Windows  <br />Division: Windows Division</p><p>Developers! Developers! Developers!</p><p>Developers are the key to the success of Windows and at the center of a software ecosystem that represents hundreds of billions of dollars. Our team is chartered with reinvigorating the Windows developer ecosystem by building substantial improvements into the Windows development platform (APIs, tools and the underlying infrastructure) and making developing for Windows fun!</p><p>The team is currently seeking a Senior Program Manager to help us achieve our mission. The ideal candidate will have:</p><ul><li>Strong core PM competencies with special emphasis on developer tools and collaboration skills.</li><li>Proven track-record of delivering results in a cross-team (ideally cross-division) environment. </li><li>Has been a Program Manager shipping key products for at least 6 years.</li><li>Deep empathy for the developer as a customer; ability to empathize through 1st hand experience of writing apps some of the issues developers are facing with respect to APIs, tooling such as Visual Studio and SDK.</li><li>A demonstrated track record of excellence and delivering in ambiguous V1 situations.</li><li>Has Bachelors in Computer Science or engineering.</li></ul></blockquote>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1300</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-12-07 11:49:10</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-12-07 11:49:10</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">job-opening-on-my-team</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+  <category domain="post_tag" nicename="working-at-msft"><![CDATA[Working at MSFT]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[8b7ad043-5c02-4753-b59a-c897bce205b5]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Job+Opening+On+My+Team]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/12/07/Job+Opening+On+My+Team]]></wp:meta_value>
+  </wp:postmeta>
+</item>

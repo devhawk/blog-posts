@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 110</title>
+  <link>http://devhawk.net/2007/08/15/morning-coffee-110/</link>
+  <pubDate>Wed, 15 Aug 2007 16:37:00 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://400b5978-a218-4678-9d38-26541acce866</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Monday @ <a href="http://www.xnagamefest.com/">Gamefest</a>, the XNA team <a href="http://blogs.msdn.com/xna/archive/2007/08/13/announcing-xna-game-studio-2-0.aspx">announced</a> XNA Game Studio 2.0. The two big new things are support for the entire VS product line (1.0 only works on VC# Express) and the addition of networking APIs. Let's Kill Dave <a href="http://letskilldave.com/archive/2007/08/13/gamefest-quick-summary-day-1.aspx">has a good wrapup</a> of the announcements from Gamefest Day One.  </li><li>Speaking of Xbox 360, I played thru the demos of <a href="http://www.xbox.com/games/johnwoopresentsstranglehold/">Stranglehold</a> and <a href="http://www.xbox.com/games/bioshock">Bioshock</a>. Two thumbs up on both. It's gonna be an expensive year for Xbox gamers.  </li><li>Mark Cuban <a href="http://www.blogmaverick.com/2007/08/13/solution-for-the-real-estate-market-take-your-house-public/" target="_blank">noodles on</a> taking your house public. "Why not create a market or exchange where homeowners can sell equity in their homes?" I've thought about this myself from time to time. However, Mark thinks making it happen would "probably take the country's biggest banks working together". I wonder if there's a more Web 2.0 <a href="http://www.centernetworks.com/social-lending-web-2-0" target="_blank">social lending</a> approach that would work better.  </li><li>Jeff Atwood calls virtualization as "the next great frontier for computer security". I agree 100%. But I don't think the action is going to be in "full-machine" virtualization like Virtual PC. Rather, it's going to be sandbox virtualization. Jeff mentions GreenBorder (now <a href="http://blogs.zdnet.com/security/?p=241" target="_blank">part of Google</a>) but it's not the only solution. Some time ago, Microsoft acquired <a href="http://www.microsoft.com/systemcenter/softgrid/default.mspx" target="_blank">SoftGrid</a> which uses sandbox virtualization for application deployment, but using <a href="http://www.microsoft.com/systemcenter/softgrid/evaluation/virtualization.mspx" target="_blank">SystemGuard</a> for security sandboxing seems like a logical step.  </li><li>The WCF LOB Adapter SDK has released. Sonu Arora <a href="http://blogs.msdn.com/sonuarora/archive/2007/08/08/wcf-lob-adapter-sdk-is-now-generally-available-for-download.aspx" target="_blank">has the details</a>. As part of the Integration team @ MSIT, I have a feeling we're going to become fairly familiar with this technology. (via <a href="http://weblogs.asp.net/gsusx/archive/2007/08/09/wcf-lob-adapters-sdk-is-available-for-download.aspx" target="_blank">Jesus Rodriguez</a>). </li><li>Speaking of Jesus, he <a href="http://weblogs.asp.net/gsusx/archive/2007/08/13/sca-committees.aspx" target="_blank">thinks</a> the <a href="http://www.oasis-open.org/news/oasis-news-2007-08-09.php" target="_blank">six new SCA4SOA committees</a> are "going to help". Why? Because inventing technology in committee has turned out so well in the past?  </li><li>John deVadoss cements BPM's fad du jour status by <a href="http://blogs.msdn.com/jdevados/archive/2007/08/08/big-bpm-vs-little-bpm.aspx" target="_blank">contrasting</a> "big" BPM and "little" BPM. It's fairly obvious to me that big *anything* just doesn't work in the enterprise. But I worry that little *anything* doesn't work that well either. So how long until someone (<a href="http://blogs.msdn.com/nickmalik/archive/2007/07/21/what-you-need-to-make-middle-out-soa-architecture-work.aspx" target="_blank">probably Nick</a>) starts arguing for "middle out" BPM? </li><li>David Bressler <a href="http://blogs.progress.com/soa_infrastructure/2007/08/thank-you-scott.html" target="_blank">wonders</a> "What is it about registries that everyone thinks is a panacea for all things SOA?" Amen, Brother! Joe McKendrick <a href="http://blogs.zdnet.com/service-oriented/?p=937" target="_blank">claims</a> it's required for governance, but then gets to what I think is the *real* reason for focus on registries: the "registry is a tangible offering" that vendors can sell. Just because it's productizable doesn't mean you need it.  </li><li>Hartmut Wilms <a href="http://www.innoq.com/blog/hw/2007/08/14/retire_the_tenets.html" target="_blank">responds</a> to my <a href="http://devhawk.net/2007/08/14/Retire+The+Tenets.aspx" target="_blank">retire the tenets</a> post, but he seems to contradict himself. On the one hand, he suggests that "the four tenets just expressed, what “almost” everybody outside the MS world knew already". But then he goes on to dispute that the SO paradigm shift has even occurred! Hartmut, I'll grant you that WCF (among other similar stacks) are way too focused on "you write the classes, we'll handle the contracts and messages". On the other hand, if you don't provide a productive interface that most everyone can pick up and run with, the technology won't get adopted in the first place.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1029</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-15 09:37:00</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-15 16:37:00</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-110</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="microsoft"><![CDATA[Microsoft]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <category domain="post_tag" nicename="xna"><![CDATA[XNA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[400b5978-a218-4678-9d38-26541acce866]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+110]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/15/Morning+Coffee+110]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2571</wp:comment_id>
+    <wp:comment_author><![CDATA[Hartmut Wilms]]></wp:comment_author>
+    <wp:comment_author_email>hartmut.wilms@innoq.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.innoq.com/blog/hw/</wp:comment_author_url>
+    <wp:comment_author_IP>80.133.9.76</wp:comment_author_IP>
+    <wp:comment_date>2007-08-15 12:22:23</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-15 19:22:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Harry,
+there's a misunderstanding. I don't think that "the four tenets just expressed, what "almost" everybody outside the MS world knew already". In my opinion that's what you implied in your post.
+Granted, many of the principles that are nowadays found in SO have been around for a while (not everywhere, not by everyone!). There have always been good designs, good patterns and awesome implementations. But they are the exceptions. To me service orientation collects the ideas of message-orientation, document-based data exchange, platform independent contracts (interfaces) and machine-readable policies. These principles have been expressed by the four tenets in an abstract way. Why? Because there are several ways of designing a system (better a service landscape), which adheres to these tenets. The tenets are the cornerstones of the service oriented paradigm.
+My only contradiction (at least in my view ;-)) was/is that on the one hand I'm defending the idea of the tenets and on the other hand I'm saying that there are better ways to describe the idea of a SOA, e.g. 
+
+http://www.innoq.com/blog/st/2005/11/04/10_statements_about_soa.html.
+
+To sum up I agree that the tenets are too abstract in order to be used as a concrete guideline for building services that adhere to service oriented principles. I disagree with your statement that service oriented principles have been adopted by the masses, that SOA is mainstream, and that there's no need for (abstract) advice/tenets/principles anymore.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2572</wp:comment_id>
+    <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+    <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+    <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>206.114.176.75</wp:comment_author_IP>
+    <wp:comment_date>2007-08-15 21:13:00</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-16 04:13:00</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[The 4 Tenets were indoctrination about service-orientation and (I think) purposely aimed at a specific, large population of Microsoft-platform developers.  Think back to the time when – as Microsoft put it – 80% of developers on the Windows platform used VB.  The Tenets served a purpose in jolting mindshare away from RPC and distributed objects.  In my job, such principles had been around a while.  So, I generally thought that the Tenets were obvious (and, sure, a little incomprehensible).  
+
+But despite giving the Tenets some benefit of the doubt, I thought David Ing’s Four Horsemen essay was wonderfully written and a spot-on review.  No, the Tenets aren’t really guidance, but I don’t think anyone is saying they have done more harm than good.  Now, bring on the flames reserved for those who take middle ground!
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

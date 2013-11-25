@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Back from the Basement</title>
+  <link>http://devhawk.net/2003/05/06/back-from-the-basement/</link>
+  <pubDate>Tue, 06 May 2003 19:53:36 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c5c16461-fb10-4a96-9a94-c2ea236b46c7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[Back from vacation, caught up on email and weblogs, and ready to code. <a href="http://aspnetweblog.com/">Scott</a> sent me some of his weblog code to look at on the plane to Phoenix. How is it that I always seem to work on <a href="PermaLink.aspx?guid=6a7eecb5-9ba3-4322-88ac-158d821797c9">my blog in Phoenix</a>? Looking forward to also checking out <a href="http://www.simplegeek.com/">BlogX 1.1</a> or <a href="http://www.gotdotnet.com/team/mgudgin/default.aspx#nn2003-05-01T04:27:40Z"> BlogY</a> or whatever they call it. Also have a few updates to the <a href="prj_sharepointsynd.aspx">SharePoint RSS feed generator</a> to implement. There's been interest inside Microsoft, but I haven't heard much interest on the outside. ]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">79</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-05-06 19:53:36</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-05-06 19:53:36</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">back-from-the-basement</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c5c16461-fb10-4a96-9a94-c2ea236b46c7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Back+From+The+Basement]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/05/07/Back+From+The+Basement]]></wp:meta_value>
+  </wp:postmeta>
+</item>

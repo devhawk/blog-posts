@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The One Business Case for Integration</title>
+  <link>http://devhawk.net/2007/08/23/the-one-business-case-for-integration/</link>
+  <pubDate>Thu, 23 Aug 2007 22:40:32 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://b20dde93-10e8-48ac-95d6-d9c17c527f90</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Nick Malik <a href="http://blogs.msdn.com/nickmalik/archive/2007/08/22/the-business-case-for-integrated-systems.aspx">lays out</a> what he thinks are the four business cases for integration:</p><blockquote><p>Assume we succeeded, and our systems are all optimally integrated.  What has changed?  </p><ol><li>We have better business intelligence.  We have better understanding of our customers, our partners, our products, and our business.  And from that understanding, we make better decisions.  Those decisions are made in a federated manner using self-apparent information. </li><li>We have end-to-end business processes that cross multiple systems, multiple roles, multiple geographies, and multiple data stores, all aware of and supporting the needs of the customer. </li><li>We have end-to-end awareness of the metrics that drive both dissatisfaction and cost, and we can take that knowledge and apply it to making our business better. </li><li>We have a more efficient enterprise, more able to grow to a larger size, at an accelerated rate, and still respond with agility to changing business opportunities. </li></ol></blockquote><p>I put to you that, in fact, we only have one business case for integration: better business intelligence. The other reasons Nick lists are either redundant or not as important to the business - at least in the general case - as you might think.</p><p>First off, #3 from Nick's list sounds suspiciously like #1. If there's a difference between "better understanding driving better decisions" and "applying awareness of metrics to making our business better", I don't know what it is. We'll send one of them off to the Dept. of Redundancy Dept. and be done with it.</p><p>Second, I don't think the business cares that IT has multiple systems or multiple data stores. If the business could run on one big centralized system that could meet the needs of the customer (aka the ERP fantasy), they'd be fine with that. The fact that realities of modern enterprise IT require splitting up capabilities across many systems is an implementation detail that frankly isn't a concern of the business. </p><p>Besides, what's the business benefit here? News flash: the enterprise already has end-to-end business processes that cross multiple systems, multiple roles, blah blah blah. They're just not <em>automated</em> end-to-end. Does the business care that their not automated? Not a bit. Sure, they care about processes are slow, costly and error-prone, which manual processes tend to be. But it's those negative characteristics that the business cares about, not integration. Besides, making processes quick, cheap and error-free sounds a lot like making them efficient. In other words, more work for the Dept. of Redundancy Dept.</p><p>Finally, I don't think efficiency and agility is as important to the enterprise as Nick makes it out to be. I mean, the enterprise will <em>say</em> it cares about efficiency - especially in front of the stock holders. But when it comes to putting it's money where it's mouth is, the enterprise doesn't, more often than not. Think about how success is measured in the typical IT project. Is efficiency one of the criteria for judging success? Not really. Will your project stakeholders let you run over budget and ship a few months late, just to improve efficiency? Probably not, unless that efficiency gain is both demonstrable and dramatic. </p><p>Of course, there are certainly specific examples where a automation or efficiency business case for integration can be made. For example, if replacing a specific manual process with an automated one has a large and measurable ROI, the business will likely be interested in making that investment. If you have a certain process that you do over and over that's core to the business, the business will probably be interested in optimizing the frak out of it. For example, I would guess a delivery company like UPS or FedEx has spent a lot of time and money on optimizing their delivery processes. </p><p>But what it sounds like Nick's talking about here is making a general case for making all our systems "optimally integrated". Given that our current systems aren't, this would take significant time and money. Yet the tangible benefit to the business is at best nebulous. Nick thinks improved integration will allow the business to "respond with agility to changing business opportunities." He's probably right. But how do you quantify this agility? How much will we save in the future for what we're spending today? For the general case, the answer is "it depends". It's really hard to fund a project when it's projected ROI is "it depends" . </p><p>However, business intelligence is a no brainer for the enterprise to invest in. Giving decision makers better and more up-to-date information, that's a tangible benefit that the organization can quantify <em>now</em>. If you can quantify the value of a project, you've got the start of a budget. Of course, all that juicy data is smeared across a variety of systems, which means integration. Again, the enterprise doesn't really care about said multiple systems or integration, but they care about the outcome. </p><p>Nick <a href="http://blogs.msdn.com/nickmalik/archive/2007/08/21/soa-and-bi-support-the-same-goals.aspx">recommends</a> to SOA folks that "if you aren't already working with your BI team, pick up the phone. Their mature processes and practices are able to address many of your issues, and the natural synergy between BI and SOA can make them a strong ally in the fight for a better, faster, cheaper, and more intelligent enterprise." Good advice. Otherwise, selling integration to the business isn't much different than <a href="http://blogs.msdn.com/nickmalik/archive/2007/08/15/soa-is-not-a-disruptive-technology-selling-soa-part-three.aspx">selling them SOA</a>. In other words, don't sell it - just do it. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1035</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-23 22:40:32</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-23 22:40:32</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-one-business-case-for-integration</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="business-intelligence"><![CDATA[Business Intelligence]]></category>
+  <category domain="post_tag" nicename="integration"><![CDATA[Integration]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[b20dde93-10e8-48ac-95d6-d9c17c527f90]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+One+Business+Case+For+Integration]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/24/The+One+Business+Case+For+Integration]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2579</wp:comment_id>
+    <wp:comment_author><![CDATA[Jack van Hoof]]></wp:comment_author>
+    <wp:comment_author_email>jack.vanhoof.soa.eda@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://soa-eda.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>83.128.67.232</wp:comment_author_IP>
+    <wp:comment_date>2007-08-25 07:41:15</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-25 14:41:15</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[What is integration at all?
+
+Application Integration is – ironically – about application division. I recently posted my view on how applications can be divided into separated components and how the components are glued together. Several “glue-areas” are recognized where mashups, portals, shared databases, SOA and EDA all play a role in gluing the pieces together.
+
+http://soa-eda.blogspot.com/2007/08/what-is-eai.html
+
+I agree not to sell integration to the business, but just do it. 
+
+
+Jack]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

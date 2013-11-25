@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Tech·Ed Day 4</title>
+  <link>http://devhawk.net/2004/05/28/tech%c2%b7ed-day-4/</link>
+  <pubDate>Fri, 28 May 2004 09:44:29 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a8b8b0e9-1b5c-43d8-8359-a5503a0dbd2f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>My session yesterday went very well. Current score is 7.95 which makes it the second highest session from the track so far - John's Realizing SOA session currently scores an 8.17 and there are several other sessions in the high 7's. It's very interesting to watch the scores change. For example, the score for the Metropolis Discussion has gone from 6.8 to 7.08 since yesterday. </p><p>After the session, I had a full <span id="rssHarry_dgFeed__ctl3_lblItem">cabaña session that felt like it could have gone on for hours if I hadn't cut it short in order to make it to SeaWorld for the attendee party. The party was fun. I spent the early part of the evening hanging out with the overall owner of this year's Tech·Ed, next year's Tech·Ed, <a href="http://geekswithblogs.net/dsmith/">the content owner for Tech·Ed</a> and several of the other track owners. Then, a la PDC, I hung out with <a href="http://peterprovost.org/">Peter</a> and started conversations with whoever walked by. Not as many spontaneous conversations as PDC since the audience at Tech·Ed is only half developers, but still very interesting. Also, having the event in San Diego drew lots of families. Attendees could buy tickets to bring their family members </span>to the SeaWorld party, and it looked like many people took advantage of that opportunity. (Something to keep in mind for next year.)</p><p><span id="rssHarry_dgFeed__ctl3_lblItem">It's amazing how much work goes into this event. Planning for <a href="https://profile.microsoft.com/RegSysProfileCenter/wizard.aspx?wizid=5f569ef5-960c-4626-bb17-ef94d15cdf50&amp;lcid=1033">Tech<font face="Arial">·</font>Ed 2005</a> (Orlando, FL) &amp; 2006 (Boston, MA) is well underway and they are just getting started on Tech·Ed 2007. Thankfully, content planning hasn't started yet. There's a big internal MSFT conference in July and many of the Tech·Ed track content owners also own content for the internal conference, so I think content planning won't start until at least August or September. I was a late addition to the Tech·Ed 2004 virtual team - I'm looking forward to being involved much earlier with next year's Tech·Ed. I learned a ton this year both by thrown-in-the-deep-end experience as well as observing my fellow track owners who have done this many times. I'm very happy with this year's track, but I know next year will be even better for the Architecture Track! </span></p><p>Today should be a easy day hanging out in the <span id="rssHarry_dgFeed__ctl3_lblItem0">cabaña, avoiding mail and having low-key conversations with customers. I fly out tonight - I get in late, but I just found out I'm </span>got upgraded to first class so at least I'll be comfy. The big question is whether I will watch a movie or start hacking around with the <a href="http://msdn.microsoft.com/vs2005/currentreadme/default.aspx">May VS2005 preview</a>. Given my exhaustion level, I'm guessing I'll go for a movie, but I'm setting up a new VPC for VS2005 just in case.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">370</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-05-28 09:44:29</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-05-28 09:44:29</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">tech%c2%b7ed-day-4</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a8b8b0e9-1b5c-43d8-8359-a5503a0dbd2f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[TechEd+Day+4]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/05/28/TechEd+Day+4]]></wp:meta_value>
+  </wp:postmeta>
+</item>

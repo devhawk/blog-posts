@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Smartphone(s)</title>
+  <link>http://devhawk.net/2004/11/19/new-smartphones/</link>
+  <pubDate>Fri, 19 Nov 2004 19:21:23 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f5adb795-eba8-4913-96bc-c323d649f4ac</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>As I mentioned in my last post, I have a new toy - a <a href="http://www.microsoft.com/windowsmobile/devices/devicedisplay.aspx?module=deviceDisplay;Smartphone;americas;134">Motorola MPx220 smartphone</a>. I'm actually lucky enough to have recently laid my hands on two smartphones. The other was a <a href="http://www.microsoft.com/windowsmobile/devices/devicedisplay.aspx?module=deviceDisplay;Smartphone;apac;58">dopod 515</a> which was a gift from the organizers of TechEd Beijing. The dopod is nice, but I really dig the MPx220. I'm partial to flip phones, plus the MPx220 has a camera and Bluetooth.</p><p>Of course, one of the benefits of having a smartphone is the ability to write some custom stuff for it. There are a variety of <a href="http://midnight.modaco.com/?page=tweaks">tweaks</a> available that are predicated on registry modifications. There's a <a href="http://www.phm.lu/Products/Smartphone/RegEdit/">registry editor</a> for Smartphone 2002, but I couldn't get it to install on since my phone is running Windows Mobile 2003. Luckily, there's <a href="http://opennetcf.org/CategoryView.aspx?category=Home">OpenNETCF.org</a> with a wide variety of <a href="http://opennetcf.org/library/">useful libraries</a> for compact framework development. They even have registry editing libraries that work from the <a href="http://opennetcf.org/library/OpenNETCF.Win32.Registry.html">device</a> or the <a href="http://opennetcf.org/library/OpenNETCF.Desktop.Communication.CERegistry.html">desktop</a>. Not sure what else I want to write yet other than an app to download movie times a la the new <a href="http://devhawk.net/PermaLink.aspx?guid=31b2429e-b516-4edb-8df2-83a244286c07">SPOT watch movies channel</a>, but I'm sure I can think of something!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">485</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-11-19 19:21:23</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-11-19 19:21:23</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-smartphones</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f5adb795-eba8-4913-96bc-c323d649f4ac]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Smartphones]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/11/20/New+Smartphones]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2725</wp:comment_id>
+    <wp:comment_author><![CDATA[小说]]></wp:comment_author>
+    <wp:comment_author_email>icebluewxl@163.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.readnovel.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-12-14 21:17:01</wp:comment_date>
+    <wp:comment_date_gmt>2004-12-15 05:17:01</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[yes, you are actually lucky enough to have recently laid my hands on two smartphones. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

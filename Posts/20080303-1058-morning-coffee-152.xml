@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 152</title>
+  <link>http://devhawk.net/2008/03/03/morning-coffee-152/</link>
+  <pubDate>Mon, 03 Mar 2008 10:58:00 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://2a391220-3950-43ef-bf17-773e2a6a364a</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I was slammed Friday, so I didn't get a chance to post the results of last Thursday night's hockey game. I'm sure you've all been eager to hear. We lost, bad, 8-2. Personally, I was -3 and had no points, but I played much better than last week. We had three full lines of forwards, which was a big help, but I have started to find my ice-legs so to speak. </li><li>Charlie Calvert has the now-definitive <a href="http://blogs.msdn.com/charlie/archive/2008/02/28/link-to-everything-a-list-of-linq-providers.aspx">list of LINQ to Everything</a>. Of all of them, I found <a href="http://www.codeplex.com/LinqOverCSharp">LINQ over C#</a> fascinating, especially given my recent efforts in parsing.</li><li>Chris Tavares <a href="http://www.tavaresstudios.com/Blog/post.aspx?id=4e75f849-9091-431c-b41b-f7343cb767a7">blogs</a> about a distributed source control system called <a href="http://bazaar-vcs.org/">Bazaar</a>. Unlike most version control systems, Bazaar is distributed which means you can use it without a server. According to Chris, you can share branches as easily as mailing a file. I wonder if you could make Bazaar work over a <a href="http://msdn2.microsoft.com/en-us/library/system.net.peertopeer.aspx">P2P network</a>.</li><li>While looking up the MSDN link for the previous coffee item, I noticed an entire new section in the MSDN Library for <a href="http://msdn2.microsoft.com/en-us/library/cc203350.aspx">Open Protocol Specifications</a>. Not much to add, just wanted to highlight their existence.</li><li>Admitted non-designer Scott Guthrie <a href="http://weblogs.asp.net/scottgu/archive/2008/02/28/first-look-at-using-expression-blend-with-silverlight-2.aspx">shows off</a> using the new version Expression Blend to build a Silverlight 2.0 app. Personally, I was most interested in seeing <a href="http://silverlight2blogpost.s3.amazonaws.com/step6.png">some of the new of built-in controls</a>. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1112</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-03-03 10:58:00</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-03-03 10:58:00</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-152</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="hockey"><![CDATA[Hockey]]></category>
+  <category domain="post_tag" nicename="linq"><![CDATA[LINQ]]></category>
+  <category domain="post_tag" nicename="microsoft"><![CDATA[Microsoft]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="silverlight"><![CDATA[Silverlight]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[2a391220-3950-43ef-bf17-773e2a6a364a]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+152]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/03/03/Morning+Coffee+152]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2037</wp:comment_id>
+    <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+    <wp:comment_author_email>tomas@winterdom.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.winterdom.com/weblog/</wp:comment_author_url>
+    <wp:comment_author_IP>200.116.204.205</wp:comment_author_IP>
+    <wp:comment_date>2008-03-03 12:58:04</wp:comment_date>
+    <wp:comment_date_gmt>2008-03-03 20:58:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I've been pretty interested lately on distributed control version systems; and I'm looking at both Git and Mercurial. Git seems technically the better one, but the Windows support seems to be still a bit lacking (and not sure why neither of them have a simple binary distribution on a zip file; why mess with installers?).
+
+Anyway, I think the concept is a great idea; and the one thing I really like about it is that it combines the offline support (even better, since pretty much all operations are available offline, not just a few) of SVN, with actual support for branches/merges, and, even better, easy way to provide for personal temporary branches, which is really the only TFS feature I miss every now and then (I'm of course talking about shelvesets).]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Spelunking Service Broker - Dialogs</title>
+  <link>http://devhawk.net/2004/12/13/spelunking-service-broker-dialogs/</link>
+  <pubDate>Mon, 13 Dec 2004 22:04:57 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0270eee1-d2f3-4ffd-86fa-03716654d00c</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>The simplest way to describe SQL Service Broker is "message queues in the database." If the queues are tables in the database then you can do your entire message processing using a local transaction. If you use a separate queuing technology like MSMQ, you can still pull items off the queue, update data in the database and send out messages in the scope of a transaction – it just has to be a distributed transaction. Being able to use a local tx gives us a big performance gain. But, while important, this perf gain isn’t the most compelling reason to use SSB. It turns out that SSB provides important semantic messaging benefits in addition to perf benefits. </p><p>If you study at the semantic messaging model defined by message queuing systems such as MSMQ, MQ Series and <a href="http://msdn.microsoft.com/library/en-us/dnglobspec/html/ws-reliablemessaging.asp">WS-RM</a> you’ll notice that it is inherently one way. Section 2 of the WS-RM spec defines the reliable messaging model to be between a source sending the messages and a destination receiving them. The problem with this model is that as message patterns between services gets richer, we’re going to want bi-directional reliable messaging. SSB calls this a dialog.</p><p>Before you can send messages between services in SSB (assuming everything's been configured), you first have to BEGIN DIALOG and provide the initiating and target service, plus the message contract (more on that in a later post). Note that it's called initiator and target, not sender and receiver. Either side of the dialog can send messages to the other as part of the contract by using SEND ON CONVERSATION - the only requirement is that the initiator sends the first message (hence the name "initiator"). All messages are guaranteed to be delivered exactly once and in order, or both sides of the conversation are notified of the failure and the dialog is torn down. I'm not sure if it guarantees in-order delivery of messages in opposite directions. There are cases where this might be important - I send an order cancellation as I send you a shipping notification - but typically there's a business reason for who "wins" such a conflict. In this shipping/cancellation example, even if you sent me the cancellation before I sent shipment notification, it's not like I can recall the shipment.</p><p>My only issue with this bi-directional reliable messaging is that I'm so used to thinking in terms of one-way RM that it's taking me a while to wrap my head around it. Many of the sample interactions I come up with are simple patterns where the target simply acknowledges the incoming message. Order processing is a good example where I may get meaningful messages (i.e. not simple acks) coming from both ends. What are some others?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">500</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-12-13 22:04:57</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-12-13 22:04:57</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">spelunking-service-broker-dialogs</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0270eee1-d2f3-4ffd-86fa-03716654d00c]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Spelunking+Service+Broker+Dialogs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/12/14/Spelunking+Service+Broker+Dialogs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2747</wp:comment_id>
+    <wp:comment_author><![CDATA[武侠小说]]></wp:comment_author>
+    <wp:comment_author_email>icebluewxl@163.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.readnovel.com/ch/3.html</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-12-14 20:32:41</wp:comment_date>
+    <wp:comment_date_gmt>2004-12-15 04:32:41</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I don’t now what you had said, though I want to help you. I am sorry.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Binding Across States in WF</title>
+  <link>http://devhawk.net/2007/01/25/binding-across-states-in-wf/</link>
+  <pubDate>Thu, 25 Jan 2007 15:59:48 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://325fc7b2-6102-435a-ae94-6e2686e6889f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I didn't get much done today - recovering from the norovirus and all. But I did figure out an important point about State Machine Workflows. </p><p>For my SSB/WF prototype, I decided to implement my business logic as both as a <a href="http://msdn2.microsoft.com/en-us/library/ms735937.aspx">sequential</a> and <a href="http://msdn2.microsoft.com/en-us/library/ms735937.aspx">state machine</a> workflow. While everything worked fine in my sequential prototype, things started failing <em>once I got to my second state</em>. Turns out that I was trying to bind property values across states, which is a no-no. Since states may be entered more than once, they are executed in their own subordinate <a href="http://msdn2.microsoft.com/en-us/library/aa349099.aspx">activity execution context</a>. As per the <a href="http://msdn2.microsoft.com/en-us/library/ms735957.aspx">State Activity docs</a>, "the definition of the child activity in the activity tree (referred to as the template) is never executed and is always in the <b>Intialized</b> state". </p><p>I'm fairly sure that when you try to property bind across states, you're connecting to this template activity, rather than the activity that was actually executed. So instead of getting real data (in my case, the handle of a SSB conversation) you get whatever that value was set to in the designer.</p><p>Of course, once I figured out about the subordinate AEC, this behavior makes perfect sense. But it could be better documented. So far, the best information on them is in the Advanced Activity Execution chapter of <a href="http://www.aw-bc.com/catalog/academic/product/0,1144,0321399838,00.html">Essential WF</a>.</p><p><img style="margin: 0px 0px 0px 5px" height="410" alt="Activity Property Bind Dialog" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/BindingAcrossStatesinWF_E0EC/BindDialog[5].gif" width="510" align="right" /> BTW, to deal with this, you need to promote the values that matter out of the individual activity instance up into the workflow instance itself. In the databind dialog box, there are two tabs: "Bind to an existing member" and "Bind to a new member". I'm not sure why the WF dialog existing member tab is there for state machine workflow since it doesn't do what you might expect it to. Instead, you should create a new member as I've done here. This creates a field or dependency property (whichever you choose) on the parent workflow itself, which is then available to all activities in all states within the workflow.</p><p>I wonder how this works with XAML only workflows? There doesn't appear to be any way to declare a field or dependency property in XAML. The templates that ship with the WF SDK aren't XAML-only, they're a combination of XAML and code. When you create a new member, it's always created in code. The idea of XAML only workflows is very appealing - it severely cuts down the surface area that can be meddled with in your host. But you still need to easily share data between activities!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">862</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-01-25 15:59:48</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-01-25 15:59:48</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">binding-across-states-in-wf</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="wf"><![CDATA[WF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/01/25/Binding+Across+States+In+WF]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Binding+Across+States+In+WF]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[325fc7b2-6102-435a-ae94-6e2686e6889f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2446</wp:comment_id>
+    <wp:comment_author><![CDATA[Scott Allen]]></wp:comment_author>
+    <wp:comment_author_email>scott@odetocode.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.odetocode.com/blogs/scott/</wp:comment_author_url>
+    <wp:comment_author_IP>71.16.197.162</wp:comment_author_IP>
+    <wp:comment_date>2007-01-26 12:27:19</wp:comment_date>
+    <wp:comment_date_gmt>2007-01-26 20:27:19</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[For XAML only workflows you'd have to define a class and derives from StateMachineWorkflowActivity. This new class can define your dependency properties, and any other code the workflow might need. 
+
+For XAML activation then, you use the new class as the root of your workflow:
+
+<ns0:MyCustomStateMachineWorkflowActivity x:Name="foo" ...>
+  <StateActivity ...>
+  <StateActivity ...>
+  <StateActivity>
+     ...
+     <ActivityBind Name=foo" Path="MyCustomDependencyProperty"/>
+     ...
+  </StateActivity>
+</ns0:MyCustomStateMachineWorkflowActivity>
+
+I have a working sample of this approach. I'll post it soon.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

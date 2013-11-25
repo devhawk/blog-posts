@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New SSB Library and Community Site</title>
+  <link>http://devhawk.net/2004/12/27/new-ssb-library-and-community-site/</link>
+  <pubDate>Mon, 27 Dec 2004 11:29:37 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://978dccf8-2019-47bd-aaaf-ab3dc16da821</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>A couple of weeks ago, Paul Murphy pointed me at a <a href="http://devhawk.net/PermaLink.aspx?guid=d4d897c9-a23a-4110-9e94-0e698dd07bae">SSB Wrapper Class</a> that's included in one of the SQL 2005 Beta 2 sample apps. That prompted an email from the SSB dev lead with a much better SSB library that they had written. You can get that <a href="http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=31">library</a>, along with <a href="http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=33">two</a><a href="http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=32">new</a> samples that use it, up on the <a href="http://www.sqlservicebroker.com/forums">SQL Server Service Broker Developers Spot</a>. The SSB Dev Spot is a community site dedicated to apps written on top of SSB. It's run by <a href="http://www.develop.com/us/technology/bio.aspx?id=66">Dan Sullivan</a> of Developmentor, who is also hosting <a href="http://www.sqlservicebroker.com/forums/default.aspx?ForumGroupID=7">his new blog</a> on the site. I hear Dan and fellow DM-ers <a href="http://staff.develop.com/bobb/weblog/default.aspx">Bob Beauchemin</a> and <a href="http://www.develop.com/us/technology/bio.aspx?id=67">Niels Berglund</a> are all very excited about SSB. Nice to know I'm not the only one.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">512</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-12-27 11:29:37</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-12-27 11:29:37</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-ssb-library-and-community-site</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[978dccf8-2019-47bd-aaaf-ab3dc16da821]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+SSB+Library+And+Community+Site]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/12/27/New+SSB+Library+And+Community+Site]]></wp:meta_value>
+  </wp:postmeta>
+</item>

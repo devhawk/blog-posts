@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>First Stop - Japan</title>
+  <link>http://devhawk.net/2004/09/12/first-stop-japan/</link>
+  <pubDate>Sun, 12 Sep 2004 16:13:27 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://77df5e47-9657-42e0-8ede-20f06bc2f02d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>It took forever, but I'm in Tokyo. Ten hours on a plane I expected. I didn't expect the two hours late departure and I didn't realize it was an hour and a half train ride to the hotel from the airport. But I'm here now and I had a relatively good night sleep (I never sleep great on the road). I've got some time to look for souvenirs this morning, then I have meetings this afternoon and tomorrow morning before flying out to Kuala Lumpur tomorrow.</p><p>On the flight out, I ended up next to Jesper Johansson from Microsoft's Security Business Unit. He writes the <a href="http://www.microsoft.com/technet/community/columns/secmgmt/smarch.mspx">Security Management column</a> on <a href="http://www.microsoft.com/technet/default.mspx">Technet</a> and had <i>two </i>of the <a href="http://geekswithblogs.net/dsmith/archive/2004/05/30/5566.aspx">top ten presentations</a> at TechEd US. He spent most of the plane ride working on his "How to Get Your Network Hacked in 10 Easy Steps" presentation. He showed me his demo, where he hacks a Win2k/SQL2k machine using a SQL injection attack. Anybody still using concatenation to generate SQL commands? I realized that was bad before meeting Jesper, but now I've seen just how bad. I'm glad we're out there showing people how this stuff works, if nothing else in order to make them realize what they can do to identify and mitigate security risks. I want Jesper to write some security infrastructure architecture articles for <a href="http://msdn.microsoft.com/architecture/">Architecture Center</a> and/or <a href="http://msdn.microsoft.com/architecture/JOURNAL">JOURNAL</a>.</p><p>Also ran into Mark Hindsbo, who works down the hall from me. He's in town, like me, to meet with the Japanese subsidiary, though he's not going on to TechEd. It was nice having someone around who had been to the MSFT Japan office before (the hotel is in the same building) and to chat with on the train.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">434</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-09-12 16:13:27</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-09-12 16:13:27</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">first-stop-japan</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[77df5e47-9657-42e0-8ede-20f06bc2f02d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[First+Stop+Japan]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/09/12/First+Stop+Japan]]></wp:meta_value>
+  </wp:postmeta>
+</item>
