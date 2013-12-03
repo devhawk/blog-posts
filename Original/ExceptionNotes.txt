@@ -1,0 +1,70 @@
+20100517-0958-washington-stealth-lacrosse
+* Missing Stealth Logo
+* Found on internet archive and saved to images folder
+
+20090918-1713-danish-university-tour-trip-report
+* missing link to Get Silverlight image
+* TODO: Update with new CH9 embed code
+
+20081019-1200-the-pdc-prep-death-march-its-almost-over
+* Missing PDC flair
+* Found on internet archive and saved to images folder
+
+20080219-1129-morning-coffee-147
+* Missing pic of Patrick + Jack
+* Found online and saved to images folder
+
+20061101-1544-the-two-types-of-service-architects
+* missing happy.gif
+* Found on internet archive and saved to images folder
+
+20061023-1129-the-other-foundation-technology
+* Missing blank.gif
+* TODO: Update to remove ref to blank.gif
+
+20060517-2044-rileyanne-in-buttercup-field
+* Missing pic of Riley
+* Found on internet archive and saved to images folder
+
+20041110-2122-halo-2-stats
+* missing halo stats flair
+* found on internet archive and saved to images folder
+
+20040902-1422-software-factories-at-oopsla
+* missing OOPSLA logo
+* found on internet archive and saved to images folder
+
+20040723-1638-lookout-and-c%cf%89
+* Can't download HTML for this post due to wierd URL
+* updated slug to "lookout-and-comega" in wordpress + original backup RSS files
+
+20040603-1658-tech%c2%b7ed-2005-already
+* Can't download HTML for this post due to wierd URL
+* updated slug to "teched-2005-already" in wordpress + original backup RSS files
+* missing teched flair
+* found on internet archive and saved to images folder
+
+20040601-2329-tech%c2%b7ed-wrap-up
+* Can't download HTML for this post due to wierd URL
+* updated slug to "teched-wrap-up" in wordpress + original backup RSS files
+
+20040528-0944-tech%c2%b7ed-day-4
+* Can't download HTML for this post due to wierd URL
+* updated slug to "teched-day-4" in wordpress + original backup RSS files
+
+20040211-2359-teched-architecture-track
+* missing TechEd Logo
+* not in internet archive 
+* TODO: need to update post
+
+20040101-1752-national-champions
+* missing thumbnail + pic of Patrick in USC gear
+* found on internet archive and saved to images folder
+
+20031224-2132-twas-the-night-before-christmas
+* missing thumbnail + pic of Patrick with santa
+* found on internet archive and saved to images folder
+
+20031223-1937-live-on-xbox
+* missing XBL flair
+* found on internet archive and saved to images folder
