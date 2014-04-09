@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2282</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>71.231.42.80</wp:comment_author_IP>
+  <wp:comment_date>2009-11-23 22:40:19</wp:comment_date>
+  <wp:comment_date_gmt>2009-11-24 06:40:19</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[@AB, running the script under the debugger is slower, but I'm not sure how much slower exactly. I'd ask Dino on the IronPython mailing list - he implemented it so I'm sure he can speak to the amount of overhead there is.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

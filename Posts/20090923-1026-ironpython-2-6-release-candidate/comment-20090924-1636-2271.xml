@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2271</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+  <wp:comment_date>2009-09-24 16:36:34</wp:comment_date>
+  <wp:comment_date_gmt>2009-09-24 23:36:34</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[@Bob, We're big fans of Python 3k (though we'll skip 3.0 and go directly to 3.1) as ascii stings is a big source of incompatibility for IronPython. Now that we're (almost) past 2.6, we're trying to figure out our post 2.6 roadmap including when we ship IronPython 3.1.
+
+@Jonathan, I think the best way for people to vote is to create work items on the IronPython CodePlex site since it's got a built in voting system. Also, have you looked tried the new 2.6 - I'd love to hear your thoughts on our improved startup time.
+
+@Eric, Agreed on VS integration
+
+@Dody, Agreed on app compat. Any suggestions beyond Michael's (Django, Trac, Mercurial)?]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

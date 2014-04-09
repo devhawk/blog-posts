@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2144</wp:comment_id>
+  <wp:comment_author><![CDATA[Apolon Ivankovic]]></wp:comment_author>
+  <wp:comment_author_email>apolon@torqsoftware.com</wp:comment_author_email>
+  <wp:comment_author_url>http://torqsoftware.com</wp:comment_author_url>
+  <wp:comment_author_IP>203.59.254.217</wp:comment_author_IP>
+  <wp:comment_date>2008-11-18 01:14:31</wp:comment_date>
+  <wp:comment_date_gmt>2008-11-18 09:14:31</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[From my understanding, Silverlight uses solely Reflection based binding with no support for ICustomTypeDescriptor or anything similar. Given this, then the conclusion is that there's no decent data binding story for the DLR languages in Silverlight. Is this correct? 
+
+It seems like a shame. Is there any way to alter the IronPython/DLR behaviour so that it does generate IL defined properties/methods for some scenarios? i.e. even at the cost of dynamism for those scenarios.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Entertain Me the Way I Want To Be Entertained</title>
+  <link>http://devhawk.net/2003/11/19/entertain-me-the-way-i-want-to-be-entertained/</link>
+  <pubDate>Wed, 19 Nov 2003 13:30:02 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://68da2f20-58f5-460c-9748-0ad2355eaa6b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Talking about the Matrix movies and game got me thinking about the way I am entertained. I'm used to being entertained on opposite ends of the interactivity spectrum: passive movie watching and active game playing. I think you could generate more interesting experiences by intermixing those two extremes. For example, my favorite games are ones with a great story. You could watch someone else play <a href="http://www.xbox.com/en-us/halo/default.htm">Halo</a> and still enjoy the experience. I hear <a href="http://www.xbox.com/en-US/crimsonskies/">Crimson Skies</a> is the same way. So why can't you choose to passively experience the story without getting involved in the game play, if I only care about the story? My wife has no interest in playing <a href="http://www.enterthematrixgame.com/">Enter the Matrix</a>, but she'd like to see the story. </p><p>I also really like sports games (esp. hockey). Many sports games are adding "owner" modes where hire staff and sign players but don't control the game play on the field. That's pretty cool. Microsoft's <a href="http://www.xsnsports.com">XSN Sports</a> lineup doesn't have those modes, instead the focus on online leagues and tournaments. While most of that experience is very interactive, how about having a XSN "SportsCenter" where you can see highlights from other games in your league? Maybe even cut away during breaks in the action to show highlights from other games in your league that may be going on at the same time. Those features are passive, but they would add immensely to the game experience. </p><p>Some of these techniques start to get into the realm of <a href="http://www.machinima.com">Machinima</a> - making movies using gaming engines. </p><p>Anyone else interested in this? What are the good tools and engines that work with <a href="http://msdn.microsoft.com/library/en-us/directx9_m/directx/directx9m.asp">Managed DirectX</a>?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">232</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-11-19 13:30:02</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-11-19 13:30:02</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">entertain-me-the-way-i-want-to-be-entertained</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="games"><![CDATA[Games]]></category>
+  <category domain="post_tag" nicename="movies"><![CDATA[Movies]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[68da2f20-58f5-460c-9748-0ad2355eaa6b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Entertain+Me+The+Way+I+Want+To+Be+Entertained]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/11/19/Entertain+Me+The+Way+I+Want+To+Be+Entertained]]></wp:meta_value>
+  </wp:postmeta>
+</item>

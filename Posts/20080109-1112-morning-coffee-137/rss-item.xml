@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 137</title>
+  <link>http://devhawk.net/2008/01/09/morning-coffee-137/</link>
+  <pubDate>Wed, 09 Jan 2008 11:12:42 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://dd40aea8-2d56-4ac5-b105-b1c782eb4503</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Note, I somehow duplicated Morning Coffee 135. So I've skipped 136 to make up for it. </li><li>Congrats to Hillary Clinton for her <a href="http://www.msnbc.msn.com/id/22570407/">unexpected win</a> in the New Hampshire primary. As I <a href="http://devhawk.net/2008/01/04/Morning+Coffee+135.aspx">said last week</a>, I think Obama has a better chance of winning in November, but I've got nothing against Clinton or her politics. </li><li>Speaking of winning, congrats to LSU on <a href="http://scores.espn.go.com/ncf/recap?gameId=280070194">winning the BCS</a>. Are they the best team in college football? Personally, I don't think so - there are at least three other teams (Georgia, West VA and of course USC) who can make a persuasive argument that they should be #1. But losing to teams like <strike>Penn</strike> Pitt and Stanford, neither WVA and USC have an argument they should have been in the championship game. But that's what makes the BCS such BS. If nothing else, at least the "we need a playoff" meme is <a href="http://sports.espn.go.com/ncf/news/story?id=3186232">picking up steam</a>. </li><li>This is sort of cool: <a href="http://www.eye.fi/">Eye-fi</a> is a wireless enabled SD card so you can wirelessly upload pictures from your camera to your PC or favorite photo service. However, I think the price needs to come down a bit. I recently bought a 2GB SD card for my wife's new camera for $20. A 2GB Eye-fi card is <a href="http://www.amazon.com/dp/B000X27XDC">$99</a>. Not sure wireless upload is worth 5x per card. </li><li>With all the focus on LINQ providing type-safe queries, it's easy to forget that some apps do need to build their queries at run time. Scott Guthrie points at a <a href="http://msdn2.microsoft.com/en-us/vcsharp/bb894665.aspx">Dynamic LINQ C# sample</a> (also <a href="http://msdn2.microsoft.com/en-us/vbasic/bb964686.aspx">available for VB</a>) that builds LINQ expression trees from strings. It kinda takes you back to the bad-old-days of embedding SQL strings in your code, but there are scenarios - especially BI scenarios - where you need this capability. </li><li>Soma <a href="http://blogs.msdn.com/somasegar/archive/2008/01/08/visual-c-2008-feature-pack-beta.aspx">announces</a> the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=D466226B-8DAB-445F-A7B4-448B326C48E7&amp;displaylang=en">VC++ 2008 Feature Pack Beta</a>. This is the long-awaited (by who?) MFC update as well as support for the <a href="http://en.wikipedia.org/wiki/Technical_Report_1">C++ TR1</a>. TR1 provides some FP-esque support like <a href="http://en.wikipedia.org/wiki/Technical_Report_1#Function_Objects">function objects</a> and <a href="http://en.wikipedia.org/wiki/Technical_Report_1#Tuple_Types">tuples</a>, so maybe this is worth a look. On the other hand, given that much (all?) of TR1 is lifted from <a href="http://www.boost.org/">Boost</a>, maybe we should just use that. </li><li>Speaking of cool libraries, check out <a href="http://www.itu.dk/research/c5/">C5</a> (aka the Copenhagen Comprehensive Collection Classes for C#). It's basically a complete redesign of System.Collections.Generic (or SCG as they call it). I've read thru their <a href="http://www.itu.dk/research/c5/Release1.0/ITU-TR-2006-76.pdf">online book</a> and I'm very impressed. Of course, with me focused on F# of late, I'm primarily using immutable collections, so I'm not sure how much use I have for C5 right now. </li><li>There was a free CoDe magazine in my DevTeach bag back in November with a <a href="http://www.code-magazine.com/Article.aspx?quickid=990712182">fascinating article</a> on where LINQ goes from here - LINQ 2.0 if you will. One of things the article discusses is tier-splitting, which has seen the light of day in <a href="http://labs.live.com/volta/">Volta</a>. Will Volta also deliver External Relationships, Reshaping Combinators and Join Patterns or will those come from different projects? </li><li>I had to pave my workstation yesterday. I was running an interim build of Vista x64 SP1 and I couldn't make Virtual Server work with it. As part of the repave, I discovered I needed to update the firmware of my SCSI controller, but the update had to run under DOS. Freaking DOS? My workstation doesn't even have a floppy drive to boot DOS from! However, I was able to <a href="http://www.bay-wolf.com/usbmemstick.htm">boot from a USB thumb disk</a> instead. That's damn useful. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1088</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-01-09 11:12:42</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-01-09 11:12:42</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-137</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-plus-plus"><![CDATA[C++]]></category>
+  <category domain="post_tag" nicename="college-football"><![CDATA[College Football]]></category>
+  <category domain="post_tag" nicename="consumer-electronics"><![CDATA[Consumer Electronics]]></category>
+  <category domain="post_tag" nicename="functional-programming"><![CDATA[Functional Programming]]></category>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <category domain="post_tag" nicename="linq"><![CDATA[LINQ]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="category" nicename="politics"><![CDATA[Politics]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[dd40aea8-2d56-4ac5-b105-b1c782eb4503]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+137]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/01/09/Morning+Coffee+137]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2009</wp:comment_id>
+    <wp:comment_author><![CDATA[brad]]></wp:comment_author>
+    <wp:comment_author_email>brad@blorq.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>76.252.244.142</wp:comment_author_IP>
+    <wp:comment_date>2008-01-09 12:37:50</wp:comment_date>
+    <wp:comment_date_gmt>2008-01-09 20:37:50</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[>> I somehow duplicated Morning Coffee 135. So I've skipped 136 to make up for it.
+
+Thats the trouble w/ those pesky integer IDs.. but i guess 'Morning Coffee {7FF763AB-1553-4e95-BC6F-67028122172E}' just doesnt have the same ring to it...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2010</wp:comment_id>
+    <wp:comment_author><![CDATA[Richard]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>193.128.157.33</wp:comment_author_IP>
+    <wp:comment_date>2008-01-10 00:57:04</wp:comment_date>
+    <wp:comment_date_gmt>2008-01-10 08:57:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[> given that much (all?) of TR1 is lifted from Boost
+
+There are some largish (e.g. around unordered containers) changes and lots in the details between Boost and TR1, so "much" is right here.
+
+> make Virtual Server work with it
+
+As an aside, have you seen this http://blogs.msdn.com/virtual_pc_guy/archive/2008/01/04/running-virtual-pc-under-hyper-v-beta.aspx ... running VPC under a guest under Hyper-v? I can see everyone getting very lost very quickly :-)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2011</wp:comment_id>
+    <wp:comment_author><![CDATA[Randy H.]]></wp:comment_author>
+    <wp:comment_author_email>randy@clrsql.com</wp:comment_author_email>
+    <wp:comment_author_url>http://randyh.wordpress.com</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2008-01-10 14:01:31</wp:comment_date>
+    <wp:comment_date_gmt>2008-01-10 22:01:31</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[West Virginia lost to Pitt- not Penn. If they lost to Penn, they would have a hard time making a case for being in the top 50 teams, much less number one.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

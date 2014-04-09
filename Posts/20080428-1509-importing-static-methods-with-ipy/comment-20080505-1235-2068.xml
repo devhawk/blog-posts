@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2068</wp:comment_id>
+  <wp:comment_author><![CDATA[matt]]></wp:comment_author>
+  <wp:comment_author_email>matthew.grab@tycoelectronics.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>198.175.154.212</wp:comment_author_IP>
+  <wp:comment_date>2008-05-05 12:35:59</wp:comment_date>
+  <wp:comment_date_gmt>2008-05-05 19:35:59</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I have this simple code.  But it returns an error:
+"TypeError: expected ProcessPriorityClass, got int"
+
+from System.Diagnostics import Process
+procs = Process.GetProcesses()
+for p in procs:
+	if p.ProcessName == 'notepad':
+		print p.BasePriority
+		p.PriorityClass = 8
+
+I thought one of the main points of ironpython is not have to worry about typing variables.  But this seems to imply unless I do some sort of dim x as ProcessPriorityClass, I can't call set the value of PriorityClass.
+
+I have searched hard for the answer to this, but it seems like maybe IP isn't that widely used yet.  If you have some good links to where to go to get more help with IP that would be nice.
+Thanks,
+Matt]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

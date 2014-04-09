@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2178</wp:comment_id>
+  <wp:comment_author><![CDATA[David Lawler]]></wp:comment_author>
+  <wp:comment_author_email>djlawler@aol.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>209.155.111.140</wp:comment_author_IP>
+  <wp:comment_date>2009-03-19 05:29:22</wp:comment_date>
+  <wp:comment_date_gmt>2009-03-19 12:29:22</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Very nice!  I'm looking forward to when you get to being able to set a breakpoint and view locals.  I played with Mdbg a while back and even was able to get it working in an IP project...but using the 'higher level' interface, not CorDebug.  This looks like it will be much faster/better.  I look forward to your updates.
+
+Regards,
+
+David L.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

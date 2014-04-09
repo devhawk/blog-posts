@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>.netcpu? .netcpu!</title>
+  <link>http://devhawk.net/2004/12/13/netcpu-netcpu/</link>
+  <pubDate>Mon, 13 Dec 2004 11:32:17 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://229a5180-14b0-4789-8f2a-fbb5856d2d90</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://conpro.net/">Tom</a> sent me a link to Jonathan Wells' <a href="http://blogs.msdn.com/onoj/archive/2004/12/13/281951.aspx">blog entry</a> about the <a href="http://www.dotnetcpu.com/">.netcpu</a>:</p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px"><p>.netcpu Corporation's new '.NET' Embedded development kit includes a .netcpu CPU Module, a general purpose microcontroller for programming embedded solutions using C# and the Microsoft .NET Embedded CLR. Use the kit to experiment with projects such as low-power and sensor applications( eg data collection and logging sensor) or create a simple, smart embedded device (eg smart refridgerator, robot or home automation system).</p></blockquote><p dir="ltr">Note the words “Embedded CLR“...i.e. I'm 99% sure this is the same CLR that powers the <a href="http://direct.msn.com/">SPOT watch</a>. <a href="http://devhawk.net/www.microsoft.com/presspass/exec/rick">Rick Rashid</a> had something in his OOPSLA keynote about this SDK. You can order the <a href="http://www.dotnetcpu.com/products.aspx?3">.netcpu Starter Kit</a> for $499 or just the <a href="http://www.dotnetcpu.com/products.aspx?7">CPU module</a> for $199.</p><p dir="ltr">I think I need to update my xmas list...</p><p dir="ltr"><em>Update </em>- There's a good <a href="http://www.windowsfordevices.com/news/NS4666205829.html">technical article</a> about the .NET Embedded on <a href="http://www.windowsfordevices.com">WindowsForDevices</a>.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">499</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-12-13 11:32:17</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-12-13 11:32:17</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">netcpu-netcpu</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="embedded"><![CDATA[Embedded]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[229a5180-14b0-4789-8f2a-fbb5856d2d90]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[netcpu+Netcpu]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/12/13/netcpu+Netcpu]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2746</wp:comment_id>
+    <wp:comment_author><![CDATA[小说]]></wp:comment_author>
+    <wp:comment_author_email>icebluewxl@163.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.readnovel.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-12-14 20:43:00</wp:comment_date>
+    <wp:comment_date_gmt>2004-12-15 04:43:00</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thank you for you blog!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

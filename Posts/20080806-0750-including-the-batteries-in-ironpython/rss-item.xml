@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Including the Batteries in IronPython</title>
+  <link>http://devhawk.net/2008/08/06/including-the-batteries-in-ironpython/</link>
+  <pubDate>Wed, 06 Aug 2008 07:50:23 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://355828d2-3864-47f4-9baf-3abb037fcf1d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<blockquote><p>Fans of Python use the phrase "batteries included" to describe the <a href="http://docs.python.org/lib/lib.html">standard library</a>, which covers everything from asynchronous processing to zip files.<br /><a href="http://www.python.org/about/">About Python</a></p></blockquote><p>I'm very happy to announce that as of <a href="http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=14353">IronPython Beta 4</a>, we are including the Python standard library in an IronPython release. In addition to the usual binary and source zip archives, we're shipping an MSI installer that gives you the option to include the library files. I <a href="http://devhawk.net/2008/07/17/IronPython+Post+20+Roadmap.aspx">mentioned</a> a couple of weeks ago that I've been spending a lot of time with lawyers, and this is the first step towards making the IronPython project as open as possible. Note the use of the word "first" in that previous statement. In other words, I've got more lawyers to talk to.</p><p>We've added a new standard library component category to the <a href="http://www.codeplex.com/IronPython/WorkItem/AdvancedList.aspx">IronPython Issue Tracker</a>. So if you find any issues or incompatibilities with using the standard library with IronPython, please files bugs on them. We haven't figured out what set of libraries we're going to ship, but we don't want to include ones that we know wont work. For example, Kevin Chu <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2008-August/007908.html">reported on the mailing list</a> that importing the sqlite3 module fails. This is because we don't have a managed version of the _sqlite3 C-based module. So that's one we'll probably remove outright. </p><p>Also, this is the first release we've distributed as an MSI file, and it looks some folks on the mailing list have had some troubles with it. If you have issues, please file setup bugs as well.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1167</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-08-06 07:50:23</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-08-06 07:50:23</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">including-the-batteries-in-ironpython</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[355828d2-3864-47f4-9baf-3abb037fcf1d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Including+The+Batteries+In+IronPython]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/08/06/Including+The+Batteries+In+IronPython]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2109</wp:comment_id>
+    <wp:comment_author><![CDATA[Seo Sanghyeon]]></wp:comment_author>
+    <wp:comment_author_email>sanxiyn@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>143.248.52.225</wp:comment_author_IP>
+    <wp:comment_date>2008-08-06 13:40:25</wp:comment_date>
+    <wp:comment_date_gmt>2008-08-06 20:40:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[FePy project maintains a list of known-to-work standard library modules here:
+
+http://fepy.svn.sourceforge.net/svnroot/fepy/trunk/script/mlist
+
+Feel free to consult it.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2110</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+    <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://www.ironpythoninaction.com</wp:comment_author_url>
+    <wp:comment_author_IP>88.96.105.246</wp:comment_author_IP>
+    <wp:comment_date>2008-08-07 06:35:20</wp:comment_date>
+    <wp:comment_date_gmt>2008-08-07 13:35:20</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[_sqlite3 could be implemented as a compatibility shim over System.Data.SQLite:
+
+http://sqlite.phxsoftware.com/
+
+This would be waaay better than removing the module. There are many standard library modules that could be supported using this technique.
+
+FePy has had a compatibility shim for pyexpat (over System.Xml) for a long time. The more of these modules that are supported the more Python applications and frameworks will work with IronPython.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

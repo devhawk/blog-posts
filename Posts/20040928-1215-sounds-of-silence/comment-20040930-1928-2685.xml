@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2685</wp:comment_id>
+  <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+  <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-09-30 19:28:53</wp:comment_date>
+  <wp:comment_date_gmt>2004-10-01 02:28:53</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Oh, I kind of pictured using it like this (warning, ASCII art now follows... ;)
+
+- PurchaseOrder (Service)
+ . GET (WS-T)
+ . PUT (WS-T)
+ * CheckStock() (service specific)
+- Foo (Service)
+ . GET (WS-T)
+ . PUT (WS-T)
+ * Bar (service specific)
+
+i.e. the services and their data *are* typed with schemas but the actions share a kind of very simple interface type where applicable.
+
+I say again, this doesn't work for everything (i.e. a framework mindset that the client has to play in too),and you (of course) still need extra methods/actions; but where you can boil it down to services being able to 'facade' a 'resource like' business entity like a PurchaseOrder or such, then you can (a) walk up to a service a priori and have a chance at using it in context and (b) be able to aggregate the services (oh my, reporting with services, what next? :).
+
+So all a bit too much to squeeze into a comment, but I would certainly agree that it's not 100% convincing as a set of specs, but interesting never the less...]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

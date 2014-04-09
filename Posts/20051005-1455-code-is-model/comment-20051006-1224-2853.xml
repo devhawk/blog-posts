@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2853</wp:comment_id>
+  <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+  <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://from9till2.com</wp:comment_author_url>
+  <wp:comment_author_IP>86.138.201.98</wp:comment_author_IP>
+  <wp:comment_date>2005-10-06 12:24:19</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-06 19:24:19</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Hello Alan - I almost agree.
+
+I think imprecise *Sketch Models are 'ok', and are in many ways, they are where we are now, i.e. UML2. I just wanted to add a thought though.
+
+But [and at this point I think it's fair to claim a coup d'etat on Harry's blog, just by sheer weight of text] I also think Sketching ability inhibits us slightly from keeping the models nice and tight to the execution-side. One of my greatest fears (goodness, that sounds over-dramatic) is in that progress in Modeling will be held back by going through a number of new rounds of gathering consensus around over a common display notation. If we can't degenerate for pen&board the Model notation then so be it - the steam train rolls on, but if we can, then great; just don't want to sacrifice anything for it. 
+
+I think that the benefits of a sketched/shared notation are actually only a small part of the battle in making sure that two people are sharing the same context when designing something. It's often all 'about the run-time' and how well you both share knowledge of it. The sketched rectangles help like they helped pattern languages, you can still talk at cross purposes for as long as you can keep reality at bay. RE:What most people think a Singleton or even MVC patterns do.
+
+Also, as soon as the model becomes an purely optional part of the development cycle is where it runs the risk of being irrelevant and seen as a withering design artifact for 'that guy in an office down the hall'. 
+
+Put another way, I'd trade some common Sketch notation ability any day of the week, as long as it meant I could always get to an execution 'vehicle' and could model early in terms of validating my ideas with the framework's help, i.e. rather than the whiteboard's. I want to 'run' my model as a part of an iterative design process?
+With the frameworks getting so complex now then the gap between being able to try your ideas from some sort of limited notation into actually running them is getting smaller. We seem to be growing 'rails' all the time, let's make use of that. 
+
+Anyhoo, I would be tempted to rename 'Models must be Precise' with something like 'Models must be in Context' or 'Models make Assumptions' or even 'Models Miss Things Out We Already Know Because Our Brains Are Too Small'. I like the last one best.
+
+I did like your comments on abstraction very much, but for me personally I sway towards a modeling language that helps me validate my ideas early rather than share them early.
+
+- David
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

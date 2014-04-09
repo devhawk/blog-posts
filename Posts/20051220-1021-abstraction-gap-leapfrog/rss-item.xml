@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Abstraction Gap Leapfrog</title>
+  <link>http://devhawk.net/2005/12/20/abstraction-gap-leapfrog/</link>
+  <pubDate>Tue, 20 Dec 2005 10:21:38 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://69f549ca-f16f-4d7e-acd1-b3da3cbee337</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>One of the cool things about having a blogging conversation with <a href="http://blogs.msdn.com/garethj">someone on the other side of the world</a> is that while you sleep they are thinking of a <a href="http://blogs.msdn.com/garethj/archive/2005/12/19/505732.aspx">good response</a> to your post. The only downside? Having to deal with rampant misspelling like "artefacts". :)</p><p align="left">Anyway, Gareth responds to <a href="http://devhawk.net/2005/12/19/Imprecise+Vs+Incomplete.aspx">my post</a>:</p><blockquote><p>Until we get models that are perfectly aligned with our business domains, we'll have people who want to create models but who get them slightly wrong from a precision point of view - usually in the places where the imperfect models interact with other aspects of the system across or down the abstraction stack.</p><p>With code, you'd likely not want to have people check in sources that don't even compile and then hand them off to other folks who do make them compile, but I think that's exactly the type of process we'll see emerging in modelling for a while. I feel this way because I don't foresee us getting modelling languages of <i>pure business intent</i> 100% right for some time yet - we're simply not close enough to formal enough descriptions of systems as intensely human as a business yet. However, I hope we won't want to try and keep modelling as locked away with the techies as traditional development has been. (Hope I'm not talking myself out of a job here…)</p><p>[<a href="http://blogs.msdn.com/garethj/archive/2005/12/19/505732.aspx">Pseudomodels and intent</a>]</p></blockquote><p>I keep saying incomplete and Gareth keeps saying imprecise, but I think we can both agree on the term "imperfect". There's a massive difference between having an precise language that is imperfect versus a language that is inherently imprecise like UML. </p><p>However, I think the primary disconnect here has to do with Gareth and my views on how higher abstracted languages will evolve. Gareth's comments about modeling "pure business intent", having "models that are perfectly aligned with our business domains" and not "keep[ing] modelling as locked away with the techies" imply to me that Gareth wants to work down from the high level business abstractions into implementable technical abstractions. Frankly, I don't think that's very likely. Leapfrogging a few levels of abstraction hasn't worked well in the past (CASE and UML/MDA) and I don't think it will work well now. </p><p>I find it much more likely that we will build higher level abstractions directly on top of existing abstractions. Again, this is similar to the way C++ built on C which in turn built on ASM. Sure, that could keep modeling "locked away with the techies" for a while, but we're already beginning to see the light at the end of that tunnel. <a href="http://msdn.microsoft.com/windowsvista/building/workflow/default.aspx">Windows Workflow Foundation</a> is a significant leap in abstraction while also being something than non-techies can use. Reports about about Sharepoint "12" embedding the WF engine and FrontPage "12" providing a Workflow Designer for building SharePoint workflows. While I imagine (and I haven't used any of the new Office "12" suite so this is pure conjecture) these WF tools are targeting the "power user", they certainly aren't only for developers. </p><p>Believe me, I would love to be wrong about this. I would much rather work down from or business user intent than up from the technical foundation. I just don't think it's feasible. The process Gareth describes breaks the "Model Transformation must be Deterministic" tenet of <a href="http://devhawk.net/2005/10/05/Code+Is+Model.aspx">Code is Model</a>, though the word "must" may be to strong to allow for language evolution. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">663</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-12-20 10:21:38</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-12-20 10:21:38</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">abstraction-gap-leapfrog</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[69f549ca-f16f-4d7e-acd1-b3da3cbee337]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Abstraction+Gap+Leapfrog]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/12/20/Abstraction+Gap+Leapfrog]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>3343</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk &#8211; Windows Camp Demo, Part Two]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://devhawk.net/2012/06/19/windows-camp-demo-part-two/</wp:comment_author_url>
+  <wp:comment_author_IP>184.168.254.1</wp:comment_author_IP>
+  <wp:comment_date>2012-06-24 09:34:49</wp:comment_date>
+  <wp:comment_date_gmt>2012-06-24 16:34:49</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[[...] my previous post, we set up a C++ WinRT component project and a C# Metro style XAML app to use the component. The [...]]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type>pingback</wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_result</wp:meta_key>
+    <wp:meta_value><![CDATA[false]]></wp:meta_value>
+  </wp:commentmeta>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_history</wp:meta_key>
+    <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340555689.8581";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+  </wp:commentmeta>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_history</wp:meta_key>
+    <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1340555706.0414";s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+  </wp:commentmeta>
+</wp:comment>

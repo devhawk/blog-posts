@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>MSFT Research Rock</title>
+  <link>http://devhawk.net/2003/10/29/msft-research-rock/</link>
+  <pubDate>Wed, 29 Oct 2003 12:47:57 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e18abc1f-1f5f-4c5d-a416-78c5bbe9e8a7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I loved this morning's keynote on research. I saw the <a href="http://skyserver.sdss.org">SkyServer</a> stuff @ an internal research event last year. Coolest part: you can <a href="http://skyserver.org/myskyserver/">download</a> a slice of the database and run it locally. <a href="http://research.microsoft.com/~Gray/">Jim Gray</a> is sitting on the floor behind me as I blog talking about SkyServer futures. Don just finished his session Indigo and the Future of Distributed Computing. I guess Jim couldn't get a seat for that. </p><p>A couple of people jumped on Don after the talk to discuss transactions across services. This is a bad bad bad idea. For those @ PDC, come to the architecture symposium tomorrow in room 152/153. My job is to connect with the architect community so come get my <a href="PermaLink.aspx?guid=ed18a54c-d8dd-4a81-80be-e5e976de78ba">business card</a>. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">215</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-10-29 12:47:57</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-10-29 12:47:57</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">msft-research-rock</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/10/29/MSFT+Research+Rock]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[MSFT+Research+Rock]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e18abc1f-1f5f-4c5d-a416-78c5bbe9e8a7]]></wp:meta_value>
+  </wp:postmeta>
+</item>

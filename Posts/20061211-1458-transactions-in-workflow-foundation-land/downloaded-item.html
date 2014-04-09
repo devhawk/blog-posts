@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">                          
+<!--<![endif]-->
+
+			<head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		    <title>Transactions in Workflow Foundation-land | DevHawk</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link rel="profile" href="http://gmpg.org/xfn/11" />
+		    <link rel="pingback" href="http://devhawk.net/xmlrpc.php" />
+		   
+		   <!-- Icons font support for IE6-7  -->
+		    <!--[if lt IE 8]>
+		      <script src="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/lte-ie7.js"></script>
+		    <![endif]-->
+		    <link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Feed" href="http://devhawk.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Comments Feed" href="http://devhawk.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Transactions in Workflow Foundation-land Comments Feed" href="http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/feed/" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-skin-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/css/blue.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='http://devhawk.net/wp-content/themes/customizr/style.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/modernizr.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devhawk.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devhawk.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Streaky Caps' href='http://devhawk.net/2006/12/07/streaky-caps/' />
+<link rel='next' title='Good Week for Hobbyists and Students' href='http://devhawk.net/2006/12/13/good-week-for-hobbyists-and-students/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/' />
+<link rel='shortlink' href='http://wp.me/p1uVhd-dv' />
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/styles/shCoreDefault.css"/>
+<!-- END: Syntax Highlighter ComPress -->
+
+  
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Transactions in Workflow Foundation-land" />
+<meta property="og:url" content="http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/" />
+<meta property="og:description" content="I&#039;ve been spending some quality time with SSB and WF of late. On the balance, my opinion of both these technologies is very positive, though each has some warts of note. For Service Broker, they go..." />
+<meta property="article:published_time" content="2006-12-11T14:58:26+00:00" />
+<meta property="article:modified_time" content="2006-12-11T14:58:26+00:00" />
+<meta property="article:author" content="http://devhawk.net/author/admin/" />
+<meta property="og:site_name" content="DevHawk" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+<meta name="twitter:card" content="summary" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Expand All' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Collapse All');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Expand All');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+        
+        
+        		    <!--Icons size hack for IE8 and less -->
+		    <!--[if lt IE 9]>
+		      <link href="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/ie8-hacks.css" rel="stylesheet" type="text/css"/>
+		    <![endif]-->
+		</head>
+		
+	<body class="single single-post postid-837 single-format-standard" itemscope itemtype="http://schema.org/WebPage">
+		
+		
+	   	<header class="tc-header clearfix row-fluid" role="banner">
+			
+			
+		
+	    	
+	        <div class="brand span3 pull-left">
+
+	        	<h1><a class="site-title" href="http://devhawk.net/" title="DevHawk | Passion * Technology * Ruthless Competence">DevHawk</a></h1>
+	        </div> <!-- brand span3 pull-left -->
+
+	        
+	   
+	   
+	   <div class="container outside"><h2 class="site-description">Passion * Technology * Ruthless Competence</h2></div>
+      	<div class="navbar-wrapper clearfix span9">
+
+      		<div class="navbar notresp row-fluid pull-left">
+      			<div class="navbar-inner" role="navigation">
+      				<div class="row-fluid">
+            			<div class="social-block span5"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="nav tc-hover-menu"><li id="menu-item-1862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li id="menu-item-1562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li id="menu-item-1564" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li id="menu-item-1565" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li id="menu-item-1561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            		</div><!-- .row-fluid -->
+            	</div><!-- /.navbar-inner -->
+            </div><!-- /.navbar notresp -->
+
+            <div class="navbar resp">
+            	<div class="navbar-inner" role="navigation">
+            		<div class="social-block "><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu-1" class="nav tc-hover-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            	</div><!-- /.navbar-inner -->
+      		</div><!-- /.navbar resp -->
+
+    	</div><!-- /.navbar-wrapper -->
+
+        
+		</header>
+
+		<div id="main-wrapper" class="container">
+
+    <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin"><a href="http://devhawk.net" title="DevHawk" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2006/" title="2006">2006</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2006/12/" title="December 2006">December</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2006/12/11/" title="December 11, 2006">11</a> <span class="sep">&raquo;</span> <span class="trail-end">Transactions in Workflow Foundation-land</span></div><div class="tc-hot-crumble container" role="navigation"><div class="row"><div class="span12"></div></div></div>    
+    <div class="container" role="main">
+        <div class="row">
+
+                            
+                <div id="content" class="span9 article-container">
+                    
+                    
+                        
+                                                                                    
+                                                                    <article id="post-837" class="post-837 post type-post status-publish format-standard hentry category-uncategorized tag-service-broker tag-wf row-fluid">
+                                        
+        <header class="entry-header">
+          
+          <h1 class="entry-title format-icon">Transactions in Workflow Foundation-land  </h1>
+        <div class="entry-meta">
+            This entry was posted in <a class="btn btn-mini" href="http://devhawk.net/category/uncategorized/" title="View all posts in Uncategorized"> Uncategorized </a> and tagged <a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/service-broker/" title="View all posts in Service Broker"> Service Broker </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/wf/" title="View all posts in WF"> WF </a> on <a href="http://devhawk.net/2006/12/11/" title="2:58 pm" rel="bookmark"><time class="entry-date" datetime="2006-12-11T14:58:26+00:00">December 11, 2006</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://devhawk.net/author/admin/" title="View all posts by DevHawk" rel="author">DevHawk</a></span></span>.
+        </div><!-- .entry-meta -->
+
+        <hr class="featurette-divider __before_content">
+        </header><!-- .entry-header -->
+
+          
+
+        <section class="entry-content ">
+            <p>I&#8217;ve been spending some quality time with SSB and WF of late. On the balance, my opinion of both these technologies is very positive, though each has some warts of note. For Service Broker, they got the transactional messaging semantics right, but much of the lower level connection management &#8211; what SSB calls &#8220;routes&#8221; are clumsy to deal with. For Workflow Foundation, the execution model is amazingly flexible. Unfortunately, WF&#8217;s support for transactions is significantly more rigid.</p>
+<p>If you&#8217;re build a SSB app, you&#8217;re typical execution thread looks like this:</p>
+<ol>
+<li>Start a transaction.  </li>
+<li>Receive message(s) from top of the queue.  </li>
+<li>Execute service business logic. Obviously, this varies from service to service but it typically involves reading and writing data in the database as well as sending messages to other services.  </li>
+<li>Commit the transaction</li>
+</ol>
+<p>When I sat down to marry SSB and WF, I naively assumed I could simply use WF for step three above. Alas, that turns out to be impossible. <a href="http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=843580&amp;SiteID=1">This thread</a> on MSDN Forums has most of the gory details, but the short version is that WF does not support flowing host managed transactions into the workflow instance. As per <a href="http://forums.microsoft.com/MSDN/User/Profile.aspx?UserID=154457&amp;SiteID=1">Joel West</a> in the aforementioned thread:</p>
+<blockquote><p>&#8220;[T]he WF runtime in V1 only supports flowing in a transaction on WorkflowInstance.Unload. There are various ways that you could try and hack this (with a custom persistence service or WorkflowCommitWorkBatchService) but if you do this it won&#8217;t work correctly 100% of the time and the times when it fails (error conditions or failures causing the tx to rollback) will be exactly when you are expecting transactional consistency.</p>
+<p>Bottom line &#8211; the only way to make this work is to call WorkflowInstance.Unload inside your transaction scope.  This was the best that we could do in V1 to try and enable this pattern in some form.  Not always ideal but it can be made to work for most scenarios that require usage of an external transaction.&#8221;</p>
+</blockquote>
+<p>So the WF compatible execution thread looks like this:  </p>
+<ol>
+<li>Start a transaction  </li>
+<li>Receive message(s) from the top of the queue  </li>
+<li>Load/Create the associated workflow instance for the received messages
+<ul>
+<li>All messages received are guaranteed to be from the same SSB conversation group, which is roughly analogous to a WF instance, so this turns out to be fairly easy</li>
+</ul>
+</li>
+<li>Enqueue the received message in the workflow instance  </li>
+<li>Unload the workflow instance  </li>
+<li>Commit the host transaction </li>
+<li>Reload the workflow instance  </li>
+<li>Run the workflow instance (note, I&#8217;m using the manual scheduling service)
+<ul>
+<li>Workflow instance creates a transaction if needed</li>
+</ul>
+</li>
+<li>Unload the workflow instance (typically done via UnloadOnIdle in the persistence service)</li>
+<ul>
+<li>Assuming the workflow instance needed a transaction, it gets committed after unload</li>
+</ul>
+</ol>
+<p>Basically, you use two transactions. One host managed transaction to move the message from SSB to WF instance and one WF managed transaction to process the message.The need for two transaction instead of one is unfortunate, but required given the current design of WF. And frankly, given the importance and difficulty of transaction management, I&#8217;m not that surprised that WF has hard coded transaction semantics. Trying to build a generic transaction flow model that would work in the myriad of scenarios WF is targeting would have been extremely difficult. At least there is a work around, even if it means using two transactions and loading and unloading the workflow instance twice.</p>
+<p>However, there is a silver lining to the two transaction approach: two unexpected benefits when dealing with poison messages. First, SSB doesn&#8217;t have dead letter queue like MSMQ does. Moving a poison message to a dead letter queue would break SSB&#8217;s exactly once and in order semantics.(MSMQ doesn&#8217;t guarantee in order delivery) But moving all messages into the WF instance gets them out of the main SSB queue so poison messages don&#8217;t continue to get processed over and over. </p>
+<p>Second, because the workflow instance is peristed after the messages are enqueued, there&#8217;s a representation of the workflow after the message is received but before the message is processed. If there&#8217;s a poison message, attempting to processing the message will fail and rollback to this state. This persisted workflow instance could be sent to a developer who could step through it to determine the cause of the error. We could even have developer versions of runtime workflow services so we could read remote data and simulate data updates. I wouldn&#8217;t want the developer updating production data in this way, but it would be great for troubleshooting issues.</p>
+                    </section><!-- .entry-content -->
+
+                                          </article>
+                                
+                            
+                        
+                    
+	<hr class="featurette-divider __after_loop">
+
+<div id="comments" class="comments-area">
+	
+			
+	
+		<h2 id="tc-comment-title" class="comments-title">4 thoughts on &ldquo;<span>Transactions in Workflow Foundation-land</span>&rdquo;</h2>    
+            <ul class="commentlist">
+                    <li class="comment even thread-even depth-1" id="li-comment-2436">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/d2cb495ec8c6975874403030a4865a33?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://www.winterdom.com/weblog' rel='external nofollow' class='url'>Tomas Restrepo</a>  </cite> <a class="comment-date" href="http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/#comment-2436"><time datetime="2006-12-11T16:11:51+00:00">December 11, 2006 at 4:11 pm</time></a></header>  <section class="comment-content comment"><p>The WF transaction model makes more sense if you come from a BizTalk background (like me), because BizTalk has essentially the same restriction. </p>
+<p>That said, BizTalk is far, far more flexible in its transaction facilities, but you still have to remember that message receive and send operations operate in completely separate transactions from orchestrations. However, this is improved in BizTalk because you have the MessageBox right in the middle of the messaging engine and the orchestration engine which makes implementing your kind of scenario completely natural even under the two-transaction separation.</p>
+<p>I&#8217;m not quite sure I agree about the whole poison message thingie, though. First of all, handling &#8220;real&#8221; poison messages (i.e. malformed ones that you really need to discard) requires breaking In-order delivery semantics if you hope to keep processing. The only way to avoid if the problematic message is important is to completely stop processing, fix the offending message(s) and resume processing. And this, I think, pretty much is all across the board (not specific to SSSB or MSMQ). </p>
+<p>Second, MSMQ does support in-order delivery, afaik, for *messages sent in the same transaction*. This is key because MSMQ doesn&#8217;t have the notion of a conversation/dialog like SSSB does (though it&#8217;s certainly possible to implement it if you really want it). That said, I think you may be talking more about &#8220;in-order processing&#8221;, which is a completely different thing, and which you seem to be dismissing. I&#8217;m not quite sure why you&#8217;d care so much about in-order delivery if you&#8217;re not doing in-order processing after that (i.e. message 2 might finish processing before message-1 does), so that might be something to consider.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2437">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/56ec7ec88534583795e9086eaec1635b?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">DevHawk  </cite> <a class="comment-date" href="http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/#comment-2437"><time datetime="2006-12-12T09:17:56+00:00">December 12, 2006 at 9:17 am</time></a></header>  <section class="comment-content comment"><p>I&#8217;m not very deep on BizTalk, but I&#8217;m working on it. That said, comparing the high-level TX capabilities of a product like BizTalk to the low-level TX capabilities of a technology like WF is an apples to oranges comparison. From what I understand about MessageBox, it sounds fairly similar to SSB, which would make a SSB/WF implementation conceptually similar to BizTalk. But I need to learn much more about BizTalk.</p>
+<p>I agree 100% that dealing with poison messages need to be fixed before you can resume processing. But the silver lining of the two transaction approach to SSB &#038; WF is that you&#8217;re only stalling the instance with the poision message. If you left the poison message in the SSB queue, it would keep getting picked up until and throwing an exception until an operator came along to do something. If you move it to WF, then it will only effect the instance that message is intended for.</p>
+<p>I&#8217;m not dismissing in-order processing at all. It&#8217;s one of the primary values of SSB in my opinon. Assuming WF doesn&#8217;t reorder messages in a queue, moving them from SSB to WF wouldn&#8217;t break the in order semantics.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment even thread-even depth-1" id="li-comment-2438">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/d2cb495ec8c6975874403030a4865a33?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://www.winterdom.com/weblog' rel='external nofollow' class='url'>Tomas Restrepo</a>  </cite> <a class="comment-date" href="http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/#comment-2438"><time datetime="2006-12-12T20:06:38+00:00">December 12, 2006 at 8:06 pm</time></a></header>  <section class="comment-content comment"><p>Harry,</p>
+<p>I just realized I misread your original post and didn&#8217;t notice that you were delivering all messages in a single conversation group to a single workflow instance. In that case, you&#8217;re probably maintaining ordered processing. FWIW, seems you&#8217;re implementing the kind of solution that is usually handled in Biztalk through a feature known as Convoys (look them up, the details might be useful to you at least for ideas, I think)</p>
+<p>BTW, the BizTalk MessageBox is far more than SSB, though they share some features, I think. Mostly, the MsgBox does not only queuing, it&#8217;s also the underlying Pub/Sub and content-based routing engine in BizTalk. I do think it might be possible to implement the message box on top of SSB, and maybe the BizTalk team might explore that for possible performance improvements in future releases. </p>
+<p>And yes, I realize I&#8217;m a pita sometimes nagging about biztalk (but I do think for the kind of work you&#8217;re doing, knowing how biztalk manages some of it would prove useful).</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2439">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/56ec7ec88534583795e9086eaec1635b?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">DevHawk  </cite> <a class="comment-date" href="http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/#comment-2439"><time datetime="2006-12-13T09:59:04+00:00">December 13, 2006 at 9:59 am</time></a></header>  <section class="comment-content comment"><p>Don&#8217;t worry. I&#8217;m a PITA sometimes nagging about SSB! <img src="http://devhawk.net/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+            </ul><!-- .commentlist -->
+
+          <p class="nocomments">Comments are closed.</p>
+	
+</div><!-- #comments .comments-area -->
+      
+        <hr class="featurette-divider __after_loop">
+        <nav id="nav-below" class="navigation" role="navigation">
+
+            <h3 class="assistive-text">
+              Post navigation            </h3>
+
+            <ul class="pager">
+                              <li class="previous">
+                  <span class="nav-previous">
+                    <a href="http://devhawk.net/2006/12/07/streaky-caps/" rel="prev"><span class="meta-nav">&larr;</span> Streaky Caps</a>                  </span>
+                </li>
+                                            <li class="next">
+                  <span class="nav-next">
+                    <a href="http://devhawk.net/2006/12/13/good-week-for-hobbyists-and-students/" rel="next">Good Week for Hobbyists and Students <span class="meta-nav">&rarr;</span></a>                  </span>
+                </li>
+                          </ul>
+
+        </nav><!-- #nav-below .navigation -->
+
+      
+      
+                </div><!--.article-container -->
+
+                  
+      <div class="span3 right tc-sidebar">
+         <div id="right" class="widget-area" role="complementary">
+                                             <aside id="text-3" class="widget widget_text"><h3 class="widget-title">Our Sponsors</h3>			<div class="textwidget"><div align=center data-type="ad" data-publisher="lqm.devhawk.site" data-zone="ron" data-format="160x600" data-tags="windows%2C%20windows%208%2C%20windows%20runtime%2C%20JavaScript%2C%20C%23%2C%20CLR%2C%20C%2B%2B"></div></div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-177"><a href="http://devhawk.net/category/architecture/" title="View all posts filed under Architecture">Architecture</a>
+</li>
+	<li class="cat-item cat-item-204"><a href="http://devhawk.net/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://devhawk.net/category/general-geekery/" title="View all posts filed under General Geekery">General Geekery</a>
+</li>
+	<li class="cat-item cat-item-252"><a href="http://devhawk.net/category/ironpython/" title="View all posts filed under IronPython">IronPython</a>
+</li>
+	<li class="cat-item cat-item-180"><a href="http://devhawk.net/category/morning-coffee/" title="View all posts filed under Morning Coffee">Morning Coffee</a>
+</li>
+	<li class="cat-item cat-item-352"><a href="http://devhawk.net/category/personal/" title="View all posts filed under Personal">Personal</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="http://devhawk.net/category/politics/" title="View all posts filed under Politics">Politics</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="http://devhawk.net/category/sports/" title="View all posts filed under Sports">Sports</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://devhawk.net/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-283"><a href="http://devhawk.net/category/windows/" title="View all posts filed under Windows">Windows</a>
+</li>
+	<li class="cat-item cat-item-357"><a href="http://devhawk.net/category/windows-runtime/" title="View all posts filed under Windows Runtime">Windows Runtime</a>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-4" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='http://devhawk.net/tag/asp-net/' class='tag-link-178' title='27 topics' style='font-size: 13.466666666667pt;'>ASP.NET</a>
+<a href='http://devhawk.net/tag/blogging/' class='tag-link-184' title='122 topics' style='font-size: 22pt;'>Blogging</a>
+<a href='http://devhawk.net/tag/c-sharp/' class='tag-link-235' title='17 topics' style='font-size: 10.933333333333pt;'>C#</a>
+<a href='http://devhawk.net/tag/college-football/' class='tag-link-194' title='10 topics' style='font-size: 8pt;'>College Football</a>
+<a href='http://devhawk.net/tag/community/' class='tag-link-213' title='81 topics' style='font-size: 19.6pt;'>Community</a>
+<a href='http://devhawk.net/tag/dasblog/' class='tag-link-303' title='12 topics' style='font-size: 8.9333333333333pt;'>dasBlog</a>
+<a href='http://devhawk.net/tag/database/' class='tag-link-214' title='13 topics' style='font-size: 9.4666666666667pt;'>Database</a>
+<a href='http://devhawk.net/tag/debugger/' class='tag-link-279' title='23 topics' style='font-size: 12.533333333333pt;'>Debugger</a>
+<a href='http://devhawk.net/tag/dlr/' class='tag-link-231' title='25 topics' style='font-size: 12.933333333333pt;'>DLR</a>
+<a href='http://devhawk.net/tag/domain-specific-languages/' class='tag-link-208' title='15 topics' style='font-size: 10.133333333333pt;'>Domain Specific Languages</a>
+<a href='http://devhawk.net/tag/dynamic-languages/' class='tag-link-217' title='12 topics' style='font-size: 8.9333333333333pt;'>Dynamic Languages</a>
+<a href='http://devhawk.net/tag/entertainment/' class='tag-link-196' title='14 topics' style='font-size: 9.8666666666667pt;'>Entertainment</a>
+<a href='http://devhawk.net/tag/etech/' class='tag-link-297' title='15 topics' style='font-size: 10.133333333333pt;'>ETech</a>
+<a href='http://devhawk.net/tag/f-sharp/' class='tag-link-198' title='51 topics' style='font-size: 17.066666666667pt;'>F#</a>
+<a href='http://devhawk.net/tag/family/' class='tag-link-179' title='33 topics' style='font-size: 14.533333333333pt;'>Family</a>
+<a href='http://devhawk.net/tag/functional-programming/' class='tag-link-202' title='18 topics' style='font-size: 11.2pt;'>Functional Programming</a>
+<a href='http://devhawk.net/tag/games/' class='tag-link-185' title='18 topics' style='font-size: 11.2pt;'>Games</a>
+<a href='http://devhawk.net/tag/hockey/' class='tag-link-215' title='33 topics' style='font-size: 14.533333333333pt;'>Hockey</a>
+<a href='http://devhawk.net/tag/ironruby/' class='tag-link-253' title='16 topics' style='font-size: 10.533333333333pt;'>IronRuby</a>
+<a href='http://devhawk.net/tag/lanugages/' class='tag-link-229' title='43 topics' style='font-size: 16pt;'>Lanugages</a>
+<a href='http://devhawk.net/tag/linq/' class='tag-link-224' title='24 topics' style='font-size: 12.8pt;'>LINQ</a>
+<a href='http://devhawk.net/tag/microsoft/' class='tag-link-232' title='31 topics' style='font-size: 14.266666666667pt;'>Microsoft</a>
+<a href='http://devhawk.net/tag/modelling/' class='tag-link-225' title='61 topics' style='font-size: 18pt;'>Modelling</a>
+<a href='http://devhawk.net/tag/movies/' class='tag-link-218' title='23 topics' style='font-size: 12.533333333333pt;'>Movies</a>
+<a href='http://devhawk.net/tag/music/' class='tag-link-248' title='20 topics' style='font-size: 11.733333333333pt;'>Music</a>
+<a href='http://devhawk.net/tag/p2p/' class='tag-link-325' title='11 topics' style='font-size: 8.5333333333333pt;'>P2P</a>
+<a href='http://devhawk.net/tag/parsing-expression-grammar/' class='tag-link-209' title='16 topics' style='font-size: 10.533333333333pt;'>Parsing Expression Grammar</a>
+<a href='http://devhawk.net/tag/powershell/' class='tag-link-230' title='40 topics' style='font-size: 15.6pt;'>PowerShell</a>
+<a href='http://devhawk.net/tag/rest/' class='tag-link-181' title='18 topics' style='font-size: 11.2pt;'>REST</a>
+<a href='http://devhawk.net/tag/ruby/' class='tag-link-190' title='23 topics' style='font-size: 12.533333333333pt;'>Ruby</a>
+<a href='http://devhawk.net/tag/service-broker/' class='tag-link-320' title='14 topics' style='font-size: 9.8666666666667pt;'>Service Broker</a>
+<a href='http://devhawk.net/tag/silverlight/' class='tag-link-200' title='20 topics' style='font-size: 11.733333333333pt;'>Silverlight</a>
+<a href='http://devhawk.net/tag/soa/' class='tag-link-183' title='94 topics' style='font-size: 20.533333333333pt;'>SOA</a>
+<a href='http://devhawk.net/tag/software-factories/' class='tag-link-195' title='11 topics' style='font-size: 8.5333333333333pt;'>Software Factories</a>
+<a href='http://devhawk.net/tag/visual-studio/' class='tag-link-187' title='20 topics' style='font-size: 11.733333333333pt;'>Visual Studio</a>
+<a href='http://devhawk.net/tag/washington-capitals/' class='tag-link-192' title='42 topics' style='font-size: 15.866666666667pt;'>Washington Capitals</a>
+<a href='http://devhawk.net/tag/wcf/' class='tag-link-313' title='31 topics' style='font-size: 14.266666666667pt;'>WCF</a>
+<a href='http://devhawk.net/tag/web-2-0/' class='tag-link-188' title='67 topics' style='font-size: 18.533333333333pt;'>Web 2.0</a>
+<a href='http://devhawk.net/tag/web-services/' class='tag-link-290' title='12 topics' style='font-size: 8.9333333333333pt;'>Web Services</a>
+<a href='http://devhawk.net/tag/wf/' class='tag-link-268' title='21 topics' style='font-size: 12pt;'>WF</a>
+<a href='http://devhawk.net/tag/windows-live/' class='tag-link-207' title='29 topics' style='font-size: 13.866666666667pt;'>Windows Live</a>
+<a href='http://devhawk.net/tag/working-at-msft/' class='tag-link-250' title='21 topics' style='font-size: 12pt;'>Working at MSFT</a>
+<a href='http://devhawk.net/tag/xbox-360/' class='tag-link-189' title='54 topics' style='font-size: 17.333333333333pt;'>Xbox 360</a>
+<a href='http://devhawk.net/tag/xml/' class='tag-link-238' title='11 topics' style='font-size: 8.5333333333333pt;'>XML</a>
+<a href='http://devhawk.net/tag/xna/' class='tag-link-193' title='15 topics' style='font-size: 10.133333333333pt;'>XNA</a></div>
+</aside>
+                                        </div><!-- #left -->
+      </div><!--.tc-sidebar -->
+
+      
+        </div><!--.row -->
+    </div><!-- .container role: main -->
+
+    
+</div><!--#main-wrapper"-->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="">
+	 				<div class="container footer-widgets ">
+				<div class="row widget-area" role="complementary">
+					
+					
+													
+							<div id="footer_one" class="span4">
+								<aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://devhawk.net/wp-login.php">Log in</a></li>
+			<li><a href="http://devhawk.net/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://devhawk.net/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</aside>							</div>
+
+						
+					
+													
+							<div id="footer_two" class="span4">
+								<aside id="text-6" class="widget widget_text"><h3 class="widget-title">Disclaimer</h3>			<div class="textwidget"><p>The information in this weblog is provided "AS IS" with no warranties, and confers no rights. This weblog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my opinion. Inappropriate comments will be deleted at the authors discretion.</p>
+
+<script type='text/javascript'>
+    function _dmBootstrap(file) { 
+        var _dma = document.createElement('script');  
+        _dma.type = 'text/javascript'; 
+        _dma.async = true;  
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+</script>
+</div>
+		</aside>							</div>
+
+						
+					
+						
+									</div><!-- .row.widget-area -->
+			</div><!--.footer-widgets -->
+		    			 <div class="colophon">
+		 	<div class="container">
+		 		<div class="row-fluid">
+				    <div class="span4 social-block pull-left"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><div class="span4 credits"><p> &middot; &copy; 2014 <a href="http://devhawk.net" title="DevHawk" rel="bookmark">DevHawk</a> &middot; Designed by <a href="http://www.themesandco.com/">Themes &amp; Co</a> &middot;</p></div><div class="span4 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div>      			</div><!-- .row-fluid -->
+      		</div><!-- .container -->
+      	</div><!-- .colophon -->
+    		</footer>
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript">
+    SyntaxHighlighter.autoloader(
+        'applescript			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAppleScript.js',
+        'actionscript3 as3		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAS3.js',
+        'bash shell				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushBash.js',
+        'coldfusion cf			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushColdFusion.js',
+        'cpp c					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCpp.js',
+        'c# c-sharp csharp		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCSharp.js',
+        'css					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCss.js',
+        'delphi pascal pas		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDelphi.js',
+        'diff patch			    http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDiff.js',
+        'erl erlang				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushErlang.js',
+        'groovy					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushGroovy.js',
+        'java					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJava.js',
+        'jfx javafx				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJavaFX.js',
+        'js jscript javascript	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJScript.js',
+        'perl pl				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPerl.js',
+        'php					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPhp.js',
+        'text plain				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPlain.js',
+        'powershell ps          http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPowerShell.js',
+        'py python				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPython.js',
+        'ruby rails ror rb		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushRuby.js',
+        'sass scss              http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSass.js',
+        'scala					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushScala.js',
+        'sql					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSql.js',
+        'vb vbnet				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushVb.js',
+        'xml xhtml xslt html	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushXml.js'
+    );
+                        SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.all();
+</script>
+<!-- END: Syntax Highlighter ComPress -->
+
+		<div style="display:none">
+	<div class="grofile-hash-map-d2cb495ec8c6975874403030a4865a33">
+	</div>
+	<div class="grofile-hash-map-56ec7ec88534583795e9086eaec1635b">
+	</div>
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201415'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Apraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TCParams = {"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","SmoothScroll":"linear"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/tc-scripts.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/holder.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/retina.min.js'></script>
+
+	<script src="http://stats.wordpress.com/e-201415.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.9.2',blog:'22146351',post:'837',tz:'-7'});
+	var load_cmc = function(){linktracker_init(22146351,837,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	</body>
+</html>

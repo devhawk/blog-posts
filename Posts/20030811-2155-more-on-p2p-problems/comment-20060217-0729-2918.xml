@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2918</wp:comment_id>
+  <wp:comment_author><![CDATA[Aaron]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>65.35.229.55</wp:comment_author_IP>
+  <wp:comment_date>2006-02-17 07:29:42</wp:comment_date>
+  <wp:comment_date_gmt>2006-02-17 15:29:42</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[You need to direct port 3544 UDP and possibly 3540 UDP on your router to your workstation so that Teredo can traverse the NAT and PNRP can service requests.  I had the same problem until I did this.  A better error message would have been helpful.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

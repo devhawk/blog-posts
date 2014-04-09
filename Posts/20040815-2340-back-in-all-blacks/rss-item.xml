@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Back in All Blacks</title>
+  <link>http://devhawk.net/2004/08/15/back-in-all-blacks/</link>
+  <pubDate>Sun, 15 Aug 2004 23:40:21 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5c43480e-bab5-4bbd-8750-94852c6443c4</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>So I'm back from vacation and ready to head into work tomorrow. I'm almost over jet lag, but Patrick still thinks his bedtime is his afternoon nap. I slept thru the Tri Nations match yesterday morning, where the <a href="http://www.allblacks.com/">New Zealand All Blacks</a>, my new-favorite rugby team, got beat bad by the South Africa Springboks. After losing to the Australia Wallabies while we were in Sydney, the All Blacks are out of the running for the Tri-Nations Cup. Winner of next weeks' match between South Africa and Australia takes it. (note - apparently, <a href="http://blogs.msdn.com/devhawk/archive/2004/08/16/214983.aspx#214997">several</a><a href="http://blogs.msdn.com/devhawk/archive/2004/08/16/214983.aspx#215038">readers</a><a href="http://blogs.msdn.com/devhawk/archive/2004/08/16/214983.aspx#215041">pointed</a><a href="http://blogs.msdn.com/devhawk/archive/2004/08/16/214983.aspx#215062">out</a> that I got my cups mixed up. Bledisloe Cup is between New Zealand and Australia only, and since NZ and Aus drew in their home and home series, NZ keeps that cup.)</p><p>I didn't blog any of my vacation as it was happening, but I want to revisit two items that I think will be interesting to my blog readers - the Buildings of Sydney and the Sydney Opera House.</p><p>I went to Australia (and New Zealand) to present <a href="http://msdn.microsoft.com/architecture/journal/default.aspx?pull=/library/en-us/dnmaj/html/aj2metrop.asp">Metropolis</a>. Delivering this talk (as well as the follow-up talk on Buildings and Applications) has changed the way I look at buildings and cities. I've lived in three different cities - Washington DC, Los Angeles and Seattle. DC is filled with old buildings, but there are no skyscrapers. No building in DC is allowed to be taller than the Washington Monument. Seattle is relatively young, and there was a big fire in 1889 that destroyed a great deal of the city. Los Angeles is...well...I've <a href="http://devhawk.net/PermaLink.aspx?guid=87d7157e-20cc-4f40-84f4-32720a3d4a28">blogged my opinion</a> of Los Angeles before. LA is like a movie set - it only looks good on TV. Drive around LA and you'll find miles and miles of mini malls, but no history.</p><p><a href="http://s3.amazonaws.com/devhawk_images/Touring Sydney Sat Morning (30).jpg"><img hspace="5" src="http://s3.amazonaws.com/devhawk_images/Touring Sydney Sat Morning (30)_small.jpg" align="left" border="0" /></a><a href="http://s3.amazonaws.com/devhawk_images/Touring Sydney Thurs (1).jpg"><img hspace="5" src="http://s3.amazonaws.com/devhawk_images/Touring Sydney Thurs (1)_small.jpg" align="right" border="0" /></a>Sydney is very different. Many of the older buildings are under "heritage protection" meaning that their facade's are protected and can't be changed. This leads to a fascinating mix of older buildings side by side with modern skyscrapers. <a href="http://www.paddysmarkets.com.au/paddys/index.htm">Paddy's Markets</a>, which has been there since at least 1834, is housed in a building originally built in 1909 (according to the building's facade). However, if you check out the <a href="http://s3.amazonaws.com/devhawk_images/Touring Sydney Thurs (1).jpg">picture</a>, you'll notice that the building's second floor is notably more modern than the first floor. That's Sydney to a "T", new sitting right next to, or on top of, the old. I imagine that some of the older eastern seaboard cities of America have the same combination of historical and current, but none that I've spent a significant amount of time in.</p><p><a href="http://s3.amazonaws.com/devhawk_images/Touring Sydney Monday (58).jpg"><img hspace="5" src="http://s3.amazonaws.com/devhawk_images/Touring Sydney Monday (58)_small.jpg" align="left" border="0" /></a>Of course, you can't go to Sydney and <i>not</i> visit the world famous <a href="http://www.sydneyoperahouse.com/">Sydney Opera House</a>. You can read the history online, so I wont bore you with those details. But here's something you probably don't know about the opera house - it's a pretty dinky opera house as opera houses go. My mother works for the <a href="http://www.dc-opera.org/">Washington National Opera</a> and I grew up hanging around the <a href="http://www.kennedy-center.org/">Kennedy Center</a> so I've been around opera all my life. (Betcha didn't know <i>that </i>about me, did ya?) The <a href="http://www.sydneyoperahouse.com/sections/about_the_house/venues/#opera">Opera Theatre</a> of the Sydney Opera House only holds 1547 people, only about two-thirds of the Kennedy Center <a href="http://www.kennedy-center.org/about/virtual_tour/opera.html">Opera House</a>. It also has limited fly, wing and back stage space - the unique sail roof structure severely limits off stage space. (This isn't an issue in the <a href="http://www.sydneyoperahouse.com/sections/about_the_house/venues/#concert">Concert Hall</a>, which is housed under the larger sail roof and has less need for off stage space.) I found it very interesting that, as opera houses go, the Sydney Opera House looks great from the outside, but isn't that well thought out on the inside. This comes back to Metropolis metaphor as well - what's on the outside (in this case, the roof) severely limits what you can build on the inside (i.e. the theatre). In the case of the Sydney Opera House, it's no problem as people come from all over the world to see shows there, even if the house creates unique logistical challenges for the company putting on the show. For enterprise apps, you probably won't be so lucky, so design your roof with great care.</p><p>I'm back at work tomorrow, so watch this space.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">416</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-08-15 23:40:21</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-08-15 23:40:21</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">back-in-all-blacks</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5c43480e-bab5-4bbd-8750-94852c6443c4]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Back+In+All+Blacks]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/08/16/Back+In+All+Blacks]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2651</wp:comment_id>
+    <wp:comment_author><![CDATA[philadelphia siding]]></wp:comment_author>
+    <wp:comment_author_email>siding@ukr.net</wp:comment_author_email>
+    <wp:comment_author_url>http://northeastunion.com/Siding/</wp:comment_author_url>
+    <wp:comment_author_IP>217.24.161.248</wp:comment_author_IP>
+    <wp:comment_date>2005-08-29 14:14:38</wp:comment_date>
+    <wp:comment_date_gmt>2005-08-29 21:14:38</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hello! I was interested in your article. It is rather instructive.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2652</wp:comment_id>
+    <wp:comment_author><![CDATA[~sya~]]></wp:comment_author>
+    <wp:comment_author_email>walking_during_the_dawn@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.not.mentionned.com</wp:comment_author_url>
+    <wp:comment_author_IP>80.9.134.230</wp:comment_author_IP>
+    <wp:comment_date>2006-04-04 12:08:59</wp:comment_date>
+    <wp:comment_date_gmt>2006-04-04 19:08:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hey guy ^^ i was really interested too, and your photos kick ass !
+If you have more shots of this type, and if you wanna send them to me, then check my E-mail.
+Thanks.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

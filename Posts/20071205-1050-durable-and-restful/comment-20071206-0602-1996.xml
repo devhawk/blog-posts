@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>1996</wp:comment_id>
+  <wp:comment_author><![CDATA[Libor SOUCEK]]></wp:comment_author>
+  <wp:comment_author_email>lsoucek@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://lsblog.wordpress.com</wp:comment_author_url>
+  <wp:comment_author_IP>81.30.227.92</wp:comment_author_IP>
+  <wp:comment_date>2007-12-06 06:02:19</wp:comment_date>
+  <wp:comment_date_gmt>2007-12-06 14:02:19</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Wouldn’t be generally safer base idempotent behavior rather on business data then on some kind of communication protocol?
+
+Sure with described approach you will discard all duplicate messages right on transport layer which is perfectly legal and saves recipient service from unnecessary processing but works only for certain scenarios.
+
+Especially this approach works poorly in case message source service makes “failover” to different HW/geo location where it might “rerun” already once processed messages (i.e. source service tries to ensure all data were rely processed) and start with completely different message numbers. This is more highlighted with use of GUID which is not tight to data content what so ever.
+
+With GUID as “Unique ID” you have yet another problem. You would not be able on message recipient side define order in which messages were generated/send. This might be problem not only on UDP based messaging protocol as widely known. Another case is when sending data from two location after service failover. And much less known/mentioned message reordering problem is surprisingly on TCP based connection in certain network configurations as well (e.g. prime example of this behavior is on highly resilient network setup where are routers cross connected to ensure at least one network route cross routers is always available).
+
+I’m not saying is not usable for your scenarios but it could be generalized more. All depends on requirements and environment you are running in.
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

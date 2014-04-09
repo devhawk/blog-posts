@@ -1,0 +1,16 @@
+<p>Via <a href="http://www.larkware.com/dg8/TheDailyGrind1193.aspx">Larkware</a> and <a href="http://www.infoq.com/news/2007/07/worthless-code">InfoQ</a>, I discovered a great post on code reuse by Dennis Forbes: <a href="http://www.yafla.com/dennisforbes/Internal-Code-Reuse-Considered-Dangerous/Internal-Code-Reuse-Considered-Dangerous.html">Internal Code Reuse Considered Dangerous</a>. I&#8217;ve <a href="http://devhawk.net/2006/09/19/A+Question+Of+Context.aspx">written about</a><a href="http://devhawk.net/2006/09/20/Feasible+Service+Reuse.aspx">reuse before</a>, albeit in the context of services. But where I wrote about the impact of context on reuse (high context == low or no reuse), Dennis focused on the idea of accidental reuse. Here&#8217;s the money quote from Dennis:</p>
+<blockquote><p>Code reuse doesn&#8217;t happen by accident, or as an incidental &#8211; <em>reusable code is designed and developed to be generalized reusable code</em>. Code reuse as a <em>by-product</em> of project development, usually the way organizations attempt to pursue it, is almost always detrimental to both the project and anyone tasked with reusing the code in the future. [Emphasis in original]</p>
+</blockquote>
+<p>I&#8217;ve seen many initiatives of varying &#8220;officialness&#8221; to identify and produce reusable code assets over the years, both inside and outside Microsoft. Dennis&#8217; point that code has to be specifically designed to be reusable is right on the money. Accidental code (or service) reuse just doesn&#8217;t happen. Dennis goes so far as to describe such efforts as &#8220;almost always detrimental to both the project and anyone tasked with reusing the code in the future&#8221;.</p>
+<p>One of the more recent code reuse efforts I&#8217;ve seen went so far as to identify a reusable asset lifecycle model. While it was fairly detailed at the lifecycle steps that came <em>after</em> said asset came into existence, it was maddeningly vague as to how these reusable assets got built in the first place. The lifecycle said that a reusable asset &#8220;comes into existence during the planning phases&#8221;. That&#8217;s EA-speak for &#8220;and then a miracle happens&#8221;. </p>
+<p>Obviously, the hard part about reusable assets is designing and building them in the first place. So the fact that they skimped on this part of the lifecycle made it very clear they had no chance of success with the project. I shot back the following questions, but never got a response. If you are attempting such a reuse effort, I&#8217;d strongly advise answering these questions first:</p>
+<ul>
+<li>How does a project know a given asset is reusable? </li>
+<li>How does a project design a given asset to be reusable?</li>
+<li>How do you incent (<a href="http://dictionary.reference.com/browse/incentivize">incentivize?</a>) a project to invest the extra resources (time, people, money) in takes to generalize an asset to be reusable?</li>
+</ul>
+<p>And to steal one from Dennis:</p>
+<ul>
+<li>What, realistically, would competitors and new entrants in the field offer for a given reusable asset?</li>
+</ul>
+<p>Carl Lewis wonders <a href="http://cysquatch.net/blog/2007/06/08/is-your-code-worthless/">Is your code worthless?</a> As a reusable asset, probably yes.</p>

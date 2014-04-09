@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">                          
+<!--<![endif]-->
+
+			<head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		    <title>Practical F# Parsing: The Parse Buffer | DevHawk</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link rel="profile" href="http://gmpg.org/xfn/11" />
+		    <link rel="pingback" href="http://devhawk.net/xmlrpc.php" />
+		   
+		   <!-- Icons font support for IE6-7  -->
+		    <!--[if lt IE 8]>
+		      <script src="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/lte-ie7.js"></script>
+		    <![endif]-->
+		    <link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Feed" href="http://devhawk.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Comments Feed" href="http://devhawk.net/comments/feed/" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-skin-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/css/blue.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='http://devhawk.net/wp-content/themes/customizr/style.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/modernizr.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devhawk.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devhawk.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='ADO.NET Data Services and Idempotence' href='http://devhawk.net/2007/12/10/ado-net-data-services-and-idempotence/' />
+<link rel='next' title='Practical F# Parsing: Unit Testing' href='http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/' />
+<link rel='shortlink' href='http://wp.me/p1uVhd-hi' />
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/styles/shCoreDefault.css"/>
+<!-- END: Syntax Highlighter ComPress -->
+
+  
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Practical F# Parsing: The Parse Buffer" />
+<meta property="og:url" content="http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/" />
+<meta property="og:description" content="The first thing I need for my F# parser is a type to represent the buffer of characters being parsed. For now, I&#039;m using the simplest thing that could possibly work: an intrinsic F# character list...." />
+<meta property="article:published_time" content="2007-12-11T13:18:05+00:00" />
+<meta property="article:modified_time" content="2011-04-17T23:04:02+00:00" />
+<meta property="article:author" content="http://devhawk.net/author/admin/" />
+<meta property="og:site_name" content="DevHawk" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+<meta name="twitter:card" content="summary" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Expand All' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Collapse All');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Expand All');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+        
+        
+        		    <!--Icons size hack for IE8 and less -->
+		    <!--[if lt IE 9]>
+		      <link href="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/ie8-hacks.css" rel="stylesheet" type="text/css"/>
+		    <![endif]-->
+		</head>
+		
+	<body class="single single-post postid-1072 single-format-standard" itemscope itemtype="http://schema.org/WebPage">
+		
+		
+	   	<header class="tc-header clearfix row-fluid" role="banner">
+			
+			
+		
+	    	
+	        <div class="brand span3 pull-left">
+
+	        	<h1><a class="site-title" href="http://devhawk.net/" title="DevHawk | Passion * Technology * Ruthless Competence">DevHawk</a></h1>
+	        </div> <!-- brand span3 pull-left -->
+
+	        
+	   
+	   
+	   <div class="container outside"><h2 class="site-description">Passion * Technology * Ruthless Competence</h2></div>
+      	<div class="navbar-wrapper clearfix span9">
+
+      		<div class="navbar notresp row-fluid pull-left">
+      			<div class="navbar-inner" role="navigation">
+      				<div class="row-fluid">
+            			<div class="social-block span5"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="nav tc-hover-menu"><li id="menu-item-1862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li id="menu-item-1562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li id="menu-item-1564" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li id="menu-item-1565" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li id="menu-item-1561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            		</div><!-- .row-fluid -->
+            	</div><!-- /.navbar-inner -->
+            </div><!-- /.navbar notresp -->
+
+            <div class="navbar resp">
+            	<div class="navbar-inner" role="navigation">
+            		<div class="social-block "><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu-1" class="nav tc-hover-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            	</div><!-- /.navbar-inner -->
+      		</div><!-- /.navbar resp -->
+
+    	</div><!-- /.navbar-wrapper -->
+
+        
+		</header>
+
+		<div id="main-wrapper" class="container">
+
+    <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin"><a href="http://devhawk.net" title="DevHawk" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2007/" title="2007">2007</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2007/12/" title="December 2007">December</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2007/12/11/" title="December 11, 2007">11</a> <span class="sep">&raquo;</span> <span class="trail-end">Practical F# Parsing: The Parse Buffer</span></div><div class="tc-hot-crumble container" role="navigation"><div class="row"><div class="span12"></div></div></div>    
+    <div class="container" role="main">
+        <div class="row">
+
+                            
+                <div id="content" class="span9 article-container">
+                    
+                    
+                        
+                                                                                    
+                                                                    <article id="post-1072" class="post-1072 post type-post status-publish format-standard hentry category-development tag-f-sharp tag-functional-programming tag-parsing-expression-grammar row-fluid">
+                                        
+        <header class="entry-header">
+          
+          <h1 class="entry-title format-icon">Practical F# Parsing: The Parse Buffer  </h1>
+        <div class="entry-meta">
+            This entry was posted in <a class="btn btn-mini" href="http://devhawk.net/category/development/" title="View all posts in Development"> Development </a> and tagged <a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/f-sharp/" title="View all posts in F#"> F# </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/functional-programming/" title="View all posts in Functional Programming"> Functional Programming </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/parsing-expression-grammar/" title="View all posts in Parsing Expression Grammar"> Parsing Expression Grammar </a> on <a href="http://devhawk.net/2007/12/11/" title="1:18 pm" rel="bookmark"><time class="entry-date" datetime="2007-12-11T13:18:05+00:00">December 11, 2007</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://devhawk.net/author/admin/" title="View all posts by DevHawk" rel="author">DevHawk</a></span></span>.
+        </div><!-- .entry-meta -->
+
+        <hr class="featurette-divider __before_content">
+        </header><!-- .entry-header -->
+
+          
+
+        <section class="entry-content ">
+            <p>The first thing I need for my F# parser is a type to represent the buffer of characters being parsed. For now, I&#8217;m using the <a href="http://www.artima.com/intv/simplest.html">simplest thing that could possibly work</a>: an intrinsic F# character list. Lists are heavily used in functional languages, so they tend to have very efficient native list types. F# is no exception. Along with a native list type, F# has a native operation for retrieving the head of a list. For example, If you execute the following code, head will be bound to &#8217;1&#8242; and tail will be bound to the list ['2';'3';'4']</p>
+<pre class="brush: fsharp">let head :: tail = ['1';'2';'3';'4']</pre>
+<p>The problem using the native list head operator is that my parsing code will be explicitly bound to work on character lists only. However, I&#8217;m not sure an in-memory character list is the best way to read long files of text off the disk for processing, so I&#8217;d rather not limit future options like this. So instead, I&#8217;ll define my own function to retrieve the head of the parsing buffer.</p>
+<pre class="brush: fsharp">let NC input =
+    match input with
+    | head :: tail -&gt; Some(head, tail)
+    | _ -&gt; None</pre>
+<p>Note, in all my F# code I use the <a href="http://blogs.msdn.com/dsyme/archive/2006/08/24/715626.aspx">#light syntax</a> which means code blocks are indicated by significant whitespace indentation similar to Python.</p>
+<p>NC stands for Next Character, though I gave it a short name since it&#8217;s used often. It&#8217;s basically wraps the native list head operator. If there&#8217;s at least one element in the list, the first clause matches and the function returns Some(head,tail). If the list is empty, the second clause matches and the function returns None. The use of Some and None means this function returns an F# option type, which is similar to .NET&#8217;s <a href="http://msdn2.microsoft.com/en-us/library/system.nullable.aspx" target="_blank">Nullable</a> type. (head,tail) is a tuple &#8211; in this case, combining the head and the tail of the list together. Finally, the underscore in the second match clause is a wildcard, so that clause matches anything. I&#8217;m using it here like the default clause of a switch statement in C#.</p>
+<p>The F# type for this function is &#8216;a list -&gt; (&#8216;a * &#8216;a list) option. The &#8216;a is a generic type parameter and the asterisk indicates a tuple. So NC takes a generic list, and returns an option tuple with a single generic element and a generic list. Even though the function is named Next Character, it would work with a list of any type.</p>
+<p>Now that I have my own list head function, the rest of my parsing code can it. If I later decide to change the type of the parse buffer, I can change the implementation of NC &#8211; including the input and return types &#8211; without having to change the parsing functions that use NC. For example, here&#8217;s a different implementation where the input parameter is a .NET string instead of a char list.</p>
+<pre class="brush: fsharp">let NC (input : string) =
+    if input.Length &gt; 0
+        then Some(input.Chars(0), input.Substring(1))
+        else None</pre>
+<p>Since I&#8217;m calling methods on the input parameter, I need to explicitly tell F# what type it is. The F# type for this function is string -&gt; (char * string) option, which is obviously different from the type definition of the original NC version. But F#&#8217;s <a href="http://devhawk.net/2007/11/29/F+Hawkeye+Type+Inference.aspx">type inference</a> automatically adjusts to handle the change in the type so functions that call NC don&#8217;t have to change. FP languages like F# handle list operations extremely efficiently, so this version of NC is probably a step in the wrong direction. However, it&#8217;s good to know I can easily encapsulate the details our the parse buffer type away from the rest of my parsing code.</p>
+<p>Here&#8217;s another function I&#8217;ll use in parsing, defined entirely in terms of NC.</p>
+<pre class="brush:fsharp">let TOKEN token input =
+    let rec ParseToken token input =
+        match token, NC input with
+        | t :: [], Some(i, input) when i = t -&gt;
+            Some(input)
+        | t :: token, Some(i, input) when i = t -&gt;
+            ParseToken token input
+        | _ -&gt; None
+    ParseToken (List.of_seq token) input</pre>
+<p>The TOKEN function checks to see if the token string is at the front of the input parse buffer. If so, it returns the remainder of the buffer after the token. If not, it returns None. It&#8217;s defined entirely in terms of NC, so it works the same with both the versions of NC I&#8217;ve written so far. However, depending on the implementation of NC, I might rewrite TOKEN. For example, if I was using the string version of NC, I&#8217;d probably rewrite this function to use <a href="http://msdn2.microsoft.com/en-us/library/system.string.startswith.aspx" target="_blank">String.StartsWith</a> instead of recursion.</p>
+<p>TOKEN defines a local recursive function called ParseToken. It&#8217;s very common to see local functions defined inside other functions in FP, similar to how classes can define local classes in OO languages like C#. ParseToken recursively compares the characters in the token string with the characters in the input buffer, finishing when either it reaches the end of the token string or there&#8217;s a mismatch. By default, functions in F# can&#8217;t call themselves recursively by default, so ParseToken is declared to be recursive by using &#8220;let rec&#8221; instead of simply &#8220;let&#8221;.</p>
+<p>ParseToken shows off something interesting about the way symbols are used in F#. Remember that F# values are immutable by default. Yet, the symbols &#8220;token&#8221; and &#8220;input&#8221; appear to change. In the match statement, token and input represent the values passed into the function. However, in the match clauses, token and input represent the tail of those two lists. Technically, the values didn&#8217;t change, F# allows you to reuse the symbols. If I wanted to avoid reusing symbols, I could define ParseToken this way (though I find this much less readable):</p>
+<pre class="brush:fsharp">let rec ParseToken token input =
+    match token, NC input with
+    | t :: [], Some(i, itail) when i = t -&gt;
+        Some(itail)
+    | t :: ttail, Some(i, itail) when i = t -&gt;
+        ParseToken ttail itail
+    | _ -&gt; None</pre>
+<p>Other than declaring ParseToken, the TOKEN function is a single line of code. It simply calls ParseToken, converting the token parameter into a char list along the way. While lists are very efficient, which would you rather type?</p>
+<pre class="brush: fsharp">let token = TOKEN ['f';'o';'o'] input
+let token = TOKEN "foo" input</pre>
+<p>Personally, I like the second version. I&#8217;m sure there&#8217;s a slight perf hit to convert from a string to a list, but frankly I value readability over performance so I used strings for tokens. TOKEN uses the List.of_seq function to do the conversion. Seq is F#&#8217;s name for IEnumerable. Technically, TOKEN would work with any IEnumerable type. However, in my source code, it&#8217;s always going to be a string.</p>
+<p>I also used List.of_seq to define a helper function String to Parse Buffer (aka S2PB) that converts a string into a character list. I use function often in the test code.</p>
+<pre class="brush:fsharp">let S2PB input = List.of_seq input</pre>
+<p>If I were to change the input type of NC, I&#8217;d also change the implementation of S2PB so that it still took in a string but returned whatever the correct input type for NC.</p>
+<p>The one problem with S2PB function is that you have to use it with parentheses almost all the time. If I write NC S2PB &#8220;foo&#8221;, F# can&#8217;t tell if I&#8217;m calling NC with two parameters or passing the result of S2PB &#8220;foo&#8221; to NC. Since NC is strongly typed to have only one input parameter, you might have thought it could automatically determine the calling order, but it doesn&#8217;t.</p>
+<p>I could make the function calls explicit with parenthesis by writing NC (S2PB &#8220;foo&#8221;). F# also provides a pipe operator, so I could pipe the result of S2PB into NC by writing S2PB &#8220;foo&#8221; |&gt; NC. I didn&#8217;t like either of those solutions, so instead I defined a custom unary operator !! as an alias. The parameter binding rules are different for custom operators because I can write NC !! &#8220;foo&#8221; without piping or parenthesis.</p>
+<pre class="brush: fsharp">let (!!) input = S2PB input</pre>
+<p>So now I&#8217;ve got three functions and a custom operator that completely abstract away the parse buffer type. As long a my parsing functions only uses these functions to access the parse buffer, I&#8217;ll be able to later change the buffer type without affecting my parsing code at all.</p>
+                    </section><!-- .entry-content -->
+
+                                          </article>
+                                
+                            
+                        
+                    
+<div id="comments" class="comments-area">
+	
+			
+	
+</div><!-- #comments .comments-area -->
+      
+        <hr class="featurette-divider __after_loop">
+        <nav id="nav-below" class="navigation" role="navigation">
+
+            <h3 class="assistive-text">
+              Post navigation            </h3>
+
+            <ul class="pager">
+                              <li class="previous">
+                  <span class="nav-previous">
+                    <a href="http://devhawk.net/2007/12/10/ado-net-data-services-and-idempotence/" rel="prev"><span class="meta-nav">&larr;</span> ADO.NET Data Services and Idempotence</a>                  </span>
+                </li>
+                                            <li class="next">
+                  <span class="nav-next">
+                    <a href="http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/" rel="next">Practical F# Parsing: Unit Testing <span class="meta-nav">&rarr;</span></a>                  </span>
+                </li>
+                          </ul>
+
+        </nav><!-- #nav-below .navigation -->
+
+      
+      
+                </div><!--.article-container -->
+
+                  
+      <div class="span3 right tc-sidebar">
+         <div id="right" class="widget-area" role="complementary">
+                                             <aside id="text-3" class="widget widget_text"><h3 class="widget-title">Our Sponsors</h3>			<div class="textwidget"><div align=center data-type="ad" data-publisher="lqm.devhawk.site" data-zone="ron" data-format="160x600" data-tags="windows%2C%20windows%208%2C%20windows%20runtime%2C%20JavaScript%2C%20C%23%2C%20CLR%2C%20C%2B%2B"></div></div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-177"><a href="http://devhawk.net/category/architecture/" title="View all posts filed under Architecture">Architecture</a>
+</li>
+	<li class="cat-item cat-item-204"><a href="http://devhawk.net/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://devhawk.net/category/general-geekery/" title="View all posts filed under General Geekery">General Geekery</a>
+</li>
+	<li class="cat-item cat-item-252"><a href="http://devhawk.net/category/ironpython/" title="View all posts filed under IronPython">IronPython</a>
+</li>
+	<li class="cat-item cat-item-180"><a href="http://devhawk.net/category/morning-coffee/" title="View all posts filed under Morning Coffee">Morning Coffee</a>
+</li>
+	<li class="cat-item cat-item-352"><a href="http://devhawk.net/category/personal/" title="View all posts filed under Personal">Personal</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="http://devhawk.net/category/politics/" title="View all posts filed under Politics">Politics</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="http://devhawk.net/category/sports/" title="View all posts filed under Sports">Sports</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://devhawk.net/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-283"><a href="http://devhawk.net/category/windows/" title="View all posts filed under Windows">Windows</a>
+</li>
+	<li class="cat-item cat-item-357"><a href="http://devhawk.net/category/windows-runtime/" title="View all posts filed under Windows Runtime">Windows Runtime</a>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-4" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='http://devhawk.net/tag/asp-net/' class='tag-link-178' title='27 topics' style='font-size: 13.466666666667pt;'>ASP.NET</a>
+<a href='http://devhawk.net/tag/blogging/' class='tag-link-184' title='122 topics' style='font-size: 22pt;'>Blogging</a>
+<a href='http://devhawk.net/tag/c-sharp/' class='tag-link-235' title='17 topics' style='font-size: 10.933333333333pt;'>C#</a>
+<a href='http://devhawk.net/tag/college-football/' class='tag-link-194' title='10 topics' style='font-size: 8pt;'>College Football</a>
+<a href='http://devhawk.net/tag/community/' class='tag-link-213' title='81 topics' style='font-size: 19.6pt;'>Community</a>
+<a href='http://devhawk.net/tag/dasblog/' class='tag-link-303' title='12 topics' style='font-size: 8.9333333333333pt;'>dasBlog</a>
+<a href='http://devhawk.net/tag/database/' class='tag-link-214' title='13 topics' style='font-size: 9.4666666666667pt;'>Database</a>
+<a href='http://devhawk.net/tag/debugger/' class='tag-link-279' title='23 topics' style='font-size: 12.533333333333pt;'>Debugger</a>
+<a href='http://devhawk.net/tag/dlr/' class='tag-link-231' title='25 topics' style='font-size: 12.933333333333pt;'>DLR</a>
+<a href='http://devhawk.net/tag/domain-specific-languages/' class='tag-link-208' title='15 topics' style='font-size: 10.133333333333pt;'>Domain Specific Languages</a>
+<a href='http://devhawk.net/tag/dynamic-languages/' class='tag-link-217' title='12 topics' style='font-size: 8.9333333333333pt;'>Dynamic Languages</a>
+<a href='http://devhawk.net/tag/entertainment/' class='tag-link-196' title='14 topics' style='font-size: 9.8666666666667pt;'>Entertainment</a>
+<a href='http://devhawk.net/tag/etech/' class='tag-link-297' title='15 topics' style='font-size: 10.133333333333pt;'>ETech</a>
+<a href='http://devhawk.net/tag/f-sharp/' class='tag-link-198' title='51 topics' style='font-size: 17.066666666667pt;'>F#</a>
+<a href='http://devhawk.net/tag/family/' class='tag-link-179' title='33 topics' style='font-size: 14.533333333333pt;'>Family</a>
+<a href='http://devhawk.net/tag/functional-programming/' class='tag-link-202' title='18 topics' style='font-size: 11.2pt;'>Functional Programming</a>
+<a href='http://devhawk.net/tag/games/' class='tag-link-185' title='18 topics' style='font-size: 11.2pt;'>Games</a>
+<a href='http://devhawk.net/tag/hockey/' class='tag-link-215' title='33 topics' style='font-size: 14.533333333333pt;'>Hockey</a>
+<a href='http://devhawk.net/tag/ironruby/' class='tag-link-253' title='16 topics' style='font-size: 10.533333333333pt;'>IronRuby</a>
+<a href='http://devhawk.net/tag/lanugages/' class='tag-link-229' title='43 topics' style='font-size: 16pt;'>Lanugages</a>
+<a href='http://devhawk.net/tag/linq/' class='tag-link-224' title='24 topics' style='font-size: 12.8pt;'>LINQ</a>
+<a href='http://devhawk.net/tag/microsoft/' class='tag-link-232' title='31 topics' style='font-size: 14.266666666667pt;'>Microsoft</a>
+<a href='http://devhawk.net/tag/modelling/' class='tag-link-225' title='61 topics' style='font-size: 18pt;'>Modelling</a>
+<a href='http://devhawk.net/tag/movies/' class='tag-link-218' title='23 topics' style='font-size: 12.533333333333pt;'>Movies</a>
+<a href='http://devhawk.net/tag/music/' class='tag-link-248' title='20 topics' style='font-size: 11.733333333333pt;'>Music</a>
+<a href='http://devhawk.net/tag/p2p/' class='tag-link-325' title='11 topics' style='font-size: 8.5333333333333pt;'>P2P</a>
+<a href='http://devhawk.net/tag/parsing-expression-grammar/' class='tag-link-209' title='16 topics' style='font-size: 10.533333333333pt;'>Parsing Expression Grammar</a>
+<a href='http://devhawk.net/tag/powershell/' class='tag-link-230' title='40 topics' style='font-size: 15.6pt;'>PowerShell</a>
+<a href='http://devhawk.net/tag/rest/' class='tag-link-181' title='18 topics' style='font-size: 11.2pt;'>REST</a>
+<a href='http://devhawk.net/tag/ruby/' class='tag-link-190' title='23 topics' style='font-size: 12.533333333333pt;'>Ruby</a>
+<a href='http://devhawk.net/tag/service-broker/' class='tag-link-320' title='14 topics' style='font-size: 9.8666666666667pt;'>Service Broker</a>
+<a href='http://devhawk.net/tag/silverlight/' class='tag-link-200' title='20 topics' style='font-size: 11.733333333333pt;'>Silverlight</a>
+<a href='http://devhawk.net/tag/soa/' class='tag-link-183' title='94 topics' style='font-size: 20.533333333333pt;'>SOA</a>
+<a href='http://devhawk.net/tag/software-factories/' class='tag-link-195' title='11 topics' style='font-size: 8.5333333333333pt;'>Software Factories</a>
+<a href='http://devhawk.net/tag/visual-studio/' class='tag-link-187' title='20 topics' style='font-size: 11.733333333333pt;'>Visual Studio</a>
+<a href='http://devhawk.net/tag/washington-capitals/' class='tag-link-192' title='42 topics' style='font-size: 15.866666666667pt;'>Washington Capitals</a>
+<a href='http://devhawk.net/tag/wcf/' class='tag-link-313' title='31 topics' style='font-size: 14.266666666667pt;'>WCF</a>
+<a href='http://devhawk.net/tag/web-2-0/' class='tag-link-188' title='67 topics' style='font-size: 18.533333333333pt;'>Web 2.0</a>
+<a href='http://devhawk.net/tag/web-services/' class='tag-link-290' title='12 topics' style='font-size: 8.9333333333333pt;'>Web Services</a>
+<a href='http://devhawk.net/tag/wf/' class='tag-link-268' title='21 topics' style='font-size: 12pt;'>WF</a>
+<a href='http://devhawk.net/tag/windows-live/' class='tag-link-207' title='29 topics' style='font-size: 13.866666666667pt;'>Windows Live</a>
+<a href='http://devhawk.net/tag/working-at-msft/' class='tag-link-250' title='21 topics' style='font-size: 12pt;'>Working at MSFT</a>
+<a href='http://devhawk.net/tag/xbox-360/' class='tag-link-189' title='54 topics' style='font-size: 17.333333333333pt;'>Xbox 360</a>
+<a href='http://devhawk.net/tag/xml/' class='tag-link-238' title='11 topics' style='font-size: 8.5333333333333pt;'>XML</a>
+<a href='http://devhawk.net/tag/xna/' class='tag-link-193' title='15 topics' style='font-size: 10.133333333333pt;'>XNA</a></div>
+</aside>
+                                        </div><!-- #left -->
+      </div><!--.tc-sidebar -->
+
+      
+        </div><!--.row -->
+    </div><!-- .container role: main -->
+
+    
+</div><!--#main-wrapper"-->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="">
+	 				<div class="container footer-widgets ">
+				<div class="row widget-area" role="complementary">
+					
+					
+													
+							<div id="footer_one" class="span4">
+								<aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://devhawk.net/wp-login.php">Log in</a></li>
+			<li><a href="http://devhawk.net/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://devhawk.net/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</aside>							</div>
+
+						
+					
+													
+							<div id="footer_two" class="span4">
+								<aside id="text-6" class="widget widget_text"><h3 class="widget-title">Disclaimer</h3>			<div class="textwidget"><p>The information in this weblog is provided "AS IS" with no warranties, and confers no rights. This weblog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my opinion. Inappropriate comments will be deleted at the authors discretion.</p>
+
+<script type='text/javascript'>
+    function _dmBootstrap(file) { 
+        var _dma = document.createElement('script');  
+        _dma.type = 'text/javascript'; 
+        _dma.async = true;  
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+</script>
+</div>
+		</aside>							</div>
+
+						
+					
+						
+									</div><!-- .row.widget-area -->
+			</div><!--.footer-widgets -->
+		    			 <div class="colophon">
+		 	<div class="container">
+		 		<div class="row-fluid">
+				    <div class="span4 social-block pull-left"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><div class="span4 credits"><p> &middot; &copy; 2014 <a href="http://devhawk.net" title="DevHawk" rel="bookmark">DevHawk</a> &middot; Designed by <a href="http://www.themesandco.com/">Themes &amp; Co</a> &middot;</p></div><div class="span4 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div>      			</div><!-- .row-fluid -->
+      		</div><!-- .container -->
+      	</div><!-- .colophon -->
+    		</footer>
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript">
+    SyntaxHighlighter.autoloader(
+        'applescript			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAppleScript.js',
+        'actionscript3 as3		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAS3.js',
+        'bash shell				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushBash.js',
+        'coldfusion cf			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushColdFusion.js',
+        'cpp c					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCpp.js',
+        'c# c-sharp csharp		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCSharp.js',
+        'css					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCss.js',
+        'delphi pascal pas		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDelphi.js',
+        'diff patch			    http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDiff.js',
+        'erl erlang				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushErlang.js',
+        'groovy					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushGroovy.js',
+        'java					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJava.js',
+        'jfx javafx				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJavaFX.js',
+        'js jscript javascript	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJScript.js',
+        'perl pl				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPerl.js',
+        'php					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPhp.js',
+        'text plain				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPlain.js',
+        'powershell ps          http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPowerShell.js',
+        'py python				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPython.js',
+        'ruby rails ror rb		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushRuby.js',
+        'sass scss              http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSass.js',
+        'scala					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushScala.js',
+        'sql					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSql.js',
+        'vb vbnet				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushVb.js',
+        'xml xhtml xslt html	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushXml.js'
+    );
+                        SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.all();
+</script>
+<!-- END: Syntax Highlighter ComPress -->
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201415'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Apraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TCParams = {"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","SmoothScroll":"linear"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/tc-scripts.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/holder.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/retina.min.js'></script>
+
+	<script src="http://stats.wordpress.com/e-201415.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.9.2',blog:'22146351',post:'1072',tz:'-7'});
+	var load_cmc = function(){linktracker_init(22146351,1072,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	</body>
+</html>

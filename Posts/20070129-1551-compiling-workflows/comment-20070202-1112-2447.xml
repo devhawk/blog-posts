@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2447</wp:comment_id>
+  <wp:comment_author><![CDATA[Some crazy guy]]></wp:comment_author>
+  <wp:comment_author_email>somecrazyguy@hotmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://somecrazyguy.com</wp:comment_author_url>
+  <wp:comment_author_IP>63.243.60.154</wp:comment_author_IP>
+  <wp:comment_date>2007-02-02 11:12:52</wp:comment_date>
+  <wp:comment_date_gmt>2007-02-02 19:12:52</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[if(this comment has anything interesting)
+{
+    you should read it
+}
+else
+{
+    it is just a waste of time
+}]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,15 @@
+<p>In experimenting with <a href="http://www.codeplex.com/NWSGI">NWSGI</a> yesterday, I found I wanted the ability to launch the development web server that ships with Visual Studio (WebDev.WebServer.exe) from the command line. I hacked up the following PowerShell function and dropped it into my $profile so I can easily launch the web server in any directory any time I need. Thought I&#8217;d share:</p>
+<pre class="brush: powershell">function webdev($path,$port=8080,$vpath='/')   
+{   
+    $spath = 'C:\Program Files\Common Files\microsoft shared\DevServer9.0\WebDev.WebServer.EXE'
+    $rpath = resolve-path $path  
+    $params = &quot;/path:`&quot;$rpath`&quot; /port:$port /vpath:$vpath&quot;  
+
+    $ignore = [System.Diagnostics.Process]::Start($spath, $params)  
+    &quot;Started WebDev Server for '$path' directory on port $port&quot;  
+}</pre>
+<p>There&#8217;s probably an easier way to launch an exe with parameters than Sys.Diags.Process.Start, but it works. Using resolve-path is the key, that lets me pass in a relative path on the command line, but the script converts it to an absolute path in order to pass it to the webdev server. Also, I&#8217;m not sure I should have hard coded the path to the exe, but again it works and it&#8217;s not like it&#8217;s tough to change.</p>
+<p>Enjoy.</p>
+<p><strong><span style="text-decoration: underline;">Update</span></strong>: Tomas Restrepo pointed out an easier way to start the process:</p>
+<pre class="brush: powershell">&amp;'C:\Program Files\Common Files\microsoft shared\DevServer9.0\WebDev.WebServer.EXE' &quot;/path:$rpath&quot; &quot;/port:$port&quot; &quot;/vpath:$vpath&quot;</pre>
+<p>I couldn&#8217;t figure out how to correctly launch the exe when the physical path to serve has a space in it. Thanks Tomas.</p>

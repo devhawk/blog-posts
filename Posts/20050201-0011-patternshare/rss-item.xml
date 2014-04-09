@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>PatternShare</title>
+  <link>http://devhawk.net/2005/02/01/patternshare/</link>
+  <pubDate>Tue, 01 Feb 2005 00:11:21 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0709695f-31f2-457b-b0cf-cda6ae514882</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>About fourteen months ago, David Trowbridge of <a href="http://www.microsoft.com/resources/practices/default.mspx">patterns &amp; practices</a> introduced me to a guy working in their testing group named Larry Brader. David is one of the primary authors of p&amp;p's <a href="http://msdn.microsoft.com/architecture/patterns/default.aspx?pull=/library/en-us/dnpatterns/html/esp.asp">Enterprise Solution Patterns</a> and <a href="http://msdn.microsoft.com/architecture/patterns/default.aspx?pull=/library/en-us/dnpag/html/intpatt.asp">Integration Patterns</a> books. I wanted to talk to David about building a pattern repository and he handed me off to Larry. Little did I know that Larry is an information theorist and was one of the key authors of <a href="http://msdn.microsoft.com/architecture/patterns/default.aspx?pull=/library/en-us/dnpag/html/tsp.asp">Testing Software Patterns</a>. Frankly, when Larry gets rolling on info theory, I only understood a fraction of what he's saying. But the parts I do understand about how patterns relate to each other blows my mind.</p><p>Then p&amp;p hired this guy...what's his name?...Oh yeah, Ward Cunningham. I hear he knows a bit about pattern repositories. :)</p><p>Anyway, around this time last year I was having regular meetings with Larry and Ward to talk about this repository stuff. Then stuff got crazy on my end - primarily being the <a href="http://devhawk.net/PermaLink.aspx?guid=85b10eff-25d6-48fc-aec2-91908449d170">acting marketing director</a> for my team as well as the ARC track owner for last years TechEd. The regular meetings became more irregular and then stopped altogether. That is to say, my involvement stopped - Ward, Larry et.al. kept forging ahead. I heard about how things were going from time to time, but that was the extent of my involvement. </p><p>Last summer, Larry, Ward and David (plus others I've never met) published an article called <a href="http://msdn.microsoft.com/architecture/patterns/default.aspx?pull=/library/en-us/dnpag/html/entarch.asp">Describing the Enterprise Architectural Space</a>. (They also did a <a href="http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032267019&amp;EventCategory=5&amp;culture=en-US&amp;CountryCode=US">webcast</a> on the topic.) In it, they laid out a way of thinking about how patterns relate to each other and they introduced the <a href="http://download.microsoft.com/download/0/C/4/0C44F7EB-893F-4048-B2C6-C1C889E06DF1/MOAG_F02.pdf">Enterprise Architectural Space Organizing Table</a> (EASOT for short). That was just the first step. <a href="http://patternshare.org/">PatternShare</a> is next one.</p><p>PatternShare is a community site that brings together the patterns from popular authors - <a href="http://patternshare.org/default.aspx/Home.MF.HomePage">Fowler</a>, <a href="http://patternshare.org/default.aspx/Home.DDD.HomePage">Evans</a>, <a href="http://patternshare.org/default.aspx/Home.HW.HomePage">Hohpe &amp; Wolfe</a>, <a href="http://patternshare.org/default.aspx/Home.GOF.HomePage">GoF</a>, <a href="http://patternshare.org/default.aspx/Home.POSA.HomePage">POSA</a> and <a href="http://patternshare.org/default.aspx/Home.PP.HomePage">p&amp;p</a> - into a single repository. Furthermore, it provides a <a href="http://patternshare.org/default.aspx/Home.EnterpriseArchitecturalSpaceOrganizingTable">dynamically generated EASOT</a> showing all the patterns in the repository and how they relate to each other. Finally, it provides a way to <a href="http://patternshare.org/default.aspx/Home.Community.AddANewPattern">add new patterns</a> to the repository so that they show up in the EASOT. </p><p>Major congrats to Ward, Larry, David and the rest of the p&amp;p folks for pulling this off. I can't wait to see where the site goes from here.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">528</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-02-01 00:11:21</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-02-01 00:11:21</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">patternshare</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <category domain="post_tag" nicename="patterns"><![CDATA[Patterns]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0709695f-31f2-457b-b0cf-cda6ae514882]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[PatternShare]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/02/01/PatternShare]]></wp:meta_value>
+  </wp:postmeta>
+</item>

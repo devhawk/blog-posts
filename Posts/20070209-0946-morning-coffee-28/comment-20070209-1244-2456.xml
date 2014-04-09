@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2456</wp:comment_id>
+  <wp:comment_author><![CDATA[Wes]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://puzzleware.net</wp:comment_author_url>
+  <wp:comment_author_IP>76.22.14.31</wp:comment_author_IP>
+  <wp:comment_date>2007-02-09 12:44:27</wp:comment_date>
+  <wp:comment_date_gmt>2007-02-09 20:44:27</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Actually you can use the convert whitespace option in the WLWriter plugin as well. You just need to configure it that way. On the insert code dialog select "<edit languages>" and it will bring up another dialog where you can look at the language definitions and change the settings on a per language basis. Just set the "UsePreTag" property to false. If you have issues with it let me know.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

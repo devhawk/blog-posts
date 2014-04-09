@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>DSL Toolkit Team Roundup</title>
+  <link>http://devhawk.net/2005/03/18/dsl-toolkit-team-roundup/</link>
+  <pubDate>Fri, 18 Mar 2005 21:53:56 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://aa6a9e6f-2b16-4b37-87a0-33da3d00e965</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Talk about transparency: Pretty much everyone involved in the DSL toolkit is blogging. <a href="http://blogs.msdn.com/keith_short/">Keith</a>, <a href="http://weblogs.asp.net/jackgr">Jack</a>, <a href="http://blogs.msdn.com/stevecook/">Steve</a>, <a href="http://blogs.msdn.com/stuart_kent/">Stuart</a>, <a href="http://blogs.msdn.com/garethj/">Gareth</a>, <a href="http://weblogs.asp.net/alan_cameron_wills/">Alan </a>and <a href="http://blogs.msdn.com/jochens/">Jochen</a>. Plus, I bug these guys on email <em>alot</em> and they always have answers. A couple of recent items from these folks:</p><ul><li>Steve was <a href="http://dnjonline.com/article.aspx?ID=mar05_stevecook">interviewed</a> by DNJ Online about Software Factories. I didn't get to read this until yesterday afternoon, but I had to present the Microsoft Technology Roadmap at the Executive Briefing Center yesterday morning. We started talking about factories and one of the things that came up was the massive value of partial classes. Steve hit on this in his interview as well. As cool as yield, anonmous delegates and especially generics are, I now consider partial classes the most important new langugage feature in .NET 2.0. Funny, as it was probably the easiest to build. 
+</li><li>Gareth <a href="http://blogs.msdn.com/garethj/archive/2005/03/15/396453.aspx">blogged</a> about a very strange bug in the March CTP release involving the letter 'A' and a slightly hacky technique for dealing with blank files. He also talks about the model serialization format. Sounds like they'll be fixing both down the road a bit. 
+</li><li>Stuart <a href="http://blogs.msdn.com/stuart_kent/archive/2005/03/18/398293.aspx">confirmed</a> that there will be a version of the DSL Toolkit for Beta 2 of VS05 "a small number of weeks" after it ships. He's also talks about some of the features in the next drop: better code generation and better support for containment hierarchies (i.e. classes contain fields and methods). 
+</li><li>Keith blogged a software factories <a href="http://blogs.msdn.com/keith_short/archive/2005/03/08/389777.aspx">elevator pitch</a> and then refined the definition of a software factory into a <a href="http://blogs.msdn.com/keith_short/archive/2005/03/17/397957.aspx">single sentence</a>. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">581</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-03-18 21:53:56</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-03-18 21:53:56</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">dsl-toolkit-team-roundup</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[aa6a9e6f-2b16-4b37-87a0-33da3d00e965]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[DSL+Toolkit+Team+Roundup]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/03/19/DSL+Toolkit+Team+Roundup]]></wp:meta_value>
+  </wp:postmeta>
+</item>

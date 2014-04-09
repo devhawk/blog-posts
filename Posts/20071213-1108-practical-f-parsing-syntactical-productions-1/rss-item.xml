@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Practical F# Parsing: Syntactical Productions (1)</title>
+  <link>http://devhawk.net/2007/12/13/practical-f-parsing-syntactical-productions-1/</link>
+  <pubDate>Thu, 13 Dec 2007 19:08:13 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://86444fb7-507c-4a5c-b3c3-350fc44f616e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[Now that I have my <a href="http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx" target="_blank">parse buffer functions</a> and <a href="http://devhawk.net/2007/12/12/Practical+F+Parsing+Unit+Testing.aspx" target="_blank">unit test framework</a> taken care of, it's time to write some parsing expression grammar productions [1]. In any grammar, there are productions that have semantic meaning and productions that are only used to specify syntax. For example, in C# statements end with a semicolon and code blocks are delineated with curly braces. Syntactical elements don't end up in the abstract syntax tree, so they're easier to implement.
+
+Most of PEG's grammar productions are syntactical in nature. Let's start with the simplest production, EndOfFile.
+<pre class="brush:fsharp">///EndOfFile &lt;- !.
+let EndOfFile input =
+    match NC input with
+    | None -&gt; Some()
+    | _ -&gt; None</pre>
+Similar to the underscore in F#, the period represents any character In the PEG grammar and the exclamation point is a backtracking not. In other words, EndOfFile succeeds if NC fails, which only happens when the parse buffer is empty. Since the parse buffer is empty on a successful match, there's no value to return so Ireturn Some(). Some() is kinda like Nullable, which doesn't make much sense in C#. But here it means I have a successful match but no data to pass back to the caller.
+
+Here's a slightly more complex grammar production, EndOfLine:
+<pre class="brush:fsharp">///EndOfLine &lt;- ‘rn’ / ‘n’ / ‘r’
+let EndOfLine input =
+    match NC input with
+    | Some(‘r’, input) -&gt;
+        match NC input with
+        | Some (‘n’, input) -&gt; Some(input)
+        | _ -&gt; Some(input)
+    | Some(‘n’, input) -&gt; Some(input)
+    | _ -&gt; None</pre>
+EndOfLine has three possible matches: rn, n and r. Here, you see the use of nested match statements in the r match clause. If the top character is r, the function checks the top of the remaining text buffer for n. F#'s ability to reuse symbols comes in very handy here.
+
+Unfortunately, this isn't code very readable. In particular, the match priority order, which matters in PEGs, is totally lost. For this production, it's no big deal, but that won't always be the case. I'm also not using the handy TOKEN function I wrote in <a href="http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx" target="_blank">a few posts ago</a>. Here's an alternative version that uses TOKEN and preserves the match priority order.
+<pre class="brush:fsharp">///EndOfLine &lt;- ‘rn’ / ‘n’ / ‘r’
+let EndOfLine input =
+    match TOKEN “rn” input with
+    | Some(input) -&gt; Some(input)
+    | _ -&gt;
+        match TOKEN “n” input with
+        | Some(input) -&gt; Some(input)
+        | _ -&gt;
+            match TOKEN “r” input with
+            | Some(input) -&gt; Some(input)
+            | _ -&gt; None</pre>
+This time, I use the TOKEN function and nested match statements to chain the results together. The previous method is probably faster, but this approach is more readable and explicitly preserves the match order. However, it sure is a pain to type. Wouldn't it be great if we could write something like this:
+<pre class="brush: fsharp">///EndOfLine &lt;- 'rn' / 'n' / 'r'
+let EndOfLine input =
+    match input with
+    | TOKEN "rn" (input) -&gt; Some(input)
+    | TOKEN "n" (input) -&gt; Some(input)
+    | TOKEN "r" (input) -&gt; Some(input)
+    | _ -&gt; None</pre>
+Turns out, F#'s <a href="http://devhawk.net/2007/11/29/F+Hawkeye+Pattern+Matching.aspx" target="_blank">Active Patterns feature</a> let's me implement EndOfLine exactly like this. We'll look at how it works in the next post.
+
+<hr />
+
+[1] The full PEG grammar is listed in "<a href="http://pdos.csail.mit.edu/~baford/packrat/popl04/" target="_blank">Parsing Expression Grammars: A Recognition-Based Syntactic Foundation</a>" by <a href="http://www.brynosaurus.com/" target="_blank">Brian Ford</a>.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1075</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-12-13 11:08:13</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-12-13 19:08:13</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">practical-f-parsing-syntactical-productions-1</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="functional-programming"><![CDATA[Functional Programming]]></category>
+  <category domain="post_tag" nicename="parsing-expression-grammar"><![CDATA[Parsing Expression Grammar]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[86444fb7-507c-4a5c-b3c3-350fc44f616e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Practical+F+Parsing+Syntactical+Productions+1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/12/13/Practical+F+Parsing+Syntactical+Productions+1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

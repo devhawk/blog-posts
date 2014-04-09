@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>A Question of Context</title>
+  <link>http://devhawk.net/2006/09/19/a-question-of-context/</link>
+  <pubDate>Tue, 19 Sep 2006 07:34:07 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f78c8901-b413-4200-b824-cdb1f7bc936f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p></p><p>A couple of weeks ago, <a href="http://www.davidchappell.com">David Chappell</a> posted a great article on <a href="http://www.davidchappell.com/HTML_email/Opinari_No16_8_06.html">SOA and the Reality of Reuse</a>. When someone mentions the idea of using SOA for reuse, I cringe. David does a great job blowing the "SOA for Reuse" argument out of the water. In the future, I will just send that link rather than spending the time arguing out the point.</p><p>But something nagged at the back of my brain about that post. David starts by talking about object reuse before making the parallel to services. The problem with that comparison is that object reuse <em>hasn't</em> been a failure. When was the last time you wrote a String class? A Linked List? A Button? There's been support for <a href="http://msdn.microsoft.com/library/en-us/shellcc/platform/commctls/buttons/buttons.asp">Buttons</a> in Windows since at least the 3.x days (probably longer, but that's before my time). Whatever your OO language of choice, there's a big collection of reusable objects to go with it.</p><p>Given his position as "famous technology author", I'm assuming David is well aware of successes of object reuse. Furthermore, I doubt it was an accident that in his article he writes that "reuse of <strong>business</strong> objects failed" (emphasis added). While there has been success around object reuse, essentially none of those successes have been in a business scenario. In fact, there have been some high profile projects such as <a href="http://www.microsoft-watch.com/article2/0,1995,1875024,00.asp">Microsoft's Business Framework</a> and <a href="http://www.research.ibm.com/journal/sj/373/rubin.html">IBM's San Francisco Project</a> that have <strike>crashed and burned</strike> been significantly less than successful.</p><p>So here's the question: given that general object reuse has seen some success, what's so different about business objects that causes reuse to fail utterly? Since we're really interested in service reuse, knowing why some object reuse succeeds and other reuse fails will help us understand which services are likely to be reusable and which wont. I would say that success of object reuse hinges on context.</p><p>Wikipedia gives this definition of <a href="http://en.wikipedia.org/wiki/Context">context</a>: "The <b>context</b> of an event, word, paradigm, change or other reality includes the circumstances and conditions which <i><b>surround</b></i> it." (emphasis in original) For example, the word "order" is ambiguous. If you're using a procurement system for the military, you could conceivably be given an order to place an order. (OK, that's silly. But you get the idea.) The word "order" has two different meanings. However, the words that surround the ambiguous term make the meaning clear. An order that you place is different that an order that you give. That's context.</p><p>A string or a linked list or a button has very little in the way of contextual needs. That is to say you can use it the exact same way in a wide variety of environments. A business object on the other hand has significant contextual requirements, which makes reuse difficult or impossible. For example, a Purchase Order object from the above-mentioned military procurement system sounds like it might be reusable. At least until you take into account the differences between branches of the military, between ordering tanks and ordering uniforms, between active units and reserve units, etc. Once the generic Purchase Order has been specialized to the point of practical usability for a given scenario, it's no longer reusable in the general case.</p><p>Taking this back to the service realm, likewise I figure the reusable services will be the ones with little or no contextual needs. A good example is the identity and directory services such as <a href="http://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory">Active Directory</a> and its competitors. Sure, you use LDAP not SOAP to access it, but AD is certainly both reusable and a service plus it's in wide usage. Other candidates for reusable services my team is looking at are service directory, management and operations, business activity monitoring and provisioning.</p><p>I actually think there will be <em>less</em> reuse in services than there was with objects. The value of reuse of services has to exceed not only the contextual issues but also the overhead of distributed access. Calling across the network is an expensive operation - whatever's on the other side better be worth the drive. I'm guessing for services, more often than not, reuse won't be worth the trip (if it's possible at all).</p><p><strong>Update </strong>- David pointed out to me that the last paragraph of his article begins:</p><blockquote><p>Object reuse has been successful in some areas. The large class libraries in J2EE and the .NET Framework are perhaps the most important examples of this.</p></blockquote><p>Doh! I guess my "assumption" that David is aware of successful object reuse was correct. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">796</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-09-19 07:34:07</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-09-19 07:34:07</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">a-question-of-context</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="object-oriented"><![CDATA[Object Oriented]]></category>
+  <category domain="post_tag" nicename="reuse"><![CDATA[Reuse]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/09/19/A+Question+Of+Context]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[A+Question+Of+Context]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f78c8901-b413-4200-b824-cdb1f7bc936f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2406</wp:comment_id>
+    <wp:comment_author><![CDATA[Thomas Beck]]></wp:comment_author>
+    <wp:comment_author_email>thomas@beckshome.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.beckshome.com</wp:comment_author_url>
+    <wp:comment_author_IP>71.230.0.149</wp:comment_author_IP>
+    <wp:comment_date>2006-09-19 19:00:22</wp:comment_date>
+    <wp:comment_date_gmt>2006-09-20 02:00:22</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Great follow-up to David's original post. I think your addition of the "context" idea to the discussion has really added a lot. In my opnion, this brings us right back to the old black box, grey box, white box discussion.
+
+I elaborate in my post http://www.beckshome.com/PermaLink,guid,7b0aa555-c37a-44e9-baf3-b69f6b1efc30.aspx]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

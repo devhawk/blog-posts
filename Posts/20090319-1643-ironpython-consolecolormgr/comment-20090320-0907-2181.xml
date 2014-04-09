@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2181</wp:comment_id>
+  <wp:comment_author><![CDATA[Christopher Bermingham]]></wp:comment_author>
+  <wp:comment_author_email>christopher.bermingham@us.bosch.com</wp:comment_author_email>
+  <wp:comment_author_url>http://bermingham.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>209.221.240.193</wp:comment_author_IP>
+  <wp:comment_date>2009-03-20 09:07:08</wp:comment_date>
+  <wp:comment_date_gmt>2009-03-20 16:07:08</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Hello-  I am trying to get your consolecolor sample running...  What version of IronPython is that?  I am running the latest release 2.0.0.0 (which is really 2.0.1 file version 2.0.20209.00).  I believe the CPython 2.5 'with' statement doesn't seem to be recognized.
+
+>>> with consolecolor.Red:
+  File "<stdin>", line 1
+    with consolecolor.Red
+
+         ^
+SyntaxError: unexpected token 'consolecolor']]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Virtual Dogfooding</title>
+  <link>http://devhawk.net/2003/10/14/virtual-dogfooding/</link>
+  <pubDate>Tue, 14 Oct 2003 15:40:12 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://27f8ffe6-b9e8-4610-a443-b5c51df788c9</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>One of the cool things about using VPC to host my dev environment(s) is that I can easily dogfood and experiment. For example, I can run my VPC in "undo" mode so that when I shut down, I can choose to merge, keep or throw away all the changes I made to that VPC. This is a great safety net when dogfooding a bunch of different stuff. I've got a VPC with Whidbey and Indigo. Instead of creating a separate VPC for Yukon, I can install it into the Whidbey/Indigo VPC and see how well they play together. It does mean I have a long merge cycle when I shut down (assuming I don't want to rollback the changes) and the VPC is runs slightly slower. But it's a heck of a lot easier than finding out after the fact that build of this doesn't work with this build of that.</p><p>Even for my "production" dev environments (I have two - client and server), I can make a back up of the entire system as easily as copying the multi-GB virtual hard drive file to a safe location. Of course, it helps that I have 1GB of RAM and nearly 85GB of HD space in my laptop.</p><p>The only downside is that actually dogfooding <a href="http://www.microsoft.com/windowsxp/virtualpc/">Virtual PC</a> is a bit of a pain. We have prebuilt XP and WS03 images available internally. But since I'm on a later build of VPC, the additions aren't always compatible with my build. Our website lists "late in calendar year 2004" for the availability of Virtual PC 2004. So I guess there's a light at the end of that dogfood tunnel.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">207</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-10-14 15:40:12</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-10-14 15:40:12</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">virtual-dogfooding</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/10/14/Virtual+Dogfooding]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Virtual+Dogfooding]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[27f8ffe6-b9e8-4610-a443-b5c51df788c9]]></wp:meta_value>
+  </wp:postmeta>
+</item>

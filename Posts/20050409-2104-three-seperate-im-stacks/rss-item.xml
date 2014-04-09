@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Three Seperate IM Stacks</title>
+  <link>http://devhawk.net/2005/04/09/three-seperate-im-stacks/</link>
+  <pubDate>Sat, 09 Apr 2005 21:04:49 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://131bb3a0-8a51-4456-ba2d-3acbfbe99324</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>It's interesting to see how consumer and corporate IM have finally started to evolve in different directions. I have a personal IM account (harrypierson at hotmail dot com) on MSN running the newly released <a href="http://messenger.msn.com/">MSN 7</a>. I really like the integration with Spaces, the contact cards and the new Personal Message feature that also integrates w/ WMP and iTunes to show "what I'm listening to" (in case you're curious, baby lullabies - I'm sitting in Patrick's room as he goes to sleep). I hadn't realized how many of my coworkers (primarily ex-teammates) have started blogs on MSN Spaces. </p><p>I also just installed <a href="http://www.microsoft.com/office/rtc/client.mspx">Office Communicator 2005</a>, the new corporate client for <a href="http://www.microsoft.com/office/livecomm/prodinfo/default.mspx">Live Communications Server 2005</a>. While we've had LCS installed internally for a while, I rarely used it. I mean, the only real value I saw in corporate IM in general was security - if your employees are chatting on IM, better to keep it off the public Internet. But w/ LCS 2005 &amp; new new client, there are several cool new features. First off, LCS 2005 connects with both AOL and MSN <a href="http://www.microsoft.com/office/livecomm/prodinfo/publicim.mspx">public IM services</a>. So if you want to, add me as an IM contact via my corporate email address (hpierson at microsoft dot com). Next, LCS 2005 &amp; the new client integrate with your Exchange calendar. So if you're in a meeting, you're status changes to Busy. I can also hover on a contact and see what they're up to now (in a meeting until noon, free until 3:30, etc). Finally, the new Office Communicator client integrates with PBX systems. So I can select a conact, hit call, and my desktop phone automatically calls the person. For incoming calls, I get notification even if I'm not in my office. So if I'm in a meeting, my wife calls, I can click on the notification to forward the call to my mobile phone. </p><p>Finally, I'm running <a href="http://www.skype.com/">Skype</a> (callto harrypierson). I was in Barcelona most of last week and I used the <a href="http://www.skype.com/products/skypeout/">SkypeOut service</a> all the time, except when I was making connections in the Amsterdam airport. I racked up the big 2 Euros in calls over the course of a week. I seem to remember MSN IM having support a similar service via Net2Phone, but they stopped some time ago. I'd probably can Skype if they brought it back. I don't want or need three contact points like this. Two is good - one for work and one for personal - but three is one too many. </p><p>If you want to reach me, you have zero excuse! </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">585</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-04-09 21:04:49</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-04-09 21:04:49</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">three-seperate-im-stacks</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[131bb3a0-8a51-4456-ba2d-3acbfbe99324]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Three+Seperate+IM+Stacks]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/04/10/Three+Seperate+IM+Stacks]]></wp:meta_value>
+  </wp:postmeta>
+</item>

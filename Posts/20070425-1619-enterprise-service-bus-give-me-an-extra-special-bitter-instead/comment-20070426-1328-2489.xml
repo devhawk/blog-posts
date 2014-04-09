@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2489</wp:comment_id>
+  <wp:comment_author><![CDATA[Curt Peterson]]></wp:comment_author>
+  <wp:comment_author_email>curt.peterson@neudesic.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.neudesic.com/esb</wp:comment_author_url>
+  <wp:comment_author_IP>76.80.169.55</wp:comment_author_IP>
+  <wp:comment_date>2007-04-26 13:28:07</wp:comment_date>
+  <wp:comment_date_gmt>2007-04-26 20:28:07</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Harry,
+
+I couldn't agree more that a centralized approach to messaging has some less than desired side effects, as you mentioned.  However, consider an alternative, point to point.  If you go down this path, for example using WCF just like it is (any channel you choose), how do you deal with all of the management issues you guys are dealing with in ICOE, or deployment, or service reuse, or mediation, or versioning, etc.?  I'm confident you would agree there are a certain set of common capabilities required to have a decent messaging solution, as well as some nice to have's you could throw in there.  If we did that, why not consider that a definition of an ESB?  What that collection of specific features is called isn't as important, I'll offer, as the fact that were abstracting common elements of an enterprise communications system into a reusable pattern, and delivering that as a real solution, reusable, and available today.  This saves, time, money, etc.
+
+We've crafted a solution, using all MSFT technologies that achieves exactly this http://www.neudesic.com/esb, is available now, is super easy to use, dramatically reduces the cost of wiring together services, and provides features that enable many of the promises of distributed, loosely coupled architectures to be realized.  Our solution is not physically centralized, it is logically centralized, but physically decentralized.  This gives you the best of both worlds; the maintenance ease of a centralized system, with the flexibility, performance, etc. of a decentralized solution.  Check it out, I have implemented these kinds of solutions for nearly 20 years, and it's great to finally have a complete MSFT solution, now we can introduce a product that is very easy to use, into an existing environment, with no impact on the current communications, and bring all of the power of CBR, CEP, BPM, BAM, QoS, security, mediation, reconfigurability, BRE, workflow, and many other fantastic tools, in a matter of minutes.  Shoot me an email, if you want to know more, I'm always happy to prove it, not just say it!!!  The correct communications tools (read good ESB) can and does do wonders for small, medium, and large projects.  Cheers!!!]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

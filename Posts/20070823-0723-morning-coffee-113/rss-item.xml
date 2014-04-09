@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 113</title>
+  <link>http://devhawk.net/2007/08/23/morning-coffee-113/</link>
+  <pubDate>Thu, 23 Aug 2007 14:23:53 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://08f02252-de04-4a8d-933d-eff57cf3c186</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I'm in Chicago today and tomorrow for a reunion of sorts. In my last job, I managed a group of external architects called the Microsoft Architecture Advisory Board (aka the MAAB). We discontinued the program a while back, but the core of the group found the program valuable enough they have continued to meet anyway. I found the MAAB meetings incredibly valuable and insightful, so I'm really excited to be invited to continue my involvement with the group. </li><li>I picked up Bioshock Tuesday (Circuit City <a href="http://www.xbox360fanboy.com/2007/08/19/get-bioshock-and-all-pro-football-for-the-cheap/">had it on sale</a>) on my way to my bi-weekly campus excursion. My meetings were over around 2pm so I headed home early, expecting to surprise the kids. But Jules had decided to skip naps and go shopping with them. Her cell phone was dead, so I ended up at home with a couple of hours to myself and a brand new copy of Bioshock. Wow, is that a good game. Certainly deserving of the <a href="http://www.metacritic.com/games/platforms/xbox360/bioshock">amazingly good reviews</a> it's garnered. </li><li>Speaking of reviews, <a href="http://www.sonydefenseforce.com/?p=83">this transparently biased review of Bioshock</a> over at Sony Defense <strike>Farce</strike> Force is frakking hilarious. Somehow, I doubt their dubious review will stem the tidal wave of Bioshock's well-deserved hype. Can't wait to read their Halo 3 review. </li><li>Pat Helland <a href="http://blogs.msdn.com/pathelland/archive/2007/08/19/thoughts-about-multi-master-replication-of-tree-structured-data.aspx">writes at length</a> on master-master replication. I <a href="http://blogs.msdn.com/pathelland/archive/2007/08/20/easier-to-read-version-of-my-last-post.aspx">reformated it into PDF</a> so I could read it - the large images were messing up the text flow on my system. As usual for Pat, there's gold in that thar post. His thoughts on DAGs of versions and vector clocks as identifiers are very exciting. However, I think he glosses over the importance of declarative merging. I would think programmatic merge would likely be non-deterministic across nodes. If so, wouldn't you end up with two documents with the same vector-clock identifier by different data? </li><li>Joe McKendrick <a href="http://blogs.zdnet.com/service-oriented/?p=939">points to</a> a few people who predict the term "service-oriented" will eventually be subsumed under the general heading of "architecture". Not to brag, but I made that exact same prediction <a href="http://blogs.msdn.com/jevdemon/archive/2004/12/17/323889.aspx">almost three years ago</a>. </li><li>Erik Johnson <a href="http://appside.blogspot.com/2005/08/patterns-for-soa-20.html">thinks</a> that SOA 2.0 centers on transformational patterns. The idea (I think) is that if systems "understand each other more deeply", then we can build a "smarter stack" and design apps via new constructs to promote agility and simplicity. Personally, I'm skeptical that we can define unambiguously system semantics except in the simplest scenarios, but Erik talks about using "graph transformation mathematics" to encode semantics. I don't know anything about graph transformation mathematics, but at least Erik has progressed beyond hand waving to describing the "what". Here's looking forward to the "how". </li><li><a href="http://vasters.com/clemensv/PermaLink,guid,70d581f0-577d-4f80-aa11-248574b1e420.aspx">New dad</a> Clemens Vasters somehow <a href="http://vasters.com/clemensv/PermaLink,guid,9677a491-9037-4b79-baa3-bcf093737957.aspx">finds time to implement</a> an XML-RPC binding for WCF 3.5. I was encouraged that it didn't require any custom attributes or extensions at the programmer level. Of course, XML-RPC fits semantically into WCF's interface based service model, so it shouldn't be a huge surprise that it didn't require any custom extensions. But did it need WCF 3.5? Would this work if recompiled against the 3.0 assemblies? </li><li>Phil Haack <a href="http://haacked.com/archive/2007/08/19/why-duck-typing-matters-to-c-developers.aspx">writes a long post</a> on Duck Typing. VB9 <a href="http://download.microsoft.com/download/5/8/6/5868081c-68aa-40de-9a45-a3803d8134b8/Visual_Basic_9.0_Overview.doc">originally supported</a> duck typing - the feature was called Dynamic Interfaces - when it was first announced, but it was <a href="http://blogs.msdn.com/vbteam/archive/2007/01/11/extension-methods-part-2.aspx#1458124">subsequently cut</a>. I was really looking forward to that feature. Between it and XML Literals, VB9 was really stepping out of C#'s shadow. I guess <a href="http://steve.emxsoftware.com/LINQ/XLinq+has+me+wanting+to+code+in+VBNET">it still is</a>, even without dynamic interfaces. </li><li>Since I've been doing some LINQ to XML work lately, I decided to go back and re-write my code in VB9 using XML literals. While XML literals are nice, I don't think they're a must have. First, LINQ to XML has a nice fluent interface, so the literals don't give you that much cleaner code (though you do avoid writing XElement and XAttribute over and over.) Second, I find VB9's template syntax (like ASP &lt;%= expression %&gt;) clunky to work with, especially in nested templates. Finally, I like the namespace support of XNames better. As far as I can tell, VB9 defines namespaces with xmlns attributes just like XML does. So I'm not dying for literal XML support in a future version of C#. How about you? </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1033</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-08-23 07:23:53</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-08-23 14:23:53</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-113</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="linq"><![CDATA[LINQ]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[08f02252-de04-4a8d-933d-eff57cf3c186]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+113]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/08/23/Morning+Coffee+113]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2577</wp:comment_id>
+    <wp:comment_author><![CDATA[Clemens Vasters]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-08-23 13:48:45</wp:comment_date>
+    <wp:comment_date_gmt>2007-08-23 20:48:45</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[The XML-RPC download should be a 3.0 compatible assembly. It's 3.5 "ready" in that it gains partial trust support on 3.5 automatically.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

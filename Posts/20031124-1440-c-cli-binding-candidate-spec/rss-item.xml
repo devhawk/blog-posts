@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>C++ CLI Binding Candidate Spec</title>
+  <link>http://devhawk.net/2003/11/24/c-cli-binding-candidate-spec/</link>
+  <pubDate>Mon, 24 Nov 2003 14:40:31 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a02fc2d3-2271-48af-bb3c-669c681f16b6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I <a href="PermaLink.aspx?guid=a6428efe-595e-479a-a3df-3897d6679977">blogged</a> on the new ECMA working group for <a href="http://www.ecma-international.org/news/ecma-TG5-PR.htm">standardizing the C++ binding for CLI</a> last month. Last week, <a href="http://blogs.gotdotnet.com/hsutter/">Herb Sutter</a><a href="http://blogs.gotdotnet.com/hsutter/permalink.aspx/44e3520b-b8ca-4961-8930-59346e721a9b">blogged</a> the <a href="http://download.microsoft.com/download/9/9/c/99c65bcd-ac66-482e-8dc1-0e14cd1670cd/C++%20CLI%20Candidate%20Base%20Draft.pdf">candidate specification</a>. And to answer the question I posed, it does appear that the double underscore syntax has been removed. Instead of "__gc class {...}", it's just "ref class". For __value and __property, you just lose the double underscore. Cool, though it does mean any MC++ code will eventually need to be migrated to the new syntax. Also. the specification is forward looking, including support for CLI generics. </p><p>Herb also blogged in depth on the <a href="http://blogs.gotdotnet.com/hsutter/permalink.aspx/9a9b7f1a-652e-4f18-b431-bfea2fd554d7">new keywords</a> as well as the <a href="http://blogs.gotdotnet.com/hsutter/permalink.aspx/bc7a98db-6b1f-40d3-b9ce-14b3708c400d">gcnew operator</a>.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">237</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-11-24 14:40:31</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-11-24 14:40:31</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">c-cli-binding-candidate-spec</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-plus-plus"><![CDATA[C++]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a02fc2d3-2271-48af-bb3c-669c681f16b6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[C+CLI+Binding+Candidate+Spec]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/11/24/C+CLI+Binding+Candidate+Spec]]></wp:meta_value>
+  </wp:postmeta>
+</item>

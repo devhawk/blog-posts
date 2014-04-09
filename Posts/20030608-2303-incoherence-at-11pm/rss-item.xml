@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Incoherence at 11pm</title>
+  <link>http://devhawk.net/2003/06/08/incoherence-at-11pm/</link>
+  <pubDate>Sun, 08 Jun 2003 23:03:58 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7d4b2a20-5cf8-423a-b71e-3f2a305f4ba8</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I've spent the last three hours trying to get my new photo site posted to no avail. Will have to check with the webmaster tomorrow - any page with a code behind throws an exception that I can't seem to catch or echo to the screen. :( I guess I'll have to build a simple HTML front end in order to post a bunch of new Patrick pictures for my parents.</p><p>In other news, <a href="http://www.kuro5hin.org/user/Carnage4Life/diary"> Dare's</a> back from his world wide trip. Looking forward to the new builds of <a href="http://www22.brinkster.com/rendelmann/db/200306archive002.asp#1054847834002"> RSS Bandit</a>. But it <a href="http://www.kuro5hin.org/story/2003/6/7/162431/3970">took him a while</a> to make any sense of <a href="PermaLink.aspx?guid=7c64a65b-ec8b-4339-b98a-25081625449a">my last post</a> in the objects vs. entities discussion. Apparently, I'm not as lucid at 11pm as I thought. Given that it's 11pm as I write this, here's my single attempt to make a coherent point. </p><blockquote><p>XML, even with Infoset/XPath 2.0 Data Model/XSD/etc, has it's roots in a text based format. Attempts to hide this with strongly-typed object-oriented mechanisms will always be <a href="http://www.joelonsoftware.com/articles/LeakyAbstractions.html"> leaky abstractions</a>. But that's OK, since XML actually works for loosely-coupled cross platform services while strongly-typed object-oriented mechanisms only work for tightly-coupled n-tier applications. And I'm out of the application business. </p><p>Since I'm going to have to build some XML entities for interoperability purposes, it makes sense to build all my entitles that way, even the ones that are private to my code. This way I have a single architectural model, improve reuse, reduce training, and avoid writing any annoying XML &lt;--&gt; OOP conversion routines. </p></blockquote>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">116</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-06-08 23:03:58</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-06-08 23:03:58</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">incoherence-at-11pm</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Incoherence+At+11pm]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7d4b2a20-5cf8-423a-b71e-3f2a305f4ba8]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/06/09/Incoherence+At+11pm]]></wp:meta_value>
+  </wp:postmeta>
+</item>

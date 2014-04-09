@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2444</wp:comment_id>
+  <wp:comment_author><![CDATA[Rich McCollister]]></wp:comment_author>
+  <wp:comment_author_email>kraki5525@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>168.215.128.114</wp:comment_author_IP>
+  <wp:comment_date>2007-01-23 12:04:47</wp:comment_date>
+  <wp:comment_date_gmt>2007-01-23 20:04:47</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[If you are still interested in the xml file membership provider approach, then check out this codeplex project 
+
+ASP.NET XmlProvider Library
+http://www.codeplex.com/XmlProviderLibrary
+
+They got a fairly complete implementation of the membership, role, profile, and personalization providers]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2466</wp:comment_id>
+  <wp:comment_author><![CDATA[Arnon Rotem-Gal-Oz]]></wp:comment_author>
+  <wp:comment_author_email>arnon@rgoarchitects.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.rgoarchitects.com/blog</wp:comment_author_url>
+  <wp:comment_author_IP>89.139.26.160</wp:comment_author_IP>
+  <wp:comment_date>2007-03-16 23:32:19</wp:comment_date>
+  <wp:comment_date_gmt>2007-03-17 06:32:19</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Regarding your point #1
+It does look that SQL 2005 has almost everything to become an application server (I wrote about it Jul 2005: 
+http://www.rgoarchitects.com/blog/PermaLink,guid,4dcc5298-e9ff-4a9a-880a-aa886d143f9e.aspx)
+But it seems that Microsoft got cold feet somewhere along the way and never really promoted this as an option. 
+
+Also in regard to SSB. It offers some great features but having only an SQL API (I know you can createa C# facade - been there, done that, got the t-shirt) and a proprietary transport directs it into a niche instead of main-stream
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

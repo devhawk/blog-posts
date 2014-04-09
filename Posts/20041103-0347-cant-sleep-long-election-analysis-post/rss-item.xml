@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Can't Sleep - Long Election Analysis Post</title>
+  <link>http://devhawk.net/2004/11/03/cant-sleep-long-election-analysis-post/</link>
+  <pubDate>Wed, 03 Nov 2004 03:47:10 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://8ee683d6-94ff-4d0f-882f-73ba780ad3d5</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'll be honest - I started Election Day feeling cautiously optimistic. Obviously, that feeling as been proved way, way wrong. Now, its 2:30am, I can’t sleep so I’ve been futzing with Excel and written a following long piece on voting tendencies of different age groups.</p><p>Regardless of the eventual outcome in Ohio (which I am most certainly <i>not</i> optimistic about) Bush has won the popular vote hands down - by a significantly larger margin than he lost it in 2000. Any way you slice that, it's bad for Democrats. Even if Kerry wins Ohio - and the election - he faces a hostile Republican majority in the Congress without a national mandate and an increasingly conservative media ready to crucify him at any turn. On the other hand, if Bush wins Ohio - as I expect will happen eventually - then we get four "more of the same" years - and the last four year were no picnic. And either way, the likely two week delay in processing Ohio's provisional ballots further divides what is an already polarized electorate.</p><p>Right now, going back to blissful ignorance of politics is looking mighty tempting. But I won’t do it. Instead, I want to get more involved in issues I care about in order to affect change. For example, one thing I'd like to see in the coming years is the election reform. I'm not talking about abandoning the Electoral College - which isn’t going to happen w/o a constitutional amendment that has almost zero chance of passing. I’m talking about the changing the low voter turnout that has plagued American elections for decades. Final results won’t be in for a while, what with provisional and absentee ballots, but according to CNN’s current numbers, around 110 million votes have been tabulated, with 95% of the precincts reporting. That means there were around 116 million votes cast (plus the absentee and provisional votes that haven’t been counted yet). However, the US population is <a href="http://factfinder.census.gov/home/saff/main.html?_lang=en">estimated by the Census Bureau</a> to be around 295 million. Excluding the <a href="http://factfinder.census.gov/servlet/QTTable?_bm=y&amp;-geo_id=01000US&amp;-qr_name=DEC_2000_SF1_U_QTP1&amp;-ds_name=DEC_2000_SF1_U&amp;-redoLog=false&amp;-_sse=on">estimated</a> 25.7% of the population that is under 18, that leaves nearly 219 million potential voters. Even with this year’s record turnout, we’ve only managed to include 53% of the country in the voting process (maybe low 60’s after with the yet-to-be-counted ballots). While I understand it’s every citizen’s duty to vote, it’s the government’s duty to enable the citizens to do their duty. We should treat the turnout as a grade, and 53% is a failure.</p><p>I don’t expect election reform to be a priority of a Republican administration or congress, as conventional wisdom states that larger turnout favors Democrats. Of course, this election’s results fly directly in the face of that idea. However, there are those blogs I read that <a href="http://www.talkingpointsmemo.com/archives/003925.php">have suggested</a> that Kerry lost the popular vote because the “much-ballyhooed youth vote simply did not show up”. I thought this too – until I ran the numbers. </p><p>The most underrepresented age group in the election (according to the <a href="http://www.cnn.com/ELECTION/2004/pages/results/states/US/P/00/epolls.0.html">national exit poll</a>) was 18-29 years olds – 22% of the voting age population yet only 17% of the voters in the exit poll. And that group overwhelmingly favored Kerry 54%-44%. By comparison, people 60 and older are also around 22% of the voting population but represented 25% of the voters. Not surprisingly, that group favored Bush 53%-46%. However, it’s interesting to note that if the voter turnout age distribution had matched the actual census distribution, Bush would still have won the popular vote 49.6% to 48.8%. In the census-adjusted model, Kerry is negatively effected by the 30-44 age group, that favored Bush by four points and were under represented in the exit polls – 32% of the voting population but only 28% of voters. </p><p>(In fairness, the exit poll isn’t completely accurate – based on the voting turnout age distribution, it estimated a 50% - 48.5% Bush popular vote win and we know Bush won by a wider margin than that. Furthermore, as we are accutely aware, popular vote doesn't win the presendency and given the closeness of several state races, the youth vote might have shifted the Electoral College in Kerry’s favor.)</p><p>I’d like to do more analysis of this exit poll data. There were certain questions that I think are fascinating. For example, 43% of people thought things are going well in Iraq, and 90% of them voted for Bush. 52% of people thought things are going badly, and 82% of them voted for Kerry. Given that people perception of Iraq is directly effected by the media reporting, it becomes fairly obviously the dramatic role that the media plays in our elections. So there’s another issue for me to get involved in – undoing the damage of media consolidation. </p><p>But for now, I’m going to <i>try</i> and sleep.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">469</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-11-03 03:47:10</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-11-03 03:47:10</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">cant-sleep-long-election-analysis-post</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="politics"><![CDATA[Politics]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[8ee683d6-94ff-4d0f-882f-73ba780ad3d5]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Cant+Sleep+Long+Election+Analysis+Post]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/11/03/Cant+Sleep+Long+Election+Analysis+Post]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2707</wp:comment_id>
+    <wp:comment_author><![CDATA[Rod]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.rodtempleton.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-11-03 08:48:57</wp:comment_date>
+    <wp:comment_date_gmt>2004-11-03 15:48:57</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[While it would never fly in North America, perhaps the U.S. (and Canada, too, I must admit), should look at going the way Australia holds its elections.  Voting is not a right.  Voting is *mandatory*.  If you don't vote, you are hit with either a fine or time as a guest of the crown.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2708</wp:comment_id>
+    <wp:comment_author><![CDATA[Steve]]></wp:comment_author>
+    <wp:comment_author_email>spamhole@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-11-03 11:18:02</wp:comment_date>
+    <wp:comment_date_gmt>2004-11-03 18:18:02</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA["While I understand it’s every citizen’s duty to vote, it’s the government’s duty to enable the citizens to do their duty. We should treat the turnout as a grade, and 53% is a failure."
+
+That's a faithful Democrat.  Blame the government for people's apathy.  Yeah, it's Bush's fault people don't bother to get off their butt and vote.
+
+The Republican party advocates personal responsibility.  Your actions are no one's fault but your own.
+
+I'm not celebrating the low turnout (I'm certainly celebrating the Bush win and Daschel loss though), I wish everyone legally eligible would vote.  I think it's kinda cool that Australia has a mandatory vote but I really don't think you can hold the governement responsible for these lame voter turnouts.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2709</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-11-03 12:41:26</wp:comment_date>
+    <wp:comment_date_gmt>2004-11-03 19:41:26</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Steve, I'm not sure where in my post that I said it was "Bush's fault" or that I "blamed the goverment for people's apathy". I was trying to say (note it was almost 3am when I wrote this) that we shouldn't be proud of a 58%-60% turnout (estimates have come in since I originally posted). Goverment shouldn't be blamed, but it should be thinking of ways to get that number higher.
+
+My comment about voter reform not being a Republican priority was the introduction to my investigation of the conventional wisdom of large turnout favoring Democrats. Honestly, I doubt a 100% voter turnout would have changed the outcome of the popular vote (which is all I looked at). 
+
+Do you?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2710</wp:comment_id>
+    <wp:comment_author><![CDATA[Steve]]></wp:comment_author>
+    <wp:comment_author_email>spamhole@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-11-03 14:15:32</wp:comment_date>
+    <wp:comment_date_gmt>2004-11-03 21:15:32</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Oh, now I understand.  When you said:
+
+"While I understand it’s every citizen’s duty to vote, it’s the government’s duty to enable the citizens to do their duty. We should treat the turnout as a grade, and 53% is a failure." 
+
+I took it that since you were saying "it's the government's duty" you were also saying that the government failed.  In fact, it sounds like you meant the people failed.  As the grammar challenged youths of today would say "My bad."  
+
+I think it sucks that nearly half the population didn't vote.  I have at least one friend that isn't even registered and I'm pretty annoyed with him.
+
+I don't know if voter reform is or is not a republican priority.  I don't think I've heard anyone talk about it from either party.  We all lament the low turnout but I've never really heard any politician suggest a government solution.  Maybe we need tax cuts for voters - that would be more palatable than Australia's fines.
+
+I would agree, based on the popular vote distribution with 60% turnout I tend to think 100% turnout would still give the election to Bush.  
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2711</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-11-03 14:38:43</wp:comment_date>
+    <wp:comment_date_gmt>2004-11-03 21:38:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[No worries - I did write this at 3am so I wasn't exactly at my best at explaining my meaning.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

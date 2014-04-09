@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2075</wp:comment_id>
+  <wp:comment_author><![CDATA[Seo Sanghyeon]]></wp:comment_author>
+  <wp:comment_author_email>sanxiyn@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>143.248.233.155</wp:comment_author_IP>
+  <wp:comment_date>2008-05-06 18:30:50</wp:comment_date>
+  <wp:comment_date_gmt>2008-05-07 01:30:50</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[For a mature Python library to do XML to object serialization, take a look at lxml.objectify.
+
+http://codespeak.net/lxml/objectify.html
+
+You really should try FePy. FePy doesn't run lxml.objectify yet (this one is a monster), but it does run gnosis.xml.objectify. And it runs same on CPython too.
+
+It is impressive that you could cook up XML to object serializer in relative short time and code, but I personally won't use any IronPython-only solution when there are lots of mature Python solutions.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

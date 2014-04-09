@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2490</wp:comment_id>
+  <wp:comment_author><![CDATA[Hans Valcke]]></wp:comment_author>
+  <wp:comment_author_email>hans.valcke@unilin.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.linkedin.com/myprofile?trk=tab_pro</wp:comment_author_url>
+  <wp:comment_author_IP>84.195.232.190</wp:comment_author_IP>
+  <wp:comment_date>2007-04-29 05:41:38</wp:comment_date>
+  <wp:comment_date_gmt>2007-04-29 12:41:38</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Hi,Harry
+
+We had a fairly large Biztalk env. in our company and we already implemented 2 hub's one in EU, one in US in 2004. Then we added the ESB concepts so we can deploy federated biztalk servers around the globe with central routing tables and central console. We can use messaging and services in the ESB design and can scale as large as you want, just add more hubs to the ESB.
+
+We also wrote ESB-switches which can also route the messages thoughout the ESB and we to dynamic routing so we can re-route if a hub is down -All hubs use services to check for new routing and give hartbeats to our main hub's. We also implemeted enterprise dymensionnal routing so we can monitor and simulate the impact of changes in routing.
+
+Currently we're implementing 15 federeted hub across the globe.
+
+Hans.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

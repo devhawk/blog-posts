@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">                          
+<!--<![endif]-->
+
+			<head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		    <title>Strengthening the Microsoft Ecosystem with Source Code | DevHawk</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link rel="profile" href="http://gmpg.org/xfn/11" />
+		    <link rel="pingback" href="http://devhawk.net/xmlrpc.php" />
+		   
+		   <!-- Icons font support for IE6-7  -->
+		    <!--[if lt IE 8]>
+		      <script src="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/lte-ie7.js"></script>
+		    <![endif]-->
+		    <link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Feed" href="http://devhawk.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Comments Feed" href="http://devhawk.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Strengthening the Microsoft Ecosystem with Source Code Comments Feed" href="http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/feed/" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-skin-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/css/blue.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='http://devhawk.net/wp-content/themes/customizr/style.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/modernizr.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devhawk.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devhawk.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='A Somewhat Scary Birthday' href='http://devhawk.net/2009/05/22/a-somewhat-scary-birthday/' />
+<link rel='next' title='__clrtype__ Metaclasses: Simple Custom Attributes' href='http://devhawk.net/2009/06/15/__clrtype__-metaclasses-simple-custom-attributes/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/' />
+<link rel='shortlink' href='http://wp.me/p1uVhd-ko' />
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/styles/shCoreDefault.css"/>
+<!-- END: Syntax Highlighter ComPress -->
+
+  
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Strengthening the Microsoft Ecosystem with Source Code" />
+<meta property="og:url" content="http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/" />
+<meta property="og:description" content="Today was the Presentation Idol competition I blogged about a couple of weeks ago. Unfortunately, I didn’t win - but believe me when I say I was up against some serious competition. I think I was a..." />
+<meta property="article:published_time" content="2009-06-03T16:17:31+00:00" />
+<meta property="article:modified_time" content="2011-04-18T03:47:06+00:00" />
+<meta property="article:author" content="http://devhawk.net/author/admin/" />
+<meta property="og:site_name" content="DevHawk" />
+<meta property="og:image" content="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg" />
+<meta property="og:image:secure_url" content="https://i1.wp.com/s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+<meta name="twitter:image" content="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg?w=1400" />
+<meta name="twitter:card" content="photo" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Expand All' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Collapse All');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Expand All');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+        
+        
+        		    <!--Icons size hack for IE8 and less -->
+		    <!--[if lt IE 9]>
+		      <link href="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/ie8-hacks.css" rel="stylesheet" type="text/css"/>
+		    <![endif]-->
+		</head>
+		
+	<body class="single single-post postid-1264 single-format-standard" itemscope itemtype="http://schema.org/WebPage">
+		
+		
+	   	<header class="tc-header clearfix row-fluid" role="banner">
+			
+			
+		
+	    	
+	        <div class="brand span3 pull-left">
+
+	        	<h1><a class="site-title" href="http://devhawk.net/" title="DevHawk | Passion * Technology * Ruthless Competence">DevHawk</a></h1>
+	        </div> <!-- brand span3 pull-left -->
+
+	        
+	   
+	   
+	   <div class="container outside"><h2 class="site-description">Passion * Technology * Ruthless Competence</h2></div>
+      	<div class="navbar-wrapper clearfix span9">
+
+      		<div class="navbar notresp row-fluid pull-left">
+      			<div class="navbar-inner" role="navigation">
+      				<div class="row-fluid">
+            			<div class="social-block span5"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="nav tc-hover-menu"><li id="menu-item-1862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li id="menu-item-1562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li id="menu-item-1564" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li id="menu-item-1565" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li id="menu-item-1561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            		</div><!-- .row-fluid -->
+            	</div><!-- /.navbar-inner -->
+            </div><!-- /.navbar notresp -->
+
+            <div class="navbar resp">
+            	<div class="navbar-inner" role="navigation">
+            		<div class="social-block "><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu-1" class="nav tc-hover-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            	</div><!-- /.navbar-inner -->
+      		</div><!-- /.navbar resp -->
+
+    	</div><!-- /.navbar-wrapper -->
+
+        
+		</header>
+
+		<div id="main-wrapper" class="container">
+
+    <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin"><a href="http://devhawk.net" title="DevHawk" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2009/" title="2009">2009</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2009/06/" title="June 2009">June</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2009/06/03/" title="June 3, 2009">03</a> <span class="sep">&raquo;</span> <span class="trail-end">Strengthening the Microsoft Ecosystem with Source Code</span></div><div class="tc-hot-crumble container" role="navigation"><div class="row"><div class="span12"></div></div></div>    
+    <div class="container" role="main">
+        <div class="row">
+
+                            
+                <div id="content" class="span9 article-container">
+                    
+                    
+                        
+                                                                                    
+                                                                    <article id="post-1264" class="post-1264 post type-post status-publish format-standard hentry category-general-geekery tag-open-source tag-working-at-msft row-fluid">
+                                        
+        <header class="entry-header">
+          
+          <h1 class="entry-title format-icon">Strengthening the Microsoft Ecosystem with Source Code  </h1>
+        <div class="entry-meta">
+            This entry was posted in <a class="btn btn-mini" href="http://devhawk.net/category/general-geekery/" title="View all posts in General Geekery"> General Geekery </a> and tagged <a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/open-source/" title="View all posts in Open Source"> Open Source </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/working-at-msft/" title="View all posts in Working at MSFT"> Working at MSFT </a> on <a href="http://devhawk.net/2009/06/03/" title="4:17 pm" rel="bookmark"><time class="entry-date" datetime="2009-06-03T16:17:31+00:00">June 3, 2009</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://devhawk.net/author/admin/" title="View all posts by DevHawk" rel="author">DevHawk</a></span></span>.
+        </div><!-- .entry-meta -->
+
+        <hr class="featurette-divider __before_content">
+        </header><!-- .entry-header -->
+
+          
+
+        <section class="entry-content ">
+            <div><img style="display: inline; margin-left: 0px; margin-right: 0px;" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg" alt="clip_image001" align="right" />Today was the Presentation Idol competition <a href="http://devhawk.net/2009/05/18/Microsoft+And+Open+Source.aspx">I blogged about</a> a couple of weeks ago. Unfortunately, I didn’t win &#8211; but believe me when I say I was up against some <em>serious</em> competition. I think I was about in the middle of the pack – better than some but clearly not as good as others.</div>
+<div>Since I made a big deal about asking for people ideas on how to present my topic of choice – external contributions to Microsoft Open Source projects – I decided I’d post my deck and my script. Yes, I said script. Usually, I don’t script what I’m going to say word for word like this. But with only three and a half minutes to present, I thought I’d be as precise as possible. You’ll notice some lines near the end are in italics – those are ones I planned on cutting if I was in danger of going over the time limit.</div>
+<div>Feedback, as usual, is most welcome.</div>
+<hr />
+<div><a href="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide1.png" class="grouped_elements" rel="tc-fancybox-group1264"><img style="margin: 0px 5px 0px 0px; display: inline; border-width: 0px;" title="Slide1" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide1_thumb.png" border="0" alt="Slide1" width="244" height="139" align="left" /></a> Hello, my name is Harry Pierson. I’m a program manager in the Visual Studio Languages group and I’m here to talk about what I would most like to do to improve Microsoft.</div>
+<div>At Microsoft, we care an awful lot about the software ecosystem. Searching for the word “ecosystem” on Microsoft.com returns nearly eight thousand results. We talk about the ecosystem in our marketing and in our press releases.</div>
+<div><a href="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide2.png" class="grouped_elements" rel="tc-fancybox-group1264"><img style="display: inline; margin-left: 0px; margin-right: 0px; border-width: 0px;" title="Slide2" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide2_thumb.png" border="0" alt="Slide2" width="244" height="139" align="right" /></a> In 2007, we commissioned a <a href="http://www.microsoft.com/about/corporatecitizenship/citizenship/economicimpact">study of the global economic impact</a> of the Microsoft ecosystem. In a word, it’s massive. It’s responsible for nearly 15 million jobs and drives over half a trillion dollars a year in tax revenue worldwide.</div>
+<div>No wonder we care about the ecosystem so much.</div>
+<div><a href="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide3.png" class="grouped_elements" rel="tc-fancybox-group1264"><img style="margin: 0px 5px 0px 0px; display: inline; border-width: 0px;" title="Slide3" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide3_thumb.png" border="0" alt="Slide3" width="244" height="139" align="left" /></a> But clearly, we’re not the only ones who care. Microsoft represents a fairly small percentage of the overall ecosystem. We earn just over 11% of the total revenue and account for half of one percent of the total employment within the ecosystem.</div>
+<div>That means there are an awfully large number of people with a vested interest in the continuing success of the Microsoft platform.</div>
+<div><a href="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide4.png" class="grouped_elements" rel="tc-fancybox-group1264"><img style="display: inline; margin-left: 0px; margin-right: 0px; border-width: 0px;" title="Slide4" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide4_thumb.png" border="0" alt="Slide4" width="244" height="139" align="right" /></a> With this vast ecosystem in mind, I want to talk about Open Source. Microsoft and Open Source are often portrayed as enemies. But in DevDiv, we have several high profile Open Source projects. I work on IronPython, which has been Open Source for over four years. More recently, the ASP.NET and Extensibility Framework teams have decided to release some projects as Open Source.</div>
+<div>I believe we should have more Open Source projects at Microsoft. But more importantly, I feel that we need to go beyond the textbook definition of Open Source. Our Open Source projects are typically closed to external contributions. But for the ecosystem at large, Open Source isn’t just about the availability <em>and distribution terms</em> of the source code. It also implies a collaborative development model <em>- parties working together across organizational boundaries, contributing directly to projects in question. </em></div>
+<div>The thing I would most like to change about Microsoft would be to let members of our ecosystem contribute code to our Open Source projects.</div>
+<div><a href="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide5.png" class="grouped_elements" rel="tc-fancybox-group1264"><img style="margin: 0px 5px 0px 0px; display: inline; border-width: 0px;" title="Slide5" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide5_thumb.png" border="0" alt="Slide5" width="244" height="139" align="left" /></a> I can tell you from personal experience, there are members of the IronPython community who would leap at the opportunity to contribute code. And their engineering prowess and real world would benefit the IronPython project tremendously. But the legal process for getting permission to take contributions is onerous. Worse, the legal stigma attached to code that isn’t 100% pure Microsoft intellectual property makes it nearly impossible for any other group inside Microsoft to build on it.</div>
+<div>I realize the onerous legal process is there for a reason: to protect Microsoft’s interests. But improving IronPython and Open Source projects like it isn’t just in Microsoft’s best interest; it’s in the best interest of our ecosystem as well. We need a legal framework that protects Microsoft while allowing for code contributions. <em>Developing such a framework will be a challenge. But competitors like Sun, Google and IBM have already demonstrated that it’s not insurmountable.</em></div>
+<div><a href="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide6.png" class="grouped_elements" rel="tc-fancybox-group1264"><img style="display: inline; margin-left: 0px; margin-right: 0px; border-width: 0px;" title="Slide6" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide6_thumb.png" border="0" alt="Slide6" width="244" height="139" align="right" /></a> Half a trillion dollars annually. 15 Million jobs. 42% of the IT workforce. The Microsoft ecosystem is the envy of the industry. And Microsoft is in a unique position to harness the collective experience and engineering prowess of that ecosystem while simultaneously dispelling the myth that we are an enemy of Open Source.</div>
+<div><em>It’s time we make this change.</em></div>
+<div>Thank you very much.</div>
+                    </section><!-- .entry-content -->
+
+                                          </article>
+                                
+                            
+                        
+                    
+	<hr class="featurette-divider __after_loop">
+
+<div id="comments" class="comments-area">
+	
+			
+	
+		<h2 id="tc-comment-title" class="comments-title">5 thoughts on &ldquo;<span>Strengthening the Microsoft Ecosystem with Source Code</span>&rdquo;</h2>    
+            <ul class="commentlist">
+                    <li class="comment even thread-even depth-1" id="li-comment-2215">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/c5cee99e0b4a587a359b2796898acd79?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://kldp.org/blog/10621' rel='external nofollow' class='url'>lawch</a>  </cite> <a class="comment-date" href="http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/#comment-2215"><time datetime="2009-06-10T15:25:46+00:00">June 10, 2009 at 3:25 pm</time></a></header>  <section class="comment-content comment"><p>Thank you for sharing this. Your presentation is really impressive and I would like to share it with my friends in Korea. Do you mind if I translate your script into Korean and post it on my blog? Thank you again. -lawch</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2216">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/56ec7ec88534583795e9086eaec1635b?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">DevHawk  </cite> <a class="comment-date" href="http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/#comment-2216"><time datetime="2009-06-12T10:33:44+00:00">June 12, 2009 at 10:33 am</time></a></header>  <section class="comment-content comment"><p>@lawch, That would be great! please drop me a note when it&#8217;s done &#8211; I&#8217;d love to see it and blog about it as well.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment even thread-even depth-1" id="li-comment-2217">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/c5cee99e0b4a587a359b2796898acd79?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://kldp.org/node/106276' rel='external nofollow' class='url'>lawch</a>  </cite> <a class="comment-date" href="http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/#comment-2217"><time datetime="2009-06-15T14:01:23+00:00">June 15, 2009 at 2:01 pm</time></a></header>  <section class="comment-content comment"><p>Thanks for your permission. I just post my translation at <a href="http://kldp.org/node/106276" rel="nofollow">http://kldp.org/node/106276</a>. If there are any useful comments on it, I will let you know. Thanks. -lawch</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2218">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/9fbc3f9795454a841c15769482f18368?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://www.connexatools.com' rel='external nofollow' class='url'>Bruce Pierson</a>  </cite> <a class="comment-date" href="http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/#comment-2218"><time datetime="2009-07-08T10:41:19+00:00">July 8, 2009 at 10:41 am</time></a></header>  <section class="comment-content comment"><p>Good stuff, as always. It cracks me up that the &#8220;Open Source&#8221; logo itself has a &#8220;TM&#8221; on it <img src="http://devhawk.net/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment even thread-even depth-1" id="li-comment-2220">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/92720eb48a34995858c5bc732c96c0fe?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://www.onalytica.com' rel='external nofollow' class='url'>Arvindra Sehmi</a>  </cite> <a class="comment-date" href="http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/#comment-2220"><time datetime="2009-07-24T07:52:12+00:00">July 24, 2009 at 7:52 am</time></a></header>  <section class="comment-content comment"><p>Hi Harry,</p>
+<p>One of the things I did before I left MS was to write a ThinkWeek paper, co-authored with Mauricio Ulargui. It was entitled: &#8220;Capturing Community Innovation &#8211; A call to move research and development to the next level through communities, collaboration and customers&#8221;. After reading this post I could see our thoughts are very much aligned.</p>
+<p>All the best &#8211; Arvindra</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+            </ul><!-- .commentlist -->
+
+          <p class="nocomments">Comments are closed.</p>
+	
+</div><!-- #comments .comments-area -->
+      
+        <hr class="featurette-divider __after_loop">
+        <nav id="nav-below" class="navigation" role="navigation">
+
+            <h3 class="assistive-text">
+              Post navigation            </h3>
+
+            <ul class="pager">
+                              <li class="previous">
+                  <span class="nav-previous">
+                    <a href="http://devhawk.net/2009/05/22/a-somewhat-scary-birthday/" rel="prev"><span class="meta-nav">&larr;</span> A Somewhat Scary Birthday</a>                  </span>
+                </li>
+                                            <li class="next">
+                  <span class="nav-next">
+                    <a href="http://devhawk.net/2009/06/15/__clrtype__-metaclasses-simple-custom-attributes/" rel="next">__clrtype__ Metaclasses: Simple Custom Attributes <span class="meta-nav">&rarr;</span></a>                  </span>
+                </li>
+                          </ul>
+
+        </nav><!-- #nav-below .navigation -->
+
+      
+      
+                </div><!--.article-container -->
+
+                  
+      <div class="span3 right tc-sidebar">
+         <div id="right" class="widget-area" role="complementary">
+                                             <aside id="text-3" class="widget widget_text"><h3 class="widget-title">Our Sponsors</h3>			<div class="textwidget"><div align=center data-type="ad" data-publisher="lqm.devhawk.site" data-zone="ron" data-format="160x600" data-tags="windows%2C%20windows%208%2C%20windows%20runtime%2C%20JavaScript%2C%20C%23%2C%20CLR%2C%20C%2B%2B"></div></div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-177"><a href="http://devhawk.net/category/architecture/" title="View all posts filed under Architecture">Architecture</a>
+</li>
+	<li class="cat-item cat-item-204"><a href="http://devhawk.net/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://devhawk.net/category/general-geekery/" title="View all posts filed under General Geekery">General Geekery</a>
+</li>
+	<li class="cat-item cat-item-252"><a href="http://devhawk.net/category/ironpython/" title="View all posts filed under IronPython">IronPython</a>
+</li>
+	<li class="cat-item cat-item-180"><a href="http://devhawk.net/category/morning-coffee/" title="View all posts filed under Morning Coffee">Morning Coffee</a>
+</li>
+	<li class="cat-item cat-item-352"><a href="http://devhawk.net/category/personal/" title="View all posts filed under Personal">Personal</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="http://devhawk.net/category/politics/" title="View all posts filed under Politics">Politics</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="http://devhawk.net/category/sports/" title="View all posts filed under Sports">Sports</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://devhawk.net/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-283"><a href="http://devhawk.net/category/windows/" title="View all posts filed under Windows">Windows</a>
+</li>
+	<li class="cat-item cat-item-357"><a href="http://devhawk.net/category/windows-runtime/" title="View all posts filed under Windows Runtime">Windows Runtime</a>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-4" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='http://devhawk.net/tag/asp-net/' class='tag-link-178' title='27 topics' style='font-size: 13.466666666667pt;'>ASP.NET</a>
+<a href='http://devhawk.net/tag/blogging/' class='tag-link-184' title='122 topics' style='font-size: 22pt;'>Blogging</a>
+<a href='http://devhawk.net/tag/c-sharp/' class='tag-link-235' title='17 topics' style='font-size: 10.933333333333pt;'>C#</a>
+<a href='http://devhawk.net/tag/college-football/' class='tag-link-194' title='10 topics' style='font-size: 8pt;'>College Football</a>
+<a href='http://devhawk.net/tag/community/' class='tag-link-213' title='81 topics' style='font-size: 19.6pt;'>Community</a>
+<a href='http://devhawk.net/tag/dasblog/' class='tag-link-303' title='12 topics' style='font-size: 8.9333333333333pt;'>dasBlog</a>
+<a href='http://devhawk.net/tag/database/' class='tag-link-214' title='13 topics' style='font-size: 9.4666666666667pt;'>Database</a>
+<a href='http://devhawk.net/tag/debugger/' class='tag-link-279' title='23 topics' style='font-size: 12.533333333333pt;'>Debugger</a>
+<a href='http://devhawk.net/tag/dlr/' class='tag-link-231' title='25 topics' style='font-size: 12.933333333333pt;'>DLR</a>
+<a href='http://devhawk.net/tag/domain-specific-languages/' class='tag-link-208' title='15 topics' style='font-size: 10.133333333333pt;'>Domain Specific Languages</a>
+<a href='http://devhawk.net/tag/dynamic-languages/' class='tag-link-217' title='12 topics' style='font-size: 8.9333333333333pt;'>Dynamic Languages</a>
+<a href='http://devhawk.net/tag/entertainment/' class='tag-link-196' title='14 topics' style='font-size: 9.8666666666667pt;'>Entertainment</a>
+<a href='http://devhawk.net/tag/etech/' class='tag-link-297' title='15 topics' style='font-size: 10.133333333333pt;'>ETech</a>
+<a href='http://devhawk.net/tag/f-sharp/' class='tag-link-198' title='51 topics' style='font-size: 17.066666666667pt;'>F#</a>
+<a href='http://devhawk.net/tag/family/' class='tag-link-179' title='33 topics' style='font-size: 14.533333333333pt;'>Family</a>
+<a href='http://devhawk.net/tag/functional-programming/' class='tag-link-202' title='18 topics' style='font-size: 11.2pt;'>Functional Programming</a>
+<a href='http://devhawk.net/tag/games/' class='tag-link-185' title='18 topics' style='font-size: 11.2pt;'>Games</a>
+<a href='http://devhawk.net/tag/hockey/' class='tag-link-215' title='33 topics' style='font-size: 14.533333333333pt;'>Hockey</a>
+<a href='http://devhawk.net/tag/ironruby/' class='tag-link-253' title='16 topics' style='font-size: 10.533333333333pt;'>IronRuby</a>
+<a href='http://devhawk.net/tag/lanugages/' class='tag-link-229' title='43 topics' style='font-size: 16pt;'>Lanugages</a>
+<a href='http://devhawk.net/tag/linq/' class='tag-link-224' title='24 topics' style='font-size: 12.8pt;'>LINQ</a>
+<a href='http://devhawk.net/tag/microsoft/' class='tag-link-232' title='31 topics' style='font-size: 14.266666666667pt;'>Microsoft</a>
+<a href='http://devhawk.net/tag/modelling/' class='tag-link-225' title='61 topics' style='font-size: 18pt;'>Modelling</a>
+<a href='http://devhawk.net/tag/movies/' class='tag-link-218' title='23 topics' style='font-size: 12.533333333333pt;'>Movies</a>
+<a href='http://devhawk.net/tag/music/' class='tag-link-248' title='20 topics' style='font-size: 11.733333333333pt;'>Music</a>
+<a href='http://devhawk.net/tag/p2p/' class='tag-link-325' title='11 topics' style='font-size: 8.5333333333333pt;'>P2P</a>
+<a href='http://devhawk.net/tag/parsing-expression-grammar/' class='tag-link-209' title='16 topics' style='font-size: 10.533333333333pt;'>Parsing Expression Grammar</a>
+<a href='http://devhawk.net/tag/powershell/' class='tag-link-230' title='40 topics' style='font-size: 15.6pt;'>PowerShell</a>
+<a href='http://devhawk.net/tag/rest/' class='tag-link-181' title='18 topics' style='font-size: 11.2pt;'>REST</a>
+<a href='http://devhawk.net/tag/ruby/' class='tag-link-190' title='23 topics' style='font-size: 12.533333333333pt;'>Ruby</a>
+<a href='http://devhawk.net/tag/service-broker/' class='tag-link-320' title='14 topics' style='font-size: 9.8666666666667pt;'>Service Broker</a>
+<a href='http://devhawk.net/tag/silverlight/' class='tag-link-200' title='20 topics' style='font-size: 11.733333333333pt;'>Silverlight</a>
+<a href='http://devhawk.net/tag/soa/' class='tag-link-183' title='94 topics' style='font-size: 20.533333333333pt;'>SOA</a>
+<a href='http://devhawk.net/tag/software-factories/' class='tag-link-195' title='11 topics' style='font-size: 8.5333333333333pt;'>Software Factories</a>
+<a href='http://devhawk.net/tag/visual-studio/' class='tag-link-187' title='20 topics' style='font-size: 11.733333333333pt;'>Visual Studio</a>
+<a href='http://devhawk.net/tag/washington-capitals/' class='tag-link-192' title='42 topics' style='font-size: 15.866666666667pt;'>Washington Capitals</a>
+<a href='http://devhawk.net/tag/wcf/' class='tag-link-313' title='31 topics' style='font-size: 14.266666666667pt;'>WCF</a>
+<a href='http://devhawk.net/tag/web-2-0/' class='tag-link-188' title='67 topics' style='font-size: 18.533333333333pt;'>Web 2.0</a>
+<a href='http://devhawk.net/tag/web-services/' class='tag-link-290' title='12 topics' style='font-size: 8.9333333333333pt;'>Web Services</a>
+<a href='http://devhawk.net/tag/wf/' class='tag-link-268' title='21 topics' style='font-size: 12pt;'>WF</a>
+<a href='http://devhawk.net/tag/windows-live/' class='tag-link-207' title='29 topics' style='font-size: 13.866666666667pt;'>Windows Live</a>
+<a href='http://devhawk.net/tag/working-at-msft/' class='tag-link-250' title='21 topics' style='font-size: 12pt;'>Working at MSFT</a>
+<a href='http://devhawk.net/tag/xbox-360/' class='tag-link-189' title='54 topics' style='font-size: 17.333333333333pt;'>Xbox 360</a>
+<a href='http://devhawk.net/tag/xml/' class='tag-link-238' title='11 topics' style='font-size: 8.5333333333333pt;'>XML</a>
+<a href='http://devhawk.net/tag/xna/' class='tag-link-193' title='15 topics' style='font-size: 10.133333333333pt;'>XNA</a></div>
+</aside>
+                                        </div><!-- #left -->
+      </div><!--.tc-sidebar -->
+
+      
+        </div><!--.row -->
+    </div><!-- .container role: main -->
+
+    
+</div><!--#main-wrapper"-->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="">
+	 				<div class="container footer-widgets ">
+				<div class="row widget-area" role="complementary">
+					
+					
+													
+							<div id="footer_one" class="span4">
+								<aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://devhawk.net/wp-login.php">Log in</a></li>
+			<li><a href="http://devhawk.net/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://devhawk.net/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</aside>							</div>
+
+						
+					
+													
+							<div id="footer_two" class="span4">
+								<aside id="text-6" class="widget widget_text"><h3 class="widget-title">Disclaimer</h3>			<div class="textwidget"><p>The information in this weblog is provided "AS IS" with no warranties, and confers no rights. This weblog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my opinion. Inappropriate comments will be deleted at the authors discretion.</p>
+
+<script type='text/javascript'>
+    function _dmBootstrap(file) { 
+        var _dma = document.createElement('script');  
+        _dma.type = 'text/javascript'; 
+        _dma.async = true;  
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+</script>
+</div>
+		</aside>							</div>
+
+						
+					
+						
+									</div><!-- .row.widget-area -->
+			</div><!--.footer-widgets -->
+		    			 <div class="colophon">
+		 	<div class="container">
+		 		<div class="row-fluid">
+				    <div class="span4 social-block pull-left"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><div class="span4 credits"><p> &middot; &copy; 2014 <a href="http://devhawk.net" title="DevHawk" rel="bookmark">DevHawk</a> &middot; Designed by <a href="http://www.themesandco.com/">Themes &amp; Co</a> &middot;</p></div><div class="span4 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div>      			</div><!-- .row-fluid -->
+      		</div><!-- .container -->
+      	</div><!-- .colophon -->
+    		</footer>
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript">
+    SyntaxHighlighter.autoloader(
+        'applescript			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAppleScript.js',
+        'actionscript3 as3		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAS3.js',
+        'bash shell				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushBash.js',
+        'coldfusion cf			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushColdFusion.js',
+        'cpp c					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCpp.js',
+        'c# c-sharp csharp		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCSharp.js',
+        'css					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCss.js',
+        'delphi pascal pas		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDelphi.js',
+        'diff patch			    http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDiff.js',
+        'erl erlang				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushErlang.js',
+        'groovy					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushGroovy.js',
+        'java					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJava.js',
+        'jfx javafx				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJavaFX.js',
+        'js jscript javascript	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJScript.js',
+        'perl pl				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPerl.js',
+        'php					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPhp.js',
+        'text plain				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPlain.js',
+        'powershell ps          http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPowerShell.js',
+        'py python				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPython.js',
+        'ruby rails ror rb		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushRuby.js',
+        'sass scss              http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSass.js',
+        'scala					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushScala.js',
+        'sql					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSql.js',
+        'vb vbnet				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushVb.js',
+        'xml xhtml xslt html	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushXml.js'
+    );
+                        SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.all();
+</script>
+<!-- END: Syntax Highlighter ComPress -->
+
+		<div style="display:none">
+	<div class="grofile-hash-map-c5cee99e0b4a587a359b2796898acd79">
+	</div>
+	<div class="grofile-hash-map-56ec7ec88534583795e9086eaec1635b">
+	</div>
+	<div class="grofile-hash-map-9fbc3f9795454a841c15769482f18368">
+	</div>
+	<div class="grofile-hash-map-92720eb48a34995858c5bc732c96c0fe">
+	</div>
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201415'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Apraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TCParams = {"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","SmoothScroll":"linear"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/tc-scripts.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/holder.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/retina.min.js'></script>
+
+	<script src="http://stats.wordpress.com/e-201415.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.9.2',blog:'22146351',post:'1264',tz:'-7'});
+	var load_cmc = function(){linktracker_init(22146351,1264,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	</body>
+</html>

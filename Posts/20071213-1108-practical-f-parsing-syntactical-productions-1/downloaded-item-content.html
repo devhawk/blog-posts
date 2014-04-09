@@ -1,0 +1,42 @@
+<p>Now that I have my <a href="http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx" target="_blank">parse buffer functions</a> and <a href="http://devhawk.net/2007/12/12/Practical+F+Parsing+Unit+Testing.aspx" target="_blank">unit test framework</a> taken care of, it&#8217;s time to write some parsing expression grammar productions [1]. In any grammar, there are productions that have semantic meaning and productions that are only used to specify syntax. For example, in C# statements end with a semicolon and code blocks are delineated with curly braces. Syntactical elements don&#8217;t end up in the abstract syntax tree, so they&#8217;re easier to implement.</p>
+<p>Most of PEG&#8217;s grammar productions are syntactical in nature. Let&#8217;s start with the simplest production, EndOfFile.</p>
+<pre class="brush:fsharp">///EndOfFile &lt;- !.
+let EndOfFile input =
+    match NC input with
+    | None -&gt; Some()
+    | _ -&gt; None</pre>
+<p>Similar to the underscore in F#, the period represents any character In the PEG grammar and the exclamation point is a backtracking not. In other words, EndOfFile succeeds if NC fails, which only happens when the parse buffer is empty. Since the parse buffer is empty on a successful match, there&#8217;s no value to return so Ireturn Some(). Some() is kinda like Nullable, which doesn&#8217;t make much sense in C#. But here it means I have a successful match but no data to pass back to the caller.</p>
+<p>Here&#8217;s a slightly more complex grammar production, EndOfLine:</p>
+<pre class="brush:fsharp">///EndOfLine &lt;- &#8216;rn&#8217; / &#8216;n&#8217; / &#8216;r&#8217;
+let EndOfLine input =
+    match NC input with
+    | Some(&#8216;r&#8217;, input) -&gt;
+        match NC input with
+        | Some (&#8216;n&#8217;, input) -&gt; Some(input)
+        | _ -&gt; Some(input)
+    | Some(&#8216;n&#8217;, input) -&gt; Some(input)
+    | _ -&gt; None</pre>
+<p>EndOfLine has three possible matches: rn, n and r. Here, you see the use of nested match statements in the r match clause. If the top character is r, the function checks the top of the remaining text buffer for n. F#&#8217;s ability to reuse symbols comes in very handy here.</p>
+<p>Unfortunately, this isn&#8217;t code very readable. In particular, the match priority order, which matters in PEGs, is totally lost. For this production, it&#8217;s no big deal, but that won&#8217;t always be the case. I&#8217;m also not using the handy TOKEN function I wrote in <a href="http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx" target="_blank">a few posts ago</a>. Here&#8217;s an alternative version that uses TOKEN and preserves the match priority order.</p>
+<pre class="brush:fsharp">///EndOfLine &lt;- &#8216;rn&#8217; / &#8216;n&#8217; / &#8216;r&#8217;
+let EndOfLine input =
+    match TOKEN &#8220;rn&#8221; input with
+    | Some(input) -&gt; Some(input)
+    | _ -&gt;
+        match TOKEN &#8220;n&#8221; input with
+        | Some(input) -&gt; Some(input)
+        | _ -&gt;
+            match TOKEN &#8220;r&#8221; input with
+            | Some(input) -&gt; Some(input)
+            | _ -&gt; None</pre>
+<p>This time, I use the TOKEN function and nested match statements to chain the results together. The previous method is probably faster, but this approach is more readable and explicitly preserves the match order. However, it sure is a pain to type. Wouldn&#8217;t it be great if we could write something like this:</p>
+<pre class="brush: fsharp">///EndOfLine &lt;- 'rn' / 'n' / 'r'
+let EndOfLine input =
+    match input with
+    | TOKEN &quot;rn&quot; (input) -&gt; Some(input)
+    | TOKEN &quot;n&quot; (input) -&gt; Some(input)
+    | TOKEN &quot;r&quot; (input) -&gt; Some(input)
+    | _ -&gt; None</pre>
+<p>Turns out, F#&#8217;s <a href="http://devhawk.net/2007/11/29/F+Hawkeye+Pattern+Matching.aspx" target="_blank">Active Patterns feature</a> let&#8217;s me implement EndOfLine exactly like this. We&#8217;ll look at how it works in the next post.</p>
+<hr>
+<p>[1] The full PEG grammar is listed in &#8220;<a href="http://pdos.csail.mit.edu/~baford/packrat/popl04/" target="_blank">Parsing Expression Grammars: A Recognition-Based Syntactic Foundation</a>&#8221; by <a href="http://www.brynosaurus.com/" target="_blank">Brian Ford</a>.</p>

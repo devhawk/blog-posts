@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Pygments for Windows Live Writer</title>
+  <link>http://devhawk.net/2009/04/05/pygments-for-windows-live-writer/</link>
+  <pubDate>Sun, 05 Apr 2009 12:28:51 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://ac85783f-50b0-4b88-9daf-ced4546104f0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>For the past few years, I’ve used the <a href="http://codehtmler.codeplex.com/">CodeHTMLer plugin</a> for Windows Live Writer for the code snippets in my blog. However, recently I discovered the <a href="http://pygments.org/">Pygments</a> Python syntax highlighter package which supports scores more languages than CodeHTMLer does. It also support multiple color schemes and was easily extensible so I could build an HTML formatter that didn’t use &lt;pre&gt; tags (which <a href="http://devhawk.net/2007/12/07/Blogging+F+Code.aspx">I’ve found DasBlog has issues with</a> in the RSS feed, though honestly I’m running three minor releases behind the latest DasBlog release). IronPython supports Pygments just fine – at least, the one IPy bug that Pygments exposes has a simple workaround – so I set about building a Windows Live Writer plugin that uses it.</p><p>If you’re simply interested in the plugin itself, you can <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Pygments%20for%20WL%20Writer/Pygments.WLWriter.msi">get it from my skydrive</a>. The <a href="http://github.com/devhawk/pygments.wlwriter">source is up on GitHub</a>. For now, if you find any bugs, please leave a comment on this post. If there’s enough interest I’ll setup a site somewhere (CodePlex perhaps) where I can track bugs and feature requests.</p><p>Pygments for WL Writer is a <a href="http://msdn.microsoft.com/en-us/library/aa702799.aspx">smart content source</a>. In WL Writer’s terminology, that means when you click inserted text in the editor window, it is treated as an atomic entity which you can then edit by using the Edit Code button in the Pygments for WL Writer sidebar editor. I I often found that I would edit my code multiple times – usually to shorten lines so they’d fit on my blog without wrapping. CodeHTMLer for WL Writer is a standard content source, so it just spews the formatted code as HTML onto the page.</p><p>From an IronPython perspective, there’s some interesting stuff there. I decided to compile the pygments library into a DLL for easier distribution. If you look in the source, there’s a <a href="http://github.com/devhawk/pygments.wlwriter/tree/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/pygments_package">folder</a> for the Pygments source as well as the <a href="http://github.com/devhawk/pygments.wlwriter/tree/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/pygments_package/pygments_dependencies">parts of the standard Python library</a> that Pygments depends on and my <a href="http://github.com/devhawk/pygments.wlwriter/blob/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/pygments_package/devhawk_formatter.py">custom HTML formatter</a>. Those all get compiled <a href="http://github.com/devhawk/pygments.wlwriter/blob/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/pygments_package/build_pygments.py">via a custom script</a> which can be called by the <a href="http://github.com/devhawk/pygments.wlwriter/blob/5684d8e936921e9f79ab3e3f08bd1570e48a8a51/build.bat">build.bat file</a> in the project root. </p><p>Some features I’m thinking about adding:</p><ul><li>An extensibility model so that you can add new languages by dropping new <a href="http://pygments.org/docs/lexerdevelopment/">Pygments lexers</a> into the same folder the plugin is installed to. Pygments supports lots of languages, but not all of them – notably it’s missing Powershell and F#. </li><li>Support for new HTML formatters and color schemes using the same extensibility mechanism described above.</li><li>Support for selecting an HTML formatter.</li><li>Improving the code editor window. Currently, I’m using a standard WinForms multi-line TextBox, but that leaves a lot to be desired. With the Python work I do, I often need to be able to select a bunch of text and change it’s indenting via tab and shift-tab. If anyone has a suggestion for a good WinForms text editing control, <a href="mailto:harry@devhawk.net">let me know</a>.</li><li>Being able to specify the font and size of the Pygmented code.</li><li>Storing user preferences – remembering the most recent syntax and color scheme the user used.</li></ul><p>Feedback, as always is appreciated. I’ll probably write a few posts about the project when I get a chance, so let me know if there’s anything you’re dying to hear about.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1242</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-04-05 12:28:51</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-04-05 12:28:51</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">pygments-for-windows-live-writer</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="windows-live"><![CDATA[Windows Live]]></category>
+  <category domain="post_tag" nicename="windows-live-writer"><![CDATA[Windows Live Writer]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[ac85783f-50b0-4b88-9daf-ced4546104f0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Pygments+For+Windows+Live+Writer]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/04/05/Pygments+For+Windows+Live+Writer]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2192</wp:comment_id>
+    <wp:comment_author><![CDATA[Julian Birch]]></wp:comment_author>
+    <wp:comment_author_email>julian.birch@colourcoding.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.colourcoding.net/</wp:comment_author_url>
+    <wp:comment_author_IP>62.189.114.10</wp:comment_author_IP>
+    <wp:comment_date>2009-04-22 08:34:28</wp:comment_date>
+    <wp:comment_date_gmt>2009-04-22 15:34:28</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi, maybe I'm doing something stupid, but the install doesn't seem to registered the plug-in.
+
+Looking forward to trying it out.
+
+Julian.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

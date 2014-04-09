@@ -1,0 +1,54 @@
+<p>So after my <a href="http://devhawk.net/2006/02/14/Reinventing+The+List.aspx">two</a><a href="http://devhawk.net/2006/02/15/More+On+XSFP.aspx">posts</a> on XSPF&nbsp;and some public discussion in the comments, I took the conversation with Lucas offline in hopes of getting a better understanding about the thought process that went into the spec. Unfortunately, Lucas has reacted as if I called his baby ugly and we got nowhere. Needless to say, I still believe that XSPF is completely redundant because it is nearly semantically identical to RSS.</p>
+<p>To demonstrate, here&#8217;s a list of every <a href="http://www.xspf.org/xspf-v1.html#rfc.section.4.1.1.2">playlist element</a> from the <a href="http://www.xspf.org/xspf-v1.html">XSPF version 1 spec</a> and how it maps to <a href="http://www.rssboard.org/rss-2-0#requiredChannelElements">channel elements</a> from <a href="http://www.rssboard.org/rss-2-0">RSS version 2</a>.</p>
+<ul>
+<li>/playlist/title -&gt; /rss/channel/title</li>
+<li>/playlist/creator -&gt; /rss/channel/managingEditor</li>
+<li>/playlist/annotation -&gt; /rss/channel/description</li>
+<li>/playlist/info -&gt; /rss/channel/link</li>
+<li>/playlist/image -&gt; /rss/channel/image</li>
+<li>/playlist/date -&gt; /rss/channel/pubDate</li>
+<li>/playlist/license -&gt; /rss/channel/copyright</li>
+<li>/playlist/location -&gt; create custom element</li>
+<li>/playlist/identifier -&gt; create custom element</li>
+<li>/playlist/attribution -&gt; create custom element</li>
+<li>/playlist/link -&gt; No need in RSS</li>
+<li>/playlist/meta -&gt; No need in RSS</li>
+<li>/playlist/extension -&gt; No need in RSS</li>
+</ul>
+<p>That&#8217;s a pretty close match. There are a few things we need extensions for to represent in RSS, but nothing major. BTW, from what I can tell, the reason XSPF has link, meta and extension elements is for extensibility purposes. RSS supports an extremely <a href="http://www.rssboard.org/rss-2-0#extendingRss">flexible extensibility model</a> already, so there&#8217;s no need for the XSPF specific extensibility elements.</p>
+<p>Here&#8217;s the mapping of <a href="http://www.xspf.org/xspf-v1.html#rfc.section.4.1.1.2.14.1.1.1">track elements</a> in XSPF to <a href="http://www.rssboard.org/rss-2-0#hrelementsOfLtitemgt">item elements</a> in RSS.</p>
+<ul>
+<li>/playlist/trackList/track/location -&gt; /rss/channel/item/enclosure</li>
+<li>/playlist/trackList/track/identifier -&gt; /rss/channel/item/guid</li>
+<li>/playlist/trackList/track/title -&gt; /rss/channel/item/title</li>
+<li>/playlist/trackList/track/creator -&gt; /rss/channel/item/author</li>
+<li>/playlist/trackList/track/annotation -&gt; /rss/channel/item/description</li>
+<li>/playlist/trackList/track/info -&gt; /rss/channel/item/link</li>
+<li>/playlist/trackList/track/image -&gt; create custom element</li>
+<li>/playlist/trackList/track/album -&gt; create custom element</li>
+<li>/playlist/trackList/track/trackNum -&gt; create custom element</li>
+<li>/playlist/trackList/track/duration -&gt; create custom element</li>
+<li>/playlist/trackList/track/link -&gt; No need in RSS</li>
+<li>/playlist/trackList/track/meta -&gt; No need in RSS</li>
+<li>/playlist/trackList/track/extension -&gt; No need in RSS</li>
+</ul>
+<p>Again, pretty close match. As you can see, the majority of the XSPF&nbsp;elements have a direct equivalent on the RSS side. Certainly, the most important elements (playlist title, list of tracks, track location) have a direct equivalent. For the remaining XSPF elements that have no RSS equivalent, you could easily extend RSS to support those elements. In fact, you can easily encode the <a href="http://www.xspf.org/xspf-v1.html#rfc.section.1.1">sample playlists</a> from the XSPF spec in RSS without any extensions whatsoever:</p>
+<pre class="brush:xml">&lt;rss version=&quot;2.0&quot;&gt;
+  &lt;channel&gt;
+    &lt;title&gt;My Playlist&lt;/title&gt;
+    &lt;link&gt;http://devhawk.net/playlists/myplaylist&lt;/link&gt;
+    &lt;description&gt;Here's my playlist&lt;/description&gt;
+    &lt;item&gt;
+        &lt;enclosure length=&quot;...&quot; type=&quot;audio/mpeg&quot; url=&quot;http://example.com/song_1.mp3&quot;/&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+        &lt;enclosure length=&quot;...&quot; type=&quot;audio/mpeg&quot; url=&quot;http://example.com/song_2.mp3&quot;/&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+        &lt;enclosure length=&quot;...&quot; type=&quot;audio/mpeg&quot; url=http://example.com/song_3.mp3/&gt;
+    &lt;/item&gt;
+  &lt;/channel&gt;
+&lt;/rss&gt;</pre>
+<p>So you may be wondering why I&#8217;m taken so much time on this topic. Frankly, I don&#8217;t really care one way or the other about XPSF. As I wrote in my last post, I&#8217;m just trying to understand this space better. The reason this specific example interests me is because it is so obviously a duplication of effort with little discernable upside. And furthermore it&#8217;s <a href="http://blog.broadbandmechanics.com/2006/02/rob-lord-replies-correctly-songbird-will-support-xspf">being touted by Marc Canter</a> who I know is <a href="http://www.broadbandmechanics.com/openstandards.htm">all about open standards</a>. Why is the XSPF open standard better than the RSS open standard? Or Atom for that matter? Atom&#8217;s creators <a href="http://www.atomenabled.org/developers/syndication/">explicitly describe</a> Atom&#8217;s syndication format as &#8220;an XML-based Web content and metadata syndication format&#8221;. How is XSPF different from that, other than narrowing the scope down to multimedia content and metadata? What&#8217;s the value of the narrow scope specification when the wider scope specification is so widely adopted?</p>
+<p>As you might guess, my opinion is that the narrow scope specification has no value. I assume that&#8217;s why Lucas responded so negatively. But the root issue doesn&#8217;t go away. XSPF&nbsp;and RSS both describe lists of stuff. XSPF is specific to lists of media while RSS is typically used for lists of weblog entries but can be used for lists of anything &#8211; including media. What&#8217;s a podcast feed but an RSS encoded playlist?</p>
+<p>The problem is that by introduced yet another syntax for basically the same semantics, XSPF can&#8217;t take advantage of the existing tools and platforms around RSS. And I&#8217;m not just talking about the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/feedsapi/rss/overviews/msfeeds_ovw.asp">Windows Feed API</a>, I&#8217;m talking about every implementation of RSS on every website and in every news reader or podcatcher around. Why wouldn&#8217;t you want to ride that wave?</p>

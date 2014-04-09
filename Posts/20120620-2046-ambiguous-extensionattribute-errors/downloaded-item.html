@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">                          
+<!--<![endif]-->
+
+			<head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		    <title>Ambiguous ExtensionAttribute Errors | DevHawk</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link rel="profile" href="http://gmpg.org/xfn/11" />
+		    <link rel="pingback" href="http://devhawk.net/xmlrpc.php" />
+		   
+		   <!-- Icons font support for IE6-7  -->
+		    <!--[if lt IE 8]>
+		      <script src="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/lte-ie7.js"></script>
+		    <![endif]-->
+		    <link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Feed" href="http://devhawk.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Comments Feed" href="http://devhawk.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Ambiguous ExtensionAttribute Errors Comments Feed" href="http://devhawk.net/2012/06/20/ambiguous-extensionattribute-errors/feed/" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-skin-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/css/blue.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='http://devhawk.net/wp-content/themes/customizr/style.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/modernizr.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devhawk.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devhawk.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Windows Camp Demo, Part One' href='http://devhawk.net/2012/06/19/windows-camp-demo-part-one/' />
+<link rel='next' title='Windows Camp Demo, Part Two' href='http://devhawk.net/2012/06/24/windows-camp-demo-part-two/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://devhawk.net/2012/06/20/ambiguous-extensionattribute-errors/' />
+<link rel='shortlink' href='http://wp.me/p1uVhd-wD' />
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/styles/shCoreDefault.css"/>
+<!-- END: Syntax Highlighter ComPress -->
+
+  
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Ambiguous ExtensionAttribute Errors" />
+<meta property="og:url" content="http://devhawk.net/2012/06/20/ambiguous-extensionattribute-errors/" />
+<meta property="og:description" content="I was recently contacted by Nathanael Jones of the ImageResizer project about a question he had posted on Stack Overflow: How can a single .NET assembly, targeting 2.0, 3.0, 3.5, 4.0, and 4.5 concu..." />
+<meta property="article:published_time" content="2012-06-21T03:46:59+00:00" />
+<meta property="article:modified_time" content="2012-06-21T03:46:59+00:00" />
+<meta property="article:author" content="http://devhawk.net/author/admin/" />
+<meta property="og:site_name" content="DevHawk" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+<meta name="twitter:card" content="summary" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Expand All' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Collapse All');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Expand All');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+        
+        
+        		    <!--Icons size hack for IE8 and less -->
+		    <!--[if lt IE 9]>
+		      <link href="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/ie8-hacks.css" rel="stylesheet" type="text/css"/>
+		    <![endif]-->
+		</head>
+		
+	<body class="single single-post postid-2023 single-format-standard" itemscope itemtype="http://schema.org/WebPage">
+		
+		
+	   	<header class="tc-header clearfix row-fluid" role="banner">
+			
+			
+		
+	    	
+	        <div class="brand span3 pull-left">
+
+	        	<h1><a class="site-title" href="http://devhawk.net/" title="DevHawk | Passion * Technology * Ruthless Competence">DevHawk</a></h1>
+	        </div> <!-- brand span3 pull-left -->
+
+	        
+	   
+	   
+	   <div class="container outside"><h2 class="site-description">Passion * Technology * Ruthless Competence</h2></div>
+      	<div class="navbar-wrapper clearfix span9">
+
+      		<div class="navbar notresp row-fluid pull-left">
+      			<div class="navbar-inner" role="navigation">
+      				<div class="row-fluid">
+            			<div class="social-block span5"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="nav tc-hover-menu"><li id="menu-item-1862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li id="menu-item-1562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li id="menu-item-1564" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li id="menu-item-1565" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li id="menu-item-1561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            		</div><!-- .row-fluid -->
+            	</div><!-- /.navbar-inner -->
+            </div><!-- /.navbar notresp -->
+
+            <div class="navbar resp">
+            	<div class="navbar-inner" role="navigation">
+            		<div class="social-block "><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu-1" class="nav tc-hover-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            	</div><!-- /.navbar-inner -->
+      		</div><!-- /.navbar resp -->
+
+    	</div><!-- /.navbar-wrapper -->
+
+        
+		</header>
+
+		<div id="main-wrapper" class="container">
+
+    <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin"><a href="http://devhawk.net" title="DevHawk" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2012/" title="2012">2012</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2012/06/" title="June 2012">June</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2012/06/20/" title="June 20, 2012">20</a> <span class="sep">&raquo;</span> <span class="trail-end">Ambiguous ExtensionAttribute Errors</span></div><div class="tc-hot-crumble container" role="navigation"><div class="row"><div class="span12"></div></div></div>    
+    <div class="container" role="main">
+        <div class="row">
+
+                            
+                <div id="content" class="span9 article-container">
+                    
+                    
+                        
+                                                                                    
+                                                                    <article id="post-2023" class="post-2023 post type-post status-publish format-standard hentry category-development tag-c-sharp tag-clr tag-extension-methods tag-linq tag-visual-basic row-fluid">
+                                        
+        <header class="entry-header">
+          
+          <h1 class="entry-title format-icon">Ambiguous ExtensionAttribute Errors  </h1>
+        <div class="entry-meta">
+            This entry was posted in <a class="btn btn-mini" href="http://devhawk.net/category/development/" title="View all posts in Development"> Development </a> and tagged <a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/c-sharp/" title="View all posts in C#"> C# </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/clr/" title="View all posts in CLR"> CLR </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/extension-methods/" title="View all posts in Extension Methods"> Extension Methods </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/linq/" title="View all posts in LINQ"> LINQ </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/visual-basic/" title="View all posts in Visual Basic"> Visual Basic </a> on <a href="http://devhawk.net/2012/06/20/" title="8:46 pm" rel="bookmark"><time class="entry-date" datetime="2012-06-20T20:46:59+00:00">June 20, 2012</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://devhawk.net/author/admin/" title="View all posts by DevHawk" rel="author">DevHawk</a></span></span>.
+        </div><!-- .entry-meta -->
+
+        <hr class="featurette-divider __before_content">
+        </header><!-- .entry-header -->
+
+          
+
+        <section class="entry-content ">
+            <p>I was recently contacted by <a href="http://nathanaeljones.com/">Nathanael Jones</a> of the <a href="http://imageresizing.net/">ImageResizer project</a> about a <a href="http://stackoverflow.com/questions/11025100/escape-catch-22-with-extension-attributes-in-net-2-0">question</a> he had posted on Stack Overflow:</p>
+<blockquote><p>How can a single .NET assembly, targeting 2.0, 3.0, 3.5, 4.0, and 4.5 concurrently, support extension methods for both C# and VB.NET consumers?</p>
+</blockquote>
+<p><strong>Short Answer</strong>: <u><em>You can’t.</em></u> You think you can, but if you’re serious about targeting .NET 2.0/3.0 and 3.5+ as well as that whole C# and VB support thing, you can’t. Not really. </p>
+<p><strong>Long Answer</strong>: People <em>love</em> extension methods. Seriously, I think some people want to marry extension methods they love them so much. They just can’t stand to be without their extension methods, even when they’re using .NET 2.0. </p>
+<p>Rather than go without, <a href="http://www.danielmoth.com/Blog/Using-Extension-Methods-In-Fx-20-Projects.aspx">some</a> <a href="http://msdn.microsoft.com/en-us/magazine/cc163317.aspx#S7">people</a> <a href="http://www.codethinked.com/using-extension-methods-in-net-20">figured</a> <a href="http://kohari.org/2008/04/04/extension-methods-in-net-20/">out</a> how to get extension methods support on older versions of the .NET Runtime. Extension methods are essentially a compile time technology – the IL that gets emitted for calling an extension method is identical to the IL for calling a normal static method. The only runtime dependency for extension methods is the <a href="http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.extensionattribute.aspx">ExtensionAttribute</a> which is used to mark methods intended to be used as extension methods (as well as classes and assemblies that contain them). ExtensionAttribute is defined in System.Core from .NET 3.5, but it’s just a marker. If you define your own copy of ExtensionAttribute and use the VS 2008 or later version of the C# compiler, you can get extension methods to work on .NET 2.0.</p>
+<p>Back when I was working on IronPython, we ran into this exact issue when we merged DLR expression trees with LINQ expression trees. LINQ trees used extension methods all over the place, but we still needed to support .NET 2.0 in IronPython. We were already using the VS08 compiler so all we had to do was add our own copy of ExtensionAttribute to the DLR and we were good to go…or so we thought. Instead, <a href="http://devhawk.net/2008/09/17/dlr-namespace-change-fire-drill/">we discovered</a> that this approach doesn’t work as advertised &#8211; at least not if you care about VB support. </p>
+<p>The problem stems from having multiple copies of ExtensionAttribute. IronPython and DLR had no problem – they were compiled for .NET 2.0 and thus had only the one copy of ExtensionAttribute that we added to the DLR. But people who used IronPython or DLR in a .NET 3.5 project ended up two copies of ExtensionAttribute – the copy we added to DLR and the official System.Core version. Two copies of a system provided type == start of a big problem.</p>
+<p>Actually, if you’re only using C#, having multiple copies of ExtensionAttribute isn’t that big a deal. The C# compiler raises a <a href="http://msdn.microsoft.com/en-us/library/8xys0hxk.aspx">warning</a> when it find multiple definitions of a type in the System namespace. Because ExtensionAttribute is in the System namespace, C# has to pick one of the colliding type definitions to use. However, since the copies of ExtensionAttribute are identical it doesn’t matter which version the C# compiler picks.</p>
+<p>Unfortunately, Visual Basic is much less forgiving when it encounters multiple versions of the same type. Instead of a warning like C#, the VB compiler raises an <a href="http://msdn.microsoft.com/en-us/library/8f0k13d2.aspx">error</a> when it encounters multiple definitions of ExtensionAttribute. So the “define your own ExtensionAttribute” approach leaves you with a DLL that won’t work from VB on .NET 3.5 or later.</p>
+<p>Excluding VB on what was the most recent version of .NET at the time was a non starter for us, so we investigated other options. We discovered that we could “solve” this issue (again “or so we thought”) by having an internal definition of ExtensionAttribute in every assembly that needed it. Since the types weren’t public, VB stopped complaining about type collisions. C# still had the compiler warning, but we had already decided not to care about that. </p>
+<p>I <a href="http://devhawk.net/2008/09/17/dlr-namespace-change-fire-drill/">said at the time</a> “It seems counterintuitive, doesn’t it? To solve a multiple type definition problem, we defined even more copies of the type in question.” Yeah, turns out I was kinda way wrong about that. We <a href="http://devhawk.net/2008/10/21/the-fifth-assembly/">discovered later</a> that having an internal ExtensionAttribute per project solved the VB ambiguous type error but introduced a new “break all the other extension methods in the project error”. </p>
+<p>Remember earlier when I wrote it didn’t matter which copy of ExtensionAttribute the C# compiler picks because they are “identical”? Remember when I wrote we could solve the VB ambiguous type error by changing the visibility of ExtensionAttribute? Woops. Changing the visibility of our ExtensionAttribute meant it was no longer identical which meant it kinda mattered which copy of ExtensionAttribute the C# compiler choose. If the C# compiler picked one of our internal ExtensionAttributes, it would break every use of extension methods in the project referencing IronPython or the DLR! </p>
+<p>We investigated a bunch of ways to control which version of ExtensionAttribute was selected by the C# compiler, but we couldn’t find an easy, obvious way in MSBuild to control the order of references passed to the compiler. In the end, we moved the custom ExtensionAttribute into its own DLL. That way, we could reference it from our IronPython and DLR projects to get extension method support but .NET 3.5 projects referencing either IronPython or DLR could reference System.Core instead. We still got the C# warning, but since we were back to identical ExtensionAttribute&#160; definitions, the warning could be ignored. </p>
+<p>Believe me, if there had been any way to remove the extension methods from the DLR and IronPython, we would have done it. Having a separate assembly with just a single custom attribute definition is an ugly hack, pure and simple. But the DLR was essentially the .NET 4.0 version System.Core – getting it to run along side the .NET 3.5 version of System.Core was bound to require hacks. </p>
+<p>My <a href="http://stackoverflow.com/a/11113191">advice to Nathanial on SO</a> was the same as I gave at the top of this post: don’t use the “define your own ExtensionAttribute” hack to try and get extension method support on .NET 2.0. Extensions methods are nice, but they aren’t worth the headache of dealing with the errors that stem from multiple definitions of ExtensionAttribute when you try to use your library from .NET 3.5 or later.</p>
+                    </section><!-- .entry-content -->
+
+                                          </article>
+                                
+                            
+                        
+                    
+	<hr class="featurette-divider __after_loop">
+
+<div id="comments" class="comments-area">
+	
+			
+	
+		<h2 id="tc-comment-title" class="comments-title">One thought on &ldquo;<span>Ambiguous ExtensionAttribute Errors</span>&rdquo;</h2>    
+            <ul class="commentlist">
+                    <li class="comment even thread-even depth-1" id="li-comment-3333">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/ad24799da38da64c3b51b745087d60fd?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://jdhardy.ca' rel='external nofollow' class='url'>jdhardy</a>  </cite> <a class="comment-date" href="http://devhawk.net/2012/06/20/ambiguous-extensionattribute-errors/#comment-3333"><time datetime="2012-06-22T10:23:01+00:00">June 22, 2012 at 10:23 am</time></a></header>  <section class="comment-content comment"><p>Newer versions of IronPython solve this problem by not supporting .NET 2. 3.5 is the minimum. I&#8217;d love to make it 4.0, but the mobile platforms aren&#8217;t fully there yet.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+            </ul><!-- .commentlist -->
+
+          <p class="nocomments">Comments are closed.</p>
+	
+</div><!-- #comments .comments-area -->
+      
+        <hr class="featurette-divider __after_loop">
+        <nav id="nav-below" class="navigation" role="navigation">
+
+            <h3 class="assistive-text">
+              Post navigation            </h3>
+
+            <ul class="pager">
+                              <li class="previous">
+                  <span class="nav-previous">
+                    <a href="http://devhawk.net/2012/06/19/windows-camp-demo-part-one/" rel="prev"><span class="meta-nav">&larr;</span> Windows Camp Demo, Part One</a>                  </span>
+                </li>
+                                            <li class="next">
+                  <span class="nav-next">
+                    <a href="http://devhawk.net/2012/06/24/windows-camp-demo-part-two/" rel="next">Windows Camp Demo, Part Two <span class="meta-nav">&rarr;</span></a>                  </span>
+                </li>
+                          </ul>
+
+        </nav><!-- #nav-below .navigation -->
+
+      
+      
+                </div><!--.article-container -->
+
+                  
+      <div class="span3 right tc-sidebar">
+         <div id="right" class="widget-area" role="complementary">
+                                             <aside id="text-3" class="widget widget_text"><h3 class="widget-title">Our Sponsors</h3>			<div class="textwidget"><div align=center data-type="ad" data-publisher="lqm.devhawk.site" data-zone="ron" data-format="160x600" data-tags="windows%2C%20windows%208%2C%20windows%20runtime%2C%20JavaScript%2C%20C%23%2C%20CLR%2C%20C%2B%2B"></div></div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-177"><a href="http://devhawk.net/category/architecture/" title="View all posts filed under Architecture">Architecture</a>
+</li>
+	<li class="cat-item cat-item-204"><a href="http://devhawk.net/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://devhawk.net/category/general-geekery/" title="View all posts filed under General Geekery">General Geekery</a>
+</li>
+	<li class="cat-item cat-item-252"><a href="http://devhawk.net/category/ironpython/" title="View all posts filed under IronPython">IronPython</a>
+</li>
+	<li class="cat-item cat-item-180"><a href="http://devhawk.net/category/morning-coffee/" title="View all posts filed under Morning Coffee">Morning Coffee</a>
+</li>
+	<li class="cat-item cat-item-352"><a href="http://devhawk.net/category/personal/" title="View all posts filed under Personal">Personal</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="http://devhawk.net/category/politics/" title="View all posts filed under Politics">Politics</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="http://devhawk.net/category/sports/" title="View all posts filed under Sports">Sports</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://devhawk.net/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-283"><a href="http://devhawk.net/category/windows/" title="View all posts filed under Windows">Windows</a>
+</li>
+	<li class="cat-item cat-item-357"><a href="http://devhawk.net/category/windows-runtime/" title="View all posts filed under Windows Runtime">Windows Runtime</a>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-4" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='http://devhawk.net/tag/asp-net/' class='tag-link-178' title='27 topics' style='font-size: 13.466666666667pt;'>ASP.NET</a>
+<a href='http://devhawk.net/tag/blogging/' class='tag-link-184' title='122 topics' style='font-size: 22pt;'>Blogging</a>
+<a href='http://devhawk.net/tag/c-sharp/' class='tag-link-235' title='17 topics' style='font-size: 10.933333333333pt;'>C#</a>
+<a href='http://devhawk.net/tag/college-football/' class='tag-link-194' title='10 topics' style='font-size: 8pt;'>College Football</a>
+<a href='http://devhawk.net/tag/community/' class='tag-link-213' title='81 topics' style='font-size: 19.6pt;'>Community</a>
+<a href='http://devhawk.net/tag/dasblog/' class='tag-link-303' title='12 topics' style='font-size: 8.9333333333333pt;'>dasBlog</a>
+<a href='http://devhawk.net/tag/database/' class='tag-link-214' title='13 topics' style='font-size: 9.4666666666667pt;'>Database</a>
+<a href='http://devhawk.net/tag/debugger/' class='tag-link-279' title='23 topics' style='font-size: 12.533333333333pt;'>Debugger</a>
+<a href='http://devhawk.net/tag/dlr/' class='tag-link-231' title='25 topics' style='font-size: 12.933333333333pt;'>DLR</a>
+<a href='http://devhawk.net/tag/domain-specific-languages/' class='tag-link-208' title='15 topics' style='font-size: 10.133333333333pt;'>Domain Specific Languages</a>
+<a href='http://devhawk.net/tag/dynamic-languages/' class='tag-link-217' title='12 topics' style='font-size: 8.9333333333333pt;'>Dynamic Languages</a>
+<a href='http://devhawk.net/tag/entertainment/' class='tag-link-196' title='14 topics' style='font-size: 9.8666666666667pt;'>Entertainment</a>
+<a href='http://devhawk.net/tag/etech/' class='tag-link-297' title='15 topics' style='font-size: 10.133333333333pt;'>ETech</a>
+<a href='http://devhawk.net/tag/f-sharp/' class='tag-link-198' title='51 topics' style='font-size: 17.066666666667pt;'>F#</a>
+<a href='http://devhawk.net/tag/family/' class='tag-link-179' title='33 topics' style='font-size: 14.533333333333pt;'>Family</a>
+<a href='http://devhawk.net/tag/functional-programming/' class='tag-link-202' title='18 topics' style='font-size: 11.2pt;'>Functional Programming</a>
+<a href='http://devhawk.net/tag/games/' class='tag-link-185' title='18 topics' style='font-size: 11.2pt;'>Games</a>
+<a href='http://devhawk.net/tag/hockey/' class='tag-link-215' title='33 topics' style='font-size: 14.533333333333pt;'>Hockey</a>
+<a href='http://devhawk.net/tag/ironruby/' class='tag-link-253' title='16 topics' style='font-size: 10.533333333333pt;'>IronRuby</a>
+<a href='http://devhawk.net/tag/lanugages/' class='tag-link-229' title='43 topics' style='font-size: 16pt;'>Lanugages</a>
+<a href='http://devhawk.net/tag/linq/' class='tag-link-224' title='24 topics' style='font-size: 12.8pt;'>LINQ</a>
+<a href='http://devhawk.net/tag/microsoft/' class='tag-link-232' title='31 topics' style='font-size: 14.266666666667pt;'>Microsoft</a>
+<a href='http://devhawk.net/tag/modelling/' class='tag-link-225' title='61 topics' style='font-size: 18pt;'>Modelling</a>
+<a href='http://devhawk.net/tag/movies/' class='tag-link-218' title='23 topics' style='font-size: 12.533333333333pt;'>Movies</a>
+<a href='http://devhawk.net/tag/music/' class='tag-link-248' title='20 topics' style='font-size: 11.733333333333pt;'>Music</a>
+<a href='http://devhawk.net/tag/p2p/' class='tag-link-325' title='11 topics' style='font-size: 8.5333333333333pt;'>P2P</a>
+<a href='http://devhawk.net/tag/parsing-expression-grammar/' class='tag-link-209' title='16 topics' style='font-size: 10.533333333333pt;'>Parsing Expression Grammar</a>
+<a href='http://devhawk.net/tag/powershell/' class='tag-link-230' title='40 topics' style='font-size: 15.6pt;'>PowerShell</a>
+<a href='http://devhawk.net/tag/rest/' class='tag-link-181' title='18 topics' style='font-size: 11.2pt;'>REST</a>
+<a href='http://devhawk.net/tag/ruby/' class='tag-link-190' title='23 topics' style='font-size: 12.533333333333pt;'>Ruby</a>
+<a href='http://devhawk.net/tag/service-broker/' class='tag-link-320' title='14 topics' style='font-size: 9.8666666666667pt;'>Service Broker</a>
+<a href='http://devhawk.net/tag/silverlight/' class='tag-link-200' title='20 topics' style='font-size: 11.733333333333pt;'>Silverlight</a>
+<a href='http://devhawk.net/tag/soa/' class='tag-link-183' title='94 topics' style='font-size: 20.533333333333pt;'>SOA</a>
+<a href='http://devhawk.net/tag/software-factories/' class='tag-link-195' title='11 topics' style='font-size: 8.5333333333333pt;'>Software Factories</a>
+<a href='http://devhawk.net/tag/visual-studio/' class='tag-link-187' title='20 topics' style='font-size: 11.733333333333pt;'>Visual Studio</a>
+<a href='http://devhawk.net/tag/washington-capitals/' class='tag-link-192' title='42 topics' style='font-size: 15.866666666667pt;'>Washington Capitals</a>
+<a href='http://devhawk.net/tag/wcf/' class='tag-link-313' title='31 topics' style='font-size: 14.266666666667pt;'>WCF</a>
+<a href='http://devhawk.net/tag/web-2-0/' class='tag-link-188' title='67 topics' style='font-size: 18.533333333333pt;'>Web 2.0</a>
+<a href='http://devhawk.net/tag/web-services/' class='tag-link-290' title='12 topics' style='font-size: 8.9333333333333pt;'>Web Services</a>
+<a href='http://devhawk.net/tag/wf/' class='tag-link-268' title='21 topics' style='font-size: 12pt;'>WF</a>
+<a href='http://devhawk.net/tag/windows-live/' class='tag-link-207' title='29 topics' style='font-size: 13.866666666667pt;'>Windows Live</a>
+<a href='http://devhawk.net/tag/working-at-msft/' class='tag-link-250' title='21 topics' style='font-size: 12pt;'>Working at MSFT</a>
+<a href='http://devhawk.net/tag/xbox-360/' class='tag-link-189' title='54 topics' style='font-size: 17.333333333333pt;'>Xbox 360</a>
+<a href='http://devhawk.net/tag/xml/' class='tag-link-238' title='11 topics' style='font-size: 8.5333333333333pt;'>XML</a>
+<a href='http://devhawk.net/tag/xna/' class='tag-link-193' title='15 topics' style='font-size: 10.133333333333pt;'>XNA</a></div>
+</aside>
+                                        </div><!-- #left -->
+      </div><!--.tc-sidebar -->
+
+      
+        </div><!--.row -->
+    </div><!-- .container role: main -->
+
+    
+</div><!--#main-wrapper"-->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="">
+	 				<div class="container footer-widgets ">
+				<div class="row widget-area" role="complementary">
+					
+					
+													
+							<div id="footer_one" class="span4">
+								<aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://devhawk.net/wp-login.php">Log in</a></li>
+			<li><a href="http://devhawk.net/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://devhawk.net/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</aside>							</div>
+
+						
+					
+													
+							<div id="footer_two" class="span4">
+								<aside id="text-6" class="widget widget_text"><h3 class="widget-title">Disclaimer</h3>			<div class="textwidget"><p>The information in this weblog is provided "AS IS" with no warranties, and confers no rights. This weblog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my opinion. Inappropriate comments will be deleted at the authors discretion.</p>
+
+<script type='text/javascript'>
+    function _dmBootstrap(file) { 
+        var _dma = document.createElement('script');  
+        _dma.type = 'text/javascript'; 
+        _dma.async = true;  
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+</script>
+</div>
+		</aside>							</div>
+
+						
+					
+						
+									</div><!-- .row.widget-area -->
+			</div><!--.footer-widgets -->
+		    			 <div class="colophon">
+		 	<div class="container">
+		 		<div class="row-fluid">
+				    <div class="span4 social-block pull-left"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><div class="span4 credits"><p> &middot; &copy; 2014 <a href="http://devhawk.net" title="DevHawk" rel="bookmark">DevHawk</a> &middot; Designed by <a href="http://www.themesandco.com/">Themes &amp; Co</a> &middot;</p></div><div class="span4 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div>      			</div><!-- .row-fluid -->
+      		</div><!-- .container -->
+      	</div><!-- .colophon -->
+    		</footer>
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript">
+    SyntaxHighlighter.autoloader(
+        'applescript			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAppleScript.js',
+        'actionscript3 as3		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAS3.js',
+        'bash shell				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushBash.js',
+        'coldfusion cf			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushColdFusion.js',
+        'cpp c					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCpp.js',
+        'c# c-sharp csharp		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCSharp.js',
+        'css					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCss.js',
+        'delphi pascal pas		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDelphi.js',
+        'diff patch			    http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDiff.js',
+        'erl erlang				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushErlang.js',
+        'groovy					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushGroovy.js',
+        'java					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJava.js',
+        'jfx javafx				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJavaFX.js',
+        'js jscript javascript	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJScript.js',
+        'perl pl				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPerl.js',
+        'php					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPhp.js',
+        'text plain				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPlain.js',
+        'powershell ps          http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPowerShell.js',
+        'py python				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPython.js',
+        'ruby rails ror rb		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushRuby.js',
+        'sass scss              http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSass.js',
+        'scala					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushScala.js',
+        'sql					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSql.js',
+        'vb vbnet				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushVb.js',
+        'xml xhtml xslt html	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushXml.js'
+    );
+                        SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.all();
+</script>
+<!-- END: Syntax Highlighter ComPress -->
+
+		<div style="display:none">
+	<div class="grofile-hash-map-ad24799da38da64c3b51b745087d60fd">
+	</div>
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201415'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Apraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TCParams = {"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","SmoothScroll":"linear"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/tc-scripts.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/holder.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/retina.min.js'></script>
+
+	<script src="http://stats.wordpress.com/e-201415.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.9.2',blog:'22146351',post:'2023',tz:'-7'});
+	var load_cmc = function(){linktracker_init(22146351,2023,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	</body>
+</html>

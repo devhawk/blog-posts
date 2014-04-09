@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Amazing Cheese</title>
+  <link>http://devhawk.net/2004/08/04/amazing-cheese/</link>
+  <pubDate>Wed, 04 Aug 2004 18:23:41 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0612d38f-5960-41a4-bf53-035a9db747ee</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I've <a href="http://devhawk.net/PermaLink.aspx?guid=e6de0496-b593-4657-acd8-d602523c3fc4">blogged about cheese</a> before, but it was in jest. However, the cheese here in Australia and New Zealand has been awesome. It's like going to Tahiti and eating pineapple. When you come home to the same old stuff, it's a real let down. Maybe I need to stop making fun of my coworker Earnie (he's the one who showed me the American Cheese Society annual conference and awards).</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">413</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-08-04 18:23:41</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-08-04 18:23:41</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">amazing-cheese</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0612d38f-5960-41a4-bf53-035a9db747ee]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Amazing+Cheese]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/08/05/Amazing+Cheese]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2648</wp:comment_id>
+    <wp:comment_author><![CDATA[Chris Church]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-08-04 20:25:10</wp:comment_date>
+    <wp:comment_date_gmt>2004-08-05 03:25:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Farmstead cheese is becoming a real culinary trend, or maybe its better to say it has become a trend, especially on the west coast.  There are all sorts of small artisinal cheesemakers popping up, and I understand a bunch in WA.  I'll have to collect some links...
+
+
+Chris]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2649</wp:comment_id>
+    <wp:comment_author><![CDATA[Mitch Denny]]></wp:comment_author>
+    <wp:comment_author_email>mitch.denny@notgartner.com</wp:comment_author_email>
+    <wp:comment_author_url>http://notgartner.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-08-07 05:07:23</wp:comment_date>
+    <wp:comment_date_gmt>2004-08-07 12:07:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You need to try vegimite and cheese on a vitabread cracker. Mmmm.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

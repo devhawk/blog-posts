@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2972</wp:comment_id>
+  <wp:comment_author><![CDATA[Rand Anderson]]></wp:comment_author>
+  <wp:comment_author_email>rand@executableabstractions.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.executableabstractions.com</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-01-23 11:59:32</wp:comment_date>
+  <wp:comment_date_gmt>2004-01-23 19:59:32</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I use 'enterprise architect' to represent this scale of architecture. So the full range becomes:
+- component
+- system
+- enterprise
+
+HTH,
+Rand]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

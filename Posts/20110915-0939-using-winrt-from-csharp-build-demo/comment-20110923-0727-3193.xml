@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>3193</wp:comment_id>
+  <wp:comment_author><![CDATA[Kevin C]]></wp:comment_author>
+  <wp:comment_author_email>kevinc43@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>95.150.230.153</wp:comment_author_IP>
+  <wp:comment_date>2011-09-23 07:27:02</wp:comment_date>
+  <wp:comment_date_gmt>2011-09-23 14:27:02</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[A quick couple of questions:
+1) If an app is written in pure XAML - say a grid with a few boxes - with no code of any kind (c#/javascript/c++) - are any dotnet libs/runtime's loaded? Does XAML in Win8/Metro have any dotnet dependencies? Is the code that renders the declarative XAML
+
+2) Can javascript project be written to work with XAML instead of HTML.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_result</wp:meta_key>
+    <wp:meta_value><![CDATA[false]]></wp:meta_value>
+  </wp:commentmeta>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_history</wp:meta_key>
+    <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1316788022.8845";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+  </wp:commentmeta>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_history</wp:meta_key>
+    <wp:meta_value><![CDATA[a:4:{s:4:"time";s:15:"1316832947.2094";s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+  </wp:commentmeta>
+</wp:comment>

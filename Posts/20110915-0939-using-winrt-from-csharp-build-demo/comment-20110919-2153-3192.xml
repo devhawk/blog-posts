@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>3192</wp:comment_id>
+  <wp:comment_author><![CDATA[Josh Smith]]></wp:comment_author>
+  <wp:comment_author_email>flapplejacks@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://joshsmithonwpf.wordpress.com</wp:comment_author_url>
+  <wp:comment_author_IP>66.235.47.69</wp:comment_author_IP>
+  <wp:comment_date>2011-09-19 21:53:09</wp:comment_date>
+  <wp:comment_date_gmt>2011-09-20 04:53:09</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Thanks for the helpful write up. One thing...the demo doesn't unhook the DataRequested event of the DataTransferManager. Unless there are weak events being used in WinRT, this sample code probably causes a memory leak because the MainPage is always referenced by an instance of DataTransferManager (whose lifetime I assume is greater than that of the page). Or is there some new greatness in WinRT's eventing model that I'm not aware of?
+
+Thanks,
+Josh]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

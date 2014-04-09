@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Features For "Full-Grown" OO Languages?</title>
+  <link>http://devhawk.net/2004/12/21/new-features-for-full-grown-oo-languages/</link>
+  <pubDate>Tue, 21 Dec 2004 13:20:19 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://283ef85e-e61c-46f0-b0a2-87ec14c8bc06</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>After <a href="http://www.theserverside.net/news/thread.tss?thread_id=30683">seeing it</a> on TSS.net, I checked out the <a href="http://www.x-develop.com/">X-develop</a> product website. X-develop is a new multi-language cross-platform IDE that supports both .NET languages like VB.NET, C# and J# as well as Java. It includes support for all the .NET 2.0 features like generics as well as new Java 5.0 features like generics, varargs, enums and boxing. </p><p>When I checked out the website, I noticed a section covering "<a href="http://www.x-develop.com/xdevelop_extend.htm">Custom Languages</a>". Here's another example of bias against DSLs - this time in favor of "full grown OO languages":</p><blockquote><p>"The [X-develop] language plugin API is not limited to toy languages or <i>little domain specific languages</i>. Instead it supports full grown OO languages. In fact the support for Java, C#, J# and Visual Basic.NET is implemented as language plugins." (Emphasis added)</p></blockquote><p>This reminds me of the same kind of bias that was leveled against classic VB. Classic VB was valuable primarily <i>because</i> it was limited in scope and capability. But what it gave up in capability it gained in productivity. Along the same lines, DSLs are valuable <em>because</em> they are little, because they only focus on a single problem domain.</p><p>What exactly would be the value of another "full-grown OO language"? What features would be in a new full grown language that isn't already in Java/J#, C# or VB.NET? The only feature I can think of is dynamic language support such as <a href="http://boo.codehaus.org/Type+Inference">type inference</a> and <a href="http://c2.com/cgi/wiki?DuckTyping">duck typing</a> a la <a href="http://www.ruby-lang.org/en/">Ruby</a> and <a href="http://boo.codehaus.org/">Boo</a>. What non-domain specific language features are you still waiting for?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">506</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-12-21 13:20:19</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-12-21 13:20:19</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-features-for-full-grown-oo-languages</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[283ef85e-e61c-46f0-b0a2-87ec14c8bc06]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Features+For+FullGrown+OO+Languages]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/12/21/New+Features+For+FullGrown+OO+Languages]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2754</wp:comment_id>
+    <wp:comment_author><![CDATA[Hal]]></wp:comment_author>
+    <wp:comment_author_email>halpierson@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-12-22 07:42:38</wp:comment_date>
+    <wp:comment_date_gmt>2004-12-22 15:42:38</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You might be jumping to conclusions.  The use of the word 'little' is not necessarialy pejorative.  A good, well focused Domain Specific Language does not have to be 'big'.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2755</wp:comment_id>
+    <wp:comment_author><![CDATA[BTX]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>216.115.162.100</wp:comment_author_IP>
+    <wp:comment_date>2005-09-30 10:05:25</wp:comment_date>
+    <wp:comment_date_gmt>2005-09-30 17:05:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[>>"full-grown OO language"
+
+widely accepted OO language, you can say whatever but Ruby or Boo don't (won't ever) have the acceptance than Java/C# have]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Happy Birthday to Blog</title>
+  <link>http://devhawk.net/2004/01/14/happy-birthday-to-blog/</link>
+  <pubDate>Wed, 14 Jan 2004 08:29:59 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://813f27e5-ba30-49eb-9fda-d6be19a84077</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>So it was <a href="http://devhawk.net/default.aspx?date=2003-01-14">a year ago today</a> that I started this blog. It's interesting to see how much has changed in that time. <a href="http://devhawk.net/PermaLink.aspx?guid=16e48c40-21ed-480f-a51f-70f88755901f">My son was born</a>, I <a href="http://devhawk.net/PermaLink.aspx?guid=e16c7694-ead9-40da-a9ca-18af6359680c">switched jobs</a>, I got an article <a href="http://msdn.microsoft.com/msdnmag/issues/03/03/siteskinning/default.aspx">published in MSDN</a> and even <a href="http://techiewife.com/">my wife is blogging</a> now. And I'm even blogging this from Phoenix where I started blogging in the first place! </p><p>I was in Phoenix for a local architect roundtable event. It went great. I was filling in for a teammate who had a conflict, but I hope to do more of these in the future as it's a chance to interact directly with the architect community. I presented Metropolis - we're working on getting more info about that up on architecture center very soon. I also got a chance to do my "performance doesn't matter" <strike>rant</strike> discussion that seems to always come up when you start talking about building services. I'll blog that later, I've got a plane to catch.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">277</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-01-14 08:29:59</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-01-14 08:29:59</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">happy-birthday-to-blog</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[813f27e5-ba30-49eb-9fda-d6be19a84077]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Happy+Birthday+To+Blog]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/01/14/Happy+Birthday+To+Blog]]></wp:meta_value>
+  </wp:postmeta>
+</item>

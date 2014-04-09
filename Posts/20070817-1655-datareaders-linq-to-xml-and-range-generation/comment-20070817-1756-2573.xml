@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2573</wp:comment_id>
+  <wp:comment_author><![CDATA[Andres Aguiar]]></wp:comment_author>
+  <wp:comment_author_email>andres.aguiar@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://weblogs.asp.net/aaguiar</wp:comment_author_url>
+  <wp:comment_author_IP>190.64.39.43</wp:comment_author_IP>
+  <wp:comment_date>2007-08-17 17:56:34</wp:comment_date>
+  <wp:comment_date_gmt>2007-08-18 00:56:34</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[AFAIK there's no standard way of doing it, but you could add an extension method to 'Int32' 
+
+public static IEnumerable<int> RangeFromZero(this int number)
+{
+   for (int i = 0; i < number; i++)
+   {
+      yield return i;
+   }
+}
+
+and have something like
+
+from i in dr.FieldCount.RangeFromZero()
+
+or
+
+from i in dr.FieldCount.Range(0)
+
+with a 'Range' extension method, which is the same that you wrote but a little cooler ;).
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

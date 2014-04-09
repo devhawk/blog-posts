@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Sticking with intraVnews</title>
+  <link>http://devhawk.net/2004/01/19/sticking-with-intravnews/</link>
+  <pubDate>Mon, 19 Jan 2004 12:26:07 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://25c09580-2e30-433b-bceb-6f78742aa286</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I downloaded and installed the new NewsGator trial in a VPC to see how it looks. Maybe I'm still getting used to this whole Outlook news reader thing, but I don't understand why NewsGator continues to flatten my OPML hierarchy. RSS Bandit, SharpReader and intraVnews all respect my hierarchy. I may not read as much as Scoble, but I am reading over 200 blogs these days and I like to categorize them. Favorites, GDN Workspaces, .NET bloggers, MSFT bloggers, Blogs I only scan the headlines of before I delete them, etc. But when I import that same OPML into NewsGator, it gets flattened into one big list of feeds. Apparently, you can manually move the folders around once they are created, but I'm not interested in doing that 200+ times. </p><p>Too bad, because the online services looked cool.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">285</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-01-19 12:26:07</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-01-19 12:26:07</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">sticking-with-intravnews</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[25c09580-2e30-433b-bceb-6f78742aa286]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Sticking+With+IntraVnews]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/01/19/Sticking+With+IntraVnews]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2963</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Earls]]></wp:comment_author>
+    <wp:comment_author_email>mearls@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.cerkit.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-19 12:45:44</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-19 20:45:44</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[This is the whole reason why I switched back to RSSBandit.  Not only did you have to manually move the folders to their categories, but if you removed column headings, you had to do that 200+ times also.  Outlook just doesn't provide enough generic extensibility (or if it does, NewGator has not ytet taken advantage of it) to provide the depth of features that I've come to take for granted with RSSBandit (coloring of entries, inline comments, etc.)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2964</wp:comment_id>
+    <wp:comment_author><![CDATA[Ron Green]]></wp:comment_author>
+    <wp:comment_author_email>rgreen3@kc.rr.com</wp:comment_author_email>
+    <wp:comment_author_url>http://slightlybent.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-19 13:58:23</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-19 21:58:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You don't need to move the folders around to get categories. Leave the folders where they are and use Search Folders to create your Categories. Then it's as simple as checking a box next to each feed in a list to add that feed to the category.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2965</wp:comment_id>
+    <wp:comment_author><![CDATA[Ron Green]]></wp:comment_author>
+    <wp:comment_author_email>rgreen3@kc.rr.com</wp:comment_author_email>
+    <wp:comment_author_url>http://slightlybent.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-19 14:17:19</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-19 22:17:19</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[That is, if you are using Outlook 2003. If not,well then, nevermind.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2966</wp:comment_id>
+    <wp:comment_author><![CDATA[Louis Parks]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.lparky.com/blog/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-02-01 10:29:04</wp:comment_date>
+    <wp:comment_date_gmt>2004-02-01 18:29:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Ryan,
+
+It seems to me that a far easier thing would be for NewsGator to create the hierarchy according to the OPML.  Why should the user have to do anything after installing it?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2967</wp:comment_id>
+    <wp:comment_author><![CDATA[outlook express errors]]></wp:comment_author>
+    <wp:comment_author_email>outlook_express@ukr.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.oemailrecovery.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-05-19 23:37:07</wp:comment_date>
+    <wp:comment_date_gmt>2005-05-20 06:37:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I have been using Outlook Express errors repair tool  for the past few months and LOVE it.
+I've even recommended it to all my friends. Outlook Express more stable and secure than other programs.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2968</wp:comment_id>
+    <wp:comment_author><![CDATA[Outlook Express fix]]></wp:comment_author>
+    <wp:comment_author_email>outlook_express@ukr.net</wp:comment_author_email>
+    <wp:comment_author_url>http://mail-repair.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-05-19 23:40:25</wp:comment_date>
+    <wp:comment_date_gmt>2005-05-20 06:40:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I must admit to being more impressed with Tool for Outlook Express fix. I've even recommended it to all my friends. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

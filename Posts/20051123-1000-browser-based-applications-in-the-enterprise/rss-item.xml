@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Browser Based Applications in the Enterprise</title>
+  <link>http://devhawk.net/2005/11/23/browser-based-applications-in-the-enterprise/</link>
+  <pubDate>Wed, 23 Nov 2005 10:00:50 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0c3a7f95-8185-4e1b-8294-1f7c6c010cee</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p align="left">I asked Scoble for his thoughts on my <a href="http://devhawk.net/2005/11/22/I+Hate+The+Term+Mashup.aspx">post about the term mashup</a>, and he decided simply to <a href="http://scobleizer.wordpress.com/2005/11/22/the-non-gym-plan/">link to it</a>. While I appreciate the traffic, I'd appreciate opinions even more. Luckily, in the same post he linked to <a href="http://samus.typepad.com/what/">Sam Ramji</a> writing about what he called "<a href="http://samus.typepad.com/what/2005/11/scoble_intervie.html">enterprise mashups</a>". Again, love the idea but hate the name mashup.</p><p align="left">According to Sam, Scoble said: </p><blockquote><p align="left">[W]hat's to prevent mash-ups from being <strong>the main way that departmental apps are built</strong> in most enterprises 3-4 years from now?</p></blockquote><p align="left">Again, it depends on the definition of the term "mashup". Are we're talking about browser component based apps that leverage what <a href="http://scobleizer.wordpress.com/2005/11/07/what-do-you-call-things-like-flickr-microsoft-gadgets-google-maps-amazon-affiliate-parts/">Scoble calls ICC's</a>? If so, Scoble is only wrong about the timeframe. My team has a browser based application leveraging <a href="http://virtualearth.msn.com/">Virtual Earth</a> running on our intranet server <i>right now</i>. </p><p align="left">Quick terminology sidebar: I use the term browser based application to refer to these AJAX and mashup style apps, since they download code and run in the browser itself. By comparison, I use the term web based application for the more traditional browser apps that did all the processing on the server and used the browser essentially as a dumb terminal.</p><p align="left">While I think these browser based applications will go mainstream in the enterprise soon, there are a couple of things holding up adoption: availability of tools and of the components themselves. </p><p align="left">On the tools side, the AJAX programming model is just too difficult for most programmers. Rudimentary debugging support, late bound script languages, no compiler to help you find errors. Sounds like web development circa 1997, doesn't it? I'm hoping <a href="http://atlas.asp.net/">Atlas</a> will be to AJAX what ASP.NET was to ASP. </p><p align="left">As for existing components, most of the ones <a href="http://scobleizer.wordpress.com/2005/11/07/what-do-you-call-things-like-flickr-microsoft-gadgets-google-maps-amazon-affiliate-parts/">Scoble calls out</a> have little relevance to the enterprise. There's little point to a Feedmap or a Flickr bar in my enterprise app. And I'm not sure I even want to go into the implications of serving up ads in an enterprise app. That pretty much leaves mapping components like VE and Google Maps as the only browser components of interest to the enterprise developer. So far anyway.</p><p align="left">I wonder if Scoble knows of any other enterprise relevant browser components out there?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">655</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-11-23 10:00:50</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-11-23 10:00:50</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">browser-based-applications-in-the-enterprise</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0c3a7f95-8185-4e1b-8294-1f7c6c010cee]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Browser+Based+Applications+In+The+Enterprise]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/11/23/Browser+Based+Applications+In+The+Enterprise]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2870</wp:comment_id>
+    <wp:comment_author><![CDATA[Jerry Mead]]></wp:comment_author>
+    <wp:comment_author_email>feedback@meadroid.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.zeepe.com/</wp:comment_author_url>
+    <wp:comment_author_IP>82.69.68.129</wp:comment_author_IP>
+    <wp:comment_date>2005-11-23 12:00:27</wp:comment_date>
+    <wp:comment_date_gmt>2005-11-23 20:00:27</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Arguing for browser-based apps - particularly on Windows - has always sounded to me like an acceptance of "let's be happy with much-less-than-capable". The browser simply wasn't designed as an app wrapper, period. In the (still under-exploited) world of DHTML/AJAX/ATLAS/etc., Zeepe (www.zeepe.com) is our response to that. 
+
+[Still working through IE7/Vista breaking changes with the IE team, so please stick to 'legacy' OSs for any testing. Thanks.] ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

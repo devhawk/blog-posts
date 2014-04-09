@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2579</wp:comment_id>
+  <wp:comment_author><![CDATA[Jack van Hoof]]></wp:comment_author>
+  <wp:comment_author_email>jack.vanhoof.soa.eda@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://soa-eda.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>83.128.67.232</wp:comment_author_IP>
+  <wp:comment_date>2007-08-25 07:41:15</wp:comment_date>
+  <wp:comment_date_gmt>2007-08-25 14:41:15</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[What is integration at all?
+
+Application Integration is – ironically – about application division. I recently posted my view on how applications can be divided into separated components and how the components are glued together. Several “glue-areas” are recognized where mashups, portals, shared databases, SOA and EDA all play a role in gluing the pieces together.
+
+http://soa-eda.blogspot.com/2007/08/what-is-eai.html
+
+I agree not to sell integration to the business, but just do it. 
+
+
+Jack]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>.NET Links</title>
+  <link>http://devhawk.net/2003/02/16/net-links/</link>
+  <pubDate>Sun, 16 Feb 2003 07:14:01 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://68341adc-ae99-4cee-a09b-9d1ca7ad9692</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[Added two new .NET links: <a href="http://msdn.microsoft.com/practices/"> Patterns &amp; Practices</a> and <a href="http://www.mutantdesign.co.uk/nunit-addin/">NUnit Addin</a>. Patterns &amp; Practices slogan is "proven practices for predictable results". They include documentation on <a href="http://msdn.microsoft.com/practices/type/Architectures/default.asp"> Reference Architectures</a>, <a href="http://msdn.microsoft.com/practices/type/Operationalpractices/default.asp"> Operational Practices</a>, and <a href="http://msdn.microsoft.com/practices/type/Blocks/default.asp">Building Blocks</a>. While there are some <a href="http://msdn.microsoft.com/library/en-us/dnbda/html/distapp.asp"> great</a><a href="http://msdn.microsoft.com/library/en-us/dnnetsec/html/secnetlpMSDN.asp"> ones</a><a href="http://msdn.microsoft.com/library/en-us/dnbda/html/DBGrm.asp"> up</a><a href="http://msdn.microsoft.com/library/en-us/dnbda/html/DALGRoadmap.asp"> there</a><a href="http://msdn.microsoft.com/library/en-us/dnbda/html/tdlg_rm.asp"> already</a>, look for more in April to coincide with the <a href="http://msdn.microsoft.com/vstudio/productinfo/vstudio03/default.asp"> VS.NET 2003</a> release. NUnit Addin integrates the popular <a href="http://www.nunit.org/">NUnit</a> .NET port of the xUnit testing framework directly into VS.NET for "point and test" capability. I've already given <a href="http://dotnetweblogs.com/NUnitAddin">Jamie</a> my #1 enhancement request - automatic test execution on every build. I've also had a look at the <a href="http://sourceforge.net/projects/nunitaddin/">code</a> and I would highly recommend any add-in developer take a look. Jamie's add-in framework is very impressive. I hacked in a sample implementation of auto test execution very quickly because his code is so nicely factored. ]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">24</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-02-16 07:14:01</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-02-16 07:14:01</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">net-links</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[68341adc-ae99-4cee-a09b-9d1ca7ad9692]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[NET+Links]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/02/16/NET+Links]]></wp:meta_value>
+  </wp:postmeta>
+</item>

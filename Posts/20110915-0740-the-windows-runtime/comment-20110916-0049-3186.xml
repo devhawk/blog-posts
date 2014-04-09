@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>3186</wp:comment_id>
+  <wp:comment_author><![CDATA[Dev{eloper} Stonez]]></wp:comment_author>
+  <wp:comment_author_email>dev.stonez@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://twitter.com/devstonez</wp:comment_author_url>
+  <wp:comment_author_IP>82.77.217.139</wp:comment_author_IP>
+  <wp:comment_date>2011-09-16 00:49:44</wp:comment_date>
+  <wp:comment_date_gmt>2011-09-16 07:49:44</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I’m just wondering how the HTML5/JavaScript Metro applications will be packaged and protected against reversal …
+ For packaging I’ll expect some sort of signed zip/jar (no mention about .appx on MSDN) but for protection, outside of heavy obfuscation for JavaScript I can’t envision any other way (maybe a new precompiled/binary format ?)
+ If the protection is not good, writing HTML5/JavaScript apps will not flourish to much IMHO.
+
+Since the Metro documentation state that the applications are self-consistent (no shared DLL’s, etc), I’m just wondering how you can create a modular, BIG Metro application by creating reusable components/libraries … Another issue that bother me relate to the library reuse, since the Metro documentation state that the applications are self-consistent (no shared DLL's, etc), so I'm just wondering how you can create a modular, BIG Metro application by creating reusable components/libraries ... 
+
+If all the HTML5/JavaScript Metro apps should contain the same CSS and WinJS scripts then it doesn't look quite good ... I expected some form of libraries/reuse to exist from the start.
+
+Do you have more details for all of these ?
+
+BTW, all the HTML5/JavaScript way of programming Metro apps remind me about Opera widgets that you can build for several years now]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

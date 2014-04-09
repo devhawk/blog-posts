@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Flightmares</title>
+  <link>http://devhawk.net/2004/07/15/flightmares/</link>
+  <pubDate>Thu, 15 Jul 2004 14:36:26 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4869b572-fe54-467a-bbba-a2b7dc0d3019</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>All it takes is one bad trip to remind me why I took a job that only requires a handful of trips a year. Pat <a href="http://blogs.msdn.com/pathelland/archive/2004/07/14/182963.aspx">mentioned</a> that this is the week of our big annual internal training event in Atlanta. We had a two day pre-training event for all our field architects. (which explains the lack of posts around here.) We need to keep them in the know about the content and programs we are working on back at corporate, plus these are great bunch of people so it's always nice to hang out with them. Too bad the travel has been such a nightmare.</p><p>My flights into and out of Atlanta were each several hours late. Getting an elevator in the hotel took forever - once over 15 minutes! The 70-story Westin was booked to capacity, and I guess everyone wanted an elevator at 8am in the morning. But given that "booked to capacity" is a desirable state for any hotel, why didn't they design for that eventuality? I mean, it's not exactly an edge case scenario. Then, I left the pre-training early to visit a customer in Minneapolis. The customer meeting went great, but we had a miscommunication on the meeting time and I missed my flight home. So now I'm hanging around the Minneapolis/St. Paul airport hoping to get home flying standby. </p><p>It was pointed out to me that I'm not supposed to be visiting customers anymore, and after this trip I'm inclined to agree. However, you can't solve real world problems if you don't get out and experience real world customers and their real world problems from time to time. Usually, I meet with customers who come for executive briefings on campus. This meeting in Minneapolis grew out of one of those on-campus briefings. And since I was on the road anyway, I didn't think it would be a big. Next time, I think I'll opt to attend via Live Meeting.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">398</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-07-15 14:36:26</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-07-15 14:36:26</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">flightmares</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4869b572-fe54-467a-bbba-a2b7dc0d3019]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Flightmares]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/07/15/Flightmares]]></wp:meta_value>
+  </wp:postmeta>
+</item>

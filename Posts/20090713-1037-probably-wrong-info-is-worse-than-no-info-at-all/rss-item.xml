@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Probably Wrong Info Is Worse Than No Info At All</title>
+  <link>http://devhawk.net/2009/07/13/probably-wrong-info-is-worse-than-no-info-at-all/</link>
+  <pubDate>Mon, 13 Jul 2009 10:37:06 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://cf59d65d-af8c-41c5-9562-a26969d76a5d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Like many geeks, I love <a href="http://dilbert.com/">Dilbert</a>. However, I rarely identify with it as well as I did Sunday.</p><p><a title="Dilbert.com" href="http://dilbert.com/strips/comic/2009-07-12/"><img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="Dilbert.com" src="http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/60000/0000/300/60359/60359.strip.sunday.gif" /></a></p><p>I kid you not, I’ve had almost exactly this conversation back when I worked in MS IT. They have this big repository of information about deployed applications. Technically, you’re not supposed to deploy an application without listing it in the application repository. Like Dilbert, I never really understood what people were going to do with this information, but the projects I was on dutifully collected the relevant information and put it into the repository.</p><p>And never thought of it again. Ever. </p><p>And therein lies the problem. Populating the application repository was an artificial step on the critical path of the deployment process. Writing the software, acquiring the physical hardware to run it on, stuff like that really is on the critical path. Populating the application repository was extra busy work legislated by someone (I forget if it was the central architecture team or management) that didn’t benefit the project in the slightest. As such, it was given the minimal about of attention and effort, meaning there was little quality or consistency in the data. Worse yet, when the application changed or was decommissioned , updating the application repository just didn’t happen. I mean, it was supposed to, but rarely did.</p><p>So you ended up with a repository of information that was worse than useless. I had a colleague who insisted that the repository had some value because “not all of the data was wrong”. Of course, he couldn’t tell me with any consistency which data was accurate and therefore valuable and which was not. Hence, my argument that it was “worse than useless”.</p><p>The only way an application repository is going to be of any value at all is if you can collect the data automatically. My old teammate Buzz coined a phrase we used often: “The Truth Is On The Edge”. You should always regard any central repository of information with a very critical eye since it’s rarely going to be the truth. </p><p>(Ed. Note – Man, it’s been a long time since I’ve written about Architecture. My last Architecture post was <a href="http://devhawk.net/2008/07/25/Morning+Coffee+171.aspx">almost a year ago</a>. I don’t miss the job but I do miss my old teammates – in particular Buzz, Rick, Dale and of course <a href="http://blogs.msdn.com/nickmalik">Nick Malik</a>.)</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1271</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-07-13 10:37:06</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-07-13 10:37:06</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">probably-wrong-info-is-worse-than-no-info-at-all</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[cf59d65d-af8c-41c5-9562-a26969d76a5d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Probably+Wrong+Info+Is+Worse+Than+No+Info+At+All]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/07/13/Probably+Wrong+Info+Is+Worse+Than+No+Info+At+All]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2231</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+    <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://www.ironpythoninaction.com/</wp:comment_author_url>
+    <wp:comment_author_IP>87.194.212.65</wp:comment_author_IP>
+    <wp:comment_date>2009-07-13 10:40:00</wp:comment_date>
+    <wp:comment_date_gmt>2009-07-13 17:40:00</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Has your view on architecture as a discipline separate from coding changed since working with dynamic languages?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2232</wp:comment_id>
+    <wp:comment_author><![CDATA[Seo Sanghyeon]]></wp:comment_author>
+    <wp:comment_author_email>sanxiyn@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>118.219.169.203</wp:comment_author_IP>
+    <wp:comment_date>2009-07-14 04:37:45</wp:comment_date>
+    <wp:comment_date_gmt>2009-07-14 11:37:45</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[The Truth Is On The Edge, so true. On the other hand, automatically collected central repository of information in the large scale can be very valuable, e.g. Ohloh.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2233</wp:comment_id>
+    <wp:comment_author><![CDATA[Nick Malik]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/nickmalik</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.80</wp:comment_author_IP>
+    <wp:comment_date>2009-07-14 09:56:39</wp:comment_date>
+    <wp:comment_date_gmt>2009-07-14 16:56:39</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Harry,
+
+Great Dilbert.  It is funny partly because it is painfully true.  We do have that repository, and it does contain "partly valid" information, and it is expensive and painful to update.
+
+Traditionally, in organizations that want to perform an unpopular activity, they will put that activity into a small team of people who are responsible for doing that activity over and over, in different places.  This is a "business support function" and occurs variously in everything from financial audits to investigations for sexual harassment.  Unfortunately, in IT, we didn't develop a single team that had to maintain the repository... we distributed the function, figuring it would be so much more efficient.
+
+As a result, the pain is distributed.  That means that it never reaches the level of annoyance that someone will invest to fix the pain.  It is also distributed to people who pay the costs of doing the work but, as you noted, reap few of the benefits of the data.  As a result, data quality suffers.  
+
+There are uses for data such as this, if the data is accurate.  As Dilbert points out, if the person who has to collect the data is NOT the person who benefits from its collection, then you will get mistakes, quality issues, and delays in delivery.
+
+This is not a data issue.  It is an issue of IT not running like a business.  We do a good job of security in IT, because we have people directly accountable for security who own the teams responsible for delivering security.  
+
+Automated data collection is a potential solution to a poorly described problem.  Unfortunately, without the team responsibility in place to make the problem visible, and to demonstrate the value of fixing it, no one will invest in that automated data collection.  I cannot even tell you if it is GOOD solution to the problem, because there is no person who can provide a consistent view on what the actual problem is (yet... this is changing).
+
+I believe that MS IT is typical in many of these problems.  
+
+We are investing to replace that particularly onerous solution with something a bit better, with better support for the actual value-add activites that occur downstream, and with organizational alignment to insure that someone can answer the question "what are you going to do with the data."
+
+That said, your observation is salient.  Manual data collection is rarely a good long term solution.
+
+Good to chat with you again.
+--- Nick]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

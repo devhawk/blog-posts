@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Variadic Powershell Functions With Optional Named Params</title>
+  <link>http://devhawk.net/2011/02/02/variadic-powershell-functions-with-optional-named-params/</link>
+  <pubDate>Thu, 03 Feb 2011 05:38:51 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://41f3e3dd-5165-4025-b4dc-8d216fb63d4e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I’ve been doing a little CPython coding lately. Even though I <a href="http://devhawk.net/2009/10/27/Joining+Windows.aspx">left the IronPython team</a> a while ago (and IronPython is now <a href="http://blogs.msdn.com/b/jasonz/archive/2010/10/21/new-components-and-contributors-for-ironpython-and-ironruby.aspx">under new management</a>) I’m still still a big fan of the Python language and it’s great for prototyping. </p><p>However, one thing I don’t like about Python is how it uses the <a href="http://docs.python.org/using/cmdline.html#envvar-PYTHONPATH">PYTHONPATH environment variable</a>. I like to keep any non-standard library dependencies in my project folder, but then you have to set the PYTHONPATH environment variable in order for the Python interpreter to resolve those packages. Personally, I wish there was a command line parameter for specifying PYTHONPATH – I hate having to modify the environment in order to execute my prototype. Yes, I realize I don’t have to modify the machine-wide environment – but I would much prefer a stateless approach to an approach that requires modification of local shell state.</p><p>I decided to build a <a href="http://cid-0d9bc809858885a4.office.live.com/self.aspx/DevHawk%20Content/Powershell/cpy.ps1">Powershell script</a> that takes allows the caller to invoke Python while specifying the PYTHONPATH as a parameter. The script saves off the current PYTHONPATH, sets it to the passed in value, invokes the Python interpreter with the remaining script parameters, then sets PYTHONPATH back to its original value. While I was at it, I added the ability to let the user optionally specify which version of Python to use (defaulting to the most recent) as well as a switch to let the caller chose between invoking <a href="http://docs.python.org/using/windows.html#executing-scripts">python.exe or pythonw.exe</a>.</p><p>The details of the script are fairly mundane. However, building a Powershell script that supported optional named parameters and collected all the unnamed arguments together in a single parameter took a little un-obvious Powershell voodoo that I thought was worth blogging about.</p><p>I started with the following param declaration for my function</p><pre class="brush: powershell">
+param (
+    [string] $LibPath="", 
+    [switch] $WinApp, 
+    [string] $PyVersion=""
+)
+</pre><p>These three named parameters control the various features of my Python Powershell script. Powershell has an <a href="http://technet.microsoft.com/en-us/library/dd347675.aspx">automatic variable</a> named $args that holds the arguments that don’t get bound to a named argument. My plan was to pass the contents of the $args parameter to the Python interpreter. And that plan works fine…so long as none of the non-switch parameters are omitted. </p><p>I mistakenly (and in retrospect, stupidly) thought that since I had provided default values for the named parameters, they would only bind to passed-in arguments by name. However, Powershell binds non-switch parameters by position if the names aren’t specified . For example, this is the command line I use to execute tests from the root of my prototype project:</p><pre class="brush: text">
+cpy -LibPath .Libsite-packages .Scriptsunit2.py discover -s .src
+</pre><p>Obviously, the $LibPath parameter gets bound to the “.Libsite-package” argument. However, since $PyVersion isn’t specified by name, it gets bound by position and picks up the “.Scriptsunit2.py” argument. Clearly, that’s not what I intended – I want “.Scriptsunit2.py” along with the remaining arguments to be passed to the Python interpreter while the PyVersion parameter gets bound to its default value.</p><p>What I needed was more control over how incoming arguments are bound to parameters. Luckily, Powershell 2 introduced <a href="http://technet.microsoft.com/en-us/library/dd347600.aspx">Advanced Function Parameters</a> which gives script authors exactly that kind of control over parameters binding. In particular, there are two custom attributes for parameters that allowed me to get the behavior I wanted:</p><ul><li>Position – allows the script author to specify what positional argument should be bound to the parameter. If this argument isn’t specified, parameters are bound in the order they appear in the param declaration</li><li>ValueFromRemainingArguments – allows the script author to specify that all remaining arguments that haven’t been bound should be bound to this parameter. This is kind of like the Powershell equivalent of <a href="http://msdn.microsoft.com/en-us/library/w5zay9db.aspx">params in C#</a> or the <a href="http://en.wikipedia.org/wiki/Stdarg.h#Declaring_variadic_functions">ellipsis in C/C++</a>. </li></ul><p>A little experimentation with these attributes yielded the following solution:</p><pre class="brush: powershell">
+param (
+    [string] $LibPath="", 
+    [switch] $WinApp, 
+    [string] $PyVersion="",
+    [parameter(Position=0, ValueFromRemainingArguments=$true)] $args
+)
+</pre><p>Note, the first three parameters are unchanged. However, I added an explicit $args parameter (I could have named it anything, but I had already written the rest of my script against $args) with the Position=0 and ValueFromRemainingArguments=$true parameter attribute values.The combination of these two attribute values means that the $args parameter is bound to an array of all the positional (aka unnamed) incoming arguments, starting with the first position. In other words – exactly the behavior I wanted.</p><p>Not sure how many people need a Powershell script that sets PYTHONPATH and auto-selects the latest version of Python, but maybe someone will find it useful. Also, I would think this approach to variadic functions with optional named parameters could be useful in other scenarios where you are wrapping an existing tool or utility in PowerShell, but need the ability to pass arbitrary parameters thru to the tool/utility being wrapped.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1305</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2011-02-02 21:38:51</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2011-02-03 05:38:51</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">variadic-powershell-functions-with-optional-named-params</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="post_tag" nicename="python"><![CDATA[Python]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[41f3e3dd-5165-4025-b4dc-8d216fb63d4e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Variadic+Powershell+Functions+With+Optional+Named+Params]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2011/02/03/Variadic+Powershell+Functions+With+Optional+Named+Params]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2321</wp:comment_id>
+    <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+    <wp:comment_author_email>bkelly.ie@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blog.barrkel.com/</wp:comment_author_url>
+    <wp:comment_author_IP>93.97.41.252</wp:comment_author_IP>
+    <wp:comment_date>2011-02-02 23:14:38</wp:comment_date>
+    <wp:comment_date_gmt>2011-02-03 07:14:38</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA["I wish there was a command line parameter for specifying PYTHONPATH – I hate having to modify the environment in order to execute my prototype."
+
+There is, in bash:
+
+PYTHONPATH=/whatever/you/like your-program
+
+I use this feature all the time; the compiler I work on (Delphi) uses an envvar to specify logging options in the debug build. I'm a little bit surprised it's not a feature in PowerShell.
+
+foo=x bar=y your-app
+
+etc.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2322</wp:comment_id>
+    <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+    <wp:comment_author_email>bkelly.ie@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blog.barrkel.com/</wp:comment_author_url>
+    <wp:comment_author_IP>93.97.41.252</wp:comment_author_IP>
+    <wp:comment_date>2011-02-02 23:19:15</wp:comment_date>
+    <wp:comment_date_gmt>2011-02-03 07:19:15</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I should add that these environment variables are applied by bash after it has forked, and before the exec - so it doesn't affect the ambient shell's environment.
+
+I use Cygwin bash. Works very well.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2323</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+    <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://voidspace.org.uk/</wp:comment_author_url>
+    <wp:comment_author_IP>87.194.212.65</wp:comment_author_IP>
+    <wp:comment_date>2011-02-03 02:57:54</wp:comment_date>
+    <wp:comment_date_gmt>2011-02-03 10:57:54</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You can also add custom .pth files (text files containing paths) to site-packages to add directories to sys.path.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2324</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.85</wp:comment_author_IP>
+    <wp:comment_date>2011-02-03 10:17:42</wp:comment_date>
+    <wp:comment_date_gmt>2011-02-03 18:17:42</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@Barry - you can set the ambient shell environment in powershell ($env:PYTHONPATH = /whatever/you/like) but I'm not aware of way to apply the environment changes to a forked process w/o affecting the current one. I would suspect it's possible, but it's not out of the box AFAIK.
+
+@Michael - I didn't know about .pth files - I'll take a look at that!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

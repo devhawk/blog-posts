@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2463</wp:comment_id>
+  <wp:comment_author><![CDATA[Scott Hanselman]]></wp:comment_author>
+  <wp:comment_author_email>scott@hanselman.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.hanselman.com/blog/</wp:comment_author_url>
+  <wp:comment_author_IP>216.163.74.146</wp:comment_author_IP>
+  <wp:comment_date>2007-03-14 01:11:53</wp:comment_date>
+  <wp:comment_date_gmt>2007-03-14 08:11:53</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Ya, I kind of blanched at that statement too...method_missing is pretty mainstream...
+
+Scott HanSELman.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

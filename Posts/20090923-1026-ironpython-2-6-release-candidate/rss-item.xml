@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython 2.6 Release Candidate</title>
+  <link>http://devhawk.net/2009/09/23/ironpython-2-6-release-candidate/</link>
+  <pubDate>Wed, 23 Sep 2009 10:26:00 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e87976bd-9c06-47b4-ae1e-8729dc4e32d6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://ironpython.codeplex.com/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="image" border="0" alt="image" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/IronPython2.6ReleaseCandidate_EDEE/image_3.png" width="507" height="147" /></a></p><p>We released the <a href="http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=30315">IronPython 2.6 release candidate</a> on CodePlex yesterday. If all goes well, this will be the ONLY RC and we’ll republish it as the RTW build in about a month. So if you’ve been holding off on experimenting with the 2.6 release, now’s the time to jump in with both feet. </p><p>As I’ve written before on this blog, this is a HUGE release for us:</p><ul><li>Python 2.6 features such as <a href="http://docs.python.org/whatsnew/2.6.html#pep-343-the-with-statement">with statement</a>, <a href="http://docs.python.org/whatsnew/2.6.html#pep-3129-class-decorators">class decorators</a> and <a href="http://docs.python.org/whatsnew/2.6.html#pep-3112-byte-literals">byte literals</a></li><li><a href="http://devhawk.net/2009/03/27/IronPython+26+Alpha+1.aspx">Adaptive Compilation</a></li><li><a href="http://devhawk.net/CategoryView,category,__clrtype__.aspx">__clrtype__ Metaclasses</a></li><li><a href="http://devhawk.net/2009/05/21/IronPython+26+Beta+1.aspx">ctypes and Frames support</a></li><li><a href="http://devhawk.net/2009/07/08/MicrosoftScriptingDebugging.aspx">Lightweight Debugging</a></li><li>417 bugs fixed! </li></ul><p>Anyway, with 2.6 winding down, the IronPython team finds ourselves in a unique position that we’ve never been in before: <u>caught up</u>. As far as I can tell, most of the Python community hasn’t made the move to <a href="http://www.python.org/download/releases/3.1">Python 3.1</a> and <a href="http://www.python.org/dev/peps/pep-0373/">Python 2.7</a> is looking like it will be released <a href="http://mail.python.org/pipermail/python-dev/2009-September/092005.html">next summer</a>. So IronPython is caught up with the latest version of Python most of the Python community appears to be using. </p><p>So that begs the question: what do we do now?</p><p>Of course, we want to hear from you regarding our next steps, but some things we are looking at include:</p><ul><li><u>.NET Framework 4.0        <br /></u>We’ve shipped CTP releases of IronPython for each public beta of Visual Studio 2010 and  .NET Framework 4.0. You can expect that to continue as Visual Studio 2010 winds down and ships. </li><li><u>Fixing Bugs        <br /></u>417 bugs fixed is good, but there are still 839 active work items in our issue tracker. In previous releases, we’ve done minor bug fix releases every few months so we’ll probably keep up that cadence. Make sure you go vote for bugs you think are important. </li><li><u>App Compatibility        <br /></u>One thing we can do is take some of the more popular Python apps such as Django and Mercurial and make sure they run well on IronPython. In some cases, there may need to be changes to the Python apps to get them to run on IronPython (for example, see <a href="http://jdhardy.blogspot.com/2008/07/django-on-ironpython.html">Jeff Hardy’s patch</a> for running Django on IronPython) which assuredly means more time with lawyers for me. </li><li><u>Missing Modules       <br /></u>While IronPython 2.6 is our implementation of Python 2.6, there are binary modules we haven’t implemented yet like <a href="http://docs.python.org/library/csv.html">_csv</a>, <a href="http://docs.python.org/library/ast.html">_ast</a> and <a href="http://docs.python.org/library/pyexpat.html">pyexpat</a>. You could consider this App Compatibility work, but we have a different internal process for bug fixing and implementing new features so I broke this out separately.</li><li><u>Documentation</u><br />Invariably an area for improvement in all software, our doc story today is pretty much “go look at docs.python.org”. Of course, that doesn’t cover any IronPython specific functionality. Of course, what would be great would be to combine existing Python docs with IronPython specific docs in a single reference, which also assuredly means more time with lawyers for me. </li><li><u>Tutorials        <br /></u>If you haven’t seen Michael Foord’s <a href="http://www.trypython.org/">Try Python</a>, it’s awesome. However, it was recently pointed out to me that it doesn’t include any IronPython specific behavior (importing and interoperating with .NET types for example). The <a href="http://jimmy.schementi.com/silverlight/Tutorial/">IronRuby Tutorial</a> has specific IronRuby features and it would be awesome to do the same for IronPython. Of course, if we wrote new tutorials in <a href="http://docutils.sourceforge.net/rst.html">reStructured Text</a>, then I’m guessing it would be easy for Michael to include it in Try Python via his <a href="http://code.google.com/p/rst2xaml/">rst2xaml</a> tool. </li><li><u>“Just Text” in Silverlight        <br /></u>If you haven’t seen MIX Online Labs <a href="http://www.visitmix.com/Labs/gestalt/">Gestalt project</a>, browse to <a href="http://www.visitmix.com/labs/gestalt/samples/getting.started/05_final.html">one of the samples</a> and View Source. Python as “just text” in the browser. Cool, eh? <a href="http://blog.jimmy.schementi.com/">Jimmy</a> is working on <a href="http://rubyforge.org/pipermail/ironruby-core/2009-September/005245.html">implementing the “just text” model</a> for the Silverlight version of IronPython (and <a href="http://www.visitmix.com/labs/gestalt/samples/getting.started/01_ruby.html">IronRuby</a>). </li><li><u>Visual Studio        <br /></u>There’s no work item for VS Integration in our issue tracker, but there have been <a href="https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=475830">112 votes for IronPython integration</a> (as well as <a href="https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=479957">79 votes for IronRuby integration</a>) in the VS 2010 connect bug database. No promises here, but we are acutely aware of how popular this suggestion is. </li><li><u>CodePlex Foundation</u><br />The <a href="http://codeplex.org/">CodePlex Foundation</a> is a new non-profit foundation sponsored by Microsoft with the explicit mission “to enable the exchange of code and understanding among software companies and open source communities.” As one of the oldest open source projects at Microsoft, we are very interested in the CodePlex Foundation as you might imagine. However, CodePlex Foundation is VERY new - everything is tagged “interim” for the first 100 days. Once the Foundation elects non-interim board members and establishes things like a charter and by-laws, you can be sure we’ll be investigating it more thoroughly. In other words, definitely more time with lawyers for me. </li></ul><p>In case I haven’t said it lately, it’s great working on the IronPython team with <a href="http://blogs.msdn.com/dinoviehland/">Dino Viehland</a>, <a href="http://knowbody.livejournal.com">Dave Fugate</a> and <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2008-December/009154.html">David DiCato</a> (The IronRuby guys aren’t bad either!). Also, I may whine about the amount of time I spend with lawyers, but honestly Yong, Kathryn and Kevin – our main LCA contacts – do a great job helping us figure out how and where to push the envelope so thanks to them as well.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1289</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-09-23 10:26:00</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-09-23 10:26:00</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-2-6-release-candidate</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e87976bd-9c06-47b4-ae1e-8729dc4e32d6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+26+Release+Candidate]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/09/23/IronPython+26+Release+Candidate]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2261</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+    <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://www.ironpythoninaction.com/</wp:comment_author_url>
+    <wp:comment_author_IP>87.194.212.65</wp:comment_author_IP>
+    <wp:comment_date>2009-09-23 10:40:00</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-23 17:40:00</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Adding an IronPython tutorial to Try Python is on my todo list. :-)
+
+If you guys can contribute something first then that would be awesome of course... :-)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2262</wp:comment_id>
+    <wp:comment_author><![CDATA[Eric Lee]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.86</wp:comment_author_IP>
+    <wp:comment_date>2009-09-23 12:39:00</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-23 19:39:00</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Visual Studio integration, without a doubt.  This would be huge for a variety of reasons; I want to use a familiar editor, I want to build mixed-language projects without managing multiple toolsets, makes it easier for my team to take it seriously, etc., etc.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2263</wp:comment_id>
+    <wp:comment_author><![CDATA[Dody Gunawinata]]></wp:comment_author>
+    <wp:comment_author_email>dody@nomadlife.org</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>41.237.143.127</wp:comment_author_IP>
+    <wp:comment_date>2009-09-23 18:25:00</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 01:25:00</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[App compatibility would be on top of my list especially since on the web space, there is no major python framework is currently working out of the box  on IronPython and that's a pretty major gap.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2264</wp:comment_id>
+    <wp:comment_author><![CDATA[Bob Arnson]]></wp:comment_author>
+    <wp:comment_author_email>spam@bobs.org</wp:comment_author_email>
+    <wp:comment_author_url>http://www.joyofsetup.com</wp:comment_author_url>
+    <wp:comment_author_IP>75.149.136.201</wp:comment_author_IP>
+    <wp:comment_date>2009-09-23 18:34:43</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 01:34:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I haven't been able to find any statements about 3.x: Is there a plan for 3.x support or is it a question of critical mass?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2266</wp:comment_id>
+    <wp:comment_author><![CDATA[Bengt]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>85.226.214.95</wp:comment_author_IP>
+    <wp:comment_date>2009-09-24 00:22:47</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 07:22:47</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Until you have a form designer and intellisense IronPython is just a toy compared to C#, only good for embedding scenarios. And with C# 5 I can just use C# as an embedding language instead.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2267</wp:comment_id>
+    <wp:comment_author><![CDATA[Kamil Dworakowski]]></wp:comment_author>
+    <wp:comment_author_email>kamil@dworakowski.name</wp:comment_author_email>
+    <wp:comment_author_url>http://kamil.dworakowski.name</wp:comment_author_url>
+    <wp:comment_author_IP>88.96.105.246</wp:comment_author_IP>
+    <wp:comment_date>2009-09-24 03:27:05</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 10:27:05</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I would be most happy with import time improvement, specifically importing from dll (python compiled into dlls).]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2268</wp:comment_id>
+    <wp:comment_author><![CDATA[Jonathan Hartley]]></wp:comment_author>
+    <wp:comment_author_email>tartley@tartley.com</wp:comment_author_email>
+    <wp:comment_author_url>http://tartley.com</wp:comment_author_url>
+    <wp:comment_author_IP>88.96.105.246</wp:comment_author_IP>
+    <wp:comment_date>2009-09-24 03:50:22</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 10:50:22</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry,
+
+Is there a better place for people to suggest / vote for features than in these comments? Maybe on the IP mailing list? Or is here fine?
+
+Personally, start up time is the only thing that bugs me on a daily basis, and makes me think twice when I'm choosing between IronPython or CPython for new personal projects.
+
+Bengt: There's nothing to stop you using the Visual Studio form designer and then just inheriting from those generated forms in IronPython. We do that with new GUI components all the time where I work.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2269</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+    <wp:comment_author_email>michael@voidspace.org.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://www.ironpythoninaction.com/</wp:comment_author_url>
+    <wp:comment_author_IP>88.96.105.246</wp:comment_author_IP>
+    <wp:comment_date>2009-09-24 10:01:06</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 17:01:06</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'd love to see you guys work on performance as benchmarked in some realistic scenarios (e.g. Unladen Swallow are using the Django templating engine for benchmarking). I don't think microbenchmarks at all show the performance issues for large Python apps.
+
+In general running IronPython with larger Python codebases (Django, Trac, Mercurial) would shake out both comaptibility *and* performance issues which I think are the most important. :-)
+
+Oh - getting pdb working *fully* with IronPython 2.6 would be awesome by the way. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2270</wp:comment_id>
+    <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+    <wp:comment_author_email>michael@voidspace.org.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://www.ironpythoninaction.com/</wp:comment_author_url>
+    <wp:comment_author_IP>88.96.105.246</wp:comment_author_IP>
+    <wp:comment_date>2009-09-24 10:02:36</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 17:02:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@Bengt
+I don't see how generating forms in IronPython is particularly interesting. Visual Studio integration *is* interesting but the form designer should be at the bottom of the priority list for integration. You can already use the forms designer to generate C# and use that from IronPython very easily.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2271</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2009-09-24 16:36:34</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-24 23:36:34</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@Bob, We're big fans of Python 3k (though we'll skip 3.0 and go directly to 3.1) as ascii stings is a big source of incompatibility for IronPython. Now that we're (almost) past 2.6, we're trying to figure out our post 2.6 roadmap including when we ship IronPython 3.1.
+
+@Jonathan, I think the best way for people to vote is to create work items on the IronPython CodePlex site since it's got a built in voting system. Also, have you looked tried the new 2.6 - I'd love to hear your thoughts on our improved startup time.
+
+@Eric, Agreed on VS integration
+
+@Dody, Agreed on app compat. Any suggestions beyond Michael's (Django, Trac, Mercurial)?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2272</wp:comment_id>
+    <wp:comment_author><![CDATA[Dody Gunawinata]]></wp:comment_author>
+    <wp:comment_author_email>dody@nomadlife.org</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>41.237.146.28</wp:comment_author_IP>
+    <wp:comment_date>2009-09-30 15:48:43</wp:comment_date>
+    <wp:comment_date_gmt>2009-09-30 22:48:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[http://www.sqlalchemy.org/ and http://code.google.com/p/formalchemy/
+
+http://turbogears.org/
+
+http://pylonshq.com
+
+http://webpy.org/]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

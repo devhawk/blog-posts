@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2185</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.80</wp:comment_author_IP>
+  <wp:comment_date>2009-03-25 13:34:18</wp:comment_date>
+  <wp:comment_date_gmt>2009-03-25 20:34:18</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[@Chris:
+
+1. Chrion is extensible in that you can add dynamic languages and change the default AppManifest.xaml file that gets generated. Check out Chiron.exe.config for more information.
+
+2. No, when you use XapHttpHandler you're loading Chiron as a library - yes, even though Chiron's an EXE. It's kinda wierd, but the only difference between a managed DLL and EXE is the inclusion of an entrypoint in the EXE. 
+
+3. Given that it's only recommended for use in your dev environment, I haven't done any perf testing on it at all. If you needed something faster, you could always take the source code and make your own improvements.
+
+Good luck with your project. I'd love to hear more about it when you get a chance. ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

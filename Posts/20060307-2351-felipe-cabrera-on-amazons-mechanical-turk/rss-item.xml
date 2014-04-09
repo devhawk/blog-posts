@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Felipe Cabrera on Amazon's Mechanical Turk</title>
+  <link>http://devhawk.net/2006/03/07/felipe-cabrera-on-amazons-mechanical-turk/</link>
+  <pubDate>Tue, 07 Mar 2006 23:51:51 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://92db8d0d-cff5-40a6-b038-be1f1d251582</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Felipe’s a good guy (I knew him when he was at MSFT) but this session wasn’t anything exciting because it’s all old news. There are some things humans are better at than computers, typically things involving judgment such as “which is the best picture of this store?” Yes, I saw that when Amazon first released <a href="http://www.mturk.com">Mechanical Turk</a>.</p><p>They did have a partner on stage, a company called <a href="http://castingwords.com/">Casting Words</a> that offers podcast transcription services for 42 cents a minute. But how is that a business? I’m not sure what kind of percentage Casting Words is making out of that 42 cents a minute, but couldn’t I go directly to Mechanical Turk and ask for transcription services myself? There are no Casting Words tasks <a href="http://www.mturk.com/mturk/findhits">currently on the site</a> as I type this, but I imagine if I watch a while I'll see a Casting Words task. Then I could simply use a site like <a href="http://www.hit-builder.com/">HIT Builder</a> to farm out my own transcription tasks. What’s my incentive to use Casting Words at all? </p><p>Furthermore, there’s not really a business model behind Mechanical Turk itself. If Microsoft launched its own version, there would be plenty of takers for that work as well – the workers will gravitate to where the best paying and most interesting work they can do is. There’s no incentive to provide your artificial artificial intelligence services exclusively to one company. So Mechanical Turk wouldn’t work as a stand alone business. But as a feature of Amazon it works great. In fact, when the service first launched the only tasks came from <a href="http://a9.com">A9</a>. I’m guessing it would be worth it to Amazon to run the service even if they were the only ones using it.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">711</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-03-07 23:51:51</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-03-07 23:51:51</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">felipe-cabrera-on-amazons-mechanical-turk</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="etech"><![CDATA[ETech]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <category domain="post_tag" nicename="web-services"><![CDATA[Web Services]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[92db8d0d-cff5-40a6-b038-be1f1d251582]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Felipe+Cabrera+On+Amazons+Mechanical+Turk]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/03/08/Felipe+Cabrera+On+Amazons+Mechanical+Turk]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2328</wp:comment_id>
+    <wp:comment_author><![CDATA[Brian]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>82.43.202.24</wp:comment_author_IP>
+    <wp:comment_date>2006-03-30 20:30:59</wp:comment_date>
+    <wp:comment_date_gmt>2006-03-31 03:30:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Casting Words adds no value whatsoever if you happen to be a software developer who values their time at zero. For everyone else, it's a pretty good deal.
+
+42c per minute is so cheap for almost any customer that there's really no point in undercutting it.
+
+Mechanical Turk isn't accessible for the general public to request tasks, even with Hit Builder. There is a complex process of signing up for a developer's key, prepaying into the MTurk account, constructing a HIT that complies with the TOS, etc.
+
+Then when your HIT is built, you're throwing the job out there to an arbitrary bunch of people that might do a good job of transcription, but might not. So you'd have to do quality control yourself and either correct errors or resubmit another HIT to have the job redone (at extra cost).
+
+Casting Words works like an agency: they put in the effort and take the risk to run some kind of system that gives work to people and guarantees quality to the end customer. 
+
+They create a customer-friendly interface on top of MTurk and PayPal.
+
+They return the transcriptions in various useful formats.
+
+That has value, and that's what they're charging for.
+
+To do this, they take various risks and have various overheads and expenses.
+
+This is frankly a classic business mistake: accounting for the direct costs of a service but not the startup costs, the overheads and the risk. The true margin on this service is much smaller than you realise. (I don't know exactly because it's not my service, but I can estimate.)
+
+If you're still not sure, go the empirical method and try it. Submit a podcast for transcription through Casting Words, then the same one "directly" via MTurk. Value your time at a reasonable rate and see which comes out ahead.
+
+Casting Words could definitely be improved and competed against, but probably not on price.
+
+Now, does MTurk have a business model? Sure. Provide something of value and then charge for it. Sounds good to me. While it's very early days for this kind of service, being the middleman between a huge potential pool of work and a huge potential pool of workers has significant scope for profitability.
+
+When it takes off, as I'm sure it will, there will be competition. Being first to market doesn't necessarily confer a long-term advantage. While the concept is a simple one, the details of the implementation are complex. This means that there is scope for meaningful differentiation. I predict that Amazon and a few competitors in this market will be able to resist commodification and a race to the bottom and operate profitably.
+
+There is a huge disincentive for companies trying to put work through a system like this to keep switching between services or use several simultaneously. It's a lot of hassle and the market prices will be constantly volatile.
+
+Competition isn't the enemy, commodification is. I can see no natural monopoly in this kind of business. But I do see massive economies of scale, so the market will support several large players, but not just one, or none.
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

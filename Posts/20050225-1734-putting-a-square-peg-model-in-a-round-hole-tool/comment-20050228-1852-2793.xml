@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2793</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2005-02-28 18:52:06</wp:comment_date>
+  <wp:comment_date_gmt>2005-03-01 02:52:06</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Charles, I'm not sure I'd call this a diatribe, but your point is well taken. I did not realize you can use OCL to constrain the model - in the discussion that we had at the IASA user group meeting last week, that idea was rejected by those that use UML tools in this way as "not working very well". So maybe they're just using the wrong tool. 
+
+Either way, as you point out, you end up with a DSL! My primary point is that how more similar these approachs are than they are different.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

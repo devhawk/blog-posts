@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2980</wp:comment_id>
+  <wp:comment_author><![CDATA[Michael Earls]]></wp:comment_author>
+  <wp:comment_author_email>mearls@hotmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.cerkit.com</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-02-03 04:13:15</wp:comment_date>
+  <wp:comment_date_gmt>2004-02-03 12:13:15</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA["Whitehorse solves a very specific real-world problem while MDA is out trying to boil the ocean"
+
+This is why I am a developer using Microsoft technologies.  You guys never try to boil the ocean and you don't let the "Ivory Tower crowd" tie your hands in such a way as to keep you from getting the features we need (well, at least the ones we want; some might argue that if you don't know how to use someting correctly, you shouldn't be "allowed" to use it at all.  This is why UML is so dry) into our hands as quickly as you can.  We should all admit that there will be major differences of opinion with regard to "best practices".  That's why we don't call them "design mandates".  
+
+Thanks again, nice post. ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

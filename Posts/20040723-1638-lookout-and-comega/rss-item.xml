@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Lookout and Cω</title>
+  <link>http://devhawk.net/2004/07/23/lookout-and-comega/</link>
+  <pubDate>Fri, 23 Jul 2004 16:38:45 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://183b4b44-afd2-474e-86fd-8bb12441f56c</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Cool thing about blogs - sometimes I learn about stuff happening inside the big house from outside in blogs. Case in point - <a href="http://scottwater.com/Blog/">Scott</a><a href="http://scottwater.com/blog/archive/2004/07/22/12704.aspx">pointed out</a> to the <a href="http://www.lookoutsoft.com/Lookout/download.html">Lookout download</a>. I also found out about the <a href="http://www.research.microsoft.com/Comega/">COmega site</a> from <a href="http://www.gotdotnet.com/team/dbox/">Don</a> (though honestly, I knew about that one before. That is before it changed names.)</p><p><em>Update</em> - Lookout's <a href="http://www.lookoutsoft.com/Lookout/download.html">download site</a> changed, back to a page on http://lookoutsoft.com instead of a page on http://download.microsoft.com. Strange, but true.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">401</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-07-23 16:38:45</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-07-23 16:38:45</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">lookout-and-comega</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[183b4b44-afd2-474e-86fd-8bb12441f56c]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Lookout+And+C%cf%89]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/07/23/Lookout+And+C%cf%89]]></wp:meta_value>
+  </wp:postmeta>
+</item>

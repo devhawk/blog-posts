@@ -1,0 +1,54 @@
+<p>In the <a href="http://devhawk.net/2007/12/13/Practical+F+Parsing+Syntactical+Productions+1.aspx" target="_blank">last post</a>, I gave you a sneak preview of what the EndOfLine production would look like using Active Patterns. But before we get to how to build that, let me give you a little background on why. If you want the full explanation, check out <a href="http://blogs.msdn.com/dsyme/archive/2007/04/07/draft-paper-on-f-active-patterns.aspx" target="_blank">the whitepaper</a>.</p>
+<p>Basically, Active Patterns (aka AP) are a way to use the pattern matching of functional languages with abstractions rather than native language types. If you&#8217;ll recall, I <a href="http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx" target="_blank">built functions to abstract the parse buffer</a> so I could later change it&#8217;s implementation if I needed to. The problem is that since the parse buffer is an abstraction, you can&#8217;t use it in the match clauses. For example, here&#8217;s a version of EndOfLine that uses a native char list.</p>
+<pre class="brush:fsharp">///EndOfLine &lt;- &#8216;rn&#8217; / &#8216;n&#8217; / &#8216;r&#8217;
+let EndOfLine input =
+    match input with
+    | &#8216;r&#8217; :: &#8216;n&#8217; :: input -&gt; Some(input)
+    | &#8216;n&#8217; :: input -&gt; Some(input)
+    | &#8216;r&#8217; :: input -&gt; Some(input)
+    | _ -&gt; None</pre>
+<p>That&#8217;s straightforward like the AP preview at the end of the last post, but I&#8217;ve lost the benefit of the parse buffer abstraction. In other words, if I wanted to change the implementaiton of the parse buffer to a string, or some other type, I&#8217;d be screwed if I wrote EndOfLine this way. Traditionally, functional language developers had an either/or choice when it came to abstractions vs. pattern matching. AP let&#8217;s you use both.</p>
+<p>Using a special syntax, you can indicate that an F# function is an AP by surrounding the name in what Don calls &#8220;bananas&#8221;. Here&#8217;s the AP version of NC:</p>
+<pre class="brush: fsharp">let (|NC|_|) input =
+    match input with
+    | i :: input -&gt; Some(i, input)
+    | [] -&gt; None</pre>
+<p>This function is identical to the one defined in <a href="http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx" target="_blank">the first post</a>, except for the name. By surrounding the actual name in paren/pipe &#8220;bananas&#8221;, you&#8217;re indicating the function can be used in match clauses, not just the match input. The trailing underscore in the name indicates this is a partial pattern, which means it returns an option value (aka Some(_) or None).</p>
+<p>There&#8217;s no reason why you can&#8217;t use an AP function like any other function. I find I do this often in my unit tests. Here&#8217;s an updated version of an NC unit test.</p>
+<pre class="brush: fsharp">[&lt;Fact&gt;]
+let test_NC_empty_string () =
+    let ret = (|NC|_|) !!&quot;&quot;
+    Assert.Equal(None, ret)</pre>
+<p>While you can still call the function like this, the primary benefit of using Active Patterns is so you can use the function in pattern match clauses directly. This allows the production clauses to mirror the actual grammar rules directly. For simple productions like EndOfFile and EndOfLine, the AP F# implementation isn&#8217;t much more complex than the grammar rule itself:</p>
+<pre class="brush: fsharp">///EndOfFile &lt;- !.
+let (|EndOfFile|_|) input =
+    match input with
+    | NC (_) -&gt; None
+    | _ -&gt; Some()  
+
+///EndOfLine &lt;- 'rn' / 'n' / 'r'
+let (|EndOfLine|_|) input =
+    match input with
+    | TOKEN &quot;rn&quot; (input) -&gt; Some(input)
+    | TOKEN &quot;n&quot; (input) -&gt; Some(input)
+    | TOKEN &quot;r&quot; (input) -&gt; Some(input)
+    | _ -&gt; None</pre>
+<p>You see in these functions, the calls to NC and TOKEN are used in the match clauses (i.e. after the pipe) rather than the match input (i.e. between match and with). Note, when used in a match clause, you just use the name directly without the bananas.</p>
+<p>You&#8217;ll notice that for TOKEN, the token string to match goes outside the parentheses. This is because &#8220;rn&#8221; is an input parameter to the TOKEN AP function. Alternatively, I could have written EndOfLine using only the NC function, though I find TOKEN version easier to read.</p>
+<pre class="brush: fsharp">///EndOfLine &lt;- 'rn' / 'n' / 'r'
+let (|EndOfLine|_|) input =
+    match input with
+    | NC ('r', NC ('n', (input))) -&gt; Some(input)
+    | NC ('n', input) -&gt; Some(input)
+    | NC ('r', input) -&gt; Some(input)
+    | _ -&gt; None</pre>
+<p>In this version, the values of &#8216;r&#8217; and &#8216;n&#8217; are pattern matched against the result of calling NC, so they go inside the parentheses. In other words, the TOKEN clauses are matched if TOKEN returns some value. However, the NC clauses are only matched if the returned result matches the value specified in the match clause. inside the parentheses. TOKEN has two parameters, the token string and the parse buffer, while NC only has the parse buffer. When you write an AP function, the last parameter gets bound to the match clause input. Additional parameters, like TOKEN&#8217;s token, much be specified in the match clause.</p>
+<p>Notice I&#8217;ve defined these grammar productions as active patterns as well, which will make them compose nicely with higher-order productions. For example, here&#8217;s the Space grammar production, which reuses EndOfLine:</p>
+<pre class="brush: fsharp">///Space &lt;- ' ' / 't' / EndOfLine
+let (|Space|_|) input =
+    match input with
+    | TOKEN &quot; &quot; (input) -&gt; Some(input)
+    | TOKEN &quot;t&quot; (input) -&gt; Some(input)
+    | EndOfLine (input) -&gt; Some(input)
+    | _ -&gt; None</pre>
+<p>It&#8217;s DSL-esque, wouldn&#8217;t you say? Active Patterns is a little parens-heavy &#8211; the NC version of EndOfLine has three nested APs which isn&#8217;t exactly easy on the eyes. However, the concept is very solid and it make the parsing code almost easier to write by hand than it would be to use a parser generator like yacc. Almost.</p>

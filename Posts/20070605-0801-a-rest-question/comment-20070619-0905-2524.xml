@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2524</wp:comment_id>
+  <wp:comment_author><![CDATA[John Tullis]]></wp:comment_author>
+  <wp:comment_author_email>John.Tullis@cna.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>159.10.4.170</wp:comment_author_IP>
+  <wp:comment_date>2007-06-19 09:05:33</wp:comment_date>
+  <wp:comment_date_gmt>2007-06-19 16:05:33</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Clearly REST is not dependent upon HTTP and URI. When the Web was growing, another protocol could have been used for HTTP, and another content type than HTML. But the URI is key -- REST bounded the verbs (HTTP) and content types (MIME in Web world), but the nouns (URIs) are unbounded. It was the unboundedness of the URIs that was key. So -- sure you could replace the URIs with some other noun based approach -- but why?]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

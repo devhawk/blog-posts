@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2253</wp:comment_id>
+  <wp:comment_author><![CDATA[Fahad]]></wp:comment_author>
+  <wp:comment_author_email>fahad007@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>122.164.28.206</wp:comment_author_IP>
+  <wp:comment_date>2009-08-28 14:24:22</wp:comment_date>
+  <wp:comment_date_gmt>2009-08-28 21:24:22</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[You could actually use the FormattedText class, which is a low-level font based text renderer, and use a custom control for rendering. I would actually go with TextBlock and have my own render calls, then use a canvas that will allow me to edit a charactor to simply host on top of my editing row.
+
+-Fahad]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

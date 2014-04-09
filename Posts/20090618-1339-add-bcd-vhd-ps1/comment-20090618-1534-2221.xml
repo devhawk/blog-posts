@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2221</wp:comment_id>
+  <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+  <wp:comment_author_email>bkelly.ie@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://barrkel.blogspot.com/</wp:comment_author_url>
+  <wp:comment_author_IP>93.97.41.252</wp:comment_author_IP>
+  <wp:comment_date>2009-06-18 15:34:08</wp:comment_date>
+  <wp:comment_date_gmt>2009-06-18 22:34:08</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[How about a return to tried and trusted technology from the 70s? Why the hell was boot.ini gotten rid of?
+
+Oh I know, "too vulnerable to malicious attacks". That makes no sense at all; if the OS can't protect boot.ini with permissions, why the hell does anyone think an obfuscated format will do better?
+
+It's crap like this which have meant I haven't moved on (I can't say "upgraded") to Vista, and is only one of many reasons why I won't move to Win7 either, not for a good few years, or at least until I can replace the shell with an XP-alike - most especially the Start Menu, the Explorer items pane, and getting rid of the Mac-alike task bar. (I hate Macs more.) Sigh.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

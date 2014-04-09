@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2858</wp:comment_id>
+  <wp:comment_author><![CDATA[orcmid]]></wp:comment_author>
+  <wp:comment_author_email>dennis.hamilton@acm.org</wp:comment_author_email>
+  <wp:comment_author_url>http://nfocentrale.net/orcmid/blog/</wp:comment_author_url>
+  <wp:comment_author_IP>216.160.65.145</wp:comment_author_IP>
+  <wp:comment_date>2006-02-21 13:44:51</wp:comment_date>
+  <wp:comment_date_gmt>2006-02-21 21:44:51</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I've been waiting to come up with something profound to toss in here, and I will give that up to point out one particular thing.  First, I agree about (machine) code.  You can tell that from "What Computers Know" (http://nfocentrale.net/orcmid/blog/2006/02/what-computers-know.asp).
+
+But I'm not sure that we are raising the level of abstraction exactly (though raising something, for sure) as we move up through layers of programming languages, maybe not even domain-specific languages.  
+
+Why do I say that?
+
+Well, because the model is not married to the behavior that is elicited from the computer.  We are doing something about the expressibility of certain things, but we need to understand that a good part of that expressibility having to do with what the program is for is an illusion that only we know and understand.  It has no impact on what the computer does.
+
+My simple illustration has to do with obfuscation of code.  Run your source-code-as-model through a really-great obfuscator.  Same behavior by the computer; clearly a fully-equivalent program is produced.  But where's the model now?
+
+In some sense, the transformation from source to executable preserves something and it also delivers something.  The delivery is (at best) very loosely-related to our intention for the software.  It seems to me that the programs we write preserve our model while being indifferent to it.  That this works at all is a consequence of our care and only our care.
+
+That says to me that the articulation of the model will likely always have to be elsewhere.  Source code doesn't really carry it except as a kind of computer-ignored narrative and cues (choice of identifiers) that are for us and not the machine.  Furthermore, our model is generally different than one that deals at the level of abstraction which has the computer's behavior as its "extensional" meaning.
+
+[I don't want to rule out the value of model-driven schemes at this point, although I think it is important to understand where the design rules come from and how that is not anything the computer "knows" on its own.]
+
+Hmm, maybe this is baked enough to start writing about ... .
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

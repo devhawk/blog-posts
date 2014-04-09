@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">                          
+<!--<![endif]-->
+
+			<head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		    <title>Unlikely Source on Architecture | DevHawk</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link rel="profile" href="http://gmpg.org/xfn/11" />
+		    <link rel="pingback" href="http://devhawk.net/xmlrpc.php" />
+		   
+		   <!-- Icons font support for IE6-7  -->
+		    <!--[if lt IE 8]>
+		      <script src="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/lte-ie7.js"></script>
+		    <![endif]-->
+		    <link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Feed" href="http://devhawk.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Comments Feed" href="http://devhawk.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Unlikely Source on Architecture Comments Feed" href="http://devhawk.net/2004/05/10/unlikely-source-on-architecture/feed/" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-skin-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/css/blue.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='http://devhawk.net/wp-content/themes/customizr/style.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/modernizr.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devhawk.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devhawk.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Architect Road Rally @ TechEd' href='http://devhawk.net/2004/05/10/architect-road-rally-teched/' />
+<link rel='next' title='Movie Times Web Service?' href='http://devhawk.net/2004/05/10/movie-times-web-service/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://devhawk.net/2004/05/10/unlikely-source-on-architecture/' />
+<link rel='shortlink' href='http://wp.me/p1uVhd-5Q' />
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/styles/shCoreDefault.css"/>
+<!-- END: Syntax Highlighter ComPress -->
+
+  
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Unlikely Source on Architecture" />
+<meta property="og:url" content="http://devhawk.net/2004/05/10/unlikely-source-on-architecture/" />
+<meta property="og:description" content="I just finished reading this great book on architecture. It talks about governance, optimizing ROI, the importance of precision measurements, the opportunity found in inefficiency and how that inef..." />
+<meta property="article:published_time" content="2004-05-10T18:43:50+00:00" />
+<meta property="article:modified_time" content="2004-05-10T18:43:50+00:00" />
+<meta property="article:author" content="http://devhawk.net/author/admin/" />
+<meta property="og:site_name" content="DevHawk" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+<meta name="twitter:card" content="summary" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Expand All' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Collapse All');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Expand All');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+        
+        
+        		    <!--Icons size hack for IE8 and less -->
+		    <!--[if lt IE 9]>
+		      <link href="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/ie8-hacks.css" rel="stylesheet" type="text/css"/>
+		    <![endif]-->
+		</head>
+		
+	<body class="single single-post postid-362 single-format-standard" itemscope itemtype="http://schema.org/WebPage">
+		
+		
+	   	<header class="tc-header clearfix row-fluid" role="banner">
+			
+			
+		
+	    	
+	        <div class="brand span3 pull-left">
+
+	        	<h1><a class="site-title" href="http://devhawk.net/" title="DevHawk | Passion * Technology * Ruthless Competence">DevHawk</a></h1>
+	        </div> <!-- brand span3 pull-left -->
+
+	        
+	   
+	   
+	   <div class="container outside"><h2 class="site-description">Passion * Technology * Ruthless Competence</h2></div>
+      	<div class="navbar-wrapper clearfix span9">
+
+      		<div class="navbar notresp row-fluid pull-left">
+      			<div class="navbar-inner" role="navigation">
+      				<div class="row-fluid">
+            			<div class="social-block span5"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="nav tc-hover-menu"><li id="menu-item-1862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li id="menu-item-1562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li id="menu-item-1564" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li id="menu-item-1565" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li id="menu-item-1561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            		</div><!-- .row-fluid -->
+            	</div><!-- /.navbar-inner -->
+            </div><!-- /.navbar notresp -->
+
+            <div class="navbar resp">
+            	<div class="navbar-inner" role="navigation">
+            		<div class="social-block "><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu-1" class="nav tc-hover-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            	</div><!-- /.navbar-inner -->
+      		</div><!-- /.navbar resp -->
+
+    	</div><!-- /.navbar-wrapper -->
+
+        
+		</header>
+
+		<div id="main-wrapper" class="container">
+
+    <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin"><a href="http://devhawk.net" title="DevHawk" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2004/" title="2004">2004</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2004/05/" title="May 2004">May</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2004/05/10/" title="May 10, 2004">10</a> <span class="sep">&raquo;</span> <span class="trail-end">Unlikely Source on Architecture</span></div><div class="tc-hot-crumble container" role="navigation"><div class="row"><div class="span12"></div></div></div>    
+    <div class="container" role="main">
+        <div class="row">
+
+                            
+                <div id="content" class="span9 article-container">
+                    
+                    
+                        
+                                                                                    
+                                                                    <article id="post-362" class="post-362 post type-post status-publish format-standard hentry category-architecture row-fluid">
+                                        
+        <header class="entry-header">
+          
+          <h1 class="entry-title format-icon">Unlikely Source on Architecture  </h1>
+        <div class="entry-meta">
+            This entry was posted in <a class="btn btn-mini" href="http://devhawk.net/category/architecture/" title="View all posts in Architecture"> Architecture </a> on <a href="http://devhawk.net/2004/05/10/" title="6:43 pm" rel="bookmark"><time class="entry-date" datetime="2004-05-10T18:43:50+00:00">May 10, 2004</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://devhawk.net/author/admin/" title="View all posts by DevHawk" rel="author">DevHawk</a></span></span>.
+        </div><!-- .entry-meta -->
+
+        <hr class="featurette-divider __before_content">
+        </header><!-- .entry-header -->
+
+          
+
+        <section class="entry-content ">
+            <p>I just finished reading this great book on architecture. It talks about governance, optimizing ROI, the importance of precision measurements, the opportunity found in inefficiency and how that inefficiency is often perpetuated by &#8220;conventional wisdom&#8221; that needs to be overcome or even disregarded in order to realize the opportunity.</p>
+<p>You just have to get past the baseball on the cover.</p>
+<p>The book is <a href="http://www.wwnorton.com/catalog/spring04/032481.htm">Moneyball</a> and it about the Oakland Athletics, one of the best teams in baseball despite having the second lowest payroll in the game. The author, <a href="http://literati.net/Lewis/">Michael Lewis</a>, chronicles the A&#8217;s 2002 season when they won 103 games and had a winning percentage second only to the Yankees, who spend literally three times as much on players than the A&#8217;s can. The A&#8217;s are successful because they precisely measure the contribution of individual players and exploit the inefficiency of how players are valued by other teams. In the process, they make decisions that fly in the face of &#8220;traditional&#8221; baseball, but you can&#8217;t argue with the fact they&#8217;ve been to the playoffs four years in a row. You could say, the Oakland A&#8217;s have been architected to win.</p>
+<p>I found the methodology that the A&#8217;a use to determine a player value facinating. Where other teams value batting average and RBIs, the A&#8217;s care much more about on-base and slugging percentage. The reason? The A&#8217;s have figured out that on-base and slugging are much more important to the team&#8217;s success. Obviously, batting average and on-base percentage are related stats, but they aren&#8217;t identical and that difference leads to an inefficiency the A&#8217;s can exploit. Players who get lots of walks have lower batting averages but higher on-base percentages and are typically undervalued by the market.</p>
+<p>We&#8217;ve seen similar inefficiencies from valuing the wrong attributes in our industry. For example, early on in the web era, there was little understanding of the importance of scalability over performance. As a consultant in the late 90&#8242;s, I often saw systems designs that optimized performance at the expense of scalability. It took a long time for people to realize how much more important scalability was. It didn&#8217;t help that scalability was harder to measure and was often counter-intuitive. Throwing away objects between method calls? What <a href="http://blogs.msdn.com/pathelland">lunatic</a> came up with that idea? Of course, MTS turned out to be a big success and defined the processing model we still use today. </p>
+<p>Today, everyone has pretty much figured out the value of scalability over performance. The question is, what will the next opportunity be? Or, to use the A&#8217;s terminology, what are people overpaying for? </p>
+                    </section><!-- .entry-content -->
+
+                                          </article>
+                                
+                            
+                        
+                    
+	<hr class="featurette-divider __after_loop">
+
+<div id="comments" class="comments-area">
+	
+			
+	
+		<h2 id="tc-comment-title" class="comments-title">5 thoughts on &ldquo;<span>Unlikely Source on Architecture</span>&rdquo;</h2>    
+            <ul class="commentlist">
+                    <li class="comment even thread-even depth-1" id="li-comment-2602">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/e3d2b521f7f1db79efc00ec2602eb7a5?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">Pablo F Matute  </cite> <a class="comment-date" href="http://devhawk.net/2004/05/10/unlikely-source-on-architecture/#comment-2602"><time datetime="2004-05-10T20:34:09+00:00">May 10, 2004 at 8:34 pm</time></a></header>  <section class="comment-content comment"><p>Hi Devhawk welcome back!</p>
+<p>As you know coming from a country where soccer is the national sport. Jorge Valdano (<a href="http://www.makeateam.com.mx/index.php?c=11" rel="nofollow">http://www.makeateam.com.mx/index.php?c=11</a>) an argentine soccer player in the 80&#8242;s and 90&#8242;s was the player in the spainard league playing for the Real Madrid, after he was done as a player he became the General Manager for the Real Madrid, is in this team that he wrote a book &#8220;Liderazgo&#8221; (<a href="http://www.lsf.com.ar/libros/7/950511862.asp" rel="nofollow">http://www.lsf.com.ar/libros/7/950511862.asp</a>). His idea is to see the enterprise as a soccer team and how to make the members of the team to work in a way that all the abilities of the team member are used to be maximun, and how to get new players in the areas that are needed.</p>
+<p>Jorge Valdano was very successful with this book that many companies in Europe and Latin american took his teachings and incorporated into their workplace with success.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2603">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/8ae0024967d10e5fbd11526bde5e42df?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://www.fidelityfunding.net/' rel='external nofollow' class='url'>loans</a>  </cite> <a class="comment-date" href="http://devhawk.net/2004/05/10/unlikely-source-on-architecture/#comment-2603"><time datetime="2005-01-03T16:17:18+00:00">January 3, 2005 at 4:17 pm</time></a></header>  <section class="comment-content comment"><p>Please check the sites about loans  <a href="http://www.fidelityfunding.net/" rel="nofollow">http://www.fidelityfunding.net/</a><br />
+ low interest credit cards  <a href="http://low-interest-credit-cards.web4u.gb.com/" rel="nofollow">http://low-interest-credit-cards.web4u.gb.com/</a><br />
+ casinos  <a href="http://casinos.web4u.gb.com/" rel="nofollow">http://casinos.web4u.gb.com/</a><br />
+ weight loss  <a href="http://weight-loss.web4u.gb.com/" rel="nofollow">http://weight-loss.web4u.gb.com/</a><br />
+ forex  <a href="http://forex.web4u.gb.com/" rel="nofollow">http://forex.web4u.gb.com/</a><br />
+ tax  <a href="http://tax.web4u.gb.com/" rel="nofollow">http://tax.web4u.gb.com/</a><br />
+ taxes  <a href="http://taxes.web4u.gb.com/" rel="nofollow">http://taxes.web4u.gb.com/</a><br />
+ turbo tax  <a href="http://turbo-tax.web4u.gb.com/" rel="nofollow">http://turbo-tax.web4u.gb.com/</a><br />
+ capital one credit card  <a href="http://top-one-credit-card.web4u.gb.com/" rel="nofollow">http://top-one-credit-card.web4u.gb.com/</a><br />
+ mortgage loans  <a href="http://mortgage-loans.web4u.gb.com/" rel="nofollow">http://mortgage-loans.web4u.gb.com/</a><br />
+ blackjack  <a href="http://blackjack.web4u.gb.com/" rel="nofollow">http://blackjack.web4u.gb.com/</a><br />
+ party poker  <a href="http://play-poker.web4u.gb.com/" rel="nofollow">http://play-poker.web4u.gb.com/</a><br />
+ texas holdem poker  <a href="http://texas-holdem-poker.web4u.gb.com/" rel="nofollow">http://texas-holdem-poker.web4u.gb.com/</a><br />
+ poker online  <a href="http://poker-online.web4u.gb.com/" rel="nofollow">http://poker-online.web4u.gb.com/</a><br />
+ pacific poker  <a href="http://pacific-poker.web4u.gb.com/" rel="nofollow">http://pacific-poker.web4u.gb.com/</a><br />
+ weight loss pills  <a href="http://weight-loss-pills.web4u.gb.com/" rel="nofollow">http://weight-loss-pills.web4u.gb.com/</a><br />
+ cheap phentermine  <a href="http://cheap-phentermine.web4u.gb.com/" rel="nofollow">http://cheap-phentermine.web4u.gb.com/</a><br />
+ buy phentermine  <a href="http://buy-phentermine.web4u.gb.com/" rel="nofollow">http://buy-phentermine.web4u.gb.com/</a><br />
+ buy viagra  <a href="http://buy-viagra.web4u.gb.com/" rel="nofollow">http://buy-viagra.web4u.gb.com/</a><br />
+ buy viagra online  <a href="http://buy-viagra-online.web4u.gb.com/" rel="nofollow">http://buy-viagra-online.web4u.gb.com/</a><br />
+- Tons of interesdting stuff!!!</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment even thread-even depth-1" id="li-comment-2604">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/dc467835dee91ce8a5c8cec1e5964f10?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://www.mcdortaklar.com/' rel='external nofollow' class='url'>online poker</a>  </cite> <a class="comment-date" href="http://devhawk.net/2004/05/10/unlikely-source-on-architecture/#comment-2604"><time datetime="2005-01-16T07:44:10+00:00">January 16, 2005 at 7:44 am</time></a></header>  <section class="comment-content comment"><p>In your free time, check out some information about online poker  <a href="http://www.mcdortaklar.com/" rel="nofollow">http://www.mcdortaklar.com/</a><br />
+ phentermine  <a href="http://www.reservedining.net/" rel="nofollow">http://www.reservedining.net/</a><br />
+ viagra  <a href="http://www.paramountseedfarms.net/" rel="nofollow">http://www.paramountseedfarms.net/</a><br />
+ credit cards  <a href="http://www.rethyassociates.net/" rel="nofollow">http://www.rethyassociates.net/</a><br />
+ casino  <a href="http://www.ingyensms.net/" rel="nofollow">http://www.ingyensms.net/</a><br />
+ poker  <a href="http://www.bigyonet.com/" rel="nofollow">http://www.bigyonet.com/</a><br />
+ online casino  <a href="http://www.zalaszentgrot.com/" rel="nofollow">http://www.zalaszentgrot.com/</a><br />
+ texas holdem  <a href="http://www.darkangelclan.com/" rel="nofollow">http://www.darkangelclan.com/</a><br />
+ texas hold em  <a href="http://www.middlecay.net/" rel="nofollow">http://www.middlecay.net/</a><br />
+ texas holdem poker  <a href="http://www.hasslerenterprises.net/" rel="nofollow">http://www.hasslerenterprises.net/</a><br />
+ pacific poker  <a href="http://www.hdic.net/" rel="nofollow">http://www.hdic.net/</a><br />
+ party poker  <a href="http://www.hometeaminspection.net/" rel="nofollow">http://www.hometeaminspection.net/</a><br />
+ empire poker  <a href="http://www.mor-lite.net/" rel="nofollow">http://www.mor-lite.net/</a><br />
+ poker games  <a href="http://www.parkviewsoccer.net/" rel="nofollow">http://www.parkviewsoccer.net/</a><br />
+ generic viagra  <a href="http://www.targetindustries.net/" rel="nofollow">http://www.targetindustries.net/</a><br />
+ cialis  <a href="http://www.tclighting.net/" rel="nofollow">http://www.tclighting.net/</a><br />
+ levitra  <a href="http://www.neweighweb.net/" rel="nofollow">http://www.neweighweb.net/</a><br />
+ tramadol  <a href="http://www.jfcadvocacy.net/" rel="nofollow">http://www.jfcadvocacy.net/</a><br />
+ online pharmacy  <a href="http://www.psychexams.net/" rel="nofollow">http://www.psychexams.net/</a><br />
+ soma  <a href="http://www.stories-on-cd.net/" rel="nofollow">http://www.stories-on-cd.net/</a><br />
+ diet pills  <a href="http://www.lvcpa.net/" rel="nofollow">http://www.lvcpa.net/</a><br />
+ phendimetrazine  <a href="http://www.suttonjames.net/" rel="nofollow">http://www.suttonjames.net/</a><br />
+ credit card  <a href="http://www.mp-forum.com/" rel="nofollow">http://www.mp-forum.com/</a><br />
+ payday loans  <a href="http://www.devilofnights.net/" rel="nofollow">http://www.devilofnights.net/</a><br />
+ loans  <a href="http://www.gargzdai.net/" rel="nofollow">http://www.gargzdai.net/</a><br />
+ personal loans  <a href="http://www.zone-b51.com/" rel="nofollow">http://www.zone-b51.com/</a><br />
+ student loans  <a href="http://www.jmsimonr.com/" rel="nofollow">http://www.jmsimonr.com/</a><br />
+ private mortgages  <a href="http://www.1a1merchantaccounts.com/" rel="nofollow">http://www.1a1merchantaccounts.com/</a><br />
+ low interest credit cards  <a href="http://www.at-capstone.com/" rel="nofollow">http://www.at-capstone.com/</a><br />
+- Tons of interesdting stuff!!!</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2605">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/5c019341d6ca3377ad79abdd9bb06a17?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://internet-poker.fidelityfunding.net/' rel='external nofollow' class='url'>internet poker</a>  </cite> <a class="comment-date" href="http://devhawk.net/2004/05/10/unlikely-source-on-architecture/#comment-2605"><time datetime="2005-01-17T16:23:49+00:00">January 17, 2005 at 4:23 pm</time></a></header>  <section class="comment-content comment"><p>You can also check the sites dedicated to internet poker  <a href="http://internet-poker.fidelityfunding.net/" rel="nofollow">http://internet-poker.fidelityfunding.net/</a><br />
+ party poker  <a href="http://poker-party.fidelityfunding.net/" rel="nofollow">http://poker-party.fidelityfunding.net/</a><br />
+ poker tournament  <a href="http://poker-tournament.fidelityfunding.net/" rel="nofollow">http://poker-tournament.fidelityfunding.net/</a><br />
+ poker rooms  <a href="http://poker-rooms.fidelityfunding.net/" rel="nofollow">http://poker-rooms.fidelityfunding.net/</a><br />
+ texas hold em poker  <a href="http://texas-hold-em-poker.fidelityfunding.net/" rel="nofollow">http://texas-hold-em-poker.fidelityfunding.net/</a><br />
+ no limit texas hold em  <a href="http://no-limit-texas-hold-em.fidelityfunding.net/" rel="nofollow">http://no-limit-texas-hold-em.fidelityfunding.net/</a><br />
+ holdem  <a href="http://holdem.fidelityfunding.net/" rel="nofollow">http://holdem.fidelityfunding.net/</a><br />
+ play poker  <a href="http://play-poker.fidelityfunding.net/" rel="nofollow">http://play-poker.fidelityfunding.net/</a><br />
+ absolute poker  <a href="http://absolute-poker.fidelityfunding.net/" rel="nofollow">http://absolute-poker.fidelityfunding.net/</a><br />
+ holdem poker  <a href="http://holdem-poker.fidelityfunding.net/" rel="nofollow">http://holdem-poker.fidelityfunding.net/</a><br />
+ poker game  <a href="http://poker-game.fidelityfunding.net/" rel="nofollow">http://poker-game.fidelityfunding.net/</a><br />
+ three card poker  <a href="http://three-card-poker.fidelityfunding.net/" rel="nofollow">http://three-card-poker.fidelityfunding.net/</a><br />
+ pai gow poker  <a href="http://pai-gow-poker.fidelityfunding.net/" rel="nofollow">http://pai-gow-poker.fidelityfunding.net/</a><br />
+ online poker rooms  <a href="http://online-poker-rooms.fidelityfunding.net/" rel="nofollow">http://online-poker-rooms.fidelityfunding.net/</a><br />
+ paradise poker  <a href="http://paradise-poker.fidelityfunding.net/" rel="nofollow">http://paradise-poker.fidelityfunding.net/</a><br />
+ online poker games  <a href="http://online-poker-games.fidelityfunding.net/" rel="nofollow">http://online-poker-games.fidelityfunding.net/</a><br />
+ texas poker  <a href="http://texas-poker.fidelityfunding.net/" rel="nofollow">http://texas-poker.fidelityfunding.net/</a><br />
+ celebrity poker  <a href="http://celebrity-poker.fidelityfunding.net/" rel="nofollow">http://celebrity-poker.fidelityfunding.net/</a><br />
+ learn to play poker  <a href="http://learn-to-play-poker.fidelityfunding.net/" rel="nofollow">http://learn-to-play-poker.fidelityfunding.net/</a><br />
+ online video poker  <a href="http://online-video-poker.fidelityfunding.net/" rel="nofollow">http://online-video-poker.fidelityfunding.net/</a><br />
+ hold em poker  <a href="http://hold-em-poker.fidelityfunding.net/" rel="nofollow">http://hold-em-poker.fidelityfunding.net/</a><br />
+ online poker game  <a href="http://online-poker-game.fidelityfunding.net/" rel="nofollow">http://online-poker-game.fidelityfunding.net/</a><br />
+ on line poker  <a href="http://on-line-poker.fidelityfunding.net/" rel="nofollow">http://on-line-poker.fidelityfunding.net/</a><br />
+ casino poker  <a href="http://casino-poker.fidelityfunding.net/" rel="nofollow">http://casino-poker.fidelityfunding.net/</a><br />
+ texas hold em online  <a href="http://texas-hold-em-online.fidelityfunding.net/" rel="nofollow">http://texas-hold-em-online.fidelityfunding.net/</a><br />
+ free texas hold em  <a href="http://free-texas-hold-em.fidelityfunding.net/" rel="nofollow">http://free-texas-hold-em.fidelityfunding.net/</a><br />
+ free online texas hold em  <a href="http://free-online-texas-hold-em.fidelityfunding.net/" rel="nofollow">http://free-online-texas-hold-em.fidelityfunding.net/</a><br />
+ free texas hold em poker games  <a href="http://free-texas-hold-em-poker-games.fidelityfunding.net/" rel="nofollow">http://free-texas-hold-em-poker-games.fidelityfunding.net/</a><br />
+ free texas hold em online play  <a href="http://free-texas-hold-em-online-play.fidelityfunding.net/" rel="nofollow">http://free-texas-hold-em-online-play.fidelityfunding.net/</a><br />
+ hold em  <a href="http://hold-em.fidelityfunding.net/" rel="nofollow">http://hold-em.fidelityfunding.net/</a><br />
+ texas hold em poker game  <a href="http://texas-hold-em-poker-game.fidelityfunding.net/" rel="nofollow">http://texas-hold-em-poker-game.fidelityfunding.net/</a><br />
+ texas holdem online  <a href="http://texas-holdem-online.fidelityfunding.net/" rel="nofollow">http://texas-holdem-online.fidelityfunding.net/</a><br />
+ free online texas holdem  <a href="http://free-online-texas-holdem.fidelityfunding.net/" rel="nofollow">http://free-online-texas-holdem.fidelityfunding.net/</a><br />
+ texas holdem poker game  <a href="http://texas-holdem-poker-game.fidelityfunding.net/" rel="nofollow">http://texas-holdem-poker-game.fidelityfunding.net/</a><br />
+ play texas holdem  <a href="http://play-texas-holdem.fidelityfunding.net/" rel="nofollow">http://play-texas-holdem.fidelityfunding.net/</a><br />
+&#8230; Thanks!!!</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment even thread-even depth-1" id="li-comment-2606">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/8bbf23cb5b622f55b284c65b68f5c1d1?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://online-poker.learnhowtoplay.com/' rel='external nofollow' class='url'>online poker</a>  </cite> <a class="comment-date" href="http://devhawk.net/2004/05/10/unlikely-source-on-architecture/#comment-2606"><time datetime="2005-01-30T15:16:16+00:00">January 30, 2005 at 3:16 pm</time></a></header>  <section class="comment-content comment"><p>You can also visit the sites about online poker  <a href="http://online-poker.learnhowtoplay.com/" rel="nofollow">http://online-poker.learnhowtoplay.com/</a><br />
+ online casino  <a href="http://online-casino.learnhowtoplay.com/" rel="nofollow">http://online-casino.learnhowtoplay.com/</a><br />
+ phentermine  <a href="http://phentermine.learnhowtoplay.com/" rel="nofollow">http://phentermine.learnhowtoplay.com/</a><br />
+ poker  <a href="http://poker.learnhowtoplay.com/" rel="nofollow">http://poker.learnhowtoplay.com/</a><br />
+ poker online  <a href="http://poker-online.learnhowtoplay.com/" rel="nofollow">http://poker-online.learnhowtoplay.com/</a><br />
+ wsop  <a href="http://wsop.learnhowtoplay.com/" rel="nofollow">http://wsop.learnhowtoplay.com/</a><br />
+ texas holdem  <a href="http://texas-holdem.learnhowtoplay.com/" rel="nofollow">http://texas-holdem.learnhowtoplay.com/</a><br />
+ texas hold em  <a href="http://texas-hold-em.learnhowtoplay.com/" rel="nofollow">http://texas-hold-em.learnhowtoplay.com/</a><br />
+ blackjack  <a href="http://blackjack.learnhowtoplay.com/" rel="nofollow">http://blackjack.learnhowtoplay.com/</a><br />
+ roulette  <a href="http://roulette.learnhowtoplay.com/" rel="nofollow">http://roulette.learnhowtoplay.com/</a><br />
+ craps  <a href="http://craps.learnhowtoplay.com/" rel="nofollow">http://craps.learnhowtoplay.com/</a><br />
+ poker games  <a href="http://poker-games.learnhowtoplay.com/" rel="nofollow">http://poker-games.learnhowtoplay.com/</a><br />
+ poker game  <a href="http://poker-game.learnhowtoplay.com/" rel="nofollow">http://poker-game.learnhowtoplay.com/</a><br />
+ internet poker  <a href="http://internet-poker.learnhowtoplay.com/" rel="nofollow">http://internet-poker.learnhowtoplay.com/</a><br />
+ casino  <a href="http://casino.learnhowtoplay.com/" rel="nofollow">http://casino.learnhowtoplay.com/</a><br />
+ gambling  <a href="http://gambling.learnhowtoplay.com/" rel="nofollow">http://gambling.learnhowtoplay.com/</a><br />
+ online gambling  <a href="http://online-gambling.learnhowtoplay.com/" rel="nofollow">http://online-gambling.learnhowtoplay.com/</a><br />
+ party poker  <a href="http://party-poker.learnhowtoplay.com/" rel="nofollow">http://party-poker.learnhowtoplay.com/</a><br />
+ texas holdem poker  <a href="http://www.learnhowtoplay.com/" rel="nofollow">http://www.learnhowtoplay.com/</a><br />
+ texas hold em poker  <a href="http://texas-hold-em-poker.learnhowtoplay.com/" rel="nofollow">http://texas-hold-em-poker.learnhowtoplay.com/</a><br />
+ holdem poker  <a href="http://holdem-poker.learnhowtoplay.com/" rel="nofollow">http://holdem-poker.learnhowtoplay.com/</a><br />
+ hold em poker  <a href="http://hold-em-poker.learnhowtoplay.com/" rel="nofollow">http://hold-em-poker.learnhowtoplay.com/</a><br />
+ buy phentermine  <a href="http://buy-phentermine.learnhowtoplay.com/" rel="nofollow">http://buy-phentermine.learnhowtoplay.com/</a><br />
+ buy xanax  <a href="http://buy-xanax.learnhowtoplay.com/" rel="nofollow">http://buy-xanax.learnhowtoplay.com/</a><br />
+ buy xanax online  <a href="http://buy-xanax-online.learnhowtoplay.com/" rel="nofollow">http://buy-xanax-online.learnhowtoplay.com/</a><br />
+ online pharmacy  <a href="http://online-pharmacy.learnhowtoplay.com/" rel="nofollow">http://online-pharmacy.learnhowtoplay.com/</a><br />
+ viagra  <a href="http://viagra.learnhowtoplay.com/" rel="nofollow">http://viagra.learnhowtoplay.com/</a><br />
+ levitra  <a href="http://levitra.learnhowtoplay.com/" rel="nofollow">http://levitra.learnhowtoplay.com/</a><br />
+ cialis  <a href="http://cialis.learnhowtoplay.com/" rel="nofollow">http://cialis.learnhowtoplay.com/</a><br />
+ diet pills  <a href="http://diet-pills.learnhowtoplay.com/" rel="nofollow">http://diet-pills.learnhowtoplay.com/</a><br />
+ carisoprodol  <a href="http://carisoprodol.learnhowtoplay.com/" rel="nofollow">http://carisoprodol.learnhowtoplay.com/</a><br />
+ soma  <a href="http://soma.learnhowtoplay.com/" rel="nofollow">http://soma.learnhowtoplay.com/</a><br />
+ penis  <a href="http://penis.learnhowtoplay.com/" rel="nofollow">http://penis.learnhowtoplay.com/</a><br />
+ penis enlargement  <a href="http://penis-enlargement.learnhowtoplay.com/" rel="nofollow">http://penis-enlargement.learnhowtoplay.com/</a><br />
+ penis enlargement pills  <a href="http://penis-enlargement-pills.learnhowtoplay.com/" rel="nofollow">http://penis-enlargement-pills.learnhowtoplay.com/</a><br />
+&#8230; Thanks!!!</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+            </ul><!-- .commentlist -->
+
+          <p class="nocomments">Comments are closed.</p>
+	
+</div><!-- #comments .comments-area -->
+      
+        <hr class="featurette-divider __after_loop">
+        <nav id="nav-below" class="navigation" role="navigation">
+
+            <h3 class="assistive-text">
+              Post navigation            </h3>
+
+            <ul class="pager">
+                              <li class="previous">
+                  <span class="nav-previous">
+                    <a href="http://devhawk.net/2004/05/10/architect-road-rally-teched/" rel="prev"><span class="meta-nav">&larr;</span> Architect Road Rally @ TechEd</a>                  </span>
+                </li>
+                                            <li class="next">
+                  <span class="nav-next">
+                    <a href="http://devhawk.net/2004/05/10/movie-times-web-service/" rel="next">Movie Times Web Service? <span class="meta-nav">&rarr;</span></a>                  </span>
+                </li>
+                          </ul>
+
+        </nav><!-- #nav-below .navigation -->
+
+      
+      
+                </div><!--.article-container -->
+
+                  
+      <div class="span3 right tc-sidebar">
+         <div id="right" class="widget-area" role="complementary">
+                                             <aside id="text-3" class="widget widget_text"><h3 class="widget-title">Our Sponsors</h3>			<div class="textwidget"><div align=center data-type="ad" data-publisher="lqm.devhawk.site" data-zone="ron" data-format="160x600" data-tags="windows%2C%20windows%208%2C%20windows%20runtime%2C%20JavaScript%2C%20C%23%2C%20CLR%2C%20C%2B%2B"></div></div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-177"><a href="http://devhawk.net/category/architecture/" title="View all posts filed under Architecture">Architecture</a>
+</li>
+	<li class="cat-item cat-item-204"><a href="http://devhawk.net/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://devhawk.net/category/general-geekery/" title="View all posts filed under General Geekery">General Geekery</a>
+</li>
+	<li class="cat-item cat-item-252"><a href="http://devhawk.net/category/ironpython/" title="View all posts filed under IronPython">IronPython</a>
+</li>
+	<li class="cat-item cat-item-180"><a href="http://devhawk.net/category/morning-coffee/" title="View all posts filed under Morning Coffee">Morning Coffee</a>
+</li>
+	<li class="cat-item cat-item-352"><a href="http://devhawk.net/category/personal/" title="View all posts filed under Personal">Personal</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="http://devhawk.net/category/politics/" title="View all posts filed under Politics">Politics</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="http://devhawk.net/category/sports/" title="View all posts filed under Sports">Sports</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://devhawk.net/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-283"><a href="http://devhawk.net/category/windows/" title="View all posts filed under Windows">Windows</a>
+</li>
+	<li class="cat-item cat-item-357"><a href="http://devhawk.net/category/windows-runtime/" title="View all posts filed under Windows Runtime">Windows Runtime</a>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-4" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='http://devhawk.net/tag/asp-net/' class='tag-link-178' title='27 topics' style='font-size: 13.466666666667pt;'>ASP.NET</a>
+<a href='http://devhawk.net/tag/blogging/' class='tag-link-184' title='122 topics' style='font-size: 22pt;'>Blogging</a>
+<a href='http://devhawk.net/tag/c-sharp/' class='tag-link-235' title='17 topics' style='font-size: 10.933333333333pt;'>C#</a>
+<a href='http://devhawk.net/tag/college-football/' class='tag-link-194' title='10 topics' style='font-size: 8pt;'>College Football</a>
+<a href='http://devhawk.net/tag/community/' class='tag-link-213' title='81 topics' style='font-size: 19.6pt;'>Community</a>
+<a href='http://devhawk.net/tag/dasblog/' class='tag-link-303' title='12 topics' style='font-size: 8.9333333333333pt;'>dasBlog</a>
+<a href='http://devhawk.net/tag/database/' class='tag-link-214' title='13 topics' style='font-size: 9.4666666666667pt;'>Database</a>
+<a href='http://devhawk.net/tag/debugger/' class='tag-link-279' title='23 topics' style='font-size: 12.533333333333pt;'>Debugger</a>
+<a href='http://devhawk.net/tag/dlr/' class='tag-link-231' title='25 topics' style='font-size: 12.933333333333pt;'>DLR</a>
+<a href='http://devhawk.net/tag/domain-specific-languages/' class='tag-link-208' title='15 topics' style='font-size: 10.133333333333pt;'>Domain Specific Languages</a>
+<a href='http://devhawk.net/tag/dynamic-languages/' class='tag-link-217' title='12 topics' style='font-size: 8.9333333333333pt;'>Dynamic Languages</a>
+<a href='http://devhawk.net/tag/entertainment/' class='tag-link-196' title='14 topics' style='font-size: 9.8666666666667pt;'>Entertainment</a>
+<a href='http://devhawk.net/tag/etech/' class='tag-link-297' title='15 topics' style='font-size: 10.133333333333pt;'>ETech</a>
+<a href='http://devhawk.net/tag/f-sharp/' class='tag-link-198' title='51 topics' style='font-size: 17.066666666667pt;'>F#</a>
+<a href='http://devhawk.net/tag/family/' class='tag-link-179' title='33 topics' style='font-size: 14.533333333333pt;'>Family</a>
+<a href='http://devhawk.net/tag/functional-programming/' class='tag-link-202' title='18 topics' style='font-size: 11.2pt;'>Functional Programming</a>
+<a href='http://devhawk.net/tag/games/' class='tag-link-185' title='18 topics' style='font-size: 11.2pt;'>Games</a>
+<a href='http://devhawk.net/tag/hockey/' class='tag-link-215' title='33 topics' style='font-size: 14.533333333333pt;'>Hockey</a>
+<a href='http://devhawk.net/tag/ironruby/' class='tag-link-253' title='16 topics' style='font-size: 10.533333333333pt;'>IronRuby</a>
+<a href='http://devhawk.net/tag/lanugages/' class='tag-link-229' title='43 topics' style='font-size: 16pt;'>Lanugages</a>
+<a href='http://devhawk.net/tag/linq/' class='tag-link-224' title='24 topics' style='font-size: 12.8pt;'>LINQ</a>
+<a href='http://devhawk.net/tag/microsoft/' class='tag-link-232' title='31 topics' style='font-size: 14.266666666667pt;'>Microsoft</a>
+<a href='http://devhawk.net/tag/modelling/' class='tag-link-225' title='61 topics' style='font-size: 18pt;'>Modelling</a>
+<a href='http://devhawk.net/tag/movies/' class='tag-link-218' title='23 topics' style='font-size: 12.533333333333pt;'>Movies</a>
+<a href='http://devhawk.net/tag/music/' class='tag-link-248' title='20 topics' style='font-size: 11.733333333333pt;'>Music</a>
+<a href='http://devhawk.net/tag/p2p/' class='tag-link-325' title='11 topics' style='font-size: 8.5333333333333pt;'>P2P</a>
+<a href='http://devhawk.net/tag/parsing-expression-grammar/' class='tag-link-209' title='16 topics' style='font-size: 10.533333333333pt;'>Parsing Expression Grammar</a>
+<a href='http://devhawk.net/tag/powershell/' class='tag-link-230' title='40 topics' style='font-size: 15.6pt;'>PowerShell</a>
+<a href='http://devhawk.net/tag/rest/' class='tag-link-181' title='18 topics' style='font-size: 11.2pt;'>REST</a>
+<a href='http://devhawk.net/tag/ruby/' class='tag-link-190' title='23 topics' style='font-size: 12.533333333333pt;'>Ruby</a>
+<a href='http://devhawk.net/tag/service-broker/' class='tag-link-320' title='14 topics' style='font-size: 9.8666666666667pt;'>Service Broker</a>
+<a href='http://devhawk.net/tag/silverlight/' class='tag-link-200' title='20 topics' style='font-size: 11.733333333333pt;'>Silverlight</a>
+<a href='http://devhawk.net/tag/soa/' class='tag-link-183' title='94 topics' style='font-size: 20.533333333333pt;'>SOA</a>
+<a href='http://devhawk.net/tag/software-factories/' class='tag-link-195' title='11 topics' style='font-size: 8.5333333333333pt;'>Software Factories</a>
+<a href='http://devhawk.net/tag/visual-studio/' class='tag-link-187' title='20 topics' style='font-size: 11.733333333333pt;'>Visual Studio</a>
+<a href='http://devhawk.net/tag/washington-capitals/' class='tag-link-192' title='42 topics' style='font-size: 15.866666666667pt;'>Washington Capitals</a>
+<a href='http://devhawk.net/tag/wcf/' class='tag-link-313' title='31 topics' style='font-size: 14.266666666667pt;'>WCF</a>
+<a href='http://devhawk.net/tag/web-2-0/' class='tag-link-188' title='67 topics' style='font-size: 18.533333333333pt;'>Web 2.0</a>
+<a href='http://devhawk.net/tag/web-services/' class='tag-link-290' title='12 topics' style='font-size: 8.9333333333333pt;'>Web Services</a>
+<a href='http://devhawk.net/tag/wf/' class='tag-link-268' title='21 topics' style='font-size: 12pt;'>WF</a>
+<a href='http://devhawk.net/tag/windows-live/' class='tag-link-207' title='29 topics' style='font-size: 13.866666666667pt;'>Windows Live</a>
+<a href='http://devhawk.net/tag/working-at-msft/' class='tag-link-250' title='21 topics' style='font-size: 12pt;'>Working at MSFT</a>
+<a href='http://devhawk.net/tag/xbox-360/' class='tag-link-189' title='54 topics' style='font-size: 17.333333333333pt;'>Xbox 360</a>
+<a href='http://devhawk.net/tag/xml/' class='tag-link-238' title='11 topics' style='font-size: 8.5333333333333pt;'>XML</a>
+<a href='http://devhawk.net/tag/xna/' class='tag-link-193' title='15 topics' style='font-size: 10.133333333333pt;'>XNA</a></div>
+</aside>
+                                        </div><!-- #left -->
+      </div><!--.tc-sidebar -->
+
+      
+        </div><!--.row -->
+    </div><!-- .container role: main -->
+
+    
+</div><!--#main-wrapper"-->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="">
+	 				<div class="container footer-widgets ">
+				<div class="row widget-area" role="complementary">
+					
+					
+													
+							<div id="footer_one" class="span4">
+								<aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://devhawk.net/wp-login.php">Log in</a></li>
+			<li><a href="http://devhawk.net/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://devhawk.net/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</aside>							</div>
+
+						
+					
+													
+							<div id="footer_two" class="span4">
+								<aside id="text-6" class="widget widget_text"><h3 class="widget-title">Disclaimer</h3>			<div class="textwidget"><p>The information in this weblog is provided "AS IS" with no warranties, and confers no rights. This weblog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my opinion. Inappropriate comments will be deleted at the authors discretion.</p>
+
+<script type='text/javascript'>
+    function _dmBootstrap(file) { 
+        var _dma = document.createElement('script');  
+        _dma.type = 'text/javascript'; 
+        _dma.async = true;  
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+</script>
+</div>
+		</aside>							</div>
+
+						
+					
+						
+									</div><!-- .row.widget-area -->
+			</div><!--.footer-widgets -->
+		    			 <div class="colophon">
+		 	<div class="container">
+		 		<div class="row-fluid">
+				    <div class="span4 social-block pull-left"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><div class="span4 credits"><p> &middot; &copy; 2014 <a href="http://devhawk.net" title="DevHawk" rel="bookmark">DevHawk</a> &middot; Designed by <a href="http://www.themesandco.com/">Themes &amp; Co</a> &middot;</p></div><div class="span4 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div>      			</div><!-- .row-fluid -->
+      		</div><!-- .container -->
+      	</div><!-- .colophon -->
+    		</footer>
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript">
+    SyntaxHighlighter.autoloader(
+        'applescript			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAppleScript.js',
+        'actionscript3 as3		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAS3.js',
+        'bash shell				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushBash.js',
+        'coldfusion cf			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushColdFusion.js',
+        'cpp c					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCpp.js',
+        'c# c-sharp csharp		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCSharp.js',
+        'css					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCss.js',
+        'delphi pascal pas		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDelphi.js',
+        'diff patch			    http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDiff.js',
+        'erl erlang				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushErlang.js',
+        'groovy					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushGroovy.js',
+        'java					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJava.js',
+        'jfx javafx				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJavaFX.js',
+        'js jscript javascript	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJScript.js',
+        'perl pl				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPerl.js',
+        'php					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPhp.js',
+        'text plain				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPlain.js',
+        'powershell ps          http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPowerShell.js',
+        'py python				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPython.js',
+        'ruby rails ror rb		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushRuby.js',
+        'sass scss              http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSass.js',
+        'scala					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushScala.js',
+        'sql					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSql.js',
+        'vb vbnet				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushVb.js',
+        'xml xhtml xslt html	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushXml.js'
+    );
+                        SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.all();
+</script>
+<!-- END: Syntax Highlighter ComPress -->
+
+		<div style="display:none">
+	<div class="grofile-hash-map-e3d2b521f7f1db79efc00ec2602eb7a5">
+	</div>
+	<div class="grofile-hash-map-8ae0024967d10e5fbd11526bde5e42df">
+	</div>
+	<div class="grofile-hash-map-dc467835dee91ce8a5c8cec1e5964f10">
+	</div>
+	<div class="grofile-hash-map-5c019341d6ca3377ad79abdd9bb06a17">
+	</div>
+	<div class="grofile-hash-map-8bbf23cb5b622f55b284c65b68f5c1d1">
+	</div>
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201415'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Apraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TCParams = {"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","SmoothScroll":"linear"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/tc-scripts.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/holder.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/retina.min.js'></script>
+
+	<script src="http://stats.wordpress.com/e-201415.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.9.2',blog:'22146351',post:'362',tz:'-7'});
+	var load_cmc = function(){linktracker_init(22146351,362,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	</body>
+</html>

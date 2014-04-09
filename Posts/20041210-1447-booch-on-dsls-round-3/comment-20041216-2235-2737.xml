@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2737</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-12-16 22:35:32</wp:comment_date>
+  <wp:comment_date_gmt>2004-12-17 06:35:32</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[JTD, that's not what I'm saying. Many DSL's need to relate to each other. Take Whitehorse for example: You have a app modeller and a data center modeler. These each have some unique semantics and some related semantics. If you go to deploy a web app onto a web server, some type of translation or corolation needs to take place. But within that web app, there are going to be a wide variety of semantics and abstractions - pages, controls, process flows, style sheets, postbacks, etc - that have no corolation in the data center model. Trying to make a single modeling language that supports all these semantics will be overcomplex and unusable. ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

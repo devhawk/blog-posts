@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">                          
+<!--<![endif]-->
+
+			<head>
+		    <meta charset="UTF-8" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		    <title>Using WinRT from C# //build Demo  | DevHawk</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <link rel="profile" href="http://gmpg.org/xfn/11" />
+		    <link rel="pingback" href="http://devhawk.net/xmlrpc.php" />
+		   
+		   <!-- Icons font support for IE6-7  -->
+		    <!--[if lt IE 8]>
+		      <script src="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/lte-ie7.js"></script>
+		    <![endif]-->
+		    <link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Feed" href="http://devhawk.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Comments Feed" href="http://devhawk.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DevHawk &raquo; Using WinRT from C# //build Demo Comments Feed" href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/feed/" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://devhawk.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-skin-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/css/blue.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='http://devhawk.net/wp-content/themes/customizr/style.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css'  href='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/modernizr.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://devhawk.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://devhawk.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='The Windows Runtime' href='http://devhawk.net/2011/09/15/the-windows-runtime/' />
+<link rel='next' title='My //build Talk' href='http://devhawk.net/2011/10/06/my-build-talk/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/' />
+<link rel='shortlink' href='http://wp.me/p1uVhd-v2' />
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/styles/shCoreDefault.css"/>
+<!-- END: Syntax Highlighter ComPress -->
+
+  
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Using WinRT from C# //build Demo " />
+<meta property="og:url" content="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/" />
+<meta property="og:description" content="Yesterday at //build, Jesse Kaplan and I delivered the Using Windows Runtime from C# and Visual Basic talk. In the talk, I demonstrated how natural and familiar it is to use WinRT from C# by buildi..." />
+<meta property="article:published_time" content="2011-09-15T16:39:30+00:00" />
+<meta property="article:modified_time" content="2011-09-15T16:39:30+00:00" />
+<meta property="article:author" content="http://devhawk.net/author/admin/" />
+<meta property="og:site_name" content="DevHawk" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+<meta name="twitter:card" content="summary" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Expand All' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Collapse All');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Expand All');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+        
+        
+        		    <!--Icons size hack for IE8 and less -->
+		    <!--[if lt IE 9]>
+		      <link href="http://devhawk.net/wp-content/themes/customizr/inc/css/fonts/ie8-hacks.css" rel="stylesheet" type="text/css"/>
+		    <![endif]-->
+		</head>
+		
+	<body class="single single-post postid-1924 single-format-standard" itemscope itemtype="http://schema.org/WebPage">
+		
+		
+	   	<header class="tc-header clearfix row-fluid" role="banner">
+			
+			
+		
+	    	
+	        <div class="brand span3 pull-left">
+
+	        	<h1><a class="site-title" href="http://devhawk.net/" title="DevHawk | Passion * Technology * Ruthless Competence">DevHawk</a></h1>
+	        </div> <!-- brand span3 pull-left -->
+
+	        
+	   
+	   
+	   <div class="container outside"><h2 class="site-description">Passion * Technology * Ruthless Competence</h2></div>
+      	<div class="navbar-wrapper clearfix span9">
+
+      		<div class="navbar notresp row-fluid pull-left">
+      			<div class="navbar-inner" role="navigation">
+      				<div class="row-fluid">
+            			<div class="social-block span5"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="nav tc-hover-menu"><li id="menu-item-1862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li id="menu-item-1562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li id="menu-item-1564" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li id="menu-item-1565" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li id="menu-item-1561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            		</div><!-- .row-fluid -->
+            	</div><!-- /.navbar-inner -->
+            </div><!-- /.navbar notresp -->
+
+            <div class="navbar resp">
+            	<div class="navbar-inner" role="navigation">
+            		<div class="social-block "><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><h2 class="span7 inside site-description">Passion * Technology * Ruthless Competence</h2><button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu-container"><ul id="menu-mainmenu-1" class="nav tc-hover-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1862"><a href="http://devhawk.net/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="http://devhawk.net/archives/">Archives</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1564"><a href="http://devhawk.net/category/architecture/">Architecture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1565"><a href="http://devhawk.net/category/development/">Development</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1561"><a href="http://www.zazzle.com/harrypierson*">DevHawk Designs</a></li>
+</ul></div></div>            	</div><!-- /.navbar-inner -->
+      		</div><!-- /.navbar resp -->
+
+    	</div><!-- /.navbar-wrapper -->
+
+        
+		</header>
+
+		<div id="main-wrapper" class="container">
+
+    <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin"><a href="http://devhawk.net" title="DevHawk" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2011/" title="2011">2011</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2011/09/" title="September 2011">September</a> <span class="sep">&raquo;</span> <a href="http://devhawk.net/2011/09/15/" title="September 15, 2011">15</a> <span class="sep">&raquo;</span> <span class="trail-end">Using WinRT from C# //build Demo </span></div><div class="tc-hot-crumble container" role="navigation"><div class="row"><div class="span12"></div></div></div>    
+    <div class="container" role="main">
+        <div class="row">
+
+                            
+                <div id="content" class="span9 article-container">
+                    
+                    
+                        
+                                                                                    
+                                                                    <article id="post-1924" class="post-1924 post type-post status-publish format-standard hentry category-development category-windows category-windows-runtime tag-build tag-c-sharp tag-metro-style-apps tag-windows-8 row-fluid">
+                                        
+        <header class="entry-header">
+          
+          <h1 class="entry-title format-icon">Using WinRT from C# //build Demo  </h1>
+        <div class="entry-meta">
+            This entry was posted in <a class="btn btn-mini" href="http://devhawk.net/category/development/" title="View all posts in Development"> Development </a><a class="btn btn-mini" href="http://devhawk.net/category/windows/" title="View all posts in Windows"> Windows </a><a class="btn btn-mini" href="http://devhawk.net/category/windows-runtime/" title="View all posts in Windows Runtime"> Windows Runtime </a> and tagged <a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/build/" title="View all posts in //build"> //build </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/c-sharp/" title="View all posts in C#"> C# </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/metro-style-apps/" title="View all posts in Metro style apps"> Metro style apps </a><a class="btn btn-mini btn-tag" href="http://devhawk.net/tag/windows-8/" title="View all posts in Windows 8"> Windows 8 </a> on <a href="http://devhawk.net/2011/09/15/" title="9:39 am" rel="bookmark"><time class="entry-date" datetime="2011-09-15T09:39:30+00:00">September 15, 2011</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://devhawk.net/author/admin/" title="View all posts by DevHawk" rel="author">DevHawk</a></span></span>.
+        </div><!-- .entry-meta -->
+
+        <hr class="featurette-divider __before_content">
+        </header><!-- .entry-header -->
+
+          
+
+        <section class="entry-content ">
+            <p>Yesterday at<a href="http://www.buildwindows.com/"> //build</a>, Jesse Kaplan and I delivered the <a href="http://channel9.msdn.com/Events/BUILD/BUILD2011/TOOL-531T">Using Windows Runtime from C# and Visual Basic</a> talk. In the talk, I demonstrated how natural and familiar it is to use WinRT from C# by building a simple Metro style app. This app  takes a picture with a webcam and implements the share charm contract in less than 15 lines of C# code.</p>
+<p>Instead of making you try and read code off the recorded video stream that should be published soon, I&#8217;ve written this walkthru to explain exactly what I did in that demo. In addition, I&#8217;ve started from scratch (i.e. File-&gt;New Project) so that you can follow along at home if you wish.</p>
+<p>First, you need to install the <a href="http://msdn.microsoft.com/en-us/windows/apps/br229516">Windows Developer Preview</a>. I recommend the x64 version with tools. Scott Hanselman has a <a href="http://www.hanselman.com/blog/GuideToInstallingAndBootingWindows8DeveloperPreviewOffAVHDVirtualHardDisk.aspx">great write up</a> on using boot to VHD to run the preview. (though I do disagree w/ his assessment of dual boot. I&#8217;ve been dual booting Win7 and Win8 on my laptop for months and it&#8217;s never ended in tears or blood). Also, you&#8217;re going to need a webcam in order to run the app yourself.</p>
+<p>Once the Windows Developer Preview is up and running, run the Socialite app and login with your Facebook credentials. We&#8217;re going to use Socialite to share the picture we take with the webcam. Giving it your credentials up front makes the demo run smoother!</p>
+<p>Next, fire up VS11 (aka Microsoft Visual Studio 11 Express for Windows Developer Preview). Create a new project and select the Visual C# -&gt; Windows Metro Style -&gt; Application template.</p>
+<p>Once the new project has been created, you should be looking at the MainPage.xaml file. Update the Grid element to contain a button and an image.</p>
+<pre class="brush:xml">&lt;Grid x:Name="LayoutRoot" Background="#FF0C0C0C"&gt;
+    &lt;Button x:Name="ClickMe" Click="ClickMe_Click"&gt;Click Me&lt;/Button&gt;
+    &lt;Image x:Name="Photo" Width="800" Height="600"
+           HorizontalAlignment="Center" VerticalAlignment="Center"/&gt;
+&lt;/Grid&gt;</pre>
+<p>Next, hover over the Click=&#8221;ClickMe_Click&#8221; attribute of the button, right click and select &#8220;Navigate to Event Handler&#8221;. VS11 will take you to MainPage.xaml.cs and automatically generate a skeleton event handler for you.</p>
+<p>In my //build session, I demonstrated that VS11 can automatically resolve WinRT namespaces the same way that it resolves managed namespaces. But for the purposes of this blog post, it&#8217;s easier if you just add the additional using statements we&#8217;re going to need at the top of MainPage.xaml.cs now.</p>
+<pre class="brush:csharp">using Windows.Media.Capture;
+using Windows.Storage;
+using Windows.UI.Xaml.Media.Imaging;
+using Windows.ApplicationModel.DataTransfer;
+using Windows.Storage.Streams;</pre>
+<p>Now, we add the code for ClickMe_Click:</p>
+<pre class="brush:csharp">private async void ClickMe_Click(object sender, RoutedEventArgs e)
+{
+    var ui = new CameraCaptureUI();
+    ui.PhotoSettings.CroppedAspectRatio = new Size(4, 3);
+
+    var file = await ui.CaptureFileAsync(CameraCaptureUIMode.Photo);
+
+    if (file != null)
+    {
+        var stream = await file.OpenAsync(FileAccessMode.Read);
+
+        var bitmap = new BitmapImage();
+        bitmap.SetSource(stream);
+        Photo.Source = bitmap;
+    }
+}</pre>
+<p>A few things to note about this code:</p>
+<ul>
+<li>Even though it&#8217;s using native WinRT libraries, the C# feels natural and familiar &#8211; as if you were calling into traditional managed libraries. We&#8217;re newing up classes, we&#8217;re passing in constructor parameters, we&#8217;re using primitive numbers and enums, we&#8217;re assigning properties, etc. That is very much by design.</li>
+<li>We&#8217;re using a couple of async WinRT methods (CaptureFileAsync and OpenAsync). C# 5.0&#8242;s new await keyword to make it extremely easy to write linear looking code that doesn&#8217;t block on async operations.</li>
+<li>No P/Invoke or COM Interop attributes anywhere to be seen!</li>
+</ul>
+<p>Finally, before we can run this code we need to declare our intent to use the webcam. Double click on the Package.appxmanifest file, click on the &#8220;Capabilites&#8221; tab, and then check the Webcam checkbox.</p>
+<p>With the capability declared, now we can run the app. Hit F5 and VS11 will compile and deploy the Metro style app you just built. Click the button, acknowledge that you want to let the program use the webcam, take a pic, crop it, and there it is in your UI!</p>
+<p>For the second part of the demo, I added share contract support. Here&#8217;s how to do that.</p>
+<p>First, we need to pull the stream variable into class instance scope so that we can access it in the share contract event handler. We do that by adding a private IRandomAccessStream variable named stream and removing the var declarations from the line where we call OpenAsync. The updated click event handler looks like this:</p>
+<pre class="brush:csharp">//here's the instance scope stream variable
+IRandomAccessStream stream;
+
+private async void ClickMe_Click(object sender, RoutedEventArgs e)
+{
+    var ui = new CameraCaptureUI();
+    ui.PhotoSettings.CroppedAspectRatio = new Size(4, 3);
+
+    var file = await ui.CaptureFileAsync(CameraCaptureUIMode.Photo);
+
+    if (file != null)
+    {
+        //the only change from the code above was to remove
+        //the var declaration from the following line
+        stream = await file.OpenAsync(FileAccessMode.Read);
+
+        var bitmap = new BitmapImage();
+        bitmap.SetSource(stream);
+        Photo.Source = bitmap;
+    }
+}</pre>
+<p>Next, we need to wire up the share event handler in the XAML page&#8217;s constructor. That&#8217;s a single line of code and VS11 intellisense writes most of  it for you</p>
+<pre class="brush:csharp">public MainPage()
+{
+    InitializeComponent();
+    DataTransferManager.GetForCurrentView().DataRequested +=
+        new TypedEventHandler&lt;DataTransferManager, DataRequestedEventArgs&gt;(MainPage_DataRequested);
+}</pre>
+<p>If you&#8217;ve ever wired up an event handler in C# before with VS, you&#8217;ll be familiar with the &#8220;Press TAB to insert&#8221; the correct event handler type followed by &#8220;TAB to generate handler&#8221;. Even though hthis is a WinRT event, VS11 helps you wire it up just the same as it does for managed events.</p>
+<p>Now we implement the share contract event handler. That&#8217;s just a simple if statement &#8211; calling args.Request.Data.SetBitmap if the user has taken a picture and calling args.Request.FailWithDisplayText with an error message if they have not.</p>
+<pre class="brush:csharp">private void MainPage_DataRequested(DataTransferManager sender,
+    DataRequestedEventArgs args)
+{
+    if (stream == null)
+        args.Request.FailWithDisplayText("No picture taken!");
+    else
+        args.Request.Data.SetBitmap(stream);
+}</pre>
+<p>This part of the demo shows off static methods and event handlers. Again, note how natural and familiar it feels to use WinRT from C#.</p>
+<p>And we&#8217;re done, so hit F5 to build, deploy and run the app again.</p>
+<p>I didn&#8217;t remember to do this in the //build talk, but first try selecting the share contract <em>before </em>taking a picture. Windows will display the &#8220;No picture taken&#8221; text in share contract window since the user taken a picture to share yet. That&#8217;s pretty boring so dismiss the share contract and take a picture like you did before. Then select the share contract, select Socalite, write a pithy message and press &#8220;Share in Facebook&#8221;.</p>
+<p>That&#8217;s the entire demo! Taking a picture with the webcam, uploading to facebook, calling native WinRT APIs from C# in a natural and familiar way and all in just under 15 lines of code!</p>
+<p>With our talk and demos, Jesse and I wanted to communicate just how important C# and VB are in the overall developer story for Windows 8. This demo shows off the hard work our two teams have done in order to make sure the managed developer&#8217;s experience with Windows 8 was the best that it could be. As I said in the talk &#8211; if you&#8217;re a managed developer, <span style="text-decoration: underline;">you already know how to build these Metro style apps</span>.</p>
+<p>I know I <a href="http://devhawk.net/2011/09/15/the-windows-runtime/">said it before</a>, but I really can&#8217;t wait to see what you guys build with Windows 8!</p>
+                    </section><!-- .entry-content -->
+
+                                          </article>
+                                
+                            
+                        
+                    
+	<hr class="featurette-divider __after_loop">
+
+<div id="comments" class="comments-area">
+	
+			
+	
+		<h2 id="tc-comment-title" class="comments-title">6 thoughts on &ldquo;<span>Using WinRT from C# //build Demo</span>&rdquo;</h2>    
+            <ul class="commentlist">
+                    <li class="comment even thread-even depth-1" id="li-comment-3189">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/29f9f6ac827866bf13cab163264f133d?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">Mike Smith  </cite> <a class="comment-date" href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/#comment-3189"><time datetime="2011-09-16T10:30:29+00:00">September 16, 2011 at 10:30 am</time></a></header>  <section class="comment-content comment"><p>Well we won&#8217;t be building enterprise apps in silverlight that&#8217;s for sure! <img src="http://devhawk.net/wp-includes/images/smilies/icon_sad.gif" alt=":-(" class="wp-smiley" /> </p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-3190">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/cba36559ce1e470354e7627ab0e2f4b7?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">Volker Hetzer  </cite> <a class="comment-date" href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/#comment-3190"><time datetime="2011-09-19T09:49:43+00:00">September 19, 2011 at 9:49 am</time></a></header>  <section class="comment-content comment"><p>Hi!<br />
+Great talk, even it I only saw the recording!<br />
+Only, I still have some problems understanding the plumbing behind the WinRT/CLR stuff:<br />
+Given, for example a WinRT call that returns a vector or a Map, what do I really get?<br />
+Like, will the CLR GC be able to move it around, like native .NET objects?<br />
+Will a<br />
+<code><br />
+foreach (WinRTObject O in X.GetWinRTCollection())<br />
+{<br />
+dowomethingWith(O;)<br />
+}<br />
+</code><br />
+involve COM interop and RTW stuff?<br />
+I&#8217;ve asked this in <a href="http://social.msdn.microsoft.com/forums/en-us/vblanguage/thread/04955BA7-C940-46EB-8F55-374600AE262C" / rel="nofollow"> but so far didn&#8217;t get enlightened very much.</p>
+<p>Very nice talk!<br />
+Volker</a></p>
+</section></div></div></article>        <!-- #comment-## -->
+      <ul class="children">
+      <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="li-comment-3191">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/56ec7ec88534583795e9086eaec1635b?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">DevHawk <span> Post author</span> </cite> <a class="comment-date" href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/#comment-3191"><time datetime="2011-09-19T13:56:10+00:00">September 19, 2011 at 1:56 pm</time></a></header>  <section class="comment-content comment"><p>Glad you liked the talk Volker! As I said in the talk, WinRT is built on a foundation of COM. So, yes, whenever you use WinRT from C#, you&#8217;re using COM interop and RCWs (I&#8217;m assuming you meant &#8220;RCW&#8221; aka Runtime Callable Wrapper when you wrote &#8220;RTW stuff&#8221;.)</p>
+<p>As you might imagine, I took the weekend off, but I&#8217;ll be surfing the forums regularly answering questions in the future.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+      <li class="comment odd alt thread-even depth-1" id="li-comment-3192">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/c118e7be6c761d4575ad543460778524?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn"><a href='http://joshsmithonwpf.wordpress.com' rel='external nofollow' class='url'>Josh Smith</a>  </cite> <a class="comment-date" href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/#comment-3192"><time datetime="2011-09-19T21:53:09+00:00">September 19, 2011 at 9:53 pm</time></a></header>  <section class="comment-content comment"><p>Thanks for the helpful write up. One thing&#8230;the demo doesn&#8217;t unhook the DataRequested event of the DataTransferManager. Unless there are weak events being used in WinRT, this sample code probably causes a memory leak because the MainPage is always referenced by an instance of DataTransferManager (whose lifetime I assume is greater than that of the page). Or is there some new greatness in WinRT&#8217;s eventing model that I&#8217;m not aware of?</p>
+<p>Thanks,<br />
+Josh</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+      <li class="comment even thread-odd thread-alt depth-1" id="li-comment-3193">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://0.gravatar.com/avatar/c3cd015eb245fd5b1a08f959f9dab3f2?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">Kevin C  </cite> <a class="comment-date" href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/#comment-3193"><time datetime="2011-09-23T07:27:02+00:00">September 23, 2011 at 7:27 am</time></a></header>  <section class="comment-content comment"><p>A quick couple of questions:<br />
+1) If an app is written in pure XAML &#8211; say a grid with a few boxes &#8211; with no code of any kind (c#/javascript/c++) &#8211; are any dotnet libs/runtime&#8217;s loaded? Does XAML in Win8/Metro have any dotnet dependencies? Is the code that renders the declarative XAML</p>
+<p>2) Can javascript project be written to work with XAML instead of HTML.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      <ul class="children">
+      <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="li-comment-3194">
+        
+          <article class="comment"><div class="row-fluid"><div class="comment-avatar span2"><img alt='' src='http://1.gravatar.com/avatar/56ec7ec88534583795e9086eaec1635b?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' /></div><div class="span10"> <header class="comment-meta comment-author vcard"><cite class="fn">DevHawk <span> Post author</span> </cite> <a class="comment-date" href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/#comment-3194"><time datetime="2011-09-23T19:57:56+00:00">September 23, 2011 at 7:57 pm</time></a></header>  <section class="comment-content comment"><p>1) I&#8217;m not sure how compelling a pure XAML app would be. But Windows XAML does not depend on .NET. If you build a Metro style app with XAML and C++, you don&#8217;t load the CLR.</p>
+<p>2) No, JS only works with HTML.</p>
+</section></div></div></article>        <!-- #comment-## -->
+      </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+            </ul><!-- .commentlist -->
+
+          <p class="nocomments">Comments are closed.</p>
+	
+</div><!-- #comments .comments-area -->
+      
+        <hr class="featurette-divider __after_loop">
+        <nav id="nav-below" class="navigation" role="navigation">
+
+            <h3 class="assistive-text">
+              Post navigation            </h3>
+
+            <ul class="pager">
+                              <li class="previous">
+                  <span class="nav-previous">
+                    <a href="http://devhawk.net/2011/09/15/the-windows-runtime/" rel="prev"><span class="meta-nav">&larr;</span> The Windows Runtime</a>                  </span>
+                </li>
+                                            <li class="next">
+                  <span class="nav-next">
+                    <a href="http://devhawk.net/2011/10/06/my-build-talk/" rel="next">My //build Talk <span class="meta-nav">&rarr;</span></a>                  </span>
+                </li>
+                          </ul>
+
+        </nav><!-- #nav-below .navigation -->
+
+      
+      
+                </div><!--.article-container -->
+
+                  
+      <div class="span3 right tc-sidebar">
+         <div id="right" class="widget-area" role="complementary">
+                                             <aside id="text-3" class="widget widget_text"><h3 class="widget-title">Our Sponsors</h3>			<div class="textwidget"><div align=center data-type="ad" data-publisher="lqm.devhawk.site" data-zone="ron" data-format="160x600" data-tags="windows%2C%20windows%208%2C%20windows%20runtime%2C%20JavaScript%2C%20C%23%2C%20CLR%2C%20C%2B%2B"></div></div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-177"><a href="http://devhawk.net/category/architecture/" title="View all posts filed under Architecture">Architecture</a>
+</li>
+	<li class="cat-item cat-item-204"><a href="http://devhawk.net/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://devhawk.net/category/general-geekery/" title="View all posts filed under General Geekery">General Geekery</a>
+</li>
+	<li class="cat-item cat-item-252"><a href="http://devhawk.net/category/ironpython/" title="View all posts filed under IronPython">IronPython</a>
+</li>
+	<li class="cat-item cat-item-180"><a href="http://devhawk.net/category/morning-coffee/" title="View all posts filed under Morning Coffee">Morning Coffee</a>
+</li>
+	<li class="cat-item cat-item-352"><a href="http://devhawk.net/category/personal/" title="View all posts filed under Personal">Personal</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="http://devhawk.net/category/politics/" title="View all posts filed under Politics">Politics</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="http://devhawk.net/category/sports/" title="View all posts filed under Sports">Sports</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://devhawk.net/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-283"><a href="http://devhawk.net/category/windows/" title="View all posts filed under Windows">Windows</a>
+</li>
+	<li class="cat-item cat-item-357"><a href="http://devhawk.net/category/windows-runtime/" title="View all posts filed under Windows Runtime">Windows Runtime</a>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-4" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='http://devhawk.net/tag/asp-net/' class='tag-link-178' title='27 topics' style='font-size: 13.466666666667pt;'>ASP.NET</a>
+<a href='http://devhawk.net/tag/blogging/' class='tag-link-184' title='122 topics' style='font-size: 22pt;'>Blogging</a>
+<a href='http://devhawk.net/tag/c-sharp/' class='tag-link-235' title='17 topics' style='font-size: 10.933333333333pt;'>C#</a>
+<a href='http://devhawk.net/tag/college-football/' class='tag-link-194' title='10 topics' style='font-size: 8pt;'>College Football</a>
+<a href='http://devhawk.net/tag/community/' class='tag-link-213' title='81 topics' style='font-size: 19.6pt;'>Community</a>
+<a href='http://devhawk.net/tag/dasblog/' class='tag-link-303' title='12 topics' style='font-size: 8.9333333333333pt;'>dasBlog</a>
+<a href='http://devhawk.net/tag/database/' class='tag-link-214' title='13 topics' style='font-size: 9.4666666666667pt;'>Database</a>
+<a href='http://devhawk.net/tag/debugger/' class='tag-link-279' title='23 topics' style='font-size: 12.533333333333pt;'>Debugger</a>
+<a href='http://devhawk.net/tag/dlr/' class='tag-link-231' title='25 topics' style='font-size: 12.933333333333pt;'>DLR</a>
+<a href='http://devhawk.net/tag/domain-specific-languages/' class='tag-link-208' title='15 topics' style='font-size: 10.133333333333pt;'>Domain Specific Languages</a>
+<a href='http://devhawk.net/tag/dynamic-languages/' class='tag-link-217' title='12 topics' style='font-size: 8.9333333333333pt;'>Dynamic Languages</a>
+<a href='http://devhawk.net/tag/entertainment/' class='tag-link-196' title='14 topics' style='font-size: 9.8666666666667pt;'>Entertainment</a>
+<a href='http://devhawk.net/tag/etech/' class='tag-link-297' title='15 topics' style='font-size: 10.133333333333pt;'>ETech</a>
+<a href='http://devhawk.net/tag/f-sharp/' class='tag-link-198' title='51 topics' style='font-size: 17.066666666667pt;'>F#</a>
+<a href='http://devhawk.net/tag/family/' class='tag-link-179' title='33 topics' style='font-size: 14.533333333333pt;'>Family</a>
+<a href='http://devhawk.net/tag/functional-programming/' class='tag-link-202' title='18 topics' style='font-size: 11.2pt;'>Functional Programming</a>
+<a href='http://devhawk.net/tag/games/' class='tag-link-185' title='18 topics' style='font-size: 11.2pt;'>Games</a>
+<a href='http://devhawk.net/tag/hockey/' class='tag-link-215' title='33 topics' style='font-size: 14.533333333333pt;'>Hockey</a>
+<a href='http://devhawk.net/tag/ironruby/' class='tag-link-253' title='16 topics' style='font-size: 10.533333333333pt;'>IronRuby</a>
+<a href='http://devhawk.net/tag/lanugages/' class='tag-link-229' title='43 topics' style='font-size: 16pt;'>Lanugages</a>
+<a href='http://devhawk.net/tag/linq/' class='tag-link-224' title='24 topics' style='font-size: 12.8pt;'>LINQ</a>
+<a href='http://devhawk.net/tag/microsoft/' class='tag-link-232' title='31 topics' style='font-size: 14.266666666667pt;'>Microsoft</a>
+<a href='http://devhawk.net/tag/modelling/' class='tag-link-225' title='61 topics' style='font-size: 18pt;'>Modelling</a>
+<a href='http://devhawk.net/tag/movies/' class='tag-link-218' title='23 topics' style='font-size: 12.533333333333pt;'>Movies</a>
+<a href='http://devhawk.net/tag/music/' class='tag-link-248' title='20 topics' style='font-size: 11.733333333333pt;'>Music</a>
+<a href='http://devhawk.net/tag/p2p/' class='tag-link-325' title='11 topics' style='font-size: 8.5333333333333pt;'>P2P</a>
+<a href='http://devhawk.net/tag/parsing-expression-grammar/' class='tag-link-209' title='16 topics' style='font-size: 10.533333333333pt;'>Parsing Expression Grammar</a>
+<a href='http://devhawk.net/tag/powershell/' class='tag-link-230' title='40 topics' style='font-size: 15.6pt;'>PowerShell</a>
+<a href='http://devhawk.net/tag/rest/' class='tag-link-181' title='18 topics' style='font-size: 11.2pt;'>REST</a>
+<a href='http://devhawk.net/tag/ruby/' class='tag-link-190' title='23 topics' style='font-size: 12.533333333333pt;'>Ruby</a>
+<a href='http://devhawk.net/tag/service-broker/' class='tag-link-320' title='14 topics' style='font-size: 9.8666666666667pt;'>Service Broker</a>
+<a href='http://devhawk.net/tag/silverlight/' class='tag-link-200' title='20 topics' style='font-size: 11.733333333333pt;'>Silverlight</a>
+<a href='http://devhawk.net/tag/soa/' class='tag-link-183' title='94 topics' style='font-size: 20.533333333333pt;'>SOA</a>
+<a href='http://devhawk.net/tag/software-factories/' class='tag-link-195' title='11 topics' style='font-size: 8.5333333333333pt;'>Software Factories</a>
+<a href='http://devhawk.net/tag/visual-studio/' class='tag-link-187' title='20 topics' style='font-size: 11.733333333333pt;'>Visual Studio</a>
+<a href='http://devhawk.net/tag/washington-capitals/' class='tag-link-192' title='42 topics' style='font-size: 15.866666666667pt;'>Washington Capitals</a>
+<a href='http://devhawk.net/tag/wcf/' class='tag-link-313' title='31 topics' style='font-size: 14.266666666667pt;'>WCF</a>
+<a href='http://devhawk.net/tag/web-2-0/' class='tag-link-188' title='67 topics' style='font-size: 18.533333333333pt;'>Web 2.0</a>
+<a href='http://devhawk.net/tag/web-services/' class='tag-link-290' title='12 topics' style='font-size: 8.9333333333333pt;'>Web Services</a>
+<a href='http://devhawk.net/tag/wf/' class='tag-link-268' title='21 topics' style='font-size: 12pt;'>WF</a>
+<a href='http://devhawk.net/tag/windows-live/' class='tag-link-207' title='29 topics' style='font-size: 13.866666666667pt;'>Windows Live</a>
+<a href='http://devhawk.net/tag/working-at-msft/' class='tag-link-250' title='21 topics' style='font-size: 12pt;'>Working at MSFT</a>
+<a href='http://devhawk.net/tag/xbox-360/' class='tag-link-189' title='54 topics' style='font-size: 17.333333333333pt;'>Xbox 360</a>
+<a href='http://devhawk.net/tag/xml/' class='tag-link-238' title='11 topics' style='font-size: 8.5333333333333pt;'>XML</a>
+<a href='http://devhawk.net/tag/xna/' class='tag-link-193' title='15 topics' style='font-size: 10.133333333333pt;'>XNA</a></div>
+</aside>
+                                        </div><!-- #left -->
+      </div><!--.tc-sidebar -->
+
+      
+        </div><!--.row -->
+    </div><!-- .container role: main -->
+
+    
+</div><!--#main-wrapper"-->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="">
+	 				<div class="container footer-widgets ">
+				<div class="row widget-area" role="complementary">
+					
+					
+													
+							<div id="footer_one" class="span4">
+								<aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://devhawk.net/wp-login.php">Log in</a></li>
+			<li><a href="http://devhawk.net/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://devhawk.net/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</aside>							</div>
+
+						
+					
+													
+							<div id="footer_two" class="span4">
+								<aside id="text-6" class="widget widget_text"><h3 class="widget-title">Disclaimer</h3>			<div class="textwidget"><p>The information in this weblog is provided "AS IS" with no warranties, and confers no rights. This weblog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my opinion. Inappropriate comments will be deleted at the authors discretion.</p>
+
+<script type='text/javascript'>
+    function _dmBootstrap(file) { 
+        var _dma = document.createElement('script');  
+        _dma.type = 'text/javascript'; 
+        _dma.async = true;  
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+</script>
+</div>
+		</aside>							</div>
+
+						
+					
+						
+									</div><!-- .row.widget-area -->
+			</div><!--.footer-widgets -->
+		    			 <div class="colophon">
+		 	<div class="container">
+		 		<div class="row-fluid">
+				    <div class="span4 social-block pull-left"><a class="social-icon icon-feed" href="http://devhawk.net/feed/rss/" title="Suscribe to my rss feed"  ></a><a class="social-icon icon-twitter" href="http://twitter.com/devhawk" title="Follow me on Twitter" target=_blank ></a><a class="social-icon icon-facebook" href="http://facebook.com/devhawk" title="Follow me on Facebook" target=_blank ></a><a class="social-icon icon-github" href="http://github.com/devhawk" title="Follow me on Github" target=_blank ></a><a class="social-icon icon-linkedin" href="http://www.linkedin.com/in/harrypierson" title="Follow me on LinkedIn" target=_blank ></a></div><div class="span4 credits"><p> &middot; &copy; 2014 <a href="http://devhawk.net" title="DevHawk" rel="bookmark">DevHawk</a> &middot; Designed by <a href="http://www.themesandco.com/">Themes &amp; Co</a> &middot;</p></div><div class="span4 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div>      			</div><!-- .row-fluid -->
+      		</div><!-- .container -->
+      	</div><!-- .colophon -->
+    		</footer>
+	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript">
+    SyntaxHighlighter.autoloader(
+        'applescript			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAppleScript.js',
+        'actionscript3 as3		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAS3.js',
+        'bash shell				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushBash.js',
+        'coldfusion cf			http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushColdFusion.js',
+        'cpp c					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCpp.js',
+        'c# c-sharp csharp		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCSharp.js',
+        'css					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCss.js',
+        'delphi pascal pas		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDelphi.js',
+        'diff patch			    http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDiff.js',
+        'erl erlang				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushErlang.js',
+        'groovy					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushGroovy.js',
+        'java					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJava.js',
+        'jfx javafx				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJavaFX.js',
+        'js jscript javascript	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJScript.js',
+        'perl pl				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPerl.js',
+        'php					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPhp.js',
+        'text plain				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPlain.js',
+        'powershell ps          http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPowerShell.js',
+        'py python				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPython.js',
+        'ruby rails ror rb		http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushRuby.js',
+        'sass scss              http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSass.js',
+        'scala					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushScala.js',
+        'sql					http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSql.js',
+        'vb vbnet				http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushVb.js',
+        'xml xhtml xslt html	http://devhawk.net/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushXml.js'
+    );
+                        SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.all();
+</script>
+<!-- END: Syntax Highlighter ComPress -->
+
+		<div style="display:none">
+	<div class="grofile-hash-map-386a7ea815ef6decbcac9fc58b5384c5">
+	</div>
+	<div class="grofile-hash-map-cba36559ce1e470354e7627ab0e2f4b7">
+	</div>
+	<div class="grofile-hash-map-56ec7ec88534583795e9086eaec1635b">
+	</div>
+	<div class="grofile-hash-map-c118e7be6c761d4575ad543460778524">
+	</div>
+	<div class="grofile-hash-map-c3cd015eb245fd5b1a08f959f9dab3f2">
+	</div>
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201415'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Apraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/bootstrap.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TCParams = {"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","SmoothScroll":"linear"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/tc-scripts.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/holder.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/fancybox/jquery.fancybox-1.3.4.min.js'></script>
+<script type='text/javascript' src='http://devhawk.net/wp-content/themes/customizr/inc/js/retina.min.js'></script>
+
+	<script src="http://stats.wordpress.com/e-201415.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.9.2',blog:'22146351',post:'1924',tz:'-7'});
+	var load_cmc = function(){linktracker_init(22146351,1924,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	</body>
+</html>

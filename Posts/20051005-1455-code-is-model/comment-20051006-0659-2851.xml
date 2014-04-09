@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2851</wp:comment_id>
+  <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+  <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://from9till2.com</wp:comment_author_url>
+  <wp:comment_author_IP>86.138.201.98</wp:comment_author_IP>
+  <wp:comment_date>2005-10-06 06:59:18</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-06 13:59:18</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Good points Harry. I'm not a great fan of tenets though… ;-)
+
+I whole-heartily agree that an important lesson not to forget from the 'CASE-years' is that (a) we can't lose fidelity between the execution side (code) and the design representations in any modeling approach and (b) no oceans will require boiling. It is interesting though that saying exactly what is 'code' is actually getting increasingly harder to do. 
+
+To carry on your thread, it seems to me we are heading for more and more declarative style systems definitions either at the system framework level (Workflow State persistence, XAML presentation, Policy assertions) or at the DSL's for specific configuration points of a custom framework. The languages of C# and the like will always play the majority part, but it's the libraries/run-times and the like will really need the 'abstraction points' more. Perhaps it's the interface definitions (schema?) and the behaviors around those that need the most thought in terms of their expression in the model?
+
+Another thought is that what we lack is the common conventions for visualization of these 'non-imperative' styles. To be a useful abstraction it would seem to be important to be able to relate and summarize these things concisely. Text is useful (and can be very precise) but polymetric visualizations (the sort of stuff that Edward Tufte has been on about for years) seems to be a harvestful area for models. In the last 20 years we've spent a lot of time working out that a class shouldn't look like a cloud but a rectangle, for example. We did that so we could scale model bits to used from *AsASketch to *AsABluePrint. As computer system designers we obviously dont have a lot of faith in computer system tools as a reliable enabler?
+
+If we could let go of the UML mindset of a paper-printable-centric model representation that treats the run-time as a generic block then we could be making good progress for MDD. It's a note of irony of course that the MDA/MOF may be the exact opposite of what it will take to get to a next step of handling increased complexity. Maybe we should be letting go of those representations to move forward?
+
+We do seem to be hitting a wall with the level of complexity we have at the moment and that a 'Unified' approach ain't gonna cut it. IMO.
+
+PS Good 'model' refresher paper here for those interested: 
+
+http://www.bptrends.com/publicationfiles/01-04%20COL%20Dom%20Spec%20Modeling%20Frankel-Cook.pdf 
+
+- David
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

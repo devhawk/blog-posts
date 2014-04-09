@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 161</title>
+  <link>http://devhawk.net/2008/04/07/morning-coffee-161/</link>
+  <pubDate>Mon, 07 Apr 2008 16:39:41 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6575cb8c-b295-42ec-b064-483f26c21789</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>Huge perk of the new job: new hardware. I had to give up my Dell workstation but I got a <a href="http://shop.lenovo.com/SEUILibrary/controller/e/web/LenovoPortal/en_US/catalog.workflow:category.details?current-catalog-id=12F0696583E04D86B9B79B0FEC01C087&amp;current-category-id=1F106632CBC24D2CBD23DF19644D3694">Lenovo T61p dual core widescreen laptop</a>, an <a href="http://h10010.www1.hp.com/wwpc/us/en/en/WF25a/12454-12454-64287-321860-3328898-3459240.html">HP dc7800 dual monitor quad core desktop</a> and a <a href="http://www.polycom.com/usa/en/products/voice/desktop/cx/communicator_cx700.html">Polycom CX700 IP phone</a>. I'm really digging the Lenovo's integrated fingerprint reader - no more password login - but I'm most impressed with their <a href="http://www-307.ibm.com/pc/support/site.wss/document.do?lndocid=TVSU-UPDATE">integrated driver management software</a>. Sure beats the heck out of hunting for dozens of updated drivers all over the place like most vendors for you to. </li><li>Minor downside to all my new toys: I spent most of my first week on the job installing and configuring said new toys. </li><li>Caps will face the Flyers in the first round of the playoffs which <a href="http://blog.washingtonpost.com/capitalsinsider/2008/04/playoff_schedule.html">starts Friday</a>. I have a feeling that I'll be feeling poorly Friday around 3pm and have to head home early. :) </li></ul><p>DyLang Stuff</p><ul><li>Apparently, Michael Foord isn't getting enough exposure on this blog. :) <a href="http://devhawk.net/CommentView,guid,7d25906b-cd4d-409c-aeeb-e7455c6260aa.aspx#commentstart">He left a comment</a> to remind me to mention the <a href="http://ironpython-urls.blogspot.com/">IronPython URLs link blog</a> he writes along with Mark Rees and Seo Sanghyeon. </li><li>Speaking of Michael, his employer Resolver Systems just launched a new product: <a href="http://www.resolversystems.com/products/resolver-one-quant.php">Resolver One Quant</a>. </li><li>Still speaking of Michael, he's quoted in the InternetNews article <a href="http://www.internetnews.com/dev-news/article.php/3738856 ">Python Fans Take Aim at the Enterprise</a>. </li><li>My teammate Jimmy Schementi <a href="http://blog.jimmy.schementi.com/2008/04/silverlight-on-rails.html">posts a preview</a> of his spare time project "Silverlight on Rails". This RoR plugin lets you declaratively specify if you want your RoR controller code to be accessed remotely via AJAX and run on the server or if you want that code to be downloaded to the client and run in SilverLight. Very cool stuff. </li></ul><p>Other Stuff</p><ul><li>Don Syme provides <a href="http://blogs.msdn.com/dsyme/archive/2008/04/04/tackling-the-f-productization.aspx">some insight</a> into the F# producization process. There's going to be an update to the "Research release" later this month and a CTP of the "Product release" later this summer (Brian McNamara has the <a href="http://lorgonblog.spaces.live.com/blog/cns!701679AD17B6D310!160.entry">CTP details</a>). I am looking forward to these releases, though I'll probably be too busy w/ IPy to experiment much with them. </li><li>Speaking of F#, Matt Podwysocki continues his adventures with F# with a look at tuples, records and discriminated unions. Of the three, I find discriminated unions the most interesting since there isn't anything like it in other languages I've used. </li><li><a href="http://blogs.msdn.com/agile/archive/2008/04/04/unity-di-container-1-0-shipped.aspx">Gregori</a> and <a href="http://www.tavaresstudios.com/Blog/post.aspx?id=f3b5c7a9-feb5-4695-b5f3-1b70b0b87719">Chris</a> both announce the release of <a href="http://www.codeplex.com/Release/ProjectReleases.aspx?ProjectName=unity&amp;ReleaseId=12276">Unity 1.0</a>. Congrats guys! But if I don't have time to hack around with the latest F# release, you can imagine I won't be getting to Unity any time soon... </li><li>Jeff Atwood <a href="http://www.codinghorror.com/blog/archives/001091.html">recommends</a> you build your application UI first. Furthermore, he does a good job selling the value of paper prototyping as well as introducing the concept of PowerPoint prototyping. Money quote: "You don't want something too powerful." </li><li>Via <a href="http://www.liveside.net/blogs/opinion/archive/2008/04/07/perspectives-james-hamilton-on-containers-condos-and-the-cloud.aspx">LiveSide</a> I discovered <a href="http://perspectives.mvdirona.com/default.aspx">James Hamilton's blog</a>. Normally, hardware infrastructure isn't really my bag, but I find his ideas around <a href="http://research.microsoft.com/~JamesRH/TalksAndPapers/JamesRH_CIDR.doc">using ISO standard shipping containers as modular data center building blocks</a> fascinating. For example, check out <a href="http://perspectives.mvdirona.com/2008/04/06/DiseconomiesOfScale.aspx">this post</a> that suggests sticking modular data centers in condos would be cheaper than building data centers!<a href="http://perspectives.mvdirona.com/SyndicationService.asmx/GetRss">Subscribed</a>. </li><li>Speaking of ISO, you may have heard Open Office XML was <a href="http://www.microsoft.com/presspass/press/2008/apr08/04-01OpenXMLVotePR.mspx">ratified as an ISO standard</a>. Obviously, there was a lot of controversy around this, but Miguel de Icaza lists of what he considers <a href="http://tirania.org/blog/archive/2008/Apr-02.html">major community wins</a> from the standardization process. Anything that "pushed Microsoft into more open directions" is a good thing IMO. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1132</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-04-07 09:39:41</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-04-07 16:39:41</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-161</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="dependency-injection"><![CDATA[Dependency Injection]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="infrastructure"><![CDATA[infrastructure]]></category>
+  <category domain="post_tag" nicename="ironruby"><![CDATA[IronRuby]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="office"><![CDATA[Office]]></category>
+  <category domain="post_tag" nicename="ux"><![CDATA[UX]]></category>
+  <category domain="post_tag" nicename="washington-capitals"><![CDATA[Washington Capitals]]></category>
+  <category domain="post_tag" nicename="working-at-msft"><![CDATA[Working at MSFT]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/04/07/Morning+Coffee+161]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6575cb8c-b295-42ec-b064-483f26c21789]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+161]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2057</wp:comment_id>
+    <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+    <wp:comment_author_email>bkelly.ie@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://barrkel.blogspot.com/</wp:comment_author_url>
+    <wp:comment_author_IP>78.86.121.60</wp:comment_author_IP>
+    <wp:comment_date>2008-04-07 13:17:10</wp:comment_date>
+    <wp:comment_date_gmt>2008-04-07 20:17:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Never used anything like discriminated unions? Did you never use Pascal? It uses a 'case' statement-like declaration inside the record definition to define the "variant record", as Pascal calls it.
+
+The equivalent, manually built out of union and struct, is common practice in C too, when OO-style behaviour needs to be modelled.
+
+Integrating them with pattern matching is important too, of course, and it's mainly functional languages that have done that.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2058</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>24.16.13.155</wp:comment_author_IP>
+    <wp:comment_date>2008-04-07 18:15:08</wp:comment_date>
+    <wp:comment_date_gmt>2008-04-08 01:15:08</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[My Pascal days are long behind me. Unions are sort of similar, but they aren't type safe and - as you point out - it's the integration with pattern matching that makes the discriminated unions so powerful.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

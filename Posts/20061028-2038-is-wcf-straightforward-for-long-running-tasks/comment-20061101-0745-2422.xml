@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2422</wp:comment_id>
+  <wp:comment_author><![CDATA[Robert W. Anderson]]></wp:comment_author>
+  <wp:comment_author_email>robert@cairene.net</wp:comment_author_email>
+  <wp:comment_author_url>http://et.cairene.net</wp:comment_author_url>
+  <wp:comment_author_IP>63.195.121.126</wp:comment_author_IP>
+  <wp:comment_date>2006-11-01 07:45:11</wp:comment_date>
+  <wp:comment_date_gmt>2006-11-01 14:45:11</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[You (or your dad? ) make a good point about WCF's full-duplex capability.  I didn't mean to give the impression that full-duplex patterns in WCF are perfect--just that it is easier to expose Web Service functionality from a client application using WCF.   
+
+It sounds like you have gone further down the WCF road than we have (currently we are architecting the next major version of our Digipede network which will include replacing our current WSE2 Web Services with WCF).  Our plan to support full-duplex is to build on top of two half-duplex channels.  Of course, that puts the burden on us to deal with restart issues, but as you pointed out, we would have that burden with full-duplex channels anyway.  
+
+For various reasons we haven’t looked seriously at Service Broker for our product, though it looks like it handles these issues in a more straightforward manner.
+
+Thanks for taking the time to comment,
+
+Robert
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

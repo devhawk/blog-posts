@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Play Ball Script in F#</title>
+  <link>http://devhawk.net/2008/03/04/play-ball-script-in-f/</link>
+  <pubDate>Tue, 04 Mar 2008 12:58:02 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a16f6c80-3bca-44bc-b679-7c0f8e29ca33</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Scott Hanselman <a href="http://www.hanselman.com/blog/2008WindowScriptingGamesAdvancedPowerShellEvent7.aspx">wanted</a> an F# version of this <a href="http://www.microsoft.com/technet/scriptcenter/funzone/games/games08/aevent7.mspx">Play Ball!</a> round-robin scheduling PowerShell script. Here's what I came up with:</p><pre class="brush: fsharp">
+let randomize list = 
+    let random = new System.Random()
+    let list'=  
+        list  
+        |&gt; List.map (fun i -&gt; (random.Next(), i))
+        |&gt; List.sort (fun (i1,_) (i2,_) -&gt; Int32.compare i1 i2)  
+    let (_,list'') = List.unzip list' 
+    list'' 
+
+let rec makeGames teams = 
+    match teams with
+    | first :: rest -&gt;
+        [for team in rest -&gt; (first, team)] @ (makeGames rest)
+    | [] -&gt;  []
+
+let teams = ['a'..'f']
+let games = teams |&gt; makeGames |&gt; randomize
+</pre><p>MakeGames uses pattern matching to see if the list of teams is empty or not. If the list is empty, we simply return an empty list of games. If not, we use F#'s list comprehension syntax to generate a list of games between the first team in the list and each of the remaining teams. This list is combined (via the '@' operator) with the results of calling makeGames recursively. This generates the un-randomized list of games. </p><p>Once we have the list of games, we need to randomize it. I ported the randomize function above over from a <a href="http://wiki.trapexit.erlang-consulting.com/RandomShuffle">version I found in Erlang</a>. Basically, it attaches a random number to each element in the list to be randomized, sorts by those randomly generated numbers, then throws the numbers away and returns the just the randomized list. Note, the Erlang version I referenced runs randomize log(length of list) times to ensure a fair shuffle, but I thought once would be enough for this simple script.</p><p>(Note to F# team: perhaps List.randomize should be a part of the standard F# library?)</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1115</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-03-04 12:58:02</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-03-04 12:58:02</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">play-ball-script-in-f</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="post_tag" nicename="functional-programming"><![CDATA[Functional Programming]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a16f6c80-3bca-44bc-b679-7c0f8e29ca33]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Play+Ball+Script+In+F]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/03/04/Play+Ball+Script+In+F]]></wp:meta_value>
+  </wp:postmeta>
+</item>

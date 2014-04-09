@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2852</wp:comment_id>
+  <wp:comment_author><![CDATA[Alan Cameron Wills]]></wp:comment_author>
+  <wp:comment_author_email>awills@microsoft.com</wp:comment_author_email>
+  <wp:comment_author_url>http://blogs.msdn.com/alan_cameron_wills/</wp:comment_author_url>
+  <wp:comment_author_IP>213.199.128.147</wp:comment_author_IP>
+  <wp:comment_date>2005-10-06 09:41:21</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-06 16:41:21</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Good stuff.
+
+"Models are Precise" - well:
+
+(a) There is a use for imprecise models. When I'm sketching an architecture on the corner of a whiteboard, I don't need a precise semantics: I need a notation familiar enough that I can convey and discuss my ideas. What's familiar might depend on the business context and the level of implementation detail I'm talking at - flight paths, tube map, org charts, or maybe sequence charts.
+
+(b) Where we do use models for precise purposes - generating code or configurations or whatever - it is useful if the precise notation is related to, and can easily degenerate into, the familiar imprecise form. So that I can quickly sketch an impression of what I want, and later fix up the detail to make it work.
+
+Models are Abstract - no, this wasn't one of your headers, but I think it nearly was! Abstract means leaving stuff out; the power of it is that it lets me squeeze big ideas into my small brain. There's less information in an abstraction.  For me, this is the essential thing that makes it a "model": it leaves out information.
+
+There are several distinct ways a model can be abstract - i.e. leave out information:
+
+ 1. Leave out unvarying assumptions. 
+   1a   C is an abstraction of ASM because it's assumed your code follows some conventions -- for example, keeping stuff on the stack while calling a subroutine. By restricting ourselves to those assumptions, we can read the code more easily; the information is put back by the compiler.  Of course, a great benefit is that we can 'put back' different variants of the left-out stuff, to work atop different platforms.
+
+   1b   A DSL that drives a framework - for example to configure a mobile phone or a watch - is abstract because it doesn't include the stuff that's the same every time: the basic structure of the phones.  In the DSL, we omit the information about those assumptions, and the generators and execution framework put it information back.
+
+ 2. Separation of concerns.
+    A model that's about the sequence of pages in a GUI can leave out stuff about the appearance of the pages. The appearance can be dealt with in a separate language elsewhere. Here, the separate models leave out the information dealt with elsewhere, and the left-out information is put back when the different aspects or viewpoints are composed (by whatever mechanism).
+
+(I suppose that really (1) is a particular case of (2) -- the place where you choose what platform you want to implement on is a separate language, and the choice of compiler is the composition mechanism.)
+
+ 3. Indeterminacy.
+    The model is abstract because some of the information hasn't been determined or decided yet; or is maybe different every time. So for example:
+   - an HTML page specifies a sequence of words, but it rarely defines exactly how they're arranged on a screen -- that depends on the width of the window etc.
+   - programs in C# specify a sequence of behavior, but don't specify the exact timings of events; by contrast, MIDI defines the exact timings of the musical notes.
+   - a test script defines a result (like "out*out==in", or "X less than 12") without saying how you might achieve it, nor even exactly what the result must be -- just some conditions it must fulfill.  
+   - a specification - whether it's formal or informal, a slide show or a test script, or a set of example instances, or just a list of bullet points - is a model. If written well (!) it allows you to discuss the system or solution, without including all the fine detail.
+
+To me, the indeterminate kind of abstraction is a very important kind of model in software engineering. It allows you to talk sensibly about things without having decided everything yet.  This is an essential, because you can't decide everything all at once.  
+
+Programming languages aren't terribly good at this - they tend only to make sense once all the decisions have been made.  While we're half-way through a design, I want something that helps me think and talk about half-formed stuff. When working more towards the code, I want things like sequence diagrams etc; when more at the business end, I want languages appropriate to the kind of business domain; and the more I work in a particular domain, the more I want languages attuned to that domain. But again: if it's only good at expressing finished ideas, it's a kind of programming language; for me, a real *modeling* language is one that helps me while I'm developing the ideas.
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2512</wp:comment_id>
+  <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+  <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.from9till2.com</wp:comment_author_url>
+  <wp:comment_author_IP>81.151.38.153</wp:comment_author_IP>
+  <wp:comment_date>2007-05-26 09:40:04</wp:comment_date>
+  <wp:comment_date_gmt>2007-05-26 16:40:04</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[To save valuable internet space, I'll just comment here - no one wants the tubes blocked any more than they are:
+
+1. 'I think it doesn't really matter how the rest of the world gravitates'. Ooo. Three words Harry, in, ter and op. The nearest thing I had to a point was that if your interpretation of REST is so very different to mine (it isn't, but lets go along with this), then aren't we making harder to 'walk up and use?'? The world is full of cutting-edge inspired ideas that no-one now has a clue on how to maintain (or even talk too).
+
+Imagine if people rush to REST and make it an overnight/14 year success with PUTs/DELETE's on some Entity driven crusade to emulate WebDAV with everything they can find (or APP gData styling it all), then they may find your entityless system harder to interop with (or even to grok) - especially where it's so early in have some formal description of what your valid 'interface' (states) are?
+
+2. Agreed about transaction/bizprocess thing - that was a 11 keystroke spelling error that I must stop doing - the keys are right next to each other though.
+
+3. We need something like Godwins law, i.e. when anyone ever pulls out a Fielding Disseration link then all bets are off... ;-)
+
+One important point that I forgot before is related to what Dare said about Mike Champions WS-* vibe, are you really *sure* you want to use a Web protocol for something that might not be actually used on the Web? Anyway, typing too much, I should blog at home...]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

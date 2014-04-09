@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2021</wp:comment_id>
+  <wp:comment_author><![CDATA[ToolmakerSteve]]></wp:comment_author>
+  <wp:comment_author_email>toolmakersteve98@shawstudio.com</wp:comment_author_email>
+  <wp:comment_author_url>http://toolmakersteve.com</wp:comment_author_url>
+  <wp:comment_author_IP>24.10.93.210</wp:comment_author_IP>
+  <wp:comment_date>2008-03-14 15:07:24</wp:comment_date>
+  <wp:comment_date_gmt>2008-03-14 22:07:24</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Another comment on naming:
+Being new to F#, and active pattern matching,
+it took me a long time to understand exactly how (|TK|_|) works, even after reading The Whitepaper you linked to [Thanks for that link -- I would not have grokked active patterns without it].
+
+It would have been somewhat easier if something like "remainder" or "unconsumed" had been used instead of "input", for the RESULT of each rule. That would have clued me in that the active pattern syntax is not referring to a left hand side (input param) term here, but a right hand side (result).
+
+Here is my version of EndOfLine [replace my "indent-dots" with spacing]:
+
+let (|EndOfLine|_|) = function
+. | TK "rn" (unconsumed) -> Some(unconsumed)
+. | TK "n" (unconsumed) -> Some(unconsumed)
+. | TK "r" (unconsumed) -> Some(unconsumed)
+. | _ -> None
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

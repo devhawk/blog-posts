@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2098</wp:comment_id>
+  <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+  <wp:comment_author_email>barry.j.kelly@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://barrkel.blogspot.com/</wp:comment_author_url>
+  <wp:comment_author_IP>143.186.50.11</wp:comment_author_IP>
+  <wp:comment_date>2008-07-30 12:33:42</wp:comment_date>
+  <wp:comment_date_gmt>2008-07-30 19:33:42</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I think programmers would understand monads better if they were described as a design pattern - anything that follows the monad rules is a monad, effectively.
+
+Monads are that design pattern that permits a library designer to insert himself between a user's data and the actions a user wants to apply to that data. Rather than acting directly on data, the data is stuffed into a wrapper object, and the action desired is passed as an argument; the monad then returns a new monad that has logically applied the desired action to the wrapped-up data. The whole point behind the pattern is that the monad can subtly alter the action depending on the purpose of the monad.
+
+For a List monad, it's going to apply the operation not just to one element, but to every element in the list. For a Mabye monad, it's only going to apply the operation if the wrapper actually holds any data, and not if otherwise. For an IO monad, it's going to return a value which logically contains a set of imperative instructions that, when finally interpreted after being returned by the main function, will perform operations with side-effects.
+
+The basic *design pattern* for them all is a wrapper object that takes in functions and returns a new wrapper that has logically applied the function to the contained data.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

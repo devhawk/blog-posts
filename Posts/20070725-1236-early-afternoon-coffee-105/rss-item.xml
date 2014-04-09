@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Early Afternoon Coffee 105</title>
+  <link>http://devhawk.net/2007/07/25/early-afternoon-coffee-105/</link>
+  <pubDate>Wed, 25 Jul 2007 19:36:34 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://16ef23e8-0971-40b5-adb7-9a240562f474</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>My two sessions on Rome went very well. Sort of like what I did @ TechEd last month, but with a bit more kimono opening since it was an internal audience. Best things about doing these types of talks is the questions and post-session conversation. I've missed that since moving over to MSIT.</li><li>Late last week, I got my phone switched over to the new Office Communications Server 2007 beta. In my old office, I used the <a href="http://office.microsoft.com/en-us/communicator/HA102027031033.aspx#2">Office Communicator PBX phone integration features</a> extensively. However, when we moved we got new IP phones that didn't integrate with Communicator. So when a chance to get on the beta came along, I jumped. I'll let you know my impressions after a few weeks, in the meantime you can <a href="http://blogs.technet.com/markdea/archive/2007/07/20/28-days-later.aspx">read about Mark Deakin's experience</a>. </li><li>Matevz Gacnik <a href="http://www.request-response.com/blog/PermaLink,guid,bca19fa8-7ba8-43d8-873e-3a8cf03335cb.aspx">figures out</a> how to build a transactional web service that interacts with the new transactional file system in Vista and Server 08. Interesting, but personally I don't believe in using transactional web services. The whole point of service orientation is to <em>reduce</em> the coupling between services. Trying two services (technically, a service consumer and provider) together in an atomic transaction seems like going in the wrong direction. Still, good on Matevz for digging into the transactional file system. </li><li>Udi Dahan gives us <a href="http://udidahan.weblogs.us/2007/07/19/6-simple-steps-to-becoming-a-top-it-consultant/">6 simple steps</a> to being a "top" IT consultant. I notice that getting well known, speaking and publishing are at the top of the list but actually being good at what you're well known for comes in at #5 on the list. I'm sure Udi thinks that's implicit in becoming a "top" consultant, but I'm not so sure. </li><li>Pat Helland thinks <a href="http://blogs.msdn.com/pathelland/archive/2007/07/23/normalization-is-for-sissies.aspx">Normalization is for Sissies</a>. Slide #6 has the key take away: "For God's Sake, Don't Normalize Immutable Data". </li><li>Larry O'Brien <a href="http://www.knowing.net/PermaLink,guid,df0a45e4-0add-4598-9ac7-409774232094.aspx">bashes</a> the new <strike>binary</strike> efficient XML <a href="http://www.w3.org/XML/EXI/">working group</a> and <a href="http://www.w3.org/XML/EXI/">working draft</a>. I agree 100% w/ Larry. These aren't the droids we're looking for. </li><li>John Evdemon <a href="http://blogs.msdn.com/jevdemon/archive/2007/07/20/soa-in-the-real-world-now-available.aspx">points to</a> a new e-book from my old team called <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=cb2a8e49-bb3b-49b6-b296-a2dfbbe042d8&amp;displaylang=en">SOA in the Real World</a>. I flipped thru it (figuratively) and it appears to drill into the <a href="http://msdn2.microsoft.com/en-us/architecture/aa699418.aspx">Foundations of Solution Architecture</a> as well as provide real-world case studdies for each of the <strike>pillars</strike> recurring logical capabilities. Need to give it a deeper read.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1011</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-07-25 12:36:34</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-07-25 19:36:34</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">early-afternoon-coffee-105</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="database"><![CDATA[Database]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="presentation"><![CDATA[Presentation]]></category>
+  <category domain="post_tag" nicename="rome"><![CDATA[Rome]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <category domain="post_tag" nicename="xml"><![CDATA[XML]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[16ef23e8-0971-40b5-adb7-9a240562f474]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Early+Afternoon+Coffee+105]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/07/25/Early+Afternoon+Coffee+105]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2550</wp:comment_id>
+    <wp:comment_author><![CDATA[John Heintz]]></wp:comment_author>
+    <wp:comment_author_email>john.heintz@newaspects.com</wp:comment_author_email>
+    <wp:comment_author_url>http://johnheintz.blogspot.com/2007/07/integration-forethought-o</wp:comment_author_url>
+    <wp:comment_author_IP>70.112.219.249</wp:comment_author_IP>
+    <wp:comment_date>2007-07-25 20:40:02</wp:comment_date>
+    <wp:comment_date_gmt>2007-07-26 03:40:02</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Interesting reference to "SOA in the Real World".
+
+I haven't read it yet, but I think the summary is telling: forethought over afterthought to achieve integration.
+
+My reaction is to choose a REST/Web architecture and design for serendipity...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2551</wp:comment_id>
+    <wp:comment_author><![CDATA[J Perseo]]></wp:comment_author>
+    <wp:comment_author_email>jperseo@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://N/A</wp:comment_author_url>
+    <wp:comment_author_IP>72.245.126.230</wp:comment_author_IP>
+    <wp:comment_date>2007-07-26 08:30:44</wp:comment_date>
+    <wp:comment_date_gmt>2007-07-26 15:30:44</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Re: New XML draft
+
+Here we go again ...
+
+A long time ago in a galaxy far far away during the tech boom ...
+I worked at a little company called XML Solutions that was made up of 1/2 of the XML 1.0 board.
+
+Granted, I was a sys admin and hardly dealt with the language unless it was getting the Tomcat ISAPI to work with it, but I digress ...
+
+The problem that I forsee with this course of action is thus :
+
+- By restricting / reclassifying the XML, It has the effect of proprietizing XML. And of course, XML was created because companies couldn't agree on standards in the first place.
+
+- By adding the Binary Elements to XML, the only good I could see coming from this is *possibly* additional layers / levels of security of data within the XML Structure.
+
+One of the earliest issues / problems that my former company had was that potential clients / customers would demand that their version be unique to them. For Example: AmEx demanded certain portions of the XML structure be included while others were dis-cluded (?) resulting in a slightly proprietary new AMEXML .
+
+Several others complained about the inherant openness of XML and how to secure the information in transit. This lead to a high utilization of EDI as more or less a transport layer or encryption of XML. This brought on a small boom for products such as XEDI (Pronounced Zee-Tea) to perform the EDI <-> XML translations.
+
+Whoopie. Back to the present.
+
+So now they want to re-invent the wheel so that binary code can be brought through a structured text file all over again. I think that people have "been there / done that". It's called UUENCODE. Get used to it.
+
+The problem itself seems to lie in that no-one has noticed that a similar company generic structure and way of allowing standard information passing and notification has been around for years in a slightly modified form. Is anyone familiar with a SNMP Walker ? Has anyone addressed the issues with transporting information / transforming data within the confines of SNMP yet ?
+
+I don't think so, but then again, a Pessimist is never disappointed ;-)
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2552</wp:comment_id>
+    <wp:comment_author><![CDATA[Udi Dahan - The Software Simplis]]></wp:comment_author>
+    <wp:comment_author_email>blog@UdiDahan.com</wp:comment_author_email>
+    <wp:comment_author_url>http://udidahan.weblogs.us</wp:comment_author_url>
+    <wp:comment_author_IP>84.229.95.14</wp:comment_author_IP>
+    <wp:comment_date>2007-07-28 14:17:07</wp:comment_date>
+    <wp:comment_date_gmt>2007-07-28 21:17:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA["but actually being good at what you're well known for comes in at #5 on the list. I'm sure Udi thinks that's implicit in becoming a "top" consultant, but I'm not so sure."
+
+I think that one of the key differences between those who are perceived as top IT consultants and others who are knowledgable, valuable consultants is the exposure. This is often "the hard part" for those wanting to move up and make "the big bucks" :)
+
+I think that being good is practically a prerequisite for anyone actually making a living from consulting.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

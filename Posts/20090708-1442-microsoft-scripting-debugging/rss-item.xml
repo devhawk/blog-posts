@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Microsoft.Scripting.Debugging</title>
+  <link>http://devhawk.net/2009/07/08/microsoft-scripting-debugging/</link>
+  <pubDate>Wed, 08 Jul 2009 14:42:36 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://d6791f97-1e11-4a64-959e-0fa0cb1bbb31</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>If you’ve compiled IronPython from source recently, you may have noticed a new DLL: <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#908451">Microsoft.Scripting.Debugging</a>. This DLL contains a lightweight, non-blocking debugger for DLR based languages that is going to enable both new scenarios as well as better compatibility with CPython. Needless to say, we’re very excited about it.</p><p>When I was actively working on my <a href="http://devhawk.net/CategoryView,category,Debugger.aspx">ipydbg series</a>, I got several emails asking about using it in an embedded scripting scenario. Unfortunately, the ipydbg approach doesn’t work very well in the embedded scripting scenario. ipydbg uses <a href="http://msdn.microsoft.com/en-us/library/ms230588.aspx">ICorDebug</a> and friends, which completely blocks the application being debugged. This means, your debugger <em>has</em> to run in a separate process. So either you run your debugger in your host app process and your scripts in a separate process or you run your debugger in a separate process debugging both the scripts and the host app. Neither option is very appealing. </p><p>Now with the DLR Debugger, you can run all three components in the same process. I think of the DLR debugger as a “cooperative” debugger in much the same way that Windows 3.x supported <a href="http://en.wikipedia.org/wiki/Cooperative_multitasking#Cooperative_multitasking.2Ftime-sharing">cooperative multitasking</a>. It’s also known as trace or traceback debugging. Code being debugged yields to the debugger at set points during its execution. The debugger then does whatever it wants, including showing UI and/or letting the developer inspect or modify program state. When the debugger returns, execution of the original code continues until the next set point wherein the process repeats itself.</p><p>The primary point of entry for the DLR Debugger is the <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#908446">DebugContext class</a>. Notable there is the TransformLambda method, which takes a normal DLR LambdaExpression and transforms it into a cooperatively debugged LambdaExpression. LambdaExpressions can contain DebugInfoExpressions – typically we insert them at the start of every Python code line as well as one at the end of the function. When we run IronPython in debug mode (i.e. –D), those get turned into sequence points <a href="http://devhawk.net/2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint.aspx">as we saw</a> back when I was working on ipydbg. When using the DLR Debugger, those DebugInfoExpressions are transformed into calls out to <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#908429">IDebugCallback</a>.OnDebugEvent. The DLR Debugger implements the IDebugCallback interface on the <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#908413">TracePipeline</a> class which also implements <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#908414">ITracePipeline</a>. In OnDebugEvent, TracePipeline calls out to an <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#908415">ITraceCallback</a> instance you provide. The extra layer of indirection means you can change your traceback handler without having to regenerate the debuggable version of your functions. </p><p>Of course, we hide all this DLR Debugger goo from you in IronPython. Python already has a mechanism for doing traceback debugging – <a href="http://docs.python.org/library/sys.html#sys.settrace">sys.settrace</a>. Our ITraceCallback, <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#922366">PythonTracebackListener</a>, wrapps the DLR Debugger API to expose the sys.settrace API. That makes this feature a twofer – new capability for IronPython + better compatibility with CPython. Instead of needing a custom tool (i.e. ipydbg) you can now use <a href="http://docs.python.org/library/pdb.html">PDB</a> from the standard Python library (modulo bugs in our implementation). I haven’t been working on ipydbg recently since you’ll be able to use PDB soon enough.</p><p>For those hosting IronPython, we also have a couple of static extension methods in our hosting API (look for the SetTrace functions in <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/56115#490056">IronPythonHostingPython.cs</a>). These are simply wrappers around sys.settrace, so it has the same API regardless if you access it from inside IronPython or from the hosting API. But if you’re hosting IronPython in a C# application, those extension methods are very convenient to use.</p><p>This debugger will be in our regular releases of IronPython as of 2.6 beta 2 which is <a href="http://ironpython.codeplex.com/Wiki/View.aspx?title=2.6%20Release%20Plan">scheduled</a> to drop at the end of this month. For those who just can’t wait, it’s available as source code starting with <a href="This code is in our daily source drops as of yesterday. ">yesterday’s changeset</a>. Please let us know what you think!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1269</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-07-08 14:42:36</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-07-08 14:42:36</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">microsoft-scripting-debugging</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="debugger"><![CDATA[Debugger]]></category>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[d6791f97-1e11-4a64-959e-0fa0cb1bbb31]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[MicrosoftScriptingDebugging]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/07/08/MicrosoftScriptingDebugging]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2222</wp:comment_id>
+    <wp:comment_author><![CDATA[Kevin Hazzard]]></wp:comment_author>
+    <wp:comment_author_email>kevin@gotnet.biz</wp:comment_author_email>
+    <wp:comment_author_url>http://www,gotnet.biz/Blog</wp:comment_author_url>
+    <wp:comment_author_IP>75.199.100.123</wp:comment_author_IP>
+    <wp:comment_date>2009-07-08 16:11:56</wp:comment_date>
+    <wp:comment_date_gmt>2009-07-08 23:11:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[This is awesome, Harry. I've been wanting this is a long time. I do script embedding for my applications most of the time. This will be a great help. You folks on the DLR team are the best and brightest inside Microsoft. Keep it up!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2223</wp:comment_id>
+    <wp:comment_author><![CDATA[Lukas]]></wp:comment_author>
+    <wp:comment_author_email>cenovsky@bakalari.cz</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>213.211.41.223</wp:comment_author_IP>
+    <wp:comment_date>2009-07-09 01:29:55</wp:comment_date>
+    <wp:comment_date_gmt>2009-07-09 08:29:55</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Cool!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2224</wp:comment_id>
+    <wp:comment_author><![CDATA[Jeff Brown]]></wp:comment_author>
+    <wp:comment_author_email>jeff.brown@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blog.bits-in-motion.com/</wp:comment_author_url>
+    <wp:comment_author_IP>24.4.150.25</wp:comment_author_IP>
+    <wp:comment_date>2009-07-18 22:46:43</wp:comment_date>
+    <wp:comment_date_gmt>2009-07-19 05:46:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Very cool!
+
+I was just adding support to Gallio for running RSpec tests with IronRuby and was wondering what the DLR debugging story was eventually going to look like.
+
+BTW, I'm quite happy integrating one or more IronPython supported testing frameworks too, if you have some to recommend.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

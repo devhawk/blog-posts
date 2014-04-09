@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2620</wp:comment_id>
+  <wp:comment_author><![CDATA[Toby Considine]]></wp:comment_author>
+  <wp:comment_author_email>tobiy.considine@fac.unc.edu</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-06-11 07:49:48</wp:comment_date>
+  <wp:comment_date_gmt>2004-06-11 14:49:48</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[****
+ I don't think architects are just senior developers. It's a different skill - one that I want to see broad knowledge of, but still different. Architects work primarily in models, patterns and process, not code.
+****
+I think this is correct, but it implies several different sub-tracks (security has the same issues)
+
+1) How should I as an architect think.  I think the cabana discussions diid a great job on this
+2) So, I've built a lot of monolithic apps, nw how should I really think about systems.  In many ways, this was the focus of the Metropolis series
+3) I'm a code jockey and I want to stay one.  How do I recognize architecture isses - and come to aknowlege when I need to pull the chord and stop the train until architecture is dealt with.  This might be symptoms of an un-architected solution, you know you need an architecture if, . . .
+4) Liberal education in what is architecture, what is program design, and how do you tell the difference.  A good principal is it is better to have an architecture and do simple(r) things than to require virtuoso code that does the impossible.
+
+Each of these might have high or low level tracks, but none is about a lot of code.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

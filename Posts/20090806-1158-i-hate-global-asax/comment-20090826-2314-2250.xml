@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2250</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>71.231.42.80</wp:comment_author_IP>
+  <wp:comment_date>2009-08-26 23:14:26</wp:comment_date>
+  <wp:comment_date_gmt>2009-08-27 06:14:26</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[@Dody, I was leaning that way as well.
+
+@Joe, I don't see why you couldn't setup the route table in HttpApplication::Init. And since Init is virtual, that would solve the App_Start reflection problem. However, I'm not sure how to inject IronPython into the ASP.NET pipeline that early or how to configure an HttpApplication subclass without using global.asax. I'll ask around with my friends on the ASP.NET team though. Thanks for the suggestion!]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

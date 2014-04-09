@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2854</wp:comment_id>
+  <wp:comment_author><![CDATA[Arnon Rotem-Gal-Oz]]></wp:comment_author>
+  <wp:comment_author_email>arnon@rgoarchitects.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.rgoarchitects.com</wp:comment_author_url>
+  <wp:comment_author_IP>85.250.250.77</wp:comment_author_IP>
+  <wp:comment_date>2005-10-06 14:15:46</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-06 21:15:46</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[[also appears in my blog]
+Hi Harry,
+
+While I tend to agree that there is a place for precise formal models that can be transformed easily to lower levels. 
+I would also like to argue that 
+	○ I think that imprecise models are also very useful, since at different points in time during the development you cannot fully specify all the finest details (even if for the "current" level of abstraction) esp. since most projects these days are iterative.
+	○ Which brings me to the next point - for imprecise models - I don't necessarily think that there's a need to keep (all of) them updated during the development life-cycle. The high-level designs can be replaces by detailed designs and they in turn can be replaces with the code itself - good code explains itself beautifully :) . 
+	○ You should carefully weight the ROI for creating such a precise model. For example I happened to work on a large (hundreds of man-year) project where the initial thought was to use a tool (Vitech's Core (http://www.vtcorp.com/overview.html) ) to for requirements analysis. The benefit was that (if done right) the model created can be "run" using their built-in simulator. After spending more than half a year (of a rather large team) we finally decided to drop this precise model for a much less precise model of use-cases which allow for a varying level of abstraction. It should be noted though, that (cross-subsystems) use cases are later refined into a DSL  which is actively used for generating cross-subsystem interfaces and simulate  missing system during  integrations. 
+	○ Another point from the former example is on the timing of requiring the precision. Modeling tools should allow several levels of precision, since in earlier stages you (usually) cannot determine all the bits and bytes that will allow for a "deterministic transformation" 
+	 
+	
+Just my 2 cents 
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

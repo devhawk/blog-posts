@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Architect MVPs</title>
+  <link>http://devhawk.net/2004/10/12/architect-mvps/</link>
+  <pubDate>Tue, 12 Oct 2004 09:42:31 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://b31d2f8f-f299-41f9-9ede-a5f925f5b32d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>In addition to event activities, we also take advantage of SAF to have side meetings with customers. Yesterday, I spent an hour discussing software factories and high-performance computing with <a href="http://www.soton.ac.uk/~sjc/">Simon Cox</a> from the University of Southampton. Simon is one of our inaugural group of Architect <a href="http://mvp.support.microsoft.com/default.aspx?scid=fh;EN-US;mvpaward&amp;style=TOC#Visual Developer - Solutions Architect">MVPs</a>. We have fourteen architect MVPs across two categories: <a href="http://mvp.support.microsoft.com/default.aspx?scid=fh;EN-US;mvpaward&amp;style=TOC#Visual Developer - Solutions Architect">Visual Developer - Solutions Architect</a> and <a href="http://mvp.support.microsoft.com/default.aspx?scid=fh;EN-US;mvpaward&amp;style=TOC#Windows Server System - Infrastructure Architect">Windows Server System - Infrastructure Architect</a>. We'll be growing this group significantly over the rest of the fiscal year, but there are already some influential names in this group, including <a href="http://www.objectwatch.com/about_us.htm">Roger Sessions</a>, Paul Preiss (founder of <a href="http://www.iasarchitects.org/">IASA</a>), <a href="http://www.thinktecture.com/staff/ingo/Weblog/">Ingo Rammer</a> and <a href="http://staff.newtelligence.net/clemensv/">Clemens Vasters</a>. Congrats to all the new Architect MVPs!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">447</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-10-12 09:42:31</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-10-12 09:42:31</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">architect-mvps</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[b31d2f8f-f299-41f9-9ede-a5f925f5b32d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Architect+MVPs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/10/12/Architect+MVPs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2688</wp:comment_id>
+    <wp:comment_author><![CDATA[Ingo Rammer]]></wp:comment_author>
+    <wp:comment_author_email>ingo.rammer@thinktecture.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.thinktecture.com/staff/ingo</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-10-12 10:22:57</wp:comment_date>
+    <wp:comment_date_gmt>2004-10-12 17:22:57</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks, Harry. It's great to be part of this community.
+
+-Ingo]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

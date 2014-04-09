@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Doughnuts 10</title>
+  <link>http://devhawk.net/2007/06/07/morning-doughnuts-10/</link>
+  <pubDate>Thu, 07 Jun 2007 09:46:45 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dale</dc:creator>
+  <guid isPermaLink="false">http://f901f0b4-f5df-4860-b543-8a18b022597f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I am a big fan of <a href="http://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx">PowerShell</a>, and I know Harry likes it as well. Of course I have aliased many of the commands so they appear more Unix like. I mention this because <a href="http://blogs.msdn.com/daiken/default.aspx">David Aiken</a> mentions a new <a href="http://blogs.msdn.com/daiken/archive/2007/06/06/n-software-netcmdlets-and-a-powershell-sticker.aspx">product</a> for PowerShell called <a href="http://www.nsoftware.com/powershell/">NetCmdlets</a> produced by N Software. I downloaded a trial and have been impressed so far. If you use PowerShell it might be worth giving this a look. 
+</li><li>The <a href="http://www.newyorker.com/">New Yorker</a> has an interesting <a href="http://www.newyorker.com/talk/financial/2007/05/28/070528ta_talk_surowiecki">article</a> about feature choices in technology. Basically it comes down to customers choose products with more features and customization options if given the choice, but when they actually have to use the products they prefer simplicity. I think that is something lost on those of us who design things. Giving users every possible option can make our products seem more difficult to use over simpler less feature rich choices. (via <a href="http://www.codinghorror.com/blog/archives/000880.html">Coding Horror</a>) 
+</li><li>Well it took longer than some may have guessed, but Microsoft has been <a href="http://www.infoworld.com/article/07/06/06/ms-sued-over-vista-name_1.html">sued</a> over the name Vista by a French TV company. Apparently they were going to launch a television station with the same name. I wonder what the courts will decide since apparently the TV company didn't register the name in the software category. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">981</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-06-07 09:46:45</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-06-07 09:46:45</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-doughnuts-10</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f901f0b4-f5df-4860-b543-8a18b022597f]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Doughnuts+10]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/06/07/Morning+Doughnuts+10]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

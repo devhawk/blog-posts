@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2149</wp:comment_id>
+  <wp:comment_author><![CDATA[Sesh]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://blogs.msdn.com/seshadripv</wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.83</wp:comment_author_IP>
+  <wp:comment_date>2008-12-05 10:10:22</wp:comment_date>
+  <wp:comment_date_gmt>2008-12-05 18:10:22</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA["Sesh has promised “weekly code drops”."
+
+Here it is - http://www.codeplex.com/dlr/SourceControl/ListDownloadableCommits.aspx. My blog post on the same is here - http://blogs.msdn.com/seshadripv/archive/2008/12/04/codeplex-com-dlr-is-now-setup-to-receive-regular-source-updates.aspx]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

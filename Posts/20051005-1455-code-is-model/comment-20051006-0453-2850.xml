@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2850</wp:comment_id>
+  <wp:comment_author><![CDATA[Steven Kelly]]></wp:comment_author>
+  <wp:comment_author_email>stevek@metacase.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.metacase.com/blogs/stevek/blogView</wp:comment_author_url>
+  <wp:comment_author_IP>193.209.12.111</wp:comment_author_IP>
+  <wp:comment_date>2005-10-06 04:53:44</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-06 11:53:44</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[[Hmm, trying to submit a comment returned me to the same page with my comment text, let's try again...]
+
+Great piece of writing, Harry! Here are some additions (also added in my blog, link above):
+
+Models Aren't Always Graphical:
+The only alternative to graphical models that you mention is text. I'd like to add matrices and tables. A matrix is normally like in IBM's Business Systems Planning, with objects on the axes and relationships marked in the cell at the intersection of their object. A table is basically an ordered list of objects and their properties: graphical models are otherwise poor at representing an ordered list. It's probably also useful to distinguish "standard" bubble-and-line graphical models from things like Sequence Diagrams, Constraint Diagrams, Spider Diagrams and even UI layouts, where the exact position of elements, and their position relative to each other, has semantic content.
+
+To return to text: Unfortunately, text doesn't integrate well with other models, primarily because it has no notion of object identity. If I write a piece of code to go with a model, I often want to use the name of one of the model's objects in the code, but there is currently no good way to do this. Copying and pasting loses the link, i.e. if I update the name in the model, it will (at least in a half-way decent modeling tool) update everywhere else in the model where that name is visible, but the text will still contain the old value. 
+
+Clearly, we need Smart Text, but exactly what that is and how it would work is an interesting research topic. Current text-based tools at best try to parse the text and cobble the links back together after changes, but that's time consuming, error prone, and basically bolting the stable door well after the horse has left. 
+
+I guess Intentional Programming is aiming to be something like Smart Text. My impression so far though is that the Intentional Programming crowd aren't particularly amenable to graphical representations - "nah, we don't want those, we can do it all in text". Hopefully I'm wrong or that is going to change: model-driven development and Smart Text would complement each other perfectly.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

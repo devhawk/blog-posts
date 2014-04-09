@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>DSL Tools Now Available</title>
+  <link>http://devhawk.net/2004/11/08/dsl-tools-now-available/</link>
+  <pubDate>Mon, 08 Nov 2004 18:42:55 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4866ac23-6a24-46ed-a2a5-896761017eff</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>We announced it last week, but the <a href="http://lab.msdn.microsoft.com/vs2005/teamsystem/workshop/dsltools/">DSL Tools home page</a> just went live today. The big thing is the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=673A0B3A-F631-4310-8599-8BB55D15F017&amp;displaylang=en">Microsoft Tools for Domain Specific Languages Technology Preview</a>. There's also a <a href="http://lab.msdn.microsoft.com/vs2005/teamsystem/Workshop/DSLTools/walkthrough.aspx">walkthru of the tool</a>, a <a href="http://communities.microsoft.com/newsgroups/default.asp?icp=whidbey&amp;slcid=us&amp;NewsGroup=microsoft.private.whidbey.teamsystem.workshop.dsltools">newsgroup</a> and <a href="http://blogs.msdn.com/jochens/">Jochen's blog</a>. We also published the <a href="http://msdn.microsoft.com/architecture/default.aspx?pull=/library/en-us/dnbda/html/softfact3.asp">third article</a> in the Software Factories overview series. </p><p>The DSL Tools is the first in a collection of <a href="http://lab.msdn.microsoft.com/vs2005/teamsystem/Workshop">"workshop" projects</a> that relate to Team System. These projects will be run as transparently as is feasible, so watch that site to be pretty dynamic as we post things like specs and lots of interim builds. <a href="http://radio.weblogs.com/0001011/">Scoble</a> has talked in the past of transparent projects, this I think will be a much more transparent project than we've done in the past.</p><p>(BTW, if you want to try out the DSL Tools, you need <a href="http://lab.msdn.microsoft.com/vs2005/get">VS2005 Beta 1</a> as well as the <a href="http://msdn.microsoft.com/vstudio/extend/SDKDownload/">VSIP SDK 2005 Beta 1</a>) </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">472</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-11-08 18:42:55</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-11-08 18:42:55</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">dsl-tools-now-available</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4866ac23-6a24-46ed-a2a5-896761017eff]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[DSL+Tools+Now+Available]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/11/09/DSL+Tools+Now+Available]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2870</wp:comment_id>
+  <wp:comment_author><![CDATA[Jerry Mead]]></wp:comment_author>
+  <wp:comment_author_email>feedback@meadroid.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.zeepe.com/</wp:comment_author_url>
+  <wp:comment_author_IP>82.69.68.129</wp:comment_author_IP>
+  <wp:comment_date>2005-11-23 12:00:27</wp:comment_date>
+  <wp:comment_date_gmt>2005-11-23 20:00:27</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Arguing for browser-based apps - particularly on Windows - has always sounded to me like an acceptance of "let's be happy with much-less-than-capable". The browser simply wasn't designed as an app wrapper, period. In the (still under-exploited) world of DHTML/AJAX/ATLAS/etc., Zeepe (www.zeepe.com) is our response to that. 
+
+[Still working through IE7/Vista breaking changes with the IE team, so please stick to 'legacy' OSs for any testing. Thanks.] ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

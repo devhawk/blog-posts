@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>In the Company of Legends</title>
+  <link>http://devhawk.net/2003/06/26/in-the-company-of-legends/</link>
+  <pubDate>Thu, 26 Jun 2003 23:27:39 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://356b8e03-f549-4a58-8252-cd868a3b68a0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I was at a MSFT event for the last 2 days on future VS.NET / .NET FX stuff (I'll avoid the pre-MSFT-<a href="http://radio.weblogs.com/0001011/">Scoble</a>-esque Longhorn-rocks-but-I-can't-talk-about-it-because-it's-NDA posts). I ran into a bunch of <a href="http://www.softwarelegends.com">Software Legends</a> who all knew me.</p><ul><li><a href="http://www.gotdotnet.com/team/dbox/">Don Box</a>, who made a big deal of <a href="PermaLink.aspx?guid=ace738c4-9a79-41a5-9b59-520a76b31e39"> remembering my name</a>.</li><li><a href="http://www.sellsbrothers.com/spout/">Chris Sells</a>, who knew me from my <a href="prj_messenger.aspx"> Messenger.NET</a> stuff I built on his <a href="http://www.sellsbrothers.com/tools/#imcli">imcli</a> classes.</li><li><a href="http://www.wintellect.com/about/instructors.aspx?id=3">Jeffrey Richter</a>, who doesn't work for MSFT like Chris and Don, but has been consulting w/ the VS.NET team since early in the .NET FX dev cycle. I took an early class on .NET (Dec 2000) from Jeff.</li></ul><p>This is part of why I love working for MSFT. You add <a href="http://www.dilascia.com/">Paul DiLascia</a> (author of <a href="http://www.dilascia.com/wpp.htm">Windows++</a>) to that mix and you would have the core group of authors that helped me learn Win32, MFC, COM and ATL. I doubt my previous jobs would have afforded me this opportunity.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">135</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-06-26 23:27:39</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-06-26 23:27:39</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">in-the-company-of-legends</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/06/27/In+The+Company+Of+Legends]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[In+The+Company+Of+Legends]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[356b8e03-f549-4a58-8252-cd868a3b68a0]]></wp:meta_value>
+  </wp:postmeta>
+</item>

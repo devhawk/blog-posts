@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2522</wp:comment_id>
+  <wp:comment_author><![CDATA[Alex James]]></wp:comment_author>
+  <wp:comment_author_email>Alex@base4.net</wp:comment_author_email>
+  <wp:comment_author_url>http://www.base4.net/Blog.aspx?ID=447</wp:comment_author_url>
+  <wp:comment_author_IP>219.89.81.114</wp:comment_author_IP>
+  <wp:comment_date>2007-06-05 14:14:56</wp:comment_date>
+  <wp:comment_date_gmt>2007-06-05 21:14:56</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[The sample code that Alan points to is remarkably like something I have implemented recently to seperate the HTTP facing endpoints for REST from the actual implementation endpoints. This seperation / encapsulation allows me to do things like Transactions and program RESTful in-process too.
+
+See a huge chunk of the benefit of REST comes from the formulation of a namespace of URI's. Why should you need to incur protocol costs to use a namespace? If that where the case it is kind of like saying all access to a HDD needs to be through network shares? (i.e. \localhostc$ instead of C:)
+
+And yes there does seem to be a fair bit of equating REST to HTTP going on recently, although typically, it must be said, by SOAP people just coming to grips with REST. I did a post on this very topic:
+
+http://www.base4.net/Blog.aspx?ID=447]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2416</wp:comment_id>
+  <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+  <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+  <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>70.181.202.20</wp:comment_author_IP>
+  <wp:comment_date>2006-10-12 11:24:59</wp:comment_date>
+  <wp:comment_date_gmt>2006-10-12 18:24:59</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Transactions are also a toy.  You can't call other flows within a transaction nor can you federate multiple workflow instances within a transaction.  This is understandable because a transaction context is a box threads enter and leave.  You can't -- by default at least -- know what thread(s) will execute your flow and there is no plumbing built into the WF engine to guide threads in or out of Tx contexts.
+
+But you can implement a Manual Workflow Scheduler (I think), which bypasses the WorkflowQueuingService you mention.  But I haven't tried passing a transaction context in this way.  BTW, you can't even use a transaction (or a sleep activity) without attaching a WorkflowPersistenceService because these activities can invoke a dehydration cycle.  The SQLPersistenceService is, I think, a level up from being just a toy.  The SQLTrackingService was well, thought-out, IMO.  But because I was trying to use WF inside a more synchronous scenario, I ended up creating an oxymoronically named "MemoryPersistenceService" so I could use these activities without all the baggage.
+
+I REALLY wished WF was more adept with XML data and XML Schema -- especially WRT the rules engine.  Also, I'm really disappointed that XAML isn't documented (well) and there isn't a schema for XAML.  I'm told on the newsgroups that there is no way to define a normative schema for XAML because you don't know the properties for the contained objects.  Fair enough, but a simple wildcard would work, right?
+
+In fact the whole XAML angle looks like it got put on the back burner, which is a shame.  How cool is it to be able to whip a workflow up using an XMLWriter and then run it? You can do it, but you have to reverse-engineer the format.
+
+Despite these nits, I'm a big fan of WF.  I like the engine design and it's fast (1ms overhead to execute a 10-step no-op sequental workflow.  ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

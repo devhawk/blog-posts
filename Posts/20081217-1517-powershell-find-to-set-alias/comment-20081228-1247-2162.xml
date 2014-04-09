@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2162</wp:comment_id>
+  <wp:comment_author><![CDATA[Brad Wilson]]></wp:comment_author>
+  <wp:comment_author_email>dotnetguy@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://bradwilson.typepad.com/</wp:comment_author_url>
+  <wp:comment_author_IP>98.203.252.139</wp:comment_author_IP>
+  <wp:comment_date>2008-12-28 12:47:47</wp:comment_date>
+  <wp:comment_date_gmt>2008-12-28 20:47:47</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Thanks for this! I posted an expanded version suitable for use as a script file, which includes optional diagnostic/debugging information:
+
+http://bradwilson.typepad.com/blog/2008/12/find-to-set-aliasps1.html
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

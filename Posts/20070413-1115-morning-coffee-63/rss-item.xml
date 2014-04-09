@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 63</title>
+  <link>http://devhawk.net/2007/04/13/morning-coffee-63/</link>
+  <pubDate>Fri, 13 Apr 2007 11:15:16 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a92f9001-e812-45eb-93f5-f22e948d0a26</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>My friend Christoph Schittko (who used to blog <a href="http://weblogs.asp.net/cschittko/">here</a>, but hasn't written anything in almost two years) recently wrote on an internal email thread that he "wonder[s] how many more attempts for “enterprise wide” thingies we need for people to figure out that there’s too much complexity involved to coordinate anything enterprise wide." I couldn't agree more, though I think it's more than just complexity at work here. There are significant forces driving decentralization in society in general and IT in particular, and anything enterprise wide is by definition centralized. </li><li>I'm way behind on this, but Ray Ozzie did an <a href="http://knowledge.wharton.upenn.edu/article.cfm?articleid=1698">fascinating interview</a> with Knowledge@Wharton. I was especially interested in his separation of "big-I" and "small-i" innovation. Sounds like disruptive and sustaining innovation from <a href="http://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/0875845851">The Innovator's Dilemma</a> to me. </li><li>According to <a href="http://blogs.zdnet.com/microsoft/?p=385">Mary Jo Foley</a>, my ex-teammate <a href="http://blogs.msdn.com/mikewalker/">Mike Walker</a> is "da man" on <a href="http://blogs.msdn.com/mikewalker/archive/2007/03/29/what-are-obas.aspx">Office Business Applications</a>, or OBA's. </li><li>I think I have an old PocketPC hanging around in a drawer somewhere. Apparently, I can use it as a <a href="http://www.binaryrefinery.com/main/PermaLink,guid,d8f9b0a3-f884-4a81-87e5-448d2beda19c.aspx">caller ID server</a> instead of gathering dust. That's sorta freaky. (via <a href="http://blogs.msdn.com/lokeuei/archive/2007/04/12/dust-off-those-old-ipaqs.aspx">Backstage @ MED</a>)</li><li>Quote of the Day: "If you have a live show on a TV network, Its not good to have a brain fart during a slow news week." - <a href="http://www.blogmaverick.com/2007/04/12/imus-fcc-cable-limits-and-corporately-owned-media/">Mark Cuban</a>. Personally, I don't care one way or the other about Don Imus, but Mark's points about the conservatism of media corporations are spot on. </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">935</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-13 11:15:16</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-13 11:15:16</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-63</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="quote-of-the-day"><![CDATA[Quote of the Day]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a92f9001-e812-45eb-93f5-f22e948d0a26]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+63]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/13/Morning+Coffee+63]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2482</wp:comment_id>
+    <wp:comment_author><![CDATA[Dale Churchward]]></wp:comment_author>
+    <wp:comment_author_email>Dale.Churchward@microsoft.com</wp:comment_author_email>
+    <wp:comment_author_url>http://halfmybrain.spaces.live.com/</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2007-04-13 12:28:57</wp:comment_date>
+    <wp:comment_date_gmt>2007-04-13 19:28:57</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[It seemed to me that Mark Cuban's point was more that media corporations are extremely publicity sensitive. In truth aren't most media companies more interested in not upsetting any major group as that reduces ratings. It has nothing to do with being conservative, it has much more to do with maximizing the customer base.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

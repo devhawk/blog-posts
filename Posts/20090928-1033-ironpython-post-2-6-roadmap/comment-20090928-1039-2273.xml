@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2273</wp:comment_id>
+  <wp:comment_author><![CDATA[Alcides Fonseca]]></wp:comment_author>
+  <wp:comment_author_email>me@alcidesfonseca.com</wp:comment_author_email>
+  <wp:comment_author_url>http://alcidesfonseca.com</wp:comment_author_url>
+  <wp:comment_author_IP>193.11.233.70</wp:comment_author_IP>
+  <wp:comment_date>2009-09-28 10:39:56</wp:comment_date>
+  <wp:comment_date_gmt>2009-09-28 17:39:56</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Just a small suggestion. Instead of R2 why not IronPython 2.6 n4, which stands for .net 4.0. Makes more sense than R2 to me since it reminds me of RC2.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

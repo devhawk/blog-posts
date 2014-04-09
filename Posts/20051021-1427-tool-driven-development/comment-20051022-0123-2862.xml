@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2862</wp:comment_id>
+  <wp:comment_author><![CDATA[David]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>213.39.176.16</wp:comment_author_IP>
+  <wp:comment_date>2005-10-22 01:23:27</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-22 08:23:27</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Yes, I fully agree. One big part of that seems integration with source code control to me. Often tools that are part of the build process are installed via an installer onto machines. This approach really breaks down, once you have rapid evolution of the tools, in sync with your project dev. I think making rapid changes in these small tools is important, but I also think that they will NOT be terribly backwards compatible, unlike huge languages like C#. So, I expect that tool T1 in version 3.0 will not be able to work on the models defined for building version 2.8, rather there would probably be a process to transform the model accordingly in version 2.9 (I am not sure whether I am very clear with this... Just generally I believe that the solution will be more to make sure each version of a small tool can handle input data from the previous version, but not to make sure each tool will be able to handle ALL old file format).
+
+So, either those tools should be stored as binaries within source code control, so that if I check out a branch for an old version and build it uses the old version of the tool. Or, probably even better, it should build the tool as one of the first stepts with each full build and then use that dll/exe later on in the same build process. Good automation there would be incredibly helpful.
+
+Also, this is very important for the VS IDE DSL editors created with the DSL Tool. Really what should happen is that if I check out a specific branch of my source code, the corresponding version of my custom DSL editor tool is dynamically loaded into the IDE. The approach I see right now to have a seperate install for the DSL that works across all versions within my source code depot is really not very usable, since it would require to be incredibly backwards compatible with my tools, which I don't really think brings any value for very small tools that might not be used across too many programs (and probably only internally too).]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

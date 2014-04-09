@@ -1,0 +1,44 @@
+<p>Now that I have <a href="http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+2+Screen+Scraping.aspx">my list of Rock Band songs</a>, I need to generate a Zune playlist. I wrote that Zune just uses the <a href="http://msdn.microsoft.com/en-us/library/bb249686.aspx">WMP playlist format</a>, but that&#8217;s not completely true. <a href="http://msdn.microsoft.com/en-us/library/bb262730(VS.85).aspx">Media elements</a> in a Zune playlist have several attributes that appear unique to Zune. </p>
+<p>Because of Zune Pass, Zune supports the idea of <a href="http://www.mjefferson.net/2008/04/03/zune-streaming-playlists/">streaming playlists</a> where the songs are downloaded on demand instead of played from the local hard drive. In order to enable this, media elements in Zune playlists can have a serviceID attribute, a GUID that uniquely identifies the song on the Zune service. We also need the song&#8217;s album and duration &#8211; the Zune software summarily removes songs that don&#8217;t include the duration.</p>
+<p>Of course, the Rock Band song list doesn&#8217;t include the Zune song service ID. It also doesn&#8217;t include the song&#8217;s album or duration. So we need a way, given the song&#8217;s title and artist (which we do have) to get its album, duration and service ID. Luckily, the Zune service provides a way to do exactly this, albeit an undocumented way. Via <a href="http://www.fiddler2.com/fiddler2/">Fiddler2</a>, I learned that Zune exposes a set of Atom feed web services on catalog.zune.net that the UI uses when you search the marketplace from the Zune software. There are feeds to search by artist and by album but the one we care about is the search by track. For example, here&#8217;s the track query for <a href="http://catalog.zune.net/v1.2/music/track?q=pinball+wizard+the+who">Pinball Wizard by The Who</a>.</p>
+<p>Since these feeds are real XML, I can simply use <a href="http://msdn.microsoft.com/library/system.xml.linq.xdocument.load.aspx">XDocument.Load</a> to suck down the XML. Then I look for the first Atom entry element using similar LINQ to XML techniques I <a href="http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+2+Screen+Scraping.aspx">wrote about last time</a>. If there&#8217;s no Atom elements, that means that the search failed &#8211; either Zune doesn&#8217;t know about the song or it can&#8217;t find it via the Rock Band provided title and artist. Of the 461 songs on Rock Band right now, my script can find 417 of them on Zune automatically.</p>
+<p>Of course, since the Zune data is in XML instead of HTML, finding the data I&#8217;m looking for is much easier that it was to find the Rock Band song data. Here&#8217;s the code pull the relevant information out of the Zune catalog feed that we need.</p>
+<pre class="brush: python">def ScrapeEntry(entry):   
+  id = entry.Element(atomns+'id').Value  
+  length = entry.Element(zunens+'length').Value  
+
+  d = {}  
+  d['trackTitle'] = entry.Element(atomns+'title').Value  
+  d['albumArtist'] = entry.Element(zunens+'primaryArtist')
+                       .Element(zunens+'name').Value  
+  d['trackArtist'] = d['albumArtist']  
+  d['albumTitle'] = entry.Element(zunens+'album')
+                       .Element(zunens+'title').Value  
+    
+  if id.StartsWith('urn:uuid:'):  
+    d['serviceId'] = &quot;{&quot; + id.Substring(9) + &quot;}&quot;  
+  else:  
+    d['serviceId'] = id  
+    
+  m = length_re.Match(length)  
+  if m.Success:  
+    min = int(m.Groups[1].Value)  
+    sec = int(m.Groups[2].Value)  
+    d['duration'] = str((min * 60 + sec) * 1000)  
+  else:  
+    d['duration'] = '60000'  
+      
+  return d  
+
+trackurl = catalogurl + song.search_string     
+trackfeed = XDocument.Load(trackurl)  
+trackentry = First(trackfeed.Descendants(atomns+'entry'))  
+track = ScrapeEntry(trackentry)
+</pre>
+<p>A few quick notes:</p>
+<ul>
+<li>The code above isn&#8217;t valid Python, I added a couple of carriage returns (albumArtist and albumTitle) to get it to read well on the blog without wrapping badly. </li>
+<li>song.search_string returns the song title and artist as a plus delimited string. i.e. pinball+wizard+the+who. However, many Rock Band songs end in a parenthetical like (Cover Version) so I automatically strip that off for the search string</li>
+<li>duration in the Atom feed is stored like PT3M23S, which means the song is 3:23 long. The playlist file expect the song length in milliseconds, so I use a .NET regular expression to pull out the minutes and seconds and do the conversion. It&#8217;s not exact &#8211; songs lengths usually aren&#8217;t exactly a factor of seconds, but as far as I can understand, Zune just uses that to display in the UI &#8211; it doesn&#8217;t affect playback at all.</li>
+</ul>
+<p>Now I have a list of songs with all the relevant metadata, next time I&#8217;ll write it out into a Zune playlist file.</p>

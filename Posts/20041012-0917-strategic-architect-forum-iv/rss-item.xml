@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Strategic Architect Forum IV</title>
+  <link>http://devhawk.net/2004/10/12/strategic-architect-forum-iv/</link>
+  <pubDate>Tue, 12 Oct 2004 09:17:31 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5b0fe7fa-36a7-4929-9b06-4993d5e03828</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>This week is Strategic Architect Forum IV where we are bring over 200 top strategic architects from around the world to Redmond for a series of presentations and breakout discussions. <a href="http://www.microsoft.com/presspass/exec/judah">Norman Judah</a>, CTO of MSFT Services, is doing the opening keynote. Other keynote speakers include <a href="http://blogs.msdn.com/pathelland">Pat Helland</a>, Software Factories' authors <a href="http://blogs.msdn.com/Keith_Short/">Keith Short</a> and Jack Greenfield, plus a Q&amp;A session with <a href="http://www.microsoft.com/billgates">BillG</a>. Last year, we recorded all the sessions and published them as <a href="http://www.msdn.microsoft.com/architecture/overview/series/">The Architecture Strategy Series</a>. We're still working out the specifics for this year's content, but we will be publishing this year's sessions as soon as we can.</p><p>One of the things that's interesting about SAF is that we do a small number of traditional presentation sessions and a large number of discussion breakouts. For these discussion breakouts, we get around fifteen to twenty architects in a room to discuss a problem. For example, I'm doing a talk discussion breakout tomorrow on Refactoring Your Best Practices. Each breakout also has a moderator and a note taker - the goal being to record the knowledge and to track a list of action items.</p><p>In addition to SAF, we have two ancillary events going on. All of our field architect evangelists are in town with their customers, so the past two days we had training for them. I had to speak Sunday morning about our influential and community programs. We also have most of our Architecture Advisory Board in town for SAF and their twice-yearly face-to-face meeting. This is the first face-to-face meeting of MAAB since I took over the program, so I'm looking forward to meeting these folks in person.  </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">448</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-10-12 09:17:31</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-10-12 09:17:31</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">strategic-architect-forum-iv</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5b0fe7fa-36a7-4929-9b06-4993d5e03828]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Strategic+Architect+Forum+IV]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/10/12/Strategic+Architect+Forum+IV]]></wp:meta_value>
+  </wp:postmeta>
+</item>

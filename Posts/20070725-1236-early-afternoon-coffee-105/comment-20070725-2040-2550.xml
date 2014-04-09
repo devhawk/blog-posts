@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2550</wp:comment_id>
+  <wp:comment_author><![CDATA[John Heintz]]></wp:comment_author>
+  <wp:comment_author_email>john.heintz@newaspects.com</wp:comment_author_email>
+  <wp:comment_author_url>http://johnheintz.blogspot.com/2007/07/integration-forethought-o</wp:comment_author_url>
+  <wp:comment_author_IP>70.112.219.249</wp:comment_author_IP>
+  <wp:comment_date>2007-07-25 20:40:02</wp:comment_date>
+  <wp:comment_date_gmt>2007-07-26 03:40:02</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Interesting reference to "SOA in the Real World".
+
+I haven't read it yet, but I think the summary is telling: forethought over afterthought to achieve integration.
+
+My reaction is to choose a REST/Web architecture and design for serendipity...]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

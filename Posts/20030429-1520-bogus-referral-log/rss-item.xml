@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Bogus Referral Log</title>
+  <link>http://devhawk.net/2003/04/29/bogus-referral-log/</link>
+  <pubDate>Tue, 29 Apr 2003 15:20:12 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://b9c472a9-b7f8-47b2-a46e-a795bce57663</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm on vacation, but still checking my email. Many thanks to Mickey Williams who pointed out to me that my referral log had been hacked. I'm not sure hacked was quite the right word for it - I was breaking the first rule of <a href="http://msdn.microsoft.com/msdnmag/issues/02/09/SecurityTips/default.aspx"> Secure Code</a> - Trust User Input at Your Own Peril. The referral HTTP header is a form of user input, and I was happily echoing it back out to the site without any sort of check whatsoever. I guess I should consider myself lucky that I ended up with a page full of porn links rather than something more serious. Obviously, I've taken the page down. When I get back from vacation, I'll check the server log to see when this started happening. Anyone else blindly storing and echoing referrals should keep an eye on their log.</p><p>I asked a while ago about <a href="PermaLink.aspx?guid=689efa3b-7f98-452c-840a-02ad2f461d41">canonical weblog names</a>. At the time, I wanted unify the entries in my referral log that pointed back to the same weblog. Now, I want to also eliminate bogus entries as well. Is <a href="http://www.hixie.ch/specs/pingback/pingback">pingback</a>/<a href="http://www.movabletype.org/trackback/">trackback</a> the answer?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">78</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-04-29 15:20:12</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-04-29 15:20:12</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">bogus-referral-log</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[b9c472a9-b7f8-47b2-a46e-a795bce57663]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Bogus+Referral+Log]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/04/29/Bogus+Referral+Log]]></wp:meta_value>
+  </wp:postmeta>
+</item>

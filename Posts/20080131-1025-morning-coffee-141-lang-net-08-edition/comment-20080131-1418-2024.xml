@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2024</wp:comment_id>
+  <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+  <wp:comment_author_email>tomas@winterdom.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.winterdom.com/weblog/</wp:comment_author_url>
+  <wp:comment_author_IP>200.116.131.115</wp:comment_author_IP>
+  <wp:comment_date>2008-01-31 14:18:14</wp:comment_date>
+  <wp:comment_date_gmt>2008-01-31 22:18:14</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[The DLR is pretty cool; I've been playing a bit with it using a very simplistic language (not toyscript) and certainly the DLR makes it a lot easier. 
+
+The cool thing about the DLR (for me) is that it allows you to simply with with expressions, and let the DLR itself deal with building call sites and ensuring that method calls are resolved to the right overload and such, easing things a *lot*.
+
+The problem with the DLR, however, is that it has pretty much zero documentation (except a few comments here and there on the code), and there are several places where it expects you to create tree nodes (such as actions) in very specific ways which are totally not-intuitive, and finding out why it isn't working or why you're triggering an exception or assert is anything but clear (Example: an InvokeMember action can require on certain ocassions an extra argument that must not be on the callsignature)
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

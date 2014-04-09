@@ -1,0 +1,37 @@
+<p><a href="http://www.zazzle.com/you_had_me_at_dynamic_shirt-235421109922997983"><img class="grouped_elements" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="designallCAZM93SM" border="0" alt="designallCAZM93SM" align="right" src=".\designallCAZM93SM_3.jpg" rel="tc-fancybox-group1291" width="240" height="221"></a></p>
+<p>One of the IronPython scenarios that I&#8217;m hearing more and more about recently is for <a href="http://en.wikipedia.org/wiki/Polyglot_%28computing%29">polyglot</a> programs. In these scenarios, part of the application is built in IronPython other parts are build in compiled, statically typed languages like C# or Visual Basic. Sometimes, programs are written this way to allow the C# app to access a Python library, like my <a href="http://devhawk.net/2009/04/05/Pygments+For+Windows+Live+Writer.aspx">Pygments for WL Writer</a> plugin. Other programs want to be customizable by the end user, like <a href="http://blogs.msdn.com/intellipad/archive/2008/11/11/newbie-experience-writing-a-custom-command.aspx">Intellipad</a>. Whatever the reason, I think that the number of these hybrid polyglot programs is going up, which partially explains why the C# team added the <a href="http://msdn.microsoft.com/en-us/library/dd264741(VS.100).aspx">new dynamic type</a> to C# 4.0.</p>
+<p>(FYI: the <a href="http://www.zazzle.com/you_had_me_at_dynamic_shirt-235421109922997983">You had me at &#8220;dynamic&#8221;</a> shirt above is available for sale in my Zazzle store along with my <a href="http://www.zazzle.com/architecture_help_dark_t_shirt-235848130425737882">Architecture Help 5&#162;</a> shirt)</p>
+<p>The thing is that if you&#8217;re going to build polyglot apps, you&#8217;re probably going to want the ability to debug polyglot apps as well. I&#8217;ve <a href="http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+Introduction.aspx">written extensively</a> about building a debugger for IronPython. However, <a href="http://github.com/devhawk/ipydbg/">ipydbg</a> uses the CLR debugger under the hood which means you have to have the debugger and the code it&#8217;s debugging in separate processes. That&#8217;s a huge design burden for building a debuggable polyglot application. Luckily, as of IronPython 2.6, we support Python&#8217;s built-in trace debugging capability (aka <a href="http://docs.python.org/library/sys.html#sys.settrace">sys.settrace</a>). While you can use this in pure Python apps (like <a href="http://docs.python.org/library/pdb.html">PDB</a>), you can also use it polyglot C# (or VB)/IronPython apps as well. If only someone were to take the time to build a sample and document what he did along the way&#8230;</p>
+<p>Hey, that sounds like PM work!</p>
+<p>Seriously, let me introduce you to the worlds simplest Twitter application: GetThings. The app downloads a list of my tweets via the Twitter API and displays them in a list box. The UI is written in C# while the tweet download code is written in Python. Clearly, this is a pretty brain dead app &#8211; but the point isn&#8217;t to build a great Twitter app but rather to show how to use the settrace API from C#.</p>
+<p>I&#8217;ve stuck the <a href="http://github.com/devhawk/LightweightDebuggerDemo">code up on GitHub</a>. If you want to see the basic app in action sans debugging, start with the <a href="http://github.com/devhawk/LightweightDebuggerDemo/commit/92bd5fc330e2a48ae84fc185f3e397aefb4be1eb">initial checkin</a>. As you can see here, basic C# / IronPython integration is pretty trivial. I&#8217;m simply creating an engine and a scope, adding the list boxes&#8217; Items property to the scope, and executing the getthings.py file from the disk.</p>
+<pre class="brush: csharp">private void Window_Loaded(object sender, RoutedEventArgs e)
+{
+    ScriptEngine engine = Python.CreateEngine();
+    ScriptScope  scope = engine.CreateScope();
+    scope.SetVariable(&quot;items&quot;, lbThings.Items);
+    engine.ExecuteFile(&quot;getthings.py&quot;, scope);
+}
+</pre>
+<p>Since GetThings.py is just a text file, the user can modify it to get a list of anything they want &#8211; some other user&#8217;s timeline, the public timeline, or even &#8211; gasp! &#8211; something not from Twitter! In fact, as you see below, I&#8217;ve actually modified it to pull the tweets from a file on disk so I can avoid hitting the network on every run.</p>
+<pre class="brush: python">import clr
+clr.AddReference(&quot;System.Xml&quot;)
+from System.Xml import XmlDocument
+
+def get_nodes(xml):
+    return xml.SelectNodes(&quot;statuses/status/text&quot;)
+
+def download_stuff():
+    x = XmlDocument()
+
+    #load from disk to save time in development
+    #x.Load(&quot;http://twitter.com/statuses/user_timeline/devhawk.xml&quot;)
+    x.Load(&quot;devhawk.xml&quot;)
+
+    for n in get_nodes(x):
+        txt = n.InnerText
+        items.Add(txt)
+
+download_stuff()
+</pre>
+<p>OK, so that&#8217;s the basics of the world&#8217;s simplest hybrid C#/IronPython Twitter application. Next up, I&#8217;ll add the settrace basics.</p>

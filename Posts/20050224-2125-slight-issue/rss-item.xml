@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Slight Issue </title>
+  <link>http://devhawk.net/2005/02/24/slight-issue/</link>
+  <pubDate>Thu, 24 Feb 2005 21:25:36 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4a12be5c-4c51-4db3-9f2d-23e600305a93</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I've discovered one thing about my Nomad/Napster To Go/WMP combo that I don't like. Napster is wholy inconsistent when it comes to tagging their music. For example, I downloaded Denis Leary's Merry F'n Christmas album, but half the songs are tagged that they come from the Merry F#%$in' Christmas album. This specific example only appears to be an issue in WMP, but I also had issues with the tagging of Chris Rock's Never Scared album. One song shows up as part of the "Never Scared" album, but the rest show up as "Never Scared [Bonus DVD]". </p><p>I think WMP adds to the difficulty here because of the sheer amount of metadata it tracks. Artist and Album Artist for example. Good idea, but it's really easy for those to get out of sync (check out this <a href="http://msmvps.com/thinice/articles/15229.aspx">website</a> for more info on that). And because these files are all DRM protected, you can't edit the metadata in the file itself, only in WMP's library. But I can't figure out how the metadata &amp; file structure on my computer corrisponds to metadata structure on the Nomad with 100% certanty. </p><p>However, even with that, I still recommend Napster to Go highly. This is a very minor issue that I think highlights a few of the remaining rough edges in a consumer scenario that involved Microsoft, Napster and the media player manufacturer. Plus, I'm anal about things like album names.</p><p>(One other side note - deleteing and rebuilding your WMP library causes all the songs on the device to be retransfered. Woops. Had to reformat the device, but since there's nothing on it but my Napster music, it was no big deal.)</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">555</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-02-24 21:25:36</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-02-24 21:25:36</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">slight-issue</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="music"><![CDATA[Music]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4a12be5c-4c51-4db3-9f2d-23e600305a93]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Slight+Issue]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/02/25/Slight+Issue]]></wp:meta_value>
+  </wp:postmeta>
+</item>

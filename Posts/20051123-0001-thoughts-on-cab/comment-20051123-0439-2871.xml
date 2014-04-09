@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2871</wp:comment_id>
+  <wp:comment_author><![CDATA[Chris Bilson]]></wp:comment_author>
+  <wp:comment_author_email>cbilson@pobox.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.factored-software.com/iimplement</wp:comment_author_url>
+  <wp:comment_author_IP>24.19.175.168</wp:comment_author_IP>
+  <wp:comment_date>2005-11-23 04:39:12</wp:comment_date>
+  <wp:comment_date_gmt>2005-11-23 12:39:12</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I too have been very impressed by CAB. I learned about it very late, at Code Camp Seattle. I spent about a week or two totally into it, trying to understand everything about it.
+
+I was also a little scared by the complexity. I had the good fortune of working on a project very simmilar to what CAB does, only in .NET 1.1, earlier this year. I would say that application was 120% the complexity of CAB, maybe because the developers weren't charged with building something as polished for general use as CAB. It also lacked some of the really neato features of the CAB, like OB, because they weren't neccesary for what they were doing.
+
+If the CAB saves some teams the effort that went into building the framework I got to work with earlier this year (maybe 10 developers * 4 months), then I would have to conclude that the CAB is a huge benefit for the community.
+
+Finally, I hesitate to agree that raising the abstraction level of tools is a good idea. That's just hiding the complexity that's already there inside of more complexity. If you ever need to look under the hood, it's even harder to grok. I think it would be better to go the other way. Try removing stuff to combat complexity.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The Endangered Middle-Tier, Part 2</title>
+  <link>http://devhawk.net/2004/04/21/the-endangered-middle-tier-part-2/</link>
+  <pubDate>Wed, 21 Apr 2004 23:49:54 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4c3d4706-8081-488c-a6e9-facd6364a058</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Among the responses to my <a href="http://devhawk.net/PermaLink.aspx?guid=950774a9-b33b-4a46-bb2b-a481cf946251">endangered middle-tier post</a> was <a href="http://weblogs.asp.net/draper/archive/2004/04/14/112851.aspx">this one</a> by Ed Draper, architect evangelist for MSFT. While Ed makes some interesting points, on the whole his argument doesn't hold much water.</p><p>First off, his point about Moore's law is accurate, yet irrelevant. While Moore's law does relate to CPU speed, I was using it as an example of the rate that overall computing power improves. Storage capacity and network speed improve along a similar trajectory. 64-bit machines are at the early stages of becoming commonplace. And while it's true that scalability doesn't equal performance, having better performing hardware can significantly improve scalability. </p><p>(Side note - if we're going to be truly picky, <a href="http://www.intel.com/research/silicon/mooreslaw.htm">Moore's law</a> actually refers to rate of improvement of the number of transistors per IC, which only roughly equates to performance. Intel's <a href="http://www.intel.com/products/mobiletechnology/index.htm?iid=ipp_note_proc+highlight_mobiletech&amp;">Centrino</a> technology is all about using those increasing numbers of transistors for other things like wireless networking and battery management.)</p><p>Ed spends quite a bit of time covering very low level computing concepts such as threads, locks, instruction cache, registers and the stack. I'm not sure why he does this. It almost feels like he only read the first part of my post, stopping right before he got to the part where I wrote: "Of course, it will be a long long time before Moore's law can provide a single machine to run a BIG enterprise app". In other words, I don't expect to run my ERP, SCM, CRM or other BFD enterprise-scale app on one machine!</p><p>Ed has missed a basic point of my post that I didn't spell out as I thought it was obvious: <b>the independent services that make up a BIG enterprise class app can all run on different machines</b>. I'm guessing he missed that point by the way he ended his post:  </p><blockquote><p>"Yes, distributed computing is a good thing."</p></blockquote><p>As Ted <a href="http://www.neward.net/ted/weblog/index.jsp?date=20040414">points out</a>, it's not just a good thing, "distributed computing is a <i>necessary</i> thing." And a system of 100's or 1000's of independent services - which is what I'm describing - is significantly more distributable than the multi-tier monolithic applications we build today. </p><p>Of course, it is guaranteed that a small percentage of services will continue to need to use scale out techniques to reach their scalability requirements. For example, it will be a very very long time (if ever) before a single piece of hardware could handle the order processing load Amazon.com generates a week before Christmas or the tax return filing load at the IRS on April 15th. This problem isn't unique to application design. To draw a parallel to the database design world, there are a small percentage of tables that benefit from using <a href="http://msdn.microsoft.com/library/en-us/optimsql/odp_tun_1_2upf.asp">filegroups</a> to isolate them on separate drives from the rest of the database. It happens - but it doesn't <i>always</i> happen. It doesn't even <i>usually</i> happen. I like Josh's <a href="http://www.netcrucible.com/blog/PermaLink.aspx?guid=ddfa5a46-5c50-43b2-8e52-326c01269739">comment</a> that "the vast majority of people who think they have workloads which require partition for scale are actually indulging in delusions of grandeur."</p><p>The point I was making is that computers are going to continue getting faster <strong>and</strong> service-oriented systems are likely to consist of boatloads of independent services with only modest scalability requirements. The combination of these two forces drastically reduces the number of scenarios where you need to use multi-tier scale out techniques to achieve the scalability requirements. If you don't need a multi-tier deployment, then there is a <i>huge </i>performance and scalability benefit to running the service logic in the database process. If you don't need to scale-out to achieve your requirement, why would you take the performance and scalability hit to run your code outside the database?</p><p>It's pointless to argue that computer aren't getting faster or that running the code in process with the database doesn't perform better. Ed (and Ted and Josh and everyone else reading this), I'd love to hear you opinions on the following:</p><ul><li>Will a service-oriented approach likely result in of boatloads of independent services where today we have one BIG app? 
+</li><li>If yes, will the vast majority of these boatloads of independent services have modest enough scalability requirements to run on a single piece of hardware in the near future?</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">355</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-04-21 23:49:54</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-04-21 23:49:54</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-endangered-middle-tier-part-2</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4c3d4706-8081-488c-a6e9-facd6364a058]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+Endangered+MiddleTier+Part+2]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/04/22/The+Endangered+MiddleTier+Part+2]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2593</wp:comment_id>
+    <wp:comment_author><![CDATA[Darrel Miller]]></wp:comment_author>
+    <wp:comment_author_email>darrel@tavis.ca</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-04-27 04:32:12</wp:comment_date>
+    <wp:comment_date_gmt>2004-04-27 11:32:12</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I can't quote you the exact statistics but I think I can safely say 90% of North American companies are less 100 employees.  With that size of company you should easily be able to host a ERP, SCM or CRM type of app on a single server.
+A disproportionate amount of media space is consumed by trying to resolve the scalability issues of Amazon and Google!
+Interestingly enough, horizontally partitioned departmental applications, each installed on seperate servers starts to make large companies look like many smaller interoperating companies.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2594</wp:comment_id>
+    <wp:comment_author><![CDATA[Tom Vande Stouwe, MCT, MCSD]]></wp:comment_author>
+    <wp:comment_author_email>tomv@conpro.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.conpro.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-05-11 13:41:06</wp:comment_date>
+    <wp:comment_date_gmt>2004-05-11 20:41:06</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[While I agree with Darrel on the numbrer of 'small' companies, I disagree with the conclusion. While these companies have low scalability need now, as the quantity and quality og 'network enabled applications' and the use of Web Services et al, will make scalability and reusability very important topics for the small enterprise.
+
+large organizations are already architecting to scale, but the small company is ignoring it, and they will be the ones that will get caught short. We live in a global economy, and the well connected mud hut in lower Slobinia will take business from Main Street if they present a better electronic face.
+
+My Conclusion? Architecting and scalability is MORE important to the under 100 member comnpanies then to the Fortune 100 companies.  The fact that this represents 90% of American companies just points to the importance to our National economy not to ignore these 'not so low hanging fruit' companies. 
+
+We need to look at small company architecture as more of a structured approach, where processes will more likely impact the companies processes then in big companies where we try to make the systems work like the users, rather then the other way around. We need to start looking at Small enterprises as nothing more then small node on the larger network, and position ourselves and our clients to capitalize on that.
+
+In any case we can be sure that the needs of our small business will be met, either by us, or by our (international and national) competition.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2595</wp:comment_id>
+    <wp:comment_author><![CDATA[Darrel Miller]]></wp:comment_author>
+    <wp:comment_author_email>darrel@tavis.ca</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-05-14 15:58:21</wp:comment_date>
+    <wp:comment_date_gmt>2004-05-14 22:58:21</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA["While these companies have low scalability need now, as the quantity and quality og 'network enabled applications' and the use of Web Services et al, will make scalability and reusability very important topics for the small enterprise. "
+
+I'm confused!  Why would the quantity or quality of network enabled applications affect the scalabilty requirements of a small business?
+
+Scalability is about the number of transactions, the number of users, the number of clients a company has.
+
+The majority of small companies are not small because they are budding Ebay's that are just waiting for their big break.  Many are small because that's how the like it, some are small because they don't have the management capacity to grow, some are in a business that just naturally doesn't scale.
+
+Most companies don't fail to grow because their IT infrastructure can't handle it.  
+Don't get me wrong, some startups have every intention of becoming big, quickly and need to plan for that.  But that is a small percentage of companies.
+
+Trust me when I say that I will not be ordering pizza over the web from a 10 man outfit in lower Slobenia any time soon!
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

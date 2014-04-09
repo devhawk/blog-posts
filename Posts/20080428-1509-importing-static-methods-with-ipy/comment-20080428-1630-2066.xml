@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2066</wp:comment_id>
+  <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+  <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+  <wp:comment_author_url>http://www.ironpythoninaction.com/</wp:comment_author_url>
+  <wp:comment_author_IP>87.194.212.65</wp:comment_author_IP>
+  <wp:comment_date>2008-04-28 16:30:23</wp:comment_date>
+  <wp:comment_date_gmt>2008-04-28 23:30:23</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I was mostly being a troublemaker with that comment, but I know that this feature has confused at least one IronPython user.
+
+He did exactly as you did in your example:
+
+    from System.DateTime import Now 
+
+and was then surprised that when he used Now it didn't update as it should. This is because in Python you can't use the import machinery to access static members on classes.
+
+When you import a class method from IronPython you are doing something not normally possible from Python - so what is actually happening may not be immediately obvious to anyone reading the code.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

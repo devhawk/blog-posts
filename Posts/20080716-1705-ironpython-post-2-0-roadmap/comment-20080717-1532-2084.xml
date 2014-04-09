@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2084</wp:comment_id>
+  <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+  <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+  <wp:comment_author_url>http://htto://www.ironpythoninaction.com</wp:comment_author_url>
+  <wp:comment_author_IP>87.194.212.65</wp:comment_author_IP>
+  <wp:comment_date>2008-07-17 15:32:30</wp:comment_date>
+  <wp:comment_date_gmt>2008-07-17 22:32:30</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Hi Harry - nice blog entry. My comment on Twitter wasn't really aimed at you - I was hoping to prod Dino, MArtin or Sri into blogging more!
+
+One question. When IronPython 3 is started, targeting CPython 3.0, will you actively maintain IronPython and IronPython 3 in parallel?
+
+This is what the Python developers will do for several years to come as it will be a long time before the majority of the community has switched over to Python 3. OF course because of the Unicode strings Python 3 is a better fit for IronPython, but for example the library support outside the standard library won't be there for quite a long time.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

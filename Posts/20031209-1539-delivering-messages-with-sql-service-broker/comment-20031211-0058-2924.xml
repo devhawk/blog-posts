@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2924</wp:comment_id>
+  <wp:comment_author><![CDATA[Benjamin Mitchell]]></wp:comment_author>
+  <wp:comment_author_email>benjaminm@benjaminm.net</wp:comment_author_email>
+  <wp:comment_author_url>http://benjaminm.net</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2003-12-11 00:58:22</wp:comment_date>
+  <wp:comment_date_gmt>2003-12-11 08:58:22</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Good to see more information about the Service Broker.  I think many people are confused about the different approaches to messaging that Microsoft are offering and have collected information about the Yukon Service Broker and how it compares to Indigo and MSMQ in my post 'More on the Microsoft Messaging message[1]'
+[1] - http://benjaminm.net/PermaLink.aspx?guid=dceab3fe-5eae-47e1-87a4-c795ca369d2d ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

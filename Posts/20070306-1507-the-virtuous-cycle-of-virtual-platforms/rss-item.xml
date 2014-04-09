@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>The Virtuous Cycle of Virtual Platforms</title>
+  <link>http://devhawk.net/2007/03/06/the-virtuous-cycle-of-virtual-platforms/</link>
+  <pubDate>Tue, 06 Mar 2007 15:07:22 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://352dbd9d-91a6-4f61-875e-7b38538742ee</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Dare is <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=11c471d6-ea65-4ed2-b387-c9ec966d8418">thinking about</a> what comes after AJAX, building on Ted Leung's post "<a href="http://www.sauria.com/blog/2007/03/01/adobe-wants-to-be-the-microsoft-of-the-web/">Adobe wants to be Microsoft of the Web</a>". He mentions three things that any Rich Internet Application (aka RIA) platform needs to have: ubiquity, a consistent debugging experience and a continuum of dev tools. I agree 100% with the need for a good debugging experience and dev tools. But RIA platforms like Flash and WPF/E aren't traditional platforms, they're virtual platforms. (or should I say Platforms 2.0?) It turns out ubiquity and market penetration of virtual platforms is a lot less important than you might think.</p><p>At first glance, Flash Player's <a href="http://www.adobe.com/products/player_census/flashplayer/">98% market penetration</a> appears to be demonstrating the typical virtuous circle of platforms. The more people that have the platform, the more software written for it; the more software written for a platform, the more people get it. But the traditional view of virtuous circles assumes that switching platforms requires significant investment of time and money. The vast majority of non-geek users commit to a platform at the time of purchase. </p><p>However, Virtual platforms such as CLR, JVM, Flash not to mention the browser itself (aka AJAX) don’t conform to the traditional virtuous circle of platforms. Installing a virtual platform isn’t a “buy a new machine” proposition or even a “pave and rebuild”. At worst, in the case of CLR, it’s fifteen minutes to download and install followed by a reboot. At best, in the case of Flash, it’s two minutes to download and install with no reboot. That means the end user has made little to no commitment to virtual platform itself, either in terms of time or money. Furthermore, the user isn’t forced to choose between different virtual platforms. You can install CLR, JVM, Flash as well as multiple browsers on your machine side by side without conflict.</p><p>Think about the install process for a new version of Flash, especially from the perspective of a non-geek. They visit a site, it pops up a dialog saying “you need the latest version of Flash, go here to get it”. Even if the average user doesn’t understand what Flash is or does, they can click on the link. They are redirected to the Adobe site, Flash installs very quickly, and the user goes back to what they were doing and most likely forgets the entire install experience. Because no money changes hands and it takes almost no time, installing the Flash virtual platform requires zero commitment from the user.</p><p>Existing user install base is much less important when adding new users requires zero commitment. You can see this is happening with Flash by looking at its <a href="http://www.adobe.com/products/player_census/flashplayer/version_penetration.html">version specific market penetration</a>. Flash Player 9 has reached around 55% market penetration in just over six months since it was released. Flash is not seeing the “compete with the previous version” effect that is prevalent with traditional platforms like Windows. I believe this is because users don't need to make any real commitment to Flash. When a new version of Flash is released, the user is presented with the same install process which they just go thru again without even realizing they've done it before. </p><p>If the end user isn’t committed to a virtual platform like Flash, then who is? The developers who build software for that virtual platform. This is Virtuous Cycle of Virtual Platforms between the platform and developers instead of the platform and users. In the old model, developers go where the users are. In the new model, users go to where developers are. And developers go where they can be most effective. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">904</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-03-06 15:07:22</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-03-06 15:07:22</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">the-virtuous-cycle-of-virtual-platforms</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[352dbd9d-91a6-4f61-875e-7b38538742ee]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[The+Virtuous+Cycle+Of+Virtual+Platforms]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/03/06/The+Virtuous+Cycle+Of+Virtual+Platforms]]></wp:meta_value>
+  </wp:postmeta>
+</item>

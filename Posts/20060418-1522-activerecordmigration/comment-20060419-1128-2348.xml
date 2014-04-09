@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2348</wp:comment_id>
+  <wp:comment_author><![CDATA[Robby Russell]]></wp:comment_author>
+  <wp:comment_author_email>robby@planetargon.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.robbyonrails.com</wp:comment_author_url>
+  <wp:comment_author_IP>67.160.164.97</wp:comment_author_IP>
+  <wp:comment_date>2006-04-19 11:28:54</wp:comment_date>
+  <wp:comment_date_gmt>2006-04-19 18:28:54</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Correct, ActiveRecord migrations were added early last fall and those articles are about a year old. :-)
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

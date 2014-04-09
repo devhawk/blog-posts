@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Code Smell Question</title>
+  <link>http://devhawk.net/2005/09/01/code-smell-question/</link>
+  <pubDate>Thu, 01 Sep 2005 23:33:28 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e499d380-948c-41f6-8138-6cb483ea28b7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>So as a quick break from all this architecture talk, I've got a code smell question. Here's a scenario, I'm interested in feedback on the best way to solve the issue.</p><p>I'm writing some VSTO code for Word using VS05. I want to be able to add and update custom properties on the document. You do this via the CustomDocumentProperties property off the document object. This DocumentProperties collection supports the standard collection type operations such as Add and an indexer. However, it's a little exception happy. If you attempt to access a property that doesn't exist, it throws an exception. And if you attempt to add a property that already exists, it throws an exception. So the first time you set a custom property you use the Add method and then after that you use the indexer to access the existing item in the collection and update it's value. </p><p>Of course, the way my code is written, I want to hide this ugliness behind a method so that the rest of my code can simply set custom properties with ease. However, I want to use the same method regardless if the item already exists in the collection. So what's the best way to implement the method? I can think of two primary ways.</p><ol><li>Attempt to access the custom property via the indexer. If it throws an exception, trap it and call Add instead.</li><li>Manually iterate through the existing custom properties. If the property exists, update it directly. If it doesn't, call Add instead.</li></ol><p>Neither of these is particularly fragrant from a code smell perspective, but which is less odorous? The first one is more direct to write, but since this is all COM interop code, the COM exception is pretty generic. Theoretically, if something else caused an exception to be thrown, I'd still assume the custom property was just missing and swallow the exception, potentially causing an error somewhere else. However, writing the code to manually iterate through the collection just seems excessive. </p><p>In the end, I went with #2 as I was more worried about swallowing exceptions than manual iterating though the collection. What do you think? Was that the right choice?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">625</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-09-01 23:33:28</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-09-01 23:33:28</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">code-smell-question</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e499d380-948c-41f6-8138-6cb483ea28b7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Code+Smell+Question]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/09/02/Code+Smell+Question]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2838</wp:comment_id>
+    <wp:comment_author><![CDATA[Harry Maes]]></wp:comment_author>
+    <wp:comment_author_email>h.maes@home.nl</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>193.173.35.163</wp:comment_author_IP>
+    <wp:comment_date>2005-09-02 02:50:30</wp:comment_date>
+    <wp:comment_date_gmt>2005-09-02 09:50:30</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I think #2 is the preferable solution.
+
+I'd recommend implementing an adapter for the collection wrapping it so you're also not hit by future changes. I've for instance created a CacheManager to wrap the EntLib cachemanager.
+Does the COM collection have a Contains or an indexer (IndexOf) to check for an existing item? I would code something like this:
+
+if (collection.Contains(x)) //or collection.IndexOf()
+{
+  collection.Remove(x);
+  collection.Add(x);
+}
+
+Trapping for a specific exception can be OK but I would assume the collection internally has to traverse or index the collection to find an already existing item. So this is not the solution IMO.
+
+Have fun!
+
+Harry
+
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2839</wp:comment_id>
+    <wp:comment_author><![CDATA[mearls@hotmail.com (Michael Earls)]]></wp:comment_author>
+    <wp:comment_author_email>mearls@hotmail.comMichaelEarls</wp:comment_author_email>
+    <wp:comment_author_url>http://www.cerkit.com/</wp:comment_author_url>
+    <wp:comment_author_IP>216.47.82.135</wp:comment_author_IP>
+    <wp:comment_date>2005-09-02 07:02:56</wp:comment_date>
+    <wp:comment_date_gmt>2005-09-02 14:02:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[#2 - based on your drawbacks of #1 (generic exceptions), there's a chance that your data could be corrupted.  I'd rather take the performance hit myself.
+
+It's too bad it throws an exception rather than returning a null.  That does stink.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

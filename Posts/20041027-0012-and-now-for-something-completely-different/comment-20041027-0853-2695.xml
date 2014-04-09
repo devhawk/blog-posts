@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2695</wp:comment_id>
+  <wp:comment_author><![CDATA[Babu Annamalai]]></wp:comment_author>
+  <wp:comment_author_email>babu.annamalai@capco.com</wp:comment_author_email>
+  <wp:comment_author_url>http://dotnetjunkies.com/WebLog/BabuA</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-10-27 08:53:14</wp:comment_date>
+  <wp:comment_date_gmt>2004-10-27 15:53:14</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Hi pierson,
+If we want smart tags to be attached to a specific document template, we need to configure the expansion pack which we will be attaching to the document template. stating this, there will be a document template associated to a specific expansion pack manifest file.
+
+We will be building the smart tag dll in the usual way, but you will need to use XML expansion pack and the XML expansion manifest file to deploy that smart tag.
+
+Have a look at the XML Expansion pack schema, for configuring smart tag deployment, in Microsoft Office 2003 Smart document SDK.
+
+Cheers,
+Babu]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

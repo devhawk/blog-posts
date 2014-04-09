@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Register now for Lang.NET Symposium 2009</title>
+  <link>http://devhawk.net/2009/02/09/register-now-for-lang-net-symposium-2009/</link>
+  <pubDate>Mon, 09 Feb 2009 15:34:09 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0c2ab8f3-03de-4fa6-9bc4-1929e13eac97</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>We’re now accepting registrations and talk proposals for the <a href="http://langnetsymposium.com/">2009 Lang.NET Symposium</a>, which will be held on the Microsoft campus April 14th-16th. </p><p>For those who aren’t familiar with this event, the Lang.NET Symposium is an opportunity for programming language designers and researchers from industry and academia to get together and basically geek out for two and a half days. And it’s not just Microsoft language wonks like <a href="http://langnetsymposium.com/talks/1-01 - CSharp3 - Anders Hejlsberg.html">Anders Hejlsberg</a> or platform wonks like <a title="3-07 - Modeling and Languages - Don Box" href="http://langnetsymposium.com/2008/talks/3-07%20-%20Modeling%20and%20Languages%20-%20Don%20Box.html">Don Box</a>. For example, last year we had <a href="http://langnetsymposium.com/2008/talks/1-05%20-%20Lively%20Kernel%20-%20Dan%20Ingalls%20-%20Sun.html">Dan Ingalls from Sun</a>, <a href="http://langnetsymposium.com/2008/talks/2-01%20-%20Newspeak%20-%20Gilad%20Braha%20-%20Cadence.html">Gilad Bracha from Cadence</a>, <a href="http://langnetsymposium.com/2008/talks/Slides/LangNetDVMTalk.pdf">John Rose from OpenJDK</a> and <a href="http://langnetsymposium.com/talks/2-06 - PHP - Wez Furlong.html">Wez Furlong from the PHP Project</a> among many others. </p><p>If you’re curious about the kind of talks we typically have at Lang.NET, the talks from <a href="http://langnetsymposium.com/2006/speakers.aspx">2006</a> and <a href="http://langnetsymposium.com/2008/talks.aspx">2008</a> are available online.  </p><p>I’ve attended <a href="http://devhawk.net/2006/08/01/Lang+NET+2006+Symposium.aspx">both</a><a href="http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx">previous</a> Lang.NET Symposiums and <a href="http://langnetsymposium.com/2008/talks/3-03%20-%20Parsing%20Expression%20Grammars%20in%20FSharp%20-%20Harry%20Pierson.html">spoke at last year’s event</a>, but this will be my first as a part of the team driving the event itself. We’ve expanded a little this year, though we’re still a small conference so the signal-to-noise ratio should still be very high. We barely fit in the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=e1846ae4-f0c7-456c-a9bb-54fcf2463ead&amp;displaylang=en">Platform Lab</a> last year, so we moved this year’s event to Microsoft Research’s <a href="http://research.microsoft.com/en-us/news/features/Building_99.aspx">sweet new building #99</a>. </p><p>This year, we’re very excited to be <a href="http://devhawk.net/2008/12/19/The+Reesersquos+Peanut+Butter+Cups+Of+Language+Conferences.aspx">joined at the hip</a> with Chris Sells’ <a href="http://sellsbrothers.com/conference/">DSL Developers Conference</a>. Those guys over in CSD are working on some <a href="http://msdn.microsoft.com/oslo/">cool language stuff of their own</a>, so it just made sense to hold the two events in the same space, one right after the other. Note, <u><strong>registration for each event is separate</strong></u>. You’re welcome to attend both – we’d love it if you did - just make sure you register for both.</p><p>As in the past, there is no cost to attend Lang.NET. You get yourself here and find place to stay and we’ll take care of the content, meals and beers in the evening. Just make sure you let us know you’re coming and what, if anything, you’re interested in getting up and talking about by registering at <a href="http://langnetsymposium.com">the Lang.NET Symposium website</a>. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1214</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-02-09 15:34:09</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-02-09 15:34:09</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">register-now-for-lang-net-symposium-2009</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="domain-specific-languages"><![CDATA[Domain Specific Languages]]></category>
+  <category domain="post_tag" nicename="langnet"><![CDATA[LangNET]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0c2ab8f3-03de-4fa6-9bc4-1929e13eac97]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Register+Now+For+LangNET+Symposium+2009]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/02/09/Register+Now+For+LangNET+Symposium+2009]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2169</wp:comment_id>
+    <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+    <wp:comment_author_email>barry.j.kelly@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://barrkel.blogspot.com/</wp:comment_author_url>
+    <wp:comment_author_IP>93.97.41.252</wp:comment_author_IP>
+    <wp:comment_date>2009-02-09 16:03:03</wp:comment_date>
+    <wp:comment_date_gmt>2009-02-10 00:03:03</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Do you know if the missing talks (1-02 .. 1-04 etc.) for Lang.NET 2008 will ever get posted? Or are they lost forever?
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2170</wp:comment_id>
+    <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+    <wp:comment_author_email>barry.j.kelly@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://barrkel.blogspot.com/</wp:comment_author_url>
+    <wp:comment_author_IP>93.97.41.252</wp:comment_author_IP>
+    <wp:comment_date>2009-02-09 16:05:03</wp:comment_date>
+    <wp:comment_date_gmt>2009-02-10 00:05:03</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[The website, http://langnetsymposium.com/2008/agenda.aspx says "video coming soon" for the missing talks. I've been waiting for these videos to "come" for what must be a year now :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2171</wp:comment_id>
+    <wp:comment_author><![CDATA[Jimmy Schementi]]></wp:comment_author>
+    <wp:comment_author_email>jschementi@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://jimmy.schementi.com</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.80</wp:comment_author_IP>
+    <wp:comment_date>2009-02-09 17:07:51</wp:comment_date>
+    <wp:comment_date_gmt>2009-02-10 01:07:51</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Ok, ok, I should have changed that text to "Coming only if someone helps". Those talks aren't lost forever, but the videos I have of them are each 7gb and I don't have the anything nearly powerful enough to compress them in a reasonable amount of time (need to get them down to approx 100mb). Expression Media decidied not to open them last time =)
+
+If anyone wants to step up and help out, by all means let me know, but if not they will stay on this external hard-drive forever.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

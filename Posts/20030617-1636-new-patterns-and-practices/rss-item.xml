@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Patterns and Practices</title>
+  <link>http://devhawk.net/2003/06/17/new-patterns-and-practices/</link>
+  <pubDate>Tue, 17 Jun 2003 16:36:56 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://7b788f99-7dce-4791-b8bc-39f9e43c910f</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Three new application blocks are up on MSDN: <a href="http://msdn.microsoft.com/library/en-us/dnpag/html/ServiceAgg.asp"> Service Aggregation</a>, <a href="http://msdn.microsoft.com/library/en-us/dnpag/html/PAIBlock.asp"> Asynchronous Invocation</a> and <a href="http://msdn.microsoft.com/library/en-us/dnpag/html/CachingBlock.asp"> Caching</a>. There's also a great new guide on ASP.NET security: <a href="http://msdn.microsoft.com/library/en-us/dnnetsec/html/ThreatCounter.asp"> Improving Web Application Security: Threats and Countermeasures</a>. These are both part of the overall <a href="http://www.microsoft.com/resources/practices/"> patterns &amp; practices</a> guidance that Microsoft is publishing. However, the P&amp;P site moved recently and doesn't seem to have any of these new publications listed yet, though some are listed on the "<a href="http://www.microsoft.com/resources/practices/coming.asp">Coming Soon</a>" page. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">127</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-06-17 16:36:56</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-06-17 16:36:56</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-patterns-and-practices</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/06/17/New+Patterns+And+Practices]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Patterns+And+Practices]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[7b788f99-7dce-4791-b8bc-39f9e43c910f]]></wp:meta_value>
+  </wp:postmeta>
+</item>

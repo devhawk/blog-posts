@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2861</wp:comment_id>
+  <wp:comment_author><![CDATA[Rob Relyea]]></wp:comment_author>
+  <wp:comment_author_email>rrelyea@microsoft.com</wp:comment_author_email>
+  <wp:comment_author_url>http://longhornblogs.com/rrelyea</wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+  <wp:comment_date>2005-10-08 04:57:23</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-08 11:57:23</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[A) IL still works
+You said:
+I wonder if they are going to go the same route as WPF and eliminate the C#/IL way of declaring workflows
+RR: WPF still supports using code only (you don't need to ever use XAML if you don't want to...most tools will be built using XAML as the persistance model though).  We just don't convert XAML into all IL anymore.  I believe WWF/XAML will be similar, but I'm not positive.
+
+B) CPU + IO Bandwidth
+The BAML vs IL question you raise in your UPDATE is an interesting one.
+
+When we used to compile XAML to IL, the EXEs were much larger.  IL can't be processed as it is downloaded.  With BAML, you have a shared amount of code to load it, and repeated baml records to load and discard.
+
+So there are a bunch of factors here.  Download size of the assembly, streamability of the baml, etc...
+
+We were surprised that IL wasn't much faster than BAML.  Happily, that allowed us to focus all of our developement, optimizations, testing on one code path, which is a good thing.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

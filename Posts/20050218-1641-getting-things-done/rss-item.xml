@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Getting Things Done</title>
+  <link>http://devhawk.net/2005/02/18/getting-things-done/</link>
+  <pubDate>Fri, 18 Feb 2005 16:41:56 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3e9aba84-5901-4c7f-bb6b-8983a5375954</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>A few weeks ago, I got a chance to see David Allen present his <a href="http://www.gettingthingsdone.com/">Getting Things Done</a> methodology. It really struck a chord with me, in many ways because it's seems like such a basic point. I would describe GTD as a way of dealing with the fact that our brains haven't evolved to deal with the details of modern day life. Face it, our brains evolved in a time when our big concerns of the day were finding food and not getting eaten.  It's just not designed to keep the millions of picky little details that make up life today in order.</p><p>I've only just started reading the book, but I've been trying to apply what I've learned. I haven't reached "Mind Like Water" yet, but I have knocked my inbox down from 400+ emails to 20. I've been taking it slowly - cleaning out all the new stuff plus 10-20 of the backlog every day. I'm doing it on my own - there's a <a href="http://www.gettingthingsdone.com/productDetail.php?id=63&amp;IDoption=20">GTD addin for Outlook</a>, but I just hated it. One of the principles of GTD is to get the stuff out of your head and into a system that you trust. Frankly, when the GTD addin started hiding my email, I couldn't trust it anymore. So instead, I do my own thing with Outlook - heavy on the task list of course. And so far so good.</p><p>Note to self, check out <a href="http://jeffsandquist.com/">Jeff's</a><a href="http://wiki.jeffsandquist.com/default.aspx/GTD/HomePage.html">GTD wiki</a>...</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">548</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-02-18 16:41:56</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-02-18 16:41:56</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">getting-things-done</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3e9aba84-5901-4c7f-bb6b-8983a5375954]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Getting+Things+Done]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/02/19/Getting+Things+Done]]></wp:meta_value>
+  </wp:postmeta>
+</item>

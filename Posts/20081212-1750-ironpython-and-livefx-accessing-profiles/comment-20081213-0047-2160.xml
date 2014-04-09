@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2160</wp:comment_id>
+  <wp:comment_author><![CDATA[Vikas Ahuja]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://blogs.msdn.com/vikasahuja</wp:comment_author_url>
+  <wp:comment_author_IP>71.112.104.79</wp:comment_author_IP>
+  <wp:comment_date>2008-12-13 00:47:52</wp:comment_date>
+  <wp:comment_date_gmt>2008-12-13 08:47:52</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Harry - Profiles are read only in current release as Oran pointed out. You can use forums as one of the resource at your disposal for discussion if you haven't already using it. 
+
+I have updated one Thread with link to your post - we community members for Live Framework keep doing it as we find blog posts about Live Framework.
+
+http://social.msdn.microsoft.com/Forums/en-US/liveframework/thread/828d9a48-239a-4af8-8239-35931e514d37
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

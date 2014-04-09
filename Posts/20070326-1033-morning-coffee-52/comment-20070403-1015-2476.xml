@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2476</wp:comment_id>
+  <wp:comment_author><![CDATA[Graham Shevlin]]></wp:comment_author>
+  <wp:comment_author_email>graham@grahamshevlin.com</wp:comment_author_email>
+  <wp:comment_author_url>http://grahamshevlin.com</wp:comment_author_url>
+  <wp:comment_author_IP>192.85.47.2</wp:comment_author_IP>
+  <wp:comment_date>2007-04-03 10:15:51</wp:comment_date>
+  <wp:comment_date_gmt>2007-04-03 17:15:51</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I looked at the article about CASE morphing into EA, and I have to say I think it is well wide of the mark. He is right that CASE was top-down, and that software creation analogies to manufacturing are of limited value. However, EA is fundamentally different to CASE. CASE was about using higher-order modeling to generate solutions. EA does not cover that area. I would argue that CASE has morphed into Software Factories/DSLs. The DSL wave is an attempt to re-introduce higher-order models as a source for code generation in a more limited way, with less of the top-down "stone tablets" approach. 
+The explanation that CASE failed because of "too many promises made by too many vendors" is deficient. That reason is a contributory factor to the failure of just about any recent I.T. technology failures; all vendors tend to over-sell new offerings (expansive hype gets you noticed in a crowded marketplace; modesty doesn't). There are a collection of inter-related reasons why CASE failed, ranging from under-investment, through the impact of disruptive technologies in the 1990's (client-server and the emergence of UML)...the list goes on. Over-selling by vendors is a very small part of the root causes. (I know...I was a CASE consultant for 8 years). ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

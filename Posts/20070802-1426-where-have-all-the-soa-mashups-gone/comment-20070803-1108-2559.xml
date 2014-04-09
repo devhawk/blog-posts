@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2559</wp:comment_id>
+  <wp:comment_author><![CDATA[Erik Johnson]]></wp:comment_author>
+  <wp:comment_author_email>ejohnson@epicor.com</wp:comment_author_email>
+  <wp:comment_author_url>http://appside.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>65.248.23.250</wp:comment_author_IP>
+  <wp:comment_date>2007-08-03 11:08:54</wp:comment_date>
+  <wp:comment_date_gmt>2007-08-03 18:08:54</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Those mashups are stuffed into a shoebox along with our web services.  Four years ago, weren't there meant to be *millions* of web services thriving in a new market?  What happened (hint -- it had nothing to do with WS-*)?  
+
+It's one thing to show a mashup, quite another to commercially rely on a mashup, and yet another to profit when mashups use your content.  
+
+Viable, cross-enterprise, commercial mashups have startup with large commodity/service companies like FedEx content embedded in an eCommerce site (where's my stuff?).  But beyond that, it will be vertical applications that are further automating a specific business chain.  I think you'll find web services have submerged similarly to industry-specific applications.
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

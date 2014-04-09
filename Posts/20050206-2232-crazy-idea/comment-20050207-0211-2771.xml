@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2771</wp:comment_id>
+  <wp:comment_author><![CDATA[Tiago Pascoal]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://weblogs.asp.net</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2005-02-07 02:11:10</wp:comment_date>
+  <wp:comment_date_gmt>2005-02-07 10:11:10</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Humm i think Linux (i'm sure other unixes have it too) has this, /proc/* for example. But this is done at a kernel level, not sure if such thing exists at the user process level, i bet there is something. But if there isn't i sure it would be an easy hack.
+
+What kind of semantics were you thinking? would these virtual files be seekable? how would they be versioned? what kind of concurrency controls would need to exist? 
+
+Sure pull instead of push (with a lot of unnecessary pushing ocurring in your described scenario) is nice, but i wonder if the effort would be worth it?
+
+just wondering.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

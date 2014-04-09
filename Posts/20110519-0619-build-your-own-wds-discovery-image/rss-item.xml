@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Build Your Own WDS Discovery Image</title>
+  <link>http://devhawk.net/2011/05/19/build-your-own-wds-discovery-image/</link>
+  <pubDate>Thu, 19 May 2011 13:19:23 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://devhawk.net/?p=1900</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[Given that I <a href="http://devhawk.net/2009/10/26/joining-windows/">work on the Windows team</a>, it shouldn’t come as a surprise that we use <a href="http://technet.microsoft.com/en-us/library/cc772106(v=WS.10).aspx">Windows Deployment Services</a> to distribute Windows images internally. For most machines, it’s really convenient. You trigger a network boot (on my Lenovo, you press the “ThinkVantage” button during start up), select the image to install and what partition to install it to, wait a while, answer the installation finalization questions (machine name, user name, etc) and you’re done.
+
+However, I have an <a href="http://www.dell.com/us/p/inspiron-duo/pd">Dell Inspiron Duo</a> (with the cool flip screen) netbook that lacks a built in network port. No network port, no network boot. I’ve got a USB network dongle, but it doesn’t support network boot either. No network boot, no ultra-convenient WDS installation, sad DevHawk.
+
+I was able to work around this by building a custom <a href="http://technet.microsoft.com/en-us/library/cc730907(WS.10).aspx">WDS Discover image</a> that I loaded onto a USB flash drive. Now, I plug in the USB drive, select it as the boot device and I’m off and running…err, off and installing at any rate. Building the image was kind of tricky, so I figured it would be a good idea to write it down and share.
+
+<strong>Step One: Install the <a href="http://technet.microsoft.com/en-us/library/dd349343(v=WS.10).aspx">Windows Automated Installation Kit (AIK)
+</a></strong>The AIK is a set of tools for customizing Windows Images and deployment. In particular, it includes the <a href="http://technet.microsoft.com/en-us/library/dd744322(v=WS.10).aspx">Windows Preinstallation Environment</a> (aka WinPE) which is the minimal OS environment that Windows Setup runs in. We’ll be building a custom WinPE image to launch the WDS discovery and setup from.
+
+<strong>Step Two: Create a new PE image
+</strong>The AIK includes a command line tool for creating a blank PE image. Step 1 of this <a href="http://technet.microsoft.com/en-us/library/dd744530(v=WS.10).aspx">walkthru</a> shows you how to use it. It’s pretty easy. Open the Deployment Tools Command Prompt as an administrator and run the following commands:
+<pre class="brush:plain">copype.cmd x86 C:\winpe_x86
+copy winpe.wim ISO\sources\boot.wim</pre>
+The copype.cmd batch file creates a new PE image of the specified architecture in the specified location. The Inspiron is an Atom processor so I chose an x86 PE image.
+
+Note, in several steps below I assume you’ve created your  PE image in c:\winpe_x86. If you’ve created it somewhere else, make sure to swap in the correct path when executing the steps below.
+
+<strong>Step Three: Mount the PE Boot image with DISM
+</strong>Now that we have our basic PE boot image, we need to update it with custom drivers and the setup experience that can load WDS images across the network. Before we can update boot.wim, we need to mount it on the file system.
+
+The AIK includes the <a href="http://technet.microsoft.com/en-us/library/dd744256(WS.10).aspx">Deployment Image Servicing and Management (DISM)</a> tool for working with WIM files. To mount the boot.wim file, execute the following command:
+<pre class="brush:plain">dism /Mount-WIM /WimFile:C:\winpe_x86\ISO\sources\boot.wim /index:1 /MountDir:c:\winpe_x86\mount</pre>
+Copype.cmd created an empty mount directory specifically for DISM to mount WIM images in.
+
+<strong>Step Four: Add Custom Device Driver
+</strong>The driver for my USB network dongle is not included in the standard Windows driver package, so it needs to be <a href="http://technet.microsoft.com/en-us/library/dd799289(WS.10).aspx">manually added to the PE image</a>. Again, we use DISM to do this.
+<pre class="brush:plain">dism /image:c:\winpe_x86\mount /add-driver /driver:"PATHTODRIVERDIRECTORY"</pre>
+<strong>Step Five: Add Setup packages
+</strong>The PE image does not include the Windows Setup program by default. There are <a href="http://technet.microsoft.com/en-us/library/dd744533(WS.10).aspx">several optional packages</a> that you can add to your PE image. For WDS discovery, you need to add the setup and setup-client packages. Again, we use DISM to update the image.
+<pre class="brush:plain">dism /image:c:\winpe_x86\mount /add-package /packagepath:"c:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_FPs\winpe-setup.cab"
+dism /image:c:\winpe_x86\mount /add-package /packagepath:"c:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_FPs\winpe-setup-client.cab"</pre>
+<strong>Step Six: Add winpeshl.ini file
+</strong>Now that we’ve added the setup program to the image, we need to tell setup to <a href="http://technet.microsoft.com/en-us/library/cc730907(WS.10).aspx#BKMK_custom">run in WDS discovery mode on startup</a>. This is accomplished by adding a winpeshl.ini file to the WindowsSystem32 folder of the PE image.
+
+Note, the <a href="http://technet.microsoft.com/en-us/library/cc730907(WS.10).aspx#BKMK_custom">official instructions</a> on TechNet have a bug. The path to setup.exe should be %<strong>SYSTEMDRIVE</strong>%sources, not %<strong>SYSTEMROOT</strong>%sources. Here’s the contents of my winpeshl.ini file:
+<pre class="brush:plain">[LaunchApps]
+%SYSTEMDRIVE%\sources\setup.exe, "/wds /wdsdiscover"</pre>
+You can also add /wdsserver:&lt;server&gt; to the command line if you want to hard code the WDS Server to use in your image.
+
+<strong>Step Seven: Add Lang.ini file
+</strong>If you do all the above steps and try to boot the resulting image, you’ll get a nasty “Windows could not determine the language to use for Setup” error. Turns out there’s another bug in the official docs – <a href="http://www.msfn.org/board/topic/139298-winpe-30-wds-problems/">you need a lang.ini file in your sources directory</a> along side setup.exe in order to run. I just grabbed the lang.ini file off the normal Win7 boot image and copied it to the sources directory of my mounted boot image.
+
+<strong>Step Eight: Commit and Unmount the PE Boot image
+</strong>We’re now done updating the boot image, so it’s time to close and unmount it. This is accomplished with DISM:
+<pre class="brush:plain">dism /unmount-wim /mountdir:c:\winpe_x86\mount /commit</pre>
+At this point, the contents of the ISO folder are ready to be transferred to a USB stick for booting.
+
+<strong>Step Nine: Prepare the USB Flash Drive
+</strong>To enable your USB flash drive to be bootable, it needs to have a single FAT32 partition spanning the entire drive. Instructions in this <a href="http://technet.microsoft.com/en-us/library/dd744530(v=WS.10).aspx">walkthru</a> show you how to configure and format your USB drive.
+
+Note, not all USB drives are created equal. I have one USB drive where the Duo just comes up with a blank screen when I try to use it for USB Boot. If you follow these steps and can’t boot, try a different USB drive.
+
+<strong>Step Ten: Copy the image contents to the Flash Drive
+</strong>I just did this with xcopy. In this case, my flash drive is E:, but obviously you should swap in the drive letter for your flash drive.
+<pre class="brush:plain">xcopy c:\winpe_x86\ISO\*.* /e e:</pre>
+<strong>Step Eleven: Boot your Netbook from the USB drive
+</strong>With the USB drive containing the image + the network dongle both plugged in, boot the machine and trigger USB boot. For the Duo, you can hit F12 during boot to manually select your boot source. Your custom image will be booted, and it will then look out on the network to find the WDS server to load images from. Select the image you want and where you want to install it and away you go.
+
+One thing to remember is that you're adding the  USB network dongle driver to the WDS discovery boot image, but <em>not</em> to the image that gets installed via WDS. So chances are you'll need the driver again once you get the image installed. I put that driver on the same USB key that holds the boot image. That way I can easily install the driver once Windows is installed.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1900</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2011-05-19 06:19:23</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2011-05-19 13:19:23</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">build-your-own-wds-discovery-image</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="deployment"><![CDATA[Deployment]]></category>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <category domain="post_tag" nicename="wds"><![CDATA[WDS]]></category>
+  <category domain="post_tag" nicename="windows"><![CDATA[Windows]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3181</wp:comment_id>
+    <wp:comment_author><![CDATA[Bob Panick]]></wp:comment_author>
+    <wp:comment_author_email>rpanick@msn.com</wp:comment_author_email>
+    <wp:comment_author_url>http://photos.panick.com</wp:comment_author_url>
+    <wp:comment_author_IP>72.255.116.219</wp:comment_author_IP>
+    <wp:comment_date>2011-06-01 17:37:07</wp:comment_date>
+    <wp:comment_date_gmt>2011-06-02 00:37:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Alternately you can create the WinPE disk, copy the Windows WIM files and simply use ImageX to extract the WIM file to your target disk.  Then when Windows has stared add the network drivers.  In this case you don't even need the network drivers until you are ready to join the domain, and you may be able to use your WiFi network.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3182</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>76.22.116.15</wp:comment_author_IP>
+    <wp:comment_date>2011-06-01 22:14:38</wp:comment_date>
+    <wp:comment_date_gmt>2011-06-02 05:14:38</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Interesting. I'll have to look into this approach. Can you load the WIM files from the WDS server or do they need to be placed on a traditional file share?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>3181</wp:comment_parent>
+    <wp:comment_user_id>1</wp:comment_user_id>
+  </wp:comment>
+</item>

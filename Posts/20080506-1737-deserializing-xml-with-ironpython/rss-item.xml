@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Deserializing XML with IronPython</title>
+  <link>http://devhawk.net/2008/05/06/deserializing-xml-with-ironpython/</link>
+  <pubDate>Tue, 06 May 2008 17:37:25 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6eb7375a-4ee7-4846-a1ba-15f4abde9b98</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Now that I can <a href="http://devhawk.net/2008/05/06/Stream+Processing+XML+In+IronPython.aspx">stream process XML</a>, the next logical step is to deserialize it into some type of object graph. As I said in my last post, there are at least three different DOM-esque options on the .NET platform as well as two in the Python library (<a href="http://docs.python.org/lib/module-xml.dom.html">xml.dom</a> and <a href="http://docs.python.org/lib/module-xml.dom.minidom.html">xml.minidom</a>)</p><p>However, anyone who's ever programmed against the <a href="http://www.w3.org/DOM/">DOM</a> knows just what a major PITA it is. </p><p>Instead, you could deserialize the XML into a custom object tree, based on the nodes in the XML stream. In .NET, there are at least two libraries for doing this: the old-school <a href="http://msdn.microsoft.com/library/system.xml.serialization.xmlserializer">XmlSerializer</a> as well as the new-fangled <a href="http://msdn.microsoft.com/library/system.runtime.serialization.datacontractserializer">DataContractSerializer</a>. In these libraries, the PITA comes in defining the static types with all the various custom attribute adornments you need to tell the deserializer how to do it's job. Actually, if you're defining your code first, all those adornments aren't that big a deal. However, if you're starting from the XML, especially XML with lots of different namespaces - like say <a href="http://feeds.feedburner.com/Devhawk">my RSS feed</a> - defining a static type for this gets old fast. </p><p>Of course, if you're not using a statically typed language... ;)</p><p>One of the cool aspects of dynamic languages is the ability to easily generate new types on the fly. In Python, you can create a new type by calling the type function. Here's an example of creating a new type for a XML node:</p><pre class="brush: python">
+def create_type(node, parent):  
+  return type(node.name, (parent,), {'xmlns':node.namespace})
+</pre><p>Since I'm working with XML, I wanted to make sure I handled namespaces. Thus, I add the namespace to the class definition (the third parameter in the type function above). This lets me walk up to any arbitrary object created from an XML element and check it's namespace. </p><p>I used this dynamic type creation functionality in my <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/xml2py.py">xml2py</a> module, which I added to my <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff">IronPython SkyDrive folder</a>. It leverages <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/ipypulldom.py">ipypulldom</a>, so make sure you get both. The heart of the module is the xml2py function, which recursively iterates thru the node stream and builds the tree. Attributes and child elements become named attributes on the object, so I can write code that looks like this:</p><pre class="brush: python">
+import xml2py  
+rss = xml2py.parse('http://feeds.feedburner.com/Devhawk')  
+for item in rss.channel.item:  
+  print item.title
+</pre><p>You see? No screwing around with childNodes or getAttribute here.</p><p>The basic processing loop of xml2py creates a new instance of a new type when it encounters a start element tag. It then collects all the attributes and children of that element, and adds them as attributes on the element object, using the name of the type as name of the attribute. If there are multiple children with the same type name, xml2py converts that attribute to a list of values. For example, in an RSS feed, there will be likely be many rss.channel.item elements. In xml2py, the item attribute of the channel object will be a list of item objects. </p><p>Since attributes and child elements are getting slotted together, I added a _nodetype attribute on each so I can later tell (if I care) if the value was originally an attribute or element. I haven't written py2xml yet, but that might be important then.</p><p>I do one optimization for simple string elements like &lt;foo&gt;bar&lt;/foo&gt;. In this case, I create a type that inherits from string (hence the need for the parent parameter in the create_type function above) and contains the string text. It still has the xmlns and _nodetype attributes, so I could write item.title.xmlns (which is empty since RSS is in the default namespace) or item.title._nodetype (which would be XmlNodeType.Element)</p><p>It's not much code - about 100 lines of code split evenly between the xml2py function and the _type_factory object. Given that you usually see the same element in an XML stream over an over, I didn't want to create multiple types for the same element. So _type_factory caches types in a dictionary so I can reuse them. One of the cool things is that it's a callable type (i.e. it implements __call__ so I can use the instance like a function. I started by defining a xtype function that didn't cache anything, but then later switched xtype to be a _type_factory instance, but none of my code that called xtype had to change!</p><p>One other quick note. If you put xml2py.py and ipypylldom.py in a folder, you can experiment with them by launching "ipy -i xml2py". This runs xml2py.py as a script, but dumps you into the interactive console when you're thru. It will run the little snippet of code above which runs xml2py on my <a href="http://feeds.feedburner.com/Devhawk">FeedBurner feed</a>, but then you can play around with the rss object and see what it contains. Be sure to check out the xmlns attribute for each object in the rss.channel.link list.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1145</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-05-06 17:37:25</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-05-06 17:37:25</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">deserializing-xml-with-ironpython</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="xml"><![CDATA[XML]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6eb7375a-4ee7-4846-a1ba-15f4abde9b98]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Deserializing+XML+With+IronPython]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/05/07/Deserializing+XML+With+IronPython]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2074</wp:comment_id>
+    <wp:comment_author><![CDATA[Bryant Likes]]></wp:comment_author>
+    <wp:comment_author_email>devhawk@bryantlikes.com</wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.sqlxml.org/BryantLikes</wp:comment_author_url>
+    <wp:comment_author_IP>204.238.46.100</wp:comment_author_IP>
+    <wp:comment_date>2008-05-06 18:25:23</wp:comment_date>
+    <wp:comment_date_gmt>2008-05-07 01:25:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'm using my statically typed language and I'm not screwing around with childNodes or getAttribute either (thankfully!):
+
+XElement rss = XElement.Load("http://feeds.feedburner.com/Devhawk");
+foreach (XElement item in rss.Element("channel").Elements("item"))
+    Console.WriteLine(item.Element("title").Value);
+
+Not quite as elegant as yours, but not too far off. :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2075</wp:comment_id>
+    <wp:comment_author><![CDATA[Seo Sanghyeon]]></wp:comment_author>
+    <wp:comment_author_email>sanxiyn@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>143.248.233.155</wp:comment_author_IP>
+    <wp:comment_date>2008-05-06 18:30:50</wp:comment_date>
+    <wp:comment_date_gmt>2008-05-07 01:30:50</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[For a mature Python library to do XML to object serialization, take a look at lxml.objectify.
+
+http://codespeak.net/lxml/objectify.html
+
+You really should try FePy. FePy doesn't run lxml.objectify yet (this one is a monster), but it does run gnosis.xml.objectify. And it runs same on CPython too.
+
+It is impressive that you could cook up XML to object serializer in relative short time and code, but I personally won't use any IronPython-only solution when there are lots of mature Python solutions.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2076</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>24.16.91.67</wp:comment_author_IP>
+    <wp:comment_date>2008-05-06 20:23:25</wp:comment_date>
+    <wp:comment_date_gmt>2008-05-07 03:23:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@Bryant, XDocument + LINQ is a HUGE improvement over XmlDocument. But support for late binding is what makes the Python version so much more readable. 
+
+@Seo, Don't worry, I plan to take a very long look at FePy. Just haven't had the time yet. 
+
+As for my code, it's more about me learning Python not really about providing a definitive solution to any specific problem. I think xml2py could be tweaked to support pulldom with little effort. I just know .NET FX very well, so it's easier for me to focus on learning the language with a library I know then it is to learn the language and library at the same time. 
+
+Thanks for the link to lxml.objectify. I'll take a look at that too. I figure there must be other (and better) libraries out there that do something similar to xml2py. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2077</wp:comment_id>
+    <wp:comment_author><![CDATA[Oran]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://orand.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>66.230.108.88</wp:comment_author_IP>
+    <wp:comment_date>2008-05-06 21:20:33</wp:comment_date>
+    <wp:comment_date_gmt>2008-05-07 04:20:33</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Looks like LINQ to XSD!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2078</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>24.16.91.67</wp:comment_author_IP>
+    <wp:comment_date>2008-05-06 23:53:11</wp:comment_date>
+    <wp:comment_date_gmt>2008-05-07 06:53:11</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@Oran, except there's no XSD required - xml2py works with any arbitrary XML stream]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

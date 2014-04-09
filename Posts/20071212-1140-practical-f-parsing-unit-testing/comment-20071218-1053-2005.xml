@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2005</wp:comment_id>
+  <wp:comment_author><![CDATA[James]]></wp:comment_author>
+  <wp:comment_author_email>jayhugard@hotmail.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>65.200.4.130</wp:comment_author_IP>
+  <wp:comment_date>2007-12-18 10:53:19</wp:comment_date>
+  <wp:comment_date_gmt>2007-12-18 18:53:19</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Using the implicit class construction syntax reduces things by a few lines, but still retains a stable fixture object which gets recreated for each test (fixup the indenting as appropriate)...
+
+type [<TestFixture>] parser_tests() =    
+
+        [<Test>]   
+        member x.test_NC() =    
+            let Some(c,text) = NC !!"test"  
+            Assert.Equal(c, 't')    
+            Assert.Equal(text, !!"est") 
+
+        [<Test>]   
+        member x.test_NC_empty_string() =    
+            let ret = NC !!""  
+            Assert.Equal(None, ret) 
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

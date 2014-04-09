@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2462</wp:comment_id>
+  <wp:comment_author><![CDATA[Brad Wilson]]></wp:comment_author>
+  <wp:comment_author_email>dotnetguy@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.agileprogrammer.com/dotnetguy</wp:comment_author_url>
+  <wp:comment_author_IP>71.231.180.146</wp:comment_author_IP>
+  <wp:comment_date>2007-03-13 18:36:31</wp:comment_date>
+  <wp:comment_date_gmt>2007-03-14 01:36:31</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[How mainstream is Ruby on Rails for you? Ruby is a full fledged dynamic language. No hacks for "extension methods".]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

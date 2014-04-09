@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2142</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.75</wp:comment_author_IP>
+  <wp:comment_date>2008-11-14 15:11:00</wp:comment_date>
+  <wp:comment_date_gmt>2008-11-14 23:11:00</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[@Everyone, thanks for the input!
+
+@Chris, we can't use .NET attributes from IronPython today. It's something we're looking at post-2.0
+
+@Apolon, I'll be addressing data binding in WPF next week. I'll look to see if the same approach I'll be describing works for Silverlight. As for Managed JScript on the DLR, it's available for Silverlight as part of the Silverlight Dynamic Language SDK (http://codeplex.com/sdlsdk). It's not available for the desktop CLR. ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

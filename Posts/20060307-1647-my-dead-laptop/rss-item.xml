@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>My Dead Laptop</title>
+  <link>http://devhawk.net/2006/03/07/my-dead-laptop/</link>
+  <pubDate>Tue, 07 Mar 2006 16:47:54 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://384d66ca-c499-4339-8199-7f6275f5b7d7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>So between this mornings <a title="multi-touch interface demo" href="http://conferences.oreillynet.com/cs/et2006/view/e_sess/9091">multi-touch interface demo</a> and the session on <a title="Amazon's Mechanical Turk service" href="http://conferences.oreillynet.com/cs/et2006/view/e_sess/8267">Amazon's Mechanical Turk service</a>, my laptop died. At least, the display did. Sometimes I can get it to work for a short time by closing and re-opening the lid. But in the constant jostling environment of a confernce audience, getting it to keep working has proved impossible.</p><p>Of course this couldn't happen while I'm at home with convienent access to the help desk. I'm at the Emerging Tech conferences for pete sake! </p><p>I would have just bought a laptop at CompUSA or something, but that qualifies as a captial expenditure and my boss wouldn't sign off on it (primarily because of the paperwork he'd have to fill out). Luckily, <a title="CRE Rentals" href="http://www.computerrentals.com/">CRE Rentals</a> was able to get a machine over to me in a few hours so I'm back online. I guess I won't be doing any more coding this trip, but I guess I'll survive. </p><p>More from ETech later. In the meantime, check out Ray Ozzie's blog entry on <a href="http://spaces.msn.com/rayozzie/blog/cns!FB3017FBB9B2E142!285.entry">Wiring the Web</a>. I may be biased, but it's the coolest new thing I've seen here so far (though the multi-touch interface is pretty awesome too)</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">715</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-03-07 16:47:54</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-03-07 16:47:54</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">my-dead-laptop</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="etech"><![CDATA[ETech]]></category>
+  <category domain="post_tag" nicename="hardware"><![CDATA[Hardware]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[384d66ca-c499-4339-8199-7f6275f5b7d7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[My+Dead+Laptop]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/03/08/My+Dead+Laptop]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Lunchtime Coffee 158</title>
+  <link>http://devhawk.net/2008/03/18/lunchtime-coffee-158/</link>
+  <pubDate>Tue, 18 Mar 2008 19:49:14 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://fb57d1ef-57b9-4c93-9169-98fbe5ffd8bc</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>My friend (and hopefully my next representative) <a href="http://www.darcyburner.com/">Darcy Burner</a> is leading a group of congressional challengers in publishing <a href="http://www.responsibleplan.com/plan">A Responsible Plan To End The War In Iraq</a>. I haven't read the plan itself in detail, but I sure like what I'm hearing about it. </li><li>Speaking of politics, Obama's speech today "<a href="http://my.barackobama.com/page/community/post/samgrahamfelsen/gGBbJv">A More Perfect Union</a>" was fantastic. </li><li><a href="http://www.xbox.com/games/bioshock/">Bioshock</a> is <a href="http://news.teamxbox.com/xbox/15924/BioShock-Sequel-Announced-Coming-Next-Year/">getting a sequel</a>. 'nuff said.  </li><li>There's a <a href="https://www.foldershare.com/clientdownload.aspx">new version</a> of <a href="http://foldershareteam.spaces.live.com/blog/cns!9D186A323DE6761!133.entry">FolderShare out</a> and I've got mixed feelings about it. On the one hand, I've been a regular user of FolderShare for a while so it's nice to see it get a face lift. On the other hand, it's been over two years since Microsoft bought FolderShare and we're only just now getting a new version, which is literally nothing more that a face lift - this version introduces no new functionality at all.  </li><li>I was hoping to geek out vicariously via someone else's hacking around with <a href="http://www.codeplex.com/singularity/">Singularity</a>. Luckily, Matthew Podwysocki <a href="http://weblogs.asp.net/podwysocki/archive/2008/03/11/singularity-c-os-released-on-codeplex.aspx">provides</a> just such an opportunity.  </li><li>Looks like "<a href="http://www.codeplex.com/prism">Prism</a>" is the new CAB. Glenn Block has two extensive posts covering a <a href="http://blogs.msdn.com/gblock/archive/2008/03/12/prism-launches-on-codeplex.aspx">project overview</a> and their <a href="http://blogs.msdn.com/gblock/archive/2008/03/12/prism-ri-first-drop.aspx">first drop</a>. I think it's interesting that the Prism team is focused on building a reference implementation, and letting the framework eventually fall out. Reading thru the description, it sounds awesome. However, based on the massive increase of inbox throughput I'm experiencing since I <em>accepted</em> the new job, I can't imagine I'll have time to play with it. Maybe Matthew will start playing with Prism too! (via <a href="http://samgentile.com/blogs/samgentile/archive/2008/03/12/new-and-notable-225.aspx">Sam Gentile</a> - btw, thanks for the kind words on the new job Sam!) </li><li>Speaking of Sam, he points to a series by Bob Beauchemin entitled <a href="http://www.sqlskills.com/blogs/bobb/2008/02/14/MHOLINQToSQLAndEntityFrameworkPanaceaOrEvilIncarnatePart1.aspx">LINQ to SQL and Entity Framework: Panacea or evil incarnate?</a> With a title like that, who can resist reading the whole series? Err, I can because LINQ 2 SQL &amp; EF performance just fell off my radar entirely. However I gotta agree with Sam's point that he "can't think of anyone more qualified than Bob" to tackle these questions.  </li><li>Tomas Restrepo blogs his <a href="http://www.winterdom.com/weblog/2008/03/13/DevEnvironmentForPowerShell.aspx">dev environment PS script</a> as well as a <a href="http://www.winterdom.com/weblog/2008/03/17/PowerShellFortune.aspx">PS fortune script</a>. Personally, I use Chris Tavares' <a href="http://www.tavaresstudios.com/Blog/post.aspx?id=0ccbfc67-fc1b-496b-b71e-a74301e583de">vsvars wrapper for PS</a>, though I'll gladly take an <a href="http://blogs.msdn.com/nandal/archive/2008/03/10/influence-the-future-of-windows-sdk-powershell-based-build-environment.aspx">"official" PS based dev environment</a>. </li><li>I wonder if Ted Neward will get jumped for <a href="http://blogs.tedneward.com/2008/03/15/Mort+Means+Productivity.aspx">admiring Mort</a> the way <a href="http://blogs.msdn.com/nickmalik/archive/2007/06/19/not-crazy-just-lateral-thinking.aspx">Nick Malik did</a>. Given that Ted called himself Mort while Nick compared Mort to agile developers, I'm guess Ted will have to go back to his <a href="http://blogs.tedneward.com/2006/06/26/The+Vietnam+Of+Computer+Science.aspx">Vietnam analogy</a> if he wants to create controversy.  </li><li>Speaking of Ted, I agree <a href="http://blogs.tedneward.com/2008/03/15/The+Reason+For+Conferences.aspx">with his point</a> that conferences are about people. As a python pre-newbie (I figure I'll reach full newbie status by the time I actually start my new job), I spent most of my PyCon time connecting with people rather than trying to learn technical stuff. Also, I love Ted's WHISCEY acronym.  </li><li>Speaking of PyCon, my soon-to-be new teammate Srivatsn Narayanan blogs <a href="http://blogs.msdn.com/srivatsn/archive/2008/03/18/pycon-2008.aspx">his thoughts on PyCon</a>. I'll try and get to my PyCon thoughts soon.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1126</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-03-18 12:49:14</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-03-18 19:49:14</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">lunchtime-coffee-158</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="games"><![CDATA[Games]]></category>
+  <category domain="post_tag" nicename="linq"><![CDATA[LINQ]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="patterns-practices"><![CDATA[patterns &amp; practices]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="post_tag" nicename="research"><![CDATA[Research]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[fb57d1ef-57b9-4c93-9169-98fbe5ffd8bc]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Lunchtime+Coffee+158]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/03/18/Lunchtime+Coffee+158]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2048</wp:comment_id>
+    <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+    <wp:comment_author_email>tomas@winterdom.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.winterdom.com/weblog/</wp:comment_author_url>
+    <wp:comment_author_IP>200.116.204.205</wp:comment_author_IP>
+    <wp:comment_date>2008-03-18 13:39:11</wp:comment_date>
+    <wp:comment_date_gmt>2008-03-18 20:39:11</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks for the link to Chris tavares blog, Harry; I had honestly not seen it before. The trick he uses is cool, but not sure it would work for me (as I modify a bunch of other env variables on my profile and blindly replacing them with the output of vcvars32.bat might not work. 
+In any case, my desire for creating a custom script was mostly so that I could keep a single script that worked on all my machines, regardless of the VS version installed, and since it's doing that very nicely, no need to switch for now.
+
+On a different topic, Ted does have a good point. I haven't been to "real" conferences in a few years, but certainly the networking opportunities where by far the most productive part of the conferences. I wonder how many people totally miss that.
+
+Looking forward to your thoughts on PyCon.... hope it wasn't all as bad as Bruce Eckel was complaining about :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

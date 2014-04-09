@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2001</wp:comment_id>
+  <wp:comment_author><![CDATA[Anon]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+  <wp:comment_date>2007-12-05 12:04:51</wp:comment_date>
+  <wp:comment_date_gmt>2007-12-05 20:04:51</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I think that we FPers commonly introduce our friends to the wrong way. Normally people learn new technologies because they somehow give you more power. I think that eliminating side-effects is only half of the story; and it's the part that feels limiting to non-FP programmers. It's actually not limiting but appreciating that is difficult without working in FP for a while. The powerful part of FP (the other half of the story) is using functions as first-class citizens - composing complex things out of simple already built and working composable pieces. I think it's a lot easier for non-FP programmers to grasp the power of higher order functions first, then later come to realize the value of side-effect-free programming. They see that it gets in the way of the power of composition. But they can't see that until they see the power of composition to begin with.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

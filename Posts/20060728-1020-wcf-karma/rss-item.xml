@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>WCF Karma</title>
+  <link>http://devhawk.net/2006/07/28/wcf-karma/</link>
+  <pubDate>Fri, 28 Jul 2006 10:20:02 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://37c370c3-a33d-48c2-b6f3-f244060bf6ce</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Last fall, I was presenting to a group of architects about SOA. The previous speaker - <a href="http://blogs.msdn.com/richardt/">Rich Turner</a> - was running way late. As I walked in, he was doing a WCF demo and wanted to show how easy it was to change transport by changing the config file. He wanted to change it to run over named pipes, but he couldn't remember the name of the binding. He asked me, and I confessed that I didn't know either. So he gave up on demoing named pipes, finished his presentation and went on his way.</p><p>After he left, I confessed to the assembled architects that I knew *nothing* about WCF beyond the high-level concepts. I hadn't spent any time working with it at all. In fact, the only reason I had it installed was because it got installed automatically when you installed WPF which I was working with at the time. My reasoning, as I explained to them, was that WCF is a low-level abstraction. That is to say, WCF is nearer the bottom of the <a href="http://biztech.ericsink.com/Abstraction_Pile.html">.NET Abstraction Pile</a> than the top. I figured I'd let the people building the next generation of service-oriented infrastructure to worry about WCF. </p><p>Fast forward eight months, and my new job is about building service-oriented infrastructure. You know, the type that builds on WCF. Maybe it's karma, but I'm having to learn a lot about WCF right quick.</p><p>So as I get back into the blogging saddle, expect to see a bunch of stuff about WCF. </p><p>BTW, Major thanks to <a href="http://codebetter.com/blogs/sam.gentile/">Sam Gentile</a>, who's taken the time on email and the phone (on his vacation no less) to help talk some things thru. He suggested the <a href="http://www.samspublishing.com/bookstore/product.asp?isbn=0672328771&amp;rl=1">WCF Hands On</a> book, which is pretty good. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">773</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-07-28 10:20:02</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-07-28 10:20:02</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">wcf-karma</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="wcf"><![CDATA[WCF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[37c370c3-a33d-48c2-b6f3-f244060bf6ce]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[WCF+Karma]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/07/28/WCF+Karma]]></wp:meta_value>
+  </wp:postmeta>
+</item>

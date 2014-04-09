@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2833</wp:comment_id>
+  <wp:comment_author><![CDATA[Neil Macehiter]]></wp:comment_author>
+  <wp:comment_author_email>neilm@mwdadvisors.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.mwdadvisors.com</wp:comment_author_url>
+  <wp:comment_author_IP>62.253.128.11</wp:comment_author_IP>
+  <wp:comment_date>2005-09-01 10:01:16</wp:comment_date>
+  <wp:comment_date_gmt>2005-09-01 17:01:16</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Harry
+
+I certainly agree that an architect 'should' sit at the intersection between business and IT to ensure that the resulting architecture aligns with business requirements and priorities. It's not so much bottom-up or top-down as middle-out. That's why I get so frustrated with much of the commentary surrounding SOA which is largely driven from a software development and integration perspective rather than considering the different types of services which constitute a service-oriented approach to IT.
+
+Neil ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

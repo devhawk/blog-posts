@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Evolutionary Computation and Dinner</title>
+  <link>http://devhawk.net/2004/06/29/evolutionary-computation-and-dinner/</link>
+  <pubDate>Tue, 29 Jun 2004 22:25:33 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e34c9e58-db72-4b98-828d-becb653feda4</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Julie, Patrick and I had dinner with my cousin <a href="http://www.research.philips.com/InformationCenter/Global/FArticleDetail.asp?lArticleId=2625&amp;lNodeId=936&amp;channel=936&amp;channelId=N936A2625">David Schaffer</a> tonight. David is a research fellow for Phillips and is an expert on genetic algorithms. He was one of the founding members of the <a href="http://www.isgec.org/">International Society for Genetic and Evolutionary Computation</a> and an editor for <a href="http://mitpress.mit.edu/journal-home.tcl?issn=10636560">Evolutionary Computation Journal</a>. He was in town for the <a href="http://www.isgec.org/gecco-2004">Genetic and Evolutionary Computation COnference 2004</a> (i.e. GECCO - cute). It was funny that we are both software experts (though he is much more expert than I), but had to explain to the other what we did. I explained SOA to him and he explained genetic algorithms to me. We didn't into too much depth over dinner - it was much more fun to watch Patrick try and feed himself noodles and talk about family stuff. However, I think I want to learn more about this - I'm thinking there will be applicability of genetic and evolutionary computation to SOA. Maybe I can get David to write for my <a href="http://msdn.microsoft.com/architecture/journal">JOURNAL</a>.</p><p>David is also into genealogy, and he gave me a copy of the family tree he's been building up over the years. It's all 20 year old console apps and text files, but he wants to bring it to the web in order to better enable collaboration among family members. Of course, David's never built a web app before. Sounds like a job for <a href="http://msdn.microsoft.com/express/vwd">Visual Web Developer 2005 Express</a>! (BTW, what's the abbreviation for that? VWD?)</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">392</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-06-29 22:25:33</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-06-29 22:25:33</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">evolutionary-computation-and-dinner</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e34c9e58-db72-4b98-828d-becb653feda4]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Evolutionary+Computation+And+Dinner]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/06/30/Evolutionary+Computation+And+Dinner]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2630</wp:comment_id>
+    <wp:comment_author><![CDATA[Luciano Evaristo Guerche]]></wp:comment_author>
+    <wp:comment_author_email>guercheLE@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/guercheLE</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-06-30 08:06:09</wp:comment_date>
+    <wp:comment_date_gmt>2004-06-30 15:06:09</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I am also interested in genealogy and have something available at http://www.geocities.com/guercheLE/my_family.htm and http://www.geocities.com/guercheLE/gendesigner/1.html]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2631</wp:comment_id>
+    <wp:comment_author><![CDATA[陈奕迅]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://mms.gjj.cc/sms/5_1.htm</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-07-22 08:05:14</wp:comment_date>
+    <wp:comment_date_gmt>2004-07-22 15:05:14</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[thank]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

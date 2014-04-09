@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>ChucK Audio Programming Language</title>
+  <link>http://devhawk.net/2006/04/26/chuck-audio-programming-language/</link>
+  <pubDate>Wed, 26 Apr 2006 16:13:55 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5e0c1ef3-1aef-4a9b-936c-90cbcc79614d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I saw reference to <a href="http://chuck.cs.princeton.edu/">ChucK</a> on <a href="http://secondlife.blogs.com/prompt/">Prompt Criticality</a>, a <a href="http://www.secondlife.com/">Second Life</a> Blog. I wanted to blog it for my own reference if for no other reason. ChucK is "a new audio programming language for real-time synthesis, composition, and performance" that "presents a new <i>time-based concurrent programming model</i>, which supports a more precise and fundamental level of expressiveness, as well as multiple, simultaneous, dynamic control rates, a <i>precise and straightforward concurrency</i>, and the ability to add, remove, and modify code, <i>on-the-fly</i>, while the program is running, without stopping or restarting". </p><p>Sounds facinating, esp. given my <a href="http://devhawk.net/2006/04/14/Talking+Dynamic+Lanugages+With+Neal+Ford.aspx">recent discussion</a> of internal vs. external DSLs w/ Neal Ford. Plus it deals w/ concurrency and is dynamic. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">741</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-04-26 16:13:55</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-04-26 16:13:55</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">chuck-audio-programming-language</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5e0c1ef3-1aef-4a9b-936c-90cbcc79614d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[ChucK+Audio+Programming+Language]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/04/26/ChucK+Audio+Programming+Language]]></wp:meta_value>
+  </wp:postmeta>
+</item>

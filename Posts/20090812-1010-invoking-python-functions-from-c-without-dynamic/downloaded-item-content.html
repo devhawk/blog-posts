@@ -1,0 +1,53 @@
+<p><a class="grouped_elements" href=".\image_2.png" rel="tc-fancybox-group1281"><img style="border-right-width: 0px; margin: 0px 5px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src=".\image_thumb.png" width="133" height="240"></a> So I&#8217;ve <a href="http://devhawk.net/2009/08/10/Compiling+Python+Packages+Into+Assemblies.aspx">compiled the Pygments package into a CLR assembly</a> and <a href="http://devhawk.net/2009/08/11/Embedding+Python+Scripts+In+C+Applications.aspx">loaded an embedded Python script</a>, so now all that remains is calling into the functions in that embedded Python script. Turns out, this is the easiest step so far.</p>
+<p>We&#8217;ll start with get_all_lexers and get_all_styles, since they&#8217;re nearly identical. Both functions are called once on initialization, take zero arguments and return a PythonGenerator (for you C# devs, a PythonGenerator is kind of like the IEnumerable that gets created when you yield return from a function). In fact, the only difference between them is that get_all_styles returns a generator of simple strings, while get_all_lexers returns a PythonTuple of the long name, a tuple of aliases, a tuple of filename patterns and a tuple of mime types. Here&#8217;s the implementation of Languages property:</p>
+<pre class="brush: csharp">PygmentLanguage[] _lanugages;     
+
+public PygmentLanguage[] Languages      
+{
+    get
+    {
+        if (_lanugages == null)      
+        {
+            _init_thread.Join();      
+
+            var f = _scope.GetVariable&lt;PythonFunction&gt;(&quot;get_all_lexers&quot;);      
+            var r = (PythonGenerator)_engine.Operations.Invoke(f);      
+            var lanugages_list = new List&lt;PygmentLanguage&gt;();      
+            foreach (PythonTuple o in r)      
+            {
+                lanugages_list.Add(new PygmentLanguage()      
+                    {
+                        LongName = (string)o[0],      
+                        LookupName = (string)((PythonTuple)o[1])[0]      
+                    });      
+            }
+
+            _lanugages = lanugages_list.ToArray();      
+        }
+
+        return _lanugages;      
+    }
+}
+</pre>
+<p>If you recall from my last post, I initialized the _scope on a background thread, so I first have to wait for the thread to complete. If I was using C# 4.0, I&#8217;d simply be able to run _scope.get_all_lexers, but since I&#8217;m not I have to manually reach into the _scope and retrieve the get_all_lexers function via the GetVariable method. I can&#8217;t invoke the PythonFunction directly from C#, instead I have to use the Invoke method that hangs off _engine.Operations. I cast the return value from Invoke to a PythonGenerator and iterate over it to populate the array of languages.</p>
+<p>If you&#8217;re working with dynamic languages from C#, the <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/57985#760280">ObjectOperations</a> instance than hangs off the ScriptEngine instance is amazingly useful. Dynamic objects can participate in a powerful but somewhat complex protocol for binding a wide variety of dynamic operation types. The <a href="http://ironpython.codeplex.com/SourceControl/changeset/view/57985#760650">DynamicMetaObject</a> class supports twelve different Bind operations. But the DynamicMetaObject binder methods are designed to be used by language implementors. The ObjectOperations class lets you invoke them fairly easily from a higher level of abstraction.</p>
+<p>The last Python function I call from C# is generate_html. Unlike get_all_lexers, generate_html takes three parameters and can be called multiple times. The Invoke method has a params argument so it can accept any number of additional parameters, but when I tried to call it I got a NotImplemented exception. It turns out that Invoke currently throws NotImplemented if it receives more than 2 parameters. Yes, we realize that&#8217;s kinda broken and we are looking to fix it. However, it turns out there&#8217;s another way that&#8217;s also more efficient for a function like generate_html that we are likely to call more than once. Here&#8217;s my implementation of GenerateHtml in C#.</p>
+<pre class="brush: csharp">Func&lt;object, object, object, string&gt; _generatehtml_function;      
+
+public string GenerateHtml(string code, string lexer, string style)      
+{
+    if (_generatehtml_function == null)      
+    {
+        _init_thread.Join();      
+             
+        var f = _scope.GetVariable&lt;PythonFunction&gt;(&quot;generate_html&quot;);      
+        _generatehtml_function = _engine.Operations.ConvertTo      
+                           &lt;Func&lt;object, object, object, string&gt;&gt;(f);      
+    }
+
+    return _generatehtml_function(code, lexer, style);      
+}
+</pre>
+<p>Instead of calling Invoke, I convert the PythonFunction instance into a delegate using Operations.ConvertTo which I then cache and call like any other delegate from C#. Not only does Invoke fail for more than two parameters, it creates a new dynamic call site every time it&#8217;s called. Since get_all_lexers and get_all_styles are each only called once, it&#8217;s no big deal. But you typically call generate_html multiple times for a block of source code. Using ConvertTo generates a dynamic call site as part of the delegate, so that&#8217;s more efficient than creating one on every call. </p>
+<p>The rest of the C# code is fairly pedestrian and has nothing to do with IronPython, as all access to Python code is hidden behind GenerateHtml as well as the Languages and Styles property. </p>
+<p>So as I&#8217;ve shown in the last few posts, embedding IronPython inside a C# application &#8211; even before we get the new dynamic functionality of C# 4.0 &#8211; isn&#8217;t really all that hard. Of course, we&#8217;re always interested in ways to make it easier. If you&#8217;ve got any questions or suggestions, please feel free to leave a comment or drop me a line.</p>

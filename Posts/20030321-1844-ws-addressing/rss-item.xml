@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>WS-Addressing</title>
+  <link>http://devhawk.net/2003/03/21/ws-addressing/</link>
+  <pubDate>Fri, 21 Mar 2003 18:44:49 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5041c729-84a6-4423-82f0-14876b6f4f24</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<blockquote><p>I think one of the reasons that the RPC model still dominates many people's thinking is that we really haven't gone beyond the HTTP binding defined in the first SOAP spec. For better or worse, as long as we are focused on a client-initiated request/response model, developers are going to think of it as RPC (even though HTTP deals in streamed bytes, not callstacks). WS-Addressing opens the door to other possibilities - like sending response messages to places other than the implicit port at the other end of the HTTP connection. </p><p>With a standard way to describe where messages are supposed to go, what their intent is, and how they relate to one another, we can start building systems that use SOAP messages in other ways (without the complexities of WS-Routings message paths). That in turn will start to influence WSDL. In short, WS-Addressing may be the forcing function we need to really start moving away from the the current RPC-centric view of the world into more interesting areas. <br /> [<a href="http://www.gotdotnet.com/team/tewald/default.aspx?key=2003-03-21T03:23:54Z">Tim Ewald's Spoutlet: Pushing the Envelope</a>]</p></blockquote><p>I've <a href="PermaLink.aspx?guid=c2eeb3f8-ca88-4627-bea7-ec49e75f0a1f">expressed my frustration</a> with WSDL's special treatment of HTTP with regard to the Action attribute before. If <a href="http://msdn.microsoft.com/webservices/default.aspx?pull=/library/en-us/dnglobspec/html/ws-addressing.asp"> WS-Addressing</a> can help move WSDL in the right direction, I'm all for it. </p><p>My only concern is that there seems to be a lot of overlap with <a href="http://msdn.microsoft.com/webservices/understanding/specs/default.aspx?pull=/library/en-us/dnglobspec/html/ws-routing.asp"> WS-Routing</a>. Both specs define an Action element that corresponds to the WSDL soapAction attribute. Both specs define Message ID and RelatesTo elements. Both specs define from and to addresses, though WS-Routing's message paths are much more flexible (and complex). Does WS-Addressing imply WS-Routing is in for a major change?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">49</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-03-21 18:44:49</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-03-21 18:44:49</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ws-addressing</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5041c729-84a6-4423-82f0-14876b6f4f24]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[WSAddressing]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/03/22/WSAddressing]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2514</wp:comment_id>
+  <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+  <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.from9till2.com</wp:comment_author_url>
+  <wp:comment_author_IP>81.151.38.153</wp:comment_author_IP>
+  <wp:comment_date>2007-05-27 09:51:49</wp:comment_date>
+  <wp:comment_date_gmt>2007-05-27 16:51:49</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Trying hard to disagree with you here Harry, but in the interests of the discussion then how about?:
+
+- If I had a wonderful Doughnut Atom Publishing Protocol (APP) based resource on the web that you wanted to use as part of your DeliciousThingsToEat composite app, then don't you have to now treat me as a special case, i.e. I'm not expecting to return a getDetails URI in *my* response - are you going to have to write a special adaptor to make me fit in as an in-between state for your 'controller' of your state machine? The world gravitating to the PUT will make a little awkward for you to add to your application with the resources in systems that you didn't write? If you don't intend to 'promiscuously mashup' from outside resource-based services (maybe for an internal system that could be Service rather than Resource orientated?) then this point is moot.
+
+- I think the butterflies in my tummy about this issue may be related in that it smells a bit like the days of SOAP Doc/Lit vs RPC/Enc chaos, (Cough - Hey, I know how about Basic Profile 1.0 for REST usage!? Shudder!). The 'you say POST and I say PUT' chaos is probably a way of life, and maybe if it took us 4 years to figure out not to tunnel the GET through a POST it might take a similar amount of time not tunnel the PUT through POST either. :-)
+
+- Unless Roy is going to come around my house and fix the code for me when I get the wrong interpretation of REST, they I don't care/mind what he wrote on the resource-intpretation issue. :-) I could also make an argument that the Real Web isn't really REST based in practice either - and no-one took *their* REST license away...
+
+(we should blog this, it's far too interesting a topic to live in comments)]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

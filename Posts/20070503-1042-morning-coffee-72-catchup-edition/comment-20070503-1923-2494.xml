@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2494</wp:comment_id>
+  <wp:comment_author><![CDATA[Jamie Cansdale]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://weblogs.asp.net/nunitaddin</wp:comment_author_url>
+  <wp:comment_author_IP>87.194.32.5</wp:comment_author_IP>
+  <wp:comment_date>2007-05-03 19:23:06</wp:comment_date>
+  <wp:comment_date_gmt>2007-05-04 02:23:06</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Re: Silverlight hosting model
+
+This is as far as I've got. Nothing useful yet...
+
+Add a reference to:
+Program FilesMicrosoft Silverlightnpctrl.dll
+
+using XcpControlLib;
+
+XcpControl control = new XcpControl();
+control.Source = "Page.xaml";
+IXcpObject ob = (IXcpObject)control.Content;
+
+// Now I'm stuck. What can we do with 'ob'?
+
+I'd be very interested to hear if any of your friends at Microsoft can flesh this out at all. I'd love a add a 'Test With... Sliverlight' option to TestDriven.NET. ;)]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

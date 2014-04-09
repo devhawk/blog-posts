@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2048</wp:comment_id>
+  <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+  <wp:comment_author_email>tomas@winterdom.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.winterdom.com/weblog/</wp:comment_author_url>
+  <wp:comment_author_IP>200.116.204.205</wp:comment_author_IP>
+  <wp:comment_date>2008-03-18 13:39:11</wp:comment_date>
+  <wp:comment_date_gmt>2008-03-18 20:39:11</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Thanks for the link to Chris tavares blog, Harry; I had honestly not seen it before. The trick he uses is cool, but not sure it would work for me (as I modify a bunch of other env variables on my profile and blindly replacing them with the output of vcvars32.bat might not work. 
+In any case, my desire for creating a custom script was mostly so that I could keep a single script that worked on all my machines, regardless of the VS version installed, and since it's doing that very nicely, no need to switch for now.
+
+On a different topic, Ted does have a good point. I haven't been to "real" conferences in a few years, but certainly the networking opportunities where by far the most productive part of the conferences. I wonder how many people totally miss that.
+
+Looking forward to your thoughts on PyCon.... hope it wasn't all as bad as Bruce Eckel was complaining about :)]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

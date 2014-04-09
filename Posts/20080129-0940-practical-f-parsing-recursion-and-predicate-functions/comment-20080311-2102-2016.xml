@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2016</wp:comment_id>
+  <wp:comment_author><![CDATA[ToolmakerSteve]]></wp:comment_author>
+  <wp:comment_author_email>toolmakersteve98@shawstudio.com</wp:comment_author_email>
+  <wp:comment_author_url>http://toolmakersteve.com</wp:comment_author_url>
+  <wp:comment_author_IP>24.10.93.210</wp:comment_author_IP>
+  <wp:comment_date>2008-03-11 21:02:02</wp:comment_date>
+  <wp:comment_date_gmt>2008-03-12 04:02:02</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I am very interested in what you are saying here, but I don't know enough yet about either F# or PEG parsers to be clear WHAT you've done. I want to write a parser for [some grammar]. How do I build on what you have done? Is the grammar you've written a parser for just a specific sample grammar from that whitepaper, or are you saying that it parses grammars written in the notation used in that whitepaper? Or are you building up a combinator library of functions that I would use in writing my own parser directly in F#?
+
+To take a concrete example, suppose I wanted to write a parser for F# itself, and I'm staring at the F# language spec .. how would I proceed to write such a parser, beginning with your work?
+
+Also, what would be the likely speed of such a parser, versus using the lex/yacc available with F#?
+
+And since I'm barraging you with questions, I will also ask if there is source available for an F# parser written in F#, using any parsing approach?
+
+(What I'm really interested in is translating a subset of ECMAScript 4 to F#, relying on F#'s type inference to get a high performance CodeDOM based implementation running, but I can't claim to know enough about either ES4 or F# to know whether that makes any sense at all...) ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

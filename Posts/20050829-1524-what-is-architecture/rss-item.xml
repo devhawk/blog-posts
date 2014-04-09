@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>What is Architecture?</title>
+  <link>http://devhawk.net/2005/08/29/what-is-architecture/</link>
+  <pubDate>Mon, 29 Aug 2005 15:24:40 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://1629f5d2-1504-436c-aa43-91419955fb5d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p></p><p>So since one of my jobs is to change how we evangelize architecture, I thought it might be good to get some clarity around that term. I doubt there's a word more varied in definition in this industry than architecture. I often joke is that we call both the person who sets strategic technology direction for the enterprise and the person who decides whether to use a linked list or an array an architect. Maybe it's not that bad, but "architect" does appear to have a wide range of definitions. </p><p>I once moderated a discussion at the Strategic Architect Forum that featured <a href="http://www.martinfowler.com/">Martin Fowler</a> and this topic came up. Fowler's definition of architecture was something along the lines of "The activities on a project that you do first because you think they'll be hard to change". He suggested that asking someone to show you their architecture was a sure way to find out the parts of the project they thought most important or were most worried about. While that's interesting, I think it's harmful to not have a consistent definition of the term across the industry. Everyone knows what a developer does. Nobody knows what an architect does. Well, it seems that way anyway.</p><p>Maybe it's because my degree is in engineering, but much of what we call architecture in the computer industry feels more like engineering than architecture. One of the <a href="http://dictionary.reference.com/search?q=architecture">dictionary definitions of architecture</a> is the "art and science of designing and erecting buildings." <a href="http://dictionary.reference.com/search?q=engineering">Engineering is defined</a> as "The application of scientific and mathematical principles to practical ends such as the design, manufacture, and operation of efficient and economical structures, machines, processes, and systems." </p><p>IMO, building a system that has a set of functional requirements (track customers, process orders, etc) and non-functional constraints (sub-second response time, support 10,000 concurrent users, use Microsoft Windows platform, etc) is an engineering problem. Coming up with the lists of functional requirements and non-functional constraints is the architecture problem.</p><p>More on this tomorrow...</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">618</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-08-29 15:24:40</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-08-29 15:24:40</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">what-is-architecture</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[1629f5d2-1504-436c-aa43-91419955fb5d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[What+Is+Architecture]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/08/29/What+Is+Architecture]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2827</wp:comment_id>
+    <wp:comment_author><![CDATA[Arnon Rotem-Gal-Oz]]></wp:comment_author>
+    <wp:comment_author_email>arnon@rgoarchitects.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.rgoarchitects.com/</wp:comment_author_url>
+    <wp:comment_author_IP>194.90.39.105</wp:comment_author_IP>
+    <wp:comment_date>2005-08-29 22:53:45</wp:comment_date>
+    <wp:comment_date_gmt>2005-08-30 05:53:45</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hello Harry,
+I can't say I totally agree that it is the software architect's role to come up with the list of functional requirements. That's what business analysts or requirement engineers do.
+The role of the architect is to identify which requirements are important and to surface the significant quality attributes (non-functional requirements) of the system (again, the architect is not the source of the quality attributes but his role is to determine which the most important ones are).
+The main point, however, is that I think this is just a small part of the architect’s role. You still need to identify major component, the way they interact and demonstrate how the various quality attributes and main use cases are taken care of by suggested solution. Additional roles includes documenting the architectural decisions,  the responsibility for technology mapping, evaluation of the architecture and making sure that the architecture both followed and correct during the development of the project
+ I posted my definition of software architecture  a while ago on my blog (http://www.rgoarchitects.com/blog/PermaLink,guid,6c1fc5b2-5c07-4675-b29d-eb8882cd8715.aspx) which details this further. 
+
+Arnon
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Wired for Sound</title>
+  <link>http://devhawk.net/2007/07/16/wired-for-sound/</link>
+  <pubDate>Mon, 16 Jul 2007 11:44:05 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://1f519169-d2e0-4f8e-9b58-0967796c2da8</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>One of the cool things about my house is that it has built in speakers in four rooms and the back deck. Shortly after we first moved in two years ago, we had a combination house warming and Rileyanne's christening party. As you might expect, one of the top priorities for said party was music, so I hooked up both my main surround sound receiver plus an old receiver I've had forever and we had tunes pumping everywhere except the dining room (which no one was in anyway).</p><p>Then, sometime this past winter, I got tired of NOT having surround sound for my HDTV so I redid the sound system. You might be surprised that it took me over a year to get to that, but remember the part about above about "Rileyanne's christening"? I had other priorities. Anyway, I hooked up the surround sound, including the set of built-in rear speakers in the TV room, and banished the old receiver back to the garage.</p><p>Now, it's summer again. We spend lots of time outside and on the back deck, but now sans tunes. So I'm re-configuring the sound system again, this time so I can get both surround sound and music in the house. Given that it's a fairly custom speaker setup, I don't think there's an affordable off-the-shelf solution that works for this house. </p><p>In the long run, I'm thinking of building a custom amplifier that can drive four sets of speakers (one of the sets in the house is the back surround sound speakers, so they're already taken care of) plus some type of UPnP AV client device. <a href="http://www.diyaudioprojects.com/Chip/chip.htm">Gainclone chip amplifiers</a> look fairly <a href="http://">simple to build</a> - three resistors, two capacitors and the chip itself times eight + a power supply. As for the AV client, I haven't really investigated yet, but whatever solution I go with has to have high <a href="Wife acceptance factor">WAF</a>.</p><p>Of course, building a custom amplifier takes time, so I figured in the short run I'd dust off the old banished receiver and use it to drive two sets of speakers. I also have an old laptop with a bad battery circuit. It can't roam, but it can sit there by the TV and pull music off my loft computer and play feed it into said old receiver just fine. It's not a high WAF solution, but it's something I could put together with parts I had at home + one 1/8" to RCA cable from Radio Shack. I figured I could get this up and running over the weekend. Almost, but not quite. </p><p>I hit one snag with <a href="http://www.microsoft.com/windows/windowsmedia/knowledgecenter/mediaadvice/0109.mspx">WMP 11 for XP</a>. My office machine and my laptop are both running Vista. All my music is on my office machine, but I use WMP 11's media sharing capabilities (previously known as <a href="http://www.microsoft.com/windows/windowsmedia/devices/wmconnect/default.aspx">Windows Media Connect</a>) to make that media available on my Xbox. I figured I could do the same with the old laptop, using WMP 11 as the AV client. Being an old laptop it can't run Vista so I installed a fresh copy of XP instead. However, while WMP 11 XP can share media, it <a href="http://www.microsoft.com/windows/windowsmedia/player/faq/sharing.mspx#q20:1">can't consume shared media</a> the way WMP 11 Vista can. Best laid plans and all that.</p><p>The <a href="http://www.eggheadcafe.com/software/aspnet/30221382/play-wmp-shared-media-fro.aspx">workaround</a> is to expose the media via file sharing. Simple enough, except now you have to make sure the security is correctly configured between the two machines. Since it's a single function device, I hadn't bothered to set up a password for the default user. Now, in order to access files off the network, I guess I'll have to. </p><p>Once I fix this little file sharing and security problem, I think I'm going to start by looking for a better AV client solution. I know I need a custom amplifier if I want to drive all my speakers, but with my old amp I get music in the kitchen and on the back deck which is where we want it most. On the other hand, the AV Client is the main user experience, so perhaps I should pay it more attention. I'd love to have a solution that is drivable on the TV via the remote while also isn't built on a seven year old slightly busted laptop. </p><p>Any suggestions?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1007</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-07-16 11:44:05</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-07-16 11:44:05</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">wired-for-sound</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="diy"><![CDATA[DIY]]></category>
+  <category domain="category" nicename="general-geekery"><![CDATA[General Geekery]]></category>
+  <category domain="post_tag" nicename="home-electronics"><![CDATA[Home Electronics]]></category>
+  <category domain="post_tag" nicename="music"><![CDATA[Music]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[1f519169-d2e0-4f8e-9b58-0967796c2da8]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Wired+For+Sound]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/07/16/Wired+For+Sound]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2548</wp:comment_id>
+    <wp:comment_author><![CDATA[Marc Brooks]]></wp:comment_author>
+    <wp:comment_author_email>IDisposable@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://musingmarc.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>69.53.203.123</wp:comment_author_IP>
+    <wp:comment_date>2007-07-18 13:29:26</wp:comment_date>
+    <wp:comment_date_gmt>2007-07-18 20:29:26</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[One thing to watch out for when doing WMP11 sharing is that it sends all packets out with TTL value of 1, so they will only cross one router on the way to the other devices.  Additionally, it will only stream to devices on the same subnet, so you might want to switch to the Class B private IP addresses (172.16.0.0 – 172.31.255.255) to insure you're not getting hosed by that.  More very useful information is available in the Microsoft document about building WMP11 compatible devices.
+
+http://www.microsoft.com/whdc/device/media/NetCompat_WMP11.mspx]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2803</wp:comment_id>
+  <wp:comment_author><![CDATA[Erwin]]></wp:comment_author>
+  <wp:comment_author_email>erwin@dopplerradio.net</wp:comment_author_email>
+  <wp:comment_author_url>http://www.dopplerradio.net</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2005-03-12 00:47:05</wp:comment_date>
+  <wp:comment_date_gmt>2005-03-12 08:47:05</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Nope, Doppler uses WMP for modifying the tags if you specified WMP as a target for your downloaded MP3s. There is no MP3 specific library in Doppler. Did you enable the log file? If so, any messages in there? Check out our forum at http://forum.dopplerradio.net
+
+/Erwin]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

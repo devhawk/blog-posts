@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2107</wp:comment_id>
+  <wp:comment_author><![CDATA[Yuri K.]]></wp:comment_author>
+  <wp:comment_author_email>georgetk@rambler.ru</wp:comment_author_email>
+  <wp:comment_author_url>http://elder_george.livejournal.com</wp:comment_author_url>
+  <wp:comment_author_IP>193.233.82.10</wp:comment_author_IP>
+  <wp:comment_date>2008-07-31 22:53:47</wp:comment_date>
+  <wp:comment_date_gmt>2008-08-01 05:53:47</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Well, we apparently aren't stuck with 'nested lambda syntax' in C#, since it has more nice 'from-select' syntax the (ab)use of which Luke Hoban has shown in the post you referenced.
+But of course, F# sugar for monads is much sweeter =)]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

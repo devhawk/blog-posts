@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Things I Didn't Realize About WF</title>
+  <link>http://devhawk.net/2006/10/09/things-i-didnt-realize-about-wf/</link>
+  <pubDate>Mon, 09 Oct 2006 14:45:43 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://508d922f-08c3-415d-b635-ae66f2daf13b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>1. You can customize how you load workflows. My favorite part of <a href="http://www.microsoft.com/MSPress/books/6895.asp">Customizing the Microsoft® .NET Framework Common Language Runtime</a> is custom loading assemblies from a <a href="http://msdn.microsoft.com/library/en-us/stg/stg/structured_storage_start_page.asp">structured storage</a> file. In WF, you can load workflows by <a href="http://windowssdk.msdn.microsoft.com/en-gb/library/ms594868.aspx">type</a> or <a href="http://windowssdk.msdn.microsoft.com/en-gb/library/ms594869.aspx">from XAML</a>. Of course, these the XAML - or even the types - can be loaded from anywhere, or even generated on the fly. If you need more control, you can swap out the <a href="http://windowssdk.msdn.microsoft.com/en-gb/library/system.workflow.runtime.hosting.workflowloaderservice.aspx">default workflow loader service</a> with one of your own creation.</p><p>2. You can swap out the <a href="http://windowssdk.msdn.microsoft.com/en-us/library/ms735790.aspx">default workflow scheduler</a>. How about a scheduler based on the <a href="http://channel9.msdn.com/wiki/default.aspx/Channel9.ConcurrencyRuntime">Concurrency and Coordination Runtime (CCR)</a>?</p><blockquote><p>Side note - How about a official home page for CCR? And while I'm asking, how about a download for CCR separate from <a href="http://msdn.microsoft.com/robotics/">MS Robotics Studio</a>?</p></blockquote><p>3. You can add any object to the workflow runtime as a service. You're not limited <a href="http://windowssdk.msdn.microsoft.com/en-us/library/ms734738.aspx">the services the WF runtime knows</a> about. Of course, WF won't use your service, but you can build activities that use it. This is likely to be huge for getting data in and out of the workflow instance.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">816</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-10-09 14:45:43</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-10-09 14:45:43</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">things-i-didnt-realize-about-wf</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="wf"><![CDATA[WF]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/10/09/Things+I+Didnt+Realize+About+WF]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Things+I+Didnt+Realize+About+WF]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[508d922f-08c3-415d-b635-ae66f2daf13b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2415</wp:comment_id>
+    <wp:comment_author><![CDATA[jurgen pieters]]></wp:comment_author>
+    <wp:comment_author_email>jurgenp3@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>213.246.235.226</wp:comment_author_IP>
+    <wp:comment_date>2006-11-14 07:44:27</wp:comment_date>
+    <wp:comment_date_gmt>2006-11-14 15:44:27</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[testtest]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

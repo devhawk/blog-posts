@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Blogging F# Code</title>
+  <link>http://devhawk.net/2007/12/07/blogging-f-code/</link>
+  <pubDate>Fri, 07 Dec 2007 13:47:39 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://597d1f99-a4ca-435b-b3fb-04f9162cfd3c</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm going to start posting about my F# parsing code soon. Obviously, I'll make the code directly available, but I'm also going to be writing about it quite a bit. Since I'll be posting lots of F# code snippets, I took the time to build an F# language syntax definition for <a href="http://puzzleware.net/CodeHtmler/default.aspx">CodeHTMLer</a>. Of all the <a href="http://gallery.live.com/results.aspx?bt=9&amp;q=insert%20code">various WL Writer Insert Code plug-ins</a>, CodeHTMLer is my favorite because it can be configured not to use &lt;pre&gt; tags, which many RSS readers handle poorly (in my experience). </p><p>In case anyone else wants it, I've stuck the CodeHTMLer F# language definition up on <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/F%7C3%20CodeHTMLer%20Language%20Definition.xml">my SkyDrive</a>. If you using the <a href="http://puzzleware.net/download.aspx?file=/codehtmler/codehtmler.livewriterplugin.zip">CodeHTMLer WL Writer Plug-in</a>, you can easily add this to your machine. Once you've installed CodeHTMLer and run it once, go to the command line and type "cd %appdata%WindowsLiveWriter" and you'll find the LanguageDefinitions.xml file. Edit that file to insert the add the contents of <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/F%7C3%20CodeHTMLer%20Language%20Definition.xml">my F# language definition</a> after the &lt;CodeLanguages&gt; tag and you're all set. </p><p>BTW, the first language in the file will be the default language in the plug-in, so if you're an occasional F# user, you might want to add the F# definition to the end rather than the beginning of the file. If you don't want to further edit the XML file manually, you can select "Edit Languages" in the plug-in and edit the order of the languages to your heart's content.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1067</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-12-07 13:47:39</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-12-07 13:47:39</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">blogging-f-code</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[597d1f99-a4ca-435b-b3fb-04f9162cfd3c]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Blogging+F+Code]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/12/07/Blogging+F+Code]]></wp:meta_value>
+  </wp:postmeta>
+</item>

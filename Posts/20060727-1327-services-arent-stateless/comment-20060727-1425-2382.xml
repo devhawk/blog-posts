@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2382</wp:comment_id>
+  <wp:comment_author><![CDATA[David]]></wp:comment_author>
+  <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.from9till2.com</wp:comment_author_url>
+  <wp:comment_author_IP>81.159.21.7</wp:comment_author_IP>
+  <wp:comment_date>2006-07-27 14:25:20</wp:comment_date>
+  <wp:comment_date_gmt>2006-07-27 21:25:20</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I reckon the word you might prefer is 'transaction'. With those you can have 'Business transactions' (sagas lasting weeks, because they involve things out of your control, like people) or you can have 'Database/State/Entity transactions' (which hopefully won't last for weeks).
+
+If you see a Service end-point as needing to be representative of a Business transaction then it has to know about the 'transaction context' (or workflow, or state, or whatever you like calling it). Something has to pass that in or it has to be keyed/stored.
+
+If you see a Service end-point as being representative of a 'Database/State/Entity transaction' then you probably want it to (a) use it in a larger 'thing' to make a business transaction and (b) be atomic, consistent, isolated and durable, plus you'd have to ask yourself if HTTP is really the application protocol you can put up with.
+
+So the thing is we use the word Service to mean both styles of transaction, hence confusion for all.
+
+Let us know what Erl says...]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Smart Client Sample</title>
+  <link>http://devhawk.net/2003/02/11/smart-client-sample/</link>
+  <pubDate>Tue, 11 Feb 2003 19:24:12 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4e476455-77ff-4a03-8d62-117ece540ece</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<blockquote><p>The ASP.NET team continues to pump out sample code to encourage people to adapt their ideas and architecture. In conjunction with the current VSLive conference, they've made available five "<a href="http://www.asp.net/Default.aspx?tabindex=9&amp;tabid=47">starter kits</a>" in beta form. These applications are designed to get you up and running with useful ASP.NET architectures quickly. [<a href="http://www.larkware.com/Articles/MoreASP.NETSamples.html">Larkware News</a>]</p></blockquote><p>There's also a new sample smart client on <a href="http://www.windowsforms.net">.NET Client Web</a> called <a href="http://www.windowsforms.net/Default.aspx?tabindex=7&amp;tabid=44"> TaskVision</a>. Includes support for several interesting smart client technologies:</p><ul><li style="PADDING-BOTTOM: 3px">Application offline and online model </li><li style="PADDING-BOTTOM: 3px">Application update model via HTTP (no-touch deployment) </li><li style="PADDING-BOTTOM: 3px">Authorization to control user access to application features </li><li style="PADDING-BOTTOM: 3px">Data collision handling </li><li style="PADDING-BOTTOM: 3px">Printing and Print Preview </li><li style="PADDING-BOTTOM: 3px">Windows XP Themes </li><li style="PADDING-BOTTOM: 3px">Dynamic properties </li><li style="PADDING-BOTTOM: 3px">Localization support </li><li style="PADDING-BOTTOM: 3px">Accessibility support (limited) </li><li style="PADDING-BOTTOM: 3px">Forms authentication using a database for user names/passwords </li><li style="PADDING-BOTTOM: 3px">Asynchronous XML Web service class </li><li style="PADDING-BOTTOM: 3px">ADO.NET data access using SQL stored procedures </li><li style="PADDING-BOTTOM: 3px">Graphics development using GDI+ </li><li style="PADDING-BOTTOM: 3px">Integration between .NET Framework-based code and COM applications (COM interop)</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">23</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-02-11 19:24:12</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-02-11 19:24:12</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">smart-client-sample</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4e476455-77ff-4a03-8d62-117ece540ece]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Smart+Client+Sample]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/02/12/Smart+Client+Sample]]></wp:meta_value>
+  </wp:postmeta>
+</item>

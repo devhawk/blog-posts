@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Fixing Powershell's Busted Resolve-Path Cmdlet</title>
+  <link>http://devhawk.net/2010/01/21/fixing-powershells-busted-resolve-path-cmdlet/</link>
+  <pubDate>Thu, 21 Jan 2010 23:38:51 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0f11ab8d-df0d-458c-8ee5-105b1fdedcd3</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<div>Usually, my <a href="http://devhawk.net/CategoryView,category,PowerShell.aspx">PowerShell posts</a> are effusive in their praise. However, who thought up this “feature” gets no praise from me:</div>
+<pre class="brush: text">PS»Resolve-Path ~missing.file
+Resolve-Path : Cannot find path 'C:Usershpiersonmissing.file' because it does not exist.</pre>
+<div>In my opinion, this is a bad design. Resolve-Path assumes that if the filename being resolved doesn’t exist, then it must be an error. But in the script I’m building, I’m resolving the path of a file that I’m going to create. In other words, I know a priori that the file doesn’t exist. Yet Resolve-Path insists on throwing an error. I would have expected there to be some switch you could pass to Resolve-Path telling it to skip path validation, but there’s not.</div>
+<div>And the worst thing is, I can see that Resolve-Path came up with the “right” answer – it’s right there in the error message!</div>
+<div>Searching around, I found <a href="http://www.vistax64.com/powershell/24603-resolve-path-non-existing-file.html">a thread</a> where someone else was having the same problem. Jeffrey Snover – aka Distinguished Engineer, inventor of Powershell and <a href="http://www.langnetsymposium.com/2009/talks/23-ErikMeijer-LiveLabsReactiveFramework.html">target of Erik Meijer’s Lang.NET coin throwing stunt</a> – suggested using <a href="http://blogs.msdn.com/powershell/archive/2006/11/03/erroraction-and-errorvariable.aspx">–ErrorAction and –ErrorVariable</a> to ignore the error and retrieve the resolved path from the TargetObject property error variable. Like Maximilian from the thread, using this approach feels fragile and frankly kinda messy, but I needed a solution. So I wrote the following function that wraps up access to the error variable so at least I don’t have fragile messy code sprinkled through out my script.</div>
+<pre class="brush: powershell">function force-resolve-path($filename)
+{
+  $filename = Resolve-Path $filename -ErrorAction SilentlyContinue
+                                     -ErrorVariable _frperror
+  if (!$filename)
+  {
+    return $_frperror[0].TargetObject
+  }
+  return $filename
+}</pre>
+<div>The script is pretty straightforward. –ErrorAction SilentlyContinue is PowerShell’s version of <a href="http://msdn.microsoft.com/en-us/library/5hsw66as.aspx">On Error Resume Next</a> in Visual Basic. If the cmdlet encounters an error, it gets stashed away in the variable specified by ErrorVariable (it’s also added to $Error so you can still retrieve the error object if ErrorVariable isn’t specified) and continues processing. Then I manually check to see if resolve-path succeeded – i.e. did it return a value – and return the TargetObject of the Error object if it didn’t.</div>
+<div>As I said, fragile and kinda messy. But it works.</div>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1301</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2010-01-21 23:38:51</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2010-01-21 23:38:51</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">fixing-powershells-busted-resolve-path-cmdlet</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0f11ab8d-df0d-458c-8ee5-105b1fdedcd3]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Fixing+Powershellrsquos+Busted+ResolvePath+Cmdlet]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2010/01/22/Fixing+Powershellrsquos+Busted+ResolvePath+Cmdlet]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2294</wp:comment_id>
+    <wp:comment_author><![CDATA[Richard Siddaway]]></wp:comment_author>
+    <wp:comment_author_email>powershel-uk@hotmail.co.uk</wp:comment_author_email>
+    <wp:comment_author_url>http://msmvps.com/blogs/RichardSiddaway/Default.aspx</wp:comment_author_url>
+    <wp:comment_author_IP>89.168.185.202</wp:comment_author_IP>
+    <wp:comment_date>2010-01-28 10:58:13</wp:comment_date>
+    <wp:comment_date_gmt>2010-01-28 18:58:13</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'm presuming two things here:
+1) you want to test the path to the folder containing the file
+2) you want to test if the file already exists before attempting the creation
+
+Why not use a couple of calls to test-path]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

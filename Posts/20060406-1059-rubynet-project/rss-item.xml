@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>RubyNet Project</title>
+  <link>http://devhawk.net/2006/04/06/rubynet-project/</link>
+  <pubDate>Thu, 06 Apr 2006 10:59:42 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f4ce5882-77b1-4f05-b435-6f659414f0e8</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Having written about Ruby in the scope of the <a href="http://devhawk.net/2006/03/15/Compiler+Dev+Lab++Scripting.aspx">Compiler Dev Lab</a> and the <a href="http://devhawk.net/2006/03/28/The+Dual+Schema+Problem.aspx">Dual Schema Problem</a>, I was interested to come across the <a href="http://www.plas.fit.qut.edu.au/rubynet/">Ruby.NET project</a> from <a href="http://www.fit.qut.edu.au/">Queensland University of Technology</a>. From the Ruby.NET home page:</p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px"><p>Our goal is to create a compiler for the Ruby language that targets the .NET CLR. We aim to support 100% of Ruby language semantics, including all dynamic constructs such as closures and continuations. We plan to generate 100% managed and verifiable CIL code. </p></blockquote><p dir="ltr">Sweet!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">732</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-04-06 10:59:42</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-04-06 10:59:42</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">rubynet-project</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="ruby"><![CDATA[Ruby]]></category>
+  <category domain="post_tag" nicename="scripting"><![CDATA[Scripting]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f4ce5882-77b1-4f05-b435-6f659414f0e8]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[RubyNet+Project]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/04/06/RubyNet+Project]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2345</wp:comment_id>
+    <wp:comment_author><![CDATA[Larry O'Brien]]></wp:comment_author>
+    <wp:comment_author_email>lobrien@email.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.knowing.net/</wp:comment_author_url>
+    <wp:comment_author_IP>24.94.77.148</wp:comment_author_IP>
+    <wp:comment_date>2006-04-06 12:03:24</wp:comment_date>
+    <wp:comment_date_gmt>2006-04-06 19:03:24</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[That project page has been up for a _long_ time, although I see that they are now hoping for an alpha in the coming months. In the meantime, check out John Lam's Ruby-CLR bridge, which is rapidly evolving: http://www.iunknown.com/]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2346</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+    <wp:comment_date>2006-04-06 17:49:36</wp:comment_date>
+    <wp:comment_date_gmt>2006-04-07 00:49:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[It was news to me! As for RubyCLR, I was aware of it, but thanks for the pointer anyway.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

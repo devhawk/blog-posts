@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Reading News in Outlook</title>
+  <link>http://devhawk.net/2004/01/14/reading-news-in-outlook/</link>
+  <pubDate>Wed, 14 Jan 2004 14:20:48 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://0a656fbf-e133-4e04-abe1-aa7923f54598</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I finally made the decision to dump <a href="http://www.sharpreader.com/">SharpReader</a>. The massive memory utilization (100+ MB) combined with the myriad of alert toast popups finally sealed the deal. Currently, I'm using <a href="http://www.intravnews.com/">intraVnews</a> and I'm going to try out the new <a href="http://www.newsgator.com/">NewsGator</a> when it's available.</p><p>Reading blogs in Outlook does take some getting used to. Search Folders makes it easier, but then my feeds are sorted alphabetically rather than by the feed category (i.e. the parent folder). Is there a hotkey or shortcut for jumping to the next unread item (even if it's in a different folder) when using the reading pane? Also, I'm used to deleting emails after I've read them but I'm used to letting posts get deleted when they are a couple weeks old. IntraVnews supports this option, but maybe I'm better off treating posts like email and deleting them when I'm done.</p><p>Don mentioned he was going to roll his own blog engine so he can use it for experimentation. (I'd link to the entry bu permalinks seem to be broken in his current blog engine). I keep thinking of the same thing about news readers. </p><p>Update - thanks to Wesner Moise for pointing out to me in my comments how to turn off the alert toast popups. However, I'm still going to stick it out with an Outlook based solution. Luckily, I'm not like most 'softies w/ a ton of unread email in my inbox so the built-in search folder works fine.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">278</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-01-14 14:20:48</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-01-14 14:20:48</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">reading-news-in-outlook</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[0a656fbf-e133-4e04-abe1-aa7923f54598]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Reading+News+In+Outlook]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/01/14/Reading+News+In+Outlook]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2950</wp:comment_id>
+    <wp:comment_author><![CDATA[Wesner Moise]]></wp:comment_author>
+    <wp:comment_author_email>wesnerm@yahoo.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-14 16:36:25</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-15 00:36:25</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You can get rid of the alerts from the property box.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2951</wp:comment_id>
+    <wp:comment_author><![CDATA[Peter Bruinsma]]></wp:comment_author>
+    <wp:comment_author_email>peterbru@intraVnews.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.intravnews.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-14 17:04:04</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-15 01:04:04</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Harry!
+
+You can use the same intraVnews view in your search folders that you use in your subscription folders. Simply copy the view to a new name and make sure to select the bottom option, so the view becomes available to all Mail/Post foldes. Then, when you are in the search folder, all you have to do is select the new view! 
+
+Regards,
+Peter Bruinsma
+intraVnews]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2952</wp:comment_id>
+    <wp:comment_author><![CDATA[Dominic Hopton]]></wp:comment_author>
+    <wp:comment_author_email>dominichopton@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.codevoid.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-14 18:06:11</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-15 02:06:11</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I use the unread items search folder, and then work my way through it. That stated, if your like any of the 'softies I know, you'll have reams of un-read items, so this doesnt work so well. To get around this you can setup a unread folder that only shows items below a parent folder (like a root feeds folder).
+
+To move between items with just they keyboard, just hit space. This scrolls & moves to next unread item.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2953</wp:comment_id>
+    <wp:comment_author><![CDATA[Rick Culpepper]]></wp:comment_author>
+    <wp:comment_author_email>rickculpepper@msn.com</wp:comment_author_email>
+    <wp:comment_author_url>http://rickculpepper.net/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-14 20:53:21</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-15 04:53:21</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You know, I've been looking for an alternative to SharpReader. It was good at first, but it seems to really bog down my system at work (1.6GHz P4 w/1GB RAM).
+
+I downloaded intraVnews this afternoon and installed it. Wow! I use Outlook for my Exchange mail, so this is really nice.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2954</wp:comment_id>
+    <wp:comment_author><![CDATA[Dan Woolstencroft]]></wp:comment_author>
+    <wp:comment_author_email>mail@dtw.me.uk</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-15 01:50:50</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-15 09:50:50</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Have a look at FeedDemon. I'm using it at the moment as a replacement for SharpReader. It isn't free (there's a trial) but I find I prefer the way it handles things.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2955</wp:comment_id>
+    <wp:comment_author><![CDATA[changeboy]]></wp:comment_author>
+    <wp:comment_author_email>iiklavier@yahoo.com.cn</wp:comment_author_email>
+    <wp:comment_author_url>http://www.51zhao.com/en/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-15 09:33:27</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-15 17:33:27</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Both Feeddemon and Desktop Sidebar(free) are better choices.
+I like desktop sidebar which notifies the newest news to me in my desktop. 
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2956</wp:comment_id>
+    <wp:comment_author><![CDATA[Peter Provost]]></wp:comment_author>
+    <wp:comment_author_email>peter@provost.org</wp:comment_author_email>
+    <wp:comment_author_url>http://www.peterprovost.org/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-16 14:50:02</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-16 22:50:02</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You can use Search Folders in OL2K3 and group by Folder to get the categorization that you are looking for. I use NewsGator and Search Folders extensively.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2957</wp:comment_id>
+    <wp:comment_author><![CDATA[Louis Parks]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.lparky.com/blog/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-02-01 10:45:32</wp:comment_date>
+    <wp:comment_date_gmt>2004-02-01 18:45:32</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I just switched to intraVnews yesterday.  Here's how I solved the new blog entries vs. new email issue.
+
+Right click on "Unread Mail" and select "Customize this Search Folder"
+
+Click Browse.
+
+Clear all check marks, then check Inbox.
+
+Now, the "Unread Mail" search folder will only contain mail items and not blog posts.
+
+To create a folder for blog posts...
+
+Right click on Search Folders.
+
+Select New Search Folder.
+
+Select Unread mail.  (by defaul, it will search for mail in Personal Folders, we'll fix that in a sec)
+
+Click OK.  (Outlook will create the folder and start running the query.)
+
+Now, right click on the newly created search folder, probably called "Unread Mail1"
+
+Select "Customize this Search Folder"
+
+Click Browse.
+
+Uncheck Personal Folders.
+
+Check intraVnews.
+
+Click OK
+
+You can then name this something like "Unread Blogs"
+
+Now your email and blogs are completely separate.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

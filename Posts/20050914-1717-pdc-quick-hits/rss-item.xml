@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>PDC Quick Hits</title>
+  <link>http://devhawk.net/2005/09/14/pdc-quick-hits/</link>
+  <pubDate>Wed, 14 Sep 2005 17:17:35 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4b986a23-4b5a-4ad4-9903-83dc69da3609</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm sure lots of people are blogging a ton about PDC stuff, but I wanted to call out two things quickly.</p><p>First is <a href="http://www.microsoft.com/max/">Microsoft Max</a>. I have a friend on this team, so I've heard a bunch about this. Given the number of pictures I have taken of my kids, I can't wait to play with this in earnest.</p><p>Second is <a href="http://msdn.microsoft.com/netframework/future/linq/default.aspx">LINQ</a> or Language Integrated Query and it's use in <a href="http://msdn.microsoft.com/vcsharp/future/">C# 3.0</a> and <a href="http://msdn.microsoft.com/vbasic/future">VB 9.0</a>. I started to write a language a few years ago called Dart (named after my dog) that had SQL-esque commands that were strongly typed. So I'm really impressed with what they've acomplished in LINQ. Not only is it doing strongly typed queries in the lanugage, they even can do joins across stores! In the keynote demo, they joined a query of running processes with data from a database. So now any C# or VB developer has their - or should I say will have their - own query processor around at the ready!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">630</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-09-14 17:17:35</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-09-14 17:17:35</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">pdc-quick-hits</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4b986a23-4b5a-4ad4-9903-83dc69da3609]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[PDC+Quick+Hits]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/09/15/PDC+Quick+Hits]]></wp:meta_value>
+  </wp:postmeta>
+</item>

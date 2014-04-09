@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Disk Defrag</title>
+  <link>http://devhawk.net/2004/03/02/disk-defrag/</link>
+  <pubDate>Tue, 02 Mar 2004 16:49:05 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://9b22b1d4-7c4a-4c3b-8aae-56803a8e7e7e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>My main machine was getting pretty fragmented, so I ran <a href="http://www.microsoft.com/windowsxp/home/using/productdoc/en/snap_defrag.asp">graphical disk defrag program</a> provided with XP. After it ran, my disk still had 27% file fragmentation and it was recommending that I needed to defrag again. In my online search for a better defrag utility, I discovered that there's <a href="http://www.microsoft.com/windowsxp/home/using/productdoc/en/defrag.asp">command line defrag utility</a>. I tried it out, and now I'm at 0% fragmentation. I'm not sure why the command-line utility did so much better than the GUI version, but safe to say I'll be using the command line version from now on.</p><p>I was going to try out the SysInternals <a href="http://www.sysinternals.com/ntw2k/freeware/pagedefrag.shtml">PageDefrag utility</a> to defrag my system files, but they're already contiguous. Not sure if they were that way before or if the windows defrag tool took care of them too.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">324</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-03-02 16:49:05</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-03-02 16:49:05</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">disk-defrag</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[9b22b1d4-7c4a-4c3b-8aae-56803a8e7e7e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Disk+Defrag]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/03/03/Disk+Defrag]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3016</wp:comment_id>
+    <wp:comment_author><![CDATA[Matt Berther]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.mattberther.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-03-02 19:54:32</wp:comment_date>
+    <wp:comment_date_gmt>2004-03-03 03:54:32</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I use Raxco's Perfect Disk (http://www.raxco.com) for the offline defrag capabilities and for scheduling defrags.
+
+The *best* tool available for defrags, IMO.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3017</wp:comment_id>
+    <wp:comment_author><![CDATA[Pablo F Matute]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-03-03 08:26:36</wp:comment_date>
+    <wp:comment_date_gmt>2004-03-03 16:26:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I have a good experience with Executive Software's Diskeeper (http://www.executive.com/coverpage.asp)
+No regrets yet]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3018</wp:comment_id>
+    <wp:comment_author><![CDATA[Steve Tibbett]]></wp:comment_author>
+    <wp:comment_author_email>stevex-weblog@oakburl.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.stevex.org/dottext</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-03-05 05:04:32</wp:comment_date>
+    <wp:comment_date_gmt>2004-03-05 13:04:32</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Set up a scheduler task to run the command-line defrag every day at 3am (or some time when you're not on the computer, if you're a late night sort) and you'll never have to worry about it again.
+
+I have it output to a file so I can see how fragmented my system is when I get curious.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3019</wp:comment_id>
+    <wp:comment_author><![CDATA[redvamp128]]></wp:comment_author>
+    <wp:comment_author_email>redvamp128@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-03-09 21:23:52</wp:comment_date>
+    <wp:comment_date_gmt>2004-03-10 05:23:52</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[it is possible that because of the anylize components were in use to render what it is doing. Video Drivers using the render as well as the anylize to show in graph process. This would be my logic the command line calls upon less resources so thus would leave more  possible to defrag.I have also seen that by using a second OS to defrag the first idefrags more than when not in the OS. Also it could be a flaw in the program. I have seen that as well in command line utilities as well. It could represent 0% as being with resources current in use. Not to mention the one in the OS could start at true 0% before proccess running. Or it may ignore things like page file sizes and security description. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

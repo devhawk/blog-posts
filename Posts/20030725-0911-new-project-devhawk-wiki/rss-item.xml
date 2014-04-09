@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>New Project: DevHawk Wiki</title>
+  <link>http://devhawk.net/2003/07/25/new-project-devhawk-wiki/</link>
+  <pubDate>Fri, 25 Jul 2003 09:11:44 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://90b9604a-027f-42ff-a319-edf238aa8853</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I got my latest project posted - <a href="prj_wiki.aspx">DevHawk Wiki</a>. I was hoping to have this up yesterday, but GDN wouldn't cooperate. It's pretty minimal right now - it's a v0.1 release. <a href="http://www.gotdotnet.com/Community/Workspaces/applyjoin.aspx?id=9513f6ed-41c2-4c0f-a5d6-730371bb4b45"> Collaborators welcome</a>.</p><p>The cool part about DevHawk Wiki is that the wiki rendering code is separated out into a separate assembly. This means you could embed it in other apps (I'm thinking about a wiki-style comment system for this blog). One of the things I had to do to make this work is keep things like the wiki file repository independent of the wiki rendering itself. I used delegates to do this, then I read <a href="http://www.gotdotnet.com/team/dbox/default.aspx?key=2003-07-21T08:36:33Z"> Don's recent post</a> on delegates and loose coupling. Here's an example of what Don was talking about, in the wild.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">154</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-07-25 09:11:44</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-07-25 09:11:44</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">new-project-devhawk-wiki</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/07/25/New+Project+DevHawk+Wiki]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[New+Project+DevHawk+Wiki]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[90b9604a-027f-42ff-a319-edf238aa8853]]></wp:meta_value>
+  </wp:postmeta>
+</item>

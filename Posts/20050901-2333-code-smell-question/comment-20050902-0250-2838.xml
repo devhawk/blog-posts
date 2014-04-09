@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2838</wp:comment_id>
+  <wp:comment_author><![CDATA[Harry Maes]]></wp:comment_author>
+  <wp:comment_author_email>h.maes@home.nl</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>193.173.35.163</wp:comment_author_IP>
+  <wp:comment_date>2005-09-02 02:50:30</wp:comment_date>
+  <wp:comment_date_gmt>2005-09-02 09:50:30</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I think #2 is the preferable solution.
+
+I'd recommend implementing an adapter for the collection wrapping it so you're also not hit by future changes. I've for instance created a CacheManager to wrap the EntLib cachemanager.
+Does the COM collection have a Contains or an indexer (IndexOf) to check for an existing item? I would code something like this:
+
+if (collection.Contains(x)) //or collection.IndexOf()
+{
+  collection.Remove(x);
+  collection.Add(x);
+}
+
+Trapping for a specific exception can be OK but I would assume the collection internally has to traverse or index the collection to find an already existing item. So this is not the solution IMO.
+
+Have fun!
+
+Harry
+
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

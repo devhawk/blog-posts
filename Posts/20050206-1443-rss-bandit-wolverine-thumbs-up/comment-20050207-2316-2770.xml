@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2770</wp:comment_id>
+  <wp:comment_author><![CDATA[Omar Shahine]]></wp:comment_author>
+  <wp:comment_author_email>shahineo@hotmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.shahine.com/omar/</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2005-02-07 23:16:39</wp:comment_date>
+  <wp:comment_date_gmt>2005-02-08 07:16:39</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I'm pretty sure you can do that by writing some VB/HTML pages for Folder Views. But I agree, newspaper view rocks.
+
+you should take a look at ClearContext. It works great with GTD.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

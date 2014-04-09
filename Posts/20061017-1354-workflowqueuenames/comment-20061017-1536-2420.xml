@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2420</wp:comment_id>
+  <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+  <wp:comment_author_email>tomas@winterdom.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.winterdom.com/weblog/</wp:comment_author_url>
+  <wp:comment_author_IP>200.116.233.108</wp:comment_author_IP>
+  <wp:comment_date>2006-10-17 15:36:59</wp:comment_date>
+  <wp:comment_date_gmt>2006-10-17 22:36:59</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Yep, the queueing system is actually pretty nifty once you get the hang of it, and you can certainly pass data through the queues if you need to, as it will be serialized alongside the workflow instance if needed.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

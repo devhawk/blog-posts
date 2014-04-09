@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Revisiting the AJAX Ecosystem</title>
+  <link>http://devhawk.net/2006/09/21/revisiting-the-ajax-ecosystem/</link>
+  <pubDate>Thu, 21 Sep 2006 21:09:14 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e0685a52-45cc-4197-bd41-74a263df90e8</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Seven months and one job ago, I <a href="http://devhawk.net/2006/02/14/Thoughts+On+The+AJAX+Toolkit+Spectrum.aspx">wrote this</a> about AJAX toolkits:</p><blockquote><p>The network effect that <a href="http://web2.wsj2.com/web_20_design_the_ajax_spectrum.htm">Dion doesn't consider</a> is the component ecosystem phenomenon that Microsoft has a ton of experience with. Old school VB, COM/ActiveX and .NET have all had large ecosystems of components and controls evolve that extend the functionality of the baseline development platform. There's no reason to believe that won't happen with Atlas. I think it's wrong to describe Atlas as a monolith or self-contained or enclosing. It's an extensible baseline platform - i.e. the baseline functionality is set down once at the development platform and the ecosystem can extend it from there. Sure, overlapping extensions happen (how many rich text editor components are there for ASP.NET?) but at least they all have basic compatibility.</p></blockquote><p>I bring this up now because I saw on <a href="http://blogs.msdn.com/sburke/archive/2006/09/19/762781.aspx">Shawn Burke's blog</a> that they've shipped the September release of the <a href="http://atlas.asp.net/atlastoolkit/">Atlas Control Toolkit</a>. There are now 25 different controls (they had 10 in their first release). But there's something more significant than the addition of 15 controls overall:</p><blockquote><p><a href="http://atlas.asp.net/atlastoolkit/Slider/Slider.aspx">Slider</a> is just a super-useful little control.  There are so many times when you want to let users use this type of UI.  Another great thing about Slider is that it's <strong>a 3rd party contribution, from </strong><a href="http://aspadvice.com/blogs/garbin/"><strong>Garbin</strong></a>, who did a great job on it. (emphasis added)<br />[<a href="http://blogs.msdn.com/sburke/archive/2006/09/19/762781.aspx">Atlas Control Toolkit September Release</a>]</p></blockquote><p>I just wanted to brag that I called this 7 months ago.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">800</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-09-21 21:09:14</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-09-21 21:09:14</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">revisiting-the-ajax-ecosystem</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="ajax"><![CDATA[AJAX]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/09/22/Revisiting+The+AJAX+Ecosystem]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Revisiting+The+AJAX+Ecosystem]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e0685a52-45cc-4197-bd41-74a263df90e8]]></wp:meta_value>
+  </wp:postmeta>
+</item>

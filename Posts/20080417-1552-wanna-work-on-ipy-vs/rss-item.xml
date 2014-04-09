@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Wanna Work on IPy + VS?</title>
+  <link>http://devhawk.net/2008/04/17/wanna-work-on-ipy-vs/</link>
+  <pubDate>Thu, 17 Apr 2008 15:52:41 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://709f2c71-091b-425a-afe3-88c0f9093412</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>We've hired a few people around here recently (including me obviously). However, if you have a burning desire to work on IronPython (or IronRuby) and Visual Studio, we're <a href="http://members.microsoft.com/careers/search/details.aspx?JobID=5CC7E752-B603-4E85-AE0D-8509EC6ECE70">still hiring</a>:</p><blockquote><p>An important aspect of developing these dynamic languages [aka IronPython and IronRuby] is providing support in the Visual Studio IDE. This includes editing features (color-coding of source code, intellisense, go-to-definition, refactoring, etc), debugging features (breakpoints, data tool tips, etc), ensuring a language-specific look-and-feel (interactive console, etc), and integration into the Visual Studio project system. It includes integration with the various designers like the WPF designer via CodeDOM, and development of project templates for various scenarios (Silverlight 2 app, WPF app, ASP.Net website, VSTT unit tests, etc). We also want to integrate with Visual Studio technologies like profiling and code coverage. Your job will be to ensure that developers using dynamic languages built on top of the Dynamic Language Runtime (DLR) have the best development environment in Visual Studio. </p><p>We’re looking for a talented developer with exceptional programming ability and a passion for dynamic languages. Experience in these areas is a bonus though not strictly required: building developer tools like editors and debuggers, compiler implementation, reflection, dynamic languages, VM implementation, performance measurement and/or optimization, C#. Applicants should have a BS/MS in computer science or equivalent, and three or more years of industry experience.</p></blockquote>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1137</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-04-17 15:52:41</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-04-17 15:52:41</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">wanna-work-on-ipy-vs</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="dynamic-languages"><![CDATA[Dynamic Languages]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="working-at-msft"><![CDATA[Working at MSFT]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[709f2c71-091b-425a-afe3-88c0f9093412]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Wanna+Work+On+IPy+VS]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/04/17/Wanna+Work+On+IPy+VS]]></wp:meta_value>
+  </wp:postmeta>
+</item>

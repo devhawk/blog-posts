@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2400</wp:comment_id>
+  <wp:comment_author><![CDATA[Kenny Kerr]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://weblogs.asp.net/kennykerr/</wp:comment_author_url>
+  <wp:comment_author_IP>205.250.157.244</wp:comment_author_IP>
+  <wp:comment_date>2006-08-15 16:01:59</wp:comment_date>
+  <wp:comment_date_gmt>2006-08-15 23:01:59</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Yep, it’s a long way off but I hope the Phoenix project (or something like it) will one day provide more support for developing the grammar and front-end for compilers.
+
+I’ve typically resorted to rolling my own but that’s obviously not practical in many cases.
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

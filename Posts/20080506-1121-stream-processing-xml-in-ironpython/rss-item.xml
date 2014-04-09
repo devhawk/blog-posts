@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Stream Processing XML in IronPython</title>
+  <link>http://devhawk.net/2008/05/06/stream-processing-xml-in-ironpython/</link>
+  <pubDate>Tue, 06 May 2008 11:21:54 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://381bc642-1227-46ac-8b2c-447db5ea9e7b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p align="left">When it comes to processing XML, there are two basic approaches - load it all into memory at once or process it a node at a time. In the .NET world where I have spent most of the past ten years, those two models are represented by <a href="http://msdn.microsoft.com/library/system.xml.xmldocument">XmlDocument</a> and <a href="http://msdn.microsoft.com/library/system.xml.xmlreader">XmlReader</a>. There are alternatives to XmlDocument, such as <a href="http://msdn.microsoft.com/library/system.xml.linq.xdocument">XDocument</a> and <a href="http://msdn.microsoft.com/library/system.xml.xpath.xpathdocument">XPathDocument</a>, but you get the idea.</p><p>Out in non-MSFT land, the same two basic models exist, however the de facto standard for stream based processing is SAX, the <a href="http://www.saxproject.org/">Simple API for XML</a>. SAX is supported by <a href="http://www.saxproject.org/langs.html">many languages</a>, <a href="http://www.python.org/doc/current/lib/module-xml.sax.html">including Python</a>.</p><p>Personally, I've never been a fan of SAX's event-driven approach. Pushing events makes total sense for a human driven UI, but I never understood why anyone thought that was a good idea for stream processing XML. I like XmlReader's pull model much better. When you're ready for the next node, just call <a href="http://msdn.microsoft.com/library/system.xml.xmlreader.Read">Read</a>() - no mucking about setting <a href="http://www.saxproject.org/apidoc/org/xml/sax/ContentHandler.html">content handlers</a> or handling node processing events. </p><p>Luckily, the <a href="http://docs.python.org/lib/lib.html">Python standard library</a> supports both approaches. It provides both a <a href="http://docs.python.org/lib/module-xml.sax.html">SAX based parser</a> as well as a <a href="http://docs.python.org/lib/module-xml.dom.pulldom.html">pull based parser called pulldom</a>. Pulldom doc's are fairly sparse, but <a href="http://www.prescod.net/">Paul Prescod</a> wrote a <a href="http://www.prescod.net/python/pulldom.html">nice introduction</a>. Here's an example from Paul's site (slightly modified):</p><pre class="brush: python">
+from xml.dom import pulldom 
+nodes = pulldom.parse( "file.xml" )  
+for (event,node) in nodes:  
+    if event=="START_ELEMENT" and node.tagName=="table":  
+        nodes.expandNode( node )
+</pre><p>Actually, I like this <em>better</em> than XmlReader, since it provides the nodes in a list-like construct that appeals to the functional programmer in me. I'd like it even more if Python had a native pattern matching syntax - you know, like F# - but you can get similar results by chaining together conditionals with <a href="http://docs.python.org/ref/if.html">elif</a>.</p><p>However, IronPython doesn't support any of the XML parsing modules from Python's standard library. They're all based on a C-based python module called <a href="http://docs.python.org/lib/module-xml.parsers.expat.html">pyexpat</a> which IronPython can't load. [1] I wanted a pulldom type model, so I decided to wrap XmlReader to provide a similar API and lets me write code like this:</p><pre class="brush: python">
+import ipypulldom  
+nodes = ipypulldom.parse( "sample.xml" )   
+for node in nodes:   
+  if node.nodeType==XmlNodeType.Element:   
+    print node.xname
+</pre><p>There are a few differences from pulldom, but it's basically the same model. I'm using the native .NET type XmlNodeType rather than a string to indicate the node type. Furthermore, I made the node type a property of the node, rather than a separate variable. I also didn't implement expandNode, though doing so would be a fairly straightforward combination of XmlReader.ReadSubtree and XmlDocument.Load.</p><p>I stuck the <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/ipypulldom.py">code for ipypulldom</a> up in a new folder on my Skydrive: <a href="http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/IronPython%20Stuff">IronPython Stuff</a>. It's fairly short - only about 45 lines of code. Feel free to use it if you need it.</p><hr /><p>[1] The <a href="http://fepy.sourceforge.net/">FePy project</a> has a <a href="https://fepy.svn.sourceforge.net/svnroot/fepy/trunk/lib/pyexpat.py">.NET port of pyexpat</a> as part of their distribution, so I assume that lets you use the standard pulldom implementation in IPy. FePy looks really cool but I haven't had time to dig into it yet. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1144</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-05-06 11:21:54</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-05-06 11:21:54</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">stream-processing-xml-in-ironpython</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="python"><![CDATA[Python]]></category>
+  <category domain="post_tag" nicename="xml"><![CDATA[XML]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[381bc642-1227-46ac-8b2c-447db5ea9e7b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Stream+Processing+XML+In+IronPython]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/05/06/Stream+Processing+XML+In+IronPython]]></wp:meta_value>
+  </wp:postmeta>
+</item>

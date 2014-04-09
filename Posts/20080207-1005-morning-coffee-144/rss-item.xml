@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 144</title>
+  <link>http://devhawk.net/2008/02/07/morning-coffee-144/</link>
+  <pubDate>Thu, 07 Feb 2008 18:05:13 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://134c840d-db07-419e-a13f-2c06e67467ee</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I finished <a href="http://www.xbox.com/games/masseffect">Mass Effect</a> last night. I definitely need to play thru that one again, though I'll probably wait until the new <a href="http://www.xbox.com/en-US/live/marketplace/m/masseffect/bringdownthesky.htm">Bring Down the Sky</a> DLC ships next month.</li><li>Caps <a href="http://www.nhl.com/nhl/app?service=page&amp;page=Recap&amp;gameNumber=814&amp;season=20072008&amp;gameType=2">won again</a> last night, improving to 20-10-4 since changing coaches at Thanksgiving. They're now at 57 points, taking the lead in the SE division with a full game on Carolina, Atlanta and Florida. Still a ways to go - 27 games left in the regular season - and things are far from "sewn up" but we're a damn sight better off than we were in November. </li><li>Speaking of a horserace, looks like Clinton and Obama are in one after Super Tuesday. Their <a href="http://tpmelectioncentral.talkingpointsmemo.com/2008/02/your_election_central_delegate.php">estimated delegate counts</a> are basically tied. On the other side of the aisle, McCain <a href="http://www.msnbc.msn.com/id/23019759/">opened up</a> what is probably insurmountable lead - even though he has the <a href="http://www.reuters.com/article/politicsNews/idUSN0628190220080207">right-wing media stars</a> and <a href="http://www.wnd.com/news/article.asp?ARTICLE_ID=53743">Christian leaders</a> against him. Money quote of the day:</li></ul><blockquote><p>“The real story of the night, when you look at their rallies and their turn-out numbers, is that the Dems have two strong candidates either of whom could lead a united party to victory. Forget the gaseous platitudes: in Dem terms, their choice on Super Duper Tuesday was deciding which candidate was Super Duper and which was merely Super. Over on the GOP side, it was a choice between Weak &amp; Divisive or Weaker &amp; Unacceptable. Doesn’t bode well for November.” <br />- <a href="http://corner.nationalreview.com/post/?q=NGUyNjRmZGQ2NzBiZjY5OTIwYTExMGVjMWYzZjc2YTY=">Mark Steyn, National Review</a> <br />(via <a href="http://feeds.feedburner.com/~r/TheCarpetbaggerReport/~3/230563498/14495.html">Carpetbagger Report</a>, lest you think I regularly read National Review)</p></blockquote><ul><li>Charlie Calvert is starting a new series on the future of C#. First up: <a href="http://blogs.msdn.com/charlie/archive/2008/01/25/future-focus.aspx">Dynamic Lookup</a>. Probably most interesting is the news that the DLR "will be the infrastructure on which the C# team implements dynamic lookup". Does this mean C# will target the DLR? Sure sounds like it. I think it's a good addition, but I'm not a fan of the proposed syntax. (via <a href="http://blog.bittercoder.com/PermaLink,guid,6525b1f4-42a1-4961-a96c-09aa523bd8c0.aspx">Bitter Coder</a>)</li><li>Brian McNamara saw me present @ LangNET and sent me a link to <a href="http://lorgonblog.spaces.live.com/">his blog</a>. He's building up a monadic parser combinator library in C# 3.0. This is basically the same concept that <a href="http://www.quanttec.com/fparsec/">FParsec</a> implements, though C#'s syntax is much less attractive than F#'s for this kind of code. However, Brian does a very good job explaining why monadic parser combinators are useful and making the idea accessible to the C# programmer (i.e. you don't have to learn F# or Haskell to understand what he's talking about). He also points to Luke Hoban's <a href="http://blogs.msdn.com/lukeh/archive/2007/08/19/monadic-parser-combinators-using-c-3-0.aspx">C# 3.0 monadic parser implementation</a>.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1100</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-02-07 10:05:13</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-02-07 18:05:13</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-144</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="c-sharp"><![CDATA[C#]]></category>
+  <category domain="post_tag" nicename="hockey"><![CDATA[Hockey]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="parsing-expression-grammar"><![CDATA[Parsing Expression Grammar]]></category>
+  <category domain="post_tag" nicename="washington-capitals"><![CDATA[Washington Capitals]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[134c840d-db07-419e-a13f-2c06e67467ee]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+144]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/02/07/Morning+Coffee+144]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

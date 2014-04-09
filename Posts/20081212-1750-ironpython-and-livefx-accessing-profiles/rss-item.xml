@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython and LiveFX: Accessing Profiles</title>
+  <link>http://devhawk.net/2008/12/12/ironpython-and-livefx-accessing-profiles/</link>
+  <pubDate>Fri, 12 Dec 2008 17:50:08 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://95b8da55-983a-4485-ae88-89c0a375e3cb</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I recently got access to both the <a href="http://www.microsoft.com/azure/windowsazure.mspx">Windows Azure</a> and <a href="http://dev.live.com/liveframework/">Live Framework</a> CTP programs. Frankly, I’m very interested in <a href="https://www.mesh.com">Live Mesh</a>, so I decided to start with a simple LiveFX program. Scott (aka <a href="http://www.liveside.net/members/ScottIsAFool/default.aspx">ScottIsAFool</a>) at <a href="http://www.liveside.net">LiveSide</a> posted a <a href="http://www.liveside.net/developer/archive/2008/11/10/a-quick-and-dirty-console-application-using-the-livefx.aspx">“quick and dirty” console app</a> that pulls info from a user’s profile via LiveFx. It’s not Mesh per se, but it does use the same framework and resource model so I decided to port it to IronPython. FYI, this app won’t run unless you’ve been received a LiveFx CTP token and provisioned yourself. </p><pre class="brush: python">
+#Add LiveFX References     
+import sys     
+sys.path.append('C:\Program Files\Microsoft SDKs\Live Framework SDK\v0.9\Libraries\.Net Library')
+
+import clr     
+clr.AddReference('Microsoft.LiveFX.Client')
+clr.AddReference('Microsoft.LiveFX.ResourceModel')
+
+from Microsoft.LiveFX.Client import LiveOperatingEnvironment     
+from Microsoft.LiveFX.ResourceModel.ProfileResource import ProfileType     
+from System.Net import NetworkCredential     
+
+from devhawk import linq     
+
+#get username and password from the user     
+uid = raw_input("Enter Windows Live ID: ")
+pwd = raw_input("Enter Password: ")
+creds = NetworkCredential(uid, pwd, "https://user-ctp.windows.net")
+
+#print out user's info     
+loe = LiveOperatingEnvironment()
+loe.Connect(creds)
+
+general = linq.Single(loe.Profiles.Entries,  
+  lambda e: e.Resource.Type == ProfileType.General)
+
+print loe.Mesh.ProvisionedUser.Name     
+print loe.Mesh.ProvisionedUser.Email     
+print general.Resource.ProfileInfo.PersonalStatusMessage     
+print linq.Count(loe.Contacts.Entries)
+</pre><p>I did modify the app slightly, reading the WLID and password off the console – I was *sure* I would accidently post my personal credentials if I left them embedded in the app. Otherwise, it’s a straight port. First, I add references the LiveFX dlls. Since they’re not local to my script, I add the directory where they’re installed to sys.path, which lets me call clr.AddReference directly. Then I retrieve the user’s ID and password using raw_input (Python’s equivalent to Console.ReadLine). Finally, I connect to the user’s LiveOperatingEnvironment and pull their name, email address, personal status message and the number of contacts they have. </p><p>As per the original app, I use LINQ to find the right profile as well as count the number of contacts. I was able to reuse the linq.py file I wrote for my <a href="http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+2+Screen+Scraping.aspx">Rock Band song list screen scraper</a> (though I did have to add the Count function since I hadn’t needed it previously). I’ve posted <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/LiveFxPsmDemo.zip">this script</a> on my SkyDrive, and it includes my most recent linq.py file.</p><p>BTW, it doesn’t appear that you can set the PersonalStatusMessage programmatically, at least not currently. I was thinking it would be cool to build an app that sets your PSM via Twitter, but the set method of PersonalStatusMessage is marked internal. In fact, all the set methods of all the profile properties I looked at are marked internal. If someone knows how to update LiveFX resource objects in the current CTP, I’d appreciate it if you dropped me a line or left me a comment.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1204</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-12-12 17:50:08</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-12-12 17:50:08</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-and-livefx-accessing-profiles</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="live-framework"><![CDATA[Live Framework]]></category>
+  <category domain="post_tag" nicename="windows-live"><![CDATA[Windows Live]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[95b8da55-983a-4485-ae88-89c0a375e3cb]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+And+LiveFX+Accessing+Profiles]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/12/13/IronPython+And+LiveFX+Accessing+Profiles]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2159</wp:comment_id>
+    <wp:comment_author><![CDATA[Oran]]></wp:comment_author>
+    <wp:comment_author_email>odennison@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://orand.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>209.112.216.45</wp:comment_author_IP>
+    <wp:comment_date>2008-12-12 20:44:15</wp:comment_date>
+    <wp:comment_date_gmt>2008-12-13 04:44:15</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Most resources in LiveFX can be updated but Profiles are unfortunately read-only at this point.
+http://social.msdn.microsoft.com/Forums/en-US/liveframework/thread/81ab8f62-3244-4ca5-b376-2d5879f47c9f/
+
+For another example of IronPython + LiveFX, check out this blog post from Ori Amiga, the Group PM of LiveFX.  Ori loves IronPython so if there's anything you think of that would make LiveFX more IronPython-friendly, he would be the guy to contact.
+http://blogs.msdn.com/oriamiga/archive/2008/11/09/livefx-using-ironpython.aspx]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2160</wp:comment_id>
+    <wp:comment_author><![CDATA[Vikas Ahuja]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://blogs.msdn.com/vikasahuja</wp:comment_author_url>
+    <wp:comment_author_IP>71.112.104.79</wp:comment_author_IP>
+    <wp:comment_date>2008-12-13 00:47:52</wp:comment_date>
+    <wp:comment_date_gmt>2008-12-13 08:47:52</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry - Profiles are read only in current release as Oran pointed out. You can use forums as one of the resource at your disposal for discussion if you haven't already using it. 
+
+I have updated one Thread with link to your post - we community members for Live Framework keep doing it as we find blog posts about Live Framework.
+
+http://social.msdn.microsoft.com/Forums/en-US/liveframework/thread/828d9a48-239a-4af8-8239-35931e514d37
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2324</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.85</wp:comment_author_IP>
+  <wp:comment_date>2011-02-03 10:17:42</wp:comment_date>
+  <wp:comment_date_gmt>2011-02-03 18:17:42</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[@Barry - you can set the ambient shell environment in powershell ($env:PYTHONPATH = /whatever/you/like) but I'm not aware of way to apply the environment changes to a forked process w/o affecting the current one. I would suspect it's possible, but it's not out of the box AFAIK.
+
+@Michael - I didn't know about .pth files - I'll take a look at that!]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2446</wp:comment_id>
+  <wp:comment_author><![CDATA[Scott Allen]]></wp:comment_author>
+  <wp:comment_author_email>scott@odetocode.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.odetocode.com/blogs/scott/</wp:comment_author_url>
+  <wp:comment_author_IP>71.16.197.162</wp:comment_author_IP>
+  <wp:comment_date>2007-01-26 12:27:19</wp:comment_date>
+  <wp:comment_date_gmt>2007-01-26 20:27:19</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[For XAML only workflows you'd have to define a class and derives from StateMachineWorkflowActivity. This new class can define your dependency properties, and any other code the workflow might need. 
+
+For XAML activation then, you use the new class as the root of your workflow:
+
+<ns0:MyCustomStateMachineWorkflowActivity x:Name="foo" ...>
+  <StateActivity ...>
+  <StateActivity ...>
+  <StateActivity>
+     ...
+     <ActivityBind Name=foo" Path="MyCustomDependencyProperty"/>
+     ...
+  </StateActivity>
+</ns0:MyCustomStateMachineWorkflowActivity>
+
+I have a working sample of this approach. I'll post it soon.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

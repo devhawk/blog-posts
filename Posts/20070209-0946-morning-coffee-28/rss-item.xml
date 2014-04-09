@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 28</title>
+  <link>http://devhawk.net/2007/02/09/morning-coffee-28/</link>
+  <pubDate>Fri, 09 Feb 2007 09:46:00 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e01752a1-cd3b-4d4c-bc14-aa4db6984563</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>From the "Ask and ye shall receive" department: A couple weeks ago <a href="http://devhawk.net/2007/01/23/Morning+Coffee+16.aspx">I wondered</a> how good or bad my Gamerscore conversion rate is. <a href="http://www.mygamercard.net/">MyGamerCard.net</a> just launched a <a href="http://www.mygamercard.net/completionlb.php">completion leaderboard</a> where they rank you on your Gamerscore times your completion rate.  </li><li>Shane Courtrille <a href="http://devhawk.net/CommentView,guid,5f29bfa4-48e7-4092-a561-0b154973187f.aspx#commentstart">pointed out</a> that the prize you receive in from the <a href="http://www.xbox.com/en-US/community/news/2007/0205-xboxrewards.htm">Xbox Rewards</a> program gets better if your Gamerscore is higher. With a meager 1090 points, I'm in level 1. But those with 10,000+ or more can get a copy of <a href="http://www.xbox.com/games/fuzionfrenzy2xbox360/">Fuzion Frenzy 2</a> for completing the challenge.  </li><li>Yesterday, I <a href="http://devhawk.net/2007/02/08/Morning+Coffee+27.aspx">complained</a> that code in my RSS feed looks awful. It appears to be a problem with dasBlog. In validating the HTML is actually XHTML, it screws up the white space. Of course, usually that's not a big deal, but inside a &lt;pre&gt; tag, it is. Until I get a chance to submit a patch to dasBlog to fix this, I'm using <a href="http://puzzleware.net/codehtmler/">CodeHTMLer</a>, which has a "convert white space" option that doesn't use the &lt;pre&gt; tag at all. As a bonus, it even support PowerShell! Note, you have to use the <a href="http://puzzleware.net/codehtmler/default.aspx">website</a>, not their <a href="http://puzzleware.net/download.aspx?file=/codehtmler/codehtmler.livewriterplugin.zip">WLWriter plugin</a>, if you want the convert white space option. </li><li>There's a new beta of <a href="http://www.plas.fit.qut.edu.au/Ruby.NET/">Ruby.NET</a> available. Now that I've moved on to PowerShell, I'm only slightly interested in Ruby these days. If I can figure out how to create internal DSLs with PS, what would I need Ruby for? (via <a href="http://www.larkware.com/dg7/TheDailyGrind1075.aspx">Larkware</a>) </li><li><a href="http://msdn2.microsoft.com/architecture">My old team</a> just shipped a single-instance multi-tenancy SaaS sample called <a href="http://msdn2.microsoft.com/en-us/architecture/bb229292">LitwareHR</a>. Details are on <a href="http://blogs.msdn.com/gianpaolo/archive/2007/02/08/saas-sample-application-finally-here.aspx">Gianpaolo's blog</a>, code is up on <a href="http://www.codeplex.com/litwarehr">CodePlex</a>.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">879</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-02-09 09:46:00</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-02-09 09:46:00</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-28</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="dasblog"><![CDATA[dasBlog]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="ruby"><![CDATA[Ruby]]></category>
+  <category domain="post_tag" nicename="xbox-360"><![CDATA[Xbox 360]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e01752a1-cd3b-4d4c-bc14-aa4db6984563]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+28]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/02/09/Morning+Coffee+28]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2456</wp:comment_id>
+    <wp:comment_author><![CDATA[Wes]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://puzzleware.net</wp:comment_author_url>
+    <wp:comment_author_IP>76.22.14.31</wp:comment_author_IP>
+    <wp:comment_date>2007-02-09 12:44:27</wp:comment_date>
+    <wp:comment_date_gmt>2007-02-09 20:44:27</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Actually you can use the convert whitespace option in the WLWriter plugin as well. You just need to configure it that way. On the insert code dialog select "<edit languages>" and it will bring up another dialog where you can look at the language definitions and change the settings on a per language basis. Just set the "UsePreTag" property to false. If you have issues with it let me know.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

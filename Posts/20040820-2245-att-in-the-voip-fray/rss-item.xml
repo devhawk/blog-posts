@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>AT&amp;T in the VOIP Fray</title>
+  <link>http://devhawk.net/2004/08/20/att-in-the-voip-fray/</link>
+  <pubDate>Fri, 20 Aug 2004 22:45:37 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://8dcaa6d2-5448-4283-9553-03dd823f34d5</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Watching the Olympics I've seen ads for AT&amp;T's <a href="http://www.usa.att.com/callvantage/">CallVantage</a>, a VOIP service similar to <a href="http://www.vonage.com/">Vonage</a> and <a href="https://www.lingo.com/guWeb/">Lingo</a> (any others?). All three have the basics - Unlimited calling to US &amp; Canada, voicemail, call waiting/forwarding, 911 support, caller ID &amp; 3-way calling. However, each has a feature or two that the others don't. AT&amp;T has Do Not Disturb (no big deal) and Personal Conferencing up to nine people (wow!). Vonage has a soft phone (i.e. an app that acts like a phone so you can call and receive calls while on the road). Lingo is the cheapest ($20 a month + 3 free months) and Western Europe is included in the unlimited free calling area (hello brother-in-law from Germany). I'm leaning towards Lingo as I don't need personal conferencing (I organize groups of people outside my immediate family with email) and when I travel with my family, I don't really spend much time online so the soft phone is of limited use. One issue - checking out <a href="http://www.broadbandreports.com/isplist?t=voip">Broadband Reports VOIP reviews</a>, <a href="http://www.broadbandreports.com/reviews/2475">Lingo sounds like</a> it's got really awful tech support. But, with three months free, I'm hoping I can try it out and cancel it if it's a problem.</p><p>Update - I called Lingo and they confirmed they have an activation fee as well as a 30 day cancellation policy. So while the first three months are free, you pay $10 S&amp;H and $30 to activate. If you cancel the service in the first 30 days, you can get your $30 back. And there is no service contract, so you can cancel anytime (not sure if the other services require a contract or not).</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">422</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-08-20 22:45:37</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-08-20 22:45:37</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">att-in-the-voip-fray</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[8dcaa6d2-5448-4283-9553-03dd823f34d5]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[ATT+In+The+VOIP+Fray]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/08/21/ATT+In+The+VOIP+Fray]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2658</wp:comment_id>
+    <wp:comment_author><![CDATA[Jason Alexander]]></wp:comment_author>
+    <wp:comment_author_email>jalexander@telligentsystems.com</wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/jalexander/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-08-23 06:55:24</wp:comment_date>
+    <wp:comment_date_gmt>2004-08-23 13:55:24</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[hey Harry!
+
+Yeah, I use Vonage for my business line at home as it was MUCH cheaper then installing my own land line, or having an additional phone drop added to my office (yes, my builder didn't put a phone line in my office. GRR).
+
+So far Vonage has been awesome! I pay $15/month for 500 minutes (I never use that much, personally). And, have all the great features (more then what I get on my land line and pay an arm and a leg for).
+
+It's good to see AT&T pushing their VOIP. Traditional phone companies should be scared. This technology is awesome, and a low price point. 
+
+
+Take care!
+-Jason]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2659</wp:comment_id>
+    <wp:comment_author><![CDATA[Tom Vande Stouwe]]></wp:comment_author>
+    <wp:comment_author_email>tomv@conpro.net</wp:comment_author_email>
+    <wp:comment_author_url>http://conpro.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-08-23 11:31:34</wp:comment_date>
+    <wp:comment_date_gmt>2004-08-23 18:31:34</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry,
+
+I concur, I now have 3 vonage lines, $15 each, and leave 1/2 of that 500 minutes on the table at the end of the month. Customer support has been great. I have only used the online, But Mildred in NY has called and gotten personal assistance, and even got my 'spif' for the referal to her fixed while on line. A++ for Vonage, I hope the others keep pace, and make/keep it competitive.
+
+Tom]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2660</wp:comment_id>
+    <wp:comment_author><![CDATA[Chris Church]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-08-23 20:49:59</wp:comment_date>
+    <wp:comment_date_gmt>2004-08-24 03:49:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Vonage is great - had it for a month or so now.  I do get an AC hum on the line at times despite having switched TAs, but I think its actually an issue with the cordless phone.
+
+If you want to sign up, I'll be happy to catch the referral!  I also agree the customer support has been great...
+
+Chris]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2661</wp:comment_id>
+    <wp:comment_author><![CDATA[low interest credit cards]]></wp:comment_author>
+    <wp:comment_author_email>azaddin6718@work.com</wp:comment_author_email>
+    <wp:comment_author_url>http://low-interest-credit-cards.web4u.gb.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-01-04 08:19:34</wp:comment_date>
+    <wp:comment_date_gmt>2005-01-04 16:19:34</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[In your free time, check out the sites about loans  http://www.fidelityfunding.net/
+ low interest credit cards  http://low-interest-credit-cards.web4u.gb.com/
+ casinos  http://casinos.web4u.gb.com/
+ weight loss  http://weight-loss.web4u.gb.com/
+ forex  http://forex.web4u.gb.com/
+ tax  http://tax.web4u.gb.com/
+ taxes  http://taxes.web4u.gb.com/
+ turbo tax  http://turbo-tax.web4u.gb.com/
+ capital one credit card  http://top-one-credit-card.web4u.gb.com/
+ mortgage loans  http://mortgage-loans.web4u.gb.com/
+ blackjack  http://blackjack.web4u.gb.com/
+ party poker  http://play-poker.web4u.gb.com/
+ texas holdem poker  http://texas-holdem-poker.web4u.gb.com/
+ poker online  http://poker-online.web4u.gb.com/
+ pacific poker  http://pacific-poker.web4u.gb.com/
+ weight loss pills  http://weight-loss-pills.web4u.gb.com/
+ cheap phentermine  http://cheap-phentermine.web4u.gb.com/
+ buy phentermine  http://buy-phentermine.web4u.gb.com/
+ buy viagra  http://buy-viagra.web4u.gb.com/
+ buy viagra online  http://buy-viagra-online.web4u.gb.com/
+...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2662</wp:comment_id>
+    <wp:comment_author><![CDATA[online poker]]></wp:comment_author>
+    <wp:comment_author_email>absolut5244@mail.nu</wp:comment_author_email>
+    <wp:comment_author_url>http://www.8gold.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-01-08 02:14:56</wp:comment_date>
+    <wp:comment_date_gmt>2005-01-08 10:14:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Please check some information about phentermine  http://www.canadianlabels.net/
+ online poker  http://www.8gold.com/
+ viagra  http://www.cheapest-viagra-on-line.co.uk/
+ debt consolidation  http://www.debt-help-bill-consolidation-elimination.com/
+ online casino  http://www.onlinegamingassociation.com/
+ casino  http://www.mediavisor.com/
+ credit cards  http://www.911easymoney.com/
+ online casino  http://www.popwow.com/
+ poker  http://www.oiline.com/
+ mortgages  http://www.spoodles.com/
+ loans  http://www.houseofsevengables.com/
+ diet pills  http://www.crepesuzette.com/
+ debt consolidation  http://www.sportsparent.com/
+ payday loans  http://www.instant-quick-money-cash-advance-personal-loans-until-pay-day.com/
+ student loans  http://www.tmsathai.org/
+ private mortgages  http://www.stmaryonline.org/
+ personal loans  http://www.flafeber.com/
+ home loans  http://www.thatwhichis.com/
+ travel  http://www.condodream.com/
+ hotels  http://www.royalmailhotel.com/
+ mortgage  http://mortgage.top.uaeecommerce.com/
+ mortgage rates  http://mortgage-rates.uaeecommerce.com/
+ clonazepam  http://www.uaeecommerce.com/
+ diet pills  http://www.newtruths.com/
+ loans  http://www.fidelityfunding.net/
+- Tons of interesdting stuff!!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2663</wp:comment_id>
+    <wp:comment_author><![CDATA[diet pills]]></wp:comment_author>
+    <wp:comment_author_email>azaddin6363@home.com</wp:comment_author_email>
+    <wp:comment_author_url>http://diet-pills.le.canadianlabels.net/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-01-10 19:34:23</wp:comment_date>
+    <wp:comment_date_gmt>2005-01-11 03:34:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Please check the pages about online poker  http://online-poker.tk.oiline.com/
+ phentermine  http://phentermine.cd.sportsparent.com/
+ debt consolidation  http://debt-consolidation.sr.fidelityfunding.net/
+ diet pills  http://diet-pills.le.canadianlabels.net/
+ valium  http://valium.be.fidelityfunding.net/
+ meridia  http://meridia.hk.fidelityfunding.net/
+ gambling  http://gambling.bj.onlinegamingassociation.com/
+ viagra  http://viagra.cn.mediavisor.com/
+ acne  http://acne.gb.canadianlabels.net/
+ turbo tax  http://top-tax.uk.911easymoney.com/
+ online casinos  http://online-casinos.eu.popwow.com/
+ texas hold em  http://texas-hold-em.us.8gold.com/
+ home equity loan  http://home-equity-loan.ch.houseofsevengables.com/
+ weight loss  http://weight-loss.it.crepesuzette.com/
+ cialis  http://cialis.be.uaeecommerce.com/
+ mortgage loans  http://mortgage-loans.se.debt-help-bill-consolidation-elimination.com/
+ casino  http://casino.ro.onlinegamingassociation.com/
+ tramadol  http://tramadol.pk.mediavisor.com/
+ cash  http://cash.pl.fidelityfunding.net/
+ weight loss pill  http://weight-loss-pill.sp.fidelityfunding.net/
+ texas holdem poker  http://texas-holdem-poker.tr.fidelityfunding.net/
+ carisoprodol  http://carisoprodol.de.fidelityfunding.net/
+ ambien  http://ambien.eg.fidelityfunding.net/
+ student credit cards  http://student-credit-cards.jp.fidelityfunding.net/
+ forex  http://forex.gd.fidelityfunding.net/
+ discover credit card  http://discover-credit-card.at.debt-help-bill-consolidation-elimination.com/
+ personal loan  http://personal-loan.ca.fidelityfunding.net/
+- Tons of interesdting stuff!!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2664</wp:comment_id>
+    <wp:comment_author><![CDATA[online poker]]></wp:comment_author>
+    <wp:comment_author_email>absinth369@mail.ru</wp:comment_author_email>
+    <wp:comment_author_url>http://www.mcdortaklar.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-01-16 14:25:38</wp:comment_date>
+    <wp:comment_date_gmt>2005-01-16 22:25:38</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Please check some relevant pages about online poker  http://www.mcdortaklar.com/
+ phentermine  http://www.reservedining.net/
+ viagra  http://www.paramountseedfarms.net/
+ credit cards  http://www.rethyassociates.net/
+ casino  http://www.ingyensms.net/
+ poker  http://www.bigyonet.com/
+ online casino  http://www.zalaszentgrot.com/
+ texas holdem  http://www.darkangelclan.com/
+ texas hold em  http://www.middlecay.net/
+ texas holdem poker  http://www.hasslerenterprises.net/
+ pacific poker  http://www.hdic.net/
+ party poker  http://www.hometeaminspection.net/
+ empire poker  http://www.mor-lite.net/
+ poker games  http://www.parkviewsoccer.net/
+ generic viagra  http://www.targetindustries.net/
+ cialis  http://www.tclighting.net/
+ levitra  http://www.neweighweb.net/
+ tramadol  http://www.jfcadvocacy.net/
+ online pharmacy  http://www.psychexams.net/
+ soma  http://www.stories-on-cd.net/
+ diet pills  http://www.lvcpa.net/
+ phendimetrazine  http://www.suttonjames.net/
+ credit card  http://www.mp-forum.com/
+ payday loans  http://www.devilofnights.net/
+ loans  http://www.gargzdai.net/
+ personal loans  http://www.zone-b51.com/
+ student loans  http://www.jmsimonr.com/
+ private mortgages  http://www.1a1merchantaccounts.com/
+ low interest credit cards  http://www.at-capstone.com/
+... Thanks!!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2665</wp:comment_id>
+    <wp:comment_author><![CDATA[gambling]]></wp:comment_author>
+    <wp:comment_author_email>johndoe8322@see.to</wp:comment_author_email>
+    <wp:comment_author_url>http://www.reachcasino.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-01-20 05:23:56</wp:comment_date>
+    <wp:comment_date_gmt>2005-01-20 13:23:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You can also check some information dedicated to credit cards  http://www.easy-application-credit-cards.com/
+ debt consolidation  http://www.e-debt-consolidation-loans.com/
+ gambling  http://www.reachcasino.com/
+ online poker  http://online-poker.reachcasino.com/
+ student credit cards  http://www.alumnicards.com/
+ mortgage loans  http://www.mortgagequestaz.com/
+ bad credit loans  http://www.all-calmortgage.com/
+ low interest credit cards  http://www.lowinterestratecreditcards.net/
+ credit card  http://www.credit-cards-credit-cards-credit-cards.net/
+ credit cards  http://www.lowest-interest-rate-credit-cards-online.com/
+ capital one credit card  http://www.firstchoicebanksandpremiercredit.com/
+ payday loan  http://www.fast-cash-quick-money-easy-loan.com/
+ credit repair  http://www.repair-restore-bad-credit-report-identity-theft.com/
+ credit report  http://www.creditsharpie.com/
+ credit cards  http://www.internet-merchant-account-pro.com/
+ discover credit card  http://www.acceptcreditcardsrealtime.com/
+ chase credit card  http://www.exclaim4creditcardprocessingmerchantaccount.com/
+ credit cards  http://www.acceptcreditcardsonlineinternetmerchantaccountservices.com/
+ credit repair  http://www.repaircreditonline.net/
+ debt consolidation  http://www.consolidate-debt-usa.net/
+ debt consolidation  http://www.smart-debt-consolidation-and-credit-services.com/
+ debt management  http://www.1st-advantage-credit-repair.com/
+ mortgage  http://www.mortgagemarketinginc.com/
+ mortgage loans  http://www.low-low-rates.com/
+ real estate mortgage loans  http://www.123-home-improvement-equity-loans.com/
+ home equity loans  http://www.home-equity-loans-mortgage-refinancing.com/
+ credit card applications  http://www.goapplyonline.com/
+ online casino  http://online-casino.reachcasino.com/
+ texas holdem  http://texas-holdem.reachcasino.com/
+ texas hold em  http://texas-hold-em.reachcasino.com/
+ poker  http://poker.reachcasino.com/
+ casino  http://casino.reachcasino.com/
+ blackjack  http://blackjack.reachcasino.com/
+ party poker  http://party-poker.reachcasino.com/
+ pacific poker  http://pacific-poker.reachcasino.com/
+- Tons of interesdting stuff!!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2666</wp:comment_id>
+    <wp:comment_author><![CDATA[online casino games]]></wp:comment_author>
+    <wp:comment_author_email>huy_lo6141@mail.me</wp:comment_author_email>
+    <wp:comment_author_url>http://online-casino-games.best-buy-site-4u.info/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-01-23 20:33:48</wp:comment_date>
+    <wp:comment_date_gmt>2005-01-24 04:33:48</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Please check the pages dedicated to bontril  http://bontril.best-buy-site-4u.info/
+ buy phentermine  http://buy-phentermine.best-buy-site-4u.info/
+ buy hydrocodone online  http://buy-hydrocodone-online.best-buy-site-4u.info/
+ online casino games  http://online-casino-games.best-buy-site-4u.info/
+ internet gambling  http://internet-gambling.best-buy-site-4u.info/
+ internet casino  http://internet-casino.best-buy-site-4u.info/
+ online blackjack  http://online-blackjack.best-buy-site-4u.info/
+ refinance loan  http://refinance-loan.best-buy-site-4u.info/
+ xanax  http://xanax.best-buy-site-4u.info/
+ zoloft  http://zoloft.best-buy-site-4u.info/
+ paxil  http://paxil.best-buy-site-4u.info/
+ acyclovir  http://acyclovir.best-buy-site-4u.info/
+ valtrex  http://valtrex.best-buy-site-4u.info/
+ medications  http://medications.best-buy-site-4u.info/
+ prescription drugs  http://prescription-drugs.best-buy-site-4u.info/
+ online prescriptions  http://online-prescriptions.best-buy-site-4u.info/
+ buy viagra online  http://buy-viagra-online.best-buy-site-4u.info/
+ buy levitra online  http://buy-levitra-online.best-buy-site-4u.info/
+ buy cialis  http://buy-cialis.best-buy-site-4u.info/
+ buy bontril  http://buy-bontril.best-buy-site-4u.info/
+ buy ambien  http://buy-ambien.best-buy-site-4u.info/
+ buy zanax  http://buy-zanax.best-buy-site-4u.info/
+ buy zanax online  http://buy-zanax-online.best-buy-site-4u.info/
+ buy prescriptions online  http://buy-prescriptions-online.best-buy-site-4u.info/
+ buy vicodin online  http://buy-vicodin-online.best-buy-site-4u.info/
+ buy viagra  http://buy-viagra.best-buy-site-4u.info/
+ keno  http://keno.best-buy-site-4u.info/
+ casino gambling  http://casino-gambling.best-buy-site-4u.info/
+ casino online  http://casino-online.best-buy-site-4u.info/
+ chase credit card  http://chase-credit-card.best-buy-site-4u.info/
+ home equity loans  http://home-equity-loans.best-buy-site-4u.info/
+ bad credit auto loan  http://bad-credit-auto-loan.best-buy-site-4u.info/
+ credit card deal  http://credit-card-deal.best-buy-site-4u.info/
+ backgammon  http://backgammon.best-buy-site-4u.info/
+ backgammon game  http://backgammon-game.best-buy-site-4u.info/
+...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2667</wp:comment_id>
+    <wp:comment_author><![CDATA[online poker]]></wp:comment_author>
+    <wp:comment_author_email>luba8632@tech.tv</wp:comment_author_email>
+    <wp:comment_author_url>http://online-poker.freakycheats.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-02 03:53:07</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-02 11:53:07</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You may find it interesting to check out the pages in the field of online poker  http://online-poker.psxtreme.com/
+ texas holdem  http://texas-holdem.psxtreme.com/
+ online poker  http://online-poker.freakycheats.com/
+ texas hold em  http://texas-hold-em.freakycheats.com/
+ poker  http://poker.psxtreme.com/
+ texas hold em  http://texas-hold-em.psxtreme.com/
+ party poker  http://party-poker.psxtreme.com/
+ empire poker  http://empire-poker.psxtreme.com/
+ pacific poker  http://pacific-poker.psxtreme.com/
+ poker online  http://poker-online.psxtreme.com/
+ poker games  http://poker-games.psxtreme.com/
+ poker hands  http://poker-hands.psxtreme.com/
+ poker online  http://poker-online.psxtreme.com/
+ wsop  http://www.psxtreme.com/
+ strip poker  http://strip-poker.psxtreme.com/
+ phentermine  http://phentermine.psxtreme.com/
+ diet pills  http://diet-pills.psxtreme.com/
+ viagra  http://viagra.psxtreme.com/
+ online casino  http://online-casino.psxtreme.com/
+ poker  http://poker.freakycheats.com/
+ texas holdem  http://texas-holdem.freakycheats.com/
+ party poker  http://party-poker.freakycheats.com/
+ empire poker  http://empire-poker.freakycheats.com/
+ pacific poker  http://pacific-poker.freakycheats.com/
+ poker online  http://poker-online.freakycheats.com/
+ poker games  http://poker-games.freakycheats.com/
+ poker hands  http://poker-hands.freakycheats.com/
+ poker online  http://poker-online.freakycheats.com/
+ wsop  http://www.freakycheats.com/
+ strip poker  http://strip-poker.freakycheats.com/
+ phentermine  http://phentermine.freakycheats.com/
+ diet pills  http://diet-pills.freakycheats.com/
+ viagra  http://viagra.freakycheats.com/
+ tramadol  http://tramadol.freakycheats.com/
+ online casino  http://online-casino.freakycheats.com/
+- Tons of interesdting stuff!!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2668</wp:comment_id>
+    <wp:comment_author><![CDATA[online-poker]]></wp:comment_author>
+    <wp:comment_author_email>absinth1280@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://online-poker.yelucie.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-05 06:55:03</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-05 14:55:03</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[In your free time, check some information dedicated to online-poker  http://online-poker.yelucie.com/
+ texas-hold`em  http://texas-hold-em.yelucie.com/
+ texas-holdem  http://texas-holdem.yelucie.com/
+ phentermine  http://phentermine.crescentarian.net/
+ diet-pills  http://diet-pills.crescentarian.net/
+ poker  http://poker.yelucie.com/
+ party-poker  http://party-poker.yelucie.com/
+ empire-poker  http://empire-poker.yelucie.com/
+ pacific-poker  http://pacific-poker.yelucie.com/
+ poker-online  http://poker-online.yelucie.com/
+ poker-hands  http://poker-hands.yelucie.com/
+ poker-online  http://poker-online.yelucie.com/
+ casino  http://casino.yelucie.com/
+ online-casino  http://online-casino.yelucie.com/
+ poker-rules  http://www.yelucie.com/
+ free-poker  http://free-poker.yelucie.com/
+ free-online-poker  http://free-online-poker.yelucie.com/
+ phentermine  http://phentermine.yelucie.com/
+ tramadol  http://tramadol.yelucie.com/
+ poker  http://poker.crescentarian.net/
+ online-poker  http://online-poker.crescentarian.net/
+ texas-holdem  http://texas-holdem.crescentarian.net/
+ party-poker  http://party-poker.crescentarian.net/
+ empire-poker  http://empire-poker.crescentarian.net/
+ pacific-poker  http://pacific-poker.crescentarian.net/
+ poker-games  http://poker-games.crescentarian.net/
+ poker-hands  http://poker-hands.crescentarian.net/
+ poker-online  http://poker-online.crescentarian.net/
+ casino  http://casino.crescentarian.net/
+ online-casino  http://online-casino.crescentarian.net/
+ poker-rules  http://poker-rules.crescentarian.net/
+ free-poker  http://www.crescentarian.net/
+ free-online-poker  http://free-online-poker.crescentarian.net/
+ world-series-of-poker  http://world-series-of-poker.crescentarian.net/
+ cialis  http://cialis.crescentarian.net/
+... Thanks!!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2669</wp:comment_id>
+    <wp:comment_author><![CDATA[texas hold em]]></wp:comment_author>
+    <wp:comment_author_email>bushmills2232@mail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://texas-hold-em.terashells.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-02-07 21:14:33</wp:comment_date>
+    <wp:comment_date_gmt>2005-02-08 05:14:33</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Please check the pages in the field of texas hold em  http://texas-hold-em.terashells.com/
+ online poker  http://online-poker.terashells.com/
+ online poker  http://online-poker.chat-nett.com/
+ texas-holdem  http://texas-holdem.yelucie.com/
+ poker-online  http://poker-online.yelucie.com/
+ phentermine  http://phentermine.crescentarian.net/
+ diet-pills  http://diet-pills.crescentarian.net/
+ viagra  http://viagra.terashells.com/
+ diet pills  http://diet-pills.terashells.com/
+ phentermine  http://phentermine.terashells.com/
+ poker hands  http://poker-hands.terashells.com/
+ poker games  http://poker-games.terashells.com/
+ poker  http://poker.terashells.com/
+ poker  http://poker.chat-nett.com/
+ pacific poker  http://pacific-poker.chat-nett.com/
+ casino  http://casino.chat-nett.com/
+ tramadol  http://tramadol.chat-nett.com/
+ poker  http://poker.yelucie.com/
+ online-poker  http://online-poker.yelucie.com/
+ texas-hold`em  http://texas-hold-em.yelucie.com/
+ party-poker  http://party-poker.yelucie.com/
+ pacific-poker  http://pacific-poker.yelucie.com/
+ poker-games  http://poker-games.yelucie.com/
+ poker-hands  http://poker-hands.yelucie.com/
+ online-casino  http://online-casino.yelucie.com/
+ poker-rules  http://www.yelucie.com/
+ free-poker  http://free-poker.yelucie.com/
+ free-online-poker  http://free-online-poker.yelucie.com/
+ tramadol  http://tramadol.yelucie.com/
+ poker  http://poker.crescentarian.net/
+ texas-hold-em  http://texas-hold-em.crescentarian.net/
+ party-poker  http://party-poker.crescentarian.net/
+ empire-poker  http://empire-poker.crescentarian.net/
+ poker-online  http://poker-online.crescentarian.net/
+ poker-online  http://poker-online.crescentarian.net/
+ casino  http://casino.crescentarian.net/
+ online-casino  http://online-casino.crescentarian.net/
+ poker-rules  http://poker-rules.crescentarian.net/
+ free-poker  http://www.crescentarian.net/
+ cialis  http://cialis.crescentarian.net/
+...]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

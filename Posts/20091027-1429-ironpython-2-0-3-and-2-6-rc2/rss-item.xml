@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython 2.0.3 and 2.6 RC2</title>
+  <link>http://devhawk.net/2009/10/27/ironpython-2-0-3-and-2-6-rc2/</link>
+  <pubDate>Tue, 27 Oct 2009 14:29:29 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a105b675-f06a-4548-a8f3-3525a5b96654</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>It has been a very busy week for the IronPython team. Just under a week ago, we shipped a <a href="http://devhawk.net/2009/10/21/IronPython+And+IronRuby+CTPs+For+NET+40+Beta+2.aspx">CTP for .NET Framework 4.0</a>. Since then, we’ve shipped two – yes, two! – more versions of IronPython. Three releases in one week! If we could keep up that pace, we’d be shipping like 27 more releases of IronPython by the end of the year!</p><p>FYI, we’re not going to keep up the pace of shipping three releases a week for the next two months. We may be a little crazy on the IronPython team, but we’re not THAT crazy!</p><p>Actually, all three of these releases represent fairly small changes in the IronPython source tree. The .NET 4.0 beta was a CTP, so it’s basically whatever we had in our main trunk when they forked .NET Framework for the beta. </p><p><a href="http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=30416">IronPython 2.0.3</a> is a minor point release in the 2.0 branch (duh). In addition to backporting some fixes from 2.6, we had to fix an CLR breaking change in partial trust on Windows 7. If you’re using IronPython 2.0.x in partial trust on Windows 7 you *MUST* upgrade to 2.0.3 (or 2.6 when it’s released). Sorry about that – but it was out of our hands. </p><p><a href="http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34451">IronPython 2.6 RC2</a> is – as you would expect - a minor update over the first release candidate. There was a memory leak discovered in the hosting APIs which forced us to do a second release candidate. Since we had to fix that, we took in a few of other fixes including some standard library changes (we left out json by accident in RC1 and Michael Foord got logging updated to work better with IronPython so we took the latest version of it). As per the release notes, we expect this to be the final RC and will re-ship it as RTM in about a month. Please start using this latest release and let us know if you find anything.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1297</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-10-27 14:29:29</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-10-27 14:29:29</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-2-0-3-and-2-6-rc2</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a105b675-f06a-4548-a8f3-3525a5b96654]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+203+And+26+RC2]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/10/27/IronPython+203+And+26+RC2]]></wp:meta_value>
+  </wp:postmeta>
+</item>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2329</wp:comment_id>
+  <wp:comment_author><![CDATA[Alex Barnett]]></wp:comment_author>
+  <wp:comment_author_email>alexbarn@microsoft.com</wp:comment_author_email>
+  <wp:comment_author_url>http://blogs.msdn.com/alexbarn</wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+  <wp:comment_date>2006-03-08 12:40:29</wp:comment_date>
+  <wp:comment_date_gmt>2006-03-08 20:40:29</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I agree with you Harry, that the 'Attention Economy' is not an economy.  My opinion is that users aren't interested is selling their data to customers for $. I wrote more on this here: http://blogs.msdn.com/alexbarn/archive/2006/01/11/511690.aspx
+
+On the point you make re: having stuff on a server: there is one advantage to this - I roam. Having email in the cloud (and on local client) rather than *just* on the client is better, no? Having my attention data out in the cloud makes like easier. The question you raise re: data privacy / and management of subsets of this data by the user should be in the users control is a key point. But do they care where this data 'lives'? If it works, is secure and is in their control, do they care?
+
+Re: other forms of 'attention data' that may be useful to have services key off: one powerful type attention data is my OPML file. Services such as Megite.com, Findory and others are starting to provide personalized views based on this data. They are more than just RSS aggreagtors they're really becoming attention filters. If you've got 5 mins before you rush out of the door and want a quick, relevant snapshot of whats going being going on, this is a great tool. Think: Personalized Memeorandum. I did a screencast to show: http://blogs.msdn.com/alexbarn/archive/2006/02/17/533949.aspx
+
+What other types of attention data will these services be able to refer to to provide yet more relevant experierences?
+
+Any way, more of my attention throughts here: http://blogs.msdn.com/alexbarn/articles/510483.aspx
+
+Alex.
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,26 @@
+<p>I still haven&#8217;t seen a good general session on <a href="http://microformats.org/">microformats</a>. I&#8217;m thinking it&#8217;s because any one given microformat is so simple that you can&#8217;t really fill more than about ten minutes talking about it. So this panel was about six or seven different microformats. The format of the panel stunk &#8211; I lost track of what was being discussed pretty quickly so I spent the time surfing the microformats website.</p>
+<p>The idea of microformats is to adorn visual markup (i.e. xhtml) with semantic information about the data underneath. Probably the best example of this is <a href="http://microformats.org/wiki/hcard">hCard</a>, the microformat version of vCard. Here&#8217;s my hCard (as produced by the <a href="http://microformats.org/code/hcard/creator">hCard Creator</a>)</p>
+<blockquote style="margin-right: 0px;" dir="ltr">
+<div class="vcard"><a class="url fn" href="http://devhawk.net/">Harry Pierson</a></div>
+<div class="org">Microsoft</div>
+<div class="adr">
+<div class="street-address">One Microsoft Way, 18/2194</div>
+<p><span class="locality">Redmond</span>, <span class="region">WA</span><span class="postal-code">98052</span></p>
+</div>
+<div class="tel">425/705-6045</div>
+</blockquote>
+<p>And here&#8217;s the markup:</p>
+<pre class="brush:xml">&lt;div class=&quot;vcard&quot;&gt;
+    &lt;a class=&quot;url fn&quot; href=&quot;harry/'&gt;http://devhawk.net&quot;&gt;Harry Pierson&lt;/a&gt;
+    &lt;div class=&quot;org&quot;&gt;Microsoft&lt;/div&gt;
+    &lt;div class=&quot;adr&quot;&gt;
+        &lt;div class=&quot;street-address&quot;&gt;One Microsoft Way, 18/2194&lt;/div&gt;
+        &lt;span class=&quot;locality&quot;&gt;Redmond&lt;/span&gt;, 
+        &lt;span class=&quot;region&quot;&gt;WA&lt;/span&gt;
+        &lt;span class=&quot;postal-code&quot;&gt;98052&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;tel&quot;&gt;425/705-6045&lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>See how the class attributes provide the semantics for the underlying text? Cool.</p>
+<p>I&#8217;m beginning to get microformats. At first, I was bothered because I thought they were hijacking the semantics of the class attribute. But I didn&#8217;t realize the <a href="http://www.w3.org/TR/html4/struct/global.html#adef-class">class attribute</a> could be used for &#8220;general purpose processing by user agents&#8221;. And the link microformats like <a href="http://gmpg.org/xfn/">XFN</a> and <a href="http://www.microformats.com/wiki/rel-tag">rel-tag</a> are even simpler than hCard.</p>
+<p>So again, bad session but cool concept. I really see potential for mashing up <a href="http://devhawk.net/2006/03/08/Ray+Ozzie+On+Simple+Bridge+Building.aspx">Ray Ozzie&#8217;s Live Clipboard</a> with microformats.</p>

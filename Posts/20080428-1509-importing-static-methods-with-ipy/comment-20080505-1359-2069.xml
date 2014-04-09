@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2069</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.108</wp:comment_author_IP>
+  <wp:comment_date>2008-05-05 13:59:37</wp:comment_date>
+  <wp:comment_date_gmt>2008-05-05 20:59:37</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[IronPython is dynamically typed, but the underlying types from the .NET framework are still statically typed. IronPython won't auto convert an integer into an enumerated type, which is why you're getting a type exception. BasePriority is an integer, but it's read only. PriorityClass is read/write, but it takes a ProcessPriorityClass enum value.
+
+You could write the code this way:
+
+from System.Diagnostics import Process, ProcessPriorityClass
+procs = Process.GetProcesses()
+for p in procs:
+__if p.ProcessName == 'notepad':
+____print p.BasePriority
+____p.PriorityClass = ProcessPriorityClass.BelowNormal
+
+Note, I need to figure out how to get significant whitespace to work in comments. In the meantime, I'm using underscore as space in the code above. ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

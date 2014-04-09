@@ -1,0 +1,24 @@
+<p>Since folks were interested in <a href="http://devhawk.net/2008/02/28/DevHawks+Inessential+List+Of+Tools.aspx">my favorite tools</a>, I thought I&#8217;d blog how I have PowerShell configured. I&#8217;m not an ultra-power user, but I hold my own and hopefully you can use some of this configuration for yourself. Please tell me you&#8217;re not still using CMD. </p>
+<p>First, I use a trick I <a href="http://www.winterdom.com/weblog/2008/01/24/ModifyingTheHomeInPowerShell.aspx">picked up from Tomas Restrepo</a> to change your home directory and profile script. Here&#8217;s my Microsoft.PowerShell_profile.ps1 file (in the WindowsPowerShell subdirectory of My Documents) </p>
+<pre class="brush: powershell"># reset $HOME and $PROFILE variables
+set-variable -name HOME -value &quot;D:HPierson.Files&quot; -force  
+(get-psprovider FileSystem).Home = $HOME  
+set-variable -name Profile -Value &quot;$HomeScripts_profile.ps1&quot;
+
+# Run the $PROFILE script
+. $profile
+</pre>
+<p>By default, PS uses the user&#8217;s personal directory (c:usershpierson in my case) as the home directory and the aforementioned filename for the profile script. Personally, I like to keep all &#8220;real&#8221; data off my boot partition so that I don&#8217;t have to back it all up when I repave. So my &#8220;real&#8221; home location is d:HPierson.Files. The above script sets both the $HOME variable and file system home property to this directory. It also resets the $PROFILE variable to a script in my $homeScripts folder and runs it.</p>
+<p>My $PROFILE script does several things of note:</p>
+<ul>
+<li>It adds the aforementioned $homeScripts folder to the path. My utilities folder is a permanent part of the path, put I only add the scripts folder when I&#8217;m actually running PS.  </li>
+<li>If I&#8217;m running as administrator, I set the background color of the console window to red. I think I picked up this script from <a href="http://bradwilson.typepad.com/">Brad Wilson</a> at some point.  </li>
+<li>Set location to home, otherwise when I start PS as admin, it starts in c:winsys32.  </li>
+<li>I have a simple prompt script file that displays current folder, the current command number and a list of yellow plus signs indicating how deep I am in the directory stack. To get it to work, I have to remove the standard prompt function, which I do in $PROFILE.  </li>
+<li>I can&#8217;t ever remember the space between &#8220;cd&#8221; and &#8220;..&#8221;, so I wrote a simple function called &#8220;cd..&#8221; that executes &#8220;cd ..&#8221;.  </li>
+<li>I have a su function that leverages the <a href="http://technet.microsoft.com/en-us/magazine/cc162321.aspx">Script Elevation PowerToys</a>. If you pass in a command, it executes it with elevated credentials. If you just execute su, it runs an elevated PowerShell.  </li>
+<li>I use <a href="http://www.7-zip.org/">7-zip</a> for my compression needs, including the 7za command line app. However, PS has issues w/ executing an exe that starts with a number. So I aliased 7za as &#8220;zip&#8221;. <strong>UPDATE: </strong>Tomas <a href="http://twitter.com/tomasrestrepo/statuses/870758014">points out</a> that you can prepend an ampersand to force execution, so I could have typed &#8220;&amp;7za&#8221;. I forgot that when I created the alias and am now used to using zip, so I&#8217;m not going to change it. But I thought you should know. </li>
+<li>I have an ever-changing set of aliases, depending on my needs. Currently, I alias &#8220;ipy&#8221;, &#8220;cpy&#8221;, &#8220;fsi&#8221;, &#8220;fsc&#8221;, &#8220;devenv&#8221; and &#8220;chiron&#8221; to their fully path-qualified equivalents, so I can run them from anywhere without having to add their respective folders to the path.</li>
+</ul>
+<p>I don&#8217;t set vsvars in the $profile script, but I do have a copy of <a href="http://www.tavaresstudios.com/Blog/post/The-last-vsvars32ps1-Ill-ever-need.aspx">the one Chris Tavares wrote</a> in my scripts folder, so I can set up a VS environment in a moments&#8217; notice.</p>
+<p>Also, I put PowerShell on the Vista quick launch bar, so I can bring it up by typing Win-2.</p>

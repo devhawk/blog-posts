@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2849</wp:comment_id>
+  <wp:comment_author><![CDATA[David White]]></wp:comment_author>
+  <wp:comment_author_email>ddsoft@hotmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.davidjwhite.net/myblog</wp:comment_author_url>
+  <wp:comment_author_IP>208.1.137.98</wp:comment_author_IP>
+  <wp:comment_date>2005-10-05 06:54:56</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-05 13:54:56</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I agree but the problem is an old one. The automakers only want standardization in the components they buy but not their products. There are some emerging standards used in the intercommunication of components called CAN-BUS. This will atleast simplify the communications some but the industry has seen that before in J1930 where different automakers made thier own implementation of it.
+
+Starts to sound familiar doesn't it. In fact since I deal with the automotive industry from a software level, my favorite conversation about standards, portability, and cross platform discussions start with a simple statement. So those tires on those car thingies, they are all the same right so I can take the wheels off my GM and put it on my Ford? The simple fact is every single one of them have slightly different bolt patterns. Go figure :-)]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

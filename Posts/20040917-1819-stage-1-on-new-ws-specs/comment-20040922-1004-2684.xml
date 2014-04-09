@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2684</wp:comment_id>
+  <wp:comment_author><![CDATA[Ian]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url>http://ianwhite.is-a-geek.net</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-09-22 10:04:54</wp:comment_date>
+  <wp:comment_date_gmt>2004-09-22 17:04:54</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[No, its not.
+In fact its a total bugbear of mine.
+
+What's wrong with good old html (or even better xml and a stylesheet). I means thats readable, oh I don't know EVERYWHERE? - without the huge overhead of having to download acrobat onto every platform you want to view the damn spec on, not to mention what for it to load up everytime you want to read the spec.
+
+I have some issues with the spec, but I have MAJOR problems with how it was packaged. I'm hoping this isn't going to become the way Microsoft publishes documents in the future. If it is, I hope you also publish a 'PDF to usefully portable format conversion tool'.
+
+PS, I think I'm at stage 2. Actually enumeration isn't make as much sense as transfer to me but I've only scan read that one so far.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

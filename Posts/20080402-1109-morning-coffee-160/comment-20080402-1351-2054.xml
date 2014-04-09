@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2054</wp:comment_id>
+  <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+  <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+  <wp:comment_author_url>http://ironpython-urls.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>149.254.192.195</wp:comment_author_IP>
+  <wp:comment_date>2008-04-02 13:51:12</wp:comment_date>
+  <wp:comment_date_gmt>2008-04-02 20:51:12</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Heh - thanks for the mention. You forgot the IronPython-URLs blog though. ;-)
+
+If the lack of attributes in IronPython makes it hard to use the 'in browser' Silverlight test runner, then maybe you need to prod Dino Veihland to add IP support for attributes. That would be *fantastic* as it is the glaring hole in the IronPython .NET integration.
+
+Now that class decorators have made it into Python 2.6 there is no syntactic reason not to. :-)
+
+(Running Silverlight tests in the browser is fantastic - great to see a focus on testing.)]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

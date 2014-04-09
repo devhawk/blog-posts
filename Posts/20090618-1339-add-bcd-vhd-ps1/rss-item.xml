@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Add-Bcd-Vhd.ps1</title>
+  <link>http://devhawk.net/2009/06/18/add-bcd-vhd-ps1/</link>
+  <pubDate>Thu, 18 Jun 2009 13:39:57 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://17cd359b-7a77-47ad-a06d-9ba7d2621021</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I *LOVE* the new boot from VHD feature in Win7. I am primarily using it for doing some <a href="http://www.microsoft.com/visualstudio/en-us/products/2010/default.mspx">VS 2010</a> dogfooding without messing up my primary drive partition. But man, the process for setting up a VHD for booting is brutal. Scott Hanselman did a great job <a href="http://www.hanselman.com/blog/LessVirtualMoreMachineWindows7AndTheMagicOfBootToVHD.aspx">laying out the steps</a>, but I wanted something a bit more productive.</p><p>First, I created a clean Win7 RC VHD and zipped it up for easy storage. The basic Win7 RC VHD is just under 5GB, but compresses down to about 1.5GB with <a href="http://www.7-zip.org/">7-zip</a>. I used the <a href="http://blogs.technet.com/aviraj/archive/2009/01/18/windows-7-boot-from-vhd-first-impression-part-2.aspx">ImageX process</a> Aviraj described though in the future I’ll use the <a href="http://code.msdn.microsoft.com/InstallWindowsImage">Install-WindowsImage</a> script. Install-WindowsImage is more convenient to use because it will list the indexes within a given .wim file instead of making you grovel thru an XML file like ImageX does. Also Install-WindowsImage is 27k download while ImageX is part of the 1.4 <em>gigabyte </em><a href="http://www.microsoft.com/downloads/details.aspx?familyid=60A07E71-0ACB-453A-8035-D30EAD27EF72&amp;displaylang=en">Windows Automated Installation Kit</a>. Look, I’m not hurting for bandwidth, but I don’t see the point of downloading 54442 times more data for a utility that isn’t as useful.</p><p>Once you’ve created the VHD, you need to update your Boot Configuration Data, or BCD for short, using the appropriately named <a href="http://technet.microsoft.com/en-us/library/cc709667.aspx">BCDEdit utility</a>. The process is fairly straight forward, if tedious. You have to run BCDEdit four times, copy the configuration GUID to the clipboard and type out the path to the VHD in a slightly funky syntax. Blech. So I built a PowerShell script to automate updating the BCD, called <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/add-bcd-vhd.ps1">add-bcd-vhd</a>. You can get it from <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/add-bcd-vhd.ps1">my skydrive</a>. Pass in the name of the BCD entry and the path to the VHD and add-bcd-vhd will do the rest.</p><p>I was <a href="http://twitter.com/DevHawk/status/2202944230">whining on Twitter</a> yesterday that there’s no PowerShell specific tools for managing the BCD data. Add-bcd-vhd just runs bcdedit behind the scenes and processes the text output with regular expressions. Ugly, but effective. I decided to spend some time trying accessing the BCD data from its <a href="http://msdn.microsoft.com/en-us/library/bb986746.aspx">WMI provider</a>, but that turned out to be way too much of a hassle to be effective. If someone else out there knows how to use the BCD WMI provider from PowerShell, I’d appreciate some sample code.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1267</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-06-18 13:39:57</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-06-18 13:39:57</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">add-bcd-vhd-ps1</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[17cd359b-7a77-47ad-a06d-9ba7d2621021]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[AddBcdVhdps1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/06/18/AddBcdVhdps1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2221</wp:comment_id>
+    <wp:comment_author><![CDATA[Barry Kelly]]></wp:comment_author>
+    <wp:comment_author_email>bkelly.ie@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://barrkel.blogspot.com/</wp:comment_author_url>
+    <wp:comment_author_IP>93.97.41.252</wp:comment_author_IP>
+    <wp:comment_date>2009-06-18 15:34:08</wp:comment_date>
+    <wp:comment_date_gmt>2009-06-18 22:34:08</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[How about a return to tried and trusted technology from the 70s? Why the hell was boot.ini gotten rid of?
+
+Oh I know, "too vulnerable to malicious attacks". That makes no sense at all; if the OS can't protect boot.ini with permissions, why the hell does anyone think an obfuscated format will do better?
+
+It's crap like this which have meant I haven't moved on (I can't say "upgraded") to Vista, and is only one of many reasons why I won't move to Win7 either, not for a good few years, or at least until I can replace the shell with an XP-alike - most especially the Start Menu, the Explorer items pane, and getting rid of the Mac-alike task bar. (I hate Macs more.) Sigh.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2227</wp:comment_id>
+  <wp:comment_author><![CDATA[Jesse Ezell]]></wp:comment_author>
+  <wp:comment_author_email>jezell@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.iserviceoriented.com</wp:comment_author_url>
+  <wp:comment_author_IP>98.173.13.58</wp:comment_author_IP>
+  <wp:comment_date>2009-07-10 09:53:27</wp:comment_date>
+  <wp:comment_date_gmt>2009-07-10 16:53:27</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Microsoft is great at providing frameworks, but horrible at providing tools for their frameworks. For example, WCF has almost zero quality tools from MS to work with. The WF editor blows goats. They are trying to foster all this language development with M and the DLR and the .NET framework itself, yet they don't make it easy for anyone to do anything other than build a language. If you actually want to build your own tools that don't ship inside of VS, all you will get is a big fuck you. The Java community is light years ahead on this front...]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

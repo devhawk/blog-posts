@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>WorkflowQueueNames</title>
+  <link>http://devhawk.net/2006/10/17/workflowqueuenames/</link>
+  <pubDate>Tue, 17 Oct 2006 13:54:30 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://76d427b9-df3a-419e-8240-10b5a0113921</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>As I wrote in my <a href="http://devhawk.net/2006/10/17/WF+Clarifications+And+Corrections.aspx">last post</a>, I'm doing a bunch of WF related work. I'm close to releasing some WF related stuff I started building last week in <a href="http://www.masteringbiztalk.com/blogs/jon/default.aspx">Jon's</a> class. But I discovered something cool about the way WF's queuing system works, and wanted to blog about it. </p><blockquote><p>Side note - Speaking of Jon, he's <a href="http://www.masteringbiztalk.com/blogs/jon/PermaLink,guid,5cc60ee3-38ce-4fcd-94d7-a8ca9b3b8d5d.aspx">joined</a> the "WF is not a toy" conversation. He had an interesting point about the persistence service that I hadn't thought of. If you use the SQL persistence service and you have TransactionScope in your workflow, you end up with a distributed transaction, even if these are all writing against the same SQL instance. That's a good enough reason to write your own persistence service right there. </p></blockquote><p>In the WF stuff I'm building, I need a way for the WF runtime to notify a given workflow instance when something happens. WF has a low level <a href="http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.workflowqueuingservice(VS.80).aspx">queuing system</a> as well as the higher abstraction <a href="http://windowssdk.msdn.microsoft.com/en-us/library/ms735872(VS.80).aspx">data exchange system</a>. I'm more interested in low level knowledge of WF, so I decided to use the queuing system. </p><p>In my implementation, the workflow instances only need to be notified when specific events happen. That is, I'm not passing in any real data on the queue - the arrival of the data is what's important, not the data itself. Queues are identified by name and I started by using a simple string as my queue name. However, the queue name isn't limited to be a string, it supports any <a href="http://msdn2.microsoft.com/en-us/library/system.icomparable.aspx">IComparable</a> class. This turned out to be a huge advantage for me. </p><p>Things worked fine when I was building a simple sequence, but when I moved to a parallel activity things went south. Since I was using a simple string, I ended up creating two queues with the same name, which didn't work out well. Furthermore, I have two different notification situations. So I needed a way to have a unique queue name for the same activity type in parallel branches of the workflow as well as supporting two different notification situations. </p><p>Because queue name is IComparable instead of a string, I was able to create two queue name types - one for each notification situation. Each of these queue name types includes a string that I initialize to the activity's <a href="http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.componentmodel.activity.qualifiedname(VS.80).aspx">qualified name</a>, which as per the docs is "always unique in a workflow instance". So I was able to kill two birds with one stone - supporting multiple parallel activities as well as multiple notification scenarios. That's pretty cool. If they had used simple strings, I would have had to have a naming system like "notificationscenario:notificationdata:activityname" and then have to parse out the queue name string. In fact, I started down this path before I remembered that queue name is IComparable. Using IComparable is <em>much much </em>cleaner.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">819</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-10-17 13:54:30</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-10-17 13:54:30</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">workflowqueuenames</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/10/17/WorkflowQueueNames]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[WorkflowQueueNames]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[76d427b9-df3a-419e-8240-10b5a0113921]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2420</wp:comment_id>
+    <wp:comment_author><![CDATA[Tomas Restrepo]]></wp:comment_author>
+    <wp:comment_author_email>tomas@winterdom.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.winterdom.com/weblog/</wp:comment_author_url>
+    <wp:comment_author_IP>200.116.233.108</wp:comment_author_IP>
+    <wp:comment_date>2006-10-17 15:36:59</wp:comment_date>
+    <wp:comment_date_gmt>2006-10-17 22:36:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Yep, the queueing system is actually pretty nifty once you get the hang of it, and you can certainly pass data through the queues if you need to, as it will be serialized alongside the workflow instance if needed.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

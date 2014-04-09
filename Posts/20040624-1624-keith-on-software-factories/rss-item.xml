@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Keith on Software Factories</title>
+  <link>http://devhawk.net/2004/06/24/keith-on-software-factories/</link>
+  <pubDate>Thu, 24 Jun 2004 16:24:27 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://645a0236-b797-45a2-9018-851b09db308d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Sure has been quiet around here. Standard end of the fiscal year craziness. Plus, I had some dogfood issue w/ XP SP2 RC1, Office 2003 SP1 beta and NewsGator. Upgrading to XP SP2 RC2 seems to have solved the problem. Regardless of the cause, I'm way behind reading which in turn leaves me way behind writing.</p><p>I've blogged about <a href="http://softwarefactories.com/">Software Factories</a> before, but from under the mountain of unread blogs I see Keith <a href="http://blogs.msdn.com/keith_short/archive/2004/06/18/159710.aspx">blogged</a> about how <a href="http://msdn.microsoft.com/vstudio/teamsystem">VSTS</a> will support software factories. He posted an excerpt from an article he's working on.</p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px"><p><span>A software factory is a product line that configures extensible development tools like Visual Studio Team System (VSTS) with packaged content and guidance, carefully designed for building specific kinds of applications. A software factory contains three key ideas: a software factory schema, a software factory template and an extensible development environment.</span></p></blockquote>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">385</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-06-24 16:24:27</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-06-24 16:24:27</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">keith-on-software-factories</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="process"><![CDATA[Process]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[645a0236-b797-45a2-9018-851b09db308d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Keith+On+Software+Factories]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/06/24/Keith+On+Software+Factories]]></wp:meta_value>
+  </wp:postmeta>
+</item>

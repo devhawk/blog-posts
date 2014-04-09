@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>AgDLR 0.5</title>
+  <link>http://devhawk.net/2009/03/24/agdlr-0-5/</link>
+  <pubDate>Wed, 25 Mar 2009 06:25:42 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://cbfe07b7-55ff-497a-9edb-154fd819e1ed</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<a href="http://github.com/jschementi/agdlr"><img style="display: inline; margin-left: 0px; margin-right: 0px; border: 0px;" title="agdlr-400" src="http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/AgDLR0.5_1433D/agdlr-400_3.png" border="0" alt="agdlr-400" width="240" height="98" align="right" /></a> I <a href="http://devhawk.net/2009/03/23/IronRuby+03.aspx">mentioned yesterday</a> that it looked like a new release of <a href="http://github.com/jschementi/agdlr">AgDLR</a> was eminent and sure enough <a href="http://sdlsdk.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=25120">here it is</a>. There are some really cool new features including Silverlight 3 Transparent Platform Extension support, In-Browser REPL and In-Browser testing of Silverlight apps. As with IronRuby 0.3, Jimmy <a href="http://feedproxy.google.com/~r/jimmy-thinking/~3/MB3l79dtHsM/silverlight-dynamic-languages-sdk-05.html">has the a summary</a> of the new AgDLR release.
+
+One feature of the new release I did want to highlight was <a href="http://github.com/jschementi/agdlr/blob/8a5693bb19d08f09b509d61d14733e0a7411b593/src/Chiron/XapHttpHandler.cs">XapHttpHandler</a> because I’m the one who wrote it! :)
+
+The Silverlight versions of IronPython and IronRuby ship with a tool called <a href="http://www.codeplex.com/sdlsdk/Wiki/View.aspx?title=Chiron&amp;referringTitle=Getting%20Started">Chiron</a> that provides a REPL-esque experience for building dynamic language Silverlight apps. John Lam had <a href="http://www.iunknown.com/2008/03/dynamic-silverl.html">a good write-up on Chiron</a> when we first released it last year, but basically the idea is that Chiron is a local web server that will auto-generate a <a href="http://blogs.msdn.com/katriend/archive/2008/03/16/silverlight-2-structure-of-the-new-xap-file-silverlight-packaged-application.aspx">Silverlight XAP</a> from a directory of Python and/or Ruby files on demand. For example, if your HTML page requests a Silverlight app named app.xap, Chiron automatically creates the app.xap file from the files in the app directory. This lets you simply edit your Python and/or Ruby files directly then refresh your browser to get the new version without needing an explicit build step.
+
+The problem is that, unlike IIS and the ASP.NET Development Server, Chiron doesn’t integrate with ASP.NET. So it’s fine for building Silverlight apps that stand alone or talk to 3rd party services. But if you want to build a Silverlight app that talks back to it’s ASP.NET host, you’re out of luck. That’s where XapHttpHandler comes in. XapHttpHandler does the same exact on-demand XAP packaging for dynamic language Silverlight applications that Chiron does, but it’s implemented as an <a href="http://msdn.microsoft.com/en-us/library/system.web.ihttphandler.aspx">IHttpHandler</a> so it plugs into the standard ASP.NET pipeline. All you have to do is put the Chiron.exe in your web application’s bin directory and <a href="http://github.com/jschementi/agdlr/blob/63a5ea3cf94068b87273531b5c96d84d8de983d2/utilities/chiron-http-handler/ChironHttpHandler.SampleSite/web.config#L86">add XapHttpHandler to your web.config</a> like so:
+<pre class="brush:xml">&lt;configuration&gt;
+  &lt;!--remaining web.config content ommitted for clarity--&gt;
+  &lt;system.web&gt;
+    &lt;httpHandlers&gt;
+      &lt;add verb="*" path="*.xap" validate="false" 
+           type="Chiron.XapHttpHandler,Chiron"/&gt;
+    &lt;/httpHandlers&gt;
+  &lt;system.web&gt;
+&lt;/configuration&gt;</pre>
+The new AgDLR drop includes <a href="http://github.com/jschementi/agdlr/tree/63a5ea3cf94068b87273531b5c96d84d8de983d2/utilities/chiron-http-handler/ChironHttpHandler.SampleSite">a sample website</a> that shows XapHttpHandler in action.
+
+Quick note of caution: by design, XapHttpHandler does not cache the XAP file - it’s generated anew on every request. So I would highly recommend <span style="text-decoration: underline;">against</span> using XapHttpHandler on a production web server. You’re much better off using Chiron to build a physical XAP file that you then deploy to your production web server.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1236</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-03-24 23:25:42</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-03-25 06:25:42</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">agdlr-0-5</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="dlr"><![CDATA[DLR]]></category>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="silverlight"><![CDATA[Silverlight]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[cbfe07b7-55ff-497a-9edb-154fd819e1ed]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[AgDLR+05]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/03/25/AgDLR+05]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2184</wp:comment_id>
+    <wp:comment_author><![CDATA[Chris Cavanagh]]></wp:comment_author>
+    <wp:comment_author_email>blog@chriscavanagh.com</wp:comment_author_email>
+    <wp:comment_author_url>http://chriscavanagh.wordpress.com</wp:comment_author_url>
+    <wp:comment_author_IP>65.166.200.179</wp:comment_author_IP>
+    <wp:comment_date>2009-03-25 10:42:06</wp:comment_date>
+    <wp:comment_date_gmt>2009-03-25 17:42:06</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hi Harry - A few questions :) ...
+
+1) Is Chiron restricted to IronRuby/Python or is it extensible somehow? (saw it in DLR sources but ignored so far)
+2) When the XapHttpHandler references it, is it forced to go out of process?  Is that the only way to build Silverlight assemblies from within a .NET process, or are there alternatives? (separate appdomain maybe).
+3) Related to (2), what kind of performance overhead is there?  Caching or not, I'm curious about any out-of-process hit...
+
+For some projects I'm working on, I've been kicking around the idea of dynamic server-compiled DLR assemblies (but using custom stuff instead of IronRuby/Python).  It'd be interesting to know what options I have :o)
+
+Any suggestions / ideas appreciated!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2185</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.80</wp:comment_author_IP>
+    <wp:comment_date>2009-03-25 13:34:18</wp:comment_date>
+    <wp:comment_date_gmt>2009-03-25 20:34:18</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[@Chris:
+
+1. Chrion is extensible in that you can add dynamic languages and change the default AppManifest.xaml file that gets generated. Check out Chiron.exe.config for more information.
+
+2. No, when you use XapHttpHandler you're loading Chiron as a library - yes, even though Chiron's an EXE. It's kinda wierd, but the only difference between a managed DLL and EXE is the inclusion of an entrypoint in the EXE. 
+
+3. Given that it's only recommended for use in your dev environment, I haven't done any perf testing on it at all. If you needed something faster, you could always take the source code and make your own improvements.
+
+Good luck with your project. I'd love to hear more about it when you get a chance. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2612</wp:comment_id>
+  <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+  <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-06-02 20:02:52</wp:comment_date>
+  <wp:comment_date_gmt>2004-06-03 03:02:52</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Greg, thanks for pointing out the ATOM url.
+
+Joshua, as with all things, there is a middle ground between the model-every-last-detail and the just-start-coding approaches. It really depends on what you're building. The approach taken to construct a doghouse is very different from constructing a skyscraper. Likewise, you would take different approaches to building an ERP system vs. the company picnic registration system. The bigger the problem to solve, the better off modeling the problem and solution first. ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

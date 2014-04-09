@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2268</wp:comment_id>
+  <wp:comment_author><![CDATA[Jonathan Hartley]]></wp:comment_author>
+  <wp:comment_author_email>tartley@tartley.com</wp:comment_author_email>
+  <wp:comment_author_url>http://tartley.com</wp:comment_author_url>
+  <wp:comment_author_IP>88.96.105.246</wp:comment_author_IP>
+  <wp:comment_date>2009-09-24 03:50:22</wp:comment_date>
+  <wp:comment_date_gmt>2009-09-24 10:50:22</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Harry,
+
+Is there a better place for people to suggest / vote for features than in these comments? Maybe on the IP mailing list? Or is here fine?
+
+Personally, start up time is the only thing that bugs me on a daily basis, and makes me think twice when I'm choosing between IronPython or CPython for new personal projects.
+
+Bengt: There's nothing to stop you using the Visual Studio form designer and then just inheriting from those generated forms in IronPython. We do that with new GUI components all the time where I work.
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

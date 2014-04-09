@@ -1,0 +1,19 @@
+<p>I never really missed <a href="http://msdn.microsoft.com/asp.net/reference/infrastructure/wap/default.aspx">Web Application Project</a> support in VS05 until I realized what I could do with it. I&#8217;ve been experimenting with LINQ and wanted to be able to use it in a web application I&#8217;m prototyping. Under the file system model, there&#8217;s no easy way to change the compiler used for dynamic compilation of web pages. With WAP, it&#8217;s no problem.</p>
+<p>If you&#8217;ve got both WAP and LINQ installed, you can enable LINQ support in your web apps by doing the folllowing.</p>
+<ol>
+<li>Open your WebApp.csproj file in notepad.</li>
+<li>Add references to System.Query, System.Data.DLinq and System.Xml.XLinq.</li>
+<li>Change the Target Import element to import &#8220;$(ProgramFiles)LINQ PreviewMiscLinq.targets&#8221; instead of &#8220;$(MSBuildBinPath)Microsoft.CSharp.targets&#8221;</li>
+</ol>
+<p>That&#8217;s it! Seems simple, but it let me bind a GridView to the following function:</p>
+<p>&nbsp;</p>
+<pre class="brush:csharp">public static IEnumerable GetTitles()
+{
+  var con = new SqlConnection(Properties.Settings.Default.PubsConString);
+  var db = new Pubs(con);
+  var q = from t in db.Titles select t;
+
+  return q;
+}</pre>
+<p>&nbsp;</p>
+<p>It would be even cooler if I could simply write that query in the conext of the ObjectDataSource, but of course ObjectDataSource doesn&#8217;t know about LINQ. I imagine a LinqDataSource would be a logical next step.</p>

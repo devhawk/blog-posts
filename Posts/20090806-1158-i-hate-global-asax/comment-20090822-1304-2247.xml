@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2247</wp:comment_id>
+  <wp:comment_author><![CDATA[Joe Chung]]></wp:comment_author>
+  <wp:comment_author_email>joechung2008@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>97.113.6.29</wp:comment_author_IP>
+  <wp:comment_date>2009-08-22 13:04:08</wp:comment_date>
+  <wp:comment_date_gmt>2009-08-22 20:04:08</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[The reason Application_Start, Application_End, Session_Start, and Session_End are like that is because of legacy.  ASP worked like that - http://msdn.microsoft.com/en-us/library/ms525965.aspx
+
+Would it be possible to the route table in an  HttpApplication's Init method override instead?  Or is that too soon in the application's lifecycle to muck around with the ASP.NET routing table?]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>SSB Wrapper Class</title>
+  <link>http://devhawk.net/2004/12/10/ssb-wrapper-class/</link>
+  <pubDate>Fri, 10 Dec 2004 15:09:39 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://d4d897c9-a23a-4110-9e94-0e698dd07bae</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Paul Murphy <a href="http://blogs.aspadvice.com/pmurphy/archive/2004/12/09/1978.aspx">pointed out</a> a SSB wrapper class that ships as part of the integrated storefront sample that ships with SQL 2005. It's a bit tricky to install, so I refer you to Paul's blog for instructions. (you have to install the sample installer) The wrapper class is in a file called ServiceBroker.cs and supports the following operations:</p><ul><li>Get Conversation Group</li><li>Begin a Dialog</li><li>Begin a Dialog (with related conversation)</li><li>Send a Message</li><li>Receive a Message</li><li>Receive all messages from a conversation group</li><li>End a Dialog</li></ul><p>If you're not sure what dialogs and conversation groups are, I'll be blogging about them in the coming weeks.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">495</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-12-10 15:09:39</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-12-10 15:09:39</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ssb-wrapper-class</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[d4d897c9-a23a-4110-9e94-0e698dd07bae]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[SSB+Wrapper+Class]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/12/10/SSB+Wrapper+Class]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2738</wp:comment_id>
+    <wp:comment_author><![CDATA[小说]]></wp:comment_author>
+    <wp:comment_author_email>icebluewxl@163.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.readnovel.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-12-14 21:31:35</wp:comment_date>
+    <wp:comment_date_gmt>2004-12-15 05:31:35</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I am going to visit Paul's blog for instructions. ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

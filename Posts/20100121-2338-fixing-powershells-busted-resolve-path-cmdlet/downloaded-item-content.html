@@ -1,0 +1,18 @@
+<div>Usually, my <a href="http://devhawk.net/CategoryView,category,PowerShell.aspx">PowerShell posts</a> are effusive in their praise. However, who thought up this &#8220;feature&#8221; gets no praise from me:</div>
+<pre class="brush: text">PS&#187;Resolve-Path ~missing.file
+Resolve-Path : Cannot find path 'C:Usershpiersonmissing.file' because it does not exist.</pre>
+<div>In my opinion, this is a bad design. Resolve-Path assumes that if the filename being resolved doesn&#8217;t exist, then it must be an error. But in the script I&#8217;m building, I&#8217;m resolving the path of a file that I&#8217;m going to create. In other words, I know a priori that the file doesn&#8217;t exist. Yet Resolve-Path insists on throwing an error. I would have expected there to be some switch you could pass to Resolve-Path telling it to skip path validation, but there&#8217;s not.</div>
+<div>And the worst thing is, I can see that Resolve-Path came up with the &#8220;right&#8221; answer &#8211; it&#8217;s right there in the error message!</div>
+<div>Searching around, I found <a href="http://www.vistax64.com/powershell/24603-resolve-path-non-existing-file.html">a thread</a> where someone else was having the same problem. Jeffrey Snover &#8211; aka Distinguished Engineer, inventor of Powershell and <a href="http://www.langnetsymposium.com/2009/talks/23-ErikMeijer-LiveLabsReactiveFramework.html">target of Erik Meijer&#8217;s Lang.NET coin throwing stunt</a> &#8211; suggested using <a href="http://blogs.msdn.com/powershell/archive/2006/11/03/erroraction-and-errorvariable.aspx">&#8211;ErrorAction and &#8211;ErrorVariable</a> to ignore the error and retrieve the resolved path from the TargetObject property error variable. Like Maximilian from the thread, using this approach feels fragile and frankly kinda messy, but I needed a solution. So I wrote the following function that wraps up access to the error variable so at least I don&#8217;t have fragile messy code sprinkled through out my script.</div>
+<pre class="brush: powershell">function force-resolve-path($filename)
+{
+  $filename = Resolve-Path $filename -ErrorAction SilentlyContinue
+                                     -ErrorVariable _frperror
+  if (!$filename)
+  {
+    return $_frperror[0].TargetObject
+  }
+  return $filename
+}</pre>
+<div>The script is pretty straightforward. &#8211;ErrorAction SilentlyContinue is PowerShell&#8217;s version of <a href="http://msdn.microsoft.com/en-us/library/5hsw66as.aspx">On Error Resume Next</a> in Visual Basic. If the cmdlet encounters an error, it gets stashed away in the variable specified by ErrorVariable (it&#8217;s also added to $Error so you can still retrieve the error object if ErrorVariable isn&#8217;t specified) and continues processing. Then I manually check to see if resolve-path succeeded &#8211; i.e. did it return a value &#8211; and return the TargetObject of the Error object if it didn&#8217;t.</div>
+<div>As I said, fragile and kinda messy. But it works.</div>

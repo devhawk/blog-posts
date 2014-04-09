@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Devhawk Ads</title>
+  <link>http://devhawk.net/2005/03/02/devhawk-ads/</link>
+  <pubDate>Wed, 02 Mar 2005 15:54:18 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://22adc1b7-b708-40ce-adc8-5eaf7018b057</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://atlasbrandview.blogspot.com/">Norman</a> added AdSense to his blog, and I know several other kids that are doing it, so I succumbed to the peer pressure. So far, it's just a single ad over there on the right, but the "Wide Skyscraper" ad format would fit there. I'm interested to see how this goes.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">563</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-03-02 15:54:18</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-03-02 15:54:18</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">devhawk-ads</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[22adc1b7-b708-40ce-adc8-5eaf7018b057]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Devhawk+Ads]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/03/02/Devhawk+Ads]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2800</wp:comment_id>
+    <wp:comment_author><![CDATA[mearls@hotmail.com (Michael Earls)]]></wp:comment_author>
+    <wp:comment_author_email>mearls@hotmail.comMichaelEarls</wp:comment_author_email>
+    <wp:comment_author_url>http://www.cerkit.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-02 16:07:57</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-03 00:07:57</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I had to bit the bullet, also.  I added it last week.  The bandwidth cost of my site is getting very high.  I'm hoping this can offset the expense.
+
+So far, the ads have been incredibly well-placed.  Since most of my traffic comes from Google posts anyway, I thought it would make sense to add the ads.
+
+Good luck.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2801</wp:comment_id>
+    <wp:comment_author><![CDATA[Peter Provost]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.peterprovost.org</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-03 08:05:10</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-03 16:05:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I've been pulling about $1-$2 a day since adding it to my blog. You'll probably pull more since your readership is higher. Monday I got my first check... $117!!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

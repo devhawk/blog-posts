@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>I'm Wrong Because Ruby and Powershell Are Mainstream</title>
+  <link>http://devhawk.net/2007/03/15/im-wrong-because-ruby-and-powershell-are-mainstream/</link>
+  <pubDate>Thu, 15 Mar 2007 13:53:13 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c3e358d5-10b7-413a-8f65-d8e30e8176ae</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<a href="http://www.agileprogrammer.com/dotnetguy">Brad Wilson</a> and <a title="Scott Hanselman" href="http://www.hanselman.com/blog/">Scott Hanselman</a> took me to task for my <a href="http://devhawk.net/2007/03/13/Morning+Coffee+44.aspx">comment</a> the other day that no "mainstream" language had implemented <a href="http://weblogs.asp.net/scottgu/archive/2007/03/13/new-orcas-language-feature-extension-methods.aspx">extension methods</a>:
+<blockquote>How mainstream is Ruby on Rails for you? Ruby is a full fledged dynamic language. No hacks for "extension methods" (Brad)
+
+Ya, I kind of blanched at that statement too...method_missing is pretty mainstream... (Scott)</blockquote>
+They're right, Ruby does support the addition (and redefinition I think) of methods on a class at any time. There's a sample of this in the <a href="http://www.ruby-doc.org/docs/ProgrammingRuby/html/classes.html">Classes and Objects</a> chapter of <a href="http://www.ruby-doc.org/docs/ProgrammingRuby/">Programming Ruby</a> (aka the pick-axe book) where they add a basic documentation facility "available to any module or class" in Ruby by adding a doc instance method to the Module class.
+
+&nbsp;
+<pre class="brush:ruby">class Module 
+  @@docs = Hash.new(nil) 
+  def doc(str) 
+    @@docs[self.name] = str 
+  end
+  def Module::doc(aClass) 
+    # If we’re passed a class or module, convert to string
+    # (‘&lt;=’ for classes checks for same class or subtype)
+    aClass = aClass.name if aClass.type &lt;= Module 
+    @@docs[aClass] || “No documentation for #{aClass}”
+  end
+end</pre>
+Given how Ruby classes are defined, I think the newly added methods have access to the private data of the class. Extension methods in C#3/VB9 only have access the public interface of the object. But that's a fairly minor difference.
+
+&nbsp;
+
+FYI, Powershell can do this as well, though not as succinctly as Ruby. Scott has <a href="http://www.hanselman.com/blog/AccessingEXIFPhotoDataFromJPEGsWithPowerShell.aspx">an example</a> how you can add a DatePhotoTaken property to System.IO.FileInfo using <a href="http://www.shahine.com/omar">Omar Shahine's</a><a href="http://wiki.shahine.com/default.aspx/MyWiki.PhotoLibrary">PhotoLibrary</a> project.
+
+Chalk this up to my continuing ignorance of dynamic languages. I'm working on it, albeit slowly.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">911</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-03-15 13:53:13</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-03-15 13:53:13</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">im-wrong-because-ruby-and-powershell-are-mainstream</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <category domain="post_tag" nicename="ruby"><![CDATA[Ruby]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c3e358d5-10b7-413a-8f65-d8e30e8176ae]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Im+Wrong+Because+Ruby+And+Powershell+Are+Mainstream]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/03/15/Im+Wrong+Because+Ruby+And+Powershell+Are+Mainstream]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2470</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>24.16.94.200</wp:comment_author_IP>
+    <wp:comment_date>2007-03-15 22:44:55</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-16 05:44:55</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[orchmid, Ruby not only allows you to inject methods into objects, but into classes as well. Extension Methods in C#3/VB9 act at the class level. Javascript doesn't really have classes and I don't know Python well enough to comment.
+
+As for why to invent another language, I certainly don't think a single lanugage feature is enough to argue for or against the existence of the PowerShell language. I fraking love PowerShell, and it has nothing to do with the ability to add new methods to classes. 
+
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2469</wp:comment_id>
+    <wp:comment_author><![CDATA[Jeffrey Snover]]></wp:comment_author>
+    <wp:comment_author_email>jsnover13@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>71.112.37.212</wp:comment_author_IP>
+    <wp:comment_date>2007-03-15 21:42:29</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-16 04:42:29</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[> The biggest questions is - why invent another language for PowerShell if > there are so many great popular languages already in existance?
+
+Try it and you'll see.   I'm not aware of a language that has as wide a dynamic range as PowerShell (Please point one out if you know of one).  Bruce Payette's book, PowerShell in Action provides both a great language reference as well as the reasoning behind the decisions we made in producing PowerShell (Bruce is the dev lead for the language).
+
+Jeffrey Snover [MSFT]
+Windows PowerShell/MMC Architect
+Visit the Windows PowerShell Team blog at:    http://blogs.msdn.com/PowerShell
+Visit the Windows PowerShell ScriptCenter at:  http://www.microsoft.com/technet/scriptcenter/hubs/msh.mspx
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2467</wp:comment_id>
+    <wp:comment_author><![CDATA[Anonymous]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>84.130.154.204</wp:comment_author_IP>
+    <wp:comment_date>2007-03-15 16:19:56</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-15 23:19:56</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[The biggest questions is - why invent another language for PowerShell if there are so many great popular languages already in existance?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2468</wp:comment_id>
+    <wp:comment_author><![CDATA[orcmid]]></wp:comment_author>
+    <wp:comment_author_email>dennis.hamilton@acm.org</wp:comment_author_email>
+    <wp:comment_author_url>http://orcmid.com/BlunderDome/clueless</wp:comment_author_url>
+    <wp:comment_author_IP>67.40.29.219</wp:comment_author_IP>
+    <wp:comment_date>2007-03-15 19:29:18</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-16 02:29:18</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Well then, don't both Python and Javascript count too?  You can inject new methods into any of their ordinary objects.  ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

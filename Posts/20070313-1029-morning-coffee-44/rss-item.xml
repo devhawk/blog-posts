@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 44</title>
+  <link>http://devhawk.net/2007/03/13/morning-coffee-44/</link>
+  <pubDate>Tue, 13 Mar 2007 10:29:02 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4e6e1e01-5f82-4ff7-ab52-4200afcc86f7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<ul><li>I got my Tecra M4 back sans flaky motherboard. That's my full time laptop now - it's nice to have a laptop that supports Vista. I'm still running XP on my desktop out of a combination of lack of video driver + laziness. I run dual monitor with my primary monitor rotated to be portrait instead of landscape. Easier to read websites and documents that way. Unfortunately, while there's a generic WDDM driver for my video card's chipset, it doesn't support the rotate function. But according to the Dell support site, they released a new driver for my card a few weeks ago so maybe it's time to try the upgrade again. </li><li>I sat down to watch <a href="http://www.nbc.com/Heroes/">Heroes</a> last night, forgetting that it's not on again until April. Watched <a href="http://fox.com/24/">24</a> instead, but it has really <a href="http://www.jumptheshark.com">jumped the shark</a>. </li><li>Scott Guthrie continues his series on new Orcas language features, this time covering <a href="http://weblogs.asp.net/scottgu/archive/2007/03/13/new-orcas-language-feature-extension-methods.aspx">extension methods</a>. On the one hand, it's pure syntactic sugar. On the other, how sweet it is. It's kinda surprising that no other mainstream language has done this before.  </li><li>Scott Hansleman is a self-described <a href="http://www.hanselman.com/blog/ManagedSnobism.aspx">managed code snob</a>. What do you call the opposite of a managed code snob? An unmanaged code snob or a managed code bigot? </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">909</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-03-13 10:29:02</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-03-13 10:29:02</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-44</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4e6e1e01-5f82-4ff7-ab52-4200afcc86f7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+44]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/03/13/Morning+Coffee+44]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2462</wp:comment_id>
+    <wp:comment_author><![CDATA[Brad Wilson]]></wp:comment_author>
+    <wp:comment_author_email>dotnetguy@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.agileprogrammer.com/dotnetguy</wp:comment_author_url>
+    <wp:comment_author_IP>71.231.180.146</wp:comment_author_IP>
+    <wp:comment_date>2007-03-13 18:36:31</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-14 01:36:31</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[How mainstream is Ruby on Rails for you? Ruby is a full fledged dynamic language. No hacks for "extension methods".]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2463</wp:comment_id>
+    <wp:comment_author><![CDATA[Scott Hanselman]]></wp:comment_author>
+    <wp:comment_author_email>scott@hanselman.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.hanselman.com/blog/</wp:comment_author_url>
+    <wp:comment_author_IP>216.163.74.146</wp:comment_author_IP>
+    <wp:comment_date>2007-03-14 01:11:53</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-14 08:11:53</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Ya, I kind of blanched at that statement too...method_missing is pretty mainstream...
+
+Scott HanSELman.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2464</wp:comment_id>
+    <wp:comment_author><![CDATA[Jay R. Wren]]></wp:comment_author>
+    <wp:comment_author_email>jrwren@xmtp.net</wp:comment_author_email>
+    <wp:comment_author_url>http://little.xmtp.net/blog/</wp:comment_author_url>
+    <wp:comment_author_IP>69.241.235.176</wp:comment_author_IP>
+    <wp:comment_date>2007-03-15 09:39:27</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-15 16:39:27</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'd just like to point out that extension methods are more than just syntactic sugar.
+
+Sure, if you have the source to a class and can add a method, then an extension method is just sugar.  But if you are adding a method to a class to which you do not have the source, or cannot touch the assembly, then it is much more than syntactic sugar.
+
+Well, ok, it is still just sugar, but it is REALLY GOOD sugar.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2465</wp:comment_id>
+    <wp:comment_author><![CDATA[Mike Parsons]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>208.114.168.138</wp:comment_author_IP>
+    <wp:comment_date>2007-03-16 05:31:01</wp:comment_date>
+    <wp:comment_date_gmt>2007-03-16 12:31:01</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[What about JavaScript?
+
+String.prototype.trim = function() {
+    return(this.replace(/^s+/,'').replace(/s+$/,''));
+}]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

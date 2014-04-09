@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 2</title>
+  <link>http://devhawk.net/2007/01/03/morning-coffee-2/</link>
+  <pubDate>Wed, 03 Jan 2007 10:03:55 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://33edca8d-2d3c-4474-990c-afe07864e330</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Late start + early meeting = short post today</p><ul><li>Want a free SAAB? Drop a line to <a href="http://rickbarn.spaces.live.com/">my boss</a>. Note, you have to be willing to steal it.</li><li>Saw <a href="http://www.imdb.com/title/tt0424345/">Clerks II</a> last night. It was the first Kevin Smith movie I haven't seen in the theaters since the original. Better than I expected, but it's time for Kevin to move on to new material.</li><li>Unlike most avid movie fans I know, I'm not a NetFlix customer. Nothing against them, but I've never been moved to sign up. But we did just sign up for the free trial of <a href="https://www.blockbuster.com/totalaccess">Blockbuster Total Access</a>. Basically, it's a clone of NetFlix, but you can bring your movies back to your local Blockbuster store and get a free rental on the spot. Plus, you get eCoupons (I think once a month) which are good for free movie or DVD rentals in the store. We'll see how it goes.</li><li>As expected, I didn't get much done yesterday. I don't think anyone did around here. I did pave the dev partition on my laptop. My laptop isn't very Vista friendly and we blew our hardware budget on new desktops (which I am definitely not complaining about) so I'm still on XP.</li><li>I wonder how well <a href="http://www.microsoft.com/sql/editions/compact/default.mspx">SQL <strike>Mobile</strike><strike>Anywhere</strike> Compact Edition</a> works with ASP.NET? Seems like that would be a better choice than SQL Express for small websites like personal blogs.</li><li>Almost finished getting Christmas put away. What with the wind storm, it seems like it went by very fast this year.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">841</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-01-03 10:03:55</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-01-03 10:03:55</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-2</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="movies"><![CDATA[Movies]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[33edca8d-2d3c-4474-990c-afe07864e330]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+2]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/01/03/Morning+Coffee+2]]></wp:meta_value>
+  </wp:postmeta>
+</item>

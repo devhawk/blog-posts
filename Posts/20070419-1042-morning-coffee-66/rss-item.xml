@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 66</title>
+  <link>http://devhawk.net/2007/04/19/morning-coffee-66/</link>
+  <pubDate>Thu, 19 Apr 2007 10:42:04 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://f3188159-5310-4a9b-a092-8e477aa67831</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Yesterday's Morning Coffee was canceled on account of rain. In my living room. It's fixed now.</p><ul><li>Andre Vrignaud <a href="http://ozymandias.com/archive/2007/04/19/Fun-with-High-Capacity-Barcodes.aspx">writes</a> about MS Research's new <a href="http://research.microsoft.com/research/hccb/">High Capacity Color Barcodes</a> technology. As he points out, there's some fascinating gaming potential for these barcodes because they have such high capacity (something like 2kb per square inch) and can be read without special equipment (a camera phone should work). </li><li>According to a <a href="http://people-press.org/reports/display.php3?ReportID=319">Pew Research Center report</a>, Daily Show/Colbert Report viewers are significantly better informed than Fox News viewers. On the other hand, they're only slightly more informed than O'Reilly Factor viewers or Rush Limbaugh listeners so it seems like a wash.  </li><li>Speaking of The Daily Show and The Colbert Report, you <a href="http://www.majornelson.com/archive/2007/04/17/the-daily-show-and-the-colbert-report-now-on-vmp.aspx">can now download them</a> from Xbox LIVE Video Marketplace. But at <strike>$2</strike> 160 points an episode, it's cheaper to set my DVR.  </li><li>I recently re-discovered <a href="http://blogs.msdn.com/remusrusanu/default.aspx">Remus Rusanu's SSB blog</a>. He went dark for a few months there, but he's recently posted a new version of his <a href="http://www.codeplex.com/slm">Service Listing Manager utility</a>, <a href="http://blogs.msdn.com/remusrusanu/archive/2007/04/03/orlando-slides-and-code.aspx">presented</a> SSB at DevConnections and showed how to <a href="http://blogs.msdn.com/remusrusanu/archive/2007/04/11/consuming-event-notifications-from-clr.aspx">implement a managed stored proc</a> to receive SQL DDL <a href="http://msdn2.microsoft.com/en-us/library/ms190427.aspx">event notifications</a>. Event notifications is one of those features I didn't even realize was in SQL.  </li><li>Dottie Shaw, one of the program managers on my project, <a href="http://blogs.msdn.com/dotties">has started blogging</a>. That leaves two team mates and one project member still not blogging.  </li><li>Yesterday, I stumbled into some other teams morale event. They were bogarting the cafeteria, so it wasn't like I was crashing it or anything. Normally, I wouldn't hang around some other teams party, but they had a projector, an Xbox 360 and two copies of <a href="http://www.xbox.com/games/guitarhero2">Guitar Hero</a> so I had to hang out and watch them play head-to-head for a while. That looks like a <em>fun</em> game. </li><li>Chris Anderson <a href="http://www.longtail.com/the_long_tail/2007/04/long_tail_enemy.html">writes at length</a> about the primary enemy of Long Tail economics: "the absurdly complicated and expensive process of rights clearance". His case in point is the coming DVD release of WKRP in Cincinnati, which has replaced the dozens of songs used as background music with "Muzak-style songs that could be licensed in perpetuity for a small flat fee" that <a href="http://blog.wired.com/music/2007/04/wkrp_in_cincinn.html">apparently</a> "sucked ass". </li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">939</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-19 10:42:04</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-19 10:42:04</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-66</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="post_tag" nicename="games"><![CDATA[Games]]></category>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="service-broker"><![CDATA[Service Broker]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[f3188159-5310-4a9b-a092-8e477aa67831]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+66]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/19/Morning+Coffee+66]]></wp:meta_value>
+  </wp:postmeta>
+</item>

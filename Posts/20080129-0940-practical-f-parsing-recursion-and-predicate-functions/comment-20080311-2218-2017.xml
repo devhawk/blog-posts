@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2017</wp:comment_id>
+  <wp:comment_author><![CDATA[ToolmakerSteve]]></wp:comment_author>
+  <wp:comment_author_email>toolmakersteve98@shawstudio.com</wp:comment_author_email>
+  <wp:comment_author_url>http://toolmakersteve.com</wp:comment_author_url>
+  <wp:comment_author_IP>24.10.93.210</wp:comment_author_IP>
+  <wp:comment_date>2008-03-11 22:18:58</wp:comment_date>
+  <wp:comment_date_gmt>2008-03-12 05:18:58</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Found your post 'F# PEG Parser Next Steps' which answers my question above about what your code does ('it simply builds a PEG AST from a PEG grammar.').
+
+Re 'figure out where to take it next', I'd love to see a technique for mixing domain-specific-language source with generic F# source. As an anti-example of what I mean, consider how scripting languages are currently embedded into HTML pages. Horrible syntactic kludges. Even worse is stuff often done in Javascript or PHP to output page fragments that are composed into a page. Often totally ad hoc and unstructured. Suppose one's goal was to create web pages or a browser-based web application, and we re-thought this from scratch. What might an approach be? One interesting approach to structured mixing of logic and presentation in an XML document can be seen at whitebeam.org). Given F#, and parser technology, what would be a clean way to express what we are trying to say? In some situations, a good answer would be a DOM-based one. That is, I'd like a less verbose way to type the equivalent to the XML document one would create if using Whitebeam. F# logic snippets would be embedded in the presentation document hierarchy in a clean way. In other cases, it would make more sense to INVERT this: Write an application in F#, but with a preprocessor that allows presentation nodes to be expressed readably.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

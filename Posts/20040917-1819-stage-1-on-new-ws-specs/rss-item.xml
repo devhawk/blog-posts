@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Stage 1 on New WS Specs</title>
+  <link>http://devhawk.net/2004/09/17/stage-1-on-new-ws-specs/</link>
+  <pubDate>Fri, 17 Sep 2004 18:19:46 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://fd83ac91-720c-4053-a5ff-a3af7c547992</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'll be honest, with a quick glance at <a href="http://msdn.microsoft.com/library/en-us/dnglobspec/html/ws-enumeration.pdf">WS-Enumeration</a> and <a href="http://msdn.microsoft.com/library/en-us/dnglobspec/html/ws-transfer.pdf">WS-Transfer</a> I'm at what <a href="http://www.gotdotnet.com/team/dbox/default.aspx?key=2004-09-17T07:22:15Z">Don refers to</a> as Stage 1. Especially WS-Transfer which appears at first glance to be CRUD for web services. <a href="http://blogs.msdn.com/maarten_mullender">Maarten</a> talks about using <a href="http://blogs.msdn.com/maarten_mullender/archive/2004/07/23/193524.aspx">CRUD only when you can afford it</a>. My biggest issue with CRUD is that it assumes a trust relationship - that some other service is responsible for deciding when and how to CUD entities that I manage. I can't imagine exposing an interface like that on any service I build.</p><p>But it is nice to see we've started publishing specs in easy to download PDF format. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">441</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-09-17 18:19:46</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-09-17 18:19:46</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">stage-1-on-new-ws-specs</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="soa"><![CDATA[SOA]]></category>
+  <category domain="post_tag" nicename="web-services"><![CDATA[Web Services]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[fd83ac91-720c-4053-a5ff-a3af7c547992]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Stage+1+On+New+WS+Specs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/09/18/Stage+1+On+New+WS+Specs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2683</wp:comment_id>
+    <wp:comment_author><![CDATA[David]]></wp:comment_author>
+    <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-09-18 10:38:55</wp:comment_date>
+    <wp:comment_date_gmt>2004-09-18 17:38:55</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[WS-Transfer, as I see it, is all about uniformity of a simple interface, i.e. being able to offer different business functions through a common set of simple predefined verbs. 
+
+Now while not everything can be squeezed into that metaphor when it can be, i.e. the client expects that framework etc, then the advantage is that an agent/client/whatever can 'walk up' to a series of services and have some sort of semantic understanding on what the action will do without a developer having to grok and discriminate between 'UpdatePO', 'SavePOrder', 'PersistPurchOrder' offered on different services.
+
+If SOA is about integration then this 'dynamic discovery' of action can in some cases be very useful. IMO, maybe a set of WS-Profile REST assertions would be just as good to 'discover this verbage association', but I would need to understand more about WS-Transfer and their intentions behind it. Regardless, baking this into a messaging protocol *above* SOAP gives people the choice to see what flowers and blooms. 
+
+You're trust relationship comment is valid, but just because a client makes a claim to perform an action doesn’t mean the service has to perform it, i.e. the trust claim can be validated behind the service?
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2684</wp:comment_id>
+    <wp:comment_author><![CDATA[Ian]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://ianwhite.is-a-geek.net</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-09-22 10:04:54</wp:comment_date>
+    <wp:comment_date_gmt>2004-09-22 17:04:54</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[No, its not.
+In fact its a total bugbear of mine.
+
+What's wrong with good old html (or even better xml and a stylesheet). I means thats readable, oh I don't know EVERYWHERE? - without the huge overhead of having to download acrobat onto every platform you want to view the damn spec on, not to mention what for it to load up everytime you want to read the spec.
+
+I have some issues with the spec, but I have MAJOR problems with how it was packaged. I'm hoping this isn't going to become the way Microsoft publishes documents in the future. If it is, I hope you also publish a 'PDF to usefully portable format conversion tool'.
+
+PS, I think I'm at stage 2. Actually enumeration isn't make as much sense as transfer to me but I've only scan read that one so far.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

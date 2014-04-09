@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Testing the Untestable with Delegate Injection</title>
+  <link>http://devhawk.net/2010/10/07/testing-the-untestable-with-delegate-injection/</link>
+  <pubDate>Thu, 07 Oct 2010 19:22:18 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://d978e50d-1158-4448-ab5e-c45d1ae8eb67</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>My ASP.NET skills may be a bit rusty, but that’s not stopping me from working on a side project in ASP.NET MVC. While it has made significant strides in the 4.0 release, code like this demonstrates that ASP.NET still has a long way to go to improve testability.</p><pre class="brush: csharp">
+public class AccountController : Controller
+{
+    ITwitterService _twitter;
+
+    //constructor dependency injection
+    public AccountController(ITwitterService twitterService)
+    {
+        _twitter = twitterService;
+    }
+
+    public ActionResult SignInWithTwitter()
+    {
+        //check for GetRedirectUrl and sets cookie
+        Response.SetCookie(new HttpCookie("RedirectUrl",
+            FormsAuthentication.GetRedirectUrl(string.Empty, false)));
+
+        //build callback URL
+        var callback_url_builder = new UriBuilder()
+        {
+            Host = Request.ServerVariables["SERVER_NAME"],
+            Port = int.Parse(Request.ServerVariables["SERVER_PORT"]),
+            Path = Url.Action("SignInWithTwitterCallback"),
+        };
+
+        //Helper funciton to invoke Twitter’s oauth/request_token REST endpoint
+        var url = _twitter.GetRequestToken(callback_url_builder.ToString());
+
+        //redirect to the URL returned from _twitter.GetRequestToken
+        return Redirect(url);
+    }
+</pre><p>This code has several dependencies that are hard or impossible to test: FormsAuthentication, Request, Response and Url. Testing this code is a real pain in the ass. When I originally wrote this code, I bit the bullet and wrote said the PITA test code. But I couldn’t help thinking there must be a better way. </p><p>Clearly, in order to be able to test this code, I need to introduce points of abstraction that can be filled with mock implementations during unit test runs. I already have one such abstraction point - the _twitter field of AccountController is an ITwitterService instance that gets injected on construction. I have a “real” implementation that gets injected in production and a mock implementation that I manually inject in my tests.</p><p>In order to test the code above, I’ll need to wrap the calls into the untestable objects in some sort of injectable dependency that can be mocked out for tests.</p><p>C# being an OO language, typically we think of Dependency Injection in terms interfaces and classes. However, wrapping the untestables in interfaces and then implementing those interfaces is a lot of additional code. Instead of one injected dependency, the code above would need five injected dependencies. Furthermore, since objects are both the unit of dependency injection as well as the typical way the URL namespace is segmented, I also have to consider the dependencies of any other action methods on AccountController. That gets ugly fast.</p><p>Instead of thinking in terms of objects and interfaces, I wondered what DI might look like if we thought about dependencies in terms of delegates and anonymous lambdas? You know, <a href="http://devhawk.net/2007/12/05/Functional+Understanding.aspx">functional programming</a>?  It might look something like this: </p><pre class="brush: csharp">
+Func&lt;string&gt; @GetRedirectUrl;
+Action&lt;HttpCookie&gt; @SetCookie;
+Func&lt;NameValueCollection&gt; @ServerVariables;
+Func&lt;string, string&gt; @ActionUrl;
+
+public ActionResult SignInWithTwitter()
+{
+    //check for GetRedirectUrl and sets cookie
+    @SetCookie(new HttpCookie("RedirectUrl", @GetRedirectUrl()));
+
+    //build callback URL
+    var callback_url_builder = new UriBuilder
+    {
+        Host = @ServerVariables()["SERVER_NAME"],
+        Port = int.Parse(@ServerVariables()["SERVER_PORT"]),
+        Path = @ActionUrl("SignInWithTwitterCallback"),
+    };
+
+    //Call twitter.GetRequestToken
+    var url = _twitter.GetRequestToken(callback_url_builder.ToString());
+
+    //redirect to the URL returned from Twitter.GetRequestToken
+    return Redirect(url);
+}
+</pre><p>(Note, I'm using the @ symbol as a prefix for injected delegates, in order to make it easier to pick them out of the code. Looks kinda odd, but it is valid C#.)</p><p>This is better in that it’s actually testable without requiring a metric crapload of test code to mock the ASP.NET intrinsics. However, this approach don’t have enough information to inject dependencies based on type alone. For example, the @GetRedirectUrl is a Func&lt;string&gt; (i.e. a function that takes no parameters and returns a string). However, FormsAuth FormsCookieName and DefaultUrl properties would also be represented as Func&lt;string&gt; delegates as well. </p><p>Most DI containers have support resolving dependencies by name and type, but that makes declaring dependencies much tougher and more fragile in my opinion. If you’re going to <strike>limit yourself to static typing</strike> write compiled code, you might as well let the compiler do as much heavy lifting as possible, right?</p><p>Also, wrapping each untestable method call in a delegate has made the explosion of dependencies problem even worse. SignInWithTwitter declares four new dependencies, the callback action (not shown) adds seven new delegate dependencies and the sign out action adds one, making a total of thirteen dependencies! (including the original ITwitterService). However, none of these twelve delegate dependencies are shared across action methods. So they aren’t really controller dependencies so much as action dependencies. So what if I went ahead and declared them as action dependencies directly?</p><pre class="brush: csharp">
+public Func&lt;ActionResult&gt; SignInWithTwitter(
+    Func&lt;string&gt; @GetRedirectUrl,
+    Action&lt;HttpCookie&gt; @SetCookie,
+    Func&lt;NameValueCollection&gt; @ServerVariables,
+    Func&lt;string, string&gt; @ActionUrl)
+{
+    return () =&gt;
+    {
+        //check for GetRedirectUrl and sets cookie
+        SetCookie(new HttpCookie("RedirectUrl", GetRedirectUrl()));
+
+        //build callback URL
+        var callback_url_builder = new UriBuilder
+        {
+            Host = ServerVariables()["SERVER_NAME"],
+            Port = int.Parse(ServerVariables()["SERVER_PORT"]),
+            Path = ActionUrl("LogOnCallback"),
+        };
+
+        //Call twitter.GetRequestToken
+        var url = _twitter.GetRequestToken(
+            callback_url_builder.ToString());
+
+        //redirect to the URL returned from Twitter.GetRequestToken
+        return Redirect(url);
+    };
+}
+</pre><p>SignInWithTwitter is now a function that takes four delegates and returns a delegate - we’re really down the functional programming rabbit hole now! </p><p>The benefit of this approach is that I can make tradeoffs as I see fit between controller and action dependencies. ITwitterService is still injected via the AccountController constructor since it is used by two of the three Account actions. Dependencies only used by a single action can be scoped to that specific action so that only tests for a given action method have to mock them out. And testing this is a breeze compared to <a href="http://www.hanselman.com/blog/ASPNETMVCSessionAtMix08TDDAndMvcMockHelpers.aspx">having to mock out intrinsic ASP.NET objects</a>. </p><pre class="brush: csharp">
+[Fact]
+public void returns_redirect_result_with_getrequesttoken_url()
+{
+    //inject controller dependencies
+    var twitter = new Mock&lt;Models.ITwitterService&gt;(MockBehavior.Strict);
+    twitter.Setup(t =&gt; t.GetRequestToken(It.IsAny&lt;string&gt;()))
+        .Returns("http://fake.twittertest.local");
+    var controller = new AccountController(twitter.Object);
+
+    //inject action dependencies
+    Func&lt;string&gt; @getRedirectUrl = () =&gt; "/fake/redirect/url";
+    Action&lt;HttpCookie&gt; @setCookie = c =&gt; { };
+    Func&lt;NameValueCollection&gt; @serverVariables = 
+        () =&gt; new NameValueCollection() 
+        {
+            {"SERVER_NAME", "testapp.local"},
+            {"SERVER_PORT", "8888"}
+        };
+    Func&lt;string, string&gt; @actionUrl = url =&gt; "/fake/url/action/result";
+    var action = controller.SignInWithTwitter(@getRedirectUrl, 
+        @setCookie, @serverVariables, @actionUrl);
+
+    //Invoke action
+    var result = action();
+
+    //Validate
+    var redirectResult = Assert.IsType&lt;RedirectResult&gt;(result);
+    Assert.Equal("http://fake.twittertest.local", redirectResult.Url);
+}
+</pre><p>I could make this code even smaller by moving the action dependencies out to be test fixture class fields. Assuming you write multiple tests for each action method, this allows you to reuse the mock action delegates across multiple methods. If I want to do negative testing, I can easily define test-specific delegates that throw exceptions or return unexpected values.</p><p>Of course, the down side to this approach is that MVC has *no* idea what to do with an action method that returns Func&lt;ActionResult&gt;. I could envision support for this pattern in MVC someday, though we’d need a robust solution to the type+name dependency issue I described above. For now, I will simply wrap the delegate injection version (aka the testable version) of the action in a non-testable but MVC compatible version that injects the right delegate dependencies. </p><p></p><pre class="brush: csharp">
+public ActionResult SignInWithTwitter()
+{
+    return SignInWithTwitter(
+        () =&gt; FormsAuthentication.GetRedirectUrl(string.Empty, false),
+        Response.SetCookie,
+        () =&gt; Request.ServerVariables,
+        Url.Action)();
+}
+</pre><p>Since I’m using the untestable intrinsics, I can’t write any tests for this method. However, it’s nearly declarative because the anonymous delegates I’m injecting are closing over the untestable intrinsics. Personally, I’m willing to make the tradeoff of having an declarative yet untestable wrapper action method in order to get the delegate injected easy-to-test version of SignInWithTwitter that has the real implementation. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1304</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2010-10-07 19:22:18</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2010-10-07 19:22:18</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">testing-the-untestable-with-delegate-injection</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="asp-net"><![CDATA[ASP.NET]]></category>
+  <category domain="post_tag" nicename="asp-net-mvc"><![CDATA[ASP.NET MVC]]></category>
+  <category domain="post_tag" nicename="c-sharp"><![CDATA[C#]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="functional-programming"><![CDATA[Functional Programming]]></category>
+  <category domain="post_tag" nicename="unit-testing"><![CDATA[Unit Testing]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[d978e50d-1158-4448-ab5e-c45d1ae8eb67]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Testing+The+Untestable+With+Delegate+Injection]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2010/10/08/Testing+The+Untestable+With+Delegate+Injection]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2306</wp:comment_id>
+    <wp:comment_author><![CDATA[Robert Seso]]></wp:comment_author>
+    <wp:comment_author_email>robert.seso@gmx.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>62.245.219.245</wp:comment_author_IP>
+    <wp:comment_date>2010-10-08 06:44:16</wp:comment_date>
+    <wp:comment_date_gmt>2010-10-08 13:44:16</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hm...has a spaghetti code touch to it. Wouldn't using a better mocking framework that can mock sealed ASP.NET classes (such as TypeMock or JustMock) be a simpler solution in this case? ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2307</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.87</wp:comment_author_IP>
+    <wp:comment_date>2010-10-08 09:45:48</wp:comment_date>
+    <wp:comment_date_gmt>2010-10-08 16:45:48</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Using TypeMock or JustMock might be easier, but I don't think they're widely used due to their price tag. 
+
+I'm curious why you think this is spaghetti. I mean, I get why this might feel strange if you're not familiar with functional programming. But spaghetti to me is "complex and tangled control structure" (Wikipedia). The control structure here is very straightforward - one layer of abstraction in order to be able to test the untestable intrinsics.
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2308</wp:comment_id>
+    <wp:comment_author><![CDATA[Robert Seso]]></wp:comment_author>
+    <wp:comment_author_email>robert.seso@gmx.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>95.90.96.255</wp:comment_author_IP>
+    <wp:comment_date>2010-10-08 12:05:30</wp:comment_date>
+    <wp:comment_date_gmt>2010-10-08 19:05:30</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Well, any problem in programming could be solved by adding layers of abstraction, but at one point or another those layers start generating more problems then they solve. It's nothing to do with my understanding of functional programming, but in this case this is a clear overkill and I couldn't imagine maintaining anything but simplest classes coded in this way. In addition, you can't easily set expectations on delegates this way, e.g. test that certain delegate was called exactly X times, or that it was called with a certain input parameter etc.
+
+Yes, advanced mocking frameworks do cost some money, but they are well worth it and typically cost less than one day spent debugging overly complex code.
+
+Don't get me wrong -- I do find the concept very interesting. You might have a look at Event Based Components architecture which completely evolves around similar concepts.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2309</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>131.107.0.87</wp:comment_author_IP>
+    <wp:comment_date>2010-10-08 14:55:23</wp:comment_date>
+    <wp:comment_date_gmt>2010-10-08 21:55:23</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Mocking delegates will be supported in Moq v4 (http://code.google.com/p/moq/issues/detail?id=235) including support for testing that a certain delegate was called exactly X times or that it was called with certain input parameters, etc.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

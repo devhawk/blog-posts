@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Where I've Been</title>
+  <link>http://devhawk.net/2003/07/16/where-ive-been/</link>
+  <pubDate>Wed, 16 Jul 2003 07:28:23 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://acb5c7d4-12a2-4e18-a0a5-fee8780c89f6</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>It's been pretty thin around here on posts. I'm at this big internal MSFT conference this week and I was in Phoenix for work last week. So I spent as much of the weekend away from the computer as possible. As for the rest of this week, wireless access is pretty ubiquitous so I'll post when I can. </p><p>Here's what else going on:</p><ul><li>Got to hear <a href="http://www.zifa.com">John Zachman</a> speak yesterday about his <a href="http://www.zifa.com/framework.html">enterprise architecture framework</a>. Pretty cool. I'm still digesting it, so more thoughts on this later. </li><li>I haven't worked on <a href="prj_sharepointsynd.aspx">SharePoint Syndication</a> at all since releasing v0.4.1. A few hearty souls have joined the workspace, but I haven't even contacted them beyond admitting them as workspace members. I was thinking that for v0.5, the big feature would be to support some SharePoint Portal Server things for syndication (my site, best bets, searches, etc) but I haven't even had time to get the B2TR version of SharePoint Portal installed.</li><li>I got the go-ahead from <a href="http://www.sellsbrothers.com">Chris Sells</a> to host his <a href="http://www.sellsbrothers.com/tools/#imcli"> imcli</a> library as part of a <a href="prj_messenger.aspx"> Messenger.NET</a> GDN Workspace. Look for that soon.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">148</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-07-16 07:28:23</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-07-16 07:28:23</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">where-ive-been</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[acb5c7d4-12a2-4e18-a0a5-fee8780c89f6]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Where+Ive+Been]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/07/16/Where+Ive+Been]]></wp:meta_value>
+  </wp:postmeta>
+</item>

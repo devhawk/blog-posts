@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Debugging IronPython Code in Visual Studio</title>
+  <link>http://devhawk.net/2008/05/08/debugging-ironpython-code-in-visual-studio/</link>
+  <pubDate>Thu, 08 May 2008 13:58:00 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://28860a1d-d909-4cd5-ba18-be6456a1ca5b</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>In case I'm not the last person on the planet to figure this out...</p><ol><li>In VS, click on File-&gt;Open-&gt;Project/Solution or press Ctl-Shift-O</li><li>Select ipy.exe from wherever you put it</li><li>Right click ipy.exe in Solution Explorer and select Properties</li><li>In the Command Arguments box, type "-D" (to generate debug code) and the full path to the script you want to execute. If you want to drop into interactive mode after the script executes, also include a "-i"</li><li>Open the script you specified in step 4 and place breakpoints as usual</li><li>Run via Debug-&gt;Start Debugging or press F5</li></ol><p>Thanks <a href="http://blogs.msdn.com/srivatsn">Srivatsn</a> for helping me out with this.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1146</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2008-05-08 13:58:00</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2008-05-08 13:58:00</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">debugging-ironpython-code-in-visual-studio</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="visual-studio"><![CDATA[Visual Studio]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[28860a1d-d909-4cd5-ba18-be6456a1ca5b]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Debugging+IronPython+Code+In+Visual+Studio]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2008/05/08/Debugging+IronPython+Code+In+Visual+Studio]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2079</wp:comment_id>
+    <wp:comment_author><![CDATA[nice air force ones]]></wp:comment_author>
+    <wp:comment_author_email>airforcenice@yahoo.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.sneakernice.com</wp:comment_author_url>
+    <wp:comment_author_IP>65.49.14.94</wp:comment_author_IP>
+    <wp:comment_date>2008-05-17 06:01:43</wp:comment_date>
+    <wp:comment_date_gmt>2008-05-17 13:01:43</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Very helpful, thanks!! ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2080</wp:comment_id>
+    <wp:comment_author><![CDATA[Mitch]]></wp:comment_author>
+    <wp:comment_author_email>mbarnett@uniserve.com</wp:comment_author_email>
+    <wp:comment_author_url>http://globalsystembuider.com</wp:comment_author_url>
+    <wp:comment_author_IP>199.60.230.44</wp:comment_author_IP>
+    <wp:comment_date>2008-07-05 18:26:36</wp:comment_date>
+    <wp:comment_date_gmt>2008-07-06 01:26:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Thanks Harry!  One question I have is - is it possible to step through app.py in Jim Hugunin's wonderful DLR Console?  It is 2k lines of Python code that I am trying to wrap my head around, but have not found a way in VS 2008 to step through the code.  Any help appreciated.  Keep up the good writings!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

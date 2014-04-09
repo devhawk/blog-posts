@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Talking Trash About Tony</title>
+  <link>http://devhawk.net/2003/04/19/talking-trash-about-tony/</link>
+  <pubDate>Sat, 19 Apr 2003 15:07:25 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3eceb3f9-7442-4a72-a1ff-56d0b36e0696</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I've been playing in the Microsoft Flag Football league for the past few weeks. Today was the first time I knew anyone on the field other than my teammates. <a href="http://www.kewney.com/articles/020708-so.html">Tony Goodhew</a> is a PM in the VS.NET group. He's worked with VC++ (Here's an <a href="http://archive.devx.com/free/newsletters/cppInterview0317.asp"> interview</a> with new MSFT employee <a href="http://radio.weblogs.com/0001011/"> Robert Scoble</a>), <a href="http://www.gotdotnet.com/team/dbox/spoutlet.aspx?key=2002-07-04">J#</a>, plus he does stuff with <a href="http://news.com.com/2100-1001-269665.html?legacy=cnet">standardization of CLR</a>. Tony's Australian, which means he plays more <a href="http://www.avdf.com/bio/bio_goodhew.html">rugby</a> than football, a fact that was clearly obvious as I blew past him and the rest of his team's offensive line to sack the QB in the end zone for the safety that turned out to be the margin of victory. I'd love to see Tony start a blog. He's been kicking around the .NET team so long he's got a bunch of good stories to tell. I brought him to a .NET student user group meeting at U of Washington and he was awesome. I'm hoping that if I talk enough trash about him here, he'll start a blog just to respond in kind.</p><p>In other news, I need new business cards. Given that Scoble <a href="http://radio.weblogs.com/0001011/2003/04/15.html#a2766">credits his weblog</a> with getting him hired, I've decided to put my weblog on the business cards. Anybody else do this?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">73</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2003-04-19 15:07:25</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2003-04-19 15:07:25</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">talking-trash-about-tony</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3eceb3f9-7442-4a72-a1ff-56d0b36e0696]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Talking+Trash+About+Tony]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2003/04/19/Talking+Trash+About+Tony]]></wp:meta_value>
+  </wp:postmeta>
+</item>

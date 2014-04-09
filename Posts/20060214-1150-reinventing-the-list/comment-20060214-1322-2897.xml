@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2897</wp:comment_id>
+  <wp:comment_author><![CDATA[Lucas Gonze]]></wp:comment_author>
+  <wp:comment_author_email>lucas@gonze.com</wp:comment_author_email>
+  <wp:comment_author_url>http://gonze.com</wp:comment_author_url>
+  <wp:comment_author_IP>67.72.118.244</wp:comment_author_IP>
+  <wp:comment_date>2006-02-14 13:22:07</wp:comment_date>
+  <wp:comment_date_gmt>2006-02-14 21:22:07</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Along with a study of existing playlist formats (at http://gonze.com/playlists/playlist-format-survey.html), there was a preliminary study on RSS for this purpose:
+http://gonze.com/rss_plus_time.html .
+
+RSS didn't make sense for a lot of reasons.  We were paving cowpaths, and RSS for playlists was very much not a cowpath.  Playlists are about sequence, while RSS has no concept of sequence except reverse chronological order.  We needed abstractions to deal with the fact that music and movies frequently don't have URLs, and RSS didn't have them.  If not starting from scratch was critical, HTML preceded RSS and would be the default to work from.
+
+That said, I would have liked for XSPF to be a lot closer to feed formats, even though it didn't work out that way.  Maybe in the long run that's the direction it will go.
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

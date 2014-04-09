@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2804</wp:comment_id>
+  <wp:comment_author><![CDATA[skitchSKS]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>24.16.188.207</wp:comment_author_IP>
+  <wp:comment_date>2005-10-12 21:20:30</wp:comment_date>
+  <wp:comment_date_gmt>2005-10-13 04:20:30</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Same problems as you are having here.  Doppler's tagging implemenation does not work as other's have mentioned.
+
+I am up a creek right now in trying to get these podcasts to work correctly.  I have the same setup as you with doppler.  I have upgraded the firmware of the zen micro to the 'plays for sure' firmware.
+
+I have followed the instructions for autoplaylists to be synchronized at http://www.jakeludington.com/archives/000408.html
+
+There is one lousy problem.  When I delete the podcast and sync next time to WMP, the shows that I deleted from the zen are re-transferred.
+
+This is obviously a great feature for regular songs, but this behavior of syncing is not working for podcasts.
+
+I am wondering, has anyone found a way to do this?     I"m wondering if those ipods have the sync function in teh new itunes that would work better for podcasts...    The new 60 gig video ipod came out...     I feel a 'justification' reason for my purchase  ;)
+
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

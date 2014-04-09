@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2110</wp:comment_id>
+  <wp:comment_author><![CDATA[Michael Foord]]></wp:comment_author>
+  <wp:comment_author_email>fuzzyman@voidspace.org.uk</wp:comment_author_email>
+  <wp:comment_author_url>http://www.ironpythoninaction.com</wp:comment_author_url>
+  <wp:comment_author_IP>88.96.105.246</wp:comment_author_IP>
+  <wp:comment_date>2008-08-07 06:35:20</wp:comment_date>
+  <wp:comment_date_gmt>2008-08-07 13:35:20</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[_sqlite3 could be implemented as a compatibility shim over System.Data.SQLite:
+
+http://sqlite.phxsoftware.com/
+
+This would be waaay better than removing the module. There are many standard library modules that could be supported using this technique.
+
+FePy has had a compatibility shim for pyexpat (over System.Xml) for a long time. The more of these modules that are supported the more Python applications and frameworks will work with IronPython.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

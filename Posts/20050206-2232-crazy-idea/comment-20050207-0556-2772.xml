@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2772</wp:comment_id>
+  <wp:comment_author><![CDATA[Chris Bilson]]></wp:comment_author>
+  <wp:comment_author_email>cbilson@pobox.com</wp:comment_author_email>
+  <wp:comment_author_url>http://weblogs.factored-software.com/chris</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2005-02-07 05:56:28</wp:comment_date>
+  <wp:comment_date_gmt>2005-02-07 13:56:28</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I agree that there are some exciting possibilities for this type of thing, and I use several "virtual filesystems" everyday (Daemontools (for mounting ISO files), web folders (for mounting WebDAV directories)), etc. If you zoom in a little closer, I think you'll see all filesystems are virtual. There aren't actually any files on a disk...just sectors/blocks.
+
+But I think there are some dangers too. I think the assumption that filesystems are fairly static and computationally cheap to access is too baked into most software. I think this goes back to the idea that, "boundaries should be explicit."
+
+If you really wanted to, however, you could make a fairly decent dynamic virtual file system using web folders and WebDAV pointing at a web server.
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

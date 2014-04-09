@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Building DSLs in VS</title>
+  <link>http://devhawk.net/2004/10/27/building-dsls-in-vs/</link>
+  <pubDate>Wed, 27 Oct 2004 12:03:45 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://e2080d6f-10d9-4778-8c17-ff937450ff59</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Last night, after the Turing Lecture, we hosted a FlashBoF on "DSL's in Visual Studio". <a href="http://blogs.msdn.com/stuart_kent">Stuart</a> answered a bunch of questions and gave a much more detailed demonstration of the new DSL Toolkit than we could show during the keynote. Here's what I learned from the session: </p><ul><p style="PADDING-LEFT: 10px; FLOAT: right"><a href="http://s3.amazonaws.com/devhawk_images/UIPModel.JPG"><img src="http://s3.amazonaws.com/devhawk_images/UIPModelThumb.JPG" border="0" /></a></p><li>Models are stored in XML files. The language designer outputs an object model and will eventually also output an XSD. For example, here's a screenshot of the language designer from the DSL Toolkit we're releasing. Inside the designer, I've got a sample UIP DSL (I hacked this up on my own, this is not exactly the same one we demoed yesterday). As you can see, there's a PageCollection concept which contains Page concepts that have Name and Kind values. Page concepts also has a collection of Transfer concepts, which in turn have Label values. Generating an object model makes it easier to write tools that manipulate models. Typically, I'm anti-XML-Serialization but in this case - where we have a relative simple XSD - it works fine. I could also manipulate the model by accessing the underlying XML if I want to. 
+</li><li>Code generation uses templates and looks a lot like <a href="http://www.ericjsmith.net/codesmith/">CodeSmith</a> or old-school ASP. You interleave the static elements of the generated code with blocks of code that access the model (via the object model described above) and generate the dynamic model-specific elements of the code. So I'm guessing that people using the codegen tools like CodeSmith will feel right at home with this toolkit. 
+</li><li>In the current builds (which is to say later than the build that we're releasing first - the first build doesn't include any of the code generation support) we're generating a single code file from a model. Eventually we'll be able to manipulate multiple files from a single model. This is similar to how the Class Diagram works - add a new class onto the diagram and a new file gets added to the project, delete the class from the diagram and the file gets removed from the solution. 
+</li><li>Not all models are used to generate code. For example, in VSTS the Logical Data Center and Virtual Deployment models don't generate code. They are useful  because I can use them to validate the Distributed System Model which does generate code. 
+</li><li>Someone asked about the implications of code coverage, profiling and test-driven development on a DSL-based process. Frankly, I don't know but it certainly got me thinking. The general consensus was that we're still in the bootstrap phase of making DSL-based development a reality and these are issues we'll have to deal with as we move forward.</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">463</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-10-27 12:03:45</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-10-27 12:03:45</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">building-dsls-in-vs</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <category domain="post_tag" nicename="modelling"><![CDATA[Modelling]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[e2080d6f-10d9-4778-8c17-ff937450ff59]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Building+DSLs+In+VS]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/10/27/Building+DSLs+In+VS]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2697</wp:comment_id>
+    <wp:comment_author><![CDATA[Anonymous]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-10-27 15:51:20</wp:comment_date>
+    <wp:comment_date_gmt>2004-10-27 22:51:20</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[This really sounds like a poor-man's EMF (http://eclipse.org/emf) - what's special about it?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

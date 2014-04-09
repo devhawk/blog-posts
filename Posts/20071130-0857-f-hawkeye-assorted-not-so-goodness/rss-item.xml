@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>F# Hawkeye : Assorted Not-So-Goodness</title>
+  <link>http://devhawk.net/2007/11/30/f-hawkeye-assorted-not-so-goodness/</link>
+  <pubDate>Fri, 30 Nov 2007 08:57:13 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://3222b4dd-df64-4730-8bd9-a140345ca0e0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p></p><p><em>(Harry is @ DevTeach in Vancounver with his family this week. He was hoping to still do Morning Coffee posts, but that's turned out to be infeasible. So instead, you get a series of pre-written posts about F#.)</em></p><p>It's not all puppy dogs and ice cream with F#. Here are a few things that I didn't like about the lanugage.</p><h3>Linear Scoping</h3><p>In C#, a given piece of code is able to call any function it wants to (limited by CAS and visibility of course). If I define two functions, the first can call the second even thought the compiler has never seen the second function when it's parsing the first.</p><p>F# has linear scoping like C++ does. You can't call functions that haven't already been defined in the file (or a previous file that's already been fed to the compiler). This makes writing mutually recursive functions (A calls B, B calls C, C calls A) fairly annoying. Typically, in F# we declare functions with "let". But in the Additive function above, we're declaring the function with "and". By using "and", we're basically chaining together function declarations into a logical unit. Then, you mark the first function declaration in the chain as recursive, and now those methods are enabled for mutual recursion. Not exactly intuitive.</p><p>Frankly, I like C#'s ability to bind to methods that haven't been declared yet. I wonder if this is an intrinsic issue with FP or F# scoping rules, or if it's something they could fix if they took the time.</p><h3>No Method Overloading</h3><p>In my CheckForToken method, I use a string type to hold the token I'm looking for, since tokens can often be multi-character. However, for one character tokens, this is over kill. Not just in terms of creating a string object to contain just one character, but also in how I pattern match the token against the input string. If we're only looking for one character, we can skip recursion entirely. Yet there's no way to define two functions called Token that have different signatures. </p><p>Given type inference, this isn't surprising, but it's still a little annoying for folks coming from C# land.</p><h3>Limited VS support</h3><p>More evidence of a rotted brain. F#'s integration into VS is limited at best. It does syntax highlighting and debugging, but that's about it. The problem I keep running into is that I have two projects - my main project and my test project. Even though I've define the test project as being dependent on the main project, it doesn't automatically compile the test project when I change the main project. So I keep doing something like fix a bug, recompile, then run NUnit to see if the light turned green. It doesn't, because I haven't rebuilt the test project and it's still referencing the old version of the main project. Now that it's a <a href="http://blogs.msdn.com/dsyme/archive/2007/10/17/s-somasegar-on-taking-f-forward.aspx">"real" product</a>, I'm hoping to see better integration into VS08. Maybe even an F# Express that leverages the new VS08 shell?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1062</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-11-30 08:57:13</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-11-30 08:57:13</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">f-hawkeye-assorted-not-so-goodness</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="f-sharp"><![CDATA[F#]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[3222b4dd-df64-4730-8bd9-a140345ca0e0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[F+Hawkeye+Assorted+NotSoGoodness]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/11/30/F+Hawkeye+Assorted+NotSoGoodness]]></wp:meta_value>
+  </wp:postmeta>
+</item>

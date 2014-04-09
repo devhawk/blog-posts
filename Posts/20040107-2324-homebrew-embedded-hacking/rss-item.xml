@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Homebrew Embedded Hacking</title>
+  <link>http://devhawk.net/2004/01/07/homebrew-embedded-hacking/</link>
+  <pubDate>Wed, 07 Jan 2004 23:24:36 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a9c0f798-8cd6-4425-a75f-45c3032273a3</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I finally have my busted laptop back. I paved it and was in the process of reinstalling the important stuff when the storm hit. Since I'll be moving back to that machine very soon, I figured I could break quarantine on the machine I'm currently using. Since the one thing you can't run in <a href="http://www.microsoft.com/windowsxp/virtualpc/">Virtual PC</a> is the embedded device emulator, I decided to install <a href="http://www.microsoft.com/windows/embedded/ce.net/">Windows CE</a>. I stumbled across this article for <a href="http://www.oreillynet.com/pub/a/wireless/excerpt/wireless_hacks/index1.html">DIY Wireless Access Points</a> (from <a href="http://www.oreilly.com/catalog/wirelesshks/index.html?CMP=IL7015">Wireless Hacks</a>) which pointed me to a couple of embedded system vendors - <a href="http://www.soekris.com/">Soekris</a> and <a href="http://www.openbrick.org/">OpenBrick</a>. I'd love to get CE up and running on one of those boxes and roll my own <a href="http://www.microsoft.com/Windows/Embedded/devices/ces/default.asp">media client device</a>, to learn about hacking embedded if for no other reason. I know Duncan has a cool <a href="http://www.duncanmackenzie.net/musicxp/">homegrown audio PC project</a>, but I was thinking something embedded would be even cooler. </p><p>There doesn't seem to be much, if any, grass-roots community around building CE based devices. All the efforts on the embedded website seem to be geared towards large companies. For example, the <a href="http://www.microsoft.com/windows/embedded/ce.net/howtobuy/purchasing/na.asp">US distributors</a> of CE don't list prices on their pages. I can only assume it's a case of "if you have to ask, you can't afford it", at least for the individual developer. CE is not included in MSDN (though it used to be if memory serves). I can only find info on homebrew embedded hardware on <a href="http://www.linuxdevices.com/index.html">Linux sites</a>. </p><p>Where are there any other DIY or homebrew embedded sites that I don't know about? </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">272</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-01-07 23:24:36</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-01-07 23:24:36</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">homebrew-embedded-hacking</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="embedded"><![CDATA[Embedded]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a9c0f798-8cd6-4425-a75f-45c3032273a3]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Homebrew+Embedded+Hacking]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/01/08/Homebrew+Embedded+Hacking]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2945</wp:comment_id>
+    <wp:comment_author><![CDATA[Adam Hill]]></wp:comment_author>
+    <wp:comment_author_email>adam.hill@mac.com</wp:comment_author_email>
+    <wp:comment_author_url>http://randompixels.typepad.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-08 14:33:52</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-08 22:33:52</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Check out: http://www.xbox-windows.org
+
+It is not quite homebrew, but you will have to install a mod chip.
+
+And orthogonal to Media and Windows:
+
+http://www.microsoft.com/downloads/details.aspx?familyid=ed01d0d5-a82b-41fc-8d72-8d8954d59704&displaylang=en
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2946</wp:comment_id>
+    <wp:comment_author><![CDATA[mearls@hotmail.com (Michael Earls)]]></wp:comment_author>
+    <wp:comment_author_email>mearls@hotmail.comMichaelEarls</wp:comment_author_email>
+    <wp:comment_author_url>http://www.cerkit.com/</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2004-01-08 17:09:39</wp:comment_date>
+    <wp:comment_date_gmt>2004-01-09 01:09:39</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I've been wanting to do the exact same thing and I've had the same troubles as you finding affordable parts and good documentation.  Maybe we should start up an online community of people who are interested and then work together to get "big company" pricing.  We could come up with a basic setup and then document the results.  Then we could order the parts in bulk if we get enough interest.  Or something like that.
+
+I did notice that Dave Hamilton has some good entries on custom CE platforms on his weblog (http://www.daveham.net/Blog/PermaLink.aspx?guid=7848b818-d392-458e-afb1-98bd42fe30a1)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2947</wp:comment_id>
+    <wp:comment_author><![CDATA[Matthew Flint]]></wp:comment_author>
+    <wp:comment_author_email>devhawk@KERMITmatthewspam1REMOVEFROG.org.uk</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-03-24 02:23:22</wp:comment_date>
+    <wp:comment_date_gmt>2005-03-24 09:23:22</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Michael Earls said "Maybe we should start up an online community of people who are interested and then work together to get "big company" pricing"
+
+Not a bad idea, though it would be difficult to hit the "thousands of units" buying threshold.
+
+I have emailed many companies for prices for PC104, PC104+ and other small SBCs, and rarely received a reply. Some of the replies have been terse and dismissive, because I've been asking about buying single units. Few replies have been genuinely helpful, and even then the prices were prohibitively high.
+
+Only Soekris supplies the kind of SBC I want at a reasonable price.
+
+If anyone reads this and does want to take the "community buying" idea further, I'd be willing to enter discussions. (I'm based in the UK)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

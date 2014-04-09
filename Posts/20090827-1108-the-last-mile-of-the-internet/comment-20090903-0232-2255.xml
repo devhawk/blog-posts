@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2255</wp:comment_id>
+  <wp:comment_author><![CDATA[Marius Mikučionis]]></wp:comment_author>
+  <wp:comment_author_email>marius@cs.aau.dk</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>130.225.198.205</wp:comment_author_IP>
+  <wp:comment_date>2009-09-03 02:32:58</wp:comment_date>
+  <wp:comment_date_gmt>2009-09-03 09:32:58</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[How about using Jabber (or alike) protocol for relaying?
+It works in distributed way just like email, while it has real-time capabilities, also each user can have infinitely many resource locators (and each user has full control over their addresses), then just setup different apps to listen to a different resource name which is subscribed to whatever publisher.
+In the end, if your mail/NAT/whatever-publicaly-facing server is Jabber-capable, you have the real-time relay infrastructure in place already. 
+Moreover this setup works *everytime* you move your netbook away from home network!
+Google uses XMMP even for voice/video communication.
+So what are we reinventing?]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

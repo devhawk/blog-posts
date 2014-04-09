@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>HawkCodeBox</title>
+  <link>http://devhawk.net/2009/08/20/hawkcodebox/</link>
+  <pubDate>Thu, 20 Aug 2009 11:49:16 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6643b4fa-0c17-4840-9456-77b83d45fae7</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Last month, I <a href="http://devhawk.net/2009/07/09/Syntax+Highlighting+TextBoxes+In+WPF+Ndash+A+Sad+Story.aspx">lamented</a> the lack of extensibility of the WPF text box. While there are <a href="http://www.actiprosoftware.com/Products/DotNet/WindowsForms/SyntaxEditor/Default.aspx">several</a><a href="http://www.aqistar.com/">vendors</a> and at least one <a href="http://wiki.sharpdevelop.net/AvalonEdit.ashx">open source</a> custom syntax highlighting text box, it still really bothers me how inextensible the basic WPF text box is. I just want to do a simple colorizing REPL – why is that so hard?</p><p>So instead of using any of those syntax highlighting text boxes, I decided to build my own using the approach Ken Johnson <a href="http://www.codeproject.com/KB/WPF/CodeBox.aspx">wrote about</a> on Code Project. As I wrote before, it’s a hack – you set the text box’s foreground and background brushes to transparent so that you can override OnRender – but it works. </p><p>The big change I made from Ken’s code was to use DLR TokenCategorizer instead of regular expressions to tokenize the code. <a href="http://dlr.codeplex.com/SourceControl/changeset/view/26964#581527">TokenCategorizer</a> is a service provided by the DLR hosting API, which will tokenize a given script source for you. Here’s the code that colorizes the text in the text box.</p><p></p><pre class="brush: csharp">
+var source = Engine.CreateScriptSourceFromString(this.Text);
+var tokenizer = Engine.GetService&lt;TokenCategorizer&gt;();
+tokenizer.Initialize(null, source, SourceLocation.MinValue);
+
+var t = tokenizer.ReadToken();
+while (t.Category != TokenCategory.EndOfStream)
+{
+    if (SyntaxMap.ContainsKey(t.Category))
+    {
+        ft.SetForegroundBrush(_syntaxMap[t.Category], 
+             t.SourceSpan.Start.Index, t.SourceSpan.Length);
+    }
+
+    t = tokenizer.ReadToken();
+}
+</pre><p>As you can see, I ask the engine for a TokenCategorizer, initialize it with the text box’s current contents, then iterate thru the tokens, looking for ones in my SyntaxMap. If the token category is in the syntax map, we change the foreground brush for that span of formatted text (ft is a WPF FormattedText instance I created earlier in the method. </p><p>Of course, this approach isn’t very efficient – it re-colorizes the entire file on every change. It turns out that some DLR TokenCategorizer are restartable so you can cache the tokenizer state at any point and then return later with a new TokenCategorizer instance and pick up tokenizing where you left off. With this approach, you could say tokenize a line at a time, allowing you to only need to retokenize the line where the change occurred rather than the entire file. But only IronPython supports tokenizer restarting today, so I decided to take the easy way and simple re-colorize on every change.</p><p>I named the project HawkCodeBox and I’ve <a href="http://github.com/devhawk/HawkCodeBox/tree/master">published the source</a> up on GitHub. It’s fairly simple, but of course the goal wasn’t to build the be-all-end-all text editor – other <a href="http://blogs.msdn.com/vseditor/">people in the VS team</a> already have that job. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1284</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-08-20 11:49:16</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-08-20 11:49:16</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">hawkcodebox</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="dlr"><![CDATA[DLR]]></category>
+  <category domain="post_tag" nicename="hawkcodebox"><![CDATA[HawkCodeBox]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6643b4fa-0c17-4840-9456-77b83d45fae7]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[HawkCodeBox]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/08/20/HawkCodeBox]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2253</wp:comment_id>
+    <wp:comment_author><![CDATA[Fahad]]></wp:comment_author>
+    <wp:comment_author_email>fahad007@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>122.164.28.206</wp:comment_author_IP>
+    <wp:comment_date>2009-08-28 14:24:22</wp:comment_date>
+    <wp:comment_date_gmt>2009-08-28 21:24:22</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You could actually use the FormattedText class, which is a low-level font based text renderer, and use a custom control for rendering. I would actually go with TextBlock and have my own render calls, then use a canvas that will allow me to edit a charactor to simply host on top of my editing row.
+
+-Fahad]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>EdgeHawk?</title>
+  <link>http://devhawk.net/2006/01/26/edgehawk/</link>
+  <pubDate>Thu, 26 Jan 2006 08:46:30 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://c9af7b7c-ba9d-4123-8fa4-ea766e746e3d</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I got an email this morning from <a href="http://www.users.globalnet.co.uk/~rxv/so/soapbox.htm">Richard Veryard</a> wondering if I should now be called EdgeHawk. That's funny. Alas, <a href="http://www.edgehawk.com/">EdgeHawk.com</a> is "Your #1 internet Hoosier Racing Tire source" so I think I'm going to stick with DevHawk...at least for now.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">673</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-01-26 08:46:30</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-01-26 08:46:30</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">edgehawk</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="blogging"><![CDATA[Blogging]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[c9af7b7c-ba9d-4123-8fa4-ea766e746e3d]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[EdgeHawk]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/01/26/EdgeHawk]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2880</wp:comment_id>
+    <wp:comment_author><![CDATA[Lee &quot;Edge Hawk&quot; Meadows]]></wp:comment_author>
+    <wp:comment_author_email>lmeadows@leggmason.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.edgehawk.comwww.blackfirehawk.com</wp:comment_author_url>
+    <wp:comment_author_IP>216.251.209.109</wp:comment_author_IP>
+    <wp:comment_date>2006-02-15 12:23:30</wp:comment_date>
+    <wp:comment_date_gmt>2006-02-15 20:23:30</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'm Edge Hawk, so I think you should keep DevHawk. :)
+
+Funny how when you google your name looking for something, the things you find.
+
+Lee.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2881</wp:comment_id>
+    <wp:comment_author><![CDATA[干燥剂]]></wp:comment_author>
+    <wp:comment_author_email>desiccant@aauu.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.aauu.net</wp:comment_author_url>
+    <wp:comment_author_IP>218.2.39.20</wp:comment_author_IP>
+    <wp:comment_date>2006-05-19 15:03:01</wp:comment_date>
+    <wp:comment_date_gmt>2006-05-19 22:03:01</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[专业生产干燥剂，　http://www.aauu.net]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Office PIAs</title>
+  <link>http://devhawk.net/2005/04/18/office-pias/</link>
+  <pubDate>Mon, 18 Apr 2005 21:17:47 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6ed85be4-6a72-43a7-ae54-6f43b72652a0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Not that I do a bunch of Office development, but I did build a <a href="http://devhawk.net/Build+Slide+Export+.aspx">pretty nifty utility</a> for PowerPoint a while back. Getting it installed on anyone elses machine, however, was a pain in the ass because while I always remember to install the Office Primary Interop Assemblies when I install Office, I'm fairly certain I'm in the minorty on doing so. So installing Build Slide Exporter was alway tricky. Now, the Office PIA's are available as a <a href="http://www.microsoft.com/downloads/details.aspx?familyid=3c9a983a-ac14-4125-8ba0-d36d67e0f4ad&amp;displaylang=en">seperate install</a>. Not sure if you can redist them, but the readme file that comes with the installer specifically mentions "Wrap the O2003pia.msi in another setup package through Visual Studio or other Windows Installer aware setup editor" so it sounds like they expect it to be redistributed.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">589</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-04-18 21:17:47</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-04-18 21:17:47</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">office-pias</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6ed85be4-6a72-43a7-ae54-6f43b72652a0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Office+PIAs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/04/19/Office+PIAs]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2812</wp:comment_id>
+    <wp:comment_author><![CDATA[Matt]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://technovangelist.com</wp:comment_author_url>
+    <wp:comment_author_IP></wp:comment_author_IP>
+    <wp:comment_date>2005-04-20 09:42:48</wp:comment_date>
+    <wp:comment_date_gmt>2005-04-20 16:42:48</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry, check out the title of the page you link to on the Microsoft Downloads site: Office 2003 Update: Redistributable Primary Interop Assemblies. Hmmmm, call me nutty, but I think the fact that they call them Redistributable Primary Interop Assemblies might mean that they are redistributable.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

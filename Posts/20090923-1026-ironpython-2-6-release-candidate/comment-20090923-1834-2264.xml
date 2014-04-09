@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2264</wp:comment_id>
+  <wp:comment_author><![CDATA[Bob Arnson]]></wp:comment_author>
+  <wp:comment_author_email>spam@bobs.org</wp:comment_author_email>
+  <wp:comment_author_url>http://www.joyofsetup.com</wp:comment_author_url>
+  <wp:comment_author_IP>75.149.136.201</wp:comment_author_IP>
+  <wp:comment_date>2009-09-23 18:34:43</wp:comment_date>
+  <wp:comment_date_gmt>2009-09-24 01:34:43</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[I haven't been able to find any statements about 3.x: Is there a plan for 3.x support or is it a question of critical mass?]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

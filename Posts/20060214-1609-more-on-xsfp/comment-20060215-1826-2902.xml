@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2902</wp:comment_id>
+  <wp:comment_author><![CDATA[Lucas Gonze]]></wp:comment_author>
+  <wp:comment_author_email>lucas@gonze.com</wp:comment_author_email>
+  <wp:comment_author_url>http://gonze.com</wp:comment_author_url>
+  <wp:comment_author_IP>67.72.118.244</wp:comment_author_IP>
+  <wp:comment_date>2006-02-15 18:26:56</wp:comment_date>
+  <wp:comment_date_gmt>2006-02-16 02:26:56</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[RSS is not about lists so much as it's about reverse-chronological journals.  There are assumptions about the weblog form buried deep in the format, for example the idea that all entries would have some sensible reason to have a pubDate.
+
+We could indeed do playlists as an RSS extension, and at the time we started on XSPF some people were experimenting with that.  Those experiments didn't work out for three reasons.  One, many RSS features just weren't applicable to playlists and would create needless verbosity.  Two, many playlist features weren't already in RSS and would have to be invented no matter what we did.  Three, our target user base was developers of MP3 players, who would be actively turned off by having to deal with RSS.  XSPF is much much much simpler than RSS.  On the whole, an RSS-based approach would have been buggier, harder, and hard to sell.  
+
+Now my question for you: why are you looking at multimedia through RSS-colored glasses?  Why should web logs be the model for playlists?]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

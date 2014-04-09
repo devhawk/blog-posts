@@ -1,0 +1,38 @@
+<p>I&#8217;ve been spending some quality time&nbsp;with SSB and WF of late. On the balance, my opinion of both these technologies is very positive, though each has some warts of note. For Service Broker, they got the&nbsp;transactional messaging semantics right, but&nbsp;much of the lower level connection management &#8211; what SSB calls &#8220;routes&#8221; are clumsy to deal with. For Workflow Foundation, the execution model is amazingly flexible. Unfortunately, WF&#8217;s support for transactions is significantly more rigid.</p>
+<p>If you&#8217;re build a SSB app, you&#8217;re typical execution thread looks like this:</p>
+<ol>
+<li>Start a transaction.  </li>
+<li>Receive message(s) from top of the queue.  </li>
+<li>Execute service business logic. Obviously, this varies from service to service but it typically involves reading and writing data in the database as well as sending messages to other services.  </li>
+<li>Commit the transaction</li>
+</ol>
+<p>When I sat down to marry SSB and WF, I naively assumed I could simply use WF for step three above. Alas, that turns out to be impossible. <a href="http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=843580&SiteID=1">This thread</a> on MSDN Forums has most of the gory details, but the short version is that WF does not support flowing host managed transactions into the workflow instance. As per <a href="http://forums.microsoft.com/MSDN/User/Profile.aspx?UserID=154457&SiteID=1">Joel West</a>&nbsp;in the aforementioned thread:</p>
+<blockquote><p>&#8220;[T]he WF runtime in V1 only supports flowing in a transaction on WorkflowInstance.Unload. There are various ways that you could try and hack this (with a custom persistence service or WorkflowCommitWorkBatchService) but if you do this it won&#8217;t work correctly 100% of the time and the times when it fails (error conditions or failures causing the tx to rollback) will be exactly when you are expecting transactional consistency.</p>
+<p>Bottom line &#8211; the only way to make this work is to call WorkflowInstance.Unload inside your transaction scope.&nbsp; This&nbsp;was the best that we could do in V1 to try and enable this pattern in some form.&nbsp; Not always ideal but it can be made to work for most scenarios that require usage of an external transaction.&#8221;</p>
+</blockquote>
+<p>So the WF compatible execution thread looks like this:  </p>
+<ol>
+<li>Start a transaction  </li>
+<li>Receive message(s) from the top of the queue  </li>
+<li>Load/Create the associated workflow instance for the received messages
+<ul>
+<li>All messages received are guaranteed to be from the same SSB conversation group, which is roughly analogous to a WF instance, so this turns out to be fairly easy</li>
+</ul>
+</li>
+<li>Enqueue the received message in the workflow instance  </li>
+<li>Unload the workflow instance  </li>
+<li>Commit the host transaction </li>
+<li>Reload the workflow instance  </li>
+<li>Run the workflow instance (note, I&#8217;m using the manual scheduling service)
+<ul>
+<li>Workflow instance creates a transaction if&nbsp;needed</li>
+</ul>
+</li>
+<li>Unload the workflow instance (typically done via UnloadOnIdle in the persistence service)</li>
+<ul>
+<li>Assuming the workflow instance needed a transaction, it gets committed after unload</li>
+</ul>
+</ol>
+<p>Basically, you use two transactions. One host managed transaction to move the message from SSB to WF instance and one WF managed transaction to process the message.The need for two transaction instead of one is unfortunate, but required given the current design of WF. And frankly, given the importance and difficulty of transaction management, I&#8217;m not that surprised that WF has hard coded transaction semantics. Trying to build a generic transaction flow model that would work in the myriad of scenarios WF is targeting would have been extremely difficult. At least there is a work around, even if it means using two transactions and loading and unloading the workflow instance twice.</p>
+<p>However, there is a silver lining to the two transaction approach: two unexpected benefits when dealing with poison messages. First, SSB doesn&#8217;t have dead letter queue like MSMQ does. Moving a poison message to a dead letter queue would break SSB&#8217;s exactly once and in order semantics.(MSMQ doesn&#8217;t guarantee in order delivery) But moving all messages into the WF instance gets them out of the main SSB queue so poison messages don&#8217;t continue to get processed over and over. </p>
+<p>Second, because the workflow instance is peristed after the messages are enqueued, there&#8217;s a representation of the workflow after the message is received but before the message is processed. If there&#8217;s a poison message, attempting to processing the message will fail and rollback to this state. This persisted workflow instance could be sent to a developer who could step through it to determine the cause of the error. We could even have developer versions of runtime workflow services so we could read remote data and simulate data updates. I wouldn&#8217;t want the developer updating production data in this way, but it would be great for troubleshooting issues.</p>

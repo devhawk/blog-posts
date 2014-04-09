@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Morning Coffee 60</title>
+  <link>http://devhawk.net/2007/04/10/morning-coffee-60/</link>
+  <pubDate>Tue, 10 Apr 2007 10:15:09 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://5e528319-2cac-498d-978e-bb5f999ef5b8</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>My car has a new battery so I am back in the office with my nose on the grindstone. I've spent most of the morning talking about SOA and my MSIT project, so I only have a few items today.</p><ul><li>Nicholas Carr <a href="http://www.roughtype.com/archives/2007/04/google_vs_sales.php">illustrates the coming competiton</a> between SalesForce.com and Google. Very interesting. Of course, that doesn't damp "their mutual disdain for the Horrible Monster of Redmond" as Carr puts it.</li><li>I decre that Peter Schneider officially has too much time on his hands. I mean, if he's got time to <a href="http://weblogs.asp.net/pschneider/archive/2007/04/08/brainf-compiler-and-interpreter-in-powershell.aspx">implement a compiler and interpreter</a> for <a href="http://en.wikipedia.org/wiki/Brainfuck">Brainfuck</a> in Powershell, what else has he got time for? On the other hand, it's short and shows how internal DSL friendly PS can be. (via <a href="http://www.larkware.com/dg8/TheDailyGrind1117.aspx">Larkware</a>) </li><li>Jeff Atwood <a href="http://www.codinghorror.com/blog/archives/000828.html">wonders</a> if MTurk is a failure. I <a href="http://devhawk.net/2006/03/08/Felipe+Cabrera+On+Amazons+Mechanical+Turk.aspx">wrote a year ago</a> that MTurk is a successful feature, but would be a failure as a stand-alone service. As I wrote then, "I’m guessing it would be worth it to Amazon to run the service even if they were the only ones using it."</li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">931</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2007-04-10 10:15:09</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2007-04-10 10:15:09</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">morning-coffee-60</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="morning-coffee"><![CDATA[Morning Coffee]]></category>
+  <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[5e528319-2cac-498d-978e-bb5f999ef5b8]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Morning+Coffee+60]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2007/04/10/Morning+Coffee+60]]></wp:meta_value>
+  </wp:postmeta>
+</item>

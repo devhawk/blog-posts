@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Leaving KL</title>
+  <link>http://devhawk.net/2004/09/16/leaving-kl/</link>
+  <pubDate>Thu, 16 Sep 2004 17:23:11 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://a6aa1158-a113-4a22-9366-15c21bbc4e7e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I'm sitting in the Kuala Lumpur airport - my flight to Beijing leaves in about half an hour. I didn't get a chance to blog all day yesterday, so here's a quick recap:</p><ul><li>I've run into a bunch of people who I first met at TechEd Malaysia 2002. In particular, Adrian and Rathi who both wanted to see pictures of Patrick. The big bummer of only spending two days here is that I didn't get to do much more that the conference. </li><li>After the sessions on Wednesday, I hung out with a bunch of the other speakers at dinner. Several of the <a href="http://msdn.microsoft.com/netframework/community/rd/default.aspx">RD's</a> who spoke at TechEd US also came to our <a href="http://devhawk.net/PermaLink.aspx?guid=40a26f60-2238-405d-98fc-19898299f031">Architect Road Rally</a> and had a great time. Always nice to be told you threw a great party.</li><li>Thursday started  with Gurpreet's session on Architecture Vision &amp; Direction. I didn't think this session did as well as the EA talk the day before. Part of that comes from the fact the EA talk set a high bar, but some of it comes from the fact that the V&amp;D talk wasn't as polished. In contrast, I did much better with my Metropolis Thursday than the SOA Data talk on Wednesday. Maybe I just need one talk to get back in the groove - I usually think I do better in my second session.</li><li>After our sessions, lunch, and hanging around in the cabana with some other attendees, Aaron (the local Architect Evangelist) drove Gurp and I around <a href="http://msdn.microsoft.com/architecture/overview/series/">Putrajaya</a>. <a href="http://blogs.msdn.com/pathelland">Pat</a> often points out when he presents Metropolis that you can't bulldoze Boston just because the roads aren't straight. However, you can build a new city about a half an hour away and move into it when it's finished. That's Putrajaya - the new administrative center of Malaysia.  It was stunning - huge and ultra modern. But it was also strange as it is completely underutilized, so far anyway. We also did a little shopping and I was able to find a few things for the family back home.</li><li>Last night we had a regional architect dinner, where we got to hang out with a bunch of the local architects in the region. Lots of good discussion.</li></ul><p>Next stop - China!</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">438</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-09-16 17:23:11</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-09-16 17:23:11</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">leaving-kl</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="community"><![CDATA[Community]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[a6aa1158-a113-4a22-9366-15c21bbc4e7e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Leaving+KL]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/09/17/Leaving+KL]]></wp:meta_value>
+  </wp:postmeta>
+</item>

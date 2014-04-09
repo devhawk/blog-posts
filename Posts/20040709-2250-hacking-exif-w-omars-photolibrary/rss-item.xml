@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Hacking EXIF w/ Omar's PhotoLibrary</title>
+  <link>http://devhawk.net/2004/07/09/hacking-exif-w-omars-photolibrary/</link>
+  <pubDate>Fri, 09 Jul 2004 22:50:27 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://23f79c74-4b5c-4d58-b939-d9ed3492a897</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I love my <a href="http://www.olympusamerica.com/cpg_section/cpg_support_product.asp?product=868&amp;l=1&amp;p=16&amp;bc=27">Olympus digital camera</a>, but it does have one annoying issue. Occasionally, it “forgets” the current time and date. This leaves me with a bunch of images with a corrupt “Date Picture Taken” field (here's an <a href="http://winisp.net/harrypierson/Photos/Raking the Yard (9).JPG">example</a>). Luckily, <a href="http://www.shahine.com/omar/default.aspx">Omar's</a><a href="http://wiki.shahine.com/default.aspx/MyWiki.PhotoLibrary">PhotoLibrary</a> let me hack up a little program to update the date fields in the EXIF header. I couldn't use <a href="http://workspaces.gotdotnet.com/jpeg">JPEG Hammer</a> out-of-the-box becuase it doesn't handle the corrupt date fields. No matter. My app is a total hack, but since I only need to use it once-in-a-great-while, it's no big deal. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">397</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2004-07-09 22:50:27</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2004-07-09 22:50:27</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">hacking-exif-w-omars-photolibrary</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[23f79c74-4b5c-4d58-b939-d9ed3492a897]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Hacking+EXIF+W+Omars+PhotoLibrary]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2004/07/10/Hacking+EXIF+W+Omars+PhotoLibrary]]></wp:meta_value>
+  </wp:postmeta>
+</item>

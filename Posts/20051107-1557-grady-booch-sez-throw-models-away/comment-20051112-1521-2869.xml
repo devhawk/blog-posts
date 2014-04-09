@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2869</wp:comment_id>
+  <wp:comment_author><![CDATA[Peter Provost]]></wp:comment_author>
+  <wp:comment_author_email>peter@provost.org</wp:comment_author_email>
+  <wp:comment_author_url>http://www.peterprovost.org/</wp:comment_author_url>
+  <wp:comment_author_IP>131.107.0.102</wp:comment_author_IP>
+  <wp:comment_date>2005-11-12 15:21:48</wp:comment_date>
+  <wp:comment_date_gmt>2005-11-12 23:21:48</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[If Code-Is-Model is really an accurate statement, then throwing away the non-code model (the UML) is a completely legitimate thing to do as soon as it loses its value or gets in the way of maintaining the model that matters (the code).
+
+I think Grady's point here (I wasn't there) had to be something like this: Use a UML model (or whatever other high abstraction language you choose) when it has value and throw it away the moment it gets in your way or become an intolerable tax on your project.
+
+This is why I've always felt that all "code-as-model" modeling tools should use the code as the serialization format for the model. This is what the old Together tool did and that is why people liked it so much. The UML was just a way to visualize your code. There was no such thing as round tripping because there was only one thing...
+
+The code.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

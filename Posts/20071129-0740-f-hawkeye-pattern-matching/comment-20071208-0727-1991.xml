@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>1991</wp:comment_id>
+  <wp:comment_author><![CDATA[Tony Nassar]]></wp:comment_author>
+  <wp:comment_author_email>linux@anthonynassar.com</wp:comment_author_email>
+  <wp:comment_author_url>http://slideguitarist.blogspot.com/</wp:comment_author_url>
+  <wp:comment_author_IP>151.200.150.88</wp:comment_author_IP>
+  <wp:comment_date>2007-12-08 07:27:23</wp:comment_date>
+  <wp:comment_date_gmt>2007-12-08 15:27:23</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Does your weaponly also comprise such elements as "nice red uniforms"? 
+
+I'd love to see the parser, too, as I'll soon be embarking on one of my own, though I'll be using fslex and fsyacc for practice. I'll post about it. The Active Pattern thing is mind-blowing. ]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

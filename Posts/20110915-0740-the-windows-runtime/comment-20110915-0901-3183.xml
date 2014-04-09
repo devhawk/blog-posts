@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>3183</wp:comment_id>
+  <wp:comment_author><![CDATA[anvaka]]></wp:comment_author>
+  <wp:comment_author_email>anvaka@gmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://anvaka.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>216.213.97.190</wp:comment_author_IP>
+  <wp:comment_date>2011-09-15 09:01:35</wp:comment_date>
+  <wp:comment_date_gmt>2011-09-15 16:01:35</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Congratulations with release :). Now it's out, and I can't wait to learn more about WinRT internals. Please keep posting :)!]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

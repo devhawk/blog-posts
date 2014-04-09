@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2335</wp:comment_id>
+  <wp:comment_author><![CDATA[Chris Sterling]]></wp:comment_author>
+  <wp:comment_author_email>csterling@solutionsiq.com</wp:comment_author_email>
+  <wp:comment_author_url>http://jroller.com/page/csterwa</wp:comment_author_url>
+  <wp:comment_author_IP>67.183.212.122</wp:comment_author_IP>
+  <wp:comment_date>2006-03-26 22:58:21</wp:comment_date>
+  <wp:comment_date_gmt>2006-03-27 05:58:21</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[This subject is probably what I find to be the most interesting problem we are dealing with today.  Ruby, Python, C#3, and other models for dealing with this problem don't seem to be solutions in my opinion.  I tend to agree with your second comenter, Bob, in regards to direct object graph persistence but I also see that we must deal with the duplication and communication channels within our organizations, as well.  This will take more than a better persistence mechanism.  It will take systems which can merge data and dynamically relate data based upon context.  My current understanding of this would be done using agents and well defined heuristics.
+
+I posted my thoughts on this subject with a link back to this entry at http://jroller.com/page/csterwa?entry=data_our_technological_debt.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

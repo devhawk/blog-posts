@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2070</wp:comment_id>
+  <wp:comment_author><![CDATA[Matt]]></wp:comment_author>
+  <wp:comment_author_email>matthew.grab@tycoelectronics.com</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>198.175.154.212</wp:comment_author_IP>
+  <wp:comment_date>2008-05-06 04:17:48</wp:comment_date>
+  <wp:comment_date_gmt>2008-05-06 11:17:48</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Well that worked for me.  It's actually pretty amazing what can be done with a few lines of code.
+
+As per your original topic, I did import Process from System.Diagnostics.  I figured ProcessPriorityClass was part of Process.
+
+Is there a simple way to know what all is included when you import or try to import a .Net class.
+
+Thanks
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

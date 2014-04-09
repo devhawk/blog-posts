@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2521</wp:comment_id>
+  <wp:comment_author><![CDATA[John Heintz]]></wp:comment_author>
+  <wp:comment_author_email>jheintz@pobox.com</wp:comment_author_email>
+  <wp:comment_author_url>http://johnheintz.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>70.112.219.249</wp:comment_author_IP>
+  <wp:comment_date>2007-06-05 13:54:24</wp:comment_date>
+  <wp:comment_date_gmt>2007-06-05 20:54:24</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[The author of REST himself is working on a non-HTTP protocol to better support REST. Search Google for "roy fielding waka". (There is only a tiny bit of information available...)
+
+A discussion of building a REST-constrained system on top of SSB is perfectly legitimate discussion.
+
+One caveat, (looking for link... looking for link...) because HTTP is so widely deployed and available (plus DNS) there is a huge immediate value in using "http:" based URIs. The simple benefit of an already deployed and free naming infrastructure is huge.
+
+Ah! Found the link: Norman Walsh here: http://norman.walsh.name/2006/07/25/namesAndAddresses]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2190</wp:comment_id>
+  <wp:comment_author><![CDATA[Raven]]></wp:comment_author>
+  <wp:comment_author_email></wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>121.229.145.64</wp:comment_author_IP>
+  <wp:comment_date>2009-04-04 06:53:45</wp:comment_date>
+  <wp:comment_date_gmt>2009-04-04 13:53:45</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Oops, I forgot about the expression limitation...was having too much fun with Y combinators in Python :p
+
+Thanks for the answer]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

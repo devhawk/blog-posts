@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Architect on the Edge</title>
+  <link>http://devhawk.net/2006/01/24/architect-on-the-edge/</link>
+  <pubDate>Tue, 24 Jan 2006 14:49:55 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://6deaa854-eaa8-42e8-8d94-3e616040cfc3</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>So for the fourth time in seven months, I have a new manager. Way way way back and the end of June, I <a href="http://devhawk.net/2005/06/24/My+Next+Job.aspx">left marketing to be a solution architect</a>. In doing so, I traded in <a href="http://atlasbrandview.blogspot.com/">Norman</a> for <a href="http://blogs.msdn.com/jdevados/">John</a> as my manager. Things were looking shiny but then Microsoft had a <a href="http://seattlepi.nwsource.com/business/241469_msftdivide21ww.html">major reorg</a> back in September. These big reorgs often cause small ripples, like the director of Architecture Strategy deciding to move back to a product group. John was promoted to head the team and <a href="http://blogs.msdn.com/gianpaolo">Gianpaolo</a> was hired to take over John's previous role as head of solution architecture. Finally, it seemed like things were calming down on the management front, so I was caught off-guard by what happened next.</p><p>Last Monday, John offered me a chance to switch roles. We have spun up an Edge Architecture team to focus on the architectural impact of the next generation of computing - what some call "Web 2.0" - and he thought I would be a perfect fit for the team. I agreed and jumped at the chance. So now I work for Michael Platt. Don't let the infrastructure focus of <a href="http://blogs.technet.com/michael_platt">Michael's blog</a> fool you - he incredibly deep on Edge Architecture and I am currently playing catch-up. The strangest thing so far is having to re-orient my thinking for consumer focused systems and away from the enterprise world where I have I've gotten the vast majority of my experience and where I have spent my entire Microsoft career to date.</p><p>In the immediate future, I'm been dumped into the <a href="http://www.mix06.com/">MIX06</a> planning process. We have other stuff going on in the MIX timeframe that I'll get to soon enough. I'm also re-thinking my personal presence. As my career progresses, the moniker "DevHawk" seems more and more outdated. Is it?</p><p></p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">671</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-01-24 14:49:55</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-01-24 14:49:55</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">architect-on-the-edge</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[6deaa854-eaa8-42e8-8d94-3e616040cfc3]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Architect+On+The+Edge]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/01/24/Architect+On+The+Edge]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2876</wp:comment_id>
+    <wp:comment_author><![CDATA[John Cavnar-Johnson]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url>http://www.pluralsight.com/blogs/johncj</wp:comment_author_url>
+    <wp:comment_author_IP>24.206.188.192</wp:comment_author_IP>
+    <wp:comment_date>2006-01-24 17:45:10</wp:comment_date>
+    <wp:comment_date_gmt>2006-01-25 01:45:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[No.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2877</wp:comment_id>
+    <wp:comment_author><![CDATA[John deVadoss]]></wp:comment_author>
+    <wp:comment_author_email></wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>71.112.36.171</wp:comment_author_IP>
+    <wp:comment_date>2006-01-25 21:13:09</wp:comment_date>
+    <wp:comment_date_gmt>2006-01-26 05:13:09</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[no]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2878</wp:comment_id>
+    <wp:comment_author><![CDATA[David Ing]]></wp:comment_author>
+    <wp:comment_author_email>david.ing@gmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://from9till2.com</wp:comment_author_url>
+    <wp:comment_author_IP>81.151.39.122</wp:comment_author_IP>
+    <wp:comment_date>2006-01-27 06:49:40</wp:comment_date>
+    <wp:comment_date_gmt>2006-01-27 14:49:40</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[DevHawk 2.0?
+
+(ducks)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2879</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>67.183.15.9</wp:comment_author_IP>
+    <wp:comment_date>2006-01-29 23:49:34</wp:comment_date>
+    <wp:comment_date_gmt>2006-01-30 07:49:34</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[You better duck David. :)]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Felix Miller on The Musical myware</title>
+  <link>http://devhawk.net/2006/03/07/felix-miller-on-the-musical-myware/</link>
+  <pubDate>Tue, 07 Mar 2006 23:57:45 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://b0e57a87-e999-481a-b48a-a433163bc317</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Felix is from <a href="http://www.last.fm/">last.fm</a>, which I haven’t used. However, I’m definitely going to give it a try after seeing Felix’s talk. Last.fm is all about harnessing collective intelligence for music. The basic idea is that you install a plugin to your music player and it uploads everything you listen to the central server. Then they can do analysis of the collective data to make associations and recommendations. Sounds cool. Gotta try it out.</p><p>Felix was also making a more meta point which was where the name of the talk came from. He’s talking about myware as a play on spyware. The idea is to “spy” on yourself in an unobtrusive manner and then use that collected information to help you sometime in the future – in this case help you find new music by spying on your music playing habits. There’s major privacy concerns of course, but the idea is pretty interesting. Something to noodle on at any rate.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">712</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-03-07 23:57:45</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-03-07 23:57:45</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">felix-miller-on-the-musical-myware</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="etech"><![CDATA[ETech]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <category domain="post_tag" nicename="web-2-0"><![CDATA[Web 2.0]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[b0e57a87-e999-481a-b48a-a433163bc317]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Felix+Miller+On+The+Musical+Myware]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/03/08/Felix+Miller+On+The+Musical+Myware]]></wp:meta_value>
+  </wp:postmeta>
+</item>

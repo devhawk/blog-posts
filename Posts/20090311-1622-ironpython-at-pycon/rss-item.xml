@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronPython at PyCon</title>
+  <link>http://devhawk.net/2009/03/11/ironpython-at-pycon/</link>
+  <pubDate>Wed, 11 Mar 2009 16:22:31 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://51071c10-46be-4ed0-bf4b-ba671aa7e4de</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Here’s a quick quiz. Which of these tasks is harder to accomplish:</p><ol><li>Getting $6,000 from a variety of groups within Microsoft to pay for a Gold <a href="http://us.pycon.org/2009/">PyCon 2009</a> sponsorship.</li><li>Sending <a href="http://www.python.org/psf/">PSF</a> a check</li></ol><p>If you guessed #2, you’d be right. It’s amazing how difficult the seemly trivial task of “give those PSF folks money” turned out to be. But it’s done now, and you can see the MS logo there on the side of all the PyCon pages.</p><p>In addition to the sponsorship, there are some great looking IronPython sessions at PyCon. </p><ul><li><a href="http://www.voidspace.org.uk/python/weblog/index.shtml">Michael Foord</a> and <a href="http://www.tartley.com">Jonathan Hartley</a> are running a <a href="http://us.pycon.org/2009/tutorials/schedule/1AM3/">Developing with IronPython</a> tutorial. Michael is also delivering a talk <a href="http://us.pycon.org/2009/conference/schedule/event/P1/">Functional Testing of Desktop Applications</a>.</li><li>Jim Hugunin is delivering an invited talk <a href="http://us.pycon.org/2009/conference/schedule/event/P117/">IronPython: Directions, Data and Demos </a></li><li>Dino Viehland is sitting on the <a href="http://us.pycon.org/2009/conference/schedule/event/21/">Python VMs panel</a> and doing a talk <a href="http://us.pycon.org/2009/conference/schedule/event/86/">IronPython Implementation</a></li><li><a href="http://www.codinggeekette.com/">Sarah Dutkiewicz</a> (aka Coding Geekette) is doing a talk <a href="http://us.pycon.org/2009/conference/schedule/event/P12/">Pumping Iron into Python: Intro to FePy </a></li></ul>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1226</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-03-11 16:22:31</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-03-11 16:22:31</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironpython-at-pycon</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="python"><![CDATA[Python]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[51071c10-46be-4ed0-bf4b-ba671aa7e4de]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronPython+At+PyCon]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/03/11/IronPython+At+PyCon]]></wp:meta_value>
+  </wp:postmeta>
+</item>

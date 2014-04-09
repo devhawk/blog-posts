@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2844</wp:comment_id>
+  <wp:comment_author><![CDATA[Pawel]]></wp:comment_author>
+  <wp:comment_author_email>pawel@nospam.org</wp:comment_author_email>
+  <wp:comment_author_url></wp:comment_author_url>
+  <wp:comment_author_IP>216.229.147.20</wp:comment_author_IP>
+  <wp:comment_date>2005-09-08 21:59:24</wp:comment_date>
+  <wp:comment_date_gmt>2005-09-09 04:59:24</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[You have made a perfect point about productivity. In late '90, when first Java app servers came out, most of the server development was either on RS6000 or on Solaris. The only abstractions available were those provided by Rogue Wave toolkits and CORBA IDL. So Java introduced an enormous productivity boost for server applications. 
+
+At the same time, however, it was portability which made Java viable economically for IBM, BEA and others. It changed recurring cost of chasing OS/library versions into much smaller cost of upgrades to subsequent JVM levels. SUN has helped a lot in that area with relatively slow pace of innovation between JDK 1.2 and JDK 1.3.
+
+There is no doubt that portability brings little benefit to developers of business applications. Maybe with exception of programming on Windows/ hosting on Unix scheme. But there would be no Linux and no Java without it.
+]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

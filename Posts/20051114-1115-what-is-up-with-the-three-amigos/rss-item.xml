@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>What Is Up With The Three Amigos?</title>
+  <link>http://devhawk.net/2005/11/14/what-is-up-with-the-three-amigos/</link>
+  <pubDate>Mon, 14 Nov 2005 11:15:04 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://ffdb7145-6ab2-4433-95e7-034f620b544e</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>First, Amigo Grady Booch admits to <a href="http://devhawk.net/2005/11/07/Grady+Booch+Sez+Throw+Models+Away.aspx">throwing away models</a>. Now, Amigo <a href="http://www.ivarjacobson.com">Ivar Jacobson</a> has signed on as a VSIP partner:</p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px"><p>Microsoft has tapped Ivar Jacobson, known as one of the fathers of the popular Rational Unified Process (RUP), to lead an effort to deliver a lightweight unified process to the Microsoft Solutions Framework. </p><p>&lt;snip&gt;</p><p>Jacobson said the first fruits of his company's relationship with Microsoft will be through the delivery of the Essential Unified Process (Essential UP), which is based on the Microsoft Solutions Framework and integrated with VSTS. 
+</p><p>In short, Essential UP is a simplified or lighter-weight alternative to RUP, Jacobson said. Essential UP is an evolution of the unified process Jacobson helped create more than 10 years ago that forms the foundation of RUP, he said. </p><p>&lt;snip&gt;</p><p>"We need more lightweight processes," Jacobson said, noting that RUP has become too heavyweight and cumbersome. "We have competition from India, China and the former Soviet Union," he said. "It is not enough to be agile." 
+</p><p>Indeed, Microsoft has done a good job with its Microsoft Solutions Framework, and "their process agility is a clear differentiator for them," Jacobson said. 
+</p><p>"Essential UP stands on all the experience we have from RUP, but also offers us a chance to have a fresh start," Jacobson said. "We start in a new way because we've learned what works and what doesn't work."</p><p>&lt;snip&gt;</p><p>"RUP has a lot of good stuff, but it needs a correction," [Jacobson] said.</p><p>&lt;snip&gt;</p><p>However, among the primary problems Jacobson said he has with RUP is that it is "heavyweight." 
+</p><p>Also, "the process architecture needs to be refactored," Jacobson said. "It is very difficult to add new practices because it will force a big change in the base. For instance, adding in a streamlined way practices such as EA [Enterprise Architect], SOA [service-oriented architecture], ABD [asset-based development], re-engineering legacy systems and commercial off-the-shelf software would be very difficult, if at all possible. So I believe in starting all over fresh but not throwing away anything that is good." </p><p>&lt;snip&gt;</p><p>"Having an industry luminary build the next version of his tool for our platform is huge for us," [VSTS General Manager Rick] LaPlante said. </p><p>[From <span class="Article_Title"><a href="http://www.eweek.com/article2/0,1895,1886531,00.asp">Microsoft Taps Former Rational Heavyweight to Lend Credence to Enterprise Tools Play</a>, eWeek]</span></p></blockquote><p dir="ltr" style="MARGIN-RIGHT: 0px">I'd like to nominate Rick's comment for understatement of the year awards. It also gets me wondering what Amigo Jim Rumbaugh is up to these days.</p><p dir="ltr" style="MARGIN-RIGHT: 0px"> </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">652</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-11-14 11:15:04</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-11-14 11:15:04</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">what-is-up-with-the-three-amigos</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[ffdb7145-6ab2-4433-95e7-034f620b544e]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[What+Is+Up+With+The+Three+Amigos]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/11/14/What+Is+Up+With+The+Three+Amigos]]></wp:meta_value>
+  </wp:postmeta>
+</item>

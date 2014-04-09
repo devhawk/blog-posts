@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Architecture at the Intersection</title>
+  <link>http://devhawk.net/2005/08/30/architecture-at-the-intersection/</link>
+  <pubDate>Tue, 30 Aug 2005 17:08:53 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://26a8a400-285c-4810-aca7-3ba38a433a01</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p><a href="http://www.rgoarchitects.com/blog">Arnon Rotem-Gal-Oz</a> left a <a href="http://devhawk.net/CommentView,guid,1629f5d2-1504-436c-aa43-91419955fb5d.aspx">comment</a> yesterday disagreeing with my characterization of engineering vs. architecture problems:</p><blockquote><p>I can't say I totally agree that it is the software architect's role to come up with the list of functional requirements. That's what business analysts or requirement engineers do. The role of the architect is to identify which requirements are important and to surface the significant quality attributes (non-functional requirements) of the system (again, the architect is not the source of the quality attributes but his role is to determine which the most important ones are). </p></blockquote><p>I'm glad Arnon responded. His blog looks pretty interesting and he's working with Architect MVP <a href="http://udidahan.weblogs.us/">Udi Dahan</a>. Subscribed. </p><p>However, I wasn't talking about architects, I was talking about architecture. That may seem like a subtle difference, but between the wide variance in the definition of architecture and the wide variance in types of companies, trying to figure out a general description of architect across all that variance seems like chasing your tail. </p><p>So with that in mind, here's an interesting distinction between building architects and engineers. I think Pat Helland told me this, but I forget. If you know the origin of this comment, please <a href="mailto:hpierson@microsoft.com">drop me a line</a>.</p><blockquote><p>Engineering is about walls. Architecture is about the space between the walls.</p></blockquote><p>I love that distinction. That leads to my personal definition about architecture in the enterprise and/or software realm:</p><blockquote><p>Architecture is the intersection between business and IT.</p></blockquote><p><i>Most</i> of what I see passed off as architecture lives purely in the realm of IT. For example, as much as I like <a href="http://www.martinfowler.com/">Fowler's</a><a href="http://www.martinfowler.com/books.html#eaa">PoEAA</a>, I would argue that those are engineering patterns as they have little to do with business. If you're building a system for an enterprise, there's a business driver funding that system construction. The business folks don't really care which domain logic or data access patterns you use. <a href="http://www.martinfowler.com/eaaCatalog/domainModel.html">Domain Model</a> vs. <a href="http://www.martinfowler.com/eaaCatalog/tableModule.html">Table Module</a>? <a href="http://www.martinfowler.com/eaaCatalog/tableDataGateway.html">Table Data Gateway</a> vs. <a href="http://www.martinfowler.com/eaaCatalog/rowDataGateway.html">Row Data Gateway</a>? Come on, you think business people care about that?</p><p>If a decision doesn't effect a business person, it's not an architecture decision. I'm not saying it's not important - I think the role of the software engineer is critical in large-scale enterprise system design and construction. And I will readily admit that often a single person is responsible for both architecture and engineering. But that doesn't make them the same activity. As long as we continue to confuse the two disciplines, we hold them both back. </p><p>Tomorrow, who's doing all this architecting?</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">620</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2005-08-30 17:08:53</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2005-08-30 17:08:53</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">architecture-at-the-intersection</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="architecture"><![CDATA[Architecture]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[26a8a400-285c-4810-aca7-3ba38a433a01]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Architecture+At+The+Intersection]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2005/08/31/Architecture+At+The+Intersection]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2830</wp:comment_id>
+    <wp:comment_author><![CDATA[Udi Dahan -The Software Simplist]]></wp:comment_author>
+    <wp:comment_author_email>blog@UdiDahan.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.UdiDahan.com</wp:comment_author_url>
+    <wp:comment_author_IP>213.8.96.145</wp:comment_author_IP>
+    <wp:comment_date>2005-08-31 00:08:55</wp:comment_date>
+    <wp:comment_date_gmt>2005-08-31 07:08:55</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[As one that works in the defense industry I must say that things look a little different here. Could it be that the "definition" of Architecture (with a big 'A') is domain dependent? I hope not. Personally I prefer Fowler's description (as opposed to definition):
+
+Architecture is the set of decisions we hope to get right at the beginning of a project.
+
+Obviously only at the end of the project can we know what the quality of our original architecture was.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2831</wp:comment_id>
+    <wp:comment_author><![CDATA[Hal Pierson]]></wp:comment_author>
+    <wp:comment_author_email>halpierson@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>204.108.8.5</wp:comment_author_IP>
+    <wp:comment_date>2005-08-31 05:48:10</wp:comment_date>
+    <wp:comment_date_gmt>2005-08-31 12:48:10</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Is there an intersection between business and IT?  
+
+To quote Dave Welsh - 
+
+   "Business is from Mars, Technology is from Venus."
+
+]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2832</wp:comment_id>
+    <wp:comment_author><![CDATA[James Shaw]]></wp:comment_author>
+    <wp:comment_author_email>james@dozingdogs.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.coveryourasp.net</wp:comment_author_url>
+    <wp:comment_author_IP>68.191.241.14</wp:comment_author_IP>
+    <wp:comment_date>2005-08-31 05:50:36</wp:comment_date>
+    <wp:comment_date_gmt>2005-08-31 12:50:36</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Hey Harry, your mailbox is sending out:
+
+Final-Recipient: rfc822;harry@devhawk.net
+Action: failed
+Status: 5.5.0
+Diagnostic-Code: smtp;552 Mailbox size limit exceeded
+
+Of course, I don't know if you'll get this either, but please send me an alternate email.. Thanks!]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2833</wp:comment_id>
+    <wp:comment_author><![CDATA[Neil Macehiter]]></wp:comment_author>
+    <wp:comment_author_email>neilm@mwdadvisors.com</wp:comment_author_email>
+    <wp:comment_author_url>http://www.mwdadvisors.com</wp:comment_author_url>
+    <wp:comment_author_IP>62.253.128.11</wp:comment_author_IP>
+    <wp:comment_date>2005-09-01 10:01:16</wp:comment_date>
+    <wp:comment_date_gmt>2005-09-01 17:01:16</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Harry
+
+I certainly agree that an architect 'should' sit at the intersection between business and IT to ensure that the resulting architecture aligns with business requirements and priorities. It's not so much bottom-up or top-down as middle-out. That's why I get so frustrated with much of the commentary surrounding SOA which is largely driven from a software development and integration perspective rather than considering the different types of services which constitute a service-oriented approach to IT.
+
+Neil ]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

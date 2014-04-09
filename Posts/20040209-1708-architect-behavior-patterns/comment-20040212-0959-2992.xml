@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2992</wp:comment_id>
+  <wp:comment_author><![CDATA[Michael Earls]]></wp:comment_author>
+  <wp:comment_author_email>mearls@hotmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.cerkit.com</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-02-12 09:59:20</wp:comment_date>
+  <wp:comment_date_gmt>2004-02-12 17:59:20</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Jeff, I disagree.  When teamed together, architects from each side (and the middle) work perfectly well together and can accomplish great things.  So I must say that a purist _does_ accomplish a lot.  In fact, it's the purist you want designing your API and the realist doing the code review and API usability studies.
+
+Harry, I think my intent was to spearate the purpose of my entry from the purpose of yours by stating that it's a study of behavior rather than title and function as your entry does.  I did not mean to imply that you didn't care. :)  [removes foot from mouth]]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>IronRuby 0.3</title>
+  <link>http://devhawk.net/2009/03/23/ironruby-0-3/</link>
+  <pubDate>Mon, 23 Mar 2009 17:42:28 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://9f1f0602-c737-4ae8-8004-c122c433d254</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Last week was <a href="http://live.visitmix.com/">Mix09</a>, Microsoft’s annual conference for web development and design. There were some big announcements – <a href="http://silverlight.net/getstarted/silverlight3/default.aspx">Silverlight 3 Beta</a>, <a href="http://haacked.com/archive/2009/03/18/aspnet-mvc-rtw.aspx">ASP.NET MVC RTM</a>, <a href="http://blogs.msdn.com/ssds/archive/2009/03/10/9469228.aspx">TDS support for SQL Data Services</a>, new drops of <a href="http://blogs.msdn.com/windowsazure/archive/2009/03/18/windows-azure-delivers-new-ctp-capabilities.aspx">Azure</a> and <a href="http://blogs.msdn.com/liveframework/archive/2009/03/11/live-framework-updated.aspx">LiveFX</a> SDKs and I’m sure a bunch of other things that I’ve forgotten. </p><p>Of course, by far the most important thing that shipped at Mix09 was <a href="http://rubyforge.org/frs/download.php/53552/ironruby-0.3.0.zip">IronRuby 0.3</a>. </p><p>Jimmy has <a href="http://feedproxy.google.com/~r/jimmy-thinking/~3/ygbSDcv9_AU/ironruby-03-released.html">the details</a> on the new release and John Lam <a href="sessions.visitmix.com/MIX09/T22F">did a talk at Mix</a> on dynamic languages in Silverlight. I haven’t seen an announcement, but it also looks like there’s a new version of <a href="http://github.com/jschementi/agdlr/">AgDLR</a> - aka the <a href="http://sdlsdk.codeplex.com/">Silverlight Dynamic Languages SDK</a> – as well.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">1235</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2009-03-23 10:42:28</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2009-03-23 17:42:28</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">ironruby-0-3</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="ironpython"><![CDATA[IronPython]]></category>
+  <category domain="post_tag" nicename="ironruby"><![CDATA[IronRuby]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[9f1f0602-c737-4ae8-8004-c122c433d254]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[IronRuby+03]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2009/03/23/IronRuby+03]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+</item>

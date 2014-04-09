@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>OneNote Rocks</title>
+  <link>http://devhawk.net/2006/09/27/onenote-rocks/</link>
+  <pubDate>Wed, 27 Sep 2006 11:17:56 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://4e86d50e-a083-47eb-b7fe-82c6d3eb58e0</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>I need a better microphone for my laptop, but the ability to record the audio for a meeting and sync that audio with the notes you're taking is brilliant. I'm using the 2007 version, but I think at least some of this functionality was available in the 2003 version. </p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">803</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-09-27 11:17:56</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-09-27 11:17:56</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">onenote-rocks</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="office"><![CDATA[Office]]></category>
+  <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/09/27/OneNote+Rocks]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[OneNote+Rocks]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[4e86d50e-a083-47eb-b7fe-82c6d3eb58e0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2408</wp:comment_id>
+    <wp:comment_author><![CDATA[Dag K&#246;nig]]></wp:comment_author>
+    <wp:comment_author_email>dagk@microsoft.com</wp:comment_author_email>
+    <wp:comment_author_url>http://buzzfrog.blogs.com</wp:comment_author_url>
+    <wp:comment_author_IP>83.226.215.70</wp:comment_author_IP>
+    <wp:comment_date>2006-09-27 22:26:52</wp:comment_date>
+    <wp:comment_date_gmt>2006-09-28 05:26:52</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Both features are also available in OneNote 2003. I have used it often. But sometime it makes you feel like a spy. ;-)
+
+/dag]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2409</wp:comment_id>
+    <wp:comment_author><![CDATA[Bil Simser]]></wp:comment_author>
+    <wp:comment_author_email>emailme@bilsimser.com</wp:comment_author_email>
+    <wp:comment_author_url>http://weblogs.asp.net/bsimser</wp:comment_author_url>
+    <wp:comment_author_IP>24.64.226.237</wp:comment_author_IP>
+    <wp:comment_date>2006-10-22 20:48:59</wp:comment_date>
+    <wp:comment_date_gmt>2006-10-23 03:48:59</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I totally agree. I use OneNote for *everything* and keep a few OneNote notebook files online in SharePoint where you can just sync stuff automagically. It's great for keeping track of little things, plus I have sections for projects, software, and a blog queue of intersting things I'll get to one day.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

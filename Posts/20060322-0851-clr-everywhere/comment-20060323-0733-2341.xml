@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2341</wp:comment_id>
+  <wp:comment_author><![CDATA[David White]]></wp:comment_author>
+  <wp:comment_author_email>dwhite@gsdtelematics.com</wp:comment_author_email>
+  <wp:comment_author_url>http://www.gsdtelematics.com</wp:comment_author_url>
+  <wp:comment_author_IP>68.77.160.211</wp:comment_author_IP>
+  <wp:comment_date>2006-03-23 07:33:04</wp:comment_date>
+  <wp:comment_date_gmt>2006-03-23 14:33:04</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[You will be able to program against your car in .Net as soon as we can get the hardware finished ;-) Check it out in about 30 days!]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>

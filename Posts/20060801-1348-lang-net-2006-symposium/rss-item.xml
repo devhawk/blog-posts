@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Lang .NET 2006 Symposium</title>
+  <link>http://devhawk.net/2006/08/01/lang-net-2006-symposium/</link>
+  <pubDate>Tue, 01 Aug 2006 13:48:01 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">devhawk</dc:creator>
+  <guid isPermaLink="false">http://9d1f067a-0eb5-4d82-9eea-bab7bbc620ba</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Yesterday, I attended the <a href="http://www.langnetsymposium.com/">Lang .NET 2006 Symposium</a> - basically a public version of the CLR Compiler Lab I went to back in March. Unfortunately, with my new job, I couldn't attend all three days, but I did attend day one. Here we're my thoughts on the various sessions.</p><p>Anders Hejlsberg - LINQ and C# 3.0</p><ul><li>This was basically a rehash of his talk from the March Compiler lab. Makes sense as it was a new audience, but the "Query the Running Processes" demo is getting pretty old. Check out <a href="http://devhawk.net/2006/03/14/Compiler+Dev+Lab+LINQ.aspx">my notes from March</a> for more details.</li></ul><p><a href="http://sky.fit.qut.edu.au/~gough/">John Gough</a> - Dealing with Ruby on the CLR <br /></p><ul><li>John is a professor from the <a href="http://plas.fit.qut.edu.au/Default.aspx">Programming Languages and Systems</a> group at <a href="http://www.qut.edu.au/">Queensland University of Technology</a>. They're the ones building <a href="http://plas.fit.qut.edu.au/Ruby.NET/">Ruby.NET</a>. He's also the author of <a href="http://www.phptr.com/bookstore/product.asp?isbn=0130622966">Compiling for the .NET Common Language Runtime</a>, a great if somewhat dated (i.e. .NET 1.0) book.</li><li>Much of John's talk covered the ground that <a href="http://blogs.msdn.com/hugunin/default.aspx">Jim Hugunin</a> covered <a href="http://devhawk.net/2006/03/15/Compiler+Dev+Lab+Scripting.aspx">back in March</a> around the difficulties of mapping dynamic languages to the static CLR. For example, most Ruby.NET objects are instances of Ruby.Object, with their link to a class - a Ruby.Class - managed by the Ruby.NET runtime rather than leveraging the CLR's built-in class structure.</li><li>He didn't spend much time talking about the really hard problems like continuations, which I was really hoping he would.</li><li>There are a series of "allied" tools coming out of this project which look really interesting in their own right:</li><ul><li><a href="http://plas.fit.qut.edu.au/perwapi/">PE File Reader/Writer</a> - a managed component for reading writing DLL and EXE files. </li><li><a href="http://plas.fit.qut.edu.au/gppg/">Gardens Point Parser Generator</a> (GPPG) - a Yacc/<a href="http://www.gnu.org/software/bison/">Bison</a> style parser generator, written in and generating C#</li><li>Gardens Point LEX (GPLEX) - companion to GPPG for generating C# scanners, a la LEX or <a href="http://flex.sourceforge.net/">Flex</a>. Not released yet, but John indicated it would be available in the next couple of weeks.</li></ul></ul><p><a href="http://www.cdiggins.com/">Christopher Diggins</a> - <a href="http://www.cdiggins.com/cat">Cat Programming Language</a>: A Functional Optimization Framework for the CLI </p><ul><li>I'm fairly sure Christopher doesn't present often. Otherwise he would have know that there's no way to present <a href="http://www.cdiggins.com/cat/cat_lang_net.ppt">107 slides</a> in 30 minutes. </li><li>Christopher had a hard time expressing why someone would use Cat, even when asked point blank by an audience member. Most of his 107 slides were describing various features of the language. I don't know about the rest of the audience, but I got lost pretty quickly. </li><li>It's too bad Christopher was so obtuse as a speaker, as Cat seemed pretty interesting. If you skip the first 78 slides (!) of his deck, you get to a slide named "Transformation Engine" which seems to be the primary reason for Cat's existence. The idea seems to be to build a large number (Chris said potentially thousands) of little optimization transformations which are used to "prune" the tree during the binary generation stage of a compiler.</li><li>The only problem with this (other than the difficulty of following the presentation) is that I don't think compiler optimization is a particularly useful area of study. I subscribe to "<a href="http://research.microsoft.com/~toddpro/papers/law.htm">Proebsting's Law</a>" on this one: "Advances in compiler optimizations double computing power every 18 <em>years</em>." This implies that programmer productivity is far more important than compiler optimization. Ruby is the latest great example of this phenomenon.</li></ul><p>Mark Cooper - <a href="http://pagexml.net/">Page XML</a> : An XML based domain specific language for developing web applications <br /></p><ul><li>Page XML is a DSL for building web apps. Unfortunately, it isn't released yet and it was hard to get a sense of what a solution built with Page XML would look like from the individual features described on slides. But I was certainly intrigued.</li><li>As a DSL, Page XML needs to encode domain-specific abstraction. One example they provided that I thought was cool was their URL handling. Good URL design is an important usability feature. URLs in PageXML are split into constant and variable parts, so in a URL like mysite.com/news/somechannel/4, the "somechannel" and the "4" would be variable parts that would map into parameters that are passed to a page handler. Very cool.</li><li>There were a large number of what felt like small and simple yet eminently usable features. Too many for me to write down.</li><li>The only think I didn't like is the use of XML. No only are domain specific concepts like URLs encoded in XML, but also relatively mundane things like loops and if statements. This gets ugly really quickly. I imagine, the creators of Page XML did this so they wouldn't have to build their own parser, but it really hurts the usability of the language. </li><li>The last point really points to the need for a simple meta-language - a language for building languages. Lex/Yacc and their derivatives just don't cut it. <a href="http://jayfields.blogspot.com/2006/05/executing-internal-dsl-in-multiple.html">Ruby is good</a> for building <a href="http://martinfowler.com/articles/languageWorkbench.html#InternalDsl">internal DSLs</a>, but I'd like something faster and amenable to static typing as well as something more light weight for building <a href="http://martinfowler.com/articles/languageWorkbench.html#ExternalDsl">external DSLs</a>.</li></ul><p>This post is long enough and I have "real" work to do (the downside of leaving evangelism! :) ). I'll post about the afternoon sessions later.</p>]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">775</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2006-08-01 13:48:01</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2006-08-01 13:48:01</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">lang-net-2006-symposium</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="domain-specific-languages"><![CDATA[Domain Specific Languages]]></category>
+  <category domain="post_tag" nicename="lanugages"><![CDATA[Lanugages]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_entryid</wp:meta_key>
+    <wp:meta_value><![CDATA[9d1f067a-0eb5-4d82-9eea-bab7bbc620ba]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitle</wp:meta_key>
+    <wp:meta_value><![CDATA[Lang+NET+2006+Symposium]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>dasblog_compressedtitleunique</wp:meta_key>
+    <wp:meta_value><![CDATA[2006/08/01/Lang+NET+2006+Symposium]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2391</wp:comment_id>
+    <wp:comment_author><![CDATA[Jason Bock]]></wp:comment_author>
+    <wp:comment_author_email>jason@jasonbock.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.jasonbock.net</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.167.9</wp:comment_author_IP>
+    <wp:comment_date>2006-08-01 13:54:33</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-01 20:54:33</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[I'm posting my own day-to-day summaries as well:
+
+http://www.dotnetlanguages.net
+
+Where are you? I'm the bald guy with a green shirt on :)
+
+Regards,
+Jason]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2392</wp:comment_id>
+    <wp:comment_author><![CDATA[Jason Bock]]></wp:comment_author>
+    <wp:comment_author_email>jason@jasonbock.net</wp:comment_author_email>
+    <wp:comment_author_url>http://www.jasonbock.net</wp:comment_author_url>
+    <wp:comment_author_IP>131.107.167.9</wp:comment_author_IP>
+    <wp:comment_date>2006-08-01 13:57:01</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-01 20:57:01</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Ah, never mind - I missed that point where you said you couldn't attend all three days.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>2393</wp:comment_id>
+    <wp:comment_author><![CDATA[Max Lybbert]]></wp:comment_author>
+    <wp:comment_author_email>mlybbert@users.sourceforge.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>64.132.106.194</wp:comment_author_IP>
+    <wp:comment_date>2006-08-09 09:40:09</wp:comment_date>
+    <wp:comment_date_gmt>2006-08-09 16:40:09</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Just because I've followed Chris Diggins for a little while, I'd like to point out that Cat isn't about compiler optimization so much as it's about making cross platform compilers easy to write.
+
+Diggins has spent about a decade coming up with Heron, which in its current incarnation compiles to C++ (Heron.Standard) or can be run as an interpreted language (Heron.Script).  He wants it to compile to other platforms, and to interoperate well with other languages.  The way I understand things, he wants to compile Heron to Cat, and Cat to .Net, i386 assembly code, JVM, and whatever other platforms catch his eye.  It's a lot like GCC's register type language.
+
+Yeah, Cat's supposed to make it possible to optimize according to whatever optimizations are available on that platform, but it's also supposed to make it easier to target several platforms.  And it should be reusabel for anyone else working on a language who doesn't want to do as much low-level dirty work.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+  </wp:comment>
+</item>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>2969</wp:comment_id>
+  <wp:comment_author><![CDATA[Martin Spedding]]></wp:comment_author>
+  <wp:comment_author_email>martin@mjs-solutions.com</wp:comment_author_email>
+  <wp:comment_author_url>http://weblogs.asp.net/mspedding</wp:comment_author_url>
+  <wp:comment_author_IP></wp:comment_author_IP>
+  <wp:comment_date>2004-01-21 01:53:43</wp:comment_date>
+  <wp:comment_date_gmt>2004-01-21 09:53:43</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Hi Harry,
+
+I have reached the same point as you. Just checking all the blogs on weblogs.asp.net is difficult enough. Especially with all the ex gotdotnet bloggers also being hosted there. In fact I am trying to write an application where it "pre reads" the set of blogs I have defined in an OMPL file and if any of my predefined keywords are found it is highlighted. The greater the number of the keywords found the higher the ranking. 
+
+The sheer volume of information is incredible but a great step forward but it is difficult to follow.]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+</wp:comment>
