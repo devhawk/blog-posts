@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.8.2" created="2014-04-12 22:46" -->
+<!-- generator="WordPress/3.8.4" created="2014-09-26 03:49" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>DevHawk</title>
 	<link>http://devhawk.net</link>
 	<description>Passion * Technology * Ruthless Competence</description>
-	<pubDate>Sat, 12 Apr 2014 22:46:10 +0000</pubDate>
+	<pubDate>Fri, 26 Sep 2014 03:49:56 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://devhawk.net</wp:base_site_url>
@@ -39,7 +39,7 @@
 	<wp:author><wp:author_id>2</wp:author_id><wp:author_login>dale</wp:author_login><wp:author_email>dale@microsoft.com</wp:author_email><wp:author_display_name><![CDATA[Dale Churchward]]></wp:author_display_name><wp:author_first_name><![CDATA[Dale]]></wp:author_first_name><wp:author_last_name><![CDATA[Churchward]]></wp:author_last_name></wp:author>
 
 
-	<generator>http://wordpress.org/?v=3.8.2</generator>
+	<generator>http://wordpress.org/?v=3.8.4</generator>
 
 	<item>
 				<title>Putting the “Dev” Back in DevHawk</title>
@@ -181,62 +181,8 @@ For those who want one of their own, I posted the <a href="http://www.zazzle.com
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1396487890.087872028350830078125;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
 			</wp:commentmeta>
 			<wp:commentmeta>
-				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:125:{s:15:"comment_post_ID";i:2065;s:14:"comment_author";s:6:"Mahesh";s:20:"comment_author_email";s:21:"maheshp@microsoft.com";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:16:"Congrats, Harry!";s:12:"comment_type";s:0:"";s:14:"comment_parent";i:0;s:7:"user_ID";i:0;s:7:"user_ip";s:12:"50.46.145.95";s:10:"user_agent";s:75:"Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko";s:8:"referrer";s:47:"http://devhawk.net/2014/04/02/blood-sweat-code/";s:4:"blog";s:18:"http://devhawk.net";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:47:"http://devhawk.net/2014/04/02/blood-sweat-code/";s:21:"akismet_comment_nonce";s:6:"passed";s:11:"POST_author";s:6:"Mahesh";s:10:"POST_email";s:21:"maheshp@microsoft.com";s:8:"POST_url";s:0:"";s:12:"POST_comment";s:17:"Congrats, Harry! ";s:11:"POST_submit";s:12:"Post Comment";s:20:"POST_comment_post_ID";s:4:"2065";s:19:"POST_comment_parent";s:1:"0";s:26:"POST_akismet_comment_nonce";s:10:"49353736d0";s:15:"SERVER_SOFTWARE";s:17:"Microsoft-IIS/7.0";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:13:"_FCGI_X_PIPE_";s:53:"\\.\pipe\IISFCGI-dce84afd-b7a2-4406-ac95-cf3729fd32aa";s:5:"PHPRC";s:32:"D:\Hosting\7723049\html\php5.ini";s:17:"ADDITIONALSERVERS";s:69:"p3nw5nlmaster01,p3nw5nlmedia01,p3nw5nlmedia02,p3pwarmedia01,p3media02";s:6:"ADName";s:30:"P3NW8SHG272.phx3.gdhosting.gdg";s:15:"ALLUSERSPROFILE";s:14:"C:\ProgramData";s:7:"APPDATA";s:56:"C:\Windows\system32\config\systemprofile\AppData\Roaming";s:11:"APP_POOL_ID";s:22:"7723049_32_I_solo_v4.0";s:18:"CommonProgramFiles";s:35:"C:\Program Files (x86)\Common Files";s:23:"CommonProgramFiles(x86)";s:35:"C:\Program Files (x86)\Common Files";s:18:"CommonProgramW6432";s:29:"C:\Program Files\Common Files";s:12:"COMPUTERNAME";s:11:"P3NW8SHG272";s:7:"ComSpec";s:27:"C:\Windows\system32\cmd.exe";s:16:"FP_NO_HOST_CHECK";s:2:"NO";s:12:"LOCALAPPDATA";s:54:"C:\Windows\system32\config\systemprofile\AppData\Local";s:12:"LOCALSQLMSTR";s:9:"%SQLMSTR%";s:12:"MASTERSERVER";s:15:"p3nw5nlmaster01";s:20:"NUMBER_OF_PROCESSORS";s:1:"8";s:2:"OS";s:10:"Windows_NT";s:4:"Path";s:438:"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Imaging\;D:\Program Files\Dell\OpenManage\shared\bin;D:\Program Files\Dell\OpenManage\oma\bin;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\GDcomponents\tools;C:\Program Files\NetApp\Windows Host Utilities\;C:\Program Files\NetApp\SnapDrive\";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:10:"PRIMARYDNS";s:13:"72.167.234.83";s:22:"PROCESSOR_ARCHITECTURE";s:3:"x86";s:22:"PROCESSOR_ARCHITEW6432";s:5:"AMD64";s:20:"PROCESSOR_IDENTIFIER";s:50:"Intel64 Family 6 Model 44 Stepping 2, GenuineIntel";s:15:"PROCESSOR_LEVEL";s:1:"6";s:18:"PROCESSOR_REVISION";s:4:"2c02";s:11:"ProgramData";s:14:"C:\ProgramData";s:12:"ProgramFiles";s:22:"C:\Program Files (x86)";s:17:"ProgramFiles(x86)";s:22:"C:\Program Files (x86)";s:12:"ProgramW6432";s:16:"C:\Program Files";s:12:"PSModulePath";s:51:"C:\Windows\system32\WindowsPowerShell\v1.0\Modules\";s:6:"PUBLIC";s:15:"C:\Users\Public";s:12:"SECONDARYDNS";s:13:"72.167.234.93";s:3:"SYM";s:2:"AZ";s:11:"SystemDrive";s:2:"C:";s:10:"SystemRoot";s:10:"C:\Windows";s:4:"TEMP";s:11:"d:\temp\tmp";s:3:"TMP";s:11:"d:\temp\tmp";s:7:"UATDATA";s:68:"C:\Windows\SysWOW64\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77";s:10:"USERDOMAIN";s:4:"PHX3";s:8:"USERNAME";s:12:"P3NW8SHG272$";s:11:"USERPROFILE";s:40:"C:\Windows\system32\config\systemprofile";s:6:"windir";s:10:"C:\Windows";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:18:"HTTP_CACHE_CONTROL";s:8:"no-cache";s:15:"HTTP_CONNECTION";s:10:"Keep-Alive";s:19:"HTTP_CONTENT_LENGTH";s:3:"167";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:37:"text/html, application/xhtml+xml, */*";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:11:"HTTP_COOKIE";s:0:"";s:9:"HTTP_HOST";s:11:"devhawk.net";s:12:"HTTP_REFERER";s:47:"http://devhawk.net/2014/04/02/blood-sweat-code/";s:15:"HTTP_USER_AGENT";s:75:"Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko";s:8:"HTTP_DNT";s:1:"1";s:13:"DOCUMENT_ROOT";s:23:"D:\Hosting\7723049\html";s:13:"INSTANCE_NAME";s:11:"DEVHAWK.NET";s:15:"SCRIPT_FILENAME";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:20:"IIS_UrlRewriteModule";s:1:"1";s:12:"APPL_MD_PATH";s:22:"/LM/W3SVC/7723049/ROOT";s:18:"APPL_PHYSICAL_PATH";s:24:"D:\Hosting\7723049\html\";s:9:"AUTH_TYPE";s:0:"";s:13:"AUTH_PASSWORD";s:0:"";s:9:"AUTH_USER";s:0:"";s:11:"CERT_COOKIE";s:0:"";s:10:"CERT_FLAGS";s:0:"";s:11:"CERT_ISSUER";s:0:"";s:17:"CERT_SERIALNUMBER";s:0:"";s:12:"CERT_SUBJECT";s:0:"";s:14:"CONTENT_LENGTH";s:3:"167";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:5:"HTTPS";s:3:"off";s:13:"HTTPS_KEYSIZE";s:0:"";s:19:"HTTPS_SECRETKEYSIZE";s:0:"";s:19:"HTTPS_SERVER_ISSUER";s:0:"";s:20:"HTTPS_SERVER_SUBJECT";s:0:"";s:11:"INSTANCE_ID";s:7:"7723049";s:18:"INSTANCE_META_PATH";s:17:"/LM/W3SVC/7723049";s:10:"LOCAL_ADDR";s:15:"184.168.193.217";s:10:"LOGON_USER";s:0:"";s:15:"PATH_TRANSLATED";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:12:"QUERY_STRING";s:0:"";s:11:"REMOTE_ADDR";s:12:"50.46.145.95";s:11:"REMOTE_HOST";s:12:"50.46.145.95";s:11:"REMOTE_PORT";s:5:"60611";s:11:"REMOTE_USER";s:0:"";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:11:"SERVER_NAME";s:11:"devhawk.net";s:11:"SERVER_PORT";s:2:"80";s:18:"SERVER_PORT_SECURE";s:1:"0";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:3:"URL";s:21:"/wp-comments-post.php";s:14:"ORIG_PATH_INFO";s:21:"/wp-comments-post.php";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:12:"REQUEST_TIME";s:10:"1396487889";s:25:"comment_post_modified_gmt";s:19:"2014-04-02 19:17:52";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
 				<wp:meta_key>akismet_history</wp:meta_key>
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1396625634.50938701629638671875;s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
-			</wp:commentmeta>
-		</wp:comment>
-		<wp:comment>
-			<wp:comment_id>3658</wp:comment_id>
-			<wp:comment_author><![CDATA[Alex Rosenberg]]></wp:comment_author>
-			<wp:comment_author_email>alexr@leftfield.org</wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP>50.242.83.17</wp:comment_author_IP>
-			<wp:comment_date>2014-04-02 20:54:09</wp:comment_date>
-			<wp:comment_date_gmt>2014-04-03 03:54:09</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Ripping off Metrowerks' IP isn't OK. I'm sure the lawyers at Freescale won't be happy either.
-
-Shades of James Plamondon's co-opting of my System 7.5 Sucks Less shirts.
-
-I guess this is how Microsoft conducts business as usual?]]></wp:comment_content>
-			<wp:comment_approved>trash</wp:comment_approved>
-			<wp:comment_type></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_result</wp:meta_key>
-				<wp:meta_value><![CDATA[false]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_history</wp:meta_key>
-				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1396497249.0659389495849609375;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:125:{s:15:"comment_post_ID";i:2065;s:14:"comment_author";s:14:"Alex Rosenberg";s:20:"comment_author_email";s:19:"alexr@leftfield.org";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:231:"Ripping off Metrowerks' IP isn't OK. I'm sure the lawyers at Freescale won't be happy either.
-
-Shades of James Plamondon's co-opting of my System 7.5 Sucks Less shirts.
-
-I guess this is how Microsoft conducts business as usual?";s:12:"comment_type";s:0:"";s:14:"comment_parent";i:0;s:7:"user_ID";i:0;s:7:"user_ip";s:12:"50.242.83.17";s:10:"user_agent";s:101:"Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651";s:8:"referrer";s:47:"http://devhawk.net/2014/04/02/blood-sweat-code/";s:4:"blog";s:18:"http://devhawk.net";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:47:"http://devhawk.net/2014/04/02/blood-sweat-code/";s:21:"akismet_comment_nonce";s:6:"passed";s:11:"POST_author";s:14:"Alex Rosenberg";s:10:"POST_email";s:19:"alexr@leftfield.org";s:8:"POST_url";s:0:"";s:12:"POST_comment";s:231:"Ripping off Metrowerks' IP isn't OK. I'm sure the lawyers at Freescale won't be happy either.
-
-Shades of James Plamondon's co-opting of my System 7.5 Sucks Less shirts.
-
-I guess this is how Microsoft conducts business as usual?";s:11:"POST_submit";s:12:"Post Comment";s:20:"POST_comment_post_ID";s:4:"2065";s:19:"POST_comment_parent";s:1:"0";s:26:"POST_akismet_comment_nonce";s:10:"49353736d0";s:23:"POST_subscribe_comments";s:9:"subscribe";s:15:"SERVER_SOFTWARE";s:17:"Microsoft-IIS/7.0";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:13:"_FCGI_X_PIPE_";s:53:"\\.\pipe\IISFCGI-ddf2ef85-c8f9-4b27-a97e-b7b1b499ff3f";s:5:"PHPRC";s:32:"D:\Hosting\7723049\html\php5.ini";s:17:"ADDITIONALSERVERS";s:69:"p3nw5nlmaster01,p3nw5nlmedia01,p3nw5nlmedia02,p3pwarmedia01,p3media02";s:6:"ADName";s:30:"P3NW8SHG272.phx3.gdhosting.gdg";s:15:"ALLUSERSPROFILE";s:14:"C:\ProgramData";s:7:"APPDATA";s:56:"C:\Windows\system32\config\systemprofile\AppData\Roaming";s:11:"APP_POOL_ID";s:22:"7723049_32_I_solo_v4.0";s:18:"CommonProgramFiles";s:35:"C:\Program Files (x86)\Common Files";s:23:"CommonProgramFiles(x86)";s:35:"C:\Program Files (x86)\Common Files";s:18:"CommonProgramW6432";s:29:"C:\Program Files\Common Files";s:12:"COMPUTERNAME";s:11:"P3NW8SHG272";s:7:"ComSpec";s:27:"C:\Windows\system32\cmd.exe";s:16:"FP_NO_HOST_CHECK";s:2:"NO";s:12:"LOCALAPPDATA";s:54:"C:\Windows\system32\config\systemprofile\AppData\Local";s:12:"LOCALSQLMSTR";s:9:"%SQLMSTR%";s:12:"MASTERSERVER";s:15:"p3nw5nlmaster01";s:20:"NUMBER_OF_PROCESSORS";s:1:"8";s:2:"OS";s:10:"Windows_NT";s:4:"Path";s:438:"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Imaging\;D:\Program Files\Dell\OpenManage\shared\bin;D:\Program Files\Dell\OpenManage\oma\bin;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\GDcomponents\tools;C:\Program Files\NetApp\Windows Host Utilities\;C:\Program Files\NetApp\SnapDrive\";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:10:"PRIMARYDNS";s:13:"72.167.234.83";s:22:"PROCESSOR_ARCHITECTURE";s:3:"x86";s:22:"PROCESSOR_ARCHITEW6432";s:5:"AMD64";s:20:"PROCESSOR_IDENTIFIER";s:50:"Intel64 Family 6 Model 44 Stepping 2, GenuineIntel";s:15:"PROCESSOR_LEVEL";s:1:"6";s:18:"PROCESSOR_REVISION";s:4:"2c02";s:11:"ProgramData";s:14:"C:\ProgramData";s:12:"ProgramFiles";s:22:"C:\Program Files (x86)";s:17:"ProgramFiles(x86)";s:22:"C:\Program Files (x86)";s:12:"ProgramW6432";s:16:"C:\Program Files";s:12:"PSModulePath";s:51:"C:\Windows\system32\WindowsPowerShell\v1.0\Modules\";s:6:"PUBLIC";s:15:"C:\Users\Public";s:12:"SECONDARYDNS";s:13:"72.167.234.93";s:3:"SYM";s:2:"AZ";s:11:"SystemDrive";s:2:"C:";s:10:"SystemRoot";s:10:"C:\Windows";s:4:"TEMP";s:11:"d:\temp\tmp";s:3:"TMP";s:11:"d:\temp\tmp";s:7:"UATDATA";s:68:"C:\Windows\SysWOW64\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77";s:10:"USERDOMAIN";s:4:"PHX3";s:8:"USERNAME";s:12:"P3NW8SHG272$";s:11:"USERPROFILE";s:40:"C:\Windows\system32\config\systemprofile";s:6:"windir";s:10:"C:\Windows";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:19:"HTTP_CONTENT_LENGTH";s:3:"442";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:5:"en-us";s:11:"HTTP_COOKIE";s:0:"";s:9:"HTTP_HOST";s:11:"devhawk.net";s:12:"HTTP_REFERER";s:47:"http://devhawk.net/2014/04/02/blood-sweat-code/";s:15:"HTTP_USER_AGENT";s:101:"Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651";s:11:"HTTP_ORIGIN";s:18:"http://devhawk.net";s:13:"DOCUMENT_ROOT";s:23:"D:\Hosting\7723049\html";s:13:"INSTANCE_NAME";s:11:"DEVHAWK.NET";s:15:"SCRIPT_FILENAME";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:20:"IIS_UrlRewriteModule";s:1:"1";s:12:"APPL_MD_PATH";s:22:"/LM/W3SVC/7723049/ROOT";s:18:"APPL_PHYSICAL_PATH";s:24:"D:\Hosting\7723049\html\";s:9:"AUTH_TYPE";s:0:"";s:13:"AUTH_PASSWORD";s:0:"";s:9:"AUTH_USER";s:0:"";s:11:"CERT_COOKIE";s:0:"";s:10:"CERT_FLAGS";s:0:"";s:11:"CERT_ISSUER";s:0:"";s:17:"CERT_SERIALNUMBER";s:0:"";s:12:"CERT_SUBJECT";s:0:"";s:14:"CONTENT_LENGTH";s:3:"442";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:5:"HTTPS";s:3:"off";s:13:"HTTPS_KEYSIZE";s:0:"";s:19:"HTTPS_SECRETKEYSIZE";s:0:"";s:19:"HTTPS_SERVER_ISSUER";s:0:"";s:20:"HTTPS_SERVER_SUBJECT";s:0:"";s:11:"INSTANCE_ID";s:7:"7723049";s:18:"INSTANCE_META_PATH";s:17:"/LM/W3SVC/7723049";s:10:"LOCAL_ADDR";s:15:"184.168.193.217";s:10:"LOGON_USER";s:0:"";s:15:"PATH_TRANSLATED";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:12:"QUERY_STRING";s:0:"";s:11:"REMOTE_ADDR";s:12:"50.242.83.17";s:11:"REMOTE_HOST";s:12:"50.242.83.17";s:11:"REMOTE_PORT";s:5:"19726";s:11:"REMOTE_USER";s:0:"";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:11:"SERVER_NAME";s:11:"devhawk.net";s:11:"SERVER_PORT";s:2:"80";s:18:"SERVER_PORT_SECURE";s:1:"0";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:3:"URL";s:21:"/wp-comments-post.php";s:14:"ORIG_PATH_INFO";s:21:"/wp-comments-post.php";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:12:"REQUEST_TIME";s:10:"1396497248";s:25:"comment_post_modified_gmt";s:19:"2014-04-02 19:17:52";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_history</wp:meta_key>
-				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1396626600.57020092010498046875;s:7:"message";s:43:"devhawk changed the comment status to trash";s:5:"event";s:12:"status-trash";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
-				<wp:meta_value><![CDATA[0]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
-				<wp:meta_value><![CDATA[1396626600]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
 	</item>
@@ -320,10 +266,6 @@ I heard many times over the past two days from folks in person at the conference
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1396633163.5725910663604736328125;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
 			</wp:commentmeta>
 			<wp:commentmeta>
-				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:126:{s:15:"comment_post_ID";i:2071;s:14:"comment_author";s:11:"Alex Kovacs";s:20:"comment_author_email";s:22:"alex.kovacs@cirrus.com";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:66:"This is great! It means the voices of IHV / ISV's are being heard.";s:12:"comment_type";s:0:"";s:14:"comment_parent";i:0;s:7:"user_ID";i:0;s:7:"user_ip";s:14:"166.137.208.19";s:10:"user_agent";s:137:"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53";s:8:"referrer";s:66:"http://devhawk.net/2014/04/04/enterprise-winrt-apps-build-roundup/";s:4:"blog";s:18:"http://devhawk.net";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:66:"http://devhawk.net/2014/04/04/enterprise-winrt-apps-build-roundup/";s:21:"akismet_comment_nonce";s:6:"passed";s:11:"POST_author";s:11:"Alex Kovacs";s:10:"POST_email";s:22:"alex.kovacs@cirrus.com";s:8:"POST_url";s:0:"";s:12:"POST_comment";s:66:"This is great! It means the voices of IHV / ISV's are being heard.";s:11:"POST_submit";s:12:"Post Comment";s:20:"POST_comment_post_ID";s:4:"2071";s:19:"POST_comment_parent";s:1:"0";s:26:"POST_akismet_comment_nonce";s:10:"7ed215097e";s:23:"POST_subscribe_comments";s:9:"subscribe";s:19:"POST_subscribe_blog";s:9:"subscribe";s:15:"SERVER_SOFTWARE";s:17:"Microsoft-IIS/7.0";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:13:"_FCGI_X_PIPE_";s:53:"\\.\pipe\IISFCGI-bb1e2ca7-54db-42e2-9080-23b1e1db50ae";s:5:"PHPRC";s:32:"D:\Hosting\7723049\html\php5.ini";s:17:"ADDITIONALSERVERS";s:69:"p3nw5nlmaster01,p3nw5nlmedia01,p3nw5nlmedia02,p3pwarmedia01,p3media02";s:6:"ADName";s:30:"P3NW8SHG272.phx3.gdhosting.gdg";s:15:"ALLUSERSPROFILE";s:14:"C:\ProgramData";s:7:"APPDATA";s:56:"C:\Windows\system32\config\systemprofile\AppData\Roaming";s:11:"APP_POOL_ID";s:22:"7723049_32_I_solo_v4.0";s:18:"CommonProgramFiles";s:35:"C:\Program Files (x86)\Common Files";s:23:"CommonProgramFiles(x86)";s:35:"C:\Program Files (x86)\Common Files";s:18:"CommonProgramW6432";s:29:"C:\Program Files\Common Files";s:12:"COMPUTERNAME";s:11:"P3NW8SHG272";s:7:"ComSpec";s:27:"C:\Windows\system32\cmd.exe";s:16:"FP_NO_HOST_CHECK";s:2:"NO";s:12:"LOCALAPPDATA";s:54:"C:\Windows\system32\config\systemprofile\AppData\Local";s:12:"LOCALSQLMSTR";s:9:"%SQLMSTR%";s:12:"MASTERSERVER";s:15:"p3nw5nlmaster01";s:20:"NUMBER_OF_PROCESSORS";s:1:"8";s:2:"OS";s:10:"Windows_NT";s:4:"Path";s:438:"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Imaging\;D:\Program Files\Dell\OpenManage\shared\bin;D:\Program Files\Dell\OpenManage\oma\bin;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\GDcomponents\tools;C:\Program Files\NetApp\Windows Host Utilities\;C:\Program Files\NetApp\SnapDrive\";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:10:"PRIMARYDNS";s:13:"72.167.234.83";s:22:"PROCESSOR_ARCHITECTURE";s:3:"x86";s:22:"PROCESSOR_ARCHITEW6432";s:5:"AMD64";s:20:"PROCESSOR_IDENTIFIER";s:50:"Intel64 Family 6 Model 44 Stepping 2, GenuineIntel";s:15:"PROCESSOR_LEVEL";s:1:"6";s:18:"PROCESSOR_REVISION";s:4:"2c02";s:11:"ProgramData";s:14:"C:\ProgramData";s:12:"ProgramFiles";s:22:"C:\Program Files (x86)";s:17:"ProgramFiles(x86)";s:22:"C:\Program Files (x86)";s:12:"ProgramW6432";s:16:"C:\Program Files";s:12:"PSModulePath";s:51:"C:\Windows\system32\WindowsPowerShell\v1.0\Modules\";s:6:"PUBLIC";s:15:"C:\Users\Public";s:12:"SECONDARYDNS";s:13:"72.167.234.93";s:3:"SYM";s:2:"AZ";s:11:"SystemDrive";s:2:"C:";s:10:"SystemRoot";s:10:"C:\Windows";s:4:"TEMP";s:11:"d:\temp\tmp";s:3:"TMP";s:11:"d:\temp\tmp";s:7:"UATDATA";s:68:"C:\Windows\SysWOW64\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77";s:10:"USERDOMAIN";s:4:"PHX3";s:8:"USERNAME";s:12:"P3NW8SHG272$";s:11:"USERPROFILE";s:40:"C:\Windows\system32\config\systemprofile";s:6:"windir";s:10:"C:\Windows";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"HTTP_VIA";s:42:"HTTP/1.1 cncmspsrvz9ts105.wnsnet.attws.com";s:19:"HTTP_CONTENT_LENGTH";s:3:"280";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:5:"en-us";s:11:"HTTP_COOKIE";s:0:"";s:9:"HTTP_HOST";s:11:"devhawk.net";s:12:"HTTP_REFERER";s:66:"http://devhawk.net/2014/04/04/enterprise-winrt-apps-build-roundup/";s:15:"HTTP_USER_AGENT";s:137:"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53";s:11:"HTTP_ORIGIN";s:18:"http://devhawk.net";s:13:"DOCUMENT_ROOT";s:23:"D:\Hosting\7723049\html";s:13:"INSTANCE_NAME";s:11:"DEVHAWK.NET";s:15:"SCRIPT_FILENAME";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:20:"IIS_UrlRewriteModule";s:1:"1";s:12:"APPL_MD_PATH";s:22:"/LM/W3SVC/7723049/ROOT";s:18:"APPL_PHYSICAL_PATH";s:24:"D:\Hosting\7723049\html\";s:9:"AUTH_TYPE";s:0:"";s:13:"AUTH_PASSWORD";s:0:"";s:9:"AUTH_USER";s:0:"";s:11:"CERT_COOKIE";s:0:"";s:10:"CERT_FLAGS";s:0:"";s:11:"CERT_ISSUER";s:0:"";s:17:"CERT_SERIALNUMBER";s:0:"";s:12:"CERT_SUBJECT";s:0:"";s:14:"CONTENT_LENGTH";s:3:"280";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:5:"HTTPS";s:3:"off";s:13:"HTTPS_KEYSIZE";s:0:"";s:19:"HTTPS_SECRETKEYSIZE";s:0:"";s:19:"HTTPS_SERVER_ISSUER";s:0:"";s:20:"HTTPS_SERVER_SUBJECT";s:0:"";s:11:"INSTANCE_ID";s:7:"7723049";s:18:"INSTANCE_META_PATH";s:17:"/LM/W3SVC/7723049";s:10:"LOCAL_ADDR";s:15:"184.168.193.217";s:10:"LOGON_USER";s:0:"";s:15:"PATH_TRANSLATED";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:12:"QUERY_STRING";s:0:"";s:11:"REMOTE_ADDR";s:14:"166.137.208.19";s:11:"REMOTE_HOST";s:14:"166.137.208.19";s:11:"REMOTE_PORT";s:5:"22645";s:11:"REMOTE_USER";s:0:"";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:11:"SERVER_NAME";s:11:"devhawk.net";s:11:"SERVER_PORT";s:2:"80";s:18:"SERVER_PORT_SECURE";s:1:"0";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:3:"URL";s:21:"/wp-comments-post.php";s:14:"ORIG_PATH_INFO";s:21:"/wp-comments-post.php";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:12:"REQUEST_TIME";s:10:"1396633162";s:25:"comment_post_modified_gmt";s:19:"2014-04-04 15:40:18";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
 				<wp:meta_key>akismet_history</wp:meta_key>
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1396633684.1175920963287353515625;s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
 			</wp:commentmeta>
@@ -355,20 +297,6 @@ Nick]]></wp:comment_content>
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1397089127.9835340976715087890625;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
 			</wp:commentmeta>
 			<wp:commentmeta>
-				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:127:{s:15:"comment_post_ID";i:2071;s:14:"comment_author";s:12:"Nick Savenko";s:20:"comment_author_email";s:15:"inci@dezcom.org";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:120:"Harry!
-Thank you for the great session.
-When will new template be released for broked WinRT component?
-
-Thanks
-Nick";s:12:"comment_type";s:0:"";s:14:"comment_parent";i:0;s:7:"user_ID";i:0;s:7:"user_ip";s:15:"139.130.247.194";s:10:"user_agent";s:109:"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36";s:8:"referrer";s:66:"http://devhawk.net/2014/04/04/enterprise-winrt-apps-build-roundup/";s:4:"blog";s:18:"http://devhawk.net";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:66:"http://devhawk.net/2014/04/04/enterprise-winrt-apps-build-roundup/";s:21:"akismet_comment_nonce";s:6:"passed";s:11:"POST_author";s:12:"Nick Savenko";s:10:"POST_email";s:15:"inci@dezcom.org";s:8:"POST_url";s:0:"";s:12:"POST_comment";s:120:"Harry!
-Thank you for the great session.
-When will new template be released for broked WinRT component?
-
-Thanks
-Nick";s:11:"POST_submit";s:12:"Post Comment";s:20:"POST_comment_post_ID";s:4:"2071";s:19:"POST_comment_parent";s:1:"0";s:26:"POST_akismet_comment_nonce";s:10:"368c89b371";s:23:"POST_subscribe_comments";s:9:"subscribe";s:19:"POST_subscribe_blog";s:9:"subscribe";s:15:"SERVER_SOFTWARE";s:17:"Microsoft-IIS/7.0";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:13:"_FCGI_X_PIPE_";s:53:"\\.\pipe\IISFCGI-0aeb875c-406d-4270-aa82-e8f28f4536af";s:5:"PHPRC";s:32:"D:\Hosting\7723049\html\php5.ini";s:17:"ADDITIONALSERVERS";s:69:"p3nw5nlmaster01,p3nw5nlmedia01,p3nw5nlmedia02,p3pwarmedia01,p3media02";s:6:"ADName";s:30:"P3NW8SHG272.phx3.gdhosting.gdg";s:15:"ALLUSERSPROFILE";s:14:"C:\ProgramData";s:7:"APPDATA";s:56:"C:\Windows\system32\config\systemprofile\AppData\Roaming";s:11:"APP_POOL_ID";s:22:"7723049_32_I_solo_v4.0";s:18:"CommonProgramFiles";s:35:"C:\Program Files (x86)\Common Files";s:23:"CommonProgramFiles(x86)";s:35:"C:\Program Files (x86)\Common Files";s:18:"CommonProgramW6432";s:29:"C:\Program Files\Common Files";s:12:"COMPUTERNAME";s:11:"P3NW8SHG272";s:7:"ComSpec";s:27:"C:\Windows\system32\cmd.exe";s:16:"FP_NO_HOST_CHECK";s:2:"NO";s:12:"LOCALAPPDATA";s:54:"C:\Windows\system32\config\systemprofile\AppData\Local";s:12:"LOCALSQLMSTR";s:9:"%SQLMSTR%";s:12:"MASTERSERVER";s:15:"p3nw5nlmaster01";s:20:"NUMBER_OF_PROCESSORS";s:1:"8";s:2:"OS";s:10:"Windows_NT";s:4:"Path";s:438:"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Imaging\;D:\Program Files\Dell\OpenManage\shared\bin;D:\Program Files\Dell\OpenManage\oma\bin;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\GDcomponents\tools;C:\Program Files\NetApp\Windows Host Utilities\;C:\Program Files\NetApp\SnapDrive\";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:10:"PRIMARYDNS";s:13:"72.167.234.83";s:22:"PROCESSOR_ARCHITECTURE";s:3:"x86";s:22:"PROCESSOR_ARCHITEW6432";s:5:"AMD64";s:20:"PROCESSOR_IDENTIFIER";s:50:"Intel64 Family 6 Model 44 Stepping 2, GenuineIntel";s:15:"PROCESSOR_LEVEL";s:1:"6";s:18:"PROCESSOR_REVISION";s:4:"2c02";s:11:"ProgramData";s:14:"C:\ProgramData";s:12:"ProgramFiles";s:22:"C:\Program Files (x86)";s:17:"ProgramFiles(x86)";s:22:"C:\Program Files (x86)";s:12:"ProgramW6432";s:16:"C:\Program Files";s:12:"PSModulePath";s:51:"C:\Windows\system32\WindowsPowerShell\v1.0\Modules\";s:6:"PUBLIC";s:15:"C:\Users\Public";s:12:"SECONDARYDNS";s:13:"72.167.234.93";s:3:"SYM";s:2:"AZ";s:11:"SystemDrive";s:2:"C:";s:10:"SystemRoot";s:10:"C:\Windows";s:4:"TEMP";s:11:"d:\temp\tmp";s:3:"TMP";s:11:"d:\temp\tmp";s:7:"UATDATA";s:68:"C:\Windows\SysWOW64\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77";s:10:"USERDOMAIN";s:4:"PHX3";s:8:"USERNAME";s:12:"P3NW8SHG272$";s:11:"USERPROFILE";s:40:"C:\Windows\system32\config\systemprofile";s:6:"windir";s:10:"C:\Windows";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:19:"HTTP_CONTENT_LENGTH";s:3:"346";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:11:"HTTP_COOKIE";s:0:"";s:9:"HTTP_HOST";s:11:"devhawk.net";s:12:"HTTP_REFERER";s:66:"http://devhawk.net/2014/04/04/enterprise-winrt-apps-build-roundup/";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36";s:11:"HTTP_ORIGIN";s:18:"http://devhawk.net";s:13:"DOCUMENT_ROOT";s:23:"D:\Hosting\7723049\html";s:13:"INSTANCE_NAME";s:11:"DEVHAWK.NET";s:15:"SCRIPT_FILENAME";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:20:"IIS_UrlRewriteModule";s:1:"1";s:12:"APPL_MD_PATH";s:22:"/LM/W3SVC/7723049/ROOT";s:18:"APPL_PHYSICAL_PATH";s:24:"D:\Hosting\7723049\html\";s:9:"AUTH_TYPE";s:0:"";s:13:"AUTH_PASSWORD";s:0:"";s:9:"AUTH_USER";s:0:"";s:11:"CERT_COOKIE";s:0:"";s:10:"CERT_FLAGS";s:0:"";s:11:"CERT_ISSUER";s:0:"";s:17:"CERT_SERIALNUMBER";s:0:"";s:12:"CERT_SUBJECT";s:0:"";s:14:"CONTENT_LENGTH";s:3:"346";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:5:"HTTPS";s:3:"off";s:13:"HTTPS_KEYSIZE";s:0:"";s:19:"HTTPS_SECRETKEYSIZE";s:0:"";s:19:"HTTPS_SERVER_ISSUER";s:0:"";s:20:"HTTPS_SERVER_SUBJECT";s:0:"";s:11:"INSTANCE_ID";s:7:"7723049";s:18:"INSTANCE_META_PATH";s:17:"/LM/W3SVC/7723049";s:10:"LOCAL_ADDR";s:15:"184.168.193.217";s:10:"LOGON_USER";s:0:"";s:15:"PATH_TRANSLATED";s:44:"D:\Hosting\7723049\html\wp-comments-post.php";s:12:"QUERY_STRING";s:0:"";s:11:"REMOTE_ADDR";s:15:"139.130.247.194";s:11:"REMOTE_HOST";s:15:"139.130.247.194";s:11:"REMOTE_PORT";s:5:"50408";s:11:"REMOTE_USER";s:0:"";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:11:"SERVER_NAME";s:11:"devhawk.net";s:11:"SERVER_PORT";s:2:"80";s:18:"SERVER_PORT_SECURE";s:1:"0";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:3:"URL";s:21:"/wp-comments-post.php";s:14:"ORIG_PATH_INFO";s:21:"/wp-comments-post.php";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:12:"REQUEST_TIME";s:10:"1397089127";s:25:"comment_post_modified_gmt";s:19:"2014-04-04 15:40:18";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
 				<wp:meta_key>akismet_history</wp:meta_key>
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1397256293.125216007232666015625;s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
 			</wp:commentmeta>
@@ -393,10 +321,6 @@ Nick";s:11:"POST_submit";s:12:"Post Comment";s:20:"POST_comment_post_ID";s:4:"20
 			<wp:commentmeta>
 				<wp:meta_key>akismet_history</wp:meta_key>
 				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1397256310.9987640380859375;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
-			</wp:commentmeta>
-			<wp:commentmeta>
-				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:134:{s:15:"comment_post_ID";i:2071;s:14:"comment_author";s:7:"DevHawk";s:20:"comment_author_email";s:17:"harry@devhawk.net";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:57:"Not sure, my old team owns this feature now. Soon I hope!";s:14:"comment_parent";i:3675;s:7:"user_ID";i:1;s:7:"user_ip";s:15:"131.107.192.228";s:10:"user_agent";s:68:"Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko";s:8:"referrer";s:45:"http://devhawk.net/wp-admin/edit-comments.php";s:4:"blog";s:18:"http://devhawk.net";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:66:"http://devhawk.net/2014/04/04/enterprise-winrt-apps-build-roundup/";s:9:"user_role";s:13:"administrator";s:21:"akismet_comment_nonce";s:6:"passed";s:22:"POST_newcomment_author";s:0:"";s:28:"POST_newcomment_author_email";s:0:"";s:26:"POST_newcomment_author_url";s:0:"";s:12:"POST_user_ID";s:1:"1";s:11:"POST_action";s:15:"replyto-comment";s:15:"POST_comment_ID";s:4:"3675";s:20:"POST_comment_post_ID";s:4:"2071";s:11:"POST_status";s:0:"";s:13:"POST_position";s:2:"-1";s:13:"POST_checkbox";s:1:"1";s:9:"POST_mode";s:6:"detail";s:32:"POST__ajax_nonce-replyto-comment";s:10:"d4517902a0";s:32:"POST__wp_unfiltered_html_comment";s:10:"97aab62c06";s:12:"POST_content";s:57:"Not sure, my old team owns this feature now. Soon I hope!";s:7:"POST_id";s:4:"2071";s:21:"POST_comments_listing";s:3:"all";s:15:"SERVER_SOFTWARE";s:17:"Microsoft-IIS/7.0";s:11:"REQUEST_URI";s:24:"/wp-admin/admin-ajax.php";s:13:"_FCGI_X_PIPE_";s:53:"\\.\pipe\IISFCGI-0e823b84-b396-4e0a-baef-cde6ed28356e";s:5:"PHPRC";s:32:"D:\Hosting\7723049\html\php5.ini";s:17:"ADDITIONALSERVERS";s:69:"p3nw5nlmaster01,p3nw5nlmedia01,p3nw5nlmedia02,p3pwarmedia01,p3media02";s:6:"ADName";s:30:"P3NW8SHG272.phx3.gdhosting.gdg";s:15:"ALLUSERSPROFILE";s:14:"C:\ProgramData";s:7:"APPDATA";s:56:"C:\Windows\system32\config\systemprofile\AppData\Roaming";s:11:"APP_POOL_ID";s:22:"7723049_32_I_solo_v4.0";s:18:"CommonProgramFiles";s:35:"C:\Program Files (x86)\Common Files";s:23:"CommonProgramFiles(x86)";s:35:"C:\Program Files (x86)\Common Files";s:18:"CommonProgramW6432";s:29:"C:\Program Files\Common Files";s:12:"COMPUTERNAME";s:11:"P3NW8SHG272";s:7:"ComSpec";s:27:"C:\Windows\system32\cmd.exe";s:16:"FP_NO_HOST_CHECK";s:2:"NO";s:12:"LOCALAPPDATA";s:54:"C:\Windows\system32\config\systemprofile\AppData\Local";s:12:"LOCALSQLMSTR";s:9:"%SQLMSTR%";s:12:"MASTERSERVER";s:15:"p3nw5nlmaster01";s:20:"NUMBER_OF_PROCESSORS";s:1:"8";s:2:"OS";s:10:"Windows_NT";s:4:"Path";s:438:"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Imaging\;D:\Program Files\Dell\OpenManage\shared\bin;D:\Program Files\Dell\OpenManage\oma\bin;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\GDcomponents\tools;C:\Program Files\NetApp\Windows Host Utilities\;C:\Program Files\NetApp\SnapDrive\";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:10:"PRIMARYDNS";s:13:"72.167.234.83";s:22:"PROCESSOR_ARCHITECTURE";s:3:"x86";s:22:"PROCESSOR_ARCHITEW6432";s:5:"AMD64";s:20:"PROCESSOR_IDENTIFIER";s:50:"Intel64 Family 6 Model 44 Stepping 2, GenuineIntel";s:15:"PROCESSOR_LEVEL";s:1:"6";s:18:"PROCESSOR_REVISION";s:4:"2c02";s:11:"ProgramData";s:14:"C:\ProgramData";s:12:"ProgramFiles";s:22:"C:\Program Files (x86)";s:17:"ProgramFiles(x86)";s:22:"C:\Program Files (x86)";s:12:"ProgramW6432";s:16:"C:\Program Files";s:12:"PSModulePath";s:51:"C:\Windows\system32\WindowsPowerShell\v1.0\Modules\";s:6:"PUBLIC";s:15:"C:\Users\Public";s:12:"SECONDARYDNS";s:13:"72.167.234.93";s:3:"SYM";s:2:"AZ";s:11:"SystemDrive";s:2:"C:";s:10:"SystemRoot";s:10:"C:\Windows";s:4:"TEMP";s:11:"d:\temp\tmp";s:3:"TMP";s:11:"d:\temp\tmp";s:7:"UATDATA";s:68:"C:\Windows\SysWOW64\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77";s:10:"USERDOMAIN";s:4:"PHX3";s:8:"USERNAME";s:12:"P3NW8SHG272$";s:11:"USERPROFILE";s:40:"C:\Windows\system32\config\systemprofile";s:6:"windir";s:10:"C:\Windows";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:18:"HTTP_CACHE_CONTROL";s:8:"no-cache";s:15:"HTTP_CONNECTION";s:10:"Keep-Alive";s:19:"HTTP_CONTENT_LENGTH";s:3:"354";s:17:"HTTP_CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:11:"HTTP_ACCEPT";s:3:"*/*";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:11:"HTTP_COOKIE";s:0:"";s:9:"HTTP_HOST";s:11:"devhawk.net";s:12:"HTTP_REFERER";s:45:"http://devhawk.net/wp-admin/edit-comments.php";s:15:"HTTP_USER_AGENT";s:68:"Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:8:"HTTP_DNT";s:1:"1";s:13:"DOCUMENT_ROOT";s:23:"D:\Hosting\7723049\html";s:13:"INSTANCE_NAME";s:11:"DEVHAWK.NET";s:15:"SCRIPT_FILENAME";s:47:"D:\Hosting\7723049\html\wp-admin\admin-ajax.php";s:20:"IIS_UrlRewriteModule";s:1:"1";s:12:"APPL_MD_PATH";s:22:"/LM/W3SVC/7723049/ROOT";s:18:"APPL_PHYSICAL_PATH";s:24:"D:\Hosting\7723049\html\";s:9:"AUTH_TYPE";s:0:"";s:13:"AUTH_PASSWORD";s:0:"";s:9:"AUTH_USER";s:0:"";s:11:"CERT_COOKIE";s:0:"";s:10:"CERT_FLAGS";s:0:"";s:11:"CERT_ISSUER";s:0:"";s:17:"CERT_SERIALNUMBER";s:0:"";s:12:"CERT_SUBJECT";s:0:"";s:14:"CONTENT_LENGTH";s:3:"354";s:12:"CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:5:"HTTPS";s:3:"off";s:13:"HTTPS_KEYSIZE";s:0:"";s:19:"HTTPS_SECRETKEYSIZE";s:0:"";s:19:"HTTPS_SERVER_ISSUER";s:0:"";s:20:"HTTPS_SERVER_SUBJECT";s:0:"";s:11:"INSTANCE_ID";s:7:"7723049";s:18:"INSTANCE_META_PATH";s:17:"/LM/W3SVC/7723049";s:10:"LOCAL_ADDR";s:15:"184.168.193.217";s:10:"LOGON_USER";s:0:"";s:15:"PATH_TRANSLATED";s:47:"D:\Hosting\7723049\html\wp-admin\admin-ajax.php";s:12:"QUERY_STRING";s:0:"";s:11:"REMOTE_ADDR";s:15:"131.107.192.228";s:11:"REMOTE_HOST";s:15:"131.107.192.228";s:11:"REMOTE_PORT";s:5:"48001";s:11:"REMOTE_USER";s:0:"";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:24:"/wp-admin/admin-ajax.php";s:11:"SERVER_NAME";s:11:"devhawk.net";s:11:"SERVER_PORT";s:2:"80";s:18:"SERVER_PORT_SECURE";s:1:"0";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:3:"URL";s:24:"/wp-admin/admin-ajax.php";s:14:"ORIG_PATH_INFO";s:24:"/wp-admin/admin-ajax.php";s:8:"PHP_SELF";s:24:"/wp-admin/admin-ajax.php";s:12:"REQUEST_TIME";s:10:"1397256310";s:25:"comment_post_modified_gmt";s:19:"2014-04-04 15:40:18";}]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
 	</item>
@@ -492,6 +416,404 @@ If you want it, you can get my architecture aware version of vsvars.ps1 from my 
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[an-architecture-aware-vsvars]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>3705</wp:comment_id>
+			<wp:comment_author><![CDATA[Dew Drop &#8211; The Return &#8211; April 22, 2014 (#1760) | Morning Dew]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://www.alvinashcraft.com/2014/04/22/dew-drop-the-return-april-22-2014-1760/</wp:comment_author_url>
+			<wp:comment_author_IP>168.62.50.182</wp:comment_author_IP>
+			<wp:comment_date>2014-04-22 06:26:05</wp:comment_date>
+			<wp:comment_date_gmt>2014-04-22 13:26:05</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[&#8230;] An Architecture Aware VsVars.ps1 (Harry Pierson) [&#8230;]]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type>pingback</wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398173165.666408061981201171875;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398175440.9819469451904296875;s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+	</item>
+	<item>
+				<title>Brokered WinRT Components Step-by-Step</title>
+		<link>http://devhawk.net/2014/04/25/brokered-winrt-components-step-by-step/</link>
+		<pubDate>Fri, 25 Apr 2014 15:40:08 +0000</pubDate>
+		<dc:creator><![CDATA[devhawk]]></dc:creator>
+		<guid isPermaLink="false">http://devhawk.net/?p=2086</guid>
+		<description></description>
+		<content:encoded><![CDATA[Based on the feedback I’ve gotten since my <a href="http://channel9.msdn.com/Events/Build/2014/KEY01#time=1h35m39s">keynote appearance @ Build</a> – both in person and via email &amp; twitter – there are a lot of folks who are excited about the Brokered WinRT Component feature. However, I’ve been advising folks to hold off a bit until the new VS templates were ready. Frankly, the developer experience for this feature is a bit rough and the VS template makes the experience much better. Well, hold off no longer! My old team has published the <a href="http://visualstudiogallery.msdn.microsoft.com/527286e4-b06a-4234-adde-d313c9c3c23e">Brokered WinRT Component Project Templates</a> up on the <a href="http://visualstudiogallery.msdn.microsoft.com/">Visual Studio Gallery</a>!
+
+Now that the template is available, I’ve written a step-by-step guide demonstrating how to build a “Hello World” style brokered component. Hopefully, this will help folks in the community take advantage of this cool new feature in Windows 8.1 Update.
+
+To keep it readable, I’ve broken it into three separate posts:
+<ul>
+	<li><a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-one">Step One – Build the brokered WinRT component</a></li>
+	<li><a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-two">Step Two – Build the proxy/stub</a></li>
+	<li><a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-three">Step Three – Build the client WinRT app</a></li>
+</ul>
+Note, this walkthrough assumes you’re running Windows 8.1 Update, Visual Studio 2013 with <a href="http://www.visualstudio.com/en-us/news/2014-apr-2-vs#VS2013Update2RC">Update 2 RC</a> (or later) and the <a href="http://visualstudiogallery.msdn.microsoft.com/527286e4-b06a-4234-adde-d313c9c3c23e">Brokered WinRT Component Project Templates</a> installed.
+
+I hope this series helps you take advantage of brokered WinRT components. If you have any further questions, feel free to <a href="mailto:harry.pierson@microsoft.com">drop me an email</a> or <a href="https://twitter.com/devhawk">hit me up on Twitter</a>.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2086</wp:post_id>
+		<wp:post_date>2014-04-25 08:40:08</wp:post_date>
+		<wp:post_date_gmt>2014-04-25 15:40:08</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>brokered-winrt-components-step-by-step</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="brokered-components"><![CDATA[brokered components]]></category>
+		<category domain="category" nicename="development"><![CDATA[Development]]></category>
+		<category domain="post_tag" nicename="sideload"><![CDATA[sideload]]></category>
+		<category domain="post_tag" nicename="tutorial"><![CDATA[tutorial]]></category>
+		<category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+		<category domain="category" nicename="windows-runtime"><![CDATA[Windows Runtime]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout_key</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>post_slider_check_key</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpas_done_all</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Brokered WinRT Components Step One</title>
+		<link>http://devhawk.net/2014/04/25/brokered-winrt-components-step-one/</link>
+		<pubDate>Fri, 25 Apr 2014 15:41:29 +0000</pubDate>
+		<dc:creator><![CDATA[devhawk]]></dc:creator>
+		<guid isPermaLink="false">http://devhawk.net/?p=2088</guid>
+		<description></description>
+		<content:encoded><![CDATA[In this step, we’ll build the brokered component itself. Frankly, the only thing that makes a brokered component different than a normal WinRT component is some small tweaks to the project file to enable access to the full .NET Runtime and Base Class Library. The <a href="http://msdn.microsoft.com/en-us/library/windows/apps/dn630195.aspx">brokered component whitepaper</a> describes the these tweaks in detail, but the new <a href="http://visualstudiogallery.msdn.microsoft.com/527286e4-b06a-4234-adde-d313c9c3c23e">brokered component template</a> takes care of these small tweaks for you.
+
+<a href="http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject.png"><img class="wp-image-2096 alignleft" alt="BRT_NewProject" src="http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject-300x207.png" width="180" height="124" /></a>Start by selecting File -&gt; New -&gt; Project in Visual Studio. With the sheer number of templates to choose from these days, I find it’s easier to just search for the one I want. Type “broker” in the search box in the upper left, you’ll end up with two choices – the brokered WinRT component and the brokered WinRT proxy/stub. For now, choose the brokered component. We’ll be adding a brokered proxy/stub <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-two">in step two</a>. Name the project whatever you want. I named mine “HelloWorldBRT”.
+
+This is probably the easiest step of the three as there’s nothing really special you have to do – just write managed code like you always do. In my keynote demo, this is where I wrote the code that wrapped the existing ADO.NET based data access library. For the purposes of this walkthrough, let’s do something simpler. We’ll use P/Invoke to retrieve the current <a href="http://msdn.microsoft.com/en-us/library/windows/apps/ms683180.aspx">process</a> and <a href="http://msdn.microsoft.com/en-us/library/windows/apps/ms683183.aspx">thread</a> IDs. These Win32 APIs are <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br205762.aspx">supported for developing WinRT apps</a> and will make it obvious that the component is running in a separate process than the app. Here’s the simple code to retrieve those IDs (hat tip to <a href="http://www.pinvoke.net">pinvoke.net</a> for the interop signatures):
+<pre class="brush:csharp">public sealed class Class
+{
+    [DllImport("kernel32.dll")]
+    static extern uint GetCurrentThreadId();
+
+    [DllImport("kernel32.dll")]
+    static extern uint GetCurrentProcessId();
+
+    public uint CurrentThreadId
+    {
+        get { return GetCurrentThreadId(); }
+    }
+
+    public uint CurrentProcessId
+    {
+        get { return GetCurrentProcessId(); }
+    }
+}</pre>
+That’s it! I didn’t even bother to change the class name for this simple sample.
+
+Now, to be clear, there’s no reason why this code needs to run in a broker process. As I pointed out, the Win32 functions I’m wrapping here are supported for use in Windows Store apps. For this walkthrough, I’m trying to keep the code simple in order to focus on the specifics of building brokered components. If you want to see an example that actually leverages the fact that it’s running outside of the App Container, check out the NorthwindRT sample.
+
+In the <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-two">next step</a>, we'll add the proxy/stub that enables this component to communicate across a process boundary.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2088</wp:post_id>
+		<wp:post_date>2014-04-25 08:41:29</wp:post_date>
+		<wp:post_date_gmt>2014-04-25 15:41:29</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>brokered-winrt-components-step-one</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="brokered-components"><![CDATA[brokered components]]></category>
+		<category domain="category" nicename="development"><![CDATA[Development]]></category>
+		<category domain="post_tag" nicename="sideload"><![CDATA[sideload]]></category>
+		<category domain="post_tag" nicename="tutorial"><![CDATA[tutorial]]></category>
+		<category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+		<category domain="category" nicename="windows-runtime"><![CDATA[Windows Runtime]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout_key</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>post_slider_check_key</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpas_done_all</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>3715</wp:comment_id>
+			<wp:comment_author><![CDATA[ErikEJ]]></wp:comment_author>
+			<wp:comment_author_email>ejlskov@hotmail.com</wp:comment_author_email>
+			<wp:comment_author_url>http://erikej.blogspot.com</wp:comment_author_url>
+			<wp:comment_author_IP>87.60.112.89</wp:comment_author_IP>
+			<wp:comment_date>2014-04-26 01:58:31</wp:comment_date>
+			<wp:comment_date_gmt>2014-04-26 08:58:31</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Great walkthrough, thanks, finally I feel confident to get started with this feature not being a C++ developer.
+
+I the demo and whitepaper you mention implementing interfaces and adhering to async in the brokered component - is this just recommended or a requirement?]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398502711.9225940704345703125;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398521530.79312801361083984375;s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>3716</wp:comment_id>
+			<wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+			<wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>73.53.36.104</wp:comment_author_IP>
+			<wp:comment_date>2014-04-26 07:15:20</wp:comment_date>
+			<wp:comment_date_gmt>2014-04-26 14:15:20</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Implementing interfaces and marking them as [ComVisible(true)] is not needed. The managed compilers automatically generate the interfaces under the hood as needed.
+
+Using async is highly recommended to avoid blocking the UI thread. As I showed in the NorthwindRT demo, it's fairly easy to take a synchronous method call, wrap in in a .NET Task and then project the task as an WinRT IAsyncOperation.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>3715</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_result</wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key>akismet_history</wp:meta_key>
+				<wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398521720.9800779819488525390625;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+	</item>
+	<item>
+				<title>Brokered WinRT Components Step Two</title>
+		<link>http://devhawk.net/2014/04/25/brokered-winrt-components-step-two/</link>
+		<pubDate>Fri, 25 Apr 2014 15:43:35 +0000</pubDate>
+		<dc:creator><![CDATA[devhawk]]></dc:creator>
+		<guid isPermaLink="false">http://devhawk.net/?p=2093</guid>
+		<description></description>
+		<content:encoded><![CDATA[Now that we have built the brokered component , we have to build a proxy/stub for it. Proxies and stubs are how WinRT method calls are marshalled across process boundaries. If you want to know more – or you have insomnia – feel free to read <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms692621(v=vs.85).aspx">all the gory details up on MSDN</a>.
+
+Proxies and stubs look like they might be scary, but they’re actually trivial (at least in the brokered component scenario) because 100% of the code is generated for you. It couldn’t be much easier.
+
+Right click the solution node and select Add -&gt; New Project. Alternatively, you can select File -&gt; New -&gt; Project in the Visual Studio main menu, but if you do that make sure you change the default solution from “Create new Solution” to “Add to Solution”. Regardless of how you launch the new project wizard, search for “broker” again, but this time select the “Brokered Windows Runtime ProxyStub” template. Give the project a name - I chose “HelloWorldBRT.PS”.
+
+<a href="http://devhawk.net/wp-content/uploads/2014/04/ProxyStubAddReference.png"><img class="alignleft  wp-image-2099" alt="ProxyStubAddReference" src="http://devhawk.net/wp-content/uploads/2014/04/ProxyStubAddReference-300x174.png" width="180" height="104" /></a>Once you’ve created the proxy/stub project, you need to set a reference to the brokered component you created in step 1. Since proxies and stubs are native, this is a VC++ project. Adding a reference in a VC++ is not as straightforward as it is in C# projects. Right click the proxy/stub project, select “Properties” and then select Common Properties -&gt; References from the tree on the left. Press the “Add New Reference…” button to bring up the same Add Reference dialog you’ve seen in managed code projects. Select the brokered component project and press OK.
+
+Remember when I said that 100% of the code for the proxy/stub is generated? I wasn’t kidding – creating the template and setting referencing the brokered component project is literally all you need to do. Want proof? Go ahead and build now. If you watch the output windows, you’ll see a bunch of output go by referencing IDL files and MIDLRT among other stuff. This proxy/stub template has some custom MSBuild tasks that generates the proxy/stub code using winmdidl and midlrt. The process is similar to what is <a href="http://msdn.microsoft.com/en-us/library/dn481253.aspx">described here</a>. BTW, if you get a chance, check out the proxy/stub project file – it is a work of art. Major props to <a href="http://www.linkedin.com/pub/kieran-mockford/4/77/110">Kieran Mockford</a> for his msbuild wizardry.
+
+<a href="http://devhawk.net/wp-content/uploads/2014/04/ProxyStubRegisterOutput.png"><img class="alignright  wp-image-2100" alt="ProxyStubRegisterOutput" src="http://devhawk.net/wp-content/uploads/2014/04/ProxyStubRegisterOutput-300x174.png" width="180" height="104" /></a>Unfortunately, it’s not enough just to build the proxy/stub – you also have to register it. The brokered component proxy/stub needs to be registered globally on the machine, which means you have to be running as an admin to do it. VS can register the proxy/stub for you automatically, but that means you have to run VS as an administrator. That always makes me nervous, but if you’re OK with running as admin you can enable proxy/stub registration by right clicking the proxy/stub project file, selecting Properties, navigating to Configuration properties -&gt; Linker -&gt; General in the tree of the project properties page, and then changing Register Output to “Yes”.
+
+If you don’t like running VS as admin, you can manually register the proxy/stub by running “regsvr32 &lt;proxystub dll&gt;” from an elevated command prompt. Note, you do have to re-register every time the public surface area of your brokered component changes so letting VS handle registration admin is definitely the easier route to go.
+
+In the <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-three">third and final step</a>, we'll build a client app that accesses our brokered component.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2093</wp:post_id>
+		<wp:post_date>2014-04-25 08:43:35</wp:post_date>
+		<wp:post_date_gmt>2014-04-25 15:43:35</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>brokered-winrt-components-step-two</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="brokered-components"><![CDATA[brokered components]]></category>
+		<category domain="category" nicename="development"><![CDATA[Development]]></category>
+		<category domain="post_tag" nicename="sideload"><![CDATA[sideload]]></category>
+		<category domain="post_tag" nicename="tutorial"><![CDATA[tutorial]]></category>
+		<category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+		<category domain="category" nicename="windows-runtime"><![CDATA[Windows Runtime]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout_key</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>post_slider_check_key</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpas_done_all</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Brokered WinRT Components Step Three</title>
+		<link>http://devhawk.net/2014/04/25/brokered-winrt-components-step-three/</link>
+		<pubDate>Fri, 25 Apr 2014 15:45:36 +0000</pubDate>
+		<dc:creator><![CDATA[devhawk]]></dc:creator>
+		<guid isPermaLink="false">http://devhawk.net/?p=2102</guid>
+		<description></description>
+		<content:encoded><![CDATA[So far, we've created two projects, written all of about two lines of code and we have both our <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-one">brokered component </a>and its <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-two">proxy/stub</a> ready to go. Now it’s time to build the Windows Runtime app that uses the component. So far, things have been pretty easy – the only really tricky and/or manual step so far has been registering the proxy/stub, and that’s only tricky if you don’t want to run VS as admin. Unfortunately, tying this all together in the app requires a few more manual steps.
+
+But before we get to the manual steps, let’s create the WinRT client app. Again, we’re going to create a new project but this time we’re going to select “Blank App (Windows)” from the Visual C# -&gt; Store Apps -&gt; Windows App node of the Add New Project dialog. Note, I’m not using “Blank App (Universal)” or “Blank App (Windows Phone)” because the brokered WinRT component feature is not support on Windows Phone. Call the client app project whatever you like, I’m calling mine “HelloWorldBRT.Client”.
+
+Before we start writing code, we need to reference the brokered component. We can't reference the brokered component directly or it will load in the sandboxed app process. Instead, the app need to reference a reference assembly version of the .winmd that gets generated automatically by the proxy/stub project. Remember in the <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-two">last step </a>when I said Kieran Mockford is an MSBuild wizard? The proxy/stub template project includes a custom target that automatically publishes the reference assembly winmd file used by the client app. When he showed me that, I was stunned - as I said, the man is a wizard. This means all <em>you</em> need to do is right click on the References node of the WinRT Client app project and select Add Reference. In the Reference Manager dialog, add a reference to the proxy/stub project you created in step two.
+
+Now I can add the following code to the top of my App.OnLaunched function. Since this is a simple Hello World walkthru, I’m not going to bother to build any UI. I’m just going to inspect variables in the debugger. Believe me, the less UI I write, the better for everyone involved. Note, I’ve also added the P/Invoke signatures for GetCurrentProcess/ThreadID and to the client app like I did in the brokered component in <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-one">step one</a>. This way, I can get the process and thread IDs for both the app and broker process and compare them.
+<pre class="brush:csharp">var pid = GetCurrentProcessId();
+var tid = GetCurrentThreadId();
+
+var c = new HelloWorldBRT.Class();
+var bpid = c.CurrentProcessId;
+var btid = c.CurrentThreadId;</pre>
+At this point the app will compile, but if I run it the app will throw a TypeLoadException when it tries to create an instance of HelloWorldBRT.Class. The type can’t be loaded because the we're using the reference assembly .winmd published by the proxy/stub project - it has no implementation details, so it can't load. In order to be able to load the type, we need to declare the HelloWorldBRT.Class as a brokered component in the app's pacakge.appxmanifest file. For non-brokered components, Visual Studio does this for you automatically. For brokered components we have to do it manually unfortunately. Every activatable class (i.e. class you can construct via “new”) needs to be registered in the appx manifest this way.
+
+To register HelloWorldBRT.Class, right click the Package.appxmanifest file in the client project, select “Open With” from the context menu and then select “XML (Text) editor” from the Open With dialog. Then you need to insert <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211443.aspx">inProcessServer extension</a> that includes an <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211413.aspx">ActivatableClass element</a> for each class you can activate (aka has a public constructor). Each ActivatableClass element contains an ActivatableClassAttribute element that contains a pointer to the folder where the brokered component is installed. Here’s what I added to Package.appxmainfest of my HelloWorldBRT.Client app.
+<pre class="brush:xml">&lt;Extensions&gt;
+  &lt;Extension Category="windows.activatableClass.inProcessServer"&gt;
+    &lt;InProcessServer&gt;
+      &lt;Path&gt;clrhost.dll&lt;/Path&gt;
+      &lt;ActivatableClass ActivatableClassId="HelloWorldBRT.Class" 
+                        ThreadingModel="both"&gt;
+        &lt;ActivatableClassAttribute 
+             Name="DesktopApplicationPath" 
+             Type="string" 
+             Value="D:\dev\HelloWorldBRT\Debug\HelloWorldBRT.PS"/&gt;
+      &lt;/ActivatableClass&gt;
+    &lt;/InProcessServer&gt;
+  &lt;/Extension&gt;
+&lt;/Extensions&gt;</pre>
+The key thing here is the addition of the DesktopApplicationPath ActivatableClassAttribute. This tells the WinRT activation logic that HelloWorldBRT.Class is a brokered component and where the managed .winmd file with the implementation details is located on the device. Note, you can use multiple brokered components in your side loaded app, but they all have the same DesktopApplicationPath.
+
+Speaking of DesktopApplicationPath, the path I’m using here is path the final location of the proxy/stub components generated by the compiler. Frankly, this isn’t an good choice to use in a production deployment. But for the purposes of this walk thru, it’ll be fine.
+
+<a href="http://devhawk.net/wp-content/uploads/2014/04/ClientWatchWindow.png"><img class="wp-image-2103 alignleft" alt="ClientWatchWindow" src="http://devhawk.net/wp-content/uploads/2014/04/ClientWatchWindow-300x94.png" width="300" height="94" /></a>
+
+Now when we run the app, we can load a HelloWorldBRT.Class instance and access the properties. re definitely seeing a different app process IDs when comparing the result of calling GetCurrentProcessId directly in App.OnLoaded vs. the result of calling GetCurrentProcessId in the brokered component. Of course, each run of the app will have different ID values, but this proves that we are loading our brokered component into a different process from where our app code is running.
+
+Now you're ready to go build your own brokered components! Here's hoping you'll find more interesting uses for them than comparing the process IDs of the app and broker processes in the debugger! :)]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2102</wp:post_id>
+		<wp:post_date>2014-04-25 08:45:36</wp:post_date>
+		<wp:post_date_gmt>2014-04-25 15:45:36</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>brokered-winrt-components-step-three</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="brokered-components"><![CDATA[brokered components]]></category>
+		<category domain="category" nicename="development"><![CDATA[Development]]></category>
+		<category domain="post_tag" nicename="sideload"><![CDATA[sideload]]></category>
+		<category domain="post_tag" nicename="tutorial"><![CDATA[tutorial]]></category>
+		<category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+		<category domain="category" nicename="windows-runtime"><![CDATA[Windows Runtime]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout_key</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>post_slider_check_key</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpas_done_all</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Yet More Change for the Capitals</title>
+		<link>http://devhawk.net/2014/04/26/yet-more-change-for-the-capitals/</link>
+		<pubDate>Sat, 26 Apr 2014 20:13:29 +0000</pubDate>
+		<dc:creator><![CDATA[devhawk]]></dc:creator>
+		<guid isPermaLink="false">http://devhawk.net/?p=2114</guid>
+		<description></description>
+		<content:encoded><![CDATA[Six years ago, I was pretty excited about the future for the Washington Capitals. They had just lost their first round match up with the Flyers – which was a bummer – but they had made the playoffs for the first time in 3 seasons. <a href="http://devhawk.net/2008/04/22/caps-season-ends/">I wrote at the time</a>:
+<blockquote>Furthermore, even though they lost, these playoffs are a promise of future success. I tell my kids all the time that the only way to get good at something is to work hard while you’re bad at it. Playoff hockey is no different. Most of the Caps had little or no playoff experience going into this series and it really showed thru the first three games. But they kept at it and played much better over the last four games of the series. They went 2-2 in those games, but the two losses went to overtime. A little more luck (or better officiating) and the Caps are headed to Pittsburgh instead of the golf course.</blockquote>
+What a difference <a href="https://twitter.com/JapersRink/status/458585591207038976/photo/1">six seasons makes</a>. Sure, they won the President’s Trophy in 2010. But the promise of future playoff success has been broken, badly. The Caps have been on a pretty steep decline after getting beat by the eighth seed Canadians in the first round of the playoffs in 2010. Since then, they've switched systems three times and head coaches twice. This year, they missed the playoffs entirely even with Alex Ovechkin racking up a league-leading 51 goals.
+
+Today, the word came down that <a href="http://capitalstoday.monumentalnetwork.com/2014/04/26/capitals-announce-changes-to-front-office-and-coaching-staff">both the coach and general manager</a> have been let go. As a Caps fan, I’m really torn about this. I mean, I totally agree that the coach and GM had to go – frankly, I was surprised it didn’t happen 7-10 days earlier. But now what do you do? The draft is two months and one day away, free agency starts two days after that. The search for a GM is going to have to be fast. Then the GM will have to make some really important decisions about players at the draft, free agency and compliance buyouts with limited knowledge of the players in our system. Plus, he’ll need to hire a new head coach – preferably before the draft as well.
+
+The one positive note is that the salary cap for the Capitals <a href="http://www.capgeek.com/capitals">looks pretty good</a> for next year. The Capitals currently have the second largest amount of cap space / open roster slot in the league. (The Islanders are first with $14.5 million / open roster slot. The Caps have just over $7 million / open roster slot.) They have only a handful of unrestricted free agents to resign – with arguably only one “must sign” (<a href="http://capitals.nhl.com/club/player.htm?id=8471362">Mikhail Grabovski</a>) in the bunch. Of course, this could also be a bug rather than a feature – having that many players under contract may make it harder for the new GM to shape the team in his image.
+
+Who every the Capitals hire to be GM and coach, I’m not expecting a promising start. It feels like the next season is already a wash, and we’re not even finished with the first round of this year’s playoffs yet.
+
+I guess it could be worse.
+
+I could be a Toronto Leafs fan.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2114</wp:post_id>
+		<wp:post_date>2014-04-26 13:13:29</wp:post_date>
+		<wp:post_date_gmt>2014-04-26 20:13:29</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>yet-more-change-for-the-capitals</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="hockey"><![CDATA[Hockey]]></category>
+		<category domain="category" nicename="sports"><![CDATA[Sports]]></category>
+		<category domain="post_tag" nicename="washington-capitals"><![CDATA[Washington Capitals]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wpas_done_all</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout_key</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>post_slider_check_key</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
