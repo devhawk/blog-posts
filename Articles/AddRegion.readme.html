@@ -1,0 +1,115 @@
+					<H1>Add #Region Macro</H1>
+					<h3 style="margin-left: 40px; margin-bottom: 5px;">Update 8/9/07</h3>
+					<P style="margin-left: 40px;margin-top: 0px;">As of Visual Studio 2005, this macro is 
+					obsolete. VS05 includes the new
+					<a href="http://msdn2.microsoft.com/en-us/library/6hf704tz(VS.80).aspx">
+					Surround With Code Snippet feature</a> that provides this 
+					functionality out of the box.</P>
+					<P>One of the coolest features of the VS.NET IDE is the ability to hide portions of 
+						the code as one might hide the text of an outline in Word. VS.NET automatically 
+						creates regions for multi-line comments and for functions. However, sometimes 
+						it is useful as a developer to define a region to be hidden that may not 
+						conform to VS.NET's built in region creation system. Both C# and VB.NET provide 
+						the #region/#endregion statements that define these easy to hide regions. By 
+						using these statements, the developer can hide everything between the two 
+						statements with a click of a button.</P>
+					<P>In order to make it easier to create regions in my code, I wrote this macro. It 
+						asks the developer for a region name, then inserts #region and #endregion 
+						statements before and after the currently selected text. So if I want to create 
+						a region around four methods, I just select them, run the macro, choose a name 
+						and it's done.</P>
+					<P>In order to use this macro, copy the code below into a macro project via the 
+						Macro Explorer. I'm using the "Visual Studio Developer" profile, and so I hit 
+						Alt-F8 to bring up this window. You can also find it on the menu at View &gt; 
+						Other Windows &gt; Macro Explorer and at Tools &gt; Macros &gt; Macro Explorer. 
+						Once you've got the macro explorer open, it's pretty easy to create a new macro 
+						project, open it for editing, and paste this code into it.</P>
+					<!--This code was color coded by TripleASP.Net's ShowCode For more information, please view http://TripleASP.Net/ShowCode.aspx You can add ShowCode to your own application by using our web service: http://TripleASP.Net/Services/ShowCode.asmx -->
+					<pre class="ShowCode"><span class="ColorVBKeyWord">Sub</span> AddRegion()
+<br />    <span class="ColorVBKeyWord">Dim</span> CloseUndoContext <span class="ColorVBKeyWord">As</span> Boolean = <span class="ColorVBKeyWord">False</span>
+<br />
+<br />    <span class="ColorVBKeyWord">If</span> DTE.UndoContext.IsOpen = <span class="ColorVBKeyWord">False</span> <span class="ColorVBKeyWord">Then</span>
+<br />        CloseUndoContext = <span class="ColorVBKeyWord">True</span>
+<br />        DTE.UndoContext.Open(&quot;DevHawkAddRegionMacro&quot;, <span class="ColorVBKeyWord">False</span>)
+<br />    <span class="ColorVBKeyWord">End If</span>
+<br />
+<br />    <span class="ColorVBKeyWord">Try</span>
+<br />        <span class="ColorVBKeyWord">Dim</span> name <span class="ColorVBKeyWord">As</span> <span class="ColorVBKeyWord">String</span> = InputBox(&quot;Enter the region name&quot;)
+<br />
+<br />        <span class="ColorVBKeyWord">If</span> (name.Trim().Length = 0) <span class="ColorVBKeyWord">Then</span> <span class="ColorVBKeyWord">Exit</span> <span class="ColorVBKeyWord">Sub</span>
+<br />
+<br />        <span class="ColorVBKeyWord">Dim</span> sel <span class="ColorVBKeyWord">As</span> TextSelection = DTE.ActiveDocument.Selection
+<br />
+<br />        <span class="ColorVBKeyWord">Dim</span> lTop = sel.TopPoint.Line
+<br />        <span class="ColorVBKeyWord">Dim</span> lBot = IIf(sel.BottomPoint.AtStartOfLine, 
+<br />            sel.BottomPoint.Line - 1, sel.BottomPoint.Line)
+<br />
+<br />        sel.MoveToLineAndOffset(lBot, 1)
+<br />        sel.EndOfLine()
+<br />        sel.NewLine()
+<br />
+<br />        <span class="ColorVBKeyWord">If</span> DTE.ActiveDocument.Language = &quot;CSharp&quot; <span class="ColorVBKeyWord">Then</span>
+<br />            sel.Text = &quot;#endregion&quot;
+<br />        <span class="ColorVBKeyWord">ElseIf</span> DTE.ActiveDocument.Language = &quot;Basic&quot; <span class="ColorVBKeyWord">Then</span>
+<br />            sel.Text = &quot;#End Region&quot;
+<br />        <span class="ColorVBKeyWord">Else</span>
+<br />            Throw <span class="ColorVBKeyWord">New</span> System.Exception(
+<br />                &quot;Invalid Language: &quot; + DTE.ActiveDocument.Language)
+<br />        <span class="ColorVBKeyWord">End If</span>
+<br />
+<br />        sel.MoveToLineAndOffset(lTop, 1)
+<br />        sel.StartOfLine()
+<br />
+<br />        <span class="ColorVBKeyWord">If</span> DTE.ActiveDocument.Language = &quot;CSharp&quot; <span class="ColorVBKeyWord">Then</span>
+<br />            sel.Text = &quot;#region &quot; + name.Trim()
+<br />        <span class="ColorVBKeyWord">ElseIf</span> DTE.ActiveDocument.Language = &quot;Basic&quot; <span class="ColorVBKeyWord">Then</span>
+<br />            sel.Text = &quot;#Region &quot;&quot;&quot; + name.Trim() + &quot;&quot;&quot;&quot;
+<br />        <span class="ColorVBKeyWord">Else</span>
+<br />            Throw <span class="ColorVBKeyWord">New</span> System.Exception(
+<br />                &quot;Invalid Language: &quot; + DTE.ActiveDocument.Language)
+<br />        <span class="ColorVBKeyWord">End If</span>
+<br />
+<br />        sel.NewLine()
+<br />    <span class="ColorVBKeyWord">Finally</span>
+<br />        <span class="ColorVBKeyWord">If</span> CloseUndoContext <span class="ColorVBKeyWord">Then</span> DTE.UndoContext.Close()
+<br />    <span class="ColorVBKeyWord">End Try</span>
+<br /><span class="ColorVBKeyWord">End Sub</span>
+</pre>
+					
+					<H2>Updated 6/18/02</H2>
+					<P>Many thanks to Richard Childress who pointed out the original version didn't 
+						work on the first line of a file. It turns out that the offset parameter of the 
+						MoveToLineAndOffset method is one based, not zero based. Calling it with a zero 
+						actually is the last character of the previous line. Changing this allows me to 
+						fix the bug as well as clean up the #endregion part of the macro.</P>
+					<H2>Updated 6/28/02</H2>
+					<P>Many thanks to John St. Clair who enhanced the macro by wrapping it in an Undo 
+						context. So now, when you use the macro to insert a #region, you only need to 
+						undo once instead of six times to remove it.
+					</P>
+					<H2>Updated 6/30/02</H2>
+					<P>Thanks to <A href="http://www.hanoulle.be">Yves Hanoulle</A> who submitted a 
+						version of the macro that worked for VB. I said at the time that there was 
+						probably a way to determine the language from the VS.NET extensibility object 
+						model and I was right - the Document object provides a Language property. So 
+						now the AddRegion macro works for C# and VB.NET. It could be extended to 
+						support any other languages that support the #region directive, but for now it 
+						just throws an exception if the active document isn't C# or VB.NET. I also 
+						cleaned up the UndoContext.IsOpen check slightly by changing the variable name 
+						and by using a default value.</P>
+					<h2>Updated 3/10/03</h2>
+					<p>Thanks to TripleASP.NET's <a href="http://tripleasp.net/showcode.aspx">Show My 
+					Code</a> tool, I was replace my old boring single color code with syntax highlited code. 
+					Cool! I did a quick test to make sure you can still select the code and copy into the 
+					VS.NET Macro Editor. If anyone runs into issues, <a href="mailto:harry@devhawk.net">
+					let me know</a>.</p>
+					<h2>Updated 5/27/03</h2>
+					<p>Many thanks to
+					<a href="http://dotnetweblogs.com/TWalters/">Tim Walters</a> 
+					who fixed a bug. If you highlight code by line, the end of 
+					the selection region is actually the start of the line below 
+					the selection. Thus, the original code would put the #endregion 
+					directive one line too low. Tim's fix checks to see if the end of
+					the selection is at the start of the line, moving up one line 
+					if it is. 
+					</p>
