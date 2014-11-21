@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <title>Brokered WinRT Components Step One</title>
+  <link>http://devhawk.net/2014/04/25/brokered-winrt-components-step-one/</link>
+  <pubDate>Fri, 25 Apr 2014 15:41:29 +0000</pubDate>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[devhawk]]></dc:creator>
+  <guid isPermaLink="false">http://devhawk.net/?p=2088</guid>
+  <description></description>
+  <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[In this step, we’ll build the brokered component itself. Frankly, the only thing that makes a brokered component different than a normal WinRT component is some small tweaks to the project file to enable access to the full .NET Runtime and Base Class Library. The <a href="http://msdn.microsoft.com/en-us/library/windows/apps/dn630195.aspx">brokered component whitepaper</a> describes the these tweaks in detail, but the new <a href="http://visualstudiogallery.msdn.microsoft.com/527286e4-b06a-4234-adde-d313c9c3c23e">brokered component template</a> takes care of these small tweaks for you.
+
+<a href="http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject.png"><img class="wp-image-2096 alignleft" alt="BRT_NewProject" src="http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject-300x207.png" width="180" height="124" /></a>Start by selecting File -&gt; New -&gt; Project in Visual Studio. With the sheer number of templates to choose from these days, I find it’s easier to just search for the one I want. Type “broker” in the search box in the upper left, you’ll end up with two choices – the brokered WinRT component and the brokered WinRT proxy/stub. For now, choose the brokered component. We’ll be adding a brokered proxy/stub <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-two">in step two</a>. Name the project whatever you want. I named mine “HelloWorldBRT”.
+
+This is probably the easiest step of the three as there’s nothing really special you have to do – just write managed code like you always do. In my keynote demo, this is where I wrote the code that wrapped the existing ADO.NET based data access library. For the purposes of this walkthrough, let’s do something simpler. We’ll use P/Invoke to retrieve the current <a href="http://msdn.microsoft.com/en-us/library/windows/apps/ms683180.aspx">process</a> and <a href="http://msdn.microsoft.com/en-us/library/windows/apps/ms683183.aspx">thread</a> IDs. These Win32 APIs are <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br205762.aspx">supported for developing WinRT apps</a> and will make it obvious that the component is running in a separate process than the app. Here’s the simple code to retrieve those IDs (hat tip to <a href="http://www.pinvoke.net">pinvoke.net</a> for the interop signatures):
+<pre class="brush:csharp">public sealed class Class
+{
+    [DllImport("kernel32.dll")]
+    static extern uint GetCurrentThreadId();
+
+    [DllImport("kernel32.dll")]
+    static extern uint GetCurrentProcessId();
+
+    public uint CurrentThreadId
+    {
+        get { return GetCurrentThreadId(); }
+    }
+
+    public uint CurrentProcessId
+    {
+        get { return GetCurrentProcessId(); }
+    }
+}</pre>
+That’s it! I didn’t even bother to change the class name for this simple sample.
+
+Now, to be clear, there’s no reason why this code needs to run in a broker process. As I pointed out, the Win32 functions I’m wrapping here are supported for use in Windows Store apps. For this walkthrough, I’m trying to keep the code simple in order to focus on the specifics of building brokered components. If you want to see an example that actually leverages the fact that it’s running outside of the App Container, check out the NorthwindRT sample.
+
+In the <a href="http://devhawk.net/2014/04/25/brokered-winrt-components-step-two">next step</a>, we'll add the proxy/stub that enables this component to communicate across a process boundary.]]></content:encoded>
+  <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+  <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">2088</wp:post_id>
+  <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/">2014-04-25 08:41:29</wp:post_date>
+  <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/">2014-04-25 15:41:29</wp:post_date_gmt>
+  <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:comment_status>
+  <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/">open</wp:ping_status>
+  <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/">brokered-winrt-components-step-one</wp:post_name>
+  <wp:status xmlns:wp="http://wordpress.org/export/1.2/">publish</wp:status>
+  <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+  <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+  <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/">post</wp:post_type>
+  <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"></wp:post_password>
+  <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+  <category domain="post_tag" nicename="brokered-components"><![CDATA[brokered components]]></category>
+  <category domain="category" nicename="development"><![CDATA[Development]]></category>
+  <category domain="post_tag" nicename="sideload"><![CDATA[sideload]]></category>
+  <category domain="post_tag" nicename="tutorial"><![CDATA[tutorial]]></category>
+  <category domain="category" nicename="windows"><![CDATA[Windows]]></category>
+  <category domain="category" nicename="windows-runtime"><![CDATA[Windows Runtime]]></category>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_edit_last</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>layout_key</wp:meta_key>
+    <wp:meta_value><![CDATA[]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>post_slider_check_key</wp:meta_key>
+    <wp:meta_value><![CDATA[0]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:meta_key>_wpas_done_all</wp:meta_key>
+    <wp:meta_value><![CDATA[1]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3715</wp:comment_id>
+    <wp:comment_author><![CDATA[ErikEJ]]></wp:comment_author>
+    <wp:comment_author_email>ejlskov@hotmail.com</wp:comment_author_email>
+    <wp:comment_author_url>http://erikej.blogspot.com</wp:comment_author_url>
+    <wp:comment_author_IP>87.60.112.89</wp:comment_author_IP>
+    <wp:comment_date>2014-04-26 01:58:31</wp:comment_date>
+    <wp:comment_date_gmt>2014-04-26 08:58:31</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Great walkthrough, thanks, finally I feel confident to get started with this feature not being a C++ developer.
+
+I the demo and whitepaper you mention implementing interfaces and adhering to async in the brokered component - is this just recommended or a requirement?]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>0</wp:comment_parent>
+    <wp:comment_user_id>0</wp:comment_user_id>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_result</wp:meta_key>
+      <wp:meta_value><![CDATA[false]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398502711.9225940704345703125;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398521530.79312801361083984375;s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+  </wp:comment>
+  <wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+    <wp:comment_id>3716</wp:comment_id>
+    <wp:comment_author><![CDATA[DevHawk]]></wp:comment_author>
+    <wp:comment_author_email>harry@devhawk.net</wp:comment_author_email>
+    <wp:comment_author_url></wp:comment_author_url>
+    <wp:comment_author_IP>73.53.36.104</wp:comment_author_IP>
+    <wp:comment_date>2014-04-26 07:15:20</wp:comment_date>
+    <wp:comment_date_gmt>2014-04-26 14:15:20</wp:comment_date_gmt>
+    <wp:comment_content><![CDATA[Implementing interfaces and marking them as [ComVisible(true)] is not needed. The managed compilers automatically generate the interfaces under the hood as needed.
+
+Using async is highly recommended to avoid blocking the UI thread. As I showed in the NorthwindRT demo, it's fairly easy to take a synchronous method call, wrap in in a .NET Task and then project the task as an WinRT IAsyncOperation.]]></wp:comment_content>
+    <wp:comment_approved>1</wp:comment_approved>
+    <wp:comment_type></wp:comment_type>
+    <wp:comment_parent>3715</wp:comment_parent>
+    <wp:comment_user_id>1</wp:comment_user_id>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_result</wp:meta_key>
+      <wp:meta_value><![CDATA[false]]></wp:meta_value>
+    </wp:commentmeta>
+    <wp:commentmeta>
+      <wp:meta_key>akismet_history</wp:meta_key>
+      <wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398521720.9800779819488525390625;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+    </wp:commentmeta>
+  </wp:comment>
+</item>

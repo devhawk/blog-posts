@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wp:comment xmlns:wp="http://wordpress.org/export/1.2/">
+  <wp:comment_id>3715</wp:comment_id>
+  <wp:comment_author><![CDATA[ErikEJ]]></wp:comment_author>
+  <wp:comment_author_email>ejlskov@hotmail.com</wp:comment_author_email>
+  <wp:comment_author_url>http://erikej.blogspot.com</wp:comment_author_url>
+  <wp:comment_author_IP>87.60.112.89</wp:comment_author_IP>
+  <wp:comment_date>2014-04-26 01:58:31</wp:comment_date>
+  <wp:comment_date_gmt>2014-04-26 08:58:31</wp:comment_date_gmt>
+  <wp:comment_content><![CDATA[Great walkthrough, thanks, finally I feel confident to get started with this feature not being a C++ developer.
+
+I the demo and whitepaper you mention implementing interfaces and adhering to async in the brokered component - is this just recommended or a requirement?]]></wp:comment_content>
+  <wp:comment_approved>1</wp:comment_approved>
+  <wp:comment_type></wp:comment_type>
+  <wp:comment_parent>0</wp:comment_parent>
+  <wp:comment_user_id>0</wp:comment_user_id>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_result</wp:meta_key>
+    <wp:meta_value><![CDATA[false]]></wp:meta_value>
+  </wp:commentmeta>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_history</wp:meta_key>
+    <wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398502711.9225940704345703125;s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}]]></wp:meta_value>
+  </wp:commentmeta>
+  <wp:commentmeta>
+    <wp:meta_key>akismet_history</wp:meta_key>
+    <wp:meta_value><![CDATA[a:4:{s:4:"time";d:1398521530.79312801361083984375;s:7:"message";s:46:"devhawk changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:7:"devhawk";}]]></wp:meta_value>
+  </wp:commentmeta>
+</wp:comment>
