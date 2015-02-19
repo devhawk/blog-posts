@@ -1,0 +1,3 @@
+Yes, I am my own quote of the day…
+
+“There are no stupid questions, just ones that are easy to mock”
