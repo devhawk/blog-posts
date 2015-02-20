@@ -5,8 +5,8 @@ current scope. For example, if you want to use the Python datetime
 built-in module, you would import it into the current scope and use it
 like this:
 
-``` {.brush: .python}
-import datetime 
+``` python
+import datetime
 bush_last_day = datetime.date(2009,1,20)
 ```
 
@@ -16,8 +16,8 @@ to access the type. Of course, that gets tedious quickly, so Python
 provides a way to import a type from a specific namespace into your
 current scope like this:
 
-``` {.brush: .python}
-from datetime import date 
+``` python
+from datetime import date
 bush_last_day = date(2009,1,20)
 ```
 
@@ -25,8 +25,8 @@ With IronPython, you can do import .NET namespaces as well. Here’s that
 same code using the standard .NET [DateTime
 class](http://msdn2.microsoft.com/library/System.DateTime).
 
-``` {.brush: .python}
-from System import DateTime 
+``` python
+from System import DateTime
 bush_last_day = DateTime(2009,1,20)
 ```
 
@@ -34,8 +34,8 @@ What I didn’t know is that you can import static methods & properties
 from .NET types into the current scope using the same syntax. Here’s an
 example:
 
-``` {.brush: .python}
-from System.DateTime import Now 
+``` python
+from System.DateTime import Now
 
 if Now >= bush_last_day:
     print 'celebrate'
@@ -52,7 +52,7 @@ One caveat though: in Python, you can import an entire namespace into
 your current scope. You can do that with .NET namespaces, but not with
 .NET types
 
-``` {.brush:py}
+``` python
 from datetime import *         # this works
 from System import *           # so does this
 from System.DateTime import *  # this doesn’t work

@@ -37,57 +37,53 @@ cmdlet:
 
  
 
-``` {.brush:csharp}
-protected override void ProcessRecord() 
-{ 
+``` csharp
+protected override void ProcessRecord()
+{
     //Make sure both -Name and -Default aren’t specified
-    if (!string.IsNullOrEmpty(_Name) && _Default.IsPresent) 
-    { 
-        WriteError(new ErrorRecord( 
-            new ArgumentException( 
+    if (!string.IsNullOrEmpty(_Name) && _Default.IsPresent)
+    {
+        WriteError(new ErrorRecord(
+            new ArgumentException(
                 “Default and Name parameters can’t both be specified”),
-            “DefaultAndName”, 
-            ErrorCategory.InvalidArgument, 
+            “DefaultAndName”,
+            ErrorCategory.InvalidArgument,
             null));
-        return; 
+        return;
     }
 
-    //If the machine name is not specified, assume the local machine 
+    //If the machine name is not specified, assume the local machine
     //(via the “.” value)
     string machine = string.IsNullOrEmpty(_MachineName) ? “.” : _MachineName;
 
     //Connect to the specified machine via the SMO WMI ManagedComputer object
     SmoWmi.ManagedComputer mc = new SmoWmi.ManagedComputer(machine);
 
-    if (string.IsNullOrEmpty(_Name) && !_Default.IsPresent) 
-    { 
-        //If neither Name or Default are specified, write all the 
+    if (string.IsNullOrEmpty(_Name) && !_Default.IsPresent)
+    {
+        //If neither Name or Default are specified, write all the
         //server instances on specified machine
-        foreach (SmoWmi.ServerInstance si in mc.ServerInstances) 
+        foreach (SmoWmi.ServerInstance si in mc.ServerInstances)
             WriteServerObject(si);
 
-        return; 
+        return;
     }
 
     string instanceName = _Default.IsPresent ? “MSSQLSERVER” : _Name;
 
-    if (mc.ServerInstances.Contains(instanceName)) 
-        WriteServerObject(mc.ServerInstances[instanceName]); 
+    if (mc.ServerInstances.Contains(instanceName))
+        WriteServerObject(mc.ServerInstances[instanceName]);
     else
-        WriteDebug(“The specified SQL instance does not exist”); 
+        WriteDebug(“The specified SQL instance does not exist”);
 }
 
-//Helper method to create a SMO Server object from a 
+//Helper method to create a SMO Server object from a
 //SMO WMI ServerInstance object and write it to the pipeline
-private void WriteServerObject(SmoWmi.ServerInstance si) 
-{ 
-    if (si.Name == “MSSQLSERVER”) 
-        WriteObject(new Smo.Server(si.Parent.Name)); 
+private void WriteServerObject(SmoWmi.ServerInstance si)
+{
+    if (si.Name == “MSSQLSERVER”)
+        WriteObject(new Smo.Server(si.Parent.Name));
     else
         WriteObject(new Smo.Server(si.Parent.Name + “\” + si.Name));
 }
 ```
-
- 
-
- 

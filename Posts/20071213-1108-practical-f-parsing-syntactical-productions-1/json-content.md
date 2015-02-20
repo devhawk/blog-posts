@@ -12,7 +12,7 @@ abstract syntax tree, so they’re easier to implement.
 Most of PEG’s grammar productions are syntactical in nature. Let’s start
 with the simplest production, EndOfFile.
 
-``` {.brush:fsharp}
+``` fsharp
 ///EndOfFile <- !.
 let EndOfFile input =
     match NC input with
@@ -30,7 +30,7 @@ have a successful match but no data to pass back to the caller.
 
 Here’s a slightly more complex grammar production, EndOfLine:
 
-``` {.brush:fsharp}
+``` fsharp
 ///EndOfLine <- ‘rn’ / ‘n’ / ‘r’
 let EndOfLine input =
     match NC input with
@@ -55,7 +55,7 @@ ago](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx).
 Here’s an alternative version that uses TOKEN and preserves the match
 priority order.
 
-``` {.brush:fsharp}
+``` fsharp
 ///EndOfLine <- ‘rn’ / ‘n’ / ‘r’
 let EndOfLine input =
     match TOKEN “rn” input with
@@ -75,7 +75,7 @@ approach is more readable and explicitly preserves the match order.
 However, it sure is a pain to type. Wouldn’t it be great if we could
 write something like this:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///EndOfLine <- 'rn' / 'n' / 'r'
 let EndOfLine input =
     match input with

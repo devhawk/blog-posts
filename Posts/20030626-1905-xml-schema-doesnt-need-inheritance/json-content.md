@@ -19,7 +19,17 @@ of my OO background, it took me a while to digest that concept. But
 since XML is just data without behavior, it doesn’t need polymorphism
 the way that objects do. Consider the following schema:
 
-` <xs:complexType name="ctAddress"> <xs:sequence> <xs:element name="Street" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:element name="City" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:element name="State" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:element name="ZipCode" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:any namespace="##targetNamespace" /> </xs:sequence> </xs:complexType>`
+```xml
+<xs:complexType name="ctAddress">
+  <xs:sequence>
+    <xs:element name="Street" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:element name="City" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:element name="State" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:element name="ZipCode" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:any namespace="##targetNamespace" />
+  </xs:sequence>
+</xs:complexType>
+```
 
 This is version one of the address complex type schema for some
 arbitrary web service. Over time, we realize that we want to be more
@@ -30,7 +40,18 @@ minOccurs=”0″). While we could use schema inheritance to do this, we
 could also just duplicate the existing elements and add a country
 element:
 
-` <xs:complexType name="ctAddress"> <xs:sequence> <xs:element name="Street" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:element name="City" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:element name="State" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:element name="ZipCode" type="xs:string" maxOccurs="1" minOccurs="1" /> <xs:element name="Country" type="xs:string" maxOccurs="1" minOccurs="0" /> <xs:any namespace="##targetNamespace" /> </xs:sequence> </xs:complexType>`
+```xml
+<xs:complexType name="ctAddress">
+  <xs:sequence>
+    <xs:element name="Street" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:element name="City" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:element name="State" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:element name="ZipCode" type="xs:string" maxOccurs="1" minOccurs="1" />
+    <xs:element name="Country" type="xs:string" maxOccurs="1" minOccurs="0" />
+    <xs:any namespace="##targetNamespace" />
+  </xs:sequence>
+</xs:complexType>
+```
 
 What’s interesting is that even though these two schema types are not
 related by inheritance, I can still validate XML addresses against

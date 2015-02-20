@@ -21,7 +21,7 @@ function:
 
  
 
-``` {.brush:csharp}
+``` csharp
 public static IEnumerable GetTitles()
 {
   var con = new SqlConnection(Properties.Settings.Default.PubsConString);

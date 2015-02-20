@@ -29,7 +29,7 @@ decided to use a static constructor to centralize creating the thread,
 creating the window and registering the traceback handler all in one
 place.
 
-``` {.brush: .csharp}
+``` csharp
 static Thread _debugThread;
 static DebugWindow _debugWindow;
 static ManualResetEvent _debugWindowReady = new ManualResetEvent(false);
@@ -75,7 +75,7 @@ OnTracebackReceived gets signaled to continue.
 Speaking of OnTracebackReceived, this was my initial basic
 implementation of it:
 
-``` {.brush: .csharp}
+``` csharp
 private TracebackDelegate OnTracebackReceived
     (TraceBackFrame frame, string result, object payload)
 {

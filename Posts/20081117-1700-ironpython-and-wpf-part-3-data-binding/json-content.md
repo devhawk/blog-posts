@@ -8,7 +8,7 @@ property of each object in the bound collection gets bound to the text
 property of a text block control. WPF would typically find the title
 property of the bound objects via reflection.
 
-``` {.brush: .xml}
+``` xml
 <ListBox Grid.Column="0" x:Name="listbox1" >
   <ListBox.ItemTemplate>
     <DataTemplate>
@@ -43,7 +43,7 @@ That snippet of XAML above? It’s straight from my photo viewing app. All
 I had to do was define the data template in the list box XAML then set
 the ItemsSource property of the list box instance.
 
-``` {.brush: .python}
+``` python
 w.listbox1.ItemsSource = albumsFeed.channel.item
 ```
 
@@ -91,12 +91,12 @@ bound before binding it. It’s cheating of sorts, but given the read-only
 nature of this app, it was the easiest thing to do. So the actual line
 of code to set listbox1’s ItemsSource looks like this:
 
-``` {.brush: .python}
-class Album(object):     
-  def __init__(self, item):     
-    self.title = item.title.Substring(13)     
-    self.itemRSS = item.itemRSS     
-     
+```python
+class Album(object):
+  def __init__(self, item):
+    self.title = item.title.Substring(13)
+    self.itemRSS = item.itemRSS
+
 w.listbox1.ItemsSource = [Album(item) for item in albumsFeed.channel.item]
 ```
 
@@ -107,11 +107,11 @@ Python’s list comprehension syntax makes creating a list of Albums from
 a list of RSS items a single line of code. I do something very similar
 for data binding the second list box:
 
-``` {.brush: .python}
-class Picture(object):     
-  def __init__(self, item):     
+``` python
+class Picture(object):
+  def __init__(self, item):
     self.title = item.title  
-    self.picture = BitmapImage(Uri(item.enclosure.url + ":thumbnail"))     
+    self.picture = BitmapImage(Uri(item.enclosure.url + ":thumbnail"))
 
 w.listbox2.ItemsSource = [Picture(item) for item in albumfeed.channel.item]
 ```

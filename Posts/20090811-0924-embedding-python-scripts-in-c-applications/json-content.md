@@ -19,22 +19,22 @@ highlighted HTML from a given block of code in a given language and
 style. The code itself is pretty simple. Note the reference to the
 pygments assembly I described last post. Here’s the entire file:
 
-``` {.brush: .python}
+``` python
 import clr
-clr.AddReference("pygments")       
+clr.AddReference("pygments")
 
-from pygments.lexers import get_all_lexers       
-from pygments.styles import get_all_styles       
+from pygments.lexers import get_all_lexers
+from pygments.styles import get_all_styles
 
-def generate_html(code, lexer_name, style_name):       
-  from pygments import highlight       
-  from pygments.lexers import get_lexer_by_name       
-  from pygments.styles import get_style_by_name       
-  from devhawk_formatter import DevHawkHtmlFormatter       
+def generate_html(code, lexer_name, style_name):
+  from pygments import highlight
+  from pygments.lexers import get_lexer_by_name
+  from pygments.styles import get_style_by_name
+  from devhawk_formatter import DevHawkHtmlFormatter
 
   if not lexer_name: lexer_name = "text"
   if not style_name: style_name = "default"
-  lexer = get_lexer_by_name(lexer_name)       
+  lexer = get_lexer_by_name(lexer_name)
   return highlight(code, lexer, DevHawkHtmlFormatter(style=style_name))
 ```
 
@@ -44,20 +44,20 @@ hosting APIs to create a script source and execute this code. I did have
 to build a concrete StreamContentProvider class to wrap the resource
 stream in, but otherwise, it’s pretty straight forward.
 
-``` {.brush: .csharp}
-static ScriptEngine _engine;      
-static ScriptSource _source;      
+``` csharp
+static ScriptEngine _engine;
+static ScriptSource _source;
 
-private void InitializeHosting()      
+private void InitializeHosting()
 {
-    _engine = IronPython.Hosting.Python.CreateEngine();      
+    _engine = IronPython.Hosting.Python.CreateEngine();
 
-    var asm = System.Reflection.Assembly.GetExecutingAssembly();      
-    var stream = asm.GetManifestResourceStream(      
-                   "DevHawk.PygmentsCodeSource.py");      
-    _source = _engine.CreateScriptSource(      
+    var asm = System.Reflection.Assembly.GetExecutingAssembly();
+    var stream = asm.GetManifestResourceStream(
+                   "DevHawk.PygmentsCodeSource.py");
+    _source = _engine.CreateScriptSource(
                 new BasicStreamContentProvider(stream),  
-                "PygmentsCodeSource.py");      
+                "PygmentsCodeSource.py");
 }
 ```
 
@@ -69,19 +69,19 @@ should be easily shared across multiple PygmentsCodeSource instances.
 But I didn’t take any chances, I created a script scope per instance to
 execute the source in.
 
-``` {.brush: .csharp}
-ScriptScope _scope;     
-Thread _init_thread;      
+``` csharp
+ScriptScope _scope;
+Thread _init_thread;
 
-public PygmentsCodeSource()      
+public PygmentsCodeSource()
 {
-    if (_engine == null)      
-        InitializeHosting();      
+    if (_engine == null)
+        InitializeHosting();
 
-     _scope = _engine.CreateScope();      
+     _scope = _engine.CreateScope();
 
-    _init_thread = new Thread(() => { _source.Execute(_scope); });      
-    _init_thread.Start();      
+    _init_thread = new Thread(() => { _source.Execute(_scope); });
+    _init_thread.Start();
 }
 ```
 

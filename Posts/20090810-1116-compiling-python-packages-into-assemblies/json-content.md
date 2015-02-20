@@ -23,7 +23,7 @@ script](http://github.com/devhawk/pygments.wlwriter/blob/2c9cbb7f777d66d5ad615bb
 to build the Pygments assembly from the files in a the pygments and
 pygments\_dependencies folders.
 
-``` {.brush: .python}
+``` python
 from System import IO
 from System.IO.Path import Combine
 
@@ -32,7 +32,7 @@ def walk(folder):
     yield file
   for folder in IO.Directory.GetDirectories(folder):
     for file in walk(folder): yield file
-  
+
 folder = IO.Path.GetDirectoryName(__file__)
 
 pygments_files = list(walk(Combine(folder, 'pygments')))

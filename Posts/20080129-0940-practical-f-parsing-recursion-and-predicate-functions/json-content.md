@@ -9,14 +9,14 @@ ranges, characters or definitions, I wrote special one-off functions to
 handle that recursion. Obviously, that’s not the best approach. So, I
 wrote the following active pattern functions to handle recursion.
 
-``` {.brush: .fsharp}
+``` fsharp
 //ZOM == Zero Or More
 let rec (|ZOM|) f input =
     match f input with
     | Some(i,input) ->
         let j,input = (|ZOM|) f input
         (i :: j, input)
-    | None -> [], input 
+    | None -> [], input
 
 //OOM == One Or More
 let (|OOM|_|) f input =
@@ -36,7 +36,7 @@ functions. Instead, I write a function that matches a single item, which
 I pass as an argument to one of the three functions above. For example,
 here is the original and new version of the top level Grammar function.
 
-``` {.brush: .fsharp}
+``` fsharp
 //Original version
 let (|Grammar|_|) input =
     let rec ParseDefinitions dl input =
@@ -50,11 +50,11 @@ let (|Grammar|_|) input =
     match input with
     | Spacing (OneOrMoreDefintions (dl, EndOfFile)) ->
           Some(List.to_array dl)
-    | _ -> None 
+    | _ -> None
 
 //New Version
 let (|Grammar|_|) = function
-    | Spacing (OOM (|Definition|_|) (dl, EndOfFile)) -> 
+    | Spacing (OOM (|Definition|_|) (dl, EndOfFile)) ->
           Some(List.to_array dl)
     | _ -> None
 ```
@@ -72,7 +72,7 @@ I also defined syntactic predicate functions. If you’ll recall, these
 syntactic predicates will try to match but automatically backtrack,
 returning success or failure depending on which function you called.
 
-``` {.brush: .fsharp}
+``` fsharp
 //FP == Failure Predicate
 let (|FP|_|) f input =
     match f input with
@@ -89,7 +89,7 @@ let (|SP|_|) f input =
 To see this in action, here’s the original and updated Primary function.
 Only the first rule is relevant, so I’ve omitted the others.
 
-``` {.brush: .fsharp}
+``` fsharp
 //Original version
 let (|Primary|_|) input =
     let (|NotLEFTARROW|_|) input =
@@ -103,7 +103,7 @@ let (|Primary|_|) input =
 
 //new version
 let (|Primary|_|) = function
-    | Identifier (id, FP (|LEFTARROW|_|) (input)) -> 
+    | Identifier (id, FP (|LEFTARROW|_|) (input)) ->
           Some(Primary.Identifier(id), input)
     //rest of function omitted for clarity
 ```
@@ -125,12 +125,12 @@ Hopefully, that will change at some point in the future, though if we’re
 going to dream of better syntax, can we do something about all the
 parens? Personally, I’d love to be able to write the following:
 
-``` {.brush: .fsharp}
+``` fsharp
 //This doesn't work, but I can dream, can't I?
 let (|Primary|_|) = function
     | Identifier (id) !!LEFTARROW (input) ->
         Some(Primary.Identifier(id), input)
-    //rest of function omitted for clarity 
+    //rest of function omitted for clarity
 
 let (|Grammar|_|) = function
     | Spacing ++Definition (dl) EndOfFile ->

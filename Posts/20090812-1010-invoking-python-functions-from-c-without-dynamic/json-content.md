@@ -16,33 +16,33 @@ while get\_all\_lexers returns a PythonTuple of the long name, a tuple
 of aliases, a tuple of filename patterns and a tuple of mime types.
 Here’s the implementation of Languages property:
 
-``` {.brush: .csharp}
-PygmentLanguage[] _lanugages;     
+``` csharp
+PygmentLanguage[] _lanugages;
 
-public PygmentLanguage[] Languages      
+public PygmentLanguage[] Languages
 {
     get
     {
-        if (_lanugages == null)      
+        if (_lanugages == null)
         {
-            _init_thread.Join();      
+            _init_thread.Join();
 
-            var f = _scope.GetVariable<PythonFunction>("get_all_lexers");      
-            var r = (PythonGenerator)_engine.Operations.Invoke(f);      
-            var lanugages_list = new List<PygmentLanguage>();      
-            foreach (PythonTuple o in r)      
+            var f = _scope.GetVariable<PythonFunction>("get_all_lexers");
+            var r = (PythonGenerator)_engine.Operations.Invoke(f);
+            var lanugages_list = new List<PygmentLanguage>();
+            foreach (PythonTuple o in r)
             {
-                lanugages_list.Add(new PygmentLanguage()      
+                lanugages_list.Add(new PygmentLanguage()
                     {
-                        LongName = (string)o[0],      
-                        LookupName = (string)((PythonTuple)o[1])[0]      
-                    });      
+                        LongName = (string)o[0],
+                        LookupName = (string)((PythonTuple)o[1])[0]
+                    });
             }
 
-            _lanugages = lanugages_list.ToArray();      
+            _lanugages = lanugages_list.ToArray();
         }
 
-        return _lanugages;      
+        return _lanugages;
     }
 }
 ```
@@ -79,21 +79,21 @@ turns out there’s another way that’s also more efficient for a function
 like generate\_html that we are likely to call more than once. Here’s my
 implementation of GenerateHtml in C\#.
 
-``` {.brush: .csharp}
-Func<object, object, object, string> _generatehtml_function;      
+``` csharp
+Func<object, object, object, string> _generatehtml_function;
 
-public string GenerateHtml(string code, string lexer, string style)      
+public string GenerateHtml(string code, string lexer, string style)
 {
-    if (_generatehtml_function == null)      
+    if (_generatehtml_function == null)
     {
-        _init_thread.Join();      
-             
-        var f = _scope.GetVariable<PythonFunction>("generate_html");      
-        _generatehtml_function = _engine.Operations.ConvertTo      
-                           <Func<object, object, object, string>>(f);      
+        _init_thread.Join();
+
+        var f = _scope.GetVariable<PythonFunction>("generate_html");
+        _generatehtml_function = _engine.Operations.ConvertTo
+                           <Func<object, object, object, string>>(f);
     }
 
-    return _generatehtml_function(code, lexer, style);      
+    return _generatehtml_function(code, lexer, style);
 }
 ```
 

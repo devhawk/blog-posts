@@ -31,7 +31,7 @@ generate new types on the fly. In Python, you can create a new type by
 calling the type function. Here’s an example of creating a new type for
 a XML node:
 
-``` {.brush: .python}
+``` python
 def create_type(node, parent):  
   return type(node.name, (parent,), {'xmlns':node.namespace})
 ```
@@ -52,7 +52,7 @@ function, which recursively iterates thru the node stream and builds the
 tree. Attributes and child elements become named attributes on the
 object, so I can write code that looks like this:
 
-``` {.brush: .python}
+``` python
 import xml2py  
 rss = xml2py.parse('http://feeds.feedburner.com/Devhawk')  
 for item in rss.channel.item:  

@@ -20,7 +20,7 @@ wanted.
 Here’s what my REPL console code look like. I love that it’s only 20
 lines of code.
 
-``` {.brush: .python}
+``` python
 @inputcmd(_inputcmds, ConsoleKey.R)
 def _input_repl_cmd(self, keyinfo):
   with CC.Gray:
@@ -30,11 +30,11 @@ def _input_repl_cmd(self, keyinfo):
 
     while True:
       Console.Write(">>>" if not cmd else "...")
-      
+
       line = Console.ReadLine()
       if line == None:
         break
-      
+
       if line:
         cmd = cmd + line + "n"
       else:

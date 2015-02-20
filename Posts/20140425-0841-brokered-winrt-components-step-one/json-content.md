@@ -33,7 +33,7 @@ process than the app. Here’s the simple code to retrieve those IDs (hat
 tip to [pinvoke.net](http://www.pinvoke.net) for the interop
 signatures):
 
-``` {.brush:csharp}
+``` csharp
 public sealed class Class
 {
     [DllImport("kernel32.dll")]

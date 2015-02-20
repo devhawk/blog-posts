@@ -13,14 +13,14 @@ wanted to specify by new breakpoints via the same filename/line number
 combination, it made more sense to move symbol document logic into
 create\_breakpoint:
 
-``` {.brush: .python}
+``` python
 def create_breakpoint(module, filename, linenum):
     reader = module.SymbolReader
     if reader == None:
       return None
-    
+
     # currently, I'm only comparing filenames. This algorithm may need
-    # to get more sophisticated to support differntiating files with the 
+    # to get more sophisticated to support differntiating files with the
     # same name in different paths
     filename = Path.GetFileName(filename)
     for doc in reader.GetDocuments():
@@ -28,11 +28,11 @@ def create_breakpoint(module, filename, linenum):
         linenum = doc.FindClosestLine(linenum)
         method = reader.GetMethodFromDocumentPosition(doc, linenum, 0)
         function = module.GetFunctionFromToken(method.Token.GetToken())
-        
+
         for sp in get_sequence_points(method):
           if sp.doc.URL == doc.URL and sp.start_line == linenum:
             return function.ILCode.CreateBreakpoint(sp.offset)
-        
+
         return function.CreateBreakpoint()
 ```
 
@@ -53,7 +53,7 @@ lot like my top level input method – read a key from the console then
 dispatch it via a commands dictionary that gets populated by @inputcmd
 decorators.
 
-``` {.brush: .python}
+``` python
 @inputcmd(_inputcmds, ConsoleKey.B)
 def _input_breakpoint(self, keyinfo):
     keyinfo2 = Console.ReadKey()
@@ -67,11 +67,11 @@ def _input_breakpoint(self, keyinfo):
 Currently, there are four breakpoint commands: “a” for add, “l” for
 list, “e” for enable and “d” for disable. List is by far the simplest.
 
-``` {.brush: .python}
+``` python
 @inputcmd(_breakpointcmds, ConsoleKey.L)
 def _bp_list(self, keyinfo):
-  print "nList Breakpoints"   
-  for i, bp in enumerate(self.breakpoints): 
+  print "nList Breakpoints"
+  for i, bp in enumerate(self.breakpoints):
     sp = get_location(bp.Function, bp.Offset)
     state = "Active" if bp.IsActive else "Inactive"
     print "  %d. %s:%d %s" % (i+1, sp.doc.URL, sp.start_line, state)
@@ -87,11 +87,11 @@ function](http://docs.python.org/library/functions.html#enumerate),
 which returns a tuple of the collection count and item. I do this so I
 can refer to breakpoints by number when enabling or disabling them:
 
-``` {.brush: .python}
+``` python
 @inputcmd(_breakpointcmds, ConsoleKey.E)
 def _bp_enable(self, keyinfo):
   self._set_bp_status(True)
-  
+
 @inputcmd(_breakpointcmds, ConsoleKey.D)
 def _bp_disable(self, keyinfo):
   self._set_bp_status(False)
@@ -100,13 +100,13 @@ def _set_bp_status(self, activate):
   stat = "Enable" if activate else "Disable"
   try:
     bp_num = int(Console.ReadLine())
-    for i, bp in enumerate(self.breakpoints): 
+    for i, bp in enumerate(self.breakpoints):
       if i+1 == bp_num:
         bp.Activate(activate)
         print "nBreakpoint %d %sd" % (bp_num, stat)
         return False
     raise Exception, "Breakpoint %d not found" % bp_num
-    
+
   except Exception, msg:
     with CC.Red: print "&s breakpoint Failed %s" % (stat, msg)
 ```
@@ -124,26 +124,26 @@ number.
 Finally, I need a way to create new breakpoints. With the refactoring of
 create\_breakpoint, this is pretty straightforward
 
-``` {.brush: .python}
-@inputcmd(_breakpointcmds, ConsoleKey.A) 
-def _bp_add(self, keyinfo): 
-  try: 
-    args = Console.ReadLine().Trim().split(':') 
+``` python
+@inputcmd(_breakpointcmds, ConsoleKey.A)
+def _bp_add(self, keyinfo):
+  try:
+    args = Console.ReadLine().Trim().split(':')
     if len(args) != 2: raise Exception, "Only pass two arguments"  
-    linenum = int(args[1]) 
-     
-    for assm in self.active_appdomain.Assemblies: 
-      for mod in assm.Modules: 
-          bp = create_breakpoint(mod, args[0], linenum) 
-          if bp != None: 
-            self.breakpoints.append(bp) 
-            bp.Activate(True) 
-            Console.WriteLine( "Breakpoint set") 
-            return False 
-    raise Exception, "Couldn't find %s:%d" % (args[0], linenum)     
+    linenum = int(args[1])
 
-  except Exception, msg: 
-    with CC.Red: 
+    for assm in self.active_appdomain.Assemblies:
+      for mod in assm.Modules:
+          bp = create_breakpoint(mod, args[0], linenum)
+          if bp != None:
+            self.breakpoints.append(bp)
+            bp.Activate(True)
+            Console.WriteLine( "Breakpoint set")
+            return False
+    raise Exception, "Couldn't find %s:%d" % (args[0], linenum)
+
+  except Exception, msg:
+    with CC.Red:
       print "Add breakpoint failed", msg
 ```
 

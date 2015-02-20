@@ -23,16 +23,16 @@ class.
 
  
 
-``` {.brush:ruby}
-class Module 
-  @@docs = Hash.new(nil) 
-  def doc(str) 
-    @@docs[self.name] = str 
+``` ruby
+class Module
+  @@docs = Hash.new(nil)
+  def doc(str)
+    @@docs[self.name] = str
   end
-  def Module::doc(aClass) 
+  def Module::doc(aClass)
     # If we’re passed a class or module, convert to string
     # (‘<=’ for classes checks for same class or subtype)
-    aClass = aClass.name if aClass.type <= Module 
+    aClass = aClass.name if aClass.type <= Module
     @@docs[aClass] || “No documentation for #{aClass}”
   end
 end

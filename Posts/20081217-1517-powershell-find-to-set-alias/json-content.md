@@ -7,7 +7,7 @@ c:\\Program Files folder. I wanted my shared profile script to be able
 to search a set of folders for a given executable to alias, and I came
 up with the following function.
 
-``` {.brush: .powershell}
+``` powershell
 function find-to-set-alias($foldersearch, $file, $alias)
 {
   dir $foldersearch |
@@ -26,16 +26,16 @@ the break statement.
 
 Here are the find-to-set-aliases I have in my profile:
 
-``` {.brush: .powershell}
+``` powershell
 find-to-set-alias 'c:\program files*\IronPython*' ipy.exe ipy
-find-to-set-alias 'c:\program files*\IronPython*' chiron.exe chiron     
+find-to-set-alias 'c:\program files*\IronPython*' chiron.exe chiron
 
-find-to-set-alias 'c:\Python*' python.exe cpy     
+find-to-set-alias 'c:\Python*' python.exe cpy
 
 find-to-set-alias
     'c:program files*\Microsoft Visual Studio 9.0\Common7' devenv.exe vs
 find-to-set-alias
-    'c:program files*\Microsoft Visual Studio 9.0\Common7' tf.exe tf     
+    'c:program files*\Microsoft Visual Studio 9.0\Common7' tf.exe tf
 
 find-to-set-alias 'c:\program files*\FSharp*' fsi.exe fsi
 find-to-set-alias

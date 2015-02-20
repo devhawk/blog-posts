@@ -11,7 +11,7 @@ to change your home directory and profile script. Here’s my
 Microsoft.PowerShell\_profile.ps1 file (in the WindowsPowerShell
 subdirectory of My Documents)
 
-``` {.brush: .powershell}
+``` powershell
 # reset $HOME and $PROFILE variables
 set-variable -name HOME -value "D:HPierson.Files" -force  
 (get-psprovider FileSystem).Home = $HOME  

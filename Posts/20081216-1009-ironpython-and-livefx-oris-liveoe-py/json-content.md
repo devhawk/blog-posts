@@ -13,9 +13,9 @@ profile access script from [my last
 post](http://devhawk.net/2008/12/13/IronPython+And+LiveFX+Accessing+Profiles.aspx)
 rewritten to use Ori’s LiveOE module.
 
-``` {.brush: .python}
+``` python
 import LiveOE     
-from devhawk import linq     
+from devhawk import linq
 
 uid = raw_input("Enter Windows Live ID: ")
 pwd = raw_input("Enter Password: ")
@@ -25,9 +25,9 @@ loe = LiveOE.Connect(uid, pwd)
 general = linq.Single(loe.Profiles.Entries,  
   lambda e: e.Resource.Type == LiveOE.ProfileResource.ProfileType.General)
 
-print loe.Mesh.ProvisionedUser.Name     
-print loe.Mesh.ProvisionedUser.Email     
-print general.Resource.ProfileInfo.PersonalStatusMessage     
+print loe.Mesh.ProvisionedUser.Name
+print loe.Mesh.ProvisionedUser.Email
+print general.Resource.ProfileInfo.PersonalStatusMessage
 print linq.Count(loe.Contacts.Entries)
 ```
 

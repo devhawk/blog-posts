@@ -7,15 +7,14 @@ LINQ to SQL was out, since the code has to work against arbitrary tables
 style="text-decoration: line-through;">XLinq</span> LINQ to XML helped
 me out a ton. Check out this example:
 
-``` {.brush: .csharp}
+``` csharp
 const string ns = "{http://some.sample.namespace.schema}";
 
 while (dr.Read())
 {
     XElement rowXml = new XElement(ns + tableName,
         from i in GetRange(0, dr.FieldCount)
-        select
-            new XElement(ns + dr.GetName(i), dr.GetValue(i)));
+        select new XElement(ns + dr.GetName(i), dr.GetValue(i)));
 }
 ```
 
@@ -24,7 +23,7 @@ method. I needed an easy way to build a range of integers from zero to
 the number of fields in the data reader. I wasn’t sure of any standard
 way, so I wrote this little two line function:
 
-``` {.brush: .csharp}
+``` csharp
 IEnumerable<int> GetRange(int min, int max)
 {
     for (int i = min; i < max; i++)

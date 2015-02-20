@@ -85,7 +85,7 @@ generates the appropriate IL to handle the pre- and post fix scenarios.
 For example, if I have an integer i and I call Console.Write(++i), the
 C\# compiler generates the following IL:
 
-``` {.brush:plain}
+```cil
 ldloc.0  //load i variable onto the stack
 ldc.i4.1 //load the value 1 onto the stack
 add      //add the two values on top of the stack
@@ -97,7 +97,7 @@ call Console.Write
 
 And if I call Console.Write(i++):
 
-``` {.brush:plain}
+```cil
 ldloc.0  //load i variable onto the stack
 //This stack item gets passed to Console.Write
 dup      //duplicate the value on the top of the stack

@@ -7,9 +7,9 @@ types for every Python class. Instead, it typically shares a single CLR
 type across many Python classes. For example, all three of these Python
 classes share a single underlying CLR type.
 
-``` {.brush: .python}
+``` python
 class shop(object):
-  pass 
+  pass
 
 class cheese_shop(shop):
   def have_cheese(self, cheese_type):
@@ -39,12 +39,12 @@ But all those things are legal to do in Python. Here, I’m creating an
 instance of the cheese\_shop class, but then changing that instance to
 be an argument\_clinic instance instead.
 
-``` {.brush: .text}
+```
 >>> cs = cheese_shop()
 
->>> cs.have_cheese("Venezuelan Beaver Cheese") 
+>>> cs.have_cheese("Venezuelan Beaver Cheese")
 False
->>> cs.is_right_room(12) 
+>>> cs.is_right_room(12)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 AttributeError: 'cheese_shop' object has no attribute 'is_right_room'
@@ -52,11 +52,11 @@ AttributeError: 'cheese_shop' object has no attribute 'is_right_room'
 >>> # Change the object's class at runtime
 >>> cs.__class__ = argument_clinic # don't try this in C#!
 
->>> cs.have_cheese("Venezuelan Beaver Cheese") 
+>>> cs.have_cheese("Venezuelan Beaver Cheese")
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 AttributeError: 'argument_clinic' object has no attribute 'have_cheese'
->>> cs.is_right_room(12) 
+>>> cs.is_right_room(12)
 "I've told you once"
 ```
 

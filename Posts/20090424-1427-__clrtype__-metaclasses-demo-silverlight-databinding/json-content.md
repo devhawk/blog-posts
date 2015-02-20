@@ -25,20 +25,20 @@ IronPython](http://devhawk.net/2008/11/18/IronPython+And+WPF+Part+3+Data+Binding
 The only thing I changed was the binding path for the text block (title
 became name).
 
-``` {.brush: .xml}
-<ListBox x:Name="listbox1" > 
-      <ListBox.ItemTemplate> 
-        <DataTemplate> 
-          <TextBlock Text="{Binding Path=name}" /> 
-        </DataTemplate> 
-      </ListBox.ItemTemplate> 
-    </ListBox>
+``` xml
+<ListBox x:Name="listbox1" >
+  <ListBox.ItemTemplate>
+    <DataTemplate>
+      <TextBlock Text="{Binding Path=name}" />
+    </DataTemplate>
+  </ListBox.ItemTemplate>
+</ListBox>
 ```
 
 Then in the App class, I set the ItemsSource of the ListBox to a
 hand-built a list of Products.
 
-``` {.brush: .python}
+``` python
 class App:
   def __init__(self):
     root = Application.Current.LoadRootVisual(UserControl(), "app.xaml")

@@ -5,9 +5,9 @@ hacked up the following PowerShell function and dropped it into my
 \$profile so I can easily launch the web server in any directory any
 time I need. Thought I’d share:
 
-``` {.brush: .powershell}
-function webdev($path,$port=8080,$vpath='/')   
-{   
+``` powershell
+function webdev($path,$port=8080,$vpath='/')
+{
     $spath = 'C:\Program Files\Common Files\microsoft shared\DevServer9.0\WebDev.WebServer.EXE'
     $rpath = resolve-path $path  
     $params = "/path:`"$rpath`" /port:$port /vpath:$vpath"  
@@ -29,7 +29,7 @@ Enjoy.
 **<span style="text-decoration: underline;">Update</span>**: Tomas
 Restrepo pointed out an easier way to start the process:
 
-``` {.brush: .powershell}
+``` powershell
 &'C:\Program Files\Common Files\microsoft shared\DevServer9.0\WebDev.WebServer.EXE' "/path:$rpath" "/port:$port" "/vpath:$vpath"
 ```
 

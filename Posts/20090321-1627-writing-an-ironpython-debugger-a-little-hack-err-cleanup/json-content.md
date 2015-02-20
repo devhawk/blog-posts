@@ -44,24 +44,24 @@ static dictionary mapping CorModules to SymbolReaders. The instance
 SymbolReader property simply then access to the underlying static
 dictionary.
 
-``` {.brush: .csharp}
-//code taken from CorModule class in CorModule.cs 
-private static Dictionary<CorModule, ISymbolReader> _symbolsMap =    
-                             new Dictionary<CorModule, ISymbolReader>();    
+``` csharp
+//code taken from CorModule class in CorModule.cs
+private static Dictionary<CorModule, ISymbolReader> _symbolsMap =
+                             new Dictionary<CorModule, ISymbolReader>();
 
-public ISymbolReader SymbolReader     
-{    
-    get    
-    {    
-        if (_symbolsMap.ContainsKey(this))    
-            return _symbolsMap[this];    
-        else    
-            return null;    
-    }    
-    set    
-    {    
-        _symbolsMap[this] = value;    
-    }    
+public ISymbolReader SymbolReader
+{
+    get
+    {
+        if (_symbolsMap.ContainsKey(this))
+            return _symbolsMap[this];
+        else
+            return null;
+    }
+    set
+    {
+        _symbolsMap[this] = value;
+    }
 }
 ```
 

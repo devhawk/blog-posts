@@ -14,7 +14,7 @@ constructor. But luckily, we can hide it away in the make\_cab function
 by using Python’s [keyword arguments
 feature](http://docs.python.org/tutorial/controlflow.html#keyword-arguments).
 
-``` {.brush: .python}
+``` python
 def make_cab(attrib_type, *args, **kwds):
   clrtype = clr.GetClrType(attrib_type)
   argtypes = tuple(map(lambda x:clr.GetClrType(type(x)), args))
@@ -22,7 +22,7 @@ def make_cab(attrib_type, *args, **kwds):
 
   props = ([],[])
   fields = ([],[])
-  
+
   for kwd in kwds:
     pi = clrtype.GetProperty(kwd)
     if pi is not None:
@@ -35,9 +35,9 @@ def make_cab(attrib_type, *args, **kwds):
         fields[1].append(kwds[kwd])
       else:
         raise Exception, "No %s Member found on %s" % (kwd, clrtype.Name)
-  
-  return CustomAttributeBuilder(ci, args, 
-    tuple(props[0]), tuple(props[1]), 
+
+  return CustomAttributeBuilder(ci, args,
+    tuple(props[0]), tuple(props[1]),
     tuple(fields[0]), tuple(fields[1]))
 
 def cab_builder(attrib_type):
@@ -70,9 +70,9 @@ make\_cab function. No big deal. So now, I can add an attribute with
 named parameters to my IronPython class and it still looks a lot like a
 C\# attribute specification.
 
-``` {.brush: .python}
+``` python
 clr.AddReference("System.Xml")
-from System.Xml.Serialization import XmlRootAttribute 
+from System.Xml.Serialization import XmlRootAttribute
 from System import ObsoleteAttribute, CLSCompliantAttribute
 Obsolete = cab_builder(ObsoleteAttribute)
 CLSCompliant = cab_builder(CLSCompliantAttribute)
@@ -80,9 +80,9 @@ XmlRoot = cab_builder(XmlRootAttribute)
 
 class Product(object):
   __metaclass__ = ClrTypeMetaclass
-  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries" 
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"
   _clrclassattribs = [
-    Obsolete("Warning Lark's Vomit"), 
+    Obsolete("Warning Lark's Vomit"),
     CLSCompliant(False),
     XmlRoot("product", Namespace="http://samples.devhawk.net")]
 

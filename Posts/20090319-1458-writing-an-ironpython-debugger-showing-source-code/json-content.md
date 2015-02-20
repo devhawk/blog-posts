@@ -25,17 +25,17 @@ location and mapping that to a source file. In order to avoid hitting
 the file system over and over, I cache source files the first time they
 are accessed.
 
-``` {.brush: .python}
-def _get_file(self,filename):     
-    filename = Path.GetFileName(filename)     
-    if not filename in self.source_files:     
-      self.source_files[filename] = File.ReadAllLines(filename)     
+``` python
+def _get_file(self,filename):
+    filename = Path.GetFileName(filename)
+    if not filename in self.source_files:
+      self.source_files[filename] = File.ReadAllLines(filename)
     return self.source_files[filename]  
 
-def _input(self):     
-    offset, sp = self._get_location(self.active_thread.ActiveFrame)     
-    lines = self._get_file(sp.doc.URL)     
-    print "%d:" % sp.start_line, lines[sp.start_line-1]     
+def _input(self):
+    offset, sp = self._get_location(self.active_thread.ActiveFrame)
+    lines = self._get_file(sp.doc.URL)
+    print "%d:" % sp.start_line, lines[sp.start_line-1]
     #input loop ommited for clarity
 ```
 
@@ -55,14 +55,14 @@ to make changes to how the shipping version of IronPython emits debug
 symbols. So instead, I decided to insert an automatic step whenever I
 step into a function by modifying OnStepComplete:
 
-``` {.brush: .python}
-def OnStepComplete(self, sender,e):     
-    offset, sp = self._get_location(e.Thread.ActiveFrame)     
-    print "OnStepComplete Reason:", e.StepReason,      
-           "Location:", sp if sp != None else "offset %d" % offset     
-    if e.StepReason == CorDebugStepReason.STEP_CALL:     
-      self._do_step(e.Thread, False)     
-    else:     
+``` python
+def OnStepComplete(self, sender,e):
+    offset, sp = self._get_location(e.Thread.ActiveFrame)
+    print "OnStepComplete Reason:", e.StepReason,
+           "Location:", sp if sp != None else "offset %d" % offset
+    if e.StepReason == CorDebugStepReason.STEP_CALL:
+      self._do_step(e.Thread, False)
+    else:
       self._do_break_event(e)
 ```
 

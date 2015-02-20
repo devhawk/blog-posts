@@ -9,12 +9,12 @@ Because there’s no hierarchy of scopes to deal with and the names are in
 the metadata instead of debug symbols, getting arguments is much easier
 than getting local variables.
 
-``` {.brush: .python}
-def get_arguments(frame): 
-    mi = frame.GetMethodInfo() 
-    for pi in mi.GetParameters(): 
-      if pi.Position == 0: continue 
-      arg = frame.GetArgument(pi.Position - 1) 
+``` python
+def get_arguments(frame):
+    mi = frame.GetMethodInfo()
+    for pi in mi.GetParameters():
+      if pi.Position == 0: continue
+      arg = frame.GetArgument(pi.Position - 1)
       yield pi.Name, arg
 ```
 
@@ -31,24 +31,24 @@ Because get\_locals and get\_arguments yield the same types, I was able
 to factor the code to print a value and loop through the collection of
 values into separate local functions.
 
-``` {.brush: .python}
+``` python
 @inputcmd(_inputcmds, ConsoleKey.L)  
 def _input_locals_cmd(self, keyinfo):  
   def print_value(name, value):  
     display, type_name = display_value(extract_value(value))  
-    with CC.Magenta: print "  ", name,   
+    with CC.Magenta: print "  ", name,
     print display,  
     with CC.Green: print type_name  
-      
+
   def print_all_values(f, show_hidden):  
       count = 0  
       for name,value in f(self.active_thread.ActiveFrame):  
         if name.startswith("$") and not show_hidden:  
           continue  
         print_value(name, value)  
-        count+=1          
+        count+=1
       return count  
-        
+
   print "nLocals"  
   show_hidden =  
     (keyinfo.Modifiers & ConsoleModifiers.Alt) == ConsoleModifiers.Alt  

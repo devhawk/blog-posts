@@ -8,7 +8,7 @@ Along with a native list type, F\# has a native operation for retrieving
 the head of a list. For example, If you execute the following code, head
 will be bound to ’1′ and tail will be bound to the list ['2';'3';'4']
 
-``` {.brush: .fsharp}
+```fsharp
 let head :: tail = ['1';'2';'3';'4']
 ```
 
@@ -19,7 +19,7 @@ of text off the disk for processing, so I’d rather not limit future
 options like this. So instead, I’ll define my own function to retrieve
 the head of the parsing buffer.
 
-``` {.brush: .fsharp}
+``` fsharp
 let NC input =
     match input with
     | head :: tail -> Some(head, tail)
@@ -57,7 +57,7 @@ without having to change the parsing functions that use NC. For example,
 here’s a different implementation where the input parameter is a .NET
 string instead of a char list.
 
-``` {.brush: .fsharp}
+``` fsharp
 let NC (input : string) =
     if input.Length > 0
         then Some(input.Chars(0), input.Substring(1))
@@ -79,7 +79,7 @@ my parsing code.
 Here’s another function I’ll use in parsing, defined entirely in terms
 of NC.
 
-``` {.brush:fsharp}
+``` fsharp
 let TOKEN token input =
     let rec ParseToken token input =
         match token, NC input with
@@ -120,7 +120,7 @@ lists. Technically, the values didn’t change, F\# allows you to reuse
 the symbols. If I wanted to avoid reusing symbols, I could define
 ParseToken this way (though I find this much less readable):
 
-``` {.brush:fsharp}
+``` fsharp
 let rec ParseToken token input =
     match token, NC input with
     | t :: [], Some(i, itail) when i = t ->
@@ -135,7 +135,7 @@ code. It simply calls ParseToken, converting the token parameter into a
 char list along the way. While lists are very efficient, which would you
 rather type?
 
-``` {.brush: .fsharp}
+``` fsharp
 let token = TOKEN ['f';'o';'o'] input
 let token = TOKEN "foo" input
 ```
@@ -151,7 +151,7 @@ I also used List.of\_seq to define a helper function String to Parse
 Buffer (aka S2PB) that converts a string into a character list. I use
 function often in the test code.
 
-``` {.brush:fsharp}
+``` fsharp
 let S2PB input = List.of_seq input
 ```
 
@@ -173,7 +173,7 @@ either of those solutions, so instead I defined a custom unary operator
 !! as an alias. The parameter binding rules are different for custom
 operators because I can write NC !! “foo” without piping or parenthesis.
 
-``` {.brush: .fsharp}
+``` fsharp
 let (!!) input = S2PB input
 ```
 

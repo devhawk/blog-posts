@@ -10,19 +10,19 @@ not. I’m not sure I’m a big fan of XML based command grammars like this.
 DOM’s interface is ugly enough, XUpdate appears to be DOM’s interface
 cast in XML, so you end up with something like this:
 
-> `<xupdate:modifications version="1.0" xmlns:xupdate="http://www.xmldb.org/xupdate"> <xupdate:insert-after select="/addresses/address[1]" >`
->
-> \<xupdate:element name="address"\>\
->  \<xupdate:attribute name="id"\>2\</xupdate:attribute\>\
->  \<fullname\>John Smith\</fullname\>\
->  \<born day='2' month='12' year='1974'/\>\
->  \<country\>Germany\</country\>\
->  \</xupdate:element\>
->
-> \</xupdate:insert-after\>\
->  \</xupdate:modifications\>\
->  [[Xindice Developers
-> Guide](http://xml.apache.org/xindice/guide-developer.html#N1025F)]
+````xml
+<xupdate:modifications version="1.0" xmlns:xupdate="http://www.xmldb.org/xupdate">
+  <xupdate:insert-after select="/addresses/address[1]" >
+    <xupdate:element name="address">
+      <xupdate:attribute name="id">2</xupdate:attribute>
+      <fullname>John Smith</fullname>
+      <born day='2' month='12' year='1974'/>
+      <country>Germany</country>
+    </xupdate:element>
+  </xupdate:insert-after>
+</xupdate:modifications>
+````
+[[Xindice Developers Guide](http://xml.apache.org/xindice/guide-developer.html#N1025F)]
 
 As I said, not very pretty.
 
@@ -54,4 +54,3 @@ Other Notes:
     2004](http://www.teamxbox.com/news.php?id=4271)” for XBOX today. I
     wonder if it will feature the [Microsoft Hockey
     Challenge](http://www.mshockeychallenge.com)?
-

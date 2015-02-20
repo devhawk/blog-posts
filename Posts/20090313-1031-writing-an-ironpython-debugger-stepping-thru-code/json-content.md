@@ -11,29 +11,29 @@ stepping. Where previously I’ve written a bunch of code but had little
 to show in terms of features, now I’m getting three new features (basic
 step, step in and step out) at once!
 
-``` {.brush: .python}
-def _input(self):     
+``` python
+def _input(self):
   #remaining _input code omitted for clarity
-  elif k.Key == ConsoleKey.S:     
+  elif k.Key == ConsoleKey.S:
       print "nStepping"
-      self._do_step(False)     
+      self._do_step(False)
       return
-  elif k.Key == ConsoleKey.I:     
+  elif k.Key == ConsoleKey.I:
       print "nStepping In"
-      self._do_step(True)     
-      return                 
-  elif k.Key == ConsoleKey.O:     
+      self._do_step(True)
+      return
+  elif k.Key == ConsoleKey.O:
       print "nStepping Out"
-      stepper = create_stepper(self.active_thread)     
-      stepper.StepOut()     
+      stepper = create_stepper(self.active_thread)
+      stepper.StepOut()
 
-def _do_step(self, step_in):     
-  stepper = create_stepper(self.active_thread)     
-  mod = self.active_thread.ActiveFrame.Function.Module     
-  if mod not in self.symbol_readers:     
-      stepper.Step(step_in)     
-  else:     
-    range = get_step_ranges(self.active_thread, self.symbol_readers[mod])     
+def _do_step(self, step_in):
+  stepper = create_stepper(self.active_thread)
+  mod = self.active_thread.ActiveFrame.Function.Module
+  if mod not in self.symbol_readers:
+      stepper.Step(step_in)
+  else:
+    range = get_step_ranges(self.active_thread, self.symbol_readers[mod])
     stepper.StepRange(step_in, range)
 ```
 
@@ -54,25 +54,25 @@ statements instead.
 The stepping code above depends on three helper functions defined at
 global scope.
 
-``` {.brush: .python}
-def create_stepper(thread):     
-  stepper = thread.ActiveFrame.CreateStepper()     
-  stepper.SetUnmappedStopMask(CorDebugUnmappedStop.STOP_NONE)     
+``` python
+def create_stepper(thread):
+  stepper = thread.ActiveFrame.CreateStepper()
+  stepper.SetUnmappedStopMask(CorDebugUnmappedStop.STOP_NONE)
   return stepper  
-   
-def create_step_range(start, end):     
-  range = Array.CreateInstance(COR_DEBUG_STEP_RANGE, 1)     
-  range[0] = COR_DEBUG_STEP_RANGE(startOffset = UInt32(start),     
-                                  endOffset = UInt32(end))     
-  return range     
-   
-def get_step_ranges(thread, reader):     
-    frame = thread.ActiveFrame     
-    offset, mapResult = frame.GetIP()     
-    method = reader.GetMethod(SymbolToken(frame.FunctionToken))     
-    for sp in get_sequence_points(method):     
-        if sp.offset > offset:     
-            return create_step_range(offset, sp.offset)     
+
+def create_step_range(start, end):
+  range = Array.CreateInstance(COR_DEBUG_STEP_RANGE, 1)
+  range[0] = COR_DEBUG_STEP_RANGE(startOffset = UInt32(start),
+                                  endOffset = UInt32(end))
+  return range
+
+def get_step_ranges(thread, reader):
+    frame = thread.ActiveFrame
+    offset, mapResult = frame.GetIP()
+    method = reader.GetMethod(SymbolToken(frame.FunctionToken))
+    for sp in get_sequence_points(method):
+        if sp.offset > offset:
+            return create_step_range(offset, sp.offset)
     return create_step_range(offset, frame.Function.ILCode.Size)
 ```
 

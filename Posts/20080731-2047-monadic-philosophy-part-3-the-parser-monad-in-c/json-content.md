@@ -25,22 +25,22 @@ with a context flow. Since C\# has explicit sequencing, we want to focus
 on the context flow. For LINQ, the context was IEnumerable. For parsers,
 we could define an similar IParser interface like this:
 
-``` {.brush: .csharp}
-class Tuple<T1, T2> 
-{ 
-    public readonly T1 Item1; 
-    public readonly T2 Item2; 
-    public Tuple(T1 val1, T2 val2) { Item1 = val1; Item2 = val2; } 
-} 
+``` csharp
+class Tuple<T1, T2>
+{
+    public readonly T1 Item1;
+    public readonly T2 Item2;
+    public Tuple(T1 val1, T2 val2) { Item1 = val1; Item2 = val2; }
+}
 
-class Result<T> : Tuple<T, string> 
-{ 
-    public Result(T val, string rest) : base(val, rest) { } 
-} 
+class Result<T> : Tuple<T, string>
+{
+    public Result(T val, string rest) : base(val, rest) { }
+}
 
-interface IParser<T> 
-{ 
-    Result<T> Parse(string input); 
+interface IParser<T>
+{
+    Result<T> Parse(string input);
 }
 ```
 
@@ -64,7 +64,7 @@ interface. As we add more and more parsers, that additional overhead of
 creating types would become more and more unwieldy. Instead, let’s
 redefine Parser as a delegate.
 
-``` {.brush: .csharp}
+``` csharp
 delegate Result<T> Parser<T>(string input);
 ```
 
@@ -74,15 +74,15 @@ overhead of creating a type. For example, here’s a function to create a
 simple primitive parser that strips the first character off the parse
 string and returns it as the parse result:
 
-``` {.brush: .csharp}
-static Parser<char> Item() 
-{ 
-    return input => 
-        { 
-            return string.IsNullOrEmpty(input) 
+``` csharp
+static Parser<char> Item()
+{
+    return input =>
+        {
+            return string.IsNullOrEmpty(input)
                 ? null
-                : new Result<char>(input[0], input.Substring(1)); 
-        }; 
+                : new Result<char>(input[0], input.Substring(1));
+        };
 }
 ```
 
@@ -98,8 +98,9 @@ combine into higher-order parsers along with some language specific
 lower-order parsers. Here’s an example from the the [PEG
 grammar](http://pdos.csail.mit.edu/~baford/packrat/popl04/peg-popl04.pdf):
 
-    Primary \<- Identifier !LEFTARROW / OPEN Expression CLOSE / Literal
-/ Class / DOT
+```
+Primary \<- Identifier !LEFTARROW / OPEN Expression CLOSE / Literal / Class / DOT
+```
 
 The Primary parser depends on some high-order language specific parsers
 (Identifier, Expression, Literal and Class) as well as some language
@@ -119,7 +120,7 @@ combine the two parse values in a Tuple to return them (you see why I
 created a generic Tuple class?) resulting in a function that looks like
 this:
 
-``` {.brush: .csharp}
+``` csharp
 static Parser<Tuple<T1,T2>> Join<T1,T2>(this Parser<T1> p1, Parser<T2> p2)  
 {  
     return input =>  
@@ -150,41 +151,41 @@ level of tuple nesting in the Result that’s returned. That gets pretty
 ugly pretty fast. For example, lets say we want to create a parser that
 combines two instances of Item. It looks like this:
 
-``` {.brush: .csharp}
-static Parser<Tuple<char, char>> TwoItems() 
-{ 
-    return Item().Plus(Item()); 
+``` csharp
+static Parser<Tuple<char, char>> TwoItems()
+{
+    return Item().Plus(Item());
 }
 ```
 
 That’s not so bad. But now look what happens if we combine the TwoItems
 parser with another instance of Item:
 
-``` {.brush: .csharp}
-static Parser<Tuple<Tuple<char, char>, char>> ThreeItems() 
-{ 
-    return TwoItems().Plus(Item()); 
+``` csharp
+static Parser<Tuple<Tuple<char, char>, char>> ThreeItems()
+{
+    return TwoItems().Plus(Item());
 }
 ```
 
 The result is a nested tuple. Yuck. We need a better way. Enter the
 monadic bind. The code looks like this:
 
-``` {.brush: .csharp}
-static Parser<U> Bind<T, U>(this Parser<T> p1, Func<T, Parser<U>> fun) 
-{ 
-    return input => 
-        { 
-            var ret1 = p1(input); 
-            if (ret1 == null) 
-                return null; 
+``` csharp
+static Parser<U> Bind<T, U>(this Parser<T> p1, Func<T, Parser<U>> fun)
+{
+    return input =>
+        {
+            var ret1 = p1(input);
+            if (ret1 == null)
+                return null;
 
-            var p2 = fun(ret1.Item1); 
-            if (p2 == null) 
-                return null; 
+            var p2 = fun(ret1.Item1);
+            if (p2 == null)
+                return null;
 
-            return p2(ret1.Item2); 
-        }; 
+            return p2(ret1.Item2);
+        };
 }
 ```
 
@@ -203,20 +204,20 @@ version of TwoItems that binds a call to Item with a custom function
 that calls Item again and returns the two characters as a string rather
 than a tuple:
 
-``` {.brush: .csharp}
-static Parser<string> BetterTwoItems() 
-{ 
-    return Item().Bind<char, string>( 
+``` csharp
+static Parser<string> BetterTwoItems()
+{
+    return Item().Bind<char, string>(
         val =>  
-        { 
-            return input => 
-            { 
-                var result = Item()(input); 
-                return new Result<string>( 
-                    string.Format("{0}{1}", val, result.Item1), 
-                    result.Item2); 
-            }; 
-        }); 
+        {
+            return input =>
+            {
+                var result = Item()(input);
+                return new Result<string>(
+                    string.Format("{0}{1}", val, result.Item1),
+                    result.Item2);
+            };
+        });
 }
 ```
 
@@ -236,20 +237,20 @@ syntax confuses C\#’s type inference, forcing you to explicitly specify
 the generic types on the Bind method. Luckily there’s a better way to
 write this. However, let’s start by rewriting the function like this:
 
-``` {.brush: .csharp}
-static Parser<string> SlightlyBetterTwoItems() 
-{ 
-    return Item().Bind( 
-        v1 => Item().Bind<char, string>( 
-            v2 => 
-            { 
-                return input => 
-                { 
-                    return new Result<string>( 
-                        string.Format("{0}{1}", v1, v2), 
-                        input); 
-                }; 
-            })); 
+``` csharp
+static Parser<string> SlightlyBetterTwoItems()
+{
+    return Item().Bind(
+        v1 => Item().Bind<char, string>(
+            v2 =>
+            {
+                return input =>
+                {
+                    return new Result<string>(
+                        string.Format("{0}{1}", v1, v2),
+                        input);
+                };
+            }));
 }
 ```
 
@@ -268,17 +269,17 @@ Result is a very common operation. So let’s create a primitive function
 Result to wrap up a parse value in a Parser delegate and build our final
 version of TwoItems that uses it.
 
-``` {.brush: .csharp}
+``` csharp
 static Parser<T> Result<T>(T val)  
 {  
     return input => new Result<T>(val, input);  
 }  
 
-static Parser<string> BestTwoItems() 
-{ 
-    return Item().Bind( 
-        v1 => Item().Bind( 
-        v2 => Result(string.Format("{0}{1}", v1, v2)))); 
+static Parser<string> BestTwoItems()
+{
+    return Item().Bind(
+        v1 => Item().Bind(
+        v2 => Result(string.Format("{0}{1}", v1, v2))));
 }
 ```
 

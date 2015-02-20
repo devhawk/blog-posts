@@ -43,8 +43,8 @@ data I’m looking for is much easier that it was to find the Rock Band
 song data. Here’s the code pull the relevant information out of the Zune
 catalog feed that we need.
 
-``` {.brush: .python}
-def ScrapeEntry(entry):   
+``` python
+def ScrapeEntry(entry):
   id = entry.Element(atomns+'id').Value  
   length = entry.Element(zunens+'length').Value  
 
@@ -55,12 +55,12 @@ def ScrapeEntry(entry):
   d['trackArtist'] = d['albumArtist']  
   d['albumTitle'] = entry.Element(zunens+'album')
                        .Element(zunens+'title').Value  
-    
+
   if id.StartsWith('urn:uuid:'):  
     d['serviceId'] = "{" + id.Substring(9) + "}"  
   else:  
     d['serviceId'] = id  
-    
+
   m = length_re.Match(length)  
   if m.Success:  
     min = int(m.Groups[1].Value)  
@@ -68,10 +68,10 @@ def ScrapeEntry(entry):
     d['duration'] = str((min * 60 + sec) * 1000)  
   else:  
     d['duration'] = '60000'  
-      
+
   return d  
 
-trackurl = catalogurl + song.search_string     
+trackurl = catalogurl + song.search_string
 trackfeed = XDocument.Load(trackurl)  
 trackentry = First(trackfeed.Descendants(atomns+'entry'))  
 track = ScrapeEntry(trackentry)

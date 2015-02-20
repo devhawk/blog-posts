@@ -8,7 +8,7 @@ new await keyword changes all that.
 For example, here’s an async function to download the [Twitter public
 timeline](http://dev.twitter.com/doc/get/statuses/public_timeline):
 
-``` {.brush:csharp}
+``` csharp
 public async Task PublicTimelineAsync()
 {
   var url = "http://api.twitter.com/1/statuses/public_timeline.xml";
@@ -47,7 +47,7 @@ Twitter. Now that I’ve been bitten by the [async zombie
 virus](http://blogs.msdn.com/b/lucian/archive/2011/04/15/async-ctp-refresh-design-changes.aspx),
 I want to write my async controller methods using await:
 
-``` {.brush:csharp}
+``` csharp
 public async Task<ActionResult> Index()
 {
     var t = new Twitter();
@@ -65,7 +65,7 @@ behalf. In particular, I have to manage the outstanding operations,
 implement a continuation method and map the parameters in my controller
 manually.
 
-``` {.brush:csharp}
+``` csharp
 public void IndexAsync()
 {
     var twitter = new Twitter();
@@ -92,7 +92,7 @@ I promise you, writing that boilerplate code over and over gets old
 pretty darn quick. So I wrote the following helper function to eliminate
 as much boilerplate code as I could.
 
-``` {.brush:csharp}
+``` csharp
 public static void RegisterTask<T>(
     this AsyncManager asyncManager,
     Task<T> task,
@@ -133,7 +133,7 @@ populate the Parameters collection.
 With this helper function, you can write the async controller method
 like this:
 
-``` {.brush:csharp}
+```csharp
 public void IndexAsync()
 {
     var twitter = new Twitter();

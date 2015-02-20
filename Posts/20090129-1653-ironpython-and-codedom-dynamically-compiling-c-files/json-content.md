@@ -33,7 +33,7 @@ me write code like the following, which falls back to adding a reference
 to the C\# file directly if adding a reference to the compiled assembly
 fails.
 
-``` {.brush: .python}
+``` python
 try:
   clr.AddReference('Microsoft.Scripting.Extension.Wpf.dll')
 except:
@@ -51,7 +51,7 @@ team](http://blogs.msdn.com/vbteam/), I broke compiling out into it’s
 own separate function so I could easily support adding VB as well as C\#
 files.
 
-``` {.brush: .python}
+``` python
 def compile(prov, file, references):
   cp = CompilerParameters()
   cp.GenerateInMemory = True

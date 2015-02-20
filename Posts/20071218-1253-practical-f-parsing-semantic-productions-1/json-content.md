@@ -18,23 +18,23 @@ remaining parse buffer.
 We’ll start with Char, since it’s the only semantic production that
 doesn’t return a custom type:
 
-``` {.brush: .fsharp}
+```fsharp
 ///Char <- '\' [nrt'"[]\]
 /// / '\' [0-2][0-7][0-7]
 /// / '\' [0-7][0-7]
 /// / '\' [0-7]
-/// / !'\' .    
+/// / !'\' .
 let (|Char|_|) input =  
-        
-    let (|InRange|_|) upper input = 
+
+    let (|InRange|_|) upper input =
         let i2c value = Char.chr(Char.code '0' + value)
         let c2i value = Char.code value - Char.code '0'
-         
+
         match input with
         | NC (c, input) when (i2c 0) <= c && c <= (i2c upper) ->
             Some((c2i c), input)
-        | _ -> None 
-         
+        | _ -> None
+
     match input with
     | TOKEN @"" (NC(c, input))  
     when List.exists (fun x -> x=c) ['n';'r';'t';''';'"';'[';']';'\'] ->  
@@ -93,9 +93,9 @@ character value and the remaining input buffer. Again, all the remaining
 productions will work like that. For example, here’s the Range
 production:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Range <- Char '-' Char / Char
-let (|Range|_|) input = 
+let (|Range|_|) input =
     match input with
     | Char (c1, TOKEN "-" (Char (c2, input))) ->  
         Some(Range.Dual (c1, c2), input)

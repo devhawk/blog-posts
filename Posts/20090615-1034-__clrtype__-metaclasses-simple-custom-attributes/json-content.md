@@ -34,14 +34,14 @@ and
 The one change I’m making is that I’m adding a list of attributes I want
 to add to the class.
 
-``` {.brush: .python}
-from System import ObsoleteAttribute 
+``` python
+from System import ObsoleteAttribute
 
 class Product(object):
   __metaclass__ = ClrTypeMetaclass
-  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"   
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"
   _clrclassattribs = [ObsoleteAttribute]
-  
+
   # remainder of class omitted for clarity
 ```
 
@@ -63,7 +63,7 @@ Now that I have specified the class attributes, I can update the
 metaclass \_\_clrtype\_\_ method to set the attribute on the generated
 CLR class:
 
-``` {.brush: .python}
+``` python
 if hasattr(cls, '_clrclassattribs'):
       for attribtype in cls._clrclassattribs:
         ci = clr.GetClrType(attribtype).GetConstructor(())

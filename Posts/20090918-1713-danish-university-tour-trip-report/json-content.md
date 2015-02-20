@@ -153,7 +153,7 @@ BlogEngine.NET. It was kinda silly – I wrote an extension that would
 execute any blog post as python that was in the RunPython category. But
 it was also mind-numbingly simple:
 
-``` {.brush: .csharp}
+``` csharp
 [Extension("Extend .NET Blog Engine with IronPython")]
 public class IPyExtension
 {
@@ -169,7 +169,7 @@ public class IPyExtension
     static void Post_Serving(object sender, ServingEventArgs e)
     {
         Post p = (Post)sender;
-        bool runpython = p.Categories.Exists(delegate(Category cat) { 
+        bool runpython = p.Categories.Exists(delegate(Category cat) {
             return string.Compare(cat.Title, "RunPython", true) == 0; });
         if (runpython)
         {

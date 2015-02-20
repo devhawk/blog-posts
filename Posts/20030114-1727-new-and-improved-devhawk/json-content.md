@@ -26,7 +26,17 @@ has all the base page content, and provides three templated areas to put
 the content in (left, center and right). So my individual page code
 looks something like:
 
-`<uc1:PageLayout id="PageLayout1" runat="server"> <LeftLayout><uc1:LinkBox runat="server" id="LinkBox1"/></LeftLayout>  <CenterLayout>Some HTML Content Here</CenterLayout>  <RightLayout></RightLayout> </us1:PageLayout> `
+```html
+<uc1:PageLayout id="PageLayout1" runat="server">
+    <LeftLayout>
+        <uc1:LinkBox runat="server" id="LinkBox1"/>
+    </LeftLayout>
+    <CenterLayout>
+        Some HTML Content Here
+    </CenterLayout>
+    <RightLayout></RightLayout>
+ </us1:PageLayout>
+```
 
 I lose the visual designer, plus the ability to access embedded WebForm
 controls within page (they are children of the user control, not the

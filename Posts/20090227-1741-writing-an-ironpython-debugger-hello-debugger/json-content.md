@@ -2,36 +2,36 @@ Since I’m guessing most of my readers have never build a debugger before
 (I certainly hadn’t), let’s start with the debugger equivalent of Hello,
 World!
 
-``` {.brush: .python}
+``` python
 import clr
-clr.AddReference('CorDebug')   
+clr.AddReference('CorDebug')
 
 import sys
 from System.Reflection import Assembly
 from System.Threading import AutoResetEvent
-from Microsoft.Samples.Debugging.CorDebug import CorDebugger   
+from Microsoft.Samples.Debugging.CorDebug import CorDebugger
 
 ipy = Assembly.GetEntryAssembly().Location
 py_file = sys.argv[1]
-cmd_line = ""%s" -D "%s"" % (ipy, py_file)   
+cmd_line = ""%s" -D "%s"" % (ipy, py_file)
 
-evt = AutoResetEvent(False)   
+evt = AutoResetEvent(False)
 
 def OnCreateAppDomain(s,e):
   print "OnCreateAppDomain", e.AppDomain.Name
-  e.AppDomain.Attach()   
+  e.AppDomain.Attach()
 
 def OnProcessExit(s,e):
   print "OnProcessExit"
-  evt.Set()   
+  evt.Set()
 
 debugger = CorDebugger(CorDebugger.GetDefaultDebuggerVersion())
-process = debugger.CreateProcess(ipy, cmd_line)   
+process = debugger.CreateProcess(ipy, cmd_line)
 
 process.OnCreateAppDomain += OnCreateAppDomain
-process.OnProcessExit += OnProcessExit   
+process.OnProcessExit += OnProcessExit
 
-process.Continue(False)   
+process.Continue(False)
 
 evt.WaitOne()
 ```
@@ -64,10 +64,10 @@ on the command line, as the ICorDebug objects only work from a
 multi-threaded apartment. When you run it, you get something that looks
 like this:
 
-``` {.brush:plain}
-» ipy -X:MTA ipydbg.py simpletest.py 
-OnCreateAppDomain DefaultDomain 
-35 
+```
+» ipy -X:MTA ipydbg.py simpletest.py
+OnCreateAppDomain DefaultDomain
+35
 OnProcessExit
 ```
 

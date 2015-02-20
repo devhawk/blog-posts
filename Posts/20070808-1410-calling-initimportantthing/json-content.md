@@ -46,43 +46,42 @@ the end of construction, what choices do you have? Given that the
 ServiceDescription depends on derived class data, the *only* choice is
 to use a magic method! Here’s an example to demonstrate what I mean:
 
-``` {.brush: .csharp}
-public abstract class Base 
-{ 
-    public Base() 
-    { 
-    } 
+``` csharp
+public abstract class Base
+{
+    public Base()
+    {
+    }
 
-    private string _importantThing; 
-    protected abstract string CreateImportantThing(); 
+    private string _importantThing;
+    protected abstract string CreateImportantThing();
 
-    protected void InitImportantThing() 
-    { 
-        _importantThing = CreateImportantThing(); 
-        if (_importantThing == null) 
-            throw new Exception(); 
-    } 
+    protected void InitImportantThing()
+    {
+        _importantThing = CreateImportantThing();
+        if (_importantThing == null)
+            throw new Exception();
+    }
 
     public string ImportantThing  
     {  
         get { return _importantThing; }  
-    } 
-} 
+    }
+}
 
-public class Derived : Base 
-{ 
-    private object _data; 
+public class Derived : Base
+{
+    private object _data;
 
-    public Derived(DateTime dt) 
-    { 
-        _data = dt; 
-         
-    } 
+    public Derived(DateTime dt)
+    {
+        _data = dt;
+    }
 
-    protected override string CreateImportantThing() 
-    { 
-        return _data.ToString(); 
-    } 
+    protected override string CreateImportantThing()
+    {
+        return _data.ToString();
+    }
 }
 ```
 

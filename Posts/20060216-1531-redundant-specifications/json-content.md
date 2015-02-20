@@ -65,7 +65,7 @@ In fact, you can easily encode the [sample
 playlists](http://www.xspf.org/xspf-v1.html#rfc.section.1.1) from the
 XSPF spec in RSS without any extensions whatsoever:
 
-``` {.brush:xml}
+``` xml
 <rss version="2.0">
   <channel>
     <title>My Playlist</title>

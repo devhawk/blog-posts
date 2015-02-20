@@ -6,9 +6,9 @@ implemented in AP. We’ve seen EndOfFile, EndOfLine and Space already.
 There is also a series of symbol identifiers that have only a single
 match clause. For example, here’s DOT:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///DOT <- '.' Spacing
-let (|DOT|_|) input = 
+let (|DOT|_|) input =
     match input with
     | TOKEN "." (Spacing(input)) -> Some(input)
     | _ -> None
@@ -24,7 +24,7 @@ Comments in PEG grammars are single lines that start with a \# symbol,
 similar to the // line comments in F\# and C\#. This is the PEG grammar
 rule for Comment:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Comment <- '#' (!EndOfLine .)* EndOfLine
 ```
 
@@ -45,7 +45,7 @@ ends in a comment, the production will fail since it hasn’t reached the
 EndOfLine and there are no more characters to consume. So I changed the
 production to:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Comment <- '#' ((!EndOfLine / !EndOfFile) .)* EndOfLine?
 ```
 
@@ -65,15 +65,15 @@ Here’s the F\# implementation of Comment:
 Comment defines a local AP function called CommentContent, which
 implements the part of the grammar production inside the parens.
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Comment <- '#' ((!EndOfLine / !EndOfFile) .)* EndOfLine?
 let (|Comment|_|) input =  
     let rec (|CommentContent|_|) input =  
         match input with
         | EndOfLine (input) -> Some(input)
         | EndOfFile -> Some(input)
-        | NC (_,input) -> (|CommentContent|_|) input 
-        | _ -> None 
+        | NC (_,input) -> (|CommentContent|_|) input
+        | _ -> None
     match input with
     | TOKEN "#" (CommentContent (input)) -> Some(input)
     | _ -> None
@@ -90,12 +90,12 @@ the pattern match statement.
 
 Compared to Comment, Spacing is pretty trivial:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Spacing <- (Space / Comment)*
 let rec (|Spacing|) input =  
     match input with
-    | Space (input) -> (|Spacing|) input 
-    | Comment (input) -> (|Spacing|) input 
+    | Space (input) -> (|Spacing|) input
+    | Comment (input) -> (|Spacing|) input
     | _ -> input
 ```
 

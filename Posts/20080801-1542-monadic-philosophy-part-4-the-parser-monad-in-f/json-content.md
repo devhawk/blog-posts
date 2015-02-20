@@ -10,22 +10,22 @@ First, let’s translate our Parser delegate, Bind, Result and Item
 functions over to F\#. Just for kicks, let’s also port over the final
 version of TwoItems too.
 
-``` {.brush: .fsharp}
-type Parser<'input, 'result> = 'input-> ('result * 'input) option 
+``` fsharp
+type Parser<'input, 'result> = 'input-> ('result * 'input) option
 
 // the Bind function, defined as a custom operator
 let (>>=) p f : Parser<'i,'r> =  
     fun input ->
         match p input with
-        | Some(value, input) -> (f value) input 
-        | None -> None 
+        | Some(value, input) -> (f value) input
+        | None -> None
 
 let Result v : Parser<'i,'r> = fun input -> Some(v, input)
 
 let Item : Parser<string, char> =  
     fun input ->
         if string.IsNullOrEmpty(input)  
-            then None 
+            then None
             else Some(input.[0], input.Substring(1))
 
 let BestTwoItems =  
@@ -75,11 +75,11 @@ version. Maybe I shouldn’t have called it “BestTwoItems”!
 However, in F\# it’s possible to define a custom syntax for your monad
 that let’s you write the function this way:
 
-``` {.brush: .fsharp}
-let VeryBestTwoItems = 
+``` fsharp
+let VeryBestTwoItems =
     parse {
-        let! v1 = Item 
-        let! v2 = Item 
+        let! v1 = Item
+        let! v2 = Item
         return sprintf "%c%c" v1 v2 }
 ```
 
@@ -95,12 +95,12 @@ signature. F\# knows how to take the syntax above and combine it with
 the parse monad object to produce the right code. Here’s the parse
 monad:
 
-``` {.brush: .fsharp}
-type ParseMonad() = 
+``` fsharp
+type ParseMonad() =
     member w.Delay(f) = fun input -> f () input  
     member w.Return(v) = Result v  
-    member w.Bind(p, f) = p >>= f 
-     
+    member w.Bind(p, f) = p >>= f
+
 let parse = ParseMonad()
 ```
 

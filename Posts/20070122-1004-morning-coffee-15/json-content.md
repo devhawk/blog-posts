@@ -24,12 +24,8 @@
     is a programming lanugage that is “specifically designed to be
     difficult to program in.” Here’s [Hello
     World](http://en.wikipedia.org/wiki/Hello_world) in Malbolge:
-    <div
-    style="MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 20px">
 
-    `` (=<`$9]7<5YXz7wT.3,+O/o'K%$H"'~D|#z@b=`{^Lx8%$Xmrkpohm-kNi;gsedcba`_^][ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543s+O<olm ``
-
-    </div>
+    ````(=<`$9]7<5YXz7wT.3,+O/o'K%$H"'~D|#z@b=`{^Lx8%$Xmrkpohm-kNi;gsedcba`_^][ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543s+O<olm````
 
     Seriously. Actually, it’s worse than it looks. The effect of any
     instruction depends on where it is located in memory.  Malbolge is
@@ -54,4 +50,3 @@
     negatively affected my ability to communicate with “normal” people.
     She’ll even say “peanut butter and jelly” when she thinks I’m being
     particularly obtuse in my communication.
-

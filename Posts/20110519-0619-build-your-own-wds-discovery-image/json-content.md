@@ -38,7 +38,7 @@ Step 1 of this
 shows you how to use it. It’s pretty easy. Open the Deployment Tools
 Command Prompt as an administrator and run the following commands:
 
-``` {.brush:plain}
+```
 copype.cmd x86 C:\winpe_x86
 copy winpe.wim ISO\sources\boot.wim
 ```
@@ -62,7 +62,7 @@ The AIK includes the [Deployment Image Servicing and Management
 tool for working with WIM files. To mount the boot.wim file, execute the
 following command:
 
-``` {.brush:plain}
+```
 dism /Mount-WIM /WimFile:C:\winpe_x86\ISO\sources\boot.wim /index:1 /MountDir:c:\winpe_x86\mount
 ```
 
@@ -75,7 +75,7 @@ Windows driver package, so it needs to be [manually added to the PE
 image](http://technet.microsoft.com/en-us/library/dd799289(WS.10).aspx).
 Again, we use DISM to do this.
 
-``` {.brush:plain}
+```
 dism /image:c:\winpe_x86\mount /add-driver /driver:"PATHTODRIVERDIRECTORY"
 ```
 
@@ -87,7 +87,7 @@ that you can add to your PE image. For WDS discovery, you need to add
 the setup and setup-client packages. Again, we use DISM to update the
 image.
 
-``` {.brush:plain}
+```
 dism /image:c:\winpe_x86\mount /add-package /packagepath:"c:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_FPs\winpe-setup.cab"
 dism /image:c:\winpe_x86\mount /add-package /packagepath:"c:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_FPs\winpe-setup-client.cab"
 ```
@@ -105,7 +105,7 @@ on TechNet have a bug. The path to setup.exe should be
 %**SYSTEMDRIVE**%sources, not %**SYSTEMROOT**%sources. Here’s the
 contents of my winpeshl.ini file:
 
-``` {.brush:plain}
+```
 [LaunchApps]
 %SYSTEMDRIVE%\sources\setup.exe, "/wds /wdsdiscover"
 ```
@@ -127,7 +127,7 @@ my mounted boot image.
 ** We’re now done updating the boot image, so it’s time to close and
 unmount it. This is accomplished with DISM:
 
-``` {.brush:plain}
+```
 dism /unmount-wim /mountdir:c:\winpe_x86\mount /commit
 ```
 
@@ -149,7 +149,7 @@ drive.
 ** I just did this with xcopy. In this case, my flash drive is E:, but
 obviously you should swap in the drive letter for your flash drive.
 
-``` {.brush:plain}
+```
 xcopy c:\winpe_x86\ISO\*.* /e e:
 ```
 

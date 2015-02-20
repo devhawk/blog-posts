@@ -17,7 +17,7 @@
     O’Reilly (on [Safari](http://www.oreillynet.com/whatis/safari.csp))
     and discovered this PS offers the numeric constants of `gb`, `mb`,
     and `kb` to represent gigabytes, megabytes, and kilobytes. Example:
-    \$downloadTime = (1gb + 250mb) / 120kb. That’s pretty cool.
+    `$downloadTime = (1gb + 250mb) / 120kb`. That’s pretty cool.
 -   Speaking of PS, I stumbled across
     [PowerSMO!](http://pluralsight.com/blogs/dan/archive/2006/11/07/41936.aspx)
     from [Dan Sullivan](http://pluralsight.com/blogs/dan/). Instead of
@@ -30,4 +30,3 @@
     types in total – and generates the associated Get-SMO functions into
     a temp script file. Once the temp file is created, it can be invoked
     like any other script. Must noodle on this approach further.
-

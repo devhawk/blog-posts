@@ -16,9 +16,7 @@ part of the workflow compilation process. The root activity (in the
 example, it’s called “SequenceWithVars”) where you can specify the top
 level parameters in the XAML. Here’s an example from the book:
 
-<div style="font-family: Courier New;">
-
-``` {.brush:xml}
+``` xml
 <SequenceWithVars x:Class="Workflow1" xmlns="..." xmlns:x="...">
 ```
 
@@ -30,30 +28,22 @@ property (via
 for each VariableDecl instance. You end up with a workflow class that
 looks like this:
 
-</div>
-
-<div style="font-family: Courier New;">
-
-<span
-style="font-size: 16px; font-family: Georgia, 'Bitstream Charter', serif; line-height: 24px;">
-</span>
-
-``` {.brush:csharp}
+``` csharp
 public partial class Workflow1 : SequenceWithVars
 {
   public static DependencyProperty OrderProcConversationProp =
     DependencyProperty.Register("OrderProcConversation",
-      typeof(Guid), typeof(Workflow1)); 
+      typeof(Guid), typeof(Workflow1));
 
   public Guid OrderProcConversation
   {
-    get 
-    { 
-      return (Guid)base.GetValue(Workflow1.OrderProcConversationProp); 
+    get
+    {
+      return (Guid)base.GetValue(Workflow1.OrderProcConversationProp);
     }
-    set 
-    { 
-      base.SetValue(Workflow1.OrderProcConversationProp, value); 
+    set
+    {
+      base.SetValue(Workflow1.OrderProcConversationProp, value);
     }
   }
 
@@ -75,10 +65,6 @@ opinion. This approach lets me limit the workflows to XAML only while
 still allowing for top level properties which are needed in many data
 binding scenarios.
 
-</div>
+*Update*: removed syntax highlighting because it looked bad in my news reader.
 
-*<span style="text-decoration: underline;">Update</span>*: removed
-syntax highlighting because it looked bad in my news reader.
-
-*<span style="text-decoration: underline;">Later Update</span>*: Fixed
-syntax highlighting.
+*Later Update*: Fixed syntax highlighting.

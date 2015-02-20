@@ -14,10 +14,10 @@ debugger rather than use MDbg.
 
 Enabling JMC in the stepper object is trivial:
 
-``` {.brush: .python}
-def create_stepper(thread, JMC = True):     
-  stepper = thread.ActiveFrame.CreateStepper()     
-  stepper.SetUnmappedStopMask(CorDebugUnmappedStop.STOP_NONE)     
+``` python
+def create_stepper(thread, JMC = True):
+  stepper = thread.ActiveFrame.CreateStepper()
+  stepper.SetUnmappedStopMask(CorDebugUnmappedStop.STOP_NONE)
   stepper.SetJmcStatus(JMC)  
   return stepper
 ```
@@ -32,28 +32,28 @@ stepping to work. You can set JMC status at the
 [method](http://msdn.microsoft.com/en-us/library/ms230220.aspx) level.
 In the case of ipdbg, it’s easiest to work at the class level:
 
-``` {.brush: .python}
-infrastructure_methods =  ['TryGetExtraValue',      
-    'TrySetExtraValue',      
-    '.cctor',      
-    '.ctor',      
-    'CustomSymbolDictionary.GetExtraKeys',      
-    'IModuleDictionaryInitialization.InitializeModuleDictionary']     
+``` python
+infrastructure_methods =  ['TryGetExtraValue',
+    'TrySetExtraValue',
+    '.cctor',
+    '.ctor',
+    'CustomSymbolDictionary.GetExtraKeys',
+    'IModuleDictionaryInitialization.InitializeModuleDictionary']
 
-def OnClassLoad(self, sender, e):     
-    cmi = CorMetadataImport(e.Class.Module)     
-    mt = cmi.GetType(e.Class.Token)     
-    print "OnClassLoad", mt.Name     
+def OnClassLoad(self, sender, e):
+    cmi = CorMetadataImport(e.Class.Module)
+    mt = cmi.GetType(e.Class.Token)
+    print "OnClassLoad", mt.Name
 
-    if not e.Class.Module.IsDynamic:     
+    if not e.Class.Module.IsDynamic:
       e.Class.JMCStatus = False
-    elif mt.Name.startswith('IronPython.NewTypes'):     
+    elif mt.Name.startswith('IronPython.NewTypes'):
       e.Class.JMCStatus = False
-    else:     
+    else:
       e.Class.JMCStatus = True
-      for mmi in mt.GetMethods():     
-        if mmi.Name in infrastructure_methods:     
-          f = e.Class.Module.GetFunctionFromToken(mmi.MetadataToken)     
+      for mmi in mt.GetMethods():
+        if mmi.Name in infrastructure_methods:
+          f = e.Class.Module.GetFunctionFromToken(mmi.MetadataToken)
           f.JMCStatus = False
 ```
 

@@ -17,19 +17,19 @@ they’re designed to work with OO languages like C\#. In order to use
 them from F\#, we have to use the OO features of F\#. Here’s an example
 of some F\# unit tests using NUnit.
 
-``` {.brush: .fsharp}
-type [<TestFixture>] parser_tests =    
-    class    
-        new () = {}    
-           
-        [<Test>]   
-        member this.test_NC() =    
+``` fsharp
+type [<TestFixture>] parser_tests =
+    class
+        new () = {}
+
+        [<Test>]
+        member this.test_NC() =
             let Some(c,text) = NC !!"test"  
-            Assert.Equal(c, 't')    
+            Assert.Equal(c, 't')
             Assert.Equal(text, !!"est")
 
-        [<Test>]   
-        member this.test_NC_empty_string() =    
+        [<Test>]
+        member this.test_NC_empty_string() =
             let ret = NC !!""  
             Assert.Equal(None, ret)
     end
@@ -43,15 +43,15 @@ manually. And every test function needs to be marked with “member this”.
 
 I’d really rather write tests that looks like this:
 
-``` {.brush: .fsharp}
-[<Test>]    
-let test_NC =     
+``` fsharp
+[<Test>]
+let test_NC =
     let Some(c,text) = NC !!"test"  
-    Assert.Equal(c, 't')    
+    Assert.Equal(c, 't')
     Assert.Equal(text, !!"est")
 
-[<Test>]    
-let test_NC_empty_string =     
+[<Test>]
+let test_NC_empty_string =
     let ret = NC !!""  
     Assert.Equal(None, ret)
 ```
@@ -88,11 +88,11 @@ project tree, you have to either add the references on the project
 property page or directly within the code. Not sure which is better, but
 it’s easier to show the code syntax:
 
-``` {.brush: .fsharp}
+``` fsharp
 #R @"....xUnit.netMainxunitbinDebugxunit.dll"
 #R @"..PegParserpegparser.dll"
 
-open Xunit 
+open Xunit
 open Parser
 ```
 
@@ -112,16 +112,16 @@ Once we’ve referenced the correct assemblies, I need to write the tests.
 Here are two tests for NC (aka Next Char) function I wrote in the [last
 post](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx).
 
-``` {.brush: .fsharp}
-[<Fact>]    
-let test_NC_empty_string () =     
-    let ret = NC !!""   
+``` fsharp
+[<Fact>]
+let test_NC_empty_string () =
+    let ret = NC !!""
     Assert.Equal(None, ret)  
 
-[<Fact>]    
-let test_NC_simple_string () =     
-    let Some(c,text) = NC !!"test"   
-    Assert.Equal(c, 't')     
+[<Fact>]
+let test_NC_simple_string () =
+    let Some(c,text) = NC !!"test"
+    Assert.Equal(c, 't')
     Assert.Equal(text, !!"est")
 ```
 
@@ -165,7 +165,7 @@ these warnings, personally, I turn them both off (only in my unit tests,
 mind you). This is done via the \#nowarn compiler directives at the top
 of the file.
 
-``` {.brush: .fsharp}
+``` fsharp
 #nowarn "25" //Turn off Incomplete Pattern Match warning
 #nowarn "62" //Turn off Some contruct needs parens warning
 ```

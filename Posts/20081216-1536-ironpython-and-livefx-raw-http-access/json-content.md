@@ -46,18 +46,18 @@ classes like WebRequest and XmlReader, but there’s nothing fancy here so
 I would expect it to be easy enough to port over to the standard Python
 library.
 
-``` {.brush: .python}
+``` python
 def get_WL_ticket(username, password, compactTicket):
     req = WebRequest.Create(_LoginEndPoint)
     req.Method = "POST"
     req.ContentType = "application/soap+xml; charset=UTF-8"
     req.Timeout = 30 * 10000
-     
+
     rst = get_RST_message(username, password, compactTicket)
     rstbytes = Encoding.UTF8.GetBytes(rst)
     with req.GetRequestStream() as reqstm:
       reqstm.Write(rstbytes, 0, rstbytes.Length)
-       
+
     with req.GetResponse() as resp:
       with resp.GetResponseStream() as respstm:
         with XmlReader.Create(respstm) as reader:
@@ -70,11 +70,11 @@ def get_WL_ticket(username, password, compactTicket):
 
           if not reader.ReadToDescendant(name, namespace):
             raise "couldn't find security token element"
-           
+
           reader.ReadStartElement(name, namespace)
           token = reader.ReadContentAsString()
           reader.ReadEndElement()
-           
+
           return Convert.ToBase64String(Encoding.UTF8.GetBytes(token))
 ```
 
@@ -99,15 +99,15 @@ headers.
 I wrote the following functions, the generic boilerplate download
 function as well a specific versions for downloading JSON and POX:
 
-``` {.brush: .python}
+``` python
 def download(url, contentType, authToken):
   req = WebRequest.Create(url)
-  req.Accept = contentType     
-  req.ContentType = contentType     
+  req.Accept = contentType
+  req.ContentType = contentType
   req.Headers.Add(HttpRequestHeader.Authorization, authToken)
-   
+
   return req.GetResponse()  
-   
+
 def download_json(url, authToken):
   resp = download(url, 'application/json', authToken)
   with StreamReader(resp.GetResponseStream()) as reader:  
@@ -126,20 +126,20 @@ you can do in Javascript.
 Here’s some code that uses the get\_WL\_ticket and download\_json
 functions above to retrieve the the user’s Personal Status Message
 
-``` {.brush: .python}
+``` python
 #Get user's WL ticket
-uid = raw_input("enter WL ID: ")    
-pwd = raw_input("enter password: ")   
+uid = raw_input("enter WL ID: ")
+pwd = raw_input("enter password: ")
 
-authToken = livefx_http.get_WL_ticket(uid, pwd, True)   
+authToken = livefx_http.get_WL_ticket(uid, pwd, True)
 
-#download root service document 
-service = livefx_http.download_json(_LiveFxUri, authToken)   
+#download root service document
+service = livefx_http.download_json(_LiveFxUri, authToken)
 
-#download general profile document 
-url = service['BaseUri'] + service['ProfilesLink'] + "/G3N3RaL"   
+#download general profile document
+url = service['BaseUri'] + service['ProfilesLink'] + "/G3N3RaL"
 
-genprofile = livefx_http.download_json(url, authToken)   
+genprofile = livefx_http.download_json(url, authToken)
 print genprofile['ProfileBase']['PersonalStatusMessage']
 ```
 

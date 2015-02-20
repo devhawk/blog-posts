@@ -18,17 +18,17 @@ However, none of these are particularly pythonic, so I set out to see if
 I could leverage any of Python’s unique capabilities to make background
 processing as easy as possible. This is what I ended up with:
 
-``` {.brush: .python}
+``` python
 def OnClick(self, sender, args):  
     self.DLButton.IsEnabled = False  
     self.BackgroundTask(self._url.Text)  
 
-@BGThread    
+@BGThread
 def BackgroundTask(self, url):  
-    wc = WebClient()     
-    data = wc.DownloadString(Uri(url))    
+    wc = WebClient()
+    data = wc.DownloadString(Uri(url))
     self.Completed(data)  
-      
+
 @UIThread  
 def Completed(self, data):  
     self.DLButton.IsEnabled = True
@@ -54,7 +54,7 @@ be a cross-cutting concern.
 The Completed function above is exactly the same as if I had written the
 following:
 
-``` {.brush: .python}
+``` python
 def Completed(self, data):  
     self.DLButton.IsEnabled = True  
     self._text.Text = data  
@@ -73,26 +73,26 @@ Python goes the extra mile beyond even F\# by providing the ‘@’ syntax.
 
 Here are the implementations of my the UIThread and BGThread decorators:
 
-``` {.brush: .python}
+``` python
 def BGThread(fun):  
   def argUnpacker(args):  
-    fun(*args)     
-   
+    fun(*args)
+
   def wrapper(*args):  
-    ThreadPool.QueueUserWorkItem(WaitCallback(argUnpacker), args)     
-   
-  return wrapper     
+    ThreadPool.QueueUserWorkItem(WaitCallback(argUnpacker), args)
 
-def UIThread(fun):     
-  def wrapper(self, *args):     
-    if len(args) == 0:     
-      actiontype = Action1[object]     
-    else:     
-      actiontype = Action[tuple(object for x in range(len(args)+1))]     
+  return wrapper
 
-    action = actiontype(fun)     
-    self.dispatcher.Invoke(action, self, *args)     
-     
+def UIThread(fun):
+  def wrapper(self, *args):
+    if len(args) == 0:
+      actiontype = Action1[object]
+    else:
+      actiontype = Action[tuple(object for x in range(len(args)+1))]
+
+    action = actiontype(fun)
+    self.dispatcher.Invoke(action, self, *args)
+
   return wrapper
 ```
 

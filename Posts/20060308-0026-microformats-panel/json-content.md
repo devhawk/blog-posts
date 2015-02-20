@@ -12,46 +12,29 @@ example of this is [hCard](http://microformats.org/wiki/hcard), the
 microformat version of vCard. Here’s my hCard (as produced by the [hCard
 Creator](http://microformats.org/code/hcard/creator))
 
-> <div class="vcard">
->
-> [Harry Pierson](http://devhawk.net/)
->
-> </div>
->
-> <div class="org">
->
-> Microsoft
->
-> </div>
->
-> <div class="adr">
->
-> <div class="street-address">
->
-> One Microsoft Way, 18/2194
->
-> </div>
->
-> <span class="locality">Redmond</span>, <span
-> class="region">WA</span><span class="postal-code">98052</span>
->
-> </div>
->
-> <div class="tel">
->
-> 425/705-6045
->
-> </div>
+<blockquote>
+  <div class="vcard">
+      <a class="url fn" href="harry/'>http://devhawk.net">Harry Pierson</a>
+      <div class="org">Microsoft</div>
+      <div class="adr">
+          <div class="street-address">One Microsoft Way, 18/2194</div>
+          <span class="locality">Redmond</span>,
+          <span class="region">WA</span>
+          <span class="postal-code">98052</span>
+      </div>
+      <div class="tel">425/705-6045</div>
+  </div>
+</blockquote>
 
 And here’s the markup:
 
-``` {.brush:xml}
+``` html
 <div class="vcard">
     <a class="url fn" href="harry/'>http://devhawk.net">Harry Pierson</a>
     <div class="org">Microsoft</div>
     <div class="adr">
         <div class="street-address">One Microsoft Way, 18/2194</div>
-        <span class="locality">Redmond</span>, 
+        <span class="locality">Redmond</span>,
         <span class="region">WA</span>
         <span class="postal-code">98052</span>
     </div>

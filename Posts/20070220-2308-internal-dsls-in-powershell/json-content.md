@@ -17,21 +17,21 @@ you can start writing imperative Ruby code in place.
 
 Here’s the simple Rake sample from Fowler’s article:
 
-``` {.brush:ruby}
+``` ruby
 task :codeGen do  
-  # do the code generation 
-end 
+  # do the code generation
+end
 
 task :compile => :codeGen do  
-  # do the compilation 
-end 
+  # do the compilation
+end
 
 task :dataLoad => :codeGen do  
-  # load the test data 
-end 
+  # load the test data
+end
 
 task :test => [:compile, :dataLoad] do  
-  # run the tests 
+  # run the tests
 end
 ```
 
@@ -45,20 +45,20 @@ dependency (:compile =\> :codegen), and with multiple dependencies
 So what would this look like if you used Powershell instead of Ruby? How
 about this:
 
-``` {.brush:powershell}
+``` powershell
 task codeGen {  
-  # do the code generation 
+  # do the code generation
 }
-task compile codeGen { 
-  # do the compilation 
+task compile codeGen {
+  # do the compilation
 }
 
 task dataLoad codeGen {  
-  # load the test data 
+  # load the test data
 }
 
-task test compile,dataLoad { 
-  # run the tests 
+task test compile,dataLoad {
+  # run the tests
 }
 ```
 
@@ -105,32 +105,32 @@ represents the task. (Note, the various PS\* objects are in the
 System.Management.Automation namespace. I omitted the namespaces to make
 the code readable.)
 
-``` {.brush:powershell}
+``` powershell
 function task([string] $name) {
-  if (($args.length -gt 2) -or ([string]::isnullorempty($name))) { 
+  if (($args.length -gt 2) -or ([string]::isnullorempty($name))) {
     throw "task syntax: task name [<dependencies>] [<scriptblock>]"
-  }               
-  if ($args[0] -is [scriptblock]) {         
-    $taskDef = $args[0]       
-  }       
-  elseif ($args[1] -is [scriptblock]) {         
-    $depends = [object[]]$args[0]         
-    $taskDef = $args[1]       
-  }       
-  else {         
-    $depends = [object[]]$args[0]     
-    #if a script block isn't passed in, use an empty one        
-    $taskDef = {}    
-  }     
+  }
+  if ($args[0] -is [scriptblock]) {
+    $taskDef = $args[0]
+  }
+  elseif ($args[1] -is [scriptblock]) {
+    $depends = [object[]]$args[0]
+    $taskDef = $args[1]
+  }
+  else {
+    $depends = [object[]]$args[0]
+    #if a script block isn't passed in, use an empty one
+    $taskDef = {}
+  }
 
-  $task = new-object PSObject       
-  $nameProp = new-object PSNoteProperty Name,$name       
-  $task.psobject.members.add($nameProp)                
-  $dependsProp = new-object PSNoteProperty Dependencies,$depends       
-  $task.psobject.members.add($dependsProp)                
-  $taskMethod = new-object PSScriptMethod ExecuteTask,$taskDef       
-  $task.psobject.members.add($taskMethod)                
-  $task     
+  $task = new-object PSObject
+  $nameProp = new-object PSNoteProperty Name,$name
+  $task.psobject.members.add($nameProp)
+  $dependsProp = new-object PSNoteProperty Dependencies,$depends
+  $task.psobject.members.add($dependsProp)
+  $taskMethod = new-object PSScriptMethod ExecuteTask,$taskDef
+  $task.psobject.members.add($taskMethod)
+  $task
 }
 ```
 

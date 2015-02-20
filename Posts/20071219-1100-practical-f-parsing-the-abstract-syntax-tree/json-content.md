@@ -14,15 +14,15 @@ productions return “a fixed number of distinct alternatives” so I find a
 union is a good way to model the return value of semantic production
 functions. Here’s the definition of Range:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///AST Type for Range production
-type Range = 
+type Range =
 | Single of char
 | Dual of char * char
     with
     override this.ToString() =  
         match this with
-        | Single x -> sprintf "Range.Single (%A)" x 
+        | Single x -> sprintf "Range.Single (%A)" x
         | Dual (x,y) -> sprintf "Range.Dual (%A,%A)" x y
 ```
 
@@ -61,15 +61,15 @@ These are similar conceptually to structs in C\#. Basically, they’re a
 tuple with names. For example, here’s the Definition record type (though
 we haven’t seen any functions that use this type yet).
 
-``` {.brush: .fsharp}
-///AST Type for Definition production 
-type Definition =   
+``` fsharp
+///AST Type for Definition production
+type Definition =
     {  
         name: string;  
         exp: Expression;  
     }  
     with  
-    override this.ToString() =   
+    override this.ToString() =
         sprintf "Definition (name: %A, exp: %A)" this.name (Primary.Exp2Str this.exp)
 ```
 
@@ -85,17 +85,17 @@ For example, I have a record type called SequenceItem. An array of
 SequenceItems is a Sequence and an array of Sequences is an Expression
 (which we saw in the Definition type above).
 
-``` {.brush: .fsharp}
+``` fsharp
 ///AST Type for Sequence Item production
-let SequenceItem = 
+let SequenceItem =
     {  
-        primaryItem: Primary; 
-        itemPrefix: Prefix option;      
-        itemSuffix: Suffix option; 
+        primaryItem: Primary;
+        itemPrefix: Prefix option;
+        itemSuffix: Suffix option;
     }
 
 ///AST Type for Sequence production
-let Sequence = SequenceItem list 
+let Sequence = SequenceItem list
 
 ///AST Type for Expression production
 let Expression = Sequence list

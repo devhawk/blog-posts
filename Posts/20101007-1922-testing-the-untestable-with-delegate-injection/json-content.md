@@ -3,7 +3,7 @@ working on a side project in ASP.NET MVC. While it has made significant
 strides in the 4.0 release, code like this demonstrates that ASP.NET
 still has a long way to go to improve testability.
 
-``` {.brush: .csharp}
+``` csharp
 public class AccountController : Controller
 {
     ITwitterService _twitter;
@@ -69,7 +69,7 @@ delegates and anonymous lambdas? You know, [functional
 programming](http://devhawk.net/2007/12/05/Functional+Understanding.aspx)? 
 It might look something like this:
 
-``` {.brush: .csharp}
+``` csharp
 Func<string> @GetRedirectUrl;
 Action<HttpCookie> @SetCookie;
 Func<NameValueCollection> @ServerVariables;
@@ -124,7 +124,7 @@ action methods. So they aren’t really controller dependencies so much as
 action dependencies. So what if I went ahead and declared them as action
 dependencies directly?
 
-``` {.brush: .csharp}
+``` csharp
 public Func<ActionResult> SignInWithTwitter(
     Func<string> @GetRedirectUrl,
     Action<HttpCookie> @SetCookie,
@@ -167,7 +167,7 @@ action method have to mock them out. And testing this is a breeze
 compared to [having to mock out intrinsic ASP.NET
 objects](http://www.hanselman.com/blog/ASPNETMVCSessionAtMix08TDDAndMvcMockHelpers.aspx).
 
-``` {.brush: .csharp}
+``` csharp
 [Fact]
 public void returns_redirect_result_with_getrequesttoken_url()
 {
@@ -180,14 +180,14 @@ public void returns_redirect_result_with_getrequesttoken_url()
     //inject action dependencies
     Func<string> @getRedirectUrl = () => "/fake/redirect/url";
     Action<HttpCookie> @setCookie = c => { };
-    Func<NameValueCollection> @serverVariables = 
-        () => new NameValueCollection() 
+    Func<NameValueCollection> @serverVariables =
+        () => new NameValueCollection()
         {
             {"SERVER_NAME", "testapp.local"},
             {"SERVER_PORT", "8888"}
         };
     Func<string, string> @actionUrl = url => "/fake/url/action/result";
-    var action = controller.SignInWithTwitter(@getRedirectUrl, 
+    var action = controller.SignInWithTwitter(@getRedirectUrl,
         @setCookie, @serverVariables, @actionUrl);
 
     //Invoke action
@@ -214,7 +214,7 @@ For now, I will simply wrap the delegate injection version (aka the
 testable version) of the action in a non-testable but MVC compatible
 version that injects the right delegate dependencies.
 
-``` {.brush: .csharp}
+``` csharp
 public ActionResult SignInWithTwitter()
 {
     return SignInWithTwitter(

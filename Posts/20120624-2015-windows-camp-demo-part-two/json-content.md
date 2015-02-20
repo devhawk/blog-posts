@@ -29,7 +29,7 @@ code to expose that library functionality to other languages via WinRT.
 We’ll start by adding the following namespace declarations to the top of
 the Class1.h header file:
 
-``` {.brush:cpp}
+``` cpp
 using namespace Windows::Foundation;
 using namespace Windows::Storage::Streams;
 ```
@@ -40,7 +40,7 @@ original presentation I called this method GetPlasmaImage, neglecting to
 follow the naming convention of appending “Async” to name of all
 asynchronous methods.
 
-``` {.brush:cpp}
+``` cpp
 IAsyncOperation<IRandomAccessStream^>^ GetPlasmaImageAsync(
     unsigned int width, unsigned int height);
 ```
@@ -78,7 +78,7 @@ instead. We do that by \#defining \_SCL\_SECURE\_NO\_WARNINGS. While
 we’re doing that, let’s add the additional \#includes and using
 namespace statements we’re going to need.
 
-``` {.brush:cpp}
+``` cpp
 #include "pch.h"
 #include "Class1.h"
 
@@ -119,7 +119,7 @@ First, we’re going to generate the file path we’ll be saving the image
 to. Turns out this somewhat difficult because WinRT uses wide character
 strings while the bitmap library expects ASCII STL strings.
 
-``` {.brush:cpp}
+``` cpp
 //get the temp filename
 auto tempFolder = ApplicationData::Current->TemporaryFolder;
 
@@ -147,7 +147,7 @@ library. The only difference is that we’re using the width and height
 arguments as parameters to the bitmap\_image constructor rather than
 hardcoded values.
 
-``` {.brush:cpp}
+``` cpp
 //create the image object
 bitmap_image image(width, height);
 image.clear();
@@ -176,14 +176,14 @@ type declarations that I didn’t need to make it clear what each type is.
 If I replaced those all with the new auto keyword from C++11, the code
 would work the same.
 
-``` {.brush:cpp}
+``` cpp
 //reopen the image file using WinRT
-IAsyncOperation<StorageFile^>^ getFileAsyncOp = 
+IAsyncOperation<StorageFile^>^ getFileAsyncOp =
     tempFolder->GetFileAsync(ref new String(L"plasma.bmp"));
 
 task<StorageFile^> getFileTask(getFileAsyncOp);
 
-task<IRandomAccessStream^> openFileTask = 
+task<IRandomAccessStream^> openFileTask =
     getFileTask.then([](StorageFile^ storageFile) {
        return storageFile->OpenAsync(FileAccessMode::Read);
     });
@@ -219,7 +219,7 @@ Much nicer than the .then model used by PPL (which is probably why Herb
 Sutter [wants to see await added to
 C++](http://herbsutter.com/2012/04/06/we-want-await-a-c-talk-thats-applicable-to-c/)).
 
-``` {.brush:csharp}
+``` csharp
 private async void Button_Click_1(object sender, RoutedEventArgs e)
 {
     var wcc = new WindowsCampComponent.Class1();

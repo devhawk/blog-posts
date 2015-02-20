@@ -15,7 +15,7 @@ We saw last time how how easy it is to execute a Python script to
 configure a C\# app – only four lines of code. If we want to support
 debugging, we need to add a fifth:
 
-``` {.brush: .csharp}
+``` csharp
 private void Window_Loaded(object sender, RoutedEventArgs e)
 {
     ScriptEngine engine = Python.CreateEngine();
@@ -65,7 +65,7 @@ So now that we know the basics of traceback handlers, here’s a simple
 TracebackDelegate that simply returns itself. The “Hello, world!” of
 traceback debugging if you will.
 
-``` {.brush: .csharp}
+``` csharp
 private TracebackDelegate OnTraceback
     (TraceBackFrame frame, string result, object payload)
 {

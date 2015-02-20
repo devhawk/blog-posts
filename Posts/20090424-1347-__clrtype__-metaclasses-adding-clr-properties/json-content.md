@@ -11,14 +11,14 @@ associated fields.
 There’s enough code involved in defining a property to break it out into
 it’s own method:
 
-``` {.brush: .python}
+``` python
 @staticmethod
   def define_prop(typebld, name, fieldtype, fieldbld):
-    attribs = ( MethodAttributes.Public 
-              | MethodAttributes.SpecialName 
+    attribs = ( MethodAttributes.Public
+              | MethodAttributes.SpecialName
               | MethodAttributes.HideBySig)
     clrtype = clr.GetClrType(fieldtype)
-    
+
     getbld = typebld.DefineMethod("get_" + name, attribs, clrtype, None)
     getilgen = getbld.GetILGenerator()
     getilgen.Emit(OpCodes.Ldarg_0)
@@ -32,7 +32,7 @@ it’s own method:
     setilgen.Emit(OpCodes.Stfld, fieldbld)
     setilgen.Emit(OpCodes.Ret)
 
-    prpbld = typebld.DefineProperty(name, 
+    prpbld = typebld.DefineProperty(name,
       PropertyAttributes.None, clrtype, None)
     prpbld.SetGetMethod(getbld)
     prpbld.SetSetMethod(setbld)
@@ -73,11 +73,11 @@ The only other change here is adding the call to define\_prop on our
 first iteration thru list of \_clrfields. Since the rest of
 \_\_clrtype\_\_ is the same, here’s just that code snippet:
 
-``` {.brush: .python}
+``` python
 if hasattr(cls, "_clrfields"):
-      for fldname in cls._clrfields: 
+      for fldname in cls._clrfields:
         fieldtype = clr.GetClrType(cls._clrfields[fldname])
-        fieldbld = typebld.DefineField(fldname, fieldtype, 
+        fieldbld = typebld.DefineField(fldname, fieldtype,
                              FieldAttributes.Public)
         ClrTypeMetaclass.define_prop(typebld, fldname, fieldtype, fieldbld)
 ```
@@ -95,7 +95,7 @@ fields can’t, so you have to pass an index parameter to
 [SetValue](http://msdn.microsoft.com/en-us/library/xb5dd1f1.aspx). These
 aren’t indexed properties, so I pass in None for the index parameter.
 
-``` {.brush: .text}
+```
 >>> p = Product("Crunchy Frog", 10, 12)
 >>> pi = p.GetType().GetProperty("name")
 >>> pi.GetValue(p, None)

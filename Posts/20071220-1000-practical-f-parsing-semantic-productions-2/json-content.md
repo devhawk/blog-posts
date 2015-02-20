@@ -8,18 +8,18 @@ Class returns a list of Ranges, Literal and Identifier returns lists of
 characters, etc. As you would expect, these multiples are encoded in the
 grammar. For example, here’s the implementation of Literal:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Literal <- ['] (!['] Char)* ['] Spacing
 ///         / ["] (!["] Char)* ["] Spacing
-let (|Literal|_|) input = 
+let (|Literal|_|) input =
 
-    let rec (|LitChars|_|) delimiter chars input = 
+    let rec (|LitChars|_|) delimiter chars input =
         match input with
         | TOKEN delimiter (_) -> Some(L2S chars, input)
         | Char (c, input) ->  
-            (|LitChars|_|) delimiter (chars @ [c]) input 
-        | _ -> None 
-     
+            (|LitChars|_|) delimiter (chars @ [c]) input
+        | _ -> None
+
     match input with
     | TOKEN "'"  (LitChars "'"  [] (lit, TOKEN "'"  (Spacing(input)))) ->  
         Some(lit, input)
@@ -51,21 +51,21 @@ correct production is matched. For example, a Primary can be an
 Identifier, as long as it’s not followed by a left arrow. An identifier
 followed by a left arrow indicates a Definition.
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Primary <- Identifier !LEFTARROW
 ///         / OPEN Expression CLOSE
 ///         / Literal / Class / DOT
-let rec (|Primary|_|) input = 
+let rec (|Primary|_|) input =
 
-    let (|NotLEFTARROW|_|) input = 
+    let (|NotLEFTARROW|_|) input =
         match input with
-        | LEFTARROW (_) -> None 
+        | LEFTARROW (_) -> None
         | _ -> Some(input)
 
     match input with
     | Identifier (id, NotLEFTARROW (input)) ->  
         Some(Primary.Identifier(id), input)
-    | OPEN ( Expression (exp, CLOSE (input))) -> 
+    | OPEN ( Expression (exp, CLOSE (input))) ->
         Some(Primary.Expression(exp), input)
     | Literal (lit, input) -> Some(Primary.Literal(lit), input)
     | Class (cls, input) -> Some(Primary.Class(cls), input)
@@ -81,17 +81,17 @@ operators as Active Patterns. I was able to write a standard
 non-operator AP function, but then I have to use the full AP function
 name. Here’s a version of Primary written that way:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Backtracking failure predicate
-let (|NotPred|_|) f input = 
+let (|NotPred|_|) f input =
     match f input with
-    | Some (_) -> None 
-    | _ -> Some(input) 
-     
-let rec (|Primary|_|) input = 
+    | Some (_) -> None
+    | _ -> Some(input)
+
+let rec (|Primary|_|) input =
     match input with
     | Identifier (id, NotPred (|LEFTARROW|_|) (input)) ->  
-        Some(Primary.Identifier(id), input) 
+        Some(Primary.Identifier(id), input)
     //Other matches omited
 ```
 
@@ -110,24 +110,24 @@ which is a Primary with an optional prefix and suffix. In order to
 declare those in F\#, you have to use a special “and” syntax to link the
 types/functions together.
 
-``` {.brush: .fsharp}
+``` fsharp
 //ToString and Exp2Str omitted for clarity
-type Primary = 
+type Primary =
 | Identifier of string
-| Expression of Expression 
+| Expression of Expression
 | Literal of string
-| Class of Range list 
+| Class of Range list
 | Dot  
 
 //ToString omitted for clarity
-and SequenceItem = 
+and SequenceItem =
     {  
-        primaryItem: Primary; 
-        itemPrefix: Prefix option;      
-        itemSuffix: Suffix option; 
+        primaryItem: Primary;
+        itemPrefix: Prefix option;
+        itemSuffix: Suffix option;
     }
 
-and Sequence = SequenceItem list 
+and Sequence = SequenceItem list
 
 and Expression = Sequence list
 ```

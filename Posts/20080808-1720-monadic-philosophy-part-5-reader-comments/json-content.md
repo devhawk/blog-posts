@@ -45,11 +45,11 @@ a projector function and returning the projection return value in a
 Result. By implementing SelectMany, you can rewrite the TwoValues parser
 like this:
 
-``` {.brush: .csharp}
+``` csharp
 static Parser<string> QueryTwoItems()  
 {  
-    return from v1 in Item()   
-           from v2 in Item()   
+    return from v1 in Item()
+           from v2 in Item()
            select string.Format("{0}{1}", v1, v2);  
 }
 ```

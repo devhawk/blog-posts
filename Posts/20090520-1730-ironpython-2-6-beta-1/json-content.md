@@ -19,7 +19,7 @@ standard [wprintf
 function](http://msdn.microsoft.com/en-us/library/wc7014hz.aspx) from
 msvcrt.dll
 
-``` {.brush: .text}
+```
 IronPython 2.6 Beta 1 (2.6.0.10) on .NET 2.0.50727.4918
 >>> import ctypes
 >>> libc = ctypes.cdll.msvcrt

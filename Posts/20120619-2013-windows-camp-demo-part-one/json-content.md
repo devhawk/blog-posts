@@ -34,7 +34,7 @@ project “WindowsCamp” and press OK. Once the project has been created,
 open up the MainPage.xaml file, replace the Grid element that’s there by
 default with the following XAML code:
 
-``` {.brush:xml}
+``` xml
 <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
     <Button Click="Button_Click_1">Click me</Button>
     <TextBlock x:Name="myText" FontSize="20"></TextBlock>
@@ -54,7 +54,7 @@ Once the component project has been created, we’re going to add some
 code to it. Open Class1.h if it’s not already open. Update the file to
 read as follows:
 
-``` {.brush:cpp}
+``` cpp
 #pragma once
 
 using namespace Platform;
@@ -136,7 +136,7 @@ the WindowsCampComponent namespace is available.
 
 Now, update the button click event handler to read as follows:
 
-``` {.brush:csharp}
+``` csharp
 private void Button_Click_1(object sender, RoutedEventArgs e)
 {
     var wcc = new WindowsCampComponent.Class1();

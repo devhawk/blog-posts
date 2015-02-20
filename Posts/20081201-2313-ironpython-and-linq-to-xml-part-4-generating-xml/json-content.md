@@ -5,26 +5,26 @@ metadata](http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+3+Consum
 for most of them, I just need to write out the playlist XML. This is
 very straight forward to do with the classes in System.Xml.Linq.
 
-``` {.brush: .python}
+``` python
 def GenMediaElement(song):
   try:
-    trackurl = zune_catalog_url + song.search_string     
+    trackurl = zune_catalog_url + song.search_string
     trackfeed = XDocument.Load(trackurl)
     trackentry = First(trackfeed.Descendants(atomns+'entry'))
     trk = ScrapeEntry(trackentry)
     return XElement('media', (XAttribute(key, trk[key]) for key in trk))
   except:
-    print "FAILED", song     
-     
-zpl = XElement("smil",     
+    print "FAILED", song
+
+zpl = XElement("smil",
   XElement("head",  
     XElement("title", "Rock Band Generated Playlist")),     
-  XElement("body",     
+  XElement("body",
     XElement("seq", (GenMediaElement(song) for song in songs))))
 
 settings = XmlWriterSettings()
-settings.Indent = True     
-settings.Encoding = Encoding.UTF8     
+settings.Indent = True
+settings.Encoding = Encoding.UTF8
 with XmlWriter.Create("rockband.zpl", settings) as xtw:
   zpl.WriteTo(xtw)
 ```

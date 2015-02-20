@@ -4,11 +4,11 @@ and more importantly WPF tools like [Expression
 Blend](http://www.microsoft.com/expression/products/Overview.aspx?key=blend)
 are designed to work with XAML. Luckily, loading XAML is fairly easy:
 
-``` {.brush: .python}
-def LoadXaml(filename):     
-    from System.IO import File     
-    from System.Windows.Markup import XamlReader     
-    with File.OpenRead(filename) as f:     
+``` python
+def LoadXaml(filename):
+    from System.IO import File
+    from System.Windows.Markup import XamlReader
+    with File.OpenRead(filename) as f:
         return XamlReader.Load(f)
 ```
 
@@ -37,10 +37,10 @@ my photo viewing app, and I want to capture the SelectionChanged event
 of both of them. Binding event handlers in IronPython code uses the
 same += syntax as C\# uses.
 
-``` {.brush: .python}
-win1 = wpf.LoadXaml('win1.xaml')     
-     
-win1.listbox1.SelectionChanged += listbox1_OnSelectionChanged     
+``` python
+win1 = wpf.LoadXaml('win1.xaml')
+
+win1.listbox1.SelectionChanged += listbox1_OnSelectionChanged
 win1.listbox2.SelectionChanged += listbox2_OnSelectionChanged
 ```
 
@@ -54,8 +54,8 @@ from our Silverlight integration for dynamic languages. Unfortunately,
 this code has to be written in C\# code, but it is the only C\# code in
 my whole solution (and it’s reusable!)
 
-``` {.brush: .csharp}
-[assembly: ExtensionType(    
+``` csharp
+[assembly: ExtensionType(
     typeof(FrameworkElement),  
     typeof(DevHawk.Scripting.Wpf.FrameworkElementExtension))]  
 

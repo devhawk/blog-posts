@@ -35,7 +35,7 @@ different signals that we want to send: exit the debugger or enter the
 input loop. I decided to differentiate by using two separate
 AutoResetEvents:
 
-``` {.brush: .python}
+``` python
 terminate_event = AutoResetEvent(False)  
 break_event = AutoResetEvent(False)  
 
@@ -92,21 +92,21 @@ signal.
 Here’s what the input function looks like right now with our two basic
 commands:
 
-``` {.brush: .python}
-def input():     
-  while True:     
-    Console.Write("» ")     
-    k = Console.ReadKey()     
-     
-    if k.Key == ConsoleKey.Spacebar:     
-      Console.WriteLine("nContinuing")     
+``` python
+def input():
+  while True:
+    Console.Write("» ")
+    k = Console.ReadKey()
+
+    if k.Key == ConsoleKey.Spacebar:
+      Console.WriteLine("nContinuing")
       return  
-    elif k.Key == ConsoleKey.Q:     
-      Console.WriteLine("nQuitting")     
-      process.Stop(0)     
-      process.Terminate(255)     
+    elif k.Key == ConsoleKey.Q:
+      Console.WriteLine("nQuitting")
+      process.Stop(0)
+      process.Terminate(255)
       return
-    else:     
+    else:
       Console.WriteLine("n Please enter a valid command")
 ```
 

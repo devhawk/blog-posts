@@ -25,25 +25,25 @@ as well.
 
 So here’s my get\_locals function:
 
-``` {.brush: .python}
+``` python
 def get_locals(frame, scope=None, offset=None, show_hidden=False):  
-    #if the scope is unspecified, try and get it from the frame 
+    #if the scope is unspecified, try and get it from the frame
     if scope == None:  
         symmethod = frame.Function.GetSymbolMethod()  
         if symmethod != None:  
             scope = symmethod.RootScope  
-        #if scope still not available, yield the local variables 
-        #from the frame, with auto-gen'ed names (local_1, etc) 
+        #if scope still not available, yield the local variables
+        #from the frame, with auto-gen'ed names (local_1, etc)
         else:  
           for i in range(frame.GetLocalVariablesCount()):  
             yield "local_%d" % i, frame.GetLocalVariable(i)  
           return  
 
     #if we have a scope, get the locals from the scope  
-    #and their values from the frame 
+    #and their values from the frame
     for lv in scope.GetLocals():  
         #always skip $site locals - they are cached callsites and  
-        #not relevant to the ironpython developer 
+        #not relevant to the ironpython developer
         if lv.Name == "$site": continue  
         if not lv.Name.startswith("$") or show_hidden:  
           v = frame.GetLocalVariable(lv.AddressField1)  
@@ -51,7 +51,7 @@ def get_locals(frame, scope=None, offset=None, show_hidden=False):
 
     if offset == None: offset = frame.GetIP()[0]  
 
-    #recusively call get_locals for all the child scopes 
+    #recusively call get_locals for all the child scopes
     for s in scope.GetChildren():  
       if s.StartOffset <= offset and s.EndOffset >= offset:  
         for ret in get_locals(frame, s, offset, show_hidden):  

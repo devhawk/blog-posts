@@ -29,9 +29,9 @@ WPF and WinForms tutorials, you use this function hook to marshal the
 commands to the right thread to be executed. Here’s the command
 dispatcher from the WPF tutorial:
 
-``` {.brush: .python}
-def DispatchConsoleCommand(consoleCommand):     
-    if consoleCommand:     
+``` python
+def DispatchConsoleCommand(consoleCommand):
+    if consoleCommand:
         dispatcher.Invoke(DispatcherPriority.Normal, consoleCommand)
 ```
 
@@ -55,36 +55,36 @@ with a bad design.
 I wrapped all the thread creation and command dispatching into a
 reusable helper class called InteractiveApp.
 
-``` {.brush: .python}
-class InteractiveApp(object):     
-  def __init__(self):     
-    self.evt = AutoResetEvent(False)     
-     
-    thrd = Thread(ThreadStart(self.thread_start))     
-    thrd.ApartmentState = ApartmentState.STA     
-    thrd.IsBackground = True
-    thrd.Start()     
-     
-    self.evt.WaitOne()     
-    clr.SetCommandDispatcher(self.DispatchConsoleCommand)     
-     
-  def thread_start(self):     
-    try:     
-      self.app = Application()     
-      self.app.Startup += self.on_startup     
-      self.app.Run()     
-    finally:     
-      clr.SetCommandDispatcher(None)     
+```python
+class InteractiveApp(object):
+  def __init__(self):
+    self.evt = AutoResetEvent(False)
 
-  def on_startup(self, *args):     
-    self.dispatcher = Threading.Dispatcher.FromThread(Thread.CurrentThread)     
-    self.evt.Set()     
-     
-  def DispatchConsoleCommand(self, consoleCommand):     
-    if consoleCommand:     
-        self.dispatcher.Invoke(consoleCommand)     
-     
-  def __getattr__(self, name):     
+    thrd = Thread(ThreadStart(self.thread_start))
+    thrd.ApartmentState = ApartmentState.STA
+    thrd.IsBackground = True
+    thrd.Start()
+
+    self.evt.WaitOne()
+    clr.SetCommandDispatcher(self.DispatchConsoleCommand)
+
+  def thread_start(self):
+    try:
+      self.app = Application()
+      self.app.Startup += self.on_startup
+      self.app.Run()
+    finally:
+      clr.SetCommandDispatcher(None)
+
+  def on_startup(self, *args):
+    self.dispatcher = Threading.Dispatcher.FromThread(Thread.CurrentThread)
+    self.evt.Set()
+
+  def DispatchConsoleCommand(self, consoleCommand):
+    if consoleCommand:
+        self.dispatcher.Invoke(consoleCommand)
+
+  def __getattr__(self, name):
     return getattr(self.app, name)
 ```
 
@@ -109,18 +109,18 @@ app into another module (typically, the interactive console), so we
 create an InteractiveApp instance and we create an easy to use run
 method that can create the instance of the main window.
 
-``` {.brush: .python}
-if __name__ == '__main__':     
-  app = wpf.Application()     
-  window1 = MainWin.MainWindow()     
-  app.Run(window1.root)     
-   
-else:  
-  app = wpf.InteractiveApp()     
+``` python
+if __name__ == '__main__':
+  app = wpf.Application()
+  window1 = MainWin.MainWindow()
+  app.Run(window1.root)
 
-  def run():     
-    global mainwin     
-    mainwin = MainWin.MainWindow()     
+else:  
+  app = wpf.InteractiveApp()
+
+  def run():
+    global mainwin
+    mainwin = MainWin.MainWindow()
     mainwin.root.Show()
 ```
 
@@ -130,24 +130,24 @@ items bound to the first list box. Of course, I can do a variety of
 other operations I can do such as manipulate the data or create new UI
 elements.
 
-``` {.brush: .text}
-IronPython 2.0 (2.0.0.0) on .NET 2.0.50727.3053   
->>> import app   
->>> app.run()   
-#at this point the app window launches 
->>> for i in app.mainwin.allAlbumsListBox.Items:   
-...     print i.title   
-...   
-Harvest Festivals   
-Mrs. Gardner's Art   
-Riley's Playdate   
-August 13   
-Camp Days   
-July 14   
-May Photo Shoot   
-Summer Play 2006   
-Lake Washington With The Gellers   
-Camp Pierson '06   
+```
+IronPython 2.0 (2.0.0.0) on .NET 2.0.50727.3053
+>>> import app
+>>> app.run()
+#at this point the app window launches
+>>> for i in app.mainwin.allAlbumsListBox.Items:
+...     print i.title
+...
+Harvest Festivals
+Mrs. Gardner's Art
+Riley's Playdate
+August 13
+Camp Days
+July 14
+May Photo Shoot
+Summer Play 2006
+Lake Washington With The Gellers
+Camp Pierson '06
 January 28
 ```
 

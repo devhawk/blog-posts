@@ -37,41 +37,41 @@ constructor initializer instead. That means it has to be a static
 method, but otherwise it would work just fine. Here’s yesterday’s code,
 updated for this approach:
 
-``` {.brush: .csharp}
-public abstract class Base 
-{ 
-    public Base(string importantThing) 
-    { 
-        if (string.IsNullOrEmpty(importantThing)) 
-            throw new Exception(); 
+``` csharp
+public abstract class Base
+{
+    public Base(string importantThing)
+    {
+        if (string.IsNullOrEmpty(importantThing))
+            throw new Exception();
 
-        _importantThing = importantThing; 
+        _importantThing = importantThing;
 
-    } 
+    }
 
-    private string _importantThing; 
+    private string _importantThing;
 
     public string ImportantThing  
     {  
         get { return _importantThing; }  
-    } 
-} 
+    }
+}
 
-public class Derived : Base 
-{ 
-    private object _data; 
+public class Derived : Base
+{
+    private object _data;
 
-    public Derived(DateTime dt) : base(CreateImportantThing(dt)) 
-    { 
-        _data = dt; 
-    } 
+    public Derived(DateTime dt) : base(CreateImportantThing(dt))
+    {
+        _data = dt;
+    }
 
-    private static string CreateImportantThing(DateTime dt) 
-    { 
+    private static string CreateImportantThing(DateTime dt)
+    {
         //this is obviously trivial, but could be much
         //more complicated if need be
-        return dt.ToLongDateString(); 
-    } 
+        return dt.ToLongDateString();
+    }
 }
 ```
 

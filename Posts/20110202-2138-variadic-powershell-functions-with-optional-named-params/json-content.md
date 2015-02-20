@@ -36,10 +36,10 @@ un-obvious Powershell voodoo that I thought was worth blogging about.
 
 I started with the following param declaration for my function
 
-``` {.brush: .powershell}
+``` powershell
 param (
-    [string] $LibPath="", 
-    [switch] $WinApp, 
+    [string] $LibPath="",
+    [switch] $WinApp,
     [string] $PyVersion=""
 )
 ```
@@ -59,7 +59,7 @@ parameters by position if the names aren’t specified . For example, this
 is the command line I use to execute tests from the root of my prototype
 project:
 
-``` {.brush: .text}
+```
 cpy -LibPath .Libsite-packages .Scriptsunit2.py discover -s .src
 ```
 
@@ -92,10 +92,10 @@ that allowed me to get the behavior I wanted:
 A little experimentation with these attributes yielded the following
 solution:
 
-``` {.brush: .powershell}
+``` powershell
 param (
-    [string] $LibPath="", 
-    [switch] $WinApp, 
+    [string] $LibPath="",
+    [switch] $WinApp,
     [string] $PyVersion="",
     [parameter(Position=0, ValueFromRemainingArguments=$true)] $args
 )

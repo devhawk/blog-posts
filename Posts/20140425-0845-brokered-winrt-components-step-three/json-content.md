@@ -45,7 +45,7 @@ one](http://devhawk.net/2014/04/25/brokered-winrt-components-step-one).
 This way, I can get the process and thread IDs for both the app and
 broker process and compare them.
 
-``` {.brush:csharp}
+``` csharp
 var pid = GetCurrentProcessId();
 var tid = GetCurrentThreadId();
 
@@ -79,16 +79,16 @@ that contains a pointer to the folder where the brokered component is
 installed. Here’s what I added to Package.appxmainfest of my
 HelloWorldBRT.Client app.
 
-``` {.brush:xml}
+``` xml
 <Extensions>
   <Extension Category="windows.activatableClass.inProcessServer">
     <InProcessServer>
       <Path>clrhost.dll</Path>
-      <ActivatableClass ActivatableClassId="HelloWorldBRT.Class" 
+      <ActivatableClass ActivatableClassId="HelloWorldBRT.Class"
                         ThreadingModel="both">
-        <ActivatableClassAttribute 
-             Name="DesktopApplicationPath" 
-             Type="string" 
+        <ActivatableClassAttribute
+             Name="DesktopApplicationPath"
+             Type="string"
              Value="D:\dev\HelloWorldBRT\Debug\HelloWorldBRT.PS"/>
       </ActivatableClass>
     </InProcessServer>

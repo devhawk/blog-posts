@@ -40,11 +40,11 @@ versions of SQL will have PS support, but to me this represents a great
 opportunity to get deep understanding of PS as well as focus on PS
 cmdlet design without having to do much of the grunt work.
 
-``` {.brush:csharp}
+``` csharp
 using System;
 using System.Management.Automation;
 using Microsoft.SqlServer.Management.Smo.Wmi;
-using Microsoft.SqlServer.Management.Smo; 
+using Microsoft.SqlServer.Management.Smo;
 
 [Cmdlet(VerbsCommon.Get, "SQLServer")]
 public class GetSqlServerCommand : Cmdlet
@@ -88,7 +88,7 @@ public class GetSqlServerCommand : Cmdlet
         if (si.Name == "MSSQLSERVER")
           WriteObject(new Server(machine));
         else
-          WriteObject(new Server(machine + "\" + si.Name));
+          WriteObject(new Server(machine + "\\" + si.Name));
       }
 
       return;
@@ -143,8 +143,6 @@ Server instance, we can call methods on that instance. In the next post
 (whenever that is), I’ll build some cmdlets to let me create and drop
 databases on that instance.
 
-*<span style="text-decoration: underline;">Update</span>*: Removed
-syntax coloring from code because it looked bad in my news reader.
+*Update*: Removed syntax coloring from code because it looked bad in my news reader.
 
-*<span style="text-decoration: underline;">Later Update</span>*: Fixed
-the syntax coloring
+*Later Update*: Fixed the syntax coloring

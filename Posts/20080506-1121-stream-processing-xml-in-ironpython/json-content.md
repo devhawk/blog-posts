@@ -37,8 +37,8 @@ Prescod](http://www.prescod.net/) wrote a [nice
 introduction](http://www.prescod.net/python/pulldom.html). Here’s an
 example from Paul’s site (slightly modified):
 
-``` {.brush: .python}
-from xml.dom import pulldom 
+``` python
+from xml.dom import pulldom
 nodes = pulldom.parse( "file.xml" )  
 for (event,node) in nodes:  
     if event=="START_ELEMENT" and node.tagName=="table":  
@@ -60,11 +60,11 @@ which IronPython can’t load. [1] I wanted a pulldom type model, so I
 decided to wrap XmlReader to provide a similar API and lets me write
 code like this:
 
-``` {.brush: .python}
+``` python
 import ipypulldom  
-nodes = ipypulldom.parse( "sample.xml" )   
-for node in nodes:   
-  if node.nodeType==XmlNodeType.Element:   
+nodes = ipypulldom.parse( "sample.xml" )
+for node in nodes:
+  if node.nodeType==XmlNodeType.Element:
     print node.xname
 ```
 

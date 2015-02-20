@@ -39,35 +39,35 @@ With that in mind, here’s the new version of BGThread and UIThread.
 Slightly more complex, but still pretty simple clocking in at just under
 30 lines.
 
-``` {.brush: .python}
+``` python
 def BGThread(fun):  
   def argUnpacker(args):  
-    oldSyncContext = SynchronizationContext.Current     
-    try:     
-      SynchronizationContext.SetSynchronizationContext(args[-1])     
-      fun(*args[:-1])     
-    finally:     
-      SynchronizationContext.SetSynchronizationContext(oldSyncContext)     
-   
-  def wrapper(*args):     
-    args2 = args + (SynchronizationContext.Current,)     
-    ThreadPool.QueueUserWorkItem(WaitCallback(argUnpacker), args2)     
-   
-  return wrapper     
+    oldSyncContext = SynchronizationContext.Current
+    try:
+      SynchronizationContext.SetSynchronizationContext(args[-1])
+      fun(*args[:-1])
+    finally:
+      SynchronizationContext.SetSynchronizationContext(oldSyncContext)
 
-def UIThread(fun):     
+  def wrapper(*args):
+    args2 = args + (SynchronizationContext.Current,)
+    ThreadPool.QueueUserWorkItem(WaitCallback(argUnpacker), args2)
+
+  return wrapper
+
+def UIThread(fun):
   def unpack(args):  
-    ret = fun(*args)     
-    if ret != None:     
-      import warnings     
-      warnings.warn(fun.__name__ + " function returned " + str(ret) + " but that return value isn't propigated to the calling thread")     
+    ret = fun(*args)
+    if ret != None:
+      import warnings
+      warnings.warn(fun.__name__ + " function returned " + str(ret) + " but that return value isn't propigated to the calling thread")
 
-  def wrapper(*args):     
-    if SynchronizationContext.Current == None:     
-      fun(*args)     
-    else:     
-      SynchronizationContext.Current.Send(SendOrPostCallback(unpack), args)     
-      
+  def wrapper(*args):
+    if SynchronizationContext.Current == None:
+      fun(*args)
+    else:
+      SynchronizationContext.Current.Send(SendOrPostCallback(unpack), args)
+
   return wrapper
 ```
 

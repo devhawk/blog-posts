@@ -15,7 +15,7 @@ identical except for their name, so I figured it would be possible
 automate the function creation in Powershell. Here’s what I came up
 with:
 
-``` {.brush: .powershell}
+``` powershell
 $iralias = get-alias ir -EA SilentlyContinue
 if ($iralias -eq $null) {return}
 
@@ -65,7 +65,7 @@ feature didn’t bother me. However, if you’re using Powershell v1, you
 could still accomplish something similar using text substitution. Here’s
 my original (i.e. pre-GetNewClosure) version of make-rubyfunction
 
-``` {.brush: .powershell}
+``` powershell
 function make-rubyfunction($cmd)
 {
   $cmdpath = join-path $irbindir $cmd

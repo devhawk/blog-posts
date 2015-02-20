@@ -57,7 +57,7 @@ trivial. I’m simply creating an engine and a scope, adding the list
 boxes’ Items property to the scope, and executing the getthings.py file
 from the disk.
 
-``` {.brush: .csharp}
+``` csharp
 private void Window_Loaded(object sender, RoutedEventArgs e)
 {
     ScriptEngine engine = Python.CreateEngine();
@@ -73,7 +73,7 @@ timeline, or even – gasp! – something not from Twitter! In fact, as you
 see below, I’ve actually modified it to pull the tweets from a file on
 disk so I can avoid hitting the network on every run.
 
-``` {.brush: .python}
+``` python
 import clr
 clr.AddReference("System.Xml")
 from System.Xml import XmlDocument

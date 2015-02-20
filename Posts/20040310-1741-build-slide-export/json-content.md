@@ -1,7 +1,4 @@
-<div>
-
-I
-[blogged](http://devhawk.net/PermaLink.aspx?guid=903afb72-e67e-4592-b631-0a9edb383bfe)
+I [blogged](http://devhawk.net/PermaLink.aspx?guid=903afb72-e67e-4592-b631-0a9edb383bfe)
 yesterday about the issues I’m having with manually repurposing content.
 One of the specific issues has to do with the [Architecture Strategy
 Series](http://msdn.microsoft.com/architecture/overview/series/). We
@@ -15,10 +12,6 @@ supports static images. This means having to manually strip out the
 animations, which is a pain in the ass. Since I don’t ever want to have
 to do that again, I wrote a PowerPoint add-in to do it for me.
 
-</div>
-
-<div>
-
 When you invoke the [Build Slide Export
 add-in](http://cid-0d9bc809858885a4.office.live.com/self.aspx/DevHawk%20Content/BlogFiles/BuildSlideExport.msi)
 , it will step thru your presentation and screen capture each slide
@@ -30,19 +23,11 @@ it was really easy to write the code. I tested it on a long complex PPT
 file with lots of builds (i.e. the one that took me hours to repurpose
 on Monday) and it took about 10 minutes.
 
-</div>
-
-<div>
-
 I’m also providing the
 [source](http://cid-0d9bc809858885a4.office.live.com/self.aspx/DevHawk%20Content/BlogFiles/BuildSlideExport%20Source.zip)
 to the add-in. It’s not much code: maybe 150 lines of relevant code at
 most. I grabbed the screen capture code from [Perry Lee on C\#
 Corner](http://www.c-sharpcorner.com/Code/2003/Dec/ScreenCapture.asp).
-
-</div>
-
-<div>
 
 There were a couple of gotchas involved with this add-in. For example,
 the add-in project type uses version 7.0 of the office.dll that comes
@@ -59,17 +44,9 @@ I handle four different scenarios in the code: no builds, only auto
 trigger builds, and manual trigger builds, optionally with a set of auto
 trigger builds before the first manual trigger build.
 
-</div>
-
-<div>
-
 I’m sure there’s other enhancements that could be made – for example,
 the directory the images are saved isn’t selectable nor is the image
 format. If there’s any interest, I’ll spin up a GDN workspace.
-
-</div>
-
-<div>
 
 **Update**: I just noticed a bug, albiet a cut-and-paste bug on my part.
 Turns out the [screen capture
@@ -80,11 +57,8 @@ can’t call Dispose() on them. So for any real-sized presenation, memory
 usage goes thru the roof. It’s relatively easy to fix. Take the code
 that looks like this:
 
-</div>
 
-<div>
-
-``` {.brush:csharp}
+```csharp
 Bitmap image = new Bitmap(
     Image.FromHbitmap(new IntPtr(hBitmap)),
     Image.FromHbitmap(new IntPtr(hBitmap)).Width,
@@ -92,33 +66,15 @@ Bitmap image = new Bitmap(
 image.Save(fileName,imageFormat);
 ```
 
-</div>
-
-<div dir="ltr">
-
 And replace it with this:
 
-</div>
-
-<div dir="ltr">
-
-``` {.brush:csharp}
+```csharp
 Bitmap image = Image.FromHbitmap(new IntPtr(hBitmap));
 image.Save(fileName,imageFormat);image.Dispose();
 ```
 
-</div>
-
-<div dir="ltr">
-
 With the improved code, only one bitmap per screen capture is made, and
 it’s explicitly disposed. That keeps memory usage under control.
 
-</div>
-
-<div dir="ltr">
-
 **Another Update**: I’ve updated the binary and the code links above
 with the new v1.0.1 version that fixes the memory hogging problem.
-
-</div>

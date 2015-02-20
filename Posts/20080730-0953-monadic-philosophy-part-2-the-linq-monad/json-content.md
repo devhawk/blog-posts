@@ -12,7 +12,7 @@ It’s such a unfamiliar word that the F\# team doesn’t like it either:
 
 > “[W]hen the designers of F\# talked with the designers of Haskell
 > about this, they agreed that the word *monad* is a bit obscure and
-> sounds a little daunting and that using other names might be wise.”\
+> sounds a little daunting and that using other names might be wise.”
 >  [F\# Workflows and Haskell Monads, [Expert
 > F\#](http://www.expert-fsharp.com/default.aspx), p232]
 
@@ -33,7 +33,7 @@ there’s no simple two or three word phrase that accurately describes it.
 with. It’s a crappy description, but here’s an elegant example that most
 .NET programmers are probably already familiar with.
 
-``` {.brush: .csharp}
+``` csharp
 var Orders = new List<Order>()
 
 //code to populate orders omitted

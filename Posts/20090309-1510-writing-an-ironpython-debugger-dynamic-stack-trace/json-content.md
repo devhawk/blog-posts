@@ -22,15 +22,15 @@ This is the call stack that managed developers are typically used to
 working with. It turns out that printing a raw stack trace is very easy
 to do. Here was my first stab at it:
 
-``` {.brush: .python}
-elif k.Key == ConsoleKey.T:     
+``` python
+elif k.Key == ConsoleKey.T:
   print "nManaged Stack Trace"
-  for f in active_thread.ActiveChain.Frames:     
-    offset, sp = get_location(f)     
-    metadata_import = CorMetadataImport(f.Function.Module)     
-    method_info = metadata_import.GetMethodInfo(f.FunctionToken)     
-    print "  ",      
-      "%s::%s --" % (method_info.DeclaringType.Name, method_info.Name),      
+  for f in active_thread.ActiveChain.Frames:
+    offset, sp = get_location(f)
+    metadata_import = CorMetadataImport(f.Function.Module)
+    method_info = metadata_import.GetMethodInfo(f.FunctionToken)
+    print "  ",
+      "%s::%s --" % (method_info.DeclaringType.Name, method_info.Name),
       sp if sp != None else "(offset %d)" % offset
 ```
 
@@ -68,22 +68,22 @@ it here to get the type and function name for each frame on the stack.
 The end result looks something like this. Note, I’ve replaced
 “Microsoft.Scripting” with “MS.Scripting” to avoid word wrapping.
 
-``` {.brush:plain}
-OnBreakpoint Initialize Location: simpletest.py:1 (offset: 84) 
-» t 
-Managed Stack Trace 
-   S$2::Initialize simpletest.py:1 (offset: 84) 
-   MS.Scripting.Runtime.OptimizedScriptCode::InvokeTarget (offset 72) 
-   MS.Scripting.ScriptCode::Run (offset 0) 
-   IronPython.Hosting.PythonCommandLine::RunFileWorker (offset 77) 
-   IronPython.Hosting.PythonCommandLine::RunFile (offset 15) 
-   MS.Scripting.Hosting.Shell.CommandLine::Run (offset 46) 
-   IronPython.Hosting.PythonCommandLine::Run (offset 240) 
-   MS.Scripting.Hosting.Shell.CommandLine::Run (offset 74) 
-   MS.Scripting.Hosting.Shell.ConsoleHost::RunCommandLine (offset 158) 
-   MS.Scripting.Hosting.Shell.ConsoleHost::ExecuteInternal (offset 32) 
-   MS.Scripting.Hosting.Shell.ConsoleHost::Execute (offset 63) 
-   MS.Scripting.Hosting.Shell.ConsoleHost::Run (offset 390) 
+``` 
+OnBreakpoint Initialize Location: simpletest.py:1 (offset: 84)
+» t
+Managed Stack Trace
+   S$2::Initialize simpletest.py:1 (offset: 84)
+   MS.Scripting.Runtime.OptimizedScriptCode::InvokeTarget (offset 72)
+   MS.Scripting.ScriptCode::Run (offset 0)
+   IronPython.Hosting.PythonCommandLine::RunFileWorker (offset 77)
+   IronPython.Hosting.PythonCommandLine::RunFile (offset 15)
+   MS.Scripting.Hosting.Shell.CommandLine::Run (offset 46)
+   IronPython.Hosting.PythonCommandLine::Run (offset 240)
+   MS.Scripting.Hosting.Shell.CommandLine::Run (offset 74)
+   MS.Scripting.Hosting.Shell.ConsoleHost::RunCommandLine (offset 158)
+   MS.Scripting.Hosting.Shell.ConsoleHost::ExecuteInternal (offset 32)
+   MS.Scripting.Hosting.Shell.ConsoleHost::Execute (offset 63)
+   MS.Scripting.Hosting.Shell.ConsoleHost::Run (offset 390)
    PythonConsoleHost::Main — (offset 125)
 ```
 
@@ -97,22 +97,22 @@ from the DLR or IronPython namespaces. In order to get the type name, we
 need the method\_info like we did above. I’ve factored that code into a
 separate function in order to avoid code duplication.
 
-``` {.brush: .python}
-def get_method_info_for_frame(frame)     
-    if frame.FrameType != CorFrameType.ILFrame:     
+``` python
+def get_method_info_for_frame(frame)
+    if frame.FrameType != CorFrameType.ILFrame:
       return None
-    metadata_import = CorMetadataImport(frame.Function.Module)     
-    return metadata_import.GetMethodInfo(frame.FunctionToken)     
+    metadata_import = CorMetadataImport(frame.Function.Module)
+    return metadata_import.GetMethodInfo(frame.FunctionToken)
 
-def get_dynamic_frames(chain):     
-  for f in chain.Frames:     
-    method_info = get_method_info_for_frame(f)     
-    if method_info == None:     
+def get_dynamic_frames(chain):
+  for f in chain.Frames:
+    method_info = get_method_info_for_frame(f)
+    if method_info == None:
       continue
-    typename = method_info.DeclaringType.Name     
-    if typename.startswith("Microsoft.Scripting.")      
-      or typename.startswith("IronPython.")      
-      or typename == "PythonConsoleHost":     
+    typename = method_info.DeclaringType.Name
+    if typename.startswith("Microsoft.Scripting.")
+      or typename.startswith("IronPython.")
+      or typename == "PythonConsoleHost":
         continue
     yield f
 ```
@@ -139,10 +139,10 @@ those out in get\_dynamic\_frames too.
 
 This gives us a much more manageable stack trace:
 
-``` {.brush:plain}
-OnBreakpoint Initialize Location: simpletest.py:1 (offset: 84) 
-» t 
-Stack Trace 
+```
+OnBreakpoint Initialize Location: simpletest.py:1 (offset: 84)
+» t
+Stack Trace
    S$2::Initialize -- simpletest.py:1 (offset: 84)
 ```
 

@@ -6,7 +6,7 @@ window while the debug window stays responsive to user input. Now, let’s
 add some functionality to the debug window. I’m going to start by
 showing the source code of the python file being executed.
 
-``` {.brush: .csharp}
+``` csharp
 private void OnTraceback(TraceBackFrame frame, string result, object payload)
 {
     FunctionCode code = (FunctionCode)frame.f_code;
@@ -51,25 +51,25 @@ payload in instance fields and then switch on result to determine what
 to do next. Currently, I’m just highlighting the relevant line of code
 and setting a TextBlock control in the menu bar.
 
-``` {.brush: .csharp}
+``` csharp
 private void TracebackCall()
 {
     dbgStatus.Text = string.Format("Call {0}", _curCode.co_name);
-    HighlightLine((int)_curFrame.f_lineno, 
+    HighlightLine((int)_curFrame.f_lineno,
         Brushes.LightGreen, Brushes.Black);
 }
 
 private void TracebackReturn()
 {
     dbgStatus.Text = string.Format("Return {0}", _curCode.co_name);
-    HighlightLine(_curCode.co_firstlineno, 
+    HighlightLine(_curCode.co_firstlineno,
         Brushes.LightPink, Brushes.Black);
 }
 
 private void TracebackLine()
 {
     dbgStatus.Text = string.Format("Line {0}", _curFrame.f_lineno);
-    HighlightLine((int)_curFrame.f_lineno, 
+    HighlightLine((int)_curFrame.f_lineno,
         Brushes.Yellow, Brushes.Black);
 }
 ```
@@ -99,7 +99,7 @@ XAML](http://github.com/devhawk/LightweightDebuggerDemo/blob/deac85aaf14b37352ce
 to a menu item and the “S” keystroke. All that remains is to define
 StepInExecuted.
 
-``` {.brush: .csharp}
+``` csharp
 private void StepInExecuted(object sender, ExecutedRoutedEventArgs e)
 {
     dbgStatus.Text = "Running";

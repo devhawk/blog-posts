@@ -52,7 +52,7 @@ library. Here’s the code to create a blob container object (creating the
 actual blob container if it doesn’t already exist) and to upload a file
 to a container.
 
-``` {.brush: .python}
+``` python
 def get_blob_container(prj):
   azure_account = StorageAccountInfo(endpoint, None, azure_name, azure_key)
   storage = BlobStorage.Create(azure_account)
@@ -60,7 +60,7 @@ def get_blob_container(prj):
   if not container.DoesContainerExist():
     print "Creating", prj, "Azure Blob Storage Container"
     container.CreateContainer(None, ContainerAccessControl.Public)
-  return container     
+  return container
 
 def upload_to_azure(container, upload_filepath, azure_filename, metadata):
     print "Uploading", azure_filename, "to Azure"
@@ -68,8 +68,8 @@ def upload_to_azure(container, upload_filepath, azure_filename, metadata):
     nv = NameValueCollection()
     for key in metadata:
       nv[key] = metadata[key]
-    prop.Metadata = nv     
-     
+    prop.Metadata = nv
+
     with File.OpenRead(upload_filepath) as stream:
       contents = BlobContents(stream)
       if not container.CreateBlob(prop, contents, True):
@@ -126,4 +126,3 @@ improvements, in order of what I’m likely to get to first:
     role](http://msdn.microsoft.com/en-us/library/dd179341.aspx) for
     compiling and compressing builds, but our build tools need access to
     the file system.
-

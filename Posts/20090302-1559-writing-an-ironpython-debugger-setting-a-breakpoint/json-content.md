@@ -34,17 +34,17 @@ around the symbol binder API to include that functionality. Here’s some
 code to get the debug symbol reader for an updated module and iterate
 through the associated files:
 
-``` {.brush: .python}
-sym_binder = SymbolBinder()   
-     
-def OnUpdateModuleSymbols(s,e):   
-  print "OnUpdateModuleSymbols"   
-     
-  metadata_import = e.Module.GetMetaDataInterface[IMetadataImport]()   
-  reader = sym_binder.GetReaderFromStream(metadata_import, e.Stream)   
+``` python
+sym_binder = SymbolBinder()
 
-  for doc in reader.GetDocuments():    
-    print "t", doc.URL     
+def OnUpdateModuleSymbols(s,e):
+  print "OnUpdateModuleSymbols"
+
+  metadata_import = e.Module.GetMetaDataInterface[IMetadataImport]()
+  reader = sym_binder.GetReaderFromStream(metadata_import, e.Stream)
+
+  for doc in reader.GetDocuments():
+    print "t", doc.URL
 
 process.OnUpdateModuleSymbols += OnUpdateModuleSymbols
 ```
@@ -68,20 +68,20 @@ debugged. Everytime OnUpdateModuleSympols is called, I try to bind the
 initial breakpoint (unless it’s already been bound of course) by calling
 the following create\_breakpoint function.
 
-``` {.brush: .python}
-def create_breakpoint(doc, line, module, reader):     
-  line = doc.FindClosestLine(line)     
-  method = reader.GetMethodFromDocumentPosition(doc, line, 0)     
-  function = module.GetFunctionFromToken(method.Token.GetToken())     
-   
-  for sp in get_sequence_points(method):     
-    if sp.doc.URL == doc.URL and sp.start_line == line:     
-      bp = function.ILCode.CreateBreakpoint(sp.offset)     
-      bp.Activate(True)     
-      return bp     
-       
-  bp = function.CreateBreakpoint()     
-  bp.Activate(True)     
+``` python
+def create_breakpoint(doc, line, module, reader):
+  line = doc.FindClosestLine(line)
+  method = reader.GetMethodFromDocumentPosition(doc, line, 0)
+  function = module.GetFunctionFromToken(method.Token.GetToken())
+
+  for sp in get_sequence_points(method):
+    if sp.doc.URL == doc.URL and sp.start_line == line:
+      bp = function.ILCode.CreateBreakpoint(sp.offset)
+      bp.Activate(True)
+      return bp
+
+  bp = function.CreateBreakpoint()
+  bp.Activate(True)
   return bp
 ```
 
@@ -111,29 +111,29 @@ breakpoint means going from a source location to an IL offset within a
 function. Printing the current location means going from an IL offset in
 a function back to the source location. Here’s the function to do that:
 
-``` {.brush: .python}
+``` python
 def get_location(reader, thread):  
   frame = thread.ActiveFrame  
   function = frame.Function  
-    
+
   offset, mapping_result = frame.GetIP()  
   method = reader.GetMethod(SymbolToken(frame.Function.Token))  
-    
+
   real_sp = None  
   for sp in get_sequence_points(method):  
-    if sp.offset > offset:   
+    if sp.offset > offset:
       break  
-    if sp.start_line != 0xfeefee:   
+    if sp.start_line != 0xfeefee:
       real_sp = sp  
-        
+
   if real_sp == None:  
     return "Location (offset %d)" % (offset)  
-    
+
   return "Location %s:%d (offset %d)" % (  
     Path.GetFileName(real_sp.doc.URL), real_sp.start_line, offset)  
 
-def OnBreakpoint(s,e):     
-  print "OnBreakpoint", get_location(     
+def OnBreakpoint(s,e):
+  print "OnBreakpoint", get_location(
     symbol_readers[e.Thread.ActiveFrame.Function.Module], e.Thread)
 ```
 

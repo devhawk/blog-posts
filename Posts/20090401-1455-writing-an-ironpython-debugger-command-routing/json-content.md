@@ -13,9 +13,9 @@ doesn’t have a switch statement so I’ve been using a cascading set of
 if/elif/else statements instead. When you get up to seven if/elif
 clauses plus an else clause, the code smell is pretty overwhelming.
 
-``` {.brush: .python}
+``` python
 # Only has three if/elif clauses,but it's already a little smelly
-val = Console.ReadKey()    
+val = Console.ReadKey()
 if val.Key == 'a':  
   result = 'a'  
 elif val.Key == 'b'  
@@ -29,19 +29,19 @@ else:
 Python might not have a switch statement, but it does have first-order
 functions so you can get the effects of a switch by using a dictionary.
 
-``` {.brush: .python}
-def do_a():     
-  return 'a'    
-def do_b():     
-  return 'b'    
-def do_c():     
-  return 'c'    
-_switch = {'a':do_a, 'b':do_b, 'c':do_c}     
+``` python
+def do_a():
+  return 'a'
+def do_b():
+  return 'b'
+def do_c():
+  return 'c'
+_switch = {'a':do_a, 'b':do_b, 'c':do_c}
 
-val = Console.ReadKey()     
-if val in _switch:     
-  result = _switch[val.Key]()     
-else:     
+val = Console.ReadKey()
+if val in _switch:
+  result = _switch[val.Key]()
+else:
   print "unknown key"
 ```
 
@@ -58,20 +58,20 @@ What I need is a way to declaratively associate the switch function with
 the dictionary lookup key that’s associated with it. Luckily, Python
 Decorators provides a very clean way to do this.
 
-``` {.brush: .python}
-_switch = {}        
+``` python
+_switch = {}
 
-@inputcmd(_switch, 'a')     
-def do_a():      
-  return 'a'     
-@inputcmd(_switch, 'b')     
-def do_b():      
-  return 'b'     
-@inputcmd(_switch, 'c')     
-def do_c():      
-  return 'c'     
+@inputcmd(_switch, 'a')
+def do_a():
+  return 'a'
+@inputcmd(_switch, 'b')
+def do_b():
+  return 'b'
+@inputcmd(_switch, 'c')
+def do_c():
+  return 'c'
 
-val = Console.ReadKey()      
+val = Console.ReadKey()
 if val in _switch:  
   result = _switch[val.Key]()  
 else:  
@@ -86,13 +86,13 @@ complicated than the @BGThread and @UIThread decorators since @inputcmd
 decorator accepts arguments. Each of the @input command decorators in
 the code above is the equivalent to this code:
 
-``` {.brush: .python}
-def do_a():       
+``` python
+def do_a():
   return 'a'
 ```
 
-``` {.brush: .python}
-_tmp = inputcmd(_switch, 'a')     
+``` python
+_tmp = inputcmd(_switch, 'a')
 do_a = _tmp(do_a)
 ```
 
@@ -108,10 +108,10 @@ behavior of the methods decorated with @inputcmd. I only want to store a
 reference to them in the passed in dictionary. So implementing this
 decorator is very easy:
 
-``` {.brush: .python}
-def inputcmd(cmddict, key):     
-    def deco(f):     
-        cmddict[key] = f     
+``` python
+def inputcmd(cmddict, key):
+    def deco(f):
+        cmddict[key] = f
         return f  
     return deco
 ```

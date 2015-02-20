@@ -12,27 +12,27 @@ but it does use the same framework and resource model so I decided to
 port it to IronPython. FYI, this app won’t run unless you’ve been
 received a LiveFx CTP token and provisioned yourself.
 
-``` {.brush: .python}
-#Add LiveFX References     
-import sys     
+``` python
+#Add LiveFX References
+import sys
 sys.path.append('C:\Program Files\Microsoft SDKs\Live Framework SDK\v0.9\Libraries\.Net Library')
 
-import clr     
+import clr
 clr.AddReference('Microsoft.LiveFX.Client')
 clr.AddReference('Microsoft.LiveFX.ResourceModel')
 
-from Microsoft.LiveFX.Client import LiveOperatingEnvironment     
-from Microsoft.LiveFX.ResourceModel.ProfileResource import ProfileType     
-from System.Net import NetworkCredential     
+from Microsoft.LiveFX.Client import LiveOperatingEnvironment
+from Microsoft.LiveFX.ResourceModel.ProfileResource import ProfileType
+from System.Net import NetworkCredential
 
-from devhawk import linq     
+from devhawk import linq
 
-#get username and password from the user     
+#get username and password from the user
 uid = raw_input("Enter Windows Live ID: ")
 pwd = raw_input("Enter Password: ")
 creds = NetworkCredential(uid, pwd, "https://user-ctp.windows.net")
 
-#print out user's info     
+#print out user's info
 loe = LiveOperatingEnvironment()
 loe.Connect(creds)
 
@@ -40,8 +40,8 @@ general = linq.Single(loe.Profiles.Entries,
   lambda e: e.Resource.Type == ProfileType.General)
 
 print loe.Mesh.ProvisionedUser.Name     
-print loe.Mesh.ProvisionedUser.Email     
-print general.Resource.ProfileInfo.PersonalStatusMessage     
+print loe.Mesh.ProvisionedUser.Email
+print general.Resource.ProfileInfo.PersonalStatusMessage
 print linq.Count(loe.Contacts.Entries)
 ```
 

@@ -16,7 +16,7 @@ is that since the parse buffer is an abstraction, you can’t use it in
 the match clauses. For example, here’s a version of EndOfLine that uses
 a native char list.
 
-``` {.brush:fsharp}
+``` fsharp
 ///EndOfLine <- ‘rn’ / ‘n’ / ‘r’
 let EndOfLine input =
     match input with
@@ -38,7 +38,7 @@ Using a special syntax, you can indicate that an F\# function is an AP
 by surrounding the name in what Don calls “bananas”. Here’s the AP
 version of NC:
 
-``` {.brush: .fsharp}
+``` fsharp
 let (|NC|_|) input =
     match input with
     | i :: input -> Some(i, input)
@@ -57,7 +57,7 @@ There’s no reason why you can’t use an AP function like any other
 function. I find I do this often in my unit tests. Here’s an updated
 version of an NC unit test.
 
-``` {.brush: .fsharp}
+``` fsharp
 [<Fact>]
 let test_NC_empty_string () =
     let ret = (|NC|_|) !!""
@@ -71,7 +71,7 @@ actual grammar rules directly. For simple productions like EndOfFile and
 EndOfLine, the AP F\# implementation isn’t much more complex than the
 grammar rule itself:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///EndOfFile <- !.
 let (|EndOfFile|_|) input =
     match input with
@@ -97,7 +97,7 @@ parentheses. This is because “rn” is an input parameter to the TOKEN AP
 function. Alternatively, I could have written EndOfLine using only the
 NC function, though I find TOKEN version easier to read.
 
-``` {.brush: .fsharp}
+``` fsharp
 ///EndOfLine <- 'rn' / 'n' / 'r'
 let (|EndOfLine|_|) input =
     match input with
@@ -122,7 +122,7 @@ well, which will make them compose nicely with higher-order productions.
 For example, here’s the Space grammar production, which reuses
 EndOfLine:
 
-``` {.brush: .fsharp}
+``` fsharp
 ///Space <- ' ' / 't' / EndOfLine
 let (|Space|_|) input =
     match input with

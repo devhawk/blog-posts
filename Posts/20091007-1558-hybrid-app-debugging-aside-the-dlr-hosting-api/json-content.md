@@ -3,7 +3,7 @@ Debugging](http://devhawk.net/2009/10/06/Lightweight+Debugging+For+Hybrid+CIronP
 I showed the following code for executing a Python file in a hybrid
 C\#/IronPython app.
 
-``` {.brush: .csharp}
+``` csharp
 private void Window_Loaded(object sender, RoutedEventArgs e)
 {
     ScriptEngine engine = Python.CreateEngine();
@@ -20,7 +20,7 @@ technically it’s level 2 since it’s using a ScriptEngine directly. If
 you wanted to use the simplest level 1 hosting API, you could use
 runtimes instead of engines and save a line of code.
 
-``` {.brush: .csharp}
+``` csharp
 private void Window_Loaded(object sender, RoutedEventArgs e)
 {
     ScriptRuntime runtime = Python.CreateRuntime();

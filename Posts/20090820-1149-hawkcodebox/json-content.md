@@ -22,7 +22,7 @@ is a service provided by the DLR hosting API, which will tokenize a
 given script source for you. Here’s the code that colorizes the text in
 the text box.
 
-``` {.brush: .csharp}
+``` csharp
 var source = Engine.CreateScriptSourceFromString(this.Text);
 var tokenizer = Engine.GetService<TokenCategorizer>();
 tokenizer.Initialize(null, source, SourceLocation.MinValue);
@@ -32,7 +32,7 @@ while (t.Category != TokenCategory.EndOfStream)
 {
     if (SyntaxMap.ContainsKey(t.Category))
     {
-        ft.SetForegroundBrush(_syntaxMap[t.Category], 
+        ft.SetForegroundBrush(_syntaxMap[t.Category],
              t.SourceSpan.Start.Index, t.SourceSpan.Length);
     }
 

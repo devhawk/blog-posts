@@ -34,7 +34,7 @@ Once the new project has been created, you should be looking at the
 MainPage.xaml file. Update the Grid element to contain a button and an
 image.
 
-``` {.brush:xml}
+``` xml
 <Grid x:Name="LayoutRoot" Background="#FF0C0C0C">
     <Button x:Name="ClickMe" Click="ClickMe_Click">Click Me</Button>
     <Image x:Name="Photo" Width="800" Height="600"
@@ -53,7 +53,7 @@ namespaces. But for the purposes of this blog post, it’s easier if you
 just add the additional using statements we’re going to need at the top
 of MainPage.xaml.cs now.
 
-``` {.brush:csharp}
+``` csharp
 using Windows.Media.Capture;
 using Windows.Storage;
 using Windows.UI.Xaml.Media.Imaging;
@@ -63,7 +63,7 @@ using Windows.Storage.Streams;
 
 Now, we add the code for ClickMe\_Click:
 
-``` {.brush:csharp}
+``` csharp
 private async void ClickMe_Click(object sender, RoutedEventArgs e)
 {
     var ui = new CameraCaptureUI();
@@ -112,7 +112,7 @@ adding a private IRandomAccessStream variable named stream and removing
 the var declarations from the line where we call OpenAsync. The updated
 click event handler looks like this:
 
-``` {.brush:csharp}
+``` csharp
 //here's the instance scope stream variable
 IRandomAccessStream stream;
 
@@ -140,7 +140,7 @@ Next, we need to wire up the share event handler in the XAML page’s
 constructor. That’s a single line of code and VS11 intellisense writes
 most of  it for you
 
-``` {.brush:csharp}
+``` csharp
 public MainPage()
 {
     InitializeComponent();
@@ -160,7 +160,7 @@ if statement – calling args.Request.Data.SetBitmap if the user has taken
 a picture and calling args.Request.FailWithDisplayText with an error
 message if they have not.
 
-``` {.brush:csharp}
+``` csharp
 private void MainPage_DataRequested(DataTransferManager sender,
     DataRequestedEventArgs args)
 {

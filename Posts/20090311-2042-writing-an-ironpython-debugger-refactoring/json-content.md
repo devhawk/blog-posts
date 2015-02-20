@@ -31,18 +31,18 @@ places and change the indention level all over but that was pretty much
 it. Once I finished the conversion, I was able to add the run\_debugger
 function to handle the thread creation, if necessary.
 
-``` {.brush: .python}
-def run_debugger(py_file):     
-    if Thread.CurrentThread.GetApartmentState() == ApartmentState.STA:     
-        t = Thread(ParameterizedThreadStart(run_debugger))     
-        t.SetApartmentState(ApartmentState.MTA)     
-        t.Start(py_file)     
-        t.Join()    
-    else:     
-        p = IPyDebugProcess()     
-        p.run(py_file)     
+``` python
+def run_debugger(py_file):
+    if Thread.CurrentThread.GetApartmentState() == ApartmentState.STA:
+        t = Thread(ParameterizedThreadStart(run_debugger))
+        t.SetApartmentState(ApartmentState.MTA)
+        t.Start(py_file)
+        t.Join()
+    else:
+        p = IPyDebugProcess()
+        p.run(py_file)
 
-if __name__ == "__main__":         
+if __name__ == "__main__":
     run_debugger(sys.argv[1])
 ```
 

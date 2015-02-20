@@ -4,17 +4,17 @@ an F\# version of this [Play
 Ball!](http://www.microsoft.com/technet/scriptcenter/funzone/games/games08/aevent7.mspx)
 round-robin scheduling PowerShell script. Here’s what I came up with:
 
-``` {.brush: .fsharp}
-let randomize list = 
+``` fsharp
+let randomize list =
     let random = new System.Random()
     let list'=  
         list  
         |> List.map (fun i -> (random.Next(), i))
         |> List.sort (fun (i1,_) (i2,_) -> Int32.compare i1 i2)  
-    let (_,list'') = List.unzip list' 
-    list'' 
+    let (_,list'') = List.unzip list'
+    list''
 
-let rec makeGames teams = 
+let rec makeGames teams =
     match teams with
     | first :: rest ->
         [for team in rest -> (first, team)] @ (makeGames rest)

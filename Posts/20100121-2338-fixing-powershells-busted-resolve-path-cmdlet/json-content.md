@@ -1,18 +1,12 @@
-<div>
-
 Usually, my [PowerShell
 posts](http://devhawk.net/CategoryView,category,PowerShell.aspx) are
 effusive in their praise. However, who thought up this “feature” gets no
 praise from me:
 
-</div>
-
-``` {.brush: .text}
+```
 PS»Resolve-Path ~missing.file
 Resolve-Path : Cannot find path 'C:Usershpiersonmissing.file' because it does not exist.
 ```
-
-<div>
 
 In my opinion, this is a bad design. Resolve-Path assumes that if the
 filename being resolved doesn’t exist, then it must be an error. But in
@@ -22,16 +16,8 @@ Yet Resolve-Path insists on throwing an error. I would have expected
 there to be some switch you could pass to Resolve-Path telling it to
 skip path validation, but there’s not.
 
-</div>
-
-<div>
-
 And the worst thing is, I can see that Resolve-Path came up with the
 “right” answer – it’s right there in the error message!
-
-</div>
-
-<div>
 
 Searching around, I found [a
 thread](http://www.vistax64.com/powershell/24603-resolve-path-non-existing-file.html)
@@ -48,9 +34,7 @@ So I wrote the following function that wraps up access to the error
 variable so at least I don’t have fragile messy code sprinkled through
 out my script.
 
-</div>
-
-``` {.brush: .powershell}
+``` powershell
 function force-resolve-path($filename)
 {
   $filename = Resolve-Path $filename -ErrorAction SilentlyContinue
@@ -63,8 +47,6 @@ function force-resolve-path($filename)
 }
 ```
 
-<div>
-
 The script is pretty straightforward. –ErrorAction SilentlyContinue is
 PowerShell’s version of [On Error Resume
 Next](http://msdn.microsoft.com/en-us/library/5hsw66as.aspx) in Visual
@@ -75,10 +57,4 @@ and continues processing. Then I manually check to see if resolve-path
 succeeded – i.e. did it return a value – and return the TargetObject of
 the Error object if it didn’t.
 
-</div>
-
-<div>
-
 As I said, fragile and kinda messy. But it works.
-
-</div>

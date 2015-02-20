@@ -9,18 +9,18 @@ usual. Here’s the updated version of ClrTypeMetaclass (or you can get it
 [from my
 skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_))
 
-``` {.brush: .python}
+``` python
 class ClrTypeMetaclass(type):
   def __clrtype__(cls):
     baseType = super(ClrTypeMetaclass, cls).__clrtype__()
-    typename = cls._clrnamespace + "." + cls.__name__ 
-                 if hasattr(cls, "_clrnamespace") 
+    typename = cls._clrnamespace + "." + cls.__name__
+                 if hasattr(cls, "_clrnamespace")
                  else cls.__name__
-                 
+
     typegen = Snippets.Shared.DefineType(typename, baseType, True, False)
     typebld = typegen.TypeBuilder
 
-    for ctor in baseType.GetConstructors(): 
+    for ctor in baseType.GetConstructors():
       ctorparams = ctor.GetParameters()
       ctorbld = typebld.DefineConstructor(
                   ctor.Attributes,
@@ -34,19 +34,19 @@ class ClrTypeMetaclass(type):
       ilgen.Emit(OpCodes.Ret)
 
     if hasattr(cls, "_clrfields"):
-      for fldname in cls._clrfields: 
+      for fldname in cls._clrfields:
         typebld.DefineField(
-          fldname, 
-          clr.GetClrType(cls._clrfields[fldname]), 
+          fldname,
+          clr.GetClrType(cls._clrfields[fldname]),
           FieldAttributes.Public)
-          
+
     new_type = typebld.CreateType()
-    
+
     if hasattr(cls, "_clrfields"):
-      for fldname in cls._clrfields: 
+      for fldname in cls._clrfields:
         fldinfo = new_type.GetField(fldname)
         setattr(cls, fldname, ReflectedField(fldinfo))
-        
+
     return new_type
 ```
 
@@ -82,21 +82,21 @@ in the local dictionary.
 Now here’s the new version of the Product class, this time with CLR
 fields as well as a custom type name:
 
-``` {.brush: .python}
+``` python
 class Product(object):
   __metaclass__ = ClrTypeMetaclass
-  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"   
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"
   _clrfields = {
     "name":str,
     "cost":float,
     "quantity":int,
     }
-    
+
   def __init__(self, name, cost, quantity):
     self.name = name
     self.cost = cost
     self.quantity = quantity
-    
+
   def calc_total(self):
     return self.cost * self.quantity
 ```
@@ -105,7 +105,7 @@ As you can see, the only thing that’s changed is the addition of the
 \_clrfields dictionary. But now, we can use reflection to get and set
 the Product fields, like so:
 
-``` {.brush: .text}
+```
 >>> p = Product("Crunchy Frog", 5.99, 10)
 >>> t = p.GetType()
 >>> p.name

@@ -33,7 +33,7 @@ statements. And it’s very readable. For example, the function to
 recognize the grammar production “Additive  \<- Multitive ‘+’ Additive |
 Multitive” is translated into the following F\#:
 
-``` {.brush: .fsharp}
+``` fsharp
 and (|Additive|_|) input =
     match input with
     | Multitive(v1,Token '+' (Additive(v2, input))) -> Some(v1+v2,input)

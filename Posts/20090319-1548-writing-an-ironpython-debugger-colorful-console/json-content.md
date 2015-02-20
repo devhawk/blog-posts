@@ -26,7 +26,7 @@ manager](http://docs.python.org/reference/datamodel.html#context-managers).
 I got the idea from Luis Fallas’ [XmlWriter context
 manager](http://langexplr.blogspot.com/2009/02/writing-xml-with-ironpython-xmlwriter.html).
 
-``` {.brush: .python}
+``` python
 class ConsoleColorMgr(object):  
   def __init__(self, color):  
     self.color = color  
@@ -38,8 +38,8 @@ class ConsoleColorMgr(object):
   def __exit__(self, t, v, tr):  
     Console.ForegroundColor = self.temp  
 
-CCDarkGray = ConsoleColorMgr(ConsoleColor.DarkGray)     
-CCGray     = ConsoleColorMgr(ConsoleColor.Gray)     
+CCDarkGray = ConsoleColorMgr(ConsoleColor.DarkGray)
+CCGray     = ConsoleColorMgr(ConsoleColor.Gray)
 CCYellow   = ConsoleColorMgr(ConsoleColor.Yellow)
 
 def OnCreateAppDomain(self, sender,e):  
@@ -87,18 +87,18 @@ current sequence point starts and ends at line 4 column 23. Column 23 is
 beyond the end of line 4, so that’s what I look for in order to draw the
 three carets. Here’s the final version of \_print\_source\_line:
 
-``` {.brush: .python}
-def _print_source_line(self, sp, lines):     
-  line = lines[sp.start_line-1]     
-  with CCGray:     
-    Console.Write("%d: " % sp.start_line)     
-    Console.Write(line.Substring(0, sp.start_col-1))     
-    with CCYellow:     
-      if sp.start_col > len(line):     
-        Console.Write(" ^^^")     
-      else:     
-        Console.Write(line.Substring(sp.start_col-1,     
-                                     sp.end_col - sp.start_col))     
+``` python
+def _print_source_line(self, sp, lines):
+  line = lines[sp.start_line-1]
+  with CCGray:
+    Console.Write("%d: " % sp.start_line)
+    Console.Write(line.Substring(0, sp.start_col-1))
+    with CCYellow:
+      if sp.start_col > len(line):
+        Console.Write(" ^^^")
+      else:
+        Console.Write(line.Substring(sp.start_col-1,
+                                     sp.end_col - sp.start_col))
     Console.WriteLine(line.Substring(sp.end_col-1))
 ```
 

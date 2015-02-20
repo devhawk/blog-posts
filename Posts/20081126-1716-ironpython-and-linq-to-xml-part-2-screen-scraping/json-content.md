@@ -18,37 +18,37 @@ loads HTML from either disk or the network (based on the URI scheme)
 into an
 [XDocument](http://msdn.microsoft.com/en-us/library/system.xml.linq.xdocument.aspx).
 
-``` {.brush: .python}
+``` python
 def loadStream(streamreader):
-  from System.Xml.Linq import XDocument     
-  from Sgml import SgmlReader     
-   
+  from System.Xml.Linq import XDocument
+  from Sgml import SgmlReader
+
   reader = SgmlReader()
   reader.DocType = "HTML"
-  reader.InputStream = streamreader     
+  reader.InputStream = streamreader
   return XDocument.Load(reader)
-   
+
 def load(url):
-  from System import Uri     
-  from System.IO import StreamReader     
-   
+  from System import Uri
+  from System.IO import StreamReader
+
   if isinstance(url, str):
     url = Uri(url)
-   
+
   if url.Scheme == "file":
-    from System.IO import File     
+    from System.IO import File
     with File.OpenRead(url.LocalPath) as fs:
       with StreamReader(fs) as sr:
         return loadStream(sr)
   else:
-    from System.Net import WebClient     
+    from System.Net import WebClient
     wc = WebClient()
     with wc.OpenRead(url) as ns:
       with StreamReader(ns) as sr:
         return loadStream(sr)
 
 def parse(text):
-  from System.IO import StringReader     
+  from System.IO import StringReader
   return loadStream(StringReader(text))
 ```
 
@@ -64,12 +64,12 @@ HTML, there’s a div tag with the id “content” that contains all the song
 rows as table row elements. I built a simple function that uses the LINQ
 Single method to find the tag by it’s id attribute value.
 
-``` {.brush: .python}
+``` python
 def FindById(node, id):
   def CheckId(n):
     a = n.Attribute('id')
-    return a != None and a.Value == id     
-   
+    return a != None and a.Value == id
+
   return linq.Single(node.Descendants(), CheckId)
 ```
 
@@ -92,13 +92,13 @@ about the generic types, I wrote a bunch of simple helper functions
 around the common LINQ methods that just use object as the generic type.
 Here are a few examples:
 
-``` {.brush: .python}
+``` python
 def Single(col, fun):
   return Enumerable.Single[object](col, Func[object, bool](fun))
-   
+
 def Where(col, fun):
   return Enumerable.Where[object](col, Func[object, bool](fun))
-   
+
 def Select(col, fun):
   return Enumerable.Select[object, object](col, Func[object, object](fun))
 ```
@@ -110,24 +110,24 @@ series). I use LINQ methods Select, OrderBy and ThenBy to provide me an
 enumeration of Song objects, ordered by date added (descending) than
 artist name.
 
-``` {.brush: .python}
-def ScrapeSong(node):     
-  tds = list(node.Elements(xhtml.ns+'td'))    
-  anchor = list(tds[0].Elements(xhtml.ns+'a'))[0]    
-      
-  title = anchor.Value    
-  url = anchor.Attribute('href').Value    
-  artist = tds[1].Value    
-  year = tds[2].Value    
-  genre = tds[3].Value    
-  difficulty = tds[4].Value    
-  _type = tds[5].Value    
-  added = DateTime.Parse(tds[6].Value)    
-      
-  return Song(title, artist, added, url, year, genre, difficulty, _type)    
+``` python
+def ScrapeSong(node):
+  tds = list(node.Elements(xhtml.ns+'td'))
+  anchor = list(tds[0].Elements(xhtml.ns+'a'))[0]
 
-songs = ThenBy(OrderByDesc(   
-          Select(content.Elements(xhtml.ns +'tr'), ScrapeSong),    
+  title = anchor.Value
+  url = anchor.Attribute('href').Value
+  artist = tds[1].Value
+  year = tds[2].Value
+  genre = tds[3].Value
+  difficulty = tds[4].Value
+  _type = tds[5].Value
+  added = DateTime.Parse(tds[6].Value)
+
+  return Song(title, artist, added, url, year, genre, difficulty, _type)
+
+songs = ThenBy(OrderByDesc(
+          Select(content.Elements(xhtml.ns +'tr'), ScrapeSong),
           lambda s: s.added), lambda s: s.artist)
 ```
 

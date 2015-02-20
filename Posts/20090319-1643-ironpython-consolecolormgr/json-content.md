@@ -7,21 +7,21 @@ First off, I added support for background colors as well as foreground
 colors. Furthermore, both colors default to “None” which ConsoleColorMgr
 takes to mean leave that color unchanged.
 
-``` {.brush: .python}
-from System import Console as _Console     
+``` python
+from System import Console as _Console
 
-class ConsoleColorMgr(object):     
-  def __init__(self, foreground = None, background = None):     
-    self.foreground = foreground     
-    self.background = background     
+class ConsoleColorMgr(object):
+  def __init__(self, foreground = None, background = None):
+    self.foreground = foreground
+    self.background = background
 
-  def __enter__(self):   
-    self._tempFG = _Console.ForegroundColor   
+  def __enter__(self):
+    self._tempFG = _Console.ForegroundColor
     self._tempBG = _Console.BackgroundColor  
-    if self.foreground: _Console.ForegroundColor = self.foreground   
-    if self.background: _Console.BackgroundColor = self.background     
-       
-  def __exit__(self, t, v, tr):   
+    if self.foreground: _Console.ForegroundColor = self.foreground
+    if self.background: _Console.BackgroundColor = self.background
+
+  def __exit__(self, t, v, tr):
     _Console.ForegroundColor = self._tempFG  
     _Console.BackgroundColor = self._tempBG
 ```
@@ -30,13 +30,13 @@ The other change I made was to build a set of default ConsoleColorMgr
 instances in the consolecolor module, one for each of the values in
 [ConsoleColor](http://msdn.microsoft.com/en-us/library/system.consolecolor.aspx).
 
-``` {.brush: .python}
-import sys   
-from System import ConsoleColor, Enum     
-   
-_curmodule = sys.modules[__name__]     
+``` python
+import sys
+from System import ConsoleColor, Enum
 
-for n in Enum.GetNames(ConsoleColor):     
+_curmodule = sys.modules[__name__]
+
+for n in Enum.GetNames(ConsoleColor):
     setattr(_curmodule, n, ConsoleColorMgr(Enum.Parse(ConsoleColor, n)))
 ```
 
@@ -45,12 +45,12 @@ setting the foreground color. If you want to set the background color,
 you have to create your own ConsoleColorMgr instances. This allows me to
 write the following:
 
-``` {.brush: .python}
-from __future__ import with_statement     
-import consolecolor    
+``` python
+from __future__ import with_statement
+import consolecolor
 
-with consolecolor.Red:     
-    print "Open the pod bay doors, HAL"    
+with consolecolor.Red:
+    print "Open the pod bay doors, HAL"
 with consolecolor.ConsoleColorMgr(ConsoleColor.Black, ConsoleColor.Red):  
     print "I'm sorry Dave, I'm afraid I can't do that."
 ```

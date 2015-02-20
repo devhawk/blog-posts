@@ -25,7 +25,7 @@ others like us). One such solution is [Ruby on
 Rails](http://www.rubyonrails.com/). In a Rails environment, I simply
 declare the existence of a given persistent entity:
 
-``` {.brush:ruby}
+``` ruby
 class Person < ActiveRecord::Base
 end
 ```
@@ -86,16 +86,17 @@ is actually written in Java, but he provides version compiled for .NET
 using [Visual J\#](http://msdn.microsoft.com/vjsharp/). Consus lets you
 to define your data either as tables or objects. So you can do this:
 
-``` {.brush:java}
+``` java
 Statement st = db.createStatement();
 st.executeUpdate("create table Person (name string, address string, salary bigint)");
 st.executeUpdate("insert into Person values ('John Smith', '1 Guildhall St.', 75000)");
-ResultSet rs = st.executeQuery("select name, address, salary from Person where salary > 100000");
+ResultSet rs = st.executeQuery(
+    "select name, address, salary from Person where salary > 100000");
 ```
 
 Or you can do this:
 
-``` {.brush:java}
+``` java
 class Person {
     String name;
     String address;

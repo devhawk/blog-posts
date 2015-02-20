@@ -7,31 +7,31 @@ by Anders Norås on building internal / embedded domain specific
 languages in C\#. Anders has built a DSL for creating calendar events
 and tasks, like you might expect to do in Outlook. Here’s an example:
 
-``` {.brush: .csharp}
-ToDoComponent planningTask = 
-   Plan.ToDo("Plan project X"). 
-      StartingNow. 
-      MustBeCompletedBy("2007.08.17"). 
-      ClassifyAs("Public"); 
-planningTask.Save(); 
+``` csharp
+ToDoComponent planningTask =
+   Plan.ToDo("Plan project X").
+      StartingNow.
+      MustBeCompletedBy("2007.08.17").
+      ClassifyAs("Public");
+planningTask.Save();
 
-EventComponent planningMeeting = 
-   Plan.Event("Project planning meeting"). 
-      RelatedTo(planningTask). 
-      WithPriority(1). 
-      At("Head office"). 
-      OrganizedBy("jane@megacorp.com", "Jane Doe"). 
-      StartingAt("12:00").Lasting(45).Minutes. 
-      Attendants( 
-         "peter@megacorp.com", 
-         "paul@megacorp.com", 
-         "mary@contractor.com").AreRequired. 
-      Attendant("john@megacorp.com").IsOptional. 
-      Resource("Projector").IsRequired. 
-      ClassifyAs("Public"). 
-      CategorizeAs("Businees", "Development"). 
-      Recurring.Until(2008).EverySingle.Week.On(Day.Thursday). 
-      Except.Each.Year.In(Month.July | Month.August); 
+EventComponent planningMeeting =
+   Plan.Event("Project planning meeting").
+      RelatedTo(planningTask).
+      WithPriority(1).
+      At("Head office").
+      OrganizedBy("jane@megacorp.com", "Jane Doe").
+      StartingAt("12:00").Lasting(45).Minutes.
+      Attendants(
+         "peter@megacorp.com",
+         "paul@megacorp.com",
+         "mary@contractor.com").AreRequired.
+      Attendant("john@megacorp.com").IsOptional.
+      Resource("Projector").IsRequired.
+      ClassifyAs("Public").
+      CategorizeAs("Businees", "Development").
+      Recurring.Until(2008).EverySingle.Week.On(Day.Thursday).
+      Except.Each.Year.In(Month.July | Month.August);
 planningMeeting.SendInvitations();
 ```
 

@@ -19,17 +19,17 @@ much more sense just to use CustomAttributeBuilder instances. I built a
 utility function make\_cab to construct the CustomAttributeBuilder
 instances.
 
-``` {.brush: .python}
+``` python
 def make_cab(attrib_type, *args):
   argtypes = tuple(map(lambda x:clr.GetClrType(type(x)), args))
   ci = clr.GetClrType(attrib_type).GetConstructor(argtypes)
   return CustomAttributeBuilder(ci, args)
 
-from System import ObsoleteAttribute 
+from System import ObsoleteAttribute
 
 class Product(object):
   __metaclass__ = ClrTypeMetaclass
-  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"   
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"
   _clrclassattribs = [make_cab(ObsoleteAttribute , "Warning Lark's Vomit")]
 
   # remaining Product class definition omited for clarity
@@ -51,7 +51,7 @@ code. Since \_clrclassattribs is now a list of CustomAttributeBuilders,
 now I just need to iterate over that list and call SetCustomAttribute
 for each.
 
-``` {.brush: .python}
+``` python
 if hasattr(cls, '_clrclassattribs'):
       for cab in cls._clrclassattribs:
         typebld.SetCustomAttribute(cab)
@@ -65,16 +65,16 @@ C\# custom attribute, albeit in the wrong place. Not anymore. So I
 decided to write a function called cab\_builder to generates less
 verbose calls to make\_cab:
 
-``` {.brush: .python}
+``` python
 def cab_builder(attrib_type):
   return lambda *args:make_cab(attrib_type, *args)
 
-from System import ObsoleteAttribute 
+from System import ObsoleteAttribute
 Obsolete = cab_builder(ObsoleteAttribute)
 
 class Product(object):
   __metaclass__ = ClrTypeMetaclass
-  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"   
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"
   _clrclassattribs = [Obsolete("Warning Lark's Vomit")]
 
   # remaining Product class definition omited for clarity
@@ -100,5 +100,6 @@ generate a Python module on disk with the calls to cab\_builder. Then,
 you’d just have to import this module of common attributes but still be
 able to include additional calls to cab\_builder as needed.
 
+-----
 [1] The lack of statement lambdas in Python is one of my few issues with
 the language.

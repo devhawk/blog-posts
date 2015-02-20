@@ -46,12 +46,12 @@ XapHttpHandler to your
 web.config](http://github.com/jschementi/agdlr/blob/63a5ea3cf94068b87273531b5c96d84d8de983d2/utilities/chiron-http-handler/ChironHttpHandler.SampleSite/web.config#L86)
 like so:
 
-``` {.brush:xml}
+``` xml
 <configuration>
   <!--remaining web.config content ommitted for clarity-->
   <system.web>
     <httpHandlers>
-      <add verb="*" path="*.xap" validate="false" 
+      <add verb="*" path="*.xap" validate="false"
            type="Chiron.XapHttpHandler,Chiron"/>
     </httpHandlers>
   <system.web>

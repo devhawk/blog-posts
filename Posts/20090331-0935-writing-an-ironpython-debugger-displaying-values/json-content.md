@@ -104,48 +104,48 @@ available. So I was able to map CLR Types to element types (e.g.
 System.Single –\> ELEMENT\_TYPE\_R4) in order to retrieve the underlying
 value of boxed primitive types.
 
-``` {.brush: .python}
-_type_map = { 'System.Boolean': ELEMENT_TYPE_BOOLEAN,    
-  'System.SByte'  : ELEMENT_TYPE_I1, 'System.Byte'   : ELEMENT_TYPE_U1,    
-  'System.Int16'  : ELEMENT_TYPE_I2, 'System.UInt16' : ELEMENT_TYPE_U2,    
-  'System.Int32'  : ELEMENT_TYPE_I4, 'System.UInt32' : ELEMENT_TYPE_U4,    
-  'System.IntPtr' : ELEMENT_TYPE_I,  'System.UIntPtr': ELEMENT_TYPE_U,   
-  'System.Int64'  : ELEMENT_TYPE_I8, 'System.UInt64' : ELEMENT_TYPE_U8,    
-  'System.Single' : ELEMENT_TYPE_R4, 'System.Double' : ELEMENT_TYPE_R8,    
-  'System.Char'   : ELEMENT_TYPE_CHAR, }    
-      
-_generic_element_types = _type_map.values()    
+``` python
+_type_map = { 'System.Boolean': ELEMENT_TYPE_BOOLEAN,
+  'System.SByte'  : ELEMENT_TYPE_I1, 'System.Byte'   : ELEMENT_TYPE_U1,
+  'System.Int16'  : ELEMENT_TYPE_I2, 'System.UInt16' : ELEMENT_TYPE_U2,
+  'System.Int32'  : ELEMENT_TYPE_I4, 'System.UInt32' : ELEMENT_TYPE_U4,
+  'System.IntPtr' : ELEMENT_TYPE_I,  'System.UIntPtr': ELEMENT_TYPE_U,
+  'System.Int64'  : ELEMENT_TYPE_I8, 'System.UInt64' : ELEMENT_TYPE_U8,
+  'System.Single' : ELEMENT_TYPE_R4, 'System.Double' : ELEMENT_TYPE_R8,
+  'System.Char'   : ELEMENT_TYPE_CHAR, }
 
-class NullCorValue(object):   
-  def __init__(self, typename):   
-    self.typename = typename   
+_generic_element_types = _type_map.values()
 
-def extract_value(value):   
-    rv = value.CastToReferenceValue()   
-    if rv != None:   
-      if rv.IsNull:    
-        typename = rv.ExactType.Class.GetTypeInfo().Name   
-        return NullCorValue(typename)   
-      return extract_value(rv.Dereference())   
-    bv = value.CastToBoxValue()   
-    if bv != None:   
-      return extract_value(bv.GetObject())    
+class NullCorValue(object):
+  def __init__(self, typename):
+    self.typename = typename
 
-    if value.Type in _generic_element_types:   
-      return value.CastToGenericValue().GetValue()   
-    elif value.Type == ELEMENT_TYPE_STRING:   
-      return value.CastToStringValue().String   
-    elif value.Type == ELEMENT_TYPE_VALUETYPE:   
-      typename = value.ExactType.Class.GetTypeInfo().Name    
-      if typename in _type_map:   
-        gv = value.CastToGenericValue()   
-        return gv.UnsafeGetValueAsType(_type_map[typename])   
-      else:   
-        return value.CastToObjectValue()   
-    elif value.Type in [ELEMENT_TYPE_CLASS, ELEMENT_TYPE_OBJECT]:   
-      return value.CastToObjectValue()   
-    else:   
-      msg = "CorValue type %s not supported" % str(value.Type)     
+def extract_value(value):
+    rv = value.CastToReferenceValue()
+    if rv != None:
+      if rv.IsNull:
+        typename = rv.ExactType.Class.GetTypeInfo().Name
+        return NullCorValue(typename)
+      return extract_value(rv.Dereference())
+    bv = value.CastToBoxValue()
+    if bv != None:
+      return extract_value(bv.GetObject())
+
+    if value.Type in _generic_element_types:
+      return value.CastToGenericValue().GetValue()
+    elif value.Type == ELEMENT_TYPE_STRING:
+      return value.CastToStringValue().String
+    elif value.Type == ELEMENT_TYPE_VALUETYPE:
+      typename = value.ExactType.Class.GetTypeInfo().Name
+      if typename in _type_map:
+        gv = value.CastToGenericValue()
+        return gv.UnsafeGetValueAsType(_type_map[typename])
+      else:
+        return value.CastToObjectValue()
+    elif value.Type in [ELEMENT_TYPE_CLASS, ELEMENT_TYPE_OBJECT]:
+      return value.CastToObjectValue()
+    else:
+      msg = "CorValue type %s not supported" % str(value.Type)
       raise (Exception, msg)
 ```
 
@@ -169,15 +169,15 @@ something useful, but that requires invoking a function in the target
 process and I haven’t gotten that far with ipydbg yet. So I just print
 “\<…\>” if it isn’t a string, primitive or null value.
 
-``` {.brush: .python}
-def display_value(value):     
-  if type(value) == str:     
-    return (('"%s"' % value), 'System.String')     
-  elif type(value) == CorObjectValue:     
-    return ("<...>", value.ExactType.Class.GetTypeInfo().FullName)     
-  elif type(value) == NullCorValue:     
-    return ("<None>", value.typename)     
-  else:     
+``` python
+def display_value(value):
+  if type(value) == str:
+    return (('"%s"' % value), 'System.String')
+  elif type(value) == CorObjectValue:
+    return ("<...>", value.ExactType.Class.GetTypeInfo().FullName)
+  elif type(value) == NullCorValue:
+    return ("<None>", value.typename)
+  else:
     return (str(value), value.GetType().FullName)
 ```
 

@@ -26,7 +26,7 @@ implemented! And it works both ways – if you instance a managed class
 that implements IDisposable “on the heap” then it will automatically
 call dispose at the end of scope. For example:
 
-``` {.brush:cpp}
+``` cpp
 {  //C++ Version
    FileStream fs = FileStream(path, FileMode::Create);
    fs.Read(...);

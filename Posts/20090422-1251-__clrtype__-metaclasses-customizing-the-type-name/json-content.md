@@ -26,18 +26,18 @@ Alpha
 (or later) and you can get this code [from my
 SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_).
 
-``` {.brush: .python}
+``` python
 class ClrTypeMetaclass(type):
   def __clrtype__(cls):
     baseType = super(ClrTypeMetaclass, cls).__clrtype__()
-    typename = cls._clrnamespace + "." + cls.__name__ 
-                 if hasattr(cls, "_clrnamespace") 
+    typename = cls._clrnamespace + "." + cls.__name__
+                 if hasattr(cls, "_clrnamespace")
                  else cls.__name__
-                 
+
     typegen = Snippets.Shared.DefineType(typename, baseType, True, False)
     typebld = typegen.TypeBuilder
 
-    for ctor in baseType.GetConstructors(): 
+    for ctor in baseType.GetConstructors():
       ctorparams = ctor.GetParameters()
       ctorbld = typebld.DefineConstructor(
                   ctor.Attributes,
@@ -125,16 +125,16 @@ Using the ClrTypeMetaclass is very easy – simply specify the
 \_\_metaclass\_\_ field in a class. If you want to customize the
 namespace, specify the \_clrnamespace field as well. Here’s an example:
 
-``` {.brush: .python}
+``` python
 class Product(object):
   __metaclass__ = ClrTypeMetaclass
-  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"   
-  
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"
+
   def __init__(self, name, cost, quantity):
     self.name = name
     self.cost = cost
     self.quantity = quantity
-  
+
   def calc_total(self):
     return self.cost * self.quantity
 ```
@@ -143,7 +143,7 @@ You can verify this code has custom CLR metadata by calling GetType on a
 Product instance and inspecting the result via standard reflection
 techniques.
 
-``` {.brush: .text}
+```
 >>> m = Product('Crunchy Frog', 10, 20)
 >>> m.GetType().Name
 'Product'
