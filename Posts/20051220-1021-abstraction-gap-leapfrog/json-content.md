@@ -4,7 +4,7 @@ is that while you sleep they are thinking of a [good
 response](http://blogs.msdn.com/garethj/archive/2005/12/19/505732.aspx)
 to your post. The only downside? Having to deal with rampant misspelling
 like “artefacts”.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Anyway, Gareth responds to [my
 post](http://devhawk.net/2005/12/19/Imprecise+Vs+Incomplete.aspx):
@@ -63,3 +63,4 @@ foundation. I just don’t think it’s feasible. The process Gareth
 describes breaks the “Model Transformation must be Deterministic” tenet
 of [Code is Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx),
 though the word “must” may be to strong to allow for language evolution.
+

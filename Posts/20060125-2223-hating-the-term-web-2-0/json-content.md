@@ -48,4 +48,5 @@ The rules have changed. The power has shifted from the center to the
 edge. And we’re only just beginning to see the effects.
 
 Maybe we should call it WebNT?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

@@ -19,7 +19,7 @@ posts in a day or so.
     best friend called it “Juneuary”. However, the weather since we got
     back has been pretty awesome. I take full credit for bringing the
     good weather to Seattle from Hawaii.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 -   I was in Amsterdam for work and I didn’t have my family with me, but
     it was pretty good all the same. My good friend
     [Matt](http://technovangelist.com/) lives in Amsterdam full time, so
@@ -53,4 +53,5 @@ posts in a day or so.
 -   Outside of work, I’ve got a lot of writing to do. I’m finishing up
     an article on IPy and starting to really hunker down on a book that
     I’m writing.
+
 

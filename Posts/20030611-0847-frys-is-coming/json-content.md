@@ -5,7 +5,7 @@ but [Fry’s is coming to Renton in
 mid-July](http://seattletimes.nwsource.com/html/businesstechnology/134930115_frys07.html)
 (30 minutes from MSFT Campus). That’s Fry’s Electronics, not [Fry’s Food
 & Drug](PermaLink.aspx?guid=7a035f70-8234-45b0-9a10-37b51eb175cd).
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 Scoble called it the “most important news of the day”. Matt calls it
 “Heaven”. +1
 
@@ -13,3 +13,4 @@ I moved up from Los Angeles to Seattle about 2 years ago and was shocked
 there wasn’t a Fry’s anywhere nearby. (I didn’t know about the one
 [Matt](http://technovangelist.com/) mentioned in Oregon). Glad to see
 this oversight is going to be rectified by next month.
+

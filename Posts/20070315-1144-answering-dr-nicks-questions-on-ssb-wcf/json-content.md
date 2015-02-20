@@ -4,7 +4,7 @@ about how people would like to see SSB and WCF work together. He’s
 already heard these from me, but I figured I’d put them out there for
 everyone to see and debate. Plus, I had several beers last night at the
 MVP dinner, so this is likely to be more coherent than I was yesterday!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 1\. Are you interested in SSB because you’d like to have your service
 closer to the database? How close is close enough to the database?
@@ -78,3 +78,4 @@ or both?
 > I want my services to run inside the database, but that doesn’t mean I
 > want to write them in T-SQL. Personally, I’m much more productive in
 > C\# and/or WF. So WCF data contracts are fine by me.
+

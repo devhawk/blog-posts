@@ -10,7 +10,7 @@
     for a team morale event, I worked about 30 minutes yesterday. In
     case you’re wondering, that’s way below average. I typically work at
     least twice that every day.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 -   After maintaining a post a day average for January and February, I
     slipped a bit in March. Twenty seven posts in thirty one days. So
     that puts me five posts behind for the year as of this one.
@@ -54,4 +54,5 @@
     speed boost.” LINQ is turning out to be much more interesting than
     just a (much) better way to query databases. (via
     [DotNetKicks](http://www.dotnetkicks.com/csharp/Fast_Switching_with_LINQ))
+
 

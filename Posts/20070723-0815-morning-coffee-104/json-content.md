@@ -8,7 +8,7 @@
     book](http://www.amazon.com/gp/product/0545010225). If I do read
     something to or from the conference, it’s not that book because she
     won’t let me near it until she’s done!
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 -   Speaking of “that book”, Werner Vogel drops a few details about how
     well Amazon handled 1.3 million pre-orders that were delivered on
     Saturday (including our copy).
@@ -36,4 +36,5 @@
     but I would guess the IDE is the biggest crutch out there. As for
     giving up compulsively checking email, if that’s a goal Scott, I
     think you might have joined the wrong company…
+
 

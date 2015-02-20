@@ -5,7 +5,7 @@ Edition](http://www.microsoft.com/windowsxp/mediacenter/) (MCE) is
 available to MSDN Universal subscribers for download. I had an older PC
 lying around, so I thought I’d give it a whirl. So far, pretty cool.
 But, of course, it doesn’t matter if you can’t write code for it.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 Luckily, I found the [Media Center Extensibility
 Guide](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwmt/html/extensibility_guide.asp)
 as well as information about [programming the remote
@@ -22,3 +22,4 @@ with the .NET Framework.
 
 Update – the remote control does, in fact, work with XP Pro. Tried it
 out w/ WMP to mute, change volume, move to next track, etc.
+

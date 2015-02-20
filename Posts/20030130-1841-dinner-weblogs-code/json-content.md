@@ -3,7 +3,7 @@ But I did make it out to [Sam Ruby](http://www.intertwingly.net/blog)‘s
 [Weblog Gathering](http://www.intertwingly.net/blog/1166.html). Full
 list of attendee’s is available at [Anita Rowland’s
 weblog](http://www.anitarowland.com/gmarchives/00000825.html) (no RSS
-feed ![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+feed :frowning:
 ). Had a great time.
 
 Highlight for me was meeting [Miguel de
@@ -17,3 +17,4 @@ all interactions between commercial & non-commercial software advocates
 could be so respectful. (no flames please – I realize my employer has
 been equally at fault for not being respectful. Hopefully, we’re
 [changing that](http://news.com.com/2008-1082-981508.html).)
+

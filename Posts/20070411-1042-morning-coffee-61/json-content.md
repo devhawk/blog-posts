@@ -5,7 +5,7 @@
     he’s letting me share his office for the next few months while I’m
     engaged with one of the teams he mentions, though he begged me not
     to disclose which one.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 -   Ted Neward’s [Five Minute Management Lessons for
     Developers](http://blogs.tedneward.com/PermaLink,guid,9bb6f310-ad61-4893-b1a2-0bd538ea5988.aspx)
     made me snicker.
@@ -35,4 +35,5 @@
     afford huge IT budgets. These smaller companies get used to running
     a tighter ship and tend to be more competitive as they grow and are
     able to directly face off against the big fish.
+
 

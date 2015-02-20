@@ -12,7 +12,7 @@ ribbed him for sitting in the Microsoft booth, so he pulled out his
 [iBook](http://www.apple.com/ibook/)). I told him that since he like
 UNIX so much, we should install [Services for
 UNIX](http://www.microsoft.com/windows/sfu) on his Windows laptop.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 This is a very different crowd from TechEd – not better or worse, just
 different. Very heavy academic presence. I got a very interesting code
@@ -24,3 +24,4 @@ speakers – primarily related to Software Factories. It’s interesting,
 however, that three of the six of the [invited
 speakers](http://www.oopsla.org/2004/ShowEvent.do?id=invited_speakers)
 this year are from Microsoft.
+

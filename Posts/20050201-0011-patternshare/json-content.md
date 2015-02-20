@@ -16,7 +16,7 @@ patterns relate to each other blows my mind.
 
 Then p&p hired this guy…what’s his name?…Oh yeah, Ward Cunningham. I
 hear he knows a bit about pattern repositories.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Anyway, around this time last year I was having regular meetings with
 Larry and Ward to talk about this repository stuff. Then stuff got crazy
@@ -57,3 +57,4 @@ to the repository so that they show up in the EASOT.
 
 Major congrats to Ward, Larry, David and the rest of the p&p folks for
 pulling this off. I can’t wait to see where the site goes from here.
+

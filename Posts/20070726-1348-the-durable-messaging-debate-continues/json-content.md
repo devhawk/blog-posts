@@ -16,7 +16,7 @@ influential” though he also thinks we’re wrong on this durable messaging
 thing. In my private emails with Libor, he’s been equally respectful and
 his opinion is very well thought out, though obviously I think *he’s*
 the one who’s wrong.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 I’m not sure how much is clear from Libor’s public posts, but it looks
 like most of his recent experience comes from building trading
@@ -84,3 +84,4 @@ nines of availability in this case). For the systems that actually do
 need high availability, you have to invest in redundancy to get it. But
 for the rest of the systems, there’s a less costly way to get the
 reliability you need: Durable Messaging.
+

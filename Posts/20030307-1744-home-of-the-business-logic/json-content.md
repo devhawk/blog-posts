@@ -12,4 +12,5 @@ and Fujitsu’s [NetCOBOL for
 .NET](http://www.netcobol.com/dotnet/index.html), you could conceivably
 migrate the COBOL code directly into Excel. And no, I’m not making this
 up either!
-![;)](http://devhawk.net/wp-includes/images/smilies/icon_wink.gif)
+:wink:
+

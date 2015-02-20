@@ -2,7 +2,7 @@ I’ve spent the last three hours trying to get my new photo site posted
 to no avail. Will have to check with the webmaster tomorrow – any page
 with a code behind throws an exception that I can’t seem to catch or
 echo to the screen.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif) I
+:frowning: I
 guess I’ll have to build a simple HTML front end in order to post a
 bunch of new Patrick pictures for my parents.
 
@@ -31,3 +31,4 @@ attempt to make a coherent point.
 > that way, even the ones that are private to my code. This way I have a
 > single architectural model, improve reuse, reduce training, and avoid
 > writing any annoying XML \<–\> OOP conversion routines.
+

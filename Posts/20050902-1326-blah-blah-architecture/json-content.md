@@ -21,4 +21,5 @@ and the effect of title inflation – that I’ve made here on this blog
 this past week.
 
 I guess I need some new material.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

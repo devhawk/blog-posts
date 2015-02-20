@@ -8,4 +8,5 @@ Anyway, I’ve finally got around to checking that email. Besides the ton
 of spam, there was also a bunch of real email from people asking
 questions. If you sent me email in the past two months, sorry I’ve
 ignored you. I’ll stop ignoring and respond shortly!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

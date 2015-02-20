@@ -4,4 +4,5 @@ who won the Super Bowl. But I’ve got to give it up for my adopted [home
 team](http://www.seahawks.com/). Go Hawks!
 
 Update:
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+:frowning:
+

@@ -38,9 +38,10 @@ any code written last night, which I was sort of planning to do when I
 headed back to the hotel. But chatting with these folks – esp. Jon this
 time – helps be figure out *what* I want to write anyway, so I guess
 it’s worth it!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 I ended up sleeping in this morning (still jet lagged) and skipping the
 morning session. No second keynote this year, which I didn’t realize
 until I looked at the conf guide this morning. Not sure if that’s a good
 thing or a bad thing.
+

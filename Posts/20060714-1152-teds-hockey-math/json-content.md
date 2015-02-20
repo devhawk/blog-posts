@@ -1,5 +1,5 @@
 My [new pal](http://devhawk.net/2006/07/06/Meeting+Ted+Leonsis.aspx)
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif) [Ted
+:smile: [Ted
 Leonsis](http://ted.aol.com/index.php?id=300) does the hockey math on
 the [re-acquisition of Richard
 Zednik](http://www.washingtoncaps.com/news/news.asp?story_id=4117).
@@ -26,3 +26,4 @@ goals and 57 points. So that breaks the trade down to a 1st round pick
 That being said, it’s nice to have Zed Head back in a Caps jersey.
 Hockey is played on ice, not paper. I’d rather have Zubrus and Zednick
 than Bulis and Linden any day.
+

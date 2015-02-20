@@ -43,7 +43,7 @@
 -   Ian Thomas wonders [Does ERP
     suck](http://itblagger.wordpress.com/2007/05/04/does-erp-suck/)? In
     a word: Yes!
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
     Seriously, I’m a strong believer in what Ian alternatively calls
     “unbundling” and “disaggregation” of monolithic enterprise systems –
     ERP is the most glaring example of such systems.
@@ -53,4 +53,5 @@
     got a console runner up and running. He’s working of adding
     “Test With Silverlight” option to
     [TestDriven.NET](http://www.testdriven.net/). You go Jamie.
+
 

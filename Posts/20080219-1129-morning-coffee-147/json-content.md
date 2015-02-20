@@ -73,7 +73,7 @@
     Brandsma [describes IoC and mentions
     Unity](http://elegantcode.com/2008/02/17/microsoft-releases-unity-an-ioc-library/),
     but he doesn’t cover any Unity specifics.
-    ![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+    :frowning:
 -   MSIT EA Nilesh Bhide has [started
     blogging](http://blogs.msdn.com/nileshb). His first post is on
     [Customer perception of Service Quality in
@@ -101,4 +101,5 @@
     formats](http://www.ecma-international.org/news/TC45_current_work/TC45_available_docs.htm).
     (via
     [DNK](http://www.dotnetkicks.com/products/Microsoft_releases_Office_binary_file_formats_doc_xls_ppt))
+
 

@@ -206,7 +206,7 @@ they REALLY want to integrate IronPython like the [Dynamics AX
 team](http://www.langnetsymposium.com/2009/talks/13-RomanIvantsov-IronPythonMSDynamic.html)
 is doing. If you see a post here about me moving to Copenhagen, you’ll
 know I was successful!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 ### Final Thoughts
 
@@ -220,3 +220,4 @@ the house he was born in as well as get my picture taken with this
 statue of him right outside our hotel. Major thanks to Martin Esmann for
 inviting me, driving me around – we drove a megameter, aka 1000km, over
 the course of the trip – and being an all around amazing host.
+

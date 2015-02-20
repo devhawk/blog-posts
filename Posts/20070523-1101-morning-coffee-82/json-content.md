@@ -13,7 +13,7 @@
     platform that spans desktop, devices and browser. That sounds like
     “platform competition” to me.
 -   Apparently I’m missing the this years compiler dev lab.
-    ![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+    :frowning:
     John Lam [is
     there](http://www.iunknown.com/2007/05/compiler_dev_la.html), with
     [slides from his
@@ -45,4 +45,5 @@
 -   My birthday is past, but I want a [Lego Ice Cube
     Tray](http://shop.lego.com/Product/?p=EL502). (via
     [Geekdad](http://blog.wired.com/geekdad/2007/05/lego_my_martini.html))
+
 

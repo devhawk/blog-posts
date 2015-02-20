@@ -21,7 +21,7 @@ the other of the error of their ways.
 So herein is yet another salvo in the discussion, for your
 entertainment. It’s long and drawn out, but since it’s written it means
 he can’t interrupt me to say “what if”
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 As mentioned above, my father was at Bell Labs in the early 70′s when
 Unix and C were developed. I guess it’s no surprise that he harps so
@@ -132,3 +132,4 @@ developers. Java was second with 35% and non .NET Windows development
 was third (no percentage given).  Even if you want to nit-pick on the
 numbers, you’d be hard pressed to argue that Java hasn’t been losing
 ground dramatically to .NET in the past three years since VS 2002 RTMed.
+

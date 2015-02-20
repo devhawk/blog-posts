@@ -1,6 +1,6 @@
 So my SAF coverage stinks. I missed all of Day \#3 sick at home. Which
 means I missed BillG’s keynote.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+:frowning:
 
 I did moderate an awesome session on Architecting for Manageability
 today. The session was awesome because of the speaker Praerit Garg (not
@@ -15,3 +15,4 @@ operations. Check out this
 [whitepaper](http://www.microsoft.com/windowsserver2003/technologies/management/dsi/designops.mspx)
 on how you can start adding support for management models in your
 applications today.
+

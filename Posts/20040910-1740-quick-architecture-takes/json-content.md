@@ -36,7 +36,7 @@ A few short takes before I go:
         hearing how he’s working on something but since I’m going out of
         town I figured I could put a bit of a squeeze to get him to
         post.
-        ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+        :smile:
 -   I’m stoked about the [.NET
     Languages](http://www.dotnetlanguages.net/DNL/Default.aspx) site.
     Not much up there yet, but I subscribed. Given my interest in
@@ -57,3 +57,4 @@ A few short takes before I go:
 I’ve got some cool stuff “in the works” which I hope to talk about more
 when I get back. I have 35 hours on airplanes in the next ten days, so I
 get a chance to bang out some code.
+

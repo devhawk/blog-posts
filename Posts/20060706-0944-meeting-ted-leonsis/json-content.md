@@ -9,7 +9,7 @@ Bondra). So I was somewhat surprised that wrote that he wanted to meet
 me since I blog a lot about the Caps. As I was in town, we arranged a
 meeting on short notice. I gotta say, it’s much easier to call someone
 an abomination on your blog than to their face.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
  I got to spend an hour chatting about hockey – both from a game and
 ownership standpoint. Not that I’m likely to own a hockey team any time
@@ -28,3 +28,4 @@ Ovechkin](http://www.washingtoncaps.com/team/player.asp?player_id=17):
 <div style="TEXT-ALIGN: center">
 
 </div>
+

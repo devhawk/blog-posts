@@ -81,4 +81,5 @@ Concepts, Technology, and Design](http://www.soabooks.com)” if anyone
 wants to trade for it. It’s not a [red
 paperclip](http://oneredpaperclip.blogspot.com/), but it’s like new –
 only flipped through once.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

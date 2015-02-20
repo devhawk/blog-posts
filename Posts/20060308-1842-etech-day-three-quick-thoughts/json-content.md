@@ -58,8 +58,9 @@ details to follow.
     cents a minute (11% more than Casting Words) and charge 36 cents a
     minute (14% less than Casting Words) and keep the 12 cents a minute
     markup (a 33% markup).
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 
 UPDATE (8:45pm) – Added Quick Thoughts on Yahoo!, Eventful, George
 Dyson, Joel Spolsky and Plum. Added more detail about the attention
 economy sessions from today.
+

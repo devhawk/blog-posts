@@ -108,5 +108,6 @@ specific language for developing web applications
 
 This post is long enough and I have “real” work to do (the downside of
 leaving evangelism!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif) ).
+:smile: ).
 I’ll post about the afternoon sessions later.
+

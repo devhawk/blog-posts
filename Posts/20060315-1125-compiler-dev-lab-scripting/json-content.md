@@ -69,5 +69,6 @@ folks there as well.
     [SC-BAT](http://www.gotdotnet.com/codegallery/codegallery.aspx?id=941d2228-3bb5-42fd-8004-c08595821170)
     workshop.
 -   I didn’t pay enough attention to the Monad presentation.
-    ![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+    :frowning:
+
 

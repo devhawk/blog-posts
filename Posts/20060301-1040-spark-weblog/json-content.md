@@ -8,4 +8,5 @@ about SPARK, but it’s also appears to be an opportunity to use the work
 Fly](http://sparklasvegas.wordpress.com/2006/02/27/sparks-fly/)“.
 
 I’m just waiting for someone to blog about SPARKitecture.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

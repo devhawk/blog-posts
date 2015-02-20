@@ -21,7 +21,7 @@ entries interesting.
     [30](http://www.nba.com/sonics/news/presti070607.html) years old.
     You know you must be getting old when the people running the sports
     teams are younger than you.
-    ![:-)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
     He comes from the Spurs organization though so at least he has a
     background from a successful franchise.
 -   [Ben Pearce](http://209.34.241.68/benp/about.aspx) listed out his
@@ -39,4 +39,5 @@ entries interesting.
     was trying to find some games my 4 year old with the broken leg
     could play I realized how many games I have that wouldn’t be
     appropriate for him. This is very good news in my opinion.
+
 

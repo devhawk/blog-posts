@@ -6,7 +6,7 @@ blog](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!641.entry).
     to the State of the Union were posted as I write this. Dunno why,
     but I was expecting more. Maybe this whole Web 2.0 thing *is*
     overblown a bit!
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 -   Speaking of the State of the Union, is it just me, or did anyone
     else find it odd that the [Scooter Libby
     trial](http://www.msnbc.msn.com/id/16770023/) started the same day?
@@ -46,4 +46,5 @@ blog](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!641.entry).
     the [Live Gallery](http://gallery.live.com/default.aspx?l=8). I
     wonder why nobody else has built this yet? Is this really that
     unique a request?
+
 

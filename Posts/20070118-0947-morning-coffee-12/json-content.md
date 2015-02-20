@@ -5,7 +5,7 @@
     low-cost distribution channels, from DVD to digital downloads, all
     you now need to be a filmmaker is talent.” Really? Based on the
     dreck Hollywood churns out, I thought talent was optional!
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
     Seriously, check out his post and the sites he points to ([Four Eyed
     Monsters](http://foureyedmonsters.com) and [DV Rebel’s Guide review
     on Cool Tools](http://www.kk.org/cooltools/archives/001547.php)).
@@ -60,4 +60,5 @@
     scenarios rather than orchestration scenarios. My efforts around SSB
     & WF are much more focused on orchestration scenarios, so I’m
     guessing SSB’s lack of pub/sub infrastructure is not a big deal.
+
 

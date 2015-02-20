@@ -42,5 +42,6 @@
     to any club that will accept me as a member.” Though maybe I’m just
     bitter because “Working at MS” has been deemed “[not
     hot](http://weblogs.asp.net/rosherove/archive/2007/06/04/alt-net-alternative-tools-and-approaches-to-mainstream-net.aspx)“.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
+
 

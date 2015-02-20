@@ -75,7 +75,7 @@ posts.
     a mere week after the original release. One week? That’s more often
     than even IPy releases. I can’t wait to see what they ship in next
     week’s release!
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
     Seriously, I hope they can keep the release sprints short, but every
     week would be a bit crazy!
 -   Speaking of F\#, Matt Podwysocki [updates
@@ -95,7 +95,7 @@ posts.
     game](http://feeds.feedburner.com/~r/ChrisSmithsCompletelyUniqueView/~3/383195149/simple-f-game-using-wpf.aspx)
     that uses Units of Measure for the physics code. I’ll bet UoM was
     extremely useful.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 -   Talking about Live Mesh at TechEd Australia – where much to my
     surprise frankly they were [demoing Live Mesh
     Apps](http://www.liveside.net/main/archive/2008/09/07/live-mesh-buildup-begins-mesh-apps-shown-at-tech-ed-australia.aspx)
@@ -142,4 +142,5 @@ posts.
     pretty good. I remember seeing [Chris
     Anderson](http://www.simplegeek.com/) demo ~~Avalon~~ WPF long
     before it was public and being impressed at how fast he could type.
+
 

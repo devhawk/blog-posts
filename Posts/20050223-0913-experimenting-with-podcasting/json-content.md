@@ -36,4 +36,5 @@ at this whole podcasting thing in the first place. Given how little
 spare time I have these days, I’m not sure that I needed yet another
 hobby. On the other hand, not following your boss’s suggestions or
 giving him props is never good for the career!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

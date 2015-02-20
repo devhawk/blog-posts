@@ -2,7 +2,7 @@ Keith
 [blogged](http://blogs.msdn.com/keith_short/archive/2004/09/01/224317.aspx)
 about his hectic days since he returned from vacation. Getting a book
 published, preparing for a BillG review, you know all the usual stuff.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 [![](http://oopsla.org/oopsla2004/OOPSLA04LogoSplash.gif)](http://www.oopsla.org/2004)
 
@@ -65,3 +65,4 @@ Anyone else going to OOPSLA?
 Update: Added the three panel discussions. I’m guessing the [J2EE/.NET
 shootout](http://www.oopsla.org/2004/ShowEvent.do?id=503) will be
 standing room only.
+

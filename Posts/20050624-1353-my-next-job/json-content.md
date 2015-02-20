@@ -7,7 +7,7 @@ roles on the team again. I’m going to work for [John
 deVadoss](http://blogs.msdn.com/jdevados/) as a solution architect. In
 other words, I’m going to actually do architecture work for the
 Architecture Strategy Team. Go figure.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Seriously, I’ve actually enjoyed working for
 [Norman](http://atlasbrandview.blogspot.com/) and with
@@ -45,3 +45,4 @@ incredibly busy and have spotty network access. I’ll probably post
 pictures to my [MSN Space](http://spaces.msn.com/members/devhawk/) on
 occasion since I can do that with my phone. Otherwise, I’ll see you on
 the other side.
+

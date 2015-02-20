@@ -48,7 +48,7 @@ It sure was fun getting to watch an entire Caps game in its entirety
 with my family. Patrick and Riley watched most of it. Patrick wanted to
 know who the bad guys were – he figured it out after I pointed out the
 Penguins were wearing black…like Darth Vader.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 Julie wanted to know how I’d handle it if Patrick grew up to be a
 professional hockey player, but was drafted by Pittsburgh. My love for
 Paddy Boy far exceeds my hatred for the Penguins, though that’s the only
@@ -56,3 +56,4 @@ scenario I could imagine rooting for the Penguins. My boy Patrick,
 however, protested and said he wanted be a Capital and play with Alex
 the Great. Patrick will be 18 by the time Ovechkin’s contract is over.
 It could happen. Guess I gotta teach him to skate!
+

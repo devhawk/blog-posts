@@ -6,7 +6,7 @@ category](http://techedbloggers.net/Bloggers/TechEd2005/Orlando/Staff.category).
 Last year, I was staff and speaker (the only track owner also presenting
 I might point out) but this year I’m in marketing so they didn’t let me
 speak!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 Actually, I picked all the ARC track sessions and speakers, so I have no
 one to blame for myself. Yep, no one to blame but myself for
 significantly easing my own workload to only worrying about organizing
@@ -15,3 +15,4 @@ self, get [Ted’s](http://www.neward.net/ted/weblog/) mobile number
 before the event starts) without the added worry of having to present.
 
 Who else is going to Orlando?
+

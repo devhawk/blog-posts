@@ -64,8 +64,9 @@ division so this is only my thoughts on yesterday’s announcements.
     say “unpolished” at this point.
 -   [Halo Wars](http://www.xbox.com/games/halowars/) not coming until
     2009.
-    ![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+    :frowning:
 -   No new Bungie news, but their
     [website](http://www.bungie.net/defaultsi.aspx) is counting down
     to \*something\* tomorrow. I guess we’ll find out then.
+
 

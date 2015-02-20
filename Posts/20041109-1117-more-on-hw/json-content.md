@@ -47,4 +47,5 @@ Update – I just spoke to Comcast regarding the MSTV functionallity.
 Their PVR functionallity supports both HD and non-HD programs so I’m
 definitely going to give that a try. Only downside – they can’t come
 install for a week and a half.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+:frowning:
+

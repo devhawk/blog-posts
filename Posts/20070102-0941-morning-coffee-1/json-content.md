@@ -64,4 +64,5 @@ So starts a new feature on DevHawk. As you might guess from the “1″ in
 the title, I’m hoping to make this a regular feature. As I ease back
 into work, expect more tech related nuggets along with the more random
 stuff. I should admit, however, that I actually don’t drink coffee.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

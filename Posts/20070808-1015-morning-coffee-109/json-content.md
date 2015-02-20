@@ -4,7 +4,7 @@
     thing are continuing as usual today with \#109. On the other hand,
     do you really want development and architecture opinions from a guy
     who can barely count?
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 -   The finalists in the [Dream-Build-Play
     contest](http://www.dreambuildplay.com/)[have been
     announced](http://blogs.msdn.com/xna/archive/2007/08/03/dream-build-play-finalists-announced.aspx).
@@ -47,4 +47,5 @@
     – is building something you’ve never built before. Is it any
     surprise we suck at estimating how long it will take us to do
     something we’ve never done before?
+
 

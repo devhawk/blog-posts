@@ -23,4 +23,5 @@ now owns the broadcast rights to the NHL via their [OLN
 network](http://www.olntv.com/nw/article/view/1268/?tf=nwNHLArticle.tpl).
 So I’m hoping we’ll eventually see HD NHL on Comcast, thought it sounds
 like I have to wait a few months.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+:frowning:
+

@@ -4,7 +4,7 @@ reader, might find amusing.
 > **From:**[Srivatsn Narayanan](http://blogs.msdn.com/Srivatsn/)\
 > **Sent:** Friday, May 02, 2008 4:00 PM\
 > **Subject:** You dont need pinky fingers?
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 >
 > <http://twitter.com/DevHawk/statuses/802239164>
 >
@@ -14,13 +14,13 @@ reader, might find amusing.
 > **Sent:** Friday, May 02, 2008 11:30 PM
 >
 > Wow, am I really that loud?
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 >
 > This is a response to the idea that no design is complete until you
 > can’t remove anything else without sacrificing the overall goals of
 > the end result.  Is the pinky really necessary?  We can “cut that
 > feature”, right?
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 >
 > ------------------------------------------------------------------------
 >
@@ -31,7 +31,7 @@ reader, might find amusing.
 > so iteratively you will have to lose all of them :). If I remember
 > right in Europe, you hold up the pinkie to order beer. So it’s quite
 > important
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 >
 > ------------------------------------------------------------------------
 >
@@ -72,10 +72,10 @@ reader, might find amusing.
 > those](http://en.wikipedia.org/wiki/Little_finger#Cultural_significance).
 > So do you get your “2 creams no sugar” appendage – sure if u can agree
 > on the semantics with the waiter. Seems like a PM call to me
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 >
 > PS: What beer did u have? I should try that – seems effective
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 >
 > ------------------------------------------------------------------------
 >
@@ -96,7 +96,7 @@ reader, might find amusing.
 >
 > I wouldn’t want to hold up 0010 really (although it won’t be the
 > middle finger anymore)
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 >
 > ------------------------------------------------------------------------
 >
@@ -121,9 +121,10 @@ reader, might find amusing.
 >
 > 1000, 1100, 1110 and 1111 are actually used for counting numbers
 > 1,2,3,4
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
 > They are too obvious to be non-standardized. So they are out as well.
 >
 > That cuts the user messages to 5 (third bit is reserved anyway). Some
 > of the ones left are hard to make as well – try 0101
-> ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+> :smile:
+

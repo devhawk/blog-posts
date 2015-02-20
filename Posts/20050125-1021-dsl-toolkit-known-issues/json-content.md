@@ -6,4 +6,5 @@ of the [DSL
 Toolkit](http://lab.msdn.microsoft.com/vs2005/teamsystem/workshop/dsltools).
 I have not had enough time to play with this. Anyone know where I can
 get 3-4 more hours a day?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

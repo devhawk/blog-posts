@@ -20,7 +20,7 @@ ComputerWorld and [has a
 post](http://www.computerworld.dk/blog/studblog/1931) (in Danish) about
 my visit. Personally, I am just excited about being featured in
 something called “Stud.blog”!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 Actually, Stud here means “Student” not “[slender, upright members of
 wood](http://dictionary.reference.com/browse/stud)” or any other
 definition of the term “stud”.
@@ -134,3 +134,4 @@ already have one announcement that I think is pretty significant lined
 up and might have a second depending on how hard I can push LCA and
 management between now and then. Talk proposals are due October 1st, so
 any suggestions would be appreciated!
+

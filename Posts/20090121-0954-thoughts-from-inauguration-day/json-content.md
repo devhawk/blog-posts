@@ -36,7 +36,7 @@ inclusive of all-viewpoints. And while having a quartet with the likes
 of Itzhak Perlman and Yo-Yo Ma was awesome, I especially liked John
 Williams’ inaugural piece “Air and Simple Gifts”. But wouldn’t the theme
 to Superman have been more appropriate?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Finally, I skipped the rest of the pre and post inauguration analysis
 and commentary other than the Countdown podcast which I listen to on my
@@ -49,3 +49,4 @@ historic day it was. Res ipsa loquitur.
 article](http://www.theonion.com/content/node/28784) eight years ago
 “Bush: ‘Our Long National Nightmare Of Peace And Prosperity Is Finally
 Over’”
+

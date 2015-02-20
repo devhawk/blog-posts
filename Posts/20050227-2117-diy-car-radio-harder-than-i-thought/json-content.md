@@ -16,4 +16,5 @@ Of course, in my area of expertise I guess most non-experts would be
 equally lost. I’m setting up a website for some friends, so I sent them
 a quick email with the status, and the response came back “could you
 write this again, but this time in English?”
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

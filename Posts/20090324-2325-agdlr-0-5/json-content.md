@@ -13,7 +13,7 @@ of the new AgDLR release.
 One feature of the new release I did want to highlight was
 [XapHttpHandler](http://github.com/jschementi/agdlr/blob/8a5693bb19d08f09b509d61d14733e0a7411b593/src/Chiron/XapHttpHandler.cs)
 because I’m the one who wrote it!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 The Silverlight versions of IronPython and IronRuby ship with a tool
 called
@@ -68,3 +68,4 @@ file – it’s generated anew on every request. So I would highly recommend
 XapHttpHandler on a production web server. You’re much better off using
 Chiron to build a physical XAP file that you then deploy to your
 production web server.
+

@@ -24,7 +24,7 @@ starting from the XML, especially XML with lots of different namespaces
 a static type for this gets old fast.
 
 Of course, if you’re not using a statically typed language…
-![;)](http://devhawk.net/wp-includes/images/smilies/icon_wink.gif)
+:wink:
 
 One of the cool aspects of dynamic languages is the ability to easily
 generate new types on the fly. In Python, you can create a new type by
@@ -102,3 +102,4 @@ runs xml2py on my [FeedBurner
 feed](http://feeds.feedburner.com/Devhawk), but then you can play around
 with the rss object and see what it contains. Be sure to check out the
 xmlns attribute for each object in the rss.channel.link list.
+

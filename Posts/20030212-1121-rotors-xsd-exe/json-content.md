@@ -30,7 +30,7 @@ discoveries.
 I haven’t done much with localization, but I should, so the discovery of
 the gensr script is particularly useful for me. Of course, I want a
 compiled utility version of it.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif) The
+:smile: The
 question is rewrite in C\# or use the [ActiveState Perl Dev
 Kit](http://www.activestate.com/Products/Perl_Dev_Kit/) which includes
 their [PerlNET
@@ -40,3 +40,4 @@ meantime, I used [Perl2exe](http://www.indigostar.com/perl2exe.htm).
 Works OK, except that the resulting exe is almost 700kb while the
 original script is 9kb. That’s a lot of bloat, but I guess that’s the
 price of convenience.
+

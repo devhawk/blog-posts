@@ -19,8 +19,9 @@ design.
 One funny thing about IPv6 – the first 13 bits of an IPv6 address is
 called the Top Level Aggregator Identifier, or the TLA ID. I thought TLA
 stood for Three Letter Acronym!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 I did install the WinXP P2P SDK and poke around enough to notice it is
 C++ based. I wonder if the next version of the .NET Framework, with it’s
 built in IPv6 support, will get it’s own P2P SDK soon?
+

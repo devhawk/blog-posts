@@ -16,7 +16,7 @@ All in all, there is quite a bit of interest in this developing for
 SharePoint in general and creating syndication feeds in particular. Too
 bad I can’t get more involved. With my new job, I just don’t have the
 time to work on this project anymore.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+:frowning:
 
 Since I can’t keep the project up, I’m wondering if someone else would
 like to take up the reins. I posted all the code to the workspace, but
@@ -32,3 +32,4 @@ feature is an admin interface for creating the syndication feeds
 integrated directly into the existing SharePoint admin interface. Not
 sure how doable that is, but let’s find out. After that, I’m open to
 suggestions as to project direction.
+

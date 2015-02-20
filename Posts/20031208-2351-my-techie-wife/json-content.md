@@ -6,10 +6,11 @@ son, her job and other general goings-on, so I thought writing a weblog
 would be a good way for her to keep everyone up to date. She picked the
 name TechieWife in order to inspire the wives of techno-geeks
 everywhere.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 I noticed she got the address of my weblog wrong in her inaugural entry.
 What’s funny is that my friend Chris Church (no weblog yet) is so lazy
 that he bought [devhawk.com](http://devhawk.com/) and set it to redirect
 to [devhawk.net](http://devhawk.net/). Now he can use IE’s ctrl-enter
 shortcut key to get to my weblog.
+

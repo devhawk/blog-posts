@@ -121,4 +121,5 @@ into a different process from where our app code is running.
 Now you’re ready to go build your own brokered components! Here’s hoping
 you’ll find more interesting uses for them than comparing the process
 IDs of the app and broker processes in the debugger!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

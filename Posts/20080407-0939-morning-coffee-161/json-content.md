@@ -18,13 +18,13 @@
     Friday](http://blog.washingtonpost.com/capitalsinsider/2008/04/playoff_schedule.html).
     I have a feeling that I’ll be feeling poorly Friday around 3pm and
     have to head home early.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 
 DyLang Stuff
 
 -   Apparently, Michael Foord isn’t getting enough exposure on this
     blog.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
     [He left a
     comment](http://devhawk.net/CommentView,guid,7d25906b-cd4d-409c-aeeb-e7455c6260aa.aspx#commentstart)
     to remind me to mention the [IronPython URLs link
@@ -93,4 +93,5 @@ Other Stuff
     wins](http://tirania.org/blog/archive/2008/Apr-02.html) from the
     standardization process. Anything that “pushed Microsoft into more
     open directions” is a good thing IMO.
+
 

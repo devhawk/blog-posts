@@ -3,7 +3,7 @@ post](http://devhawk.net/2009/03/13/Writing+An+IronPython+Debugger+Debugging+Jus
 I’m not done, I just needed to catch my breath for a few days and get
 some other work done. Contrary to popular believe, my day job revolves
 around more than just ipydbg!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Actually, I’ve made ten commit since my last post, but it’s been a
 mostly minor changes. For example, I was hacking around with breakpoints
@@ -78,3 +78,4 @@ field.
 As usual, [latest
 ipydbg](http://github.com/devhawk/ipydbg/tree/2e7681966be3aebbcfb7cefd6488d34fc62427cd)
 (including new compiled version of CorDebug.dll) is available at GitHub.
+

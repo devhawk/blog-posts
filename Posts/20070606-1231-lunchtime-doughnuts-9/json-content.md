@@ -41,6 +41,7 @@
     I work at Microsoft now I will just say that when you support
     Solaris boxes, having one on your desk is quite helpful. I don’t
     take sides in the Holy War.
-    ![:-)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
     (via [Scoble](http://scobleizer.com/))
+
 

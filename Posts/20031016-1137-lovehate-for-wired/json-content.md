@@ -1,7 +1,7 @@
 Every once in a while, I think about just yanking the Wired feed from my
 aggregator. I don’t usually read the articles. With Scoble posting so
 much, who has time to read both?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 However, today I actually read two. One very interesting and one that I
 thought was pretty stupid.
 
@@ -42,3 +42,4 @@ sure what’s “particularly embarrassing” about them. *ALL* security bugs
 are embarrassing. That’s why we work with the security community and get
 the stuff patched in a timely fashion, usually before anyone knows it’s
 a problem.
+

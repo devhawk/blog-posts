@@ -15,4 +15,5 @@ though I’ve polished off six already.
 
 I also share his resolution to lose weight. Julie does too, but since
 she’s 8 months pregnant, losing weight now would be a bad thing.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

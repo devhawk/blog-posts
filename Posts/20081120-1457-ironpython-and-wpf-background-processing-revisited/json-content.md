@@ -82,7 +82,7 @@ probably overkill – I expect the current SyncContext to be either None
 or leftover garbage – but the urge to clean up after myself is
 apparently much stronger on the background thread than it is in say my
 office.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 In the UIThread wrapper, I grab the current context and invoke the
 decorated method via the Send method. Like QueueUserWorkItem,
@@ -114,3 +114,4 @@ code this one more time – I want to rebuild the WPF version so that it
 propagates return values and picks up an dispatcher via
 Application.Current.MainWindow rather than having to have a dispatcher
 property on my class.
+

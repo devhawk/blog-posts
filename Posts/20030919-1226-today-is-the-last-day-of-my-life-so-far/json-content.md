@@ -75,7 +75,7 @@ there are some other benefits of this change:
     Crossroads. I’ve been out of town for all of the ones he’s arranged
     so far, including this past Wednesday. Of course, if Scoble’s been
     planning them around my travel schedule, he’s screwed.
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
 
 Of course, there are a few downsides.
 
@@ -101,3 +101,4 @@ Of course, there are a few downsides.
 In the short term, I may go dark on this blog since I’ve got a lot of
 work to do before PDC. Don’t worry. In the famous words of Arnold
 Schwarzenegger, I’m running for Governor of California.
+

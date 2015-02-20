@@ -32,7 +32,7 @@
     Executives](http://ophir.wordpress.com/2008/07/20/python-for-executives/).
     I like his “Risk, Recruiting, Performance and Maturity” model – four
     boxes, perfect for keeping an executive’s attention!
-    ![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+    :smile:
     Plus Ophir has some nice things to say about IronPython. (via
     [Michael Foord](http://twitter.com/voidspace/statuses/863648598))
 -   Ronnie Maor
@@ -81,4 +81,5 @@
     highest share but it looks to be around 1/3rd, the aggregate of all
     edge devices (PCs, mobile phones, PDAs, etc.) still dominates the
     data centers.
+
 

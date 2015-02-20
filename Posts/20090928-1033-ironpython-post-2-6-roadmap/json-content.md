@@ -43,7 +43,7 @@ long ugly name. Any suggestions on a different one? We’ve been thinking
 But “R2” doesn’t really capture the essence of the .NET 4.0 compatible
 release. Besides, when has the dynamic languages team at Microsoft ever
 done ANYTHING because it was popular with the Microsoft marketing folks?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 At this point, we’ve got the next few months mapped out, but not much
 more beyond that. Specifically, we have two gaping holes in the roadmap:
@@ -90,3 +90,4 @@ from November 2007. The next one before that was [Create Service Pack
 for Visual Studio
 2005](https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=106007)
 from November 2005.
+

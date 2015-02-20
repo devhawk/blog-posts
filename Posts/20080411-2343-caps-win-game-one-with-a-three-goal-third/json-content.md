@@ -7,7 +7,7 @@ having, you know, unsure thoughts. Thoughts like:
 matter much”.
 
 Oh me of little faith.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 [![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CapsWinGameOneWithaThreeGoalThird_14DA8/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)The
 Caps [took game
@@ -65,3 +65,4 @@ But here are a few of my thoughts.
     like a good non-call. But I’m guessing Philly fan doesn’t agree.
 
 Game two, Sunday 2pm Eastern/11am Pacific. You’ll know where I’ll be.
+

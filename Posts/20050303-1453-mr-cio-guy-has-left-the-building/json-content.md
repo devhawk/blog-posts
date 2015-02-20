@@ -2,7 +2,7 @@ As he
 [wrote](http://blogs.msdn.com/pathelland/archive/2005/03/03/384636.aspx)
 on his blog, [Pat Helland’s](http://pathelland.com/) last day at
 Microsoft is tomorrow. He’s busily cleaning out his office right now.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif) He’s
+:frowning: He’s
 starts on Monday @ Amazon to help them implement a service oriented
 architecture. I heard their
 [CTO](http://weblogs.cs.cornell.edu/AllThingsDistributed/archives/000534.html)
@@ -19,3 +19,4 @@ months, and I think the change is a great opportunity for him. I imagine
 I’ll see him often enough – he’s back on campus next week to present at
 an architecture forum. Plus, I offered to setup dasBlog on
 pathelland.com so he’ll keep blogging.
+

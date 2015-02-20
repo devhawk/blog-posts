@@ -27,7 +27,7 @@ Nick also provided a link to an
 in Architecture and Governance magazine. I was going to read it, however
 their web site is down as I write this. I feel comfortable interpreting
 that as a sign that I’m right…
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Actually, Nick’s got a point. It was wholly unfair of me to say that EA
 provides no value. However, I do believe the return on investment of
@@ -50,4 +50,5 @@ around and ask some questions of my own:
 1.  How much do you think your organization spends on EA per year?
 2.  What do you think your organization’s EA ROI is?
 3.  What can you do to improve your organization’s EA ROI?
+
 

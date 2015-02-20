@@ -5,7 +5,7 @@ are invoked by a single keystroke. I’m using
 in an attempt to cut down on the number of keystrokes needed for
 interacting with the debugger. If I only type ‘s’ instead of ‘s
 \<enter\>’ to step, I figure I’ll be twice as productive!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 If I was writing ipydbg in C\#, I could use switch statement to dispatch
 commands in the \_input method based on user keystrokes. However, Python
@@ -129,3 +129,4 @@ ipydbg](http://github.com/devhawk/ipydbg/tree/9dd12dadb79469ceac57b84b8adb1b0b53
 as been refactored to use @inputcmd instead of set of a cascading
 if/elif statement blocks. Now that that’s done, I can start working on
 multi-key commands.
+

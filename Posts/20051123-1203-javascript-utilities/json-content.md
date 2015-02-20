@@ -1,5 +1,5 @@
 Can you tell it’s a slow day in the office?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Speaking of raising the level of abstraction as well as browser based
 applications, check out Nikhil’s [JavaScript Utilities
@@ -44,3 +44,4 @@ preprocessor pass that converted the C++ into C, which could then be
 compiled with traditional C compilers.
 
 I wonder what JavaScript++ would look like
+

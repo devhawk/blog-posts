@@ -18,7 +18,7 @@ as the input and output parameter of the SoapService methods, the
 WsdlCreator has no way to know what schema to use for the corrisponding
 SOAP messages. So, it punts and represents a SoapEnvelope as sequence of
 xsd:any tags.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif) If you
+:frowning: If you
 use XML serializable types for parameters, then the WsdlCreator
 generates the associated schema in the WSDL. Only issue, I gave up on
 XML serialization [a while
@@ -27,3 +27,4 @@ ago](http://devhawk.net/PermaLink.aspx?guid=5643b052-f1f2-4c53-ac33-e33d0910f917
 I wish there was a way to adorn the SoapService methods with an
 attribute indicating the associated message schemas (with the ability
 to validate those messages automatically).
+

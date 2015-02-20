@@ -22,4 +22,5 @@ across the street from building 18 where my office is. Now I can go
 bother Jochen, [Keith](http://blogs.msdn.com/keith_short),
 [Jack](http://blogs.msdn.com/jackgr) and the rest of the team without
 having to track all the way across campus!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

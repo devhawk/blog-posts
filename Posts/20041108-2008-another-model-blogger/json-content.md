@@ -13,4 +13,5 @@ development artifacts.
 BTW, no problem on the [image
 “borrowing”](http://blogs.msdn.com/garethj/archive/2004/10/27/248745.aspx)
 Gareth.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

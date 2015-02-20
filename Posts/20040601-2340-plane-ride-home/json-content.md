@@ -7,4 +7,5 @@ it](http://www.amazon.com/exec/obidos/tg/detail/-/B00019PDNY/104-7563528-7076700
 “Bullsh\*t” but I don’t get the whole changing one letter thing. I mean,
 if you’re offended by the word “Bullshit”, are your really going to be
 placated by a fucking asterisk?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

@@ -9,4 +9,5 @@ crack](http://www.google.com/search?hl=en&ie=utf-8&oe=utf-8&q=activeup+crack)“
 DevHawk is the only site that comes up when google for “[activeup
 crack](http://www.google.com/search?hl=en&lr=&ie=UTF-8&oe=utf-8&q=activeup+crack&btnG=Google+Search)“.
 I’m not sure – is that a good thing?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

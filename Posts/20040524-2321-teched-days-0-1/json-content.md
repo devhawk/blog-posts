@@ -65,4 +65,5 @@ soon as we can. 
 After the day finished, I ran around getting some track-owner stuff done
 for tomorrow and then had a HUGE margarita with my team. Now, I need
 sleep very badly!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
+

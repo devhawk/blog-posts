@@ -7,7 +7,7 @@
 
 What’s funny is that it IS a semantic question, and that’s what makes it
 such a big deal.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Seriously, Rocky argues that web services should be thought of as
 applications, not components. I completely agree that a web service is
@@ -32,3 +32,4 @@ optimize reuse?
 In the end, services are fundamentally different animals than
 applications or components and I don’t think we as an industry have
 enough experience building systems with them yet.
+

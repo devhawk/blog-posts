@@ -25,7 +25,7 @@ nomination race will be worse” than the general election. If [Keith
 Olbermann](http://countdown.msnbc.com) or [Rachel
 Maddow](http://rachel.msnbc.com/) want to get in on this insightful
 political analysis, they know where to reach me.
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 I’ve been obsessed with three polling sites over the past few months:
 
@@ -77,3 +77,4 @@ Frankly, I’ll be happy to be wrong about the poll inaccuracy since that
 would give Obama the presidency.
 
 How do you think things are going to play out today?
+

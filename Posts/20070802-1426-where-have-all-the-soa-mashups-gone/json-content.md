@@ -8,7 +8,7 @@ are to integrate:
 > I didn’t mean to imply that building RESTful system would lead to
 > magical integration without any hard work. I can see how that came
 > across in my post, and I guess I got the reaction I asked for
-> ![;)](http://devhawk.net/wp-includes/images/smilies/icon_wink.gif)
+> :wink:
 
 I get the feeling that John would be a good guy to have a beer with.
 
@@ -58,7 +58,7 @@ Second, John asks an interesting question:
 > Where are the SOA mashups?
 
 That’s easy! They’re inside the firewall where you can’t see them!
-![;)](http://devhawk.net/wp-includes/images/smilies/icon_wink.gif)
+:wink:
 
 Seriously, I’m not sure about “SOA” mashups, but I’m working with what
 you might call a huge “enterprise” mashup system inside Microsoft. Our
@@ -77,3 +77,4 @@ looking at ways to “modernize” the system. Am I going to build RPC style
 services as part of this modernization? Hell, no.
 
 So John, am I right or wrong about that beer?
+

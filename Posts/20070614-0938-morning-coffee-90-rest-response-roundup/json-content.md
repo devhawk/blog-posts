@@ -38,7 +38,7 @@ RESTfulness, but they’re orthogonal. That is to say I think Nick’s wrong
 – I’m guessing we’ll go a few rounds on this when he gets back from
 [Nashville](http://blogs.msdn.com/nickmalik/archive/2007/06/12/showing-up-can-be-the-hardest-part.aspx)
 – or should I say, *if* he gets back?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Arnon Rotem-Gal-Oz [has been
 wondering](http://www.ddj.com/blog/architectblog/archives/2007/06/devhawk_harry_p.html)
@@ -68,3 +68,4 @@ assumes that you want to carry all of the state in the payload itself,
 and for a modern enterprise system, or, hell, even for a game, that’s
 not always a safe assumption.” Doesn’t address my questions about using
 REST without HTTP, but a very good point nonetheless.
+

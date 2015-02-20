@@ -25,7 +25,8 @@ MSN Direct and .NET aren’t even the worst cases of this:
     Pack](http://www.microsoft.com/ntserver/techresources/appserv/optionpack/ntopdg.asp).
     As if it was optional.
 -   Windows 2000? Is that the new version of Windows 98?
-    ![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif)
+    :frowning:
 -   MTS at least stood for something. What the heck does
     [COM+](http://www.microsoft.com/com/tech/COMPlus.asp) stand for?
+
 

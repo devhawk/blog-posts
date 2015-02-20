@@ -12,7 +12,7 @@ that are confirmed.
 This is a kinda last minute pickup. My boss was originally scheduled to
 do this. Or should I say, my ex-boss? (I’ve been here less than two
 months and already scared off my boss!
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif) I’m
+:smile: I’m
 doing two talks, but I only have the abstract for one of them.
 
 > **DEV315 – “IronPython” and Dynamic Languages on .NET\
@@ -64,3 +64,4 @@ I really enjoy p&p Summit because
 off the wall sessions like “Developer 2.0” and “Moving Beyond Industrial
 Software”. Frankly, I have NO idea what I’m going to do at this years’
 Summit, but I’m looking to stay outside the box like I have in the past.
+

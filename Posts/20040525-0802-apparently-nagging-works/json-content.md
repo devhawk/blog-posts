@@ -4,7 +4,7 @@ times, finally started [his own blog called Hal
 service, which I guess means there is no RSS feed. I can’t find a link
 to any syndication feed on the site. Of course, since it took him a week
 to email me the address, maybe he’s looking to duck my criticism?
-![:)](http://devhawk.net/wp-includes/images/smilies/icon_smile.gif)
+:smile:
 
 Seriously, my Dad has been a \*HUGE\* influence on my career (though he
 always thought I switched jobs too often – I say I was just looking for
@@ -43,3 +43,4 @@ modeling tools.
 
 I added a link to Hal 9000 in my navigation links section. At this rate,
 will I need a family blog roll?
+

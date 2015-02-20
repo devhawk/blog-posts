@@ -8,7 +8,7 @@ have Front Page. I hacked up a macro to throw up a dialog to grab the
 entry title & description, then insert that info + the currently
 selected text as the weblog entry content into the database. Of course,
 the true bummer is that I had to do it all with ADO.
-![:(](http://devhawk.net/wp-includes/images/smilies/icon_sad.gif) Talk
+:frowning: Talk
 about spoiled. ADO.NET does a much better job handling parameters. What
 I need is [Office
 11](http://www.microsoft.com/office/developer/preview/default.asp), with
@@ -16,3 +16,4 @@ the [Visual Studio Tools for
 Office](http://msdn.microsoft.com/library/en-us/dnofftalk/html/office01022003.asp)!
 Unfortunately, it appears that only Word and Excel are supported in
 VS.NET 2003, but I could use Word to blog instead of Front Page…
+
