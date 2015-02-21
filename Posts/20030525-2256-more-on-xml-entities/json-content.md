@@ -1,9 +1,9 @@
 [Dare](http://www.kuro5hin.org/user/Carnage4Life/diary)[commented](http://www.kuro5hin.org/story/2003/5/25/142610/725)
 on my recent post about [XML not being an object
-graph](PermaLink.aspx?guid=5643b052-f1f2-4c53-ac33-e33d0910f917). He
+graph](http://devhawk.net/2003/05/15/xml-is-not-just-a-deserialized-object-graph/). He
 rightly points out that objects can have associated business logic and
 XML can’t. I addressed an aspect of this in my [follow up
-post](PermaLink.aspx?guid=58fc378e-7811-41dc-b950-0ee2b9096006). I don’t
+post](http://devhawk.net/2003/05/21/xml-infoset-vs-object-graphs/). I don’t
 want behavior in my entity objects – I want to put that into stateless
 control objects. So the lack of business logic in XML is no big deal (to
 me).

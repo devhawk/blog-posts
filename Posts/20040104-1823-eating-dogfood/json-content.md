@@ -1,5 +1,5 @@
 I know [I
-blogged](http://devhawk.net/PermaLink.aspx?guid=8317cdbc-4e33-436c-8f61-47f07bfdee0c)
+blogged](http://devhawk.net/2003/12/22/focusing-on-the-now/)
 that I haven’t been dogfooding, but [Don’s
 post](http://www.gotdotnet.com/team/dbox/default.aspx?key=2004-01-01T11:26:43Z)
 about programming without generics hit home. For example, look thru the

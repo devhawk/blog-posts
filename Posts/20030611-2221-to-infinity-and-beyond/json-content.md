@@ -4,7 +4,7 @@ that was held in April in Pisa, Italy. The [presentation in
 question](http://www.di.unipi.it/rotor/slides/cardelli.pdf) is by Luca
 Cardelli on the subject of programming language innovation, a topic I’ve
 [blogged on
-before](PermaLink.aspx?guid=896fcfbd-dede-4c62-8f59-24aece862218). I
+before](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/). I
 want to take a look at the other speaker’s content, but a couple of
 things stand out from Luca’s talk.
 
@@ -26,7 +26,7 @@ things stand out from Luca’s talk.
     schedule based program flow.
 -   Luca points out that type systems for programming languages and for
     XML are still “deeply incompatible”. This jibes with my last [XML
-    entities](PermaLink.aspx?guid=7d4b2a20-5cf8-423a-b71e-3f2a305f4ba8)
+    entities](http://devhawk.net/2003/06/08/incoherence-at-11pm/)
     post. I don’t want different programming styles for internal and
     external entities. If I can get a programming language that makes it
     easier to code against XML, that makes exposing internal entities as

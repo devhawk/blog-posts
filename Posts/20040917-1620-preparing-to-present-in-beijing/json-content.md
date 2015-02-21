@@ -7,7 +7,7 @@ the attendee dinner last night and on to a party for local partners. I
 spoke to a few people, including a gentleman from [Digital
 China](http://digitalchina.com/) who reads my blog. It’s nice to be
 recognized at all, much less as an [International Man of
-Architecture](http://devhawk.net/PermaLink.aspx?guid=52945d4e-bc1a-496c-b3f3-195e5ca416f5).
+Architecture](http://devhawk.net/2004/06/15/international-man-of-architecture/).
 
 After dinner, I worked for an hour or so with the translator for my
 Metropolis session, Quanzhan. Quanzhan is from China, but he’s now a

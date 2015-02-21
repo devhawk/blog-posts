@@ -11,4 +11,4 @@ A couple of people jumped on Don after the talk to discuss transactions
 across services. This is a bad bad bad idea. For those @ PDC, come to
 the architecture symposium tomorrow in room 152/153. My job is to
 connect with the architect community so come get my [business
-card](PermaLink.aspx?guid=ed18a54c-d8dd-4a81-80be-e5e976de78ba).
+card](http://devhawk.net/2003/10/13/reading-writing-and-business-cards/).

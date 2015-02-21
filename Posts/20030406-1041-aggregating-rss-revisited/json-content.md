@@ -1,5 +1,5 @@
 I [posted
-yesterday](PermaLink.aspx?guid=38da8ea9-5ac2-4b38-ac2f-1572fad62eee)
+yesterday](http://devhawk.net/2003/04/05/aggregating-rss/)
 about wanting a filtered version of aggregate RSS feeds. I take it back!
 I want my RSS news aggregator client to be filter enabled, not the
 service providing the aggregate feed. What was I thinking? Since I’ve

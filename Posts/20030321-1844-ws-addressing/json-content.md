@@ -18,7 +18,7 @@
 > Envelope](http://www.gotdotnet.com/team/tewald/default.aspx?key=2003-03-21T03:23:54Z)]
 
 I’ve [expressed my
-frustration](PermaLink.aspx?guid=c2eeb3f8-ca88-4627-bea7-ec49e75f0a1f)
+frustration](http://devhawk.net/2003/01/20/wsdl-soapaction-issues/)
 with WSDL’s special treatment of HTTP with regard to the Action
 attribute before. If
 [WS-Addressing](http://msdn.microsoft.com/webservices/default.aspx?pull=/library/en-us/dnglobspec/html/ws-addressing.asp)

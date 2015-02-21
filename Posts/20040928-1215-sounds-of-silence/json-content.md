@@ -1,6 +1,6 @@
 I came back from the far east and got buried by email and meetings. Plus
 my [stupid HP
-laptop](http://devhawk.net/PermaLink.aspx?guid=1ac7e57e-8109-4dff-bffb-bde71a26382e)
+laptop](http://devhawk.net/2003/11/12/busted-laptop-screen-busted-relationship/)
 is still stupid – now the both the built in wireless and the PCMCIA card
 slot are not working correctly so I can’t get on wireless. Amazing how
 quickly the ability to get online from anywhere in my house has become

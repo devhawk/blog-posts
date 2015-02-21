@@ -38,7 +38,7 @@ Here are a few other random thoughts:
     Bloggers”? I met with
     [Kevin](http://www.microsoftregionaldirectors.com/Extranet/DirectorDetails.aspx?did=1141)
     and [Drew](http://drewby.net/) during PDC, for [obvious
-    reasons](PermaLink.aspx?guid=e16c7694-ead9-40da-a9ca-18af6359680c).
+    reasons](http://devhawk.net/2003/09/19/today-is-the-last-day-of-my-life-so-far/).
 -   I’m not sure I get why this [Longhorn Tweaking
     Guide](http://www.nextl3vel.net/Chris123NT/PDC_4051/LHGuide.html)
     advises uninstalling WinFS. The authors of the guide “wouldn’t trust
@@ -58,5 +58,5 @@ To those who attended, thanks again for making our Architecture
 Symposium a raging success. Please let us know how we can continue and
 improve this for future conferences. You can reach me via the info on my
 [virtual business
-card](PermaLink.aspx?guid=ed18a54c-d8dd-4a81-80be-e5e976de78ba) or you
+card](http://devhawk.net/2003/10/13/reading-writing-and-business-cards/) or you
 can reach me on IM @ <harry@devhawk.net>.

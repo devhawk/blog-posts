@@ -1,5 +1,5 @@
 After
-[blogging](PermaLink.aspx?guid=ebf1db2d-b3de-40f2-970b-770057cd2bdb)
+[blogging](http://devhawk.net/2003/09/13/what-are-you-listening-to/)
 that I use a Nomad IIc for digital music, [Sean
 Alexander](http://erablog.net/blogs/sean)[blogs](http://erablog.net/filters/18697.post)
 on [Notmad](http://www.redchairsoftware.com/notmad) by [Red Chair

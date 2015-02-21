@@ -1,7 +1,7 @@
 We’ve updated the Architecture Center [blog
 page](http://msdn.microsoft.com/architecture/community/blogs). We added
 [John Evdemon](http://blogs.msdn.com/jevdemon) (who I already
-[blogged](http://devhawk.net/PermaLink.aspx?guid=f389142b-8686-41d1-a100-67b364557d4b)),
+[blogged](http://devhawk.net/2004/06/10/new-blogger-from-the-team-formerly-known-as-neat/)),
 [Stuart Kent](http://blogs.msdn.com/stuart_kent/) and [Alan Cameron
 Wills](http://blogs.msdn.com/alan_cameron_wills). Stuart and Alan work
 on the Enterprise Frameworks and Tools team which is producing the

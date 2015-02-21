@@ -13,6 +13,6 @@ crown) by measuring the volume of the water it displaced.
 Actually, I don’t think it’s the bathing – it’s the disconnection. In my
 office I have a phone, two laptops connected to the Internet, four
 virtual PCs, [twelve
-books](PermaLink.aspx?guid=dd06efd1-cf51-4eed-927a-c82a01273b47), about
+books](http://devhawk.net/2004/02/02/my-work-bookshelf/), about
 a ream of various papers plus a pretty nice view of outside. In the
 shower, I have nothing but soap (not SOAP) and my thoughts.

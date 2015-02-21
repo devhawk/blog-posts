@@ -12,7 +12,7 @@ Bandit](http://www22.brinkster.com/rendelmann/db/200306archive002.asp#1054847834
 But it [took him a
 while](http://www.kuro5hin.org/story/2003/6/7/162431/3970) to make any
 sense of [my last
-post](PermaLink.aspx?guid=7c64a65b-ec8b-4339-b98a-25081625449a) in the
+post](http://devhawk.net/2003/05/25/more-on-xml-entities/) in the
 objects vs. entities discussion. Apparently, I’m not as lucid at 11pm as
 I thought. Given that it’s 11pm as I write this, here’s my single
 attempt to make a coherent point.

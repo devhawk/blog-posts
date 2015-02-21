@@ -1,6 +1,6 @@
 [Dare](http://www.kuro5hin.org/user/Carnage4Life/diary) rocks. Less than
 24 hours after [my
-request](PermaLink.aspx?guid=8073215f-73f8-48f9-8326-95b8c2fd1459) to
+request](http://devhawk.net/2003/05/16/authenticated-rss-feeds/) to
 support authenticated feeds, he’s [updated RSS
 Bandit](http://www.kuro5hin.org/story/2003/5/17/224221/042) to support
 default credentials. You can either download the [latest

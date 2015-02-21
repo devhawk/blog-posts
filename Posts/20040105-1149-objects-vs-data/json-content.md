@@ -10,7 +10,7 @@ to
 [both](http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=755443c2-19a6-4b45-8e18-879565e74759).
 Programming language evolution is something I’ve keenly interested in.
 When I first started this blog almost a year ago, [one of my early
-posts](http://devhawk.net/PermaLink.aspx?guid=896fcfbd-dede-4c62-8f59-24aece862218)
+posts](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/)
 was about a disruptive programming language technologies presentation
 from MS Research. Among the areas mentioned for improvement: were
 database integration and XML manipulation. Sounds like the Xen language

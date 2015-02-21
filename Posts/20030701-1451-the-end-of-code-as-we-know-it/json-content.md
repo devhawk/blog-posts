@@ -25,5 +25,5 @@ deleted.
 
 Places where code generators are useful are indicative of future
 [disruptive
-programming](PermaLink.aspx?guid=1e7d894f-0457-4a23-b85d-46aa48a8a2ce)[language
-innovations](PermaLink.aspx?guid=896fcfbd-dede-4c62-8f59-24aece862218).
+programming](http://devhawk.net/2003/06/11/to-infinity-and-beyond/)[language
+innovations](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/).

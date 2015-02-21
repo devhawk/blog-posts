@@ -1,4 +1,4 @@
-I [blogged](http://devhawk.net/PermaLink.aspx?guid=903afb72-e67e-4592-b631-0a9edb383bfe)
+I [blogged](http://devhawk.net/2004/03/09/learning-in-the-hell-of-content-repurposing/)
 yesterday about the issues I’m having with manually repurposing content.
 One of the specific issues has to do with the [Architecture Strategy
 Series](http://msdn.microsoft.com/architecture/overview/series/). We

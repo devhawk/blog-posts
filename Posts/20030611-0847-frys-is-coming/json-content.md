@@ -4,7 +4,7 @@ I’m not the
 but [Fry’s is coming to Renton in
 mid-July](http://seattletimes.nwsource.com/html/businesstechnology/134930115_frys07.html)
 (30 minutes from MSFT Campus). That’s Fry’s Electronics, not [Fry’s Food
-& Drug](PermaLink.aspx?guid=7a035f70-8234-45b0-9a10-37b51eb175cd).
+& Drug](http://devhawk.net/2003/06/03/driving-tour-of-phoenix/).
 :smile:
 Scoble called it the “most important news of the day”. Matt calls it
 “Heaven”. +1

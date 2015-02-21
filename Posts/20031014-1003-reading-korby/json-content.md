@@ -16,7 +16,7 @@ part of the “official” documentation?
 
 Korby also
 [blogged](http://blogs.gotdotnet.com/korbyp/PermaLink.aspx/14138b0e-b5a9-4366-98a0-e2a396633f0f)
-on my [entry](PermaLink.aspx?guid=a6428efe-595e-479a-a3df-3897d6679977)
+on my [entry](http://devhawk.net/2003/10/06/2-great-technologies-that-taste-great-together/)
 regarding MC++ vs. C\#. He did leave out the part that read: “If you’re
 wrapping an existing codebase with a C or C++ API…”. Looking back, I
 think I should have written “If you’re wrapping an existing codebase

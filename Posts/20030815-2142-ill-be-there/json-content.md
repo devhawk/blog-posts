@@ -1,7 +1,7 @@
 See you @ the PDC.
 
 I used to live in LA
-([thankfully](PermaLink.aspx?guid=87d7157e-20cc-4f40-84f4-32720a3d4a28),
+([thankfully](http://devhawk.net/2003/06/15/i-disagree-with-randy-newman/),
 that’s in my past) so I was hoping to catch an [LA
 Kings](http://lakings.com/) game while I was there (esp. since the
 Staples Center is right by the Convention Center). Too bad they play the

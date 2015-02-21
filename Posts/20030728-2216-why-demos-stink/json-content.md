@@ -6,7 +6,7 @@ getting around to checking it out. Specifically I was checking out the
 on programming with WSE 2.0. The “Rock, Paper, Scissors” demo app from
 the article reminded me of something I thought of last week.
 
-As I [blogged](PermaLink.aspx?guid=acb5c7d4-12a2-4e18-a0a5-fee8780c89f6)
+As I [blogged](http://devhawk.net/2003/07/16/where-ive-been/)
 two weeks ago, I went to a presentation on enterprise architecture by
 [John Zachman](http://www.zifa.com/). It was pretty good (though he
 could have cut his justification section – he was talking to a room full

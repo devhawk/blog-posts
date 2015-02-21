@@ -36,7 +36,7 @@ to the question on integration challenges:
 > differently and independently designed applications.
 
 This leads back to the [SOA vs. SOP
-question](http://devhawk.net/PermaLink.aspx?guid=d6be1655-f467-4718-9b80-ab1b311f2249).
+question](http://devhawk.net/2004/02/09/soa-vs-sop/).
 Being able to send a message is one challenge. It’s an entirely
 different challege to get a consistent idea of “customer” or “order”
 across your enterprise systems. Both challenges are important but
@@ -55,5 +55,5 @@ I also thought his best practice comments were facinating:
 > it should be: in the pragmatic business guy’s hands.
 
 This leans heavy to [towards
-Realist](http://devhawk.net/PermaLink.aspx?guid=1418b6c7-e148-4110-b6a2-a68af40b92b5),
+Realist](http://devhawk.net/2004/02/09/architect-behavior-patterns/),
 but that doesn’t make it any less true.

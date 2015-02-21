@@ -1,5 +1,5 @@
 Following up on my [XML is not a Deserialized Object
-Graph](PermaLink.aspx?guid=5643b052-f1f2-4c53-ac33-e33d0910f917) post, I
+Graph](http://devhawk.net/2003/05/15/xml-is-not-just-a-deserialized-object-graph/) post, I
 was thinking about entity classes from
 [RUP](http://www.rational.com/products/rup/index.jsp). The official
 definition (from the [RUP

@@ -1,5 +1,5 @@
 When I blogged TechEd, I
-[started](http://devhawk.net/PermaLink.aspx?guid=40a26f60-2238-405d-98fc-19898299f031)
+[started](http://devhawk.net/2004/05/24/teched-days-0-1/)
 on Day Zero, the day before TechEd officially opened. At TechEd, that
 day is used for preconfernce sessions as well as other meetings. At
 OOPSLA, there are two days of preconfernces – I arrived today but the

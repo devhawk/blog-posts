@@ -1,5 +1,5 @@
 If you were intrigued by my Software Factories [post last
-week](http://devhawk.net/PermaLink.aspx?guid=638cf495-f51e-437b-ac7b-26557d980f9b),
+week](http://devhawk.net/2004/06/10/software-factories-coming-soon/),
 you might want to consider attending [OOPSLA
 ’04](http://www.oopsla.org/2004/ShowPage.do?id=Home). It’s in Vancouver
 this year, making it an easy trip from Seattle for me. There’s going to

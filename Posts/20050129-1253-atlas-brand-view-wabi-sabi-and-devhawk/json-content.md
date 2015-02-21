@@ -19,7 +19,7 @@ bonus. Secondly, while I was acting as the marketing director (badly I
 might add) I was in total firefighting mode – no opportunity to do
 advance planning whatsoever. Now, I have the opportunity to focus on
 doing a great job on a few things well (like the [TechEd Architecture
-track](http://devhawk.net/PermaLink.aspx?guid=ceed2cfc-c011-4f39-aa2b-d98f3bfa9be6))
+track](http://devhawk.net/2005/01/27/teched-session-triage/))
 rather than doing just enough to keep a ton of things from completely
 falling apart. It’s taken a while to shift gears, but now I spend more
 time doing and less time running around like a chicken with my head cut

@@ -38,5 +38,5 @@ yourself.”
 This idea of building domain-specific modeling languages and tools feels
 pretty powerful to me. Besides the ones included in Whidbey (and the the
 previously discussed [service-oriented
-language](http://devhawk.net/PermaLink.aspx?guid=feb67165-4f08-4342-97f9-8ce830fa1575))
+language](http://devhawk.net/2004/02/16/service-oriented-language/))
 what other languages would you like to see / use / design?

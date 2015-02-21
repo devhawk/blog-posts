@@ -22,9 +22,9 @@ ex-teammate Tim Mallalieu. I’m hoping they’ll both respond in the
 comments since neither has their own blog…yet.)
 
 I’m a big fan of Ivar Jacobson’s book [Object Oriented Software
-Engineering](http://devhawk.net/PermaLink.aspx?guid=dd06efd1-cf51-4eed-927a-c82a01273b47)
+Engineering](http://devhawk.net/2004/02/02/my-work-bookshelf/)
 – it’s one of the few on my [office
-bookshelf](http://devhawk.net/PermaLink.aspx?guid=dd06efd1-cf51-4eed-927a-c82a01273b47).
+bookshelf](http://devhawk.net/2004/02/02/my-work-bookshelf/).
 However, like many OO methodologies, dealing with the relational
 database is mostly left as an exercise for the user. In a 500+ page
 book, Jacobson dedicates a scant 15 pages on the topic of persisting
@@ -95,5 +95,5 @@ auto-magically.  However, since I believe in [Platt’s Second
 Law](http://blogs.msdn.com/michael_platt/archive/2004/03/04/83704.aspx),
 I’m not sure generating the design model is particularly feasible. I
 guess when I get my hands on the [Whidbey modeling
-engine](http://devhawk.net/PermaLink.aspx?guid=0183b1e0-6a94-4b1a-9599-f8c5552db953),
+engine](http://devhawk.net/2004/03/22/custom-modeling-languages/),
 I’ll get a chance to find out.

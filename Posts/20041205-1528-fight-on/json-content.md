@@ -1,5 +1,5 @@
 A year ago, I was [pointing
-out](http://devhawk.net/PermaLink.aspx?guid=e2d55e21-3063-40ba-a23d-b1ac4d569d8f)
+out](http://devhawk.net/2003/12/09/to-err-is-human/)
 how badly messed up the BCS computer system was, denying the unanimous
 \#1 ranked team in the land a shot at the national championship game.
 This year, USC has gone wire to wire ranked \#1 and will face the \#2

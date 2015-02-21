@@ -5,7 +5,7 @@ Mind](http://www.eternalsunshine.com/) – loved it). On the way there, we
 got worried we weren’t going to make it in time. I figured I’d check if
 there was any other movies starting a little later in case we didn’t get
 there in time. Of course, I have [my new
-Smartphone](http://devhawk.net/PermaLink.aspx?guid=75f886b0-06db-4cf1-9534-604a518841f8),
+Smartphone](http://devhawk.net/2004/04/22/new-toy/),
 so I wanted to use it. This turned out to be much more difficult than it
 should have been.
 

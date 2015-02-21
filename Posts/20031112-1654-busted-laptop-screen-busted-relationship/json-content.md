@@ -1,5 +1,5 @@
 My [hardware
-issues](PermaLink.aspx?guid=8f0c5c9e-07d1-472f-8348-ce1995200fe6) remain
+issues](http://devhawk.net/2003/11/11/im-having-hardware-issues/) remain
 unresolved. Apparently, HP has decided that my two month old laptop with
 the cracked display is *not* covered under warranty. Of course, since I
 have a wide variety of accessories compatible with this machine, I’m

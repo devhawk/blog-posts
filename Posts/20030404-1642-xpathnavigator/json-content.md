@@ -1,5 +1,5 @@
 Suddenly the phrase “[XPath
-Enabled](PermaLink.aspx?guid=0020a6dd-da2c-4522-b345-455dec3d2191)” took
+Enabled](http://devhawk.net/2003/04/03/travel-soa-and-blogs/)” took
 on a [whole new
 meaning](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnexxml/html/xml03172003.asp).
 This is a very cool – and very infoset centric. I like it. Just as I

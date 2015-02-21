@@ -7,7 +7,7 @@ for it. I had been thinking about wiring the house and/or buying a Media
 Center PC. However, Media Center doesn’t support HD inputs (AFAIK)
 and HD PVR via
 [cable](http://www.pvrblog.com/pvr/2003/12/comcast_set_to_.html) or
-[satellite](http://devhawk.net/PermaLink.aspx?guid=aac52374-cf24-472b-a196-dda01d77f1b0)
+[satellite](http://devhawk.net/2003/12/09/pvr-hdtv/)
 should be here shortly. So I decided to skip the wiring job and go
 straight to playtime.
 

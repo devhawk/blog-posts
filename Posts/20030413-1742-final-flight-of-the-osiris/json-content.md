@@ -1,7 +1,7 @@
 Just got back from seeing
 [Dreamcatcher](http://dreamcatchermovie.warnerbros.com/). Didn’t get to
 see it when it first came out for [obvious
-reasons](PermaLink.aspx?guid=16e48c40-21ed-480f-a51f-70f88755901f). My
+reasons](http://devhawk.net/2003/02/23/welcome-patrick/). My
 wife Julie read the book and enjoyed it – which is surprising since she
 doesn’t typically like [Stephen King](http://www.stephenking.com) books.
 I liked it – looking forward to going back and reading the book myself.

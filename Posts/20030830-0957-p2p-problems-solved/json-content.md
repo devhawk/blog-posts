@@ -7,7 +7,7 @@ any services. Turns out it installs four, including the “Peer Name
 Resolution Protocol” service (i.e. pnrpsvc). What’s odd is that now that
 I’ve started it manually once, it seems to autostart on demand now. I
 can resolve addresses, as well as [ping the seed
-server](PermaLink.aspx?guid=5410b65a-7609-4e56-ac6f-c16ab6e19a24).
+server](http://devhawk.net/2003/08/11/more-on-p2p-problems/).
 GraphChat doesn’t work yet, but I think that’s because the IPv6 firewall
 only has two ports open by default – PNRP (UDP 3540) and Grouping (TCP
 3587). The GraphChat sample uses a dynamically chosen port, which would

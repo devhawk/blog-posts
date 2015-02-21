@@ -9,7 +9,7 @@ comment about only quoting the guy with something negative to say was
 wrong, and thus I retract it and apologize. There was also some
 confusion regarding my opinion of InfoPath as a front-end blogging tool.
 I was
-[commenting](PermaLink.aspx?guid=dfc79478-f78f-4c4c-b105-02efd3d5a058)
+[commenting](http://devhawk.net/2003/03/13/blogging-from-office-2003/)
 on InfoPath’s suitability (or lack thereof) as a general development
 tool, not as a weblog front end. I think that InfoPath would rock as a
 front-end blog tool – I’m just frustrated by the current lack of

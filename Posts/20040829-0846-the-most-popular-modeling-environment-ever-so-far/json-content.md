@@ -40,7 +40,7 @@ precision, and compromise generality” approach:
 When describing Software Factories, I have two analogies that I use to
 explain the idea. The first is the “houses in my neighborhood” example I
 [blogged
-before](http://devhawk.net/PermaLink.aspx?guid=010e1394-9b1f-4baf-b87c-b9ac7c0cff06).
+before](http://devhawk.net/2004/08/16/reading-is-fundamental-to-forming-an-educated-opinion/).
 That does a good job describing economies of scope, but doesn’t really
 cover the modeling aspect of software factories. Talking about how you
 model cars or skyscrapers doesn’t really capture the essence of software

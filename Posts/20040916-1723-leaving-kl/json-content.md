@@ -10,7 +10,7 @@ here’s a quick recap:
     other speakers at dinner. Several of the
     [RD’s](http://msdn.microsoft.com/netframework/community/rd/default.aspx)
     who spoke at TechEd US also came to our [Architect Road
-    Rally](http://devhawk.net/PermaLink.aspx?guid=40a26f60-2238-405d-98fc-19898299f031)
+    Rally](http://devhawk.net/2004/05/24/teched-days-0-1/)
     and had a great time. Always nice to be told you threw a great
     party.
 -   Thursday started  with Gurpreet’s session on Architecture Vision &

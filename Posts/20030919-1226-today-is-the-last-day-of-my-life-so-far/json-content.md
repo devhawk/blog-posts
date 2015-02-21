@@ -34,7 +34,7 @@ expand the reach and membership of these efforts as well as improve the
 two-way communication channel between MSFT and the architect community.
 There is a lot of work to be done around architecture. When I heard
 [John Zachman
-speak](PermaLink.aspx?guid=acb5c7d4-12a2-4e18-a0a5-fee8780c89f6), he
+speak](http://devhawk.net/2003/07/16/where-ive-been/), he
 stressed that we are at the very beginning of the Information
 Revolution. If we look to history and see the widespread effects of the
 Industrial Revolution, we come away with a better understanding of just

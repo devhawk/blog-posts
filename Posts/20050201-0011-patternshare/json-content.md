@@ -21,7 +21,7 @@ hear he knows a bit about pattern repositories.
 Anyway, around this time last year I was having regular meetings with
 Larry and Ward to talk about this repository stuff. Then stuff got crazy
 on my end – primarily being the [acting marketing
-director](http://devhawk.net/PermaLink.aspx?guid=85b10eff-25d6-48fc-aec2-91908449d170) for
+director](http://devhawk.net/2005/01/29/atlas-brand-view-wabi-sabi-and-devhawk/) for
 my team as well as the ARC track owner for last years TechEd. The
 regular meetings became more irregular and then stopped altogether. That
 is to say, my involvement stopped – Ward, Larry et.al. kept forging

@@ -1,6 +1,6 @@
 While this is my “personal” blog, I do typically keep the topic on
 computers in general and CLR in particular (with a
-[few](PermaLink.aspx?guid=a47eedf1-2ffe-4d78-bcbb-92cf8e197204)[notable](PermaLink.aspx?guid=49fe3bcd-701a-4c5a-9b9e-f4543aea0b4b)[exceptions](PermaLink.aspx?guid=e7dd8478-18bd-4442-ad78-4a5192bb5f57)).
+[few](http://devhawk.net/2003/01/25/l-a-funk/)[notable](http://devhawk.net/2003/02/01/response-to-space-shuttle-loss/)[exceptions](http://devhawk.net/2003/02/16/thoughts-on-iraq/)).
 So instead of posting a bunch of pictures here, I’ll just point to my
 [MSN
 Photos](http://photos.msn.com/viewing/album.aspx?m7A!X9U3q6bynoZEhFj0U9CnAD!ZxNyWvtpCrq0vrz6p4X*UcOo9sOL3V4XeypKBqdq6MoyzkJ88oaxvoFIJaqkpMS*H3S3CyWLCJAUkVfdfxhAR0kJAjg$$)

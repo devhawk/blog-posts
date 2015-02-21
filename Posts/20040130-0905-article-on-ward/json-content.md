@@ -10,5 +10,5 @@ mention he now works for PAG doing pattern work. I liked this quote:
 
 It’s also interesting to see that it took a month and a half for the
 news to go from
-[blogs](PermaLink.aspx?guid=6e7c2137-7b31-4494-bf37-a78f238b5512) to a
+[blogs](http://devhawk.net/2003/12/11/pattern-master-microsoft/) to a
 “mainstream” news source.

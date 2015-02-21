@@ -4,7 +4,7 @@ links](http://blogs.msdn.com/michael_platt/articles/94569.aspx) on his
 blog. I hadn’t realized [Ramesh
 Rajagopal](http://blogs.msdn.com/r.ramesh) was blogging. Ramesh works on
 the class designer I
-[blogged](http://devhawk.net/PermaLink.aspx?guid=266341a9-773f-44ce-b205-3f0b90812088)
+[blogged](http://devhawk.net/2004/03/30/analysis-vs-design-modeling/)
 about last week.
 
 Michael also has links to MSFT’s [Dynamic Systems

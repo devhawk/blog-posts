@@ -1,6 +1,6 @@
 My inbox is getting to be reasonable again. After two weeks on the road,
 it got up over 300 messages even though [I cleaned it out before I
-left](http://devhawk.net/PermaLink.aspx?guid=2b81fdd2-5613-4e1c-9cee-8a8c271db283).
+left](http://devhawk.net/2004/07/28/architecture-down-under/).
 Now, it’s back down to 45 messages. I already use rules to break out
 messages that come to various mailing lists, that come to our team
 alias, or ones that I’m cc’ed on. I’ve realized that everything that

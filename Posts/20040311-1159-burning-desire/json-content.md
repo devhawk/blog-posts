@@ -1,5 +1,5 @@
 After actually [building
-something](http://devhawk.net/PermaLink.aspx?guid=5c560426-b750-4eac-b618-e254c7b14298)
+something](http://devhawk.net/2004/03/10/build-slide-export/)
 for the first time in a while, I spent some time last night researching
 other stuff I want to write. One of the things I’m thinking about
 building is a WMA to Audio CD burning program. Of course,

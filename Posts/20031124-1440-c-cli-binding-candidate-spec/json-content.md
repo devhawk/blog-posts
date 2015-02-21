@@ -1,4 +1,4 @@
-I [blogged](PermaLink.aspx?guid=a6428efe-595e-479a-a3df-3897d6679977) on
+I [blogged](http://devhawk.net/2003/10/06/2-great-technologies-that-taste-great-together/) on
 the new ECMA working group for [standardizing the C++ binding for
 CLI](http://www.ecma-international.org/news/ecma-TG5-PR.htm) last month.
 Last week, [Herb

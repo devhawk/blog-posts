@@ -1,5 +1,5 @@
 I rewrote the script that [I blogged
-about](http://devhawk.net/PermaLink.aspx?guid=20ee0594-1157-4893-bb26-cfd95b26d58b)
+about](http://devhawk.net/2004/04/04/pat-mcgee-band-and-the-live-music-archive/)
 over the weekend to convert shorten files to WMA 9 lossless format.
 You’ve got to have the [shorten
 utility](http://etree.org/shnutils/shorten/) on the path and have

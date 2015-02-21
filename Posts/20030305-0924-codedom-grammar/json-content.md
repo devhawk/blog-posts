@@ -7,4 +7,4 @@ implementations for .NET. There’s also some interesting study of
 a formal description of the
 [grammar](http://www.mondrian-script.org/codedom/CodeDom%20Grammar.html).
 Just the thing for building [Disruptive Programming Language
-Technologies](PermaLink.aspx?guid=896fcfbd-dede-4c62-8f59-24aece862218).
+Technologies](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/).

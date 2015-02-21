@@ -57,7 +57,7 @@ architecture on building architecture, there’s this belief that you
 first design your architecture and then you build things to that
 architecture – i.e. like a building. For example, when I saw John
 Zachman [present his
-framework](http://devhawk.net/PermaLink.aspx?guid=acb5c7d4-12a2-4e18-a0a5-fee8780c89f6),
+framework](http://devhawk.net/2003/07/16/where-ive-been/),
 he was asked how one goes about implementing the framework. His response
 was something along the lines of: “Build all the layer one models, then
 build all the layer two models, etc. etc. etc. and then hit compile.”

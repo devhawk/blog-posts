@@ -24,7 +24,7 @@
 Very interesting. Initial thoughts:
 
 -   Miguel de Icaza does, in fact, rock. But I’ve [said that
-    before](PermaLink.aspx?guid=4eaea182-2caf-4f65-ada1-c9be7e8bb36b).
+    before](http://devhawk.net/2003/01/30/dinner-weblogs-code/).
 -   Apparently, C\# does have a cross platform story. C\# and CLI is an
     [open standard](http://msdn.microsoft.com/net/ecma/). Hopefully,
     Mono’s success will spur others into building production

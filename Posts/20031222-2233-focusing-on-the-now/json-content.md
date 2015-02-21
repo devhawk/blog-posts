@@ -2,13 +2,13 @@
 [pleading](http://www.cerkit.com/cerkitBlog/PermaLink.aspx?guid=9ededd3b-a7a3-401a-9a74-63e048c5e68e)
 with MS bloggers to focus on released bits instead of all the cool
 future stuff we previewed @ PDC. He is especially frustrated with [my
-response](http://devhawk.net/PermaLink.aspx?guid=1d8069de-f57b-429e-a749-c79d43633f75)
+response](http://devhawk.net/2003/12/16/reliable-syndication/)
 to [Scoble’s
 post](http://radio.weblogs.com/0001011/2003/12/15.html#a5767) about how
 syndication will look in the Longhorn timeframe. Mike, I can’t speak for
 Scoble or any of the other MS bloggers, but I’m sorry that it’s been
 hard to keep up. You’re a member of my [target
-audience](http://devhawk.net/PermaLink.aspx?guid=e16c7694-ead9-40da-a9ca-18af6359680c),
+audience](http://devhawk.net/2003/09/19/today-is-the-last-day-of-my-life-so-far/),
 so it’s good to know where we are missing the mark.
 
 In my post, I said that Scoble shouldn’t focus on how syndication
@@ -46,7 +46,7 @@ What’s weird is that I’m actually not dogfooding anything right now. Oh,
 I have a VPC with the PDC Longhorn bits and another with Yukon and
 Whidbey installed, but I haven’t spent much time with them recently. I
 guess I didn’t make it clear in my [recent
-post](http://devhawk.net/PermaLink.aspx?guid=974e04d8-30fe-44ba-9103-b8397a2c7b2e)
+post](http://devhawk.net/2003/12/09/delivering-messages-with-sql-service-broker/)
 on SQL Service Broker that I can’t wait for it because I’m not actually
 using it yet. The only beta software I’m running on my host machine is
 [Firebird](http://mozilla.org/products/firebird/) and

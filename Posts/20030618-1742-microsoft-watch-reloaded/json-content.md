@@ -1,8 +1,8 @@
 I’m quoted in [Microsoft
 Watch](http://www.microsoft-watch.com/article2/0,4248,1128705,00.asp),
-[again](PermaLink.aspx?guid=5dbc986e-628a-4071-9bc5-b02e51497a1b). This
+[again](http://devhawk.net/2003/03/17/quote-update/). This
 time it’s about my
-[disclaimer](PermaLink.aspx?guid=7f8bdbae-4eb2-43de-ba52-513b7b5d3f0d).
+[disclaimer](http://devhawk.net/2003/05/29/new-disclaimer/).
 
 I don’t quite get all the hullabaloo about a potential corporate
 blogging policy. I meet with customers every day and usually I am privy
@@ -13,11 +13,11 @@ policy for what I should and shouldn’t say to a customer. This blog is
 no different. I don’t talk about stuff I can’t talk about going on
 inside the big house. I do offer my opinion on topics that interest me
 such as web services, [programming language
-innovation](PermaLink.aspx?guid=1e7d894f-0457-4a23-b85d-46aa48a8a2ce)
+innovation](http://devhawk.net/2003/06/11/to-infinity-and-beyond/)
 and the use of [XML vs.
-Objects](PermaLink.aspx?guid=7d4b2a20-5cf8-423a-b71e-3f2a305f4ba8). Some
+Objects](http://devhawk.net/2003/06/08/incoherence-at-11pm/). Some
 topics, such as [my
-opinion](PermaLink.aspx?guid=3d584471-6872-4486-b680-6545cc477867) on
+opinion](http://devhawk.net/2003/06/11/sourcegear-takes-c-cross-platform/) on
 the recent deal between
 [SourceGear](http://www.sourcegear.com/index.asp) and the [Mono
 project](http://www.go-mono.com/), might be considered sensitive

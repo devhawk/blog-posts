@@ -13,7 +13,7 @@ built something that I had started building. Especially if, as in this
 case, theirs was better. Now, I’m just relieved that I can reuse the
 library without having to build all the surrounding infrastructure. I’m
 glad I never released my [managed P2P
-wrapper](http://devhawk.net/PermaLink.aspx?guid=bae4f625-5ef1-427c-b222-da96abd7aa6f),
+wrapper](http://devhawk.net/2003/12/18/p2p-revisited/),
 it would be one more thing for me to kill. Like my HtmlReader stuff. I
 *still* get people looking for it even though I killed it a while ago.
 (Hasn’t everyone figured out they should use [SGML

@@ -5,7 +5,7 @@
 </div>
 
 Almost exactly year ago, my life was changed forever by the
-[arrival](http://devhawk.net/PermaLink.aspx?guid=16e48c40-21ed-480f-a51f-70f88755901f)
+[arrival](http://devhawk.net/2003/02/23/welcome-patrick/)
 of my son Patrick. I tried to approach my imending fatherhood with an
 open mind, realizing that my life was going to change but not really
 sure exactly how. So far, I think I’m doing pretty well. Today, Patrick

@@ -1,7 +1,7 @@
 [Denny Figuerres](http://www.figuerres.com/) left the following
 [comment](http://weblogs.asp.net/devhawk/archive/2004/08/29/222328.aspx#222366)
 on my [last
-post](http://devhawk.net/PermaLink.aspx?guid=beb13ac1-f5a0-42e0-9670-f6843601d33e):
+post](http://devhawk.net/2004/08/29/the-most-popular-modeling-environment-ever-so-far/):
 
 > [O]ne of my “wish” items would be a kind of editor that would be a
 > merge of flow-chart and text editor so that I could view my function

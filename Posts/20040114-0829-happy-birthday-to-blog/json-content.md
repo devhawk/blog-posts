@@ -2,9 +2,9 @@ So it was [a year ago
 today](http://devhawk.net/default.aspx?date=2003-01-14) that I started
 this blog. It’s interesting to see how much has changed in that time.
 [My son was
-born](http://devhawk.net/PermaLink.aspx?guid=16e48c40-21ed-480f-a51f-70f88755901f),
+born](http://devhawk.net/2003/02/23/welcome-patrick/),
 I [switched
-jobs](http://devhawk.net/PermaLink.aspx?guid=e16c7694-ead9-40da-a9ca-18af6359680c),
+jobs](http://devhawk.net/2003/09/19/today-is-the-last-day-of-my-life-so-far/),
 I got an article [published in
 MSDN](http://msdn.microsoft.com/msdnmag/issues/03/03/siteskinning/default.aspx)
 and even [my wife is blogging](http://techiewife.com/) now. And I’m even

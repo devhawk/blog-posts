@@ -12,7 +12,7 @@ the [Rose Bowl](http://sports.espn.go.com/ncf/bowls03/bowl?game=rose)
 and for winning at least a share of the national championship. Now, my
 Sunday night is clear since I don’t need to watch the Nokia “Battle for
 Second Place” bowl (which I
-[blogged](http://devhawk.net/PermaLink.aspx?guid=e2d55e21-3063-40ba-a23d-b1ac4d569d8f)
+[blogged](http://devhawk.net/2003/12/09/to-err-is-human/)
 a month ago). 
 
 UPDATE: I added a link to a picture my son all decked out in his Trojan

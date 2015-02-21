@@ -22,7 +22,7 @@ xsd:any tags.
 use XML serializable types for parameters, then the WsdlCreator
 generates the associated schema in the WSDL. Only issue, I gave up on
 XML serialization [a while
-ago](http://devhawk.net/PermaLink.aspx?guid=5643b052-f1f2-4c53-ac33-e33d0910f917).
+ago](http://devhawk.net/2003/05/15/xml-is-not-just-a-deserialized-object-graph/).
 
 I wish there was a way to adorn the SoapService methods with an
 attribute indicating the associated message schemas (with the ability

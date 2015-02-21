@@ -9,7 +9,7 @@ to
 with [Chris](http://objective.mine.nu/index.aspx). Me too. Wow, the
 threaded view is awesome. And it has filtering too, but not quite what I
 was [looking
-for](PermaLink.aspx?guid=583c586a-c0b3-47e5-ad9c-d2ee74d948c9). Like
+for](http://devhawk.net/2003/04/06/aggregating-rss-revisited/). Like
 [Brad](http://dotnetguy.techieswithcats.com/archives/002865.shtml), I’d
 throw money at SharpReader. Looks like I’ll need to add support for the
 [image RSS

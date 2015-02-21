@@ -1,5 +1,5 @@
 I’ve had my Nomad Zen for [just over a
-month](http://devhawk.net/PermaLink.aspx?guid=cf03b637-f3fb-41eb-8e6f-bd4feb78295d)
+month](http://devhawk.net/2004/06/27/new-toy-2/)
 now. I’ve loaded almost 6500 tracks from 525 albums and it’s only about
 half full. However, I did have a slight issue with it. Walking across
 campus the other day, I tripped over my own damn feet. Luckily, the

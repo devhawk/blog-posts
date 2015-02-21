@@ -17,7 +17,7 @@ SDK](http://www.microsoft.com/downloads/details.aspx?familyid=A949A3DE-990C-468C
 which “contains all the software required to configure the IPv6 Internet
 Connection Firewall”. I assume that means that I can open relevant ports
 to enable P2P communication. As I [wrote
-yesterday](PermaLink.aspx?guid=9583d859-dee0-408c-b889-124d97a8ffb9),
+yesterday](http://devhawk.net/2003/08/30/p2p-problems-solved/),
 the issue I’m having with GraphChat is likely related to the IPv6
 Firewall configuration. I’d like to include in my P2P managed library
 the ability to manage the IPv6 Firewall.

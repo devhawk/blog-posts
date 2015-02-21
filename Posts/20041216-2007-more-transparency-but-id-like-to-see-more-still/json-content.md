@@ -11,7 +11,7 @@ Integration APIs:
 I have no idea why these APIs have been released at this time, but
 providing more options/control/tools to developers is better than less –
 along the same lines of the [ASP.NET 1.1 Membership
-Prototype](http://devhawk.net/PermaLink.aspx?guid=5eef8774-814a-4f1f-b446-eaf5a039d1b0).
+Prototype](http://devhawk.net/2004/12/13/member-management-component-prototype/).
 
 My only issue is that not all the APIs are documented. For example,
 recently I was interested in being able to progammatically set Outlook’s

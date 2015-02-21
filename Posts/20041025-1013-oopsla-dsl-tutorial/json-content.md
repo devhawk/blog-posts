@@ -5,9 +5,9 @@ most of the content for this session before, but not brought together
 like this. Currently, he’s talking about mapping business capabilities
 to system requirements. I’ve started to see quite a bit of discussion of
 mapping business capabilities recently. Gurpreet [talked about
-it](http://devhawk.net/PermaLink.aspx?guid=7ab682e9-d93b-4b51-a0c9-b0eef792bd28)
+it](http://devhawk.net/2004/09/15/gurpreet-on-enterprise-architecture/)
 in his EA session n Malaysia. Jack Calhoun also [talked about
-it](http://devhawk.net/PermaLink.aspx?guid=6a4515b1-5ebc-4187-991d-7bcb118df5ef)
+it](http://devhawk.net/2004/10/13/saf-day-2/)
 at SAF. Memo to self – more transparency around business capability
 mapping.
 

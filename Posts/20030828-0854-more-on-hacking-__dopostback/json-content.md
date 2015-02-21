@@ -2,7 +2,7 @@ I got an email from [Phil Weber](http://www.philweber.com/net/) who had
 an [interesting
 solution](http://www.philweber.com/net/stories/2002/11/20/aTaleOfTabbedPages.htm)
 to the [\_\_doPostBack
-problem](PermaLink.aspx?guid=47d1ff39-9789-41bf-8c76-68bf1316aa33). He
+problem](http://devhawk.net/2003/08/26/hacking-__dopostback/). He
 used JavaScript’s [function pointer
 support](http://www.insidedhtml.com/tips/functions/ts18/page1.asp) to
 redirect \_\_doPostBack to a function of his own creation. In this

@@ -7,7 +7,7 @@ blog](http://erablog.net/blogs/sean), the more interested I get. I’m
 still working on my [Media Center
 Edition](http://www.microsoft.com/windowsxp/mediacenter/default.asp) PC.
 (a few weeks ago [I
-posted](PermaLink.aspx?guid=6afbbdd5-69a6-4f18-bd48-e59fbb7ab904) a link
+posted](http://devhawk.net/2003/04/19/media-center/) a link
 to an article on [programming the MCE
 remote](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwmt/html/remote_control.asp)).
 I just ordered [Programming Microsoft DirectShow for Digital Video and

@@ -77,7 +77,7 @@ I don’t know how much clearer Jack could have made his point, so I’m
 surprised that so many people missed it (or bothered to post their
 opinions of an article they clearly didn’t read). However, I’m not going
 to lose any sleep over it. I [blogged a while
-ago](http://devhawk.net/PermaLink.aspx?guid=7055d3d1-950f-477e-86fe-aa5f9ab9c7c8)
+ago](http://devhawk.net/2004/05/10/unlikely-source-on-architecture/)
 about the the Oakland A’s exploiting the inefficiencies of baseball.
 Jack’s talking about exploiting the inefficiencies of software
 development. At some point, someone will be successful adopting a

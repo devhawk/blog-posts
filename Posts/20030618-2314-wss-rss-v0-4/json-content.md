@@ -2,7 +2,7 @@ It’s taken long enough, but I’m finally getting [WSS RSS
 v0.4](prj_sharepointsynd.aspx) out the door. Primary new feature is
 support for customizing the RSS feed on a list type basis. I had made a
 [slight unreleased
-change](PermaLink.aspx?guid=cdecfa58-31d6-4da5-bb22-3d0246b25747) to
+change](http://devhawk.net/2003/05/19/small-wss-rss-update/) to
 expose pubDate as well as dc:date. Now, that stuff is all in the
 wssrss.config file so it’s easy to add support for whatever item
 elements you want. There is also support for expiring items in the feed

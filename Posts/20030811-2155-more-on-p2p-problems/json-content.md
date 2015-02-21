@@ -12,4 +12,4 @@ number is one or greater, all is good. In my case, that command raises
 Error 0x800706d9: “There are no more endpoints available from the
 endpoint mapper”. I’m not sure what that means, but I’m guessing that
 explains why I can’t [resolve PNRP
-names](PermaLink.aspx?guid=ce69b89e-2f35-48e0-912a-d7ba3919dc43).
+names](http://devhawk.net/2003/08/08/problems-with-p2p-sdk/).

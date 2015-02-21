@@ -1,5 +1,5 @@
 In trolling for [HW
-suggestions](http://devhawk.net/PermaLink.aspx?guid=abbb7541-ee98-4c73-a8c2-fb4da91c4948),
+suggestions](http://devhawk.net/2004/11/08/hw-recommendations/),
 I forgot to mention what I’m planning on using the HW for. I’ve got a
 couple of things in mind:
 
@@ -16,7 +16,7 @@ couple of things in mind:
     going to expose photos and/or video, I might as well take advantage
     of the new stuff to do it with. I’m also thinking about writing some
     apps for keeping track of my [family
-    tree](http://devhawk.net/PermaLink.aspx?guid=e34c9e58-db72-4b98-828d-becb653feda4)
+    tree](http://devhawk.net/2004/06/29/evolutionary-computation-and-dinner/)
     along with my [dad](http://halpierson.blogspot.com/) and cousin.
 -   Movie making / 3D Rendering. I was working on my garage over the
     weekend and I came across my old copy of [3D Studio

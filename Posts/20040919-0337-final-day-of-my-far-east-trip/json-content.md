@@ -9,7 +9,7 @@ afternoon had more people than my Metropolis session and today’s session
 had more people still.
 
 After the session, I spent some time answering questions. [After
-Metropolis](http://devhawk.net/PermaLink.aspx?guid=31accdb2-2491-47f2-8d8d-37c343ee9cc8),
+Metropolis](http://devhawk.net/2004/09/18/metropolis-in-beijing/),
 there was one guy from China Mobile. This time, he was joined by two
 dozen other attendees. And again, Mr. China Mobile had some great
 questions that really made me think. He pointed out that often

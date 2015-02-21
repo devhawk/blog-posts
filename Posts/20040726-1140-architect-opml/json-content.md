@@ -9,5 +9,5 @@ rocks, I wonder what it would take to get that kind of integration on an
 arbitrary web site? Or, alternatively, how to run your blog on
 SharePoint? I screwed around with SharePoint as a “personal content
 management system” a while back, but the [difficulty in customizing
-it](http://devhawk.net/PermaLink.aspx?guid=154024b0-11d1-42a3-b79f-0baa68f2e57e)
+it](http://devhawk.net/2003/09/10/tool-vs-product/)
 (as well as a lack of time on my part) doomed that.

@@ -1,5 +1,5 @@
 A couple of weeks ago, Paul Murphy pointed me at a [SSB Wrapper
-Class](http://devhawk.net/PermaLink.aspx?guid=d4d897c9-a23a-4110-9e94-0e698dd07bae)
+Class](http://devhawk.net/2004/12/10/ssb-wrapper-class/)
 that’s included in one of the SQL 2005 Beta 2 sample apps. That prompted
 an email from the SSB dev lead with a much better SSB library that they
 had written. You can get that

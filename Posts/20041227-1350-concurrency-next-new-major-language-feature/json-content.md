@@ -2,7 +2,7 @@ Several people have pointed out Herb Sutter’s great article on
 concurrency entitled [The Free Lunch Is
 Over](http://www.gotw.ca/publications/concurrency-ddj.htm). When I
 blogged last week about new possible features of [“full-grown” OO
-languages](http://devhawk.net/PermaLink.aspx?guid=283ef85e-e61c-46f0-b0a2-87ec14c8bc06)
+languages](http://devhawk.net/2004/12/21/new-features-for-full-grown-oo-languages/)
 I mentioned dynamic typing but I didn’t think about concurrency. I think
 Herb is right: “programming languages…will increasingly be forced to
 deal well with concurrency” as applications get more CPU bound. Maybe I

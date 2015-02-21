@@ -2,7 +2,7 @@ Last week, Microsoft
 [announced](http://www.microsoft.com/presspass/press/2004/nov04/11-05MovieListingsPR.asp)
 the new [Movies channel](http://www.msndirect.com/channel/Movies.htm)
 for [SPOT Watches](http://www.msndirect.com/default.htm). I
-[blogged](http://devhawk.net/PermaLink.aspx?guid=db80c369-3d4b-41f7-bae3-91cce37df11c)
+[blogged](http://devhawk.net/2004/05/10/movie-times-web-service/)
 a while ago about wanting movie times on my SmartPhone. On my watch is
 nearly as good, except that I don’t have said watch. I’ve been thinking
 about getting a SPOT watch, but I’m curious – why can’t I get [MSN

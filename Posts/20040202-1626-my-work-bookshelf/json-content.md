@@ -1,5 +1,5 @@
 When I first started [my new
-job](PermaLink.aspx?guid=e16c7694-ead9-40da-a9ca-18af6359680c), I
+job](http://devhawk.net/2003/09/19/today-is-the-last-day-of-my-life-so-far/), I
 decided to blog the books I brought in from home to populate my new
 office bookshelf. Well, 4 months in and I’ve only just brought in my
 second batch. Here’s what’s up there so far.

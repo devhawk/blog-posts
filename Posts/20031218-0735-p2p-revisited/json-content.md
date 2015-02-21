@@ -1,7 +1,7 @@
 So I want to start kicking the [P2P
 SDK](http://msdn.microsoft.com/library/en-us/dnanchor/html/anch_p2p.asp)
 around again. However, most of my work to date is on my [busted
-laptop](http://devhawk.net/PermaLink.aspx?guid=1ac7e57e-8109-4dff-bffb-bde71a26382e)
+laptop](http://devhawk.net/2003/11/12/busted-laptop-screen-busted-relationship/)
 that I am *still* waiting to get fixed. Rather than reinvent the wheel,
 I started looking at wrapping two other relevant SDKs: [IP
 Helper](http://msdn.microsoft.com/library/en-us/iphlp/iphlp/ip_helper_start_page.asp)

@@ -1,6 +1,6 @@
 Streaming producer presenations from TechEd US have been posted.
 However, the streaming presenation site has the same
-[lack-of-url-addressability](http://devhawk.net/PermaLink.aspx?guid=7933dc2b-d9ae-46d0-8827-f67e7a884b39)
+[lack-of-url-addressability](http://devhawk.net/2004/03/04/url-addressability/)
 issue that TechEd Breakout session list had. Is it so hard to just post
 a simple HTML file with a list of all the sessions in a track? \<sigh\>
 

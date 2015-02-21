@@ -40,7 +40,7 @@ extended discussion with crowded whiteboards. What I’ve realized
 recently is that John and I tend to approach a topic very differently.
 John is very pragmatic, so he tends to disagree with my more radical
 opinions (such as the [endangered middle
-tier](http://devhawk.net/PermaLink.aspx?guid=a44821ab-94c5-4970-b1c4-6c3c3c5c832a))
+tier](http://devhawk.net/2004/05/13/endangered-middle-tier-revisited/))
 which aren’t really feasible in the short term. I, on the other hand,
 start from a desired state and work backwards, trying to figure out what
 short term investments will lead to the long-term ideas. I used to think

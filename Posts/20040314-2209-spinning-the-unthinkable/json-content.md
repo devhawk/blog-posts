@@ -5,7 +5,7 @@ the official Washington Capitals
 [homepage](http://www.washingtoncaps.com/) where the owner attempts to
 explain without “spin” the moves that he has taken over the past month.
 It may not be obvious from my [original
-post](http://devhawk.net/PermaLink.aspx?guid=2af18ecb-e381-4f5c-bb51-f469920019a5)
+post](http://devhawk.net/2004/02/19/doing-the-unthinkable/)
 on the subject, but I agree with most of his deals. Jagr wasn’t worth
 the money, Lang and Nylander were recent free agents and I hear Gonchar
 wanted to leave. Most of all, they just weren’t getting it done. I agree

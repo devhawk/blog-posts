@@ -1,5 +1,5 @@
 > [Harry Pierson
-> writes:](PermaLink.aspx?guid=655cfbc2-9cb0-4807-b9d2-4a8677000a0c "DevHawk - Passion * Technology * Ruthless Competence")
+> writes:](http://devhawk.net/2003/04/06/sharpreader-second-impression/)
 >
 > > I see Luke has resurfaced after going dark for 24 hours straight. I
 > > wonder if he was handling feature requests?
@@ -28,7 +28,7 @@ SharpDevelop generated. Everyone I read seems to have an entry about it
 – I would imagine that’s pretty overwhelming.
 
 I’m wrote that I was [willing to
-pay](PermaLink.aspx?guid=0c9d44d4-1be7-42a9-a328-f38a0fe9fc47) for
+pay](http://devhawk.net/2003/04/06/jumping-on-the-sharpreader-bandwagon/) for
 SharpReader, but I still wouldn’t want you or anyone to sacrifice
 family, job, sanity, etc. I only have one kid, but he’s only 7 weeks
 old. And my full-time job takes me away from home for days at a time.

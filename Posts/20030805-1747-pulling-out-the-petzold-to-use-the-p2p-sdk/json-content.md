@@ -1,6 +1,6 @@
 [Lots of people](http://www.feedster.com/search.php?q=p2p+SDK+XP)
 ([including
-me](PermaLink.aspx?guid=00652775-9070-4428-976e-fa6ff34e88f4)) have
+me](http://devhawk.net/2003/07/29/p2p-advanced-network-pack-for-winxp/)) have
 pointed out that the WinXP Advanced Networking Pack and P2P SDK [have
 been released](http://msdn.microsoft.com/downloads/list/winxppeer.asp).
 But I haven’t seen any code besides the samples. And if you look through

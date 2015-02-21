@@ -1,5 +1,5 @@
 Inspired by my post on the [types of
-architects](http://devhawk.net/PermaLink.aspx?guid=e583e2ef-b99b-4500-8061-b01e550a15a6),
+architects](http://devhawk.net/2004/01/22/type-of-architects/),
 Michael has
 [blogged](http://www.cerkit.com/cerkitBlog/PermaLink.aspx?guid=e0b5eb55-efb5-4748-9cb1-0ff8f3170fc2)
 on architect behavior: the Purist vs. the Realist. I leaned heavily to

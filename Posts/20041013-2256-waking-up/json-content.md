@@ -3,9 +3,9 @@ that this is a “technical blog”. For the record, this isn’t a technical
 blog, it’s my personal blog and I blog about what I’m interested in.
 Usually, it’s technology, development and/or architecture. Sometimes
 it’s
-[hockey](http://devhawk.net/PermaLink.aspx?guid=82882e47-cc0a-4b26-b795-779aa6c19265).
+[hockey](http://devhawk.net/2004/09/10/long-cold-winter-without-hockey/).
 Sometimes it’s
-[movies](http://devhawk.net/PermaLink.aspx?guid=15467117-2c73-4933-a99a-751294d708f9).
+[movies](http://devhawk.net/2004/06/08/thoughts-on-prisoner-of-azkaban/).
 Right now, I’m abnormally interested in politics – go figure. I’m a week
 behind on tech blog reading, but I’m currently reading over a dozen
 political blogs every day.

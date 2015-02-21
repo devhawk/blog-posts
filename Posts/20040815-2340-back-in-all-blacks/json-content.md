@@ -25,7 +25,7 @@ Seattle. DC is filled with old buildings, but there are no skyscrapers.
 No building in DC is allowed to be taller than the Washington Monument.
 Seattle is relatively young, and there was a big fire in 1889 that
 destroyed a great deal of the city. Los Angeles is…well…I’ve [blogged my
-opinion](http://devhawk.net/PermaLink.aspx?guid=87d7157e-20cc-4f40-84f4-32720a3d4a28)
+opinion](http://devhawk.net/2003/06/15/i-disagree-with-randy-newman/)
 of Los Angeles before. LA is like a movie set – it only looks good on
 TV. Drive around LA and you’ll find miles and miles of mini malls, but
 no history.

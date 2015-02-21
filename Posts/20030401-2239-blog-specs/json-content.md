@@ -1,7 +1,7 @@
 Between work and
 [Patrick](http://groups.msn.com/harrypiersonphotos/patrickharoldpierson.msnw),
 I haven’t had much time to blog. Plus, I’ve been [rethinking the backend
-of this blog](PermaLink.aspx?guid=90e2b600-f054-4923-965c-b6ac27d2da36).
+of this blog](http://devhawk.net/2003/03/26/varchar/).
 Thus, the more I blog now, the more I’ll have to migrate later. \<sigh\>
 
 I want to upgrade by backend so I can more easily keep up with

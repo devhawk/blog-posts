@@ -12,7 +12,7 @@ listened to in a while.
 Party](http://www.uninvited.com/TeenAgeDanceParty.html)
 
 > While I’m [on
-> record](PermaLink.aspx?guid=87d7157e-20cc-4f40-84f4-32720a3d4a28) as
+> record](http://devhawk.net/2003/06/15/i-disagree-with-randy-newman/) as
 > hating LA now, it was a great place to be twenty and single. I made
 > friends with a bunch of bands that had great music, but never really
 > made it big. This is one of those bands. They’re broken up now (and

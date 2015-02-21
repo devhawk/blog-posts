@@ -7,7 +7,7 @@ all knew me.
 
 -   [Don Box](http://www.gotdotnet.com/team/dbox/), who made a big deal
     of [remembering my
-    name](PermaLink.aspx?guid=ace738c4-9a79-41a5-9b59-520a76b31e39).
+    name](http://devhawk.net/2003/06/04/don-on-xml-apis/).
 -   [Chris Sells](http://www.sellsbrothers.com/spout/), who knew me from
     my [Messenger.NET](prj_messenger.aspx) stuff I built on his
     [imcli](http://www.sellsbrothers.com/tools/#imcli) classes.

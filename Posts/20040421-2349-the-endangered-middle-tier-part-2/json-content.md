@@ -1,5 +1,5 @@
 Among the responses to my [endangered middle-tier
-post](http://devhawk.net/PermaLink.aspx?guid=950774a9-b33b-4a46-bb2b-a481cf946251)
+post](http://devhawk.net/2004/04/12/is-the-middle-tier-endangered/)
 was [this
 one](http://weblogs.asp.net/draper/archive/2004/04/14/112851.aspx) by Ed
 Draper, architect evangelist for MSFT. While Ed makes some interesting

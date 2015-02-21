@@ -42,7 +42,7 @@ A few short takes before I go:
     Not much up there yet, but I subscribed. Given my interest in
     software factories and domain-specific languages, I guess this isn’t
     a surprise. But my interest in language design goes [way
-    back](http://devhawk.net/PermaLink.aspx?guid=896fcfbd-dede-4c62-8f59-24aece862218)
+    back](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/)
     to the early days of my blog. BTW, [Compiling for the .NET
     CLR](http://www.amazon.com/exec/obidos/ASIN/0130622966/netlanguag-20)
     is a great book.

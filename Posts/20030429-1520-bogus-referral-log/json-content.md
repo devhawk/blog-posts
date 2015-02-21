@@ -13,7 +13,7 @@ Anyone else blindly storing and echoing referrals should keep an eye on
 their log.
 
 I asked a while ago about [canonical weblog
-names](PermaLink.aspx?guid=689efa3b-7f98-452c-840a-02ad2f461d41). At the
+names](http://devhawk.net/2003/01/20/tracking-referrers/). At the
 time, I wanted unify the entries in my referral log that pointed back to
 the same weblog. Now, I want to also eliminate bogus entries as well. Is
 [pingback](http://www.hixie.ch/specs/pingback/pingback)/[trackback](http://www.movabletype.org/trackback/)

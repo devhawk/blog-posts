@@ -1,7 +1,7 @@
 I took my wife to see [Matrix
 Revolutions](http://whatisthematrix.warnerbros.com/rv_img/rv_poster_neo.jpg),
 even though I [saw it
-Monday](PermaLink.aspx?guid=042a62d3-59cc-4d5f-a4b0-4978d8ac66a8). Still
+Monday](http://devhawk.net/2003/11/19/matrix-revolutions/). Still
 liked it, though the second viewing really helped me figure out what I
 didn’t like about Reloaded and Revolutions. I can sum it up in two
 words: The Merovingian. He represents everything thematically that was

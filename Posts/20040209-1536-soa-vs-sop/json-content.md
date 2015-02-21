@@ -9,7 +9,7 @@ are talking about different things. I would say Don is talking about
 Service Oriented Programming where Goran is talking about Service
 Oriented Architecture. This gets back to the levels of architecture that
 I [blogged
-about](http://devhawk.net/PermaLink.aspx?guid=e583e2ef-b99b-4500-8061-b01e550a15a6).
+about](http://devhawk.net/2004/01/22/type-of-architects/).
 Platform tools like Indigo are components used in systems. I’m guessing
 the customer’s Goran mentioned are at the system-of-system level for
 whom the messaging plumbing is below the abstraction level they care

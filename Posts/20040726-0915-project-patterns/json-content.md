@@ -1,5 +1,5 @@
 Is it
-[obvious](http://devhawk.net/PermaLink.aspx?guid=a14e76e5-0269-4fbf-854f-ce2f1178fc51)
+[obvious](http://devhawk.net/2004/07/23/new-architect-bloggers/)
 that I’ve been rounding up bloggers on my extended team of architects
 and architect evangelists? Here’s another: Raj Wall
 [blogged](http://blogs.msdn.com/rajwall/archive/2004/07/23/193598.aspx) the

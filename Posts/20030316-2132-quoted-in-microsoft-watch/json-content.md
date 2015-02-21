@@ -5,7 +5,7 @@ posted the list. Apparently, there’s also a
 [newsletter](https://ziffdavis.omeda.com/zm/msw/msw.cgi?intro2&p=5BZWA00082),
 which had its latest issue come out on this past Friday. A friend sent
 me a copy indicating that “Dude, you’re famous”. They quoted my recent
-[blog entry](PermaLink.aspx?guid=dfc79478-f78f-4c4c-b105-02efd3d5a058)
+[blog entry](http://devhawk.net/2003/03/13/blogging-from-office-2003/)
 regarding InfoPath as a developer tool almost entirely. They mention
 [Chris](http://www.simplegeek.com/),
 [Dare](http://www.kuro5hin.org/user/Carnage4Life/diary) and

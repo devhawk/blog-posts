@@ -7,7 +7,7 @@ have earned enough karma to keep me around a while. And at the same
 time, Sprint has spurned a customer for life.
 
 I
-[blogged](http://devhawk.net/PermaLink.aspx?guid=75f886b0-06db-4cf1-9534-604a518841f8)
+[blogged](http://devhawk.net/2004/04/22/new-toy/)
 back in April about getting a SmartPhone. Well, the honeymoon was short
 lived – it was a developer beta unit and it was not particularly robust.
 I dropped it about a month ago and it died. No huge deal, the

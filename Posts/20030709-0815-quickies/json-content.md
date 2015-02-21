@@ -12,7 +12,7 @@ getting into the “one-teens”, so there’s no reason not to blog.
     members like we do for directories? Or maybe this isn’t a good idea
     – I’d probably have a very low rank.
 -   I’ve gotten some interest for [making
-    workspaces](PermaLink.aspx?guid=76e1d3ed-5624-43aa-bd8f-8de5bdcf7100)
+    workspaces](http://devhawk.net/2003/07/01/other-possible-gdn-workspaces/)
     for other projects of mine. I’ve been a little busy with work
     (fiscal year ended with June) and family to do this. I also have to
     check w/ Chris Sells since [Messenger.NET](prj_messenger.aspx) is
@@ -35,6 +35,6 @@ getting into the “one-teens”, so there’s no reason not to blog.
     good place to find other MSFT weblogs. Not glamorous, but it’s
     better than nothing I guess. Near the end, the article mentions that
     MSFT has a hands-off approach to employee blogs. I [still don’t
-    get](PermaLink.aspx?guid=576cf7cf-8645-49e1-a922-996b698446ec) why
+    get](http://devhawk.net/2003/06/18/microsoft-watch-reloaded/) why
     this is such a big deal.
 

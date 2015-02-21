@@ -8,7 +8,7 @@ Factories. The meeting is on the MS campus from 6:30-8:30 and you can
 get [all the
 details](http://www.iasarchitects.org/PFS/portal/media-type/html/user/anon/page/default.psml/js_peid/789nkj34-kjws789-nmkjhiu?meeting_id=18&mode=View)
 from the IASA site. As I [wrote
-yesterday](http://devhawk.net/PermaLink.aspx?guid=a2ca81d9-8049-44f4-9888-750609312eaa),
+yesterday](http://devhawk.net/2004/09/28/sounds-of-silence/),
 I’m interested to see the general response to software factories, so I’m
 going to be there.
 

@@ -1,5 +1,5 @@
 I’ve [blogged about
-cheese](http://devhawk.net/PermaLink.aspx?guid=e6de0496-b593-4657-acd8-d602523c3fc4)
+cheese](http://devhawk.net/2003/12/19/when-youre-really-into-cheese/)
 before, but it was in jest. However, the cheese here in Australia and
 New Zealand has been awesome. It’s like going to Tahiti and eating
 pineapple. When you come home to the same old stuff, it’s a real let

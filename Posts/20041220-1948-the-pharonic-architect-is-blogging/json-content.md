@@ -8,7 +8,7 @@ and a variety of MS folks including
 [Steve](http://blogs.msdn.com/stevecook/archive/2004/12/08/278507.aspx),
 [Alan](http://blogs.msdn.com/alan_cameron_wills/archive/2004/11/11/255831.aspx)
 and
-[myself](http://devhawk.net/PermaLink.aspx?guid=4ce7a305-e9a4-4fff-a3f4-095fcca52988).
+[myself](http://devhawk.net/2004/12/10/booch-on-dsls-round-3/).
 He does a good job summarizing the argument including pointing out where
 he and Booch agree:
 

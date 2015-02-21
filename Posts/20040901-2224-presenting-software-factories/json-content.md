@@ -18,7 +18,7 @@ approach](http://hyperthink.net/blog/PermaLink,guid,6a264d60-3652-4662-bfff-77bd
 (and gave him credit for it, of course. Steve, I will find a way to
 properly thank you for that brain.save) as well as my own ideas about
 [VB as a Software
-Factory](http://devhawk.net/PermaLink.aspx?guid=beb13ac1-f5a0-42e0-9670-f6843601d33e).
+Factory](http://devhawk.net/2004/08/29/the-most-popular-modeling-environment-ever-so-far/).
 Both worked out very well to help communicate the goals of the Factories
 approach, though I could refine the delivery quite a bit. I also talked
 about the [Evolving Frameworks Pattern

@@ -23,5 +23,5 @@ the
 [desktop](http://opennetcf.org/library/OpenNETCF.Desktop.Communication.CERegistry.html).
 Not sure what else I want to write yet other than an app to download
 movie times a la the new [SPOT watch movies
-channel](http://devhawk.net/PermaLink.aspx?guid=31b2429e-b516-4edb-8df2-83a244286c07),
+channel](http://devhawk.net/2004/11/08/movie-times-on-your-spot-watch/),
 but I’m sure I can think of something!

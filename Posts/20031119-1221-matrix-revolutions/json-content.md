@@ -1,7 +1,7 @@
 I finally got to see [The Matrix
 Revolutions](http://whatisthematrix.warnerbros.com/rv_img/revolutions_teaser.jpg).
 My whole division saw it on opening day, but since that was during
-[SAF](PermaLink.aspx?guid=9da64df6-9621-44ab-992b-b67547b383b9), our
+[SAF](http://devhawk.net/2003/11/04/saf-day-one/), our
 team couldn’t go. So we went en masse on Monday. I guess I’m in the
 minority, both in blogsphere and on the team, but I really enjoyed it. I
 also just finished playing [Enter The

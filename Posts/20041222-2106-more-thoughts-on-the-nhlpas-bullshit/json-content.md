@@ -5,7 +5,7 @@ claim](http://www.nhlpa.com/Content/Feature.asp?contentId=3400) that the
 NHL should have used either their ten year revenue average of 9.4% or
 five year average of 7.8% instead of the 3% number they used when
 determining the impact of the NHLPA’s last proposal. I [debunked
-that](http://devhawk.net/PermaLink.aspx?guid=48c696d5-2ff6-4ab3-910f-ea02aa18f491)
+that](http://devhawk.net/2004/12/16/but-if-you-plug-in-phony-bullshit-numbers-it-all-ok/)
 a few days ago, but I thought of another interesting angle -  if the
 players association really believed that revenue average, then I think
 they would be willing to accept a salary cap. Here’s why:

@@ -1,5 +1,5 @@
 I had a few [negative things to
-say](http://devhawk.net/PermaLink.aspx?guid=dfc79478-f78f-4c4c-b105-02efd3d5a058)
+say](http://devhawk.net/2003/03/13/blogging-from-office-2003/)
 about InfoPath a while back. Today, I finally used it to solve a “real”
 problem and I was extremely pleased with the result.
 
