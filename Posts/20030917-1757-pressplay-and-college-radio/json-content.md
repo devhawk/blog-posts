@@ -16,6 +16,6 @@ of course they are streaming over the Internet. Currently playing:
 Heroin](http://entertainment.msn.com/album/?song=1194111&album=117846)
 by [All](http://entertainment.msn.com/artist/?artist=112951). Never
 heard it before, but I like it. Current show on KSCR is *Yay For
-Punk*<span class="schedule-preview-details">with Naitze “DJ Naitze
+Punk* with Naitze “DJ Naitze
 Naitz” Teng & Kate Wilcox. Their on-air sound needs work and apparently
-the issues of DJ’s arriving on time still hasn’t been solved.</span>
+the issues of DJ’s arriving on time still hasn’t been solved.

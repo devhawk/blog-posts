@@ -31,7 +31,7 @@ Operations. Avoiding Ambiguity in Messages. Stability of Data and
 MetaData. Service Masters and Service Agents. Mike, when you get a
 chance, please check out those sessions from the PDC Architecture
 Symposium and then [let me
-know](mailto:hpierson%20at%20microsoft%20dot%20com) if they can help you
+know](mailto:hpierson@microsoft.com) if they can help you
 right now.
 
 It’s too bad the [chapter on

@@ -62,11 +62,7 @@ division so this is only my thoughts on yesterday’s announcements.
     I’ve got a creators club membership, so I’m able to experiment with
     this now – it rocks, though the available games are pretty shall I
     say “unpolished” at this point.
--   [Halo Wars](http://www.xbox.com/games/halowars/) not coming until
-    2009.
-    :frowning:
+-   [Halo Wars](http://www.xbox.com/games/halowars/) not coming until     2009. :frowning:
 -   No new Bungie news, but their
     [website](http://www.bungie.net/defaultsi.aspx) is counting down
     to \*something\* tomorrow. I guess we’ll find out then.
-
-

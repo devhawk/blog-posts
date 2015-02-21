@@ -25,10 +25,10 @@ drive four sets of speakers (one of the sets in the house is the back
 surround sound speakers, so they’re already taken care of) plus some
 type of UPnP AV client device. [Gainclone chip
 amplifiers](http://www.diyaudioprojects.com/Chip/chip.htm) look fairly
-[simple to build](http://) – three resistors, two capacitors and the
+simple to build – three resistors, two capacitors and the
 chip itself times eight + a power supply. As for the AV client, I
 haven’t really investigated yet, but whatever solution I go with has to
-have high [WAF](Wife%20acceptance%20factor).
+have high WAF (aka Wife Acceptance Factor).
 
 Of course, building a custom amplifier takes time, so I figured in the
 short run I’d dust off the old banished receiver and use it to drive two

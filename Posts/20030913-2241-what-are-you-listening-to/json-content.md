@@ -57,15 +57,15 @@ Shame](http://entertainment.msn.com/album/?album=653721)
 Enough](http://entertainment.msn.com/album/?album=592706)
 
 > Overshadowed by the release of [Van
-> Halen’s](http://entertainment.msn.com/artist/?artist=101396)<span
-> class="head2">[For Unlawful Carnal
+> Halen’s](http://entertainment.msn.com/artist/?artist=101396)
+> [For Unlawful Carnal
 > Knowledge](http://entertainment.msn.com/album/?album=103078) the same
 > year, this is a great, if underrated, album. With the exception of
 > Right Now, every song on Knowledge is entirely forgettable. But I dig
 > pretty much everything on A Little Ain’t Enough.. Need to check out
 > his latest: [Diamond
 > Dave](http://entertainment.msn.com/album/?album=689047). Favorite
-> Song: Hammerhead Shark.</span>
+> Song: Hammerhead Shark.
 
 [Linkin Park](http://www.linkinpark.com/) –
 [Meteora](http://entertainment.msn.com/album/?album=675215)

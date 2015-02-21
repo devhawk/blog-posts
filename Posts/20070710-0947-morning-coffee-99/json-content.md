@@ -32,6 +32,5 @@
     But since he started talking about [the
     DTC](http://msdn2.microsoft.com/en-us/library/ms684146.aspx), I
     suspect we’re talking past each other. Libor, [drop me a
-    line](mailto:harry%20dot%20pierson%20at%20microsoft%20dot%20com) and
+    line](mailto:harry.pierson@microsoft.com) and
     we can discuss further.
-

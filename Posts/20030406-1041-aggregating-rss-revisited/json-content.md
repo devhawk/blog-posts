@@ -8,9 +8,8 @@ Bandit](http://www.gotdotnet.com/Community/Workspaces/Workspace.aspx?id=cb8d3173
 (and just got accepted as a member of
 [Harvester](http://www.gotdotnet.com/community/workspaces/workspace.aspx?id=781a211f-bf3a-4d26-b5cc-6d32aaa93cd0))
 I’ll look into adding the feature myself. Also, [Sam
-Ruby](http://www.intertwingly.net/blog/1317.html) pointed out <span
-class="description">[Luke
-Hutteman’s](http://www.hutteman.com)</span>[SharpReader](http://www.hutteman.com/weblog/2003/04/06.html#000056)
+Ruby](http://www.intertwingly.net/blog/1317.html) pointed out [Luke
+Hutteman’s](http://www.hutteman.com) [SharpReader](http://www.hutteman.com/weblog/2003/04/06.html#000056)
 which looks like it allows you to view a post in context with other
 posts like a threaded conversation. Cool, I’ll have to check that out.
 

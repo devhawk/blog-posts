@@ -11,11 +11,7 @@ and HD PVR via
 should be here shortly. So I decided to skip the wiring job and go
 straight to playtime.
 
-<div style="FLOAT: right">
-
-![](http://devhawk.net/themes/devhawk/images/gamertag.gif)
-
-</div>
+![RayTracer](E:\dev\DevHawk\Original\Images\gamertag.gif)
 
 My gamertag is “RayTracer”. (Buy me a beer at the next MSFT conference
 and I’ll tell you why.) Many thanks to
