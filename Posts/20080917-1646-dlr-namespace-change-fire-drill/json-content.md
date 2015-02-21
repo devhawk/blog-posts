@@ -64,7 +64,7 @@ namespace](http://msdn.microsoft.com/en-us/library/system.runtime.compilerservic
 and C\# will happily compile extension methods without complaint.
 Furthermore, ExtensionAttribute is only used as a marker – there’s [no
 real code in
-it](code://System.Core:3.5.0.0/System.Runtime.CompilerServices.ExtensionAttribute)
+it](http://referencesource.microsoft.com/#mscorlib/system/runtime/compilerservices/extensionattribute.cs,dba09c2b000dafa2)
 – so implementing your own copy is trivial. In the DLR source, you’ll
 find they have defined their own copy of
 [ExtensionAttribute](http://www.codeplex.com/IronPython/SourceControl/FileView.aspx?itemId=478318&changeSetId=39144)

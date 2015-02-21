@@ -30,7 +30,7 @@ methods.
 
 The one problem with this approach is that the creation of a
 ServiceDescription is non-trivial. ServiceHost’s [implementation of
-CreateDescription](code://System.ServiceModel:3.0.0.0:b77a5c561934e089/System.ServiceModel.ServiceHost/CreateDescription(System.Collections.Generic.IDictionary<String,System.ServiceModel.Description.ContractDescription>&):System.ServiceModel.Description.ServiceDescription)
+CreateDescription](http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/ServiceHost.cs,1943)
 generates the ServiceDescription by reflecting over the service type.
 You still need that code, but now you would call it from the base
 constructor initializer instead. That means it has to be a static

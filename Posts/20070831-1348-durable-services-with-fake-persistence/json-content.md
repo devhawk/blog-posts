@@ -27,14 +27,14 @@ get an error (as expected). Services marked with the
 DurableServiceAttribute require a binding that supports the context
 protocol. WsHttpBinding, the default binding when you create a new
 service, doesn’t. However, it’s easy to fix by switching to
-[wsHttpContextBinding](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.WSHttpContextBinding)
+[wsHttpContextBinding](http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/WSHttpContextBinding.cs,a42bcbded9a8a4e9)
 instead. Via Reflector, we see that wsHttpContextBinding inherits from
 wsHttpBinding and [adds a ContextBindingElement to the binding element
-collection](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.WSHttpContextBinding/CreateBindingElements():System.ServiceModel.Channels.BindingElementCollection)
+collection](http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/WSHttpContextBinding.cs,0e68f000d4c87202)
 created by the base class.
-[BasicHttpContextBinding](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.BasicHttpContextBinding)
+[BasicHttpContextBinding](http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/BasicHttpContextBinding.cs,b69fd93ab77f85aa)
 and
-[netTcpContextBinding](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.NetTcpContextBinding)
+[netTcpContextBinding]http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/NetTcpContextBinding.cs,c087854154279a2f)
 work the same way.
 
 Even after changing to wsHttpContextBinding, we’re still getting an
@@ -43,7 +43,7 @@ Now, we’re told that services marked with DurableServiceAttribute need a
 persistence provider to be specified. If we look in the original
 sample’s web.config file, we find a persistenceProvider element in the
 service behavior. This element references the
-[SqlPersistenceProviderFactory](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.SqlPersistenceProviderFactory)
+[SqlPersistenceProviderFactory](http://referencesource.microsoft.com/#System.WorkflowServices/System/ServiceModel/Persistence/SqlPersistenceProviderFactory.cs,3f29f58c9fe37104)
 type. Obviously, the point here is to persist durable service instances
 to the database between calls, much as WF can do.
 
@@ -57,20 +57,20 @@ durable services.
 
 Building a WCF Persistence Provider requires building two classes: a
 factory and the provider itself. Factories inherit from
-[PersistenceProviderFactory](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.PersistenceProviderFactory),
+[PersistenceProviderFactory](http://referencesource.microsoft.com/#System.WorkflowServices/System/ServiceModel/Persistence/PersistenceProviderFactory.cs,b38efb64c1b5437a),
 which exposes only one
 non-[CommunicationObject](http://msdn2.microsoft.com/en-us/library/system.servicemodel.channels.communicationobject.aspx)
 method:
-[CreateProvider](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.PersistenceProviderFactory/CreateProvider(System.Guid):System.ServiceModel.Persistence.PersistenceProvider).
+[CreateProvider](http://referencesource.microsoft.com/#System.WorkflowServices/System/ServiceModel/Persistence/PersistenceProviderFactory.cs,ab461aa283e7a4d7).
 It appears that the service host creates a single persistence provider
 factory and calls CreateProvider whenever it needs a persistence
 provider. Providers themselves inherit from
-[PersistenceProvider](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.PersistenceProvider),
+[PersistenceProvider](http://referencesource.microsoft.com/#System.WorkflowServices/System/ServiceModel/Persistence/PersistenceProvider.cs,8496f7ccfc9160f3),
 which exposes methods to
-[Load](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.PersistenceProvider/Load(System.TimeSpan):Object),
-[Save](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.PersistenceProvider/Save(Object,System.TimeSpan):Object)
+[Load](http://referencesource.microsoft.com/System.WorkflowServices/System/ServiceModel/Persistence/PersistenceProvider.cs.html#34611453bc4cfe69),
+[Save](http://referencesource.microsoft.com/#System.WorkflowServices/System/ServiceModel/Persistence/PersistenceProvider.cs,df031aede3036ced)
 and
-[Delete](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.PersistenceProvider/Delete(Object,System.TimeSpan))
+[Delete](http://referencesource.microsoft.com/#System.WorkflowServices/System/ServiceModel/Persistence/PersistenceProvider.cs,1a6a98f80410b51d)
 durable service instances.
 
 My FakePersistenceProvider (and factory) are brain dead simple, though
@@ -87,7 +87,7 @@ SQL persistence provider uses under the hood.
 
 PersistenceProvider supports async versions of Load, Save and Delete but
 I didn’t implement them. Also, there’s a
-[LockingPersistenceProvider](code://System.WorkflowServices:3.5.0.0:31bf3856ad364e35/System.ServiceModel.Persistence.LockingPersistenceProvider)
+[LockingPersistenceProvider](http://referencesource.microsoft.com/#System.WorkflowServices/System/ServiceModel/Persistence/LockingPersistenceProvider.cs,8749710e6d0e6396)
 abstract class which adds (you guessed it) instance locking semantics.
 However, my fake provider doesn’t span machines, much less require
 locking semantics so I skipped it.

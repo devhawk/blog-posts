@@ -137,7 +137,7 @@ written, the immediate assumption is that your implementation of
 CreateDescription is bad, not that you forgot to call
 InitializeDescription. It turns out that ServiceHostBase is already
 tracking wether InitializeDescription has been called via the
-[initializeDescriptionHasFinished](code://System.ServiceModel:3.0.0.0:b77a5c561934e089/System.ServiceModel.ServiceHostBase/initializeDescriptionHasFinished:Boolean)
+[initializeDescriptionHasFinished](http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/ServiceHost.cs,305)
 field. So why can’t it throw an exception like “Dude, you forgot to call
 InitializeDescription” when that field is false? It wouldn’t make the
 design any cleaner, but it would have saved Jon hours of digging thru
