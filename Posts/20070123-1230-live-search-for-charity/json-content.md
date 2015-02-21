@@ -18,8 +18,8 @@ Description](http://opensearch.a9.com/spec/1.1/description/) XML files
 and hosted them here @ DevHawk. Click the links below to add them to IE7
 search box.
 
--   Add [Click4TheCause Charity Search](#) to your IE7 Search Box
--   Add [TeamSeattle Charity Search](#) to your IE7 Search Box
+-   Add [Click4TheCause Charity Search](http://www.click4thecause.live.com/) to your IE7 Search Box
+-   Add [TeamSeattle Charity Search](http://www.teamseattle.live.com/) to your IE7 Search Box
 
 I’m sure there’s a way to do this for Firefox’s search bar, but I have
 no idea how. If you – dear reader – know how to add search providers,

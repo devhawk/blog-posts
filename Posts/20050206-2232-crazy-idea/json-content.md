@@ -11,7 +11,7 @@ blogs.msdn.com is located at
 http://blogs.msdn.com/devhawk/archive/2005/02/01/364380.aspx. Obviously,
 there is no actual file named 364380.aspx, .TEXT uses the filename as a
 key into the DB to find the actual entry content. This technique is used
-extensively in the new [MSDN2](msdn2.microsoft.com) (if you haven’t
+extensively in the new [MSDN2](http://msdn2.microsoft.com) (if you haven’t
 already, check out [Tim
 Ewald’s](http://www.pluralsight.com/blogs/tewald/default.aspx) MSDN
 Magazine

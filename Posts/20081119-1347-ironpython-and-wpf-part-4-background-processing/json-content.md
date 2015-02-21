@@ -132,7 +132,7 @@ A couple of quick implementation notes:
     Action1.
 -   To interop with .NET generic types, IPy uses the legal but rarely
     used Python syntax type[typeparam]. For example, to create a List of
-    strings, you would say “List[str]()”. The type parameter is a tuple,
+    strings, you would say “List[str]\(\)”. The type parameter is a tuple,
     so in UIThread I build a tuple of objects based on the number of
     arguments passed into wrapper (with the special case of a single
     type parameter using Action1 instead of Action).

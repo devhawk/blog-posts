@@ -54,7 +54,7 @@ def parse(text):
 
 I call load, passing in the URL to the list of songs. The “official”
 Rock Band song page loads the actual content from [a different
-page](url%20=%20'http://www.rockband.com/music/getSearchResultsTable_Ajax?sort_on=songs.NAME&sort_order=asc')
+page](http://www.rockband.com/music/getSearchResultsTable_Ajax?sort_on=songs.NAME&sort_order=asc)
 via AJAX, so I just load the actual list directly via my load function.
 
 Once the HTML is loaded as an XDocument, I need a way to find the
@@ -73,8 +73,7 @@ def FindById(node, id):
   return linq.Single(node.Descendants(), CheckId)
 ```
 
-(Side note – I didn’t like the verbosity of the “a != None and a<span
-style="color: blue">.</span>Value == id” line of code, by XAttributes
+(Side note – I didn’t like the verbosity of the “a != None and a.Value == id” line of code, by XAttributes
 are not comparable by value. That is, I can’t write
 “node.Attribute(‘id’) == XAttribute(‘id’, id)”. And writing
 “node.Attribute(‘id’).Value == id” only works if every node has an id

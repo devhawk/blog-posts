@@ -26,7 +26,7 @@
     [thinks](http://jimmynilsson.com/blog/posts/PowerBalance.htm) it’s
     the operations department that holds the power in today’s IT world.
     I agree 100% That’s why I value
-    [Dale’s](halfmybrain.spaces.live.com) input so much.
+    [Dale’s](http://halfmybrain.spaces.live.com) input so much.
 -   Nick Malik
     [wonders](http://blogs.msdn.com/nickmalik/archive/2007/08/24/is-it-time-to-bring-the-fea-concepts-to-the-commercial-space.aspx)
     if it’s time to translate the [Federal Enterprise

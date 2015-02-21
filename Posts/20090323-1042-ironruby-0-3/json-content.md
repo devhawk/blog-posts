@@ -19,7 +19,7 @@ Of course, by far the most important thing that shipped at Mix09 was
 Jimmy has [the
 details](http://feedproxy.google.com/~r/jimmy-thinking/~3/ygbSDcv9_AU/ironruby-03-released.html)
 on the new release and John Lam [did a talk at
-Mix](sessions.visitmix.com/MIX09/T22F) on dynamic languages in
+Mix](http://sessions.visitmix.com/MIX09/T22F) on dynamic languages in
 Silverlight. I haven’t seen an announcement, but it also looks like
 there’s a new version of [AgDLR](http://github.com/jschementi/agdlr/) –
 aka the [Silverlight Dynamic Languages SDK](http://sdlsdk.codeplex.com/)

@@ -77,6 +77,5 @@ This debugger will be in our regular releases of IronPython as of 2.6
 beta 2 which is
 [scheduled](http://ironpython.codeplex.com/Wiki/View.aspx?title=2.6%20Release%20Plan)
 to drop at the end of this month. For those who just can’t wait, it’s
-available as source code starting with [yesterday’s
-changeset](This%20code%20is%20in%20our%20daily%20source%20drops%20as%20of%20yesterday.%20).
-Please let us know what you think!
+available as source code starting with yesterday’s
+changeset. Please let us know what you think!
