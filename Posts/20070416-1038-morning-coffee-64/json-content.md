@@ -28,7 +28,7 @@
     drag on SaaS adoption? I’m thinking it’ll be a fairly significant
     drag, but the SaaS market will eventually rebound.
 -   Nick Malik picks up the decentralization meme is [started last
-    Friday](http://devhawk.net/2007/04/13/Morning+Coffee+63.aspx) and
+    Friday](http://devhawk.net/2007/04/13/morning-coffee-63/) and
     [compares](http://blogs.msdn.com/nickmalik/archive/2007/04/14/is-central-planning-impossible.aspx)
     enterprise architecture to city zoning boards. In general, I agree
     with Nick’s “not in a vacuum and not with a heavy hand” comment, but

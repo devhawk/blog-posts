@@ -118,7 +118,7 @@ bottom price with no incentive to actually improve the products.
 
 I get where Nick is going with this. He looks around our enterprise and
 sees duplication of effort and massive resources being spent on [hooking
-shit together](http://devhawk.net/2004/02/10/Pat+On+SOA.aspx). It sure
+shit together](http://devhawk.net/2004/02/09/pat-on-soa/). It sure
 would be nice to spend those resources on something more useful to the
 bottom line. But standardizing – or worse
 [legislating](http://blogs.msdn.com/nickmalik/archive/2006/12/20/internet-wide-services-integration-architecture-needed-now.aspx)

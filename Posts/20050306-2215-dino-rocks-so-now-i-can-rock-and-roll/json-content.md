@@ -1,5 +1,5 @@
 Last weekend, I [tried in
-vain](http://devhawk.net/DIY+Car+Radio+Harder+Than+I+Thought.aspx) to
+vain](http://devhawk.net/2005/02/27/diy-car-radio-harder-than-i-thought/) to
 install a [PIE
 GM9-AUX](http://www.pie.net/index-2-details.cfm?recordID=GM9-AUX) in my
 Chevy Blazer. The GM9-AUX converts the CD changer port on the stock CD

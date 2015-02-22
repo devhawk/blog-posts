@@ -12,7 +12,7 @@ Gentile](http://codebetter.com/blogs/sam.gentile/archive/2007/04/30/cross-platfo
 and [Scott
 Hanselman](http://www.hanselman.com/blog/PuttingMixSilverlightTheCoreCLRAndTheDLRIntoContext.aspx).
 
-A year ago, I [wrote](http://devhawk.net/2006/03/22/CLR+Everywhere.aspx)
+A year ago, I [wrote](http://devhawk.net/2006/03/22/clr-everywhere/)
 “Where else should the CLR live?” At the time, I was talking about
 [XNA](http://www.xna.com/) (which had just been announced) though I was
 aware of the plans around what I think is now officially called CoreCLR
@@ -40,7 +40,7 @@ news. )
 
 Now that you know all about Silverlight and CoreCLR, go back and re-read
 my [Virtuous Cycle of Virtual
-Platforms](http://devhawk.net/2007/03/06/The+Virtuous+Cycle+Of+Virtual+Platforms.aspx) post.
+Platforms](http://devhawk.net/2007/03/06/the-virtuous-cycle-of-virtual-platforms/) post.
 Especially the last paragraph (complete with the bad grammar):
 
 > If the end user isn’t committed to a virtual platform like Flash, then

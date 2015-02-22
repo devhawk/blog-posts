@@ -10,7 +10,7 @@ to his blog. It’s pretty simple – it only wraps Connect and ConnectLocal
 – but it does cut about ten lines of path appending, reference adding
 and module importing code into a single import statement. Here’s the
 profile access script from [my last
-post](http://devhawk.net/2008/12/13/IronPython+And+LiveFX+Accessing+Profiles.aspx)
+post](http://devhawk.net/2008/12/12/ironpython-and-livefx-accessing-profiles/)
 rewritten to use Ori’s LiveOE module.
 
 ``` python

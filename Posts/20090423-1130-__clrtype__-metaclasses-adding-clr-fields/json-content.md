@@ -1,5 +1,5 @@
 Now that we have the [basic \_\_clrtype\_\_ metaclass
-infrastructure](http://devhawk.net/2009/04/22/clrtype+Metaclasses+Customizing+The+Type+Name.aspx)
+infrastructure](http://devhawk.net/2009/04/22/__clrtype__-metaclasses-customizing-the-type-name/)
 in place, let’s enhance it to add support for CLR fields. To do this,
 we’re going to need to add two things to our custom CLR type. First, we
 need to define the fields themselves. Second, we need to make sure that

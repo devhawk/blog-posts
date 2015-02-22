@@ -1,5 +1,5 @@
 I [wrote this
-morning](http://devhawk.net/2007/02/06/Morning+Coffee+25.aspx) that I’ve
+morning](http://devhawk.net/2007/02/06/morning-coffee-25/) that I’ve
 shifted my new language focus from F\# to PowerShell. I did this for a
 variety of reasons, but primarily because PowerShell is the future of
 Microsoft administration while F\# is a research project. The thing that

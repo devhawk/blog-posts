@@ -1,5 +1,5 @@
 -   My [Binding Across
-    States](http://devhawk.net/2007/01/25/Binding+Across+States+In+WF.aspx)
+    States](http://devhawk.net/2007/01/25/binding-across-states-in-wf/)
     post made it to the home page of DotNetKicks, so at last six other
     people liked it. I wonder if I’ll be able to detect and traffic
     increase from that.

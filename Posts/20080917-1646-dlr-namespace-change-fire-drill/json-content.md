@@ -149,7 +149,7 @@ specific version, you won’t get the warning anyway.
 As usual, we appreciate all feedback from our community so hammer on
 this build as much as you can – esp. if you’ve been having type conflict
 errors with Beta 4. As I [said in an earlier
-post](http://devhawk.net/2008/09/17/IronPython+Beta+5.aspx), this is our
+post](http://devhawk.net/2008/09/17/ironpython-beta-5/), this is our
 last planned beta, so now’s the time put it thru the paces to make sure
 there’s nothing blocking you before we get to 2.0.
 

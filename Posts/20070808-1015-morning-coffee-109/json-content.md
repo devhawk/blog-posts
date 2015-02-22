@@ -1,5 +1,5 @@
 -   I forgot to add a number to my [last morning coffee
-    post](http://devhawk.net/2007/08/03/Morning+Coffee.aspx). However,
+    post](http://devhawk.net/2007/08/03/morning-coffee/). However,
     after extensive research, I have determined that it was \#108. So
     thing are continuing as usual today with \#109. On the other hand,
     do you really want development and architecture opinions from a guy

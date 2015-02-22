@@ -8,7 +8,7 @@ video](http://www.youtube.com/watch?v=oJ55Ir2jCxk) explains the
 situation pretty well.
 
 Even though I’m about as [liberal as you can
-get](http://devhawk.net/2007/07/03/A+Tough+Fourth.aspx), I’m not a big
+get](http://devhawk.net/2007/07/03/a-tough-fourth/), I’m not a big
 union guy. Neither of my parents were in a union. Neither Julie nor I
 are in a union. My only exposure to unions growing up was negative,
 typically when the Washington Opera (where my mother works) was
@@ -19,11 +19,11 @@ say, that seemed like an unreasonable demand to me (though to be fair, I
 only heard the management side of the story).
 
 In the recent hockey labor dispute, I was [firmly on the side of the
-owners](http://devhawk.net/2004/09/10/Long+Cold+Winter+Without+Hockey.aspx)
+owners](http://devhawk.net/2004/09/10/long-cold-winter-without-hockey/)
 since day one. And while the teacher’s union is one of the strongest
 bastions of democratic party support, I think the [modern education
 system is fundamentally
-broken](http://devhawk.net/2006/06/22/Against+School.aspx). So while I
+broken](http://devhawk.net/2006/06/21/against-school/). So while I
 am a liberal, I’ve never been a big union guy.
 
 However, I’m firmly with the writers union on this one. I spent several

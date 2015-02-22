@@ -42,7 +42,7 @@ October 29th – November 2nd, Redmond, WA
 I’m not presenting at MSSOABPC (that’s a mouthful) but looks like most
 of my team is going. So if you’re going and want to hang out with the
 guys who are doing this stuff in the trenches @ MSIT, let me know. Also,
-[I put out the call](http://devhawk.net/2007/08/03/Morning+Coffee.aspx)
+[I put out the call](http://devhawk.net/2007/08/03/morning-coffee/)
 for anyone interested in a geek dinner. From the
 [agenda](http://www.mssoaandbpconference.com/agenda.htm), looks like
 they’re keeping us busy until 8pm every night Mon-Wed, so we can either

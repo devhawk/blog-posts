@@ -1,5 +1,5 @@
 In the [last
-post](http://devhawk.net/2008/08/01/Monadic+Philosophy+Part+3+The+Parser+Monad+In+C.aspx),
+post](http://devhawk.net/2008/07/31/monadic-philosophy-part-3-the-parser-monad-in-c/),
 I built out a basic parser monad in C\#. While the approach worked OK,
 the syntax is still a little foreign to your typical .NET programmer,
 what with it’s nested anonymous functions and all. Now, I’m going to

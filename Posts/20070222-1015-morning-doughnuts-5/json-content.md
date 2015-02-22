@@ -17,7 +17,7 @@ program](http://en.wikipedia.org/wiki/12_step_program) now. CNN has a 12
 step program to cure your email addiction
 [here](http://www.cnn.com/2007/TECH/internet/02/20/email.addiction.steps.reut/index.html).
 I started thinking about this after Harry’s
-[post](http://devhawk.net/2007/02/16/Morning+Coffee+33.aspx) saying he
+[post](http://devhawk.net/2007/02/16/morning-coffee-33/) saying he
 had hit zero email bounce prior to going on his secret mission.
 
 I read an interesting blog on

@@ -1,4 +1,4 @@
-[Yesterday](http://devhawk.net/2008/11/19/IronPython+And+WPF+Part+4+Background+Processing.aspx),
+[Yesterday](http://devhawk.net/2008/11/19/ironpython-and-wpf-part-4-background-processing/),
 I blogged about using decorators to indicate if a given function should
 execute on the UI or background thread. While the solution works, I
 wrote “I’m thinking there might be a way to use
@@ -88,7 +88,7 @@ In the UIThread wrapper, I grab the current context and invoke the
 decorated method via the Send method. Like QueueUserWorkItem,
 SyncContext Send and Post only support a single parameter, so I use the
 same \*args trick I
-[described](http://devhawk.net/2008/11/19/IronPython+And+WPF+Part+4+Background+Processing.aspx)
+[described](http://devhawk.net/2008/11/19/ironpython-and-wpf-part-4-background-processing/)
 in my last post. (I changed the name to unpack in the code above for
 blog formatting purposes)
 

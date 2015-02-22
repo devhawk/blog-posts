@@ -1,5 +1,5 @@
 Here are some technical details on my [Nightly Builds
-solution](http://devhawk.net/2009/01/07/IronPython+Nightly+Builds.aspx).
+solution](http://devhawk.net/2009/01/07/ironpython-nightly-builds/).
 I broke them into a separate post because I figured most people are more
 interested in the actual service than how it’s built.
 

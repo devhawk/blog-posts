@@ -120,7 +120,7 @@ Finally, I attended Vince Casarez’s session on Web 2.0 in the
 enterprise. Vince is an Oracle VP and this turned into a sales pitch
 like David Chappell’s keynote did. I’m not sure what product it was, but
 it reminded me of QEDWiki from IBM that I [saw at ETech last
-year](http://devhawk.net/2006/03/08/Rod+Smith+On+Do+It+Yourself+IT.aspx),
+year](http://devhawk.net/2006/03/08/rod-smith-on-do-it-yourself-it/),
 which isn’t a complement. If you’re going to build an enterprise mashup
 designer, is it just me or is “lots of code spew” a poor model. Why not
 go for something like [Popfly](http://www.popfly.ms/) or

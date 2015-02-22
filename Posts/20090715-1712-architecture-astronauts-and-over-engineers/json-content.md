@@ -33,7 +33,7 @@ argue that the implementation patterns level is engineering, not
 architecture. From what I’ve seen, the terms “architecture” and
 “engineering” tend to be used interchangeably in the software industry,
 and frankly I think that’s a mistake. I said as much in [yet another
-post](http://devhawk.net/2005/08/31/Architecture+At+The+Intersection.aspx)
+post](http://devhawk.net/2005/08/30/architecture-at-the-intersection/)
 I wrote four years ago:
 
 > Architecture is the intersection between business and IT.
@@ -95,7 +95,7 @@ abilities are revealed to be as poor as everyone else’s, so they’re left
 with a bunch of extra layers of software cruft that has to be maintained
 but provides zero additional value to the system. I’ve blogged about
 that problem before as well: [Kitchen Sink
-Variability](http://devhawk.net/2008/03/05/Kitchen+Sink+Variability.aspx).
+Variability](http://devhawk.net/2008/03/04/kitchen-sink-variability/).
 
 Since I’m big on keeping the terminology of architecture and engineering
 separate, then I’d argue that we need a different term than Architecture

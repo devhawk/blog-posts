@@ -7,7 +7,7 @@ like “artefacts”.
 :smile:
 
 Anyway, Gareth responds to [my
-post](http://devhawk.net/2005/12/19/Imprecise+Vs+Incomplete.aspx):
+post](http://devhawk.net/2005/12/19/imprecise-vs-incomplete/):
 
 > Until we get models that are perfectly aligned with our business
 > domains, we’ll have people who want to create models but who get them
@@ -61,6 +61,6 @@ Believe me, I would love to be wrong about this. I would much rather
 work down from or business user intent than up from the technical
 foundation. I just don’t think it’s feasible. The process Gareth
 describes breaks the “Model Transformation must be Deterministic” tenet
-of [Code is Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx),
+of [Code is Model](http://devhawk.net/2005/10/05/code-is-model/),
 though the word “must” may be to strong to allow for language evolution.
 

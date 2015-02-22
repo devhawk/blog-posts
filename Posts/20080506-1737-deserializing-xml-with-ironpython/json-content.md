@@ -1,5 +1,5 @@
 Now that I can [stream process
-XML](http://devhawk.net/2008/05/06/Stream+Processing+XML+In+IronPython.aspx),
+XML](http://devhawk.net/2008/05/06/stream-processing-xml-in-ironpython/),
 the next logical step is to deserialize it into some type of object
 graph. As I said in my last post, there are at least three different
 DOM-esque options on the .NET platform as well as two in the Python

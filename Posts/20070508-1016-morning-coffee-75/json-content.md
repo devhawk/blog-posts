@@ -3,7 +3,7 @@
     we’ll be looking at around \$1,000 for one within four years. For
     the impatient, check out <Fab@Home> and build one *right now*.
 -   It’s [been a
-    while](http://devhawk.net/2003/12/18/P2P+Revisited.aspx) since I
+    while](http://devhawk.net/2003/12/18/p2p-revisited/) since I
     experimented with the P2P stack in Windows, but it looks like it’s
     getting [the managed
     treatment](http://blogs.msdn.com/p2p/archive/2007/03/12/writing-peer-to-peer-applications-using-net-part-1-pnrp.aspx)
@@ -17,7 +17,7 @@
     Script](http://www.sun.com/aboutsun/pr/2007-05/sunflash.20070508.2.xml).
     I wrote over a year ago that “[In platform portability, Flash has
     succeeded where Java
-    failed](http://devhawk.net/2006/02/04/Flash+The+Other+White+Meat.aspx).”
+    failed](http://devhawk.net/2006/02/03/flash-the-other-white-meat/).”
     I can’t help but believe JavaFX is too little too late. Also, it’s
     yet another Java technology name that sounds like it’s been
     blatantly copied from MSFT.

@@ -17,7 +17,7 @@ division so this is only my thoughts on yesterday’s announcements.
     related at all – it was the announcement of [Netflix on Xbox
     360](http://www.xbox.com/en-US/community/events/e32008/articles/0714-netflixteamup.htm).
     I’ve been [hoping for a flat rate subscription
-    plan](http://devhawk.net/2006/11/24/Hawkeye+On+XBL+Video+Marketplace.aspx)
+    plan](http://devhawk.net/2006/11/23/hawkeye-on-xbl-video-marketplace/)
     since Video Marketplace first launched. Soon, I’ll have it.
 -   I’m not sure what I think of the [New Xbox
     Experience](http://www.xbox.com/NR/rdonlyres/BE004694-EDED-4077-BD82-6AD23014821F/0/vidNXEe30801LLHi.asx)

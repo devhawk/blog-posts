@@ -57,7 +57,7 @@
     and [walked away from the ALT.NET
     crowd](http://samgentile.com/blogs/samgentile/archive/2007/10/07/codebetter-and-alt-net-the-short-version.aspx).
     I’ve [not been a
-    fan](http://devhawk.net/2007/06/13/Morning+Coffee+89.aspx) of this
+    fan](http://devhawk.net/2007/06/13/morning-coffee-89/) of this
     ALT.NET stuff since it surfaced – as Sam said, “ALT.NET is a
     divisive thing” – so I’m happy to see my good friend walk away from
     it.

@@ -2,7 +2,7 @@
     [posts](http://www.interact-sw.co.uk/iangblog/2007/05/15/language-choice)
     a much longer version of “[Even though the runtime supports multiple
     languages, most programmers are only fluent in
-    one](http://devhawk.net/2007/05/15/Afternoon+Coffee+77.aspx).” (via
+    one](http://devhawk.net/2007/05/15/afternoon-coffee-77/).” (via
     [Larkware](http://www.larkware.com/dg8/TheDailyGrind1143.aspx))
 -   I wrote yesterday that Pat Helland’s first post back was light on
     the tech talk. Luckily (for us) he takes the bus to work so he has

@@ -1,6 +1,6 @@
 While I was ~~banging my head against a wall~~ experimenting with
 understanding how [CorValue extraction
-worked](http://devhawk.net/2009/03/31/Writing+An+IronPython+Debugger+Displaying+Values.aspx),
+worked](http://devhawk.net/2009/03/31/writing-an-ironpython-debugger-displaying-values/),
 I found myself wanting to dink around with the debugger objects in a
 REPL console. One of IronPython’s core strengths is support for
 “exploratory programming” via the REPL. It turned out bringing a REPL to

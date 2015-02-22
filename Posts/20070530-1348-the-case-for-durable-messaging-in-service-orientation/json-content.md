@@ -43,7 +43,7 @@ Nick mentions least three Microsoft technologies that provide some sort
 of durable messaging – MSMQ, SSB and BizTalk – but they’re all
 proprietary. The market leader in this space is MQ Series, which is also
 proprietary. WS-RM was *supposed* to be support durable messaging, but
-[doesn’t](http://devhawk.net/2007/02/20/Reliably+Beating+A+Dead+Horse.aspx).
+[doesn’t](http://devhawk.net/2007/02/19/reliably-beating-a-dead-horse/).
 There is the [Advanced Message Queuing Protocol
 group](http://www.amqp.org/), which is defining an open protocol for MQ
 style systems, but without involvement from any major platform vendors

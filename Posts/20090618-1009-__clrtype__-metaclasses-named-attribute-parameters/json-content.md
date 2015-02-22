@@ -1,5 +1,5 @@
 In [my last
-post](http://devhawk.net/2009/06/17/clrtype+Metaclasses+Positional+Attribute+Parameters.aspx),
+post](http://devhawk.net/2009/06/17/__clrtype__-metaclasses-positional-attribute-parameters/),
 I added support for custom attribute positional parameters . To finish
 things off, I need to add support for named parameters as well. Custom
 attributes support named parameters for public fields and settable

@@ -15,7 +15,7 @@
 -   I am currently running a Build and Deployment Task Force. We are
     trying to ensure that our team follows best practices when building
     new applications. The
-    [project](http://devhawk.net/2006/09/07/SOA+Sample+Scenario.aspx)
+    [project](http://devhawk.net/2006/09/06/soa-sample-scenario/)
     that Harry and I are working on seems to be a good test bed for the
     process.
 -   For those of you who read my

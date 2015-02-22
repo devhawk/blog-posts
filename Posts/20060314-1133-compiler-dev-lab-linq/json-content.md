@@ -34,7 +34,7 @@ learned a few new things.
     [DLinq](http://download.microsoft.com/download/c/f/b/cfbbc093-f3b3-4fdb-a170-604db2e29e99/DLinq%20Overview.doc)
     is implemented. I’ve been refining my thinking about data since
     [working with Ning’s content
-    store](http://devhawk.net/2006/02/27/Experimenting+With+Ning.aspx)
+    store](http://devhawk.net/2006/02/27/experimenting-with-ning/)
     and I’m convinced of the need for a simplified datastore. SQL is
     designed for significantly complex database schemas, which means a
     significantly complex development environment.

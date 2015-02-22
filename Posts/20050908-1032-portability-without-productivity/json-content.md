@@ -119,7 +119,7 @@ From a geek aesthetic perspective, you would have guessed that Java with
 its clean language and programming model would crush VB and COM in the
 marketplace, but it just didn’t happen. VB, with its [software
 factory-esque
-approach](http://devhawk.net/2004/08/29/The+Most+Popular+Modeling+Environment+Ever+So+Far.aspx),
+approach](http://devhawk.net/2004/08/29/the-most-popular-modeling-environment-ever-so-far/),
 was easier to use and thus attracted more developers who got more apps
 written. I’d guess that ease of use / developer productivity is the key
 indicator of success for programming environments. If Java had focused

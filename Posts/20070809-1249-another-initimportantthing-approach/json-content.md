@@ -1,6 +1,6 @@
 I thought of another approach to the InitImportantThing problem that I
 [blogged about
-yesterday](http://devhawk.net/2007/08/08/Calling+InitImportantThing.aspx).
+yesterday](http://devhawk.net/2007/08/08/calling-initimportantthing/).
 I think it’s a bit harder to code, but it’s certainly explicit and
 avoids the magic method that Jon [dislikes so
 much](http://www.masteringbiztalk.com/blogs/jon/PermaLink,guid,fa3c471d-a0f5-4790-a1b7-1fc374df651b.aspx).

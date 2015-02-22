@@ -1,6 +1,6 @@
 Big news yesterday for Washington Capitals fans. Alex “the Great”
 Ovechkin (aka
-[Superman](http://devhawk.net/2007/07/13/Ovechkin+As+Superman.aspx))
+[Superman](http://devhawk.net/2007/07/13/ovechkin-as-superman/))
 signed the biggest contract in NHL history – \$124 million over 13
 years. [According to Eric
 McErlain](http://sports.aol.com/fanhouse/2008/01/10/ovechkins-deal-wealthiest-in-nhl-history/),
@@ -58,8 +58,8 @@ past two and 1/2 seasons, I think Leonsis is getting his money’s worth.
 Speaking of [Ted](http://ted.aol.com/), my father ran into him @ the
 seasons ticket holder’s event they held last night. When he mentioned
 that he’s “Devhawk’s Dad”, Ted recalled how I “[reamed him a new
-one](http://devhawk.net/2004/02/19/Doing+The+Unthinkable.aspx)” as well
-as [meeting me](http://devhawk.net/2006/07/06/Meeting+Ted+Leonsis.aspx).
+one](http://devhawk.net/2004/02/19/doing-the-unthinkable/)” as well
+as [meeting me](http://devhawk.net/2006/07/06/meeting-ted-leonsis/).
 For the record, I *still* think trading Bondra was a mistake, though
 time has demonstrated it was a fairly minor one. More importantly, it
 was an isolated mistake. Since then, I think Ted and the Caps have done

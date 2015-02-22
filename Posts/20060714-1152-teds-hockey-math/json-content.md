@@ -1,4 +1,4 @@
-My [new pal](http://devhawk.net/2006/07/06/Meeting+Ted+Leonsis.aspx)
+My [new pal](http://devhawk.net/2006/07/06/meeting-ted-leonsis/)
 :smile: [Ted
 Leonsis](http://ted.aol.com/index.php?id=300) does the hockey math on
 the [re-acquisition of Richard

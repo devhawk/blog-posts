@@ -21,7 +21,7 @@ all the keynotes.
 
 I need to think more about the implications of this. First off is the
 importance of data formats. I’ve written about [RSS as the generic
-list](http://devhawk.net/2006/02/14/Reinventing+The+List.aspx) semantics
+list](http://devhawk.net/2006/02/14/reinventing-the-list/) semantics
 on top of XML, but I’m thinking
 [microformats](http://www.microformats.com) will be huge when combined
 with Live Clipboard. Also, there’s the implication of user driven

@@ -26,7 +26,7 @@
     was announced at
     [TechEd](http://www.microsoft.com/events/teched2007/registration.mspx) yesterday.
     Even
-    [Harry](http://devhawk.net/2007/06/06/TechEd+2007+Day+Three.aspx)
+    [Harry](http://devhawk.net/2007/06/06/teched-2007-day-three/)
     who was on-site missed the release, but it certainly looks
     [cool](http://msdn2.microsoft.com/en-us/vstudio/bb510103.aspx).
 -   If you have ever met me you would quickly discover I have quite a

@@ -1,5 +1,5 @@
 Now that I’ve [explained the
-AST](http://devhawk.net/2007/12/19/Practical+F+Parsing+The+Abstract+Syntax+Tree.aspx),
+AST](http://devhawk.net/2007/12/19/practical-f-parsing-the-abstract-syntax-tree/),
 there are several more semantic productions to go. I’m not going to
 describe them all in detail, just hit a few important highlights.
 
@@ -44,7 +44,7 @@ F\# isn’t Erlang, so I’m not sure what the guidance is here.
 
 Another thing you find in productions is the backtracking syntactic
 predicates. We saw an example of them in the [implementation of
-Comment](http://devhawk.net/2007/12/17/Practical+F+Parsing+Syntactical+Productions+2.aspx).
+Comment](http://devhawk.net/2007/12/17/practical-f-parsing-syntactical-productions-2/).
 Often, their used to indicate the end of a list of other productions,
 such as Literal, above. However, sometimes, they’re used to ensure the
 correct production is matched. For example, a Primary can be an

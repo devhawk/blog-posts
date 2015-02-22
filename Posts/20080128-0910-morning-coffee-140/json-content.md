@@ -20,7 +20,7 @@
 -   Nick Malik
     [responds](http://blogs.msdn.com/nickmalik/archive/2008/01/23/the-future-can-be-seen-if-we-decide-to-look.aspx)
     to me calling his shared global integration vision
-    [flawed](http://devhawk.net/2008/01/22/Nicks+Flawed+Vision+Of+A+Shared+Integration+Model.aspx).
+    [flawed](http://devhawk.net/2008/01/22/nicks-flawed-vision-of-a-shared-integration-model/).
     He points to NGOSS/eTOM as an example of a shared iterative model
     that works. I know squat about that shared model, so I’ll refrain
     from commenting until I do a little homework on the telco industry.

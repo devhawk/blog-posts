@@ -1,5 +1,5 @@
 A while back I [showed
-how](http://devhawk.net/2008/05/08/Debugging+IronPython+Code+In+Visual+Studio.aspx)
+how](http://devhawk.net/2008/05/08/debugging-ironpython-code-in-visual-studio/)
 you can use Visual Studio to debug IronPython scripts. While that works
 great, it’s lots of steps and lots of mouse work. I yearned for
 something lighter weight and that I could drive from the command line.

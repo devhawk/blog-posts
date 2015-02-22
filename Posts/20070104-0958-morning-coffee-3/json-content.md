@@ -23,11 +23,11 @@
     faults, the built-in SQL persistence service deletes the persisted
     instance from the database. That doesn’t seem right to me, but [I
     was
-    wrong](http://devhawk.net/2006/10/17/WF+Clarifications+And+Corrections.aspx)
+    wrong](http://devhawk.net/2006/10/17/wf-clarifications-and-corrections/)
     last time I called out the WF SQL persistence service so I want to
     do more digging before I open my trap.
 -   I dig WF persistence. I [wrote a few weeks
-    ago](http://devhawk.net/2006/12/11/Transactions+In+Workflow+Foundationland.aspx)
+    ago](http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/)
     about shipping a WF instance to a developer for debugging.
     Yesterday, I thought about having a persistence service that kept a
     history of the WF instance rather than overwriting it. I wonder if

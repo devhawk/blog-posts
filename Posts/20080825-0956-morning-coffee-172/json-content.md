@@ -57,7 +57,7 @@ OK, onto geek stuff:
     Django running with NWSGI on his blog. Awesome work Jeff! (Thanks
     for the correction Seo!)
 -   I [never really bought
-    into](http://devhawk.net/2006/03/08/The+SoCalled+Attention+Economy.aspx)
+    into](http://devhawk.net/2006/03/08/the-so-called-attention-economy/)
     the “Attention Economy”, but Chris Anderson’s [economic
     analysis](http://www.longtail.com/the_long_tail/2008/08/i-wish-people-w.html)
     of his DIY Drones site traffic was fascinating.

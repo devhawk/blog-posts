@@ -4,7 +4,7 @@ assumes](http://codebetter.com/blogs/sam.gentile/archive/2006/10/17/New-and-Nota
 the other foundation technology is WCF. It’s not.
 
 As a quick reminder, my [day
-job](http://devhawk.net/2006/06/15/Moving+On.aspx) these days is to
+job](http://devhawk.net/2006/06/15/moving-on/) these days is to
 architect and deliver shared service-oriented infrastructure for
 Microsoft’s IT division. These services will be automating long running
 business operations. And when I say long running, I mean days, weeks or

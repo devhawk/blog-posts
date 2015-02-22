@@ -1,7 +1,7 @@
 -   Dare
     [reached](http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=b78cfe57-3616-43a8-b551-7a4bf59016bd)
     a similar conclusion about Silverlight and Apollo [that I
-    did](http://devhawk.net/2007/05/02/Hawkeye+On+Silverlight.aspx). But
+    did](http://devhawk.net/2007/05/02/hawkeye-on-silverlight/). But
     [newly minted](http://blog.digitalbackcountry.com/?p=816) Adobe RIA
     evangelist Ryan Stewart
     [writes](http://blog.digitalbackcountry.com/?p=823) that calling
@@ -29,7 +29,7 @@
     “I can’t see where Ruby is such hot shit” and “Ruby is the tits”,
     I’m somewhere near the middle, leaning towards tits. I love the
     expressiveness of Ruby’s syntax, but I miss the static typing. Call
-    me [over the hill](http://devhawk.net/2007/05/21/Im+37.aspx), but I
+    me [over the hill](http://devhawk.net/2007/05/21/im-37/), but I
     like the compiler catching mistakes at compile time. I realize it’s
     not for everyone, but I like what I like.
 -   This talk about Ruby’s expressiveness reminds me of something Larry

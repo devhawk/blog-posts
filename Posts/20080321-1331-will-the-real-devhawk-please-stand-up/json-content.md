@@ -6,7 +6,7 @@ this](http://devhawk.net/CommentView,guid,d88e8506-d669-41c3-a246-6da1865f9a2e.a
 > for trouble.
 
 As I’ve [pointed out
-before](http://devhawk.net/2007/04/03/This+Is+Not+A+Technical+Blog.aspx),
+before](http://devhawk.net/2007/04/03/this-is-not-a-technical-blog/),
 DevHawk is not “a blog that’s supposedly about technology”. It’s a
 personal blog – my very tiny corner of the web, if you will – so I feel
 totally justified writing about technology, politics, hockey and

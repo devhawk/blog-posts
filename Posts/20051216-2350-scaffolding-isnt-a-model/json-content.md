@@ -40,12 +40,12 @@ First off, Grady claiming to be misquoted his pretty disingenuous.
 Juha-Pekka’s account of what Grady said on the panel is pretty spot on.
 Furthermore, Grady claming that I implied he said “throw away all
 models” is also disingenuous. I [specifically
-wrote](http://devhawk.net/2005/11/07/Grady+Booch+Sez+Throw+Models+Away.aspx)
+wrote](http://devhawk.net/2005/11/07/grady-booch-sez-throw-models-away/)
 that I thought Grady was being taken out of context:
 
 > I’ve gotta believe that this comment was somehow taken out of context
 > and that the Grand Poobah of the [Common Semantic
-> Model](http://devhawk.net/2004/12/10/Booch+On+DSLs+Round+3.aspx)
+> Model](http://devhawk.net/2004/12/10/booch-on-dsls-round-3/)
 > doesn’t actually believe that tossing the model at the end of the
 > project is a good thing.
 
@@ -61,7 +61,7 @@ mean you’re modeling. When a building architect sits down with a
 prospective customer and a sketchpad, they may be working out great
 ideas but no one is going to call the result a blueprint. Grady’s
 scaffolding “models” break nearly every tenant of [Code is
-Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx). Scaffolding
+Model](http://devhawk.net/2005/10/05/code-is-model/). Scaffolding
 isn’t precise or deterministic. And if it ends up in the recycle bin, I
 guess it’s not intrinsic to the development process.
 

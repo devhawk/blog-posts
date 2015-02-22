@@ -1,5 +1,5 @@
 Now that we have a debugger process [up and
-running](http://devhawk.net/2009/02/28/Writing+An+IronPython+Debugger+Hello+Debugger.aspx),
+running](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-hello-debugger/),
 let start adding some actual features. First up, we want to be able to
 set breakpoints. One of the nice things MDbg does is auto-set a
 breakpoint on the entrypoint function. For ipydbg, we’re going to

@@ -2,7 +2,7 @@ I’ve been following the ongoing discussion about typing systems in
 programming languages between [Ted Neward](http://blogs.tedneward.com/)
 and [Stu Halloway](http://relevancellc.com/blogs/index.php) with great
 interest. Given that I believe [Code is
-Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx), I’m eager to
+Model](http://devhawk.net/2005/10/05/code-is-model/), I’m eager to
 mine knowledge from successful tools to apply at higher levels of
 abstraction. And as an employee of a language vendor, I’m also very
 interested in what Stu describes as vendor-oriented vs.

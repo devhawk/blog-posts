@@ -16,7 +16,7 @@ four](http://dumpnchase.wordpress.com/2008/04/18/horse-hockey/) (no
 comment from me – I didn’t see the game).
 
 However, I can’t help but think back to the [last Friday in
-November](http://devhawk.net/2007/11/24/Afternoon+Coffee+126.aspx) when
+November](http://devhawk.net/2007/11/23/afternoon-coffee-126/) when
 the Caps had the worst record in the league @ 6-14-1 and had just
 promoted their minor league affiliate’s coach to the big leagues. If you
 had told me then – almost exactly five months ago – that the Caps would
@@ -76,9 +76,9 @@ thought the Verizon Center would be considered “[most electric
 arena](http://sports.espn.go.com/nhl/playoffs2008/news/story?id=3337943)“?
 
 Finally, thank you to Ted Leonsis for enduring [the
-criticism](http://devhawk.net/2004/02/19/Doing+The+Unthinkable.aspx),
+criticism](http://devhawk.net/2004/02/19/doing-the-unthinkable/),
 for turning Washington DC into a hockey town and [for
-ensuring](http://devhawk.net/2008/01/11/Superman+Signed.aspx) I’ll be
+ensuring](http://devhawk.net/2008/01/11/superman-signed/) I’ll be
 able to wear my \#8 Ovechkin jersey until [my
 kids](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2093.entry)
 are in high school.

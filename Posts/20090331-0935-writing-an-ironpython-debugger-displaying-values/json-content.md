@@ -1,5 +1,5 @@
 Now that I can [get the local
-variables](http://devhawk.net/2009/03/25/Writing+An+IronPython+Debugger+Getting+Local+Variables.aspx)
+variables](http://devhawk.net/2009/03/25/writing-an-ironpython-debugger-getting-local-variables/)
 for a given frame, I need to display them in the console. Eventually,
 I’d like to provide the ability to update the local variables as well,
 but you gotta crawl before you can run. Luckily, the debugger API is

@@ -4,10 +4,10 @@ Broker](http://msdn2.microsoft.com/en-us/library/ms166043.aspx) (aka
 SSB). I’ve also been doing a lot of
 [WCF](http://msdn2.microsoft.com/en-us/library/aa388579.aspx) work
 lately. While there are parts of WCF that [I think
-rock](http://devhawk.net/2006/10/27/Custom+Authentication+With+WCF+Is+Top+Shelf.aspx),
+rock](http://devhawk.net/2006/10/27/custom-authentication-with-wcf-is-top-shelf/),
 overall I’ve found WCF lacking due to it’s [lack of support for long
 running
-services](http://devhawk.net/2006/10/29/Is+WCF+QuotStraightforwardquot+For+Long+Running+Tasks.aspx),
+services](http://devhawk.net/2006/10/28/is-wcf-straightforward-for-long-running-tasks/),
 which SSB excels at.
 
 So it was with great interest that I read this recent article on
@@ -21,12 +21,12 @@ the article [uses duplex
 channels](http://msdn2.microsoft.com/en-us/library/bb266709.aspx#intgrwfwcf_topic8) for
 communication between the service and its clients. As [I have pointed
 out
-before](http://devhawk.net/2006/10/29/Is+WCF+QuotStraightforwardquot+For+Long+Running+Tasks.aspx),
+before](http://devhawk.net/2006/10/28/is-wcf-straightforward-for-long-running-tasks/),
 this approach is impractical because it requires that both the service
 and its consumer remain alive in memory until the WF end.
 
 Remember [this quote from Essential
-WF](http://devhawk.net/2006/11/01/Essential+Windows+Workflow+Foundation.aspx)?
+WF](http://devhawk.net/2006/11/01/essential-windows-workflow-foundation/)?
 
 > “It is wishful thinking to assume that the operating system process
 > (or CLR application domain) in which the program begins execution will
@@ -38,7 +38,7 @@ two technologies, I’m worried that many people will read this article as
 best practice guidance, which in my opinion would be a mistake.
 
 But instead of firing up my blog (that is, like [last
-time](http://devhawk.net/2006/10/17/WF+Clarifications+And+Corrections.aspx))
+time](http://devhawk.net/2006/10/17/wf-clarifications-and-corrections/))
 to write a scathing post about how broken this sample is, I emailed
 [Paul](http://blogs.msdn.com/pandrew/) which led to a concall with
 [Shy](http://blogs.msdn.com/shycohen) to discuss WCF’s lack of support

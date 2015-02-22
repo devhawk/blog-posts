@@ -1,5 +1,5 @@
 Since folks were interested in [my favorite
-tools](http://devhawk.net/2008/02/28/DevHawks+Inessential+List+Of+Tools.aspx),
+tools](http://devhawk.net/2008/02/28/devhawks-inessential-list-of-tools/),
 I thought I’d blog how I have PowerShell configured. I’m not an
 ultra-power user, but I hold my own and hopefully you can use some of
 this configuration for yourself. Please tell me you’re not still using

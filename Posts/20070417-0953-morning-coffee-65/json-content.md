@@ -13,7 +13,7 @@
 -   Ian Thomas
     [riffs](http://itblagger.wordpress.com/2007/04/10/soa-as-internal-saas/)
     on my [When is a Service Not a
-    Service](http://devhawk.net/2007/03/21/When+Is+A+Service+Not+A+Service.aspx) post.
+    Service](http://devhawk.net/2007/03/21/when-is-a-service-not-a-service/) post.
     I like Ian’s thinking about SaaS as an analogy for SOA adoption – if
     for no other reason that SaaS is easier to “get”. But trying to
     realize SOA via SaaS inside the enterprise is a mistake in my

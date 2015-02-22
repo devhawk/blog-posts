@@ -1,7 +1,7 @@
 [Christian Weyer](http://blogs.thinktecture.com/cweyer) makes a [great
 comment](http://devhawk.net/CommentView,guid,ebed9385-833f-4ef9-8a32-931162f742a1.aspx#commentstart)
 on [yesterday’s
-post](http://devhawk.net/2009/08/26/Async+Messaging+And+The+Barbarian+Hordes.aspx)
+post](http://devhawk.net/2009/08/26/async-messaging-and-the-barbarian-hordes/)
 about the barbarian rediscovery of async messaging:
 
 > But how do these two toolkits solve the NAT/Firewall issue? Without a

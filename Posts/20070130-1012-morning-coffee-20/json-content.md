@@ -7,7 +7,7 @@
     Vista](http://www.microsoft.com/windows/products/windowsvista) and
     [Office 2007](http://office.microsoft.com/2007) yesterday. There
     were parties on campus, but [my
-    office](http://devhawk.net/2006/09/30/quotWorkingquot+From+Home+As+The+Office+Moves.aspx)
+    office](http://devhawk.net/2006/09/29/working-from-home-as-the-office-moves/)
     is a little off the beaten path, so we didn’t get a party.
 -   [WF Activity
     Validation](http://msdn2.microsoft.com/en-us/library/ms734773.aspx)
@@ -24,7 +24,7 @@
     your activity project file, as that is what invokes the activity
     validation.
 -   A quick follow-up to yesterday’s [compiling workflows
-    post](http://devhawk.net/2007/01/29/Compiling+Workflows.aspx): WF
+    post](http://devhawk.net/2007/01/29/compiling-workflows/): WF
     appears to be fairly short on out of the box functionality, but more
     than makes up for it with an expansive extensibility model. It makes
     the learning curve longer, but it’s well worth it the trip.

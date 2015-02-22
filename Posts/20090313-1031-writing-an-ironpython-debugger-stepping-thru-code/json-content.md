@@ -1,10 +1,10 @@
 So far, I’ve written seven posts about my IronPython debugger, but
 frankly it isn’t very functional yet. It
-[runs](http://devhawk.net/2009/02/28/Writing+An+IronPython+Debugger+Hello+Debugger.aspx),
+[runs](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-hello-debugger/),
 [breaks on the first
-line](http://devhawk.net/2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint.aspx)
+line](http://devhawk.net/2009/03/02/writing-an-ironpython-debugger-setting-a-breakpoint/)
 and can [show a stack
-trace](http://devhawk.net/2009/03/09/Writing+An+IronPython+Debugger+Dynamic+Stack+Trace.aspx).
+trace](http://devhawk.net/2009/03/09/writing-an-ironpython-debugger-dynamic-stack-trace/).
 Not exactly [Jolt award](http://www.joltawards.com/) material. In this
 post, I’m going to add one of the core functions of any debugger:
 stepping. Where previously I’ve written a bunch of code but had little
@@ -45,7 +45,7 @@ functions) but that only steps a single IL statement. The vast majority
 of the time there are multiple IL instructions for every line of source
 code, so IL statement stepping is very tedious. As we learned when
 [setting a
-breakpoint](http://devhawk.net/2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint.aspx),
+breakpoint](http://devhawk.net/2009/03/02/writing-an-ironpython-debugger-setting-a-breakpoint/),
 debug symbols contain sequence points that map between source and IL
 locations. If they’re available, I use the sequence points to determine
 the range of IL statements to step over so that I can step single source

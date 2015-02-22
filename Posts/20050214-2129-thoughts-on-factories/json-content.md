@@ -37,7 +37,7 @@ toolkit](http://lab.msdn.microsoft.com/teamsystem/Workshop/DSLTools/default.aspx
 is the first factory-esque thing that we’re shipping. However, DSLs big
 value, IMO, is to automate the construction of applications built on top
 of well designed reusable frameworks. For example, the [OOPSLA keynote
-demo](http://devhawk.net/OOPSLA+Day+1.aspx) was a DSL that would sit on
+demo](http://devhawk.net/2004/10/26/oopsla-day-1-2/) was a DSL that would sit on
 top of a UI process framework such as the [p&p UIP
 block](http://msdn.com/library/en-us/dnpag/html/uipab.asp). But if there
 is not a good framework, there’s little point in having a language. I’ve

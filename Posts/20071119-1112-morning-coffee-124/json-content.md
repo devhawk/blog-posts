@@ -49,7 +49,7 @@
     notice how similar Paul’s description of Mort is to what Nick
     described? I’d say some folks owe Nick an apology.
 -   I [said
-    Friday](http://devhawk.net/2007/11/16/Afternoon+Coffee+123.aspx) I
+    Friday](http://devhawk.net/2007/11/16/afternoon-coffee-123/) I
     was going to take a closer look @ OpenID and OAuth. There’s an
     [intro to OpenID](http://wiki.openid.net/Introduction) on [their
     wiki](http://wiki.openid.net) and Sam Ruby’s [OpenID for

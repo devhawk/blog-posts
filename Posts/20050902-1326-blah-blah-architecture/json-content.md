@@ -1,5 +1,5 @@
 If you heard [my PDC05
-Buzzcast](http://devhawk.net/2005/09/01/PDC05+Architecture+Symposium+Buzzcast.aspx)
+Buzzcast](http://devhawk.net/2005/09/01/pdc05-architecture-symposium-buzzcast/)
 but just can’t get enough of my voice, check out [Architect MVP Mario
 Cardinal](http://www.mariocardinal.com/)‘s [Blah Blah Architecture
 podcast](http://www.mariocardinal.com/podcast). I spent [some time with

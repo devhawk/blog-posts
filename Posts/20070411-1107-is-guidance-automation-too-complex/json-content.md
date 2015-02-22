@@ -8,7 +8,7 @@ Several of p&p’s factories include data access guidance, but that works
 against an actual database rather than a
 [VSTDB](http://msdn2.microsoft.com/en-us/teamsystem/aa718807.aspx)
 project. Given my [newfound
-love](http://devhawk.net/2007/03/20/VSTDB+Where+Have+You+Been+All+My+Life.aspx)
+love](http://devhawk.net/2007/03/19/vstdb-where-have-you-been-all-my-life/)
 for VSTDB + my interest in GAT, I thought I would whip up some simple
 automated guidance.
 
@@ -61,7 +61,7 @@ little more structure than just Execute(), but GAT seems like overkill
 in comparison.
 
 Sometimes [complexity is
-necessary](http://devhawk.net/2005/11/23/As+Simple+As+Possible+But+No+Simpler.aspx).
+necessary](http://devhawk.net/2005/11/23/as-simple-as-possible-but-no-simpler/).
 But I can’t help but think that GAT’s complexity wasn’t really
 necessary. Wouldn’t it have been simpler and just as modular to define a
 recipe in code instead?

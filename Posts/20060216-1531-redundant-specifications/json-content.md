@@ -1,5 +1,5 @@
 So after my
-[two](http://devhawk.net/2006/02/14/Reinventing+The+List.aspx)[posts](http://devhawk.net/2006/02/15/More+On+XSFP.aspx)
+[two](http://devhawk.net/2006/02/14/reinventing-the-list/)[posts](http://devhawk.net/2006/02/14/more-on-xsfp/)
 on XSPF and some public discussion in the comments, I took the
 conversation with Lucas offline in hopes of getting a better
 understanding about the thought process that went into the spec.

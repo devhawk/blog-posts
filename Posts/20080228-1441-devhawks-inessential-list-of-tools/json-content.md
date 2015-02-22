@@ -1,5 +1,5 @@
 ilanchelian left a
-[comment](http://devhawk.net/2008/02/27/Morning+Coffee+150.aspx#commentstart)
+[comment](http://devhawk.net/2008/02/27/morning-coffee-150/)
 yesterday asking for me to share some of the utilities that I use
 sometimes. Of course, Scott Hanselman keeps \*THE\* [ultimate list of
 tools](http://www.hanselman.com/tools), hence my titling this list as

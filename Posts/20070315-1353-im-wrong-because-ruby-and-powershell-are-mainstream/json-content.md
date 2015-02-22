@@ -1,7 +1,7 @@
 [Brad Wilson](http://www.agileprogrammer.com/dotnetguy) and [Scott
 Hanselman](http://www.hanselman.com/blog/ "Scott Hanselman") took me to
 task for my
-[comment](http://devhawk.net/2007/03/13/Morning+Coffee+44.aspx) the
+[comment](http://devhawk.net/2007/03/13/morning-coffee-44/) the
 other day that no “mainstream” language had implemented [extension
 methods](http://weblogs.asp.net/scottgu/archive/2007/03/13/new-orcas-language-feature-extension-methods.aspx):
 

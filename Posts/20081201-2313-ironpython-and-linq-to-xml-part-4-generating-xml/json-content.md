@@ -1,7 +1,7 @@
 Now that I have my [list of Rock Band
-songs](http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+2+Screen+Scraping.aspx)
+songs](http://devhawk.net/2008/11/26/ironpython-and-linq-to-xml-part-2-screen-scraping/)
 and I can [get the right Zune
-metadata](http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+3+Consuming+Atom+Feeds.aspx)
+metadata](http://devhawk.net/2008/11/27/ironpython-and-linq-to-xml-part-3-consuming-atom-feeds/)
 for most of them, I just need to write out the playlist XML. This is
 very straight forward to do with the classes in System.Xml.Linq.
 

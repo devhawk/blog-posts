@@ -10,7 +10,7 @@ parking lot is like an ice rink.
     somewhere. I only figured it out by finding [this
     demo](http://www.dasblonde.net/PermaLink,guid,0de3e38e-a516-4a33-a85d-3027a505f7b8.aspx)
     from [Michele](http://www.dasblonde.net/).
--   [Last week](http://devhawk.net/2007/01/05/Morning+Coffee+4.aspx), I
+-   [Last week](http://devhawk.net/2007/01/05/morning-coffee-4/), I
     said that we need a better tool than
     [SvcConfigEditor](http://msdn2.microsoft.com/en-us/library/ms732009.aspx).
     This tool is only marginally better than hand-editing the config

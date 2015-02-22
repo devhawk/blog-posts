@@ -1,7 +1,7 @@
 [IronPython
 2.0](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365)
 shipped [about a month
-ago](http://devhawk.net/2008/12/10/IPy+RTW+FTW.aspx), but we’re still
+ago](http://devhawk.net/2008/12/10/ipy-rtw-ftw/), but we’re still
 chugging along with our post 2.0 work. We’ve shipped seven [source code
 releases](http://www.codeplex.com/IronPython/SourceControl/ListDownloadableCommits.aspx)
 since we shipped 2.0 and we should be back to our normal schedule of

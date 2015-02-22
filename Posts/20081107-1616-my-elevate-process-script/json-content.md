@@ -13,7 +13,7 @@ ability to launch an admin command prompt in a specific directory –
 including the current one. I wanted the ability to default to launching
 Powershell when the user doesn’t specify a command to run. I thought I
 could just set \$psi.WorkingDirectory, but as I’ve [described
-previously](http://devhawk.net/2008/07/28/DevHawks+Slightly+Useful+Powershell+Configuration.aspx),
+previously](http://devhawk.net/2008/07/28/devhawks-slightly-useful-powershell-configuration/),
 I update \$home in my profile script to D:HPierson.Files (I keep my
 important files on my D: drive so I can pave C: with impunity) then set
 my current location to \$home. So I can’t set the current location by

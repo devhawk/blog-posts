@@ -47,7 +47,7 @@ Serendipity means “[the accidental discovery of something pleasant,
 valuable, or
 useful](http://encarta.msn.com/dictionary_/serendipity.html)“.
 “Serendipitous reuse” sounds an awful lot like [accidental
-reuse](http://devhawk.net/2007/07/25/Now+How+Much+Would+You+Pay+For+This+Code.aspx).
+reuse](http://devhawk.net/2007/07/25/now-how-much-would-you-pay-for-this-code/).
 Most enterprises have been there, done that and have nothing to show for
 their efforts or \$\$\$ except the team t-shirt. Yet [Tim
 Berners-Lee](http://en.wikipedia.org/wiki/Tim_Berners-Lee)[believes](http://www.w3.org/2005/Talks/0511-keynote-tbl)
@@ -68,7 +68,7 @@ Second, enterprise systems aren’t exactly known for their “simple
 generality”. If Nick’s right that “generality of purpose is the key to
 serendipitous (re)use”, then enterprises might as well give up on
 serendipitous reuse right now. As I said last year, it’s a [question of
-context](http://devhawk.net/2006/09/19/A+Question+Of+Context.aspx).
+context](http://devhawk.net/2006/09/19/a-question-of-context/).
 Context is specifics, the opposite of generality. Different business
 units have different business practices, different geographies have
 different laws, different markets have different competitors, etc. If an

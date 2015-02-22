@@ -1,11 +1,11 @@
 Last week, I asked [a REST
-Question](http://devhawk.net/2007/06/05/A+REST+Question.aspx): is it
+Question](http://devhawk.net/2007/06/05/a-rest-question/): is it
 still REST if you don’t use HTTP? My interest in durable messaging is
 [well
-documented](http://devhawk.net/2007/05/30/The+Case+For+Durable+Messaging+In+Service+Orientation.aspx),
+documented](http://devhawk.net/2007/05/30/the-case-for-durable-messaging-in-service-orientation/),
 so I want is to see a RESTful approach combined with a durable
 messaging. We all know my [durable messaging tool of
-choice](http://devhawk.net/2006/10/23/The+Other+Foundation+Technology.aspx),
+choice](http://devhawk.net/2006/10/23/the-other-foundation-technology/),
 though I’d trade SSB in a second for something that provided durable
 duplex messaging in a standard way.
 
@@ -52,7 +52,7 @@ high-level overview-y.
 Pat Helland
 [writes](http://blogs.msdn.com/pathelland/archive/2007/06/12/every-noun-can-be-verbed.aspx)
 that Every Noun Can be Verbed. It’s more related to [CRUD is
-CRAP](http://devhawk.net/2007/05/24/REST+Is+Neither+CRUD+Nor+CRAP.aspx)
+CRAP](http://devhawk.net/2007/05/24/rest-is-neither-crud-nor-crap/)
 than REST == HTTP, but it’s well worth the read. His point about using
 filling out a form being CRUD, but then handing the form over to someone
 else being an invocation of behavior is fairly eye-opening. As long as

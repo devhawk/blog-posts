@@ -79,7 +79,7 @@ else:
 ```
 
 I’ve [blogged about decorators
-before](http://devhawk.net/2008/11/19/IronPython+And+WPF+Part+4+Background+Processing.aspx)
+before](http://devhawk.net/2008/11/19/ironpython-and-wpf-part-4-background-processing/)
 when I wanted to automatically invoke operations on the right thread in
 my WPF photo viewing app. The @inputcmd decorator is a bit more
 complicated than the @BGThread and @UIThread decorators since @inputcmd

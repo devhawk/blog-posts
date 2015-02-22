@@ -7,7 +7,7 @@ programs. In these scenarios, part of the application is built in
 IronPython other parts are build in compiled, statically typed languages
 like C\# or Visual Basic. Sometimes, programs are written this way to
 allow the C\# app to access a Python library, like my [Pygments for WL
-Writer](http://devhawk.net/2009/04/05/Pygments+For+Windows+Live+Writer.aspx)
+Writer](http://devhawk.net/2009/04/05/pygments-for-windows-live-writer/)
 plugin. Other programs want to be customizable by the end user, like
 [Intellipad](http://blogs.msdn.com/intellipad/archive/2008/11/11/newbie-experience-writing-a-custom-command.aspx).
 Whatever the reason, I think that the number of these hybrid polyglot
@@ -26,7 +26,7 @@ shirt)
 The thing is that if you’re going to build polyglot apps, you’re
 probably going to want the ability to debug polyglot apps as well. I’ve
 [written
-extensively](http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+Introduction.aspx)
+extensively](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-introduction/)
 about building a debugger for IronPython. However,
 [ipydbg](http://github.com/devhawk/ipydbg/) uses the CLR debugger under
 the hood which means you have to have the debugger and the code it’s

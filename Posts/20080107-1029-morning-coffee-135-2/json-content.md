@@ -31,7 +31,7 @@
     impose centralized control over their distributed organizations. In
     many cases, such centralization is a sure recipe for failure.” Also,
     his point that “control without controlling” works sounds [vaguely
-    familiar](http://devhawk.net/2007/10/25/The+Worst+Of+Both+Worlds.aspx).
+    familiar](http://devhawk.net/2007/10/25/the-worst-of-both-worlds/).
 -   Update – This is really Morning Coffee 136, but I don’t want to
     change the title since it’s part of the URL
 

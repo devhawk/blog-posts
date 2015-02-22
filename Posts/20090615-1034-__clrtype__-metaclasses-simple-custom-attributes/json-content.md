@@ -1,7 +1,7 @@
 I know it’s been a while since my [last \_\_clrtype\_\_
-post](http://devhawk.net/2009/04/24/clrtype+Metaclasses+Demo+Silverlight+Databinding.aspx),
+post](http://devhawk.net/2009/04/24/__clrtype__-metaclasses-demo-silverlight-databinding/),
 but I was blocked on some bug fixes that shipped as part of [IronPython
-2.6 Beta 1](http://devhawk.net/2009/05/21/IronPython+26+Beta+1.aspx). So
+2.6 Beta 1](http://devhawk.net/2009/05/20/ironpython-2-6-beta-1/). So
 now let’s start looking at one of the [most requested IronPython
 features](http://ironpython.codeplex.com/WorkItem/View.aspx?WorkItemId=20489)
 – custom attributes!
@@ -26,11 +26,11 @@ While you can pass some arguments to the constructor, for this first
 post I’m going to use the [parameterless
 constructor](http://msdn.microsoft.com/en-us/library/0xwcsd3h.aspx). To
 keep things less confusing, I’m going back to the [original
-version](http://devhawk.net/2009/04/22/clrtype+Metaclasses+Customizing+The+Type+Name.aspx)
+version](http://devhawk.net/2009/04/22/__clrtype__-metaclasses-customizing-the-type-name/)
 of the Product class, before I introduced CLR
-[fields](http://devhawk.net/2009/04/23/clrtype+Metaclasses+Adding+CLR+Fields.aspx)
+[fields](http://devhawk.net/2009/04/23/__clrtype__-metaclasses-adding-clr-fields/)
 and
-[properties](http://devhawk.net/2009/04/24/clrtype+Metaclasses+Adding+CLR+Properties.aspx).
+[properties](http://devhawk.net/2009/04/24/__clrtype__-metaclasses-adding-clr-properties/).
 The one change I’m making is that I’m adding a list of attributes I want
 to add to the class.
 

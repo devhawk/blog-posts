@@ -1,5 +1,5 @@
 In the [last
-post](http://devhawk.net/2007/12/13/Practical+F+Parsing+Syntactical+Productions+1.aspx),
+post](http://devhawk.net/2007/12/13/practical-f-parsing-syntactical-productions-1/),
 I gave you a sneak preview of what the EndOfLine production would look
 like using Active Patterns. But before we get to how to build that, let
 me give you a little background on why. If you want the full
@@ -10,7 +10,7 @@ Basically, Active Patterns (aka AP) are a way to use the pattern
 matching of functional languages with abstractions rather than native
 language types. If you’ll recall, I [built functions to abstract the
 parse
-buffer](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx)
+buffer](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/)
 so I could later change it’s implementation if I needed to. The problem
 is that since the parse buffer is an abstraction, you can’t use it in
 the match clauses. For example, here’s a version of EndOfLine that uses
@@ -46,7 +46,7 @@ let (|NC|_|) input =
 ```
 
 This function is identical to the one defined in [the first
-post](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx),
+post](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/),
 except for the name. By surrounding the actual name in paren/pipe
 “bananas”, you’re indicating the function can be used in match clauses,
 not just the match input. The trailing underscore in the name indicates

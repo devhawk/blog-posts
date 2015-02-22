@@ -1,8 +1,8 @@
 As part of my series on [using IronPython with
-WPF](http://devhawk.net/2008/11/13/IronPython+And+WPF+Part+1+Introduction.aspx)
+WPF](http://devhawk.net/2008/11/12/ironpython-and-wpf-part-1-introduction/)
 [1], I built an extension method in C\# that does [dynamic member
 resolution on WPF
-FrameworkElements](http://devhawk.net/2008/11/14/IronPython+And+WPF+Part+2+Loading+XAML.aspx).
+FrameworkElements](http://devhawk.net/2008/11/14/ironpython-and-wpf-part-2-loading-xaml/).
 The upshot of this code is that I can write “win1.listbox1” instead of
 “win1.FindName(‘listbox1’)” when using WPF objects from Python or any
 DLR language. Convenient, right?
@@ -22,7 +22,7 @@ RTM](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8
 [nightly build version
 46242](http://nbs.blob.core.windows.net/ironpython/IronPython.46242.release.zip),
 and an internal version [without the mangled
-namespaces](http://devhawk.net/2008/09/17/DLR+Namespace+Change+Fire+Drill.aspx)
+namespaces](http://devhawk.net/2008/09/17/dlr-namespace-change-fire-drill/)
 of our public CodePlex releases. Having to manage multiple copies of my
 extension assembly would get annoying very quickly.
 

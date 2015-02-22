@@ -1,5 +1,5 @@
 I [added
-traceback](http://devhawk.net/2009/10/07/Hybrid+App+Debugging+Ndash+TracebackDelegate+And+SetTrace.aspx)
+traceback](http://devhawk.net/2009/10/07/hybrid-app-debugging-tracebackdelegate-and-settrace/)
 to my GetThings app in just two lines of code, but so far it doesn’t
 actually do anything that you would expect a debugger to do. But before
 we get to that, we need understand a little about how threading works

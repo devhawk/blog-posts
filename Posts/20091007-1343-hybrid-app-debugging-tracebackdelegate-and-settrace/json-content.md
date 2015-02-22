@@ -1,5 +1,5 @@
 Now that I’ve introduced my [simple hybrid GetThings
-app](http://devhawk.net/2009/10/06/Lightweight+Debugging+For+Hybrid+CIronPython+Apps.aspx),
+app](http://devhawk.net/2009/10/06/lightweight-debugging-for-hybrid-cironpython-apps/),
 we need to set about adding support for debugging just the IronPython
 part of the app via the new lightweight debugging functionality we’re
 introducing in 2.6. Note, the code is [up on
@@ -78,7 +78,7 @@ code before you added the SetTrace call. That’s because we’re not doing
 anything in the traceback handler. But if you run this in the debugger
 with a breakpoint on this function, you’ll see that it gets called a
 bunch of times. In the python code [from the last
-post](http://devhawk.net/2009/10/06/Lightweight+Debugging+For+Hybrid+CIronPython+Apps.aspx),
+post](http://devhawk.net/2009/10/06/lightweight-debugging-for-hybrid-cironpython-apps/),
 there are three scopes – module scope, download\_stuff function scope
 and the get\_nodes function scope. Each of those function scopes will
 have a call and return event, plus a bunch of line events in between.

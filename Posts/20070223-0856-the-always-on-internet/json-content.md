@@ -4,7 +4,7 @@ As this post is about Web 2.0, it’s obviously from fairly old from his
 previous role @ Microsoft.)*
 
 In my [previous
-post](http://devhawk.net/2007/02/23/The+Information+Revolution+Is+Just+Getting+Started.aspx),
+post](http://devhawk.net/2007/02/23/the-information-revolution-is-just-getting-started/),
 I wrote that I thought of Web 2.0 as the latest evolution of our
 post-industrial society. This latest evolutionary step was enabled by
 ubiquitous access to the Internet. We’ve come a long way on that front

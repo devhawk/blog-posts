@@ -3,7 +3,7 @@ war](http://www.technorati.com/search/http%3A%2F%2Fsteve.vinoski.net%2Fblog%2F20
 by admitting he has [lost the ESB
 religion](http://steve.vinoski.net/blog/2007/10/04/the-esb-question/).
 Given that I’ve [never been a fan of
-ESB’s](http://devhawk.net/2007/04/25/Enterprise+Service+Bus+Give+Me+An+Extra+Special+Bitter+Instead.aspx)
+ESB’s](http://devhawk.net/2007/04/25/enterprise-service-bus-give-me-an-extra-special-bitter-instead/)
 anyway, there’s a lot there that I agree with. In particular I liked the
 description of “magical framework” middleware, blaming enterprise
 architects for driving ESB’s as the “single integration architecture”

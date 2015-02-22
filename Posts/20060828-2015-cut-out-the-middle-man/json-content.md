@@ -33,7 +33,7 @@ First off, I’m a bit wary about this part: “it is our intent to develop
 modeling standards”. Of course, OMG is responsible for
 [UML](http://www.uml.org/) and long time readers should be well aware of
 [my opinion of
-UML](http://devhawk.net/2004/02/03/Being+A+Model+Citizen.aspx). I don’t
+UML](http://devhawk.net/2004/02/02/being-a-model-citizen/). I don’t
 want to [set the bozo bit](http://c2.com/cgi/wiki?SetTheBozoBit) on an
 entire organization, but I am skeptical that any new modeling
 “standards” from OMG will be any more effective than the [Unwanted

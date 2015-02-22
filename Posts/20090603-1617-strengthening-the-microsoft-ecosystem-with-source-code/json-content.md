@@ -2,7 +2,7 @@
 
 ![clip\_image001](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg)Today
 was the Presentation Idol competition [I blogged
-about](http://devhawk.net/2009/05/18/Microsoft+And+Open+Source.aspx) a
+about](http://devhawk.net/2009/05/18/microsoft-and-open-source/) a
 couple of weeks ago. Unfortunately, I didn’t win – but believe me when I
 say I was up against some *serious* competition. I think I was about in
 the middle of the pack – better than some but clearly not as good as

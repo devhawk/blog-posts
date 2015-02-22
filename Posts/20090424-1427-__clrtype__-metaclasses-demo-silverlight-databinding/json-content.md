@@ -21,7 +21,7 @@ build the skeleton project.
 In the generated app.xaml file, I removed the default text box and
 replaced it with this XAML code that I stole nearly-verbatim from my
 blog post on [data binding in WPF with
-IronPython](http://devhawk.net/2008/11/18/IronPython+And+WPF+Part+3+Data+Binding.aspx).
+IronPython](http://devhawk.net/2008/11/17/ironpython-and-wpf-part-3-data-binding/).
 The only thing I changed was the binding path for the text block (title
 became name).
 

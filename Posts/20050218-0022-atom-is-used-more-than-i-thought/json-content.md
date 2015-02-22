@@ -1,4 +1,4 @@
-When I [upgraded](http://devhawk.net/New+DasBlog+Version.aspx) to
+When I [upgraded](http://devhawk.net/2005/02/10/new-dasblog-version/) to
 DasBlog 1.7.2, I had to create an empty rss.aspx file on disk to fool
 the Title Mapper (that’s the part the handles the new title based URLs)
 into not looking for a post with the title “rss”. I knew that a large

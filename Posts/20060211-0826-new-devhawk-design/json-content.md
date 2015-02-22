@@ -1,6 +1,6 @@
 For those of you reading this via the syndication feed, I rolled out a
 new site design last night. I figured that after [three
-years](http://devhawk.net/2006/01/28/Happy+Belated+Birthday+To+DevHawk.aspx) it
+years](http://devhawk.net/2006/01/27/happy-belated-birthday-to-devhawk/) it
 was high time for a new site design. Not being much of a designer, I
 started with the [Rounded design
 template](http://download.microsoft.com/download/7/8/0/7802dbf0-d500-41a7-b635-5bd3131229be/Rounded%20VS%20Design%20Templates.msi)

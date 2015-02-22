@@ -1,5 +1,5 @@
 Like many apps today, my [WL Spaces photo
-viewer](http://devhawk.net/2008/11/13/IronPython+And+WPF+Part+1+Introduction.aspx)
+viewer](http://devhawk.net/2008/11/12/ironpython-and-wpf-part-1-introduction/)
 is a connected app. The various WL Spaces RSS feeds that drive the app
 can take a several seconds to download. Unless you like annoying your
 users, it’s a bad idea to lock up your user interface while you make you
@@ -125,7 +125,7 @@ A couple of quick implementation notes:
     delegates](http://www.codeplex.com/IronPython/SourceControl/FileView.aspx?itemId=649845&changeSetId=43712)
     with zero, two and up to sixteen parameters. However, those are in a
     separate namespace
-    ([remember?](http://devhawk.net/2008/09/17/DLR+Namespace+Change+Fire+Drill.aspx))
+    ([remember?](http://devhawk.net/2008/09/17/dlr-namespace-change-fire-drill/))
     and IPy seems to have an issue with importing overloaded type names
     into the current scope. I could have used their namespace scoped
     name, but instead I redefined the version from System to be called

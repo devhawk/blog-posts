@@ -5,7 +5,7 @@ haven’t gotten around to the rest of my thoughts on Mashup Camp. Until
 now…
 
 -   This should have been in the [day one
-    update](http://devhawk.net/2006/02/21/Thoughts+From+Mashup+Camp+Day+1.aspx),
+    update](http://devhawk.net/2006/02/20/thoughts-from-mashup-camp-day-1/),
     but we had a great presentation Monday night on the History of
     Computer Marketing. Very interesting and very entertaining.
 -   It was good to see [Marc
@@ -45,7 +45,7 @@ now…
     manager enhancements, [search engine UI
     improvements](http://wiki.mozilla.org/Search_Service), and an update
     to the  browser appearance. As I wrote in [Browser as
-    VM](http://devhawk.net/2006/02/03/Browser+As+Virtual+Machine.aspx),
+    VM](http://devhawk.net/2006/02/02/browser-as-virtual-machine/),
     we’ve reached an inertia point where it’s hard for a browser vendor
     to add new proprietary capabilities that only work on their browser.
     Same goes for Microsoft – read the [IE7 Technology

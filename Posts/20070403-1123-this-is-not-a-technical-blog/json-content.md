@@ -10,7 +10,7 @@ MVP, natch) and my blog no longer graces the pages of the [MSDN
 Architecture Center](http://msdn2.microsoft.com/architecture), I don’t
 bother to provide a dev-centric, politically sanitized and work safe
 version of this blog. As I [wrote several years
-ago](http://devhawk.net/2004/10/14/Waking+Up.aspx) that DevHawk is not a
+ago](http://devhawk.net/2004/10/13/waking-up/) that DevHawk is not a
 technical blog, it’s my personal blog. Like Sam, I don’t get paid to
 write it and if you don’t want to put up with [my
 politics](http://devhawk.net/CategoryView,category,Politics.aspx) to get

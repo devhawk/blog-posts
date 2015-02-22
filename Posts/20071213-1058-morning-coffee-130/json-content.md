@@ -55,7 +55,7 @@
     and an [immutable
     queue](http://blogs.msdn.com/ericlippert/archive/2007/12/10/immutability-in-c-part-four-an-immutable-queue.aspx).
     As [I’ve
-    discussed](http://devhawk.net/2007/12/05/Functional+Understanding.aspx),
+    discussed](http://devhawk.net/2007/12/04/functional-understanding/),
     immutable data structures are HUGE in functional programming. Eric’s
     immutable stacks and queues are similar to F\#’s [native list
     type](http://research.microsoft.com/fsharp/manual/quicktour.aspx#QuickTourLists).

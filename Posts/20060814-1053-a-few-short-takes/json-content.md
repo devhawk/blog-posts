@@ -85,5 +85,5 @@ disk](http://www.maximumpc.com/2005/01/how_to_slipstre.html) to get my
 Dell workstation up and running (Vista installed without any extra
 work). But now I’ve got the baseline install imaged – thanks to [BootIt
 NG](http://www.terabyteunlimited.com/bootitng.html) which I’ve [spoken
-highly](http://devhawk.net/2005/09/20/New+Dev+Partition+Contents.aspx)
+highly](http://devhawk.net/2005/09/19/new-dev-partition-contents/)
 of before – I shouldn’t ever have to do that again.

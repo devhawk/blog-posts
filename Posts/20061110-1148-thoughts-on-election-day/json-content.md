@@ -38,7 +38,7 @@ Here are a few short takes on the election:
 -   There’s no such thing as a political party that actively works for
     limited government. It isn’t that surprising, as it violates my
     [Numero
-    Uno](http://devhawk.net/2006/10/03/Numero+Uno+Theory+Of+Sociology.aspx)
+    Uno](http://devhawk.net/2006/10/03/numero-uno-theory-of-sociology/)
     theory. Individuals may want limited government, but there’s no way
     a government entity like a political party will actively work to
     reduce their own importance. Republicans claim to be for shrinking

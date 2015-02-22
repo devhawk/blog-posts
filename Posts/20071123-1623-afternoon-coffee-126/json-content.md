@@ -28,7 +28,7 @@
     Factory](http://msdn2.microsoft.com/en-us/library/bb931187.aspx).
     This one’s called the “Modeling Edition”. I saw some of this stuff
     [back in
-    August](http://devhawk.net/2007/08/01/Service+Factory+Customization+Workshop+Day+Two.aspx),
+    August](http://devhawk.net/2007/08/01/service-factory-customization-workshop-day-two/),
     and I like what those p&p folks are doing. It’s worth a look, just
     to see how they’ve integrated DSL and GAT.
 -   My old team shipped a [new

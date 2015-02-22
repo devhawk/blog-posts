@@ -1,5 +1,5 @@
 Last week, after I [posting my WF
-learnings](http://devhawk.net/2006/10/11/More+Stuff+I+Didnt+Know+About+WF.aspx),
+learnings](http://devhawk.net/2006/10/11/more-stuff-i-didnt-know-about-wf/),
 I got a call from [Paul
 Andrew](http://blogs.msdn.com/pandrew/archive/2006/10/16/Ten-Reasons-why-WF-is-not-a-Toy.aspx),
 Technical Product Manager for WF. Seems calling the built-in persistence

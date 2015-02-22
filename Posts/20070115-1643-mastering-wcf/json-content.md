@@ -2,7 +2,7 @@
 writes](http://codebetter.com/blogs/sam.gentile/archive/2007/01/10/New-and-Notable-134.aspx):
 
 > [Harry finds Indigo
-> daunting](http://devhawk.net/2007/01/05/Morning+Coffee+4.aspx). Me, I
+> daunting](http://devhawk.net/2007/01/05/morning-coffee-4/). Me, I
 > find mastering 8 different stacks (COM+/ES, ASMX, WSE, Remoting, MSMQ,
 > etc) to do the same thing and all the strange nuances a hell of a lot
 > more daunting but that’s just me, although the number of timeout
@@ -37,7 +37,7 @@ you were SOL.
 
 However, if “ease of development” was a goal for WCF, it doesn’t look
 like it was high on the list. And frankly, that’s fine. As I’ve [written
-before](http://devhawk.net/wcf+karma.aspx), I’d rather have a flexible
+before](http://devhawk.net/2006/07/28/wcf-karma/), I’d rather have a flexible
 if complicated low-level foundation to build higher-abstracted
 application infrastrucutre on top of.
 

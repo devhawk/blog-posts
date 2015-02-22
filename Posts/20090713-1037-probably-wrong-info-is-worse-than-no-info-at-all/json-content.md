@@ -40,6 +40,6 @@ eye since it’s rarely going to be the truth.
 
 (Ed. Note – Man, it’s been a long time since I’ve written about
 Architecture. My last Architecture post was [almost a year
-ago](http://devhawk.net/2008/07/25/Morning+Coffee+171.aspx). I don’t
+ago](http://devhawk.net/2008/07/25/morning-coffee-171/). I don’t
 miss the job but I do miss my old teammates – in particular Buzz, Rick,
 Dale and of course [Nick Malik](http://blogs.msdn.com/nickmalik).)

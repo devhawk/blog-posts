@@ -5,7 +5,7 @@
 > Insider](http://voices.washingtonpost.com/capitalsinsider/2009/02/avs_4_caps_1.html)
 
 Boy, it’s much more fun to write a Caps wrapup [when they
-win](http://devhawk.net/2009/02/19/Caps+4+Canadians+3+SO.aspx).
+win](http://devhawk.net/2009/02/18/caps-4-canadians-3-so/).
 
 Honestly, the less said about this game, the better. I said at both
 intermissions that the Caps were lucky to be tied/down by only one, and

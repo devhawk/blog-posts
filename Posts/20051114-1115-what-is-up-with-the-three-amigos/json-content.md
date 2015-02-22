@@ -1,5 +1,5 @@
 First, Amigo Grady Booch admits to [throwing away
-models](http://devhawk.net/2005/11/07/Grady+Booch+Sez+Throw+Models+Away.aspx).
+models](http://devhawk.net/2005/11/07/grady-booch-sez-throw-models-away/).
 Now, Amigo [Ivar Jacobson](http://www.ivarjacobson.com) has signed on as
 a VSIP partner:
 

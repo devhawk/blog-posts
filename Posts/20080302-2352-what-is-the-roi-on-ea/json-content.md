@@ -1,7 +1,7 @@
 Nick Malik [took me to
-task](http://devhawk.net/2008/02/27/Morning+Coffee+150.aspx#2fa81c1e-6989-4f3d-a056-997a11964dbe)
+task](http://devhawk.net/2008/02/27/morning-coffee-150/)
 for my
-[suggestion](http://devhawk.net/2008/02/27/Morning+Coffee+150.aspx) that
+[suggestion](http://devhawk.net/2008/02/27/morning-coffee-150/) that
 Enterprise Architecture provides no value.
 
 > You implied that I could not answer the question, “How does EA

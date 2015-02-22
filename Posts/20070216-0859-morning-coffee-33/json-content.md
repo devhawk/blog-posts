@@ -27,7 +27,7 @@ my vacation starts in earnest.
     and
     [Tomas](http://www.winterdom.com/weblog/2007/02/07/LongRunningServicesAndWSRM.aspx)
     all commented on my [long running services WCF
-    post](http://devhawk.net/2007/02/06/How+I+Learned+To+Stop+Worrying+And+Love+WCF.aspx).
+    post](http://devhawk.net/2007/02/06/how-i-learned-to-stop-worrying-and-love-wcf/).
     Tomas mentions Advanced Message Queuing Protocol (AMQP) which looks
     to be developing an open spec queuing system like MSMQ or MQ series.
     Interesting, but given the lack of involvement of the major MQ and

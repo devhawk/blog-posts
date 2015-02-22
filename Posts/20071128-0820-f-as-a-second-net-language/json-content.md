@@ -6,9 +6,9 @@ F\#.)*
 I’ve been spending some real quality time with F\# of late. I’ve been
 getting into parsing again, and it turns out that functional pattern
 matching languages like F\# are really good at text processing. After
-[claiming](http://devhawk.net/2007/01/10/Morning+Coffee+7.aspx) I’d
+[claiming](http://devhawk.net/2007/01/10/morning-coffee-7/) I’d
 learn F\# this year, then [abandoning the
-effort](http://devhawk.net/2007/02/06/Morning+Coffee+25.aspx) to learn
+effort](http://devhawk.net/2007/02/06/morning-coffee-25/) to learn
 Powershell, I went back to F\#. Nothing against PowerShell – I’ve moved
 over to using it as my primary command line shell and have tricked out
 my startup script and everything. But I haven’t found much need to code
@@ -43,15 +43,15 @@ This turned into a fairly long post, so I split it out into a series
 that I’ll post thru the end of the week.
 
 -   [Functional
-    Programming](http://devhawk.net/2007/11/28/F+Hawkeye+Functional+Programming.aspx)
+    Programming](http://devhawk.net/2007/11/28/f-hawkeye-functional-programming/)
 -   [Pattern
-    Matching](http://devhawk.net/2007/11/29/F+Hawkeye+Pattern+Matching.aspx)
+    Matching](http://devhawk.net/2007/11/29/f-hawkeye-pattern-matching/)
 -   [Type
-    Inference](http://devhawk.net/2007/11/29/F+Hawkeye+Type+Inference.aspx)
+    Inference](http://devhawk.net/2007/11/29/f-hawkeye-type-inference/)
 -   [Assorted
-    Goodness](http://devhawk.net/2007/11/30/F+Hawkeye+Assorted+Goodness.aspx)
+    Goodness](http://devhawk.net/2007/11/30/f-hawkeye-assorted-goodness/)
 -   [Assorted
-    Not-So-Goodness](http://devhawk.net/2007/11/30/F+Hawkeye+Assorted+NotSoGoodness.aspx)
+    Not-So-Goodness](http://devhawk.net/2007/11/30/f-hawkeye-assorted-not-so-goodness/)
 
 UPDATE – added link to Tomas Petricek’s [F\#
 Introduction](http://cs.hubfs.net/blogs/tomasp/archive/2007/11/03/fsharp_introduction.aspx)

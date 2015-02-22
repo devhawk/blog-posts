@@ -59,7 +59,7 @@ they have.
 As per the original app, I use LINQ to find the right profile as well as
 count the number of contacts. I was able to reuse the linq.py file I
 wrote for my [Rock Band song list screen
-scraper](http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+2+Screen+Scraping.aspx)
+scraper](http://devhawk.net/2008/11/26/ironpython-and-linq-to-xml-part-2-screen-scraping/)
 (though I did have to add the Count function since I hadn’t needed it
 previously). I’ve posted [this
 script](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/LiveFxPsmDemo.zip)

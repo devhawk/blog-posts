@@ -16,7 +16,7 @@ post](http://blog.hackedbrain.com/archive/2005/10/06/3193.aspx) from
 > Experience](http://blog.hackedbrain.com/archive/2005/10/06/3193.aspx)</span>]
 
 Given that I just [wrote about
-compiling](http://devhawk.net/2005/10/05/Code+Is+Model.aspx), I wanted
+compiling](http://devhawk.net/2005/10/05/code-is-model/), I wanted
 to weigh with a couple of points:
 
 -   <div>

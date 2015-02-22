@@ -14,7 +14,7 @@ generation of operational modeling tools like what we see in [Visual
 Studio Team System for
 Architects](http://msdn.microsoft.com/vstudio/teamsystem/architect/). As
 I [wrote several years
-ago](http://devhawk.net/2004/02/03/Being+A+Model+Citizen.aspx), VSTS:A
+ago](http://devhawk.net/2004/02/02/being-a-model-citizen/), VSTS:A
 solves a very common problem – developers lack of understanding about
 the deployment environment. Piyush, haven’t you ever had a long weekend
 going back to the drawing board because the solution you had built was
@@ -29,7 +29,7 @@ being able to solve a problem are two different things. Furthermore, the
 history of software is also littered with very successful attempts to
 raise the level of abstraction by the introduction of new programming
 languages: C, C++, VB and Ruby are all examples of this. Given that
-[Code is Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx), what
+[Code is Model](http://devhawk.net/2005/10/05/code-is-model/), what
 we have is a history of software littered with some successful and some
 unsuccessful modeling constructs. I would argue that the successful
 modeling constructs have taken a bottom up approach – build a language a

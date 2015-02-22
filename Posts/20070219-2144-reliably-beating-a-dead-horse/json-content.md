@@ -1,7 +1,7 @@
 *(Harry is on a secret mission in uncharted space this week, so instead
 of the daily Morning Coffee post, you get a series of autoposted essays.
 This post builds on Harry’s [recent
-epiphany](http://devhawk.net/2007/02/06/How+I+Learned+To+Stop+Worrying+And+Love+WCF.aspx)
+epiphany](http://devhawk.net/2007/02/06/how-i-learned-to-stop-worrying-and-love-wcf/)
 about WCF and long running services)*
 
 Way, way, *way* back in March of 2003, IBM and Microsoft published an
@@ -20,7 +20,7 @@ Reliably”:
 > [emphasis added]
 
 Now I know how I got [confused about WCF and long running
-services](http://devhawk.net/2007/02/06/How+I+Learned+To+Stop+Worrying+And+Love+WCF.aspx)
+services](http://devhawk.net/2007/02/06/how-i-learned-to-stop-worrying-and-love-wcf/)
 in the first place. *Support for long running services was part of the
 original web services vision!*
 
@@ -41,7 +41,7 @@ At some point in the three years between March 2003 and February 2006,
 WS-RM went from being the enabler of long running services to “yet
 another misnamed WS-\* protocol”. And with it, WCF lost (never had?) the
 ability to support long running services (as I’ve [written
-previously](http://devhawk.net/2006/10/29/Is+WCF+QuotStraightforwardquot+For+Long+Running+Tasks.aspx)).
+previously](http://devhawk.net/2006/10/28/is-wcf-straightforward-for-long-running-tasks/)).
 
 Now all and all, this isn’t a big deal. I agree with Shy that WS-RM is
 under specified as mechanism for durable messaging (Shy calls this
@@ -86,7 +86,7 @@ of scope for WCF v1.
 
 As I said before, lack of support for WS-RM based durable messaging
 isn’t that big a deal. As long as you understand [WCF’s sweet
-spot](http://devhawk.net/2007/02/06/How+I+Learned+To+Stop+Worrying+And+Love+WCF.aspx) -
+spot](http://devhawk.net/2007/02/06/how-i-learned-to-stop-worrying-and-love-wcf/) -
 the current version’s sweet spot anyway – and don’t try and make it be
 something it’s not, you should be fine. Furthermore, Shy mentions the
 need for an “interoperable Queued Messaging specification” and wrote

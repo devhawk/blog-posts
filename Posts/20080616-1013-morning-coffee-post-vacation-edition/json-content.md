@@ -1,5 +1,5 @@
 It’s been exactly a month since [my last
-post](http://devhawk.net/2008/05/16/DevHawk+World+Tour+2008.aspx). A
+post](http://devhawk.net/2008/05/16/devhawk-world-tour-2008/). A
 crazy month, hence the lack of blog posting around here. Sorry about
 that. [My wife](http://techiewife.spaces.live.com) has been much more
 regular in her blogging than I have of late – she’s posted a dozen times

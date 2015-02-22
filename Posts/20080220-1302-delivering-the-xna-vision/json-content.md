@@ -1,5 +1,5 @@
 Shortly after posting [today’s morning
-coffee](http://devhawk.net/2008/02/20/Morning+Coffee+148.aspx), I notice
+coffee](http://devhawk.net/2008/02/20/morning-coffee-148/), I notice
 two “blogging advisories” in my inbox from the XNA team. They’re
 announcing two things: [XNA Game Studio
 3.0](http://forums.xna.com/ShowThread.aspx?PostID=46553) and [Xbox LIVE

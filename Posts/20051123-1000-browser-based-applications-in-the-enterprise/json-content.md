@@ -1,5 +1,5 @@
 I asked Scoble for his thoughts on my [post about the term
-mashup](http://devhawk.net/2005/11/22/I+Hate+The+Term+Mashup.aspx), and
+mashup](http://devhawk.net/2005/11/22/i-hate-the-term-mashup/), and
 he decided simply to [link to
 it](http://scobleizer.wordpress.com/2005/11/22/the-non-gym-plan/). While
 I appreciate the traffic, I’d appreciate opinions even more. Luckily, in

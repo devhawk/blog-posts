@@ -5,7 +5,7 @@ One](http://www.resolversystems.com/products/), “a familiar
 spreadsheet-like interface with the powerful Python programming language
 to give you a tool to analyse and present your data.” While I think they
 have a great product on pure merit – I’ve been [impressed with their
-product](http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx)
+product](http://devhawk.net/2008/01/31/morning-coffee-141-lang-net-08-edition/)
 since I was introduced to it at Lang.NET this year – I’m particularly
 interested in Resolver One as it’s written in IronPython. They use IPy
 not only as the embedded language exposed to end users but as the

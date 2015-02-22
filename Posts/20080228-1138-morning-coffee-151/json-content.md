@@ -39,7 +39,7 @@
     into. Personally, I’m particularly interested in WL Delegated Auth,
     esp. how it deals with phishing, something [I don’t think OAuth
     handles very
-    well](http://devhawk.net/2007/11/19/Morning+Coffee+124.aspx).
+    well](http://devhawk.net/2007/11/19/morning-coffee-124/).
 -   Windows Live isn’t the only group making announcements in advance of
     MIX. Adobe [announced a research
     project](http://www.infoworld.com/article/08/02/26/adobe-player_1.html)

@@ -1,5 +1,5 @@
 So I said
-[yesterday](http://devhawk.net/2005/08/31/Architecture+At+The+Intersection.aspx)
+[yesterday](http://devhawk.net/2005/08/30/architecture-at-the-intersection/)
 that I’m talking about architecture, not architects. However, today I am
 going to discuss the word architect and the dramatic misuse of the word
 I see pretty regularly. Or at least, I see now because [Paul

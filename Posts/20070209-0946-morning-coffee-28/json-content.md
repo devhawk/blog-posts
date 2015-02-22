@@ -1,5 +1,5 @@
 -   From the “Ask and ye shall receive” department: A couple weeks ago
-    [I wondered](http://devhawk.net/2007/01/23/Morning+Coffee+16.aspx)
+    [I wondered](http://devhawk.net/2007/01/23/morning-coffee-16/)
     how good or bad my Gamerscore conversion rate is.
     [MyGamerCard.net](http://www.mygamercard.net/) just launched a
     [completion
@@ -15,7 +15,7 @@
     2](http://www.xbox.com/games/fuzionfrenzy2xbox360/) for completing
     the challenge.
 -   Yesterday, I
-    [complained](http://devhawk.net/2007/02/08/Morning+Coffee+27.aspx)
+    [complained](http://devhawk.net/2007/02/08/morning-coffee-27/)
     that code in my RSS feed looks awful. It appears to be a problem
     with dasBlog. In validating the HTML is actually XHTML, it screws up
     the white space. Of course, usually that’s not a big deal, but

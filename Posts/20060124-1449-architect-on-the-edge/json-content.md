@@ -1,6 +1,6 @@
 So for the fourth time in seven months, I have a new manager. Way way
 way back and the end of June, I [left marketing to be a solution
-architect](http://devhawk.net/2005/06/24/My+Next+Job.aspx). In doing so,
+architect](http://devhawk.net/2005/06/24/my-next-job/). In doing so,
 I traded in [Norman](http://atlasbrandview.blogspot.com/) for
 [John](http://blogs.msdn.com/jdevados/) as my manager. Things were
 looking shiny but then Microsoft had a [major

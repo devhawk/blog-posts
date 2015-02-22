@@ -20,7 +20,7 @@
     bit of time talking to Sam and his Neudesic colleagues about this
     “physically distributed/logically centralized” approach that [I
     think is
-    hogwash](http://devhawk.net/2007/10/25/The+Worst+Of+Both+Worlds.aspx).
+    hogwash](http://devhawk.net/2007/10/25/the-worst-of-both-worlds/).
     It sounds to me like Neudesic approach is really federated not
     centralized, though I’m not sure [David
     Pallmann](http://davidpallmann.spaces.live.com/default.aspx) would
@@ -56,7 +56,7 @@
     IT](http://steve.vinoski.net/blog/2007/10/29/theres-no-hope-for-it/).
     Funny, I keep agreeing with Steve’s overall point but disagreeing
     with his reasoning. I still don’t buy the [serendipity
-    argument](http://devhawk.net/2007/07/31/Is+Serendipity+The+Heart+Of+The+WSREST+Debate.aspx).
+    argument](http://devhawk.net/2007/07/31/is-serendipity-the-heart-of-the-ws-rest-debate/).
     I like compiled languages. And I think he’s overstating the amount
     of “real, useful guidance” for REST floating around. Basically,
     there’s “[the book](http://www.oreilly.com/catalog/9780596529260/)“.

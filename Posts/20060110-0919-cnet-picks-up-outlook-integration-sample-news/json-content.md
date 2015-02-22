@@ -1,5 +1,5 @@
 I couldn’t blog about the [Outlook Integration
-Sample](http://devhawk.net/2006/01/10/Outlook+Integration+Sample.aspx)
+Sample](http://devhawk.net/2006/01/09/outlook-integration-sample/)
 last week because we were waiting to see if the mainstream media would
 pick up the news. CNET ran an [article about the
 sample](http://news.com.com/Microsoft+shares+tools+for+unlocking+customer+data/2100-1012_3-6024821.html)

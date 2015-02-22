@@ -9,7 +9,7 @@ to do with architecture, development or hockey, but they still link to
 me. However, in checking out Technorati today, I discovered several
 blogs were linking to me that were out of the ordinary to say the least.
 Turns out that this picture I took on [my trip to Australia two years
-ago](http://devhawk.net/back+in+all+blacks.aspx) is the number one
+ago](http://devhawk.net/2004/08/15/back-in-all-blacks/) is the number one
 result when searching both [Windows Live Image
 Search](http://www.live.com/#q=sydney&scope=images) and [Google Image
 Search](http://images.google.com/images?q=sydney&hl=en).

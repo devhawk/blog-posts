@@ -6,7 +6,7 @@
     months, but I’d hold out until the end of the year if it meant being
     able to get one with a flash memory hard drive.
 -   I [wrote last
-    month](http://devhawk.net/2007/01/10/Morning+Coffee+7.aspx) that
+    month](http://devhawk.net/2007/01/10/morning-coffee-7/) that
     “The next new language I learn will be
     [F\#](http://research.microsoft.com/fsharp/fsharp.aspx)“. I was
     wrong. It’s

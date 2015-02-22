@@ -9,7 +9,7 @@ Anders Hejlsberg – LINQ and C\# 3.0
 -   This was basically a rehash of his talk from the March Compiler lab.
     Makes sense as it was a new audience, but the “Query the Running
     Processes” demo is getting pretty old. Check out [my notes from
-    March](http://devhawk.net/2006/03/14/Compiler+Dev+Lab+LINQ.aspx) for
+    March](http://devhawk.net/2006/03/14/compiler-dev-lab-linq/) for
     more details.
 
 [John Gough](http://sky.fit.qut.edu.au/~gough/) – Dealing with Ruby on
@@ -25,7 +25,7 @@ great if somewhat dated (i.e. .NET 1.0) book.
 
 Much of John’s talk covered the ground that [Jim
 Hugunin](http://blogs.msdn.com/hugunin/default.aspx) covered [back in
-March](http://devhawk.net/2006/03/15/Compiler+Dev+Lab+Scripting.aspx)
+March](http://devhawk.net/2006/03/15/compiler-dev-lab-scripting/)
 around the difficulties of mapping dynamic languages to the static CLR.
 For example, most Ruby.NET objects are instances of Ruby.Object, with
 their link to a class – a Ruby.Class – managed by the Ruby.NET runtime

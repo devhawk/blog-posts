@@ -49,4 +49,4 @@ something from a web site.
 If most business operations aren’t stateless, why should services that
 implement business operations be stateless? This seems like a violation
 of the “but no simpler” part of [Einstein’s famous paraphrased
-quote](http://devhawk.net/2006/07/06/Paraphasing+Simplicity.aspx).
+quote](http://devhawk.net/2006/07/06/paraphasing-simplicity/).

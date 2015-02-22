@@ -1,5 +1,5 @@
 I just [joined The Lounge advertising
-network](http://devhawk.net/2009/04/13/Joining+The+Lounge+Advertising+Network.aspx)
+network](http://devhawk.net/2009/04/13/joining-the-lounge-advertising-network/)
 so I wanted to pass along an opportunity to win a bunch of great
 technical books.
 

@@ -44,10 +44,10 @@
     [Mass Effect](http://www.xbox.com/games/masseffect), so now I need
     to decide which to take on first: that or Half-Life 2.
 -   A few months ago, I was [thinking
-    about](http://devhawk.net/2007/06/23/Home+Networking+Question.aspx)
+    about](http://devhawk.net/2007/06/23/home-networking-question/)
     using HomePlug for home networking but decided to [upgrade my
     wireless
-    network](http://devhawk.net/2007/07/09/Upgrading+My+Home+Wireless+Network.aspx)
+    network](http://devhawk.net/2007/07/08/upgrading-my-home-wireless-network/)
     instead. But recently I’ve started streaming movies from my loft
     computer to my Xbox, and the wireless network isn’t always up to the
     task. I could run CAT5, but there’s already an unused coax cable

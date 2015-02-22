@@ -46,4 +46,4 @@ be on campus and see friends and all that, but I can’t wait to go home.
 Why does PDC *always* have to be in LA?
 [Mike](http://blogs.msdn.com/mswanson/)? Well, at least it’s not [on
 fire this
-time](http://devhawk.net/2003/10/26/Stuck+SEATACLike+Everyone+Else.aspx).
+time](http://devhawk.net/2003/10/26/stuck-seatac-like-everyone-else/).

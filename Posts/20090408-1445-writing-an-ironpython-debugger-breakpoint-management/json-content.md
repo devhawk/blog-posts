@@ -1,5 +1,5 @@
 [Setting a
-breakpoint](http://devhawk.net/2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint.aspx)
+breakpoint](http://devhawk.net/2009/03/02/writing-an-ironpython-debugger-setting-a-breakpoint/)
 was the second feature I implemented in ipydbg. While setting a
 breakpoint on the first line of the Python file being run is convenient,
 it was obviously necessary to provide the user a mechanism to create
@@ -47,7 +47,7 @@ command. What was harder was deciding on the right user experience for
 this. I decided that breakpoint management was going to be the first
 multi-key command in ipydbg. so all the debug commands are prefixed with
 a “b”. I use the same [command routing
-decorator](http://devhawk.net/2009/04/01/Writing+An+IronPython+Debugger+Command+Routing.aspx)
+decorator](http://devhawk.net/2009/04/01/writing-an-ironpython-debugger-command-routing/)
 I used for input commands. As you can see, my breakpoint command looks a
 lot like my top level input method – read a key from the console then
 dispatch it via a commands dictionary that gets populated by @inputcmd
@@ -165,7 +165,7 @@ is up on GitHub. This will be the latest update to ipydbg for a little
 while. I worked on it quite a bit while I was at PyCon and have been
 busy with other things since I got home. Don’t worry, I’ll come back to
 it soon enough. As I [mentioned
-Monday](http://devhawk.net/2009/04/06/Writing+An+IronPython+Debugger+REPL+Console.aspx),
+Monday](http://devhawk.net/2009/04/06/writing-an-ironpython-debugger-repl-console/),
 I want to get function evaluation working so I can have a REPL console
 running in the target process instead of the one I’ve got currently
 running in the debugger process.

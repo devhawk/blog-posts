@@ -1,6 +1,6 @@
 To prep for my [Lang.NET](http://www.langnetsymposium.com/) talk, I went
 back and reviewed [my PEG
-parser](http://devhawk.net/2007/12/10/Practical+Parsing+In+F.aspx). One
+parser](http://devhawk.net/2007/12/10/practical-parsing-in-f/). One
 thing I was not happy with was that all the recursion was handled in a
 one-off manner. When I needed to match multiple characters in the
 comment rule, I wrote a special one-off function to recursively process

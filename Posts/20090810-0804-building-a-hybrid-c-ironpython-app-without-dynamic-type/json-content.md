@@ -3,14 +3,14 @@ type](http://msdn.microsoft.com/en-us/library/dd264736(VS.100).aspx).
 And it’ll be great…when it ships. In the meantime, some of us what to
 build hybrid C\# and IronPython applications today, such as my [Pygments
 for Windows Live Writer
-plugin](http://devhawk.net/2009/08/07/Pygments+For+Windows+Live+Writer+V102.aspx).
+plugin](http://devhawk.net/2009/08/07/pygments-for-windows-live-writer-v1-0-2/).
 
 [![pygments\_logo](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CallingIronPythonfromCWithouttheDynamicT_E49B/pygments_logo_55f6722f-70ee-4d75-8781-b5d547dd3f72.png "pygments_logo")
 Pygments](http://pygments.org/) is a syntax highlighter, written in
 Python, with support for [over one hundred
 languages](http://pygments.org/languages/). With the exception of a
 couple of bugs in our importer ([discussed
-here](http://devhawk.net/2009/08/07/Pygments+For+Windows+Live+Writer+V102.aspx))
+here](http://devhawk.net/2009/08/07/pygments-for-windows-live-writer-v1-0-2/))
 it works great with IronPython. It’s also extensible, so I was able to
 easily build a custom formatter to output exactly the HTML I want
 inserted in my blog posts. So it made perfect sense to use Pygments as

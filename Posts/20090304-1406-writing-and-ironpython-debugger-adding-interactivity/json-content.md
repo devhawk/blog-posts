@@ -1,5 +1,5 @@
 Now that ipydbg can [set a
-breakpoint](http://devhawk.net/2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint.aspx),
+breakpoint](http://devhawk.net/2009/03/02/writing-an-ironpython-debugger-setting-a-breakpoint/),
 it’s time to add some interactivity to the app. MDbg supports [dozens of
 commands](http://msdn.microsoft.com/en-us/library/ms229861.aspx) and
 currently ipydbg supports none. I’d love for ipydbg to support a wide
@@ -10,7 +10,7 @@ interactivity and future posts on specific commands.
 
 First off, we have to understand how the CorDebug managed API supports
 interactivity. [As we’ve
-seen](http://devhawk.net/2009/02/28/Writing+An+IronPython+Debugger+Hello+Debugger.aspx),
+seen](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-hello-debugger/),
 callbacks into the debugger are surfaced as managed events. If we look
 at the [base
 class](http://github.com/devhawk/ipydbg/blob/5858695ff85ed4740ad06466d4f54394e7f00f9b/CorDebug/CorDebug/Debugger.cs#L524)
@@ -28,7 +28,7 @@ signal the main thread of execution that it’s time to wake up and ask
 the user what they want to do next. Of course, that’s what
 [WaitHandle](http://msdn.microsoft.com/en-us/library/system.threading.waithandle.aspx)
 and it’s descendents are for. In fact, [we’re already
-using](http://devhawk.net/2009/02/28/Writing+An+IronPython+Debugger+Hello+Debugger.aspx)
+using](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-hello-debugger/)
 an AutoResetEvent in OnProcessExit to signal that the debugged app has
 exited so we should exit the debugger. However, now we have two
 different signals that we want to send: exit the debugger or enter the

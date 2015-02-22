@@ -1,5 +1,5 @@
 I really liked the ConsoleColorMgr class from my [last ipydbg
-post](http://devhawk.net/2009/03/19/Writing+An+IronPython+Debugger+Colorful+Console.aspx)
+post](http://devhawk.net/2009/03/19/writing-an-ironpython-debugger-colorful-console/)
 so I took a few minutes to yank it out into its own seperate module. I
 also took the opportunity to make a few improvements.
 

@@ -1,5 +1,5 @@
 As I’ve done the
-[past](http://devhawk.net/2007/09/04/The+DevHawk+2007+World+Tour.aspx)[two](http://devhawk.net/2008/05/16/DevHawk+World+Tour+2008.aspx)
+[past](http://devhawk.net/2007/09/04/the-devhawk-2007-world-tour/)[two](http://devhawk.net/2008/05/16/devhawk-world-tour-2008/)
 years, here’s a list of all the places I’m going in the next fiscal
 year. Traditionally, I’ve done this post by calendar year, but all MSFT
 planning is done by FY and so invariably I miss events early in the

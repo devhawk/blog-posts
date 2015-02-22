@@ -14,7 +14,7 @@ around my brain:
     championship game. Also, massive congrats to [Boise
     State](http://sports.espn.go.com/ncf/recap?gameId=270010201).
 -   Santa did [bring me free
-    time](http://devhawk.net/2006/12/13/Good+Week+For+Hobbyists+And+Students.aspx)
+    time](http://devhawk.net/2006/12/13/good-week-for-hobbyists-and-students/)
     this holiday, but I spent it playing games rather than writing them.
     I’m digging [Gears](http://www.xbox.com/games/gearsofwar) (big
     surprise) and [Dead Rising](http://xbox.com/games/deadrising), and
@@ -54,7 +54,7 @@ around my brain:
     about me going back to work and he broke down crying. I’m very lucky
     to be a part of such a tight knit family.
 -   I’ve been in my [“new”
-    job](http://devhawk.net/2006/06/15/Moving+On.aspx) for six months,
+    job](http://devhawk.net/2006/06/15/moving-on/) for six months,
     but it seems like longer. I mean that in a good way. It feels like I
     fit better in this job, on a much smaller team, actually building
     stuff instead of just “evangelizing” it. Nothing against evangelism,

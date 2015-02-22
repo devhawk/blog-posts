@@ -1,6 +1,6 @@
 [![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/970048722e75_E4A5/image_thumb.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/970048722e75_E4A5/image_5.png)
 In looking at my [hybrid IronPython / C\# Windows Live Writer
-plugin](http://devhawk.net/2009/08/10/Building+A+Hybrid+C+IronPython+App+Without+Dynamic+Type.aspx),
+plugin](http://devhawk.net/2009/08/10/building-a-hybrid-c-ironpython-app-without-dynamic-type/),
 we’re going to start at the bottom with the Pygments package. Typically
 Python packages are a physical on-disk folder that contain a collection
 of Python files (aka modules). And during early development of Pygments

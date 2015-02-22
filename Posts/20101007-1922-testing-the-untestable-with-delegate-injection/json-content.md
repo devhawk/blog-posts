@@ -66,7 +66,7 @@ methods on AccountController. That gets ugly fast.
 Instead of thinking in terms of objects and interfaces, I wondered what
 DI might look like if we thought about dependencies in terms of
 delegates and anonymous lambdas? You know, [functional
-programming](http://devhawk.net/2007/12/05/Functional+Understanding.aspx)? 
+programming](http://devhawk.net/2007/12/04/functional-understanding/)? 
 It might look something like this:
 
 ``` csharp

@@ -1,5 +1,5 @@
 I was updating [my webdev powershell
-script](http://devhawk.net/2008/03/20/WebDevWebServer+PowerShell+Function.aspx)
+script](http://devhawk.net/2008/03/20/webdev-webserver-powershell-function/)
 today. I wanted to add support for a -browser switch that would
 automatically launch a browser window the way chiron from the
 [Silverlight Dynamic Languages SDK](http://codeplex.com/sdlsdk). does. I

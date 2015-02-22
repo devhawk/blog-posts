@@ -18,7 +18,7 @@ Obasanjo](http://www.25hoursaday.com/weblog/2007/08/16/Version10OfWindowsLiveIDW
 Libor Soucek [leaps to the wrong
 conclusion](http://lsblog.wordpress.com/2007/08/17/enterprise-application-reality/)
 about [not
-differentiating](http://devhawk.net/2007/08/03/Morning+Coffee.aspx)
+differentiating](http://devhawk.net/2007/08/03/morning-coffee/)
 enterprise & support systems. Of course, different systems will have
 different availability requirements. But what happens when we connect
 them together? We can’t let the support system effect the availability

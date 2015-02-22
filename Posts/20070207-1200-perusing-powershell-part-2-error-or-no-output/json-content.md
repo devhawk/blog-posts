@@ -1,5 +1,5 @@
 In [yesterday’s post on
-PS](http://devhawk.net/2007/02/06/Perusing+Powershell+Part+1+GetSQLServer.aspx),
+PS](http://devhawk.net/2007/02/06/perusing-powershell-part-1-get-sqlserver/),
 I provided the source for my implementation of Get-SQLServer. I realized
 after I made the post that there was a significant bug in the
 ProcessRecord method. If you specify a service instance (default or

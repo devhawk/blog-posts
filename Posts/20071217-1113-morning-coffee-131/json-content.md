@@ -5,15 +5,15 @@
     due to the WGA strike.
 -   A while back I pointed out that many DotNetKicks articles [were
     submitted by their
-    authors](http://devhawk.net/2007/01/31/Morning+Coffee+21.aspx). I
+    authors](http://devhawk.net/2007/01/31/morning-coffee-21/). I
     submitted a [few of my
-    own](http://devhawk.net/2007/02/01/Morning+Coffee+22.aspx), just for
+    own](http://devhawk.net/2007/02/01/morning-coffee-22/), just for
     kicks (har har), with [mixed
-    results](http://devhawk.net/2007/02/02/Morning+Coffee+23.aspx).
+    results](http://devhawk.net/2007/02/02/morning-coffee-23/).
     Today, I discovered that the [parse buffer
-    post](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx)
+    post](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/)
     from my [Practical Parsing in
-    F\#](http://devhawk.net/2007/12/10/Practical+Parsing+In+F.aspx)
+    F\#](http://devhawk.net/2007/12/10/practical-parsing-in-f/)
     series was
     [submitted](http://www.dotnetkicks.com/other/Practical_F_Parsing_Part_1_the_Parse_Buffer),
     picked up some kicks, and made it to the home page. That’s pretty

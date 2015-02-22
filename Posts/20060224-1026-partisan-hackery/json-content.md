@@ -1,7 +1,7 @@
 A few people [took
 issue](http://devhawk.net/CommentView,guid,1a9e0102-c263-4226-b1cb-e076c94cf6bc.aspx)
 with me calling [Dennis Miller a partisan
-hack](http://devhawk.net/2006/02/12/Dennis+Miller+Has+Jumped+The+Shark.aspx) while
+hack](http://devhawk.net/2006/02/11/dennis-miller-has-jumped-the-shark/) while
 also expressing relief that the new season of [Real Time with Bill
 Maher](http://www.hbo.com/billmaher) was starting. I finally got to
 watch [last Friday’s

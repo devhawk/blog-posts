@@ -1,5 +1,5 @@
 As I’ve [written
-previously](http://devhawk.net/2008/09/17/DLR+Namespace+Change+Fire+Drill.aspx),
+previously](http://devhawk.net/2008/09/17/dlr-namespace-change-fire-drill/),
 we’ve had a few challenges recently with name collisions in the DLR. In
 that post, I described how we had solved – or thought we solved, as it
 turned out – the problem with ExtensionAttribute name collisions between

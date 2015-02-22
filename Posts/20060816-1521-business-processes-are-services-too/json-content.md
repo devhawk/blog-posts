@@ -4,7 +4,7 @@ with [Piyush Pant](http://unhandledx.blogspot.com/) over on his blog
 that started as a [comment he
 left](http://devhawk.net/CommentView,guid,4d427e9f-7775-4aae-a487-8cf8c1d8a991.aspx#commentstart)
 on my [Services Aren’t
-Stateless](http://devhawk.net/2006/07/27/Services+Arent+Stateless.aspx)
+Stateless](http://devhawk.net/2006/07/27/services-arent-stateless/)
 post. He thinks that I’m “missing the crucial point here by implicitly
 conflating business process and service state”. While Piyush hasn’t
 really defined what he means by these terms, I think I understand what

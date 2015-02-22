@@ -8,7 +8,7 @@ level of abstraction for databases. Regular DevHawk readers know I talk
 about [abstraction](http://devhawk.net/SearchView.aspx?q=abstraction) a
 lot around here. In fact, one of my earliest posts on this blog – 1
 house, 2 kids and 5 jobs ago – was on [Disruptive Programming Language
-Technologies](http://devhawk.net/2003/01/17/Disruptive+Programming+Language+Technologies.aspx).
+Technologies](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/).
 So this is a topic near and dear to my heart.
 
 This is an amazingly good thing. Think of the impact VB had on the

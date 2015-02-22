@@ -1,8 +1,8 @@
 OK, here’s the last word on this whole background processing /
 concurrency decorators thing. I went back and re-wrote the [original
-decorators](http://devhawk.net/2008/11/19/IronPython+And+WPF+Part+4+Background+Processing.aspx),
+decorators](http://devhawk.net/2008/11/19/ironpython-and-wpf-part-4-background-processing/),
 but using the approach I used with the [SyncContext
-version](http://devhawk.net/2008/11/20/IronPython+And+WPF+Background+Processing+Revisited.aspx).
+version](http://devhawk.net/2008/11/20/ironpython-and-wpf-background-processing-revisited/).
 I don’t want to rehash it again, here are the main points:
 
 -   Instead of using a property to retrieve the dispatcher, I get it via

@@ -38,7 +38,7 @@ evt.WaitOne()
 
 I start by adding a reference to the CorDebug library I discussed at the
 end of [my last
-post](http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+MDbg+101.aspx)
+post](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-mdbg-101/)
 (that’s the low level managed debugger API plus the C\# definitions of
 the various COM APIs). Then I need both the path to the IPy executable
 as well as the script to be run, which is passed in on the command line

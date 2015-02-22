@@ -1,7 +1,7 @@
 -   Bill de Hora
     [responds](http://www.dehora.net/journal/2007/12/21/durable-and-restful/)
     to a few of my [Durable and
-    RESTful](http://devhawk.net/2007/12/05/Durable+And+RESTful.aspx)
+    RESTful](http://devhawk.net/2007/12/05/durable-and-restful/)
     ideas. He points out that relying on a client-generated ID can be
     troublesome, and recommends using multiple identifiers – one created
     by the sender, one by the receiver and one representing the message
@@ -14,7 +14,7 @@
     [confirms](http://blogs.msdn.com/pablo/archive/2007/12/22/idempotence-on-http-operations.aspx)
     that there are “practical limits” to what ADO.NET Data Services can
     do with respect to
-    [idempotence](http://devhawk.net/2007/12/11/ADONET+Data+Services+And+Idempotence.aspx).
+    [idempotence](http://devhawk.net/2007/12/10/ado-net-data-services-and-idempotence/).
     Nothing in his post was surprising, though I hope it will be more
     explicitly called out in the final docs. Developers used to the
     comforting protection of a transaction may be in for a rude

@@ -1,5 +1,5 @@
 Now that I’ve moved over to [Active
-Patterns](http://devhawk.net/2007/12/14/Practical+F+Parsing+Active+Patterns.aspx),
+Patterns](http://devhawk.net/2007/12/14/practical-f-parsing-active-patterns/),
 I want to go back and finish the syntactic productions for my PEG
 parser. Most of the syntactic productions are very straightforward when
 implemented in AP. We’ve seen EndOfFile, EndOfLine and Space already.

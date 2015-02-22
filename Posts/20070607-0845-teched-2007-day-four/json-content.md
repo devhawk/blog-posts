@@ -24,7 +24,7 @@ on in other communities – primarily the Ruby community.
 
 I did get a chance to hack a little code yesterday. As a side effect of
 my interest in programming language design, I’m also interested in
-[parser development](http://devhawk.net/Modular+Compilers.aspx). Towards
+[parser development](http://devhawk.net/2006/08/15/modular-compilers/). Towards
 that end, I’ve been learning about [Parsing Expression
 Grammars](http://pdos.csail.mit.edu/~baford/packrat/). The [original PEG
 parser](http://pdos.csail.mit.edu/~baford/packrat/thesis/) was built in

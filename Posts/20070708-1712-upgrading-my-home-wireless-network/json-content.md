@@ -1,5 +1,5 @@
 A few weeks ago, I [put out the call for
-advice](http://devhawk.net/2007/06/23/Home+Networking+Question.aspx) on
+advice](http://devhawk.net/2007/06/23/home-networking-question/) on
 improving my home network. I got a bunch of responses, both for and
 against PowerLine. I ended up upgrading my wireless network because 1) I
 was having laptop connectivity issues and 2) wireless equipment is so

@@ -4,7 +4,7 @@
     [TechMeme](http://www.techmeme.com/070531/p8) has lots more, but
     obviously this is yet another significant bow shot in the
     ~~upcoming~~[unified client platform
-    war](http://devhawk.net/2007/05/23/Morning+Coffee+82.aspx). By my
+    war](http://devhawk.net/2007/05/23/morning-coffee-82/). By my
     count, there are four horses in this race: Microsoft with
     [.NET](http://msdn2.microsoft.com/netframework) and
     [Silverlight](http://www.microsoft.com/silverlight/), Adobe with

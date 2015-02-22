@@ -58,7 +58,7 @@
     F\#](http://cs.hubfs.net/blogs/hell_is_other_languages/archive/2008/01/16/4565.aspx).
     This immediately reminded me of [Tim Sweeney’s Next Mainstream
     Programming Language
-    talk](http://devhawk.net/2006/02/13/The+Next+Mainstream+Programming+Language.aspx).
+    talk](http://devhawk.net/2006/02/13/the-next-mainstream-programming-language/).
     Tim suggested said language would need to support a combination of
     side-effect free functional code and software transactional memory.
     F\# is looking to be closer to that language all the time.

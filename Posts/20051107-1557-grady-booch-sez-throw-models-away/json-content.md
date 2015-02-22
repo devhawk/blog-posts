@@ -15,10 +15,10 @@ models away but tend not to throw away the source code.”
 
 I’ve gotta believe that this comment was somehow taken out of context
 and that the Grand Poobah of the [Common Semantic
-Model](http://devhawk.net/2004/12/10/Booch+On+DSLs+Round+3.aspx) doesn’t
+Model](http://devhawk.net/2004/12/10/booch-on-dsls-round-3/) doesn’t
 actually believe that tossing the model at the end o the project is a
 good thing. If we view these comments thru the lens of [Code is
-Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx), you realize
+Model](http://devhawk.net/2005/10/05/code-is-model/), you realize
 this is a major violation of the “Models must be Intrinsic to the
 Development Process” tenet. Since code is model, it seems silly to throw
 out the UML model and keep the code model. The only reason I could think

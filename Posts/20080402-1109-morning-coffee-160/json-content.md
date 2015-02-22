@@ -19,7 +19,7 @@ pretty much unconnected for about a week and a half.
     [Resolver
     One](http://www.resolversystems.com/products/resolver-one.php)
     app/spreadsheet hybrid I’ve [written about
-    before](http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx).
+    before](http://devhawk.net/2008/01/31/morning-coffee-141-lang-net-08-edition/).
     He’s also the author of the upcoming [IronPython in
     Action](http://www.ironpythoninaction.com/) book and the maintainer
     of [Planet

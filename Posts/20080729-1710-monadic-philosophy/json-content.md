@@ -1,5 +1,5 @@
 (Since I accidentally [published part
-one](http://devhawk.net/2008/07/30/Pushed+The+Wrong+Button.aspx) of this
+one](http://devhawk.net/2008/07/29/pushed-the-wrong-button/) of this
 series a few minutes ago, I figured I might as well start publishing the
 series.)
 
@@ -20,7 +20,7 @@ However, all that changed when Stephan Tolksdorf alerted me to his very
 cool monadic parser combinator library
 [FParsec](http://www.quanttec.com/fparsec). I found the FParsec parsers
 much easier to read [my F\# parser
-efforts](http://devhawk.net/2007/12/10/Practical+Parsing+In+F.aspx), so
+efforts](http://devhawk.net/2007/12/10/practical-parsing-in-f/), so
 I became very interested in monadic parser combinators. As you might
 guess, a “monadic parser combinator library” makes heavy use of monads.
 Time to switch burners.

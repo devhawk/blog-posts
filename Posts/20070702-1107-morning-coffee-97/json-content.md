@@ -1,6 +1,6 @@
 -   For the first six months of 2007, I posted 158 times in 181 days.
     I’m obviously off the pace I set in January of averaging a [post a
-    day](http://devhawk.net/2007/01/31/Morning+Coffee+21.aspx), but I am
+    day](http://devhawk.net/2007/01/31/morning-coffee-21/), but I am
     averaging just under nine tenth of a post per day. Not bad. At this
     rate, I’ll post almost as much this year as I did the last two years
     combined.
@@ -74,7 +74,7 @@
     human behavior, it’s doomed from the start. Frankly, it’s amazing
     how often that happens.
 -   In response to my [What is the Rails Question
-    post](http://devhawk.net/2007/06/26/What+Is+The+Rails+Question.aspx),
+    post](http://devhawk.net/2007/06/26/what-is-the-rails-question/),
     Hartmut Wilms [wonders
     why](http://www.innoq.com/blog/hw/2007/06/29/the_rails_question_the_net_open_source_dilemma.html)
     “the .NET community (for the most part) ignores Open Source

@@ -21,7 +21,7 @@ opposed to a decision about how to build the system.
 
 I’ve held this opinion of architecture for a long time. Four years (and
 three jobs) ago, I wrote [the
-following](http://devhawk.net/2005/08/29/What+Is+Architecture.aspx):
+following](http://devhawk.net/2005/08/29/what-is-architecture/):
 
 > IMO, building a system that has a set of functional requirements
 > (track customers, process orders, etc) and non-functional constraints

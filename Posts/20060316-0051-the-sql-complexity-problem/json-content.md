@@ -1,5 +1,5 @@
 I mentioned on the [first day of the Compiler Dev
-Lab](http://devhawk.net/2006/03/14/Compiler+Dev+Lab++LINQ.aspx) that
+Lab](http://devhawk.net/2006/03/14/compiler-dev-lab-linq/) that
 [Brian Beckman](http://weblogs.asp.net/brianbec) is a hoot. He’s also
 wicked smart. He
 [posted](http://weblogs.asp.net/brianbec/archive/2006/03/15/440293.aspx)
@@ -30,7 +30,7 @@ cities instead of 3053, it’s 3x slower not to build the index.
 
 The reason I’m so interested in Brian’s post is because of my
 [experiments with
-Ning](http://devhawk.net/2006/02/27/Experimenting+With+Ning.aspx). As
+Ning](http://devhawk.net/2006/02/27/experimenting-with-ning/). As
 you might recall, in trying to build a .NET version of [Partisan
 Hacks](http://partisanhacks.ning.com/), I found ASP.NET 2.0 to be
 significantly simpler than PHP (which Ning uses). However, building even

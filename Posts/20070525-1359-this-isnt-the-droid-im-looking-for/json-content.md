@@ -1,5 +1,5 @@
 Since David Ing responded to my
-[REST/CRUD/CRAP](http://devhawk.net/2007/05/24/REST+Is+Neither+CRUD+Nor+CRAP.aspx)
+[REST/CRUD/CRAP](http://devhawk.net/2007/05/24/rest-is-neither-crud-nor-crap/)
 entry [on his
 blog](http://www.from9till2.com/PermaLink.aspx?guid=2dbee669-07fd-435e-a5f9-51f709ef183f),
 I guess that means I respond to his response here, right?

@@ -1,5 +1,5 @@
 As I [wrote this
-morning](http://devhawk.net/2006/10/09/Hawkeye+On+Standard+WCF+Bindings.aspx),
+morning](http://devhawk.net/2006/10/09/hawkeye-on-standard-wcf-bindings/),
 I’m in training this week. The instructor (who I wrote earlier is
 “pretty good”) is [Jon
 Flanders](http://www.masteringbiztalk.com/blogs/jon/). I didn’t

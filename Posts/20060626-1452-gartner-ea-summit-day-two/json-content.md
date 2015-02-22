@@ -1,5 +1,5 @@
 I didn’t post a day two wrap up of the [Gartner EA
-Summit](http://devhawk.net/2006/06/22/Gartner+EA+Summit+Day+One.aspx)
+Summit](http://devhawk.net/2006/06/21/gartner-ea-summit-day-one/)
 because I only made it to my session and booth duty right afterwards.
 That wasn’t the original plan – the pipes in the bathroom of my hotel
 room kept banging so I didn’t get much sleep.

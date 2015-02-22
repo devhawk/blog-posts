@@ -1,10 +1,10 @@
 (If you disregarded [my
-advice](http://devhawk.net/2008/07/30/Pushed+The+Wrong+Button.aspx) and
+advice](http://devhawk.net/2008/07/29/pushed-the-wrong-button/) and
 read the previous version of this post, please note I rewrote this post
 significantly so you’ll probably want to read it again.)
 
 In the [last
-post](http://devhawk.net/2008/07/30/Monadic+Philosophy+Part+2+The+LINQ+Monad.aspx),
+post](http://devhawk.net/2008/07/30/monadic-philosophy-part-2-the-linq-monad/),
 we looked at how LINQ is a monad and how IEnumerable is a
 pseudo-functional construct. However, C\#’s intrinsic collection support
 – aka foreach and yield return – really obscure how you might go about
@@ -48,7 +48,7 @@ The Parse function takes a string to be parsed as input and returns the
 parsing result which pairs the semantic value with with the remaining
 string input to be parsed. I’ve built out a simple generic tuple class
 because I know I’ll use it again later. I’ve [long
-wished](http://devhawk.net/2006/08/22/Language+Features+I+Wish+C+Had+Tuples.aspx)
+wished](http://devhawk.net/2006/08/21/language-features-i-wish-c-had-tuples/)
 C\# would support intrinsic tuples like F\# does. For convenience, I’ve
 also created a strongly typed subclass of Tuple to represent parse
 results where the second item is a string, to save some typing. Since

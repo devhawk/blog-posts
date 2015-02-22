@@ -26,7 +26,7 @@ up](http://feeds.feedburner.com/~r/SamGentile/~3/43478464/New-and-Notable-118.as
 > long running tasks you’re going to be executing are purely database
 > driven and can be executed completely within the database,” in
 > response to [Harry liking Service Broker so
-> much](http://devhawk.net/2006/10/29/Is+WCF+QuotStraightforwardquot+For+Long+Running+Tasks.aspx).
+> much](http://devhawk.net/2006/10/28/is-wcf-straightforward-for-long-running-tasks/).
 > Talk about a narrow edge case. That’s way I never really got excited
 > or cared about Service Broker. Its a narrow solution to a special edge
 > case when everything is database driven and can be executed totally
@@ -95,7 +95,7 @@ believe the majority of services will be atomic and those that believe
 the majority of services will be long running. For atomic services,
 Service Broker is overkill. But if it turns out that most services are
 long running, [WCF’s lack of
-support](http://devhawk.net/2006/10/29/Is+WCF+QuotStraightforwardquot+For+Long+Running+Tasks.aspx)
+support](http://devhawk.net/2006/10/28/is-wcf-straightforward-for-long-running-tasks/)
 is going to be a pretty big roadblock.
 
 I’m obviously in the long running camp. I’m not sure, but I get the

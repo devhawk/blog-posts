@@ -20,9 +20,9 @@
 -   Speaking of the Capitals, Peter Bondra [retired
     Monday](http://www.nhl.com/nhl/app?articleid=341538&page=NewsPage&service=page).
     I still think it’s [a
-    travesty](http://devhawk.net/2004/02/19/Doing+The+Unthinkable.aspx)
+    travesty](http://devhawk.net/2004/02/19/doing-the-unthinkable/)
     that he didn’t spend his whole career in DC, but I’ve [made my
-    peace](http://devhawk.net/2006/07/06/Meeting+Ted+Leonsis.aspx) with
+    peace](http://devhawk.net/2006/07/06/meeting-ted-leonsis/) with
     it.
 -   Nick Malik has a [great
     series](http://blogs.msdn.com/nickmalik/archive/2007/10/12/soa-and-the-cisr-operating-models.aspx)
@@ -57,7 +57,7 @@
     Soucek](http://lsblog.wordpress.com/) also
     [disagrees](http://lsblog.wordpress.com/2007/10/26/missing-pragmatic-view-on-management-of-soa-based-system/)
     with [my
-    opinions](http://devhawk.net/2007/10/25/The+Worst+Of+Both+Worlds.aspx)
+    opinions](http://devhawk.net/2007/10/25/the-worst-of-both-worlds/)
     on centralized control. I agree 100% with Libor that centralized
     management would make operation’s lives “much, MUCH easier” as he
     puts it. However, that doesn’t make it feasible at any significant

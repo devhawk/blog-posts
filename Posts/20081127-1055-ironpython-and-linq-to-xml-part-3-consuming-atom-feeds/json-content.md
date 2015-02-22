@@ -1,5 +1,5 @@
 Now that I have [my list of Rock Band
-songs](http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+2+Screen+Scraping.aspx),
+songs](http://devhawk.net/2008/11/26/ironpython-and-linq-to-xml-part-2-screen-scraping/),
 I need to generate a Zune playlist. I wrote that Zune just uses the [WMP
 playlist format](http://msdn.microsoft.com/en-us/library/bb249686.aspx),
 but that’s not completely true. [Media
@@ -32,7 +32,7 @@ Since these feeds are real XML, I can simply use
 [XDocument.Load](http://msdn.microsoft.com/library/system.xml.linq.xdocument.load.aspx)
 to suck down the XML. Then I look for the first Atom entry element using
 similar LINQ to XML techniques I [wrote about last
-time](http://devhawk.net/2008/11/27/IronPython+And+Linq+To+XML+Part+2+Screen+Scraping.aspx).
+time](http://devhawk.net/2008/11/26/ironpython-and-linq-to-xml-part-2-screen-scraping/).
 If there’s no Atom elements, that means that the search failed – either
 Zune doesn’t know about the song or it can’t find it via the Rock Band
 provided title and artist. Of the 461 songs on Rock Band right now, my

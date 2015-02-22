@@ -1,6 +1,6 @@
 I’ll be honest, I recommended Herb Sutter’s concurrency series in
 [today’s Morning
-Coffee](http://devhawk.net/2007/07/10/Morning+Coffee+99.aspx) because it
+Coffee](http://devhawk.net/2007/07/10/morning-coffee-99/) because it
 a series on concurrency by Herb Sutter. In other words, I hadn’t
 actually read it yet, but I know how good Sutter’s stuff is. Now I have
 read it and I wanted to re-issue my recommendation, even more strongly.

@@ -3,7 +3,7 @@ newsletter](http://www.zapthink.com/report.html?id=ZAPFLASH-2008228) to
 me. I gave up on analyst newsletters like this long ago, but Nick shared
 it with me because it “hit directly on what [Nick] thinks an ESB is and
 does, and why an ESB is not a hub.” I’m [not a fan of the whole ESB
-concept](http://devhawk.net/2007/04/25/Enterprise+Service+Bus+Give+Me+An+Extra+Special+Bitter+Instead.aspx)
+concept](http://devhawk.net/2007/04/25/enterprise-service-bus-give-me-an-extra-special-bitter-instead/)
 and frankly this article didn’t do much to change my opinion. However,
 this passage did sorta jump out at me.
 

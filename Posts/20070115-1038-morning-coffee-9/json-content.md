@@ -14,7 +14,7 @@ Jr](http://en.wikipedia.org/wiki/Martin_Luther_King%2C_Jr.)
     down the stretch as well as in overtime and they couldn’t
     capitalize.
 -   I blogged about “Politics 2.0″ [back on election
-    day](http://devhawk.net/2006/11/07/Certainly+Not+Politics+As+Usual.aspx).
+    day](http://devhawk.net/2006/11/07/certainly-not-politics-as-usual/).
     Here’s an article about [viral video in
     politics](http://www.newpolitics.net/node/236) that’s very Politics
     2.0.

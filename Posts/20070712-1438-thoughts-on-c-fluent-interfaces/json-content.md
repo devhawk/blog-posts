@@ -86,7 +86,7 @@ Where have you seen this verb based approach before? Powershell cmdlets.
 > Library]
 
 I’ve
-[written](http://devhawk.net/2007/02/06/Perusing+Powershell+Part+1+GetSQLServer.aspx)
+[written](http://devhawk.net/2007/02/06/perusing-powershell-part-1-get-sqlserver/)
 about this aspect of PowerShell before:
 
 > In OO, most of the focus is on objects, naturally. However,
@@ -106,7 +106,7 @@ about this aspect of PowerShell before:
 > having first class support for them in PS is one of the things I find
 > most interesting.\
 > [[Perusing Powershell Part 1:
-> Get-SQLServer](http://devhawk.net/2007/02/06/Perusing+Powershell+Part+1+GetSQLServer.aspx),
+> Get-SQLServer](http://devhawk.net/2007/02/06/perusing-powershell-part-1-get-sqlserver/),
 > DevHawk]
 
 While there is no first-class support for verbs or actions in C\#, it

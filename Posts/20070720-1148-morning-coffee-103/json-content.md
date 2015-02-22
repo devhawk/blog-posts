@@ -32,7 +32,7 @@
     (via [Michael
     Klucher](http://klucher.com/archive/2007/07/20/playing-some-great-xna-framework-games.aspx))
 -   I [said on
-    Wednesday](http://devhawk.net/2007/07/18/Morning+Coffee+102.aspx)
+    Wednesday](http://devhawk.net/2007/07/18/morning-coffee-102/)
     that it was a slow week. It may be, but I’ve also been less than
     motivated on pretty much all geek fronts this week. Not sure why.
 

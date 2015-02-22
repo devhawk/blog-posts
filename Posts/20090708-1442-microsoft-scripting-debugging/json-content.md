@@ -38,7 +38,7 @@ LambdaExpression. LambdaExpressions can contain DebugInfoExpressions –
 typically we insert them at the start of every Python code line as well
 as one at the end of the function. When we run IronPython in debug mode
 (i.e. –D), those get turned into sequence points [as we
-saw](http://devhawk.net/2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint.aspx)
+saw](http://devhawk.net/2009/03/02/writing-an-ironpython-debugger-setting-a-breakpoint/)
 back when I was working on ipydbg. When using the DLR Debugger, those
 DebugInfoExpressions are transformed into calls out to
 [IDebugCallback](http://ironpython.codeplex.com/SourceControl/changeset/view/56115#908429).OnDebugEvent.

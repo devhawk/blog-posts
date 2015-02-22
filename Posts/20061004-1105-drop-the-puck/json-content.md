@@ -1,6 +1,6 @@
 The 06-07 NHL season finally starts tonight. This offseason feels longer
 than most, probably because I’ve been [more involved with
-hockey](http://devhawk.net/2006/07/06/Meeting+Ted+Leonsis.aspx) this
+hockey](http://devhawk.net/2006/07/06/meeting-ted-leonsis/) this
 past offseason. But the [opening night
 rosters](http://www.washingtoncaps.com/news/news.asp?story_id=4207) are
 set and the Sabres and Hurricanes face off in just over five hours. Here

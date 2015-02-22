@@ -1,5 +1,5 @@
 As I pointed out in my [last
-post](http://devhawk.net/Putting+A+Square+Peg+Model+In+A+Round+Hole+Tool.aspx),
+post](http://devhawk.net/2005/02/25/putting-a-square-peg-model-in-a-round-hole-tool/),
 VS2005 includes a Class Designer that those familiar with the UML class
 model should feel right at home in. By happy coincidence, I found out
 today the [Class Designer team is

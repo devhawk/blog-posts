@@ -3,7 +3,7 @@
 -   Over the weekend, Gov.Gregoire signed a bill that protecting the
     rights of same-sex couples. It’s not the same as full marriage
     rights (which long time readers know I [fully
-    support](http://devhawk.net/2004/02/27/In+Support+Of+Gay+Marriage.aspx))
+    support](http://devhawk.net/2004/02/26/in-support-of-gay-marriage/))
     but it’s a step in the right direction.
 -   I picked up the Xbox 360 [HD DVD
     player](http://www.xbox.com/hardware/xbox360hddvdplayer) over the

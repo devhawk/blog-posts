@@ -10,7 +10,7 @@ started yesterday, with a keynote from Rick Rashid and Craig Mundy
 demand](http://wm.microsoft.com/ms/research/events/TechFest2008/TF08Keynote.wmv)).
 I’ll be heading up there later today and will blog everything I saw that
 is public, [like I did last
-year](http://devhawk.net/2007/03/08/Morning+Coffee+41+TechFest+Edition.aspx).
+year](http://devhawk.net/2007/03/08/morning-coffee-41-techfest-edition/).
 In the meantime, you can check out some cool MS Research projects on the
 [TechFest video
 page](http://research.microsoft.com/techfest/videos/default.aspx).

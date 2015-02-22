@@ -3,7 +3,7 @@
 -   Congrats to Hillary Clinton for her [unexpected
     win](http://www.msnbc.msn.com/id/22570407/) in the New Hampshire
     primary. As I [said last
-    week](http://devhawk.net/2008/01/04/Morning+Coffee+135.aspx), I
+    week](http://devhawk.net/2008/01/07/morning-coffee-135-2/), I
     think Obama has a better chance of winning in November, but I’ve got
     nothing against Clinton or her politics.
 -   Speaking of winning, congrats to LSU on [winning the

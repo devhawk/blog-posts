@@ -22,7 +22,7 @@ app](http://www.iunknown.com/2009/05/dynamic-languages-at-teched-2009.html),
 you’ll have to use something else.
 
 I’ve [thought
-about](http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+MDbg+101.aspx)
+about](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-mdbg-101/)
 putting a WPF based UI on top of ipydbg (though now I’d probably use the
 new [lightweight
 debugger](http://devhawk.net/2009/07/08/MicrosoftScriptingDebugging.aspx)

@@ -1,8 +1,8 @@
 [![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/InvokingPythonFunctionsfromCWithoutDynam_13C34/image_thumb.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/InvokingPythonFunctionsfromCWithoutDynam_13C34/image_2.png)
 So I’ve [compiled the Pygments package into a CLR
-assembly](http://devhawk.net/2009/08/10/Compiling+Python+Packages+Into+Assemblies.aspx)
+assembly](http://devhawk.net/2009/08/10/compiling-python-packages-into-assemblies/)
 and [loaded an embedded Python
-script](http://devhawk.net/2009/08/11/Embedding+Python+Scripts+In+C+Applications.aspx),
+script](http://devhawk.net/2009/08/11/embedding-python-scripts-in-c-applications/),
 so now all that remains is calling into the functions in that embedded
 Python script. Turns out, this is the easiest step so far.
 

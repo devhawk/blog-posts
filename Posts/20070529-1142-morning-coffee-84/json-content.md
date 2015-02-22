@@ -40,7 +40,7 @@ respond here in the next day or so. In the meantime…
     into WF, examining the various ways you can extend the WF runtime by
     replacing the persistence, loader and scheduler services. He’s also
     taking [my
-    advice](http://devhawk.net/2007/02/27/Morning+Coffee+34.aspx) to
+    advice](http://devhawk.net/2007/02/27/morning-coffee-34/) to
     scrap ExternalDataService and work directly with the
     WorkflowQueuingService.
 -   Steve Jones

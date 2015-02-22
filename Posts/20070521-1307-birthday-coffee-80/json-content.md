@@ -20,7 +20,7 @@
     by suggesting it might be a “nice data aggregation / reformatting
     service for technically-challenged managers [and] their business
     data”. Sounds like the next step of [enterprise
-    mashups](http://devhawk.net/2005/11/23/Browser+Based+Applications+In+The+Enterprise.aspx).
+    mashups](http://devhawk.net/2005/11/23/browser-based-applications-in-the-enterprise/).
 -   Speaking of PopFly, Larry O’Brein
     [thinks](http://www.knowing.net/PermaLink,guid,652d0d73-23c3-409d-b3f0-3f8879e37bcb.aspx)
     PopFly is helping restore ” the bridge between power users and

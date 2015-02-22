@@ -1,5 +1,5 @@
 The [basic
-infrastructure](http://devhawk.net/2009/06/15/clrtype+Metaclasses+Simple+Custom+Attributes.aspx)
+infrastructure](http://devhawk.net/2009/06/15/__clrtype__-metaclasses-simple-custom-attributes/)
 for custom attributes in IronPython is in place, but it’s woefully
 limited. Specifically, it only works for custom attributes that don’t
 have parameters. Of course, most of the custom attributes that you’d

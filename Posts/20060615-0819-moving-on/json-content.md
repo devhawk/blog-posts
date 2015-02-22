@@ -12,7 +12,7 @@ might guess, is a euphemism here for service-orientation. My team is
 tasked with architecting and delivering the shared service-oriented
 infrastructure for four of the biggest projects Microsoft IT will be
 delivering in the next year. [Last time I changed
-jobs](http://devhawk.net/2003/09/19/Today+Is+The+Last+Day+Of+My+Life+So+Far.aspx),
+jobs](http://devhawk.net/2003/09/19/today-is-the-last-day-of-my-life-so-far/),
 I lamented that “With each job I take at MSFT, coding seems to become
 less a part of the job description.” Happily, this is *NOT* the case
 this time.

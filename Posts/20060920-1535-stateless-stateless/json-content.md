@@ -1,5 +1,5 @@
 A while back, I blogged that [Services Aren’t
-Stateless](http://devhawk.net/2006/07/27/Services+Arent+Stateless.aspx),
+Stateless](http://devhawk.net/2006/07/27/services-arent-stateless/),
 in response to some stuff in Thomas Erl’s [latest
 book](http://www.soabooks.com/chapters2.asp). At the time, I mentioned
 that I was looking forward to discussing my opinions with
@@ -16,7 +16,7 @@ started by talking about dealing with concurrency and scalability, which
 got me confused at first. Apparently, when Erl says stateless, he’s
 referring to minimizing memory usage. That is, don’t keep service state
 in memory longer than you need to. So [all the stuff about activity
-data](http://devhawk.net/2006/08/16/Business+Processes+Are+Services+Too.aspx),
+data](http://devhawk.net/2006/08/16/business-processes-are-services-too/),
 that’s all fine as per Erl’s principles, as long as you write it out to
 database instead of keeping it in memory. In his book, he talks about
 the service being “temporarily stateful” while processing a message.

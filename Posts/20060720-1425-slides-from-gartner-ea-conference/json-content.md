@@ -1,6 +1,6 @@
 My old team decided to post the slides from my sessions at the [Gartner
 EA Summit last
-month](http://devhawk.net/2006/06/26/Gartner+EA+Summit+Day+Two.aspx).
+month](http://devhawk.net/2006/06/26/gartner-ea-summit-day-two/).
 Well, they’ve posted PDF versions of said slides and the fonts are
 somewhat off, but you’ll get the idea.
 

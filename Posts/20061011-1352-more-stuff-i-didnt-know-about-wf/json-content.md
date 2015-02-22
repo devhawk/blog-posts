@@ -23,7 +23,7 @@ So if you wanted to have a custom designer or validation experience for
 an otherwise standard sequential or state machine workflow, you can
 inherit from the standard workflow type and add the custom validation
 and / or designer support. For example, as I [wrote
-earlier](http://devhawk.net/2006/10/09/Things+I+Didnt+Realize+About+WF.aspx),
+earlier](http://devhawk.net/2006/10/09/things-i-didnt-realize-about-wf/),
 you can load a workflow from XAML. XAML workflows can’t support the Code
 Activity. So if you wanted to use the standard sequence designer but
 disallow the use of the Code Activity, you wouldn’t have to rewrite the

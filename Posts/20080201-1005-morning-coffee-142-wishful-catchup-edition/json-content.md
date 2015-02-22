@@ -29,7 +29,7 @@
     “A blog is not a part of your presentation, and your presentation is
     not part of your blog”. I had 15 minutes to discuss something I’ve
     written about over [ten
-    posts](http://devhawk.net/2007/12/10/Practical+Parsing+In+F.aspx) 
+    posts](http://devhawk.net/2007/12/10/practical-parsing-in-f/) 
     (so far).
 -   John Lam
     [points](http://www.iunknown.com/2008/01/latest-dlr-host.html) to

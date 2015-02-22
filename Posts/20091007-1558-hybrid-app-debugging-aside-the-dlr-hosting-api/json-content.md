@@ -1,5 +1,5 @@
 In my series on [Hybrid App
-Debugging](http://devhawk.net/2009/10/06/Lightweight+Debugging+For+Hybrid+CIronPython+Apps.aspx),
+Debugging](http://devhawk.net/2009/10/06/lightweight-debugging-for-hybrid-cironpython-apps/),
 I showed the following code for executing a Python file in a hybrid
 C\#/IronPython app.
 

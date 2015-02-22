@@ -16,11 +16,11 @@ As I’ve written before on this blog, this is a HUGE release for us:
     and [byte
     literals](http://docs.python.org/whatsnew/2.6.html#pep-3112-byte-literals)
 -   [Adaptive
-    Compilation](http://devhawk.net/2009/03/27/IronPython+26+Alpha+1.aspx)
+    Compilation](http://devhawk.net/2009/03/27/ironpython-2-6-alpha-1/)
 -   [\_\_clrtype\_\_
     Metaclasses](http://devhawk.net/CategoryView,category,__clrtype__.aspx)
 -   [ctypes and Frames
-    support](http://devhawk.net/2009/05/21/IronPython+26+Beta+1.aspx)
+    support](http://devhawk.net/2009/05/20/ironpython-2-6-beta-1/)
 -   [Lightweight
     Debugging](http://devhawk.net/2009/07/08/MicrosoftScriptingDebugging.aspx)
 -   417 bugs fixed!

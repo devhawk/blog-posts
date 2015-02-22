@@ -8,7 +8,7 @@ There are two possible explanations for today’s game:
 
 1.  After going 11-1 to finish the season and coming from behind in the
     third period of [game
-    one](http://devhawk.net/2008/04/12/Caps+Win+Game+One+With+A+Three+Goal+Third.aspx),
+    one](http://devhawk.net/2008/04/11/caps-win-game-one-with-a-three-goal-third/),
     the Caps were just emotionally drained and couldn’t get up for
     today’s game.
 2.  The Flyers have figured out how to shut the Caps down completely.

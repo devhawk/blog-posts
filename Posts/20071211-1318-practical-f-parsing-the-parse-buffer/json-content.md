@@ -68,7 +68,7 @@ Since I’m calling methods on the input parameter, I need to explicitly
 tell F\# what type it is. The F\# type for this function is string -\>
 (char \* string) option, which is obviously different from the type
 definition of the original NC version. But F\#’s [type
-inference](http://devhawk.net/2007/11/29/F+Hawkeye+Type+Inference.aspx)
+inference](http://devhawk.net/2007/11/29/f-hawkeye-type-inference/)
 automatically adjusts to handle the change in the type so functions that
 call NC don’t have to change. FP languages like F\# handle list
 operations extremely efficiently, so this version of NC is probably a

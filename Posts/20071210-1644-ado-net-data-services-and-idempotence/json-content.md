@@ -23,4 +23,4 @@ table for their quickstart? Maybe, but I doubt it. Regardless, making a
 non-idempotent
 [insert](http://quickstarts.asp.net/3-5-extensions/reference/adoref/M_Sys_Data_DataService_insert.aspx)
 call from the browser is a bad idea, if you care about [Exactly
-Once](http://devhawk.net/2007/11/09/The+Importance+Of+Idempotence.aspx).
+Once](http://devhawk.net/2007/11/09/the-importance-of-idempotence/).

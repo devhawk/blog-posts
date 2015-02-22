@@ -1,7 +1,7 @@
 Nick
 [responds](http://blogs.msdn.com/nickmalik/archive/2007/08/24/business-case-for-integration-part-two.aspx)
 to my [visceral
-thoughts](http://devhawk.net/2007/08/24/The+One+Business+Case+For+Integration.aspx)
+thoughts](http://devhawk.net/2007/08/23/the-one-business-case-for-integration/)
 on the integration business case. There’s no point in excerpting it – go
 read the whole thing. I’ll wait.
 

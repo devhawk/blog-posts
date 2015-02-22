@@ -61,7 +61,7 @@
 -   Hartmut Wilms
     [responds](http://www.innoq.com/blog/hw/2007/08/14/retire_the_tenets.html)
     to my [retire the
-    tenets](http://devhawk.net/2007/08/14/Retire+The+Tenets.aspx) post,
+    tenets](http://devhawk.net/2007/08/13/retire-the-tenets/) post,
     but he seems to contradict himself. On the one hand, he suggests
     that “the four tenets just expressed, what “almost” everybody
     outside the MS world knew already”. But then he goes on to dispute

@@ -13,7 +13,7 @@ Today there were to keynotes explicitly about the attention economy.
 Seth Goldstein is from a company called [Root](http://root.net/), which
 is one of these so called attention economy applications. It actually
 seems to have a lot in common with [Felix’s myware
-idea](http://devhawk.net/2006/03/08/Felix+Miller+On+The+Musical+Myware.aspx).
+idea](http://devhawk.net/2006/03/07/felix-miller-on-the-musical-myware/).
 Basically, it tracks what you pay attention to and uploads it to a
 central server. I get why [last.fm](http://last.fm) wants my music
 attention data, because there’s value in aggregating it with other

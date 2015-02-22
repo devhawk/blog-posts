@@ -1,7 +1,7 @@
 Having written about Ruby in the scope of the [Compiler Dev
-Lab](http://devhawk.net/2006/03/15/Compiler+Dev+Lab++Scripting.aspx) and
+Lab](http://devhawk.net/2006/03/15/compiler-dev-lab-scripting/) and
 the [Dual Schema
-Problem](http://devhawk.net/2006/03/28/The+Dual+Schema+Problem.aspx), I
+Problem](http://devhawk.net/2006/03/28/the-dual-schema-problem/), I
 was interested to come across the [Ruby.NET
 project](http://www.plas.fit.qut.edu.au/rubynet/) from [Queensland
 University of Technology](http://www.fit.qut.edu.au/). From the Ruby.NET

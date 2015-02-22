@@ -25,7 +25,7 @@ Lovett’s
 SgmlReader](http://www.lovettsoftware.com/blogs/blog.aspx?id=56) to
 expose the HTML list of Rock Band songs as XML. I realize Linq to XML
 wasn’t on “[the
-list](http://devhawk.net/2008/11/13/IronPython+And+LtInsert+MSFT+Technology+Heregt.aspx)”,
+list](http://devhawk.net/2008/11/12/ironpython-and-insert-msft-technology-here/)”,
 but I had a specific need so it got bumped to the head of the line.
 
 BTW, for those who just want [the

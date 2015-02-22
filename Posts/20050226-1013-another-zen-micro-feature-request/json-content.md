@@ -1,5 +1,5 @@
 The other day, I
-[wished](http://devhawk.net/Experimenting+With+Podcasting.aspx) my Zen
+[wished](http://devhawk.net/2005/02/23/experimenting-with-podcasting/) my Zen
 Micro supported variable speed playback for podcast playback. I’ve got
 another feature request, this time for podcast recording. The Zen Micro
 [features](http://www.nomadworld.com/products/zen_Micro/features.asp) include

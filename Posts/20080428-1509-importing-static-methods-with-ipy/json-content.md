@@ -60,7 +60,7 @@ from System.DateTime import *  # this doesn’t work
 
 **<span style="text-decoration: underline;">Update</span>**: [Michael
 Foord](http://www.voidspace.org.uk/python/weblog/index.shtml) [pointed
-out](http://devhawk.net/2008/04/28/Importing+Static+Methods+With+IPy.aspx#commentstart)
+out](http://devhawk.net/2008/04/28/importing-static-methods-with-ipy/)
 that if you import Now as I describe above, it places a DateTime object
 representing the time you imported it into local scope, rather than
 placing the underlying get\_Now static method in local scope. So while

@@ -8,7 +8,7 @@ arranged a meeting. I had asked Ted to introduce me to some dynamic
 language folks for some research and public debate purposes, and Neal
 was one of the people he hooked me up with. Unfortunately, this was
 right before I [changed
-roles](http://devhawk.net/2006/01/24/Architect+On+The+Edge.aspx) and got
+roles](http://devhawk.net/2006/01/24/architect-on-the-edge/) and got
 real busy. Of course, dynamic languages in general and
 [Ruby](http://www.ruby-lang.org/en/) in particular plays a large role in
 Edge Architecture, so I’m thankful Neal took the time to drop me a line

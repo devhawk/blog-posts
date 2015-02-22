@@ -33,7 +33,7 @@ function make-rubyfunction($cmd)
 ```
 
 I start by getting the ir alias, which I’m [setting in my traditional
-fashion](http://devhawk.net/2008/12/17/PowerShell+Findtosetalias.aspx).
+fashion](http://devhawk.net/2008/12/17/powershell-find-to-set-alias/).
 The Ruby command files are in the same directory as ir.exe, which is
 what ir is aliased to. If the ir alias isn’t set, I quit out of the
 script without setting anything.

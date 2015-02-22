@@ -11,7 +11,7 @@ News was expecting inches, but we only got a dusting of snow last night.
 -   For the second time in four months, the power cable for my laptop
     failed. I wonder if there is something wrong with the power supply
     that’s causing the cable to fail? At least this time I wasn’t [in
-    Canada](http://devhawk.net/2006/09/20/Hard+On+Hardware.aspx).
+    Canada](http://devhawk.net/2006/09/20/hard-on-hardware/).
 -   There’s a [high resolution
     video](http://www.xbox.com/NR/rdonlyres/BF491CFF-8B54-4314-9553-FD16F8F8E7B5/0/vidIPTV_InterviewHi.asx)
     of the Xbox 360 IPTV up on [Xbox.com’s CES

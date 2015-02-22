@@ -24,7 +24,7 @@
     [demonstrates](http://blogs.msdn.com/mmaly/archive/2008/02/29/building-a-dlr-language-answering-some-questions.aspx)
     how you can use DLR trees to build a statically typed add function.
     Literally, my very first thought after Martin [presented DLR Trees @
-    Lang.NET](http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx)
+    Lang.NET](http://devhawk.net/2008/01/31/morning-coffee-141-lang-net-08-edition/)
     was “I wonder if you could use that for static languages too?” I
     guess the answer is yes.
 -   It’s been six months, and [Scott Hanselman still isn’t

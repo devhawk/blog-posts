@@ -6,7 +6,7 @@ days + the drive to Vancouver and back primarily discussing SOA with
 [Dale](http://halfmybrain.spaces.live.com/blog/). In other words, it was
 a lot of SOA. I went up expecting to take Erl to task for his “Services
 are Stateless” principle. However, that turned out to be a
-[misunderstanding](http://devhawk.net/2006/09/20/Stateless+Stateless.aspx)
+[misunderstanding](http://devhawk.net/2006/09/20/stateless-stateless/)
 on my part about how Erl uses the term stateless. However, while Erl and
 I agreed on optimizing memory utilization (which is what he means by
 stateless), that wasn’t much else when it came to common ground. As I

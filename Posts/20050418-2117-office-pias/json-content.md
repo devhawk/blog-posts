@@ -1,5 +1,5 @@
 Not that I do a bunch of Office development, but I did build a [pretty
-nifty utility](http://devhawk.net/Build+Slide+Export+.aspx) for
+nifty utility](http://devhawk.net/2004/03/10/build-slide-export/) for
 PowerPoint a while back. Getting it installed on anyone elses machine,
 however, was a pain in the ass because while I always remember to
 install the Office Primary Interop Assemblies when I install Office, I’m

@@ -37,11 +37,11 @@ computing ignored the importance of transaction processing for a long
 time, REST has long ignored the importance of async messaging. Instead,
 web development has instead been focused exclusively on request/response
 – something [I’ve struggled
-with](http://devhawk.net/2007/12/05/Durable+And+RESTful.aspx) for quite
+with](http://devhawk.net/2007/12/05/durable-and-restful/) for quite
 some time. But the rise of Twitter has driven many people to realize
 that something I’ve known since 2003: “[In order to truly evolve
 syndication…we need to break free of the synchronous polling
-model](http://devhawk.net/2003/12/17/Reliable+Syndication.aspx).” [1]
+model](http://devhawk.net/2003/12/16/reliable-syndication/).” [1]
 
 ![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_8.png "image")I
 love the slogan from [this Web Hooks

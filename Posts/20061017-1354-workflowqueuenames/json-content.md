@@ -1,5 +1,5 @@
 As I wrote in my [last
-post](http://devhawk.net/2006/10/17/WF+Clarifications+And+Corrections.aspx),
+post](http://devhawk.net/2006/10/17/wf-clarifications-and-corrections/),
 I’m doing a bunch of WF related work. I’m close to releasing some WF
 related stuff I started building last week in
 [Jon’s](http://www.masteringbiztalk.com/blogs/jon/default.aspx) class.

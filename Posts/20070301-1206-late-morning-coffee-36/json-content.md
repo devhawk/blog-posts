@@ -4,7 +4,7 @@
 -   Technorati told me that “social news aggregator” Megite is [linking
     to me](http://www.megite.com/technology/1170964019/41). For some
     reason, [this post of
-    mine](http://devhawk.net/2007/02/07/Perusing+Powershell+Part+2+Error+Or+No+Output.aspx)
+    mine](http://devhawk.net/2007/02/07/perusing-powershell-part-2-error-or-no-output/)
     on Powershell is considered related to “[Is PR Too Stupid for
     Conversational
     Marketing?](http://www.strumpette.com/archives/300-Is-PR-Too-Stupid-for-Conversational-Marketing.html)”

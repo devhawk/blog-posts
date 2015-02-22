@@ -7,9 +7,9 @@
     slew](http://techiewife.spaces.live.com/Blog/cns!3DAECC033B88329C!2065.entry)
     of Early Patrick Pictures.
 -   If my son is five, it means this blog is also five – I [started this
-    blog](http://devhawk.net/2003/01/15/New+And+Improved+DevHawk.aspx)
+    blog](http://devhawk.net/2003/01/14/new-and-improved-devhawk/)
     about a month before [Patrick was
-    born](http://devhawk.net/2003/02/23/Welcome+Patrick.aspx). I never
+    born](http://devhawk.net/2003/02/23/welcome-patrick/). I never
     remember to mark the occasion until Paddy boy’s big day comes
     around.
 -   Major props to the House of Representatives for growing a backbone

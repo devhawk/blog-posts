@@ -11,6 +11,6 @@ code, *on-the-fly*, while the program is running, without stopping or
 restarting”.
 
 Sounds facinating, esp. given my [recent
-discussion](http://devhawk.net/2006/04/14/Talking+Dynamic+Lanugages+With+Neal+Ford.aspx)
+discussion](http://devhawk.net/2006/04/14/talking-dynamic-lanugages-with-neal-ford/)
 of internal vs. external DSLs w/ Neal Ford. Plus it deals w/ concurrency
 and is dynamic.

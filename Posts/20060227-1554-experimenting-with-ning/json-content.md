@@ -25,7 +25,7 @@ appearance](http://www.ifilm.com/ifilmdetail/2652831) on the now
 cancelled [CNN
 Crossfire](http://en.wikipedia.org/wiki/Crossfire_(TV_series)). Of
 course, I’ve been [throwing the term
-around](http://devhawk.net/2006/02/12/Dennis+Miller+Has+Jumped+The+Shark.aspx)
+around](http://devhawk.net/2006/02/11/dennis-miller-has-jumped-the-shark/)
 myself a bit lately, hence the reason why the topic was top of mind for
 me.
 

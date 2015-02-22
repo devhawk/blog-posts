@@ -1,5 +1,5 @@
 When I wrote yesterday about the [Browser as
-VM](http://devhawk.net/2006/02/03/Browser+As+Virtual+Machine.aspx), I
+VM](http://devhawk.net/2006/02/02/browser-as-virtual-machine/), I
 made the point that extensibility is difficult as we have four major
 browsers and multiple OSes to deal with. What Web 2.0 company is going
 to be willing to bet on a proprietary extension implemented in only one

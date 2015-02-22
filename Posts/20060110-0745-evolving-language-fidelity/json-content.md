@@ -1,5 +1,5 @@
 I haven’t seen much in the way of response to my [Hi-Fi
-Models](http://devhawk.net/2006/01/03/HiFi+Models.aspx) post, but I did
+Models](http://devhawk.net/2006/01/03/hi-fi-models/) post, but I did
 come across this [great
 article](http://msdn.microsoft.com/netframework/default.aspx?pull=/library/en-us/dndotnet/html/linqcomparisons.asp)
 by [Ted Neward](http://blogs.tedneward.com/) on the history of the
@@ -7,7 +7,7 @@ tumultuous marriage of objects and relational databases, primarily in
 the context of
 [LINQ](http://msdn.microsoft.com/netframework/future/linq/default.aspx).
 In the context of [Code is
-Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx), the following
+Model](http://devhawk.net/2005/10/05/code-is-model/), the following
 passage from the summary was the most interesting:
 
 > While Project LINQ doesn’t purport to be the “final answer” to all of

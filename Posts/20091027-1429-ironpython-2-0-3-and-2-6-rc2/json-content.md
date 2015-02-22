@@ -1,6 +1,6 @@
 It has been a very busy week for the IronPython team. Just under a week
 ago, we shipped a [CTP for .NET Framework
-4.0](http://devhawk.net/2009/10/21/IronPython+And+IronRuby+CTPs+For+NET+40+Beta+2.aspx).
+4.0](http://devhawk.net/2009/10/21/ironpython-and-ironruby-ctps-for-net-4-0-beta-2/).
 Since then, we’ve shipped two – yes, two! – more versions of IronPython.
 Three releases in one week! If we could keep up that pace, we’d be
 shipping like 27 more releases of IronPython by the end of the year!

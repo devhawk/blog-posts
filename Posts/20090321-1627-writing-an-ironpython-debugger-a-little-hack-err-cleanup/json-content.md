@@ -3,7 +3,7 @@ Yesterday, I pushed out two commits to
 first](http://github.com/devhawk/ipydbg/commit/41285e5c6a639708b9ae9e4886f2f8f4ae159540)
 was simple, I removed all of the embedded ConsoleColorMgr code in favor
 of the separate [consolecolor.py
-module](http://devhawk.net/2009/03/19/IronPython+ConsoleColorMgr.aspx) I
+module](http://devhawk.net/2009/03/19/ironpython-consolecolormgr/) I
 blogged about Thursday. The [second
 commit](http://github.com/devhawk/ipydbg/commit/b53ac99f95e0018db782abd52efea8e1fa56abd8)…well,
 let’s just say it’s not quite so simple.
@@ -14,7 +14,7 @@ method](http://github.com/devhawk/ipydbg/blob/5858695ff85ed4740ad06466d4f54394e7
 of BreakpointEnumerator was throwing a NotImplementedException. Up to
 that point, I hadn’t modified any of the MDbg C\# source code except to
 merge the [corapi and raw
-assemblies](http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+MDbg+101.aspx)
+assemblies](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-mdbg-101/)
 into a single assembly. But since I had to [fix
 BreakpointEnumerator](http://github.com/devhawk/ipydbg/commit/4ca5f2af90b73950f85cadfed7f3ca07cb783bba),
 I figured I should make some improvements to the C\# code as well. For

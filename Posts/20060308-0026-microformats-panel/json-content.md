@@ -56,5 +56,5 @@ than hCard.
 
 So again, bad session but cool concept. I really see potential for
 mashing up [Ray Ozzie’s Live
-Clipboard](http://devhawk.net/2006/03/08/Ray+Ozzie+On+Simple+Bridge+Building.aspx)
+Clipboard](http://devhawk.net/2006/03/07/ray-ozzie-on-simple-bridge-building/)
 with microformats.

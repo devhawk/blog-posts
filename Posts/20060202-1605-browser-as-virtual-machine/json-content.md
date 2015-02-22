@@ -1,6 +1,6 @@
 *Note: this is the first in a series of Web 2.0 entries. I know I’m [on
 record as hating the term Web
-2.0](http://devhawk.net/2006/01/26/Hating+The+Term+Web+20.aspx), but as
+2.0](http://devhawk.net/2006/01/25/hating-the-term-web-2-0/), but as
 I wrote in that post, I do belief there is a fundamental shift underway
 in computing. The industry is calling this Web 2.0, and I can either
 spit in the wind or go with the flow. Furthermore, for the more Web 2.0

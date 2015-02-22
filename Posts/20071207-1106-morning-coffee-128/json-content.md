@@ -51,7 +51,7 @@
 -   Dare [likes
     tuples](http://www.25hoursaday.com/weblog/2007/12/05/TuplesAreMyFavoritePythonFeature.aspx).
     [Me
-    too](http://devhawk.net/2006/08/22/Language+Features+I+Wish+C+Had+Tuples.aspx).
+    too](http://devhawk.net/2006/08/21/language-features-i-wish-c-had-tuples/).
     I [also like
-    symbols](http://devhawk.net/2006/08/22/Language+Features+I+Wish+C+Had+Symbols.aspx).
+    symbols](http://devhawk.net/2006/08/21/language-features-i-wish-c-had-symbols/).
 

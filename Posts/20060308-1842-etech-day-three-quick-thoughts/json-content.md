@@ -21,7 +21,7 @@ details to follow.
     they just call it “A Pattern Language for User Experience”? Because
     it doesn’t have the concept of attention shoehorned into it.
 -   I really like [Eventful](http://eventful.com/), even though I’m [on
-    record](http://devhawk.net/2006/02/13/Web+20+Evolution.aspx) as
+    record](http://devhawk.net/2006/02/13/web-2-0-evolution/) as
     thinking their business model doesn’t work. Their new [demand
     feature](http://eventful.com/demand) is pretty cool, though it
     doesn’t really help their business model any.
@@ -42,7 +42,7 @@ details to follow.
     as a keynote (a last minute promotion it appears from the conference
     guide). Seems too complex and centralized to actually work.
 -   I [wrote last
-    night](http://devhawk.net/2006/03/08/Felipe+Cabrera+On+Amazons+Mechanical+Turk.aspx) that
+    night](http://devhawk.net/2006/03/07/felipe-cabrera-on-amazons-mechanical-turk/) that
     Casting Words isn’t really a business because nothing stops me from
     going directly to Mechanical Turk and getting the transcription
     services myself. Today, I found a Casting Words task on Mechanical

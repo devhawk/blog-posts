@@ -7,7 +7,7 @@ complete control over the language, you’ve got to build your own parser.
 The defacto standard for parser development is [Yet Another Compiler
 Compiler](http://en.wikipedia.org/wiki/Yacc), or yacc. There’s a version
 of [yacc for
-.NET](http://devhawk.net/2006/09/17/Managed+Lex+And+Yacc.aspx) as well
+.NET](http://devhawk.net/2006/09/17/managed-lex-and-yacc/) as well
 as one [specifically for
 F\#](http://research.microsoft.com/fsharp/manual/parsing.aspx). However,
 I’m not a fan of yacc. Yacc parsers are specified using [context-free
@@ -20,7 +20,7 @@ among other advantages makes it impossible to develop ambiguous
 grammars. Furthermore, PEGs don’t require a separate lexical analyzer
 like [lex](http://en.wikipedia.org/wiki/Lex_programming_tool), so I
 think they’re more suitable for building [modular
-compilers](http://devhawk.net/2006/08/15/Modular+Compilers.aspx).
+compilers](http://devhawk.net/2006/08/15/modular-compilers/).
 
 Since I like PEGs and F\# so much, I developed a parser for the PEG
 grammar from the [original PEG
@@ -35,24 +35,24 @@ Programming as well as the specific value of F\#. Here’s how the series
 is shaping up (though this is subject to change):
 
 -   [The Parse
-    Buffer](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx)
+    Buffer](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/)
 -   [Unit
-    Testing](http://devhawk.net/2007/12/12/Practical+F+Parsing+Unit+Testing.aspx)
+    Testing](http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/)
 -   [Syntactical Productions
-    (1)](http://devhawk.net/2007/12/13/Practical+F+Parsing+Syntactical+Productions+1.aspx)
+    (http://devhawk.net/2007/12/13/practical-f-parsing-syntactical-productions-1/)
 -   [Active
-    Patterns](http://devhawk.net/2007/12/14/Practical+F+Parsing+Active+Patterns.aspx)
+    Patterns](http://devhawk.net/2007/12/14/practical-f-parsing-active-patterns/)
 -   [Syntactical Productions
-    (2)](http://devhawk.net/2007/12/17/Practical+F+Parsing+Syntactical+Productions+2.aspx)
+    (http://devhawk.net/2007/12/17/practical-f-parsing-syntactical-productions-2/)
 -   [Semantic Productions
-    (1)](http://devhawk.net/2007/12/18/Practical+F+Parsing+Semantic+Productions+1.aspx)
--   [](http://devhawk.net/2007/12/18/Practical+F+Parsing+Semantic+Productions+1.aspx)[The
+    (http://devhawk.net/2007/12/18/practical-f-parsing-semantic-productions-1/)
+-   [](http://devhawk.net/2007/12/18/practical-f-parsing-semantic-productions-1/)[The
     Abstract Syntax
-    Tree](http://devhawk.net/2007/12/19/Practical+F+Parsing+The+Abstract+Syntax+Tree.aspx)
+    Tree](http://devhawk.net/2007/12/19/practical-f-parsing-the-abstract-syntax-tree/)
 -   [Semantic Productions
-    (2)](http://devhawk.net/2007/12/20/Practical+F+Parsing+Semantic+Productions+2.aspx)
+    (http://devhawk.net/2007/12/20/practical-f-parsing-semantic-productions-2/)
 -   [<span style="color: #017cbc;">Recursion and Predicate
-    Functions</span>](http://devhawk.net/2008/01/29/Practical+F+Parsing+Recursion+And+Predicate+Functions.aspx)
+    Functions</span>](http://devhawk.net/2008/01/29/practical-f-parsing-recursion-and-predicate-functions/)
 -   Caching and Tracing
 -   C\# Interop
 

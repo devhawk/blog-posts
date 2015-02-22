@@ -61,7 +61,7 @@ binding, as long as you don’t restart the client or service during the
 conversation. Because that would never ever happen, right?
 
 This is part of the reason [why I’m sold on Service
-Broker](http://devhawk.net/2006/10/23/The+Other+Foundation+Technology.aspx).
+Broker](http://devhawk.net/2006/10/23/the-other-foundation-technology/).
 From where I sit, it looks like WCF can’t handle long running operations
 *at all* – at least, not with any of the built in transports and
 bindings. You may be able to build something custom that would work for

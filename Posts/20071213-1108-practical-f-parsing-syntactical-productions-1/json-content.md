@@ -1,7 +1,7 @@
 Now that I have my [parse buffer
-functions](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx)
+functions](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/)
 and [unit test
-framework](http://devhawk.net/2007/12/12/Practical+F+Parsing+Unit+Testing.aspx)
+framework](http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/)
 taken care of, it’s time to write some parsing expression grammar
 productions [1]. In any grammar, there are productions that have
 semantic meaning and productions that are only used to specify syntax.
@@ -51,7 +51,7 @@ Unfortunately, this isn’t code very readable. In particular, the match
 priority order, which matters in PEGs, is totally lost. For this
 production, it’s no big deal, but that won’t always be the case. I’m
 also not using the handy TOKEN function I wrote in [a few posts
-ago](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx).
+ago](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/).
 Here’s an alternative version that uses TOKEN and preserves the match
 priority order.
 
@@ -86,7 +86,7 @@ let EndOfLine input =
 ```
 
 Turns out, F\#’s [Active Patterns
-feature](http://devhawk.net/2007/11/29/F+Hawkeye+Pattern+Matching.aspx)
+feature](http://devhawk.net/2007/11/29/f-hawkeye-pattern-matching/)
 let’s me implement EndOfLine exactly like this. We’ll look at how it
 works in the next post.
 

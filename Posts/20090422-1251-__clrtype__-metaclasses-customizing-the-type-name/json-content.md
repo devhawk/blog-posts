@@ -1,5 +1,5 @@
 Now that we know a [little about how IronPython uses CLR types under the
-hood](http://devhawk.net/2009/04/21/clrtype+Metaclasses+IronPython+Classes+Under+The+Hood.aspx),
+hood](http://devhawk.net/2009/04/21/__clrtype__-metaclasses-ironpython-classes-under-the-hood/),
 let’s start customizing those types. In a nutshell, \_\_clrtype\_\_
 metaclasses are metaclasses that implement a function named
 \_\_clrtype\_\_ that takes the Python class definition as a parameter

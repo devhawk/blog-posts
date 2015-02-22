@@ -17,7 +17,7 @@ News](http://en.wikipedia.org/wiki/Huey_Lewis_and_The_News)
     political clout to get SOA moving in a big way that will transform
     the business.” I guess that blows a huge hole in Thomas Erl’s [CIO
     as Dictator
-    approach](http://devhawk.net/2006/09/27/Thoughts+On+The+SOA+Workshop.aspx).
+    approach](http://devhawk.net/2006/09/27/thoughts-on-the-soa-workshop/).
 -   I don’t have a Wii (yet) but [this
     game](http://www.next-gen.biz/index.php?option=com_content&task=view&id=4547&Itemid=2)
     seems pretty cool for the little ones. Patrick is getting pretty

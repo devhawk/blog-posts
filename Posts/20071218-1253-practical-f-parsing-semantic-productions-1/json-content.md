@@ -1,5 +1,5 @@
 All the [syntactic
-productions](http://devhawk.net/2007/12/17/Practical+F+Parsing+Syntactical+Productions+2.aspx)
+productions](http://devhawk.net/2007/12/17/practical-f-parsing-syntactical-productions-2/)
 in my PEG parser, save one, have the exact same signature. They take in
 a char list and return a char list option. Which is to say, they take a
 parse buffer in and return either the remaining parse buffer on a

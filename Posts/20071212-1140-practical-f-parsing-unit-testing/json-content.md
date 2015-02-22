@@ -1,5 +1,5 @@
 Now that I have [functions to access the parse
-buffer](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx),
+buffer](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/),
 I better write some tests for them. Yes, I realize I should have written
 the tests first, but the articles flow better this way.
 
@@ -110,7 +110,7 @@ code (though I probably should).
 
 Once we’ve referenced the correct assemblies, I need to write the tests.
 Here are two tests for NC (aka Next Char) function I wrote in the [last
-post](http://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx).
+post](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/).
 
 ``` fsharp
 [<Fact>]

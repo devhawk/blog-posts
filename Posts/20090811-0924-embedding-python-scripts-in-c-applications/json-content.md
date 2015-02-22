@@ -2,7 +2,7 @@
 
 Now that I’ve got Pygments and its dependencies [packaged up in an
 easy-to-distribute
-assembly](http://devhawk.net/2009/08/10/Compiling+Python+Packages+Into+Assemblies.aspx),
+assembly](http://devhawk.net/2009/08/10/compiling-python-packages-into-assemblies/),
 I need to be able to call it from C\#. However, if you pop open
 pygments.dll in Reflector, you’ll notice it’s not exactly intuitive to
 access. Lots of compiler generated names like pygments\$12 and

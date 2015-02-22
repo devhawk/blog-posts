@@ -1,5 +1,5 @@
 Now that I’m an [Architect on the
-Edge](http://devhawk.net/2006/01/24/Architect+On+The+Edge.aspx) (I’m
+Edge](http://devhawk.net/2006/01/24/architect-on-the-edge/) (I’m
 thinking of putting that on my business card. Good idea or bad idea?) of
 course the first order of business is taking a closer look at “Web 2.0”.
 One thing leaps out at me right away – I hate the name “Web 2.0”.

@@ -1,5 +1,5 @@
 [Gareth](http://blogs.msdn.com/garethj) responds to the first tenet of
-[Code is Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx):
+[Code is Model](http://devhawk.net/2005/10/05/code-is-model/):
 
 > [A]lthough as an industry we desperately need to drag models kicking
 > and screaming from the far left of pretty-picturedom a good long way
@@ -56,7 +56,7 @@ that. As such, I think items \#1 and \#2 from Gareth’s list aren’t
 actually models at all. I think of them as pseudomodels, similar to the
 concept of [pseudocode](http://en.wikipedia.org/wiki/Pseudocode).
 Actually, I like the name pseudomodel – it also applies well to [Grady’s
-scaffolding](http://devhawk.net/2005/12/17/Scaffolding+Isnt+A+Model.aspx).
+scaffolding](http://devhawk.net/2005/12/16/scaffolding-isnt-a-model/).
 Like psuedocode, pseudomodels have tons of value in communication and
 reasoning about a problem but they can’t be used as development
 artifacts.
@@ -79,7 +79,7 @@ stable while the program written with it changes. But with the
 introduction of DSLs, it becomes possible for both to vary
 independently. I would assume that a DSL would evolve over time to have
 better “coverage” of a given domain. For example, if I was building a
-[CAB DSL](http://devhawk.net/2005/11/23/Thoughts+On+CAB.aspx), I would
+[CAB DSL](http://devhawk.net/2005/11/23/thoughts-on-cab/), I would
 implement support for WorkItem right off the bat, but supporting
 WorkItemExtension would be much lower on the priority list. This
 represents language refinement, but I would argue it’s a refinement of

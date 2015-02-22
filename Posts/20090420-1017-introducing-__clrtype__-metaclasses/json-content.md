@@ -11,7 +11,7 @@ While the vast majority of .NET is available to IronPython, there are
 certain APIs that just don’t work with dynamic code. In particular, any
 code that uses Reflection over an object’s CLR type metadata won’t work
 with IronPython. For example, while [WPF
-supports](http://devhawk.net/2008/11/18/IronPython+And+WPF+Part+3+Data+Binding.aspx)[ICustomTypeDescriptor](http://msdn.microsoft.com/en-us/library/system.componentmodel.icustomtypedescriptor.aspx),
+supports](http://devhawk.net/2008/11/17/ironpython-and-wpf-part-3-data-binding/)[ICustomTypeDescriptor](http://msdn.microsoft.com/en-us/library/system.componentmodel.icustomtypedescriptor.aspx),
 Silverlight only supports data binding against reflectable properties.
 Furthermore, any code that uses custom attributes inherently uses
 Reflection. For example, Darrel Hawley recently blogged a [WCF host he

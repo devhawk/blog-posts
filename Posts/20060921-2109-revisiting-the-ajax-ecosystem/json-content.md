@@ -1,5 +1,5 @@
 Seven months and one job ago, I [wrote
-this](http://devhawk.net/2006/02/14/Thoughts+On+The+AJAX+Toolkit+Spectrum.aspx)
+this](http://devhawk.net/2006/02/13/thoughts-on-the-ajax-toolkit-spectrum/)
 about AJAX toolkits:
 
 > The network effect that [Dion doesn’t

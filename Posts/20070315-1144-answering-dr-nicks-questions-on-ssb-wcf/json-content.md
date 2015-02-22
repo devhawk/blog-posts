@@ -10,7 +10,7 @@ MVP dinner, so this is likely to be more coherent than I was yesterday!
 closer to the database? How close is close enough to the database?
 
 > I’ve first blogged about the [endangered middle
-> tier](http://devhawk.net/2004/04/22/The+Endangered+MiddleTier+Part+2.aspx)
+> tier](http://devhawk.net/2004/04/21/the-endangered-middle-tier-part-2/)
 > almost three years ago. My point at the time was that as you break
 > your monolithic system up into services, the vast majority of those
 > services won’t need to scale out. You performance gets better the

@@ -1,5 +1,5 @@
 As part of the [new
-job](http://devhawk.net/2006/01/24/Architect+On+The+Edge.aspx), I’m
+job](http://devhawk.net/2006/01/24/architect-on-the-edge/), I’m
 involved in the planning a workshop called SPARK, which [Dion
 Hinchcliffe](http://hinchcliffe.org/)[blogged
 about](http://blogs.zdnet.com/Hinchcliffe/?p=5) this morning. (Dion also

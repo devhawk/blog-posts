@@ -1,5 +1,5 @@
 There are still a couple of posts to go in my [Practical Parsing in F\#
-series](http://devhawk.net/2007/12/10/Practical+Parsing+In+F.aspx). But
+series](http://devhawk.net/2007/12/10/practical-parsing-in-f/). But
 with Christmas and my parents on their way, I’m taking the rest of the
 year off.
 

@@ -1,10 +1,10 @@
 TechEd isn’t technically over, but it is for me. I’m on a flight home in
 about four hours. Frankly, I am very excited to be going home. It’s been
 almost a year since [my last public
-presentation](http://devhawk.net/2006/06/26/Gartner+EA+Summit+Day+Two.aspx),
+presentation](http://devhawk.net/2006/06/26/gartner-ea-summit-day-two/),
 and the only work travel I’ve done in the last 12 months was that
 Gartner EA conference last June, the [Thomas Erl SOA
-workshop](http://devhawk.net/2006/09/27/Thoughts+On+The+SOA+Workshop.aspx)
+workshop](http://devhawk.net/2006/09/27/thoughts-on-the-soa-workshop/)
 back in September and TechEd 07. I am simply out of practice being gone
 from home this long.
 
@@ -14,7 +14,7 @@ TechEd, I’ve been asked about presenting at seven conferences that all
 happen in the next six months. I’ll do a few – I hope to gravitate to
 the ones close to campus and don’t require me to be gone very long – but
 my problem with presenting right now is that I’m still talking theory. I
-[left evangelism](http://devhawk.net/2006/06/15/Moving+On.aspx) because
+[left evangelism](http://devhawk.net/2006/06/15/moving-on/) because
 I wanted to build something. We’re still getting started on that “build
 something” thing, so I don’t have anything to show, just stuff we’re
 thinking about building. Hopefully, by conference season next year, I’ll
@@ -52,6 +52,6 @@ almost every booth had some type of hi-tech gadget giveaway, but that
 was the coolest by far. They also gave me a copy of their [new
 NetCmdlets](http://www.nsoftware.com/powershell/) product, which Dale
 has apparently [been playing
-with](http://devhawk.net/2007/06/07/Morning+Doughnuts+10.aspx). The
+with](http://devhawk.net/2007/06/07/morning-doughnuts-10/). The
 question is, which will Dale be more jealous of: my copy of NetCmdlets
 or the cool PowerShell sticker I got for my laptop?

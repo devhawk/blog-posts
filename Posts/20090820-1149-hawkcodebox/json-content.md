@@ -1,5 +1,5 @@
 Last month, I
-[lamented](http://devhawk.net/2009/07/09/Syntax+Highlighting+TextBoxes+In+WPF+Ndash+A+Sad+Story.aspx)
+[lamented](http://devhawk.net/2009/07/09/syntax-highlighting-textboxes-in-wpf-a-sad-story/)
 the lack of extensibility of the WPF text box. While there are
 [several](http://www.actiprosoftware.com/Products/DotNet/WindowsForms/SyntaxEditor/Default.aspx)[vendors](http://www.aqistar.com/)
 and at least one [open

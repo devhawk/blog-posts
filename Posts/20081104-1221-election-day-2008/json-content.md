@@ -2,7 +2,7 @@
 typically anonymously, suggests that I “*[*stick to
 technology*](http://devhawk.net/CommentView,guid,e375ccf8-6a9f-4c99-8f21-3b108eacb1f6.aspx#commentstart)*”.
 I will remind you, dear reader, that* [*This Is Not A Technical
-Blog*](http://devhawk.net/2007/04/03/This+Is+Not+A+Technical+Blog.aspx)*.
+Blog*](http://devhawk.net/2007/04/03/this-is-not-a-technical-blog/)*.
 If you don’t like my politics, you’re free to ignore the political posts
 or simply unsubscribe from my blog altogether. Anonymous suggestions as
 to what I should or should not be blogging about will be summarily
@@ -18,7 +18,7 @@ about how they cast “our” vote.
 
 For shits and giggles, I went back and looked at my posts [from two
 years
-ago](http://devhawk.net/2006/11/07/Certainly+Not+Politics+As+Usual.aspx).
+ago](http://devhawk.net/2006/11/07/certainly-not-politics-as-usual/).
 It doesn’t make me Nostradamus, but I did guess we were going to have “a
 very ugly race, especially from the Republicans” and that “the
 nomination race will be worse” than the general election. If [Keith

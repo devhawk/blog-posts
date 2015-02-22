@@ -1,6 +1,6 @@
 I just realized that I had Morning Coffee 9 both [last
-Friday](http://devhawk.net/2007/01/12/Late+Morning+Coffee+9.aspx) and
-[last Monday](http://devhawk.net/2007/01/15/Morning+Coffee+9.aspx).
+Friday](http://devhawk.net/2007/01/12/late-morning-coffee-9/) and
+[last Monday](http://devhawk.net/2007/01/15/morning-coffee-9/).
 Woops. Rather than changing the titles of four posts, I’m just skipping
 \#13 instead. Just like a hotel.
 
@@ -38,7 +38,7 @@ Woops. Rather than changing the titles of four posts, I’m just skipping
     bent. However, as Scott points out, it is *slow*. Scott blames the
     Outlook Automation APIs, but I think the scripting engine is also to
     blame. In the [CRM Integration for
-    Outlook](http://devhawk.net/2006/01/10/Outlook+Integration+Sample.aspx)
+    Outlook](http://devhawk.net/2006/01/09/outlook-integration-sample/)
     sample, I used a [WinForms UserControl as a folder
     homepage](http://msdn2.microsoft.com/en-us/library/aa479345.aspx#otlkcustinentapp_topic9)
     and didn’t notice any perf issues. If you expose a WinForms

@@ -56,9 +56,9 @@ blog reading after my Hawaii vacation and finally just gave up and hit
 -   Speaking of F\#, my friend Matthew Podwysocki [recently
     published](http://weblogs.asp.net/podwysocki/archive/2008/06/19/announcing-fstest-a-testing-dsl-for-f.aspx)
     FsTest, a testing DSL for F\#. I [wrote about F\# unit
-    testing](http://devhawk.net/2007/12/12/Practical+F+Parsing+Unit+Testing.aspx)
+    testing](http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/)
     as part of my [PEG parsing
-    series](http://devhawk.net/2007/12/10/Practical+Parsing+In+F.aspx),
+    series](http://devhawk.net/2007/12/10/practical-parsing-in-f/),
     and I really like the direction Matthew has taken this project. You
     can pull it down from [CodePlex](http://www.codeplex.com/FsTest).
 -   When I did my [PEG
@@ -81,11 +81,11 @@ blog reading after my Hawaii vacation and finally just gave up and hit
     psake](http://codebetter.com/blogs/james.kovacs/archive/2008/06/27/introducing-psake.aspx),
     a PowerShell based build automation tool which uses a rake-inspired
     internal DSL syntax similar to one [I blogged last
-    year](http://devhawk.net/2007/02/21/Internal+DSLs+In+PowerShell.aspx).
+    year](http://devhawk.net/2007/02/20/internal-dsls-in-powershell/).
     I’d love to see this take off, but given MSBuild’s tool integration,
     I wonder if that’s feasible.
 -   I [upgraded my home wireless
-    network](http://devhawk.net/2007/07/09/Upgrading+My+Home+Wireless+Network.aspx)
+    network](http://devhawk.net/2007/07/08/upgrading-my-home-wireless-network/)
     almost exactly a year ago. I’ve been happy with the range and
     coverage, but not so happy with the Buffalo Tech firmware. The
     built-in DHCP server is pretty flaky. So I upgraded to the

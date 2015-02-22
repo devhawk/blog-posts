@@ -1,7 +1,7 @@
 Robert Bauman left the following
 [comment](http://blogs.msdn.com/devhawk/archive/2005/02/24/379473.aspx#379697)
 on my [Separated at
-Birth](http://devhawk.net/MDA+And+Software+Factories++Separated+At+Birth.aspx)
+Birth](http://devhawk.net/2005/02/24/mda-and-software-factories-separated-at-birth/)
 post?
 
 > The nice thing about using a general purpose modeler is that you can

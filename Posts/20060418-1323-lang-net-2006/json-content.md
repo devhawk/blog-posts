@@ -2,7 +2,7 @@
 details about [Lang .NET 2006](http://lambda-the-ultimate.org/node/1416)
 over on [Lambda the Ultimate](http://lambda-the-ultimate.org/). Looks to
 be the next generation of the [Complier Dev
-Lab](http://devhawk.net/2006/03/14/Compiler+Dev+Lab++LINQ.aspx) I
+Lab](http://devhawk.net/2006/03/14/compiler-dev-lab-linq/) I
 attended last month. The appear to have opened up the program
 significantly, and are asking for abstracts for both 30 minute talks as
 well as 10 minute “lightning” talks. If you’re interested in
@@ -24,4 +24,3 @@ here’s the list of topics they are most interested in:
 -   Success and failure stories
 -   Non-standard language features and implementation techniques
 -   Tools and IDE support
-

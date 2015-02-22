@@ -15,7 +15,7 @@ Neither stealing nor cajoling worked, I’ll have to go get my own copy or
 [read it on Safari](http://safari.informit.com/9780321398208). Gareth
 and I talked a while about language evolution – how DSLs come to be. One
 of the subjects we talked about was [internal
-DSLs](http://devhawk.net/2007/02/21/Internal+DSLs+In+PowerShell.aspx) -
+DSLs](http://devhawk.net/2007/02/20/internal-dsls-in-powershell/) -
 I’ll be interested in Gareth’s non-immediate reaction. Gareth also
 [blogged](http://blogs.msdn.com/garethj/archive/2007/06/05/teched-day-one-visual-studio-2008-shell.aspx)
 yesterday about a TechEd announcement that I had missed: [VS 2008
@@ -26,7 +26,7 @@ There seems to be quite a [stir
 brewing](http://www.martinfowler.com/bliki/RubyMicrosoft.html) about how
 the Ruby and Microsoft community can / will come together. I will wisely
 keep my opinions to myself – I’m already in the [REST/SOAP
-fray](http://devhawk.net/2007/06/05/A+REST+Question.aspx), no need to
+fray](http://devhawk.net/2007/06/05/a-rest-question/), no need to
 join another – though I will say that it’s encouraging to [hear the
 call](http://ola-bini.blogspot.com/2007/06/there-can-be-only-one-tale-about-ruby.html)
 for “a good, complete [Ruby language] specification” in order to support

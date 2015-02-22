@@ -1,7 +1,7 @@
 So after doing
-[community](http://devhawk.net/Today+Is+The+Last+Day+Of+My+Life+So+Far.aspx)
+[community](http://devhawk.net/2003/09/19/today-is-the-last-day-of-my-life-so-far/)
 and
-[marketing](http://devhawk.net/Atlas+Brand+View+Wabi+Sabi++And+DevHawk.aspx)
+[marketing](http://devhawk.net/2005/01/29/atlas-brand-view-wabi-sabi-and-devhawk/)
 for the Architecture Strategy Team in the last two years, I’m changing
 roles on the team again. I’m going to work for [John
 deVadoss](http://blogs.msdn.com/jdevados/) as a solution architect. In
@@ -45,4 +45,3 @@ incredibly busy and have spotty network access. I’ll probably post
 pictures to my [MSN Space](http://spaces.msn.com/members/devhawk/) on
 occasion since I can do that with my phone. Otherwise, I’ll see you on
 the other side.
-

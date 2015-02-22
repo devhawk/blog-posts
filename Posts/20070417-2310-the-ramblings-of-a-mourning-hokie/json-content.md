@@ -1,5 +1,5 @@
 As I [mentioned this
-morning](http://devhawk.net/2007/04/17/Morning+Coffee+65.aspx), my
+morning](http://devhawk.net/2007/04/17/morning-coffee-65/), my
 brother went to Virginia Tech. In trying to come to grips with what
 happened in Blacksburg yesterday, he wrote the following and asked me to
 post it here.

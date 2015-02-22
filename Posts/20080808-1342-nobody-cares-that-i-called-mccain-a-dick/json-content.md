@@ -1,5 +1,5 @@
 In Febuary, [when I
-said](http://devhawk.net/2008/02/11/Morning+Coffee+145.aspx) “Romney’s a
+said](http://devhawk.net/2008/02/11/morning-coffee-145/) “Romney’s a
 real douche bag”, [several upset
 commenters](http://devhawk.net/CommentView,guid,d88e8506-d669-41c3-a246-6da1865f9a2e.aspx#commentstart)
 vowed never to read my blog again. I was even called a bigot (though
@@ -11,7 +11,7 @@ reaction I expect.
 So it kinda surprised me that the
 [response](http://devhawk.net/CommentView,guid,be8c3c37-012b-499f-a1d2-1db86c5771b5.aspx#commentstart)
 to [calling McCain a dick and his campaign an
-embarrassment](http://devhawk.net/2008/08/01/McCains+Dick+Move+Of+The+Week.aspx)
+embarrassment](http://devhawk.net/2008/08/01/mccains-dick-move-of-the-week/)
 was so tepid. No outrage. No promises to unsubscribe nor predictions
 that others would do likewise. Dale sounds like he agrees that McCain’s
 campaign is an embarrassment, even though he clearly supports McCain.

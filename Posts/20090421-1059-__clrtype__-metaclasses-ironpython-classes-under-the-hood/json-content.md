@@ -1,5 +1,5 @@
 Before we start using [\_\_clrtype\_\_
-metaclasses](http://devhawk.net/2009/04/20/Introducing+Clrtype+Metaclasses.aspx),
+metaclasses](http://devhawk.net/2009/04/20/introducing-__clrtype__-metaclasses/),
 we need to understand a bit about how IronPython maps between CLR types
 and Python classes. IronPython doesn’t support Reflection based APIs or
 custom attributes today because IronPython doesn’t emit a custom CLR

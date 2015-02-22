@@ -1,6 +1,6 @@
 It’s not quite out the door yet, but things have gotten quieter around
 here since we shipped the [Release Candidate of
-2.6](http://devhawk.net/2009/09/23/IronPython+26+Release+Candidate.aspx).
+2.6](http://devhawk.net/2009/09/23/ironpython-2-6-release-candidate/).
 But there’s no rest for the dynamic, so we’ve already started thinking
 about what we do next.
 
@@ -21,7 +21,7 @@ vehicle in the 2.x branch until Python 2.7 next summer, these service
 releases may contain new functionality in addition to bug fixes. In
 particular, we will look to include any missing modules work that I
 discussed in my [RC announcement
-post](http://devhawk.net/2009/09/23/IronPython+26+Release+Candidate.aspx)
+post](http://devhawk.net/2009/09/23/ironpython-2-6-release-candidate/)
 in these service releases.
 
 In addition to the IronPython 2.6 service releases, we’ll also continue

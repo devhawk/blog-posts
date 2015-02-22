@@ -12,7 +12,7 @@ Python is easy, but there’s no support for compiling any language other
 than Python.
 
 I’ve been doing a little experimenting in this space. First, as I’ve
-[written before](http://devhawk.net/2006/08/15/Modular+Compilers.aspx),
+[written before](http://devhawk.net/2006/08/15/modular-compilers/),
 I’ve been playing with [parsing expression
 grammars](http://pdos.csail.mit.edu/~baford/packrat/). Second, I want to
 take a close look at

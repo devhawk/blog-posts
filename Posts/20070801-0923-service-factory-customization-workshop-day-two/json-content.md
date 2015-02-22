@@ -1,6 +1,6 @@
 As expected, day two of the WSSF customization workshop was much meatier
 than [day
-one](http://devhawk.net/2007/07/31/Service+Factory+Customization+Workshop+Day+One.aspx).
+one](http://devhawk.net/2007/07/31/service-factory-customization-workshop-day-one/).
 If you look at the technologies that power these p&p [software
 factories](http://msdn2.microsoft.com/en-us/teamsystem/aa718951.aspx) –
 [GAT](http://msdn2.microsoft.com/en-us/teamsystem/aa718948.aspx) and

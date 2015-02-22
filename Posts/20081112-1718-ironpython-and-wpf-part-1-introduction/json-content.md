@@ -1,5 +1,5 @@
 I decided to start my IronPython and “[veritable universe of cool
-technologies](http://devhawk.net/2008/11/13/IronPython+And+LtInsert+MSFT+Technology+Heregt.aspx)”
+technologies](http://devhawk.net/2008/11/12/ironpython-and-insert-msft-technology-here/)”
 examples with WPF. I figured that since we already have Silverlight
 support, there might be some overlap (there was). Futhermore, after
 seeing [BabySmash on
@@ -44,6 +44,6 @@ code + 50 lines of XAML to describe the window. There’s also some
 reusable code – 50 lines of WPF module code (mostly stolen from
 avalon.py in the IPy tutorial), 200 lines of xml2py code [which I’ve
 discussed
-before](http://devhawk.net/2008/05/07/Deserializing+XML+With+IronPython.aspx)
+before](http://devhawk.net/2008/05/06/deserializing-xml-with-ironpython/)
 and a very small C\# based assembly to make accessing WPF elements by
 name very pythonic.

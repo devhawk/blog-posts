@@ -1,6 +1,6 @@
 It’s a small update, but I added support for displaying method arguments
 along side [the local
-variables](http://devhawk.net/2009/03/31/Writing+An+IronPython+Debugger+Displaying+Values.aspx).
+variables](http://devhawk.net/2009/03/31/writing-an-ironpython-debugger-displaying-values/).
 As I mentioned in that post, breaking out the CorValue extraction and
 display code into a shared function was a good idea – adding support for
 getting arguments was trivial since I could reuse that code.
@@ -23,7 +23,7 @@ value, the same as get\_locals yields. I did refactor
 [get\_locals](http://github.com/devhawk/ipydbg/blob/4495bbcd48e9593dd3a148d0dafb82646cf091c0/ipydbg.py#L146)
 a bit – there’s no longer an argument to skip hidden variables anymore
 (though get\_locals still [skips dynamic call sites
-caches](http://devhawk.net/2009/03/25/Writing+An+IronPython+Debugger+Getting+Local+Variables.aspx)
+caches](http://devhawk.net/2009/03/25/writing-an-ironpython-debugger-getting-local-variables/)
 as it did before). Now, it’s up to the the caller of get\_arguments and
 get\_locals to filter hidden variables as they see fit.
 

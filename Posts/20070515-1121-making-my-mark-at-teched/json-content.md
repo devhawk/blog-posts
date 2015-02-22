@@ -2,7 +2,7 @@
 of the things that’s different about being in MSIT is that it’s cut my
 travel dramatically. Basically, the only travel I’ve done since taking
 this job was [Thomas Erl’s SOA
-Workshop](http://devhawk.net/2006/09/27/Thoughts+On+The+SOA+Workshop.aspx)
+Workshop](http://devhawk.net/2006/09/27/thoughts-on-the-soa-workshop/)
 last September. So it came as a bit of a surprise when I got tapped to
 present at TechEd (at fairly close to the last minute).
 
@@ -14,7 +14,7 @@ dramatically, with 14 breakouts, 20 chalk talks and our own Technical
 Learning Center.
 
 I’m doing a two chalk talks on my MSIT project, Rome. I
-[mentioned](http://devhawk.net/2006/06/15/Moving+On.aspx) the project
+[mentioned](http://devhawk.net/2006/06/15/moving-on/) the project
 back when I switched jobs, but we’ve never talked about the project by
 name before. We haven’t accomplished quite as much as I’d hoped since
 then, but we’ve progressed to the point that we can talk publicly about

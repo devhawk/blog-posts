@@ -1,5 +1,5 @@
 Yesterday, I
-[mentioned](http://devhawk.net/New+DSL+Tool+Drop+Available.aspx) that
+[mentioned](http://devhawk.net/2005/03/09/new-dsl-tool-drop-available/) that
 you need VC++ installed to use the [DSL
 Toolkit](http://labs.msdn.microsoft.com/teamsystem/Workshop/DSLTools/default.aspx).
 Apparently, it’s needed for building a DLL related to VS integration.

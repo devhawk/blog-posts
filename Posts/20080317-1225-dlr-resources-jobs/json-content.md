@@ -18,5 +18,5 @@ team blog](http://blogs.msdn.com/ironpython/):
     development @ MSFT, [drop me a line](mailto://harry@devhawk.net) and
     I’ll make sure it gets to the right people. BTW, I hear the
     IronPython PM position [has been
-    filled](http://devhawk.net/2008/03/11/Joining+The+Dynamic+Languages+Team.aspx).
+    filled](http://devhawk.net/2008/03/11/joining-the-dynamic-languages-team/).
 

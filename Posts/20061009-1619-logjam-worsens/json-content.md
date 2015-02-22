@@ -1,5 +1,5 @@
 Last week, I wrote about the [college football
-logjam](http://devhawk.net/2006/10/01/College+Football+Logjam.aspx).
+logjam](http://devhawk.net/2006/10/01/college-football-logjam/).
 While we’ve seen [one team fall
 out](http://sports.espn.go.com/ncf/recap?gameId=262800002) of the
 running, the overall race for the \#2 slot has tightened significantly.

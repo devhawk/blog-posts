@@ -5,7 +5,7 @@ code snippets in my blog. However, recently I discovered the
 supports scores more languages than CodeHTMLer does. It also support
 multiple color schemes and was easily extensible so I could build an
 HTML formatter that didn’t use \<pre\> tags (which [I’ve found DasBlog
-has issues with](http://devhawk.net/2007/12/07/Blogging+F+Code.aspx) in
+has issues with](http://devhawk.net/2007/12/07/blogging-f-code/) in
 the RSS feed, though honestly I’m running three minor releases behind
 the latest DasBlog release). IronPython supports Pygments just fine – at
 least, the one IPy bug that Pygments exposes has a simple workaround –

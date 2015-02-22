@@ -25,7 +25,7 @@ and [2008](http://langnetsymposium.com/2008/talks.aspx) are available
 online. 
 
 I’ve attended
-[both](http://devhawk.net/2006/08/01/Lang+NET+2006+Symposium.aspx)[previous](http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx)
+[both](http://devhawk.net/2006/08/01/lang-net-2006-symposium/)[previous](http://devhawk.net/2008/01/31/morning-coffee-141-lang-net-08-edition/)
 Lang.NET Symposiums and [spoke at last year’s
 event](http://langnetsymposium.com/2008/talks/3-03%20-%20Parsing%20Expression%20Grammars%20in%20FSharp%20-%20Harry%20Pierson.html),
 but this will be my first as a part of the team driving the event
@@ -38,7 +38,7 @@ new building
 \#99](http://research.microsoft.com/en-us/news/features/Building_99.aspx).
 
 This year, we’re very excited to be [joined at the
-hip](http://devhawk.net/2008/12/19/The+Reesersquos+Peanut+Butter+Cups+Of+Language+Conferences.aspx)
+hip](http://devhawk.net/2008/12/18/the-reeses-peanut-butter-cups-of-language-conferences/)
 with Chris Sells’ [DSL Developers
 Conference](http://sellsbrothers.com/conference/). Those guys over in
 CSD are working on some [cool language stuff of their

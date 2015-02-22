@@ -23,7 +23,7 @@
     taking sides and mixing it up when it comes to data & object
     persistence. He makes some interesting points that mostly boil down
     to “different tools for different jobs”. Also, has the [dual schema
-    problem](http://devhawk.net/2006/03/28/The+Dual+Schema+Problem.aspx) entered
+    problem](http://devhawk.net/2006/03/28/the-dual-schema-problem/) entered
     the general vernacular, or just Ted’s?
 -   Nick Malik [survives his
     trip](http://blogs.msdn.com/nickmalik/archive/2007/06/12/showing-up-can-be-the-hardest-part.aspx)

@@ -1,5 +1,5 @@
 I’ve gotten some great feedback on my [Code is
-Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx) post. But
+Model](http://devhawk.net/2005/10/05/code-is-model/) post. But
 before I get to those comments, I wanted to talk a little bit about the
 role of tools. Tools are important in every industry, but in no industry
 are they as important or central as they are to information technology.

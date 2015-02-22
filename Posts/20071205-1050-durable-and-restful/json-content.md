@@ -1,11 +1,11 @@
 A while back I
-[wondered](http://devhawk.net/2007/06/05/A+REST+Question.aspx) if it’s
+[wondered](http://devhawk.net/2007/06/05/a-rest-question/) if it’s
 still REST if you don’t use HTTP. The reason I wondered that is because
 like many I’ve become disillusioned with the WS-\* stack over time and
 see REST as a viable alternative to all that spec-driven complexity.
 However, just because I’m looking to REST means I’m willing to give up
 on [durable
-messaging](http://devhawk.net/2007/05/30/The+Case+For+Durable+Messaging+In+Service+Orientation.aspx).
+messaging](http://devhawk.net/2007/05/30/the-case-for-durable-messaging-in-service-orientation/).
 So I shouldn’t be asking “can I do REST without HTTP?” I should be
 asking “what protocol can I use to do durable messaging with REST?”
 
@@ -14,7 +14,7 @@ take the time to make your POSTs idempotent. There’s even a IETF RFC
 that builds on HTTP and specifies a mechanism to do it.
 
 As I wrote last month, [idempotence is critically
-important](http://devhawk.net/2007/11/09/The+Importance+Of+Idempotence.aspx)
+important](http://devhawk.net/2007/11/09/the-importance-of-idempotence/)
 to ensuring “things” happen exactly once when connecting disparate
 systems together. At the end of that post, I asked you, dear reader, to
 contemplate just how durable messaging systems ensures exactly once

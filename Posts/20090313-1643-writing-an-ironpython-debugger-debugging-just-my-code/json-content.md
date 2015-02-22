@@ -2,13 +2,13 @@ As I wrote last time, in order to make debug stepping actually useful in
 ipydbg I need to avoid stepping into frames that are part of the
 IronPython infrastructure. I did something similar when I [hide
 infrastructure frames in the stack
-trace](http://devhawk.net/2009/03/09/Writing+An+IronPython+Debugger+Dynamic+Stack+Trace.aspx).
+trace](http://devhawk.net/2009/03/09/writing-an-ironpython-debugger-dynamic-stack-trace/).
 Originally, I had planned to automatically stepping again if we ended up
 on a frame that didn’t correspond to a python file. However, [Mike
 Stall](http://blogs.msdn.com/jmstall/default.aspx) showed me a much
 cleaner and better performing solution: Just My Code. As I mentioned at
 the [start of this
-series](http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+Introduction.aspx),
+series](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-introduction/),
 support for JMC is one of the main reasons I wanted to build my own
 debugger rather than use MDbg.
 

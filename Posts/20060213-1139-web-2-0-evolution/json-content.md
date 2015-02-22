@@ -39,7 +39,7 @@ Service](http://www.amazon.com/gp/browse.html/ref=sc_fe_l_2/102-5580662-4480110?
 How many more in-browser [mashup
 API’s](http://www.programmableweb.com/apis) are out there waiting to be
 built? I’m not sure, but as I wrote in [Browser as
-VM](http://devhawk.net/2006/02/03/Browser+As+Virtual+Machine.aspx), the
+VM](http://devhawk.net/2006/02/02/browser-as-virtual-machine/), the
 problem with these in-browser mashup API’s is that you can’t protect
 your IP.
 

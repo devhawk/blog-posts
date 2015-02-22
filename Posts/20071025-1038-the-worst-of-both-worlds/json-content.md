@@ -1,6 +1,6 @@
 David Pallmann of Neudesic
 [responded](http://davidpallmann.spaces.live.com/Blog/cns!E95EF9DC3FDB978E!277.entry)
-to my [comment](http://devhawk.net/2007/10/19/Morning+Coffee+119.aspx)
+to my [comment](http://devhawk.net/2007/10/19/morning-coffee-119/)
 that “Physically distributed but logically centralized” didn’t make any
 sense to me at all:
 

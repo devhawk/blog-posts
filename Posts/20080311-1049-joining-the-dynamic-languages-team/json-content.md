@@ -7,7 +7,7 @@ Languages team as a program manager. This is the team who ships
 Runtime](http://blogs.msdn.com/hugunin/archive/2007/04/30/a-dynamic-language-runtime-dlr.aspx)
 and [Dynamic Silverlight](http://dynamicsilverlight.net/). After seeing
 all the their cool work [at Lang.NET this
-year](http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx),
+year](http://devhawk.net/2008/01/31/morning-coffee-141-lang-net-08-edition/),
 I just had to be a part of it.
 
 As you might imagine, I’m pretty excited about this opportunity.
@@ -30,11 +30,11 @@ haven’t met yet.
 While this is a pretty big role shift, I haven’t given up my passion for
 services and/or architecture. In other words, this isn’t the last you’ll
 hear about [Kitchen Sink
-Variability](http://devhawk.net/2008/03/05/Kitchen+Sink+Variability.aspx),
+Variability](http://devhawk.net/2008/03/04/kitchen-sink-variability/),
 [the ROI of
-EA](http://devhawk.net/2008/03/03/What+Is+The+ROI+On+EA.aspx) or my
+EA](http://devhawk.net/2008/03/02/what-is-the-roi-on-ea/) or my
 perspective on Nick’s [Shared Integration
-Model](http://devhawk.net/2008/01/22/Nicks+Flawed+Vision+Of+A+Shared+Integration+Model.aspx).
+Model](http://devhawk.net/2008/01/22/nicks-flawed-vision-of-a-shared-integration-model/).
 Obviously, with the job focus change, I expect focus on my blog to
 change as well. I’m not exactly sure how blogging fits into this new
 role, though the Dynamic Languages team is pretty open and many other
@@ -51,5 +51,5 @@ the trenches” experience will serve me greatly for years to come. And of
 course, I will miss my teammates, especially
 [Dale](http://halfmybrain.spaces.live.com/)  who regular readers might
 remember from [filling in around
-here](http://devhawk.net/2007/02/22/Morning+Doughnuts+5.aspx)
+here](http://devhawk.net/2007/02/22/morning-doughnuts-5/)
 occasionally.

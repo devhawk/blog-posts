@@ -1,5 +1,5 @@
 -   It’s been almost four months [since I
-    started](http://devhawk.net/2007/01/02/Morning+Coffee+1.aspx) these
+    started](http://devhawk.net/2007/01/02/morning-coffee-1/) these
     morning coffee posts. I like the regularity – there’s been 84
     weekdays so far this year, so 84 – (71 + 6 days missed from
     vacation) = only seven missed morning coffees. On the other hand, I
@@ -27,7 +27,7 @@
     I totally get the need a “new UDDI”, though I’d wager that my
     issues with UDDI are very different than Big Blue’s.
 -   Yesterday, I [made a
-    crack](http://devhawk.net/2007/04/25/Enterprise+Service+Bus+Give+Me+An+Extra+Special+Bitter+Instead.aspx)
+    crack](http://devhawk.net/2007/04/25/enterprise-service-bus-give-me-an-extra-special-bitter-instead/)
     about how un-scalable the Internet would be if every cFonnection
     went thru a central hub. Two days ago, Clemens has [a long
     post](http://blogs.msdn.com/clemensv/archive/2007/04/25/internet-service-bus.aspx)
@@ -36,7 +36,7 @@
     Second, it’s fairly obvious that not all traffic will go thru this
     bus (since the bus ain’t out yet and yet you’re still reading this
     via the Internets), so maybe that answers [my
-    question](http://devhawk.net/2007/04/25/Enterprise+Service+Bus+Give+Me+An+Extra+Special+Bitter+Instead.aspx)
+    question](http://devhawk.net/2007/04/25/enterprise-service-bus-give-me-an-extra-special-bitter-instead/)
     about ESB’s and centralization? That is to day, use the bus where
     you it’s useful, otherwise don’t bother?
 

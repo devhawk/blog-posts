@@ -23,7 +23,7 @@
 -   More MS Research goodness: a [new drop of
     Spec\#](http://research.microsoft.com/research/downloads/Details/da809d0a-2776-4415-8835-4f24832e0f0d/Details.aspx)
     is available. I’ve [written about Spec\#
-    before](http://devhawk.net/2006/08/02/LangNET+Is+Helping+Game+Developers.aspx),
+    before](http://devhawk.net/2006/08/02/lang-net-is-helping-game-developers/),
     but haven’t had the time to dig into it. (via
     [Larkware](http://www.larkware.com/dg8/TheDailyGrind1191.aspx))
 -   Scott Hanselman [takes the red

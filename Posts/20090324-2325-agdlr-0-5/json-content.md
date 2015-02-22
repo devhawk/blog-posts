@@ -1,5 +1,5 @@
 [![agdlr-400](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/AgDLR0.5_1433D/agdlr-400_3.png "agdlr-400")](http://github.com/jschementi/agdlr)
-I [mentioned yesterday](http://devhawk.net/2009/03/23/IronRuby+03.aspx)
+I [mentioned yesterday](http://devhawk.net/2009/03/23/ironruby-0-3/)
 that it looked like a new release of
 [AgDLR](http://github.com/jschementi/agdlr) was eminent and sure enough
 [here it

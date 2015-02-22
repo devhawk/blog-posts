@@ -1,7 +1,7 @@
 During Lang.NET, I ended up sitting next to Hua Ming, who’s been working
 on the [.NET Classbox project](http://www.cs.iastate.edu/~lumpe/CBs/) I
 [wrote about
-previously](http://devhawk.net/2006/08/02/LangNET+Is+Helping+Game+Developers.aspx).
+previously](http://devhawk.net/2006/08/02/lang-net-is-helping-game-developers/).
 .NET Classbox introduces a new syntax for “using” to C\# – basically,
 you can use individual classes as well as whole namespaces, and you can
 extend the individual classes you use. Obviously, that meant having a

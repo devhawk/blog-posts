@@ -7,7 +7,7 @@ cafe and wait out some of the crowds rather than brave the snow and
 traffic on a nearly empty tank of gas.
 
 Of course, I don’t work on campus any more. My office is [way down in
-Issaquah](http://devhawk.net/2006/09/30/quotWorkingquot+From+Home+As+The+Office+Moves.aspx).
+Issaquah](http://devhawk.net/2006/09/29/working-from-home-as-the-office-moves/).
 Unluckily for me, I had a meeting on main campus today. It was a great
 meeting – talking about my project with some field architects. But I
 didn’t expect to get trapped on campus by snow or I would have blown it

@@ -1,5 +1,5 @@
 Two weeks ago, I posted a
-[roadmap](http://devhawk.net/2008/07/17/IronPython+Post+20+Roadmap.aspx)
+[roadmap](http://devhawk.net/2008/07/16/ironpython-post-2-0-roadmap/)
 for where IPy is heading after we get 2.0 out the door later this year.
 I got two questions in [the
 comments](http://devhawk.net/CommentView,guid,663bc86a-8185-4c5b-8a5b-c01634a1b1bc.aspx#commentstart)

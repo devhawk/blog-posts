@@ -8,5 +8,5 @@ Photo by Greg Fiume/Getty Images
 
 Those are my parents, screaming their head off after Brashear scored in
 [game
-one](http://devhawk.net/2008/04/12/Caps+Win+Game+One+With+A+Three+Goal+Third.aspx).
+one](http://devhawk.net/2008/04/11/caps-win-game-one-with-a-three-goal-third/).
 I especially like my mom rockin’ the old school Caps gear.

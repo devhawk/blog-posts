@@ -14,7 +14,7 @@
 -   From Don Syme, we here that the new 1.9 version of F\# is [almost
     ready](http://blogs.msdn.com/dsyme/archive/2007/03/04/f-1-9-almost-ready.aspx).
     When I
-    [shifted](http://devhawk.net/2007/02/06/Morning+Coffee+25.aspx) from
+    [shifted](http://devhawk.net/2007/02/06/morning-coffee-25/) from
     learning F\# to learning PowerShell, it wasn’t because of a sudden
     lack of interest in F\#, so I’m glad to see them still chugging
     along. And by the time they release 2.0 later this year, I hope to

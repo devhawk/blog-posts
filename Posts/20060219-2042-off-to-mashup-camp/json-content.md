@@ -1,5 +1,5 @@
 In direct contrast with my [last trip to the Bay
-Area](http://devhawk.net/2006/02/03/No+Go+On+Developer+20.aspx), this
+Area](http://devhawk.net/2006/02/02/no-go-on-developer-2-0/), this
 one is going well so far. I’m in Mountain View for [Mashup
 Camp](http://mashupcamp.com/). The flight down was actually early and
 nearly empty – I had my side of the bulkhead row to myself. On the other

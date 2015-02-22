@@ -17,7 +17,7 @@
     their remote config application doesn’t run on Vista yet, so I had
     to bust out the old laptop to get it working.
 -   I’ve [written
-    about](http://devhawk.net/2006/08/02/LangNET+Is+Helping+Game+Developers.aspx)[Spec\#](http://research.microsoft.com/specsharp/)
+    about](http://devhawk.net/2006/08/02/lang-net-is-helping-game-developers/)[Spec\#](http://research.microsoft.com/specsharp/)
     before, but I’ve never experimented with it. MS Research just
     released a [new
     version](http://research.microsoft.com/research/downloads/Details/f96c1618-b332-4106-b0fc-911346d5f537/Details.aspx)

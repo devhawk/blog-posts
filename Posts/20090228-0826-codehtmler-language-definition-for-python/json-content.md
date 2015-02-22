@@ -9,7 +9,7 @@ The problem with CodeHTMLer is that it only supports a handful of
 languages out of the box. But the language definition file is simple
 enough – just an XML file with a bunch of regular expressions. When I
 was doing a lot of F\# work, I wrote an [F\# language
-definition](http://devhawk.net/2007/12/07/Blogging+F+Code.aspx). Now
+definition](http://devhawk.net/2007/12/07/blogging-f-code/). Now
 that I’m on the IronPython team, go figure I’m writing a lot of code in
 Python. I \*know\* I’ve written a Python language definition for
 CodeHTMLer more than once, but I would forget to post it and then lose
@@ -20,4 +20,4 @@ SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Cont
 If you want to install this yourself to colorize Python code snippets
 with CodeHTMLer, follow the directions I posted earlier with the [F\#
 language
-definition](http://devhawk.net/2007/12/07/Blogging+F+Code.aspx).
+definition](http://devhawk.net/2007/12/07/blogging-f-code/).

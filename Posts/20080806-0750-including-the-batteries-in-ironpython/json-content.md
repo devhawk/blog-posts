@@ -9,7 +9,7 @@ we are including the Python standard library in an IronPython release.
 In addition to the usual binary and source zip archives, we’re shipping
 an MSI installer that gives you the option to include the library files.
 I
-[mentioned](http://devhawk.net/2008/07/17/IronPython+Post+20+Roadmap.aspx)
+[mentioned](http://devhawk.net/2008/07/16/ironpython-post-2-0-roadmap/)
 a couple of weeks ago that I’ve been spending a lot of time with
 lawyers, and this is the first step towards making the IronPython
 project as open as possible. Note the use of the word “first” in that

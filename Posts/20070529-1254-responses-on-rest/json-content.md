@@ -1,5 +1,5 @@
 Here is a roundup of some responses to my
-[REST](http://devhawk.net/2007/05/24/REST+Is+Neither+CRUD+Nor+CRAP.aspx)[discussion](http://devhawk.net/2007/05/25/This+Isnt+The+Droid+Im+Looking+For.aspx)
+[REST](http://devhawk.net/2007/05/24/rest-is-neither-crud-nor-crap/)[discussion](http://devhawk.net/2007/05/25/this-isnt-the-droid-im-looking-for/)
 with [David Ing](http://www.from9till2.com). Mostly, I’m passing them
 along with minimal comment so I figured I’d group them into one post.
 

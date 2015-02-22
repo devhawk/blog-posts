@@ -66,7 +66,7 @@ now.
 My initial prototype was written against the high-level API. There were
 two problems with this approach. The first is that there’s no support
 for Just My Code in the high-level API. As I mentioned in [my last
-post](http://devhawk.net/2009/02/27/Writing+An+IronPython+Debugger+Introduction.aspx),
+post](http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-introduction/),
 JMC support is critical for this project. Adding JMC support isn’t hard,
 but I’m trying to make as few changes as possible to the MDbg source,
 since I’m not interested in forking and maintaining that code. Second,

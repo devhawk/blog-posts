@@ -10,7 +10,7 @@ New Microsoft Issaquah Black Building
 </div>
 
 Even though I moved offices [just a
-month](http://devhawk.net/2006/09/06/Here+Has+Moved+And+Will+Move+Again.aspx)
+month](http://devhawk.net/2006/09/06/here-has-moved-and-will-move-again/)
 ago, we moved again today. New office won’t be ready until Monday, so I
 “worked from home”. Of course, with two kids too young for school,
 getting much actual work done is essentially impossible. I did manage to

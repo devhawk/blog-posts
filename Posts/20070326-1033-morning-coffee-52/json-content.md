@@ -1,5 +1,5 @@
 -   I finally found a use for the [free SOA book I
-    got](http://devhawk.net/2006/09/27/Thoughts+On+The+SOA+Workshop.aspx)
+    got](http://devhawk.net/2006/09/27/thoughts-on-the-soa-workshop/)
     from attending that Thomas Erl workshop. I’m using it to prop up one
     end of my daughter’s mattress while she’s sick so she can sleep
     better.
@@ -14,7 +14,7 @@
 -   Joe McKendrick
     [comments](http://blogs.zdnet.com/service-oriented/?p=839) on my
     [SaaS/SOA
-    post](http://devhawk.net/2007/03/21/When+Is+A+Service+Not+A+Service.aspx)
+    post](http://devhawk.net/2007/03/21/when-is-a-service-not-a-service/)
     and wonders if SOA should stand for “SOA Oriented Architecture”. He
     also [writes](http://blogs.zdnet.com/service-oriented/?p=840) that
     most organizations these days don’t have an SOA, they have an AOS,

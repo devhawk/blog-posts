@@ -1,13 +1,13 @@
 In addition to the [IronPython CTP for .NET Framework 4.0 Beta
 1](http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=27320)
 I [blogged about
-earlier](http://devhawk.net/2009/05/20/IronPython+26+CTP+For+NET+40+Beta+1.aspx),
+earlier](http://devhawk.net/2009/05/20/ironpython-2-6-ctp-for-net-4-0-beta-1/),
 we also released the [first beta of IronPython
 2.6](http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=25126)
 today. How about that – two IronPython releases in one day! This is our
 second preview release as we work towards our 2.6 RTM in September. 2.6
 Alpha 1 was
-[released](http://devhawk.net/2009/03/27/IronPython+26+Alpha+1.aspx)
+[released](http://devhawk.net/2009/03/27/ironpython-2-6-alpha-1/)
 back in March.
 
 There are two big new features in this release. The first is our
@@ -64,7 +64,7 @@ magnitude slower than CPython on startup, but we’re getting better.
 We’re significantly worse on PyBench than we were in 2.6 Alpha 1, but
 that’s primarily because there’s now a second exception test. As I
 [described back in
-March](http://devhawk.net/2009/03/27/IronPython+26+Alpha+1.aspx), we get
+March](http://devhawk.net/2009/03/27/ironpython-2-6-alpha-1/), we get
 killed on the exceptions benchmarks – the two combine to consume nearly
 62% of our total run time. Ouch!
 

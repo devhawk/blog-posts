@@ -35,7 +35,7 @@ blog](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!641.entry).
     [ColorConsoleTraceListener
     Project](http://devhawk.net/2007/01/24/DevHawkColorConsoleTraceListener.aspx) or
     the [Live Search for Chartity Search
-    Providers](http://devhawk.net/2007/01/23/Live+Search+For+Charity.aspx).
+    Providers](http://devhawk.net/2007/01/23/live-search-for-charity/).
     I’m guessing the infrastructure to post images and files would be
     identical, but there’s no UI interface for it. I checked out the
     [WLW SDK

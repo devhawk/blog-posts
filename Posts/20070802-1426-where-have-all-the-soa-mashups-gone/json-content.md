@@ -1,7 +1,7 @@
 John Heintz
 [responded](http://johnheintz.blogspot.com/2007/08/rest-serendipity-and-hard-work.html)
 to my [serendipitous reuse
-post](http://devhawk.net/2007/07/31/Is+Serendipity+The+Heart+Of+The+WSREST+Debate.aspx).
+post](http://devhawk.net/2007/07/31/is-serendipity-the-heart-of-the-ws-rest-debate/).
 Nice to see I misunderstood his opinions about how easy RESTful systems
 are to integrate:
 
@@ -28,7 +28,7 @@ First, at the end of his post John writes:
 > [AMPQ](http://www.ampq.com/), and [Erlang](http://www.erlang.org/).
 
 This goes back to [a REST
-question](http://devhawk.net/2007/06/05/A+REST+Question.aspx) I asked
+question](http://devhawk.net/2007/06/05/a-rest-question/) I asked
 two months ago: is it still REST if you don’t use HTTP? I’m guessing
 John would say yes.
 

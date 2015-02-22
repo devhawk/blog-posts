@@ -1,5 +1,5 @@
 Yesterday, I posted about [services and
-reuse](http://devhawk.net/2006/09/19/A+Question+Of+Context.aspx). More
+reuse](http://devhawk.net/2006/09/19/a-question-of-context/). More
 to the point, I posted why I don’t believe that business services will
 be reusable, any more than business objects were reusable. However,
 “can’t reuse business services” isn’t the whole story, because I believe

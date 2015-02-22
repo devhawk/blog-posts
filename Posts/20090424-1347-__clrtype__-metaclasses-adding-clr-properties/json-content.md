@@ -41,7 +41,7 @@ it’s own method:
 You provide define\_prop the TypeBuilder for the Type being constructed,
 the name and type of the property as well as the FieldBuilder that gets
 returned from the call to DefineField. In the [previous
-installment](http://devhawk.net/2009/04/23/clrtype+Metaclasses+Adding+CLR+Fields.aspx),
+installment](http://devhawk.net/2009/04/23/__clrtype__-metaclasses-adding-clr-fields/),
 I wasn’t bothering to save the FieldBuilder to a variable since I never
 used it again. Now, I’m stashing it away for the call to define\_prop as
 I’ll show below.

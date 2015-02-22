@@ -1,5 +1,5 @@
 It’s been almost a week since my [last ipydbg
-post](http://devhawk.net/2009/03/13/Writing+An+IronPython+Debugger+Debugging+Just+My+Code.aspx).
+post](http://devhawk.net/2009/03/13/writing-an-ironpython-debugger-debugging-just-my-code/).
 I’m not done, I just needed to catch my breath for a few days and get
 some other work done. Contrary to popular believe, my day job revolves
 around more than just ipydbg!

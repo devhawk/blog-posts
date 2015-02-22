@@ -16,7 +16,7 @@
     he doesn’t really mean it because later he says that while it’s
     “fantastic” that WCF has so many options to tweak, he wished those
     options were less “in my face”. I’ve reached a [similar
-    conclusion](http://devhawk.net/2007/01/05/Morning+Coffee+4.aspx), so
+    conclusion](http://devhawk.net/2007/01/05/morning-coffee-4/), so
     I’m with you 100% Tomas.
 -   Scott explains how to [rotate a video
     file](http://www.hanselman.com/blog/HowToRotateAnAVIOrMPEGFileTakenInPortrait.aspx).

@@ -2,7 +2,7 @@
 following
 [comment](http://devhawk.net/CommentView,guid,6e17873f-9d5b-401e-a9b4-609394e97e3f.aspx)
 to my [Thoughts on
-CAB](http://devhawk.net/2005/11/23/Thoughts+On+CAB.aspx) post
+CAB](http://devhawk.net/2005/11/23/thoughts-on-cab/) post
 
 > I hesitate to agree that raising the abstraction level of tools is a
 > good idea. That’s just hiding the complexity that’s already there
@@ -15,7 +15,7 @@ abstraction of tools since the start, I found this comment surprising.
 Assuming Chris doesn’t write in assembly code, he’s leveraging something
 at a higher level of abstraction that’s “just hiding the complexity
 that’s already there”. As I wrote in [Code is
-Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx):
+Model](http://devhawk.net/2005/10/05/code-is-model/):
 
 > The only code that the CPU can understand is machine code. But nobody
 > wants to write and debug all their code using 0’s and 1’s. So we move
@@ -30,7 +30,7 @@ Model](http://devhawk.net/2005/10/05/Code+Is+Model.aspx):
 > Each of these levels of abstraction presents a new model of the
 > execution environment with new features that make programming more
 > productive (and sometimes [more
-> portable](http://devhawk.net/2005/09/08/Portability+Without+Productivity.aspx))**.
+> portable](http://devhawk.net/2005/09/08/portability-without-productivity/))**.
 > [emphasis added]
 
 I feel like Chris has mischaracterized what I wrote. Here it is again:

@@ -5,12 +5,12 @@ Microsoft’s.
 
 In other words, even though I haven’t even [officially started on the
 Dynamic Languages
-team](http://devhawk.net/2008/03/11/Joining+The+Dynamic+Languages+Team.aspx)
+team](http://devhawk.net/2008/03/11/joining-the-dynamic-languages-team/)
 yet, by going to [PyCon](http://us.pycon.org/2008/about/) this weekend
 I’ve already halfway to matching my total Microsoft sponsored travel of
 the past eighteen months. I used to travel all the time – the architect
 evangelist role I was in when I [started this
-blog](http://devhawk.net/2003/01/15/New+And+Improved+DevHawk.aspx) had
+blog](http://devhawk.net/2003/01/14/new-and-improved-devhawk/) had
 about 35-40% travel. But boy I am rusty. Well, rusty maybe isn’t the
 term, but I had forgotten how much of a pain it is to travel:
 
@@ -52,7 +52,7 @@ and so I won’t be around for the weekend as usual was exactly no fun.
 I’m taking a few days off in the job transition to make up for it.
 Hopefully, I’ll be able to bring the family along on a few trips in the
 future, [like I did for
-DevTeach](http://devhawk.net/2007/09/04/The+DevHawk+2007+World+Tour.aspx).
+DevTeach](http://devhawk.net/2007/09/04/the-devhawk-2007-world-tour/).
 [OSCON](http://conferences.oreillynet.com/oscon2008/), for example, has
 been in Portland five years – that’s just a few hour drive from Redmond.
 

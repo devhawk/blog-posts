@@ -35,7 +35,7 @@ abstraction than C, adding concepts like classes and inheritance. Each
 of these levels of abstraction presents a new model of the execution
 environment with new features that make programming more productive (and
 sometimes [more
-portable](http://devhawk.net/2005/09/08/Portability+Without+Productivity.aspx)).
+portable](http://devhawk.net/2005/09/08/portability-without-productivity/)).
 Different languages offer different models of the execution environment.
 For example, the Ruby model of the execution environment allows for the
 manipulation of class instances while the C++ model allows for multiple

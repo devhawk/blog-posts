@@ -8,7 +8,7 @@ now](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8
 
 This release marks the end of a very busy year for me, nine months to
 the day since I accepted the offer to [join the dynamic languages
-team](http://devhawk.net/2008/03/11/Joining+The+Dynamic+Languages+Team.aspx).
+team](http://devhawk.net/2008/03/11/joining-the-dynamic-languages-team/).
 Between helping ship IronPython 2.0 and helping manage the languages and
 tools PDC08 track, I’ve been swimming in the deep end of the pool all
 year. Feels good to *not* have any immediate deliverables for the next

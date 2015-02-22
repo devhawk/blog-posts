@@ -4,7 +4,7 @@ mainstream developers are fairly unaware of functional programming and
 b) I suck at explaining why functional programming matters. So I decided
 to take another stab at it. I probably should have posted this before my
 [recent series on
-F\#](http://devhawk.net/2007/11/28/F+As+A+Second+NET+Language.aspx), but
+F\#](http://devhawk.net/2007/11/28/f-as-a-second-net-language/), but
 better late than never I suppose.
 
 Right off the bat, the term “functional” is confusing. When you say

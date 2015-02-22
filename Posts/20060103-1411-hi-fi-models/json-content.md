@@ -14,7 +14,7 @@ development. Similar steps taken on different concepts. Additionally,
 he’s working bottom up – the output of the model will eventually be a
 working program (a designer in this case) which is the point I made in
 [Abstraction Gap
-Leapfrog](http://devhawk.net/2005/12/20/Abstraction+Gap+Leapfrog.aspx).
+Leapfrog](http://devhawk.net/2005/12/20/abstraction-gap-leapfrog/).
 There are existing abstractions that work now (i.e. the code generated
 from the existing dsldd file) and he’s trying to building something one
 level up from there.

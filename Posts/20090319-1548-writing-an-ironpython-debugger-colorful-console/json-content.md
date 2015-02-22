@@ -1,5 +1,5 @@
 Now that I’ve added the [current source code
-line](http://devhawk.net/2009/03/19/Writing+An+IronPython+Debugger+Showing+Source+Code.aspx)
+line](http://devhawk.net/2009/03/19/writing-an-ironpython-debugger-showing-source-code/)
 to the console output, I wanted to start using color in order to make it
 clearer to understand the various pieces of data that gets output. Now,
 the various event handler messages get output in dark grey while the
@@ -62,7 +62,7 @@ collection](http://github.com/devhawk/devhawk_ipy/tree/master) at some
 point.
 
 Now that I can print in color, I wanted to modify my [line
-printer](http://devhawk.net/2009/03/19/Writing+An+IronPython+Debugger+Showing+Source+Code.aspx)
+printer](http://devhawk.net/2009/03/19/writing-an-ironpython-debugger-showing-source-code/)
 to use color. Usually, the current sequence point corresponds to an
 entire line of python source. But as we see below, sometimes only part
 of a given line of source text is associated with a given sequence

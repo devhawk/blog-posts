@@ -1,5 +1,5 @@
 Now that I can [interact with my
-debugger](http://devhawk.net/2009/03/04/Writing+And+IronPython+Debugger+Adding+Interactivity.aspx),
+debugger](http://devhawk.net/2009/03/04/writing-and-ironpython-debugger-adding-interactivity/),
 it’s time to add a command. I decided to start with something simple –
 or at least something I thought would be simple – printing a stack
 trace.

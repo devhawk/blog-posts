@@ -1,5 +1,5 @@
 As I’ve [written
-before](http://devhawk.net/2005/07/06/The+Inform+Language.aspx), I
+before](http://devhawk.net/2005/07/05/the-inform-language/), I
 originally got the programming bug from a desire to build my own text
 adventure games. with significant influence from [my
 dad](http://cid-885df99f8fd01cd9.profile.live.com/). Now that I’m a
@@ -12,7 +12,7 @@ Of course, the technology has moved on significantly since the days of
 yesterday, Microsoft
 [announced](http://www.xbox.com/en-US/community/news/2009/0107-kodu.htm)
 Kodu which I’ve [written about
-before](http://devhawk.net/2007/03/08/Morning+Coffee+41+TechFest+Edition.aspx)
+before](http://devhawk.net/2007/03/08/morning-coffee-41-techfest-edition/)
 under it’s original name Boku. Kodu came out of [Microsoft
 Research](http://research.microsoft.com/en-us/projects/kodu/default.aspx)
 as a tool for teaching kids how to program. The programming language is

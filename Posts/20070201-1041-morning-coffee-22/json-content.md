@@ -15,7 +15,7 @@
 -   I posted three recent blog posts to
     [DotNetKicks](http://www.dotnetkicks.com/) yesterday, but I’ve only
     collected one additional kick so far (for my [Compiling Workflows
-    post](http://devhawk.net/2007/01/29/Compiling+Workflows.aspx)).
+    post](http://devhawk.net/2007/01/29/compiling-workflows/)).
     Looking at what does gather kicks, I think I would need to write a
     more dev focused article if I wanted to make the DNK home page.
 -   [Don Smith](http://blogs.msdn.com/donsmith/) left a

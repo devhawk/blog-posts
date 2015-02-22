@@ -78,7 +78,7 @@ highlights:
     Language](http://cobra-language.com).
 -   I thought my talk went pretty well. It’s was a 15 minute version of
     my [Practical Parsing in F\#
-    series](http://devhawk.net/2007/12/10/Practical+Parsing+In+F.aspx).
+    series](http://devhawk.net/2007/12/10/practical-parsing-in-f/).
     Several folks were surprised I’ve been coding F\# for less than a
     year.
 

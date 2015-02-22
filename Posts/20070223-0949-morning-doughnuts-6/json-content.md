@@ -18,7 +18,7 @@
 > shortsighted in minimizing the capabilities of web based applications.
 
 -   As a follow-up to yesterdays
-    [entry](http://devhawk.net/2007/02/22/Morning+Doughnuts+5.aspx)
+    [entry](http://devhawk.net/2007/02/22/morning-doughnuts-5/)
     about the 12 steps to overcome [email
     addiction](http://www.cnn.com/2007/TECH/internet/02/20/email.addiction.steps.reut/index.html)[here](http://halfmybrain.spaces.live.com/blog/cns!DF6CA820250998D2!300.entry)
     is a 12 step program to help you overcome being a SOAholic. There

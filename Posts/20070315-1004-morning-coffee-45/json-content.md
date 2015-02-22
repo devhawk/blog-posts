@@ -21,7 +21,7 @@
     guidance packages. I can’t wait until this technology is
     “integrate[d] … more deeply into Visual Studio and Team System”.
 -   I
-    [mentioned](http://devhawk.net/2007/03/08/Morning+Coffee+41+TechFest+Edition.aspx)
+    [mentioned](http://devhawk.net/2007/03/08/morning-coffee-41-techfest-edition/)
     the Podcast Authoring tool that I saw at TechFest last week.
     [Here](http://www.engadget.com/photos/microsofts-techfest-2007-randd-blowout/176053/)[are](http://www.engadget.com/gallery/microsofts-techfest-2007-randd-blowout/176030/)[some](http://www.engadget.com/gallery/microsofts-techfest-2007-randd-blowout/176074/)
     pictures of it from engadget (via [Loke Uei

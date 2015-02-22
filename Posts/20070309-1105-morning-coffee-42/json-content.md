@@ -2,7 +2,7 @@ Ever since I got back from vacation, it’s been all about the Morning
 Coffee. I’m happy to be getting a daily post out, but I haven’t written
 anything deep in several weeks now. My one non-MC post in the past two
 weeks was [The Virtuous Cycle of Virtual
-Platforms](http://devhawk.net/2007/03/06/The+Virtuous+Cycle+Of+Virtual+Platforms.aspx) which
+Platforms](http://devhawk.net/2007/03/06/the-virtuous-cycle-of-virtual-platforms/) which
 frankly I wrote over a year ago for internal usage and adapted for my
 blog after reading [Dare’s
 post](http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=11c471d6-ea65-4ed2-b387-c9ec966d8418).

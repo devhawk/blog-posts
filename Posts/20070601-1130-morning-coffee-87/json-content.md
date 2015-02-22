@@ -21,7 +21,7 @@ in Orlando!
     but my take is that he thinks this all ends up in some middle ground
     between REST and WS-\*. I hear that, at least, if that’s what he’s
     saying. I’m not sold on “HTTP is all you need” – I need
-    [durability](http://devhawk.net/2007/05/30/The+Case+For+Durable+Messaging+In+Service+Orientation.aspx)
+    [durability](http://devhawk.net/2007/05/30/the-case-for-durable-messaging-in-service-orientation/)
     and async messaging, but I don’t see how to get there from here with
     just HTTP.
 

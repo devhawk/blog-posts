@@ -10,7 +10,7 @@ the variable. For that, you’ve got to look in debug symbols.
 
 From a CorFrame, you can retrieve the associated CorFunction. Since I
 added [symbol reader support to
-CorModule](http://devhawk.net/2009/03/21/Writing+An+IronPython+Debugger+A+Little+HackhelliperrhellipCleanup.aspx),
+CorModule](http://devhawk.net/2009/03/21/writing-an-ironpython-debugger-a-little-hack-err-cleanup/),
 I [added support for directly
 retrieving](http://github.com/devhawk/ipydbg/commit/fc6dd0684f6b299db2eabcfe1803cab6231ea93f#diff-2)
 the ISymbolMethod for a CorFunction. From the method symbols, I can get
@@ -92,7 +92,7 @@ Now that I can get the local variables for a given frame, we need to
 convert those variables to something you can print on the screen. That
 turns out to be more complicated that you might expect, so it’ll have to
 wait for the next post (which may be a while, given that
-[PyCon](http://devhawk.net/2009/03/11/IronPython+At+PyCon.aspx) is this
+[PyCon](http://devhawk.net/2009/03/11/ironpython-at-pycon/) is this
 weekend). In the meantime, you can get the [latest version of
 ipydbg](http://github.com/devhawk/ipydbg/tree/442527b0aed3ac2f7ecf6ab8f5f7e93ad03090f2)
 from GitHub.

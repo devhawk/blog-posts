@@ -10,9 +10,9 @@
     His first is the [N of M
     pattern](http://blogs.msdn.com/mwinkle/archive/2007/06/27/implementing-the-n-of-m-pattern-in-wf.aspx).
     While I can [nitpick some
-    things](http://devhawk.net/2006/10/17/WF+Clarifications+And+Corrections.aspx)
+    things](http://devhawk.net/2006/10/17/wf-clarifications-and-corrections/)
     in WF – especially the [limitations of transaction
-    flow](http://devhawk.net/2006/12/11/Transactions+In+Workflow+Foundationland.aspx)
+    flow](http://devhawk.net/2006/12/11/transactions-in-workflow-foundation-land/)
     – WF’s support for variability and extensibility of execution
     patterns is fraking brilliant. (via [Sam
     Gentile](http://codebetter.com/blogs/sam.gentile/archive/2007/06/27/new-and-notable-175.aspx))

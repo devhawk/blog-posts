@@ -1,6 +1,6 @@
 So now that I’m back, we’re beginning work in earnest on my project. For
 those [not following along at
-home](http://devhawk.net/2006/06/15/Moving+On.aspx), my project is to
+home](http://devhawk.net/2006/06/15/moving-on/), my project is to
 deliver shared service oriented infrastructure for Microsoft’s internal
 IT department. We’ve spent the time since I moved over working on our
 business justification, and now we’re moving into specifications and

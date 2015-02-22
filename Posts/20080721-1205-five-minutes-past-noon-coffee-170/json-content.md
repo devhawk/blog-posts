@@ -25,7 +25,7 @@
 -   Ted Neward has [an article](http://code.msdn.microsoft.com/IPyDD)
     exploring the IronPython VS Integration sample that ships in the VS
     SDK. As I [mentioned the other
-    day](http://devhawk.net/2008/07/17/IronPython+Post+20+Roadmap.aspx),
+    day](http://devhawk.net/2008/07/16/ironpython-post-2-0-roadmap/),
     we’re starting working on a production quality implementation of VS
     Integration for IPy.
 -   Ophir Kra-Oz (aka Evil Fish) blogs [Python for

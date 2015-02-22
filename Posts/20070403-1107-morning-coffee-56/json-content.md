@@ -30,7 +30,7 @@
     which powers DevHawk. (via
     [DotNetKicks](http://www.dotnetkicks.com/aspnet/The_launch_of_BlogEngine_NET))
 -   I wrote a [last
-    week](http://devhawk.net/2007/03/29/Morning+Coffee+55.aspx) that
+    week](http://devhawk.net/2007/03/29/morning-coffee-55/) that
     unit test support should be in the Express editions of VS. Thanks to
     Jamie Cansdale, [it
     is](http://weblogs.asp.net/nunitaddin/archive/2007/04/02/express-sku-support.aspx).

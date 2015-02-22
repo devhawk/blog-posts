@@ -1,5 +1,5 @@
 Hot on the heels of my post about the [AJAX toolkit
-spectrum](http://devhawk.net/2006/02/14/Thoughts+On+The+AJAX+Toolkit+Spectrum.aspx)
+spectrum](http://devhawk.net/2006/02/13/thoughts-on-the-ajax-toolkit-spectrum/)
 comes news that Yahoo! has released their own [AJAX
 toolkit](http://developer.yahoo.net/yui) as well as a very cool [web
 page design pattern
@@ -21,7 +21,7 @@ at best means learning lots of ways of doing the same thing and at worst
 means incompatibility between components from different libraries.
 
 BTW, [last week I
-wrote](http://devhawk.net/2006/02/03/Browser+As+Virtual+Machine.aspx)
+wrote](http://devhawk.net/2006/02/02/browser-as-virtual-machine/)
 that using a text-based high-level scripting language like Javascript in
 the browser “encourages business models where the in-browser code has
 little if any value.” This release from Yahoo! supports that point.

@@ -1,5 +1,5 @@
 In my [last
-installment](http://devhawk.net/2009/10/09/Hybrid+App+Debugging+Ndash+Threading.aspx),
+installment](http://devhawk.net/2009/10/08/hybrid-app-debugging-threading/),
 I added support for a separate debug window on a separate thread from
 the main window thread. That way, I can pause the execution of the main
 window while the debug window stays responsive to user input. Now, let’s
@@ -33,7 +33,7 @@ statically typed languages like C\#. Look for that in RC2.
 After we cast the code object so it can be used from C\#, we check to
 see if the currently loaded file matches the file currently loaded into
 the UI. I’ve [ranted
-recently](http://devhawk.net/2009/07/09/Syntax+Highlighting+TextBoxes+In+WPF+Ndash+A+Sad+Story.aspx)
+recently](http://devhawk.net/2009/07/09/syntax-highlighting-textboxes-in-wpf-a-sad-story/)
 about the limitations of WPF’s TextBox but I didn’t want to get hung up
 syntax highlighting for this sample so I just went ahead and used the
 [RichTextBox](http://msdn.microsoft.com/en-us/library/system.windows.controls.richtextbox.aspx).
@@ -78,7 +78,7 @@ In Visual Studio, we typically highlight the current line of code in
 yellow. However, that doesn’t work as great in a language like Python
 that delineates code blocks with whitespace. In ipydbg, I [indicated
 function
-return](http://devhawk.net/2009/03/19/Writing+An+IronPython+Debugger+Colorful+Console.aspx)
+return](http://devhawk.net/2009/03/19/writing-an-ironpython-debugger-colorful-console/)
 with three carets. But I didn’t want to be modifying the text in the
 RichTextBox here so instead I used different colors for the different
 traceback event types: light green for call, light pink for return and

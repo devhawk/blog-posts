@@ -18,7 +18,7 @@ edit the wiki also gave permission to edit work items, check in source
 code and make releases. We’re still working on getting Microsoft at
 large to understand the [benefits of community collaboration aspect in
 open
-source](http://devhawk.net/2009/06/03/Strengthening+The+Microsoft+Ecosystem+With+Source+Code.aspx),
+source](http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/),
 but in the meantime we just can’t give those permissions to people off
 the team. However, we would love to have contributions to our
 documentation wiki. [1] With the new Editor Role, we’ll be able to grant

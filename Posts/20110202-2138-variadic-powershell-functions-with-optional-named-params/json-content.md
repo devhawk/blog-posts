@@ -1,5 +1,5 @@
 I’ve been doing a little CPython coding lately. Even though I [left the
-IronPython team](http://devhawk.net/2009/10/27/Joining+Windows.aspx) a
+IronPython team](http://devhawk.net/2009/10/26/joining-windows/) a
 while ago (and IronPython is now [under new
 management](http://blogs.msdn.com/b/jasonz/archive/2010/10/21/new-components-and-contributors-for-ironpython-and-ironruby.aspx))
 I’m still still a big fan of the Python language and it’s great for

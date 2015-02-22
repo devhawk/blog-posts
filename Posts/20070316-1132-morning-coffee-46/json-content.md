@@ -2,7 +2,7 @@ Sort of late this morning due to back to back meetings…
 
 -   I seem to have stirred up a bit of a hornet’s nest with my “kinda
     surprising that no other mainstream language has done this before”
-    [comment](http://devhawk.net/2007/03/13/Morning+Coffee+44.aspx).
+    [comment](http://devhawk.net/2007/03/13/morning-coffee-44/).
     [Dennis Hamilton](http://orcmid.com/BlunderDome/clueless/) and Mike
     Parsons both asked about other dynamic languages like Javascript and
     Python in my comments. To be clear, the ability to add a new method

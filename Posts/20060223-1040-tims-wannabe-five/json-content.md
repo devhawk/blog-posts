@@ -5,7 +5,7 @@ over a month ago. This comment is right on the money: “The value of a
 markup language is proportional approximately to the square of the
 number of different software implementations that can process it.”
 Conceptually, I agree with him – my [primary argument against
-XSPF](http://devhawk.net/2006/02/16/Redundant+Specifications.aspx) is
+XSPF](http://devhawk.net/2006/02/16/redundant-specifications/) is
 that it has the same basic semantics as RSS, but RSS is much more widely
 used. But his list of the “big five” markup lanugages seems more like
 the “wannabe five”. How many different siftware implementations process

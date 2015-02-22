@@ -26,5 +26,5 @@ early in chapter one that expands on that:
 > survive for the required duration.”
 
 Gee, that [sounds
-familiar](http://devhawk.net/2006/10/23/The+Other+Foundation+Technology.aspx)
+familiar](http://devhawk.net/2006/10/23/the-other-foundation-technology/)
 doesn’t it?

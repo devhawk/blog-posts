@@ -27,7 +27,7 @@ blogs worth reading:
 -   [Wojtek Kozaczynski](http://blogs.msdn.com/wojtek) is an architect
     for patterns & practices and is heavily involved with the Guidance
     Automation Toolkit [I blogged
-    about](http://devhawk.net/Introducing+The+Guidance+Automation+Toolkit.aspx)
+    about](http://devhawk.net/2005/04/21/introducing-the-guidance-automation-toolkit/)
     two weeks ago. He writes in his introductory post that he’s started
     blogging now to talk about the GAT, starting with a [brief
     history](http://blogs.msdn.com/wojtek/archive/2005/05/02/414129.aspx)

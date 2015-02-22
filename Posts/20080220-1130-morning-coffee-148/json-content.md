@@ -12,7 +12,7 @@
     well](http://twitter.com/majornelson/statuses/736095762). Details to
     follow.
 -   Speaking of yesterday, I
-    [referred](http://devhawk.net/2008/02/19/Morning+Coffee+147.aspx) to
+    [referred](http://devhawk.net/2008/02/19/morning-coffee-147/) to
     President Bush as “President 30% Approval”. This was incorrect. From
     now on, I’ll refer to him as “[President 19%
     Approval](http://americanresearchgroup.com/economy/)“.

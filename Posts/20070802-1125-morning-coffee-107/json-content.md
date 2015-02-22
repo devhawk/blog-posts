@@ -1,5 +1,5 @@
 -   The last day of the service factory workshop was much like [the
-    second](http://devhawk.net/2007/08/01/Service+Factory+Customization+Workshop+Day+Two.aspx),
+    second](http://devhawk.net/2007/08/01/service-factory-customization-workshop-day-two/),
     primarily focusing on stuff p&p built to integrate GAT and DSLs. We
     also got a briefing in what’s coming for factories after VS08 (can’t
     blog about that). We ended with a look at the [DSL Editor Power

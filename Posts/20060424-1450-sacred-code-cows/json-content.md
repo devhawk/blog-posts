@@ -1,5 +1,5 @@
 I
-[wrote](http://devhawk.net/2006/04/14/Talking+Dynamic+Lanugages+With+Neal+Ford.aspx)
+[wrote](http://devhawk.net/2006/04/14/talking-dynamic-lanugages-with-neal-ford/)
 of my meeting w/ [Neal Ford](http://memeagora.blogspot.com/) a few weeks
 ago. Today he has a long post on what he calls [Eating Sacred
 Hamburger](http://memeagora.blogspot.com/2006/04/eating-sacred-hamburger.html) that

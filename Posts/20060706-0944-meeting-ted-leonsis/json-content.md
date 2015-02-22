@@ -2,7 +2,7 @@ By coincidence when I was in DC last spring, I got an email from [Ted
 Leonsis](http://ted.aol.com/), Vice Chairman of American Online and
 owner of the [Washington Capitals](http://www.washingtoncaps.com/). Long
 time DevHawk readers might remember that I [called
-Ted](http://devhawk.net/2004/02/19/Doing+The+Unthinkable.aspx) “an
+Ted](http://devhawk.net/2004/02/19/doing-the-unthinkable/) “an
 abomination to the sport of hockey” in the wake of trading Peter Bondra
 in the “Great Caps Fire Sale of 2004″ (Jagr, Lang, Nylander, Gonchar and
 Bondra). So I was somewhat surprised that wrote that he wanted to meet

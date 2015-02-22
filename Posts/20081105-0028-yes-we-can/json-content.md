@@ -1,5 +1,5 @@
 What a difference four years makes. In 2004, I was up [until the wee
-hours](http://devhawk.net/Cant+Sleep+Long+Election+Analysis+Post.aspx)
+hours](http://devhawk.net/2004/11/03/cant-sleep-long-election-analysis-post/)
 because Ohio wasn’t called until the following morning. This year, with
 Pennsylvania called at 8pm EST and Ohio about 90 minutes later, it was
 basically over before my kids finished their dinner. We were watching

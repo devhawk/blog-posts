@@ -17,7 +17,7 @@ project, so I only have a few items today.
 -   Jeff Atwood
     [wonders](http://www.codinghorror.com/blog/archives/000828.html) if
     MTurk is a failure. I [wrote a year
-    ago](http://devhawk.net/2006/03/08/Felipe+Cabrera+On+Amazons+Mechanical+Turk.aspx)
+    ago](http://devhawk.net/2006/03/07/felipe-cabrera-on-amazons-mechanical-turk/)
     that MTurk is a successful feature, but would be a failure as a
     stand-alone service. As I wrote then, “I’m guessing it would be
     worth it to Amazon to run the service even if they were the only

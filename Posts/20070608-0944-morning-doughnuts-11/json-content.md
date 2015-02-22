@@ -2,7 +2,7 @@ Harry will be back on Monday so I will returning to blogging on my
 [website](http://halfmybrain.spaces.live.com/), while I will let the
 expert return to his normal posts here (not that he really took a
 break). I agree with Harry’s
-[post](http://devhawk.net/2007/06/08/TechEd+2007+Heading+Home.aspx) in
+[post](http://devhawk.net/2007/06/08/teched-2007-heading-home/) in
 that I really want to get something built so that we can talk about more
 than theoretical models. Like last time I appreciate the opportunity to
 sub for the master this last week. I hope that you found some of my

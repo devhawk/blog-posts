@@ -1,5 +1,5 @@
 In the wake of [my praise for CRUD is
-CRAP](http://devhawk.net/2007/05/16/Morning+Coffee+78.aspx), [David
+CRAP](http://devhawk.net/2007/05/16/morning-coffee-78/), [David
 Ing](http://www.from9till2.com/)[asked](http://devhawk.net/CommentView,guid,81028fac-5cb1-4ce3-8e71-9d29ec3ce882.aspx#commentstart)
 “how do you reconcile something like REST (astoria etc) with being
 CRUD-adverse? Is there a happy place where the two can go for coffee?”

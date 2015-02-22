@@ -8,7 +8,7 @@ discover that OLN was broadcasting the Rangers/Flyers game in HD on
 INHD. They have an [HDTV broadcast
 schedule](http://oln.dayport.com/nw/article/view/1377/?tf=NHLArticleWrapper.tpl),
 so the [need for
-HDNet](http://devhawk.net/2005/10/04/The+NHL+In+Outlook+.aspx) just
+HDNet](http://devhawk.net/2005/10/03/the-nhl-in-outlook/) just
 dropped dramatically. I will have to spring for [NHL Center
 Ice](http://www.indemand.com/sports/nhl2005/index.jsp) – one night of
 the free preview and I’m sold. The only bummer was not getting the Caps

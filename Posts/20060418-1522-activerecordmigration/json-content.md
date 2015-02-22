@@ -1,5 +1,5 @@
 When I wrote about the [Dual
-Schema](http://devhawk.net/2006/03/28/The+Dual+Schema+Problem.aspx)
+Schema](http://devhawk.net/2006/03/28/the-dual-schema-problem/)
 problem a few weeks ago, I specifically wrote that the
 [Rails](http://www.rubyonrails.com) model is backwards because it
 derives the in-memory schema from the database schema. While I still

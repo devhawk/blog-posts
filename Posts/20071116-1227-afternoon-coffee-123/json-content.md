@@ -45,7 +45,7 @@
     excited. Jesus is a self-described “strong believer” in SOA
     governance. I’m a self-described strong disbeliever in SOA
     governance, so MSE sounds like more of the [Worst of Both
-    Worlds](http://devhawk.net/2007/10/25/The+Worst+Of+Both+Worlds.aspx)
+    Worlds](http://devhawk.net/2007/10/25/the-worst-of-both-worlds/)
     to me.
 -   A little light reading: I pulled [Applied
     Cryptography](http://www.schneier.com/book-applied.html) and [A New

@@ -3,7 +3,7 @@ Steve McCroskey, Airplane!
 
 -   So it’s been a while since my last post. Just over a month, not
     including [The F5
-    High](http://devhawk.net/2007/09/11/The+F5+High.aspx), which wasn’t
+    High](http://devhawk.net/2007/09/11/the-f5-high/), which wasn’t
     “original IP”. Frankly, I just stopped reading pretty much cold
     turkey. I wanted and needed to go heads down on day job stuff for a
     while. Since I haven’t been reading, Morning Coffee is going to be a

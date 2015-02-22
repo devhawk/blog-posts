@@ -11,7 +11,7 @@ there are exercises for interactively building both a WinForms and a WPF
 application. In both scenarios, you create a dedicated thread to service
 the UI so it can run while the interactive prompt thread is blocked
 waiting for user input. However, as we saw in the [last part of this
-series](http://devhawk.net/2008/11/19/IronPython+And+WPF+Part+4+Background+Processing.aspx),
+series](http://devhawk.net/2008/11/19/ironpython-and-wpf-part-4-background-processing/),
 UI elements in both WinForms and WPF can only be accessed from the
 thread they are created on. We already know how to marshal calls to the
 correct UI thread –
@@ -37,7 +37,7 @@ def DispatchConsoleCommand(consoleCommand):
 
 The dispatcher.Invoke call looks kinda like the UIThread decorator from
 the [Background
-Processing](http://devhawk.net/2008/11/19/IronPython+And+WPF+Part+4+Background+Processing.aspx)
+Processing](http://devhawk.net/2008/11/19/ironpython-and-wpf-part-4-background-processing/)
 part of this series, doesn’t it?
 
 Quick aside: I looked at using SyncContext here instead of Dispatcher,
