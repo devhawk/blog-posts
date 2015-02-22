@@ -84,7 +84,7 @@ Other Stuff
     post](http://perspectives.mvdirona.com/2008/04/06/DiseconomiesOfScale.aspx)
     that suggests sticking modular data centers in condos would be
     cheaper than building data
-    centers![Subscribed](http://perspectives.mvdirona.com/SyndicationService.asmx/GetRss).
+    centers! [Subscribed](http://perspectives.mvdirona.com/SyndicationService.asmx/GetRss).
 -   Speaking of ISO, you may have heard Open Office XML was [ratified as
     an ISO
     standard](http://www.microsoft.com/presspass/press/2008/apr08/04-01OpenXMLVotePR.mspx).
@@ -93,5 +93,3 @@ Other Stuff
     wins](http://tirania.org/blog/archive/2008/Apr-02.html) from the
     standardization process. Anything that “pushed Microsoft into more
     open directions” is a good thing IMO.
-
-

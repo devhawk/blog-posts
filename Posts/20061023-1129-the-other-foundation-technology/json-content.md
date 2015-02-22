@@ -19,8 +19,7 @@ Broker was expressly designed for building these types of long running
 services. It supports several capabilities that I consider absolutely
 critical for long running services:
 
--   Service Initiated Interaction![Use SHIFT+ENTER to open the menu (new
-    window).](http://team/_layouts/images/blank.gif). Polling for
+-   Service Initiated Interaction. Polling for
     changes is inefficient. Long running operations need support for the
     [Solicit-Response](http://www.w3.org/TR/2001/NOTE-wsdl-20010315#_solicit-response)
     and/or

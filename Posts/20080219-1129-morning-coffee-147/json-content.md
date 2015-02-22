@@ -1,4 +1,4 @@
--   [![](http://by1.storage.msn.com/y1pMojGt8Z55XYH8wm1SslOfDyfgzPo3GCieyeuqZwr_FSPb75pGoNOFj7KY_4JYXrsS40rxjsYEI54M_OH-ZuTdYzawyF3GAi4?PARTNER=WRITER)](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2040.entry)
+-   [![](http://by1.storage.msn.com/PatrickAndJack.jpg)](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2040.entry)
     My son Patrick turns five today. The big treat was his cousin Jack
     coming up for a visit. Here’s a picture of the two of them at
     Patrick’s party on Saturday. My wife has [all the
@@ -101,5 +101,3 @@
     formats](http://www.ecma-international.org/news/TC45_current_work/TC45_available_docs.htm).
     (via
     [DNK](http://www.dotnetkicks.com/products/Microsoft_releases_Office_binary_file_formats_doc_xls_ppt))
-
-

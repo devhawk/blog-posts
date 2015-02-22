@@ -1,4 +1,4 @@
--   [![](http://bp2.blogger.com/_LtbODdut650/SHlJgiq937I/AAAAAAAAC6Q/0N2qfraAh6Y/s400/071208_development_camp+009.JPG)](http://peerlessprognosticator.blogspot.com/2008/07/sro-at-kcidevelopment-camp-closes.html)[Check
+-   [![](http://bp2.blogger.com/_LtbODdut650/SHlJgiq937I/AAAAAAAAC6Q/0N2qfraAh6Y/s400/071208_development_camp009.JPG)](http://peerlessprognosticator.blogspot.com/2008/07/sro-at-kcidevelopment-camp-closes.html)[Check
     out the
     crowd](http://peerlessprognosticator.blogspot.com/2008/07/sro-at-kcidevelopment-camp-closes.html)
     for a the Washington Capitals developmental camp scrimmage last week
@@ -59,4 +59,3 @@
     for good measure.
 -   I have a hard time imagining [Pat Helland
     camping](http://blogs.msdn.com/pathelland/archive/2008/07/16/a-weekend-at-foo-camp.aspx).
-

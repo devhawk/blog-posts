@@ -1,8 +1,4 @@
-<div style="FLOAT: right">
-
-[![](http://devhawk.net/themes/devhawk/images/TechEdSweeps.gif)](http://go.microsoft.com/?LinkID=404299)
-
-</div>
+[![](http://devhawk.net/themes/devhawk/images/teched2004.gif)](http://go.microsoft.com/?LinkID=404299)
 
 For those who read my site in a news reader, I added a TechEd 2004 flair
 to my site. The TechEd site recently posted the sessions names for the

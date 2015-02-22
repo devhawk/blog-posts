@@ -193,8 +193,7 @@ It was a packed house and I was a little nervous about having the talk
 recorded, but I think it went well. Certainly, it seemed well received
 by the audience.
 
-[![Get Microsoft
-Silverlight](http://go.microsoft.com/fwlink/?LinkId=108181)](http://go.microsoft.com/fwlink/?LinkID=124807)
+<iframe src="//channel9.msdn.com/Blogs/martinesmann/Pumping-Iron-Dynamic-Languages-on-NET/player?format=html5" width="560" height="315" allowFullScreen frameBorder="0"></iframe>
 
 I ended the work part of my trip to Denmark with an interview with a
 Danish IT newspaper (which I’ll post a link to when it gets published)
@@ -220,4 +219,3 @@ the house he was born in as well as get my picture taken with this
 statue of him right outside our hotel. Major thanks to Martin Esmann for
 inviting me, driving me around – we drove a megameter, aka 1000km, over
 the course of the trip – and being an all around amazing host.
-
