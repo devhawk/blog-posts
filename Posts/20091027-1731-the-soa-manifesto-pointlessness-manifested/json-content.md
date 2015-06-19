@@ -1,4 +1,4 @@
-[![](http://www.agilemanifesto.org/background.jpg)](http://www.agilemanifesto.org/)You
+[![](http://www.agilemanifesto.org/background.jpg)](http://www.agilemanifesto.org/) You
 know what the [Agile Manifesto](http://www.agilemanifesto.org/) doesn’t
 have? Video of a “very formal ceremony” announcing said manifesto.
 Instead, we just have [artistically rendered

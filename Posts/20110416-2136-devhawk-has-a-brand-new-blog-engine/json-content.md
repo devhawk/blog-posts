@@ -3,7 +3,7 @@ true. This is my first post on the new-and-improved DevHawk running on
 [WordPress](http://wordpress.org/).
 
 I decided a while back that it was time to modernize my blog engine –
-[DasBlog](http://dasblog.info/)is getting a little long of tooth and
+[DasBlog](http://dasblog.info/) is getting a little long of tooth and
 there hasn’t been a new release in over two years. I spent some time
 looking at different options, but settled on WordPress for much the same
 reasons [Windows Live

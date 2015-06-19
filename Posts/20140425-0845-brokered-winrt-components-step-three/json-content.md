@@ -1,6 +1,6 @@
 So far, we’ve created two projects, written all of about two lines of
 code and we have both our [brokered
-component](http://devhawk.net/2014/04/25/brokered-winrt-components-step-one)and
+component](http://devhawk.net/2014/04/25/brokered-winrt-components-step-one) and
 its
 [proxy/stub](http://devhawk.net/2014/04/25/brokered-winrt-components-step-two)
 ready to go. Now it’s time to build the Windows Runtime app that uses
@@ -24,7 +24,7 @@ component. We can’t reference the brokered component directly or it will
 load in the sandboxed app process. Instead, the app need to reference a
 reference assembly version of the .winmd that gets generated
 automatically by the proxy/stub project. Remember in the [last
-step](http://devhawk.net/2014/04/25/brokered-winrt-components-step-two)when
+step](http://devhawk.net/2014/04/25/brokered-winrt-components-step-two) when
 I said Kieran Mockford is an MSBuild wizard? The proxy/stub template
 project includes a custom target that automatically publishes the
 reference assembly winmd file used by the client app. When he showed me

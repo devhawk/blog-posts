@@ -16,7 +16,7 @@ how you launch the new project wizard, search for “broker” again, but
 this time select the “Brokered Windows Runtime ProxyStub” template. Give
 the project a name – I chose “HelloWorldBRT.PS”.
 
-[![ProxyStubAddReference](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubAddReference-300x174.png)](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubAddReference.png)Once
+[![ProxyStubAddReference](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubAddReference-300x174.png)](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubAddReference.png) Once
 you’ve created the proxy/stub project, you need to set a reference to
 the brokered component you created in step 1. Since proxies and stubs
 are native, this is a VC++ project. Adding a reference in a VC++ is not
@@ -40,7 +40,7 @@ of art. Major props to [Kieran
 Mockford](http://www.linkedin.com/pub/kieran-mockford/4/77/110) for his
 msbuild wizardry.
 
-[![ProxyStubRegisterOutput](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubRegisterOutput-300x174.png)](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubRegisterOutput.png)Unfortunately,
+[![ProxyStubRegisterOutput](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubRegisterOutput-300x174.png)](http://devhawk.net/wp-content/uploads/2014/04/ProxyStubRegisterOutput.png) Unfortunately,
 it’s not enough just to build the proxy/stub – you also have to register
 it. The brokered component proxy/stub needs to be registered globally on
 the machine, which means you have to be running as an admin to do it. VS

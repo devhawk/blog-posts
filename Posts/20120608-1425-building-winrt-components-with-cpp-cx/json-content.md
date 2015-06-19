@@ -10,7 +10,7 @@ Games](http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-s
  using [DirectX and XAML
 together](http://channel9.msdn.com/Events/Windows-Camp/Developing-Windows-8-Metro-style-apps-in-Cpp/Building-Apps-with-Cpp-XAML-and-DirectX).
 My talk was on building [Windows Runtime
-Components](http://msdn.microsoft.com/en-us/library/windows/apps/hh441572(v=vs.110).aspx)in
+Components](http://msdn.microsoft.com/en-us/library/windows/apps/hh441572(v=vs.110).aspx) in
 C++. Here’s the abstract:
 
 > The Windows Runtime enables developers from a variety of languages –

@@ -144,7 +144,7 @@ private void Button_Click_1(object sender, RoutedEventArgs e)
 }
 ```
 
-![](http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-RunningApp-e1340161688130-150x74.png "WCDemo1-RunningApp")Now,
+![](http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-RunningApp-e1340161688130-150x74.png "WCDemo1-RunningApp") Now,
 run the app, click the “Click Me” button and marvel at the wonder of
 WinRT language interop to print a greeting to Herb Sutter. I used [Herb
 Sutter](http://herbsutter.com/) from the C++ team since he was the

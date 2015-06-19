@@ -97,7 +97,7 @@ university talk while I’m in town. Any takers?
 2009~~**](http://microsoftpdc.com/)**~~, Nov 17-19~~**
 
 ![Find out what's
-next](http://microsoftpdc.com/content/images/creative/PDC09Bling_General_WhatsNext_136.jpg)Update:
+next](http://microsoftpdc.com/content/images/creative/PDC09Bling_General_WhatsNext_136.jpg) Update:
 Tech·Ed Europe and PDC are on back-to-back weeks this year so we’ll be
 sending a teammate-to-be-determined to PDC in my stead. My family is
 very pleased I won’t be gone for two weeks straight.

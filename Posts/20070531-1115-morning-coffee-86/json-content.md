@@ -27,7 +27,7 @@
     that Astoria does something similar. Personally, I like that model
     for transactions better than the transaction factory approach Jon
     Udell
-    [describe](http://blog.jonudell.net/2007/05/24/restful-web-services/)s.
+    [describes](http://blog.jonudell.net/2007/05/24/restful-web-services/).
     But either way, you’ve moved beyond simple CRUD style services and
     into the world of protocol. Surfacing intent via protocol aligns
     with what Tim

@@ -8,7 +8,7 @@ architecture when setting up a VS command line session. Unfortunately,
 Chris’s script wraps vsvars32.bat which only supports generating 32-bit
 apps. Luckily, VC++ includes a vcvarsall.bat script that let’s you
 specify processor architecture. So I updated my local copy of
-[vsvars.ps1 ](http://1drv.ms/1kf8g9I)to use vcvarsall.bat under the hood
+[vsvars.ps1 ](http://1drv.ms/1kf8g9I) to use vcvarsall.bat under the hood
 and added an -x64 switch to enable setting up a 64-bit command line
 environment. Vcvarsall.bat supports a [variety of additional
 options](http://msdn.microsoft.com/en-us/library/x4d2c09s.aspx), but

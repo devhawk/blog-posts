@@ -7,7 +7,7 @@ describes the these tweaks in detail, but the new [brokered component
 template](http://visualstudiogallery.msdn.microsoft.com/527286e4-b06a-4234-adde-d313c9c3c23e) takes
 care of these small tweaks for you.
 
-[![BRT\_NewProject](http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject-300x207.png)](http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject.png)Start
+[![BRT\_NewProject](http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject-300x207.png)](http://devhawk.net/wp-content/uploads/2014/04/BRT_NewProject.png) Start
 by selecting File -\> New -\> Project in Visual Studio. With the sheer
 number of templates to choose from these days, I find it’s easier to
 just search for the one I want. Type “broker” in the search box in the

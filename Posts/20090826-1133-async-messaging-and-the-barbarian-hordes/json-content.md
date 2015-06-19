@@ -43,7 +43,7 @@ that something I’ve known since 2003: “[In order to truly evolve
 syndication…we need to break free of the synchronous polling
 model](http://devhawk.net/2003/12/16/reliable-syndication/).” [1]
 
-![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_8.png "image")I
+![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_8.png "image") I
 love the slogan from [this Web Hooks
 presentation](http://blog.webhooks.org/2009/04/23/slides-from-pivotal-labs-talk/):
 “so simple you’ll think it’s stupid”. Web Hooks aren’t stupid – far from
@@ -91,7 +91,7 @@ for changes every X amount of time, they register for notification when
 the feed is updated. This is very similar to the way GitHub uses async
 messages for commit push notification as described above.
 
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_thumb_3.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_10.png)Both
+[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_thumb_3.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_10.png) Both
 PubSubHubbub and RSS Cloud include an intermediary that’s responsible
 for managing the list of current subscribers and relaying the
 notification when the publisher makes a change.  Honestly, I’m not a fan

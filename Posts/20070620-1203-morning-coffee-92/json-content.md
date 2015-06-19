@@ -21,7 +21,7 @@
     .NET Framework VS08 can target all use the same underlying runtime,
     which probably made it easier to build.
 -   Michael Platt
-    [refactors](http://michaelplatt.net/blogs/architecture/archive/2007/06/18/service-oriented-programming-sop-tenets.aspx)Don
+    [refactors](http://michaelplatt.net/blogs/architecture/archive/2007/06/18/service-oriented-programming-sop-tenets.aspx) Don
     Box’s original [tenets of service
     orientation](http://msdn.microsoft.com/msdnmag/issues/04/01/Indigo/default.aspx)
     so he can include some information about how these services get
@@ -37,7 +37,7 @@
     how many other micro-ISV’s take the approach of “pay me now and you
     get to help me pick some of the new features.”
 -   [![My Monitor
-    Setup](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062_thumb.jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062.jpg)Brandon
+    Setup](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062_thumb.jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062.jpg) Brandon
     LeBlanc
     [writes](http://windowsvistablog.com/blogs/windowsexperience/archive/2007/06/20/running-a-dual-monitor-setup-with-windows-vista.aspx)
     about dual monitor support in Vista. I’m loving the dual monitor

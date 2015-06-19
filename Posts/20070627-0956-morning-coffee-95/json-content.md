@@ -2,7 +2,7 @@
     dasBlog](http://www.hanselman.com/blog/DasBlog197ReleaseFinalASPNET11Version.aspx)
     is out, the final version on ASP.NET 1.1 (unless this release “kills
     a kitten” as per Scott Hanselman). I don’t have the time (make the
-    time?)to run daily builds, but I do try and upgrade to new major
+    time?) to run daily builds, but I do try and upgrade to new major
     releases in a timely fashion. I’m also moving hosters, so expect a
     little downtime around here at some point in the near future.
 -   Matt Winkler is doing a series on [alternate WF execution

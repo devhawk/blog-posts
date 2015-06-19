@@ -1,14 +1,14 @@
-[![CNN](http://devhawk.net/wp-content/uploads/2014/04/CNN-300x190.jpg)](http://devhawk.net/wp-content/uploads/2014/04/CNN.jpg)Today
+[![CNN](http://devhawk.net/wp-content/uploads/2014/04/CNN-300x190.jpg)](http://devhawk.net/wp-content/uploads/2014/04/CNN.jpg) Today
 was a \***HUGE**\* thrill as I got to present in the keynote at
 [//build](http://www.buildwindows.com/)! I’ll have more on the specifics
 of Brokered WinRT Components later after my session, but apparently
 quite a big deal was made of my shirt. I ended up as an [internet
-meme](http://cheezburger.com/8132467456)and on the [CNN Live
+meme](http://cheezburger.com/8132467456) and on the [CNN Live
 Blog](http://cnntechlive.cnn.com/Event/Microsoft_Build_keynote_3/111712554)!
 
 A long, long time ago (back when I wrote Photoshop Plugins for Mac long
 before I joined Microsoft), I had a [Metrowerks
-CodeWarrior](http://en.wikipedia.org/wiki/CodeWarrior)t-shirt with the
+CodeWarrior](http://en.wikipedia.org/wiki/CodeWarrior) t-shirt with the
 “Blood Sweat & Code” slogan on the back. I loved that slogan, but lost
 the shirt somewhere along the way. So a few months ago, I decided to
 make a new one – but this time with the purple and blue of Visual

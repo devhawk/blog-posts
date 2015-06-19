@@ -1,4 +1,4 @@
-[![](http://sphotos.ak.fbcdn.net/hphotos-ak-snc1/hs159.snc1/5932_111961876044_93620706044_2350467_25193_n.jpg)](http://www.stealthlax.com/)Last
+[![](http://sphotos.ak.fbcdn.net/hphotos-ak-snc1/hs159.snc1/5932_111961876044_93620706044_2350467_25193_n.jpg)](http://www.stealthlax.com/) Last
 Saturday night, my family and I went with some friends from the
 neighborhood up to Everett to catch the [Washington
 Stealth](http://www.stealthlax.com/) in the [National Lacrosse
@@ -21,7 +21,7 @@ drum](http://espn.go.com/nhl/recap?gameId=300512016) in game 7. I’d
 argue that the Caps performance was still the most embarrassing of the
 three, but not by much)
 
-![](http://upload.wikimedia.org/wikipedia/en/thumb/c/cd/NLLLogo.svg/200px-NLLLogo.svg.png)As
+![](http://upload.wikimedia.org/wikipedia/en/thumb/c/cd/NLLLogo.svg/200px-NLLLogo.svg.png) As
 I said, this was my first indoor lacrosse game. The game is basically
 ice hockey without the ice. In fact, the Stealth’s advertising slogan
 this year was “It’s like hockey…with balls”. [1] As far as I could tell,
