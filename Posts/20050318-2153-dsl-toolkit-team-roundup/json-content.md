@@ -4,7 +4,7 @@ toolkit is blogging. [Keith](http://blogs.msdn.com/keith_short/),
 [Steve](http://blogs.msdn.com/stevecook/),
 [Stuart](http://blogs.msdn.com/stuart_kent/),
 [Gareth](http://blogs.msdn.com/garethj/),
-[Alan](http://weblogs.asp.net/alan_cameron_wills/)and
+[Alan](http://weblogs.asp.net/alan_cameron_wills/) and
 [Jochen](http://blogs.msdn.com/jochens/). Plus, I bug these guys on
 email *alot* and they always have answers. A couple of recent items from
 these folks:

@@ -19,7 +19,7 @@ have three dogfood VPCs – Longhorn, Whidbey and Indigo. Finally, I have
 a WS03 VPC running
 [WSS](http://www.microsoft.com/windowsserver2003/default.mspx). I need
 to upgrade my [SharePoint Syndication
-project](prj_sharepointsynd.aspx)to support WSS RTM, but I just haven’t
+project](prj_sharepointsynd.aspx) to support WSS RTM, but I just haven’t
 had the time.
 
 Internally, we have a group that produces demo images and VPC’s for the

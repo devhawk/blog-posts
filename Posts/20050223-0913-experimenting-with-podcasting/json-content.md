@@ -4,7 +4,7 @@ enclosures for local binaries and I’m thinking of adding support for
 remote binaries. (I’m not sure my friend who hosts this blog for me
 would appreciate the bandwidth spike from adding downloads of media
 files. Of course, that assumes people would listen). So far, I’m just
-listening. My friend [Mike](http://blogs.msdn.com/mglehman/)does his
+listening. My friend [Mike](http://blogs.msdn.com/mglehman/) does his
 [Manic Minute](http://radio.weblogs.com/0141212/) and I guess [Daily
 Source Code](http://www.curry.com/) is the defacto standard podcast.
 This will be easier when I get my new AUX input installed in my car.

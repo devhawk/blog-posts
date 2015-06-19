@@ -1,4 +1,4 @@
-[![](http://card.mygamercard.net/RayTracer.png)](http://live.xbox.com/member/RayTracer)For
+[![](http://card.mygamercard.net/RayTracer.png)](http://live.xbox.com/member/RayTracer) For
 those who *don’t* keep a close eye on my Xbox playing habits, I picked
 up [NHL 07](http://www.xbox.com/nhl07xbox360) last night. There are two
 hockey franchises for the Xbox 360: [EA
@@ -20,7 +20,7 @@ which is an entirely new presentation system which is more like an
 movie](http://xbox360.ign.com/articles/732/732345p1.html)” than a TV
 broadcast.
 
-![NHL 07 Box](http://s3.amazonaws.com/devhawk_images/boxnhl07.jpg)EA
+![NHL 07 Box](http://s3.amazonaws.com/devhawk_images/boxnhl07.jpg) EA
 Sports spent their time on an entirely new control scheme called “Skill
 Stick”. Basically, while the left thumbstick still controls player
 movement, the right thumbstick controls the player’s stick. It’s taking

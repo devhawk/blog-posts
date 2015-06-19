@@ -13,7 +13,7 @@ internal class called WsdlCreator to generate construct a
 from SoapService type that you write. Pretty cool.
 
 The only downside is that if you use raw
-[SoapEnvelope](http://msdn.microsoft.com/library/en-us/wseref/html/T_Microsoft_Web_Services2_SoapEnvelope.asp)s
+[SoapEnvelopes](http://msdn.microsoft.com/library/en-us/wseref/html/T_Microsoft_Web_Services2_SoapEnvelope.asp)
 as the input and output parameter of the SoapService methods, the
 WsdlCreator has no way to know what schema to use for the corrisponding
 SOAP messages. So, it punts and represents a SoapEnvelope as sequence of

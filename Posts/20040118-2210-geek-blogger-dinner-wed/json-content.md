@@ -1,7 +1,7 @@
 I see from
 [Jim](http://snowstormlife.com/blog/archive/2004/01/11/572.aspx),
 [Rory](http://neopoleon.com/blog/posts/2498.aspx) and
-[Scoble](http://radio.weblogs.com/0001011/2004/01/16.html#a6213)that
+[Scoble](http://radio.weblogs.com/0001011/2004/01/16.html#a6213) that
 there’s a “[Weblog
 Meetup](http://www.anitarowland.com/gmarchives/00001562.html)” on Wed.
 evening. It’s at a [bowling alley](http://www.leilanilanes.com/). I hate

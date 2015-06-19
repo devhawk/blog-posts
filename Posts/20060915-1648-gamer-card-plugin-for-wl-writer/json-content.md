@@ -1,4 +1,4 @@
-![](http://s3.amazonaws.com/devhawk_images/GamerCardPluginScreenShot.jpg)In
+![](http://s3.amazonaws.com/devhawk_images/GamerCardPluginScreenShot.jpg) In
 my [last post](http://devhawk.net/2006/09/15/hawkeye-on-nhl-07/), I
 wanted to include a link to my gamer card, showing the NHL 07 logo on
 it. It turns out that in addition to the [“official” gamer

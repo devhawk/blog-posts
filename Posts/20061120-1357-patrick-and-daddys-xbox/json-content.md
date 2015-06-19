@@ -22,7 +22,7 @@ Cars – he wants to be [Lightning
 McQueen](http://en.wikipedia.org/wiki/Lightning_McQueen) so bad – but
 I’m not sure he’s going to be any good at the game.
 
-![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/0995b2a57c40_9C5C/XnaLogo[11].gif)I
+![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/0995b2a57c40_9C5C/XnaLogo[11].gif) I
 wonder if there’s much of a market for pre-school console games?
 Probably not at the \$50-60 price point, but as a \$5 or \$10 Xbox Live
 Arcade game? Maybe so. I’ve played around with [XNA Game
