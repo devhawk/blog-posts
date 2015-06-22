@@ -87,8 +87,7 @@ for IPy. If that turns out to be true, the Table Storage REST API will
 be my only option.
 
 As you can see in the code above, these Azure blob containers are set to
-be publically accessible (via ContainerAccessControl<span
-style="color: blue">.</span>Public argument passed to CreateContainer).
+be publically accessible (via ContainerAccessControl.Public argument passed to CreateContainer).
 So for my C\# app, I’m simply using calling XDocument.Load with the
 [List Blobs operation
 url](http://msdn.microsoft.com/en-us/library/dd135734.aspx), shaping the

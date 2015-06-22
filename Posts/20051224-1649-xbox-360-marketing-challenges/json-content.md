@@ -2,10 +2,9 @@ While my blog was down, Microsoft launched the [Xbox
 360](http://www.xbox.com/en-US/hardware/xbox360/) with significant
 fanfare and dramatic demand. Of course, a month later the Xbox 360 is
 still [sold out](http://bensbargains.net/xbox360/xbox360.php) pretty
-much <span class="SpellE">every where</span> you go. I remember I got
+much every where you go. I remember I got
 able to find an original Xbox before Christmas back in 2001 so either
-the demand is much higher or the supply is much <span
-class="GramE">lower</span> (probably both). I’ve personally decided to
+the demand is much higher or the supply is much lower (probably both). I’ve personally decided to
 wait on getting a 360 – I’m way behind on original Xbox games and
 my [two
 kids](http://storage.msn.com/x1pFeqfYuS6GVACJn9mvD1nrS9Ut2YqkWWLeyDj-jjA1Vlz-sbk7qMMCGGYMaLCUAbJtUaD0FbymyD_HYC7NdAPWETpzHTA7PzW9zlvfjQYbDGu0c2PO2PpW8hz2FarO0oH)

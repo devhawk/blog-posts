@@ -1,7 +1,7 @@
-FYI, for those going to [<span class="misspell">VSLive</span>! in San
+FYI, for those going to [VSLive! in San
 Francisco](http://www.ftponline.com/conferences/vslive/2006/sf/ "VSLive! in San Francisco"),
 I’m a last minute addition to the schedule. I’m presenting a talk titled
-<span id="transformationbest"></span>[Developer 2.0: Finding Your Way in
+[Developer 2.0: Finding Your Way in
 the Future of Software
 Development](http://www.ftponline.com/conferences/vslive/2006/sf/sas-sessions.aspx#transformationbest "Developer 2.0: Finding Your Way in the Future of Software Development").
 I wrote and delivered this presentation originally for the [patterns &
@@ -20,18 +20,14 @@ VSLive! [Software Architecture
 Summit](http://www.ftponline.com/conferences/vslive/2006/sf/sasummit.aspx "Software Architecture Summit")
 this year. In addition to my last minute addition:
 
--   John <span class="misspell">deVadoss’s</span> day two keynote on
-    <span id="theedge"></span>[Software Architecture on the Edge: Moving
-    Beyond
-    SOA](http://www.ftponline.com/conferences/vslive/2006/sf/sas-sessions.aspx#theedge "Software Architecture on the Edge: Moving Beyond SOA.").
--   Ron Jacobs on <span id="integrationservice"></span>[Integration,
+-   John deVadoss’s day two keynote on [Software Architecture on the Edge: Moving Beyond OA](http://www.ftponline.com/conferences/vslive/2006/sf/sas-sessions.aspx#theedge "Software Architecture on the Edge: Moving Beyond SOA.").
+-   Ron Jacobs on [Integration,
     Service Orientation and Pattern Driven
     Design](http://www.ftponline.com/conferences/vslive/2006/sf/sas-sessions.aspx#integrationservice "Integration, Service Orientation and Pattern Driven Design")
     .
--   John Evdemon on [<span class="misspell">Workflow</span> Enabled
+-   John Evdemon on [Workflow Enabled
     Services](http://www.ftponline.com/conferences/vslive/2006/sf/sas-sessions.aspx#workflowenabled "Workflow Enabled Services").
--   Mauro Regio on <span
-    id="collaborationsoftware"></span>[Collaboration Software
+-   Mauro Regio on [Collaboration Software 
     Factory](http://www.ftponline.com/conferences/vslive/2006/sf/sas-sessions.aspx#collaborationsoftware "Collaboration Software Factory").
 
 See you in San Fran!

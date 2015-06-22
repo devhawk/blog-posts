@@ -1,13 +1,5 @@
-<div
-id="84E294D0-71C9-4bd0-A0FE-95764E0368D9:153d6944-dc7b-4578-8710-a2c9523305a7"
-class="wlWriterSmartContent" contenteditable="false"
-style="padding-right: 0px; display: inline; padding-left: 5px; float: right; padding-bottom: 0px; margin: 0px; padding-top: 0px">
-
-<span
-id="map-6ff6cd5d-0b86-4c0b-b169-9e805a204ff9">[![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WorkingFromHomeAsTheOfficeMoves_72FB/map09acefc72c79.jpg)](http://local.live.com/default.aspx?v=2&cp=47.54693~-122.0346&lvl=1&style=o&scene=3713755&sp=aN.47.54674_-122.0346_New%2520Issquah%2520Black%2520Building_ "Click to view this map on Live.com")</span>\
+[![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WorkingFromHomeAsTheOfficeMoves_72FB/map09acefc72c79.jpg)](http://local.live.com/default.aspx?v=2&cp=47.54693~-122.0346&lvl=1&style=o&scene=3713755&sp=aN.47.54674_-122.0346_New%2520Issquah%2520Black%2520Building_ "Click to view this map on Live.com")
 New Microsoft Issaquah Black Building
-
-</div>
 
 Even though I moved offices [just a
 month](http://devhawk.net/2006/09/06/here-has-moved-and-will-move-again/)

@@ -90,8 +90,7 @@ accomplishments:
     MVP programs
 -   Delivering the first-ever Architecture Track at Tech-Ed 2004
 -   Taking [Arvindra’s](http://www.thearchitectexchange.com/asehmi/)
-    amazing <span
-    style="TEXT-DECORATION: line-through">JOURNAL</span>[The
+    amazing ~~JOURNAL~~[The
     Architecture Journal](http://www.architecturejournal.net/) worldwide
 -   Launching the [Architecture Resource
     Center](http://www.microsoft.com/architecture) and the [MSDN

@@ -11,9 +11,9 @@ about how [VSTS](http://msdn.microsoft.com/vstudio/teamsystem) will
 support software factories. He posted an excerpt from an article he’s
 working on.
 
-> <span>A software factory is a product line that configures extensible
+> A software factory is a product line that configures extensible
 > development tools like Visual Studio Team System (VSTS) with packaged
 > content and guidance, carefully designed for building specific kinds
 > of applications. A software factory contains three key ideas: a
 > software factory schema, a software factory template and an extensible
-> development environment.</span>
+> development environment.

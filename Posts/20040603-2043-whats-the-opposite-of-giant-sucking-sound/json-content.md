@@ -15,13 +15,13 @@ Solutions](http://www.securejustice.com/), focusing on [integrated
 justice information systems](http://www.securejustice.com/). One isn’t a
 trend, but it’s interesting to watch as the economy slowly improves.
 
-<span>Note, unlike Chris, who observed a trend only to become a part of
+Note, unlike Chris, who observed a trend only to become a part of
 it a few short months later, we won’t be seeing any “DevHawk Consulting”
 nonsense around here. I’m having \*way\* too much fun doing what I’m
 doing w/ Architecture Strategy. Besides, I get to ~~torment~~ work with
-[Pat](http://blogs.msdn.com/pathelland). </span>
+[Pat](http://blogs.msdn.com/pathelland). 
 
-<span>Update – in the comments, Avery pointed out that Rob Howard [has
+Update – in the comments, Avery pointed out that Rob Howard [has
 left
 MSFT](http://weblogs.asp.net/rhoward/archive/2004/06/02/146806.aspx) to
-create a company called **»*telligent***systems.</span>
+create a company called **»*telligent***systems.

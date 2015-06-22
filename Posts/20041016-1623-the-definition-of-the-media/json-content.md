@@ -15,8 +15,8 @@ media:
 > [Media](http://dictionary.reference.com/search?q=media): A means of
 > mass communication, such as newpapers, magazines, radio, or
 > television.\
-> <span>The American Heritage® Dictionary of the English Language,
-> Fourth Edition</span>
+> The American Heritage® Dictionary of the English Language,
+> Fourth Edition
 
 Note the use of the word “radio” in the definition? Radio is, in fact,
 part of the media – go figure.

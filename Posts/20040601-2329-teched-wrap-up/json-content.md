@@ -1,21 +1,19 @@
-It’s been days, but I’m finally getting around to posting my <span
-id="rssHarry_dgFeed__ctl3_lblItem">Tech·Ed </span>wrap-up. I had a great
+It’s been days, but I’m finally getting around to posting my Tech·Ed wrap-up. I had a great
 time as a speaker, track owner and attendee. My Data in SOA talk ended
 up with an 8.0 score and our track overall scored a 7.5. Not bad for our
 first time out!
 
-My boss’s immediate reaction was to raise the bar for <span
-id="rssHarry_dgFeed__ctl3_lblItem0">Tech·Ed 2005, which is fine by me as
+My boss’s immediate reaction was to raise the bar for Tech·Ed 2005, which is fine by me as
 I have got some specific plans for an even better Architecture track
 next year. I learned a lot swimming in the deep end of the pool, such
-as:</span>
+as:
 
 -   We could have been much better integrated with the other tracks,
     esp. the Dev track. Being involved in the planning from the start
-    (<span id="rssHarry_dgFeed__ctl3_lblItem1">Tech·Ed 05 content
+    (Tech·Ed 05 content
     planning starts in earnest in the fall) should help out a bunch
     here, as will knowing the other track owners from this year’s
-    event.</span>
+    event.
 -   We could have managed our track better. But hey, it was my first
     time! Things like speaker meetings, more content reviews and
     ensuring speakers go to training all help out here. Also, I’d like a

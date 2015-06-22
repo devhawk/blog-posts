@@ -26,7 +26,7 @@ but again it works and it’s not like it’s tough to change.
 
 Enjoy.
 
-**<span style="text-decoration: underline;">Update</span>**: Tomas
+**Update**: Tomas
 Restrepo pointed out an easier way to start the process:
 
 ``` powershell

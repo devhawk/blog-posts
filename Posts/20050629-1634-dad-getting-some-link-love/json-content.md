@@ -5,9 +5,9 @@ about what he called [Business Oriented Architecture
 > If I had to guess what a service oriented architecture will eventually
 > look like, I would guess that it would reflect the business
 > architecture – Business Oriented Architecture
-> (BOA).<span></span>Business organizations have evolved over many
+> (BOA). Business organizations have evolved over many
 > centuries into a number of common “departments” – sales, accounting,
-> personnel, etc.<span></span>Perhaps that is a good starting place for
+> personnel, etc. Perhaps that is a good starting place for
 > services.
 
 [John](http://blogs.msdn.com/jevdemon) forwarded me a

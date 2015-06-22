@@ -1,5 +1,4 @@
-**UPDATE**: This approach <span
-style="text-decoration: underline;">*doesn’t work*</span>. Please see
+**UPDATE**: This approach <u>*doesn’t work*</u>. Please see
 the [followup
 article](http://devhawk.net/2008/10/21/the-fifth-assembly/) for the gory
 details.

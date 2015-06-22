@@ -59,10 +59,10 @@ a VSIP partner:
 > our platform is huge for us,” [VSTS General Manager Rick] LaPlante
 > said.
 >
-> [From <span class="Article_Title">[Microsoft Taps Former Rational
+> [From [Microsoft Taps Former Rational
 > Heavyweight to Lend Credence to Enterprise Tools
 > Play](http://www.eweek.com/article2/0,1895,1886531,00.asp),
-> eWeek]</span>
+> eWeek]
 
 I’d like to nominate Rick’s comment for understatement of the year
 awards. It also gets me wondering what Amigo Jim Rumbaugh is up to these

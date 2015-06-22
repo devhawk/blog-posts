@@ -64,7 +64,7 @@ that shows XapHttpHandler in action.
 
 Quick note of caution: by design, XapHttpHandler does not cache the XAP
 file – it’s generated anew on every request. So I would highly recommend
-<span style="text-decoration: underline;">against</span> using
+<u>against</u> using
 XapHttpHandler on a production web server. You’re much better off using
 Chiron to build a physical XAP file that you then deploy to your
 production web server.

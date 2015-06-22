@@ -58,7 +58,7 @@ from System import *           # so does this
 from System.DateTime import *  # this doesn’t work
 ```
 
-**<span style="text-decoration: underline;">Update</span>**: [Michael
+**Update**: [Michael
 Foord](http://www.voidspace.org.uk/python/weblog/index.shtml) [pointed
 out](http://devhawk.net/2008/04/28/importing-static-methods-with-ipy/)
 that if you import Now as I describe above, it places a DateTime object

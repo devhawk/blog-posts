@@ -39,10 +39,10 @@ following:
 > in this pillar, where potential candidates include active
 > objects/services (objects that conceptually run on their own thread,
 > and calling a method is an asynchronous message); channels of
-> communication between two or more tasks; and <span
-> style="font-weight: bold; background-color: #ffff00">contracts that
+> communication between two or more tasks; and 
+> **contracts that
 > let us explicitly express, enforce, and validate the expected order of
-> messages</span>. [emphasis added]
+> messages**. [emphasis added]
 
 If we’re going to provide the ability to express, enforce and validate
 the expected order of messages between concurrent blocks of code, can we

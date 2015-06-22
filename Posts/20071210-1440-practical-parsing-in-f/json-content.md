@@ -51,8 +51,8 @@ is shaping up (though this is subject to change):
     Tree](http://devhawk.net/2007/12/19/practical-f-parsing-the-abstract-syntax-tree/)
 -   [Semantic Productions
     (http://devhawk.net/2007/12/20/practical-f-parsing-semantic-productions-2/)
--   [<span style="color: #017cbc;">Recursion and Predicate
-    Functions</span>](http://devhawk.net/2008/01/29/practical-f-parsing-recursion-and-predicate-functions/)
+-   [Recursion and Predicate
+    Functions ](http://devhawk.net/2008/01/29/practical-f-parsing-recursion-and-predicate-functions/)
 -   Caching and Tracing
 -   C\# Interop
 

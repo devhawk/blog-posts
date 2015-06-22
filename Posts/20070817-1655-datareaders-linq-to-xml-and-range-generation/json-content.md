@@ -3,8 +3,7 @@ I’m doing a bunch of database / XML stuff @ work, so I decided to use to
 I can use LINQ. For reasons I don’t want to get into, I needed a way to
 convert arbitrary database rows, read using a SqlDataReader, into XML.
 LINQ to SQL was out, since the code has to work against arbitrary tables
-(i.e. I have no compile time schema knowledge). But <span
-style="text-decoration: line-through;">XLinq</span> LINQ to XML helped
+(i.e. I have no compile time schema knowledge). But ~~XLinq~~ LINQ to XML helped
 me out a ton. Check out this example:
 
 ``` csharp
@@ -37,7 +36,7 @@ standard range syntax that looks like (1..10), but I couldn’t find the
 equivalent C\#. Did I miss something, or am I really on my own to write
 a GetRange function?
 
-<span style="text-decoration: underline;">Update</span> – As expected, I
+**Update** – As expected, I
 missed something. John Lewicki pointed me to the static
 [Enumerable.Range](http://msdn2.microsoft.com/en-us/library/system.linq.enumerable.range(VS.90).aspx)
 method that does exactly what I needed.

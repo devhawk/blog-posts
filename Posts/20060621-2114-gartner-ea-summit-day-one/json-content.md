@@ -12,13 +12,13 @@ The first of two keynotes today was Richard Buchanan’s session on [The
 New Enterprise Architecture: Time for
 Leadership](http://agendabuilder.gartner.com/EA4/webpages/SessionDetail.aspx?EventSessionId=860).
 Pretty decent session, though much of it was pretty obvious. He even
-said at one point that this was “<span>Strategic Enterprise Planning
+said at one point that this was “Strategic Enterprise Planning
 101″. Not exactly the best way to kick of an EA summit, IMHO. However,
-he did make some interesting points:</span>
+he did make some interesting points:
 
 -   It’s hard to quantify the value of business effectiveness. Richard’s
-    quote on this was great: “<span>What’s the dollar value of staying
-    out of jail?”</span>
+    quote on this was great: “What’s the dollar value of staying
+    out of jail?”
 -   He compared most of how IT is operated today as “looking in the
     mirror” (i.e. focusing on running what we already have). He
     suggested instead “looking out the window” (i.e. at the industry and
@@ -31,8 +31,8 @@ he did make some interesting points:</span>
     language of business. That’s good advice.
 -   Richard did do a good job capturing the dynamic aspect of enterprise
     and IT architecture. It’s about change, not structure. He said
-    “<span>EA is not about the past or the present. It’s about the
-    future.” Couldn’t agree more.</span>
+    “EA is not about the past or the present. It’s about the
+    future.” Couldn’t agree more.
 
 The second keynote was [Werner
 Vogels](http://www.allthingsdistributed.com/) talk [Order in the Chaos:
@@ -59,9 +59,9 @@ repeating it verbatim, but my key takeaways were:
 -   One of the key values to becoming a platform is being able to open
     it up to partners. Again, Microsoft knows a lot about opening a
     platform to partners, but I’m not sure how it applies inside IT.
--   Money Quote: “<span>At Amazon, things are always failing. It’s not a
+-   Money Quote: “At Amazon, things are always failing. It’s not a
     bad thing, it’s a fact of life.” I’ve started theorizing about this
-    on my own, good to know where to start looking for </span>people
+    on my own, good to know where to start looking for people
     putting this into practice.
 -   Towards that end, he made probably the most interesting observation
     of the day. At Amazon, there is no wall between development and
@@ -69,7 +69,7 @@ repeating it verbatim, but my key takeaways were:
     at scale and there is a good recipe for how enterprises need to run
     their IT department.
 
-The final session I went to today was Nick Gall on <span>[Architecture
+The final session I went to today was Nick Gall on [Architecture
 for the Agile Enterprise: Integrating EA &
 SOA](http://agendabuilder.gartner.com/EA4/webpages/SessionDetail.aspx?EventSessionId=863).
 The use of the term “agile” in this context was unfortunate, as he had
@@ -79,7 +79,7 @@ SOA + WWW + REST” which seems redundant. Isn’t REST an attempt to
 capture the architectural style of the WWW? Anyway, this session wasn’t
 very good. He had about 15 minutes of really good content but you had to
 wade thru the other 45 minutes of crap to find it. For example, he spent
-about ten minutes talking about the </span>value of using a small set
+about ten minutes talking about the value of using a small set
 common modular operations (i.e. the REST / WS-Transfer approach) before
 he used this great analogy:
 

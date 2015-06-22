@@ -12,8 +12,8 @@ post](http://blog.hackedbrain.com/archive/2005/10/06/3193.aspx) from
 > [Parser::LoadXml](http://winfx.msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/O_T_System_Windows_Serialization_Parser_LoadXml.asp).
 > Even BAML is interpreted, it’s just a far more compact and efficient
 > representation of the object graph than raw XML text.\
-> [Drew Marsh – <span id="viewpost.ascx_TitleUrl">[The XAML
-> Experience](http://blog.hackedbrain.com/archive/2005/10/06/3193.aspx)</span>]
+> [Drew Marsh – [The XAML
+> Experience](http://blog.hackedbrain.com/archive/2005/10/06/3193.aspx)]
 
 Given that I just [wrote about
 compiling](http://devhawk.net/2005/10/05/code-is-model/), I wanted

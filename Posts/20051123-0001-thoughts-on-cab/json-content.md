@@ -80,14 +80,11 @@ the level of complexity will put CAB beyond the reach or inclination on
 many potential users. I imagine this single line of code will scare off
 many would-be CAB developers:
 
-<span style="COLOR: #008080">MyWorkItem</span> myWorkItem =
-parentWorkItem.WorkItems.AddNew\<<span
-style="COLOR: #008080">MyWorkItem</span>\>();
+```csharp
+MyWorkItem myWorkItem = parentWorkItem.WorkItems.AddNew\<MyWorkItem\>();
+```
 
-Given that most people are used to writing “<span
-style="FONT-FAMILY: courier new"><span
-style="COLOR: blue">new</span><span
-style="COLOR: #008080">MyWorkItem</span>()</span>“, the line above
+Given that most people are used to writing “new MyWorkItem()“, the line above
 represents a significantly rise in complexity. Of course, CAB is trying
 to solve a complex problem. I’m sure CAB’s designers would rather the
 solution wasn’t so complex, but that’s the reality of the problem space

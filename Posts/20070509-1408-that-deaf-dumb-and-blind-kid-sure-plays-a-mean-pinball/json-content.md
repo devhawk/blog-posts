@@ -1,22 +1,8 @@
-<div
-style="padding-right: 5px; padding-left: 5px; float: right; padding-bottom: 5px">
-
-<div style="text-align: center">
-
 [![Michael K. Lee as
 Tommy](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/Capt.WalkerDidntComeHome_B646/TOMMY_pre-press_3.jpg)](http://www.villagetheatre.org/mainstage_tommy07.shtml)
-
-</div>
-
-<div style="font-size: smaller; text-align: center">
-
-<span style="font-weight: bold">Michael K. Lee (Tommy)</span>\
-Photo by Jay Koh\
+Michael K. Lee (Tommy)
+Photo by Jay Koh
 Property of Village Theatre
-
-</div>
-
-</div>
 
 Last night, I got to see the final dress rehearsal of [The Who’s
 TOMMY](http://www.villagetheatre.org/mainstage_tommy07.shtml) at the

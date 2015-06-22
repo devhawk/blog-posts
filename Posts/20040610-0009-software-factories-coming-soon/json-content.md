@@ -1,4 +1,4 @@
-Now that <span id="rssHarry_dgFeed__ctl3_lblItem">Tech·Ed is over, I’ve
+Now that Tech·Ed is over, I’ve
 got some time for things like playing Xbox, yard work and reading. I
 just finished [The Footsteps of
 God](http://search.barnesandnoble.com/booksearch/isbnInquiry.asp?isbn=0743454146)
@@ -17,7 +17,7 @@ initiative and are heavily involved in the creation of the Whitehorse
 tools. Software Factories isn’t available yet – access to an early
 electronic copy is one of the perks of knowing the authors and having
 one of them [speak as part of my Tech·Ed
-track](http://blogs.msdn.com/keith_short/archive/2004/06/04/148815.aspx).</span>
+track](http://blogs.msdn.com/keith_short/archive/2004/06/04/148815.aspx).
 
 Software Factories is about approaching application development with an
 industrialized manufacturing mindset, rather than the hand-crafted
