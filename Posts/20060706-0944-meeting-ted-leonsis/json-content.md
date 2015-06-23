@@ -24,8 +24,3 @@ Anyway, expect to see more hockey coverage on these pages in the future.
 And significantly less owner name calling, unless we trade [Calder
 Trophy](http://www.nhl.com/trophies/calder.html) winner [Alexander
 Ovechkin](http://www.washingtoncaps.com/team/player.asp?player_id=17):
-
-<div style="TEXT-ALIGN: center">
-
-</div>
-

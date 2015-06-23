@@ -1,14 +1,3 @@
-<div
-id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:6d427c0a-a7b2-4bce-964e-557e948d8bab"
-class="wlWriterSmartContent"
-style="padding-right: 0px; display: inline; padding-left: 5px; float: right; padding-bottom: 0px; margin: 0px; padding-top: 0px">
-
-<div>
-
-</div>
-
-</div>
-
 Just [saw
 this](http://japersrink.blogspot.com/2007/07/i-want-my-aotv.html) over
 on Japers’ Rink and had to share. This video won a three 2007 Golden

@@ -53,9 +53,6 @@ returns tomorrow.
     and [fight Darth
     Maul](http://soapbox.msn.com/video.aspx?vid=a029e258-7a76-4e39-a882-b44275397cd2).
     Here’s a video clip of my young Padawan:
-    <div style="margin: 10px" align="center">
-
-    </div>
 
     The big problem with Jedi Training Academy is that they only pick a
     limited number of “younglings” every show. Patrick didn’t get picked

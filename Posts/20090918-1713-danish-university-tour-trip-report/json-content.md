@@ -93,23 +93,7 @@ did bring us to to visit the [Modular Robotics Research
 Lab](http://modular.mmmi.sdu.dk/wiki/Main_Page) so I got to see these
 guys in action:
 
-<div
-id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:03a073ea-5567-4e13-ba0d-d2b78cf96155"
-class="wlWriterEditableSmartContent"
-style="padding-bottom: 0px; margin: 0px auto; padding-left: 0px; width: 425px; padding-right: 0px; display: block; float: none; padding-top: 0px">
-
-<div id="d33c395b-2d4e-4e85-b752-23636cfbfe64"
-style="margin: 0px; padding: 0px; display: inline;">
-
-<div>
-
 [![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/videod9804c33b78e.jpg)](http://www.youtube.com/watch?v=SYizuooEs7s)
-
-</div>
-
-</div>
-
-</div>
 
 Real transforming robots! Not quite Optimus Prime mind you, but you
 gotta start somewhere. These robots are call

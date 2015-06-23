@@ -8,11 +8,7 @@ and I’m ready to jump back in.
 Back when I was still on leave, my new boss [John
 deVadoss](http://blogs.msdn.com/jdevados/) this to say about my new job:
 
-> <div>
->
 > Our current thinking is that Harry will focus on two top-level areas
->
-> </div>
 >
 > 1.  Being the storyteller (Metropolis, Connected Systems etc)
 > 2.  Changing the way we evangelize Architecture – its not all about

@@ -19,9 +19,7 @@ Given that I just [wrote about
 compiling](http://devhawk.net/2005/10/05/code-is-model/), I wanted
 to weigh with a couple of points:
 
--   <div>
-
-    First, by definition compilation is a translation from one format to
+-   First, by definition compilation is a translation from one format to
     another. Therefore, converting XAML to BAML is a compilation step.
     The [SDM
     folks](http://lab.msdn.microsoft.com/teamsystem/workshop/sdm/default.aspx)
@@ -34,11 +32,7 @@ to weigh with a couple of points:
     into a directly executable format, so in reality I’m just being
     picky about the use of the word “compiled”.
 
-    </div>
-
--   <div>
-
-    Second, the fact that the XAML is compiled into an efficient binary
+-   Second, the fact that the XAML is compiled into an efficient binary
     representation and then embedded as a resource ([as per Rob
     Relyea](http://www.longhornblogs.com/rrelyea/archive/2004/01/31/2306.aspx))
     is fascinating from an implementation perspective, but somewhat
@@ -54,8 +48,6 @@ to weigh with a couple of points:
     into a format the machine can execute – the specific choice of
     compilers and transformations isn’t particularly interesting from a
     modeling perspective since it happens automatically.
-
-    </div>
 
 XAML isn’t the only place where the traditional compiling to executable
 model is being stretched. In [Windows Workflow

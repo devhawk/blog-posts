@@ -7,10 +7,6 @@ entertainment past the actual White House. Last year, Stephen Colbert
 had [this hilarious bit](http://www.youtube.com/watch?v=FT5d4vdNK5s) on
 Laura Bush’s “after hours” show @ last year’s dinner.
 
-<div style="TEXT-ALIGN: center">
-
-</div>
-
 I wonder who thought “Let’s get the guy that made the joke about
 President Bush bathing in a bucket of horse semen last year to appear at
 this year’s Correspondent’s dinner.” Actually, I don’t have to wonder.
