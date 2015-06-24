@@ -1,10 +1,8 @@
 I’ve spent the last three hours trying to get my new photo site posted
 to no avail. Will have to check with the webmaster tomorrow – any page
 with a code behind throws an exception that I can’t seem to catch or
-echo to the screen.
-:frowning: I
-guess I’ll have to build a simple HTML front end in order to post a
-bunch of new Patrick pictures for my parents.
+echo to the screen. :frowning: I guess I’ll have to build a simple HTML 
+front end in order to post a bunch of new Patrick pictures for my parents.
 
 In other news, [Dare’s](http://www.kuro5hin.org/user/Carnage4Life/diary)
 back from his world wide trip. Looking forward to the new builds of [RSS

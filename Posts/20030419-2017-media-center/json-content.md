@@ -17,7 +17,7 @@ buy the remote control and use it (I got mine from
 Only bummer – remote control messages are mapped to a variety of windows
 messages – WM\_INPUT, WM\_APPCOMMAND, WM\_KEYDOWN, etc. No convenient
 CLR Windows Forms mapping, even though
-[MCE](http://msdn.microsoft.com/netframework/productinfo/overview/default.asp#section3)[ships](http://msdn.microsoft.com/chats/vstudio/vstudio_121802.asp)
+[MCE](http://msdn.microsoft.com/netframework/productinfo/overview/default.asp#section3) [ships](http://msdn.microsoft.com/chats/vstudio/vstudio_121802.asp)
 with the .NET Framework.
 
 Update – the remote control does, in fact, work with XP Pro. Tried it

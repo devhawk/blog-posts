@@ -1,5 +1,5 @@
 > Oh, the irony, the Microsoft folks are busy [singing
-> the](http://www.gotdotnet.com/team/tewald/default.aspx#nn2003-03-21T03:23:54Z)[praises](http://www.keithba.net/blog/)
+> the](http://www.gotdotnet.com/team/tewald/default.aspx#nn2003-03-21T03:23:54Z) [praises](http://www.keithba.net/blog/)
 > of
 > [WS-Addressing](http://msdn.microsoft.com/webservices/default.aspx?pull=/library/en-us/dnglobspec/html/ws-addressing.asp),
 > for its transport independentness whilst their primary web services

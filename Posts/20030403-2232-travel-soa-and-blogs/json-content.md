@@ -17,8 +17,8 @@ workspace](http://www.gotdotnet.com/community/workspaces/workspace.aspx?id=ddc98
 Would there be any interest in a [Site Skinned](prj_webskin.aspx) web
 front end? Unfortunately, that means scraping some of my past few days
 experimentation. I was playing around with [Konstantin
-Knizhnik’s](http://www.garret.ru/~knizhnik/)[PERST Embedded
-OODBMS](http://www.garret.ru/~knizhnik/perst.html)[for
+Knizhnik’s](http://www.garret.ru/~knizhnik/) [PERST Embedded
+OODBMS](http://www.garret.ru/~knizhnik/perst.html) [for
 C\#](http://www.garret.ru/~knizhnik/Perst.NET/doc/perst.html). Sort of
 cool – but I’d like to see something more XML focused – perhaps a
 lightweight embedded XML storage engine (that’s XPath enabled of

@@ -19,8 +19,8 @@ a FileStream object. You can see the call to CreateFile in the internal
 FileStream constructor (sscliclrsrcbclsystemiofilestream.cs).
 [Reflector](http://www.aisto.com/roeder/dotnet/) reveals a similar
 implementation for the .NET Framework. But as we start to see other
-[CLR](http://msdn.microsoft.com/net/sscli)[implementations](http://www.go-mono.com)
-on [other](http://www.linux.org/)[platforms](http://www.freebsd.org/), I
+[CLR](http://msdn.microsoft.com/net/sscli) [implementations](http://www.go-mono.com)
+on [other](http://www.linux.org/) [platforms](http://www.freebsd.org/), I
 start to wonder how many of the underlying platform unmanaged API’s will
 be consistent across platforms? Some will obviously be consistent – file
 access, memory management, network sockets to name a few. Others such as

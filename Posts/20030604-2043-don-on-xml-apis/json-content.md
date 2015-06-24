@@ -1,4 +1,4 @@
-I watched [Don’s](http://www.gotdotnet.com/team/dbox/)[MSDN TV
+I watched [Don’s](http://www.gotdotnet.com/team/dbox/) [MSDN TV
 talk](http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20030603XMLDB/manifest.xml)
 on passing XML around within a managed application. The value of
 XPathNavigaor has been [discussed in

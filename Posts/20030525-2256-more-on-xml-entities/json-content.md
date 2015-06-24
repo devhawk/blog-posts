@@ -1,4 +1,4 @@
-[Dare](http://www.kuro5hin.org/user/Carnage4Life/diary)[commented](http://www.kuro5hin.org/story/2003/5/25/142610/725)
+[Dare](http://www.kuro5hin.org/user/Carnage4Life/diary) [commented](http://www.kuro5hin.org/story/2003/5/25/142610/725)
 on my recent post about [XML not being an object
 graph](http://devhawk.net/2003/05/15/xml-is-not-just-a-deserialized-object-graph/). He
 rightly points out that objects can have associated business logic and
@@ -31,7 +31,7 @@ that it was obviously designed by committee and seems to have at least
 two ways of doing everything. But even with those shortcomings, XML has
 one major thing going for it: it actually works. We’ve seen
 strongly-typed object systems
-[fail](http://www.microsoft.com/com/)[time](http://java.sun.com/) and
+[fail](http://www.microsoft.com/com/) [time](http://java.sun.com/) and
 [time again](http://www.corba.org/) to deliver promised cross platform
 integration. Since XML works, I know I’m going to want to use it in my
 ~~application~~ service. But I’d rather not have separate programming

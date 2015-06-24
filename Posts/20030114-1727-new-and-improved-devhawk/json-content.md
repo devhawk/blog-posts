@@ -35,7 +35,7 @@ looks something like:
         Some HTML Content Here
     </CenterLayout>
     <RightLayout></RightLayout>
- </us1:PageLayout>
+</uc1:PageLayout>
 ```
 
 I lose the visual designer, plus the ability to access embedded WebForm

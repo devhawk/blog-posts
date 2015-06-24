@@ -1,5 +1,5 @@
 Interesting to see that [Chris Sells](http://www.sellsbrothers.com) was
-[testifying](http://www.sellsbrothers.com/spout/#oros)[against](http://www.sellsbrothers.com/spout/default.aspx?content=testimony.htm)
+[testifying](http://www.sellsbrothers.com/spout/#oros) [against](http://www.sellsbrothers.com/spout/default.aspx?content=testimony.htm)
 the “[Open Source Software for Oregon Act (HB
 2892)](http://www.leg.state.or.us/barnhart/hb2892.htm)” in Salem on
 [Thursday](http://www.oregonlive.com/search/index.ssf?/base/business/1049461116217020.xml?oregonian?fng).

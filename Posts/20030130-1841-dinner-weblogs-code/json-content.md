@@ -3,7 +3,7 @@ But I did make it out to [Sam Ruby](http://www.intertwingly.net/blog)‘s
 [Weblog Gathering](http://www.intertwingly.net/blog/1166.html). Full
 list of attendee’s is available at [Anita Rowland’s
 weblog](http://www.anitarowland.com/gmarchives/00000825.html) (no RSS
-feed :frowning:
+feed :cry:
 ). Had a great time.
 
 Highlight for me was meeting [Miguel de

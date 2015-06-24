@@ -14,7 +14,7 @@ specifications.” XLANG is the language that powers [Microsoft BizTalk
 Server](http://www.microsoft.com/biztalk/).
 
 In other personal programming news, even though I’m in a
-[Phoenix](http://devhawk.net/2003/04/01/blog-specs/)[hotel](http://devhawk.net/2003/01/14/new-and-improved-devhawk/),
+[Phoenix](http://devhawk.net/2003/04/01/blog-specs/) [hotel](http://devhawk.net/2003/01/14/new-and-improved-devhawk/),
 I didn’t work on my weblog infrastructure. I’m waiting to see what comes
 next from [blogX](http://www.simplegeek.com/). With Chris and
 [Don](http://www.gotdotnet.com/team/dbox/) working on it, my time is

@@ -2,7 +2,7 @@ Got a chance to talk to
 [Dare](http://www.kuro5hin.org/user/Carnage4Life/diary) today about the
 XML vs. Objects stuff we’ve been blogging on. We started by talking
 about the convergence of objects, databases and XML. He mentioned a
-chapter of [Tim Neward’s](http://www.neward.net/ted/weblog)[Effective
+chapter of [Tim Neward’s](http://www.neward.net/ted/weblog) [Effective
 Enterprise
 Java](http://www.neward.net/ted/weblog/index.jsp?date=20030217#1045470771101)
 book where Ted recommends designing the data first. Ted started

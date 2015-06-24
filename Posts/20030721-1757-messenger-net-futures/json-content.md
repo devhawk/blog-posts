@@ -1,7 +1,7 @@
 Two things have revived my interest in
 [Messenger.NET](prj_messenger.aspx) (though it needs a new name – [any
 suggestions](mailto:harry@devhawk.net)?).
-[Jamie’s](http://weblogs.asp.net/NUnitAddin/)[addin](http://www.managedaddins.net/gallery/)
+[Jamie’s](http://weblogs.asp.net/NUnitAddin/) [addin](http://www.managedaddins.net/gallery/)
 and the upcoming release of [RTC Client API
 v1.2](http://msdn.microsoft.com/library/en-us/rtcclnt/rtc/real_time_communications_rtc_client_start_page.asp).
 The new client API is designed lockstep with [Microsoft Office Real-Time
@@ -18,7 +18,7 @@ Messenger](http://www.microsoft.com/windowsxp/windowsmessenger/default.asp)
 can support other protocols as well, such as [Exchange 2000′s IM
 Service](http://www.microsoft.com/exchange/evaluation/features/instantmessage.asp).
 The new RTC Server and Client API are using the
-[IETF’s](http://www.ietf.org/home.html)[Session Initiation
+[IETF’s](http://www.ietf.org/home.html) [Session Initiation
 Protocol](http://www.ietf.org/html.charters/sip-charter.html) (SIP) and
 the [SIP Instant Messaging and Presence Language
 Extensions](http://www.ietf.org/html.charters/simple-charter.html)

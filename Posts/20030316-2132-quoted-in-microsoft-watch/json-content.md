@@ -17,7 +17,8 @@ but don’t quote any of them. They only quoted the guy with something
 slightly negative to say.
 
 In a way, this is to be expected. I mean, I’m following Rule \#1 of
-[Robert Scoble’s](http://radio.weblogs.com/0001011/)[Corporate Weblog
+[Robert Scoble’s](http://radio.weblogs.com/0001011/)
+[Corporate Weblog
 Manifesto](http://radio.weblogs.com/0001011/2003/02/26.html): Tell The
 Truth. And nobody reads a news letter like Microsoft-Watch to only hear
 how great things are going for Microsoft. I shouldn’t be surprised that

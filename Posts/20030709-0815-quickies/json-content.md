@@ -19,7 +19,7 @@ getting into the “one-teens”, so there’s no reason not to blog.
     built on his [imcli](http://www.sellsbrothers.com/tools/#imcli)
     library.
 -   I joined [Jason
-    Alexander’s](http://dotnetweblogs.com/JAlexander/)[nGallery
+    Alexander’s](http://dotnetweblogs.com/JAlexander/) [nGallery
     workspace](http://www.gotdotnet.com/Community/Workspaces/Workspace.aspx?id=7adcc4ca-95d8-46bb-bb24-1e4b9eacb858).
     I have a [gallery of baby
     photos](http://www.winisp.net/harrypierson/) that I built using

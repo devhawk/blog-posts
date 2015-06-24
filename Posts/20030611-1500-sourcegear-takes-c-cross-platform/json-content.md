@@ -36,12 +36,14 @@ Very interesting. Initial thoughts:
 -   They aren’t “.NET XML Web Services”, they’re just XML Web Services.
     There are
     [standards](http://www.ws-i.org/Profiles/Basic/2003-05/BasicProfile-1.0-WGAD.htm)
-    ([in](http://www.w3.org/TR/wsdl12/)[progress](http://www.w3.org/TR/soap12-part0/))
+    ([in](http://www.w3.org/TR/wsdl12/) [progress](http://www.w3.org/TR/soap12-part0/))
     for this as well.
 -   Since Web Services are a supported on many platforms, SourceGear
     could have built a Unix/Linux specific version of their command-line
     tool in any language, especially Java which has several [Web
-    Service](http://www.themindelectric.com/glue/index.html)[implementations](http://ws.apache.org/axis/)[available](http://java.sun.com/xml/downloads/javaxmlpack.html).
+    Service](http://www.themindelectric.com/glue/index.html) 
+    [implementations](http://ws.apache.org/axis/)
+    [available](http://java.sun.com/xml/downloads/javaxmlpack.html).
     But for SourceGear, it appears that staying with C\# and CLI was
     very important. Eric is already [on
     record](http://software.ericsink.com/Abstraction_Pile.html) saying

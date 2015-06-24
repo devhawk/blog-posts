@@ -8,7 +8,7 @@ have Front Page. I hacked up a macro to throw up a dialog to grab the
 entry title & description, then insert that info + the currently
 selected text as the weblog entry content into the database. Of course,
 the true bummer is that I had to do it all with ADO.
-:frowning: Talk
+:cry: Talk
 about spoiled. ADO.NET does a much better job handling parameters. What
 I need is [Office
 11](http://www.microsoft.com/office/developer/preview/default.asp), with

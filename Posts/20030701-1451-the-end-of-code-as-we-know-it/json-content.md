@@ -24,6 +24,5 @@ error since the auto-magically generated code isn’t auto-magically
 deleted.
 
 Places where code generators are useful are indicative of future
-[disruptive
-programming](http://devhawk.net/2003/06/11/to-infinity-and-beyond/)[language
-innovations](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/).
+[disruptive programming](http://devhawk.net/2003/06/11/to-infinity-and-beyond/)
+[language innovations](http://devhawk.net/2003/01/17/disruptive-programming-language-technologies/).

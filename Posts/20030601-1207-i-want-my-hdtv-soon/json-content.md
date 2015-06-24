@@ -10,6 +10,8 @@ Day](http://us.imdb.com/Title?0103064) in
 [Hi-Def](http://www.microsoft.com/windows/windowsmedia/content_provider/film/HDVideo.aspx)
 on my [big screen TV](http://www.toshiba.com/tacp/tv/cinema.html)? Short
 answer: not yet, but soon. Given Windows Media’s focus on
-[digital](http://www.microsoft.com/windows/windowsmedia/content_provider/film/digitalcinema.aspx)[cinema](http://www.microsoft.com/windows/windowsmedia/content_provider/film/dmm/dailies.aspx)[tools](http://www.microsoft.com/windows/windowsmedia/content_provider/film/dmm/mediastore.aspx),
+[digital](http://www.microsoft.com/windows/windowsmedia/content_provider/film/digitalcinema.aspx)
+[cinema](http://www.microsoft.com/windows/windowsmedia/content_provider/film/dmm/dailies.aspx)
+[tools](http://www.microsoft.com/windows/windowsmedia/content_provider/film/dmm/mediastore.aspx),
 I imagine that T2 will be just the first of many movies available in
 Hi-Def Windows Media.

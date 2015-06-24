@@ -23,6 +23,6 @@ under the rss element?
 I’d like to see a revision to the RSS spec to add optional support for
 multiple channels and for optional title/link/description elements as
 direct children of the rss element. Of course, if we
-[can’t](http://www.intertwingly.net/blog/1283.html#c1048031206)[agree](http://objective.mine.nu/archive/2003/3/22.aspx#when:12:06:06.3531952)
+[can’t](http://www.intertwingly.net/blog/1283.html#c1048031206) [agree](http://objective.mine.nu/archive/2003/3/22.aspx#when:12:06:06.3531952)
 on a [namespace](http://www.snellspace.com/blog/archives/000340.html), I
 assume we’ll never get my suggestions added.

@@ -11,8 +11,7 @@ provides a mechanism to build the ability to update directly into your
 application.
 
 Also, from ScottW, I discovered that the [Data Access Application Block
-v2](http://www.gotdotnet.com/Community/Workspaces/Workspace.aspx?id=c20d12b0-af52-402b-9b7c-aaeb21d1f431)[shipped
-last
-Friday](http://www.gotdotnet.com/Community/Workspaces/viewUploads.aspx?id=c20d12b0-af52-402b-9b7c-aaeb21d1f431).
+v2](http://www.gotdotnet.com/Community/Workspaces/Workspace.aspx?id=c20d12b0-af52-402b-9b7c-aaeb21d1f431)
+[shipped last Friday](http://www.gotdotnet.com/Community/Workspaces/viewUploads.aspx?id=c20d12b0-af52-402b-9b7c-aaeb21d1f431).
 Hasn’t shown up on [MSDN
 yet](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnbda/html/daab-rm.asp).

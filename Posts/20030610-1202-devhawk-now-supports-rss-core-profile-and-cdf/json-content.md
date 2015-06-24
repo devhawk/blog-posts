@@ -1,9 +1,9 @@
 I upgraded my weblog slightly today. Primarily, I updated my [RSS
 feed](rss.aspx) to support [Timothy
-Appnel’s](http://www.mplode.com/tima/)[RSS Core Profile Draft
+Appnel’s](http://www.mplode.com/tima/) [RSS Core Profile Draft
 2](http://www.mplode.com/tima/archives/000291.html). In addition to
 mundane changes (pubDate becomes dc:date), I’m finally supporting
-xhtml:body for my content. Also, a la Timothy’s [sample
+xhtml:body for my content. Also, a la sTimothy’s [sample
 feed](http://www.mplode.com/tima/xml/xss-extensible.xml), I’m using a
 default namespace to finally move all of the RSS elements into a
 namespace. According to the profile draft, using a default namespace

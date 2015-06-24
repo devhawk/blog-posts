@@ -24,7 +24,8 @@ method has been overridden to provide value type semantics. So when you
 compare two strings that have the save character values, Equals()
 returns true even if they are two different string instances. Since
 Equals() is a virtual function, it gets [overridden in the standard
-fashion](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpgenref/html/cpconequals.asp).[1]
+fashion](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpgenref/html/cpconequals.asp).
+^[Actually, String.Equals() is implemented in native code by the runtime for performance reasons.]
 However, the important thing to keep in mind is that while Equals() and
 the equality operator have similar semantics, *they are not the same
 operation*. You override and implement them separately. If you override
@@ -50,9 +51,6 @@ the habit of always using Equals() I guess. Personally, I do all my work
 in C\# so I decided to take full advantage of the language and overload
 the equality operator of my class to call Equals() under the hood, just
 like System.String.
-
-[1] Actually, String.Equals() is implemented in native code by the
-runtime for performance reasons.
 
 **Increment Operator**
 
