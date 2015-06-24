@@ -1,6 +1,6 @@
 I chatted w/ [Scoble](http://radio.weblogs.com/0001011/) last night
 around 10:30pm. He wanted me to know he had
-[blogged](http://radio.weblogs.com/0001011/2003/07/25.html#a3943)[DevHawk
+[blogged](http://radio.weblogs.com/0001011/2003/07/25.html#a3943) [DevHawk
 Wiki](prj_wiki.aspx) as well as get my initial take on his [secrets
 post](http://radio.weblogs.com/0001011/2003/07/25.html#a3941). In
 response, I told him a secret. He’s got access to many more secrets than

@@ -1,4 +1,4 @@
-I was mucking around with [Mark’s](http://diveintomark.org)[RESTful
+I was mucking around with [Mark’s](http://diveintomark.org) [RESTful
 interface](http://diveintomark.org/archives/2003/09/08/msweb-rest) to
 the [Microsoft.com web
 service](http://ws.microsoft.com/MsComService/MsCom.asmx) when I noticed
