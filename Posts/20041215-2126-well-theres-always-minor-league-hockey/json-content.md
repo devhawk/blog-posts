@@ -25,8 +25,7 @@ roll back proposal: “They’re like ‘Don’t worry about it. You’re going 
 get your money.’”. So which is it Jim? Are you worried about getting
 yours or aren’t you?
 
-Chris Pronger of the St. Louis Blues also predicted no hockey until
-2006. Pronger
+Chris Pronger of the St. Louis Blues also predicted no hockey until 2006. Pronger
 [said](http://sports.espn.go.com/nhl/news/story?id=1947137) that
 “Probably December of ’05 and going into January ’06 we’re going to be
 in the same position we are in now, trying to come to a resolution.” I’m

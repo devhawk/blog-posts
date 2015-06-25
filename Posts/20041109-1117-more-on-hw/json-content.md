@@ -43,7 +43,7 @@ but makes no mention of cable delivered HDTV. I think the HW in this
 area is pretty new, but I would guess that would change in the next 6-12
 months.
 
-Update – I just spoke to Comcast regarding the MSTV functionallity.
+**Update**: I just spoke to Comcast regarding the MSTV functionallity.
 Their PVR functionallity supports both HD and non-HD programs so I’m
 definitely going to give that a try. Only downside – they can’t come
 install for a week and a half.

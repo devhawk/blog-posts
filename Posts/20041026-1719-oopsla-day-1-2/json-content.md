@@ -8,7 +8,9 @@ WhiteHorse)](http://msdn.microsoft.com/library/en-us/dnvsent/html/vsent_Modeling
 Personally, I think this is pretty exciting stuff and I can’t wait to
 play with it more in the coming months.
 
+::: image-right
 [![](http://s3.amazonaws.com/devhawk_images/UIPDSLthumb.JPG)](http://s3.amazonaws.com/devhawk_images/UIPDSL.JPG)
+:::
 
 As part of the announcement, they demoed the toolkit with a DSL for
 programming the flow of pages in a web application. Typically, you would
@@ -55,12 +57,12 @@ brazen marketing displays like product demos don’t work in OOPSLA
 keynotes. But others thought it was cool. Good to keep in mind for next
 year.
 
-UPDATE – Alan Kay, in his [Turing Award
+**Update**: Alan Kay, in his [Turing Award
 Lecture](http://www.oopsla.org/2004/ShowEvent.do?id=421), made a joke
 about about our product announcement this morning and everyone laughed,
 including me.
 
-UPDATE 2 – After making a joke about our morning’s product demo (and
+**Update 2**: After making a joke about our morning’s product demo (and
 several other assorted jabs), Alan Kay ended his Turing Award Lecture
 with…wait for it…a product demo. Two product demos, actually.
 [Squeak](http://www.squeak.org/) is educational programming environment,

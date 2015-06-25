@@ -8,8 +8,8 @@ and digging the country out of the economic tarpit that it’s currently
 mired in all without the mandate of the popular vote.
 
 Secondly, according to MSNBC, turnout estimation is 59%. That’s still a
-failing grade.
-[Rod](http://www.rodtempleton.net/)[commented](http://devhawk.net/CommentView.aspx?guid=8ee683d6-94ff-4d0f-882f-73ba780ad3d5)
+failing grade. [Rod](http://www.rodtempleton.net/) 
+[commented](http://devhawk.net/CommentView.aspx?guid=8ee683d6-94ff-4d0f-882f-73ba780ad3d5)
 that in Australia, voting is mandatory. I like that idea, but he also
 pointed out that it would “never fly” in the US. Never say never…
 

@@ -27,7 +27,7 @@ album](http://spaces.msn.com/members/devhawk/PersonalSpace.aspx?_c11_PhotoAlbum_
 is huge and ugly. Ouch! Why can’t it be something like
 http://spaces.msn.com/members/devhawk/photos/patrick\_pics?
 
-Update – I deleted the actual URL to the Patrick Photo Album as it is
+**Update**: I deleted the actual URL to the Patrick Photo Album as it is
 huge and was causing scrolling issues with my blog template. Feel free
 to click on the [photo album
 link](http://spaces.msn.com/members/devhawk/PersonalSpace.aspx?_c11_PhotoAlbum_spaHandler=TWljcm9zb2Z0LlNwYWNlcy5XZWIuUGFydHMuUGhvdG9BbGJ1bS5GdWxsTW9kZUNvbnRyb2xsZXI%24&_c11_PhotoAlbum_spaFolderID=cns!1pd96NFMdcR3fPB4MoLEMQcA!133&_c=PhotoAlbum)

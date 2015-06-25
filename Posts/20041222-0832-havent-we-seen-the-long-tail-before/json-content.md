@@ -1,4 +1,7 @@
-[Chris](http://blahgkarma.blogspot.com/)[jumped](http://blahgkarma.blogspot.com/2004/12/long-tail.html)[all](http://blahgkarma.blogspot.com/2004/12/better-tail-than-ever.html)[over](http://blahgkarma.blogspot.com/2004/12/should-be-called-blabkarma.html)
+[Chris](http://blahgkarma.blogspot.com/) 
+[jumped](http://blahgkarma.blogspot.com/2004/12/long-tail.html)
+[all](http://blahgkarma.blogspot.com/2004/12/better-tail-than-ever.html)
+[over](http://blahgkarma.blogspot.com/2004/12/should-be-called-blabkarma.html)
 this [Long Tail](http://www.thelongtail.com/) stuff after I sent him a
 link to the
 [article](http://www.wired.com/wired/archive/12.10/tail.html) and got me

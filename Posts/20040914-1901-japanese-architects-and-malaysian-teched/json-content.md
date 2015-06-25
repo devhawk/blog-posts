@@ -33,7 +33,7 @@ Now I’m in Kuala Lumpur for TechEd Malaysia. I’m presenting the Data in
 SOA talk today and Metropolis tomorrow as part of the [Architecture
 track](http://www.microsoft.com/malaysia/events/teched/breakoutsessions.htm#7).
 I had breakfast with [Software
-Legend](http://www.microsoft.com/malaysia/events/teched/softwarelegends.htm)[Tim
+Legend](http://www.microsoft.com/malaysia/events/teched/softwarelegends.htm) [Tim
 Huckaby](http://www.interknowlogy.com/IKCorporate/AboutUs/CompanyExecutives/TimothyHuckaby.htm)
 who I met the first time two years ago at TechEd Malaysia. My teammate
 Gurpreet just showed me the deck for his Enterprise Architecture talk

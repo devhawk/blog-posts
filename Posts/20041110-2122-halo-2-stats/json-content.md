@@ -1,4 +1,6 @@
-[![](http://devhawk.net/themes/devhawk/images/Halo2StatsFlair.jpg)](http://www.bungie.net/Stats/PlayerStats.aspx?player=RayTracer)
+::: image-left
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Halo2StatsFlair.jpg)](http://www.bungie.net/Stats/PlayerStats.aspx?player=RayTracer)
+:::
 
 I hadn’t realized how cool the Halo 2 stats site on bungie.net is until
 Scott [blogged

@@ -1,10 +1,11 @@
-Keith
-[blogged](http://blogs.msdn.com/keith_short/archive/2004/09/01/224317.aspx)
+::: image-right
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/OOPSLA04LogoSplash.gif)](http://www.oopsla.org/2004)
+:::
+
+Keith [blogged](http://blogs.msdn.com/keith_short/archive/2004/09/01/224317.aspx)
 about his hectic days since he returned from vacation. Getting a book
 published, preparing for a BillG review, you know all the usual stuff.
 :smile:
-
-[![](http://oopsla.org/oopsla2004/OOPSLA04LogoSplash.gif)](http://www.oopsla.org/2004)
 
 I keep waiting for my hardcopy of [Software
 Factories](http://www.amazon.com/exec/obidos/tg/detail/-/0471202843),
@@ -62,7 +63,7 @@ audience at large.
 
 Anyone else going to OOPSLA?
 
-Update: Added the three panel discussions. I’m guessing the [J2EE/.NET
+**Update**: Added the three panel discussions. I’m guessing the [J2EE/.NET
 shootout](http://www.oopsla.org/2004/ShowEvent.do?id=503) will be
 standing room only.
 

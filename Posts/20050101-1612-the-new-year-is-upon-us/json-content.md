@@ -20,7 +20,7 @@ I don’t make resolutions anymore, since they are pretty much the same
 every year (more time with family, lose weight, smarter with money,
 etc.) I make a little progress on each every year – enough to be
 somewhat proud of but not enough that I can quit working on it. I’ve
-been reading [Dee Hock’s](http://www.chaordic.org/who_hock2.html)[Birth
+been reading [Dee Hock’s](http://www.chaordic.org/who_hock2.html) [Birth
 of the Chaordic Age](http://www.amazon.com/o/ASIN/1576750744) which my
 [Dad](http://halpierson.blogspot.com/) lent me at thanksgiving and I’m
 really enjoying it. I’ve marked down several passages, but this one

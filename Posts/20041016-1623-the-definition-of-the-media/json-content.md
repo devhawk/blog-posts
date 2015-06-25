@@ -1,7 +1,7 @@
 I said I wasn’t going to blog any political reasoning (for now), but
 there is one quasi-political subject that I want to address – the media.
 Not to steal [Bill
-Maher’s](http://www.billmaher.com/)[shtick](http://www.hbo.com/billmaher/new_rules/),
+Maher’s](http://www.billmaher.com/) [shtick](http://www.hbo.com/billmaher/new_rules/),
 but we need a new rule: Members of the media can’t talk about the media
 as if they aren’t a part of it. I occasonally listen to as much talk
 radio as I can without throwing up (usually about five minutes). But
@@ -30,11 +30,11 @@ the media these days is more like carefully scripted partisan theatre
 intended to further their host’s own agenda rather than tell any of the
 actual truth.
 
-Major kudos to Jon Steward for [pointing this
+Major kudos to Jon Stewart for [pointing this
 out](http://mediamatters.org/items/200410160003) to the staff of CNN’s
 Crossfire.
 
-UPDATE – In the second to last paragraph above, I changed “host’s own
+**Update**: In the second to last paragraph above, I changed “host’s own
 conservative agenda” to simply “host’s own agenda”. I was momentarily
 guilty of the same type of partisan manipulation that I am accusing
 others of. It isn’t only conservatives that have an agenda. For example,

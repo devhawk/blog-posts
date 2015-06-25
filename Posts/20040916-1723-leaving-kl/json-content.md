@@ -2,8 +2,8 @@ I’m sitting in the Kuala Lumpur airport – my flight to Beijing leaves in
 about half an hour. I didn’t get a chance to blog all day yesterday, so
 here’s a quick recap:
 
--   I’ve run into a bunch of people who I first met at TechEd Malaysia
-    2002. In particular, Adrian and Rathi who both wanted to see
+-   I’ve run into a bunch of people who I first met at TechEd Malaysia 2002. 
+    In particular, Adrian and Rathi who both wanted to see
     pictures of Patrick. The big bummer of only spending two days here
     is that I didn’t get to do much more that the conference.
 -   After the sessions on Wednesday, I hung out with a bunch of the

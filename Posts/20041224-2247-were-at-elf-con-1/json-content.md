@@ -12,6 +12,6 @@ he’s on his way.
 
 Happy Holidays everyone.
 
-Update – about 15 minues after I posted this originally, Santa was
+**Update**: about 15 minues after I posted this originally, Santa was
 [spotted in Seattle](http://www.noradsanta.org/santacam/0700.jpg). I
 thought I heard something downstairs.

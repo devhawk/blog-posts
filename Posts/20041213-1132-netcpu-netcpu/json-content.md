@@ -20,7 +20,7 @@ for \$199.
 
 I think I need to update my xmas list…
 
-*Update* - There’s a good [technical
+**Update**: There’s a good [technical
 article](http://www.windowsfordevices.com/news/NS4666205829.html) about
 the .NET Embedded on
 [WindowsForDevices](http://www.windowsfordevices.com).

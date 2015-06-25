@@ -5,7 +5,8 @@ an email from the SSB dev lead with a much better SSB library that they
 had written. You can get that
 [library](http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=31),
 along with
-[two](http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=33)[new](http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=32)
+[two](http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=33)
+[new](http://www.sqlservicebroker.com/forums/ShowPost.aspx?PostID=32)
 samples that use it, up on the [SQL Server Service Broker Developers
 Spot](http://www.sqlservicebroker.com/forums). The SSB Dev Spot is a
 community site dedicated to apps written on top of SSB. It’s run by [Dan
