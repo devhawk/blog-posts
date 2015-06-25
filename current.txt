@@ -1,6 +1,6 @@
-last post checked: 20031006-2118-2-great-technologies-that-taste-great-together
+last post checked: 20031223-1937-live-on-xbox
 
 $posts = dir E:\dev\DevHawk\PostMarkdownProcessor\posts
-$cur = 201
+$cur = 260
 function go {start $posts[$cur].fullname; $global:cur = $cur+1}
 function prev { start $posts[$cur-1].FullName }
