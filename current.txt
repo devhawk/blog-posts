@@ -1,5 +1,8 @@
 last post checked: 20050101-1612-the-new-year-is-upon-us
 
+start E:\dev\DevHawk\devhawk.github.io\images\blog
+cd E:\dev\DevHawk\PostMarkdownProcessor\
+
 $posts = dir E:\dev\DevHawk\PostMarkdownProcessor\posts
 $cur = 515
 function go {start $posts[$cur].fullname; $global:cur = $cur+1}
@@ -18,3 +21,4 @@ function explore {
 	$mdFileName = [IO.Path]::Combine("E:\dev\DevHawk\Content\Posts", $dirName, "json-content.md")
 	start (split-path $mdFileName)
 }
+ 
