@@ -16,6 +16,10 @@ I didn’t blog any of my vacation as it was happening, but I want to
 revisit two items that I think will be interesting to my blog readers –
 the Buildings of Sydney and the Sydney Opera House.
 
+::: image-left
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Sat%20Morning%20(30)_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Sat%20Morning%20(30).jpg)
+::: 
+
 I went to Australia (and New Zealand) to present
 [Metropolis](http://msdn.microsoft.com/architecture/journal/default.aspx?pull=/library/en-us/dnmaj/html/aj2metrop.asp).
 Delivering this talk (as well as the follow-up talk on Buildings and
@@ -30,12 +34,8 @@ of Los Angeles before. LA is like a movie set – it only looks good on
 TV. Drive around LA and you’ll find miles and miles of mini malls, but
 no history.
 
-::: image-left
-[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Sat%20Morning%20(30)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Sat%20Morning%20(30).jpg)
-::: 
-
 ::: image-right
-[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1).jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Thurs%20(1)_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Thurs%20(1).jpg)
 :::
 
 Sydney is very different. Many of the older buildings are under “heritage
@@ -45,7 +45,7 @@ with modern skyscrapers. [Paddy’s
 Markets](http://www.paddysmarkets.com.au/paddys/index.htm), which has
 been there since at least 1834, is housed in a building originally built
 in 1909 (according to the building’s facade). However, if you check out the
-[picture](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1).jpg),
+[picture](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Thurs%20(1).jpg),
 you’ll notice that the building’s second floor is notably more modern
 than the first floor. That’s Sydney to a “T”, new sitting right next to,
 or on top of, the old. I imagine that some of the older eastern seaboard
@@ -53,7 +53,7 @@ cities of America have the same combination of historical and current,
 but none that I’ve spent a significant amount of time in.
 
 ::: image-left
-[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58).jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Monday%20(58)_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Monday%20(58).jpg)
 :::
 
 Of course, you can’t go to Sydney and *not* visit the world famous [Sydney

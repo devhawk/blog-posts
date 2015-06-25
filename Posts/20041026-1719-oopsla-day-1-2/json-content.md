@@ -9,7 +9,7 @@ Personally, I think this is pretty exciting stuff and I can’t wait to
 play with it more in the coming months.
 
 ::: image-right
-[![](http://s3.amazonaws.com/devhawk_images/UIPDSLthumb.JPG)](http://s3.amazonaws.com/devhawk_images/UIPDSL.JPG)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/UIPDSLthumb.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/UIPDSL.JPG)
 :::
 
 As part of the announcement, they demoed the toolkit with a DSL for

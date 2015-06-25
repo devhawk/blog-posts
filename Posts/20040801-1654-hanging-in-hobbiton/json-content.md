@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://s3.amazonaws.com/devhawk_images/Albert%20Park%20PDT%20(4)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Albert%20Park%20PDT%20(4).jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Albert%20Park%20PDT%20(4)_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Albert%20Park%20PDT%20(4).jpg)
 :::
 
 [TechEd
@@ -49,15 +49,15 @@ variety of fried food – fish, chicken and crab. They sure like fried
 food here – at dinner last night, we were served fried mashed potatoes.
 
 ::: image-right
-[![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(61)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(61).JPG)\
-[![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(20)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(20).JPG)\
-[![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(85)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(85).JPG)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(61)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(61).JPG)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(20)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(20).JPG)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(85)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(85).JPG)
 :::
 
 ::: image-left
-[![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(24)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(24).JPG)\
-[![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(55)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(55).JPG)\
-[![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(70)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(70).JPG)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(24)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(24).JPG)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(55)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(55).JPG)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(70)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(70).JPG)
 :::
 
 While most of [LOTR](http://lordoftherings.net/) was filmed on the
