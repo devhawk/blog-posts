@@ -1,8 +1,6 @@
-<div style="FLOAT: right">
-
-[![](http://winisp.net/harrypierson/photogallery/photo00023400/PC110166.JPG)](http://winisp.net/harrypierson/Photos/PC110166.JPG)
-
-</div>
+::: image-right
+[![Patrick and Santa](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/PC110166_thumbnail.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/PC110166.JPG)
+:::
 
 My son (pictured with Santa) finally fell asleep for his first Christmas
 Eve. Of course, I read him [‘Twas the Night Before

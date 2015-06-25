@@ -1,3 +1,7 @@
+::: image-right
+![RayTracer](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/gamertag.gif)
+::: 
+
 After months of having my [XBOX](http://xbox.com/) hooked up on my [big
 screen TV](http://www.tacp.toshiba.com/televisions/cinemaseries.asp) but
 far away from my cable modem, I finally broke down and bought a
@@ -10,8 +14,6 @@ and HD PVR via
 [satellite](http://devhawk.net/2003/12/09/pvr-hdtv/)
 should be here shortly. So I decided to skip the wiring job and go
 straight to playtime.
-
-![RayTracer](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/gamertag.gif)
 
 My gamertag is “RayTracer”. (Buy me a beer at the next MSFT conference
 and I’ll tell you why.) Many thanks to
