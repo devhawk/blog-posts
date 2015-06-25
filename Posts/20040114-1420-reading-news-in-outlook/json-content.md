@@ -20,7 +20,7 @@ for experimentation. (I’d link to the entry bu permalinks seem to be
 broken in his current blog engine). I keep thinking of the same thing
 about news readers.
 
-Update – thanks to Wesner Moise for pointing out to me in my comments
+**Update**: thanks to Wesner Moise for pointing out to me in my comments
 how to turn off the alert toast popups. However, I’m still going to
 stick it out with an Outlook based solution. Luckily, I’m not like most
 ‘softies w/ a ton of unread email in my inbox so the built-in search

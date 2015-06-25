@@ -41,5 +41,5 @@ focus groups when you register for the road rally.
 
 See you in San Diego!
 
-Update – this post actually hasn’t been updated, I just deleted the
+**Update**: this post actually hasn’t been updated, I just deleted the
 original and crossposted from [my main blog](http://devhawk.net).

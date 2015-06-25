@@ -30,15 +30,21 @@ of Los Angeles before. LA is like a movie set – it only looks good on
 TV. Drive around LA and you’ll find miles and miles of mini malls, but
 no history.
 
-[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Sat%20Morning%20(30)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Sat%20Morning%20(30).jpg)[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1).jpg)Sydney
-is very different. Many of the older buildings are under “heritage
+::: image-left
+[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Sat%20Morning%20(30)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Sat%20Morning%20(30).jpg)
+::: 
+
+::: image-right
+[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1).jpg)
+:::
+
+Sydney is very different. Many of the older buildings are under “heritage
 protection” meaning that their facade’s are protected and can’t be
 changed. This leads to a fascinating mix of older buildings side by side
 with modern skyscrapers. [Paddy’s
 Markets](http://www.paddysmarkets.com.au/paddys/index.htm), which has
 been there since at least 1834, is housed in a building originally built
-in 1909 (according to the building’s facade). However, if you check out
-the
+in 1909 (according to the building’s facade). However, if you check out the
 [picture](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Thurs%20(1).jpg),
 you’ll notice that the building’s second floor is notably more modern
 than the first floor. That’s Sydney to a “T”, new sitting right next to,
@@ -46,8 +52,11 @@ or on top of, the old. I imagine that some of the older eastern seaboard
 cities of America have the same combination of historical and current,
 but none that I’ve spent a significant amount of time in.
 
-[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58).jpg)Of
-course, you can’t go to Sydney and *not* visit the world famous [Sydney
+::: image-left
+[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58).jpg)
+:::
+
+Of course, you can’t go to Sydney and *not* visit the world famous [Sydney
 Opera House](http://www.sydneyoperahouse.com/). You can read the history
 online, so I wont bore you with those details. But here’s something you
 probably don’t know about the opera house – it’s a pretty dinky opera
@@ -62,8 +71,7 @@ of the Kennedy Center [Opera
 House](http://www.kennedy-center.org/about/virtual_tour/opera.html). It
 also has limited fly, wing and back stage space – the unique sail roof
 structure severely limits off stage space. (This isn’t an issue in the
-[Concert
-Hall](http://www.sydneyoperahouse.com/sections/about_the_house/venues/#concert),
+[Concert Hall](http://www.sydneyoperahouse.com/sections/about_the_house/venues/#concert),
 which is housed under the larger sail roof and has less need for off
 stage space.) I found it very interesting that, as opera houses go, the
 Sydney Opera House looks great from the outside, but isn’t that well

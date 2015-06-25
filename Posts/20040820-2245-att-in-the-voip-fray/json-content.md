@@ -19,7 +19,7 @@ like](http://www.broadbandreports.com/reviews/2475) it’s got really
 awful tech support. But, with three months free, I’m hoping I can try it
 out and cancel it if it’s a problem.
 
-Update – I called Lingo and they confirmed they have an activation fee
+**Update**: I called Lingo and they confirmed they have an activation fee
 as well as a 30 day cancellation policy. So while the first three months
 are free, you pay \$10 S&H and \$30 to activate. If you cancel the
 service in the first 30 days, you can get your \$30 back. And there is

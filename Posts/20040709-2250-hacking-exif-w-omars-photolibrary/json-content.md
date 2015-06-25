@@ -5,7 +5,8 @@ current time and date. This leaves me with a bunch of images with a
 corrupt “Date Picture Taken” field (here’s an
 [example](http://winisp.net/harrypierson/Photos/Raking%20the%20Yard%20(9).JPG)).
 Luckily,
-[Omar’s](http://www.shahine.com/omar/default.aspx)[PhotoLibrary](http://wiki.shahine.com/default.aspx/MyWiki.PhotoLibrary)
+[Omar’s](http://www.shahine.com/omar/default.aspx)
+[PhotoLibrary](http://wiki.shahine.com/default.aspx/MyWiki.PhotoLibrary)
 let me hack up a little program to update the date fields in the EXIF
 header. I couldn’t use [JPEG
 Hammer](http://workspaces.gotdotnet.com.jpeg) out-of-the-box becuase it

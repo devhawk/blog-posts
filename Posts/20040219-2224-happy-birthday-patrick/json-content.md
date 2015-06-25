@@ -1,8 +1,6 @@
-<div style="float: right;">
-
+::: image-right
 [![](http://s3.amazonaws.com/devhawk_images/CakeThumbnail1.jpg)](http://s3.amazonaws.com/devhawk_images/CakeFullSize.jpg)
-
-</div>
+:::
 
 Almost exactly year ago, my life was changed forever by the
 [arrival](http://devhawk.net/2003/02/23/welcome-patrick/)

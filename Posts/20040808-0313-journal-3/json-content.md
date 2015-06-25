@@ -11,6 +11,6 @@ from our brand new [Software Factories
 page](http://msdn.microsoft.com/architecture/overview/softwarefactories/)
 on Architecture Center.
 
-Update – My pal Chris (who is blogless at this point) pointed out [an
+**Update**: My pal Chris (who is blogless at this point) pointed out [an
 article in eWeek](http://www.eweek.com/article2/0,1759,1633430,00.asp)
 on Software Factories.

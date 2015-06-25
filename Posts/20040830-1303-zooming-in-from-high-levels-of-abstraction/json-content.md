@@ -21,7 +21,7 @@ on [TheServerSide.NET](http://theserverside.net/), Jack writes:
 > models, and move the platform closer to the models with either
 > frameworks or transformations, as illustrated in Figure 4.
 
-![](http://theserverside.net/articles/content/SoftwareFactories/images/IM04.gif)\
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/IM04.gif)
 
 > -   We can use a framework to implement higher level abstractions that
 >     appear in the models, and use the models to generate snippets of

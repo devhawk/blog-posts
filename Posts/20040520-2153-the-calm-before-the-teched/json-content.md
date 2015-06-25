@@ -41,7 +41,7 @@ application architecture.
 
 See you in San Diego!
 
-**Update** – for ARC 302, we’re going to have a Metropolis Discussion
+**Update**: for ARC 302, we’re going to have a Metropolis Discussion
 where we can talk about the Metropolis overview as well as drill down on
 how applications learn and how data interoperates (i.e. the combined
 contents of the original ARC 302 & 303 talks). I’ll be moderating and

@@ -1,8 +1,6 @@
-<div style="FLOAT: right">
-
-[![](http://winisp.net/harrypierson/photogallery/photo00023400/P1010101.JPG)](http://winisp.net/harrypierson/Photos/P1010101.JPG)
-
-</div>
+::: image-right
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/P1010101_thumbnail.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/P1010101.JPG)
+:::
 
 I’m not sure which of the post-game analysts said it, but the 2003
 college football season is summed up with these words: “Any coach who
@@ -15,11 +13,11 @@ Second Place” bowl (which I
 [blogged](http://devhawk.net/2003/12/09/to-err-is-human/)
 a month ago). 
 
-UPDATE: I added a link to a picture my son all decked out in his Trojan
+**Update**: I added a link to a picture my son all decked out in his Trojan
 gear and smiling wide after winning the national championship (actually,
 his mother is making faces off camera).
 
-Another UPDATE: I found a [great
+**Another Update**: I found a [great
 post](http://weblogs.asp.net/jasonsalas/archive/2004/01/06/47798.aspx)
 on the subject of the BCS by Jason Salas via [Bryan’s Weblog of
 Stuff](http://bryan.daneman.org/?entryID=550). Jason is a .NET developer

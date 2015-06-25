@@ -1,5 +1,8 @@
-<span
-style="FLOAT: left">[![](http://s3.amazonaws.com/devhawk_images/Albert%20Park%20PDT%20(4)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Albert%20Park%20PDT%20(4).jpg)</span>[TechEd
+::: image-left
+[![](http://s3.amazonaws.com/devhawk_images/Albert%20Park%20PDT%20(4)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Albert%20Park%20PDT%20(4).jpg)
+:::
+
+[TechEd
 New Zealand](http://www.microsoft.com/nz/teched) is at the Sky City
 Convention Center – part of [Sky City
 Auckland](http://www.skycityauckland.co.nz/) which includes casinos,
@@ -45,21 +48,17 @@ tourists in the summer – Matamata has it’s own KFC and Subway is
 variety of fried food – fish, chicken and crab. They sure like fried
 food here – at dinner last night, we were served fried mashed potatoes.
 
-<div style="FLOAT: right">
-
+::: image-right
 [![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(61)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(61).JPG)\
 [![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(20)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(20).JPG)\
 [![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(85)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(85).JPG)
+:::
 
-</div>
-
-<div style="FLOAT: left; TEXT-ALIGN: center">
-
+::: image-left
 [![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(24)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(24).JPG)\
 [![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(55)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20PDT%20(55).JPG)\
 [![](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(70)_small.JPG)](http://s3.amazonaws.com/devhawk_images/Hobbiton%20NZT%20(70).JPG)
-
-</div>
+:::
 
 While most of [LOTR](http://lordoftherings.net/) was filmed on the
 southern island of New Zealand, Hobbiton was filmed on a 500 hectare

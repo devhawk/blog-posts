@@ -16,7 +16,7 @@ of installing it to find out my habits – all [Rallisport Challenge
 2](http://www.xbox.com/en-us/rallisportchallenge2/default.htm) all the
 time!
 
-Update - I also signed up for [Xbox Live
+**Update**: I also signed up for [Xbox Live
 Alerts](http://www.xbox.com/en-us/alerts/alertsintro.htm) as well. This
 isn’t as useful as there are a wide variety of alerts types and I have
 to have one delivery profile for all of them. I want to be notified in

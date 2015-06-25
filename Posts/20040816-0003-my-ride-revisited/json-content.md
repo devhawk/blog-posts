@@ -4,8 +4,11 @@ original in [Google’s
 cache](http://216.239.57.104/search?q=cache:RVMCz2V4UzQJ:devhawk.net/default.aspx?date=2004-07-28+july+site:devhawk.net&hl=en),
 but not before I deleted the original. So here it is again:
 
-[![](http://s3.amazonaws.com/devhawk_images/hpierson_car_thumb.JPG)](http://winisp.net/harrypierson/BlogPhoto/hpierson_car.jpg) Brad
-Smith ([via
+::: image-left
+[![](http://s3.amazonaws.com/devhawk_images/hpierson_car_thumb.JPG)](http://winisp.net/harrypierson/BlogPhoto/hpierson_car.jpg) 
+:::
+
+Brad Smith ([via
 Chris](http://www.sellsbrothers.com/news/showTopic.aspx?ixTopic=1460))
 wants to know what kind of cars ‘softies drive. I drive a green 2002
 Chevy Blazer. This picture is from Patrick’s trip home from the

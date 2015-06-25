@@ -21,7 +21,7 @@ here, except to point out that [Skype
 today). Feel free to [skype me](callto://harrypierson/), though it
 doesn’t appear to work through the corporate firewall.
 
-Update – I should have realized, but there are other choices in the
+**Update**: I should have realized, but there are other choices in the
 internet telephone business. [Lingo](http://www.lingo.com) caught my eye
 – only \$20 a month for unlimited calling to the US, Canada and Western
 Europe (which includes Germany where my afore-mentioned brother-in-law

@@ -1,5 +1,5 @@
 Fellow ‘softie and Washington Caps fan [Dan
-Fernandez](http://blogs.msdn.com/danielfe/)[feels my
+Fernandez](http://blogs.msdn.com/danielfe/) [feels my
 pain](http://blogs.msdn.com/danielfe/archive/2004/03/01/82415.aspx). I
 called my father the other day and chirped: “Any new ex-Caps today?” and
 was very depressed to hear “Yeah, Gonchar’s gone”. I know I SAID my
@@ -13,7 +13,7 @@ box. I told him to give Ted a message for me : “Sell the Team”. Of
 course, I’m guessing he’s hearing that message on several fronts these
 days.
 
-Update: Raymond Chen
+**Update**: Raymond Chen
 [enjoyed](http://blogs.msdn.com/oldnewthing/archive/2004/03/02/82721.aspx)
 a Seattle Thunderbirds game recently. Also, the annual [Microsoft Hockey
 Challenge](http://www.seattlethunderbirds.com/events/mshc.html) is next

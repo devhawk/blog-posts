@@ -1,5 +1,5 @@
 I had eight people waiting to be admitted to the [SharePoint
-Syndication](http://devhawk.net/prj_SharePointSynd.aspx)[GDN
+Syndication](http://devhawk.net/prj_SharePointSynd.aspx) [GDN
 Workspace](http://www.gotdotnet.com/Community/Workspaces/workspace.aspx?id=bef1fffe-6d20-42c8-a72d-ae7e9a5a194b).
 Sorry for the delay folks – my workspace was maxed out on users and I
 had to get upgraded by GDN. Anyway, I’ve been given more membership

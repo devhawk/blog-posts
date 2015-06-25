@@ -70,7 +70,8 @@ And replace it with this:
 
 ```csharp
 Bitmap image = Image.FromHbitmap(new IntPtr(hBitmap));
-image.Save(fileName,imageFormat);image.Dispose();
+image.Save(fileName,imageFormat);
+image.Dispose();
 ```
 
 With the improved code, only one bitmap per screen capture is made, and

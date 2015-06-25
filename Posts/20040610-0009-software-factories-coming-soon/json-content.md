@@ -22,7 +22,8 @@ track](http://blogs.msdn.com/keith_short/archive/2004/06/04/148815.aspx).
 Software Factories is about approaching application development with an
 industrialized manufacturing mindset, rather than the hand-crafted
 mindset we have today. It’s interesting how well this dovetails with
-[Pat’s](http://blogs.msdn.com/pathelland)[Metropolis](http://msdn.microsoft.com/architecture/journal/default.aspx?pull=/library/en-us/dnmaj/html/aj2metrop.asp)
+[Pat’s](http://blogs.msdn.com/pathelland) 
+[Metropolis](http://msdn.microsoft.com/architecture/journal/default.aspx?pull=/library/en-us/dnmaj/html/aj2metrop.asp)
 work – both draw parallels to and learn from the Industrial Revolution.
 To quote from the [website](http://www.softwarefactories.com/):
 

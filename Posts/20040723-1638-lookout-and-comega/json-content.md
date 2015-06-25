@@ -8,7 +8,7 @@ site](http://www.research.microsoft.com/Comega/) from
 [Don](http://www.gotdotnet.com/team/dbox/) (though honestly, I knew
 about that one before. That is before it changed names.)
 
-*Update* – Lookout’s [download
+**Update**: Lookout’s [download
 site](http://www.lookoutsoft.com/Lookout/download.html) changed, back to
 a page on http://lookoutsoft.com instead of a page on
 http://download.microsoft.com. Strange, but true.

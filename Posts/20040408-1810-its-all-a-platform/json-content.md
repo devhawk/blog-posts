@@ -6,7 +6,8 @@ Editor](http://www.microsoft.com/games/pc/dsloa.aspx#enhanceit) which
 allows you to “rework nearly every aspect of the gaming world, making
 Dungeon Siege not only a game, but also a platform for those who wish to
 create their own spells, dungeons, and even entire worlds.” There are
-[several](http://www.dungeonsiege.com/mod_spotlight.shtml)[projects](http://planetdungeonsiege.com/community/siegelets/total/)
+[several](http://www.dungeonsiege.com/mod_spotlight.shtml)
+[projects](http://planetdungeonsiege.com/community/siegelets/total/)
 that do just that. And [Dungeon Siege
 II](http://www.microsoft.com/games/pc/dungeonsiege2.aspx) is coming
 later this year, which [looks

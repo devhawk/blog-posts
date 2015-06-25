@@ -1,21 +1,19 @@
-A while ago,
-[Tom](http://conpro.net/)[mentioned](http://www.conpro.net/PermaLink.aspx?guid=558f432f-3118-4ad2-ba50-b3476a8849b6)
+A while ago, [Tom](http://conpro.net/)
+[mentioned](http://www.conpro.net/PermaLink.aspx?guid=558f432f-3118-4ad2-ba50-b3476a8849b6)
 that I had a great customer service experience with T-Mobile.
 Truthfully, the great customer service experience came today. T-Mobile
 just earned a customer for…well, maybe not for life, but they certainly
 have earned enough karma to keep me around a while. And at the same
 time, Sprint has spurned a customer for life.
 
-I
-[blogged](http://devhawk.net/2004/04/22/new-toy/)
+I [blogged](http://devhawk.net/2004/04/22/new-toy/)
 back in April about getting a SmartPhone. Well, the honeymoon was short
 lived – it was a developer beta unit and it was not particularly robust.
 I dropped it about a month ago and it died. No huge deal, the
 [MPx220](http://www.motorola.com/motoinfo/product/details/0,,53,00.html)
 is coming soon. Of course, I need a phone in the meantime. I had signed
 up for T-Mobile service to power the SmartPhone so I went back to pick
-up a
-[V300](http://www.motorola.com/mdirect/hellomoto/experience/v300/flash/index.shtml)
+up a [V300](http://www.motorola.com/mdirect/hellomoto/experience/v300/flash/index.shtml)
 which would go to my wife when the MPx220 became available. Only trouble
 was that since I hadn’t bought the phone when I activated my account, I
 was not eligible for an activation discount. I had asked about that when

@@ -38,6 +38,6 @@ One of the nice things about MSF is that it works with other
 methodologies. I.e. you don’t have to give up RUP/XP/TDD/\<insert your
 favorite methodology here\> in order to use MSF.
 
-UPDATE: Lorenzo has compiled a [list of MSF
+**Update**: Lorenzo has compiled a [list of MSF
 links](http://weblogs.asp.net/lbarbieri/articles/MSF_Resources.aspx) you
 can check out.

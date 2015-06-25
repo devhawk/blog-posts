@@ -17,6 +17,6 @@ on the [Architecture
 Center](http://msdn.microsoft.com/architecture) that includes more info
 on DSI.
 
-Update: Michael linked to a [two
+**Update**: Michael linked to a [two
 part](http://www.ftponline.com/reports/vslivesf/2004/whitehorse/)[interview](http://www.ftponline.com/reports/vslivesf/2004/whitehorse2/)
 with Keith about the Whidbey modelling tools. Highly recommended.

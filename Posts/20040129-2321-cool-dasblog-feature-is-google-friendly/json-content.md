@@ -11,6 +11,6 @@ look like Steve’s.
 Since Google doesn’t index pages based on query string, this feature
 should make my site more easily crawled and googled.
 
-Update: This feature breaks sub category specific feeds, like “[Blogging
+**Update**: This feature breaks sub category specific feeds, like “[Blogging
 | dasBlog](CategoryView.aspx?category=Blogging%7CdasBlog)“, so I’m
 turning it back off until someone can fix the bug.

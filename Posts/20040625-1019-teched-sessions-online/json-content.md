@@ -17,9 +17,7 @@ there, but missed these sessions) enjoy!
     Kinsman](http://www.vergentsoftware.com/blogs/ckinsman/)
 5.  Building Apps with P&P App Blocks by Wojtek Kozaczynski
 
-**UPDATE** – The streaming site has been taken down, so none of the
+**Update**: The streaming site has been taken down, so none of the
 links work anymore. Sorry about that. We will be updating the
-[Architecture Strategy
-Series](http://msdn.microsoft.com/architecture/overview/series) at some
-point in the future with at least the Realizing SOA and Data in SOA
-talks.
+[Architecture Strategy Series](http://msdn.microsoft.com/architecture/overview/series) 
+at some point in the future with at least the Realizing SOA and Data in SOA talks.

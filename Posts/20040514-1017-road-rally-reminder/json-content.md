@@ -1,8 +1,6 @@
-<div style="FLOAT: left">
-
+::: image-left
 [![](http://s3.amazonaws.com/devhawk_images/RoadRally_250x75.gif)](http://www.dynamicevents.com/ArchitectRoadRally.asp)
-
-</div>
+:::
 
 TechEd is almost upon us – just over one week to go. We had our last
 track owner meeting yesterday. I’m chasing down speakers for slides (I

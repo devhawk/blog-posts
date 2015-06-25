@@ -7,4 +7,4 @@ healthcare vertical.
 
 Welcome back, Rick!
 
-Update – Apparently, I can’t spell “Culpepper” or “months”. Corrected.
+**Update**: Apparently, I can’t spell “Culpepper” or “months”. Corrected.

@@ -23,7 +23,7 @@ team.
 His [WashingtonCaps.com
 bio](http://www.washingtoncaps.com/team/index.cfm?cont_id=89499) claims
 that Leonsis is “[k]nown for his fan-friendly approach as an owner”. At
-least, he was until he got into a ~~fight~~[physical
+least, he was until he got into a ~~fight~~ [physical
 altercation](http://www.washingtonpost.com/ac2/wp-dyn/A50620-2004Jan26)
 with a fan who had the nerve to criticize Leonsis in the wake of the
 Jagr trade. Note to Ted: don’t include fisticuffs with fans who actually

@@ -1,6 +1,6 @@
 Almost our whole team moved offices yesterday. We used to be spread out
-across campus in 34, 40, 22 and 119. Now, we’ll all be on one hallway in
-18. It’s a little unnerving to be able to walk the hall and see
+across campus in 34, 40, 22 and 119. Now, we’ll all be on one hallway in 18. 
+It’s a little unnerving to be able to walk the hall and see
 *everybody* after spending 6 months on a team who saw each other about
 once a month. Unnerving, but very very cool.
 

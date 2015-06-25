@@ -21,7 +21,7 @@ nonsense around here. I’m having \*way\* too much fun doing what I’m
 doing w/ Architecture Strategy. Besides, I get to ~~torment~~ work with
 [Pat](http://blogs.msdn.com/pathelland). 
 
-Update – in the comments, Avery pointed out that Rob Howard [has
+**Update**: In the comments, Avery pointed out that Rob Howard [has
 left
 MSFT](http://weblogs.asp.net/rhoward/archive/2004/06/02/146806.aspx) to
-create a company called **»*telligent***systems.
+create a company called »telligent systems.
