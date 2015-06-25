@@ -1,4 +1,5 @@
-[Peter](http://www.peterprovost.org/weblog/)[blogged](http://www.peterprovost.org/weblog/permalink.aspx?guid=7aba5a3a-547d-45c4-a0b4-eb7e2853950d)
+[Peter](http://www.peterprovost.org/weblog/)
+[blogged](http://www.peterprovost.org/weblog/permalink.aspx?guid=7aba5a3a-547d-45c4-a0b4-eb7e2853950d)
 on my laptop dev config. I used to have two machines, my “production”
 machine for email and other office productivity and the my “development”
 machine that I wouldn’t mind paving at a moments notice, if needed. Now,

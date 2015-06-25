@@ -1,8 +1,8 @@
 I [blogged](http://devhawk.net/2003/10/06/2-great-technologies-that-taste-great-together/) on
 the new ECMA working group for [standardizing the C++ binding for
 CLI](http://www.ecma-international.org/news/ecma-TG5-PR.htm) last month.
-Last week, [Herb
-Sutter](http://blogs.gotdotnet.com/hsutter/)[blogged](http://blogs.gotdotnet.com/hsutter/permalink.aspx/44e3520b-b8ca-4961-8930-59346e721a9b)
+Last week, [Herb Sutter](http://blogs.gotdotnet.com/hsutter/) 
+[blogged](http://blogs.gotdotnet.com/hsutter/permalink.aspx/44e3520b-b8ca-4961-8930-59346e721a9b)
 the [candidate
 specification](http://download.microsoft.com/download/9/9/c/99c65bcd-ac66-482e-8dc1-0e14cd1670cd/C++%20CLI%20Candidate%20Base%20Draft.pdf).
 And to answer the question I posed, it does appear that the double

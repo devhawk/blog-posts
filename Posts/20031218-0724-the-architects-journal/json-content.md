@@ -1,4 +1,5 @@
-[Clemens](http://staff.newtelligence.net/clemensv/)[blogged](http://staff.newtelligence.net/clemensv/PermaLink.aspx?guid=77c48085-783b-4a76-8ecf-72804d18f576)
+[Clemens](http://staff.newtelligence.net/clemensv/)
+[blogged](http://staff.newtelligence.net/clemensv/PermaLink.aspx?guid=77c48085-783b-4a76-8ecf-72804d18f576)
 the [Microsoft EMEA Architect’s
 Journal](http://www.thearchitectjournal.com/) a couple weeks ago. In
 addition to his [article on

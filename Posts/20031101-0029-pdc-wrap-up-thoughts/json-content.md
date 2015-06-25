@@ -10,8 +10,8 @@ would be. You all really blew away our expectations. I guess there’s a
 lot of interest in architecture! I hope this means that you can expect
 more architecture themed content (driven by our team) at future MSFT
 conferences. The slides from [Pat and
-David](http://www.gotdotnet.com/team/PDC/4284/ARCSYM1.ppt)‘s talk as
-well as [Keith](http://www.gotdotnet.com/team/PDC/4286/ARCSYM3.ppt)‘s
+David's talk](http://www.gotdotnet.com/team/PDC/4284/ARCSYM1.ppt) as
+well as [Keith's](http://www.gotdotnet.com/team/PDC/4286/ARCSYM3.ppt)
 are available online. We’ll get streaming media & transcripts on the
 architecture as soon as possible, but not until after next week. If you
 liked Keith’s talk as much as I did, check out the [Modeling Languages

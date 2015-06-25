@@ -1,11 +1,13 @@
-After reading [Sam’s](http://www.intertwingly.net/blog)[slides on
-Atom](http://www.intertwingly.net/blog/1674.html), Scoble
-[posted](http://radio.weblogs.com/0001011/2003/12/15.html#a5763)[three](http://radio.weblogs.com/0001011/2003/12/15.html#a5764)[times](http://radio.weblogs.com/0001011/2003/12/15.html#a5767)
+After reading [Sam’s](http://www.intertwingly.net/blog)
+[slides on Atom](http://www.intertwingly.net/blog/1674.html), Scoble
+[posted](http://radio.weblogs.com/0001011/2003/12/15.html#a5763)
+[three](http://radio.weblogs.com/0001011/2003/12/15.html#a5764)
+[times](http://radio.weblogs.com/0001011/2003/12/15.html#a5767)
 about how syndication could evolve. Of course,
 [Scoble](http://radio.weblogs.com/0001011) has his
 [Longhorn](http://msdn.microsoft.com/longhorn)-colored glasses on.
-[Dare](http://www.25hoursaday.com/weblog/)[pointed
-out](http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=75f21b33-fae8-4817-8710-085b3eaec9b9)
+[Dare](http://www.25hoursaday.com/weblog/)
+[pointed out](http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=75f21b33-fae8-4817-8710-085b3eaec9b9)
 that “The major problems with syndication today have little to do
 with the syndication format and more to do with it’s associated
 technologies.” I agree with Dare. IMO, the only thing that the ATOM

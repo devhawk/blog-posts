@@ -1,4 +1,4 @@
-[Duncan](http://weblogs.asp.net/duncanma/)[blogged](http://weblogs.asp.net/duncanma/posts/39122.aspx)
+[Duncan](http://weblogs.asp.net/duncanma/) [blogged](http://weblogs.asp.net/duncanma/posts/39122.aspx)
 that the PDC sessions are
 [available](http://microsoft.sitestream.com/PDC2003/Default.htm) as
 streaming audio with synchronized PowerPoints. For those who couldn’t
