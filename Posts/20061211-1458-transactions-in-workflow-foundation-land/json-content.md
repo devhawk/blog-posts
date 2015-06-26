@@ -10,12 +10,12 @@ rigid.
 If you’re build a SSB app, you’re typical execution thread looks like
 this:
 
-1.  Start a transaction.
-2.  Receive message(s) from top of the queue.
-3.  Execute service business logic. Obviously, this varies from service
-    to service but it typically involves reading and writing data in the
-    database as well as sending messages to other services.
-4.  Commit the transaction
+ 1.  Start a transaction.
+ 2.  Receive message(s) from top of the queue.
+ 3.  Execute service business logic. Obviously, this varies from service
+     to service but it typically involves reading and writing data in the
+     database as well as sending messages to other services.
+ 4.  Commit the transaction
 
 When I sat down to marry SSB and WF, I naively assumed I could simply
 use WF for step three above. Alas, that turns out to be impossible.
@@ -43,34 +43,23 @@ the aforementioned thread:
 
 So the WF compatible execution thread looks like this:
 
-Start a transaction
-
-Receive message(s) from the top of the queue
-
-Load/Create the associated workflow instance for the received messages
-
--   All messages received are guaranteed to be from the same SSB
-    conversation group, which is roughly analogous to a WF instance, so
-    this turns out to be fairly easy
-
-Enqueue the received message in the workflow instance
-
-Unload the workflow instance
-
-Commit the host transaction
-
-Reload the workflow instance
-
-Run the workflow instance (note, I’m using the manual scheduling
+ 1. Start a transaction
+ 2. Receive message(s) from the top of the queue
+ 3. Load/Create the associated workflow instance for the received messages
+	-   All messages received are guaranteed to be from the same SSB
+		conversation group, which is roughly analogous to a WF instance, so
+		this turns out to be fairly easy
+ 4. Enqueue the received message in the workflow instance
+ 5. Unload the workflow instance
+ 6. Commit the host transaction
+ 7. Reload the workflow instance
+ 8. Run the workflow instance (note, I’m using the manual scheduling
 service)
-
--   Workflow instance creates a transaction if needed
-
-Unload the workflow instance (typically done via UnloadOnIdle in the
+	-   Workflow instance creates a transaction if needed
+ 9. Unload the workflow instance (typically done via UnloadOnIdle in the
 persistence service)
-
--   Assuming the workflow instance needed a transaction, it gets
-    committed after unload
+	-   Assuming the workflow instance needed a transaction, it gets
+		committed after unload
 
 Basically, you use two transactions. One host managed transaction to
 move the message from SSB to WF instance and one WF managed transaction

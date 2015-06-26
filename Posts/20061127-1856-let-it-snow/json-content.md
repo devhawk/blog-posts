@@ -13,7 +13,7 @@ meeting – talking about my project with some field architects. But I
 didn’t expect to get trapped on campus by snow or I would have blown it
 off. Next time, I need a meeting room with windows!
 
-Update – It took me only 45 minutes to get home, which is actually
+**Update**: It took me only 45 minutes to get home, which is actually
 fairly typical for me to get home from main campus in the evening. There
 must have been an accident on 520 because when I crossed the freeway by
 campus, it was bumper-to-bumper as far as I could see in both
