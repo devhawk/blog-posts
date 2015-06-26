@@ -58,4 +58,4 @@ and the ecosystem can extend it from there. Sure, overlapping extensions
 happen (how many rich text editor components are there for ASP.NET?) but
 at least they all have basic compatibility.
 
-**Update** – Fixed link to Dojo Toolkit in the first paragraph.
+**Update**: Fixed link to Dojo Toolkit in the first paragraph.

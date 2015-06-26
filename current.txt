@@ -1,10 +1,10 @@
-last post checked: 20060103-1411-hi-fi-models
+last post checked: 20060308-0019-michael-kunivsky-and-matt-cottam-on-sketching-in-hardware
 
 start E:\dev\DevHawk\devhawk.github.io\images\blog
 cd E:\dev\DevHawk\PostMarkdownProcessor\
 
 $posts = dir E:\dev\DevHawk\PostMarkdownProcessor\posts
-$cur = 665
+$cur = 718
 function go {start $posts[$cur].fullname; $global:cur = $cur+1}
 function prev { start $posts[$cur-1].FullName }
 

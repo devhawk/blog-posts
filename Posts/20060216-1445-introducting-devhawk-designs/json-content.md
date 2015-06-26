@@ -1,4 +1,6 @@
-[![](http://s3.amazonaws.com/devhawk_images/archelp.png)](http://www.zazzle.com/link.asp?associate_id=238197950402547873&redirect=product&product_id=235848130425737882)
+::: image-right
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/archelp.png)](http://www.zazzle.com/link.asp?associate_id=238197950402547873&redirect=product&product_id=235848130425737882)
+:::
 
 A while ago, I made a sign for my door that reads “Architecture Help 5¢”
 (in homage to [Lucy’s psychiatry

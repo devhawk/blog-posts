@@ -8,7 +8,8 @@ First off, it’s a pure marketing buzzword. It was originally coined as a
 [conference name](http://www.web2con.com/). In a way, the fact that is
 has no underlying meaning is a good thing, because it gives people
 [argue](http://www.crunchnotes.com/?p=88) whether it
-[really](http://blogs.zdnet.com/ip-telephony/?p=805)[exists](http://www.scripting.com/2005/12/19.html#busted)
+[really](http://blogs.zdnet.com/ip-telephony/?p=805) 
+[exists](http://www.scripting.com/2005/12/19.html#busted)
 or [not](http://www.readwriteweb.com/archives/web_20_is_dead.php/). In a
 way, it’s like the word “multimedia” back when we were first putting
 CD-ROMs into computers. There used to be lots of discussion if one thing

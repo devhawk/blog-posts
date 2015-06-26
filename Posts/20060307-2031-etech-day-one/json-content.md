@@ -2,15 +2,15 @@ Of course, I my copious notes are on my dead laptop, so this is all from
 memory. Granted, it was only yesterday and my memory isn’t THAT bad
 (yet).
 
-**Rael Dornfest on the Attention Economy\
-**You know the old saying if you can’t say something nice, don’t say
+**Rael Dornfest on the Attention Economy**\
+You know the old saying if you can’t say something nice, don’t say
 anything at all? The one thing I will say is that it felt like a sales
 pitch to come to the conference. Given that we we’re already there, it
 seemed like an odd choice. I’ll have more about Attention Economy with
 my post on today’s sessions.
 
-**Tim O’Reilly on O’Reilly Radar\
-**Tim had (not surprisingly) a bunch of interesting things to talk
+**Tim O’Reilly on O’Reilly Radar**\
+Tim had (not surprisingly) a bunch of interesting things to talk
 about. Probably the most interesting was the stuff about [Bionic
 Software](http://radar.oreilly.com/archives/2006/03/bionic_software_1.html)
 which Tim describes as a system “that combines the biological and
@@ -39,8 +39,8 @@ such that you can run a hobby site for nearly nothing and cover that
 cost with Google Ads. But as a business, if there’s only a few business
 success stories, why place the importance on the crowd’s wisdom?
 
-**Bruce Sterling on The Internet of Things\
-**I couldn’t do this talk justice even with my notes, so here are a
+**Bruce Sterling on The Internet of Things**\
+I couldn’t do this talk justice even with my notes, so here are a
 couple of things that stood out:
 
 -   The guy introducing Bruce was a little to lavish with his praise. It

@@ -21,7 +21,7 @@ highlights include:
     possibly read in other syntaxes as well
 -   Port Shapes and a revised modeling API
 
-Update: Apparently, [I can’t
+**Update**: Apparently, [I can’t
 read](http://devhawk.net/CommentView,guid,927e400c-d23b-41b5-848d-101feb4e6371.aspx).
 Only the VS SDK integration is done in this build. improvements to the
 file format and model serialization will be in the next drop.

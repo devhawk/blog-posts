@@ -1,7 +1,7 @@
 As part of the [new
 job](http://devhawk.net/2006/01/24/architect-on-the-edge/), I’m
 involved in the planning a workshop called SPARK, which [Dion
-Hinchcliffe](http://hinchcliffe.org/)[blogged
+Hinchcliffe](http://hinchcliffe.org/) [blogged
 about](http://blogs.zdnet.com/Hinchcliffe/?p=5) this morning. (Dion also
 writes a [blog here](http://web2.wsj2.com/) - bringing the total to
 three - so I created a [combined
