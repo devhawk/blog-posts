@@ -20,4 +20,4 @@ for those in Orlando
     find and share GAT resources – including the TechEd Lab – with other
     members of the community.
 
-Update (02-23-06): Updated link to the GAT Lab.
+**Update**: Updated link to the GAT Lab.

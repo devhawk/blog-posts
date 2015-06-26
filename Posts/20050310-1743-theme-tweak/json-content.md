@@ -5,5 +5,5 @@ box, the Google ads and my blogrolls. Let me know if something isn’t
 working (other than the calendar – I just realized that I need to build
 styles for that)
 
-Update – [Calendar page](http://devhawk.net/monthView.aspx) styles are
+**Update**: [Calendar page](http://devhawk.net/monthView.aspx) styles are
 fixed.

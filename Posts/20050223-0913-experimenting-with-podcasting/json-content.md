@@ -30,7 +30,7 @@ Foundation](http://www.microsoft.com/tv/content/Solutions/Foundation/MSTV_Founda
 team – variable speed support would also be a great feature for the DVR.
 I wouldn’t watch 24 sped up, but I might watch the Daily Show that way.
 
-UPDATE – I neglected to “give props” to [my boss
+**Update**: I neglected to “give props” to [my boss
 Norman](http://atlasbrandview.blogspot.com/) for convincing me to look
 at this whole podcasting thing in the first place. Given how little
 spare time I have these days, I’m not sure that I needed yet another

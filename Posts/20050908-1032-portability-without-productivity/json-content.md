@@ -86,7 +86,7 @@ So here’s my point: Raising the level of abstraction is powerful because
 it can enable both portability and productivity. However, it also
 typically carries a performance penalty. As long as the portability and
 productivity benefits outweigh the performance penalty, everything’s
-cool. The problem is that productivity is typically WAY *WAY***WAY**
+cool. The problem is that productivity is typically WAY *WAY* **WAY**
 more important than portability. So abstractions that enable portability
 without significant positive productivity benefits will not offset the
 performance penalty associated with raising the level of abstraction.
@@ -100,7 +100,7 @@ Eclipse) and the many of the parts of Java on the server bear a striking
 resemblance to Microsoft technology. (ODBC vs. JDBC, ASP vs. JSP,
 Session beans vs. MTS, etc.) Either way, Java adoption has fallen below
 .NET adoption even though Java had the promise of platform neutrality as
-well as several years head start. [1]
+well as several years head start. [^1]
 
 I would argue that one of the main reasons that Java has had only
 limited success is that while Java is portable, it doesn’t provide much
@@ -125,7 +125,7 @@ written. I’d guess that ease of use / developer productivity is the key
 indicator of success for programming environments. If Java had focused
 on productivity and portability, I might be working for Sun today.
 
-[1] Obviously, there are varying opinions on this point. [SteveB said @
+[^1]: Obviously, there are varying opinions on this point. [SteveB said @
 TechEd](http://www.microsoft.com/presspass/exec/steve/2005/06-06TechEd.mspx)
 that .NET is the weapon of choice (my words not his) for 43% of all
 developers. Java was second with 35% and non .NET Windows development

@@ -8,8 +8,8 @@ into a drawing for a [portable media
 center](http://www.microsoft.com/windowsmobile/portablemediacenter/default.mspx).
 Here are the webcasts:
 
-> **Connecting Your Business with Service Orientation\
-> **This webcast invites you to delve into the Microsoft vision for
+> **Connecting Your Business with Service Orientation**\
+> This webcast invites you to delve into the Microsoft vision for
 > service orientation and service-oriented architecture in enterprise
 > computing. Discover the benefits that service orientation can bring to
 > your business and how service orientation can play an integral role in
@@ -20,9 +20,9 @@ Here are the webcasts:
 > capitalize on the short- and medium-term promise of service
 > orientation.\
 > *Live Webcast: 10:00-11:00 A.M. PDT, Tuesday, June 14, 2005*
->
-> **Creating a Shared Technology Vision\
-> **Increasing business complexity and rapid industry changes are
+
+> **Creating a Shared Technology Vision**\
+> Increasing business complexity and rapid industry changes are
 > forcing IT and business executives to look for new ways of leveraging
 > technology. Executives must become enablers for strategic innovation
 > and sustainable competitive advantage (top line) rather than just
@@ -36,9 +36,9 @@ Here are the webcasts:
 > visions that can power real-time, event-driven network organizations
 > of the twenty-first century.\
 > *Live Webcast: 10:00-11:00 A.M. PDT, Tuesday, June 21, 2005*
->
-> **The Value of Reusable Frameworks\
-> **Frameworks provide the building blocks of component-oriented
+
+> **The Value of Reusable Frameworks**\
+> Frameworks provide the building blocks of component-oriented
 > application development through inheritance, abstract types,
 > interfaces, and design patterns. Microsoft and Avanade have been
 > working together to create a set of common application blocks and
@@ -54,9 +54,9 @@ Here are the webcasts:
 > ACA.NET, and discuss the design patterns that were used to implement
 > the application blocks.\
 > *Live Webcast: 10:00–11:00 A.M. PT, Tuesday, June 28, 2005*
->
-> **Examining Enterprise Service Patterns\
-> **The demands you face to produce aggregated views of business
+
+> **Examining Enterprise Service Patterns**\
+> The demands you face to produce aggregated views of business
 > information and automate business processes are more intense than ever
 > before. You have to deliver on these demands to assist in the growth
 > of the business while at the same time driving down the cost of IT by

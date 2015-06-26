@@ -10,8 +10,9 @@ a [web
 chat](http://www.microsoft.com/communities/chats/default.mspx#05_0524_DN_VS05)
 about the DSL toolkit tomorrow at 9am Pacific time. Here’s the abstract:
 
-> **Using the Domain-Specific Languages Tools for Visual Studio 2005\
-> **Domain-specific language tools lay the foundation for software
+> **Using the Domain-Specific Languages Tools for Visual Studio 2005**
+
+> Domain-specific language tools lay the foundation for software
 > factories by providing a framework and a set of tools for delivering
 > domain-specific visual designers that plug into Visual Studio Team
 > System. These designers could be tools for industry verticals, such as

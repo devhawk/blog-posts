@@ -1,4 +1,6 @@
-[![](http://s3.amazonaws.com/devhawk_images/PotBad13.jpg)](http://etext.lib.virginia.edu/images/modeng/public/PotBadR/PotBad13.jpg)
+::: image-right
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog//PotBad13_thumbnail.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog//PotBad13.jpg)
+:::
 
 [Matt](http://www.technovangelist.com/) got [this
 book](http://etext.lib.virginia.edu/etcbin/toccer-new2?id=PotBadR.sgm&images=images/modeng&data=/texts/english/modeng/parsed&tag=public&part=1&division=div1)

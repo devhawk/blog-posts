@@ -13,7 +13,7 @@ that’s just a matter of geting [Notmad
 Explorer](http://www.redchairsoftware.com/notmad/) talking to my Zen
 Micro.
 
-UPDATE – Sometime shortly after I blogged this, Adam curry
+**Update**: Sometime shortly after I blogged this, Adam curry
 [posted](http://www.curry.com/2005/02/26#a2979) an episode of DSC
 recorded on a Zen Micro that Sean [gave
 him](http://blog.seanalexander.com/PermaLink,guid,a3fe0c9d-b320-4e08-a1e1-b3ab5426f24b.aspx).

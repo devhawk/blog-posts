@@ -1,6 +1,6 @@
 If you’re using the [MSN Deskbar](http://beta.toolbar.msn.com/), you
 might want to pick up [Gibson
-Research’s](http://www.grc.com)[Wizmo](http://www.grc.com/wizmo/wizmo.htm).
+Research’s](http://www.grc.com) [Wizmo](http://www.grc.com/wizmo/wizmo.htm).
 Wizmo is a command line tool that provides a grab-bag of tools.
 Personally, I use it for the shutdown commands. I’ve mapped several of
 them to Deskbar shortcut, particularly “shutdown” and “shutdown!”. The

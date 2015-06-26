@@ -30,7 +30,7 @@ Model](http://devhawk.net/2005/10/05/code-is-model/):
 > Each of these levels of abstraction presents a new model of the
 > execution environment with new features that make programming more
 > productive (and sometimes [more
-> portable](http://devhawk.net/2005/09/08/portability-without-productivity/))**.
+> portable](http://devhawk.net/2005/09/08/portability-without-productivity/))**.\
 > [emphasis added]
 
 I feel like Chris has mischaracterized what I wrote. Here it is again:

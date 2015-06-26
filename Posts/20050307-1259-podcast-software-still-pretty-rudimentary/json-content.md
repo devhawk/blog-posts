@@ -22,5 +22,5 @@ than the Windows Media libraries that work with both. I assume these
 will get fixed as the tools get better. In the meantime, I’ve subscribed
 to the MP3 versions of Ron and Major Nelson’s podcast feeds.
 
-Update – Doppler tag overriding doesn’t seem to work for the hardcoded
+**Update**: Doppler tag overriding doesn’t seem to work for the hardcoded
 genre either.

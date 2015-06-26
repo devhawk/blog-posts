@@ -28,15 +28,15 @@ Back already? Cool. One thing you can’t help but notice about CAB (and
 OB for that matter) is the heavy use of attributes, which I feel is an
 extremely elegant solution. Remember the first time you looked at
 [NUnit](http://www.nunit.org/)? How *sensible* it seemed to use
-attributes like [TestFixture], [Test] and [ExpectedException] compared
+attributes like ``[TestFixture]``, ``[Test]`` and ``[ExpectedException]`` compared
 to what other xUnit frameworks provide? Get ready to experience that all
 over again when you look at OB and CAB. Now you’re looking at attributes
-like [CreateNew], [EventPublication] and [CommandHandler]. There’s a
+like ``[CreateNew]``, ``[EventPublication]`` and ``[CommandHandler]``. There’s a
 reason why Sun [cloned
 attributes](http://java.sun.com/j2se/1.5.0/docs/guide/language/annotations.html)
 for J2SE 5.0 – it’s powerful (in the right hands). The attributes both
 drive human readability – when you’re looking at a property adorned with
-[CreateNew] or [Dependency] it’s obvious that these are injected – as
+``[CreateNew]`` or ``[Dependency]`` it’s obvious that these are injected – as
 well as the implementation. Win-win as far as I’m concerned.
 
 CAB does a great job of codifying standard patterns in smart client
@@ -81,10 +81,10 @@ many potential users. I imagine this single line of code will scare off
 many would-be CAB developers:
 
 ```csharp
-MyWorkItem myWorkItem = parentWorkItem.WorkItems.AddNew\<MyWorkItem\>();
+MyWorkItem myWorkItem = parentWorkItem.WorkItems.AddNew<MyWorkItem>();
 ```
 
-Given that most people are used to writing “new MyWorkItem()“, the line above
+Given that most people are used to writing ``new MyWorkItem()``, the line above
 represents a significantly rise in complexity. Of course, CAB is trying
 to solve a complex problem. I’m sure CAB’s designers would rather the
 solution wasn’t so complex, but that’s the reality of the problem space

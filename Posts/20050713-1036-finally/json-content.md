@@ -18,7 +18,7 @@ From NHL.com:
 
 Game On!
 
-Update – Obviously, the NHL has to do ALOT to recover from missing last
+**Update**: Obviously, the NHL has to do ALOT to recover from missing last
 season. Apparently, HDTV is one of the things they are thinking about:
 
 > The NHL, which claims that hockey fans are the most technologically

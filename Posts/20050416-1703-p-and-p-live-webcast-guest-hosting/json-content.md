@@ -14,6 +14,6 @@ stuff we’ll be showing. Visit the [MS Events
 site](http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032271514&Culture=en-US)
 to sign up for the session.
 
-**Update** – I located the [on-demand
+**Update**: I located the [on-demand
 version](http://msevents.microsoft.com/cui/WebCastEventDetails.aspx?culture=en-US&EventID=1032271289&EventCategory=3)
 of the UAB webcast.

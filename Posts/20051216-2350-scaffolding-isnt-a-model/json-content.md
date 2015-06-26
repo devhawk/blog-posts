@@ -66,7 +66,7 @@ isn’t precise or deterministic. And if it ends up in the recycle bin, I
 guess it’s not intrinsic to the development process.
 
 Actually, it’s good that scaffolding isn’t a model. It means Grady is
-specifically *not* suggesting to**throw away models. He just needs to
+specifically *not* suggesting to throw away models. He just needs to
 get his terminology right.
 
 As for Grady’s request for “just one DSM out there in production”, Don

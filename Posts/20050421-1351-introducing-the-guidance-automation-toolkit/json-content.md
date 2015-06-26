@@ -82,10 +82,10 @@ and Tom’s blogs for more breaking news on GAT.
 Major congrats to Tom, Wojtek and Daniel and everyone else involved on
 GAT. I can’t wait to get my hands on it and start playing around.
 
-**UPDATE** – Looks like the [on-demand
+**Update**: Looks like the [on-demand
 version](http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032271518&Culture=en-US)
 of the GAT webcast is live.
 
-**ANOTHER UPDATE** – I fixed the on-demand link and removed the live
+**Another Update**: I fixed the on-demand link and removed the live
 link (since the event’s over, what’s the point of linking to the live
 webcast site?)

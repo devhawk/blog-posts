@@ -77,7 +77,7 @@ case) rather than the details of how that model is translated into the
 execution environment, unless you’re the one building those translation
 tools.
 
-**UPDATE** – I had one other thought on all this. It’s interesting that
+**Update**: I had one other thought on all this. It’s interesting that
 computing power (CPU + IO bandwidth) have improved to a point where the
 performance of interpreting BAML at runtime is as fast than executing
 XAML compiled to IL directly. I certainly wouldn’t have assumed that.

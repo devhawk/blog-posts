@@ -88,8 +88,8 @@ useful. This isn’t an exhaustive list, but here are a few things
     across target models. For example, when you run a managed app on a
     x86 machine you get different machine code than if you ran it on an
     x64 machine.
--   **Models must be Intrinsic to the Development Process\
-    **Even if you have precise models and deterministic transformations,
+-   **Models must be Intrinsic to the Development Process**\
+    Even if you have precise models and deterministic transformations,
     you have to make them first class citizens of the development
     process or they will become outdated quickly. How often have you
     blueprinted your classes with UML at the start of the project, only
@@ -101,8 +101,8 @@ useful. This isn’t an exhaustive list, but here are a few things
     transform once to IL and then hand edit the IL? No! We change the
     C\# directly and retransform into IL. We need to have the same
     process even as we move into higher levels of abstraction.
--   **Models Aren’t Always Graphical\
-    **Some things are best visualized as pictures, some things aren’t.
+-   **Models Aren’t Always Graphical**\
+    Some things are best visualized as pictures, some things aren’t.
     To date, we’re much better at graphically modeling static structure
     than dynamic behavior. That’s changing – for example, check out the
     [BTS](http://msdn.microsoft.com/library/en-us/sdk/htm/ebiz_prog_useod.gif)
@@ -114,8 +114,8 @@ useful. This isn’t an exhaustive list, but here are a few things
     Windows Forms Designer in VS – you use a graphical “language” to lay
     out your user interface, but you implement event handlers using a
     text-based language.
--   **Explicitly Call Out Models vs. Views\
-    **One of the areas that I get easily confused about is model views.
+-   **Explicitly Call Out Models vs. Views**\
+    One of the areas that I get easily confused about is model views.
     If I’m looking at two different model visualizations (text or
     graphical), when are they different models and when are they views
     into the same model. People don’t seem to care much one way or the

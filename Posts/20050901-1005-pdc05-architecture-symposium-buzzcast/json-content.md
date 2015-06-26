@@ -28,9 +28,10 @@ Here’s the full symposium abstract:
 > traditional best practices and recent innovations can be used together
 > to build robust solutions that accelerate business value creation.
 >
-> **Topics include:**\
-> *The Architecture of Connected Systems\
-> *In the beginning there are the models – from the thing you scrawl on
+> **Topics include:**
+>
+> *The Architecture of Connected Systems*\
+> In the beginning there are the models – from the thing you scrawl on
 > a napkin at lunch to that enormously complex diagram that your network
 > architect carries around in a cardboard tube. What models are worth
 > creating, and how do they relate to each other? Who are the key
@@ -42,8 +43,8 @@ Here’s the full symposium abstract:
 > map these models into a collection of services, orchestrations, and
 > policies that define a highly integrated solution.
 >
-> *Building Connected Systems\
-> *With so much complexity and so many stakeholders, how do you build
+> *Building Connected Systems*\
+> With so much complexity and so many stakeholders, how do you build
 > the right thing on time? This session explores the techniques to
 > iterate agilely through a connected system project, including the
 > patterns and practices for building solutions that combine messaging,
@@ -54,8 +55,8 @@ Here’s the full symposium abstract:
 > models current, and use them to communicate with all of the
 > stakeholders throughout the development lifecycle?
 >
-> *Managing the Connected Systems Lifecycle\
-> *As each iteration of your connected system is deployed and used, new
+> *Managing the Connected Systems Lifecycle*\
+> As each iteration of your connected system is deployed and used, new
 > requirements and system refinements emerge. How do we design in the
 > operational hooks that give us the insight to learn from our deployed
 > solutions? How do we re-factor and version our services and

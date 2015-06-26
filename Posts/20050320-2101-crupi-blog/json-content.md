@@ -1,7 +1,7 @@
 I met [John Crupi](http://blogs.sun.com/roller/page/crupi) – CTO of
 Sun’s Enterprise Web Service Practice – at OOPSLA last year. Very cool
 guy. I hadn’t realized he started blogging last month until [Steve
-Vinoski](http://www.iona.com/blogs/vinoski/)[linked](http://www.iona.com/blogs/vinoski/archives/000153.html)
+Vinoski](http://www.iona.com/blogs/vinoski/) [linked](http://www.iona.com/blogs/vinoski/archives/000153.html)
 to him. There seems to be some disagreement regarding using a top-down
 approach to SOA. Steve writes that SOA, like other “real-world
 development” is usually a mix of top-down and bottom-up. John writes

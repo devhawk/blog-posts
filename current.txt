@@ -1,10 +1,10 @@
-last post checked: 20050101-1612-the-new-year-is-upon-us
+last post checked: 20060103-1411-hi-fi-models
 
 start E:\dev\DevHawk\devhawk.github.io\images\blog
 cd E:\dev\DevHawk\PostMarkdownProcessor\
 
 $posts = dir E:\dev\DevHawk\PostMarkdownProcessor\posts
-$cur = 515
+$cur = 665
 function go {start $posts[$cur].fullname; $global:cur = $cur+1}
 function prev { start $posts[$cur-1].FullName }
 

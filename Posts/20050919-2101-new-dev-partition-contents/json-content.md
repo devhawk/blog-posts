@@ -28,7 +28,7 @@ have it all. I guess the stint in marketing didn’t completely wipe out
 my interest in coding.
 
 FYI, I have to give major thumbs up to [Terabyte
-Unlimited](http://www.terabyteunlimited.com/)‘s [BootIt
+Unlimited's](http://www.terabyteunlimited.com/) [BootIt
 NG](http://www.terabyteunlimited.com/bootitng.html) product. My laptop
 runs three partitions: Production, Development and Documents. Putting
 all my docs on their own partition means I can pave the other two pretty

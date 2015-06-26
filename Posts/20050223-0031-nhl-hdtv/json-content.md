@@ -10,7 +10,6 @@
 > HDTV, which saw more than 1 million sets sold recently during the
 > run-up to the Super Bowl.
 >
-> [Associated Press: [NHL looking at new rules, becoming
-> HDTV-friendly](http://msn.foxsports.com/nhl/story/3413102)]
+> [Associated Press: [NHL looking at new rules, becoming HDTV-friendly](http://msn.foxsports.com/nhl/story/3413102)]
 
 At least we have something to look forward to I guess 

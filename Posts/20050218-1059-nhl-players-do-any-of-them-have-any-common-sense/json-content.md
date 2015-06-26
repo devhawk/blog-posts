@@ -8,8 +8,9 @@
 > Association. You turned down 30 teams paying what would probably
 > average out to 35mm dollars in salary per team for this year. Thats
 > more than \$ 1,000,000,000.00 in cash that would have been paid to NHL
-> players this year.” [Blog Maverick – [How to Lose 1 Billion
-> Dollars](http://www.blogmaverick.com/entry/1234000837032305/)]
+> players this year.” 
+
+> [Blog Maverick – [How to Lose 1 Billion Dollars](http://www.blogmaverick.com/entry/1234000837032305/)]
 
 I guess it’s not surprising that the owner of the Dallas Mavericks sides
 with the owners. But he brings up an interesting point – the players are

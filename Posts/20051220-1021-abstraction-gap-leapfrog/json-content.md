@@ -24,10 +24,8 @@ post](http://devhawk.net/2005/12/19/imprecise-vs-incomplete/):
 > enough descriptions of systems as intensely human as a business yet.
 > However, I hope we won’t want to try and keep modelling as locked away
 > with the techies as traditional development has been. (Hope I’m not
-> talking myself out of a job here…)
->
-> [[Pseudomodels and
-> intent](http://blogs.msdn.com/garethj/archive/2005/12/19/505732.aspx)]
+> talking myself out of a job here…)\
+> [[Pseudomodels and intent](http://blogs.msdn.com/garethj/archive/2005/12/19/505732.aspx)]
 
 I keep saying incomplete and Gareth keeps saying imprecise, but I think
 we can both agree on the term “imperfect”. There’s a massive difference

@@ -20,7 +20,7 @@ development and architecture but it’s just as hard. However, it does use
 a different part of the brain. So while I’m excited to moving into a
 role that plays to my strength, I’m walking away from my marketing
 experience with a new respect and understanding for the job.
-[John](http://johnporcaro.typepad.com/blog/)[wrote
+[John](http://johnporcaro.typepad.com/blog/) [wrote
 about](http://johnporcaro.typepad.com/blog/2005/06/reengineering_m.html)
 SteveB talking about “selling what we build, AND building what we can
 sell”. I feel that spending time in marketing has made me a better

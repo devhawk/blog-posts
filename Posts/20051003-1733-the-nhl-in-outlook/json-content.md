@@ -12,7 +12,7 @@ the code. Sometimes, simple is better.
 Now, I just need [Comcast](http://www.comcast.com/) to get
 [HDNet](http://www.hd.net/nhlinhd.html).
 
-**UPDATE**: No word from Concast on getting HDNet. They hope to have
+**Update**: No word from Concast on getting HDNet. They hope to have
 more HD Channels “by the end of the year”. I found a [petition
 online](http://www.petitiononline.com/comcast1/petition.html) asking for
 HDNet on Comcast and a [blog

@@ -23,7 +23,7 @@ reader, writer, DDL and security admin but not owner. DNN installs a
 series of stored procedures (which works on my machine due to having DDL
 permissions) but doesn’t give EXEC permissions to those procs to anyone
 except DBO. Woops. I wrote a small utility app that extracts a list of
-all user stored procs and calls “GRANT EXEC ON \<\<SPNAME\>\> TO PUBLIC”
+all user stored procs and calls ``“GRANT EXEC ON \<\<SPNAME\>\> TO PUBLIC”``
 on each one. Seems to work fine, but given the size of the DNN codebase,
 I’m not sure I’m comfortable that there isn’t something else out there
 that’s expecting DBO permissions.
