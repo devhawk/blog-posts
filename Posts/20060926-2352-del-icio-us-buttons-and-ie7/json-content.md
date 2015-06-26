@@ -33,7 +33,7 @@ slammed with much more important things to do. At least, more relevant
 to my day job. Anyone with a good suggestion here, I’d sure appreciate
 it.
 
-**Update** – According to a comment left by
+**Update**: According to a comment left by
 [britta](http://blog.del.icio.us/), the del.icio.us buttons IE7 ready
 yet and they suggest using [these
 buttons](http://del.icio.us/help/buttons) in the meantime. Thanks for

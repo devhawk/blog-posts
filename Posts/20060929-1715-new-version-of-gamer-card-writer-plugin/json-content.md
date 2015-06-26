@@ -1,5 +1,7 @@
-[![Gamer Card Writer
-Plugin](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/NewVersionofGamerCardWriterPlugin_C9B8/LARGE[1][7].jpg)](http://gallery.live.com/liveitemdetail.aspx?li=0dfb3c1d-bb4e-4661-ad80-82c1994b424e&l=8)
+::: image-left
+[![Gamer Card Writer Plugin](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/xbox_logo.jpg)](http://gallery.live.com/liveitemdetail.aspx?li=0dfb3c1d-bb4e-4661-ad80-82c1994b424e&l=8)
+:::
+
 There’s a new version of WL Writer, so I spent a little time updating my
 Gamer Card Writer Plugin. The big addition in this version is support
 for the different card styles from

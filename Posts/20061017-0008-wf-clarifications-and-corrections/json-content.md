@@ -8,7 +8,7 @@ work for Paul. He [blogged a
 response](http://blogs.msdn.com/pandrew/archive/2006/10/16/Ten-Reasons-why-WF-is-not-a-Toy.aspx)
 and I wanted to follow up on a few things here.
 
-1\. The “toy” SQL Persistence Service – My understanding about how the
+1. The “toy” SQL Persistence Service – My understanding about how the
 built-in persistence service works was incorrect. As per Paul’s blog,
 “The WF runtime doesn’t load all idle instances on startup, that would
 be crazy.” Of course, we’re talking about the SQL Persistence Service,
@@ -17,7 +17,7 @@ thought that’s what the SQL Persistence Service did, I called it a toy!
 So I’m flat out wrong on this one. Sorry about that Paul (and the rest
 of the WF team).
 
-2\. The “toy” Web Service Integration – Apparently, I was also mistaken
+2. The “toy” Web Service Integration – Apparently, I was also mistaken
 about the use of ASP.NET sessions. But I was right about WF’s use of
 ASMX, the use of the tempuri.org namespace, and that web service support
 is limited to WS-I basic profile request/response style services. So
@@ -30,7 +30,7 @@ project. Of course, the good news is that you can build your own WF
 activities, so I can toss the built-in web  service activites and still
 get to keep the rest of WF.
 
-3\. Is WF itself a “toy”? Paul has a list of reasons why WF isn’t a toy,
+3. Is WF itself a “toy”? Paul has a list of reasons why WF isn’t a toy,
 including some silly ones (it wasn’t in [Toy
 Story](http://www.imdb.com/title/tt0114709/)). In case there’s any
 confusion about my opinon of WF, let me be clear: I think WF rocks, full

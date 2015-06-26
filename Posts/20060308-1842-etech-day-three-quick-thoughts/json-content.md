@@ -60,7 +60,7 @@ details to follow.
     markup (a 33% markup).
     :smile:
 
-UPDATE (8:45pm) – Added Quick Thoughts on Yahoo!, Eventful, George
+**Update**: Added Quick Thoughts on Yahoo!, Eventful, George
 Dyson, Joel Spolsky and Plum. Added more detail about the attention
 economy sessions from today.
 

@@ -1,4 +1,4 @@
-4\. All communication from the host to the workflows goes thru the
+4. All communication from the host to the workflows goes thru the
 [WorkflowQueuingService](http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.workflowqueuingservice.aspx).
 Unlike other WF services, the queuing service *is not* replaceable.
 Communication from a workflow activity instance to the host goes thru
@@ -18,7 +18,7 @@ Exchange
 system](http://windowssdk.msdn.microsoft.com/en-us/library/ms735872.aspx)
 was added specifically for SharePoint.
 
-5\. The built-in sequential and state machine workflows are customizable.
+5. The built-in sequential and state machine workflows are customizable.
 So if you wanted to have a custom designer or validation experience for
 an otherwise standard sequential or state machine workflow, you can
 inherit from the standard workflow type and add the custom validation
@@ -29,15 +29,14 @@ Activity. So if you wanted to use the standard sequence designer but
 disallow the use of the Code Activity, you wouldn’t have to rewrite the
 sequence activity from scratch.
 
-6\. You can execute workflows across a farm, similar to how you build a
+6. You can execute workflows across a farm, similar to how you build a
 web farm. Workflows that get persisted to the persistence service can be
 loaded on any node in the farm. Of course, like web servers in a farm,
 you’d have to have the same bits installed on all the machines in the
 workflow farm. Sounds like an opportunity for something like
-[Application
-Center](http://www.microsoft.com/applicationcenter/default.mspx) for WF.
+[Application Center](http://www.microsoft.com/applicationcenter/default.mspx) for WF.
 
-7\. The built in [SQL Persistence
+7. The built in [SQL Persistence
 Service](http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.hosting.sqlworkflowpersistenceservice.aspx)
 is a toy. When you start your workflow engine, the SQL Persistence
 Service will auto-load all the existing persisted workflows into memory,
@@ -52,7 +51,7 @@ than
 [described](http://windowssdk.msdn.microsoft.com/en-us/library/system.workflow.runtime.hosting.sqlworkflowpersistenceservice.aspx)
 as “a fully functional persistence service” in the docs.
 
-8\. WF Web Service integration is also a toy. WF leverages basic ASMX for
+8. WF Web Service integration is also a toy. WF leverages basic ASMX for
 all it’s web service integration, so your only choice for web services –
 [consuming](http://windowssdk.msdn.microsoft.com/en-us/library/ms735862.aspx)
 or
@@ -66,7 +65,7 @@ it ends up with the default http://tempuri.org namespace. Again, like
 the SQL Persistence, this should have been included as a sample, not
 included in the standard activities.
 
-9\. Activities can [generate
+9. Activities can [generate
 code](http://windowssdk.msdn.microsoft.com/en-us/library/ms734652.aspx).
 In the previous item, I mentioned there’s basic ASMX hosting integration
 for a workflows. Turns out the WebService Activities generate that

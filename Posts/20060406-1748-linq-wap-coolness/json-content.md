@@ -12,14 +12,12 @@ in your web apps by doing the folllowing.
 1.  Open your WebApp.csproj file in notepad.
 2.  Add references to System.Query, System.Data.DLinq and
     System.Xml.XLinq.
-3.  Change the Target Import element to import “\$(ProgramFiles)LINQ
-    PreviewMiscLinq.targets” instead of
-    “\$(MSBuildBinPath)Microsoft.CSharp.targets”
+3.  Change the Target Import element to import ``$(ProgramFiles)LINQ
+    PreviewMiscLinq.targets`` instead of
+    ``$(MSBuildBinPath)Microsoft.CSharp.targets``
 
 That’s it! Seems simple, but it let me bind a GridView to the following
 function:
-
- 
 
 ``` csharp
 public static IEnumerable GetTitles()
@@ -31,8 +29,6 @@ public static IEnumerable GetTitles()
   return q;
 }
 ```
-
- 
 
 It would be even cooler if I could simply write that query in the conext
 of the ObjectDataSource, but of course ObjectDataSource doesn’t know

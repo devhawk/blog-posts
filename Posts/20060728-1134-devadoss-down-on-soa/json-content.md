@@ -1,5 +1,5 @@
 My [old
-boss’s](http://blogs.technet.com/michael_platt)[boss](http://blogs.msdn.com/jdevados)
+boss’s](http://blogs.technet.com/michael_platt) [boss](http://blogs.msdn.com/jdevados)
 seems like he was in a downer mood yesterday. First, he blogged about
 the “[Myth of Reuse in
 SOA](http://blogs.msdn.com/jdevados/archive/2006/07/27/680756.aspx)“,

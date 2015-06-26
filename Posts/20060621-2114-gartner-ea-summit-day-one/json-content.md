@@ -105,5 +105,5 @@ and a [case study
 session](http://agendabuilder.gartner.com/EA4/webpages/SessionDetail.aspx?EventSessionId=901)
 on the Dell Integrated Desktop . Then there’s two more hours of booth
 duty tomorrow, but I’m hoping it’s more content and less swag this time
-as 1) I will have just presented so I’m hoping to get some questions and
-2) everyone has already gotten their swag ration for the conference. 
+as 1) I will have just presented so I’m hoping to get some questions and 2) 
+everyone has already gotten their swag ration for the conference. 

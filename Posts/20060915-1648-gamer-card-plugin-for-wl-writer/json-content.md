@@ -1,5 +1,8 @@
-![](http://s3.amazonaws.com/devhawk_images/GamerCardPluginScreenShot.jpg) In
-my [last post](http://devhawk.net/2006/09/15/hawkeye-on-nhl-07/), I
+::: image-right
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/GamerCardPluginScreenShot.jpg) 
+:::
+
+In my [last post](http://devhawk.net/2006/09/15/hawkeye-on-nhl-07/), I
 wanted to include a link to my gamer card, showing the NHL 07 logo on
 it. It turns out that in addition to the [“official” gamer
 card](http://www.xbox.com/en-US/MyXbox/embedgamercard.htm) from
@@ -21,11 +24,13 @@ The plug in provides basically five Gamer Card options:
 -   MGC.net Gamer Card image only
 -   MGC.net Gamer Card flash movie
 
-[![](http://card.mygamercard.net/h2o/RayTracer.png)](http://profile.mygamercard.net/RayTracer)
+::: image-left
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/RayTracer.png)](http://profile.mygamercard.net/RayTracer)
+:::
 
 I’m interested in feedback and suggestions for future versions.
 MyGamerCard.net provides ten different Gamer Card styles (that’s my
-Gamer Card in the “H2O” style to the left) so that’s an obvious
+Gamer Card to the left) so that’s an obvious
 enhancement for another day. I’d also like to evolve the plugin into a
 “Smart Content Source”, which allows you to edit the content after it’s
 been created (like the default “Insert Map” option). Finally, I’m

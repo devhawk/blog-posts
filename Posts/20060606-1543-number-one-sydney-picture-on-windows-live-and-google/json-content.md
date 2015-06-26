@@ -1,4 +1,6 @@
-[![](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58)_small.jpg)](http://s3.amazonaws.com/devhawk_images/Touring%20Sydney%20Monday%20(58).jpg)
+::: image-left
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Monday%20(58)_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Touring%20Sydney%20Monday%20(58).jpg)
+:::
 
 I typically don’t [search Technorati for incoming
 links](http://www.technorati.com/search/devhawk.net) because a

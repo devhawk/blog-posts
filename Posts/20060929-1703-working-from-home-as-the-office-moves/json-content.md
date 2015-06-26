@@ -1,5 +1,8 @@
-[![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WorkingFromHomeAsTheOfficeMoves_72FB/map09acefc72c79.jpg)](http://local.live.com/default.aspx?v=2&cp=47.54693~-122.0346&lvl=1&style=o&scene=3713755&sp=aN.47.54674_-122.0346_New%2520Issquah%2520Black%2520Building_ "Click to view this map on Live.com")
-New Microsoft Issaquah Black Building
+::: image-left
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/map09acefc72c79.jpg)](http://local.live.com/default.aspx?v=2&cp=47.54693~-122.0346&lvl=1&style=o&scene=3713755&sp=aN.47.54674_-122.0346_New%2520Issquah%2520Black%2520Building_ "Click to view this map on Live.com")
+
+**New Microsoft Issaquah Black Building**
+::: 
 
 Even though I moved offices [just a
 month](http://devhawk.net/2006/09/06/here-has-moved-and-will-move-again/)

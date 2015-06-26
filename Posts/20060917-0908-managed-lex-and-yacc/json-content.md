@@ -32,7 +32,7 @@ tooth](http://www.knowing.net/PermaLink,guid,0d0f3a62-45ae-4c8e-9438-6c082ef8303
 but I’m thinking at least [Larry O’Brien](http://www.knowing.net/) will
 be interested in these tools.
 
-UPDATE – Apparently, this is somewhat old news, as per [Aaron
+**Update**: Apparently, this is somewhat old news, as per [Aaron
 Marten](https://blogs.msdn.com/aaronmar):
 
 > The tools we’re including are called MPPG & MPLex (which stand for

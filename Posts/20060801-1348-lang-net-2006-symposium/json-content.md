@@ -4,7 +4,7 @@ version of the CLR Compiler Lab I went to back in March. Unfortunately,
 with my new job, I couldn’t attend all three days, but I did attend day
 one. Here we’re my thoughts on the various sessions.
 
-Anders Hejlsberg – LINQ and C\# 3.0
+**Anders Hejlsberg – LINQ and C\# 3.0**
 
 -   This was basically a rehash of his talk from the March Compiler lab.
     Makes sense as it was a new audience, but the “Query the Running
@@ -12,8 +12,8 @@ Anders Hejlsberg – LINQ and C\# 3.0
     March](http://devhawk.net/2006/03/14/compiler-dev-lab-linq/) for
     more details.
 
-[John Gough](http://sky.fit.qut.edu.au/~gough/) – Dealing with Ruby on
-the CLR
+**[John Gough](http://sky.fit.qut.edu.au/~gough/) – Dealing with Ruby on
+the CLR**
 
 John is a professor from the [Programming Languages and
 Systems](http://plas.fit.qut.edu.au/Default.aspx) group at [Queensland
@@ -47,9 +47,9 @@ look really interesting in their own right:
     released yet, but John indicated it would be available in the next
     couple of weeks.
 
-[Christopher Diggins](http://www.cdiggins.com/) – [Cat Programming
+**[Christopher Diggins](http://www.cdiggins.com/) – [Cat Programming
 Language](http://www.cdiggins.com/cat): A Functional Optimization
-Framework for the CLI
+Framework for the CLI**
 
 -   I’m fairly sure Christopher doesn’t present often. Otherwise he
     would have know that there’s no way to present [107
@@ -74,8 +74,8 @@ Framework for the CLI
     more important than compiler optimization. Ruby is the latest great
     example of this phenomenon.
 
-Mark Cooper – [Page XML](http://pagexml.net/) : An XML based domain
-specific language for developing web applications
+**Mark Cooper – [Page XML](http://pagexml.net/) : An XML based domain
+specific language for developing web applications**
 
 -   Page XML is a DSL for building web apps. Unfortunately, it isn’t
     released yet and it was hard to get a sense of what a solution built

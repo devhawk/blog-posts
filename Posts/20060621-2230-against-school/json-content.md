@@ -36,7 +36,7 @@ be leaders and adventures instead of letting schools train them to be
 employees and servants. A frank discussion about the value of school
 sounds much more like leadership than servitude to me.
 
-Update: You can read the book [online for
+**Update**: You can read the book [online for
 free](http://www.johntaylorgatto.com/chapters/index.htm) or you can [buy
 the book](http://www.johntaylorgatto.com/bookstore/index.htm) (and
 others) online from Gatto’s website.

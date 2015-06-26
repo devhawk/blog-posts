@@ -59,6 +59,6 @@ where to go but up.
 
 However, the NHL broadcast restrictions stuff has got to go. Come on
 [Ted](http://ted.aol.com/), you’re a “[pioneer of the Internet and new
-media](http://www.corp.aol.com/whoweare/whoswho/leonsis.shtml)“. Get
+media](http://www.corp.aol.com/whoweare/whoswho/leonsis.shtml)”. Get
 those guys at the NHL to wake up and embrace the new media! How come
 EVERY game isn’t available this way?

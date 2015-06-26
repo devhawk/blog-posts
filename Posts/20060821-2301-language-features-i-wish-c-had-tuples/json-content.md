@@ -25,7 +25,7 @@ for up to seven tuple parameters (i.e. Tuple\<t1,t2,t3,t4,t5,t6,t7\>),
 For .NET 1.x, it’s even worse – they have to define different type names
 (Tuple2, Tuple3, etc). Ugh.
 
-**Update** – [Robert Pickering](http://strangelights.com/blog/) pointed
+**Update**: [Robert Pickering](http://strangelights.com/blog/) pointed
 out that F\#’s tuple implementation is entirely transparent inside of
 F\#. He’s right – I was writing from the perspective of a C\# developer
 using F\#’s implementation of tuples. Maybe I need to be looking closer

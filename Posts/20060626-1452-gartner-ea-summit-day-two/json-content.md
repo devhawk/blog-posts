@@ -12,7 +12,10 @@ had lots of great conversations afterwards (as expected). Maybe Gartner
 will have me back next year with twelve months of my new project under
 my belt.
 
-[![](http://s3.amazonaws.com/devhawk_images/img393_small.jpg)](http://s3.amazonaws.com/devhawk_images/img393.jpg)
+::: image-left
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/img393_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/img393.jpg)
+:::
+
 One suggestion for the Gartner folks. Next year, don’t pick a logo with
 an arrow in it. I got a little confused when I first showed up because I
 followed the arrow and ended up on the wrong side of the hotel from the

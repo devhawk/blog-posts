@@ -75,7 +75,7 @@ across the network is an expensive operation – whatever’s on the other
 side better be worth the drive. I’m guessing for services, more often
 than not, reuse won’t be worth the trip (if it’s possible at all).
 
-**Update** - David pointed out to me that the last paragraph of his
+**Update**: David pointed out to me that the last paragraph of his
 article begins:
 
 > Object reuse has been successful in some areas. The large class

@@ -27,8 +27,8 @@ Let’s just raise the level of abstraction and not get all caught up
 naming the level we’re currently at.
 
 VB was introduced [15 years
-ago](http://www.panopticoncentral.net/archive/2006/05/24/12200.aspx) in
-1991. Most developers in the industry are aware and remember the impact
+ago](http://www.panopticoncentral.net/archive/2006/05/24/12200.aspx) in 1991. 
+Most developers in the industry are aware and remember the impact
 VB had (if you don’t, check out [Billy
 Hollis](http://ftponline.com/weblogger/forum.aspx?id=18)‘ [History of
 BASIC](http://dotnetmasters.com/historyofbasic.htm)). The relational

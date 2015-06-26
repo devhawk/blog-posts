@@ -46,7 +46,7 @@ season where there’s more than one unbeaten team. I’m begriming to
 believe that’s why the BCS was created, so that fans can focus their
 hostility on computers rather than the polls.
 
-**Update** – I forgot to mention the ultra nightmare BCS scenario. If
+**Update**: I forgot to mention the ultra nightmare BCS scenario. If
 USC, Auburn and *Michigan* run the table, you’ll likely have a USC vs.
 Auburn title game with Michigan ranked \#3. That means Michigan would
 have beaten both then-ranked \#1 and \#2 during the season, but wouldn’t
