@@ -55,7 +55,7 @@ Here are a few short takes on the election:
     on to more pragmatic policies. Better a tax-and-spend liberal than a
     borrow-and-spend conservative.
 
-Update: In the interest of bipartisanship, [here are some less than
+**Update**: In the interest of bipartisanship, [here are some less than
 reputable Democrats](http://www.tpmmuckraker.com/archives/001981.php)
 poised to take key positions in the new Democrat controlled congress.
 Making someone with a [congressional
@@ -64,4 +64,4 @@ or [under FBI
 investigation](http://www.tpmmuckraker.com/archives/000502.php) the
 chair of a congressional committee isn’t a promising start to “[draining
 the
-swamp](http://www.washingtonpost.com/wp-dyn/content/article/2006/10/06/AR2006100600602.html)“.
+swamp](http://www.washingtonpost.com/wp-dyn/content/article/2006/10/06/AR2006100600602.html)”.

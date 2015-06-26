@@ -12,7 +12,7 @@ on my recent SSB and WCF posts:
 > executing are purely database driven and can be executed completely
 > within the database. Sure, this is an “expanded universe” with the CLR
 > support in SQL Server 2005, but even so it makes me nervous at times
-> ![](http://www.winterdom.com/weblog/smilies/happy.gif).
+> :smile:
 >
 > You could also consider using a custom service with MSMQ or something
 > like BizTalk Server for this if you had long running processes that

@@ -1,4 +1,7 @@
-[![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/fd35dc67084e_91BE/IMAGE_00014_thumb[13].jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/fd35dc67084e_91BE/IMAGE_00014[15].jpg)
+::: image-left
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/IMAGE_00014_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/IMAGE_00014.jpg)
+:::
+
 I came in this morning to discover my boss and next cube neighbor
 [Rick](http://rickbarn.spaces.live.com/) had decided to spruce up his
 cube with camo netting. He’s ex-Army, so it’s not like it’s out of
@@ -14,6 +17,6 @@ joining our team and moving into Rick’s newly camo festooned cube. Rick
 countered that Rumsfeld was actually joining the Enterprise Architecture
 group. Heh.
 
-Update: Dale [points
+**Update**: Dale [points
 out](http://devhawk.net/CommentView,guid,d205a6b9-567e-4587-85e2-c2e3a55f6659.aspx#commentstart)
 he made the joke about Rumsfeld joining EA, not Rick. My bad Dale.
