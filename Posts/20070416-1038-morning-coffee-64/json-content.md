@@ -7,7 +7,7 @@
     colon. We also checked out the dinosaur exibit (Patrick’s favorite
     part: petrified dino poop), Kids Works and the Peter and the Wolf
     laser show. It was awesome.
--   This week’s Big News^tm^ is the rebranding of WPF/E as
+-   This week’s Big News^TM^ is the rebranding of WPF/E as
     [Silverlight](http://www.microsoft.com/silverlight). Tim Sneath has
     the
     [rundown](http://blogs.msdn.com/tims/archive/2007/04/15/introducing-microsoft-silverlight.aspx),

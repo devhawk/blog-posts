@@ -11,7 +11,7 @@
     web client for VSTS as part of Visual Studio’s 10th birthday. We’re
     also “publishing the Orcas Wave (Orcas + Rosario) [roadmap for
     VSTS](http://msdn2.microsoft.com/teamsystem/bb407307.aspx).” I’ll be
-    interested to see the reaction to that. Mike’s reacti[on to the
+    interested to see the reaction to that. Mike’s [reaction to the
     schedule](http://www.larkware.com/dg8/TheDailyGrind1107.aspx) was:
     “That’s insane”.
 -   THe XNA tools just keep coming. Allegorithmic’s MaPZone texture

@@ -12,7 +12,7 @@ Other big news includes:
     v2, JavaScript, Visual Basic “10″ (aka
     [VBx](http://www.panopticoncentral.net/archive/2007/05/01/20383.aspx))
     and IronRuby. [He-man
-    Programmer](http://www.knowing.net/PermaLink,guid,a3baaf7a-1af3-460a-8486-6b459dab51ed.aspx)[John
+    Programmer](http://www.knowing.net/PermaLink,guid,a3baaf7a-1af3-460a-8486-6b459dab51ed.aspx) [John
     Lam](http://www.iunknown.com/) has a
     [screencast](http://silverlight.net/Learn/learnvideo.aspx?video=74)
     demonstrating these the languages interoping on Silverlight. You can

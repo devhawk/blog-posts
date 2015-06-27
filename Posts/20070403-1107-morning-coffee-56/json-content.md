@@ -16,7 +16,7 @@
     that puts me five posts behind for the year as of this one.
 -   [Dale](http://halfmybrain.spaces.live.com/) let me borrow Madden 07
     for the weekend so I could [pump my
-    gamerscore](http://live.xbox.com/en-US/profile/Achievements/ViewAchievementDetails.aspx?tid=%09%5D:dh)k0%02p&compareTo=RayTracer)
+    gamerscore](http://live.xbox.com/en-US/profile/Achievements/ViewAchievementDetails.aspx?tid=%09%5D:dh\)k0%02p&compareTo=RayTracer)
     (a practice called [gamerscore
     whoring](http://gaming.hexus.net/content/item.php?item=4798)). I
     still need 255 points by April 22nd to complete the [Old Spice

@@ -35,8 +35,8 @@ Of course, more than two non-MC posts a week would be just fine.
     3.0](http://themechanicalbride.blogspot.com/2007/03/symbols-on-steroids-in-c.html).
     Sort of. He defines an extension method that returns the name of the
     property defined in a lambda function. On the plus side, it’s
-    strongly typed. On the minus side, “this.GetPropertySymbol(o =\>
-    o.Name)” isn’t as easy to type as “:Name”. (via
+    strongly typed. On the minus side, ``this.GetPropertySymbol(o =\>
+    o.Name)`` isn’t as easy to type as ``:Name``. (via
     [DotNetKicks](http://www.dotnetkicks.com/csharp/Symbols_in_C_3))
 -   While pseudo-symbol support is fairly verbose, Scott Guthrie [goes
     thru](http://weblogs.asp.net/scottgu/archive/2007/03/08/new-c-orcas-language-features-automatic-properties-object-initializers-and-collection-initializers.aspx)

@@ -26,7 +26,8 @@
     [JDO](http://en.wikipedia.org/wiki/Java_Data_Objects) … What’s next?
     JINQ? (via [TechMeme](http://www.techmeme.com/070508/p27))
 -   Steve Maine has a
-    [great](http://hyperthink.net/blog/PermaLink,guid,163e2844-bc01-4f6c-b721-d432666ec966.aspx)[series](http://hyperthink.net/blog/PermaLink,guid,6a82e302-d81a-4494-91dc-f6d60b2d4190.aspx)
+    [great](http://hyperthink.net/blog/PermaLink,guid,163e2844-bc01-4f6c-b721-d432666ec966.aspx)
+    [series](http://hyperthink.net/blog/PermaLink,guid,6a82e302-d81a-4494-91dc-f6d60b2d4190.aspx)
     of
     [posts](http://hyperthink.net/blog/PermaLink,guid,40c0cf83-27b1-49e7-8086-c57d1b5007cd.aspx)
     on the new Web Programming Model that’s coming in .NET 3.5 and is
