@@ -3,7 +3,7 @@
     sea](http://sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/01/30/BAGGTNR93G1.DTL)
     since Sunday. My thoughts are with him. (via [Werner
     Vogels](http://www.allthingsdistributed.com/2007/01/jim_gray_missing_at_sea.html))
--   We [launched](http://microsoftwowlaunch.com/)[Windows
+-   We [launched](http://microsoftwowlaunch.com/) [Windows
     Vista](http://www.microsoft.com/windows/products/windowsvista) and
     [Office 2007](http://office.microsoft.com/2007) yesterday. There
     were parties on campus, but [my

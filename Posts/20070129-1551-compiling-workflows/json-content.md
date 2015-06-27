@@ -1,5 +1,5 @@
-[Scott Allen](http://www.odetocode.com/blogs/scott/)[pointed
-out](http://devhawk.net/CommentView,guid,325fc7b2-6102-435a-ae94-6e2686e6889f.aspx#commentstart)
+[Scott Allen](http://www.odetocode.com/blogs/scott/)
+[pointed out](http://devhawk.net/CommentView,guid,325fc7b2-6102-435a-ae94-6e2686e6889f.aspx#commentstart)
 that if you need to declare top level properties in a XAML only
 workflow, you can subclass the root activity class, add the properties
 you want, then specify the custom subclass in the XAML workflow. That
@@ -64,7 +64,3 @@ But adding the separate compile step is a small price to pay, in my
 opinion. This approach lets me limit the workflows to XAML only while
 still allowing for top level properties which are needed in many data
 binding scenarios.
-
-*Update*: removed syntax highlighting because it looked bad in my news reader.
-
-*Later Update*: Fixed syntax highlighting.

@@ -23,8 +23,8 @@
     ExternalDataService builds on top of. The WQS docs are severely
     lacking, but it’s fairly straight forward to figure out.
 -   Speaking of WF, Tomas Restpro
-    [reviews](http://www.winterdom.com/weblog/2007/02/26/ProgrammingWindowsWorkflowFoundation.aspx)[Programming
-    WF](http://www.amazon.com/Programming-Windows-Workflow-Foundation-Techniques/dp/1904811213).
+    [reviews](http://www.winterdom.com/weblog/2007/02/26/ProgrammingWindowsWorkflowFoundation.aspx)
+    [Programming WF](http://www.amazon.com/Programming-Windows-Workflow-Foundation-Techniques/dp/1904811213).
     Sounds fairly introductory. Personally, [Essential
     WF](http://www.amazon.com/Essential-Workflow-Foundation-Microsoft-Development/dp/0321399838)
     is one of the best tech books I’ve read in a long time, so I’ll be

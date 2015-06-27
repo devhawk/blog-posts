@@ -142,7 +142,3 @@ current state of the system. But now that we have a reference to a SQL
 Server instance, we can call methods on that instance. In the next post
 (whenever that is), I’ll build some cmdlets to let me create and drop
 databases on that instance.
-
-*Update*: Removed syntax coloring from code because it looked bad in my news reader.
-
-*Later Update*: Fixed the syntax coloring

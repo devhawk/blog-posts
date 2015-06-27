@@ -23,8 +23,8 @@
     from [Dan Sullivan](http://pluralsight.com/blogs/dan/). Instead of
     building native PS support for SQL administration, PowerSMO! makes
     it easy to access SMO objects in PS. Instead of having to call
-    “new-object Microsoft.SqlServer.Management.Smo.Wmi.ManagedComputer”,
-    you call “Get-SMO\_ManagedComputer”. Even more interestingly,
+    ``new-object Microsoft.SqlServer.Management.Smo.Wmi.ManagedComputer``,
+    you call ``goGet-SMO\_ManagedComputer``. Even more interestingly,
     PowerSMO! uses metaprograming techniques to generate all the
     Get\_SMO\* methods. It iterates over all the SMO types – about 1000
     types in total – and generates the associated Get-SMO functions into

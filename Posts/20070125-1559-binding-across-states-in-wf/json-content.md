@@ -29,8 +29,11 @@ information on them is in the Advanced Activity Execution chapter of
 [Essential
 WF](http://www.aw-bc.com/catalog/academic/product/0,1144,0321399838,00.html).
 
+::: image-right
 ![Activity Property Bind
 Dialog](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/BindingAcrossStatesinWF_E0EC/BindDialog[5].gif)
+:::
+
 BTW, to deal with this, you need to promote the values that matter out
 of the individual activity instance up into the workflow instance
 itself. In the databind dialog box, there are two tabs: “Bind to an

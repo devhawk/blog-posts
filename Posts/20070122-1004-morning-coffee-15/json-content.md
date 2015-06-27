@@ -23,10 +23,8 @@
 -   [Malbolge](http://en.wikipedia.org/wiki/Malbolge_programming_language)
     is a programming lanugage that is “specifically designed to be
     difficult to program in.” Here’s [Hello
-    World](http://en.wikipedia.org/wiki/Hello_world) in Malbolge:
-
-    ````(=<`$9]7<5YXz7wT.3,+O/o'K%$H"'~D|#z@b=`{^Lx8%$Xmrkpohm-kNi;gsedcba`_^][ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543s+O<olm````
-
+    World](http://en.wikipedia.org/wiki/Hello_world) in Malbolge:\
+     ````(=<`$9]7<5YXz7wT.3,+O/o'K%$H"'~D|#z@b=`{^Lx8%$Xmrkpohm-kNi;gsedcba`_^][ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543s+O<olm````\
     Seriously. Actually, it’s worse than it looks. The effect of any
     instruction depends on where it is located in memory.  Malbolge is
     so difficult, it took [a month to write a Lisp

@@ -54,7 +54,10 @@ product. Of course, it is not exactly unheard of for a project’s end
 result not to completely live up to the original vision. But I have a
 specific requirements in this case, so I wanted to know more.
 
+::: image-right
 [![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/ReliablyBeatingaDeadHorse_131B9/image{0}_thumb.png)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/ReliablyBeatingaDeadHorse_131B9/image{0}[2].png)
+:::
+
 By calling it “misnamed”, it sounds like WS-RM was never really intended
 to be used for durable messaging. However, the July 2003 [Reliable
 Messaging Feedback
