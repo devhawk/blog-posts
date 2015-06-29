@@ -47,7 +47,7 @@ following:
 If we’re going to provide the ability to express, enforce and validate
 the expected order of messages between concurrent blocks of code, can we
 also do it for services across the network? WSDL is wholly deficient in
-this area. [SSDL’s](http://ssdl.org)[Communicating Sequential
+this area. [SSDL’s](http://ssdl.org) [Communicating Sequential
 Processes](http://ssdl.org/docs/v1.3/html/CSP%20SSDL%20Protocol%20Framework%20v1.3.html)
 (CSP) and
 [Rules-based](http://ssdl.org/docs/v1.3/html/Rules%20SSDL%20Protocol%20Framework%20v1.3.html)

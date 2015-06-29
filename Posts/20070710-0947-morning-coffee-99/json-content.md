@@ -6,8 +6,8 @@
     and restoring a snapshot. (via
     [DNK](http://www.dotnetkicks.com/architecture/Ways_to_revert_a_database_to_pre_Test_state_after_Unit_testing))
 -   [Microsoft Robotics Studio
-    1.5](http://www.microsoft.com/downloads/details.aspx?FamilyId=73092FF6-E37B-45C6-8E5E-C23D5D632B1E&displaylang=en)[released
-    yesterday](http://www.microsoft.com/presspass/press/2007/jul07/07-09msrspr.mspx).
+    1.5](http://www.microsoft.com/downloads/details.aspx?FamilyId=73092FF6-E37B-45C6-8E5E-C23D5D632B1E&displaylang=en)
+    [released yesterday](http://www.microsoft.com/presspass/press/2007/jul07/07-09msrspr.mspx).
     Tandy Trower – GM of the Robotics group – [has the
     details](http://msdn2.microsoft.com/en-us/robotics/bb625969.aspx) on
     what’s new.

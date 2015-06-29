@@ -1,7 +1,7 @@
 cd E:\dev\DevHawk\PostMarkdownProcessor\
 
 $posts = dir E:\dev\DevHawk\PostMarkdownProcessor\posts
-$cur = 989
+$cur = 1004
 function go {start $posts[$cur].fullname; $global:cur = $cur+1}
 function prev { start $posts[$cur-1].FullName }
 

@@ -109,7 +109,7 @@ public class GetSqlServerCommand : Cmdlet
     if (_Default.IsPresent)
       WriteObject(new Server(machine));
     else
-      WriteObject(new Server(machine + "\" + _Name));
+      WriteObject(new Server(machine + "-" + _Name));
   }
 }
 ```

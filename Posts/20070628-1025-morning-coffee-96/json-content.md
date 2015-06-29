@@ -20,7 +20,10 @@
     August are [Bioshock](http://www.xbox.com/games/bioshock/) and [Blue
     Dragon](http://www.xbox.com/games/bluedragonxbox360/). Of course,
     there are a
-    [few](http://www.xbox.com/games/grandtheftautoiv/)[other](http://www.xbox.com/games/assassinscreed/)[big](http://www.xbox.com/games/halo3)[games](http://www.xbox.com/games/masseffect/)
+    [few](http://www.xbox.com/games/grandtheftautoiv/)
+    [other](http://www.xbox.com/games/assassinscreed/)
+    [big](http://www.xbox.com/games/halo3)
+    [games](http://www.xbox.com/games/masseffect/)
     coming this holiday. A good, but expensive, year to be a gamer.
 -   I laughed my ass off reading Larry O’Brien’s [Top 10 Things To Do
     With Your Petaflop
@@ -32,7 +35,7 @@
     RPC-style request/response web services, so let’s just say that I am
     not a fan.  
 -   Joe McKendrick
-    [thinks](http://blogs.zdnet.com/service-oriented/?p=905)*something*
+    [thinks](http://blogs.zdnet.com/service-oriented/?p=905) *something*
     is “holding back SOA”? I don’t think it’s any one thing, but
     certainly the RPC style that most web service toolkits pretty much
     force down your throat isn’t helping.

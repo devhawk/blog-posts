@@ -70,7 +70,7 @@ folks like MVC because it’s [easier to
 test](http://codebetter.com/blogs/jeremy.miller/archive/2007/03/07/Jay_2700_s-TDD-QuickStart_2C00_-and-the-underlying-problems-he-stumbled-into.aspx)
 (among other reasons – see update below). Apparently, there’s an ASP.NET
 MVC framework that’s “[in the
-works](http://codebetter.com/blogs/jeffrey.palermo/archive/2007/03/16/Big-News-_2D00_-MVC-framework-for-ASP.NET-in-the-works-_2D00_-level-300.aspx)“,
+works](http://codebetter.com/blogs/jeffrey.palermo/archive/2007/03/16/Big-News-_2D00_-MVC-framework-for-ASP.NET-in-the-works-_2D00_-level-300.aspx)”,
 but AFAIK no one has seen or heard anything about it since the MVP
 summit. [Jeffrey
 Palermo](http://codebetter.com/blogs/jeffrey.palermo/default.aspx) was
@@ -84,7 +84,7 @@ order to be the best platform, I think the .NET Framework in general and
 ASP.NET in particular need to support multiple approaches to meet the
 needs of different developers.
 
-UPDATE – in the
+**Update**: in the
 [comments](http://devhawk.net/CommentView,guid,c444e0c2-f9e8-4625-b12a-7a4c00f859e8.aspx#commentstart),
 [Jeffrey Palermo](http://www.jeffreypalermo.com/) points out that he
 likes MVC “mostly because it separates concerns of controlling screen

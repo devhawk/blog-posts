@@ -1,6 +1,8 @@
--   [![newcapsjersey](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/b1af0a59d47f_D650/newcapsjersey_1.jpg)](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
-    The Washington Capitals [unveil their new
-    jersey](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
+-   The Washington Capitals 
+	::: image-right
+	[![newcapsjersey](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/b1af0a59d47f_D650/newcapsjersey_1.jpg)](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
+	:::
+    [unveil their new jersey](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
     tonight, though they have a picture on their web site. I’ve got
     mixed feelings, though I’m trying to reserve judgement until I see
     it “in action”. I like that they’re back to the traditional Caps
