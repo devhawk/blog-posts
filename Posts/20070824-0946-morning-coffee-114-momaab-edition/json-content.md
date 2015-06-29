@@ -16,7 +16,7 @@
     Is that something other folks might be interested in?
 -   Major thanks to the folks at [Clarity
     Consulting](http://www.claritycon.com/) who graciously gave us space
-    to meet and fed us yesterday. Their CTO ****[Jon
+    to meet and fed us yesterday. Their CTO [Jon
     Rauschenberger](http://blogs.claritycon.com/blogs/jon_rauschenberger/default.aspx)
     sat in on most of our meeting, and drove our Web 2.0 discussion. I
     said I wanted to stew a bit on the discussions, but [Jon’s

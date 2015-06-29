@@ -1,7 +1,7 @@
 cd E:\dev\DevHawk\PostMarkdownProcessor\
 
 $posts = dir E:\dev\DevHawk\PostMarkdownProcessor\posts
-$cur = 1004
+$cur = 1039
 function go {start $posts[$cur].fullname; $global:cur = $cur+1}
 function prev { start $posts[$cur-1].FullName }
 
@@ -10,6 +10,13 @@ function edit {
 	$dirName = [IO.Path]::GetFileNameWithoutExtension($posts[$cur-1].Name);
 	$mdFileName = [IO.Path]::Combine("E:\dev\DevHawk\Content\Posts", $dirName, "json-content.md")
 	notepad $mdFileName
+}
+
+function old {
+
+	$dirName = [IO.Path]::GetFileNameWithoutExtension($posts[$cur-1].Name);
+	$oldFileName = [IO.Path]::Combine("E:\dev\DevHawk\Content\Posts", $dirName, "downloaded-item-content.html")
+	start $oldFileName
 }
 
 function explore {

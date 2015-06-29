@@ -36,7 +36,7 @@ standard range syntax that looks like (1..10), but I couldn’t find the
 equivalent C\#. Did I miss something, or am I really on my own to write
 a GetRange function?
 
-**Update** – As expected, I
+**Update**: As expected, I
 missed something. John Lewicki pointed me to the static
 [Enumerable.Range](http://msdn2.microsoft.com/en-us/library/system.linq.enumerable.range(VS.90).aspx)
 method that does exactly what I needed.

@@ -2,7 +2,7 @@
     conversation](http://lsblog.wordpress.com/2007/07/30/epilog-on-durable-message-discussion/)
     about durable messaging. We still don’t agree, but he says he “fine”
     with durable messaging. He does go out of his way to differentiate
-    between \*enterprise\* and \*supporting\* systems. But when you’re
+    between *enterprise* and *supporting* systems. But when you’re
     building connected systems, does that differentiation still matter?
 -   After taking a few months off, [John
     deVadoss](http://blogs.msdn.com/jdevados/) is [back at the
@@ -36,7 +36,8 @@
     Powershell? Finally, Martin’s “jigger of 80 proof ugliness” quote
     made me laugh.
 -   Politics 2.0 Watch: EJ Dionne [says
-    that](http://www.washingtonpost.com/wp-dyn/content/article/2007/08/02/AR2007080202023.html)[DailyKos](http://www.dailykos.com/)
+    that](http://www.washingtonpost.com/wp-dyn/content/article/2007/08/02/AR2007080202023.html)
+    [DailyKos](http://www.dailykos.com/)
     is doing for Democrats what [Rush
     Limbaugh](http://www.rushlimbaugh.com/) did for Republicans almost
     twenty years ago: mobilization. Josh Marshall [points

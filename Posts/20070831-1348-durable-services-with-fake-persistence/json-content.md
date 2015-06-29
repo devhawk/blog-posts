@@ -34,7 +34,7 @@ collection](http://referencesource.microsoft.com/#System.ServiceModel/System/Ser
 created by the base class.
 [BasicHttpContextBinding](http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/BasicHttpContextBinding.cs,b69fd93ab77f85aa)
 and
-[netTcpContextBinding]http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/NetTcpContextBinding.cs,c087854154279a2f)
+[netTcpContextBinding](http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/NetTcpContextBinding.cs,c087854154279a2f)
 work the same way.
 
 Even after changing to wsHttpContextBinding, we’re still getting an

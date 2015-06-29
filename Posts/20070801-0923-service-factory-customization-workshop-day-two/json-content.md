@@ -39,11 +39,11 @@ VS08 beta 2 SDK should also be available “early August”. So if you’re
 moving over to VS08 (I am), you can still get down and dirty with
 software factories.
 
-Update: VS08 SDK for Beta 2 is [now
-available](http://www.microsoft.com/downloads/details.aspx?FamilyID=d9000e2c-bd3f-4717-a181-723960814e16&displaylang=en).
-The new version of GAT is [apparently
-done](http://blogs.msdn.com/agile/archive/2007/07/19/shipping-gax-1-3.aspx),
+**Update**: VS08 SDK for Beta 2 is 
+[now available](http://www.microsoft.com/downloads/details.aspx?FamilyID=d9000e2c-bd3f-4717-a181-723960814e16&displaylang=en).
+The new version of GAT is 
+[apparently done](http://blogs.msdn.com/agile/archive/2007/07/19/shipping-gax-1-3.aspx),
 but isn’t available for download yet.
 
-Later Update: GAX/GAT July CTP is [now
-available](http://blogs.msdn.com/agile/archive/2007/08/02/new-gax-gat-july-2007-released.aspx).
+**Later Update**: GAX/GAT July CTP is 
+[now available](http://blogs.msdn.com/agile/archive/2007/08/02/new-gax-gat-july-2007-released.aspx).

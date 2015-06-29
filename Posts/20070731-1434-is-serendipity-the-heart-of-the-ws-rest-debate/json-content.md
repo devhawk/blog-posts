@@ -26,8 +26,7 @@ your site via
 [APP](http://en.wikipedia.org/wiki/Atom_Publishing_Protocol), RSS and/or
 RESTful POX services. In other words, the Web 2.0 community expects you
 to have the forethought to enable integration. If you don’t, Marc Canter
-[will call you
-out](http://blog.broadbandmechanics.com/2006/03/bill-and-tim-rap-it-out-i-ask-the-1st-question)
+[will call you out](http://blog.broadbandmechanics.com/2006/03/bill-and-tim-rap-it-out-i-ask-the-1st-question)
 in front of Bill Gates and Tim O’Reilly. 
 
 This integration by afterthought approach seems to be big among
@@ -50,10 +49,11 @@ useful](http://encarta.msn.com/dictionary_/serendipity.html)“.
 reuse](http://devhawk.net/2007/07/25/now-how-much-would-you-pay-for-this-code/).
 Most enterprises have been there, done that and have nothing to show for
 their efforts or \$\$\$ except the team t-shirt. Yet [Tim
-Berners-Lee](http://en.wikipedia.org/wiki/Tim_Berners-Lee)[believes](http://www.w3.org/2005/Talks/0511-keynote-tbl)
-“Unexpected reuse is the value of the web” and [Roy
-Fielding](http://en.wikipedia.org/wiki/Roy_Fielding)[tells us
-to](http://tech.groups.yahoo.com/group/rest-discuss/message/8343) “Engineer
+Berners-Lee](http://en.wikipedia.org/wiki/Tim_Berners-Lee)
+[believes](http://www.w3.org/2005/Talks/0511-keynote-tbl)
+“Unexpected reuse is the value of the web” and 
+[Roy Fielding](http://en.wikipedia.org/wiki/Roy_Fielding)
+[tells us to](http://tech.groups.yahoo.com/group/rest-discuss/message/8343) “Engineer
 for serendipity”. What gives?
 
 First off, enterprises aren’t interested in unexpected or serendipitous

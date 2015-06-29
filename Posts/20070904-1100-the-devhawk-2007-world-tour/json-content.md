@@ -5,9 +5,8 @@ these please [drop me a line](mailto:harry.pierson@microsoft.com).
 Invariably, it’s the side meetings and discussions that are the most
 valuable at these conferences.
 
-**[IT Architect Regional Conference
-2007](http://www.iasahome.org/web/socal/itarc2007)\
-**October 15th – 16th, San Diego, CA
+**[IT Architect Regional Conference 2007](http://www.iasahome.org/web/socal/itarc2007)**\
+October 15th – 16th, San Diego, CA
 
 I’m a huge fan of [IASA](http://www.iasahome.org), so I’m thrilled to be
 doing their west regional conference. I’ve presented to a packed house
@@ -88,8 +87,8 @@ Here are the sessions I’m doing:
 > what you must do today to remain competitive.
 
 > **[Facing the Fallacies of Distributed
-> Computing](http://devteach.com/wconnect/wc.dll?FournierTransformation~1,5,1,1019)\
-> **Sun Fellow Peter Deutsch is credited with authoring “The Eight
+> Computing](http://devteach.com/wconnect/wc.dll?FournierTransformation~1,5,1,1019)**\
+> Sun Fellow Peter Deutsch is credited with authoring “The Eight
 > Fallacies of Distributed Computing”. These are near-universal
 > assumptions about distributed systems that “All prove to be false in
 > the long run and all cause big trouble and painful learning

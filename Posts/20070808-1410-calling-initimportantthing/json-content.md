@@ -30,7 +30,7 @@ But if this design is stupid, what would be a better design? After
 thinking about this specific problem a while, I’m don’t think there is a
 better design out there.
 
-The question is, when is**the right time to set up the service
+The question is, when is the right time to set up the service
 description? Jon called ServiceDescription “essential” to the operation
 of ServiceHostBase. That implies it should be configured during the
 construction of a new service host instance. It wouldn’t do to have

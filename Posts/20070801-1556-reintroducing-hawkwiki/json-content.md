@@ -39,5 +39,5 @@ So feel free to take the wiki code and mangle it to your heart’s
 content. If there’s interest, I’d be willing to grant some other folks
 checkin permission. However, it’s more a curiosity than a real project,
 so if you’re really interested in a .NET based wiki, there are
-[better](http://www.screwturn.eu/)[choices](http://www.flexwiki.com/)
+[better](http://www.screwturn.eu/) [choices](http://www.flexwiki.com/)
 out there.

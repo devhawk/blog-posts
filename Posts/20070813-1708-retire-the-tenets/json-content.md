@@ -4,19 +4,19 @@ in mostly violent agreement. It’s kinda like me saying “You da
 architect! Look at my massive scale EAI Mashup!” and having him respond
 “No, you da architect! The SOA tenets drive me bonkers!” Makes you
 wonder what would happen after a few beers. What’s the architect version
-of [Tastes Great, Less
-Filling](http://en.wikipedia.org/wiki/Miller_Lite#Advertising)? [1]
+of [Tastes Great, Less Filling](http://en.wikipedia.org/wiki/Miller_Lite#Advertising)? 
+^[Not that you would catch me drinking Miller Lite. Ever.]
 
 Speaking of [the
 tenets](http://msdn.microsoft.com/msdnmag/issues/04/01/Indigo/default.aspx#S1),
 John gives them a good shredding:
 
-> Tenet 1: Boundaries are Explicit\
+> **Tenet 1: Boundaries are Explicit**\
 > (Sure, but isn’t everything? Ok, so SQL based integration strategies
 > don’t fall into this category. How do I build a good boundary? What
 > will version better? What has a lower barrier to mashup/integration?)
 >
-> Tenet 2: Services are Autonomous\
+> **Tenet 2: Services are Autonomous**\
 > (Right. This is a great goal, but provides no guidance or boundaries
 > to achieve it.)
 >
@@ -24,7 +24,7 @@ John gives them a good shredding:
 > (So do all of my OO programs with interface and classes. What is
 > different from OO design that makes SOA something else?)
 >
-> Tenet 4: Service compatibility is based upon policy\
+> **Tenet 4: Service compatibility is based upon policy**\
 > (This is a good start: the types and scope of policy can shape an
 > architecture. The policies are the constraints in a system. There not
 > really defined though, just a statement that they should be there.)
@@ -98,6 +98,3 @@ the tenets’ job is done and it’s time to retire them. Once you accept
 the service-oriented paradigm, what further guidance do the tenets
 provide? Not much, if any.
 
-------------------------------------------------------------------------
-
-[1] Not that you would catch me drinking Miller Lite. Ever.

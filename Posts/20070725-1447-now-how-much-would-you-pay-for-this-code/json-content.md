@@ -3,9 +3,8 @@ Via [Larkware](http://www.larkware.com/dg8/TheDailyGrind1193.aspx) and
 a great post on code reuse by Dennis Forbes: [Internal Code Reuse
 Considered
 Dangerous](http://www.yafla.com/dennisforbes/Internal-Code-Reuse-Considered-Dangerous/Internal-Code-Reuse-Considered-Dangerous.html).
-I’ve [written
-about](http://devhawk.net/2006/09/19/a-question-of-context/)[reuse
-before](http://devhawk.net/2006/09/20/feasible-service-reuse/),
+I’ve [written about](http://devhawk.net/2006/09/19/a-question-of-context/)
+[reuse before](http://devhawk.net/2006/09/20/feasible-service-reuse/),
 albeit in the context of services. But where I wrote about the impact of
 context on reuse (high context == low or no reuse), Dennis focused on
 the idea of accidental reuse. Here’s the money quote from Dennis:
