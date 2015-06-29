@@ -1,5 +1,8 @@
-![](http://s3.amazonaws.com/devhawk_images/teched07_120X90_v2w.jpg) One
-of the things that’s different about being in MSIT is that it’s cut my
+::: image-left
+![](http://s3.amazonaws.com/devhawk_images/teched07_120X90_v2w.jpg) 
+:::
+
+One of the things that’s different about being in MSIT is that it’s cut my
 travel dramatically. Basically, the only travel I’ve done since taking
 this job was [Thomas Erl’s SOA
 Workshop](http://devhawk.net/2006/09/27/thoughts-on-the-soa-workshop/)
@@ -32,8 +35,8 @@ to attend sessions, chat up attendees and [ride roller
 coasters](http://www.microsoft.com/events/teched2007/attendeeparty.mspx).
 Hope to see you there.
 
-> **ROME: Service Oriented Infrastructure for the Enterprise\
-> **Like most enterprises, Microsoft IT is adopting a service oriented
+> **ROME: Service Oriented Infrastructure for the Enterprise**\
+> Like most enterprises, Microsoft IT is adopting a service oriented
 > approach for the development of their internal systems. However, in
 > order to avoid projects building similar service infrastructures on a
 > per application basis, MSIT realizes the need for a common service

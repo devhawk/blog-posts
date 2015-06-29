@@ -1,5 +1,6 @@
 Here is a roundup of some responses to my
-[REST](http://devhawk.net/2007/05/24/rest-is-neither-crud-nor-crap/)[discussion](http://devhawk.net/2007/05/25/this-isnt-the-droid-im-looking-for/)
+[REST](http://devhawk.net/2007/05/24/rest-is-neither-crud-nor-crap/)
+[discussion](http://devhawk.net/2007/05/25/this-isnt-the-droid-im-looking-for/)
 with [David Ing](http://www.from9till2.com). Mostly, I’m passing them
 along with minimal comment so I figured I’d group them into one post.
 
@@ -27,8 +28,9 @@ agreeing with
 GET and PUT”. Generally speaking, I agree with people when they agree
 with me, and this is no exception. Erik also has [a REST
 post](http://appside.blogspot.com/2007/05/rest-protocols-are-service-layer.html)
-that predated my dustup with David(\*) where he reaches some interesting
-conclusions about designing REST style systems.
+that predated my dustup with David^[It’s a very polite dustup, characterized 
+mostly by agreement rather than disagreement. Which makes it, as dustups go, very boring.]
+where he reaches some interesting conclusions about designing REST style systems.
 
 Bill de Hora [weighs
 in](http://www.dehora.net/journal/2007/05/wouldnt_start_from_there.html),
@@ -63,7 +65,4 @@ if WCF is really “future-proof”, but the ability to add [significant
 changes](https://www.gazitt.com/blog/PermaLink,guid,a8383226-a0dd-48c5-9fea-33d5da159d17.aspx)
 in a .5 release is a fairly good sign.
 
-------------------------------------------------------------------------
 
-(\*) It’s a very polite dustup, characterized mostly by agreement rather
-than disagreement. Which makes it, as dustups go, very boring.

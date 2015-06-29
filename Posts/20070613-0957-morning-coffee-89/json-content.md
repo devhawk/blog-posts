@@ -1,6 +1,7 @@
--   [![akira](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee89_143E6/akira_1.jpg)](http://www.imdb.com/title/tt0094625/)[Akira
-    in HD from XBL Video
-    Marketplace](http://www.majornelson.com/archive/2007/06/12/video-marketplace-releases-for-week-of-6-11-07.aspx)?
+-	[Akira in HD from XBL Video Marketplace](http://www.majornelson.com/archive/2007/06/12/video-marketplace-releases-for-week-of-6-11-07.aspx)?
+	::: image-right
+	[![akira](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee89_143E6/akira_1.jpg)](http://www.imdb.com/title/tt0094625/)
+	:::
     Cool*ness*.
 -   Omar Shahine has the [WL Hotmail + Outlook
     scoop](http://www.shahine.com/omar/HotmailOutlookSweet.aspx).
@@ -41,7 +42,7 @@
     reminds me of the famous Groucho Marx quote: “I don’t want to belong
     to any club that will accept me as a member.” Though maybe I’m just
     bitter because “Working at MS” has been deemed “[not
-    hot](http://weblogs.asp.net/rosherove/archive/2007/06/04/alt-net-alternative-tools-and-approaches-to-mainstream-net.aspx)“.
+    hot](http://weblogs.asp.net/rosherove/archive/2007/06/04/alt-net-alternative-tools-and-approaches-to-mainstream-net.aspx)”.
     :smile:
 
 

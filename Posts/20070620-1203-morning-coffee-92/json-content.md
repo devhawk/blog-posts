@@ -36,9 +36,10 @@
     priority](http://powershelllive.com/)“. That’s pretty cool. I wonder
     how many other micro-ISV’s take the approach of “pay me now and you
     get to help me pick some of the new features.”
--   [![My Monitor
-    Setup](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062_thumb.jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062.jpg) Brandon
-    LeBlanc
+-   Brandon LeBlanc
+	::: image-right
+	[![My Monitor Setup](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062_thumb.jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062.jpg)
+	:::
     [writes](http://windowsvistablog.com/blogs/windowsexperience/archive/2007/06/20/running-a-dual-monitor-setup-with-windows-vista.aspx)
     about dual monitor support in Vista. I’m loving the dual monitor
     support, though I have a somewhat strange setup. I keep my primary

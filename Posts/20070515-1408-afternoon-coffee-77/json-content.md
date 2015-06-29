@@ -64,5 +64,5 @@
     factory for Visual Studio Extensibility. Pablo Galiano [has
     more](http://www.clariusconsulting.net/blogs/pga/archive/2007/04/03/23974.aspx).
 
-Update: I mistakenly attributed the VSIPFactory to p&p. It’s from
+**Update**: I mistakenly attributed the VSIPFactory to p&p. It’s from
 Clarius. Sorry guys.

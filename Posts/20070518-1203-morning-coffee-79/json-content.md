@@ -1,5 +1,6 @@
 -   Soma
-    [announces](http://blogs.msdn.com/somasegar/archive/2007/05/18/popfly.aspx)[PopFly](http://www.popfly.ms),
+    [announces](http://blogs.msdn.com/somasegar/archive/2007/05/18/popfly.aspx)
+    [PopFly](http://www.popfly.ms),
     the “fun, easy way to build and share mashups, gadgets, Web pages,
     and applications” from the [Non-Professional tools
     team](http://www.popfly.ms/Overview/About.aspx). The PopFly [team

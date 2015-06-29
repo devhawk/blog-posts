@@ -4,8 +4,8 @@ entry [on his
 blog](http://www.from9till2.com/PermaLink.aspx?guid=2dbee669-07fd-435e-a5f9-51f709ef183f),
 I guess that means I respond to his response here, right?
 
-Actually, this is going to be very short(\*) because I mostly agree with
-what David wrote. For example:
+Actually, this is going to be very short^[Wow, this post wasn’t that short at all. Can you imagine how long this would have been if I had mostly disagreed with David?] 
+because I mostly agree with what David wrote. For example:
 
 > If we say stuff like ‘REST shall/must replace all foolish WS-\* SOAP
 > systems (insert Nelson-style HaHa here)’ then we are just repeating
@@ -49,12 +49,8 @@ you’ll probably need to gravitate towards REST as protocol state. But
 can’t the two models can co-exist nicely, even in the same app? No
 re-education required.
 
-UPDATE – From [Fielding’s
+**Update**: – From [Fielding’s
 Dissertation](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm):
 “REST relies instead on the author choosing a resource identifier that
 best fits the nature of the concept being identified”. My point exactly.
 
-------------------------------------------------------------------------
-
-(\*) Wow, this post wasn’t that short at all. Can you imagine how long
-this would have been if I had mostly disagreed with David?

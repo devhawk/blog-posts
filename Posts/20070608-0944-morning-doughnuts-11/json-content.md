@@ -35,7 +35,7 @@ entries interesting.
     I heartedly agree with this endorsement as the book is excellent.
 -   It looks like there are going to be more family friendly
     [games](http://www.bloomberg.com/apps/news?pid=20601204&sid=an_wjSge1RpQ&refer=technology)
-    for the XBOX360. I for one am glad to hear that. The other day as I
+    for the Xbox 360. I for one am glad to hear that. The other day as I
     was trying to find some games my 4 year old with the broken leg
     could play I realized how many games I have that wouldn’t be
     appropriate for him. This is very good news in my opinion.

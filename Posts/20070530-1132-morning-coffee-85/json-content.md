@@ -1,6 +1,6 @@
 -   Microsoft
-    [announces](http://www.microsoft.com/presspass/press/2007/may07/05-29MSSurfacePR.mspx)[Surface
-    Computing](http://www.microsoft.com/surface/). When can you buy one
+    [announces](http://www.microsoft.com/presspass/press/2007/may07/05-29MSSurfacePR.mspx)
+    [Surface Computing](http://www.microsoft.com/surface/). When can you buy one
     for your house? Probably not anytime soon. TechMeme has [lots
     more](http://www.techmeme.com/070530/p1).
 -   The one piece of swag I want more than anything else at TechEd is an

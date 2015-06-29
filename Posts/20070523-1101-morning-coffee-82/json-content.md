@@ -20,7 +20,8 @@
     talk](http://www.iunknown.com/files/dlr_experiences.pdf) on the DLR.
     Miguel de Icaza is
     [there](http://tirania.org/blog/archive/2007/May-17.html), with
-    [fairly](http://tirania.org/blog/archive/2007/May-17.html)[extensive](http://tirania.org/blog/archive/2007/May-23.html)
+    [fairly](http://tirania.org/blog/archive/2007/May-17.html)
+    [extensive](http://tirania.org/blog/archive/2007/May-23.html)
     notes. Hopefully they will post talks like they did [last
     year](http://www.langnetsymposium.com/speakers.asp).
 -   Speaking of languages, Scott Hanselman

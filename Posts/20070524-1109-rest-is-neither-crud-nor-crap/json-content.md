@@ -5,7 +5,10 @@ Ing](http://www.from9till2.com/)[asked](http://devhawk.net/CommentView,guid,8102
 CRUD-adverse? Is there a happy place where the two can go for coffee?”
 Sure there is: I hear [Tim Ewald’s XML
 Nation](http://pluralsight.com/blogs/tewald/) serves great coffee and
-the scones are pretty good. (\*)
+the scones are pretty good. ^[Actually, I have no idea if Tim even likes coffee or scones. FYI,
+DevHawk Nation would not feature great coffee or pretty good scones. We
+would, however, have [Arrogant Bastard
+Ale](http://www.arrogantbastard.com/index2.html) on tap.]
 
 Seriously, the key observation that Tim [recently
 made](http://pluralsight.com/blogs/tewald/archive/2007/04/26/46984.aspx)
@@ -75,10 +78,3 @@ services, the protocol state is trivial, so that works fine. However, in
 the scenarios I face, long running services are the norm and managing
 the protocol state is critical. I’ve got some ideas on how to do that,
 but that’s a future blog post.
-
-------------------------------------------------------------------------
-
-(\*) Actually, I have no idea if Tim even likes coffee or scones. FYI,
-DevHawk Nation would not feature great coffee or pretty good scones. We
-would, however, have [Arrogant Bastard
-Ale](http://www.arrogantbastard.com/index2.html) on tap.

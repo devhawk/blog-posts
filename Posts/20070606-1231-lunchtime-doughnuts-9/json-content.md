@@ -1,5 +1,6 @@
 -   I am a few days behind on this, but [Joe
-    McKendrick](http://updates.zdnet.com/tags/Joe+McKendrick.html)[writes](http://blogs.zdnet.com/service-oriented/?p=887)
+    McKendrick](http://updates.zdnet.com/tags/Joe+McKendrick.html)
+    [writes](http://blogs.zdnet.com/service-oriented/?p=887)
     an interesting piece on if businesspeople are begging for SOA. It
     is fascinating because I believe that SOA should come from the
     business, not because of the delivery mechanism, but because of the

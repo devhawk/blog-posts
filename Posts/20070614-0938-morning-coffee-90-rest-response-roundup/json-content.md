@@ -16,7 +16,7 @@ Probably most interesting to the discussion at hand was [John
 Heintz](http://johnheintz.blogspot.com)‘
 [comment](http://devhawk.net/CommentView,guid,87AE6135-942F-4476-9DD7-9992CF073A7A.aspx#f43c3ac6-f719-428d-b5f7-ce84ef8a707f) pointing
 out the existence of
-“[Waka](http://en.wikipedia.org/wiki/Waka_%28protocol%29)“,  a new
+“[Waka](http://en.wikipedia.org/wiki/Waka_%28protocol%29)” ,  a new
 transfer protocol to replace HTTP from Roy Fielding. The fact that Dr.
 REST is working on a new protocol that’s designed to be more RESTful
 than HTTP should put to bed any REST “is and only is” HTTP arguments.
