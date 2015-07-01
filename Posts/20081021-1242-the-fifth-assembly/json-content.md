@@ -35,9 +35,10 @@ existing DLR or IPy extension methods. So instead, we went with a
 different solution that we like to refer to as “The Fifth Assembly”
 around the office.
 
-[![IPy
-References](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_thumb.png "IPy References")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_2.png) In
-IronPython 2.0 Beta 5, there were four DLLs that implement IronPython:
+::: image-right
+[![IPy References](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_thumb.png "IPy References")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_2.png) 
+::: 
+In IronPython 2.0 Beta 5, there were four DLLs that implement IronPython:
 IronPython.dll, IronPython.Modules.dll, Microsoft.Scripting.dll and
 Microsoft.Scripting.Core.dll. In our RC1 release, we’ve added “The Fifth
 Assembly”: Microsoft.Scripting.ExtensionAttribute.dll. As you might
@@ -50,8 +51,10 @@ Microsoft.Scripting.ExtensionAttribute.dll in the same project.
 In IronPython, we reference the ExtensionAttribute assembly because we
 use the C\# 3.0 complier but IPy has to be able to run on .NET Framework
 2.0 SP1.
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_thumb_1.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_4.png) However,
-projects that embed IronPython in a .NET 3.5 project (aka C\# 3.0 or VB
+::: image-left
+[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_thumb_1.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheFifthAssembly_B085/image_4.png) 
+:::
+However, projects that embed IronPython in a .NET 3.5 project (aka C\# 3.0 or VB
 9.0) will reference System.Core instead. The only reason why you would
 explicitly use the ExtensionAttribute assembly was that if you, like us,
 wanted to build your app with .NET 3.5, use extension methods but still

@@ -1,4 +1,8 @@
-![](http://s3.amazonaws.com/devhawk_images/wga-support.png) Most of my
+::: image-right
+![](http://s3.amazonaws.com/devhawk_images/wga-support.png) 
+:::
+
+Most of my
 readers get DevHawk via the RSS feed, so I wanted to explicitly call out
 a new addition to my flair. If you’re not aware, the [Writers Guild of
 America](http://www.wga.org/) is on strike. When you buy a \$20 DVD, the

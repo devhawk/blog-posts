@@ -86,7 +86,9 @@ posts.
     supports extensions properties, static methods and events, though
     like Matt I can’t think of a good use for extension events.
 -   Still speaking about F\#, Andrew Kennedy has a
-    [three](http://blogs.msdn.com/andrewkennedy/archive/2008/08/29/units-of-measure-in-f-part-one-introducing-units.aspx)[part](http://blogs.msdn.com/andrewkennedy/archive/2008/09/02/units-of-measure-in-f-part-two-unit-conversions.aspx)[series](http://blogs.msdn.com/andrewkennedy/archive/2008/09/04/units-of-measure-in-f-part-three-generic-units.aspx)
+    [three](http://blogs.msdn.com/andrewkennedy/archive/2008/08/29/units-of-measure-in-f-part-one-introducing-units.aspx)
+    [part](http://blogs.msdn.com/andrewkennedy/archive/2008/09/02/units-of-measure-in-f-part-two-unit-conversions.aspx)
+    [series](http://blogs.msdn.com/andrewkennedy/archive/2008/09/04/units-of-measure-in-f-part-three-generic-units.aspx)
     on the new units of measure feature of F\#. If you were going to use
     F\# to build the physics engine of a game, I would suspect UoM would
     be extremely useful. (via [Don

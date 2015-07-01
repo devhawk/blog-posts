@@ -14,11 +14,11 @@ SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Cont
 If you using the [CodeHTMLer WL Writer
 Plug-in](http://puzzleware.net/download.aspx?file=/codehtmler/codehtmler.livewriterplugin.zip),
 you can easily add this to your machine. Once you’ve installed
-CodeHTMLer and run it once, go to the command line and type “cd
-%appdata%WindowsLiveWriter” and you’ll find the LanguageDefinitions.xml
+CodeHTMLer and run it once, go to the command line and type ``cd
+%appdata%WindowsLiveWriter`` and you’ll find the LanguageDefinitions.xml
 file. Edit that file to insert the add the contents of [my F\# language
 definition](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/F%7C3%20CodeHTMLer%20Language%20Definition.xml)
-after the \<CodeLanguages\> tag and you’re all set.
+after the ``<CodeLanguages>`` tag and you’re all set.
 
 BTW, the first language in the file will be the default language in the
 plug-in, so if you’re an occasional F\# user, you might want to add the

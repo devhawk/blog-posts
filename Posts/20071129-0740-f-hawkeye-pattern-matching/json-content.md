@@ -30,8 +30,8 @@ a function. Yet, since I’m using the active pattern syntax, I can use
 them in pattern matching clauses. This allows me to chain together
 functions in a single match clause rather than having multiple match
 statements. And it’s very readable. For example, the function to
-recognize the grammar production “Additive  \<- Multitive ‘+’ Additive |
-Multitive” is translated into the following F\#:
+recognize the grammar production ``Additive  <- Multitive ‘+’ Additive |
+Multitive`` is translated into the following F\#:
 
 ``` fsharp
 and (|Additive|_|) input =

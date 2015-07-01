@@ -3,7 +3,7 @@ yet? Probably, but I’ve got a few thoughts anyway.
 
 First, if Obama runs his presidency like he ran his candidacy, he’ll be
 a great president and will win reelection in a cakewalk. Obviously,
-there are \*huge\* challenges ahead, but I have faith his administration
+there are *huge* challenges ahead, but I have faith his administration
 will be able to handle them.
 
 Second, assuming prediction \#1 pans out, we’ll see another wide open

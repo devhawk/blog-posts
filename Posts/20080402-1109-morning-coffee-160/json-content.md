@@ -67,19 +67,19 @@ Other Stuff
     “aspnet” not “aspnetmvc” which makes me wonder if they might release
     the source to more ASP.NET stuff over time.
 -   Speaking of Scott Guthrie, today he blogged about [unit testing in
-    SilverLight](http://weblogs.asp.net/scottgu/archive/2008/04/02/unit-testing-with-silverlight.aspx).
+    Silverlight](http://weblogs.asp.net/scottgu/archive/2008/04/02/unit-testing-with-silverlight.aspx).
     Jeff Wilcox appears to have the [definitive
     post](http://www.jeff.wilcox.name/2008/03/31/silverlight2-unit-testing/)
     on the subject, including links to the SilverLight testing framework
     (it’s included in the [SL Controls source code
     release](http://www.microsoft.com/downloads/details.aspx?FamilyId=EA93DD89-3AF2-4ACB-9CF4-BFE01B3F02D4&displaylang=en)).
-    He also provides a prebuilt “SilverLight Test” project template for
+    He also provides a prebuilt “Silverlight Test” project template for
     easy download. Personally, I really like the in-browser test runner.
     I wonder how hard it would be to hook that up to
     [DySL](http://dynamicsilverlight.net/) so you could write your tests
     in IPy? (given that IPy doesn’t have attributes, I’m guessing
     there’d be at least a bit of work involved in making this happen)
--   Speaking of SilverLight,
+-   Speaking of Silverlight,
     [apparently](http://www.microsoft.com/presspass/press/2008/apr08/04-01WM61PR.mspx?rss_fdn=Press%20Releases)
     the [next version of Windows
     Mobile](http://www.microsoft.com/windowsmobile/6-1/default.mspx)

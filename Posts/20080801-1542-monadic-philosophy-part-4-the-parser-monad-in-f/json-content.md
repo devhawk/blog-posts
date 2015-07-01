@@ -45,8 +45,8 @@ input.
 
 Next up is are the monad functions Bind and Result. The only significant
 change from the C\# version is that I used the custom operator \>\>= for
-the Bind function. So instead of calling “Item().Bind(some\_function)”,
-we can call “Item \>\>= some\_function”. F\# functions aren’t attached
+the Bind function. So instead of calling ``Item().Bind(some\_function)``,
+we can call ``Item \>\>= some\_function``. F\# functions aren’t attached
 to a type like C\# extension methods are, so this is the only way to get
 the more readable infix notation. I’m using \>\>= as the bind operator
 because that’s the operator [Haskell

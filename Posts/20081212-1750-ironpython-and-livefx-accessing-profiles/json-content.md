@@ -46,7 +46,7 @@ print linq.Count(loe.Contacts.Entries)
 ```
 
 I did modify the app slightly, reading the WLID and password off the
-console – I was \*sure\* I would accidently post my personal credentials
+console – I was *sure* I would accidently post my personal credentials
 if I left them embedded in the app. Otherwise, it’s a straight port.
 First, I add references the LiveFX dlls. Since they’re not local to my
 script, I add the directory where they’re installed to sys.path, which

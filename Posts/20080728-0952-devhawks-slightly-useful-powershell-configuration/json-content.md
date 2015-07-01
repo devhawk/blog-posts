@@ -53,7 +53,7 @@ My \$PROFILE script does several things of note:
 -   I use [7-zip](http://www.7-zip.org/) for my compression needs,
     including the 7za command line app. However, PS has issues w/
     executing an exe that starts with a number. So I aliased 7za as
-    “zip”. **UPDATE:** Tomas [points
+    “zip”. **Update:** Tomas [points
     out](http://twitter.com/tomasrestrepo/statuses/870758014) that you
     can prepend an ampersand to force execution, so I could have typed
     “&7za”. I forgot that when I created the alias and am now used to

@@ -56,7 +56,7 @@ However, IronPython doesn’t support any of the XML parsing modules from
 Python’s standard library. They’re all based on a C-based python module
 called
 [pyexpat](http://docs.python.org/lib/module-xml.parsers.expat.html)
-which IronPython can’t load. [1] I wanted a pulldom type model, so I
+which IronPython can’t load. [^1] I wanted a pulldom type model, so I
 decided to wrap XmlReader to provide a similar API and lets me write
 code like this:
 
@@ -82,9 +82,7 @@ Stuff](http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Conte
 It’s fairly short – only about 45 lines of code. Feel free to use it if
 you need it.
 
-------------------------------------------------------------------------
-
-[1] The [FePy project](http://fepy.sourceforge.net/) has a [.NET port of
+[^1]: The [FePy project](http://fepy.sourceforge.net/) has a [.NET port of
 pyexpat](https://fepy.svn.sourceforge.net/svnroot/fepy/trunk/lib/pyexpat.py)
 as part of their distribution, so I assume that lets you use the
 standard pulldom implementation in IPy. FePy looks really cool but I

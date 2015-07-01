@@ -1,6 +1,6 @@
 -   Another nice thing about the new job: I’m working in the vicinity of
     some good friends. I was over in building 42 yesterday and made it a
-    point to stop by [Pat Helland](http://blogs.msdn.com/pathelland/)‘s
+    point to stop by [Pat Helland](http://blogs.msdn.com/pathelland/)'s
     office yesterday and spend an hour or so chatting about the new gig.
     Pat is down the hall from [David
     Hill](http://blogs.msdn.com/dphill/), whom I worked with on
@@ -31,7 +31,7 @@
     [comment](http://www.scripting.com/stories/2008/04/08/earlyNotesOnGoogleapps.html)
     that this enables “shrinkwrap net apps that scale that can be
     deployed by civillians.” Given Google’s history w/ Python – Python’s
-    [BDFL](http://wiki.python.org/moin/BDFL)[Guido van
+    [BDFL](http://wiki.python.org/moin/BDFL) [Guido van
     Rossum](http://www.python.org/~guido/) works there – it’s no
     surprise that Google App Engine (GAE?) [runs on
     Python](http://code.google.com/appengine/kb/general.html#language),

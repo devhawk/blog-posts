@@ -12,13 +12,12 @@ to push out a few things.
 -   I’ve got an [article on
     IronPython](http://www.code-magazine.com/Article.aspx?quickid=0809071)
     in the latest issue of CoDe magazine. Also check out [Brad
-    Wilson’s](http://bradwilson.typepad.com/)[IronRuby
-    article](http://www.code-magazine.com/Article.aspx?quickid=0809061),
-    [Ted Neward’s](http://blogs.tedneward.com/)[F\#
-    article](http://www.code-magazine.com/Article.aspx?quickid=0809051)
-    and [Neil Ford’s](http://memeagora.blogspot.com/)[Polygot
-    Programming
-    article](http://www.code-magazine.com/Article.aspx?quickid=0809041).
+    Wilson’s](http://bradwilson.typepad.com/)
+    [IronRuby article](http://www.code-magazine.com/Article.aspx?quickid=0809061),
+    [Ted Neward’s](http://blogs.tedneward.com/)
+    [F\# article](http://www.code-magazine.com/Article.aspx?quickid=0809051)
+    and [Neil Ford’s](http://memeagora.blogspot.com/)
+    [Polygot Programming article](http://www.code-magazine.com/Article.aspx?quickid=0809041).
 -   Via Michael Foord I discovered that IronPython tester Dave Fugate is
     [back on the blog](http://knowbody.livejournal.com/). He starts with
     a [couple](http://knowbody.livejournal.com/6191.html) of

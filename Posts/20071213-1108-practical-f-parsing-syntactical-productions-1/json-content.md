@@ -3,7 +3,7 @@ functions](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/)
 and [unit test
 framework](http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/)
 taken care of, it’s time to write some parsing expression grammar
-productions [1]. In any grammar, there are productions that have
+productions [^1]. In any grammar, there are productions that have
 semantic meaning and productions that are only used to specify syntax.
 For example, in C\# statements end with a semicolon and code blocks are
 delineated with curly braces. Syntactical elements don’t end up in the
@@ -24,7 +24,7 @@ Similar to the underscore in F\#, the period represents any character In
 the PEG grammar and the exclamation point is a backtracking not. In
 other words, EndOfFile succeeds if NC fails, which only happens when the
 parse buffer is empty. Since the parse buffer is empty on a successful
-match, there’s no value to return so Ireturn Some(). Some() is kinda
+match, there’s no value to return so I return Some(). Some() is kinda
 like Nullable, which doesn’t make much sense in C\#. But here it means I
 have a successful match but no data to pass back to the caller.
 
@@ -90,9 +90,7 @@ feature](http://devhawk.net/2007/11/29/f-hawkeye-pattern-matching/)
 let’s me implement EndOfLine exactly like this. We’ll look at how it
 works in the next post.
 
-------------------------------------------------------------------------
-
-[1] The full PEG grammar is listed in “[Parsing Expression Grammars: A
+[^1]: The full PEG grammar is listed in “[Parsing Expression Grammars: A
 Recognition-Based Syntactic
 Foundation](http://pdos.csail.mit.edu/~baford/packrat/popl04/)” by
 [Brian Ford](http://www.brynosaurus.com/).

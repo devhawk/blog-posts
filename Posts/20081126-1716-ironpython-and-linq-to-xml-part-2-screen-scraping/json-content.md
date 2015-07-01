@@ -73,18 +73,18 @@ def FindById(node, id):
   return linq.Single(node.Descendants(), CheckId)
 ```
 
-(Side note – I didn’t like the verbosity of the “a != None and a.Value == id” line of code, by XAttributes
-are not comparable by value. That is, I can’t write
-“node.Attribute(‘id’) == XAttribute(‘id’, id)”. And writing
-“node.Attribute(‘id’).Value == id” only works if every node has an id
+(Side note – I didn’t like the verbosity of the ``a != None and a.Value == id`` 
+line of code, but XAttributes are not comparable by value. That is, I can’t write
+``node.Attribute('id') == XAttribute('id', id)``. And writing
+``node.Attribute('id').Value == id11 only works if every node has an id
 attribute. Not making XAttribute comparable by value seems like a
 strange design choice to me.)
 
 LINQ to objects works just fine from IronPython, with a few caveats.
 First, IronPython doesn’t have extension methods, so you can’t chain
 calls together sequentially like you can in C\#. So instead of
-collection.Where(…).Select(…), you have to write
-Select(Where(collection, …), …). Second, all the LINQ methods are
+``collection.Where(…).Select(…)``, you have to write
+``Select(Where(collection, …), …)``. Second, all the LINQ methods are
 generic, so you have to use the verbose list syntax (for example:
 Single[object] or Select[object,object]). Since Python doesn’t care
 about the generic types, I wrote a bunch of simple helper functions

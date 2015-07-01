@@ -6,7 +6,7 @@ character list. Lists are heavily used in functional languages, so they
 tend to have very efficient native list types. F\# is no exception.
 Along with a native list type, F\# has a native operation for retrieving
 the head of a list. For example, If you execute the following code, head
-will be bound to ’1′ and tail will be bound to the list ['2';'3';'4']
+will be bound to '1' and tail will be bound to the list ['2';'3';'4']
 
 ```fsharp
 let head :: tail = ['1';'2';'3';'4']
@@ -44,8 +44,8 @@ tail of the list together. Finally, the underscore in the second match
 clause is a wildcard, so that clause matches anything. I’m using it here
 like the default clause of a switch statement in C\#.
 
-The F\# type for this function is ‘a list -\> (‘a \* ‘a list) option.
-The ‘a is a generic type parameter and the asterisk indicates a tuple.
+The F\# type for this function is ``a list -> ('a * 'a list) option``.
+The 'a is a generic type parameter and the asterisk indicates a tuple.
 So NC takes a generic list, and returns an option tuple with a single
 generic element and a generic list. Even though the function is named
 Next Character, it would work with a list of any type.
@@ -65,8 +65,8 @@ let NC (input : string) =
 ```
 
 Since I’m calling methods on the input parameter, I need to explicitly
-tell F\# what type it is. The F\# type for this function is string -\>
-(char \* string) option, which is obviously different from the type
+tell F\# what type it is. The F\# type for this function is ``string ->
+(char * string) option``, which is obviously different from the type
 definition of the original NC version. But F\#’s [type
 inference](http://devhawk.net/2007/11/29/f-hawkeye-type-inference/)
 automatically adjusts to handle the change in the type so functions that
@@ -160,18 +160,18 @@ implementation of S2PB so that it still took in a string but returned
 whatever the correct input type for NC.
 
 The one problem with S2PB function is that you have to use it with
-parentheses almost all the time. If I write NC S2PB “foo”, F\# can’t
-tell if I’m calling NC with two parameters or passing the result of S2PB
-“foo” to NC. Since NC is strongly typed to have only one input
+parentheses almost all the time. If I write ``NC S2PB "foo"``, F\# can’t
+tell if I’m calling NC with two parameters or passing the result of ``S2PB
+"foo"`` to NC. Since NC is strongly typed to have only one input
 parameter, you might have thought it could automatically determine the
 calling order, but it doesn’t.
 
-I could make the function calls explicit with parenthesis by writing NC
-(S2PB “foo”). F\# also provides a pipe operator, so I could pipe the
-result of S2PB into NC by writing S2PB “foo” |\> NC. I didn’t like
+I could make the function calls explicit with parenthesis by writing ``NC
+(S2PB "foo")``. F\# also provides a pipe operator, so I could pipe the
+result of S2PB into NC by writing ``S2PB "foo" |> NC``. I didn’t like
 either of those solutions, so instead I defined a custom unary operator
 !! as an alias. The parameter binding rules are different for custom
-operators because I can write NC !! “foo” without piping or parenthesis.
+operators because I can write ``NC !! "foo"`` without piping or parenthesis.
 
 ``` fsharp
 let (!!) input = S2PB input

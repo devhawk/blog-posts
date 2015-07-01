@@ -1,5 +1,8 @@
-![](http://microsoftpdc.com/Images/BlogBling/PDC2008Brain.gif) So it’s
-been just over a month since my last post, and I think it’s safe to say
+::: image-right
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/PDC2008Brain.gif) 
+::: 
+
+So it’s been just over a month since my last post, and I think it’s safe to say
 it’s been one of the busiest of my career to date. If you’ve been
 following my [Twitter stream](http://twitter.com/devhawk), you already
 know that I’ve spent the last two weeks in

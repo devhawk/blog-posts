@@ -24,11 +24,11 @@
     drive](http://bradwilson.typepad.com/blog/2008/02/dell-xps-m1330.html).
     VS08 installs in under 10 minutes? I gotta get me one of those…
 -   In addition to the XNA news, Microsoft also
-    [announced](http://gamerscoreblog.com/team/archive/2008/02/20/GDC08Portfolio.aspx)[Gears
-    of War 2](http://www.xbox.com/games/gearsofwar2), [Fable
-    2](http://www.xbox.com/games/fable2/) and [Ninja Gaiden
-    II](http://www.xbox.com/games/ninjagaiden2/) and [Too
-    Human](http://www.xbox.com/games/toohuman) will all be available
+    [announced](http://gamerscoreblog.com/team/archive/2008/02/20/GDC08Portfolio.aspx)
+    [Gears of War 2](http://www.xbox.com/games/gearsofwar2), 
+    [Fable 2](http://www.xbox.com/games/fable2/) and 
+    [Ninja Gaiden II](http://www.xbox.com/games/ninjagaiden2/) and 
+    [Too Human](http://www.xbox.com/games/toohuman) will all be available
     this year exclusively on Xbox 360. Of those, I’m most interested in
     Fable 2, though Too Human is looking interesting. But what about
     [Halo Wars](http://www.xbox.com/games/halowars/)? When is that

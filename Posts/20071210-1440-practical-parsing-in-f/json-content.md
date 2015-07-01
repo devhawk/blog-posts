@@ -34,25 +34,15 @@ I think the code illustrates both the general value of Functional
 Programming as well as the specific value of F\#. Here’s how the series
 is shaping up (though this is subject to change):
 
--   [The Parse
-    Buffer](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/)
--   [Unit
-    Testing](http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/)
--   [Syntactical Productions
-    (http://devhawk.net/2007/12/13/practical-f-parsing-syntactical-productions-1/)
--   [Active
-    Patterns](http://devhawk.net/2007/12/14/practical-f-parsing-active-patterns/)
--   [Syntactical Productions
-    (http://devhawk.net/2007/12/17/practical-f-parsing-syntactical-productions-2/)
--   [Semantic Productions
-    (http://devhawk.net/2007/12/18/practical-f-parsing-semantic-productions-1/)
--   [](http://devhawk.net/2007/12/18/practical-f-parsing-semantic-productions-1/)[The
-    Abstract Syntax
-    Tree](http://devhawk.net/2007/12/19/practical-f-parsing-the-abstract-syntax-tree/)
--   [Semantic Productions
-    (http://devhawk.net/2007/12/20/practical-f-parsing-semantic-productions-2/)
--   [Recursion and Predicate
-    Functions ](http://devhawk.net/2008/01/29/practical-f-parsing-recursion-and-predicate-functions/)
+-   [The Parse Buffer](http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/)
+-   [Unit Testing](http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/)
+-   [Syntactical Productions \(1\)](http://devhawk.net/2007/12/13/practical-f-parsing-syntactical-productions-1/)
+-   [Active Patterns](http://devhawk.net/2007/12/14/practical-f-parsing-active-patterns/)
+-   [Syntactical Productions \(2\)](http://devhawk.net/2007/12/17/practical-f-parsing-syntactical-productions-2/)
+-   [Semantic Productions \(1\)](http://devhawk.net/2007/12/18/practical-f-parsing-semantic-productions-1/)
+-   [The Abstract Syntax Tree](http://devhawk.net/2007/12/19/practical-f-parsing-the-abstract-syntax-tree/)
+-   [Semantic Productions \(2\)](http://devhawk.net/2007/12/20/practical-f-parsing-semantic-productions-2/)
+-   [Recursion and Predicate Functions](http://devhawk.net/2008/01/29/practical-f-parsing-recursion-and-predicate-functions/)
 -   Caching and Tracing
 -   C\# Interop
 
@@ -62,7 +52,7 @@ articles in this series, so I’m going to hold off for now. If you’re
 really desperate, [drop me a line](mailto:harry@devhawk.net) and I’ll
 see what I can do.
 
-Update – Almost forgot, if you’re going to follow along at home, I’m
+**Update**: Almost forgot, if you’re going to follow along at home, I’m
 using the [latest version of F\#,
 v1.9.3.7](http://research.microsoft.com/research/downloads/Details/e8478d6b-49c0-4750-80eb-0e424d1631a3/Details.aspx).
 Note, the [F\# Downloads
@@ -74,5 +64,5 @@ plus has command line tools. If you’re an VS Express user, Douglas
 Stockwell [explained](http://11011.net/archives/000721.html) how to roll
 your own F\# Express.
 
-Much Later Update – The code is now available [on my
+**Much Later Update**: The code is now available [on my
 Skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/Projects/Practical%20Parsing%20in%20F%7C3).

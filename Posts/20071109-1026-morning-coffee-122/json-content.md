@@ -29,8 +29,8 @@
     series](http://blogs.msdn.com/nickmalik/archive/2007/11/05/soa-in-the-replication-model.aspx)
     on SOA Business Operations Model. I especially like his point that
     this isn’t a series of choices, you need to “look at your
-    company****and try to understand which model the business has
-    selected. ”
+    company and try to understand which model the business has
+    selected.”
 -   The [first CTP of PowerShell
     2.0](http://blogs.msdn.com/powershell/archive/2007/11/06/the-community-technology-preview-ctp-of-windows-powershell-2-0.aspx)
     is out! Check out [what’s
@@ -73,7 +73,7 @@
     Pretty well, IMO. However, how come [WL Contacts
     Schema](http://msdn2.microsoft.com/en-us/library/bb463953.aspx)
     doesn’t include some type of update timestamp for sync purposes? If
-    you wanted to build say a Outlook \<–\> WL Contacts sync engine,
+    you wanted to build say a Outlook to WL Contacts sync engine,
     you’d have to download the entire address book and grovel thru it
     for changes every sync.
 -   Speaking of Web3S, I’d love to see some info on how one might

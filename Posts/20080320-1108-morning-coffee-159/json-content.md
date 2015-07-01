@@ -12,8 +12,8 @@ dev focused as well as more IPy focused.
     wait another two and a half years for Dino’s next post.
 -   Speaking of IronPython, some of my new teammates pointed me to
     [Michael
-    Foord’s](http://www.voidspace.org.uk/voidspace/index.shtml)[Planet
-    IronPython aggregate news
+    Foord’s](http://www.voidspace.org.uk/voidspace/index.shtml)
+    [Planet IronPython aggregate news
     site](http://www.voidspace.org.uk/ironpython/planet/). Michael is
     IPy developer for [Resolver
     Systems](http://www.resolversystems.com/) (the cool spreadsheet app

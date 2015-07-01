@@ -50,11 +50,9 @@ def ScrapeEntry(entry):
 
   d = {}  
   d['trackTitle'] = entry.Element(atomns+'title').Value  
-  d['albumArtist'] = entry.Element(zunens+'primaryArtist')
-                       .Element(zunens+'name').Value  
+  d['albumArtist'] = entry.Element(zunens+'primaryArtist').Element(zunens+'name').Value  
   d['trackArtist'] = d['albumArtist']  
-  d['albumTitle'] = entry.Element(zunens+'album')
-                       .Element(zunens+'title').Value  
+  d['albumTitle'] = entry.Element(zunens+'album').Element(zunens+'title').Value  
 
   if id.StartsWith('urn:uuid:'):  
     d['serviceId'] = "{" + id.Substring(9) + "}"  
@@ -79,9 +77,6 @@ track = ScrapeEntry(trackentry)
 
 A few quick notes:
 
--   The code above isn’t valid Python, I added a couple of carriage
-    returns (albumArtist and albumTitle) to get it to read well on the
-    blog without wrapping badly.
 -   song.search\_string returns the song title and artist as a plus
     delimited string. i.e. pinball+wizard+the+who. However, many Rock
     Band songs end in a parenthetical like (Cover Version) so I

@@ -4,8 +4,8 @@ execute on the UI or background thread. While the solution works, I
 wrote “I’m thinking there might be a way to use
 [SynchronizationContext](http://msdn.microsoft.com/en-us/library/system.threading.synchronizationcontext.aspx)
 to marshal it automatically, but I haven’t tried to figure that out
-yet.” I had some time this morning so I figured out how to use
-SynchronizationContext instead of the WPF dispatcher.
+yet.” I had some time this morning so I figured out how to use SynchronizationContext 
+instead of the WPF dispatcher.
 
 Leslie Sanford wrote a [pretty good
 overview](http://www.codeproject.com/KB/cpp/SyncContextTutorial.aspx),

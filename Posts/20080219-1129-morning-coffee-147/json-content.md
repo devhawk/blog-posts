@@ -1,9 +1,12 @@
--   [![](http://by1.storage.msn.com/PatrickAndJack.jpg)](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2040.entry)
-    My son Patrick turns five today. The big treat was his cousin Jack
+-   My son Patrick turns five today. 
+	::: image-right
+	[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/PatrickAndJack.jpg)](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2040.entry)
+	:::
+    The big treat was his cousin Jack
     coming up for a visit. Here’s a picture of the two of them at
     Patrick’s party on Saturday. My wife has [all the
     details](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2040.entry)
-    on her blog. Update: My wife just [posted a whole
+    on her blog. **Update**: My wife just [posted a whole
     slew](http://techiewife.spaces.live.com/Blog/cns!3DAECC033B88329C!2065.entry)
     of Early Patrick Pictures.
 -   If my son is five, it means this blog is also five – I [started this
@@ -34,7 +37,7 @@
     Windows Server and XNA Creators Club membership. This looks like an
     outgrowth of the [MSDN Academic
     Alliance](http://msdn2.microsoft.com/en-us/academic/default.aspx)
-    program. I think it’s a great idea. Update: Looks like [high-school
+    program. I think it’s a great idea. **Update**: Looks like [high-school
     students](http://www.mercurynews.com/ci_8302312) will be able to
     access the DreamSpark program too. However, since they’re minors,
     they have to get the software via their teachers. (via

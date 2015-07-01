@@ -25,7 +25,8 @@ and [2008](http://langnetsymposium.com/2008/talks.aspx) are available
 online. 
 
 I’ve attended
-[both](http://devhawk.net/2006/08/01/lang-net-2006-symposium/)[previous](http://devhawk.net/2008/01/31/morning-coffee-141-lang-net-08-edition/)
+[both](http://devhawk.net/2006/08/01/lang-net-2006-symposium/)
+[previous](http://devhawk.net/2008/01/31/morning-coffee-141-lang-net-08-edition/)
 Lang.NET Symposiums and [spoke at last year’s
 event](http://langnetsymposium.com/2008/talks/3-03%20-%20Parsing%20Expression%20Grammars%20in%20FSharp%20-%20Harry%20Pierson.html),
 but this will be my first as a part of the team driving the event

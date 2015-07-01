@@ -23,7 +23,8 @@
     take](http://dilbertblog.typepad.com/the_dilbert_blog/2008/02/experience.html)
     on presidential experience – I’m guessing he’s an Obama fan.
 -   In minor acquisition news, Microsoft is
-    [acquiring](http://virtualearth.spaces.live.com/Blog/cns!2BBC66E99FDCDB98!11432.entry)[Caligari](http://www.caligari.com/),
+    [acquiring](http://virtualearth.spaces.live.com/Blog/cns!2BBC66E99FDCDB98!11432.entry)
+    [Caligari](http://www.caligari.com/),
     makers of 3D modeling tool
     [trueSpace](http://www.caligari.com/Products/trueSpace/tS75/brochure/intro.asp?Cate=BIntro).
     The Caligari folks are joining the Virtual Earth team, though I

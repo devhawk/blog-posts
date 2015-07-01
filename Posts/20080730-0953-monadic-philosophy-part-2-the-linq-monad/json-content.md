@@ -12,8 +12,8 @@ It’s such a unfamiliar word that the F\# team doesn’t like it either:
 
 > “[W]hen the designers of F\# talked with the designers of Haskell
 > about this, they agreed that the word *monad* is a bit obscure and
-> sounds a little daunting and that using other names might be wise.”
->  [F\# Workflows and Haskell Monads, [Expert
+> sounds a little daunting and that using other names might be wise.”\
+> [F\# Workflows and Haskell Monads, [Expert
 > F\#](http://www.expert-fsharp.com/default.aspx), p232]
 
 The F\# team thought about calling them workflows, but settled on

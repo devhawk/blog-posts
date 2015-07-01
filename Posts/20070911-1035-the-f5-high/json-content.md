@@ -5,7 +5,7 @@ stuff) there. But he’s busy working on other things these days, so I
 doubt he’ll get to the whole blogging thing anytime soon. So I offered
 to post it here rather than have it sit gathering virtual dust. Enjoy.
 
-Update: I got the timeline wrong. Loren sent me this and I offered to
+**Update**: I got the timeline wrong. Loren sent me this and I offered to
 post it. He didn’t ask me to post it originally as I originally wrote.
 Sorry about that, Loren.
 

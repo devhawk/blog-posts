@@ -1,10 +1,10 @@
 As part of my series on [using IronPython with
 WPF](http://devhawk.net/2008/11/12/ironpython-and-wpf-part-1-introduction/)
-[1], I built an extension method in C\# that does [dynamic member
+[^1], I built an extension method in C\# that does [dynamic member
 resolution on WPF
 FrameworkElements](http://devhawk.net/2008/11/14/ironpython-and-wpf-part-2-loading-xaml/).
-The upshot of this code is that I can write “win1.listbox1” instead of
-“win1.FindName(‘listbox1’)” when using WPF objects from Python or any
+The upshot of this code is that I can write ``win1.listbox1`` instead of
+``win1.FindName('listbox1')`` when using WPF objects from Python or any
 DLR language. Convenient, right?
 
 The problem with this approach is that the C\# extension method gets
@@ -17,7 +17,7 @@ course, I could have simply re-compiled the assembly against the new
 bits, but that would mean every time I moved to a new version of
 IronPython, I’d have to recompile. Worse, it would limit my ability to
 run multiple versions of IronPython on my machine at once. I currently
-have three – count ‘em, \*three\* – copies of IronPython installed: [2.0
+have three – count ‘em, *three* – copies of IronPython installed: [2.0
 RTM](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365),
 [nightly build version
 46242](http://nbs.blob.core.windows.net/ironpython/IronPython.46242.release.zip),
@@ -104,9 +104,7 @@ I stuck my
 [codedom.py](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/codedom.py)
 file up on my SkyDrive. Feel free to leverage as you need.
 
-------------------------------------------------------------------------
-
-[1] I had to put that series on the back burner in part because the
+[^1]: I had to put that series on the back burner in part because the
 [December update to Windows
 Live](http://windowslivewire.spaces.live.com/blog/cns!2F7EB29B42641D59!26304.entry)
 totally broke my WPF photo viewing app. I’ve got a new WPF app I’m

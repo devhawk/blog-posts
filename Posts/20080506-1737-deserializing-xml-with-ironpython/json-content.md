@@ -76,7 +76,7 @@ the value was originally an attribute or element. I haven’t written
 py2xml yet, but that might be important then.
 
 I do one optimization for simple string elements like
-\<foo\>bar\</foo\>. In this case, I create a type that inherits from
+``<foo>bar</foo>``. In this case, I create a type that inherits from
 string (hence the need for the parent parameter in the create\_type
 function above) and contains the string text. It still has the xmlns and
 \_nodetype attributes, so I could write item.title.xmlns (which is empty
@@ -95,7 +95,7 @@ that didn’t cache anything, but then later switched xtype to be a
 change!
 
 One other quick note. If you put xml2py.py and ipypylldom.py in a
-folder, you can experiment with them by launching “ipy -i xml2py”. This
+folder, you can experiment with them by launching ``ipy -i xml2py``. This
 runs xml2py.py as a script, but dumps you into the interactive console
 when you’re thru. It will run the little snippet of code above which
 runs xml2py on my [FeedBurner

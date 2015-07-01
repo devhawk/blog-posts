@@ -11,7 +11,8 @@
     Southern Cal [never led at
     Oregon](http://scores.espn.go.com/ncf/recap?gameId=273002483), the
     Capitals
-    [lost](http://scores.espn.go.com/nhl/recap?gameId=271026023)[twice](http://scores.espn.go.com/nhl/recap?gameId=271027019),
+    [lost](http://scores.espn.go.com/nhl/recap?gameId=271026023)
+    [twice](http://scores.espn.go.com/nhl/recap?gameId=271027019),
     and the Redskins [got blown out by the
     Pats](http://sports.espn.go.com/nfl/recap?gameId=271028017). At
     least the Caps [won big

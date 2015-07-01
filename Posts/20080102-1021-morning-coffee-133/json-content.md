@@ -3,9 +3,11 @@
     blog. Hope everyone had a happy holiday season.
 -   I ended [the year](http://devhawk.net/monthview.aspx?year=2007) with
     245 blog posts, which wasn’t quite as many as either of my
-    [first](http://devhawk.net/monthview.aspx?year=2003)[two](http://devhawk.net/monthview.aspx?year=2004)
+    [first](http://devhawk.net/monthview.aspx?year=2003)
+    [two](http://devhawk.net/monthview.aspx?year=2004)
     years blogging, but was much more than I had been writing for the
-    [last](http://devhawk.net/monthview.aspx?year=2005)[two](http://devhawk.net/monthview.aspx?year=2006)
+    [last](http://devhawk.net/monthview.aspx?year=2005)
+    [two](http://devhawk.net/monthview.aspx?year=2006)
     years.
 -   It was a [Zune](http://www.zune.net) Xmas in the Pierson house. I
     got a pink Zune for my wife, and my mother and father got Zunes for

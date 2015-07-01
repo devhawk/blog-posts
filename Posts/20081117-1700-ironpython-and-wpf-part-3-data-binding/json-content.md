@@ -21,7 +21,7 @@ property of the bound objects via reflection.
 The problem is that IronPython objects don’t support reflection – or
 more accurately, reflection won’t give you the answer you’re expecting.
 Every IPy object does have a static type, but it implements Python’s
-dynamic type model. [1] Thus, if you reflect on the IPy object looking
+dynamic type model. [^1] Thus, if you reflect on the IPy object looking
 for the title property or field, you won’t find it. It might seem we’re
 in a bit of a bind (pun intended). However, WPF does [provide an
 out](http://msdn.microsoft.com/en-us/library/ms743643.aspx):
@@ -38,7 +38,7 @@ out](http://msdn.microsoft.com/en-us/library/ms743643.aspx):
 > Overview](http://msdn.microsoft.com/en-us/library/ms743643.aspx), MSDN
 > Library
 
-Luckily for us, IronPython objects implement ICustomTypeDescriptor [2].
+Luckily for us, IronPython objects implement ICustomTypeDescriptor [^2].
 That snippet of XAML above? It’s straight from my photo viewing app. All
 I had to do was define the data template in the list box XAML then set
 the ItemsSource property of the list box instance.
@@ -127,14 +127,12 @@ this sample. Hopefully, I can find a better approach to value
 conversions. Any gurus out there on XAML parsing, please feel free to
 drop me a line or leave me a comment.
 
-------------------------------------------------------------------------
-
-[1] you can access the underlying CLR type for any Python type via the
+[^1]: you can access the underlying CLR type for any Python type via the
 clr.GetClrType method. You an also check out the CreateNewType method
 from
 [NewTypeMaker.cs](http://www.codeplex.com/IronPython/SourceControl/FileView.aspx?itemId=649510&changeSetId=43433)
 
-[2] I spent the better part of an afternoon trying to make
+[^2]: I spent the better part of an afternoon trying to make
 TypeDescriptionProviders work before Dino pointed out that we already
 support ICustomTypeDescriptor in Python objects. I didn’t realize at
 first because I had a case sensitivity bug in my original prototype code

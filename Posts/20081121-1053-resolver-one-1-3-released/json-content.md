@@ -1,4 +1,7 @@
+::: image-right
 [![ResolverLogo](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/ResolverOne1.3Released_8D03/ResolverLogo_thumb.png "ResolverLogo")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/ResolverOne1.3Released_8D03/ResolverLogo_2.png)
+:::
+
 IronPython’s biggest customer is [Resolver
 Systems](http://www.resolversystems.com/), makers of [Resolver
 One](http://www.resolversystems.com/products/), “a familiar

@@ -8,9 +8,9 @@
     from F\#. He wrote this [once
     before](http://cs.hubfs.net/blogs/f_team/archive/2007/10/18/3774.aspx)
     using F\#’s async workflows feature. I like the TPL version, though
-    the “new Action\<int\>(RowTask)” is a little wordy. I’m guessing the
+    the ``new Action<int>(RowTask)`` is a little wordy. I’m guessing the
     eventual F\# syntax will probably become something compact like
-    “action RowTask”. (via [Don
+    ``action RowTask``. (via [Don
     Syme](http://blogs.msdn.com/dsyme/archive/2007/12/18/using-parallel-extensions-from-f.aspx))
 -   Andrew Peter ported RoR’s [Haml view
     engine](http://haml.hamptoncatlin.com/) to ASP.NET MVC, calling the

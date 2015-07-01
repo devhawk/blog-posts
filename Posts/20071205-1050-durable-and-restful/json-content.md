@@ -31,7 +31,7 @@ unique identifiers and a message ID log.
 
 For example, when you send a message in MSMQ, it’s assigned a [20 byte
 identifier](http://msdn2.microsoft.com/en-us/library/ms705091.aspx)
-which is “unique within your enterprise.” [1] If the destination system
+which is “unique within your enterprise.” [^1] If the destination system
 receives multiple messages with the same message ID, it knows they are
 duplicates and can safely toss all but one of the messages with the same
 ID. Exactly once, no transactions.
@@ -122,15 +122,13 @@ So what would a durable REST service look like? I think like this:
 This seems like a better approach than my original direction of doing
 REST over a durable protocol like MSMQ or SSB. What do you think?
 
-UPDATE – [Erik Johnson](http://appside.blogspot.com/) [points
+**Update**: [Erik Johnson](http://appside.blogspot.com/) [points
 out](http://devhawk.net/CommentView,guid,becd3f0f-5484-4a9e-ae6a-4a61cebc2a4a.aspx#commentstart)
 that an HTTP POST’s idempotency is “left unsaid”. So my statement that
 “POST isn’t idempotent” isn’t quite correct. POST isn’t *naturally*
 idempotent. I’ve updated the post accordingly.
 
-------------------------------------------------------------------------
-
-[1] Technically, the MSMQ message ID isn’t universally unique as it is a
+[^1]: Technically, the MSMQ message ID isn’t universally unique as it is a
 16 byte GUID representing the source system + a 4 byte sequence number.
 The sequence number can rollover, after sending 2\^32 messages. In
 practice, rolling over the message ID after 4 billion messages is rarely

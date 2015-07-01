@@ -53,5 +53,5 @@ that I’ll post thru the end of the week.
 -   [Assorted
     Not-So-Goodness](http://devhawk.net/2007/11/30/f-hawkeye-assorted-not-so-goodness/)
 
-UPDATE – added link to Tomas Petricek’s [F\#
+**Update**: added link to Tomas Petricek’s [F\#
 Introduction](http://cs.hubfs.net/blogs/tomasp/archive/2007/11/03/fsharp_introduction.aspx)

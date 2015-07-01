@@ -89,8 +89,8 @@ to make your CLR objects act more dynamic.
 
 In this case, if the standard reflection-based member name resolution
 fails, we try calling FrameworkElement’s FindName method to see if
-there’s a corresponding control with the provided name. So win.listbox1
-is the equivalent to win.FindName(‘listbox1’), but with less code and a
+there’s a corresponding control with the provided name. So ``win.listbox1``
+is the equivalent to ``win.FindName('listbox1')``, but with less code and a
 much more pythonic feel.
 
 You’ll notice that we’re attaching this GetBoundMember method to
@@ -114,5 +114,5 @@ Devhawk.Scripting.Wpf and I load it automatically in my wpy.py module.
 So if you’re building a WPF app in IronPython, you can simply “import
 wpy” and you get the GetBoundMember extension method, the LoadXaml
 function, and a bunch of WPF related namespaces imported into the wpf
-scope. That way, you can write wpf.Button() instead of
-System.Windows.Control.Button() to programmatically create a new button.
+scope. That way, you can write ``wpf.Button()`` instead of
+``System.Windows.Control.Button()`` to programmatically create a new button.

@@ -16,7 +16,7 @@ pre-compiled binary release. So I spent my Christmas vacation building a
 script to download and build IronPython nightly builds. Once built, I
 compress the binaries and upload them to [Azure blob
 storage](http://msdn.microsoft.com/en-us/library/dd135733.aspx).
-Finally, I built a [\*very\* simple cloud
+Finally, I built a [*very* simple cloud
 app](http://nightlybuilds.cloudapp.net/) for users to view and download
 available nightly builds. As an extra benefit, I’m also providing
 nightly builds of the [DLR](http://codeplex.com/dlr).

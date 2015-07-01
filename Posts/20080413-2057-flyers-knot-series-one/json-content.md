@@ -20,7 +20,7 @@ I had written a bunch of observations, but go [read Japers
 instead](http://japersrink.blogspot.com/2008/04/game-2-recap-flyers-2-caps-0.html).
 He hit all the points I was going to and more.
 
-Update – I almost forgot, good to see Patrick Thoresen (the Flyer who
+**Update**: I almost forgot, good to see Patrick Thoresen (the Flyer who
 took a Mike Green Slapshot to the groin Friday) [wasn’t as seriously
 hurt](http://sports.espn.go.com/nhl/playoffs2008/news/story?id=3343675)
 as initially thought.

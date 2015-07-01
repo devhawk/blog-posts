@@ -1,5 +1,6 @@
 -   Ben Hall
-    [announces](http://blog.benhall.me.uk/2008/07/announcing-ironeditor-editor-for.html)[IronEditor](http://www.codeplex.com/IronEditor),
+    [announces](http://blog.benhall.me.uk/2008/07/announcing-ironeditor-editor-for.html)
+    [IronEditor](http://www.codeplex.com/IronEditor),
     a simple dev tool for IronPython and IronRuby. Pretty nice, though
     fairly simplistic (as Ben readily admits). For example, it doesn’t
     have an interactive mode, only the ability to execute scripts and

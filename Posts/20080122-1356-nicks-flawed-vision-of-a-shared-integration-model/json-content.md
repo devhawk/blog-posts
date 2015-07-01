@@ -43,7 +43,7 @@ solution](http://blogs.msdn.com/nickmalik/archive/2006/12/20/internet-wide-servi
 > relatively painless.”
 
 Yeah, and if a frog had wings, it wouldn’t bump its ass when it
-hopped.[1] There are so many things wrong with this approach, I’m not
+hopped.[^1] There are so many things wrong with this approach, I’m not
 sure I can get them all into a single web post.
 
 First off, it won’t, in fact, be done correctly – at least, not the
@@ -128,9 +128,7 @@ Code](http://blogs.msdn.com/nickmalik/archive/2007/07/30/free-code-getting-it-ou
 to interop code. If we’re going to get IT out of the app business, can’t
 we get out of the integration business at the same time?
 
-------------------------------------------------------------------------
-
-[1] It’s exceedingly rare that you get to quote [Wayne’s
+[^1]: It’s exceedingly rare that you get to quote [Wayne’s
 World](http://www.imdb.com/title/tt0105793/quotes) or [Raising
 Arizona](http://www.imdb.com/title/tt0093822/quotes) in a discussion
 about Enterprise Architecture, much less both at the same time. Savor

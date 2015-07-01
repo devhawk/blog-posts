@@ -1,4 +1,7 @@
+::: image-right
 [![header](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee141Lang.NET08Edition_9277/header_thumb.jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee141Lang.NET08Edition_9277/header_2.jpg)
+:::
+
 I was hoping to blog my thoughts on Lang.NET as the event went along.
 Obviously, that didn’t happen, though I was pretty good about dumping
 links into [my del.icio.us feed](http://del.icio.us/harrypierson). The

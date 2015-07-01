@@ -16,8 +16,9 @@ pre-holiday releases.
     list](http://rubyforge.org/pipermail/ironruby-core/2008-November/003231.html).
     As per said notice, “Notable features” include “the inclusion of
     iirb.bat, igem.bat, irails.bat, irake.bat”.
-3.  [New DLR CodePlex Project](http://www.codeplex.com/dlr) T\
-    he DLR source has been available as part of IronPython for [over a
+3.  [New DLR CodePlex Project](http://www.codeplex.com/dlr) \
+	The DLR source 
+	has been available as part of IronPython for [over a
     year](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=438)
     but now they have their own home on CodePlex. Check out the [Release
     Notes](http://www.codeplex.com/dlr/Wiki/View.aspx?title=0.9%20beta%20release%20notes&referringTitle=Home)

@@ -69,7 +69,7 @@ agility.
 
 Maybe it’s cliche, but I try to always come back to “[What’s the
 simplest thing that could possibly
-work?](http://c2.com/xp/DoTheSimplestThingThatCouldPossiblyWork.html)“.
+work?](http://c2.com/xp/DoTheSimplestThingThatCouldPossiblyWork.html)”.
 I would think that building a ton of currently-unnecessary variability
 into your system on the off chance that someday you’ll need it fails the
 “simplest thing that could possibly work” test spectacularly.

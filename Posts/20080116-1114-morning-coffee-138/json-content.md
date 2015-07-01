@@ -5,7 +5,7 @@
     (aka Tom Cruise’s company) and [The Weinstein
     Company](http://www.deadlinehollywooddaily.com/heroic-harvey-hardly/)
     (~~previously known as Miramax~~). The WGA strategy of divide and
-    conquer seems to me making slow progress. Update: The Weinstein
+    conquer seems to me making slow progress. **Update**: The Weinstein
     Company was founded by Miramax’s founders Harvey and Bob Weinstein
     after they left Miramax. But Miramax is still around. Thanks to
     GrantC for the correction.

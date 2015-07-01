@@ -153,8 +153,8 @@ Basically, this is doing simple pattern matching to bind the two value
 names to the two parts of the tuple returned from NC. Those two values
 are then asserted to be a specific values as you would expect.
 
-Note, in the current version of F\#, the line let Some(c,text) = NC
-!!”test” yields two warnings. The first (FS0062) warns that a future
+Note, in the current version of F\#, the line ``let Some(c,text) = NC
+!!"test"`` yields two warnings. The first (FS0062) warns that a future
 version of the language will require parens around Some(c,text). I sure
 hope they change their minds on this, since active patterns are already
 so parens-heavy. The second (FS0025) warns that this is an incomplete

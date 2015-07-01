@@ -19,7 +19,7 @@ taking notes at the back. I made a trip over to the campus bookstore
 and some SC gear for the kids.
 
 Hung out most of the day with [Mike
-VIncent](http://mvasoftware.com/blogs/mikev_weblog) whom I’ve gotten to
+Vincent](http://mvasoftware.com/blogs/mikev_weblog) whom I’ve gotten to
 know over the past couple of years thru his IASA and INETA involvement.
 He’s doing a talk on [Dynamic Languages and the
 DLR](http://www.socalcodecamp.com/session.aspx?sid=2151c611-844d-4918-bf8d-af0563677baa)

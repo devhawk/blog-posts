@@ -24,8 +24,8 @@ If we check out Neudesic’s page on [their ESB
 product](http://www.neudesic.com/Main.aspx?SS=7&PE=75) (which David
 pointed me to) we find the following blurb:
 
-> **Centralized Management\
-> **The distributed nature of service oriented programming can create a
+> **Centralized Management**\
+> The distributed nature of service oriented programming can create a
 > management nightmare. Neuron·ESB supports this distributed
 > architecture while simultaneously centralizing monitoring and
 > configuration.
@@ -48,8 +48,8 @@ He was talking about the Web as a Platform, but it’s good general
 advice. Can you imagine applying the marketing blurb above to the
 Internet at large?
 
-> **Centralized Management\
-> **The distributed nature of ~~service oriented programming~~ the
+> **Centralized Management**\
+> The distributed nature of ~~service oriented programming~~ the
 > Internet can create a management nightmare. Neuron·ESB supports this
 > distributed architecture while simultaneously centralizing monitoring
 > and configuration.

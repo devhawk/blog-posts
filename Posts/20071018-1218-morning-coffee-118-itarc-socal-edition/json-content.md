@@ -133,5 +133,5 @@ think because they held it in San Diego. The Orange Country IASA user
 group is very popular, so I don’t understand why they didn’t just hold
 it around there somewhere. Live and learn, I guess. They did have to
 postpone the DC event until next year sometime. Here’s hoping I get
-invited to that as well as well as ITARC SoCal ’08 (note, that \*is\*
+invited to that as well as well as ITARC SoCal ’08 (note, that *is*
 brown-nosing a bit)

@@ -34,7 +34,7 @@ double quote – is passed in as a parameter. I also pass in an empty list
 of chars as a parameter. Remember that functional programs keep their
 data on the stack, a list parameter is a common way to keep state in a
 recursive function. When I match a single non-delimiter character, I add
-it to the list with the chars @ [c] expression. [c] converts a single
+it to the list with the ``chars @ [c]`` expression. [c] converts a single
 value c into a list of one element while the @ operator concatenates to
 lists. I’m not sure adding the value to he end like that is a good idea
 perf wise. [Programming

@@ -20,7 +20,7 @@ Another problem with MDbg is that it’s not
 introduced in .NET 2.0 that lets the debugger “paint” the parts of the
 code that you want to step thru (aka “My Code”). By default, Visual
 Studio marks code with symbols as “my code” and code without symbols as
-“not my code”. [1] We don’t ship symbols with IronPython releases, so
+“not my code”. [^1] We don’t ship symbols with IronPython releases, so
 Visual Studio does only steps thru the python code. MDbg doesn’t support
 JMC, so I often found myself stepping into random parts of the
 IronPython implementation. That’s even more tedious.
@@ -47,9 +47,7 @@ Stall](http://blogs.msdn.com/jmstall) (of Mike Stall’s .NET Debugging
 Blog). Without his help, I would probably still be trying to make heads
 or tails of the MDbg source.
 
-------------------------------------------------------------------------
-
-[1] VS uses the
+[^1]: VS uses the
 [DebuggerNonUserCode](http://msdn.microsoft.com/en-us/library/system.diagnostics.debuggernonusercodeattribute.aspx)
 attribute to provide fine grained control of what is considered “my
 code” and should be stepped thru.

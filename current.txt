@@ -1,7 +1,7 @@
 cd E:\dev\DevHawk\PostMarkdownProcessor\
 
 $posts = dir E:\dev\DevHawk\PostMarkdownProcessor\posts
-$cur = 1039
+$cur = 1220
 function go {start $posts[$cur].fullname; $global:cur = $cur+1}
 function prev { start $posts[$cur-1].FullName }
 
@@ -24,6 +24,11 @@ function explore {
 	$dirName = [IO.Path]::GetFileNameWithoutExtension($posts[$cur-1].Name);
 	$mdFileName = [IO.Path]::Combine("E:\dev\DevHawk\Content\Posts", $dirName, "json-content.md")
 	start (split-path $mdFileName)
+}
+
+function reproc {
+	$dirName = [IO.Path]::GetFileNameWithoutExtension($posts[$cur-1].Name);
+	node app.js $dirname
 }
   
 start E:\dev\DevHawk\devhawk.github.io\images\blog

@@ -12,7 +12,9 @@ Actually, all kidding aside, this is a great move for the Caps.
 The financial bar was set last summer when Sid “the Kid” Crosby signed a
 5-year \$43.5 million contract extension – about \$8.7 million a season.
 Since then, Caps fans have had to suffer thru
-[rumor](http://www.canada.com/montrealgazette/news/sports/story.html?id=e20c9251-4521-47f0-9f16-647c438360e6&k=16946)[after](http://www.hockeybuzz.com/blog.php?post_id=12395)[rumor](http://www.nypost.com/seven/11252007/sports/opt_out__alex_249480.htm)
+[rumor](http://www.canada.com/montrealgazette/news/sports/story.html?id=e20c9251-4521-47f0-9f16-647c438360e6&k=16946)
+[after](http://www.hockeybuzz.com/blog.php?post_id=12395)
+[rumor](http://www.nypost.com/seven/11252007/sports/opt_out__alex_249480.htm)
 that our man Alex wasn’t going to be playing in DC much longer. However,
 the suggestion that Ovechkin would be leaving never made any sense to
 me. He was slated to become a *restricted* free agent this summer –

@@ -13,9 +13,11 @@ still manages to slide the puck into the net under Price while lying on
 his side on the ice before Chipchura’s momentum knocks the net off it’s
 moorings. You’ve got to see it to believe it.
 
-[![Crosby Sucks Caps
-Jersey](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/Caps4Canadians3SO_655/1k73u-34dd2010d2b88ae59d73e34440148648.499ce477[1]_3.jpg "Crosby Sucks Caps Jersey")](http://twitpic.com/1k73u) Honestly,
-I think this is even better than “[The
+::: image-right
+[![Crosby Sucks Caps Jersey](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/Caps4Canadians3SO_655/1k73u-34dd2010d2b88ae59d73e34440148648.499ce477[1]_3.jpg "Crosby Sucks Caps Jersey")](http://twitpic.com/1k73u) 
+:::
+
+Honestly, I think this is even better than “[The
 Goal](http://www.youtube.com/watch?v=TqCgwpkOpUo)” from Ovechkin’s
 rookie season. The goal itself maybe wasn’t quite as amazing, but the
 bank pass to himself while reversing direction that set up the goal was

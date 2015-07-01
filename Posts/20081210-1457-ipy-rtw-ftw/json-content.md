@@ -1,5 +1,8 @@
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/IPyRTWFTW_C47D/image_5.png "image")](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365) This
-is a very pretty sight. It’s a screenshot from the IronPython CodePlex
+::: image-left
+[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/IPyRTWFTW_C47D/image_5.png "image")](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365) 
+:::
+
+This is a very pretty sight. It’s a screenshot from the IronPython CodePlex
 home page showing that 2.0 is the “current release”. Yes that’s right,
 dear reader, IronPython 2.0 has officially been released!
 

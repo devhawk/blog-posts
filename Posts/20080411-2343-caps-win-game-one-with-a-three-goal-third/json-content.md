@@ -9,7 +9,10 @@ matter much”.
 Oh me of little faith.
 :smile:
 
-[![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CapsWinGameOneWithaThreeGoalThird_14DA8/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131) The
+::: image-right
+[![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CapsWinGameOneWithaThreeGoalThird_14DA8/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)
+:::
+
 Caps [took game
 one](http://www.nhl.com/nhl/app?service=page&page=Recap&gameNumber=131&season=20072008&gameType=3)
 of their best-of-seven series with the Flyers in fairly dramatic

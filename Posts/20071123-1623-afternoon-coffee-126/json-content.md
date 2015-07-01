@@ -3,7 +3,7 @@
     I gotta say I feel for the guy. I mean, he had to go, but still. The
     Caps promoted the coach of their minor league team Bruce Boudreau.
     Makes sense – the farm team is where you develop players, why not
-    coaches to? The team responded by beating the Flyers in overtime,
+    coaches too? The team responded by beating the Flyers in overtime,
     though they did blow a 3 goal lead along the way.
 -   It won’t get them back in the national title hunt, but [thrashing
     ASU](http://scores.espn.go.com/ncf/recap?gameId=273260009) may earn

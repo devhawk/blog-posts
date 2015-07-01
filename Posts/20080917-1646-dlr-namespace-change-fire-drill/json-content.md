@@ -1,7 +1,6 @@
-**UPDATE**: This approach <u>*doesn’t work*</u>. Please see
-the [followup
-article](http://devhawk.net/2008/10/21/the-fifth-assembly/) for the gory
-details.
+**Update**: This approach <u>*doesn’t work*</u>. Please see
+the [followup article](http://devhawk.net/2008/10/21/the-fifth-assembly/)
+for the gory details.
 
 [Ed. Note – This long post is about changes we made in the DLR to avoid
 type collisions with System.Core. The short version of this post is “You

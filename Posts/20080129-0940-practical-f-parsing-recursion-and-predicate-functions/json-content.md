@@ -65,7 +65,7 @@ Note, when I pass an active pattern function as a parameter, I have to
 use it’s real name (with the pipes and parameters). Having to use the
 real name is pretty ugly, but F\# need to be able to differentiate
 between using a function as an active pattern vs using it as a function
-parameter. If you could just call “OOM Definition (dl, EndOfFile)”,
+parameter. If you could just call ``OOM Definition (dl, EndOfFile)``,
 would F\# realize Definition is a parameter?
 
 I also defined syntactic predicate functions. If you’ll recall, these

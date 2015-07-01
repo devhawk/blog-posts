@@ -5,7 +5,7 @@ inaugural
 speech](http://www.pic2009.org/blog/entry/president_obamas_inaugural_address/)
 was very good. His start, contrasting taking the oath of office “during
 rising tides of prosperity and the still waters of peace” (as now-former
-President Bush did [1]) versus taking the oath as he does “amidst
+President Bush did [^1]) versus taking the oath as he does “amidst
 gathering clouds and raging storms” really set the tone for the whole
 speech. With Bush sitting right there – mere feet from the podium –
 Obama categorically rejected almost every policy of the Bush
@@ -14,8 +14,8 @@ seem to be enjoying Obama’s speech very much. In a way, I was reminded
 of Steven Colbert’s [epic
 performance](http://video.google.com/videoplay?docid=-869183917758574879)
 at the White House Correspondents Dinner a few years ago. Of course, the
-difference was that Colbert was speaking truth \*to\* power while Obama
-is speaking truth \*from\* power.
+difference was that Colbert was speaking truth *to* power while Obama
+is speaking truth *from* power.
 
 Speaking of Ex-President Bush (man, [I love writing
 that](http://twitter.com/DevHawk/status/1134079689)) I can say a lot of
@@ -43,9 +43,7 @@ and commentary other than the Countdown podcast which I listen to on my
 way to work most days. Frankly, I didn’t need to be reminded of what an
 historic day it was. Res ipsa loquitur.
 
-------------------------------------------------------------------------
-
-[1] The Onion was disturbingly prescient with [their
+[^1]: The Onion was disturbingly prescient with [their
 article](http://www.theonion.com/content/node/28784) eight years ago
 “Bush: ‘Our Long National Nightmare Of Peace And Prosperity Is Finally
 Over’”

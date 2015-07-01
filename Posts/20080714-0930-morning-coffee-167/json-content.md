@@ -14,7 +14,7 @@
 -   It looks like there’s a new F\# drop –
     [1.9.4.19](http://research.microsoft.com/research/downloads/Details/7ac148a7-149b-4056-aa06-1e6754efd36f/Details.aspx)
     – ~~but as usual there is no announcement or details as to what’s
-    new. Release notes guys, look into it.~~  UPDATE – Don Syme [blogged
+    new. Release notes guys, look into it.~~  **Update**: Don Syme [blogged
     the
     release](http://blogs.msdn.com/dsyme/archive/2008/07/14/1-9-4-19-release.aspx),
     and it’s pretty minor. a .NET FX 3.5 SP1 bug fix, a fix for Mono,
