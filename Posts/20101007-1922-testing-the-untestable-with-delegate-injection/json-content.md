@@ -206,7 +206,7 @@ delegates across multiple methods. If I want to do negative testing, I
 can easily define test-specific delegates that throw exceptions or
 return unexpected values.
 
-Of course, the down side to this approach is that MVC has \*no\* idea
+Of course, the down side to this approach is that MVC has *no* idea
 what to do with an action method that returns Func\<ActionResult\>. I
 could envision support for this pattern in MVC someday, though we’d need
 a robust solution to the type+name dependency issue I described above.

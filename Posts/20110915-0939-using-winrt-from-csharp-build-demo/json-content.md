@@ -194,7 +194,7 @@ important C\# and VB are in the overall developer story for Windows 8.
 This demo shows off the hard work our two teams have done in order to
 make sure the managed developer’s experience with Windows 8 was the best
 that it could be. As I said in the talk – if you’re a managed developer,
-<u>you already know how to build these Metro style apps</u>.
+*you already know how to build these Metro style apps*.
 
 I know I [said it
 before](http://devhawk.net/2011/09/15/the-windows-runtime/), but I

@@ -81,4 +81,4 @@ Forums](http://forums.dev.windows.com). Our dev manager has already been
 questions](http://social.msdn.microsoft.com/profile/martyn%20lovell%20%5Bmsft%5D/)!
 
 I am so excited that you can finally see what we’ve been working on and
-I can wait to see what <u>you</u> build with Windows 8!
+I can wait to see what *you* build with Windows 8!

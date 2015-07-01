@@ -19,7 +19,7 @@ Framework for the beta.
 is a minor point release in the 2.0 branch (duh). In addition to
 backporting some fixes from 2.6, we had to fix an CLR breaking change in
 partial trust on Windows 7. If you’re using IronPython 2.0.x in partial
-trust on Windows 7 you \*MUST\* upgrade to 2.0.3 (or 2.6 when it’s
+trust on Windows 7 you *MUST* upgrade to 2.0.3 (or 2.6 when it’s
 released). Sorry about that – but it was out of our hands.
 
 [IronPython 2.6

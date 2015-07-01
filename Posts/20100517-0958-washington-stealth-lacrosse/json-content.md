@@ -1,5 +1,8 @@
-[![](http://sphotos.ak.fbcdn.net/hphotos-ak-snc1/hs159.snc1/5932_111961876044_93620706044_2350467_25193_n.jpg)](http://www.stealthlax.com/) Last
-Saturday night, my family and I went with some friends from the
+::: image-right
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/wa_stealth_logo.png)](http://www.stealthlax.com/) 
+:::
+
+Last Saturday night, my family and I went with some friends from the
 neighborhood up to Everett to catch the [Washington
 Stealth](http://www.stealthlax.com/) in the [National Lacrosse
 League](http://www.nll.com) Champion’s Cup final. This was my first
@@ -21,10 +24,12 @@ drum](http://espn.go.com/nhl/recap?gameId=300512016) in game 7. I’d
 argue that the Caps performance was still the most embarrassing of the
 three, but not by much)
 
-![](http://upload.wikimedia.org/wikipedia/en/thumb/c/cd/NLLLogo.svg/200px-NLLLogo.svg.png) As
-I said, this was my first indoor lacrosse game. The game is basically
+::: image-left
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/NLLLogo.png) 
+:::
+As I said, this was my first indoor lacrosse game. The game is basically
 ice hockey without the ice. In fact, the Stealth’s advertising slogan
-this year was “It’s like hockey…with balls”. [1] As far as I could tell,
+this year was “It’s like hockey…with balls”. [^1] As far as I could tell,
 the playing area is identical to a hockey rink except for the no ice
 thing. Benches, boards, penalty boxes, goal position – all the same.
 There are five players + a goalie per side, with lots of line changes
@@ -85,9 +90,7 @@ now, so why not stream the games online? I suspect the main revenue
 source for NLL teams is ticket sales and merchandise – streaming the
 games would be a good way to push both.
 
-------------------------------------------------------------------------
-
-[1] Cute slogan, but the implication that lacrosse players are tougher
+[^1]: Cute slogan, but the implication that lacrosse players are tougher
 than hockey players is ludicrous. NLL season lasts 16 games and the
 playoff are three rounds of single elimination. NHL season lasts 82
 games and the playoffs are four rounds of best of seven series.

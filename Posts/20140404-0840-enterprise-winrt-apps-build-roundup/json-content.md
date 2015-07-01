@@ -21,7 +21,7 @@ is:
     loaded apps to access the full power of Windows as well as all the
     existing code the enterprise may have in its portfolio
 -   We’ve made it significantly easier to get side load rights. I’d go
-    thru the specifics here, but Rocky Lhotka (who has been \*very\*
+    thru the specifics here, but Rocky Lhotka (who has been *very*
     vocal about the issues in this space) had a [great
     summary](http://www.lhotka.net/weblog/Windows8SideLoadingImprovements.aspx):
     “For a maximum of around \$100 virtually every organization (small

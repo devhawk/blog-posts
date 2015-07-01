@@ -123,7 +123,7 @@ Button\_Click\_1 and take you to MainPage.xaml.cs so you can write the
 code for it. Type in “var wcc = new Windows” and look at the resulting
 intellisense list. Notice that WindowsCampComponent is missing.
 
-![](http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-Intellisense1.png "WCDemo1-Intellisense1")
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/WCDemo1-Intellisense1.png "WCDemo1-Intellisense1")
 
 This is because the C++ component hasn’t been compiled yet. We need
 compile the C++ component project in order to generate the Windows
@@ -132,7 +132,7 @@ drive intellisense. Delete the line of code you just added and compile
 the solution. Now type that line of code again, and you’ll notice that
 the WindowsCampComponent namespace is available.
 
-![](http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-Intellisense2.png "WCDemo1-Intellisense2")
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/WCDemo1-Intellisense2.png "WCDemo1-Intellisense2")
 
 Now, update the button click event handler to read as follows:
 
@@ -144,8 +144,11 @@ private void Button_Click_1(object sender, RoutedEventArgs e)
 }
 ```
 
-![](http://devhawk.net/wp-content/uploads/2012/06/WCDemo1-RunningApp-e1340161688130-150x74.png "WCDemo1-RunningApp") Now,
-run the app, click the “Click Me” button and marvel at the wonder of
+::: image-left
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/WCDemo1-RunningApp-e1340161688130-150x74.png "WCDemo1-RunningApp") 
+:::
+
+Now, run the app, click the “Click Me” button and marvel at the wonder of
 WinRT language interop to print a greeting to Herb Sutter. I used [Herb
 Sutter](http://herbsutter.com/) from the C++ team since he was the
 keynote speaker at the Windows Camp event and was standing in the back

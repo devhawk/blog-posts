@@ -29,7 +29,7 @@ private void Window_Loaded(object sender, RoutedEventArgs e)
 
 You’ll notice the one new line – the call to engine.SetTrace. This is
 actually an extension method – ScriptEngine is a DLR hosting API class
-and but SetTrace is IronPython specific functionality [1]. If you look
+and but SetTrace is IronPython specific functionality [^1]. If you look
 at the source of Python.SetTrace, you’ll see that it’s just a wrapper
 around SysModule.settrace, but it avoids needing to get the engine’s
 shared PythonContext yourself.
@@ -110,9 +110,7 @@ on separate threads. And as I alluded to, tracing for Python script
 engines is per thread. So next time, we’ll look deeper into how to use
 multiple threads for lightweight debugging a hybrid app.
 
-------------------------------------------------------------------------
-
-[1] Eventually, I’d like to see IronRuby support lightweight debugging
+[^1]: Eventually, I’d like to see IronRuby support lightweight debugging
 as well. However, there’s no built in mechanism for Ruby debugging the
 way there is for Python, so it’s less clear how we should expose
 debugging to the Ruby developer. We’d also want to build a language

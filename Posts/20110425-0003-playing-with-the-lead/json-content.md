@@ -1,6 +1,6 @@
-[![Ovechkin Celebrates the Capitals' First Goal in Game
-5](http://devhawk.net/wp-content/uploads/2011/04/113092763_slide-300x200.jpg "Ovechkin Celebrates the Capitals' First Goal in Game 5")](http://www.nhl.com/ice/recap.htm?id=2010030115)
-Ovechkin Celebrates the Capitals' First Goal in Game 5
+::: image-right
+[![Ovechkin Celebrates the Capitals' First Goal in Game 5](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/113092763_slide-300x200.jpg "Ovechkin Celebrates the Capitals' First Goal in Game 5")](http://www.nhl.com/ice/recap.htm?id=2010030115)
+:::
 
 Obviously, the [Capitals win
 Saturday](http://www.nhl.com/ice/recap.htm?id=2010030115) was huge. It

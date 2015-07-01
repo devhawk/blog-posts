@@ -39,7 +39,9 @@ available.
 BTW, we are well aware that “IronPython 2.6 for .NET Framework 4.0” is a
 long ugly name. Any suggestions on a different one? We’ve been thinking
 “IronPython 2.6 R2” since the “R2” nomenclature is
-[big](http://technet.microsoft.com/en-us/windowsserver/bb428898.aspx)[around](http://www.microsoft.com/sqlserver/2008/en/us/R2.aspx)[here](http://www.microsoft.com/windowsserver2008/en/us/r2-editions-overview.aspx).
+[big](http://technet.microsoft.com/en-us/windowsserver/bb428898.aspx)
+[around](http://www.microsoft.com/sqlserver/2008/en/us/R2.aspx)
+[here](http://www.microsoft.com/windowsserver2008/en/us/r2-editions-overview.aspx).
 But “R2” doesn’t really capture the essence of the .NET 4.0 compatible
 release. Besides, when has the dynamic languages team at Microsoft ever
 done ANYTHING because it was popular with the Microsoft marketing folks?
@@ -78,11 +80,9 @@ issue](https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?Fee
 too.) The IronPython integration is currently the top rated open issue
 on the VS Connect site and is the second highest vote getter out of all
 the Connect issues (active or otherwise) logged since VS 2010 shipped
-it’s first CTP! [1]
+it’s first CTP! [^1]
 
-------------------------------------------------------------------------
-
-[1] Seriously, the next most recent Connect issue with more votes than
+[^1]: Seriously, the next most recent Connect issue with more votes than
 IronPython integration is [HttpRuntime.ProcessRequest() does not work in
 IIS7 Integrated Pipeline
 Mode](https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=308352)

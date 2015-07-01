@@ -1,4 +1,6 @@
+::: image-right
 [![VS\_v\_rgb](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/IronPythonandIronRubyCTPsfor.NET4.0Beta2_D952/VS_v_rgb_3.png "VS_v_rgb")](http://msdn.microsoft.com/en-us/vstudio/dd582936.aspx)
+:::
 In case you’ve been hiding under a rock (or maybe just aren’t tracking
 developments in the .NET community outside of IronPython), Microsoft
 [released Visual Studio 2010 beta

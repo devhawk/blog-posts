@@ -40,16 +40,16 @@ So that begs the question: what do we do now?
 Of course, we want to hear from you regarding our next steps, but some
 things we are looking at include:
 
--   .NET Framework 4.0\
+-   **.NET Framework 4.0**\
     We’ve shipped CTP releases of IronPython for each public beta of
     Visual Studio 2010 and  .NET Framework 4.0. You can expect that to
     continue as Visual Studio 2010 winds down and ships.
--   Fixing Bugs\
+-   **Fixing Bugs**\
     417 bugs fixed is good, but there are still 839 active work items in
     our issue tracker. In previous releases, we’ve done minor bug fix
     releases every few months so we’ll probably keep up that cadence.
     Make sure you go vote for bugs you think are important.
--   App Compatibility\
+-   **App Compatibility**\
     One thing we can do is take some of the more popular Python apps
     such as Django and Mercurial and make sure they run well on
     IronPython. In some cases, there may need to be changes to the
@@ -58,7 +58,7 @@ things we are looking at include:
     patch](http://jdhardy.blogspot.com/2008/07/django-on-ironpython.html)
     for running Django on IronPython) which assuredly means more time
     with lawyers for me.
--   Missing Modules\
+-   **Missing Modules**\
     While IronPython 2.6 is our implementation of Python 2.6, there are
     binary modules we haven’t implemented yet like
     [\_csv](http://docs.python.org/library/csv.html),
@@ -67,14 +67,14 @@ things we are looking at include:
     consider this App Compatibility work, but we have a different
     internal process for bug fixing and implementing new features so I
     broke this out separately.
--   Documentation\
+-   **Documentation**\
     Invariably an area for improvement in all software, our doc story
     today is pretty much “go look at docs.python.org”. Of course, that
     doesn’t cover any IronPython specific functionality. Of course, what
     would be great would be to combine existing Python docs with
     IronPython specific docs in a single reference, which also assuredly
     means more time with lawyers for me.
--   Tutorials\
+-   **Tutorials**\
     If you haven’t seen Michael Foord’s [Try
     Python](http://www.trypython.org/), it’s awesome. However, it was
     recently pointed out to me that it doesn’t include any IronPython
@@ -86,7 +86,7 @@ things we are looking at include:
     [reStructured Text](http://docutils.sourceforge.net/rst.html), then
     I’m guessing it would be easy for Michael to include it in Try
     Python via his [rst2xaml](http://code.google.com/p/rst2xaml/) tool.
--   “Just Text” in Silverlight\
+-   **“Just Text” in Silverlight**\
     If you haven’t seen MIX Online Labs [Gestalt
     project](http://www.visitmix.com/Labs/gestalt/), browse to [one of
     the
@@ -97,7 +97,7 @@ things we are looking at include:
     model](http://rubyforge.org/pipermail/ironruby-core/2009-September/005245.html)
     for the Silverlight version of IronPython (and
     [IronRuby](http://www.visitmix.com/labs/gestalt/samples/getting.started/01_ruby.html)).
--   Visual Studio\
+-   **Visual Studio**\
     There’s no work item for VS Integration in our issue tracker, but
     there have been [112 votes for IronPython
     integration](https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=475830)
@@ -105,7 +105,7 @@ things we are looking at include:
     integration](https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=479957))
     in the VS 2010 connect bug database. No promises here, but we are
     acutely aware of how popular this suggestion is.
--   CodePlex Foundation\
+-   **CodePlex Foundation**\
     The [CodePlex Foundation](http://codeplex.org/) is a new non-profit
     foundation sponsored by Microsoft with the explicit mission “to
     enable the exchange of code and understanding among software

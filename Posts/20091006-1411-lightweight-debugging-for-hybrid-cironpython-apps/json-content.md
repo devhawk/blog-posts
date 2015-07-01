@@ -1,4 +1,6 @@
+::: image-right
 [![designallCAZM93SM](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/EmbeddedDebuggingIntroduction_AD18/designallCAZM93SM_3.jpg "designallCAZM93SM")](http://www.zazzle.com/you_had_me_at_dynamic_shirt-235421109922997983)
+:::
 
 One of the IronPython scenarios that I’m hearing more and more about
 recently is for

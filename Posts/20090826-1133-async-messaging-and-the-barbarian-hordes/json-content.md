@@ -41,10 +41,12 @@ with](http://devhawk.net/2007/12/05/durable-and-restful/) for quite
 some time. But the rise of Twitter has driven many people to realize
 that something I’ve known since 2003: “[In order to truly evolve
 syndication…we need to break free of the synchronous polling
-model](http://devhawk.net/2003/12/16/reliable-syndication/).” [1]
+model](http://devhawk.net/2003/12/16/reliable-syndication/).” [^1]
 
-![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_8.png "image") I
-love the slogan from [this Web Hooks
+::: image-left
+![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_8.png "image") 
+:::
+I love the slogan from [this Web Hooks
 presentation](http://blog.webhooks.org/2009/04/23/slides-from-pivotal-labs-talk/):
 “so simple you’ll think it’s stupid”. Web Hooks aren’t stupid – far from
 it – but they certainly are simple. They’re basically
@@ -82,7 +84,9 @@ the messages explicitly via some kind of conversation identifier and
 release your precious resources to do other work while you wait for the
 response.
 
+::: image-right
 ![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_7.png "image")
+:::
 As for [PubSubHubbub](http://code.google.com/p/pubsubhubbub/), it’s
 focused on real time delivery of new information. [Dave Winer’s recent
 RSS Cloud efforts](http://rsscloud.org) focus on real-time notification
@@ -91,8 +95,10 @@ for changes every X amount of time, they register for notification when
 the feed is updated. This is very similar to the way GitHub uses async
 messages for commit push notification as described above.
 
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_thumb_3.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_10.png) Both
-PubSubHubbub and RSS Cloud include an intermediary that’s responsible
+::: image-left
+[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_thumb_3.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_10.png) 
+:::
+Both PubSubHubbub and RSS Cloud include an intermediary that’s responsible
 for managing the list of current subscribers and relaying the
 notification when the publisher makes a change.  Honestly, I’m not a fan
 of the Hub/Cloud intermediary – it feels a little too ESB-like to me.
@@ -138,9 +144,7 @@ Web Hooks and PubSubHubbub are long overdue but very welcome steps
 forward in the evolution of the Internet. I wonder what the barbarians
 will rediscover next?
 
-------------------------------------------------------------------------
-
-[1] Of course, writing a prediction like this is a far sight from
+[^1]: Of course, writing a prediction like this is a far sight from
 actually implementing it. If I had actually put some engineering effort
 behind this in 2003, maybe I’d be a household name in the tech community
 by now. On the other hand, I said some things in that same post that

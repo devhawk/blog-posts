@@ -8,7 +8,7 @@ version](http://www.microsoft.com/Windows/windows-7/default.aspx)
 recently you might be aware of…Actually, I hear it was [your
 idea](http://seattletimes.nwsource.com/html/microsoftpri0/2010119125_windows_7_launch_microsoft_new_ads_say_windows_was.html)!
 
-Seriously, I am *stoked*to be joining the Windows team. I can’t say much
+Seriously, I am *stoked* to be joining the Windows team. I can’t say much
 about the new job beyond a) it’s in Windows Client (as opposed to
 Windows Server) and b) I’m working on a team that’s focused on the
 Windows developer experience. The Windows team is deep in what you might

@@ -1,5 +1,8 @@
-[![CNN](http://devhawk.net/wp-content/uploads/2014/04/CNN-300x190.jpg)](http://devhawk.net/wp-content/uploads/2014/04/CNN.jpg) Today
-was a \***HUGE**\* thrill as I got to present in the keynote at
+::: image-left
+[![CNN](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/CNN-300x190.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/CNN.jpg) 
+:::
+
+Today was a \***HUGE**\* thrill as I got to present in the keynote at
 [//build](http://www.buildwindows.com/)! I’ll have more on the specifics
 of Brokered WinRT Components later after my session, but apparently
 quite a big deal was made of my shirt. I ended up as an [internet

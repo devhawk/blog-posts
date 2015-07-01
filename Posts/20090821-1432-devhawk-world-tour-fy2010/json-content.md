@@ -1,5 +1,6 @@
 As I’ve done the
-[past](http://devhawk.net/2007/09/04/the-devhawk-2007-world-tour/)[two](http://devhawk.net/2008/05/16/devhawk-world-tour-2008/)
+[past](http://devhawk.net/2007/09/04/the-devhawk-2007-world-tour/)
+[two](http://devhawk.net/2008/05/16/devhawk-world-tour-2008/)
 years, here’s a list of all the places I’m going in the next fiscal
 year. Traditionally, I’ve done this post by calendar year, but all MSFT
 planning is done by FY and so invariably I miss events early in the
@@ -8,9 +9,10 @@ updating this post periodically as I get tapped for more presentations.
 There are several other conferences I’m considering, submitting sessions
 for, in discussions with, but these are the ones that are confirmed.
 
-**Danish University Tour, Sept 7-11**
-
+::: image-right
 [![250px-Dannebrog](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DevHawkWorldTourFY2010_C89F/250px-Dannebrog_3.jpg "250px-Dannebrog")](http://www.microsoft.com/danmark/mdcc/news/ironpython.mspx)
+:::
+**Danish University Tour, Sept 7-11**\
 My FY10 travels first take me to Copenhagen, where I was invited by the
 local subsidiary to present at four different universities in a single
 week. Don’t know how much sightseeing I’ll get done, but I’ll sure be
@@ -37,10 +39,10 @@ delivering my Iron Languages introductory talk “Pumping Iron”, but
 there’s also some interest in language development on the DLR so I’ll be
 talking on that topic as well.
 
-*****[patterns & practices Summit Redmond
-2009](http://www.pnpsummit.com/west2009/west2009.aspx)***, Oct 12-16**
-
+::: image-right
 [![n79454152413\_3738](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DevHawkWorldTourFY2010_C89F/n79454152413_3738_thumb.png "n79454152413_3738")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DevHawkWorldTourFY2010_C89F/n79454152413_3738_2.png)
+:::
+**[patterns & practices Summit Redmond 2009](http://www.pnpsummit.com/west2009/west2009.aspx), Oct 12-16**\
 This will be my third p&p Summit in a row and fourth in five years. This
 year, I’m doing a talk called “Not Everything is a new Nail() : How
 Languages Influence Design”. I was supposed to deliver this talk last
@@ -62,11 +64,10 @@ year.
 > order to see how much on an influence language really has on our
 > engineering efforts.
 
-[**Tech·Ed Europe
-2009**](https://www.msteched.com/europe/Public/default.aspx)**, Nov
-9-13**
-
+::: image-right
 ![TechEd\_Europe\_2009](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DevHawkWorldTourFY2010_C89F/TechEd_Europe_2009_3.png "TechEd_Europe_2009")
+:::
+**[Tech·Ed Europe 2009](https://www.msteched.com/europe/Public/default.aspx), Nov 9-13**\
 I knew I was going to be updating this post over time, but I didn’t
 expect to have to update it so soon! Literally the day after I posted
 this, I got the speaker invite for Tech·Ed Europe 2009. My session
@@ -93,11 +94,12 @@ The only bummer about doing Tech·Ed Europe is that I’m only doing one
 measly talk. I’m asking around – I’d love to do a .NET user group or
 university talk while I’m in town. Any takers?
 
-[**~~Microsoft Professional Developers Conference
-2009~~**](http://microsoftpdc.com/)**~~, Nov 17-19~~**
-
+::: image-right
 ![Find out what's
-next](http://microsoftpdc.com/content/images/creative/PDC09Bling_General_WhatsNext_136.jpg) Update:
+next](http://microsoftpdc.com/content/images/creative/PDC09Bling_General_WhatsNext_136.jpg) 
+:::
+**~~[Microsoft Professional Developers Conference 2009](http://microsoftpdc.com/), Nov 17-19~~**\
+**Update**:
 Tech·Ed Europe and PDC are on back-to-back weeks this year so we’ll be
 sending a teammate-to-be-determined to PDC in my stead. My family is
 very pleased I won’t be gone for two weeks straight.
@@ -116,9 +118,10 @@ abstracts. Also, if one of my PDC talks is accepted, I’ll probably
 submit a talk for~~ [~~SoCal Code Camp~~](http://www.lacodecamp.com/)
 ~~as well.~~
 
-**[PyCon 2010](http://us.pycon.org/2010/about/), Feb 19-21**
-
+::: image-right
 [![pycon\_logo](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DevHawkWorldTourFY2010_C89F/pycon_logo_thumb.gif "pycon_logo")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DevHawkWorldTourFY2010_C89F/pycon_logo_2.gif)
+:::
+**[PyCon 2010](http://us.pycon.org/2010/about/), Feb 19-21**\
 This will also be my third PyCon in a row, though PyCon last year was a
 bit of a whirlwind since I had literally just joined the IronPython
 team. I finally feel like I might have something interesting to present

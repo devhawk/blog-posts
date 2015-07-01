@@ -1,5 +1,8 @@
-[![](http://www.agilemanifesto.org/background.jpg)](http://www.agilemanifesto.org/) You
-know what the [Agile Manifesto](http://www.agilemanifesto.org/) doesn’t
+::: image-right
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/agile_manifesto_background_thumb.jpg))](http://www.agilemanifesto.org/) 
+:::
+
+You know what the [Agile Manifesto](http://www.agilemanifesto.org/) doesn’t
 have? Video of a “very formal ceremony” announcing said manifesto.
 Instead, we just have [artistically rendered
 picture](http://www.agilemanifesto.org/background.jpg) of what sure
@@ -12,8 +15,8 @@ photographers took their picture and someone gravely read the manifesto
 to give it artificially inflated importance.
 
 I only watched ten seconds of the [SOA
-Manifesto](http://soa-manifesto.org/)[announcement
-video](http://www.youtube.com/watch?v=TCg16oTZSV0) before I realized
+Manifesto](http://soa-manifesto.org/)
+[announcement video](http://www.youtube.com/watch?v=TCg16oTZSV0) before I realized
 there’s nothing to see here, move along, just a bunch of navel gazing
 from the [usual SOA suspects](http://thomaserl.com/).
 

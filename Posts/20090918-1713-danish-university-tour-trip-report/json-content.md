@@ -17,9 +17,11 @@ and DLR as a platform for language development. If there’s interest
 (leave a comment), I’ll record audio for that presentation and post it
 up on SlideShare or something like that.
 
-### [Aalborg University](http://en.aau.dk/)
-
+::: image-right
 [![IronPython\_DK\_trip\_on\_a\_map](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IronPython_DK_trip_on_a_map_thumb.png "IronPython_DK_trip_on_a_map")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IronPython_DK_trip_on_a_map_2.png)
+:::
+
+### [Aalborg University](http://en.aau.dk/)
 
 First stop of the University Tour was Aalborg University – about a four
 hour drive from Copenhagen (or as the Danish spell it København). As you
@@ -30,8 +32,7 @@ drive geeking out about programming languages (when I wasn’t napping).
 
 Each of the universities had a different focus that I was interested in.
 At Aalborg, it was in teaching programming. Given the popularity of
-[Python in
-education](http://www.python.org/community/sigs/current/edu-sig/), we
+[Python in education](http://www.python.org/community/sigs/current/edu-sig/), we
 had lots to talk about. My host at Aalborg was [Bent
 Thomsen](http://www.cs.aau.dk/~bt/) who has done [significant
 research](http://www.springerlink.com/content/u481122hk38w4j32/) on this
@@ -167,9 +168,12 @@ I’d love to see REAL IronPython integration into BlogEngine.NET, but I
 needed something I could do in a couple of hours late at night in a code
 base I wasn’t familiar with.
 
+::: image-right
+[![IMG\_2297](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2297_thumb.jpg "IMG_2297")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2297_2.jpg)
+:::
+
 ### Pumping Iron TechTalk
 
-[![IMG\_2297](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2297_thumb.jpg "IMG_2297")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2297_2.jpg)
 Finally, on Friday I delivered my final talk of the week, which is
 available to watch and download from [Channel
 9](http://channel9.msdn.com/posts/martinesmann/Pumping-Iron-Dynamic-Languages-on-NET/).
@@ -191,10 +195,13 @@ is doing. If you see a post here about me moving to Copenhagen, you’ll
 know I was successful!
 :smile:
 
+::: image-right
+[![IMG\_2276](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2276_thumb.jpg "IMG_2276")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2276_2.jpg)
+:::
+
 ### Final Thoughts
 
-[![IMG\_2276](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2276_thumb.jpg "IMG_2276")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/DanishUniversityTourTripReport_9595/IMG_2276_2.jpg)Other
-than the jet lag, which seemed tougher on this trip than when I’ve gone
+Other than the jet lag, which seemed tougher on this trip than when I’ve gone
 westward to New Zealand, Australia or Malaysia, I had a blast. It was a
 real treat seeing so much of Denmark and getting to talk to so many
 interesting people. I even got to do some sight seeing in Copenhagen and

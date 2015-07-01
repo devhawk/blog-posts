@@ -13,8 +13,7 @@ private void Window_Loaded(object sender, RoutedEventArgs e)
 }
 ```
 
-The [DLR Hosting
-API](javascript:window.location.href='http://dlr.codeplex.com/Project/Download/FileDownload.aspx?DownloadId=84001';)
+The [DLR Hosting API](http://dlr.codeplex.com/Project/Download/FileDownload.aspx?DownloadId=84001)
 has three distinct levels of functionality. As simple as this is,
 technically it’s level 2 since it’s using a ScriptEngine directly. If
 you wanted to use the simplest level 1 hosting API, you could use

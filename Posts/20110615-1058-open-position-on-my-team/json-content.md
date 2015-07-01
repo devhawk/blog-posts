@@ -4,8 +4,8 @@ Microsoft Careers site yet, but the job description is below.
 Interested? [Send me
 mail](mailto:harry.pierson@microsoft.com "Job Opening on your team").
 
-> <u>**IC PM2/Senior Program
-> Manager Position in the Windows Developer Experience Team** </u>
+> **IC PM2/Senior Program
+> Manager Position in the Windows Developer Experience Team** 
 >
 > Do you want to help ship the most ambitious release of Windows to
 > date? Do you want to make your impact on millions of developers and
