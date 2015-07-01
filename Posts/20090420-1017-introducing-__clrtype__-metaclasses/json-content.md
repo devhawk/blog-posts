@@ -53,7 +53,7 @@ databinding and WCF services – purely in Python. Quick warning:
 \_\_clrtype\_\_ uses low level features like Python metaclasses,
 [Reflection.Emit](http://msdn.microsoft.com/en-us/library/system.reflection.emit.aspx)
 and [DLR
-Binders](javascript:window.location.href='http://dlr.codeplex.com/Project/Download/FileDownload.aspx?DownloadId=51534';)
+Binders](http://dlr.codeplex.com/Project/Download/FileDownload.aspx?DownloadId=51534)
 so these posts will be deeper technically than usual. Don’t worry – this
 isn’t the API interface we expect everyone to use. Eventually, we want
 to have an easy to use API that will sit on top of the low-level

@@ -1,4 +1,7 @@
+::: image-left
 [![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/InvokingPythonFunctionsfromCWithoutDynam_13C34/image_thumb.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/InvokingPythonFunctionsfromCWithoutDynam_13C34/image_2.png)
+:::
+
 So I’ve [compiled the Pygments package into a CLR
 assembly](http://devhawk.net/2009/08/10/compiling-python-packages-into-assemblies/)
 and [loaded an embedded Python

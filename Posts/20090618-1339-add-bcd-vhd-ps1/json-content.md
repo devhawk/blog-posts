@@ -1,4 +1,4 @@
-I \*LOVE\* the new boot from VHD feature in Win7. I am primarily using
+I *LOVE* the new boot from VHD feature in Win7. I am primarily using
 it for doing some [VS
 2010](http://www.microsoft.com/visualstudio/en-us/products/2010/default.mspx)
 dogfooding without messing up my primary drive partition. But man, the
@@ -31,7 +31,7 @@ the path to the VHD in a slightly funky syntax. Blech. So I built a
 PowerShell script to automate updating the BCD, called
 [add-bcd-vhd](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/add-bcd-vhd.ps1).
 You can get it from [my
-skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/add-bcd-vhd.ps1).
+SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/add-bcd-vhd.ps1).
 Pass in the name of the BCD entry and the path to the VHD and
 add-bcd-vhd will do the rest.
 

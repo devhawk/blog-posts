@@ -8,8 +8,11 @@ was very excited for this opportunity. Unfortunately, while the idea of
 a space elevator is pretty exciting, the presentation itself left quite
 a bit to be desired.
 
-[![](http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Space_elevator_structural_diagram.svg/240px-Space_elevator_structural_diagram.svg.png)](http://en.wikipedia.org/wiki/Space_elevator) For
-the un-initiated, a [space
+::: image-left
+[![](http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Space_elevator_structural_diagram.svg/240px-Space_elevator_structural_diagram.svg.png)](http://en.wikipedia.org/wiki/Space_elevator) 
+:::
+
+For the un-initiated, a [space
 elevator](http://en.wikipedia.org/wiki/Space_elevator) is just what it
 sounds like – an elevator into space. Chemical rockets are horribly
 inefficient, so instead the idea is to run a cable way out into space.

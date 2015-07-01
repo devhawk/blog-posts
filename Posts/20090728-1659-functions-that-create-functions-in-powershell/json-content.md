@@ -6,7 +6,7 @@ Recently, I installed the latest [IronRuby
 release](http://www.ironruby.com/Download) and discovered there’s a
 whole bunch of little batch file wrappers around common Ruby commands
 like gem and rake. While being able to simply type “igem” or “irake” is
-much easier than typing “ir “C:Program Filesironruby-0.6.0binigem””, I
+much easier than typing ``ir "C:\Program Files\ironruby-0.6.0\bin\igem"``, I
 didn’t want to pollute my path – even with a product from my team.
 Instead, I wanted to create a Powershell function for each of those
 IronRuby-fied commands. Furthermore, I wanted to avoid manually creating

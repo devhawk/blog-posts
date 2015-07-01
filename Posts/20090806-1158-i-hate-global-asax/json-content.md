@@ -74,9 +74,8 @@ basically have two choices:
     Init and Dispose. You can have multiple IHttpModule instances in a
     given web app, so you’d need to make sure you ran fired Start and
     End only once. This is the approach taken by the [ASP.NET Dynamic
-    Language
-    Support](http://aspnet.codeplex.com/Wiki/View.aspx?title=Dynamic%20Language%20Support).
-    [1]
+    Language Support](http://aspnet.codeplex.com/Wiki/View.aspx?title=Dynamic%20Language%20Support).
+    [^1]
 
 So here’s the question Iron Language Fans: Which of these approaches is
 better? I lean towards Option \#1, since it traps exactly the correct
@@ -87,8 +86,6 @@ request”). But I’m curious what the Iron Language Community at large
 thinks. Feel free to leave me a comment or [drop me an
 email](mailto:harry.pierson@microsoft.com) with your thoughts.
 
-------------------------------------------------------------------------
-
-[1] FYI, I’m working on getting the code for ASP.NET Dynamic Language
+[^1]: FYI, I’m working on getting the code for ASP.NET Dynamic Language
 Support released. In the meantime, you can verify what I’m saying via
 Reflector.

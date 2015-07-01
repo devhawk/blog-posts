@@ -90,7 +90,7 @@ class Product(object):
 ```
 
 As usual, sample code is [up on my
-skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_/custom%7C_attrib%7C_with%7C_named%7C_args.py).
+SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_/custom%7C_attrib%7C_with%7C_named%7C_args.py).
 
 Now that I can support custom attributes on classes, it would be fairly
 straightforward to add them to methods, properties, etc as well. The

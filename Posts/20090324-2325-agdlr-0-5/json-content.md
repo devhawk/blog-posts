@@ -1,4 +1,7 @@
+::: image-right
 [![agdlr-400](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/AgDLR0.5_1433D/agdlr-400_3.png "agdlr-400")](http://github.com/jschementi/agdlr)
+:::
+
 I [mentioned yesterday](http://devhawk.net/2009/03/23/ironruby-0-3/)
 that it looked like a new release of
 [AgDLR](http://github.com/jschementi/agdlr) was eminent and sure enough
@@ -64,7 +67,7 @@ that shows XapHttpHandler in action.
 
 Quick note of caution: by design, XapHttpHandler does not cache the XAP
 file – it’s generated anew on every request. So I would highly recommend
-<u>against</u> using
+*against* using
 XapHttpHandler on a production web server. You’re much better off using
 Chiron to build a physical XAP file that you then deploy to your
 production web server.

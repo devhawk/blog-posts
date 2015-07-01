@@ -1,5 +1,8 @@
-[![clip\_image001](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg "clip_image001")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_2.jpg) In
-a couple of weeks, I‘m participating in an internal “Presentation
+::: image-right
+[![clip\_image001](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg "clip_image001")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_2.jpg) 
+:::
+
+In a couple of weeks, I‘m participating in an internal “Presentation
 Idol”competition. It’s a contest of presentation skills against
 impressive competition (I can’t name names, but rest assured it’s a
 strong group) being judged by Microsoft executives (again, I can’t name
@@ -36,8 +39,11 @@ that ASP.NET MVC would be released under the
 > “Giving someone your source code is NOT open source. So although
 > Asp.Net MVC’s source code is out there for download, not open source.”
 
-[![image](http://deepfriedbytes.com/files/media/image/WindowsLiveWriter/Media_8AE9/image_thumb_4.png "image")](http://deepfriedbytes.com/podcast/episode-32-being-dynamic-about-ironpython-with-harry-pierson-ndash-part-2/ "DevHawk on DFB") In
-what now seems like a huge coincidence, Keith and his co-host [Chris
+::: image-right
+[![image](http://deepfriedbytes.com/files/media/image/WindowsLiveWriter/Media_8AE9/image_thumb_4.png "image")](http://deepfriedbytes.com/podcast/episode-32-being-dynamic-about-ironpython-with-harry-pierson-ndash-part-2/ "DevHawk on DFB") 
+:::
+
+In what now seems like a huge coincidence, Keith and his co-host [Chris
 “Woody” Woodruff](http://twitter.com/cwoodruff) interviewed me later
 that day for their podcast [Deep Fried
 Bytes](http://deepfriedbytes.com/). As you might imagine, while we

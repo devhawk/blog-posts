@@ -21,7 +21,7 @@ open
 source](http://devhawk.net/2009/06/03/strengthening-the-microsoft-ecosystem-with-source-code/),
 but in the meantime we just can’t give those permissions to people off
 the team. However, we would love to have contributions to our
-documentation wiki. [1] With the new Editor Role, we’ll be able to grant
+documentation wiki. [^1] With the new Editor Role, we’ll be able to grant
 wiki editor access without any of the other permissions.
 
 Of course, the whole idea of “wiki permissions” kinda flies in the face
@@ -35,5 +35,5 @@ and I’ll get you hooked up. 
 Big mega-thanks to the CodePlex team for making this feature happen. I
 guess I’ll have to find something new to bug Sara about!
 
-[1] You can tell we’re a real open source project because we’re begging
+[^1]: You can tell we’re a real open source project because we’re begging
 for documentation help!

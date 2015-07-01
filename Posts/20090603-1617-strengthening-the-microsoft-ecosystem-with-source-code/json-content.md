@@ -1,5 +1,7 @@
-![clip\_image001](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg) Today
-was the Presentation Idol competition [I blogged
+::: image-right
+![clip\_image001](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg) 
+:::
+Today was the Presentation Idol competition [I blogged
 about](http://devhawk.net/2009/05/18/microsoft-and-open-source/) a
 couple of weeks ago. Unfortunately, I didn’t win – but believe me when I
 say I was up against some *serious* competition. I think I was about in
@@ -19,7 +21,9 @@ Feedback, as usual, is most welcome.
 
 ------------------------------------------------------------------------
 
+::: image-left
 [![Slide1](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide1_thumb.png "Slide1")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide1.png)
+:::
 Hello, my name is Harry Pierson. I’m a program manager in the Visual
 Studio Languages group and I’m here to talk about what I would most like
 to do to improve Microsoft.
@@ -29,7 +33,9 @@ Searching for the word “ecosystem” on Microsoft.com returns nearly eight
 thousand results. We talk about the ecosystem in our marketing and in
 our press releases.
 
+::: image-right
 [![Slide2](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide2_thumb.png "Slide2")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide2.png)
+:::
 In 2007, we commissioned a [study of the global economic
 impact](http://www.microsoft.com/about/corporatecitizenship/citizenship/economicimpact)
 of the Microsoft ecosystem. In a word, it’s massive. It’s responsible
@@ -38,7 +44,9 @@ year in tax revenue worldwide.
 
 No wonder we care about the ecosystem so much.
 
+::: image-left
 [![Slide3](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide3_thumb.png "Slide3")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide3.png)
+:::
 But clearly, we’re not the only ones who care. Microsoft represents a
 fairly small percentage of the overall ecosystem. We earn just over 11%
 of the total revenue and account for half of one percent of the total
@@ -47,7 +55,9 @@ employment within the ecosystem.
 That means there are an awfully large number of people with a vested
 interest in the continuing success of the Microsoft platform.
 
+::: image-right
 [![Slide4](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide4_thumb.png "Slide4")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide4.png)
+:::
 With this vast ecosystem in mind, I want to talk about Open Source.
 Microsoft and Open Source are often portrayed as enemies. But in DevDiv,
 we have several high profile Open Source projects. I work on IronPython,
@@ -67,7 +77,9 @@ to projects in question.*
 The thing I would most like to change about Microsoft would be to let
 members of our ecosystem contribute code to our Open Source projects.
 
+::: image-left
 [![Slide5](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide5_thumb.png "Slide5")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide5.png)
+:::
 I can tell you from personal experience, there are members of the
 IronPython community who would leap at the opportunity to contribute
 code. And their engineering prowess and real world would benefit the
@@ -85,7 +97,9 @@ protects Microsoft while allowing for code contributions. *Developing
 such a framework will be a challenge. But competitors like Sun, Google
 and IBM have already demonstrated that it’s not insurmountable.*
 
+::: image-right
 [![Slide6](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide6_thumb.png "Slide6")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide6.png)
+:::
 Half a trillion dollars annually. 15 Million jobs. 42% of the IT
 workforce. The Microsoft ecosystem is the envy of the industry. And
 Microsoft is in a unique position to harness the collective experience

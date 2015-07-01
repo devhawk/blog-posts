@@ -89,9 +89,7 @@ the code above is the equivalent to this code:
 ``` python
 def do_a():
   return 'a'
-```
 
-``` python
 _tmp = inputcmd(_switch, 'a')
 do_a = _tmp(do_a)
 ```

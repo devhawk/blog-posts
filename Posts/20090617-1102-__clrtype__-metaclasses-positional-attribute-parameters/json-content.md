@@ -82,13 +82,13 @@ class Product(object):
 
 The cab\_builder function returns an anonymous lambda function that
 closes over the attrib\_type variable. Python lambdas are just like C\#
-lambdas, except that they only support expressions [1]. The results of
+lambdas, except that they only support expressions [^1]. The results of
 calling the lambda returned from cab\_builder is exactly the same as
 calling make\_cab directly, but less verbose. And since I named the
 function returned from cab\_builder Obsolete, now my list of class
 custom attributes looks *exactly* like it does in C\# (though still in a
 different place). As usual, the code is [up on my
-skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_/custom%7C_attrib%7C_with%7C_positional%7C_args.py).
+SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_/custom%7C_attrib%7C_with%7C_positional%7C_args.py).
 
 If you’re only using the attribute once like this, it is kind of
 annoying to first declare the cab\_builder function. If you wanted to
@@ -100,6 +100,5 @@ generate a Python module on disk with the calls to cab\_builder. Then,
 you’d just have to import this module of common attributes but still be
 able to include additional calls to cab\_builder as needed.
 
------
-[1] The lack of statement lambdas in Python is one of my few issues with
+[^1]: The lack of statement lambdas in Python is one of my few issues with
 the language.

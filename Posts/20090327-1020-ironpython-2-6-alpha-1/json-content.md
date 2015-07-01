@@ -13,7 +13,7 @@ performance [is pretty
 good](http://ironpython.codeplex.com/Wiki/View.aspx?title=IP201VsCPy25Perf&referringTitle=IronPython%20Performance)
 compared to CPython. We’re about 28% faster than CPython (IPy 2.0.1 vs.
 CPy 2.5) on PyStone and about 10% faster on PyBench *if you exclude the
-TryRaiseExcept test*. [1] However, our startup time is not very good.
+TryRaiseExcept test*. [^1] However, our startup time is not very good.
 These two facts are related: it takes a long time on startup to compile
 to Python code to IL (and then JITted from IL to native code), but once
 that’s done the code runs really fast. However, if you’re only going to
@@ -47,9 +47,7 @@ we’re shooting for a slightly longer timeframe for 2.6. Certainly not
 like the twenty months that passed between 1.1 and 2.0. So please start
 trying it out as soon as you can and give us your feedback.
 
-------------------------------------------------------------------------
-
-[1] IPy is *over 4000% slower* than CPy on TryRaiseExcept, 58,234 ms vs.
+[^1]: IPy is *over 4000% slower* than CPy on TryRaiseExcept, 58,234 ms vs.
 1,286ms. This one test represents 44% of our overall test run time and
 causes IPy to run PyBench 57% slower than CPy instead of 10% faster.
 Python has a different philosophy on exceptions than CLR does. Several

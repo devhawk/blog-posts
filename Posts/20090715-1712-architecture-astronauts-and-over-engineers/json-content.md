@@ -1,8 +1,8 @@
-Since it’s apparently Architecture Week™ [1] here at DevHawk, here’s
+Since it’s apparently Architecture Week^tm^ [^1] here at DevHawk, here’s
 another of my favorite Dilbert cartoons of all time – relevant to the
 discussion at hand.
 
-[![Dilbert.com](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/00000/1000/800/1890/1890.strip.gif)](http://dilbert.com/strips/comic/2008-03-04/ "Dilbert.com")
+[![Dilbert.com](http://assets.amuniversal.com/5f46b8106cb801301d46001dd8b71c47)](http://dilbert.com/strips/2008-03-04/)
 
 Two interesting
 [comments](http://devhawk.net/CommentView,guid,94b98f0d-d884-4557-8df0-8f0dca3b72e7.aspx#commentstart)
@@ -15,8 +15,8 @@ on yesterday’s post:
 > anything but a terrible thing. Although I see that your definition of
 > architecture (at the functional level) does not match my caricature of
 > the ‘architecture astronauts’ which I do think can be endemic in
-> languages that encourage additional layers of architecture. [[Michael
-> Foord](http://www.voidspace.org.uk/)]
+> languages that encourage additional layers of architecture.\ 
+> [[Michael Foord](http://www.voidspace.org.uk/)]
 
 > So based on the definition of architecture I’m reading into your post,
 > you wouldn’t consider the choice of object-oriented versus functional
@@ -24,7 +24,7 @@ on yesterday’s post:
 > understand what level of architecture you mean here. Like Michael, I
 > usually think of architecture even down into the implementation
 > patterns level (hence the architecture astronauts), but that seems to
-> be included in what you might be calling an engineering concern.
+> be included in what you might be calling an engineering concern.\
 > [[Ryan Riley](http://wizardsofsmart.net/)]
 
 Let me be very clear. Using my definition, there is no such thing
@@ -59,15 +59,14 @@ Architecture Astronauts, there wasn’t much reference, if any, to the
 implementation layer at all.
 
 > The Architecture Astronauts will say things like: “Can you imagine a
-> program like**Napster where you can download *anything,* not just
+> program *like* Napster where you can download *anything,* not just
 > songs?” Then they’ll build applications like Groove that they think
 > are *more* general than Napster, but which seem to have neglected that
 > wee little feature that lets you type the name of a song and then
 > listen to it — the feature we wanted in the first place. Talk about
 > missing the point. If Napster *wasn’t* peer-to-peer but it *did* let
 > you type the name of a song and then listen to it, it would have been
-> just as popular
->
+> just as popular.\
 > [Joel on Software, [Don’t Let Architecture Astronauts Scare
 > You](http://www.joelonsoftware.com/articles/fog0000000018.html)]
 
@@ -104,7 +103,5 @@ abstraction at the implementation layer on the off chance that they
 don’t suck at precognition. Since we call such systems over-engineered,
 wouldn’t that make the people who build them “Over Engineers”?
 
-------------------------------------------------------------------------
-
-[1] It’s like [Shark Week](http://en.wikipedia.org/wiki/Shark_Week), but
+[^1]: It’s like [Shark Week](http://en.wikipedia.org/wiki/Shark_Week), but
 with white boards and even more terrifying.

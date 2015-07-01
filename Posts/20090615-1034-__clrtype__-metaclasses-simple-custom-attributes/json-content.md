@@ -78,7 +78,7 @@ then calling SetCustomAttribute. Of course, this is very simple because
 we’re not supporting any custom arguments or setting of named
 properties. We’ll get to that in the next post. In the mean time, you
 can get the full code for this post [from my
-skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_/simple%7C_custom%7C_attributes.py).
+SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_/simple%7C_custom%7C_attributes.py).
 
 There is one significant issue with this custom attribute code.
 Attributes are typically marked with the [AttributeUsage

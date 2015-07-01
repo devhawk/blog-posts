@@ -1,7 +1,7 @@
 In the comments from [yesterday’s
 post](http://devhawk.net/CommentView,guid,cf59d65d-af8c-41c5-9562-a26969d76a5d.aspx#commentstart),
 IronPython MVP and [author
-extraordinaire](http://www.ironpythoninaction.com/)[Michael
+extraordinaire](http://www.ironpythoninaction.com/) [Michael
 Foord](http://www.voidspace.org.uk/) asked:
 
 > Has your view on architecture as a discipline separate from coding

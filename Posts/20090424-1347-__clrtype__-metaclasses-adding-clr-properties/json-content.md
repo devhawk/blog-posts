@@ -13,7 +13,7 @@ it’s own method:
 
 ``` python
 @staticmethod
-  def define_prop(typebld, name, fieldtype, fieldbld):
+def define_prop(typebld, name, fieldtype, fieldbld):
     attribs = ( MethodAttributes.Public
               | MethodAttributes.SpecialName
               | MethodAttributes.HideBySig)
@@ -75,10 +75,9 @@ first iteration thru list of \_clrfields. Since the rest of
 
 ``` python
 if hasattr(cls, "_clrfields"):
-      for fldname in cls._clrfields:
+    for fldname in cls._clrfields:
         fieldtype = clr.GetClrType(cls._clrfields[fldname])
-        fieldbld = typebld.DefineField(fldname, fieldtype,
-                             FieldAttributes.Public)
+        fieldbld = typebld.DefineField(fldname, fieldtype, FieldAttributes.Public)
         ClrTypeMetaclass.define_prop(typebld, fldname, fieldtype, fieldbld)
 ```
 

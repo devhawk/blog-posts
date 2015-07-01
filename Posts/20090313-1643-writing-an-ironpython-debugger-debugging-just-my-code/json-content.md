@@ -81,7 +81,7 @@ types have a bunch of standard methods that always get generated. For
 example, the global scope code in the module is placed in a static
 method on the module type called Initialize. Any python functions you
 define get generated static methods with mangled names on the module
-type [1]. All these methods have corresponding python code and should be
+type [^1]. All these methods have corresponding python code and should be
 JMC enabled. The other standard methods on a module type should not be
 JMC enabled. So in my debugger, I mark the class as JMC enabled but then
 iterate over the list of methods and mark any in the list of standard
@@ -94,9 +94,9 @@ types. However, the semantics of Python classes are very different than
 .NET types. For example, you can change the inheritance hierarchy of
 python classes at runtime. That’s obviously not allowed for .NET types.
 So the .NET types we generate have all the logic to implement Python
-class semantics. As it turns out, these .NET types \*only\* have the
+class semantics. As it turns out, these .NET types *only* have the
 logic to implement Python class semantics, which is to say they
-have \*none\* of Python class methods code. This makes sense when you
+have *none* of Python class methods code. This makes sense when you
 think about it – since Python can add and remove methods from a class at
 runtime, IronPython can’t put the method code in the .NET type itself.
 Instead, Python class methods are generated as static methods on the
@@ -112,9 +112,7 @@ like a real tool now, isn’t it? [Latest
 bits](http://github.com/devhawk/ipydbg/tree/39eb5ea81b8a493d9605d4cce4b3ef75fec4f327)
 are up on GitHub.
 
-------------------------------------------------------------------------
-
-[1] FYI, IronPython generates python functions as [dynamic
+[^1]: FYI, IronPython generates python functions as [dynamic
 methods](http://msdn.microsoft.com/en-us/library/system.reflection.emit.dynamicmethod.aspx)
 in release mode and static module class methods in debug mode since you
 can’t step into dynamic methods. The description above is specific to

@@ -48,7 +48,7 @@ in C\# terminology).
 
 If you’re confused by all that, don’t worry so am I. Honestly, I’ve
 re-written this code several times, each time understanding the API just
-a bit better. Whatever the \*right\* way to use the interfaces, I’m sure
+a bit better. Whatever the *right* way to use the interfaces, I’m sure
 I don’t know it. For my first cut at this, I essentially ported MDbg’s
 high level CorValue API – aka MDbgValue::InternalGetValue if you’re
 looking at the MDbg source code – over to Python. Along the way, I’ve
@@ -64,7 +64,7 @@ you can call
 [CastToGenericValue](http://github.com/devhawk/ipydbg/blob/b53ac99f95e0018db782abd52efea8e1fa56abd8/CorDebug/CorDebug/Value.cs#L105)
 to get a
 [CorGenericValue](http://github.com/devhawk/ipydbg/blob/b53ac99f95e0018db782abd52efea8e1fa56abd8/CorDebug/CorDebug/Value.cs#L320)
-“view” of the same CorValue object [1]. A CorGenericValue can read and
+“view” of the same CorValue object [^1]. A CorGenericValue can read and
 write the raw bytes from memory in the target process of the value. The
 [GetValue](http://github.com/devhawk/ipydbg/blob/b53ac99f95e0018db782abd52efea8e1fa56abd8/CorDebug/CorDebug/Value.cs#L473)
 method reads the data from target process then does an unsafe cast to
@@ -200,9 +200,7 @@ primitives – like list, dictionary and tuple – that ipydbg should have
 specific knowledge of and be able to display without requiring the user
 to drill into the member variables and the like.
 
-------------------------------------------------------------------------
-
-[1] While the CorValue API does certain things very well, I wish it did
+[^1]: While the CorValue API does certain things very well, I wish it did
 a better job abstracting away the existence of the various
 ICorDebugValue interfaces. Hence the need for all the calls to
 CastToWhatever().

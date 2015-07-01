@@ -46,8 +46,8 @@ dictionary.
 
 ``` csharp
 //code taken from CorModule class in CorModule.cs
-private static Dictionary<CorModule, ISymbolReader> _symbolsMap =
-                             new Dictionary<CorModule, ISymbolReader>();
+private static Dictionary<CorModule, ISymbolReader> _symbolsMap = 
+    new Dictionary<CorModule, ISymbolReader>();
 
 public ISymbolReader SymbolReader
 {

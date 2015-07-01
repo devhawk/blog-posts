@@ -98,7 +98,7 @@ need the method\_info like we did above. I’ve factored that code into a
 separate function in order to avoid code duplication.
 
 ``` python
-def get_method_info_for_frame(frame)
+def get_method_info_for_frame(frame):
     if frame.FrameType != CorFrameType.ILFrame:
       return None
     metadata_import = CorMetadataImport(frame.Function.Module)

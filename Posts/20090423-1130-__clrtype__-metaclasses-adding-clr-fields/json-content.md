@@ -7,7 +7,7 @@ Python code will read and writes to the statically typed fields for the
 specified names rather than the storing them in the object dictionary as
 usual. Here’s the updated version of ClrTypeMetaclass (or you can get it
 [from my
-skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_))
+SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_))
 
 ``` python
 class ClrTypeMetaclass(type):

@@ -1,4 +1,7 @@
+::: image-left
 [![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/970048722e75_E4A5/image_thumb.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/970048722e75_E4A5/image_5.png)
+:::
+
 In looking at my [hybrid IronPython / C\# Windows Live Writer
 plugin](http://devhawk.net/2009/08/10/building-a-hybrid-c-ironpython-app-without-dynamic-type/),
 we’re going to start at the bottom with the Pygments package. Typically
@@ -83,7 +86,7 @@ I will point out that the compiled Pygments assembly is the largest
 single file in my deployed solution. It clocks in at 2.25MB. That’s
 about twice the size of the Python files that I compiled it from. So
 clearly, I’m paying for the convenience of deploying a single file in
-space and maybe load time. [1] I’m also paying in space for a private
+space and maybe load time. [^1] I’m also paying in space for a private
 copy of IronPython and the DLR – the two IronPython and five DLR
 assemblies clock in around 3.16MB. In comparison, the actual Writer
 plugin assembly itself is only about 25KB! But for an installed desktop
@@ -97,9 +100,7 @@ computer in my opinion.
 Next up, we’ll look at the Python half of the PygmentsCodeSource
 component, which calls into this compiled Pygments library.
 
-------------------------------------------------------------------------
-
-[1] I haven’t done it, but it would be interesting to compare the load
+[^1]: I haven’t done it, but it would be interesting to compare the load
 time for the single larger pygments assembly vs. loading and parsing the
 Python files individually. If I had to guess, I’m thinking the single
 assembly would load faster even though it’s bigger since there’s less

@@ -32,7 +32,7 @@ on my SkyDrive. Feel free to download them and use them as you need.
     find-to-set-alias and moved setting the color of the command window
     to the top of the script.
 
-**Update** – I just updated elevate-process again, adding a special
+**Update**: I just updated elevate-process again, adding a special
 clause to handle .bat and .cmd files. cmd.exe seems to ignore the
 working directory setting, so if your batch file relies on being run
 from the folder it’s in, it’ll break with elevate-process. That’s

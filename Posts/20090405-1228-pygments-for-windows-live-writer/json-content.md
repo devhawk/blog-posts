@@ -13,7 +13,7 @@ so I set about building a Windows Live Writer plugin that uses it.
 
 If you’re simply interested in the plugin itself, you can [get it from
 my
-skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Pygments%20for%20WL%20Writer/Pygments.WLWriter.msi).
+SkyDrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Pygments%20for%20WL%20Writer/Pygments.WLWriter.msi).
 The [source is up on
 GitHub](http://github.com/devhawk/pygments.wlwriter). For now, if you
 find any bugs, please leave a comment on this post. If there’s enough

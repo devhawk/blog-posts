@@ -74,6 +74,5 @@ So that’s one scenario down, one to go. In order to be able to build WCF
 services in IronPython, I have to add a lot more infrastructure –
 notably emitting CLR methods that can invoke dynamic methods as well as
 emitting custom attributes. Invoking dynamic methods means understanding
-[DLR
-binders](javascript:window.location.href='http://dlr.codeplex.com/Project/Download/FileDownload.aspx?DownloadId=51534';),
+[DLR binders](http://dlr.codeplex.com/Project/Download/FileDownload.aspx?DownloadId=51534),
 so look for more posts on \_\_clrtype\_\_ next week.

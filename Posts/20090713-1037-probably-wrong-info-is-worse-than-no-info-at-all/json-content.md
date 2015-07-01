@@ -1,7 +1,7 @@
 Like many geeks, I love [Dilbert](http://dilbert.com/). However, I
 rarely identify with it as well as I did Sunday.
 
-[![Dilbert.com](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/60000/0000/300/60359/60359.strip.sunday.gif)](http://dilbert.com/strips/comic/2009-07-12/ "Dilbert.com")
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/dt090712.jpg)](http://dilbert.com/strip/2009-07-12)
 
 I kid you not, I’ve had almost exactly this conversation back when I
 worked in MS IT. They have this big repository of information about

@@ -29,7 +29,7 @@ Even though cheese\_shop inherits from shop and argument\_clinic
 inherits from object, all three classes share the same underlying CLR
 type. On my machine, running [IronPython 2.6 Alpha
 1](http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=22982),
-that type is named “IronPython.NewTypes.System.Object\_1\$1”.
+that type is named ``IronPython.NewTypes.System.Object_1$1``.
 
 IronPython can share the CLR type across multiple Python classes because
 that CLR type has no code specific to a given Python class. CLR types

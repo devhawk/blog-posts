@@ -60,9 +60,7 @@ skydrive](http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Cont
 or it’s available as part of my [devhawk\_ipy
 project](http://github.com/devhawk/devhawk_ipy/tree/master) on GitHub.
 
-**Update** – [Christopher Bermingham](http://bermingham.blogspot.com)
+**Update**: [Christopher Bermingham](http://bermingham.blogspot.com)
 pointed out that my sample snippet at the end doesn’t work unless you
-add “from
-[\_\_future\_\_](http://docs.python.org/library/__future__.html) import
-with\_statement” to the top of your python file. I updated my code
+add ``from future import with_statement`` to the top of your python file. I updated my code
 snippet to include this. Thanks Christopher!
