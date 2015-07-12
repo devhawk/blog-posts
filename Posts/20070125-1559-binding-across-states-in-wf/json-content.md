@@ -31,7 +31,7 @@ WF](http://www.aw-bc.com/catalog/academic/product/0,1144,0321399838,00.html).
 
 ::: image-right
 ![Activity Property Bind
-Dialog](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/BindingAcrossStatesinWF_E0EC/BindDialog[5].gif)
+Dialog](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog/BindDialog_5_.gif)
 :::
 
 BTW, to deal with this, you need to promote the values that matter out

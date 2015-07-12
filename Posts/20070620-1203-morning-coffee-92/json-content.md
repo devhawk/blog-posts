@@ -38,7 +38,7 @@
     get to help me pick some of the new features.”
 -   Brandon LeBlanc
 	::: image-right
-	[![My Monitor Setup](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062_thumb.jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee92_A997/IMAGE_00062.jpg)
+	[![My Monitor Setup](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog/IMAGE_00062_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/a28f93165ce5bae14c043f8d53afb5a309522936/images/blog/IMAGE_00062.jpg)
 	:::
     [writes](http://windowsvistablog.com/blogs/windowsexperience/archive/2007/06/20/running-a-dual-monitor-setup-with-windows-vista.aspx)
     about dual monitor support in Vista. I’m loving the dual monitor

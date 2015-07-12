@@ -1,5 +1,5 @@
 ::: image-right
-![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/0995b2a57c40_9C5C/xboxlogo[12].gif)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog/xboxlogo_12_.gif)
 :::
 
 Last night, after his sister had gone to bed, my three year old son
@@ -14,7 +14,7 @@ the demo starts on. He enjoyed it, but he was also a little discouraged
 because he wasn’t very good at the game.
 
 ::: image-left
-![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/0995b2a57c40_9C5C/vivapinatalogo[5].gif)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog/vivapinatalogo_5_.gif)
 :::
 
 That got me thinking about what kind of games would be good for
@@ -29,7 +29,7 @@ McQueen](http://en.wikipedia.org/wiki/Lightning_McQueen) so bad – but
 I’m not sure he’s going to be any good at the game.
 
 ::: image-right
-![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/0995b2a57c40_9C5C/XnaLogo[11].gif) 
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog/XnaLogo_11_.gif) 
 :::
 
 I wonder if there’s much of a market for pre-school console games?
