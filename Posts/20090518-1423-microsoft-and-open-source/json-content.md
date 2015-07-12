@@ -40,7 +40,7 @@ that ASP.NET MVC would be released under the
 > Asp.Net MVC’s source code is out there for download, not open source.”
 
 ::: image-right
-[![image](http://deepfriedbytes.com/files/media/image/WindowsLiveWriter/Media_8AE9/image_thumb_4.png "image")](http://deepfriedbytes.com/podcast/episode-32-being-dynamic-about-ironpython-with-harry-pierson-ndash-part-2/ "DevHawk on DFB") 
+[![image](https://raw.githubusercontent.com/devhawk/devhawk.github.io/7e641d7de298950dfd646c8ac6fee174d97e7d91/images/blog/DFB_logo.png)](http://deepfriedbytes.com/podcast/episode-32-being-dynamic-about-ironpython-with-harry-pierson-ndash-part-2/ "DevHawk on DFB") 
 :::
 
 In what now seems like a huge coincidence, Keith and his co-host [Chris
