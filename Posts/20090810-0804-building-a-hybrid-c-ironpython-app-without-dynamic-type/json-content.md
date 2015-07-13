@@ -6,7 +6,7 @@ for Windows Live Writer
 plugin](http://devhawk.net/2009/08/07/pygments-for-windows-live-writer-v1-0-2/).
 
 ::: image-right
-![pygments\_logo](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CallingIronPythonfromCWithouttheDynamicT_E49B/pygments_logo_55f6722f-70ee-4d75-8781-b5d547dd3f72.png "pygments_logo")
+![pygments\_logo](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/pygments_logo_55f6722f-70ee-4d75-8781-b5d547dd3f72.png "pygments_logo")
 :::
 
 [Pygments](http://pygments.org/) is a syntax highlighter, written in
