@@ -20,7 +20,7 @@ inserted in my blog posts. So it made perfect sense to use Pygments as
 the basis of a Windows Live Writer plugin.
 
 ::: image-left
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CallingIronPythonfromCWithouttheDynamicT_E49B/image_thumb_2.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CallingIronPythonfromCWithouttheDynamicT_E49B/image_6.png)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/WithoutDynamic-image_1_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/WithoutDynamic-image_1.png)
 :::
 
 As great a tool as Windows Live Writer is, it’s developers haven’t

@@ -22,7 +22,7 @@ Feedback, as usual, is most welcome.
 ------------------------------------------------------------------------
 
 ::: image-left
-[![Slide1](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide1_thumb.png "Slide1")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide1.png)
+[![Slide1](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide1_thumb.png "Slide1")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide1.png)
 :::
 Hello, my name is Harry Pierson. I’m a program manager in the Visual
 Studio Languages group and I’m here to talk about what I would most like
@@ -34,7 +34,7 @@ thousand results. We talk about the ecosystem in our marketing and in
 our press releases.
 
 ::: image-right
-[![Slide2](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide2_thumb.png "Slide2")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide2.png)
+[![Slide2](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide2_thumb.png "Slide2")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide2.png)
 :::
 In 2007, we commissioned a [study of the global economic
 impact](http://www.microsoft.com/about/corporatecitizenship/citizenship/economicimpact)
@@ -45,7 +45,7 @@ year in tax revenue worldwide.
 No wonder we care about the ecosystem so much.
 
 ::: image-left
-[![Slide3](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide3_thumb.png "Slide3")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide3.png)
+[![Slide3](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide3_thumb.png "Slide3")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide3.png)
 :::
 But clearly, we’re not the only ones who care. Microsoft represents a
 fairly small percentage of the overall ecosystem. We earn just over 11%
@@ -56,7 +56,7 @@ That means there are an awfully large number of people with a vested
 interest in the continuing success of the Microsoft platform.
 
 ::: image-right
-[![Slide4](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide4_thumb.png "Slide4")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide4.png)
+[![Slide4](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide4_thumb.png "Slide4")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide4.png)
 :::
 With this vast ecosystem in mind, I want to talk about Open Source.
 Microsoft and Open Source are often portrayed as enemies. But in DevDiv,
@@ -78,7 +78,7 @@ The thing I would most like to change about Microsoft would be to let
 members of our ecosystem contribute code to our Open Source projects.
 
 ::: image-left
-[![Slide5](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide5_thumb.png "Slide5")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide5.png)
+[![Slide5](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide5_thumb.png "Slide5")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide5.png)
 :::
 I can tell you from personal experience, there are members of the
 IronPython community who would leap at the opportunity to contribute
@@ -98,7 +98,7 @@ such a framework will be a challenge. But competitors like Sun, Google
 and IBM have already demonstrated that it’s not insurmountable.*
 
 ::: image-right
-[![Slide6](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide6_thumb.png "Slide6")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/StrengtheningourSoftwareEcosystemwithSou_E1A2/Slide6.png)
+[![Slide6](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide6_thumb.png "Slide6")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Slide6.png)
 :::
 Half a trillion dollars annually. 15 Million jobs. 42% of the IT
 workforce. The Microsoft ecosystem is the envy of the industry. And

@@ -1,5 +1,5 @@
 ::: image-left
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/970048722e75_E4A5/image_thumb.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/970048722e75_E4A5/image_5.png)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/compilepython-image_1_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/compilepython-image_1.png)
 :::
 
 In looking at my [hybrid IronPython / C\# Windows Live Writer
