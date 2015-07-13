@@ -96,7 +96,7 @@ university talk while I’m in town. Any takers?
 
 ::: image-right
 ![Find out what's
-next](https://raw.githubusercontent.com/devhawk/devhawk.github.io/fb74f88336a6fc46fe69ff4157f8d589853a3090/images/blog/PDC09Bling_General_WhatsNext_136.jpg) 
+next](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/PDC09Bling_General_WhatsNext_136.jpg) 
 :::
 **~~[Microsoft Professional Developers Conference 2009](http://microsoftpdc.com/), Nov 17-19~~**\
 **Update**:

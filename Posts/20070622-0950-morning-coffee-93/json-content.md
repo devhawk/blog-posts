@@ -1,6 +1,6 @@
 -   The Washington Capitals 
 	::: image-right
-	[![newcapsjersey](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/b1af0a59d47f_D650/newcapsjersey_1.jpg)](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
+	[![newcapsjersey](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/newcapsjersey_1.jpg)](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
 	:::
     [unveil their new jersey](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
     tonight, though they have a picture on their web site. I’ve got

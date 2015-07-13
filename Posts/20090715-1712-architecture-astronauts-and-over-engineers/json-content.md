@@ -2,7 +2,7 @@ Since it’s apparently Architecture Week^tm^ [^1] here at DevHawk, here’s
 another of my favorite Dilbert cartoons of all time – relevant to the
 discussion at hand.
 
-[![Dilbert.com](https://raw.githubusercontent.com/devhawk/devhawk.github.io/fb74f88336a6fc46fe69ff4157f8d589853a3090/images/blog/dt080304.gif)](http://dilbert.com/strips/2008-03-04/)
+[![Dilbert.com](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/dt080304.gif)](http://dilbert.com/strips/2008-03-04/)
 
 Two interesting
 [comments](http://devhawk.net/CommentView,guid,94b98f0d-d884-4557-8df0-8f0dca3b72e7.aspx#commentstart)

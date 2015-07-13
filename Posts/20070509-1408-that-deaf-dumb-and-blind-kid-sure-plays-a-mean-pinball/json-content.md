@@ -1,6 +1,6 @@
 ::: image-right
 [![Michael K. Lee as
-Tommy](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog/TOMMY_pre-press_3.jpg)](http://www.villagetheatre.org/mainstage_tommy07.shtml)
+Tommy](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/TOMMY_pre-press_3.jpg)](http://www.villagetheatre.org/mainstage_tommy07.shtml)
 :::
 
 Last night, I got to see the final dress rehearsal of [The Who’s

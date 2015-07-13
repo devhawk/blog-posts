@@ -1,6 +1,6 @@
 -	[Akira in HD from XBL Video Marketplace](http://www.majornelson.com/archive/2007/06/12/video-marketplace-releases-for-week-of-6-11-07.aspx)?
 	::: image-right
-	[![akira](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog/akira_1.jpg)](http://www.imdb.com/title/tt0094625/)
+	[![akira](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/akira_1.jpg)](http://www.imdb.com/title/tt0094625/)
 	:::
     Cool*ness*.
 -   Omar Shahine has the [WL Hotmail + Outlook

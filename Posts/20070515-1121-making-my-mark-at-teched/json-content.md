@@ -1,5 +1,5 @@
 ::: image-left
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/9269b7ca706c44ec619c9f4a5cea254b008e5b80/images/blog//teched07_120X90_v2w.jpg) 
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog//teched07_120X90_v2w.jpg) 
 :::
 
 One of the things that’s different about being in MSIT is that it’s cut my

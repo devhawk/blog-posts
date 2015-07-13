@@ -63,4 +63,4 @@ with a slightly different take.
     so that it is aware of when the second web service becomes available
     again.
 
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/a88e6cfec25ce0c420537e18dd92c61e88d0cafe/images/blog/heartbeat_services_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/a88e6cfec25ce0c420537e18dd92c61e88d0cafe/images/blog/heartbeat_services.png)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/heartbeat_services_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/heartbeat_services.png)

@@ -21,7 +21,7 @@ as a tool for teaching kids how to program. The programming language is
 very visual and iconic and you use the Xbox controller exclusively for
 all input. Here’s a screenshot:
 
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/8aa386b17fd35d497b1f2c2d6d43d176a59dc549/images/blog/kodu_programming_ui.jpg)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/kodu_programming_ui.jpg)
 
 To demo Kodu at CES, Robbie Bach brought a 12 year old girl named
 Sparrow up on stage to demo. I showed the video to my kids this morning
