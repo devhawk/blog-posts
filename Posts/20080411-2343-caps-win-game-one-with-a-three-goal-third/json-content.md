@@ -10,7 +10,7 @@ Oh me of little faith.
 :smile:
 
 ::: image-right
-[![](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/CapsWinGameOneWithaThreeGoalThird_14DA8/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)
+[![](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)
 :::
 
 Caps [took game

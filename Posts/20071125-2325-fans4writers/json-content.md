@@ -1,5 +1,5 @@
 ::: image-right
-![](http://s3.amazonaws.com/devhawk_images/wga-support.png) 
+![](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/wga-support.png) 
 :::
 
 Most of my

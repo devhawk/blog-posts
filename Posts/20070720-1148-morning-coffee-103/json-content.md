@@ -16,7 +16,7 @@
     360](http://www.xbox.com/en-US/community/events/ces2007/microsoftintegratesiptvsoftwareplatform.htm)?
 -   Speaking of Hockey, 
 	::: image-right
-    ![Crosby Gets Checked in NHL08](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/db4b61b806d0_EC23/NHL08_crosbydown_1.jpg) 
+    ![Crosby Gets Checked in NHL08](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/NHL08_crosbydown_1.jpg) 
     ::: 
     I like this new [NHL 08 trailer](http://news.teamxbox.com/xbox/14029/NHL-08-Reebok-Edge-Trailer/).
     It’s about [Reebok’s new uniform
