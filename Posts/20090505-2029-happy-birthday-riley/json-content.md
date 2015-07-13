@@ -1,5 +1,5 @@
 ::: image-right
-[![P4260161](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/HappyBirthdayRiley_11F3F/P4260161_thumb.jpg "P4260161")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/HappyBirthdayRiley_11F3F/P4260161.jpg) 
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/P4260161_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/P4260161.jpg) 
 :::
 
 Today is my daughter Rileyanne’s fourth birthday. She was born on 5-5-05 (at

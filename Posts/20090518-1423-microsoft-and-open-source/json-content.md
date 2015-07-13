@@ -1,5 +1,5 @@
 ::: image-right
-[![clip\_image001](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_thumb.jpg "clip_image001")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/af4c4ff204c4_C655/clip_image001_2.jpg) 
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/presentation_idol_logo_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/presentation_idol_logo.jpg) 
 :::
 
 In a couple of weeks, I‘m participating in an internal “Presentation

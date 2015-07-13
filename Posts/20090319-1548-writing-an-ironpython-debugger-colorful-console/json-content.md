@@ -8,7 +8,7 @@ machine (note, the top line with the green [11] is PowerShell and ipy2
 is a PowerShell alias to ipy.exe v2.0.1)
 
 [![ipydbg on the
-console](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WritinganIronPythonDebuggerColorfulConso_D87F/image_thumb_1.png "ipydbg on the console")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WritinganIronPythonDebuggerColorfulConso_D87F/image_4.png)
+console](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_1_thumb.png "ipydbg on the console")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_1.png)
 
 Writing color to the windows console is a hassle because of the
 [stateful
@@ -68,7 +68,7 @@ entire line of python source. But as we see below, sometimes only part
 of a given line of source text is associated with a given sequence
 point.
 
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WritinganIronPythonDebuggerColorfulConso_D87F/image_thumb_2.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WritinganIronPythonDebuggerColorfulConso_D87F/image_6.png)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_2_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_2.png)
 
 The other issue I ran into is that there’s a always a sequence point at
 the very end of a function. Unlike the break at the start of the
@@ -80,7 +80,7 @@ However, I wanted a way of showing that we’re about to step out in the
 source code line view. I decided on writing a series of carets \^\^\^ to
 indicate that we’re at the end of a function.
 
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WritinganIronPythonDebuggerColorfulConso_D87F/image_thumb_3.png "image")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/WritinganIronPythonDebuggerColorfulConso_D87F/image_8.png)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_2_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_3.png)
 
 As you can see in the dark grey line in the screenshot above, the
 current sequence point starts and ends at line 4 column 23. Column 23 is
