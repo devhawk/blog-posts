@@ -1,5 +1,5 @@
 ::: image-right
-[![agdlr-400](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/AgDLR0.5_1433D/agdlr-400_3.png "agdlr-400")](http://github.com/jschementi/agdlr)
+[![agdlr-400](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/agdlr-400_3.png "agdlr-400")](http://github.com/jschementi/agdlr)
 :::
 
 I [mentioned yesterday](http://devhawk.net/2009/03/23/ironruby-0-3/)

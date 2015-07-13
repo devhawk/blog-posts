@@ -7,7 +7,7 @@ father myself, I want my kids to have a similar opportunity, even if
 they never choose to go into the “family business”.
 
 ::: image-left
-[![kodu\_guy](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/KidProgrammingwithKoduComingtoXbox360_9F23/kodu_guy_5.jpg "kodu_guy")](http://research.microsoft.com/en-us/projects/kodu/default.aspx)
+[![kodu\_guy](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/kodu_guy_5.jpg "kodu_guy")](http://research.microsoft.com/en-us/projects/kodu/default.aspx)
 :::
 Of course, the technology has moved on significantly since the days of
 “You are in a maze of twisty little passages, all alike”. At CES
