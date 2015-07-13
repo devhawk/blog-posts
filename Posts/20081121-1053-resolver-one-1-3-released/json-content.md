@@ -1,5 +1,5 @@
 ::: image-right
-[![ResolverLogo](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/ResolverOne1.3Released_8D03/ResolverLogo_thumb.png "ResolverLogo")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/ResolverOne1.3Released_8D03/ResolverLogo_2.png)
+[![ResolverLogo](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ResolverLogo_thumb.png "ResolverLogo")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ResolverLogo_2.png)
 :::
 
 IronPython’s biggest customer is [Resolver

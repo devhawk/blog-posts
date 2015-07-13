@@ -1,5 +1,5 @@
 ::: image-left
-[![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/IPyRTWFTW_C47D/image_5.png "image")](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365) 
+[![image](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/IPyRTWFTW-image_5.png "image")](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365) 
 :::
 
 This is a very pretty sight. It’s a screenshot from the IronPython CodePlex

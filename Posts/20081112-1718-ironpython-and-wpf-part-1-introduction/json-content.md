@@ -21,7 +21,7 @@ So I built out a simple WPF based photo viewer for my wife’s WL Space
 photos in IronPython.
 
 [![TechieWife Photo Viewer
-screenshot](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/IronPythonandWPF_EFC4/image_thumb_1.png "TechieWife Photo Viewer screenshot")](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/IronPythonandWPF_EFC4/image_4.png)
+screenshot](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipywpf-image_thumb_1.png "TechieWife Photo Viewer screenshot")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipywpf-image_4.png)
 
 As you can see, I’m not quitting my job to go pursue a career in design
 anytime soon. But hey, the point is demonstrate building a WPF app in

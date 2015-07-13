@@ -1,5 +1,5 @@
 ::: image-right
-[![header](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/header_thumb.jpg)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/MorningCoffee141Lang.NET08Edition_9277/header_2.jpg)
+[![header](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/header_thumb.jpg)](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/header_2.jpg)
 :::
 
 I was hoping to blog my thoughts on Lang.NET as the event went along.
