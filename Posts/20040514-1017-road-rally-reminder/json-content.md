@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/RoadRally_250x75.gif)](http://www.dynamicevents.com/ArchitectRoadRally.asp)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040514-road-rally-reminder/RoadRally_250x75.gif)](http://www.dynamicevents.com/ArchitectRoadRally.asp)
 :::
 
 TechEd is almost upon us – just over one week to go. We had our last

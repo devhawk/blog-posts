@@ -44,7 +44,7 @@ syndication…we need to break free of the synchronous polling
 model](http://devhawk.net/2003/12/16/reliable-syndication/).” [^1]
 
 ::: image-left
-![image](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/image_8.png "webhooks") 
+![image](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090826-async-messaging-and-the-barbarian-hordes/webhooks.png "webhooks") 
 :::
 I love the slogan from [this Web Hooks
 presentation](http://blog.webhooks.org/2009/04/23/slides-from-pivotal-labs-talk/):
@@ -85,7 +85,7 @@ release your precious resources to do other work while you wait for the
 response.
 
 ::: image-right
-![image](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/image_7.png "PubSubHubBub")
+![image](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090826-async-messaging-and-the-barbarian-hordes/pubsubhubbub.png "PubSubHubBub")
 :::
 As for [PubSubHubbub](http://code.google.com/p/pubsubhubbub/), it’s
 focused on real time delivery of new information. [Dave Winer’s recent
@@ -96,7 +96,7 @@ the feed is updated. This is very similar to the way GitHub uses async
 messages for commit push notification as described above.
 
 ::: image-left
-[![image](https://rawgit.com/devhawk/devhawk.github.io/master/images/blog/image_thumb_3.png)](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/TheAsyncWeb_13D36/image_10.png) 
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090826-async-messaging-and-the-barbarian-hordes/pshb_diagram_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090826-async-messaging-and-the-barbarian-hordes/pshb_diagram.png) 
 :::
 Both PubSubHubbub and RSS Cloud include an intermediary that’s responsible
 for managing the list of current subscribers and relaying the

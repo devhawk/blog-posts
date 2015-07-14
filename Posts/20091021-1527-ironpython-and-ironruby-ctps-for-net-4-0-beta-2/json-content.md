@@ -1,5 +1,5 @@
 ::: image-right
-[![VS\_v\_rgb](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/VS_v_rgb_3.png )](http://msdn.microsoft.com/en-us/vstudio/dd582936.aspx)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/VSLogo.png)](http://msdn.microsoft.com/en-us/vstudio/dd582936.aspx)
 :::
 In case you’ve been hiding under a rock (or maybe just aren’t tracking
 developments in the .NET community outside of IronPython), Microsoft

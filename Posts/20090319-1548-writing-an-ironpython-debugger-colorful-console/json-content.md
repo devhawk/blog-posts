@@ -7,12 +7,10 @@ current line of source is in yellow. Here’s what it looks like on my
 machine (note, the top line with the green [11] is PowerShell and ipy2
 is a PowerShell alias to ipy.exe v2.0.1)
 
-[![ipydbg on the
-console](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_1_thumb.png "ipydbg on the console")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_1.png)
+![ipydbg on the console](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090319-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-1.png "ipydbg on the console")
 
 Writing color to the windows console is a hassle because of the
-[stateful
-API](http://msdn.microsoft.com/en-us/library/system.console.foregroundcolor.aspx)
+[stateful API](http://msdn.microsoft.com/en-us/library/system.console.foregroundcolor.aspx)
 it uses. The problem is that I always want to return to the default
 color after I’ve written out a line of colored text. I wish there was an
 overload of Console.Write and WriteLine that took the foreground and
@@ -21,10 +19,9 @@ background colors as arguments.
 Of course, I could easily implement my own write and writeline methods
 that took color parameters. However, I was loath to do that as Python’s
 print statement is so convenient. So instead, I build a console color
-[context
-manager](http://docs.python.org/reference/datamodel.html#context-managers).
-I got the idea from Luis Fallas’ [XmlWriter context
-manager](http://langexplr.blogspot.com/2009/02/writing-xml-with-ironpython-xmlwriter.html).
+[context manager](http://docs.python.org/reference/datamodel.html#context-managers).
+I got the idea from Luis Fallas’ 
+[XmlWriter context manager](http://langexplr.blogspot.com/2009/02/writing-xml-with-ironpython-xmlwriter.html).
 
 ``` python
 class ConsoleColorMgr(object):  
@@ -48,27 +45,24 @@ def OnCreateAppDomain(self, sender,e):
     e.AppDomain.Attach()
 ```
 
-Python’s [with
-statement](http://docs.python.org/reference/compound_stmts.html#the-with-statement)
-is similar to C\#’s [using
-statement](http://msdn.microsoft.com/en-us/library/yh598w02.aspx).
+Python’s [with statement](http://docs.python.org/reference/compound_stmts.html#the-with-statement)
+is similar to C\#’s [using statement](http://msdn.microsoft.com/en-us/library/yh598w02.aspx).
 However, unlike IDisposable object, Python context managers support both
 an enter and exit method. This means I don’t have to construct an object
 in order to get a context (in this case, the console colors) managed. So
 far, I’ve got three console color context managers defined – Grey,
 DarkGrey and Yellow. I’m thinking that ConsoleColorMgr is a candidate
-for my [assorted module
-collection](http://github.com/devhawk/devhawk_ipy/tree/master) at some
-point.
+for my [assorted module collection](http://github.com/devhawk/devhawk_ipy/tree/master) 
+at some point.
 
-Now that I can print in color, I wanted to modify my [line
-printer](http://devhawk.net/2009/03/19/writing-an-ironpython-debugger-showing-source-code/)
+Now that I can print in color, I wanted to modify my 
+[line printer](http://devhawk.net/2009/03/19/writing-an-ironpython-debugger-showing-source-code/)
 to use color. Usually, the current sequence point corresponds to an
 entire line of python source. But as we see below, sometimes only part
 of a given line of source text is associated with a given sequence
 point.
 
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_2_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_2.png)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090319-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-2.png)
 
 The other issue I ran into is that there’s a always a sequence point at
 the very end of a function. Unlike the break at the start of the
@@ -80,7 +74,7 @@ However, I wanted a way of showing that we’re about to step out in the
 source code line view. I decided on writing a series of carets \^\^\^ to
 indicate that we’re at the end of a function.
 
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_2_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ipydbg-colorcon-image_3.png)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090319-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-3.png)
 
 As you can see in the dark grey line in the screenshot above, the
 current sequence point starts and ends at line 4 column 23. Column 23 is

@@ -20,8 +20,7 @@ with a slightly different take.
 
 **The Doughnuts**
 
--   [The Build
-    Master](http://www.amazon.com/Build-Master-Microsofts-Configuration-Addison-Wesley/dp/0321332059)
+-   [The Build Master](http://www.amazon.com/Build-Master-Microsofts-Configuration-Addison-Wesley/dp/0321332059)
     by [Vincent Maraia](http://blogs.msdn.com/vincem/) is an excellent
     book if you are interested in the build process and how to make it
     as efficient as possible.
@@ -63,4 +62,4 @@ with a slightly different take.
     so that it is aware of when the second web service becomes available
     again.
 
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/heartbeat_services_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/heartbeat_services.png)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070216-morning-doughnuts-1/heartbeat_services_thumb.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070216-morning-doughnuts-1/heartbeat_services.png)

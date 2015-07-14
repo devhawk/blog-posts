@@ -5,10 +5,10 @@ with Flickr](http://metaatem.net/words) before. Silly, but cool.
 
 Here’s DevHawk spelled with Flickr.
 
-[![D](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/97122049_96608eb66b_s.jpg "D")](http://www.flickr.com/photos/95229107@N00/97122049)
-[![E](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/86176562_a5cff4a38c_s.jpg "E")](http://www.flickr.com/photos/50502690@N00/86176562)
-[![V](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/96816787_47e8b9b4b4_s.jpg "V")](http://www.flickr.com/photos/49968232@N00/96816787)
-[![H](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/17494937114_b11e57149f_s.jpg "H")](http://www.flickr.com/photos/49968232@N00/17494937114)
-[![A](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/135790873_65889f376c_s.jpg)](http://www.flickr.com/photos/49968232@N00/135790873)
-[![W](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/53363145_a6cb7f203e_s.jpg "W")](http://www.flickr.com/photos/49968232@N00/53363145)
-[![K](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/17565394_7aee234c7f_s.jpg "K")](http://www.flickr.com/photos/33451089@N00/17565394)
+[![D](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060428-spell-with-flickr/97122049_96608eb66b_s.jpg "D")](http://www.flickr.com/photos/95229107@N00/97122049)
+[![E](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060428-spell-with-flickr/86176562_a5cff4a38c_s.jpg "E")](http://www.flickr.com/photos/50502690@N00/86176562)
+[![V](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060428-spell-with-flickr/96816787_47e8b9b4b4_s.jpg "V")](http://www.flickr.com/photos/49968232@N00/96816787)
+[![H](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060428-spell-with-flickr/17494937114_b11e57149f_s.jpg "H")](http://www.flickr.com/photos/49968232@N00/17494937114)
+[![A](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060428-spell-with-flickr/135790873_65889f376c_s.jpg "A")](http://www.flickr.com/photos/49968232@N00/135790873)
+[![W](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060428-spell-with-flickr/53363145_a6cb7f203e_s.jpg "W")](http://www.flickr.com/photos/49968232@N00/53363145)
+[![K](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060428-spell-with-flickr/17565394_7aee234c7f_s.jpg "K")](http://www.flickr.com/photos/33451089@N00/17565394)

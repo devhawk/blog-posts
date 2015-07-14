@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ArchCenterBanner_1_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/ArchCenterBanner_1.jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040709-architecture-center-banner/ArchCenterBanner_1_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040709-architecture-center-banner/ArchCenterBanner_1.jpg)
 :::
 
 For TechEd, we got a big banner to hang in the lunch room to advertise

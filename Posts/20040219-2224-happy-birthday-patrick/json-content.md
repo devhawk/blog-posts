@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/CakeThumbnail1.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/CakeFullSize.jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040219-happy-birthday-patrick/CakeThumbnail1.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040219-happy-birthday-patrick/CakeFullSize.jpg)
 :::
 
 Almost exactly year ago, my life was changed forever by the

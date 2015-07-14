@@ -1,4 +1,4 @@
-[![3495284608\_79fb1c569d\_o](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/3495284608_79fb1c569d_o_3.jpg "3495284608_79fb1c569d_o")](http://www.flickr.com/photos/clydeorama/3495284608/)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090503-the-save/TheSave.jpg)](http://www.flickr.com/photos/clydeorama/3495284608/)
 
 This is an amazing picture of an amazing save in yesterday’s
 [Capitals/Penguins 3-2 nail biting

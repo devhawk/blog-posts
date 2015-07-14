@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/presentation_idol_logo_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/presentation_idol_logo.jpg) 
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090518-microsoft-and-open-source/presentationIdol.png)
 :::
 
 In a couple of weeks, I‘m participating in an internal “Presentation
@@ -40,7 +40,7 @@ that ASP.NET MVC would be released under the
 > Asp.Net MVC’s source code is out there for download, not open source.”
 
 ::: image-right
-[![image](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/DFB_logo.png)](http://deepfriedbytes.com/podcast/episode-32-being-dynamic-about-ironpython-with-harry-pierson-ndash-part-2/ "DevHawk on DFB") 
+[![image](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090518-microsoft-and-open-source/DFB_logo.png)](http://deepfriedbytes.com/podcast/episode-32-being-dynamic-about-ironpython-with-harry-pierson-ndash-part-2/ "DevHawk on DFB") 
 :::
 
 In what now seems like a huge coincidence, Keith and his co-host [Chris

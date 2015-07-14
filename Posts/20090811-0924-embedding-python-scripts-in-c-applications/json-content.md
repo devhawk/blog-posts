@@ -1,5 +1,5 @@
 ::: image-left
-![image](http://s3.amazonaws.com/devhawk_images/WindowsLiveWriter/8d7a6d959c67_6D72/image_thumb_1.png "image")
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/-20090811-embedding-python-scripts-in-c-applications/image_thumb_1.png)
 :::
 
 Now that I’ve got Pygments and its dependencies [packaged up in an

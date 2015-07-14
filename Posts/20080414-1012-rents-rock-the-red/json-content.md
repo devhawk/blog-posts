@@ -2,7 +2,7 @@ My brother saw this picture on [The Peerless
 Prognosticator](http://peerlessprognosticator.blogspot.com/2008/04/loudtake-it-from-man-who-should-know.html)
 and noticed something cool.
 
-[![clip\_image001](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/clip_image001_3.jpg)](http://peerlessprognosticator.blogspot.com/2008/04/loudtake-it-from-man-who-should-know.html)
+[![clip\_image001](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20080414-rents-rock-the-red/ParentsRockRed.jpg)](http://peerlessprognosticator.blogspot.com/2008/04/loudtake-it-from-man-who-should-know.html)
 
 Photo by Greg Fiume/Getty Images
 

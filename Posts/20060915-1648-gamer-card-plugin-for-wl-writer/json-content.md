@@ -1,5 +1,5 @@
 ::: image-right
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/GamerCardPluginScreenShot.jpg) 
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-gamer-card-plugin-for-wl-writer/GamerCardPluginScreenShot.jpg) 
 :::
 
 In my [last post](http://devhawk.net/2006/09/15/hawkeye-on-nhl-07/), I
@@ -25,7 +25,7 @@ The plug in provides basically five Gamer Card options:
 -   MGC.net Gamer Card flash movie
 
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/RayTracer.png)](http://profile.mygamercard.net/RayTracer)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-gamer-card-plugin-for-wl-writer/RayTracer.png)](http://profile.mygamercard.net/RayTracer)
 :::
 
 I’m interested in feedback and suggestions for future versions.
@@ -37,6 +37,5 @@ been created (like the default “Insert Map” option). Finally, I’m
 thinking of adding support for
 [GamerScoreChart.com](http://gamerscorechart.com/).
 
-Download [GamerCard.WriterPlugin.Setup.zip (142.41
-KB)](http://cid-0d9bc809858885a4.office.live.com/self.aspx/DevHawk%20Content/BlogFiles/GamerCard.WriterPlugin.Setup.zip) and
-enjoy. [Let me know](mailto:harry@devhawk.net) what you think.
+Download [GamerCard.WriterPlugin.Setup.zip (142.41 KB)](http://cid-0d9bc809858885a4.office.live.com/self.aspx/DevHawk%20Content/BlogFiles/GamerCard.WriterPlugin.Setup.zip)
+and enjoy. [Let me know](mailto:harry@devhawk.net) what you think.

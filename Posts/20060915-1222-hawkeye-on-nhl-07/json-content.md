@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/RayTracer.png)](http://live.xbox.com/member/RayTracer) 
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-hawkeye-on-nhl-07/RayTracer.png)](http://live.xbox.com/member/RayTracer) 
 :::
 
 For those who *don’t* keep a close eye on my Xbox playing habits, I picked
@@ -24,7 +24,7 @@ movie](http://xbox360.ign.com/articles/732/732345p1.html)” than a TV
 broadcast.
 
 ::: image-right
-![NHL 07 Box](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/boxnhl07.jpg) 
+![NHL 07 Box](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-hawkeye-on-nhl-07/boxnhl07.jpg) 
 ::: 
 
 EA Sports spent their time on an entirely new control scheme called “Skill
@@ -39,8 +39,7 @@ hooked me on the spot. Most of the
 have singled out the skill stick as the reason for the
 generally favorable reviews. 
 
-Plus, EA picked [Washington
-Capitals](http://www.washingtoncaps.com/) superstar [Alex
-Ovechkin](http://www.washingtoncaps.com/team/player.asp?player_id=17) for
+Plus, EA picked [Washington Capitals](http://www.washingtoncaps.com/) superstar 
+[Alex Ovechkin](http://www.washingtoncaps.com/team/player.asp?player_id=17) for
 their cover athlete. Barring awful reviews, I pretty much decided to
 pickup NHL 07 as soon as I heard that.
