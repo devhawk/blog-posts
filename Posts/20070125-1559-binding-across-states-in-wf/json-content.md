@@ -30,8 +30,7 @@ information on them is in the Advanced Activity Execution chapter of
 WF](http://www.aw-bc.com/catalog/academic/product/0,1144,0321399838,00.html).
 
 ::: image-right
-![Activity Property Bind
-Dialog](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/BindDialog_5_.gif)
+![Activity Property Bind Dialog](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070125-1559-binding-across-states-in-wf/BindDialog.gif)
 :::
 
 BTW, to deal with this, you need to promote the values that matter out

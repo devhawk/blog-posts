@@ -1,9 +1,8 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Albert%20Park%20PDT%20(4)_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Albert%20Park%20PDT%20(4).jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/AlbertParkPDT-4-small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/AlbertParkPDT-4.jpg)
 :::
 
-[TechEd
-New Zealand](http://www.microsoft.com/nz/teched) is at the Sky City
+[TechEd New Zealand](http://www.microsoft.com/nz/teched) is at the Sky City
 Convention Center – part of [Sky City
 Auckland](http://www.skycityauckland.co.nz/) which includes casinos,
 shops, restaurants and a hotel where we are staying. Feels sort of like
@@ -49,15 +48,15 @@ variety of fried food – fish, chicken and crab. They sure like fried
 food here – at dinner last night, we were served fried mashed potatoes.
 
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(61)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(61).JPG)\
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(20)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(20).JPG)\
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(85)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(85).JPG)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-61-small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-61.jpg)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-20-small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-20.jpg)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-85-small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-85.jpg)
 :::
 
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(24)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(24).JPG)\
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(55)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20PDT%20(55).JPG)\
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(70)_small.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Hobbiton%20NZT%20(70).JPG)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-24-small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-24.jpg)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-55-small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-55.jpg)\
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-70-small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040801-hanging-in-hobbiton/HobbitonNZT-70.jpg)
 :::
 
 While most of [LOTR](http://lordoftherings.net/) was filmed on the

@@ -14,7 +14,7 @@ his side on the ice before Chipchura’s momentum knocks the net off it’s
 moorings. You’ve got to see it to believe it.
 
 ::: image-right
-[![Crosby Sucks Caps Jersey](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/1k73u-34dd2010d2b88ae59d73e34440148648.499ce477_1__3.jpg "Crosby Sucks Caps Jersey")](http://twitpic.com/1k73u) 
+[![Crosby Sucks Caps Jersey](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090218-caps-4-canadians-3-so/crosby-sucks-jersey.jpg "Crosby Sucks Caps Jersey")](http://twitpic.com/1k73u) 
 :::
 
 Honestly, I think this is even better than “[The

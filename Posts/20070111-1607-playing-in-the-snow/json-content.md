@@ -12,7 +12,7 @@ Riley calls Patrick “Bubba” because she can’t say “brother”.
 And since I promised my teammate Maureen a snowman photo, here’s the
 last one we built:
 
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/IMG_5869_thumb%5B4%5D.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/c47956fa84deaf96e28ebeba443f2b5519f14caa/images/blog/IMG_5869%5B6%5D.jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070111-1607-playing-in-the-snow/IMG_5869_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/c47956fa84deaf96e28ebeba443f2b5519f14caa/images/blog/20070111-1607-playing-in-the-snow/IMG_5869.jpg)
 
 On top of all this snow play and sledding, I got my STS working with
 WCS. More on that tomorrow.

@@ -22,5 +22,5 @@ but I forgot in a haze of sleeplessness. Julie and Patrick went to LA
 this morning for the weekend, and we had to get up at 5am to get her to
 the airport in time to get all the baby gear thru security. Since I
 can’t post any office pictures, here’s a picture of a [nesting
-hawk](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/Flahawk.jpg) 
+hawk](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040423-new-office/Flahawk.jpg) 
 my friend (and hoster) Tom emailed me.
