@@ -1,5 +1,5 @@
 ::: image-right
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-gamer-card-plugin-for-wl-writer/GamerCardPluginScreenShot.jpg) 
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-1648-gamer-card-plugin-for-wl-writer/GamerCardPluginScreenShot.jpg) 
 :::
 
 In my [last post](http://devhawk.net/2006/09/15/hawkeye-on-nhl-07/), I
@@ -25,7 +25,7 @@ The plug in provides basically five Gamer Card options:
 -   MGC.net Gamer Card flash movie
 
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-gamer-card-plugin-for-wl-writer/RayTracer.png)](http://profile.mygamercard.net/RayTracer)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-1648-gamer-card-plugin-for-wl-writer/RayTracer.png)](http://profile.mygamercard.net/RayTracer)
 :::
 
 I’m interested in feedback and suggestions for future versions.

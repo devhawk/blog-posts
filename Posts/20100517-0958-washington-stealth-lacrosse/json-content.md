@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20100517-washington-stealth-lacrosse/wa_stealth_logo.png)](http://www.stealthlax.com/) 
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20100517-0958-washington-stealth-lacrosse/wa_stealth_logo.png)](http://www.stealthlax.com/) 
 :::
 
 Last Saturday night, my family and I went with some friends from the
@@ -25,7 +25,7 @@ argue that the Caps performance was still the most embarrassing of the
 three, but not by much)
 
 ::: image-left
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20100517-washington-stealth-lacrosse/NLLLogo.png) 
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20100517-0958-washington-stealth-lacrosse/NLLLogo.png) 
 :::
 As I said, this was my first indoor lacrosse game. The game is basically
 ice hockey without the ice. In fact, the Stealth’s advertising slogan

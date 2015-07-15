@@ -1,5 +1,5 @@
 ::: image-right
-[![agdlr-400](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090324-agdlr-0-5/agdlr-400_3.png "agdlr-400")](http://github.com/jschementi/agdlr)
+[![agdlr-400](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090324-2325-agdlr-0-5/agdlr-400_3.png "agdlr-400")](http://github.com/jschementi/agdlr)
 :::
 
 I [mentioned yesterday](http://devhawk.net/2009/03/23/ironruby-0-3/)
@@ -71,4 +71,3 @@ file – it’s generated anew on every request. So I would highly recommend
 XapHttpHandler on a production web server. You’re much better off using
 Chiron to build a physical XAP file that you then deploy to your
 production web server.
-

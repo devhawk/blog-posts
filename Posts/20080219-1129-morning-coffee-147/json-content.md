@@ -1,6 +1,6 @@
 -   My son Patrick turns five today. 
 	::: image-right
-	[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20080219-morning-coffee-147/PatrickAndJack.jpg)](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2040.entry)
+	[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20080219-1129-morning-coffee-147/PatrickAndJack.jpg)](http://techiewife.spaces.live.com/blog/cns!3DAECC033B88329C!2040.entry)
 	:::
     The big treat was his cousin Jack
     coming up for a visit. Here’s a picture of the two of them at

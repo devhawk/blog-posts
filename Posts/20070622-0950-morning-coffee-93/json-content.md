@@ -1,6 +1,6 @@
 -   The Washington Capitals 
 	::: image-right
-	[![newcapsjersey](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070622-morning-coffee-93/newcapsjersey_1.jpg)](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
+	[![newcapsjersey](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070622-0950-morning-coffee-93/newcapsjersey_1.jpg)](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
 	:::
     [unveil their new jersey](http://www.washingtonpost.com/wp-dyn/content/article/2007/06/21/AR2007062102100.html)
     tonight, though they have a picture on their web site. I’ve got
@@ -58,4 +58,3 @@
     drive that kind of change without being somewhat strong willed. It’s
     a thin line between strong willed and asshole and hopefully I come
     down on the right side of that line more often than not.
-

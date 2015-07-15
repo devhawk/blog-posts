@@ -17,7 +17,7 @@ this time select the “Brokered Windows Runtime ProxyStub” template. Give
 the project a name – I chose “HelloWorldBRT.PS”.
 
 ::: image-left
-[![ProxyStubAddReference](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-brokered-winrt-components-step-two/ProxyStubAddReference-300x174.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-brokered-winrt-components-step-two/ProxyStubAddReference.png) 
+[![ProxyStubAddReference](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-0843-brokered-winrt-components-step-two/ProxyStubAddReference-300x174.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-0843-brokered-winrt-components-step-two/ProxyStubAddReference.png) 
 :::
 
 Once you’ve created the proxy/stub project, you need to set a reference to
@@ -44,7 +44,7 @@ Mockford](http://www.linkedin.com/pub/kieran-mockford/4/77/110) for his
 msbuild wizardry.
 
 ::: image-left
-[![ProxyStubRegisterOutput](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-brokered-winrt-components-step-two/ProxyStubRegisterOutput-300x174.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-brokered-winrt-components-step-two/ProxyStubRegisterOutput.png) 
+[![ProxyStubRegisterOutput](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-0843-brokered-winrt-components-step-two/ProxyStubRegisterOutput-300x174.png)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140425-0843-brokered-winrt-components-step-two/ProxyStubRegisterOutput.png) 
 :::
 
 Unfortunately, it’s not enough just to build the proxy/stub – you also have to register

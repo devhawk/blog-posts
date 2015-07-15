@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040101-national-champions/PatrickTrojan_thumbnail.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040101-national-champions/PatrickTrojan.JPG)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040101-1752-national-champions/PatrickTrojan_thumbnail.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040101-1752-national-champions/PatrickTrojan.JPG)
 :::
 
 I’m not sure which of the post-game analysts said it, but the 2003

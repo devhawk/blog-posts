@@ -10,7 +10,7 @@ Oh me of little faith.
 :smile:
 
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20080411-caps-win-game-one-with-a-three-goal-third/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20080411-2343-caps-win-game-one-with-a-three-goal-third/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)
 :::
 
 Caps [took game
@@ -68,4 +68,3 @@ But here are a few of my thoughts.
     like a good non-call. But I’m guessing Philly fan doesn’t agree.
 
 Game two, Sunday 2pm Eastern/11am Pacific. You’ll know where I’ll be.
-

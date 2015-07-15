@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050310-the-story-of-a-fierce-bad-rabbit/PotBad13_thumbnail.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050310-the-story-of-a-fierce-bad-rabbit/PotBad13.jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050310-1733-the-story-of-a-fierce-bad-rabbit/PotBad13_thumbnail.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050310-1733-the-story-of-a-fierce-bad-rabbit/PotBad13.jpg)
 :::
 
 [Matt](http://www.technovangelist.com/) got [this
@@ -12,4 +12,3 @@ has my favorite line from all of childrens literature:
 > THIS is a man with a gun.
 
 They don’t write them like that any more!
-

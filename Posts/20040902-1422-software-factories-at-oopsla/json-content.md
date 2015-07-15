@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040902-software-factories-at-oopsla/OOPSLA04LogoSplash.gif)](http://www.oopsla.org/2004)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040902-1422-software-factories-at-oopsla/OOPSLA04LogoSplash.gif)](http://www.oopsla.org/2004)
 :::
 
 Keith [blogged](http://blogs.msdn.com/keith_short/archive/2004/09/01/224317.aspx)
@@ -66,4 +66,3 @@ Anyone else going to OOPSLA?
 **Update**: Added the three panel discussions. I’m guessing the [J2EE/.NET
 shootout](http://www.oopsla.org/2004/ShowEvent.do?id=503) will be
 standing room only.
-

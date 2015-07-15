@@ -25,7 +25,7 @@ specifically says “Polling sucks. We think a decentralized pubsub layer
 is a fundamental, missing layer in the Internet architecture today”.
 Both specs have a fundamental design that looks like this:
 
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090827-the-last-mile-of-the-internet/image_3.png)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090827-1108-the-last-mile-of-the-internet/image_3.png)
 
 This picture leaves out multiple publishers and subscribers and the
 subscriber registration process, but you get the basic idea. And it all
@@ -39,14 +39,14 @@ disallow most if not all incoming connections. In other words, this
 works just fine for server subscribers (like, say Google Reader) but not
 for client subscribers (like, say TweetDeck).
 
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090827-the-last-mile-of-the-internet/image_17.png)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090827-1108-the-last-mile-of-the-internet/image_17.png)
 
 As far as I can tell, the only way to enable client subscribers to play
 in this async messaging world is via some type of relay service. Any
 other solution I can think of depends on mass adoption of new
 technology, which as I mentioned in my last post is nearly impossible.
 
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090827-the-last-mile-of-the-internet/image_20.png)
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090827-1108-the-last-mile-of-the-internet/image_20.png)
 
 In this approach, the client subscriber makes an outbound connection to
 some type of relay infrastructure, which in turn creates a endpoint on

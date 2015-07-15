@@ -1,5 +1,5 @@
 ::: image-right
-![RayTracer](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20031223-live-on-xbox/gamertag.gif)
+![RayTracer](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20031223-1937-live-on-xbox/gamertag.gif)
 ::: 
 
 After months of having my [XBOX](http://xbox.com/) hooked up on my [big

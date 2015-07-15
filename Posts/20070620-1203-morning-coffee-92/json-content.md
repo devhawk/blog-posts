@@ -38,7 +38,7 @@
     get to help me pick some of the new features.”
 -   Brandon LeBlanc
 	::: image-right
-	[![My Monitor Setup](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070620-morning-coffee-92/MonitorSetup_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070620-morning-coffee-92/MonitorSetup.jpg)
+	[![My Monitor Setup](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070620-1203-morning-coffee-92/MonitorSetup_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070620-1203-morning-coffee-92/MonitorSetup.jpg)
 	:::
     [writes](http://windowsvistablog.com/blogs/windowsexperience/archive/2007/06/20/running-a-dual-monitor-setup-with-windows-vista.aspx)
     about dual monitor support in Vista. I’m loving the dual monitor
@@ -68,4 +68,3 @@
     and none that I’ve ever seen – are goaled on long term
     maintainability. Until you can change that, this issue will continue
     to linger.
-

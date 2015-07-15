@@ -16,7 +16,7 @@
     360](http://www.xbox.com/en-US/community/events/ces2007/microsoftintegratesiptvsoftwareplatform.htm)?
 -   Speaking of Hockey, 
 	::: image-right
-    ![Crosby Gets Checked in NHL08](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070720-morning-coffee-103/NHL08_crosbydown_1.jpg) 
+    ![Crosby Gets Checked in NHL08](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070720-1148-morning-coffee-103/NHL08_crosbydown_1.jpg) 
     ::: 
     I like this new [NHL 08 trailer](http://news.teamxbox.com/xbox/14029/NHL-08-Reebok-Edge-Trailer/).
     It’s about [Reebok’s new uniform
@@ -36,4 +36,3 @@
     Wednesday](http://devhawk.net/2007/07/18/morning-coffee-102/)
     that it was a slow week. It may be, but I’ve also been less than
     motivated on pretty much all geek fronts this week. Not sure why.
-

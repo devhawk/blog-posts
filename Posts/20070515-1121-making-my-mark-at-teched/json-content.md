@@ -1,5 +1,5 @@
 ::: image-left
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070515-making-my-mark-at-teched/teched07_120X90_v2w.jpg) 
+![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20070515-1121-making-my-mark-at-teched/teched07_120X90_v2w.jpg) 
 :::
 
 One of the things that’s different about being in MSIT is that it’s cut my
@@ -49,4 +49,3 @@ Hope to see you there.
 >
 > -   MST02-TLC Monday (June 4th) 1:15-2:30pm
 > -   MST14-TLC Thursday (June 7th) 1-2:15pm
-

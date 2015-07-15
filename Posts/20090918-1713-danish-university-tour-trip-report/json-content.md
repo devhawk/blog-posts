@@ -18,7 +18,7 @@ and DLR as a platform for language development. If there’s interest
 up on SlideShare or something like that.
 
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-danish-university-tour-trip-report/IronPython_DK_trip_on_a_map_thumb.png "IronPython_DK_trip_on_a_map")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-danish-university-tour-trip-report/IronPython_DK_trip_on_a_map_2.png)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-1713-danish-university-tour-trip-report/IronPython_DK_trip_on_a_map_thumb.png "IronPython_DK_trip_on_a_map")](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-1713-danish-university-tour-trip-report/IronPython_DK_trip_on_a_map_2.png)
 :::
 
 ### [Aalborg University](http://en.aau.dk/)
@@ -94,7 +94,7 @@ did bring us to to visit the [Modular Robotics Research
 Lab](http://modular.mmmi.sdu.dk/wiki/Main_Page) so I got to see these
 guys in action:
 
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-danish-university-tour-trip-report/videod9804c33b78e.jpg)](http://www.youtube.com/watch?v=SYizuooEs7s)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-1713-danish-university-tour-trip-report/videod9804c33b78e.jpg)](http://www.youtube.com/watch?v=SYizuooEs7s)
 
 Real transforming robots! Not quite Optimus Prime mind you, but you
 gotta start somewhere. These robots are call
@@ -169,7 +169,7 @@ needed something I could do in a couple of hours late at night in a code
 base I wasn’t familiar with.
 
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-danish-university-tour-trip-report/IMG_2297_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-danish-university-tour-trip-report/IMG_2297_2.jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-1713-danish-university-tour-trip-report/IMG_2297_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-1713-danish-university-tour-trip-report/IMG_2297_2.jpg)
 :::
 
 ### Pumping Iron TechTalk
@@ -196,7 +196,7 @@ know I was successful!
 :smile:
 
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-danish-university-tour-trip-report/IMG_2276_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-danish-university-tour-trip-report/IMG_2276_2.jpg)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-1713-danish-university-tour-trip-report/IMG_2276_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090918-1713-danish-university-tour-trip-report/IMG_2276_2.jpg)
 :::
 
 ### Final Thoughts

@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20091027-the-soa-manifesto-pointlessness-manifested/agile_manifesto_background_thumb.jpg))](http://www.agilemanifesto.org/) 
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20091027-1731-the-soa-manifesto-pointlessness-manifested/agile_manifesto_background_thumb.jpg))](http://www.agilemanifesto.org/) 
 :::
 
 You know what the [Agile Manifesto](http://www.agilemanifesto.org/) doesn’t

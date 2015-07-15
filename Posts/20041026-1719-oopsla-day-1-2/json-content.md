@@ -9,7 +9,7 @@ Personally, I think this is pretty exciting stuff and I can’t wait to
 play with it more in the coming months.
 
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20041026-oopsla-day-1-2/UIPDSLthumb.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20041026-oopsla-day-1-2/UIPDSL.JPG)
+[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20041026-1719-oopsla-day-1-2/UIPDSLthumb.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20041026-1719-oopsla-day-1-2/UIPDSL.JPG)
 :::
 
 As part of the announcement, they demoed the toolkit with a DSL for
