@@ -1,5 +1,5 @@
 ::: image-right
-[![header](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20080131-1025-morning-coffee-141-lang-net-08-edition/header_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20080131-1025-morning-coffee-141-lang-net-08-edition/header_2.jpg)
+[![header](http://hawkblogstorage.blob.core.windows.net/blog-content/20080131-1025-morning-coffee-141-lang-net-08-edition/header_thumb.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20080131-1025-morning-coffee-141-lang-net-08-edition/header_2.jpg)
 :::
 
 I was hoping to blog my thoughts on Lang.NET as the event went along.

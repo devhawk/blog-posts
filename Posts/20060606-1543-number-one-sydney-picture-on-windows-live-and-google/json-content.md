@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060606-1543-number-one-sydney-picture-on-windows-live-and-google/TouringSydneyMonday_small.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060606-1543-number-one-sydney-picture-on-windows-live-and-google/TouringSydneyMonday.jpg)
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20060606-1543-number-one-sydney-picture-on-windows-live-and-google/TouringSydneyMonday_small.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20060606-1543-number-one-sydney-picture-on-windows-live-and-google/TouringSydneyMonday.jpg)
 :::
 
 I typically don’t [search Technorati for incoming

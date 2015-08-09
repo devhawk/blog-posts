@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-1222-hawkeye-on-nhl-07/RayTracer.png)](http://live.xbox.com/member/RayTracer) 
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20060915-1222-hawkeye-on-nhl-07/RayTracer.png)](http://live.xbox.com/member/RayTracer) 
 :::
 
 For those who *don’t* keep a close eye on my Xbox playing habits, I picked
@@ -24,7 +24,7 @@ movie](http://xbox360.ign.com/articles/732/732345p1.html)” than a TV
 broadcast.
 
 ::: image-right
-![NHL 07 Box](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060915-1222-hawkeye-on-nhl-07/boxnhl07.jpg) 
+![NHL 07 Box](http://hawkblogstorage.blob.core.windows.net/blog-content/20060915-1222-hawkeye-on-nhl-07/boxnhl07.jpg) 
 ::: 
 
 EA Sports spent their time on an entirely new control scheme called “Skill

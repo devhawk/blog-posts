@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20091021-1527-ironpython-and-ironruby-ctps-for-net-4-0-beta-2/VSLogo.png)](http://msdn.microsoft.com/en-us/vstudio/dd582936.aspx)
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20091021-1527-ironpython-and-ironruby-ctps-for-net-4-0-beta-2/VSLogo.png)](http://msdn.microsoft.com/en-us/vstudio/dd582936.aspx)
 :::
 In case you’ve been hiding under a rock (or maybe just aren’t tracking
 developments in the .NET community outside of IronPython), Microsoft

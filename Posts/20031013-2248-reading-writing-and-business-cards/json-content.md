@@ -24,7 +24,7 @@ includes a preview of what your business card will look like. My cards
 from my previous role first had the .NET logo, then I changed to the
 VS.NET logo. I decided to just go w/ the vanilla logo cards this time.
 
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20031013-2248-reading-writing-and-business-cards/businessCard.png)
+![](http://hawkblogstorage.blob.core.windows.net/blog-content/20031013-2248-reading-writing-and-business-cards/businessCard.png)
 
 Since I’m doing community, I figured I should post my contact info where
 the community can get it. Our IT dept. just moved my mailbox to a bigger

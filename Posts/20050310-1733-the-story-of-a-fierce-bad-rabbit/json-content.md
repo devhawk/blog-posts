@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050310-1733-the-story-of-a-fierce-bad-rabbit/PotBad13_thumbnail.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050310-1733-the-story-of-a-fierce-bad-rabbit/PotBad13.jpg)
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20050310-1733-the-story-of-a-fierce-bad-rabbit/PotBad13_thumbnail.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20050310-1733-the-story-of-a-fierce-bad-rabbit/PotBad13.jpg)
 :::
 
 [Matt](http://www.technovangelist.com/) got [this

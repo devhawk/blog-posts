@@ -1,5 +1,5 @@
 ::: image-left
-[![CNN](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140402-1217-blood-sweat-code/CNN-300x190.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20140402-1217-blood-sweat-code/CNN.jpg) 
+[![CNN](http://hawkblogstorage.blob.core.windows.net/blog-content/20140402-1217-blood-sweat-code/CNN-300x190.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20140402-1217-blood-sweat-code/CNN.jpg) 
 :::
 
 Today was a \***HUGE**\* thrill as I got to present in the keynote at

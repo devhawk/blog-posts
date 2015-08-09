@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090505-2029-happy-birthday-riley/HappyBdayRiley_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20090505-2029-happy-birthday-riley/HappyBdayRiley.jpg) 
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20090505-2029-happy-birthday-riley/HappyBdayRiley_thumb.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20090505-2029-happy-birthday-riley/HappyBdayRiley.jpg) 
 :::
 
 Today is my daughter Rileyanne’s fourth birthday. She was born on 5-5-05 (at

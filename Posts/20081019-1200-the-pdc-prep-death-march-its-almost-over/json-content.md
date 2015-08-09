@@ -1,5 +1,5 @@
 ::: image-right
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20081019-1200-the-pdc-prep-death-march-its-almost-over/PDC2008Brain.gif) 
+![](http://hawkblogstorage.blob.core.windows.net/blog-content/20081019-1200-the-pdc-prep-death-march-its-almost-over/PDC2008Brain.gif) 
 ::: 
 
 So it’s been just over a month since my last post, and I think it’s safe to say

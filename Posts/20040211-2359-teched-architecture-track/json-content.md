@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040211-2359-teched-architecture-track/teched2004.gif)](http://go.microsoft.com/?LinkID=404299)
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20040211-2359-teched-architecture-track/teched2004.gif)](http://go.microsoft.com/?LinkID=404299)
 :::
 
 For those who read my site in a news reader, I added a TechEd 2004 flair

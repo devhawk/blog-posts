@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014_thumb.jpg)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014.jpg)
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014_thumb.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014.jpg)
 :::
 
 I came in this morning to discover my boss and next cube neighbor

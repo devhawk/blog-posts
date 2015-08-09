@@ -36,7 +36,7 @@ different solution that we like to refer to as “The Fifth Assembly”
 around the office.
 
 ::: image-right
-![IPy References](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20081021-1242-the-fifth-assembly/ipy-references-error.png "IPy References")
+![IPy References](http://hawkblogstorage.blob.core.windows.net/blog-content/20081021-1242-the-fifth-assembly/ipy-references-error.png "IPy References")
 ::: 
 In IronPython 2.0 Beta 5, there were four DLLs that implement IronPython:
 IronPython.dll, IronPython.Modules.dll, Microsoft.Scripting.dll and
@@ -52,7 +52,7 @@ In IronPython, we reference the ExtensionAttribute assembly because we
 use the C\# 3.0 complier but IPy has to be able to run on .NET Framework
 2.0 SP1.
 ::: image-left
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20081021-1242-the-fifth-assembly/ipy-references-working.png)
+![](http://hawkblogstorage.blob.core.windows.net/blog-content/20081021-1242-the-fifth-assembly/ipy-references-working.png)
 :::
 However, projects that embed IronPython in a .NET 3.5 project (aka C\# 3.0 or VB
 9.0) will reference System.Core instead. The only reason why you would

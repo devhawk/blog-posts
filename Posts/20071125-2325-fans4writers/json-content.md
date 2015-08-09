@@ -1,5 +1,5 @@
 ::: image-right
-![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20071125-2325-fans4writers/wga-support.png) 
+![](http://hawkblogstorage.blob.core.windows.net/blog-content/20071125-2325-fans4writers/wga-support.png) 
 :::
 
 Most of my

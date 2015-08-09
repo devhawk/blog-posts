@@ -1,5 +1,5 @@
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20060216-1445-introducting-devhawk-designs/archelp.png)](http://www.zazzle.com/link.asp?associate_id=238197950402547873&redirect=product&product_id=235848130425737882)
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20060216-1445-introducting-devhawk-designs/archelp.png)](http://www.zazzle.com/link.asp?associate_id=238197950402547873&redirect=product&product_id=235848130425737882)
 :::
 
 A while ago, I made a sign for my door that reads “Architecture Help 5¢”

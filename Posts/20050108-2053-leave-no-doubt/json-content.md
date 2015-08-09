@@ -1,5 +1,5 @@
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050108-2053-leave-no-doubt/nationalchamps.jpg)](http://sports.espn.go.com/ncf/bowls04/columns/story?columnist=maisel_ivan&id=1959309) 
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20050108-2053-leave-no-doubt/nationalchamps.jpg)](http://sports.espn.go.com/ncf/bowls04/columns/story?columnist=maisel_ivan&id=1959309) 
 :::
 
 I was on vacation without access to the ‘net most of last week, so I
@@ -14,7 +14,7 @@ have called it at half time, but I figured OU would come out with some
 life in the second half, but they didn’t.
 
 ::: image-right
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20050108-2053-leave-no-doubt/undisputed.jpg)](http://www.uscbookstore.com/index.php?cPath=22013) 
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20050108-2053-leave-no-doubt/undisputed.jpg)](http://www.uscbookstore.com/index.php?cPath=22013) 
 :::
 
 While I am glad about many things about this season, I am most glad that the

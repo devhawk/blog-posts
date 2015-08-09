@@ -5,7 +5,7 @@ cache](http://216.239.57.104/search?q=cache:RVMCz2V4UzQJ:devhawk.net/default.asp
 but not before I deleted the original. So here it is again:
 
 ::: image-left
-[![](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040816-0003-my-ride-revisited/hpierson_car_thumb.JPG)](https://raw.githubusercontent.com/devhawk/devhawk.github.io/master/images/blog/20040816-0003-my-ride-revisited/hpierson_car.JPG) 
+[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20040816-0003-my-ride-revisited/hpierson_car_thumb.JPG)](http://hawkblogstorage.blob.core.windows.net/blog-content/20040816-0003-my-ride-revisited/hpierson_car.JPG) 
 :::
 
 Brad Smith ([via
