@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2087,
+    "author-name": "Philip Craig",
+    "author-email": "philip@pobox.com",
+    "author-url": "",
+    "date": "2008-07-28T10:23:03-07:00",
+    "content": "Any chance of pasting the actual $profile for us to work on?",
+    "parent-id": 1158,
+    "RowKey": "20080728-102303"
+  },
+  {
+    "id": 2088,
+    "author-name": "Philip Craig",
+    "author-email": "philip@pobox.com",
+    "author-url": "",
+    "date": "2008-07-28T10:23:51-07:00",
+    "content": "Would it be possible to post the actual $profile for us to see/copy/paste?",
+    "parent-id": 1158,
+    "RowKey": "20080728-102351"
+  },
+  {
+    "id": 2089,
+    "author-name": "orcmid",
+    "author-email": "dennis.hamilton@acm.org",
+    "author-url": "http://orcmid.com/BlunderDome/clueless",
+    "date": "2008-07-28T12:20:16-07:00",
+    "content": "yes, I am still using CMD!  (Simple reason for it, not important here.)\n\nBut I have flagged this one as good things to do if and when I succumb to PowerShell.  Also, these are all good things to do in my various SFA and SUA shells too, as I get more into those subsystems.  (CMD and C Shell, I really am a throw-back!)",
+    "parent-id": 1158,
+    "RowKey": "20080728-122016"
+  },
+  {
+    "id": 2090,
+    "author-name": "Richard Rousseau",
+    "author-email": "",
+    "author-url": "http://www.richardrousseau.com",
+    "date": "2008-07-30T07:42:18-07:00",
+    "content": "You should give the Powershell Community Extensions a look.  They have functions that cover the CD.. and CD... as well as zip functions and many more.\n\nhttp://www.codeplex.com/PowerShellCX/Wiki/View.aspx?title=PSCX%201.1.1%20Features&referringTitle=Home",
+    "parent-id": 1158,
+    "RowKey": "20080730-074218"
+  },
+  {
+    "id": 2091,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-07-30T11:29:48-07:00",
+    "content": "@Richard, I keep meaning to take a look at the PS Community Extensions. Just haven't made the time yet. Thanks for the heads up.",
+    "parent-id": 1158,
+    "RowKey": "20080730-112948"
+  }
+]

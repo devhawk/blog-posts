@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2571,
+    "author-name": "Hartmut Wilms",
+    "author-email": "hartmut.wilms@innoq.com",
+    "author-url": "http://www.innoq.com/blog/hw/",
+    "date": "2007-08-15T12:22:23-07:00",
+    "content": "Hi Harry,\nthere's a misunderstanding. I don't think that \"the four tenets just expressed, what \"almost\" everybody outside the MS world knew already\". In my opinion that's what you implied in your post.\nGranted, many of the principles that are nowadays found in SO have been around for a while (not everywhere, not by everyone!). There have always been good designs, good patterns and awesome implementations. But they are the exceptions. To me service orientation collects the ideas of message-orientation, document-based data exchange, platform independent contracts (interfaces) and machine-readable policies. These principles have been expressed by the four tenets in an abstract way. Why? Because there are several ways of designing a system (better a service landscape), which adheres to these tenets. The tenets are the cornerstones of the service oriented paradigm.\nMy only contradiction (at least in my view ;-)) was/is that on the one hand I'm defending the idea of the tenets and on the other hand I'm saying that there are better ways to describe the idea of a SOA, e.g. \n\nhttp://www.innoq.com/blog/st/2005/11/04/10_statements_about_soa.html.\n\nTo sum up I agree that the tenets are too abstract in order to be used as a concrete guideline for building services that adhere to service oriented principles. I disagree with your statement that service oriented principles have been adopted by the masses, that SOA is mainstream, and that there's no need for (abstract) advice/tenets/principles anymore.",
+    "parent-id": 1029,
+    "RowKey": "20070815-122223"
+  },
+  {
+    "id": 2572,
+    "author-name": "Erik Johnson",
+    "author-email": "ejohnson@epicor.com",
+    "author-url": "http://appside.blogspot.com",
+    "date": "2007-08-15T21:13:00-07:00",
+    "content": "The 4 Tenets were indoctrination about service-orientation and (I think) purposely aimed at a specific, large population of Microsoft-platform developers.  Think back to the time when – as Microsoft put it – 80% of developers on the Windows platform used VB.  The Tenets served a purpose in jolting mindshare away from RPC and distributed objects.  In my job, such principles had been around a while.  So, I generally thought that the Tenets were obvious (and, sure, a little incomprehensible).  \n\nBut despite giving the Tenets some benefit of the doubt, I thought David Ing’s Four Horsemen essay was wonderfully written and a spot-on review.  No, the Tenets aren’t really guidance, but I don’t think anyone is saying they have done more harm than good.  Now, bring on the flames reserved for those who take middle ground!\n",
+    "parent-id": 1029,
+    "RowKey": "20070815-211300"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2196,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com/",
+    "date": "2009-04-20T11:39:01-07:00",
+    "content": "I'll fill out the survey. It would be slightly ironic if I won the books. :-)",
+    "parent-id": 1250,
+    "RowKey": "20090420-113901"
+  },
+  {
+    "id": 2197,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2009-04-20T12:19:51-07:00",
+    "content": "It would only be 2.44% ironic (1/41)",
+    "parent-id": 1250,
+    "RowKey": "20090420-121951"
+  }
+]

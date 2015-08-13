@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2092,
+    "author-name": "Richard",
+    "author-email": "richard@rjcox.co.uk",
+    "author-url": "",
+    "date": "2008-07-30T10:09:10-07:00",
+    "content": "From profile.ps1:\n> cmd.exe /c color 4f\nYou can control the colours that PSH's console host uses by assigning to the members of $Host.PrivateData.\nE.g. $Host.PrivateData.WarningForegroundColor = \"green\"\n(Each is of type [System]::ConsoleColor)",
+    "parent-id": 1159,
+    "RowKey": "20080730-100910"
+  },
+  {
+    "id": 2093,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-07-30T11:32:21-07:00",
+    "content": "@Richard, Thanks. However, that doesn't appear to let me set the background for the command shell window as a whole though. Only, the Warning, Error, Debug, Verbose and Progress fore & background colors. I can see the value of that, but my goal with that line of script is to set the entire background to red.",
+    "parent-id": 1159,
+    "RowKey": "20080730-113221"
+  },
+  {
+    "id": 2094,
+    "author-name": "Tommy Williams",
+    "author-email": "twwjr@hotmail.com",
+    "author-url": "http://twwilliams.com/blog/",
+    "date": "2008-07-31T09:42:06-07:00",
+    "content": "If you want to change the settings for the console, use $host.ui.rawui.foregroundcolor and .background color. I have functions like this:\n\nfunction green { $host.ui.rawui.foregroundcolor = \"Green\"; $host.ui.rawui.backgroundcolor = \"Black\" }\n\nfunction yellow { $host.ui.rawui.foregroundcolor = \"Yellow\"; $host.ui.rawui.backgroundcolor = \"Black\" }\n",
+    "parent-id": 1159,
+    "RowKey": "20080731-094206"
+  },
+  {
+    "id": 2095,
+    "author-name": "Richard",
+    "author-email": "richard@rjcox.co.uk",
+    "author-url": "",
+    "date": "2008-08-01T06:41:04-07:00",
+    "content": "> However, that doesn't appear to let me set the background for the command shell window as a whole though\n\nFollow it with a Clear-Host\n\nMy current^h finally implemented elevated PSH (use scope modifiers so don't just create a local variable in the condition block containing this):\n$host.UI.RawUI.Backgroundcolor=\"DarkGray\"\n$host.UI.RawUI.Foregroundcolor=\"Red\"\nclear-host\nwrite-host \"`n** Elevated Session **`n\" -foreground DarkRed -background Yellow\n$global:ConsolePromptColour = \"Red\" # Override prompt function's default\n$global:ConfirmPreference = \"Medium\"\n",
+    "parent-id": 1159,
+    "RowKey": "20080801-064104"
+  },
+  {
+    "id": 2096,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-08-01T13:10:52-07:00",
+    "content": "Thanks Tommy and Richard! I updated my _profile script to use instead of $host.UI.RawUI.Backgroundcolor cmd.exe /c color. ",
+    "parent-id": 1159,
+    "RowKey": "20080801-131052"
+  }
+]

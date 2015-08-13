@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2321,
+    "author-name": "Barry Kelly",
+    "author-email": "bkelly.ie@gmail.com",
+    "author-url": "http://blog.barrkel.com/",
+    "date": "2011-02-02T23:14:38-08:00",
+    "content": "\"I wish there was a command line parameter for specifying PYTHONPATH – I hate having to modify the environment in order to execute my prototype.\"\n\nThere is, in bash:\n\nPYTHONPATH=/whatever/you/like your-program\n\nI use this feature all the time; the compiler I work on (Delphi) uses an envvar to specify logging options in the debug build. I'm a little bit surprised it's not a feature in PowerShell.\n\nfoo=x bar=y your-app\n\netc.",
+    "parent-id": 1305,
+    "RowKey": "20110202-231438"
+  },
+  {
+    "id": 2322,
+    "author-name": "Barry Kelly",
+    "author-email": "bkelly.ie@gmail.com",
+    "author-url": "http://blog.barrkel.com/",
+    "date": "2011-02-02T23:19:15-08:00",
+    "content": "I should add that these environment variables are applied by bash after it has forked, and before the exec - so it doesn't affect the ambient shell's environment.\n\nI use Cygwin bash. Works very well.",
+    "parent-id": 1305,
+    "RowKey": "20110202-231915"
+  },
+  {
+    "id": 2323,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://voidspace.org.uk/",
+    "date": "2011-02-03T02:57:54-08:00",
+    "content": "You can also add custom .pth files (text files containing paths) to site-packages to add directories to sys.path.",
+    "parent-id": 1305,
+    "RowKey": "20110203-025754"
+  },
+  {
+    "id": 2324,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2011-02-03T10:17:42-08:00",
+    "content": "@Barry - you can set the ambient shell environment in powershell ($env:PYTHONPATH = /whatever/you/like) but I'm not aware of way to apply the environment changes to a forked process w/o affecting the current one. I would suspect it's possible, but it's not out of the box AFAIK.\n\n@Michael - I didn't know about .pth files - I'll take a look at that!",
+    "parent-id": 1305,
+    "RowKey": "20110203-101742"
+  }
+]

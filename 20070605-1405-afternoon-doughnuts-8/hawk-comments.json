@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2525,
+    "author-name": "Nick Malik",
+    "author-email": "",
+    "author-url": "http://blogs.msdn.com/nickmalik",
+    "date": "2007-06-05T18:46:27-07:00",
+    "content": "Hi Dale,\n\nThe best way to present data in a SOA infrastructure... interesting problem.  The data being passed, if the design is good, is a subset of the canonical data model needed to understand or interpret a particular business event.  However, each producer or consumer will display or lay out that data differently.  Many will translate it.  Therefore when you present the information from the 'middle', it is unlikely that the business would necessarily recognize it!\n\nTherefore, I'm not sure what it means to display information from the business process point of view.\n\nI believe that it makes sense that the canonical schema for the event in question should register a stylesheet or provide a link to one that can be used to display the data.",
+    "parent-id": 977,
+    "RowKey": "20070605-184627"
+  },
+  {
+    "id": 2526,
+    "author-name": "Dale Churchward",
+    "author-email": "Dale.Churchward@microsoft.com",
+    "author-url": "http://halfmybrain.spaces.live.com/",
+    "date": "2007-06-06T14:06:41-07:00",
+    "content": "Hmmm...that is an interesting point. I wasn't actually thinking about presenting it from the middle point, but more from an overall view. I would think that the business would understand the process if it was named after what it does like create customer. Monitoring could then show the process from initiation to completion. You should then be able to drill down to each service along the way. I would consider this somewhat similar to how Amberpoint shows it.",
+    "parent-id": 977,
+    "RowKey": "20070606-140641"
+  }
+]

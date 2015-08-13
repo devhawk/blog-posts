@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2109,
+    "author-name": "Seo Sanghyeon",
+    "author-email": "sanxiyn@gmail.com",
+    "author-url": "",
+    "date": "2008-08-06T13:40:25-07:00",
+    "content": "FePy project maintains a list of known-to-work standard library modules here:\n\nhttp://fepy.svn.sourceforge.net/svnroot/fepy/trunk/script/mlist\n\nFeel free to consult it.",
+    "parent-id": 1167,
+    "RowKey": "20080806-134025"
+  },
+  {
+    "id": 2110,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com",
+    "date": "2008-08-07T06:35:20-07:00",
+    "content": "_sqlite3 could be implemented as a compatibility shim over System.Data.SQLite:\n\nhttp://sqlite.phxsoftware.com/\n\nThis would be waaay better than removing the module. There are many standard library modules that could be supported using this technique.\n\nFePy has had a compatibility shim for pyexpat (over System.Xml) for a long time. The more of these modules that are supported the more Python applications and frameworks will work with IronPython.",
+    "parent-id": 1167,
+    "RowKey": "20080807-063520"
+  }
+]

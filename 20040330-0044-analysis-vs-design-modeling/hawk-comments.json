@@ -1,0 +1,32 @@
+[
+  {
+    "id": 3034,
+    "author-name": "Jimmy Nilsson",
+    "author-email": "Jimmy.Nilsson@jnsk.se",
+    "author-url": "http://www.jnsk.se/weblog/",
+    "date": "2004-03-30T04:55:57-08:00",
+    "content": "Hi Harry,\n\nInteresting! \n\nHow would what you write here be affected if Eric Evans' book Domain-Driven Design is taken into account?\n\nBest Regards,\nJimmy\nwww.jnsk.se/weblog/\n###",
+    "parent-id": 335,
+    "RowKey": "20040330-045557"
+  },
+  {
+    "id": 3035,
+    "author-name": "mearls@hotmail.com (Michael Earls)",
+    "author-email": "mearls@hotmail.comMichaelEarls",
+    "author-url": "http://www.cerkit.com/",
+    "date": "2004-04-01T09:19:35-08:00",
+    "content": "Good question.  I think a tool to assist in a visual design of the analysis classes would be great.\n\nMore here:\n\nhttp://www.cerkit.com/cerkitBlog/PermaLink.aspx?guid=52cf475b-eb4f-4c48-aabd-475b788ff00a",
+    "parent-id": 335,
+    "RowKey": "20040401-091935"
+  },
+  {
+    "id": 3036,
+    "author-name": "stellenmarktplatz",
+    "author-email": "sa@we.de",
+    "author-url": "http://www.stellenmarktplatz.ch/index.htm",
+    "date": "2004-05-20T03:24:42-07:00",
+    "content": "hi\nnice comment\n\naff dan\nhttp://www.stellenmarktplatz.ch/index.htm",
+    "parent-id": 335,
+    "RowKey": "20040520-032442"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2059,
+    "author-name": "Alison",
+    "author-email": "amahoney@carbonite.com",
+    "author-url": "http://www.carbonite.com",
+    "date": "2008-04-09T13:55:12-07:00",
+    "content": "Hey there. Glad to hear you’re a fan of Carbonite. I work for the company and thought I’d take a sec to explain our reasoning on the video backup. A lot of users contacted us within our first year or two to let us know that we were backing up a lot more video files than they’d prefer. It caused their backup and restore processes to take far longer than necessary, since in a lot of cases these were files they had downloaded that were easily replaced or that were ripped from DVD or podcasts. So to make it easier for folks to manage the size of their backups (and therefore how long it takes to back up and restore their computer files), we decided to let users who wish to back up videos select them on the folder level. All you have to do is right-click a folder that is selected for backup and select “Back up video files in this folder” from the Carbonite menu. This way, you can back up videos if you like, but those who don't care about video won't waste thier time.  \n\nAnyway, we just launched a corporate blog and we'd love to get comments/thoughts/suggestions from our users. If you want, stop by and share your comments with our CEO at http://www.carbonite.com/blog/. We always try to take our user's feedback into consideration when planning future versions.\n\nThanks,\nAlison\n",
+    "parent-id": 1133,
+    "RowKey": "20080409-135512"
+  },
+  {
+    "id": 2060,
+    "author-name": "bill",
+    "author-email": "billchi@microsoft.com",
+    "author-url": "",
+    "date": "2008-04-10T08:03:52-07:00",
+    "content": "Why are you saying the DLR spec is pretty out of date?  While I'm about ready to post an update at http://compilerlab.members.winisp.net/dlr-spec-hosting.doc, a quick scan of your copy doesn't look very out of date to me.\n\nYou may have a build of the code that is not in sync with the latest design.  Also, I note that Michael's post that you refer to directly calls on the PythonEngine class, which is not part of the common hosting model for the DLR.  One thing we're adding soon is a config/options model for passing those to engines, which would remove the need for Michael to set options on the PythonEngine directly.\n\nBill",
+    "parent-id": 1133,
+    "RowKey": "20080410-080352"
+  }
+]

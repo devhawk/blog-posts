@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2389,
+    "author-name": "Piyush",
+    "author-email": "piyushpant@yahoo.com",
+    "author-url": "http://unhandledx.blogspot.com/2006/08/modelling-overload.html",
+    "date": "2006-08-02T00:00:20-07:00",
+    "content": "And meanwhile in the OMG parallel universe.. SysML was born.\n\nAs I have commented on my blog, is this solving a problem that anyone has ?",
+    "parent-id": 774,
+    "RowKey": "20060802-000020"
+  },
+  {
+    "id": 2390,
+    "author-name": "Pratul",
+    "author-email": "",
+    "author-url": "http://blogs.technet.com/pratul/default.aspx",
+    "date": "2006-08-05T12:35:15-07:00",
+    "content": "I agree that the term \"Service\" is highly overloaded in our industry, but the name change was not arbitrary. The name \"Service Modeling Language\" was chosen because we expect that this modeling language will be used for building models of business and IT services and using these models to drive the complete lifecycle of these services (design, deployment, on-going management, etc.). The use of \"Service\" in SML is consistent with the use of \"Service\" in the IT Infrastructure library (ITIL) standard.",
+    "parent-id": 774,
+    "RowKey": "20060805-123515"
+  }
+]

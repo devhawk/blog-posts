@@ -1,0 +1,22 @@
+[
+  {
+    "id": 3715,
+    "author-name": "ErikEJ",
+    "author-email": "ejlskov@hotmail.com",
+    "author-url": "http://erikej.blogspot.com",
+    "date": "2014-04-26T01:58:31-07:00",
+    "content": "Great walkthrough, thanks, finally I feel confident to get started with this feature not being a C++ developer.\n\nI the demo and whitepaper you mention implementing interfaces and adhering to async in the brokered component - is this just recommended or a requirement?",
+    "parent-id": 2088,
+    "RowKey": "20140426-015831"
+  },
+  {
+    "id": 3716,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2014-04-26T07:15:20-07:00",
+    "content": "Implementing interfaces and marking them as [ComVisible(true)] is not needed. The managed compilers automatically generate the interfaces under the hood as needed.\n\nUsing async is highly recommended to avoid blocking the UI thread. As I showed in the NorthwindRT demo, it's fairly easy to take a synchronous method call, wrap in in a .NET Task and then project the task as an WinRT IAsyncOperation.",
+    "parent-id": 2088,
+    "RowKey": "20140426-071520"
+  }
+]

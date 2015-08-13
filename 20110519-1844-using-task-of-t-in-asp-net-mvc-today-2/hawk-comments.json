@@ -1,0 +1,72 @@
+[
+  {
+    "id": 3174,
+    "author-name": "Twitter Mirror",
+    "author-email": "",
+    "author-url": "http://twitter.com/kartiksehgal/statuses/71951606014410752",
+    "date": "2011-05-21T08:07:24-07:00",
+    "content": "<strong>Using Task in ASP.NET MVC Today - http://devhawk.net/2011/05/19/using-task-of-t-in-asp-net-mvc-today/ #dotnet...</strong>\n\nUsing Task&lt;T&gt; in ASP.NET MVC Today - http://devhawk.net/2011/05/19/using-task-of-t-in-asp-net-mvc...",
+    "parent-id": 1888,
+    "RowKey": "20110521-080724"
+  },
+  {
+    "id": 3175,
+    "author-name": "gautam kinkar",
+    "author-email": "kinkargautam91@gmail.com",
+    "author-url": "",
+    "date": "2011-05-24T04:43:44-07:00",
+    "content": "sir please guide me that c or c++ is nessesory for asp.net",
+    "parent-id": 1888,
+    "RowKey": "20110524-044344"
+  },
+  {
+    "id": 3176,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2011-05-24T09:39:51-07:00",
+    "content": "@gautam, The code in this post is C#. There is a managed version of C++ (aka <a href=\"http://en.wikipedia.org/wiki/C%2B%2B/CLI\" rel=\"nofollow\">C++/CLI</a>) but I don't think it works with ASP.NET.",
+    "parent-id": 1888,
+    "RowKey": "20110524-093951"
+  },
+  {
+    "id": 3177,
+    "author-name": "Rashmi",
+    "author-email": "rashmia@greatdevelopers.com",
+    "author-url": "http://www.Beejak.com",
+    "date": "2011-05-24T20:39:40-07:00",
+    "content": "That's nice. Will give it a try. I am sure the performance would increase.",
+    "parent-id": 1888,
+    "RowKey": "20110524-203940"
+  },
+  {
+    "id": 3178,
+    "author-name": "Haacked",
+    "author-email": "haacked@gmail.com",
+    "author-url": "http://haacked.com/",
+    "date": "2011-05-25T09:27:30-07:00",
+    "content": "We plan to support this in ASP.NET MVC 4.",
+    "parent-id": 1888,
+    "RowKey": "20110525-092730"
+  },
+  {
+    "id": 3179,
+    "author-name": "Felix",
+    "author-email": "felix@rabinovich.org",
+    "author-url": "",
+    "date": "2011-05-29T15:32:01-07:00",
+    "content": "Ideally, I would like to use asynch controller for POST call where I pass a few parameters and await result. Async controller assumes that the service implements Event-based Asynchronous Pattern or BeginMethod/EndMethod Pattern (or at least documentation assumes). Your example here calls DownloadStringTaskAsync which assumes GET or REST service.\nSo, I am not sure if I can call WebRequest.GetResponse asynchronously and just don't know how; or it is only possible for specially crafted services (and then Async CTP just simplifies what is already available).",
+    "parent-id": 1888,
+    "RowKey": "20110529-153201"
+  },
+  {
+    "id": 3180,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2011-06-01T22:08:17-07:00",
+    "content": "With an async controller, you can choose which of your controller methods are async and which are sync - they don't all have to be sync.\n\nAs for DownloadStringTaskAsync, it's provided as part of the Async CTP and works with any site that DownloadString would work with AFAIK",
+    "parent-id": 1888,
+    "RowKey": "20110601-220817"
+  }
+]

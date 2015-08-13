@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2446,
+    "author-name": "Scott Allen",
+    "author-email": "scott@odetocode.com",
+    "author-url": "http://www.odetocode.com/blogs/scott/",
+    "date": "2007-01-26T12:27:19-08:00",
+    "content": "For XAML only workflows you'd have to define a class and derives from StateMachineWorkflowActivity. This new class can define your dependency properties, and any other code the workflow might need. \n\nFor XAML activation then, you use the new class as the root of your workflow:\n\n<ns0:MyCustomStateMachineWorkflowActivity x:Name=\"foo\" ...>\n  <StateActivity ...>\n  <StateActivity ...>\n  <StateActivity>\n     ...\n     <ActivityBind Name=foo\" Path=\"MyCustomDependencyProperty\"/>\n     ...\n  </StateActivity>\n</ns0:MyCustomStateMachineWorkflowActivity>\n\nI have a working sample of this approach. I'll post it soon.",
+    "parent-id": 862,
+    "RowKey": "20070126-122719"
+  }
+]

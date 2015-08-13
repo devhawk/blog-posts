@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2791,
+    "author-name": "Javier Muñoz",
+    "author-email": "jmunoz@dsic.upv.es",
+    "author-url": "http://www.dsic.upv.es/~jmunoz",
+    "date": "2005-02-28T04:14:30-08:00",
+    "content": "In general, I agree with the content of the post but...\n\n> But if we were using the class diagram as it was intended, wouldn't there be a one-to-one mapping between a class in the model and a class in the code?\n\nI suppose you are assuming that the Class Diagram is intended to be used for design purposes. Then, a class diagram could be considered simply as a code visualizer. In this case, what about nxn relationships? Why are they used in class diagramas if they don't have a one-to-one mapping?\n\nI think that the class diagram is usually (or sometimes) used for conceptual modelling purposes, where you are capturing the structure of your domain and not the structure of your software. Then, we need one-to-many mappings for converting the class diagram into software classes.\n\nAnyhow, I completely agree we should use DSLs. In fact we are all using DSLs when we are \"intepreting\" the semantics of UML (even when we use it without stereotypes) in the transformation from UML to code.\n\n",
+    "parent-id": 557,
+    "RowKey": "20050228-041430"
+  },
+  {
+    "id": 2792,
+    "author-name": "Charles Rivet",
+    "author-email": "tevirselrahc@gmail.com",
+    "author-url": "",
+    "date": "2005-02-28T08:31:48-08:00",
+    "content": "Javier already stated an obvious problem with your diatribe, so I will not go over that again. Although, if you look at elaborationist model driven development, you will see that there are \"analysis\" classes that are developed from use cases that then fan-out to \"design\" classes. And these _can_ also fan-out to \"implementation\" classes, depending on the implementation language...\n\nYou also state:\n\n\"Since you're not using the tools as they were designed, you have to manually enforce rules that the tool doesn't know about. Sure, you can add some semantics via stereotypes, but you can't take anything away.\"\n\nActually, you can...  To continue your example, I can define a profile that restricts the inheritance from \"service\" classes. This can be done today by attaching an OCL constraint to, for example, a class (and making it the default behaviour).\n\nNow if I were to create new icons for the service and have this type of constraint defined in the profile, I would have a DSL!\n\nNow there are cases where it is very difficult to extend UML to provide correct DSL support, but the example you provide in this post are not likely to convince people who understand how this works. And in cases where UML can not be used, then a DSL building tool would certainly help!",
+    "parent-id": 557,
+    "RowKey": "20050228-083148"
+  },
+  {
+    "id": 2793,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2005-02-28T18:52:06-08:00",
+    "content": "Charles, I'm not sure I'd call this a diatribe, but your point is well taken. I did not realize you can use OCL to constrain the model - in the discussion that we had at the IASA user group meeting last week, that idea was rejected by those that use UML tools in this way as \"not working very well\". So maybe they're just using the wrong tool. \n\nEither way, as you point out, you end up with a DSL! My primary point is that how more similar these approachs are than they are different.",
+    "parent-id": 557,
+    "RowKey": "20050228-185206"
+  },
+  {
+    "id": 2794,
+    "author-name": "Charles Rivet",
+    "author-email": "tevirselrahc@gmail.com",
+    "author-url": "",
+    "date": "2005-03-01T07:13:07-08:00",
+    "content": "I completely agree!!!\n\nToo many people are making up a lot of noise about how these approaches are very different when they are talking about basically the same thing: the need to present people with constructs that they understand at _their_ level of abstractions.\n\nIf you can do that on a common base, then you gain the benefit of existing tools. But if the DSL is too complex for that common base, let's not shy away from creating a new tool. The important thing, in the end, is the user's productivity.",
+    "parent-id": 557,
+    "RowKey": "20050301-071307"
+  }
+]

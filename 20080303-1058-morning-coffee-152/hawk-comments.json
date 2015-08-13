@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2037,
+    "author-name": "Tomas Restrepo",
+    "author-email": "tomas@winterdom.com",
+    "author-url": "http://www.winterdom.com/weblog/",
+    "date": "2008-03-03T12:58:04-08:00",
+    "content": "I've been pretty interested lately on distributed control version systems; and I'm looking at both Git and Mercurial. Git seems technically the better one, but the Windows support seems to be still a bit lacking (and not sure why neither of them have a simple binary distribution on a zip file; why mess with installers?).\n\nAnyway, I think the concept is a great idea; and the one thing I really like about it is that it combines the offline support (even better, since pretty much all operations are available offline, not just a few) of SVN, with actual support for branches/merges, and, even better, easy way to provide for personal temporary branches, which is really the only TFS feature I miss every now and then (I'm of course talking about shelvesets).",
+    "parent-id": 1112,
+    "RowKey": "20080303-125804"
+  }
+]

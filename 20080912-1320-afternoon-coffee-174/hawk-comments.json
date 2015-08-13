@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2120,
+    "author-name": "sesh",
+    "author-email": "",
+    "author-url": "http://blogs.msdn.com/seshadripv",
+    "date": "2008-09-14T16:54:38-07:00",
+    "content": "\"If you only care about hosting IPy, you can use our language specific hosting API which doesn't require app.config.\"\n\nHere is some quick info on that - http://blogs.msdn.com/seshadripv/archive/2008/09/14/dlr-hosting-api-how-to-create-a-scriptruntime-object-without-using-app-config-files-using-language-specific-hosting-api.aspx",
+    "parent-id": 1173,
+    "RowKey": "20080914-165438"
+  },
+  {
+    "id": 2121,
+    "author-name": "seo",
+    "author-email": "finty@finty.sk",
+    "author-url": "http://www.finty.sk",
+    "date": "2008-09-27T15:45:12-07:00",
+    "content": "subscribe to the view to the small errors",
+    "parent-id": 1173,
+    "RowKey": "20080927-154512"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2332,
+    "author-name": "John Lam",
+    "author-email": "jlam@iunknown.com",
+    "author-url": "http://www.iunknown.com",
+    "date": "2006-03-17T14:58:16-08:00",
+    "content": "RubyCLR is a bridge, although I do generate a lot of CIL on the fly for my proxies. The next release will let me implement arbitrary CLR interfaces on Ruby objects (I already support delegates today). So I can get most of the way there; and without having to compromise the semantics of Ruby itself (the JRuby guys are having a heck of a time doing just that).\n\nA bigger blocking issue in the short term is adding support for OS native threads to Ruby itself. Since the Ruby interpreter is *not* safe for concurrent access, this limits the kinds of things that you can do with Ruby talking to .NET (ASP.NET just ain't gonna happen). This might be the reason to drive to a native Ruby.NET implementation. But that's a lot more work :)",
+    "parent-id": 723,
+    "RowKey": "20060317-145816"
+  }
+]

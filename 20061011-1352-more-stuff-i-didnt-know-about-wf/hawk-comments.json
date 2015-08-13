@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2416,
+    "author-name": "Erik Johnson",
+    "author-email": "ejohnson@epicor.com",
+    "author-url": "http://appside.blogspot.com",
+    "date": "2006-10-12T11:24:59-07:00",
+    "content": "Transactions are also a toy.  You can't call other flows within a transaction nor can you federate multiple workflow instances within a transaction.  This is understandable because a transaction context is a box threads enter and leave.  You can't -- by default at least -- know what thread(s) will execute your flow and there is no plumbing built into the WF engine to guide threads in or out of Tx contexts.\n\nBut you can implement a Manual Workflow Scheduler (I think), which bypasses the WorkflowQueuingService you mention.  But I haven't tried passing a transaction context in this way.  BTW, you can't even use a transaction (or a sleep activity) without attaching a WorkflowPersistenceService because these activities can invoke a dehydration cycle.  The SQLPersistenceService is, I think, a level up from being just a toy.  The SQLTrackingService was well, thought-out, IMO.  But because I was trying to use WF inside a more synchronous scenario, I ended up creating an oxymoronically named \"MemoryPersistenceService\" so I could use these activities without all the baggage.\n\nI REALLY wished WF was more adept with XML data and XML Schema -- especially WRT the rules engine.  Also, I'm really disappointed that XAML isn't documented (well) and there isn't a schema for XAML.  I'm told on the newsgroups that there is no way to define a normative schema for XAML because you don't know the properties for the contained objects.  Fair enough, but a simple wildcard would work, right?\n\nIn fact the whole XAML angle looks like it got put on the back burner, which is a shame.  How cool is it to be able to whip a workflow up using an XMLWriter and then run it? You can do it, but you have to reverse-engineer the format.\n\nDespite these nits, I'm a big fan of WF.  I like the engine design and it's fast (1ms overhead to execute a 10-step no-op sequental workflow.  ",
+    "parent-id": 817,
+    "RowKey": "20061012-112459"
+  },
+  {
+    "id": 2417,
+    "author-name": "Jon Flanders",
+    "author-email": "jon.flanders@gmail.com",
+    "author-url": "http://www.masteringbiztalk.com/",
+    "date": "2006-10-13T17:52:05-07:00",
+    "content": "Erik - the scheduler service override has absolutely nothing to do with the QueueingService.  The WorkflowQueueingService is one service you can't replace (well you might be able to replace it - but it will be a no-op since there aren't any virual methods to override).",
+    "parent-id": 817,
+    "RowKey": "20061013-175205"
+  },
+  {
+    "id": 2418,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2006-10-13T22:59:31-07:00",
+    "content": "I'm not sure I would call WF's transactions a toy. It certainly could be better - the stuff I'm working on right now I'd like to flow the Tx from outside the workflow (i.e. in a WF Service) into the Workflow, but I don't think there's any way to do that. \n\nThen again, on the other hand, transactions are really hard and easy to screw up. So maybe having specific boundaries to what you can and can't do in a workflow is a good thing?\n\nA MemoryPersistenceService? That's funny...",
+    "parent-id": 817,
+    "RowKey": "20061013-225931"
+  }
+]

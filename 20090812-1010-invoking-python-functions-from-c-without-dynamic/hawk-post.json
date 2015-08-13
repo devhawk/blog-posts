@@ -1,0 +1,12 @@
+{
+  "id": 1281,
+  "slug": "invoking-python-functions-from-c-without-dynamic",
+  "title": "Invoking Python Functions from C# (Without Dynamic)",
+  "date": "2009-08-12T10:10:00-07:00",
+  "modified": "2009-08-12T10:10:00-07:00",
+  "csv-category-slugs": "IronPython|ironpython",
+  "csv-tag-slugs": "DLR|dlr,Pygments|pygments",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 0,
+  "PartKey": "20090812-1010-invoking-python-functions-from-c-without-dynamic"
+}

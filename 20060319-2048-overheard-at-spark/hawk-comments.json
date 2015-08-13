@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2337,
+    "author-name": "Mike Sax",
+    "author-email": "mike@sax.net",
+    "author-url": "http://www.Sax.net/live/",
+    "date": "2006-03-19T21:24:55-08:00",
+    "content": "Ah, you mean XAML! :)",
+    "parent-id": 727,
+    "RowKey": "20060319-212455"
+  },
+  {
+    "id": 2338,
+    "author-name": "Keith J. Farmer",
+    "author-email": "kfarmer@microsoft.com",
+    "author-url": "",
+    "date": "2006-03-25T12:36:51-08:00",
+    "content": "No.. they mean Javascript.",
+    "parent-id": 727,
+    "RowKey": "20060325-123651"
+  }
+]

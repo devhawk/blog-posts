@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2462,
+    "author-name": "Brad Wilson",
+    "author-email": "dotnetguy@gmail.com",
+    "author-url": "http://www.agileprogrammer.com/dotnetguy",
+    "date": "2007-03-13T18:36:31-07:00",
+    "content": "How mainstream is Ruby on Rails for you? Ruby is a full fledged dynamic language. No hacks for \"extension methods\".",
+    "parent-id": 909,
+    "RowKey": "20070313-183631"
+  },
+  {
+    "id": 2463,
+    "author-name": "Scott Hanselman",
+    "author-email": "scott@hanselman.com",
+    "author-url": "http://www.hanselman.com/blog/",
+    "date": "2007-03-14T01:11:53-07:00",
+    "content": "Ya, I kind of blanched at that statement too...method_missing is pretty mainstream...\n\nScott HanSELman.",
+    "parent-id": 909,
+    "RowKey": "20070314-011153"
+  },
+  {
+    "id": 2464,
+    "author-name": "Jay R. Wren",
+    "author-email": "jrwren@xmtp.net",
+    "author-url": "http://little.xmtp.net/blog/",
+    "date": "2007-03-15T09:39:27-07:00",
+    "content": "I'd just like to point out that extension methods are more than just syntactic sugar.\n\nSure, if you have the source to a class and can add a method, then an extension method is just sugar.  But if you are adding a method to a class to which you do not have the source, or cannot touch the assembly, then it is much more than syntactic sugar.\n\nWell, ok, it is still just sugar, but it is REALLY GOOD sugar.",
+    "parent-id": 909,
+    "RowKey": "20070315-093927"
+  },
+  {
+    "id": 2465,
+    "author-name": "Mike Parsons",
+    "author-email": "",
+    "author-url": "",
+    "date": "2007-03-16T05:31:01-07:00",
+    "content": "What about JavaScript?\n\nString.prototype.trim = function() {\n    return(this.replace(/^s+/,'').replace(/s+$/,''));\n}",
+    "parent-id": 909,
+    "RowKey": "20070316-053101"
+  }
+]

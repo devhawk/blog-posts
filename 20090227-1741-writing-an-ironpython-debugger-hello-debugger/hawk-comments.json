@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2176,
+    "author-name": "Steve Shaw",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2009-04-11T21:07:57-07:00",
+    "content": "Harry,\n\nVery cool. One question: I called this by writing a .bat file as follows:\n\ncd ... -- (the place I installed the git-downloaded files).\n\"C:IronPython 2.0.1ipy.exe\" -X:MTA ipydbg.py samplessimpletest.py\n\nWhen I run the .bat file from VS 2008 Command Prompt window,\nit stops at a prompt \"ipydbg>>\" from which I was able to hit 'o' to step out, in order to get the rest of the output.\n\nIt was cool to find myself in a place where I could enter commands, but if I want it to run straight thru, what do I need to change?\n\nThanks for your useful posts,\nSteve",
+    "parent-id": 1221,
+    "RowKey": "20090411-210757"
+  },
+  {
+    "id": 2177,
+    "author-name": "Steve Shaw",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2009-04-11T21:13:12-07:00",
+    "content": "NM, I found the next post in this series, which explained how to add an auto-breakpoint; the code I downloaded has that breakpoint set, LOL!\n",
+    "parent-id": 1221,
+    "RowKey": "20090411-211312"
+  }
+]

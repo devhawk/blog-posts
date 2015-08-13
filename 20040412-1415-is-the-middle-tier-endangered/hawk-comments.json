@@ -1,0 +1,32 @@
+[
+  {
+    "id": 3047,
+    "author-name": "Kent Tegels",
+    "author-email": "kent@tegels.org",
+    "author-url": "http://www.tegels.org/",
+    "date": "2004-04-12T18:24:40-07:00",
+    "content": "While I agree a lot of what you say, there's just a couple of points to consider: First, I would opt for a cluster of two or three of really big servers if you're going to do this. Its too easy for a single failure to take one machine out for too long. Even something as seemingly simple as a network adapter for the backup SAN going out can cause an intolerable downtime in a single server environment. \n\nSecond, you really don't need Yukon to make this work, you could do it with COM+ and MTS. But you'd have to drag me kicking and screaming to such a place. :)\n\nI am anixous to see how such systems really work out.",
+    "parent-id": 349,
+    "RowKey": "20040412-182440"
+  },
+  {
+    "id": 3048,
+    "author-name": "John Lam",
+    "author-email": "jlam@iunknown.com",
+    "author-url": "http://www.iunknown.com",
+    "date": "2004-04-12T21:16:13-07:00",
+    "content": "I think the technology that will make the middle tier go away is dynamic repartitioning of logical data across physical DB nodes. I believe that Jim Gray at MSR wrote a presentation a while back where he speculated about database servers running inside of HDD controllers.",
+    "parent-id": 349,
+    "RowKey": "20040412-211613"
+  },
+  {
+    "id": 3049,
+    "author-name": "Stephen Johnston",
+    "author-email": "",
+    "author-url": "",
+    "date": "2004-04-26T08:33:32-07:00",
+    "content": "No. It's not endangered. Service Architectures are another tool in the kit, it is far from replacing the utility of the middle tier. The service architecture is an interface to the app, not the app itself. The app may still require a 3 tier architecture to run at its best, while the interface may not. Your taking a single aspect of an application, refining it in a void, then saying your conclusion on the refinement of that aspect applies to whe whole which is a quite dangerous way of designing systems.",
+    "parent-id": 349,
+    "RowKey": "20040426-083332"
+  }
+]

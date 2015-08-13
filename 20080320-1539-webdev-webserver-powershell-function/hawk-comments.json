@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2049,
+    "author-name": "Tomas Restrepo",
+    "author-email": "tomas@winterdom.com",
+    "author-url": "http://www.winterdom.com/weblog/",
+    "date": "2008-03-20T18:01:40-07:00",
+    "content": "Pretty cool Harry. There's actually an easier way of running it, something like this would work just fine:\n\n&'C:Program FilesCommon Filesmicrosoft sharedDevServer9.0WebDev.WebServer.EXE' \"/path:$rpath\" \"/port:$port\" \"/vpath:$vpath\"\n",
+    "parent-id": 1128,
+    "RowKey": "20080320-180140"
+  },
+  {
+    "id": 2050,
+    "author-name": "C-J Berg",
+    "author-email": "",
+    "author-url": "",
+    "date": "2008-03-21T15:28:02-07:00",
+    "content": "I wrote a similar function some time ago. It's a bit longer, but it works on x64, and on machines with only .NET FW 2.0 installed:\n\n\n# Start-WebDevServer\nfunction TryLocateWebDevServer($EnvVar, $SubPath) {\n\t$e = 'env:' + $EnvVar\n\tif (Test-Path $e) {\n\t\t$wdpath = Join-Path (Get-Content $e) (Join-Path $SubPath 'WebDev.WebServer.EXE')\n\t\tif (Test-Path $wdpath) {\n\t\t\treturn $wdpath\n\t\t}\n\t}\n\treturn $FALSE\n}\nfunction Start-WebDevServer($Path, $Port=8080, $VPath='/')\n{\n\tif (-not $Path -or -not (Test-Path $Path)) {\n\t\tThrow \"Invalid Path specified!\"\n\t}\n\n\t$locations =\n\t\t('CommonProgramFiles(x86)', 'Microsoft SharedDevServer9.0'),\n\t\t('CommonProgramFiles', 'Microsoft SharedDevServer9.0'),\n\t\t('SystemRoot', 'Microsoft.NETFrameworkv2.0.50727')\n\n\tforeach ($l in $locations) {\n\t\t$wdpath = TryLocateWebDevServer $l[0] $l[1]\n\t\tif ($wdpath) {\n\t\t\tbreak;\n\t\t}\n\t}\n\tif (-not $wdpath) {\n\t\tThrow 'Cannot locate WebDev.WebServer.EXE!'\n\t}\n\t\n\t$rpath = Resolve-Path $Path\n\n\tWrite-Host \"Starting WebDev.WebServer located at:\"\n\tWrite-Host \" $wdpath\"\n\tWrite-Host \" Parameters: \"\"/path:$rpath\"\" \"\"/port:$Port\"\" \"\"/vpath:$VPath\"\"\"\n\n\t& $wdpath \"/path:$rpath\" \"/port:$Port\" \"/vpath:$VPath\"\n}\nSet-Alias webdev Start-WebDevServer\n\nCheers!",
+    "parent-id": 1128,
+    "RowKey": "20080321-152802"
+  },
+  {
+    "id": 2051,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-03-24T11:19:05-07:00",
+    "content": "@C-J, I really like how you added the function to find the exe rather than hard coding it.",
+    "parent-id": 1128,
+    "RowKey": "20080324-111905"
+  },
+  {
+    "id": 2052,
+    "author-name": "Richard",
+    "author-email": "richard_cox@dell.com",
+    "author-url": "",
+    "date": "2008-03-26T07:57:11-07:00",
+    "content": "> $ignore = [System.Diagnostics.Process]::Start(...)\n\nThere are three canonical PSH ways to ignore the result of an expression:\n- Assign to $null\n- Redirect to $null (.... > $null)\n- Cast to [void]\n",
+    "parent-id": 1128,
+    "RowKey": "20080326-075711"
+  }
+]

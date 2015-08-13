@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2476,
+    "author-name": "Graham Shevlin",
+    "author-email": "graham@grahamshevlin.com",
+    "author-url": "http://grahamshevlin.com",
+    "date": "2007-04-03T10:15:51-07:00",
+    "content": "I looked at the article about CASE morphing into EA, and I have to say I think it is well wide of the mark. He is right that CASE was top-down, and that software creation analogies to manufacturing are of limited value. However, EA is fundamentally different to CASE. CASE was about using higher-order modeling to generate solutions. EA does not cover that area. I would argue that CASE has morphed into Software Factories/DSLs. The DSL wave is an attempt to re-introduce higher-order models as a source for code generation in a more limited way, with less of the top-down \"stone tablets\" approach. \nThe explanation that CASE failed because of \"too many promises made by too many vendors\" is deficient. That reason is a contributory factor to the failure of just about any recent I.T. technology failures; all vendors tend to over-sell new offerings (expansive hype gets you noticed in a crowded marketplace; modesty doesn't). There are a collection of inter-related reasons why CASE failed, ranging from under-investment, through the impact of disruptive technologies in the 1990's (client-server and the emergence of UML)...the list goes on. Over-selling by vendors is a very small part of the root causes. (I know...I was a CASE consultant for 8 years). ",
+    "parent-id": 921,
+    "RowKey": "20070403-101551"
+  }
+]

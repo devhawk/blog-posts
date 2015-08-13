@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2827,
+    "author-name": "Arnon Rotem-Gal-Oz",
+    "author-email": "arnon@rgoarchitects.com",
+    "author-url": "http://www.rgoarchitects.com/",
+    "date": "2005-08-29T22:53:45-07:00",
+    "content": "Hello Harry,\nI can't say I totally agree that it is the software architect's role to come up with the list of functional requirements. That's what business analysts or requirement engineers do.\nThe role of the architect is to identify which requirements are important and to surface the significant quality attributes (non-functional requirements) of the system (again, the architect is not the source of the quality attributes but his role is to determine which the most important ones are).\nThe main point, however, is that I think this is just a small part of the architect’s role. You still need to identify major component, the way they interact and demonstrate how the various quality attributes and main use cases are taken care of by suggested solution. Additional roles includes documenting the architectural decisions,  the responsibility for technology mapping, evaluation of the architecture and making sure that the architecture both followed and correct during the development of the project\n I posted my definition of software architecture  a while ago on my blog (http://www.rgoarchitects.com/blog/PermaLink,guid,6c1fc5b2-5c07-4675-b29d-eb8882cd8715.aspx) which details this further. \n\nArnon\n",
+    "parent-id": 618,
+    "RowKey": "20050829-225345"
+  }
+]

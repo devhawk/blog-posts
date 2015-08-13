@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2063,
+    "author-name": "Oran",
+    "author-email": "",
+    "author-url": "http://orand.blogspot.com",
+    "date": "2008-04-25T00:12:05-07:00",
+    "content": "\"Can you name one that's gone the other way?\"  Not if you filter by \"large\" and \"OSS\".  Otherwise, there are a few examples.\n\nThere are LINQ knock-offs in JavaScript, Java, and PHP.  I'm sure more will follow.\n\n.NET Attributes and the style of unit test integration first invented by NUnit have found their way back into Java Annotations and Java unit test frameworks.\n\nThere are a number of XAML clones.\n\nLive Mesh is an interesting one since it's meant to have broad reach with platforms and languages, but I'll bet that besides that, there will by several whole-sale concept knock-offs.\n\nThe conclusion I draw is that currently most of the .NET innovation is happening inside of Microsoft, but I wouldn't be surprised if OSS .NET projects that heavily depend on LINQ don't get ported to other platforms.",
+    "parent-id": 1140,
+    "RowKey": "20080425-001205"
+  },
+  {
+    "id": 2064,
+    "author-name": "Oran",
+    "author-email": "",
+    "author-url": "http://orand.blogspot.com",
+    "date": "2008-04-25T00:35:12-07:00",
+    "content": "SharpDevelop -> MonoDevelop is another interesting one.",
+    "parent-id": 1140,
+    "RowKey": "20080425-003512"
+  }
+]

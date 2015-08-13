@@ -1,0 +1,12 @@
+{
+  "id": 1279,
+  "slug": "compiling-python-packages-into-assemblies",
+  "title": "Compiling Python Packages into Assemblies",
+  "date": "2009-08-10T11:16:41-07:00",
+  "modified": "2009-08-10T11:16:41-07:00",
+  "csv-category-slugs": "IronPython|ironpython",
+  "csv-tag-slugs": "DLR|dlr,Pygments|pygments",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 0,
+  "PartKey": "20090810-1116-compiling-python-packages-into-assemblies"
+}

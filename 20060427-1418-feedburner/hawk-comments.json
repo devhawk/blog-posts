@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2356,
+    "author-name": "Tomas Restrepo",
+    "author-email": "tomasr@mvps.org",
+    "author-url": "http://www.winterdom.com/weblog/",
+    "date": "2006-04-27T17:48:20-07:00",
+    "content": "Harry,\n\nThe feedburner support is in dasBlog 1.8, that's what I'm using over on my site. What version are you using?",
+    "parent-id": 742,
+    "RowKey": "20060427-174820"
+  },
+  {
+    "id": 2357,
+    "author-name": "Mike Sax",
+    "author-email": "mike@sax.net",
+    "author-url": "http://www.Sax.net/live",
+    "date": "2006-04-28T11:06:49-07:00",
+    "content": "Hey Harry - just curious - what's the key advantage that made you decide to use Feedburner?  I considered it a few times, but haven't found enough reason to give others \"control\" over my feed... maybe I'm paranoid or missing something (or, most likely, both).",
+    "parent-id": 742,
+    "RowKey": "20060428-110649"
+  },
+  {
+    "id": 2358,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2006-04-28T12:53:57-07:00",
+    "content": "They have some nice value add services, such as tracking the number of subscribers, integrating my del.icio.us links and the like. But the main reason I did it was so that I have some more flexibility with my site. I want to make some changes to the structure of my site, and having my feed served thru FeedBurner means that I can move things around w/ affecting my subscribers...",
+    "parent-id": 742,
+    "RowKey": "20060428-125357"
+  }
+]

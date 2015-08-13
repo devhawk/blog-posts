@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2422,
+    "author-name": "Robert W. Anderson",
+    "author-email": "robert@cairene.net",
+    "author-url": "http://et.cairene.net",
+    "date": "2006-11-01T07:45:11-08:00",
+    "content": "You (or your dad? ) make a good point about WCF's full-duplex capability.  I didn't mean to give the impression that full-duplex patterns in WCF are perfect--just that it is easier to expose Web Service functionality from a client application using WCF.   \n\nIt sounds like you have gone further down the WCF road than we have (currently we are architecting the next major version of our Digipede network which will include replacing our current WSE2 Web Services with WCF).  Our plan to support full-duplex is to build on top of two half-duplex channels.  Of course, that puts the burden on us to deal with restart issues, but as you pointed out, we would have that burden with full-duplex channels anyway.  \n\nFor various reasons we haven’t looked seriously at Service Broker for our product, though it looks like it handles these issues in a more straightforward manner.\n\nThanks for taking the time to comment,\n\nRobert\n\n",
+    "parent-id": 824,
+    "RowKey": "20061101-074511"
+  }
+]

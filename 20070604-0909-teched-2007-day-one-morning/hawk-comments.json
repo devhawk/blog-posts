@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2517,
+    "author-name": "orcmid",
+    "author-email": "dennis.hamilton@acm.org",
+    "author-url": "http://orcmid.com/BlunderDome/clueless",
+    "date": "2007-06-04T09:42:28-07:00",
+    "content": "Harry, your link to the Open XML SDK lands on a \"nothing here\" page.  Did you link too deep?",
+    "parent-id": 975,
+    "RowKey": "20070604-094228"
+  },
+  {
+    "id": 2518,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2007-06-04T21:31:06-07:00",
+    "content": "The link came from the press release. I saw that the download wasn't available this morning when I linked to it, but it came online sometime during the day because it works now.",
+    "parent-id": 975,
+    "RowKey": "20070604-213106"
+  }
+]

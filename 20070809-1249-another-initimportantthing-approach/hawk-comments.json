@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2565,
+    "author-name": "John P",
+    "author-email": "jperseo@hotmail.com",
+    "author-url": "",
+    "date": "2007-08-09T14:12:26-07:00",
+    "content": "\"Since the ServiceHostBase needs a valid ServiceDescription in order to operate, why not pass it in as a constructor parameter? \"\n\n< Sarchasm >\nYou aren't suggesting that programmers should fully initialize their ImportantThings are you ? That's almost as silly as initializing variables in an old C or C++ compiler so when they're first read, Random data isn't already residing in the called memory location!\n< /Sarchasm >\n\nYou approach can work as long as your have programmer that are willing to craft and modify code VS most of the current script monkeys I've dealt with who expect the compilers to do everything but collect their checks for them.\nWhat I mean by this is : Bad code exists for good things. Copying bad code and modifying it slightly to fit your needs tends to carry the problems instead of offering desired solutions.\n\nLasyness is a good approach for System Administrators who's job is to keep Networks and PCs operating in an operational state ( Because by being lazy , they want to perform as little work as possible. Thusly, for that to happen, They need to measure and set the requirements and impliment the solutions so it only needs to be performed once. ). This is not applicable to programmers who's job is to properly bind and create code. Now, I'm not implying that programmers should re-invent the wheel every time, But at least look and see if all items brought into a program are required and secured to avoid Miss Takes. ;-)\n\nThen again, my programming is a little rusty.",
+    "parent-id": 1025,
+    "RowKey": "20070809-141226"
+  },
+  {
+    "id": 2566,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2007-08-09T17:03:28-07:00",
+    "content": "\"Copying bad code and modifying it slightly to fit your needs tends to carry the problems instead of offering desired solutions.\" \n\nI don't know for sure, but I'd bet that's probably how the ServiceHostBase design got broken in the first place! ",
+    "parent-id": 1025,
+    "RowKey": "20070809-170328"
+  },
+  {
+    "id": 2567,
+    "author-name": "John P",
+    "author-email": "jperseo@hotmail.com",
+    "author-url": "",
+    "date": "2007-08-09T17:07:45-07:00",
+    "content": "So, does this mean that we have put the final nail in the coffin for \"Portable , Reusable Code\" ? I think not but then again ...\n\nThese ARE NOT the droids we're looking for ...",
+    "parent-id": 1025,
+    "RowKey": "20070809-170745"
+  }
+]

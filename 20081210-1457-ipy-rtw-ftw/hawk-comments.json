@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2153,
+    "author-name": "srid",
+    "author-email": "sridhr@microsoft.com",
+    "author-url": "",
+    "date": "2008-12-10T16:51:41-08:00",
+    "content": "could you guys rename the installer to IronPython-2.0.msi or somesuch thing? when I tried to install it, Windows recognized it as 2.0-RC2 installer and asked me to whether repair or remove the software.",
+    "parent-id": 1202,
+    "RowKey": "20081210-165141"
+  },
+  {
+    "id": 2154,
+    "author-name": "Brian Lyttle",
+    "author-email": "bl-nospam@sourcefoundry.co.uk",
+    "author-url": "http://www.sourcefoundry.co.uk",
+    "date": "2008-12-10T19:14:46-08:00",
+    "content": "Congrats on the release of IPy 2.0. You are lucky to work with such a great team!",
+    "parent-id": 1202,
+    "RowKey": "20081210-191446"
+  },
+  {
+    "id": 2155,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-12-10T19:55:52-08:00",
+    "content": "@srid, sounds like an installer bug. I'll have the team look into it.\n\n@brian, yes I am very lucky to work on this team!",
+    "parent-id": 1202,
+    "RowKey": "20081210-195552"
+  },
+  {
+    "id": 2156,
+    "author-name": "Fernando Correia",
+    "author-email": "fernandoacorreia@gmail.com",
+    "author-url": "http://fernandoacorreia.wordpress.com/",
+    "date": "2008-12-11T04:31:33-08:00",
+    "content": "Congratulations to the team! That's very nice work.\n\nMy team is already using IPy in production as a presentation-layer scripting engine for SharePoint applications. It's been very useful and it is a very important piece of our architecture.\n",
+    "parent-id": 1202,
+    "RowKey": "20081211-043133"
+  },
+  {
+    "id": 2157,
+    "author-name": "Nicholas Blumhardt",
+    "author-email": "niblumha@microsoft.com",
+    "author-url": "http://blogs.msdn.com/nblumhardt",
+    "date": "2008-12-11T10:31:53-08:00",
+    "content": "Congratulations IPy guys! Wonderful stuff.\n",
+    "parent-id": 1202,
+    "RowKey": "20081211-103153"
+  },
+  {
+    "id": 2158,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-12-15T10:03:25-08:00",
+    "content": "@srid, turns out it's not an installer bug, it's the same installer as RC2. We made zero changes between RC2 and RTM. If you have RC2 installed, you've got the RTM version.",
+    "parent-id": 1202,
+    "RowKey": "20081215-100325"
+  }
+]

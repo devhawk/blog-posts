@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2172,
+    "author-name": "Stefan Dobrev",
+    "author-email": "stefan.dobrev@gmail.com",
+    "author-url": "http://blogs.telerik.com/stefandobrev",
+    "date": "2009-02-17T12:46:13-08:00",
+    "content": "Looking at the numbers it looks like Richards performance has been degraded by 4% :)",
+    "parent-id": 1215,
+    "RowKey": "20090217-124613"
+  },
+  {
+    "id": 2173,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2009-02-23T09:47:51-08:00",
+    "content": "@stefan, we had a copy and paste error - Since it's a measure of average time per iteration, lower numbers are better. So v2.0.1 is a 4% improvement over v2.0. But thanks for pointing it out! We've updated the webpage accordingly.",
+    "parent-id": 1215,
+    "RowKey": "20090223-094751"
+  }
+]

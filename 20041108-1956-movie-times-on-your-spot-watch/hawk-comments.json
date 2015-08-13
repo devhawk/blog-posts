@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2717,
+    "author-name": "Chris Kinsman",
+    "author-email": "ckinsman@vergentsoftware.com",
+    "author-url": "",
+    "date": "2004-11-09T10:13:48-08:00",
+    "content": "I was just thinking this this morning.  Hollywood.com blows on the smartphone.  I actually do have a spot device and tried it today.  It is much, much more usable than any of the web based ones I have seen so far.\n\nI wish I knew where they got the data from so I could write my own smartphone application for it...",
+    "parent-id": 476,
+    "RowKey": "20041109-101348"
+  },
+  {
+    "id": 2718,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2004-11-09T10:36:41-08:00",
+    "content": "According to the press release, MSN is getting the data from Cinema Source (http://cinema-source.com) which is part of Hollywood Media Corp (which owns Hollywood.com). The information doesn't appear to be publicly available. ",
+    "parent-id": 476,
+    "RowKey": "20041109-103641"
+  }
+]

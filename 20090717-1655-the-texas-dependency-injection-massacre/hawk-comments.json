@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2242,
+    "author-name": "Sam Gentile",
+    "author-email": "managedcode44@hotmail.com",
+    "author-url": "http://samgentile.com/Web",
+    "date": "2009-07-17T18:16:36-07:00",
+    "content": "The commented link also goes to the David Lee Roth lyrics",
+    "parent-id": 1274,
+    "RowKey": "20090717-181636"
+  },
+  {
+    "id": 2243,
+    "author-name": "John",
+    "author-email": "jevdemon@acm.org",
+    "author-url": "",
+    "date": "2009-07-17T21:57:58-07:00",
+    "content": "http://www.globalnerdy.com/wordpress/wp-content/uploads/2008/12/yagni-development-assistant-3.gif",
+    "parent-id": 1274,
+    "RowKey": "20090717-215758"
+  },
+  {
+    "id": 2244,
+    "author-name": "PhilM",
+    "author-email": "philm@ymail.com",
+    "author-url": "",
+    "date": "2009-08-05T18:45:30-07:00",
+    "content": "Most programmers/software engineers/developers that I have worked with for a few decades now, are pretty stupid. Given the fact that we are human beings, that is quite natural that most of us are stupid. We go periodically to our chosen place of worship and get our dose of dogmatism from people blessed with glib tongues. Usually, the dogmas are reasonable sounding and seem worth adopting for life.\n\nSo it is with programming. The priests of programming come in the guise of methodology gurus, architects, framework designers, testers, you name it and they are there. They usually have something to sell. The sheepish lot of programmers, who usually have an inflated sense of self-importance, absorb these dogmas and practice it as every new convert to any faith is wont to do.\n\nI have suffered and continue to suffer working with people who so foolishly and feverishly follow the prescribed rituals that the rituals become the end. Meeting the end of goal building a useful system is not the driver at all. Our systems are so finely architected at the micro level, right down to the patterns from GoF book, but they are miserable failures when it comes to the real world requirements of performance, security, scalability, robustness, extensibility, maintainability and usability. No need to mention that they are forever late. If your software is not full of interfaces, abstract classes and implementation classes or if it doesn't have a boat load of managers, DAOs, it is considered unworthy and you are considered ignorant of modern ways of building software. The soul of design, which is all about trade offs, is hardly ever practiced. Everything is gold plated. Every turd gets french polished :) \n\nEvery practice has its place. But those who follow practices in total faith are, let me repeat, stupid. The bad news is that, there are a lot people of faith.\n\nSorry, just have to get this off my chest somewhere. I liked your blog and had to comment.",
+    "parent-id": 1274,
+    "RowKey": "20090805-184530"
+  }
+]

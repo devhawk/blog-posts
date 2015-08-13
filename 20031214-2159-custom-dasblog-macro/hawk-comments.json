@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2932,
+    "author-name": "Greg Hughes",
+    "author-email": "greg@greghughes.net",
+    "author-url": "http://www.greghughes.net",
+    "date": "2004-02-07T19:09:39-08:00",
+    "content": "Sure - sounds interesting. Would be cool to pull humorous quotes like ones on http://www.itquotes.com/ and randomly post one in the banner, too.",
+    "parent-id": 249,
+    "RowKey": "20040207-190939"
+  },
+  {
+    "id": 2933,
+    "author-name": "tj",
+    "author-email": "monsterpiggymonkeybubble@gmail.com",
+    "author-url": "http://monsterpiggymonkeybubble.com",
+    "date": "2005-04-07T11:34:03-07:00",
+    "content": "i know this is an old entry, but i recently installed dasBlog on my web server and am playing around with it. one of the things i'm looking to do is not only add a random picture, but quote as well. i would love to see your macro/code if you still have it. i'm really interested in learning HOW to add custom macros and the like.\n\nthanks!",
+    "parent-id": 249,
+    "RowKey": "20050407-113403"
+  }
+]

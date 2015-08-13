@@ -1,0 +1,12 @@
+{
+  "id": 1919,
+  "slug": "the-windows-runtime",
+  "title": "The Windows Runtime",
+  "date": "2011-09-15T07:40:31-07:00",
+  "modified": "2011-09-15T07:40:31-07:00",
+  "csv-category-slugs": "Development|development,Windows|windows,Windows Runtime|windows-runtime",
+  "csv-tag-slugs": "//build|build,Activation|activation,C#|c-sharp,C++|c-plus-plus,JavaScript|javascript,Lanugages|lanugages,Metadata|metadata,Metro style apps|metro-style-apps,Visual Basic|visual-basic,Windows 8|windows-8",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 6,
+  "PartKey": "20110915-0740-the-windows-runtime"
+}

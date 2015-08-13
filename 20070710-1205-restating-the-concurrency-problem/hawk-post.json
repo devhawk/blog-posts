@@ -1,0 +1,12 @@
+{
+  "id": 1002,
+  "slug": "restating-the-concurrency-problem",
+  "title": "Restating the Concurrency Problem",
+  "date": "2007-07-10T12:05:41-07:00",
+  "modified": "2007-07-10T12:05:41-07:00",
+  "csv-category-slugs": "Architecture|architecture",
+  "csv-tag-slugs": "Concurrency|concurrency,SOA|soa",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 0,
+  "PartKey": "20070710-1205-restating-the-concurrency-problem"
+}

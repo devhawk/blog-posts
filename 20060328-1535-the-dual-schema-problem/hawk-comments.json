@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2343,
+    "author-name": "David",
+    "author-email": "david.ing@gmail.com",
+    "author-url": "http://www.from9till2.com",
+    "date": "2006-03-29T04:49:58-08:00",
+    "content": ">So I believe that  for all the current interest in Rails, I think a Consus-style model will become dominant.\n\nHmm, I'm not so sure, in the long run the Rails 'model by convention' is the simplest form of solution, and we've seen how powerful/persuasive the 'simplest' can be in getting the mass adoption going, i.e. say RSS vs ATOM, RDBMS vs OODBMS, POX vs SOAP. So, not being a zealot but just pointing out that I've seen a lot of great ideas/tech fall away due to not being the 'shortest/simplest path'.\n\nAlso, just for thoughts, the 'Dual Schema' is often more than just 2 views on the same thing. If you think CLR -> XML, CLR -> RDB, myXML -> yourXML, then you end up with a few combinations. The 'canonical schema' could be defined in the code-first way, but that has always led to compromises for other non-OO representations. Hence the constant mapping issues. A model is needed, but getting the model accepted as part of a decent/productive dev process is the trick.\n\nThe impedance you talk about can refer to web services/xsd/messages just as much as it can mean RDB mapping. \n\nAlso (since I'm typing), databases are, I agree, an overkill for a lot of apps, but they aren't just used for storage - aspects like concurrency (awkward in mainstream programming) and transactions come along for the ride and make it worth the while. Also, an app that doesnt require a full RDBMS at the beginning of its life tends to convert over badly when it does need it, hence the convention of just using the 'littlest RDBMS' you can find rather than changing paradigm when you get bigger.\n\nPS See you at TechEd Harry.\n\n- David",
+    "parent-id": 731,
+    "RowKey": "20060329-044958"
+  },
+  {
+    "id": 2344,
+    "author-name": "Alex",
+    "author-email": "Alex@base4.net",
+    "author-url": "http://www.base4.net",
+    "date": "2006-03-29T22:28:59-08:00",
+    "content": "One thing that I think is vital going forward is to provide the ability to create Schemas that reference other Schemas. This becomes particularly valuable when talking to existing Legacy databases. The process is this:\n1) Make a schema for the legacy database\n2) Make a new schema to support new functionality that references (1). \nThis is the approach taken by WinFS, and indeed my own open source product Base4. \n\nPS: I'm not sure if I understand you correctly but by my reckoning WinFS slaves both the Database and the CLR objects to the WinFS schema, does that mean you have just one schema?\n",
+    "parent-id": 731,
+    "RowKey": "20060329-222859"
+  }
+]

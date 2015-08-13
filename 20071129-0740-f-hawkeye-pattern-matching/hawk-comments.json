@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1989,
+    "author-name": "Alex Hendrson",
+    "author-email": "bittercoder@gmail.com",
+    "author-url": "http://blog.bittercoder.com/",
+    "date": "2007-12-01T21:05:36-08:00",
+    "content": "Out of curiosity, are you able to post any of your parser code? I'm only just getting into F# as and when I have spare time - but I'm interested in if/how you tokenize your input string using F# code before parsing the stream of tokens via pattern matching - I've been attempting to use regex Active Patterns so far, and the results aren't pretty (possibly because I haven't quite \"grokked\" how best to use Active Patterns to their full potential).\n\nKeep up the good posts on F#!\n\nChez,\n\n - Alex",
+    "parent-id": 1059,
+    "RowKey": "20071201-210536"
+  },
+  {
+    "id": 1990,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2007-12-03T11:07:43-08:00",
+    "content": "Will do - just let me get caught up at work first!",
+    "parent-id": 1059,
+    "RowKey": "20071203-110743"
+  },
+  {
+    "id": 1991,
+    "author-name": "Tony Nassar",
+    "author-email": "linux@anthonynassar.com",
+    "author-url": "http://slideguitarist.blogspot.com/",
+    "date": "2007-12-08T07:27:23-08:00",
+    "content": "Does your weaponly also comprise such elements as \"nice red uniforms\"? \n\nI'd love to see the parser, too, as I'll soon be embarking on one of my own, though I'll be using fslex and fsyacc for practice. I'll post about it. The Active Pattern thing is mind-blowing. ",
+    "parent-id": 1059,
+    "RowKey": "20071208-072723"
+  },
+  {
+    "id": 1992,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2007-12-08T15:58:02-08:00",
+    "content": "I didn't expect a kind of Spanish Inquisition! :)",
+    "parent-id": 1059,
+    "RowKey": "20071208-155802"
+  },
+  {
+    "id": 1993,
+    "author-name": "Art Scott",
+    "author-email": "art_scott@msn.com",
+    "author-url": "",
+    "date": "2007-12-10T11:29:03-08:00",
+    "content": "I'm interested in generating various classes of pictures using grammars.\n\nI've worked through the included intro fslex fsyacc examples from Microsoft, Foundations of F#, and F# Journal; each has its'differences.\n\nJust ordered F# Expert, and considering geting OCaml book.\nI'm always interested in more intelligible code examples.\n\nGlad to find you're a resource.",
+    "parent-id": 1059,
+    "RowKey": "20071210-112903"
+  }
+]

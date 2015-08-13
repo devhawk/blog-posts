@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2419,
+    "author-name": "Jon Flanders",
+    "author-email": "jon.flanders@gmail.com",
+    "author-url": "http://www.masteringbiztalk.com/",
+    "date": "2006-10-17T10:54:08-07:00",
+    "content": "Check out my post Harry - http://www.masteringbiztalk.com/blogs/jon/PermaLink,guid,5cc60ee3-38ce-4fcd-94d7-a8ca9b3b8d5d.aspx  which clarifies things a little bit.  Even though the WF/ASMX integration doesn't use asp.net \"sessions\" (i am fairly certain earlier betas did) it uses a \"session\" cookie - which means if the client goes away - so does the cookie.  \n\nThe OOB persistence service does load all \"running\" workflows - just not idled workflows.  I assume I mispoke when I mentioned that feature.",
+    "parent-id": 818,
+    "RowKey": "20061017-105408"
+  }
+]

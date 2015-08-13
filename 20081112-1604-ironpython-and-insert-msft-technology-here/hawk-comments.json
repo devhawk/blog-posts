@@ -1,0 +1,72 @@
+[
+  {
+    "id": 2137,
+    "author-name": "Glenn Block",
+    "author-email": "",
+    "author-url": "http://blogs.msdn.com/gblock",
+    "date": "2008-11-12T16:36:38-08:00",
+    "content": "IPy and MEF :)",
+    "parent-id": 1187,
+    "RowKey": "20081112-163638"
+  },
+  {
+    "id": 2138,
+    "author-name": "Nick Hodge",
+    "author-email": "nhodge@microsoft.com",
+    "author-url": "http://www.nickhodge.com/",
+    "date": "2008-11-12T16:42:43-08:00",
+    "content": "How about IronPython and F# :-)\n\nhttp://blogs.msdn.com/nickhodge/archive/2008/11/12/ironpython-f-parallel-async-a-kittehz-brekfst.aspx",
+    "parent-id": 1187,
+    "RowKey": "20081112-164243"
+  },
+  {
+    "id": 2139,
+    "author-name": "Mark",
+    "author-email": "",
+    "author-url": "",
+    "date": "2008-11-12T16:47:34-08:00",
+    "content": "I agree with Glen, IPy and MEF would be a great combo.\n\nAnother one would be IPy and CCR/DSS.  I have just started looking at CCR/DSS and I think it would greatly benefit from a IPy integration.",
+    "parent-id": 1187,
+    "RowKey": "20081112-164734"
+  },
+  {
+    "id": 2140,
+    "author-name": "Chris Vickerson",
+    "author-email": "chrisv@q4websystems.com",
+    "author-url": "http://www.q4websystems.com",
+    "date": "2008-11-12T20:34:52-08:00",
+    "content": "Thanks for the opportunity!\n\nCould you please post an example of how to use .net attributes - that would be very helpful.",
+    "parent-id": 1187,
+    "RowKey": "20081112-203452"
+  },
+  {
+    "id": 2141,
+    "author-name": "Apolon Ivankovic",
+    "author-email": "apolon@torqsoftware.com",
+    "author-url": "http://torqsoftware.com",
+    "date": "2008-11-13T15:25:52-08:00",
+    "content": "Data binding to IronPython and other DLR objects in Silverlight/WPF. I suppose the first question is whether it's possible and in what scenarios it can be done/not-done?\n\nOn an unrelated topic, whats happening with Managed JScript on the DLR. Will that be a language made available by Microsoft on the DLR?",
+    "parent-id": 1187,
+    "RowKey": "20081113-152552"
+  },
+  {
+    "id": 2142,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-11-14T15:11:00-08:00",
+    "content": "@Everyone, thanks for the input!\n\n@Chris, we can't use .NET attributes from IronPython today. It's something we're looking at post-2.0\n\n@Apolon, I'll be addressing data binding in WPF next week. I'll look to see if the same approach I'll be describing works for Silverlight. As for Managed JScript on the DLR, it's available for Silverlight as part of the Silverlight Dynamic Language SDK (http://codeplex.com/sdlsdk). It's not available for the desktop CLR. ",
+    "parent-id": 1187,
+    "RowKey": "20081114-151100"
+  },
+  {
+    "id": 2143,
+    "author-name": "Apolon Ivankovic",
+    "author-email": "apolon@torqsoftware.com",
+    "author-url": "http://torqsoftware.com",
+    "date": "2008-11-18T05:19:20-08:00",
+    "content": "I had a look at the Silverlight Dynamic Language SDK with respect to managed jscript and noticed two things:\na) source code is not provided while it is for IronRuby and IronPython\nb) its only supported on Silverlight\n\nGiven this background I have the following questions:\na) Will the source code to managed jscript be provided as per IronPython and IronRuby\nb) Will it be supported on WPF?\nc) Is there a Microsoft blogger or PM in charge of the managed jscript on the DLR functionality (so I can stop bothering you with inane questions ;^)",
+    "parent-id": 1187,
+    "RowKey": "20081118-051920"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2245,
+    "author-name": "Parag Mehta",
+    "author-email": "contact@jpinfoworld.com",
+    "author-url": "http://www.jpinfoworld.com",
+    "date": "2009-08-09T22:02:00-07:00",
+    "content": "That's a really interesting find :) I didn't realize this since I didn't use Dynamic language as yet.",
+    "parent-id": 1276,
+    "RowKey": "20090809-220200"
+  },
+  {
+    "id": 2246,
+    "author-name": "Sea Cat",
+    "author-email": "",
+    "author-url": "",
+    "date": "2009-08-10T09:16:37-07:00",
+    "content": "What I don't understand is why you would want to use dynamic languages for asp.net development in the first place. Sounds like a bastardization of the environment to me.",
+    "parent-id": 1276,
+    "RowKey": "20090810-091637"
+  },
+  {
+    "id": 2247,
+    "author-name": "Joe Chung",
+    "author-email": "joechung2008@gmail.com",
+    "author-url": "",
+    "date": "2009-08-22T13:04:08-07:00",
+    "content": "The reason Application_Start, Application_End, Session_Start, and Session_End are like that is because of legacy.  ASP worked like that - http://msdn.microsoft.com/en-us/library/ms525965.aspx\n\nWould it be possible to the route table in an  HttpApplication's Init method override instead?  Or is that too soon in the application's lifecycle to muck around with the ASP.NET routing table?",
+    "parent-id": 1276,
+    "RowKey": "20090822-130408"
+  },
+  {
+    "id": 2248,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://htto://www.ironpythoninaction.com",
+    "date": "2009-08-23T14:34:43-07:00",
+    "content": "@Sea cat\nOnce you done *anything* in a dynamic language you tend to want to use them wherever possible... ;-)",
+    "parent-id": 1276,
+    "RowKey": "20090823-143443"
+  },
+  {
+    "id": 2249,
+    "author-name": "Dody Gunawinata",
+    "author-email": "dody@nomadlife.org",
+    "author-url": "",
+    "date": "2009-08-26T14:08:36-07:00",
+    "content": "1st approach. It seems to be it's more straightforward. ",
+    "parent-id": 1276,
+    "RowKey": "20090826-140836"
+  },
+  {
+    "id": 2250,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2009-08-26T23:14:26-07:00",
+    "content": "@Dody, I was leaning that way as well.\n\n@Joe, I don't see why you couldn't setup the route table in HttpApplication::Init. And since Init is virtual, that would solve the App_Start reflection problem. However, I'm not sure how to inject IronPython into the ASP.NET pipeline that early or how to configure an HttpApplication subclass without using global.asax. I'll ask around with my friends on the ASP.NET team though. Thanks for the suggestion!",
+    "parent-id": 1276,
+    "RowKey": "20090826-231426"
+  }
+]

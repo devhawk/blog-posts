@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2887,
+    "author-name": "Gareth Jones",
+    "author-email": "gareth.jones@microsoft.com",
+    "author-url": "http://blogs.msdn.com/garethj",
+    "date": "2006-02-07T15:09:36-08:00",
+    "content": "I obviously wasn't quite as clear in my separation of converns as I'd wished.\n\nThe new build is your first bullet only.\nThe NEXT build will be the other bullets.",
+    "parent-id": 682,
+    "RowKey": "20060207-150936"
+  }
+]

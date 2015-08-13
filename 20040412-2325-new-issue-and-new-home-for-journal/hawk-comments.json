@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2586,
+    "author-name": "Mike Walsh",
+    "author-email": "englantilainen@mvps.org",
+    "author-url": "",
+    "date": "2004-04-13T02:05:36-07:00",
+    "content": "There's a minor annoyance with the questionnaire in that it insists on answers to all the questions before letting you proceed. In my case I didn't think that any of \"Which of the following do you use in your organization\" applied to my organisation. So to get past this block I lied. Perhaps not the quality stats you had in mind ?",
+    "parent-id": 351,
+    "RowKey": "20040413-020536"
+  },
+  {
+    "id": 2587,
+    "author-name": "Darrell",
+    "author-email": "",
+    "author-url": "http://dotnetjunkies.com/WebLog/darrell.norton/",
+    "date": "2004-04-13T05:30:47-07:00",
+    "content": "I got an error on the certificate using Firefox 0.8.",
+    "parent-id": 351,
+    "RowKey": "20040413-053047"
+  },
+  {
+    "id": 2588,
+    "author-name": "Hal Pierson",
+    "author-email": "halpierson@hotmail.com",
+    "author-url": "",
+    "date": "2004-04-13T07:08:08-07:00",
+    "content": "I agree with Mike's comment!\n\nHow many people checked \"platform independence\"?\n\n      hal",
+    "parent-id": 351,
+    "RowKey": "20040413-070808"
+  },
+  {
+    "id": 2589,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2004-04-13T17:45:14-07:00",
+    "content": "Thanks for the feedback. The lack of an \"Other\" or \"None\" option on the question you mentioned, Mike, was an oversight on our part. We will get that fixed. ",
+    "parent-id": 351,
+    "RowKey": "20040413-174514"
+  }
+]

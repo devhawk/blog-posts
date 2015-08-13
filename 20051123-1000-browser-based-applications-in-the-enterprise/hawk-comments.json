@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2870,
+    "author-name": "Jerry Mead",
+    "author-email": "feedback@meadroid.com",
+    "author-url": "http://www.zeepe.com/",
+    "date": "2005-11-23T12:00:27-08:00",
+    "content": "Arguing for browser-based apps - particularly on Windows - has always sounded to me like an acceptance of \"let's be happy with much-less-than-capable\". The browser simply wasn't designed as an app wrapper, period. In the (still under-exploited) world of DHTML/AJAX/ATLAS/etc., Zeepe (www.zeepe.com) is our response to that. \n\n[Still working through IE7/Vista breaking changes with the IE team, so please stick to 'legacy' OSs for any testing. Thanks.] ",
+    "parent-id": 655,
+    "RowKey": "20051123-120027"
+  }
+]

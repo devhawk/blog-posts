@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2771,
+    "author-name": "Tiago Pascoal",
+    "author-email": "",
+    "author-url": "http://weblogs.asp.net",
+    "date": "2005-02-07T02:11:10-08:00",
+    "content": "Humm i think Linux (i'm sure other unixes have it too) has this, /proc/* for example. But this is done at a kernel level, not sure if such thing exists at the user process level, i bet there is something. But if there isn't i sure it would be an easy hack.\n\nWhat kind of semantics were you thinking? would these virtual files be seekable? how would they be versioned? what kind of concurrency controls would need to exist? \n\nSure pull instead of push (with a lot of unnecessary pushing ocurring in your described scenario) is nice, but i wonder if the effort would be worth it?\n\njust wondering.",
+    "parent-id": 531,
+    "RowKey": "20050207-021110"
+  },
+  {
+    "id": 2772,
+    "author-name": "Chris Bilson",
+    "author-email": "cbilson@pobox.com",
+    "author-url": "http://weblogs.factored-software.com/chris",
+    "date": "2005-02-07T05:56:28-08:00",
+    "content": "I agree that there are some exciting possibilities for this type of thing, and I use several \"virtual filesystems\" everyday (Daemontools (for mounting ISO files), web folders (for mounting WebDAV directories)), etc. If you zoom in a little closer, I think you'll see all filesystems are virtual. There aren't actually any files on a disk...just sectors/blocks.\n\nBut I think there are some dangers too. I think the assumption that filesystems are fairly static and computationally cheap to access is too baked into most software. I think this goes back to the idea that, \"boundaries should be explicit.\"\n\nIf you really wanted to, however, you could make a fairly decent dynamic virtual file system using web folders and WebDAV pointing at a web server.\n",
+    "parent-id": 531,
+    "RowKey": "20050207-055628"
+  },
+  {
+    "id": 2773,
+    "author-name": "Oran",
+    "author-email": "",
+    "author-url": "",
+    "date": "2005-02-07T09:54:51-08:00",
+    "content": "Check out the \"subst\" command that comes with Windows.  This might get you part of the way there.",
+    "parent-id": 531,
+    "RowKey": "20050207-095451"
+  }
+]

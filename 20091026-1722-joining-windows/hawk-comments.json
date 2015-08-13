@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2285,
+    "author-name": "Jesse Ezell",
+    "author-email": "jezell@gmail.com",
+    "author-url": "http://www.iserviceoriented.com",
+    "date": "2009-10-27T09:58:09-07:00",
+    "content": "Congrats! ",
+    "parent-id": 1298,
+    "RowKey": "20091027-095809"
+  },
+  {
+    "id": 2286,
+    "author-name": "Ada",
+    "author-email": "",
+    "author-url": "",
+    "date": "2009-10-30T03:56:09-07:00",
+    "content": "Good luck in Windows! \nI have learned much about IronPython from your blog. ",
+    "parent-id": 1298,
+    "RowKey": "20091030-035609"
+  },
+  {
+    "id": 2287,
+    "author-name": "Giles",
+    "author-email": "giles@giles.net",
+    "author-url": "http://www.gilesthomas.com/",
+    "date": "2009-11-02T03:18:15-08:00",
+    "content": "Congrats on the new role, I hope it works out really well!\n\nWill you be announcing who's replacing you (to the limited extent that you're replaceable ;-) here on the blog?",
+    "parent-id": 1298,
+    "RowKey": "20091102-031815"
+  },
+  {
+    "id": 2288,
+    "author-name": "Glenn Block",
+    "author-email": "gblock@microsoft.com",
+    "author-url": "http://blogs.msdn.com/gblock",
+    "date": "2009-12-09T21:08:55-08:00",
+    "content": "I am late in sending this, but congratulations! I am looking forward to seeing what you are working on next.",
+    "parent-id": 1298,
+    "RowKey": "20091209-210855"
+  }
+]

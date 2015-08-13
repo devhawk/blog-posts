@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2296,
+    "author-name": "Eduardo Jezierski",
+    "author-email": "edjez@instedd.org",
+    "author-url": "http://edjez.instedd.org",
+    "date": "2010-02-17T18:16:49-08:00",
+    "content": "You may have to look at the most successful set of patterns on the planet, and how dynamic typing may or may not help them.\n\nhttp://www.joeyoder.com/papers/patterns/BBOM/mud.html\n\nand...forget kittens! Dynamic typed languages are pumping hundreds of thousands of messages to/from surviving Haitians, in direct communication with low-level protocols from telecommunications companies. \nhttp://code.google.com/p/nuntium/",
+    "parent-id": 1302,
+    "RowKey": "20100217-181649"
+  },
+  {
+    "id": 2297,
+    "author-name": "Ryan Riley",
+    "author-email": "ryan.riley@panesofglass.org",
+    "author-url": "http://wizardsofsmart.net",
+    "date": "2010-02-18T13:25:26-08:00",
+    "content": "Nice post. Interestingly enough, the most statically typed languages are functional languages with strong type inference that removes almost any need for type declaration (Haskell, F#, etc). Funny enough, these functional languages come with REPLs just like the dynamic languages, so in the end, one must conclude it isn't static vs. dynamic; it's \"script\" languages that rule the world. ;)",
+    "parent-id": 1302,
+    "RowKey": "20100218-132526"
+  },
+  {
+    "id": 2298,
+    "author-name": "Scott Koon",
+    "author-email": "scott@lazycoder.com",
+    "author-url": "http://lazycoder.com",
+    "date": "2010-02-22T12:46:21-08:00",
+    "content": "I generally leave out JavaScript whenever I talk about \"popular dynamic languages\" simply because there were NO other alternatives to writing client-side code in the web browser. I loves me some JavaScript, but if you're the only man left on an earth full of women, you're gonna get some lovin'.\n\nPHP belongs on the popular list as does Python. People don't talk about Python a lot, but generally chugging away in academia or scientific research there's usually a bunch of Python scripts holding things together.\n\nre: static typing - I always smirk when I attend a talk or read a blog post about the latest compiler gymnastics you can perform on the CLR to avoid having to pay homage to a dead typing system. 90% of all the current design patterns and best practices vanish when you use a dynamic language IMO.",
+    "parent-id": 1302,
+    "RowKey": "20100222-124621"
+  }
+]

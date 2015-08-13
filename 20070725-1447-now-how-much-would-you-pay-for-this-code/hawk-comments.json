@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2553,
+    "author-name": "Nick Malik",
+    "author-email": "",
+    "author-url": "http://blogs.msdn.com/nickmalik",
+    "date": "2007-07-27T09:56:47-07:00",
+    "content": "It's unfortunate that no one answered your questions, Harry.  if they ever do, let me know.\n\nI do thing that the stuff you saw was useful and necessary.  Just, as you point out, probably incomplete.\n\nMy personal opinion is that we are serious about code reuse, we need to identify the services that SHOULD be provided by that reusable code.  The .Net framework takes the horizontal approach, and tries to fill in gaps for a dozen different types of projects for any business need.  If we want to do something in IT, it needs to take the opposite approach: build for one or two project types for one or two business needs, but cross all the way up across the stack.  That's right: Components at every level of the stack.\n\nPerhaps something for patterns that connect dynamic user interfaces down through the stacks, including workflow and business rules engine, and through to adapters that save data?  See what I mean?",
+    "parent-id": 1012,
+    "RowKey": "20070727-095647"
+  },
+  {
+    "id": 2554,
+    "author-name": "raveman",
+    "author-email": "otworz@buziaczek.pl",
+    "author-url": "",
+    "date": "2007-07-31T20:16:47-07:00",
+    "content": "i for once think there is no code reusable by default, its much harder to write that kind of code and really what for? because you hope it might get reused in the future? how much reusable code you wrote and .... Its slow you down, i personally know right away if the code should be reusable, if i write something that im planning(90% of time i wrong about it anyway ;) to use in the future then i make it reusable, if i not then i wont.\n\nI just wonder how many people really reuse the code? and i dont mean classes that names are ended with Util or Helper.",
+    "parent-id": 1012,
+    "RowKey": "20070731-201647"
+  }
+]

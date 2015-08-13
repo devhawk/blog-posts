@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2159,
+    "author-name": "Oran",
+    "author-email": "odennison@gmail.com",
+    "author-url": "http://orand.blogspot.com",
+    "date": "2008-12-12T20:44:15-08:00",
+    "content": "Most resources in LiveFX can be updated but Profiles are unfortunately read-only at this point.\nhttp://social.msdn.microsoft.com/Forums/en-US/liveframework/thread/81ab8f62-3244-4ca5-b376-2d5879f47c9f/\n\nFor another example of IronPython + LiveFX, check out this blog post from Ori Amiga, the Group PM of LiveFX.  Ori loves IronPython so if there's anything you think of that would make LiveFX more IronPython-friendly, he would be the guy to contact.\nhttp://blogs.msdn.com/oriamiga/archive/2008/11/09/livefx-using-ironpython.aspx",
+    "parent-id": 1204,
+    "RowKey": "20081212-204415"
+  },
+  {
+    "id": 2160,
+    "author-name": "Vikas Ahuja",
+    "author-email": "",
+    "author-url": "http://blogs.msdn.com/vikasahuja",
+    "date": "2008-12-13T00:47:52-08:00",
+    "content": "Harry - Profiles are read only in current release as Oran pointed out. You can use forums as one of the resource at your disposal for discussion if you haven't already using it. \n\nI have updated one Thread with link to your post - we community members for Live Framework keep doing it as we find blog posts about Live Framework.\n\nhttp://social.msdn.microsoft.com/Forums/en-US/liveframework/thread/828d9a48-239a-4af8-8239-35931e514d37\n\n",
+    "parent-id": 1204,
+    "RowKey": "20081213-004752"
+  }
+]

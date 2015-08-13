@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2456,
+    "author-name": "Wes",
+    "author-email": "",
+    "author-url": "http://puzzleware.net",
+    "date": "2007-02-09T12:44:27-08:00",
+    "content": "Actually you can use the convert whitespace option in the WLWriter plugin as well. You just need to configure it that way. On the insert code dialog select \"<edit languages>\" and it will bring up another dialog where you can look at the language definitions and change the settings on a per language basis. Just set the \"UsePreTag\" property to false. If you have issues with it let me know.",
+    "parent-id": 879,
+    "RowKey": "20070209-124427"
+  }
+]

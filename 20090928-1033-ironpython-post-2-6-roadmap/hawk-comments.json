@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2273,
+    "author-name": "Alcides Fonseca",
+    "author-email": "me@alcidesfonseca.com",
+    "author-url": "http://alcidesfonseca.com",
+    "date": "2009-09-28T10:39:56-07:00",
+    "content": "Just a small suggestion. Instead of R2 why not IronPython 2.6 n4, which stands for .net 4.0. Makes more sense than R2 to me since it reminds me of RC2.",
+    "parent-id": 1290,
+    "RowKey": "20090928-103956"
+  },
+  {
+    "id": 2274,
+    "author-name": "Pedro Brown",
+    "author-email": "phs.brown@gmail.com",
+    "author-url": "",
+    "date": "2009-09-28T14:41:30-07:00",
+    "content": "Hi,\n\nIn my opinion VS integration is, indeed, more important then Python 3.x. \n\nIf the model of choice for this integration is a VS Addin, maybe you could release a CTP with some of the features, even if it doesn't include a decent intellisense.\n\nMy company is considering moving a code generator written in Delphi Win32 to a VS Addin, embedding IronPython in it, using it to run the Models (somewhat like CodeSmith, but much more specific).\n\nThe problem is that VS doesn't even have syntax highlighting. \n\nThanks. ",
+    "parent-id": 1290,
+    "RowKey": "20090928-144130"
+  },
+  {
+    "id": 2275,
+    "author-name": "Martin Meinhardt",
+    "author-email": "am_tomoni@yahoo.de",
+    "author-url": "",
+    "date": "2009-09-29T06:43:03-07:00",
+    "content": "\"IronPython 2.6 D4\"\n\n\"D\" for \"Dynamic\" and \"4\" stands for \".NET v4\".",
+    "parent-id": 1290,
+    "RowKey": "20090929-064303"
+  },
+  {
+    "id": 2276,
+    "author-name": "anon",
+    "author-email": "aaa@aa.gr",
+    "author-url": "",
+    "date": "2009-09-29T06:57:08-07:00",
+    "content": "Ironpython 4.2.6",
+    "parent-id": 1290,
+    "RowKey": "20090929-065708"
+  }
+]

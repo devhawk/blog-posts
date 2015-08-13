@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2905,
+    "author-name": "Bil Simser",
+    "author-email": "bsimser@shaw.ca",
+    "author-url": "http://weblogs.asp.net/bsimser",
+    "date": "2006-02-17T10:16:09-08:00",
+    "content": "Cool! I actually got turned onto Zazzle by Scott Hanselman with custom stamps, but I love this shirt. Although I'm stealing your design now and building one for SharePoint ;)",
+    "parent-id": 694,
+    "RowKey": "20060217-101609"
+  },
+  {
+    "id": 2906,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2006-02-17T13:29:00-08:00",
+    "content": "Send me the link to the shirt when you're done!",
+    "parent-id": 694,
+    "RowKey": "20060217-132900"
+  },
+  {
+    "id": 2907,
+    "author-name": "William",
+    "author-email": "support@mootif.com",
+    "author-url": "http://www.mootif.com",
+    "date": "2006-06-07T20:44:35-07:00",
+    "content": "We build a website to allow you to design for free. The site is at http://www.mootif.com. Give it a try and send us feedback. This is pretty new. Thanks.",
+    "parent-id": 694,
+    "RowKey": "20060607-204435"
+  }
+]

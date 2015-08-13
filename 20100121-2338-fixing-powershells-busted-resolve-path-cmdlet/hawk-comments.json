@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2294,
+    "author-name": "Richard Siddaway",
+    "author-email": "powershel-uk@hotmail.co.uk",
+    "author-url": "http://msmvps.com/blogs/RichardSiddaway/Default.aspx",
+    "date": "2010-01-28T10:58:13-08:00",
+    "content": "I'm presuming two things here:\n1) you want to test the path to the folder containing the file\n2) you want to test if the file already exists before attempting the creation\n\nWhy not use a couple of calls to test-path",
+    "parent-id": 1301,
+    "RowKey": "20100128-105813"
+  }
+]

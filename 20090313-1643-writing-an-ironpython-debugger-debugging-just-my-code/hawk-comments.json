@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2178,
+    "author-name": "David Lawler",
+    "author-email": "djlawler@aol.com",
+    "author-url": "",
+    "date": "2009-03-19T05:29:22-07:00",
+    "content": "Very nice!  I'm looking forward to when you get to being able to set a breakpoint and view locals.  I played with Mdbg a while back and even was able to get it working in an IP project...but using the 'higher level' interface, not CorDebug.  This looks like it will be much faster/better.  I look forward to your updates.\n\nRegards,\n\nDavid L.",
+    "parent-id": 1229,
+    "RowKey": "20090319-052922"
+  },
+  {
+    "id": 2179,
+    "author-name": "David Lawler",
+    "author-email": "djlawler@aol.com",
+    "author-url": "",
+    "date": "2009-03-19T11:40:17-07:00",
+    "content": "Hehe - or I could do an ugly version myself:\n\nadd         self.breakpoints = {}   to the run method of IPyDebugProcess\n\nadd new method:\n    def update_breakpoints(self):\n        for key, active in self.breakpoints.items():\n            docname, line = key\n            if not(active):                  \n                for module, reader in self.symbol_readers.items():\n                    for doc in reader.GetDocuments():\n                        if doc.URL.endswith(docname):\n                            create_breakpoint(doc, line, module, reader)\n                            self.breakpoints[key] = True\n                            return\n\nand add this to your _input method:\n            elif k.Key == ConsoleKey.B:\n                ri = raw_input(\"nenter breakpoint (doc line): \")\n                raw = ri.split(\" \")\n                key = (raw[0], int(raw[1]))\n                if not key in self.breakpoints.keys():\n                    self.breakpoints[key] = False\n                self.update_breakpoints()\n\nlastly add         self.update_breakpoints()\nin the OnUpdateModuleSymbols method right after self.symbol_readers[e.Module] = reader line and it works!  Probably very ugly...but who cares for now.  Now I need to allow for breakpoint deletion...\n\nOh it's killing the formatting in my message!  Too bad.  Thanks for a fun little project!\n\nDavid",
+    "parent-id": 1229,
+    "RowKey": "20090319-114017"
+  },
+  {
+    "id": 2180,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2009-03-21T18:21:37-07:00",
+    "content": "Wasted formatting or not, I like your code David! Breakpoints and viewing locals are definitely on my radar, so keep watching this space.",
+    "parent-id": 1229,
+    "RowKey": "20090321-182137"
+  }
+]

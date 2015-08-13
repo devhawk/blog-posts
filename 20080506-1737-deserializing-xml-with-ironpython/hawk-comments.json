@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2074,
+    "author-name": "Bryant Likes",
+    "author-email": "devhawk@bryantlikes.com",
+    "author-url": "http://blogs.sqlxml.org/BryantLikes",
+    "date": "2008-05-06T18:25:23-07:00",
+    "content": "I'm using my statically typed language and I'm not screwing around with childNodes or getAttribute either (thankfully!):\n\nXElement rss = XElement.Load(\"http://feeds.feedburner.com/Devhawk\");\nforeach (XElement item in rss.Element(\"channel\").Elements(\"item\"))\n    Console.WriteLine(item.Element(\"title\").Value);\n\nNot quite as elegant as yours, but not too far off. :)",
+    "parent-id": 1145,
+    "RowKey": "20080506-182523"
+  },
+  {
+    "id": 2075,
+    "author-name": "Seo Sanghyeon",
+    "author-email": "sanxiyn@gmail.com",
+    "author-url": "",
+    "date": "2008-05-06T18:30:50-07:00",
+    "content": "For a mature Python library to do XML to object serialization, take a look at lxml.objectify.\n\nhttp://codespeak.net/lxml/objectify.html\n\nYou really should try FePy. FePy doesn't run lxml.objectify yet (this one is a monster), but it does run gnosis.xml.objectify. And it runs same on CPython too.\n\nIt is impressive that you could cook up XML to object serializer in relative short time and code, but I personally won't use any IronPython-only solution when there are lots of mature Python solutions.",
+    "parent-id": 1145,
+    "RowKey": "20080506-183050"
+  },
+  {
+    "id": 2076,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-05-06T20:23:25-07:00",
+    "content": "@Bryant, XDocument + LINQ is a HUGE improvement over XmlDocument. But support for late binding is what makes the Python version so much more readable. \n\n@Seo, Don't worry, I plan to take a very long look at FePy. Just haven't had the time yet. \n\nAs for my code, it's more about me learning Python not really about providing a definitive solution to any specific problem. I think xml2py could be tweaked to support pulldom with little effort. I just know .NET FX very well, so it's easier for me to focus on learning the language with a library I know then it is to learn the language and library at the same time. \n\nThanks for the link to lxml.objectify. I'll take a look at that too. I figure there must be other (and better) libraries out there that do something similar to xml2py. ",
+    "parent-id": 1145,
+    "RowKey": "20080506-202325"
+  },
+  {
+    "id": 2077,
+    "author-name": "Oran",
+    "author-email": "",
+    "author-url": "http://orand.blogspot.com",
+    "date": "2008-05-06T21:20:33-07:00",
+    "content": "Looks like LINQ to XSD!",
+    "parent-id": 1145,
+    "RowKey": "20080506-212033"
+  },
+  {
+    "id": 2078,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2008-05-06T23:53:11-07:00",
+    "content": "@Oran, except there's no XSD required - xml2py works with any arbitrary XML stream",
+    "parent-id": 1145,
+    "RowKey": "20080506-235311"
+  }
+]

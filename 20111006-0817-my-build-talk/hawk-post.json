@@ -1,0 +1,12 @@
+{
+  "id": 1927,
+  "slug": "my-build-talk",
+  "title": "My //build Talk",
+  "date": "2011-10-06T08:17:52-07:00",
+  "modified": "2011-10-06T08:17:52-07:00",
+  "csv-category-slugs": "Development|development,Windows|windows,Windows Runtime|windows-runtime",
+  "csv-tag-slugs": "//build|build,C#|c-sharp,Metro style apps|metro-style-apps,Windows 8|windows-8",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 0,
+  "PartKey": "20111006-0817-my-build-talk"
+}

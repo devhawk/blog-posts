@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2253,
+    "author-name": "Fahad",
+    "author-email": "fahad007@gmail.com",
+    "author-url": "",
+    "date": "2009-08-28T14:24:22-07:00",
+    "content": "You could actually use the FormattedText class, which is a low-level font based text renderer, and use a custom control for rendering. I would actually go with TextBlock and have my own render calls, then use a canvas that will allow me to edit a charactor to simply host on top of my editing row.\n\n-Fahad",
+    "parent-id": 1284,
+    "RowKey": "20090828-142422"
+  }
+]

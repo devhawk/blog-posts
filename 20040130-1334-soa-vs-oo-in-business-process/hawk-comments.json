@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2978,
+    "author-name": "Chris Keyser",
+    "author-email": "ckeyser@microsoft.com",
+    "author-url": "",
+    "date": "2004-01-30T17:22:15-08:00",
+    "content": "Sorry, Harry, I just can't hold back responding to this barrage of OO hate mail :)  Maybe since I started in real-time where OO is most appropriately matched.\n\nFirst off, I never get what people mean when they rail against OO.  After all, isn't the .NET framework OO?  Would you rather go back to c and win32 APIs?   OO can be applied at different levels, and the question is where is the approach appropriate and where is it not.\n\nGetting back to one of Ram's points, I think services and objects should operate at different levels of abstraction.  Objects work fine and for me are a preferred approach to implementing logic within a service.  I honestly don't understand how one would implement complex business logic - such as a pricing engine - more effectively using a bunch of loosely coupled fine grained services, or what benefit \"loose coupling\" brings for logic that will never be externalized.  Additionally ideas have moved in the OO world over the years (multiple inheritence is bad, shallow inheritence hierarchies are good, aggregration of behavior is generally preferred over inheritence, etc) - there is nothing about an object model that requires state to be mixed with behavior, and maybe that's the next evolution for a class of problems.  It's ironic that you quote an OO book to make your point.  I guess at least some OO guys can evolve.\n\nThe question what is the right conceptual level for services and objects.  I believe SOA is all about how the right way to model and externalize business capabilities - they are appropriate at the boundaries.  I don't think it has to be my way or the hiway when it comes to services and objects.\n\n",
+    "parent-id": 297,
+    "RowKey": "20040130-172215"
+  },
+  {
+    "id": 2979,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2004-01-30T23:32:38-08:00",
+    "content": "Chris, we're in violent agreement. OO is the way to go inside the service and you KNOW I am a big fan of the .NET framework. Ram's opinion on abstraction levels was right on the money - I didn't reiterate since he did such a great job. Part of what I'm saying is that some OO ideas - i.e. the entity / control seperation - also work in an Service-Oriented (SO?) world. \n\nThe problem is that many people still don't see the value of SO systems. Advocating an OO/SO balanced viewpoint over a pure OO one does sometimes look like OO hatemail. I didn't mean it to be. \n\nHey, shouldn't you be writing this on a blog of your own? :)",
+    "parent-id": 297,
+    "RowKey": "20040130-233238"
+  }
+]

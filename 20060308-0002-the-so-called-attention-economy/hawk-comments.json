@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2329,
+    "author-name": "Alex Barnett",
+    "author-email": "alexbarn@microsoft.com",
+    "author-url": "http://blogs.msdn.com/alexbarn",
+    "date": "2006-03-08T12:40:29-08:00",
+    "content": "I agree with you Harry, that the 'Attention Economy' is not an economy.  My opinion is that users aren't interested is selling their data to customers for $. I wrote more on this here: http://blogs.msdn.com/alexbarn/archive/2006/01/11/511690.aspx\n\nOn the point you make re: having stuff on a server: there is one advantage to this - I roam. Having email in the cloud (and on local client) rather than *just* on the client is better, no? Having my attention data out in the cloud makes like easier. The question you raise re: data privacy / and management of subsets of this data by the user should be in the users control is a key point. But do they care where this data 'lives'? If it works, is secure and is in their control, do they care?\n\nRe: other forms of 'attention data' that may be useful to have services key off: one powerful type attention data is my OPML file. Services such as Megite.com, Findory and others are starting to provide personalized views based on this data. They are more than just RSS aggreagtors they're really becoming attention filters. If you've got 5 mins before you rush out of the door and want a quick, relevant snapshot of whats going being going on, this is a great tool. Think: Personalized Memeorandum. I did a screencast to show: http://blogs.msdn.com/alexbarn/archive/2006/02/17/533949.aspx\n\nWhat other types of attention data will these services be able to refer to to provide yet more relevant experierences?\n\nAny way, more of my attention throughts here: http://blogs.msdn.com/alexbarn/articles/510483.aspx\n\nAlex.\n\n",
+    "parent-id": 718,
+    "RowKey": "20060308-124029"
+  }
+]

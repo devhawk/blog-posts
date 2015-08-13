@@ -1,0 +1,12 @@
+{
+  "id": 1280,
+  "slug": "embedding-python-scripts-in-c-applications",
+  "title": "Embedding Python Scripts in C# Applications",
+  "date": "2009-08-11T09:24:42-07:00",
+  "modified": "2009-08-11T09:24:42-07:00",
+  "csv-category-slugs": "IronPython|ironpython",
+  "csv-tag-slugs": "DLR|dlr,Pygments|pygments",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 1,
+  "PartKey": "20090811-0924-embedding-python-scripts-in-c-applications"
+}

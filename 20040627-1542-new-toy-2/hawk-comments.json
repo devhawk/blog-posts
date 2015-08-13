@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2626,
+    "author-name": "Michael Cook",
+    "author-email": "",
+    "author-url": "http://cadred.net",
+    "date": "2004-06-28T08:17:06-07:00",
+    "content": "\"but I have all my media in WMA\". Ouch, hows the liscensing working out for you? Is it true that if you try to move your music to another machine (say when you upgrade) it won't work anymore?",
+    "parent-id": 389,
+    "RowKey": "20040628-081706"
+  },
+  {
+    "id": 2627,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2004-06-28T18:51:30-07:00",
+    "content": "Works fine for me. While you can turn copy protection on for music you rip, that's optional. I turn it off, so I can access my music on any machine in my house & easily transfer to either of Nomad players (I also have a solid state 256MB Nomad IIc). ",
+    "parent-id": 389,
+    "RowKey": "20040628-185130"
+  },
+  {
+    "id": 2628,
+    "author-name": "é™ˆå¥•è¿…",
+    "author-email": "",
+    "author-url": "http://mms.gjj.cc/sms/5_1.htm",
+    "date": "2004-07-22T08:09:53-07:00",
+    "content": "thank you",
+    "parent-id": 389,
+    "RowKey": "20040722-080953"
+  }
+]

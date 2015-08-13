@@ -1,0 +1,62 @@
+[
+  {
+    "id": 3189,
+    "author-name": "Mike Smith",
+    "author-email": "Msmithy@gotchu.com",
+    "author-url": "",
+    "date": "2011-09-16T10:30:29-07:00",
+    "content": "Well we won't be building enterprise apps in silverlight that's for sure! :-(",
+    "parent-id": 1924,
+    "RowKey": "20110916-103029"
+  },
+  {
+    "id": 3190,
+    "author-name": "Volker Hetzer",
+    "author-email": "volker.hetzer@ts.fujitsu.com",
+    "author-url": "",
+    "date": "2011-09-19T09:49:43-07:00",
+    "content": "Hi!\nGreat talk, even it I only saw the recording!\nOnly, I still have some problems understanding the plumbing behind the WinRT/CLR stuff:\nGiven, for example a WinRT call that returns a vector or a Map, what do I really get?\nLike, will the CLR GC be able to move it around, like native .NET objects?\nWill a\n<code>\nforeach (WinRTObject O in X.GetWinRTCollection())\n{\ndowomethingWith(O;)\n}\n</code>\ninvolve COM interop and RTW stuff?\nI've asked this in <a href=\"http://social.msdn.microsoft.com/forums/en-us/vblanguage/thread/04955BA7-C940-46EB-8F55-374600AE262C\" / rel=\"nofollow\"> but so far didn't get enlightened very much.\n\nVery nice talk!\nVolker",
+    "parent-id": 1924,
+    "RowKey": "20110919-094943"
+  },
+  {
+    "id": 3191,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2011-09-19T13:56:10-07:00",
+    "content": "Glad you liked the talk Volker! As I said in the talk, WinRT is built on a foundation of COM. So, yes, whenever you use WinRT from C#, you're using COM interop and RCWs (I'm assuming you meant \"RCW\" aka Runtime Callable Wrapper when you wrote \"RTW stuff\".)\n\nAs you might imagine, I took the weekend off, but I'll be surfing the forums regularly answering questions in the future.",
+    "parent-id": 1924,
+    "RowKey": "20110919-135610"
+  },
+  {
+    "id": 3192,
+    "author-name": "Josh Smith",
+    "author-email": "flapplejacks@gmail.com",
+    "author-url": "http://joshsmithonwpf.wordpress.com",
+    "date": "2011-09-19T21:53:09-07:00",
+    "content": "Thanks for the helpful write up. One thing...the demo doesn't unhook the DataRequested event of the DataTransferManager. Unless there are weak events being used in WinRT, this sample code probably causes a memory leak because the MainPage is always referenced by an instance of DataTransferManager (whose lifetime I assume is greater than that of the page). Or is there some new greatness in WinRT's eventing model that I'm not aware of?\n\nThanks,\nJosh",
+    "parent-id": 1924,
+    "RowKey": "20110919-215309"
+  },
+  {
+    "id": 3193,
+    "author-name": "Kevin C",
+    "author-email": "kevinc43@gmail.com",
+    "author-url": "",
+    "date": "2011-09-23T07:27:02-07:00",
+    "content": "A quick couple of questions:\n1) If an app is written in pure XAML - say a grid with a few boxes - with no code of any kind (c#/javascript/c++) - are any dotnet libs/runtime's loaded? Does XAML in Win8/Metro have any dotnet dependencies? Is the code that renders the declarative XAML\n\n2) Can javascript project be written to work with XAML instead of HTML.",
+    "parent-id": 1924,
+    "RowKey": "20110923-072702"
+  },
+  {
+    "id": 3194,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2011-09-23T19:57:56-07:00",
+    "content": "1) I'm not sure how compelling a pure XAML app would be. But Windows XAML does not depend on .NET. If you build a Metro style app with XAML and C++, you don't load the CLR.\n\n2) No, JS only works with HTML.",
+    "parent-id": 1924,
+    "RowKey": "20110923-195756"
+  }
+]

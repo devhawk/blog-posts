@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2834,
+    "author-name": "Tomas Restrepo",
+    "author-email": "tomasr@mvps.org",
+    "author-url": "http://www.winterdom.com/weblog",
+    "date": "2005-08-31T19:19:48-07:00",
+    "content": "I like your definition, however, I would also probably constraint it (imho) to say that the architect is just *one* possible link between users and the software, but certainly not the only one. Maybe one focusing on certain parts of the interaction? I don't know...\n\nI sometimes think of the architect as the one that cares about the things other members of the project would like to pretend don't exist :)",
+    "parent-id": 621,
+    "RowKey": "20050831-191948"
+  },
+  {
+    "id": 2835,
+    "author-name": "Jeff Donnici",
+    "author-email": "",
+    "author-url": "http://jeff.donnici.com",
+    "date": "2005-09-01T10:13:05-07:00",
+    "content": "Thank you, thank you, thank you... I agree that title inflation is probably at the root of the misuse of \"architect\" as a verb. It just sounds bad. Based on Larry O's post a few weeks back about \"ask as a noun\", I blogged the \"architect as verb\" pet peeve.\n\nhttp://jeff.donnici.com/archive/2005/08/04/392.aspx",
+    "parent-id": 621,
+    "RowKey": "20050901-101305"
+  },
+  {
+    "id": 2836,
+    "author-name": "David Ing",
+    "author-email": "david.ing@gmail.com",
+    "author-url": "http://from9till2.com",
+    "date": "2005-09-03T13:45:29-07:00",
+    "content": "I personally prefer the term Architect to be used more like a 'role' than a 'job'. In some (surprisingly very rare) cases it *may* be possible that what you are doing is so very complex that one person takes on that remit as their single and dedicated 'role'. Even then though, due to title inflation, they tend to often make the mistake of not participating in the team with other useful role slices; and then flounder in an alternative reality to the one that actually ships working stuff. \n\nThis is actually odd, as a developer's 'test' their code, even with a dedicated test engineer around, but that doesn't stop them being called a 'developer'; just as TE's do develop lots of code. \n\nArchitects (as a job title) smooze, spec, design, code, test, juggle and can sweep the floor with a party trick involving a broom - it's just an awkward name given to people with a wide remit and depth of experience, and is probably more of a memed organizational positioning term rather than a concrete job description, i.e. L61.\n\nNow, if it is all about positioning and seniority levels then I propose just delisting the word 'architect', call us all 'developers' and then find a suitably horrible word set for people with less experience. About 500 years ago we had 'Serf, Lord, Baron, King' - worth a go again? Would make a great org chart? ;-)\n\n- David (Serf)\n",
+    "parent-id": 621,
+    "RowKey": "20050903-134529"
+  },
+  {
+    "id": 2837,
+    "author-name": "Arnon Rotem-Gal-Oz",
+    "author-email": "arnon@rgoarchitects.com",
+    "author-url": "http://www.rgoarchitects.com",
+    "date": "2005-09-30T12:11:48-07:00",
+    "content": "I just reread your post (I am writing another post and thought I read here something related) and I noticed that you mis-understood my intention when I said \"Architecture is design (but not all design is architecture)\"\nI didn't mean that architecture is just \"good design\". I meant that it is a type of design (which has to do with top-level / global issues relating to a project/solution/enterprise whereas design (which is also a type of design...) has to do more with local problems \n\nArnon \n",
+    "parent-id": 621,
+    "RowKey": "20050930-121148"
+  }
+]

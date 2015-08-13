@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2402,
+    "author-name": "Tom Vande Stouwe",
+    "author-email": "tomv@conpro.net",
+    "author-url": "http://architecturematters.net",
+    "date": "2006-08-22T05:41:18-07:00",
+    "content": "Harry,\n\nHow does a Truples diffe from an 'object' in .NET core. Could I not return an object from a routine, and define the structure dynamically? What about a collection? It seem that Truples appear to be nothing more then a UDT model, and that already is there.\n\nI may be missing something, so if I am off base, just let me know :)\n\nTom",
+    "parent-id": 784,
+    "RowKey": "20060822-054118"
+  },
+  {
+    "id": 2403,
+    "author-name": "Robert Pickering",
+    "author-email": "",
+    "author-url": "http://strangelights.com/blog",
+    "date": "2006-08-22T07:42:58-07:00",
+    "content": "I don’t the implementation of tuples in F# is a hack; you are simply talking about the implementation details. If you are passing the tuple between two functions in F# then it is totally transparent you do not see the implantation details you describe. Sure if you pass a tuple between F# and C# then you are forced to deal with the Tuple classes that F# provides, and this is a little ugly, but I can see another way this could be supported in languages that don’t support tuples.",
+    "parent-id": 784,
+    "RowKey": "20060822-074258"
+  },
+  {
+    "id": 2404,
+    "author-name": "Robert Pickering",
+    "author-email": "",
+    "author-url": "http://strangelights.com/blog",
+    "date": "2006-08-22T07:49:39-07:00",
+    "content": "Tom, \n\nTuples are different to what you describe. A tuple is just a way of returning two values from a method with out having to define a type to contain them. For instance in F# you can say:\n\nlet my_tuple = 1, 2\n\nTo create a tuple, then to retrive a value from a tuple you would say:\n\nlet _, x = my_tuple\n\nAnd then x would hold the value 2.\n\nWikipedia has a good definition:\nhttp://en.wikipedia.org/wiki/Tuple\n\nCheers,\nRob\n",
+    "parent-id": 784,
+    "RowKey": "20060822-074939"
+  },
+  {
+    "id": 2405,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2006-08-22T08:16:10-07:00",
+    "content": "Robert, you're right. I think it feels like a hack if you use F# tuples outside of F#, which was the context of my post in the first place.",
+    "parent-id": 784,
+    "RowKey": "20060822-081610"
+  }
+]

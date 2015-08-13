@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2445,
+    "author-name": "Ramon Smits",
+    "author-email": "ramon.smits@gmail.com",
+    "author-url": "http://bloggingabout.net/",
+    "date": "2007-01-24T01:38:02-08:00",
+    "content": "Hi your code is currently not thread safe. There is a possibility that tracing information is written in the wrong color.\n\nThe color is retrieved from the configuration section for each trace statement. Better to optimize this by at least referencing the section from a data member so that a string lookup isn't necessary.\n\nJust my two cents :)",
+    "parent-id": 861,
+    "RowKey": "20070124-013802"
+  }
+]

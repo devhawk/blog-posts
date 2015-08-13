@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2959,
+    "author-name": "Mike Walsh",
+    "author-email": "englantilainen@hotmail.com",
+    "author-url": "",
+    "date": "2004-01-16T01:34:04-08:00",
+    "content": ">there's a project going on in my >group internally that is using WSS >and wants to expose RSS feeds. \n\nI presume they know that there is already a free web part available for RSS feeds that works fine in WSS.\n\nhttp://www.timheuer.com/stuff.htm\n\n(I am not Tim Heuer just a user)\n",
+    "parent-id": 280,
+    "RowKey": "20040116-013404"
+  },
+  {
+    "id": 2960,
+    "author-name": "Harry",
+    "author-email": "",
+    "author-url": "http://devhawk.net",
+    "date": "2004-01-16T07:23:10-08:00",
+    "content": "I've seen that component in the SP Web Component Directory. However, that web part is for reading RSS feeds while my SPSynd project is for creating RSS feeds from WSS lists.",
+    "parent-id": 280,
+    "RowKey": "20040116-072310"
+  },
+  {
+    "id": 2961,
+    "author-name": "Travis Illig",
+    "author-email": "padrino@cs.pdx.edu",
+    "author-url": "http://www.paraesthesia.com",
+    "date": "2004-01-21T07:47:23-08:00",
+    "content": "We're actually going to be configuring and using SPSynd internally, in conjunction with a custom RSS reader part I wrote (which does audience targeting of feeds, individual feed caching, and has configurable options for display format), and I've been thinking about the same thing - an easier way to configure SPSynd.  I've toyed with the idea of getting the schema for the configuration file, making a typed Dataset out of it, and doing up some sort of MMC-style admin console (which is part of the reason I joined the GotDotNet workspace for the project), but got sidetracked on other projects.\n\nThe use of the web services might be an interesting idea - if you could set up a domain service account, then grant access to the appropriate lists to that user within WSS, you wouldn't even really need to say \"this list is OK to see, this one isn't\"; you just authenticate as your service account (which is easy enough - rather than using pass-through authentication, you specifically create a crendential set with the service account info) and if that user has permissions to the list, it displays.  If not, no display.  Done.  That would alleviate the need for the \"sites\" element in the spsynd.config file.\n\nThat said, you're still going to have the rest of the config file to deal with, so it doesn't get you out of making a nicer admin interface. :(",
+    "parent-id": 280,
+    "RowKey": "20040121-074723"
+  }
+]

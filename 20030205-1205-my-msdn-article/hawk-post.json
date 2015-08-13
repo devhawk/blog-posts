@@ -1,0 +1,12 @@
+{
+  "id": 18,
+  "slug": "my-msdn-article",
+  "title": "My MSDN Article",
+  "date": "2003-02-05T12:05:41-08:00",
+  "modified": "2003-02-05T12:05:41-08:00",
+  "csv-category-slugs": "",
+  "csv-tag-slugs": "",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 0,
+  "PartKey": "20030205-1205-my-msdn-article"
+}

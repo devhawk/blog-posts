@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2238,
+    "author-name": "Michael Foord",
+    "author-email": "michael@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com/",
+    "date": "2009-07-17T03:28:09-07:00",
+    "content": "I agree that over-engineered is definitely the correct term for software that has too many layers of abstraction (interfaces for everything - yay! internal, private, protected, public - yay! never use fields but always properties - yay! dependency injection or you can't test - yay!).\n\nHowever, when developers work on the structure of an application it is hard not to call it 'architecture', and the analogy is appropriate. (Architects *do* specify the details, often down to specific materials, of buildings they design.) It seems inevitable that these two meanings of the word will be conflated.\n\nNice discussion by the way,\n\n",
+    "parent-id": 1273,
+    "RowKey": "20090717-032809"
+  },
+  {
+    "id": 2239,
+    "author-name": "Eric Smith",
+    "author-email": "eric@smithster.com",
+    "author-url": "http://thelimberlambda.com/",
+    "date": "2009-07-17T06:44:28-07:00",
+    "content": "I'm a little concerned with the intimation that use of interfaces, respect for visibility of type members and use of dependency injection equates to \"over-engineering\".  As with everything, it depends on what you're trying to achieve, and generalisations in this regard, especially when junior people who may not understand what's at stake are reading, can be damaging.\n\nI find it an uphill battle to engender a constructive mindset in developers who have established bad habits and whose pride lies in the way of addressing those habits.\n\nAnti-\"process\" talk by Joel Spolsky and the \"pragmatism brigade\" makes it harder.  A while ago I had a new developer refuse to write unit tests despite it being an established practice in our team because \"... Jeff and Joel said they were bad in the StackOverflow podcast ...\".  Yikes.",
+    "parent-id": 1273,
+    "RowKey": "20090717-064428"
+  },
+  {
+    "id": 2240,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2009-07-17T07:24:34-07:00",
+    "content": "@Michael, as I've said above \"I will readily admit that often a single person is responsible for both architecture and engineering. But that doesn't make them the same activity.\"\n\n@Eric, I never intimated that \"that use of interfaces, respect for visibility of type members and use of dependency injection\" == over-engineering. There are good reasons to use those techniques that has exactly zero to do with thinking you can predict the future. There's good engineering and then there's over engineering. I guess that's will be the subject of my next Architecture post!",
+    "parent-id": 1273,
+    "RowKey": "20090717-072434"
+  },
+  {
+    "id": 2241,
+    "author-name": "Eric Smith",
+    "author-email": "eric@smithster.com",
+    "author-url": "http://thelimberlambda.com/",
+    "date": "2009-07-17T08:42:59-07:00",
+    "content": "@DevHawk - I was making a reference to the first paragraph of @Michael's response--I guess I should have indicated as much.  I do agree with the whole over-engineering argument--looking forward to your explanation of where \"good\" crosses over into \"over\".",
+    "parent-id": 1273,
+    "RowKey": "20090717-084259"
+  }
+]

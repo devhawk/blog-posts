@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2481,
+    "author-name": "KR",
+    "author-email": "",
+    "author-url": "",
+    "date": "2007-04-17T19:11:04-07:00",
+    "content": "It absolutely is too complex! Microsoft is trying to tread so many new paths and so fast that one or more of them are bound to turn this way! Nothing against the Guidance Automation team but they should stop.. step back.. and start over. I have not seen even one architect or developer that is comfortable with the Guidance Automation concepts or tools. Infact they are more willing to write VS extensions and add-ins for custom functions than use GA tools and concepts. In all fairness, that team might still have a 'vision' to make everything simple.. that they are working towards.. If that is true, they should start laying out that vision and CTPs really fast in front of the developer community. If not.. think of this as a learning exercise and start over! :-)",
+    "parent-id": 932,
+    "RowKey": "20070417-191104"
+  }
+]

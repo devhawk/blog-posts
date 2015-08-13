@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2235,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com/",
+    "date": "2009-07-14T13:37:34-07:00",
+    "content": "Interesting response (thanks). I'll have to think about the subject. Architectural thinking is a necessary (and very important) part of software development - but beyond the systems level (which is systems administration and not software architecture) I have a hard time seeing divorcing architectural thinking from the actual development as anything but a terrible thing.",
+    "parent-id": 1272,
+    "RowKey": "20090714-133734"
+  },
+  {
+    "id": 2236,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com/",
+    "date": "2009-07-14T14:02:56-07:00",
+    "content": "Hmmm... although I see that your definition of architecture (at the functional level) does not match my caricature of the 'architecture astronauts' which I do think can be endemic in languages that encourage additional layers of architecture. I do think there are cultural differences between dynamically and statically typed communities, at least I've noticed them being closer to the .NET community these days.\n\nAs I said, requires some thinking about - perhaps I'll blog about it.",
+    "parent-id": 1272,
+    "RowKey": "20090714-140256"
+  },
+  {
+    "id": 2237,
+    "author-name": "Ryan Riley",
+    "author-email": "ryan.riley@panesofglass.org",
+    "author-url": "http://wizardsofsmart.net/author/riles/",
+    "date": "2009-07-15T09:51:59-07:00",
+    "content": "So based on the definition of architecture I'm reading into your post, you wouldn't consider the choice of object-oriented versus functional programming styles from an architectural perspective? I'm trying to understand what level of architecture you mean here. Like Michael, I usually think of architecture even down into the implementation patterns level (hence the architecture astronauts), but that seems to be included in what you might be calling an engineering concern.",
+    "parent-id": 1272,
+    "RowKey": "20090715-095159"
+  }
+]

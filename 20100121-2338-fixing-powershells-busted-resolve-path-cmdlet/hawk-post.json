@@ -1,0 +1,12 @@
+{
+  "id": 1301,
+  "slug": "fixing-powershells-busted-resolve-path-cmdlet",
+  "title": "Fixing Powershell&#8217;s Busted Resolve-Path Cmdlet",
+  "date": "2010-01-21T23:38:51-08:00",
+  "modified": "2011-04-17T20:43:49-07:00",
+  "csv-category-slugs": "Development|development",
+  "csv-tag-slugs": "PowerShell|powershell",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 1,
+  "PartKey": "20100121-2338-fixing-powershells-busted-resolve-path-cmdlet"
+}

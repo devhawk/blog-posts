@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2796,
+    "author-name": "Chris Kinsman",
+    "author-email": "ckinsman@vergentsoftware.com",
+    "author-url": "",
+    "date": "2005-02-28T15:03:08-08:00",
+    "content": "www.communityserver.org\n\nBlogs (.Text), Photos (nGallery), Newsgroups (ASP.NET Forums), etc.\n\nNo CMS but an active group supporting it",
+    "parent-id": 560,
+    "RowKey": "20050228-150308"
+  },
+  {
+    "id": 2797,
+    "author-name": "egilh",
+    "author-email": "",
+    "author-url": "http://www.egilh.com/",
+    "date": "2005-03-01T04:23:39-08:00",
+    "content": "What a coincidence, I am putting up a site for keeping in touch with my ex colleagues... \n\nI like www.communityserver.org but I went for a wiki instead (www.flexwiki.com). I like the idea of people being able to edit their own pages and extend the site as they want. \n\nNo idea how it will turn out though. I have only written my page and some \"plumbing\" pages using WikiTalk that allows people to find each other by year, by name and by project.",
+    "parent-id": 560,
+    "RowKey": "20050301-042339"
+  },
+  {
+    "id": 2798,
+    "author-name": "Andrew Woodward",
+    "author-email": "andrew.woodward@bxsl.co.uk",
+    "author-url": "http://www.bxsl.co.uk",
+    "date": "2005-03-05T07:03:35-08:00",
+    "content": "I would also recommend Community Server (www.communityserver.org), we currently have it running for a club site www.oswestryridingclub.org.uk.\n\nYou may have some problems with your restriction on writing to the file system as I know the images are stored on the disk.\n\nI think a number of new add-ons will start to appear soon.",
+    "parent-id": 560,
+    "RowKey": "20050305-070335"
+  },
+  {
+    "id": 2799,
+    "author-name": "Mayur Gondaliya",
+    "author-email": "mayur.aits@gmail.com",
+    "author-url": "",
+    "date": "2006-10-03T11:32:05-07:00",
+    "content": "Better",
+    "parent-id": 560,
+    "RowKey": "20061003-113205"
+  }
+]

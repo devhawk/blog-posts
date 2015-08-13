@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2581,
+    "author-name": "Erik Johnson",
+    "author-email": "ejohnson@epicor.com",
+    "author-url": "http://appside.blogspot.com",
+    "date": "2007-10-12T10:02:35-07:00",
+    "content": "> I think the various proponents are arguing over unimportant syntactical\n> details when the semantics are basically the same.\n\nThat was my point when I regurgitated some SOAP history a while back (http://appside.blogspot.com/2007/09/rest-by-way-of-soap.html).  \n\nIf you avoid the optional stuff and use good URI practices Doc-Lit is pretty much REST. ",
+    "parent-id": 1043,
+    "RowKey": "20071012-100235"
+  }
+]

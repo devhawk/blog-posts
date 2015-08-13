@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2277,
+    "author-name": "Rahmi Guldahl",
+    "author-email": "rahmi.guldahl@gmail.com",
+    "author-url": "",
+    "date": "2009-11-03T12:44:31-08:00",
+    "content": "Do you have a clue to me regarding why Im not able to use pythons built-in modules like datetime re and so on. Im doing this embedding stuff, and everything works up to the part where I am do \"import re, datetime\" in the python script.",
+    "parent-id": 1291,
+    "RowKey": "20091103-124431"
+  },
+  {
+    "id": 2278,
+    "author-name": "Rahmi Guldahl",
+    "author-email": "rahmi.guldahl@gmail.com",
+    "author-url": "",
+    "date": "2009-12-02T22:48:33-08:00",
+    "content": "I solved this one, there was a problem with my dependencies, since I had two projects running, the embedding was a class library while the project executing was a windows service project, so obviously I had to import the dependencies in that project as well.",
+    "parent-id": 1291,
+    "RowKey": "20091202-224833"
+  }
+]

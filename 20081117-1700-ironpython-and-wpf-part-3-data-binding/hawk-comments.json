@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2144,
+    "author-name": "Apolon Ivankovic",
+    "author-email": "apolon@torqsoftware.com",
+    "author-url": "http://torqsoftware.com",
+    "date": "2008-11-18T01:14:31-08:00",
+    "content": "From my understanding, Silverlight uses solely Reflection based binding with no support for ICustomTypeDescriptor or anything similar. Given this, then the conclusion is that there's no decent data binding story for the DLR languages in Silverlight. Is this correct? \n\nIt seems like a shame. Is there any way to alter the IronPython/DLR behaviour so that it does generate IL defined properties/methods for some scenarios? i.e. even at the cost of dynamism for those scenarios.",
+    "parent-id": 1190,
+    "RowKey": "20081118-011431"
+  }
+]

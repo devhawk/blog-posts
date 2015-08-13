@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2016,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-11T21:02:02-07:00",
+    "content": "I am very interested in what you are saying here, but I don't know enough yet about either F# or PEG parsers to be clear WHAT you've done. I want to write a parser for [some grammar]. How do I build on what you have done? Is the grammar you've written a parser for just a specific sample grammar from that whitepaper, or are you saying that it parses grammars written in the notation used in that whitepaper? Or are you building up a combinator library of functions that I would use in writing my own parser directly in F#?\n\nTo take a concrete example, suppose I wanted to write a parser for F# itself, and I'm staring at the F# language spec .. how would I proceed to write such a parser, beginning with your work?\n\nAlso, what would be the likely speed of such a parser, versus using the lex/yacc available with F#?\n\nAnd since I'm barraging you with questions, I will also ask if there is source available for an F# parser written in F#, using any parsing approach?\n\n(What I'm really interested in is translating a subset of ECMAScript 4 to F#, relying on F#'s type inference to get a high performance CodeDOM based implementation running, but I can't claim to know enough about either ES4 or F# to know whether that makes any sense at all...) ",
+    "parent-id": 1096,
+    "RowKey": "20080311-210202"
+  },
+  {
+    "id": 2017,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-11T22:18:58-07:00",
+    "content": "Found your post 'F# PEG Parser Next Steps' which answers my question above about what your code does ('it simply builds a PEG AST from a PEG grammar.').\n\nRe 'figure out where to take it next', I'd love to see a technique for mixing domain-specific-language source with generic F# source. As an anti-example of what I mean, consider how scripting languages are currently embedded into HTML pages. Horrible syntactic kludges. Even worse is stuff often done in Javascript or PHP to output page fragments that are composed into a page. Often totally ad hoc and unstructured. Suppose one's goal was to create web pages or a browser-based web application, and we re-thought this from scratch. What might an approach be? One interesting approach to structured mixing of logic and presentation in an XML document can be seen at whitebeam.org). Given F#, and parser technology, what would be a clean way to express what we are trying to say? In some situations, a good answer would be a DOM-based one. That is, I'd like a less verbose way to type the equivalent to the XML document one would create if using Whitebeam. F# logic snippets would be embedded in the presentation document hierarchy in a clean way. In other cases, it would make more sense to INVERT this: Write an application in F#, but with a preprocessor that allows presentation nodes to be expressed readably.",
+    "parent-id": 1096,
+    "RowKey": "20080311-221858"
+  },
+  {
+    "id": 2018,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-14T13:07:27-07:00",
+    "content": "Minor comment re name choices on page\nhttp://devhawk.net/2007/12/11/Practical+F+Parsing+The+Parse+Buffer.aspx\nyou present two different versions, one reusing the name \"token\", the other using an unambiguous name \"ttail\", which you find less readable.\nI agree, but the reuse of \"token\" in the first one caused me to mis-read its functioning the first time.\nA better solution than EITHER of these is to use variations on token; e.g. call the second use \"token1\" or some such. That way, the semantics is clear (\"this is a case where the tail is being used as another token\"), AND there is no confusing the two uses.",
+    "parent-id": 1096,
+    "RowKey": "20080314-130727"
+  },
+  {
+    "id": 2019,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-14T13:11:05-07:00",
+    "content": "Here is my version of your code from Jan 2008:\n\nlet (|TK|_|) token  input =\n    let rec ParseToken token input =\n        match token,(|NC|_|) input with\n        | t :: [], Some(i, input1) when i = t -> Some(input1)\n        | t :: token1, Some(i, input1) when i = t-> ParseToken token1 input1\n        | _ -> None\n    ParseToken (List.of_seq token) input\n",
+    "parent-id": 1096,
+    "RowKey": "20080314-131105"
+  },
+  {
+    "id": 2020,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-14T13:11:55-07:00",
+    "content": "Gaaah -- add whitespace back in to indent the above as needed!",
+    "parent-id": 1096,
+    "RowKey": "20080314-131155"
+  },
+  {
+    "id": 2021,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-14T15:07:24-07:00",
+    "content": "Another comment on naming:\nBeing new to F#, and active pattern matching,\nit took me a long time to understand exactly how (|TK|_|) works, even after reading The Whitepaper you linked to [Thanks for that link -- I would not have grokked active patterns without it].\n\nIt would have been somewhat easier if something like \"remainder\" or \"unconsumed\" had been used instead of \"input\", for the RESULT of each rule. That would have clued me in that the active pattern syntax is not referring to a left hand side (input param) term here, but a right hand side (result).\n\nHere is my version of EndOfLine [replace my \"indent-dots\" with spacing]:\n\nlet (|EndOfLine|_|) = function\n. | TK \"rn\" (unconsumed) -> Some(unconsumed)\n. | TK \"n\" (unconsumed) -> Some(unconsumed)\n. | TK \"r\" (unconsumed) -> Some(unconsumed)\n. | _ -> None\n",
+    "parent-id": 1096,
+    "RowKey": "20080314-150724"
+  },
+  {
+    "id": 2022,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-14T15:48:27-07:00",
+    "content": "http://devhawk.net/2007/12/19/Practical+F+Parsing+The+Abstract+Syntax+Tree.aspx\nWould benefit from an example, showing a simple Abstract Syntax Tree being built up using these functions. In general, these talks would benefit from more examples of how all this looks to someone using what you are building up. This would give clear context to the reader. \"black box\" explain from the outside, THEN open the box to explain the insides.\n\nAt this point, perhaps showing the nested rule calls recognizing a single low level construct, wrapped in successively higher constructs:\n\n(|Char|_|) !!\"5\"\n--> Some ('5', [])\n\n(|Range|_|) !!\"5-9\"\n--> Some (Dual ('5', '9'), [])\n\n(|Class|_|) !!\"[5-9]\"\n--> Some ([Dual ('5', '9')], [])\n\n(|Primary|_|) !!\"[5-9]\"\n--> Some (Class [Dual ('5', '9')], [])\n\nA talk or two later, once you have enough of the functions, describe a small PEG grammar, and show the AST for some sample inputs.\n\n",
+    "parent-id": 1096,
+    "RowKey": "20080314-154827"
+  },
+  {
+    "id": 2023,
+    "author-name": "ToolmakerSteve",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2008-03-14T16:05:28-07:00",
+    "content": "\"These five functions significantly reduced the complexity of the code. Unfortunately, I'm not sure it's much easier to read. The conciseness is offset IMO by the ugliness of using the active pattern's true names.\"\n\nI consider the new version MUCH easier to read. To be precise, as I get used to the split-banana syntax by experimenting with active patterns, it is becoming a familiar visual entity with a known meaning, that I can rapidly scan and associate with that meaning. Contrast that with the original, which requires examining several lines of code to recognize a usage pattern.\n\nAs far as how to make this less ugly, I am concerned that removing that visual cue would take away meaning; remove that immediate knowledge \"its a split-banana active pattern\". I suggest simply having the code editor recognize bananas and splits, and color them blue. Its not like full names of banana entities are going to be heavily used in ordinary code. Keeping them distinctive is a good thing!",
+    "parent-id": 1096,
+    "RowKey": "20080314-160528"
+  }
+]

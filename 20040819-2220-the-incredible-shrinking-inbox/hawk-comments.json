@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2656,
+    "author-name": "Peter Provost",
+    "author-email": "peter@provost.org",
+    "author-url": "http://www.peterprovost.org/",
+    "date": "2004-08-20T11:12:10-07:00",
+    "content": "Sounds like that old time management technique: TRAF.\n\nToss - As in throw it away\nRefer - Give it to someone else\nAct - Act on it\nFile - Put it somewhere for future reference\n\nWouldn't it be cool to have Outlook setup that way? Just two folders. (The first two involve getting rid of the message.)",
+    "parent-id": 420,
+    "RowKey": "20040820-111210"
+  },
+  {
+    "id": 2657,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2004-08-20T22:04:51-07:00",
+    "content": "Yes, it's very much like that (only difference - I group R & A together as shit to do). Peter, w/ you coming to MSFT maybe we figure out how to set Outlook up that way! You think you get a lot of email now...",
+    "parent-id": 420,
+    "RowKey": "20040820-220451"
+  }
+]

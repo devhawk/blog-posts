@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2882,
+    "author-name": "Brant",
+    "author-email": "",
+    "author-url": "",
+    "date": "2006-01-26T10:15:37-08:00",
+    "content": "Typical Microsoft response.  You didn't invent the term thus you need to come up with your own.  Did the same with AJAX (ATLAS??) *sigh*  Web 2.0 is a great term because it well known in the industry and it tells you that things are changing.  \n\nb",
+    "parent-id": 674,
+    "RowKey": "20060126-101537"
+  },
+  {
+    "id": 2883,
+    "author-name": "Sean Chase",
+    "author-email": "",
+    "author-url": "http://www.unboxedsolutions.com/sean",
+    "date": "2006-01-26T11:20:53-08:00",
+    "content": "Totally agree. Sounds like the name of a B movie.   \"Web 2.0: The Revenge of Ajax\"",
+    "parent-id": 674,
+    "RowKey": "20060126-112053"
+  },
+  {
+    "id": 2884,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2006-01-27T22:28:41-08:00",
+    "content": "Brant, my dislike for the term \"Web 2.0\" has nothing to do with working for Microsoft. While I find it funny to invent a new term for technology that has been around for years (and invented by Microsoft I might point out) I like the name AJAX since it actually means something. \n\nAs for Atlas, it's just a product code name, like Longhorn and Whidbey. ",
+    "parent-id": 674,
+    "RowKey": "20060127-222841"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2695,
+    "author-name": "Babu Annamalai",
+    "author-email": "babu.annamalai@capco.com",
+    "author-url": "http://dotnetjunkies.com/WebLog/BabuA",
+    "date": "2004-10-27T08:53:14-07:00",
+    "content": "Hi pierson,\nIf we want smart tags to be attached to a specific document template, we need to configure the expansion pack which we will be attaching to the document template. stating this, there will be a document template associated to a specific expansion pack manifest file.\n\nWe will be building the smart tag dll in the usual way, but you will need to use XML expansion pack and the XML expansion manifest file to deploy that smart tag.\n\nHave a look at the XML Expansion pack schema, for configuring smart tag deployment, in Microsoft Office 2003 Smart document SDK.\n\nCheers,\nBabu",
+    "parent-id": 462,
+    "RowKey": "20041027-085314"
+  },
+  {
+    "id": 2696,
+    "author-name": "Babu Annamalai",
+    "author-email": "babu.annamalai@capco.com",
+    "author-url": "http://dotnetjunkies.com/WebLog/BabuA",
+    "date": "2004-10-27T09:01:00-07:00",
+    "content": "Hi Pierson,\nUsing custom properties is a tricky one, but we can add required data to registry using the expansion pack manifest file (schema already available to do this) and use that data in your smart tag. This can also be document specific, because you are doing this at a expansion pack level.\n\nCheers,\nBabu",
+    "parent-id": 462,
+    "RowKey": "20041027-090100"
+  }
+]

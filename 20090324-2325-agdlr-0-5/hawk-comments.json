@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2184,
+    "author-name": "Chris Cavanagh",
+    "author-email": "blog@chriscavanagh.com",
+    "author-url": "http://chriscavanagh.wordpress.com",
+    "date": "2009-03-25T10:42:06-07:00",
+    "content": "Hi Harry - A few questions :) ...\n\n1) Is Chiron restricted to IronRuby/Python or is it extensible somehow? (saw it in DLR sources but ignored so far)\n2) When the XapHttpHandler references it, is it forced to go out of process?  Is that the only way to build Silverlight assemblies from within a .NET process, or are there alternatives? (separate appdomain maybe).\n3) Related to (2), what kind of performance overhead is there?  Caching or not, I'm curious about any out-of-process hit...\n\nFor some projects I'm working on, I've been kicking around the idea of dynamic server-compiled DLR assemblies (but using custom stuff instead of IronRuby/Python).  It'd be interesting to know what options I have :o)\n\nAny suggestions / ideas appreciated!",
+    "parent-id": 1236,
+    "RowKey": "20090325-104206"
+  },
+  {
+    "id": 2185,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2009-03-25T13:34:18-07:00",
+    "content": "@Chris:\n\n1. Chrion is extensible in that you can add dynamic languages and change the default AppManifest.xaml file that gets generated. Check out Chiron.exe.config for more information.\n\n2. No, when you use XapHttpHandler you're loading Chiron as a library - yes, even though Chiron's an EXE. It's kinda wierd, but the only difference between a managed DLL and EXE is the inclusion of an entrypoint in the EXE. \n\n3. Given that it's only recommended for use in your dev environment, I haven't done any perf testing on it at all. If you needed something faster, you could always take the source code and make your own improvements.\n\nGood luck with your project. I'd love to hear more about it when you get a chance. ",
+    "parent-id": 1236,
+    "RowKey": "20090325-133418"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2764,
+    "author-name": "Randy H.",
+    "author-email": "randy@clrsql.com",
+    "author-url": "",
+    "date": "2005-01-29T13:49:27-08:00",
+    "content": "Better than being a sales guy at least. ;)",
+    "parent-id": 526,
+    "RowKey": "20050129-134927"
+  },
+  {
+    "id": 2765,
+    "author-name": "Chris",
+    "author-email": "",
+    "author-url": "http://blahgkarma.blogspot.com",
+    "date": "2005-01-29T17:07:45-08:00",
+    "content": "Welcome to the ranks of Flack-dom, Harry.\n\nPersonally, I'd think they'd want a high-end dev/architect like you on a high-end marketing team. Maybe not at MS, but at lots of companies the marketing folks fall down when they get increasingly separated from the real users, real buyers, and real implementers/developers.  Knowing you, I'd think you'd make a great bridge.",
+    "parent-id": 526,
+    "RowKey": "20050129-170745"
+  },
+  {
+    "id": 2766,
+    "author-name": "Norman",
+    "author-email": "marketing@guadagno.com",
+    "author-url": "http://atlasbrandview.blogspot.com",
+    "date": "2005-01-30T20:26:02-08:00",
+    "content": "I, of course, am thrilled that Harry has joined the marketing team. I am also thrilled that Tanya has joined the team and started a blog. Now, I can just sit back and cook up insane marketing schemes that will require Super Bowl ads, mascots, a dedicated 747 jet, and frequent trips to New York and LA to meet with media and show biz people. The team will be taking all future marketing meetings from the Chateau Marmont. Yhea, the slime live well....",
+    "parent-id": 526,
+    "RowKey": "20050130-202602"
+  },
+  {
+    "id": 2767,
+    "author-name": "siding contractor philadelphia",
+    "author-email": "siding@ukr.net",
+    "author-url": "http://northeastunion.com/CommercialRoofing",
+    "date": "2005-08-30T02:44:09-07:00",
+    "content": "There are some disputable moments in your article. I do not absolutely \nagree with the author.",
+    "parent-id": 526,
+    "RowKey": "20050830-024409"
+  }
+]

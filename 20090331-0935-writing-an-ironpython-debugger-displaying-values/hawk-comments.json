@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2187,
+    "author-name": "Steve Shaw",
+    "author-email": "toolmakersteve98@shawstudio.com",
+    "author-url": "http://toolmakersteve.com",
+    "date": "2009-04-11T23:50:43-07:00",
+    "content": "Hmm, starting to look like you're having to deal with a lot of complexity by working directly with CorAPI. (I know you decided in your first post to go that route...)\n\nI'm thinking that MdbgEng / MdbgValue might be a lot simpler to use.\nNot that I know anything about it yet...\n\nBased on what you've learned by all your poking around, any thoughts on what it might be like to duplicate ipydbg, but building on MdbgEng classes instead of CorAPI?\n\n~Steve",
+    "parent-id": 1240,
+    "RowKey": "20090411-235043"
+  }
+]

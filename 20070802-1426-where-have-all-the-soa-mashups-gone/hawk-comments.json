@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2559,
+    "author-name": "Erik Johnson",
+    "author-email": "ejohnson@epicor.com",
+    "author-url": "http://appside.blogspot.com",
+    "date": "2007-08-03T11:08:54-07:00",
+    "content": "Those mashups are stuffed into a shoebox along with our web services.  Four years ago, weren't there meant to be *millions* of web services thriving in a new market?  What happened (hint -- it had nothing to do with WS-*)?  \n\nIt's one thing to show a mashup, quite another to commercially rely on a mashup, and yet another to profit when mashups use your content.  \n\nViable, cross-enterprise, commercial mashups have startup with large commodity/service companies like FedEx content embedded in an eCommerce site (where's my stuff?).  But beyond that, it will be vertical applications that are further automating a specific business chain.  I think you'll find web services have submerged similarly to industry-specific applications.\n",
+    "parent-id": 1020,
+    "RowKey": "20070803-110854"
+  }
+]

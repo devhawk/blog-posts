@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2101,
+    "author-name": "ilanchelian",
+    "author-email": "ilanchelian.kannan@cognizant.com",
+    "author-url": "",
+    "date": "2008-07-30T06:03:13-07:00",
+    "content": "It is interesting to know that you are going to blog about monads. i am curiously looking forward.",
+    "parent-id": 1162,
+    "RowKey": "20080730-060313"
+  },
+  {
+    "id": 2102,
+    "author-name": "Anthony Mills",
+    "author-email": "",
+    "author-url": "http://amills.net/",
+    "date": "2008-07-30T07:26:34-07:00",
+    "content": "I remember having trouble with monads until I understood that monads made things quasi-imperative by taking advantage of the fact that in order to evaluate the body of a function, you have to evaluate the parameters first.\n\nSo, imperative form:\n\nfunction1(state); function2(state); function3(state);\n\nAnd monadic form:\n\nfunction3(function2(function1(state), state), state)\n\nSomething like that, anyway. The point being, in both forms function1 must execute before function2, which must execute before function3.",
+    "parent-id": 1162,
+    "RowKey": "20080730-072634"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2084,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://htto://www.ironpythoninaction.com",
+    "date": "2008-07-17T15:32:30-07:00",
+    "content": "Hi Harry - nice blog entry. My comment on Twitter wasn't really aimed at you - I was hoping to prod Dino, MArtin or Sri into blogging more!\n\nOne question. When IronPython 3 is started, targeting CPython 3.0, will you actively maintain IronPython and IronPython 3 in parallel?\n\nThis is what the Python developers will do for several years to come as it will be a long time before the majority of the community has switched over to Python 3. OF course because of the Unicode strings Python 3 is a better fit for IronPython, but for example the library support outside the standard library won't be there for quite a long time.",
+    "parent-id": 1154,
+    "RowKey": "20080717-153230"
+  },
+  {
+    "id": 2085,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://htto://www.ironpythoninaction.com",
+    "date": "2008-07-17T15:33:31-07:00",
+    "content": "\"will you actively maintain IronPython and IronPython 3 in parallel?\"\n\nThat should have read \"will you actively maintain IronPython 2 and IronPython 3 in parallel?\".\n\nSorry...",
+    "parent-id": 1154,
+    "RowKey": "20080717-153331"
+  },
+  {
+    "id": 2086,
+    "author-name": "francois",
+    "author-email": "schneo@gmail.com",
+    "author-url": "http://francois.schnell.free.fr",
+    "date": "2008-07-26T06:58:02-07:00",
+    "content": "Hello and thanks for these informations especially about Visual Studio.\n\nSorry for my naive question but what do you mean exactly when you say \"Visual Studio integration\"?\nWill it be necessary to buy VS standard/Pro to benefit from it?\n\nWhen I first saw \"Iron Python Studio\"  I went over the Moon before emergency landing (when I realized it was more an example/\"proof of concept demo\" for the VS shell, without support or answers from the author on the forum).\n\nMy hope is to see something approaching the quality of VS Express free as in beer (or for a reasonable price for hobbyist, around 50$)\n\nI say this because the Python world lack a reasonable GUI designer and Microsoft excels at building such tools.\nI can't count the number of people coming to Python, *loving the language* and then asking where to download the GUI designer (\"you know like in visual studio\")... For my part I then continue to use WxPython \"by hand\" but I lose too much time for destop GUI.\n\nIf Microsoft releases such a \"free\" IDE/GUI designer I bet lots of people will jump in the IronPython band-wagon and leverage even more the .Net world.\n\nOn a side note for the \"education world\" maybe Microsoft could be more \"broad\". For example Adobe gives away \"Flex Bulder Pro\" to any students and *any staff* working in education (no need to be part of a special program or agreement):\nhttps://freeriatools.adobe.com/\n(At the place I work in my university it's one of the reason we're going the Flex/Air way instead of Silverlight).\n\nAnyway thanks to Microsoft for working on Iron Python. After the FUD years against Open Source I'm surprise to see Microsoft again as a very innovative and cool place :) (when I see IronPython/Ruby, DLR, Silverlight, PhotoSynth, DeepZoom, CodePlex, PowerShell, Apache support, etc...).\nInteresting times.\n \nfrancois",
+    "parent-id": 1154,
+    "RowKey": "20080726-065802"
+  }
+]

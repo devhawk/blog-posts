@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2396,
+    "author-name": "orcmid",
+    "author-email": "dennis.hamilton@acm.org",
+    "author-url": "http://miser-theory.info/astraendo/pn",
+    "date": "2006-08-03T12:42:26-07:00",
+    "content": "You were there?  Dang, I should have worn my \"The Architect is In\" T-Shirt.  \n\nThe more I talked to others, including some people from the BCL Team on Tuesday night, the more that class boxing the way Markus did it seems useful.  I rarely want simple inheritance off of an existing class.  I usually need to come up with a \"parallel\" class hierarchy that injects extensions/contractions on the interfaces of the original hierarchy.\n\nBy the way, that was an awesome symposium.  On Monday there was no moment that I was wishing that I could check my e-mail instead.\n\nPS: Spec# can be done entirely in the IDE, as far as I can tell. That makes it a very rich idea.  I think it will be far more acceptable than formal verification, especially in use on production development projects.  (Think if FX cop but with way fewer need for test cases -- the reduction of test-coverage burden should pay for Spec# use hundreds of times over.)",
+    "parent-id": 778,
+    "RowKey": "20060803-124226"
+  },
+  {
+    "id": 2397,
+    "author-name": "orcmid",
+    "author-email": "dennis.hamilton@acm.org",
+    "author-url": "http://miser-theory.info/astraendo/pn",
+    "date": "2006-08-03T16:29:43-07:00",
+    "content": "Well, I pulled the trigger a little too quickly there.  \n\nThere are some language tweaks that the Spec# folk put into the C# language (for example) to make it easier to assert that a reference is not allowed to be null, that sort of thing.  There are probably decorations that would not require fudging with the language, and then there might be some sugar to make the decorations less painful.  But basically, the main work and the game of verifying the assertions is accomplished with an integration into the IDE.",
+    "parent-id": 778,
+    "RowKey": "20060803-162943"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "id": 1224,
+  "slug": "writing-an-ironpython-debugger-dynamic-stack-trace",
+  "title": "Writing an IronPython Debugger: Dynamic Stack Trace",
+  "date": "2009-03-09T15:10:02-07:00",
+  "modified": "2011-04-17T01:04:07-07:00",
+  "csv-category-slugs": "IronPython|ironpython",
+  "csv-tag-slugs": "Debugger|debugger",
+  "author": "DevHawk|devhawk|harry@devhawk.net",
+  "comment_count": 0,
+  "PartKey": "20090309-1510-writing-an-ironpython-debugger-dynamic-stack-trace"
+}

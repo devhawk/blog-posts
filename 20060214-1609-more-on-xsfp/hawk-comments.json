@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2902,
+    "author-name": "Lucas Gonze",
+    "author-email": "lucas@gonze.com",
+    "author-url": "http://gonze.com",
+    "date": "2006-02-15T18:26:56-08:00",
+    "content": "RSS is not about lists so much as it's about reverse-chronological journals.  There are assumptions about the weblog form buried deep in the format, for example the idea that all entries would have some sensible reason to have a pubDate.\n\nWe could indeed do playlists as an RSS extension, and at the time we started on XSPF some people were experimenting with that.  Those experiments didn't work out for three reasons.  One, many RSS features just weren't applicable to playlists and would create needless verbosity.  Two, many playlist features weren't already in RSS and would have to be invented no matter what we did.  Three, our target user base was developers of MP3 players, who would be actively turned off by having to deal with RSS.  XSPF is much much much simpler than RSS.  On the whole, an RSS-based approach would have been buggier, harder, and hard to sell.  \n\nNow my question for you: why are you looking at multimedia through RSS-colored glasses?  Why should web logs be the model for playlists?",
+    "parent-id": 693,
+    "RowKey": "20060215-182656"
+  },
+  {
+    "id": 2903,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2006-02-16T10:39:41-08:00",
+    "content": "I believe your understanding of RSS to be flawed. If you read the 2.0 spec, you'll notice that there are no assumptions baked into the spec. Sure, it's primarily used for weblogs, but RSS doesn't mandate weblogs. For example, your point about pubDate is incorrect. PubDate, like all other defined item elements, is optional. \n\nFrom the link you left in your last post, it's pretty clear you were looking at the 1.0 version of the RSS spec which was significantly more verbose. Have you looked at the 2.0 spec?\n\nI'm not looking at multimedia through RSS-colored glasses. I'm seeing yet another list format that is semantically similar but syntactically different from RSS. That means that instead of using well known (and well tested) RSS libraries to process playlist feeds, I have to write everything from scratch. That creates more bugs, not less.\n\nGiven the popularity of podcasting - which of course uses RSS as the feed format - RSS for multimedia seems to be working well already. From my reading of the spec, an XPSF feed is basically an RSS feed without some of the elements that are optional in RSS anyway. ",
+    "parent-id": 693,
+    "RowKey": "20060216-103941"
+  },
+  {
+    "id": 2904,
+    "author-name": "Lucas Gonze",
+    "author-email": "lucas@gonze.com",
+    "author-url": "http://gonze.com",
+    "date": "2006-02-16T11:54:34-08:00",
+    "content": "That's XSPF, not XPSF.\n\nIt is silly to say that there are no assumptions baked into the spec.\n\n",
+    "parent-id": 693,
+    "RowKey": "20060216-115434"
+  }
+]

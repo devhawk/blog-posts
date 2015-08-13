@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2458,
+    "author-name": "Shane Courtrille",
+    "author-email": "shanecourtrille@gmail.com",
+    "author-url": "",
+    "date": "2007-02-16T12:38:41-08:00",
+    "content": "Have you looked at UltraEdit as a Notepad2 replacement?  I've used it for years now and I love it.  Adding new syntax highlighting to it is fairly easy.  You can usually find a file for whatever you need (Nant for instance).",
+    "parent-id": 885,
+    "RowKey": "20070216-123841"
+  }
+]

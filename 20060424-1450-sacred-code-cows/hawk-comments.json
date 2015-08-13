@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2352,
+    "author-name": "Mike Clark",
+    "author-email": "michael.clark@ofm.wa.gov",
+    "author-url": "http://www.clarkmichael.com",
+    "date": "2006-04-25T09:13:04-07:00",
+    "content": "NO NO NO!  No bloody underscores between words!  BIG bloody annoyance!  [Sound of light saber being activated] I will lop off the fingers of the first one of you who DARES to even THINK of deprecating Camel and Pascal casing in .NET code!  \n\nYou freaks who want to code with underscores in Ruby, I hope you, too, get run out of town on a Rail!  GRRRRRR!\n\n(No, seriously, underscores are the spawn of Satan).\n\nHave a nice day!  :)",
+    "parent-id": 740,
+    "RowKey": "20060425-091304"
+  },
+  {
+    "id": 2353,
+    "author-name": "Dan McKinley",
+    "author-email": "",
+    "author-url": "http://mcfunley.com",
+    "date": "2006-04-25T10:48:58-07:00",
+    "content": "Good post. I think this concept intersects with the phenomenon of \"cargo cult\" programming to some degree. On my team, the old timers are in the habit of setting local references to Nothing when using VB.NET. Ie,\n\nPublic Sub Foo()\n  Dim x As New Object\n  ' Use x\n  x = Nothing\nEnd Sub\n\nNobody can explain how this got started and I've had some extreme difficulty explaining this is not necessary.",
+    "parent-id": 740,
+    "RowKey": "20060425-104858"
+  },
+  {
+    "id": 2354,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2006-04-25T11:59:08-07:00",
+    "content": "Come on Mike, tell us how you REALLY feel! :)",
+    "parent-id": 740,
+    "RowKey": "20060425-115908"
+  },
+  {
+    "id": 2355,
+    "author-name": "Eirik Mangseth",
+    "author-email": "",
+    "author-url": "",
+    "date": "2006-05-03T03:57:57-07:00",
+    "content": "You wrote \"He's a bigger fan of using underscores between words (which is big in the Ruby world)\". The Ruby world got this from Eiffel and Bertrand Meyer. Just read Object-oriented Software Construction, 2nd Edition. And anyone with a modicum of knowledge knows that Ruby's inventor was heavily inspired by Eiffel and the OOSC-book.\n\nEirik\n\n\"If I can't Eiffel in heaven, I won't go.\"",
+    "parent-id": 740,
+    "RowKey": "20060503-035757"
+  }
+]

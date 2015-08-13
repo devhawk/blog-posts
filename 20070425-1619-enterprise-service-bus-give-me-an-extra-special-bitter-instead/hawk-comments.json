@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2488,
+    "author-name": "Udi Dahan - The Software Simplis",
+    "author-email": "blog@UdiDahan.com",
+    "author-url": "http://udidahan.weblogs.us",
+    "date": "2007-04-25T21:47:39-07:00",
+    "content": "Harry,\n\nThe problems that you are attributing to ESB's are really those of the Broker style that BizTalk supports. That central hub you talk about is not a part of message exchanges in the Bus style, although many ESB's do have some sort of central location to jumpstart interactions.\n\nThis is the main problem I have with Microsoft's ESB message. BizTalk is a broker and will not be a bus until it is redesigned from the ground up. At least, that's what I think :)",
+    "parent-id": 943,
+    "RowKey": "20070425-214739"
+  },
+  {
+    "id": 2489,
+    "author-name": "Curt Peterson",
+    "author-email": "curt.peterson@neudesic.com",
+    "author-url": "http://www.neudesic.com/esb",
+    "date": "2007-04-26T13:28:07-07:00",
+    "content": "Harry,\n\nI couldn't agree more that a centralized approach to messaging has some less than desired side effects, as you mentioned.  However, consider an alternative, point to point.  If you go down this path, for example using WCF just like it is (any channel you choose), how do you deal with all of the management issues you guys are dealing with in ICOE, or deployment, or service reuse, or mediation, or versioning, etc.?  I'm confident you would agree there are a certain set of common capabilities required to have a decent messaging solution, as well as some nice to have's you could throw in there.  If we did that, why not consider that a definition of an ESB?  What that collection of specific features is called isn't as important, I'll offer, as the fact that were abstracting common elements of an enterprise communications system into a reusable pattern, and delivering that as a real solution, reusable, and available today.  This saves, time, money, etc.\n\nWe've crafted a solution, using all MSFT technologies that achieves exactly this http://www.neudesic.com/esb, is available now, is super easy to use, dramatically reduces the cost of wiring together services, and provides features that enable many of the promises of distributed, loosely coupled architectures to be realized.  Our solution is not physically centralized, it is logically centralized, but physically decentralized.  This gives you the best of both worlds; the maintenance ease of a centralized system, with the flexibility, performance, etc. of a decentralized solution.  Check it out, I have implemented these kinds of solutions for nearly 20 years, and it's great to finally have a complete MSFT solution, now we can introduce a product that is very easy to use, into an existing environment, with no impact on the current communications, and bring all of the power of CBR, CEP, BPM, BAM, QoS, security, mediation, reconfigurability, BRE, workflow, and many other fantastic tools, in a matter of minutes.  Shoot me an email, if you want to know more, I'm always happy to prove it, not just say it!!!  The correct communications tools (read good ESB) can and does do wonders for small, medium, and large projects.  Cheers!!!",
+    "parent-id": 943,
+    "RowKey": "20070426-132807"
+  },
+  {
+    "id": 2490,
+    "author-name": "Hans Valcke",
+    "author-email": "hans.valcke@unilin.com",
+    "author-url": "http://www.linkedin.com/myprofile?trk=tab_pro",
+    "date": "2007-04-29T05:41:38-07:00",
+    "content": "Hi,Harry\n\nWe had a fairly large Biztalk env. in our company and we already implemented 2 hub's one in EU, one in US in 2004. Then we added the ESB concepts so we can deploy federated biztalk servers around the globe with central routing tables and central console. We can use messaging and services in the ESB design and can scale as large as you want, just add more hubs to the ESB.\n\nWe also wrote ESB-switches which can also route the messages thoughout the ESB and we to dynamic routing so we can re-route if a hub is down -All hubs use services to check for new routing and give hartbeats to our main hub's. We also implemeted enterprise dymensionnal routing so we can monitor and simulate the impact of changes in routing.\n\nCurrently we're implementing 15 federeted hub across the globe.\n\nHans.",
+    "parent-id": 943,
+    "RowKey": "20070429-054138"
+  }
+]

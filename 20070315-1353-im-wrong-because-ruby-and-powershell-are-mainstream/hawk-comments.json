@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2467,
+    "author-name": "Anonymous",
+    "author-email": "",
+    "author-url": "",
+    "date": "2007-03-15T16:19:56-07:00",
+    "content": "The biggest questions is - why invent another language for PowerShell if there are so many great popular languages already in existance?",
+    "parent-id": 911,
+    "RowKey": "20070315-161956"
+  },
+  {
+    "id": 2468,
+    "author-name": "orcmid",
+    "author-email": "dennis.hamilton@acm.org",
+    "author-url": "http://orcmid.com/BlunderDome/clueless",
+    "date": "2007-03-15T19:29:18-07:00",
+    "content": "Well then, don't both Python and Javascript count too?  You can inject new methods into any of their ordinary objects.  ",
+    "parent-id": 911,
+    "RowKey": "20070315-192918"
+  },
+  {
+    "id": 2469,
+    "author-name": "Jeffrey Snover",
+    "author-email": "jsnover13@hotmail.com",
+    "author-url": "",
+    "date": "2007-03-15T21:42:29-07:00",
+    "content": "> The biggest questions is - why invent another language for PowerShell if > there are so many great popular languages already in existance?\n\nTry it and you'll see.   I'm not aware of a language that has as wide a dynamic range as PowerShell (Please point one out if you know of one).  Bruce Payette's book, PowerShell in Action provides both a great language reference as well as the reasoning behind the decisions we made in producing PowerShell (Bruce is the dev lead for the language).\n\nJeffrey Snover [MSFT]\nWindows PowerShell/MMC Architect\nVisit the Windows PowerShell Team blog at:    http://blogs.msdn.com/PowerShell\nVisit the Windows PowerShell ScriptCenter at:  http://www.microsoft.com/technet/scriptcenter/hubs/msh.mspx\n",
+    "parent-id": 911,
+    "RowKey": "20070315-214229"
+  },
+  {
+    "id": 2470,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2007-03-15T22:44:55-07:00",
+    "content": "orchmid, Ruby not only allows you to inject methods into objects, but into classes as well. Extension Methods in C#3/VB9 act at the class level. Javascript doesn't really have classes and I don't know Python well enough to comment.\n\nAs for why to invent another language, I certainly don't think a single lanugage feature is enough to argue for or against the existence of the PowerShell language. I fraking love PowerShell, and it has nothing to do with the ability to add new methods to classes. \n\n\n",
+    "parent-id": 911,
+    "RowKey": "20070315-224455"
+  }
+]

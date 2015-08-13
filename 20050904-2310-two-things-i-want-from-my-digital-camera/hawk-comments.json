@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2840,
+    "author-name": "B@rney",
+    "author-email": "",
+    "author-url": "http://www.sharepointblogs.biz/blogs/bjarne/",
+    "date": "2005-09-04T23:44:31-07:00",
+    "content": "My HP PhotoSmart 945 has voice notes. I just keep pressing the button and start talking to get voice added to the picture. The file is stored as a wav file with the same filename as the image.",
+    "parent-id": 626,
+    "RowKey": "20050904-234431"
+  },
+  {
+    "id": 2841,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2005-09-06T09:44:28-07:00",
+    "content": "Thanks B@rney! That's EXACTLY what I was looking for.",
+    "parent-id": 626,
+    "RowKey": "20050906-094428"
+  },
+  {
+    "id": 2842,
+    "author-name": "Matt Williams",
+    "author-email": "mattwilliams@captaris.com",
+    "author-url": "http://technovangelist.com",
+    "date": "2005-09-08T17:03:26-07:00",
+    "content": "My Nikon 7900 has voice notes too. That was the one I used to take a picture of you and Allen wallpapering....and which you used to take one of me and Allen wallpapering. Tiny little thing (the camera that is, not you, me, or Allen). I too wish it had GPS.",
+    "parent-id": 626,
+    "RowKey": "20050908-170326"
+  }
+]

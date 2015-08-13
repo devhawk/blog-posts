@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2519,
+    "author-name": "Larry O'Brien",
+    "author-email": "lobrien@knowing.net",
+    "author-url": "http://www.knowing.net/",
+    "date": "2007-06-05T11:01:27-07:00",
+    "content": "This is the \"Do you believe in  evolution?\" question for the faithful RESTafarians. I've had conversations about RESTful architectures in desktop applications that I felt were extremely useful. But without a doubt such a conversation would immediately be condemned by certain elements, probably combined with a suspicion that even asking the question is the first step in tricking / co-opting REST for your nefarious, Borg-like ends. \n\nIt's odd that an architectural style, the sort of thing that you might expect to see fruitfully discussed at PLoP, is so prone to dogma and passion. One wonders what people are so wound up about. ",
+    "parent-id": 976,
+    "RowKey": "20070605-110127"
+  },
+  {
+    "id": 2520,
+    "author-name": "Alan Dean",
+    "author-email": "alan.dean@thoughtpad.net",
+    "author-url": "http://thoughtpad.net/alan-dean",
+    "date": "2007-06-05T11:39:20-07:00",
+    "content": "The short answer to your question is that REST is not bound to HTTP.\n\nTo quote from Roy's dissertation:\n\n\"REST does not restrict communication to a particular protocol, but it does constrain the interface between components, and hence the scope of interaction and implementation assumptions that might otherwise be made between components ...\"\nhttp://www1.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_3_2\nhttp://simplewebservices.org/index.php?title=Connector_View\n\nThere has, in fact, come up in conversation on [rest-discuss] very recently, see http://tech.groups.yahoo.com/group/rest-discuss/message/8781",
+    "parent-id": 976,
+    "RowKey": "20070605-113920"
+  },
+  {
+    "id": 2521,
+    "author-name": "John Heintz",
+    "author-email": "jheintz@pobox.com",
+    "author-url": "http://johnheintz.blogspot.com",
+    "date": "2007-06-05T13:54:24-07:00",
+    "content": "The author of REST himself is working on a non-HTTP protocol to better support REST. Search Google for \"roy fielding waka\". (There is only a tiny bit of information available...)\n\nA discussion of building a REST-constrained system on top of SSB is perfectly legitimate discussion.\n\nOne caveat, (looking for link... looking for link...) because HTTP is so widely deployed and available (plus DNS) there is a huge immediate value in using \"http:\" based URIs. The simple benefit of an already deployed and free naming infrastructure is huge.\n\nAh! Found the link: Norman Walsh here: http://norman.walsh.name/2006/07/25/namesAndAddresses",
+    "parent-id": 976,
+    "RowKey": "20070605-135424"
+  },
+  {
+    "id": 2522,
+    "author-name": "Alex James",
+    "author-email": "Alex@base4.net",
+    "author-url": "http://www.base4.net/Blog.aspx?ID=447",
+    "date": "2007-06-05T14:14:56-07:00",
+    "content": "The sample code that Alan points to is remarkably like something I have implemented recently to seperate the HTTP facing endpoints for REST from the actual implementation endpoints. This seperation / encapsulation allows me to do things like Transactions and program RESTful in-process too.\n\nSee a huge chunk of the benefit of REST comes from the formulation of a namespace of URI's. Why should you need to incur protocol costs to use a namespace? If that where the case it is kind of like saying all access to a HDD needs to be through network shares? (i.e. \\localhostc$ instead of C:)\n\nAnd yes there does seem to be a fair bit of equating REST to HTTP going on recently, although typically, it must be said, by SOAP people just coming to grips with REST. I did a post on this very topic:\n\nhttp://www.base4.net/Blog.aspx?ID=447",
+    "parent-id": 976,
+    "RowKey": "20070605-141456"
+  },
+  {
+    "id": 2523,
+    "author-name": "Erik Johnson",
+    "author-email": "ejohnson@epicor.com",
+    "author-url": "http://appside.blogspot.com",
+    "date": "2007-06-05T14:28:24-07:00",
+    "content": "I think you can separate REST from HTTP, but you ought to call it something other than \"REST\".\n\nhttp://appside.blogspot.com/2007/06/rest-over-http.html\n",
+    "parent-id": 976,
+    "RowKey": "20070605-142824"
+  },
+  {
+    "id": 2524,
+    "author-name": "John Tullis",
+    "author-email": "John.Tullis@cna.com",
+    "author-url": "",
+    "date": "2007-06-19T09:05:33-07:00",
+    "content": "Clearly REST is not dependent upon HTTP and URI. When the Web was growing, another protocol could have been used for HTTP, and another content type than HTML. But the URI is key -- REST bounded the verbs (HTTP) and content types (MIME in Web world), but the nouns (URIs) are unbounded. It was the unboundedness of the URIs that was key. So -- sure you could replace the URIs with some other noun based approach -- but why?",
+    "parent-id": 976,
+    "RowKey": "20070619-090533"
+  }
+]

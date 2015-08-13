@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2990,
+    "author-name": "John Cavnar-Johnson",
+    "author-email": "",
+    "author-url": "",
+    "date": "2004-02-09T20:19:43-08:00",
+    "content": "Hmmm....  I get to pick my job title for my new job and you just helped me do it.\n\nJohn Cavnar-Johnson,\nRealist Architect\ndeveloperLabs",
+    "parent-id": 306,
+    "RowKey": "20040209-201943"
+  },
+  {
+    "id": 2991,
+    "author-name": "Jeff Lewis",
+    "author-email": "jeff@consultutah.com",
+    "author-url": "http://consultutah.com/weblog.aspx",
+    "date": "2004-02-10T07:58:51-08:00",
+    "content": "Realist - a purest would never accomplish anything...",
+    "parent-id": 306,
+    "RowKey": "20040210-075851"
+  },
+  {
+    "id": 2992,
+    "author-name": "Michael Earls",
+    "author-email": "mearls@hotmail.com",
+    "author-url": "http://www.cerkit.com",
+    "date": "2004-02-12T09:59:20-08:00",
+    "content": "Jeff, I disagree.  When teamed together, architects from each side (and the middle) work perfectly well together and can accomplish great things.  So I must say that a purist _does_ accomplish a lot.  In fact, it's the purist you want designing your API and the realist doing the code review and API usability studies.\n\nHarry, I think my intent was to spearate the purpose of my entry from the purpose of yours by stating that it's a study of behavior rather than title and function as your entry does.  I did not mean to imply that you didn't care. :)  [removes foot from mouth]",
+    "parent-id": 306,
+    "RowKey": "20040212-095920"
+  },
+  {
+    "id": 2993,
+    "author-name": "Michael Earls",
+    "author-email": "mearls@hotmail.com",
+    "author-url": "http://www.cerkit.com",
+    "date": "2004-02-14T11:47:29-08:00",
+    "content": "I've posted that survey you suggested...\n\nhttp://extranet.cerkit.com/Architects/Lists/Architect%20Type/overview.aspx",
+    "parent-id": 306,
+    "RowKey": "20040214-114729"
+  },
+  {
+    "id": 2994,
+    "author-name": "Michael Earls",
+    "author-email": "mearls@hotmail.com",
+    "author-url": "http://www.cerkit.com",
+    "date": "2004-02-14T21:49:47-08:00",
+    "content": "I goofed.  Sharepoint was not designed to allow anonymous users to post survey responses.  In addition, I don't think my dev license for Sharepoint covers this use case.\n\nI've rewritten the survey in ASP.NET.\n\nhttp://extranet.cerkit.com/Architects/\n\nSorry for the goof-up.",
+    "parent-id": 306,
+    "RowKey": "20040214-214947"
+  },
+  {
+    "id": 2995,
+    "author-name": "shawn.w.freilinger@odot.state.or.us (Shawn Wicks Freilinger)",
+    "author-email": "shawn.w.freilinger@odot.state.or.usShawnWicksFreilinger",
+    "author-url": "",
+    "date": "2004-02-18T16:19:49-08:00",
+    "content": "Realist.  If I was a purist I would pontificate about the merits of that position, but I am a realist and I know it would probably not get read.",
+    "parent-id": 306,
+    "RowKey": "20040218-161949"
+  }
+]

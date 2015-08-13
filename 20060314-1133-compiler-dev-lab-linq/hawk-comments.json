@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2330,
+    "author-name": "Sam Gentile",
+    "author-email": "",
+    "author-url": "http://codebetter.com/blogs/sam.gentile/",
+    "date": "2006-03-14T17:18:01-08:00",
+    "content": "What, no mention of hanging out with me today at the F# thing? -))",
+    "parent-id": 722,
+    "RowKey": "20060314-171801"
+  },
+  {
+    "id": 2331,
+    "author-name": "Keith J. Farmer",
+    "author-email": "kfarmer@microsoft.com",
+    "author-url": "",
+    "date": "2006-03-15T00:20:13-08:00",
+    "content": "Well, it's not like us DLinq devs are exactly hiding.. ;)\n",
+    "parent-id": 722,
+    "RowKey": "20060315-002013"
+  }
+]

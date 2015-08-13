@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2689,
+    "author-name": "Chris Bilson",
+    "author-email": "cbilson@pobox.com",
+    "author-url": "http://weblogs.factored-software.com/chris",
+    "date": "2005-03-21T21:57:50-08:00",
+    "content": "Did you ever find a suitable way of doing this? I have a web service that has types that are very ugly to work with when xsd.exe'd, not to mention that it takes xsd.exe eons to generate millions of lines of really bad code for the huge schemas I am trying to work with. My service works just fine without WSDL, but I would really like to have dressed up in an actual-factual WSDL document when it is exposed in the wild. I am starting to think my best bet is to override GetDescription and return a hand made WSDL. Any thoughts?",
+    "parent-id": 449,
+    "RowKey": "20050321-215750"
+  }
+]

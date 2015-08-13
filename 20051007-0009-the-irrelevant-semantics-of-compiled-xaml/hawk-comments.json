@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2861,
+    "author-name": "Rob Relyea",
+    "author-email": "rrelyea@microsoft.com",
+    "author-url": "http://longhornblogs.com/rrelyea",
+    "date": "2005-10-08T04:57:23-07:00",
+    "content": "A) IL still works\nYou said:\nI wonder if they are going to go the same route as WPF and eliminate the C#/IL way of declaring workflows\nRR: WPF still supports using code only (you don't need to ever use XAML if you don't want to...most tools will be built using XAML as the persistance model though).  We just don't convert XAML into all IL anymore.  I believe WWF/XAML will be similar, but I'm not positive.\n\nB) CPU + IO Bandwidth\nThe BAML vs IL question you raise in your UPDATE is an interesting one.\n\nWhen we used to compile XAML to IL, the EXEs were much larger.  IL can't be processed as it is downloaded.  With BAML, you have a shared amount of code to load it, and repeated baml records to load and discard.\n\nSo there are a bunch of factors here.  Download size of the assembly, streamability of the baml, etc...\n\nWe were surprised that IL wasn't much faster than BAML.  Happily, that allowed us to focus all of our developement, optimizations, testing on one code path, which is a good thing.",
+    "parent-id": 641,
+    "RowKey": "20051008-045723"
+  }
+]

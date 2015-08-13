@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2484,
+    "author-name": "Erik Johnson",
+    "author-email": "ejohnson@epicor.com",
+    "author-url": "http://appside.blogspot.com",
+    "date": "2007-04-17T14:13:56-07:00",
+    "content": "Hmmm.  Sounds familiar.  \n\nhttp://blogs.msdn.com/jdevados/archive/2006/08/02/687269.aspx\n\n",
+    "parent-id": 937,
+    "RowKey": "20070417-141356"
+  },
+  {
+    "id": 2485,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2007-04-17T15:45:51-07:00",
+    "content": "Great minds think alike!",
+    "parent-id": 937,
+    "RowKey": "20070417-154551"
+  }
+]

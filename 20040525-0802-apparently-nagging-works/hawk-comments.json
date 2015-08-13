@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2610,
+    "author-name": "Greg Collver",
+    "author-email": "greg.collver@do.threerivers.k12.or.us",
+    "author-url": "",
+    "date": "2004-05-25T10:11:37-07:00",
+    "content": "here is the link to your dad's blog rss feed:\nhttp://halpierson.blogspot.com/atom.xml\n\nVery good stuff, I am very interested in both of your blogs.\nhttp://gcblog.blogspot.com/atom.xml\n",
+    "parent-id": 367,
+    "RowKey": "20040525-101137"
+  },
+  {
+    "id": 2611,
+    "author-name": "Joshua Hayworth",
+    "author-email": "joshua@hayworth.com",
+    "author-url": "http://www.hayworthsoftware.com/personal",
+    "date": "2004-05-27T00:37:06-07:00",
+    "content": "I posted this on your Dad's site, but I wanted to get your opinion as well.\n\nCool/Not Cool?\n\n[post: http://halpierson.blogspot.com/2004/05/models.html]\n\nHello,\n\nI'm a 25 year old up and comming developer, working with a small company while I'm going to school. \n\nOne of the things my manager is trying to instill in me is the importance of modeling. He insists on \"blueprinting\" the application before I write a line of code. We're using the Rational Unified Process to develop our product.\n\nNow understand that I have come from a Microsoft Access/Visual Basic 6 background. The desire to just code first is incredible. Development Lifecycle models like \"Agile\" or \"eXtreme Programming\" sound extremely appealing.\n\nI'm learning to like UML and designing before I code.\n\nI was curious how you felt about it? Good/Bad/Indifferent?\n\nWould you be willing to give me a little advise on making the long journey from apprentice coder to software architect?\n\nJoshua\n(joshua@hayworth.com)\n[/post]",
+    "parent-id": 367,
+    "RowKey": "20040527-003706"
+  },
+  {
+    "id": 2612,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2004-06-02T20:02:52-07:00",
+    "content": "Greg, thanks for pointing out the ATOM url.\n\nJoshua, as with all things, there is a middle ground between the model-every-last-detail and the just-start-coding approaches. It really depends on what you're building. The approach taken to construct a doghouse is very different from constructing a skyscraper. Likewise, you would take different approaches to building an ERP system vs. the company picnic registration system. The bigger the problem to solve, the better off modeling the problem and solution first. ",
+    "parent-id": 367,
+    "RowKey": "20040602-200252"
+  },
+  {
+    "id": 2613,
+    "author-name": "Priapo",
+    "author-email": "pr14p0@hotmail.com",
+    "author-url": "http://rsc112.blogspot.com",
+    "date": "2004-06-06T16:02:15-07:00",
+    "content": "Hi there -\nIn case your father want to use another feedback different from Atom's he can use Blogstreet Rss agregator, it's free and works really well. It'll allow him use other services such as Wap enabling the weblog.\n\nHere's the link: http://www.blogstreet.com/rssecosystem.html\n\n ~ Priapo",
+    "parent-id": 367,
+    "RowKey": "20040606-160215"
+  }
+]

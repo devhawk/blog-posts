@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2339,
+    "author-name": "orcmid",
+    "author-email": "dennis.hamilton@acm.org",
+    "author-url": "http://orcmid.com/blog/",
+    "date": "2006-03-22T11:34:15-08:00",
+    "content": "The opening video for the DVD is cool, as is making the DVD experience part of the XNA page on MSDN.  That looks fascinating.  (Not having a machine without production on it, I didn't click the install button.)",
+    "parent-id": 729,
+    "RowKey": "20060322-113415"
+  },
+  {
+    "id": 2340,
+    "author-name": "Christian Weyer",
+    "author-email": "",
+    "author-url": "http://blogs.thinktecture.com/cweyer/",
+    "date": "2006-03-22T11:34:44-08:00",
+    "content": "Of course, SPOT on!\nhttp://www.windowsfordevices.com/news/NS4666205829.html",
+    "parent-id": 729,
+    "RowKey": "20060322-113444"
+  },
+  {
+    "id": 2341,
+    "author-name": "David White",
+    "author-email": "dwhite@gsdtelematics.com",
+    "author-url": "http://www.gsdtelematics.com",
+    "date": "2006-03-23T07:33:04-08:00",
+    "content": "You will be able to program against your car in .Net as soon as we can get the hardware finished ;-) Check it out in about 30 days!",
+    "parent-id": 729,
+    "RowKey": "20060323-073304"
+  },
+  {
+    "id": 2342,
+    "author-name": "mp3 blog",
+    "author-email": "mp3blog@yahoo.com",
+    "author-url": "http://www.3mp3search.com/",
+    "date": "2006-04-03T04:47:36-07:00",
+    "content": "nice to hear that",
+    "parent-id": 729,
+    "RowKey": "20060403-044736"
+  }
+]

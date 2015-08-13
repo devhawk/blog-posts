@@ -1,0 +1,112 @@
+[
+  {
+    "id": 2261,
+    "author-name": "Michael Foord",
+    "author-email": "fuzzyman@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com/",
+    "date": "2009-09-23T10:40:00-07:00",
+    "content": "Adding an IronPython tutorial to Try Python is on my todo list. :-)\n\nIf you guys can contribute something first then that would be awesome of course... :-)",
+    "parent-id": 1289,
+    "RowKey": "20090923-104000"
+  },
+  {
+    "id": 2262,
+    "author-name": "Eric Lee",
+    "author-email": "",
+    "author-url": "",
+    "date": "2009-09-23T12:39:00-07:00",
+    "content": "Visual Studio integration, without a doubt.  This would be huge for a variety of reasons; I want to use a familiar editor, I want to build mixed-language projects without managing multiple toolsets, makes it easier for my team to take it seriously, etc., etc.",
+    "parent-id": 1289,
+    "RowKey": "20090923-123900"
+  },
+  {
+    "id": 2263,
+    "author-name": "Dody Gunawinata",
+    "author-email": "dody@nomadlife.org",
+    "author-url": "",
+    "date": "2009-09-23T18:25:00-07:00",
+    "content": "App compatibility would be on top of my list especially since on the web space, there is no major python framework is currently working out of the box  on IronPython and that's a pretty major gap.",
+    "parent-id": 1289,
+    "RowKey": "20090923-182500"
+  },
+  {
+    "id": 2264,
+    "author-name": "Bob Arnson",
+    "author-email": "spam@bobs.org",
+    "author-url": "http://www.joyofsetup.com",
+    "date": "2009-09-23T18:34:43-07:00",
+    "content": "I haven't been able to find any statements about 3.x: Is there a plan for 3.x support or is it a question of critical mass?",
+    "parent-id": 1289,
+    "RowKey": "20090923-183443"
+  },
+  {
+    "id": 2266,
+    "author-name": "Bengt",
+    "author-email": "",
+    "author-url": "",
+    "date": "2009-09-24T00:22:47-07:00",
+    "content": "Until you have a form designer and intellisense IronPython is just a toy compared to C#, only good for embedding scenarios. And with C# 5 I can just use C# as an embedding language instead.",
+    "parent-id": 1289,
+    "RowKey": "20090924-002247"
+  },
+  {
+    "id": 2267,
+    "author-name": "Kamil Dworakowski",
+    "author-email": "kamil@dworakowski.name",
+    "author-url": "http://kamil.dworakowski.name",
+    "date": "2009-09-24T03:27:05-07:00",
+    "content": "I would be most happy with import time improvement, specifically importing from dll (python compiled into dlls).",
+    "parent-id": 1289,
+    "RowKey": "20090924-032705"
+  },
+  {
+    "id": 2268,
+    "author-name": "Jonathan Hartley",
+    "author-email": "tartley@tartley.com",
+    "author-url": "http://tartley.com",
+    "date": "2009-09-24T03:50:22-07:00",
+    "content": "Harry,\n\nIs there a better place for people to suggest / vote for features than in these comments? Maybe on the IP mailing list? Or is here fine?\n\nPersonally, start up time is the only thing that bugs me on a daily basis, and makes me think twice when I'm choosing between IronPython or CPython for new personal projects.\n\nBengt: There's nothing to stop you using the Visual Studio form designer and then just inheriting from those generated forms in IronPython. We do that with new GUI components all the time where I work.\n",
+    "parent-id": 1289,
+    "RowKey": "20090924-035022"
+  },
+  {
+    "id": 2269,
+    "author-name": "Michael Foord",
+    "author-email": "michael@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com/",
+    "date": "2009-09-24T10:01:06-07:00",
+    "content": "I'd love to see you guys work on performance as benchmarked in some realistic scenarios (e.g. Unladen Swallow are using the Django templating engine for benchmarking). I don't think microbenchmarks at all show the performance issues for large Python apps.\n\nIn general running IronPython with larger Python codebases (Django, Trac, Mercurial) would shake out both comaptibility *and* performance issues which I think are the most important. :-)\n\nOh - getting pdb working *fully* with IronPython 2.6 would be awesome by the way. ",
+    "parent-id": 1289,
+    "RowKey": "20090924-100106"
+  },
+  {
+    "id": 2270,
+    "author-name": "Michael Foord",
+    "author-email": "michael@voidspace.org.uk",
+    "author-url": "http://www.ironpythoninaction.com/",
+    "date": "2009-09-24T10:02:36-07:00",
+    "content": "@Bengt\nI don't see how generating forms in IronPython is particularly interesting. Visual Studio integration *is* interesting but the form designer should be at the bottom of the priority list for integration. You can already use the forms designer to generate C# and use that from IronPython very easily.",
+    "parent-id": 1289,
+    "RowKey": "20090924-100236"
+  },
+  {
+    "id": 2271,
+    "author-name": "DevHawk",
+    "author-email": "harry@devhawk.net",
+    "author-url": "",
+    "date": "2009-09-24T16:36:34-07:00",
+    "content": "@Bob, We're big fans of Python 3k (though we'll skip 3.0 and go directly to 3.1) as ascii stings is a big source of incompatibility for IronPython. Now that we're (almost) past 2.6, we're trying to figure out our post 2.6 roadmap including when we ship IronPython 3.1.\n\n@Jonathan, I think the best way for people to vote is to create work items on the IronPython CodePlex site since it's got a built in voting system. Also, have you looked tried the new 2.6 - I'd love to hear your thoughts on our improved startup time.\n\n@Eric, Agreed on VS integration\n\n@Dody, Agreed on app compat. Any suggestions beyond Michael's (Django, Trac, Mercurial)?",
+    "parent-id": 1289,
+    "RowKey": "20090924-163634"
+  },
+  {
+    "id": 2272,
+    "author-name": "Dody Gunawinata",
+    "author-email": "dody@nomadlife.org",
+    "author-url": "",
+    "date": "2009-09-30T15:48:43-07:00",
+    "content": "http://www.sqlalchemy.org/ and http://code.google.com/p/formalchemy/\n\nhttp://turbogears.org/\n\nhttp://pylonshq.com\n\nhttp://webpy.org/",
+    "parent-id": 1289,
+    "RowKey": "20090930-154843"
+  }
+]

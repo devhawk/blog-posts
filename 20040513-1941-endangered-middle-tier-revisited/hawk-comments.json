@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2607,
+    "author-name": "Darrel Miller",
+    "author-email": "darrel@tavis.ca",
+    "author-url": "",
+    "date": "2004-05-14T15:28:55-07:00",
+    "content": "Absolutely it will happen.\n\nIt just makes so much sense to move the application server logic into the database, closer to the data.\n\nI also think with the rising popularity of smart clients, more business logic will be moved down to the client tier. \n\n",
+    "parent-id": 364,
+    "RowKey": "20040514-152855"
+  },
+  {
+    "id": 2608,
+    "author-name": "stellenmarktplatz",
+    "author-email": "sa@we.de",
+    "author-url": "http://www.stellenmarktplatz.ch/index.htm",
+    "date": "2004-05-20T03:25:20-07:00",
+    "content": "nice comment",
+    "parent-id": 364,
+    "RowKey": "20040520-032520"
+  }
+]

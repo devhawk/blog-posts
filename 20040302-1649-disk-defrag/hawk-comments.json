@@ -1,0 +1,42 @@
+[
+  {
+    "id": 3016,
+    "author-name": "Matt Berther",
+    "author-email": "",
+    "author-url": "http://www.mattberther.com",
+    "date": "2004-03-02T19:54:32-08:00",
+    "content": "I use Raxco's Perfect Disk (http://www.raxco.com) for the offline defrag capabilities and for scheduling defrags.\n\nThe *best* tool available for defrags, IMO.\n",
+    "parent-id": 324,
+    "RowKey": "20040302-195432"
+  },
+  {
+    "id": 3017,
+    "author-name": "Pablo F Matute",
+    "author-email": "",
+    "author-url": "",
+    "date": "2004-03-03T08:26:36-08:00",
+    "content": "I have a good experience with Executive Software's Diskeeper (http://www.executive.com/coverpage.asp)\nNo regrets yet",
+    "parent-id": 324,
+    "RowKey": "20040303-082636"
+  },
+  {
+    "id": 3018,
+    "author-name": "Steve Tibbett",
+    "author-email": "stevex-weblog@oakburl.net",
+    "author-url": "http://www.stevex.org/dottext",
+    "date": "2004-03-05T05:04:32-08:00",
+    "content": "Set up a scheduler task to run the command-line defrag every day at 3am (or some time when you're not on the computer, if you're a late night sort) and you'll never have to worry about it again.\n\nI have it output to a file so I can see how fragmented my system is when I get curious.\n",
+    "parent-id": 324,
+    "RowKey": "20040305-050432"
+  },
+  {
+    "id": 3019,
+    "author-name": "redvamp128",
+    "author-email": "redvamp128@hotmail.com",
+    "author-url": "",
+    "date": "2004-03-09T21:23:52-08:00",
+    "content": "it is possible that because of the anylize components were in use to render what it is doing. Video Drivers using the render as well as the anylize to show in graph process. This would be my logic the command line calls upon less resources so thus would leave more  possible to defrag.I have also seen that by using a second OS to defrag the first idefrags more than when not in the OS. Also it could be a flaw in the program. I have seen that as well in command line utilities as well. It could represent 0% as being with resources current in use. Not to mention the one in the OS could start at true 0% before proccess running. Or it may ignore things like page file sizes and security description. ",
+    "parent-id": 324,
+    "RowKey": "20040309-212352"
+  }
+]

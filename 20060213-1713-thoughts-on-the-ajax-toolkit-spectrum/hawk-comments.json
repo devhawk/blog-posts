@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2900,
+    "author-name": "Tom Trenka",
+    "author-email": "ttrenka@gmail.com",
+    "author-url": "http://dojotoolkit.org",
+    "date": "2006-02-16T11:12:56-08:00",
+    "content": "Hi,\n\nJust a couple of Dojo clarifications: \na. the URL is http://dojotoolkit.org (I think you've got .com there).\nb. The Dojo Dictionary and ArrayList classes are actually derived from/influenced by the .NET framework (with adjustments); ArrayList doesn't extend the Javascript array as much as wraps it and imparts .NET ArrayList type functionality on it.\n\nAs far as technicalities vs. semantics, I have to agree with you :)",
+    "parent-id": 691,
+    "RowKey": "20060216-111256"
+  },
+  {
+    "id": 2901,
+    "author-name": "Rob Sanheim",
+    "author-email": "rsanheim@gmail.com",
+    "author-url": "http://www.robsanheim.com",
+    "date": "2006-05-08T12:56:57-07:00",
+    "content": "To answer your question about using prototype and also using the dojo rich text editor - you just use prototype, and require the dojo widget package.  They work fine together.  Dojo plays in its own namespace, and Prototype works in its own.  There could be issues if Dojo uses the for..in construct with objects that Prototype extends, but besides that there they should be fine together.  \n\nSo in the real world, you see these libraries used together when appropriate, and they work fine.",
+    "parent-id": 691,
+    "RowKey": "20060508-125657"
+  }
+]
