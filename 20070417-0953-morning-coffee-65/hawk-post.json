@@ -1,5 +1,4 @@
 {
-  "id": 937,
   "slug": "morning-coffee-65",
   "title": "Morning Coffee 65",
   "date": "2007-04-17T09:53:41-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Lanugages|lanugages,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20070417-0953-morning-coffee-65"
+  "comment-count": 2,
+  "dasblog-entry-id": "644a379c-e01b-4bc5-a1ab-1e049fd6903b",
+  "dasblog-title": "Morning+Coffee+65",
+  "dasblog-unique-title": "2007/04/17/Morning+Coffee+65"
 }

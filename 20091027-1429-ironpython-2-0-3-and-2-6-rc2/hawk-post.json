@@ -1,5 +1,4 @@
 {
-  "id": 1297,
   "slug": "ironpython-2-0-3-and-2-6-rc2",
   "title": "IronPython 2.0.3 and 2.6 RC2",
   "date": "2009-10-27T14:29:29-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20091027-1429-ironpython-2-0-3-and-2-6-rc2"
+  "comment-count": 0,
+  "dasblog-entry-id": "a105b675-f06a-4548-a8f3-3525a5b96654",
+  "dasblog-title": "IronPython+203+And+26+RC2",
+  "dasblog-unique-title": "2009/10/27/IronPython+203+And+26+RC2"
 }

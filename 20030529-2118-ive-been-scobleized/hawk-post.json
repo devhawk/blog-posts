@@ -1,5 +1,4 @@
 {
-  "id": 105,
   "slug": "ive-been-scobleized",
   "title": "I&#8217;ve Been Scobleized",
   "date": "2003-05-29T21:18:18-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030529-2118-ive-been-scobleized"
+  "comment-count": 0,
+  "dasblog-entry-id": "97a2ada4-3c51-437d-ac40-cd8acd888a3e",
+  "dasblog-title": "Ive+Been+Scobleized",
+  "dasblog-unique-title": "2003/05/30/Ive+Been+Scobleized"
 }

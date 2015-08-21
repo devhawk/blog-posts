@@ -1,5 +1,4 @@
 {
-  "id": 473,
   "slug": "halo-2",
   "title": "Halo 2",
   "date": "2004-11-09T13:17:31-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Games|games",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20041109-1317-halo-2"
+  "comment-count": 2,
+  "dasblog-entry-id": "d8be3e01-4c8f-4723-ad1e-fb436411e8fb",
+  "dasblog-title": "Halo+2",
+  "dasblog-unique-title": "2004/11/09/Halo+2"
 }

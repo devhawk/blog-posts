@@ -1,5 +1,4 @@
 {
-  "id": 176,
   "slug": "hacking-__dopostback",
   "title": "Hacking __doPostBack",
   "date": "2003-08-26T23:16:15-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030826-2316-hacking-__dopostback"
+  "comment-count": 0,
+  "dasblog-entry-id": "47d1ff39-9789-41bf-8c76-68bf1316aa33",
+  "dasblog-title": "Hacking+DoPostBack",
+  "dasblog-unique-title": "2003/08/27/Hacking+DoPostBack"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 438,
   "slug": "leaving-kl",
   "title": "Leaving KL",
   "date": "2004-09-16T17:23:11-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040916-1723-leaving-kl"
+  "comment-count": 0,
+  "dasblog-entry-id": "a6aa1158-a113-4a22-9366-15c21bbc4e7e",
+  "dasblog-title": "Leaving+KL",
+  "dasblog-unique-title": "2004/09/17/Leaving+KL"
 }

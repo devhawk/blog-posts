@@ -1,5 +1,4 @@
 {
-  "id": 304,
   "slug": "neat-and-ae-bloggers",
   "title": ".NEAT and AE Bloggers",
   "date": "2004-02-09T15:51:43-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Community|community,dasBlog|dasblog",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040209-1551-neat-and-ae-bloggers"
+  "comment-count": 0,
+  "dasblog-entry-id": "16ac0309-f121-444c-a485-1f52dca688db",
+  "dasblog-title": "NEAT+And+AE+Bloggers",
+  "dasblog-unique-title": "2004/02/09/NEAT+And+AE+Bloggers"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 567,
   "slug": "dino-rocks-so-now-i-can-rock-and-roll",
   "title": "Dino Rocks so now I can Rock and Roll",
   "date": "2005-03-06T22:15:19-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "Music|music",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20050306-2215-dino-rocks-so-now-i-can-rock-and-roll"
+  "comment-count": 1,
+  "dasblog-entry-id": "0eb6ab87-d64d-4824-9ab5-ea41d0350369",
+  "dasblog-title": "Dino+Rocks+So+Now+I+Can+Rock+And+Roll",
+  "dasblog-unique-title": "2005/03/07/Dino+Rocks+So+Now+I+Can+Rock+And+Roll"
 }

@@ -1,22 +1,16 @@
 [
   {
-    "id": 2871,
     "author-name": "Chris Bilson",
     "author-email": "cbilson@pobox.com",
     "author-url": "http://www.factored-software.com/iimplement",
     "date": "2005-11-23T04:39:12-08:00",
-    "content": "I too have been very impressed by CAB. I learned about it very late, at Code Camp Seattle. I spent about a week or two totally into it, trying to understand everything about it.\n\nI was also a little scared by the complexity. I had the good fortune of working on a project very simmilar to what CAB does, only in .NET 1.1, earlier this year. I would say that application was 120% the complexity of CAB, maybe because the developers weren't charged with building something as polished for general use as CAB. It also lacked some of the really neato features of the CAB, like OB, because they weren't neccesary for what they were doing.\n\nIf the CAB saves some teams the effort that went into building the framework I got to work with earlier this year (maybe 10 developers * 4 months), then I would have to conclude that the CAB is a huge benefit for the community.\n\nFinally, I hesitate to agree that raising the abstraction level of tools is a good idea. That's just hiding the complexity that's already there inside of more complexity. If you ever need to look under the hood, it's even harder to grok. I think it would be better to go the other way. Try removing stuff to combat complexity.",
-    "parent-id": 658,
-    "RowKey": "20051123-043912"
+    "content": "I too have been very impressed by CAB. I learned about it very late, at Code Camp Seattle. I spent about a week or two totally into it, trying to understand everything about it.\n\nI was also a little scared by the complexity. I had the good fortune of working on a project very simmilar to what CAB does, only in .NET 1.1, earlier this year. I would say that application was 120% the complexity of CAB, maybe because the developers weren't charged with building something as polished for general use as CAB. It also lacked some of the really neato features of the CAB, like OB, because they weren't neccesary for what they were doing.\n\nIf the CAB saves some teams the effort that went into building the framework I got to work with earlier this year (maybe 10 developers * 4 months), then I would have to conclude that the CAB is a huge benefit for the community.\n\nFinally, I hesitate to agree that raising the abstraction level of tools is a good idea. That's just hiding the complexity that's already there inside of more complexity. If you ever need to look under the hood, it's even harder to grok. I think it would be better to go the other way. Try removing stuff to combat complexity."
   },
   {
-    "id": 2872,
     "author-name": "Mark Seemann",
     "author-email": "",
     "author-url": "http://blogs.msdn.com/ploeh",
     "date": "2006-05-05T05:43:50-07:00",
-    "content": "To see how you can inject a concrete type when an abstract type is requested, see my recent post on the subject at http://blogs.msdn.com/ploeh/archive/2006/05/04/CuttingCABTheOtherWay.aspx",
-    "parent-id": 658,
-    "RowKey": "20060505-054350"
+    "content": "To see how you can inject a concrete type when an abstract type is requested, see my recent post on the subject at http://blogs.msdn.com/ploeh/archive/2006/05/04/CuttingCABTheOtherWay.aspx"
   }
 ]

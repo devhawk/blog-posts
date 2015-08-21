@@ -1,5 +1,4 @@
 {
-  "id": 944,
   "slug": "morning-coffee-70",
   "title": "Morning Coffee 70",
   "date": "2007-04-25T11:26:04-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Service Broker|service-broker,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070425-1126-morning-coffee-70"
+  "comment-count": 0,
+  "dasblog-entry-id": "1df64df1-f119-4d8a-b1e3-3ee464e94a55",
+  "dasblog-title": "Morning+Coffee+70",
+  "dasblog-unique-title": "2007/04/25/Morning+Coffee+70"
 }

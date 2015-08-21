@@ -1,5 +1,4 @@
 {
-  "id": 409,
   "slug": "teched-nz-student-day",
   "title": "TechEd NZ Student Day",
   "date": "2004-07-29T22:25:47-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040729-2225-teched-nz-student-day"
+  "comment-count": 0,
+  "dasblog-entry-id": "85dc2650-ae66-48a7-8f95-af5de78c4c33",
+  "dasblog-title": "TechEd+NZ+Student+Day",
+  "dasblog-unique-title": "2004/07/30/TechEd+NZ+Student+Day"
 }

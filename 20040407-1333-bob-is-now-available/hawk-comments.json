@@ -1,22 +1,16 @@
 [
   {
-    "id": 3044,
     "author-name": "Brian",
     "author-email": "brian@nospam.brianhphillips.com",
     "author-url": "http://brianhphillips.com",
     "date": "2004-04-07T15:15:28-07:00",
-    "content": "I saw that too, but I can't find it on the Downloads site.",
-    "parent-id": 345,
-    "RowKey": "20040407-151528"
+    "content": "I saw that too, but I can't find it on the Downloads site."
   },
   {
-    "id": 3045,
     "author-name": "bliz",
     "author-email": "blizzard@snowstormlife.com",
     "author-url": "http://snowstormlife.com/blog",
     "date": "2004-04-07T15:37:56-07:00",
-    "content": "I thought it *had* to be an early April Fools Joke by the MSDN team.",
-    "parent-id": 345,
-    "RowKey": "20040407-153756"
+    "content": "I thought it *had* to be an early April Fools Joke by the MSDN team."
   }
 ]

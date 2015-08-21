@@ -1,5 +1,4 @@
 {
-  "id": 177,
   "slug": "windows-sharepoint-sdk",
   "title": "Windows SharePoint SDK",
   "date": "2003-08-27T13:55:34-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030827-1355-windows-sharepoint-sdk"
+  "comment-count": 0,
+  "dasblog-entry-id": "14e187c6-0c72-4312-9cfc-72b90c50a67e",
+  "dasblog-title": "Windows+SharePoint+SDK",
+  "dasblog-unique-title": "2003/08/27/Windows+SharePoint+SDK"
 }

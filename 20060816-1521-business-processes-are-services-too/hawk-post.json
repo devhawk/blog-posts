@@ -1,5 +1,4 @@
 {
-  "id": 782,
   "slug": "business-processes-are-services-too",
   "title": "Business Processes Are Services Too",
   "date": "2006-08-16T15:21:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Database|database,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060816-1521-business-processes-are-services-too"
+  "comment-count": 0,
+  "dasblog-entry-id": "e149413f-1826-4245-ad7f-97aed9816231",
+  "dasblog-title": "Business+Processes+Are+Services+Too",
+  "dasblog-unique-title": "2006/08/16/Business+Processes+Are+Services+Too"
 }

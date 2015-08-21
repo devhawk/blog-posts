@@ -1,42 +1,30 @@
 [
   {
-    "id": 2573,
     "author-name": "Andres Aguiar",
     "author-email": "andres.aguiar@gmail.com",
     "author-url": "http://weblogs.asp.net/aaguiar",
     "date": "2007-08-17T17:56:34-07:00",
-    "content": "AFAIK there's no standard way of doing it, but you could add an extension method to 'Int32' \n\npublic static IEnumerable<int> RangeFromZero(this int number)\n{\n   for (int i = 0; i < number; i++)\n   {\n      yield return i;\n   }\n}\n\nand have something like\n\nfrom i in dr.FieldCount.RangeFromZero()\n\nor\n\nfrom i in dr.FieldCount.Range(0)\n\nwith a 'Range' extension method, which is the same that you wrote but a little cooler ;).\n\n",
-    "parent-id": 1031,
-    "RowKey": "20070817-175634"
+    "content": "AFAIK there's no standard way of doing it, but you could add an extension method to 'Int32' \n\npublic static IEnumerable<int> RangeFromZero(this int number)\n{\n   for (int i = 0; i < number; i++)\n   {\n      yield return i;\n   }\n}\n\nand have something like\n\nfrom i in dr.FieldCount.RangeFromZero()\n\nor\n\nfrom i in dr.FieldCount.Range(0)\n\nwith a 'Range' extension method, which is the same that you wrote but a little cooler ;).\n\n"
   },
   {
-    "id": 2574,
     "author-name": "Alex James",
     "author-email": "Alex@base4.net",
     "author-url": "http://www.base4.net/blog.aspx?ID=409",
     "date": "2007-08-17T22:04:41-07:00",
-    "content": "Even better is to add an Extension method to IDataReader to make it enumerable of IDataRecord, I mean semantically it is anyway...\n\npublic static IEnumerable<IDataRecord> Enumerate(this IDataReader reader)\n{\n\nusing (reader)\n    {\n\nwhile (reader.Read())\n\nyield return reader;\n\n    }\n}\n\nThen you can do from r in reader.Enumerate() from i in GetRange(...) etc....",
-    "parent-id": 1031,
-    "RowKey": "20070817-220441"
+    "content": "Even better is to add an Extension method to IDataReader to make it enumerable of IDataRecord, I mean semantically it is anyway...\n\npublic static IEnumerable<IDataRecord> Enumerate(this IDataReader reader)\n{\n\nusing (reader)\n    {\n\nwhile (reader.Read())\n\nyield return reader;\n\n    }\n}\n\nThen you can do from r in reader.Enumerate() from i in GetRange(...) etc...."
   },
   {
-    "id": 2575,
     "author-name": "John Lewicki",
     "author-email": "",
     "author-url": "",
     "date": "2007-08-18T05:22:32-07:00",
-    "content": "I believe System.Linq.Enumerable.Range() is exactly the same as your GetRange method.",
-    "parent-id": 1031,
-    "RowKey": "20070818-052232"
+    "content": "I believe System.Linq.Enumerable.Range() is exactly the same as your GetRange method."
   },
   {
-    "id": 2576,
     "author-name": "Anonymous",
     "author-email": "",
     "author-url": "",
     "date": "2007-08-21T10:16:04-07:00",
-    "content": "Another minor improvement:\n\nXNamespace ns = \"http://some.sample.namespace.schema\";\nwhile (dr.Read()) \n{ \n    XElement rowXml = new XElement(ns + tableName,\n                          from i in Enumerable.Range(0, dr.FieldCount) \n                          select new XElement(ns + dr.GetName(i), dr.GetValue(i)));\n}\n",
-    "parent-id": 1031,
-    "RowKey": "20070821-101604"
+    "content": "Another minor improvement:\n\nXNamespace ns = \"http://some.sample.namespace.schema\";\nwhile (dr.Read()) \n{ \n    XElement rowXml = new XElement(ns + tableName,\n                          from i in Enumerable.Range(0, dr.FieldCount) \n                          select new XElement(ns + dr.GetName(i), dr.GetValue(i)));\n}\n"
   }
 ]

@@ -1,5 +1,4 @@
 {
-  "id": 752,
   "slug": "thinking-about-object-models",
   "title": "Thinking About Object Models",
   "date": "2006-05-31T22:54:05-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20060531-2254-thinking-about-object-models"
+  "comment-count": 2,
+  "dasblog-entry-id": "c719933e-eb08-4303-a078-9a4151fd5368",
+  "dasblog-title": "Thinking+About+Object+Models",
+  "dasblog-unique-title": "2006/06/01/Thinking+About+Object+Models"
 }

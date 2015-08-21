@@ -1,5 +1,4 @@
 {
-  "id": 993,
   "slug": "what-is-the-rails-question",
   "title": "What is the Rails Question?",
   "date": "2007-06-26T14:33:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "ASP.NET|asp-net,Ruby|ruby",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20070626-1433-what-is-the-rails-question"
+  "comment-count": 4,
+  "dasblog-entry-id": "c444e0c2-f9e8-4625-b12a-7a4c00f859e8",
+  "dasblog-title": "What+Is+The+Rails+Question",
+  "dasblog-unique-title": "2007/06/26/What+Is+The+Rails+Question"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 382,
   "slug": "international-man-of-architecture",
   "title": "International Man of Architecture",
   "date": "2004-06-15T22:55:32-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040615-2255-international-man-of-architecture"
+  "comment-count": 1,
+  "dasblog-entry-id": "52945d4e-bc1a-496c-b3f3-195e5ca416f5",
+  "dasblog-title": "International+Man+Of+Architecture",
+  "dasblog-unique-title": "2004/06/16/International+Man+Of+Architecture"
 }

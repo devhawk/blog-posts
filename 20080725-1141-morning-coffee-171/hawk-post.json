@@ -1,5 +1,4 @@
 {
-  "id": 1157,
   "slug": "morning-coffee-171",
   "title": "Morning Coffee 171",
   "date": "2008-07-25T11:41:11-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "F#|f-sharp,IronRuby|ironruby,Open Source|open-source,PDC08|pdc08,Robotics|robotics,Ruby on Rails|ruby-on-rails,Silverlight|silverlight,XNA|xna",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080725-1141-morning-coffee-171"
+  "comment-count": 0,
+  "dasblog-entry-id": "e6c07f23-9453-4785-9968-c7c62e983395",
+  "dasblog-title": "Morning+Coffee+171",
+  "dasblog-unique-title": "2008/07/25/Morning+Coffee+171"
 }

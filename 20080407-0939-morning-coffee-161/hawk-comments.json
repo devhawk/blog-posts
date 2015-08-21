@@ -1,22 +1,16 @@
 [
   {
-    "id": 2057,
     "author-name": "Barry Kelly",
     "author-email": "bkelly.ie@gmail.com",
     "author-url": "http://barrkel.blogspot.com/",
     "date": "2008-04-07T13:17:10-07:00",
-    "content": "Never used anything like discriminated unions? Did you never use Pascal? It uses a 'case' statement-like declaration inside the record definition to define the \"variant record\", as Pascal calls it.\n\nThe equivalent, manually built out of union and struct, is common practice in C too, when OO-style behaviour needs to be modelled.\n\nIntegrating them with pattern matching is important too, of course, and it's mainly functional languages that have done that.",
-    "parent-id": 1132,
-    "RowKey": "20080407-131710"
+    "content": "Never used anything like discriminated unions? Did you never use Pascal? It uses a 'case' statement-like declaration inside the record definition to define the \"variant record\", as Pascal calls it.\n\nThe equivalent, manually built out of union and struct, is common practice in C too, when OO-style behaviour needs to be modelled.\n\nIntegrating them with pattern matching is important too, of course, and it's mainly functional languages that have done that."
   },
   {
-    "id": 2058,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2008-04-07T18:15:08-07:00",
-    "content": "My Pascal days are long behind me. Unions are sort of similar, but they aren't type safe and - as you point out - it's the integration with pattern matching that makes the discriminated unions so powerful.",
-    "parent-id": 1132,
-    "RowKey": "20080407-181508"
+    "content": "My Pascal days are long behind me. Unions are sort of similar, but they aren't type safe and - as you point out - it's the integration with pattern matching that makes the discriminated unions so powerful."
   }
 ]

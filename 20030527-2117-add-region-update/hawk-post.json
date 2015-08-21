@@ -1,5 +1,4 @@
 {
-  "id": 104,
   "slug": "add-region-update",
   "title": "Add #region Update",
   "date": "2003-05-27T21:17:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030527-2117-add-region-update"
+  "comment-count": 0,
+  "dasblog-entry-id": "d5bc41f3-5afb-4c70-b4e4-a3d1b36db894",
+  "dasblog-title": "Add+Region+Update",
+  "dasblog-unique-title": "2003/05/28/Add+Region+Update"
 }

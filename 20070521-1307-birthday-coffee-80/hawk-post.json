@@ -1,5 +1,4 @@
 {
-  "id": 959,
   "slug": "birthday-coffee-80",
   "title": "Birthday Coffee 80",
   "date": "2007-05-21T13:07:46-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "LINQ|linq,Microsoft|microsoft,Movies|movies",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070521-1307-birthday-coffee-80"
+  "comment-count": 1,
+  "dasblog-entry-id": "ebea4d22-e58b-44f8-af65-6d908dc1b31d",
+  "dasblog-title": "Birthday+Coffee+80",
+  "dasblog-unique-title": "2007/05/21/Birthday+Coffee+80"
 }

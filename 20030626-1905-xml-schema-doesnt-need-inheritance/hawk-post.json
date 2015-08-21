@@ -1,5 +1,4 @@
 {
-  "id": 138,
   "slug": "xml-schema-doesnt-need-inheritance",
   "title": "XML Schema Doesn&#8217;t Need Inheritance",
   "date": "2003-06-26T19:05:53-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030626-1905-xml-schema-doesnt-need-inheritance"
+  "comment-count": 0,
+  "dasblog-entry-id": "a948e2d7-2627-470d-bff6-17618bc87594",
+  "dasblog-title": "XML+Schema+Doesnt+Need+Inheritance",
+  "dasblog-unique-title": "2003/06/27/XML+Schema+Doesnt+Need+Inheritance"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 249,
   "slug": "custom-dasblog-macro",
   "title": "Custom dasBlog Macro",
   "date": "2003-12-14T21:59:48-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging,dasBlog|dasblog",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20031214-2159-custom-dasblog-macro"
+  "comment-count": 2,
+  "dasblog-entry-id": "9d236e19-3fbc-4b20-9471-a48b085dc26a",
+  "dasblog-title": "Custom+DasBlog+Macro",
+  "dasblog-unique-title": "2003/12/15/Custom+DasBlog+Macro"
 }

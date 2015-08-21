@@ -1,5 +1,4 @@
 {
-  "id": 301,
   "slug": "sharepoint-component-directory",
   "title": "SharePoint Component Directory",
   "date": "2004-02-02T22:44:11-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "SharePoint|sharepoint",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040202-2244-sharepoint-component-directory"
+  "comment-count": 0,
+  "dasblog-entry-id": "cad2c0df-48fa-4e69-9829-11b2420c6659",
+  "dasblog-title": "SharePoint+Component+Directory",
+  "dasblog-unique-title": "2004/02/03/SharePoint+Component+Directory"
 }

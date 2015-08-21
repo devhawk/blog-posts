@@ -1,12 +1,9 @@
 [
   {
-    "id": 3032,
     "author-name": "mearls@hotmail.com (Michael Earls)",
     "author-email": "mearls@hotmail.comMichaelEarls",
     "author-url": "http://www.cerkit.com/",
     "date": "2004-03-22T17:05:52-08:00",
-    "content": "I'd very much like to see a tool that combines the ease of use of the Acid music tool and the Vegas Video tool created by Sonic Foundry (now owned by Sony).  In addition, there is a freeware tool out there named \"Buzz\" that inspired me to write my first IE-based VML modeling tool.\n\nIf we can somehow codify business requirements (and business solution technical requirements) into such an interface, I think that building the first 80% of the system would be very quick.\n\nIn addition, maybe we could intergrate it with DirectX and play the system as a piece of music. Hrmh, not funny.\n\nSearch the web for \"Buzz music generator\" and \"Acid Pro\" and \"Vegas Video\".  The first is a freeware program and the latter two have trials, if you're interested.\n\nTo shorten the trip, I can summarize that these tools allow you to create base elements and then \"paint\" with them.  I think software development like this would be sweet.",
-    "parent-id": 333,
-    "RowKey": "20040322-170552"
+    "content": "I'd very much like to see a tool that combines the ease of use of the Acid music tool and the Vegas Video tool created by Sonic Foundry (now owned by Sony).  In addition, there is a freeware tool out there named \"Buzz\" that inspired me to write my first IE-based VML modeling tool.\n\nIf we can somehow codify business requirements (and business solution technical requirements) into such an interface, I think that building the first 80% of the system would be very quick.\n\nIn addition, maybe we could intergrate it with DirectX and play the system as a piece of music. Hrmh, not funny.\n\nSearch the web for \"Buzz music generator\" and \"Acid Pro\" and \"Vegas Video\".  The first is a freeware program and the latter two have trials, if you're interested.\n\nTo shorten the trip, I can summarize that these tools allow you to create base elements and then \"paint\" with them.  I think software development like this would be sweet."
   }
 ]

@@ -1,5 +1,4 @@
 {
-  "id": 311,
   "slug": "teched-architecture-track",
   "title": "TechEd Architecture Track",
   "date": "2004-02-11T23:59:52-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040211-2359-teched-architecture-track"
+  "comment-count": 0,
+  "dasblog-entry-id": "06a4f5c5-14b6-4350-abb7-1a45e55d7e01",
+  "dasblog-title": "TechEd+Architecture+Track",
+  "dasblog-unique-title": "2004/02/12/TechEd+Architecture+Track"
 }

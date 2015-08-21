@@ -1,5 +1,4 @@
 {
-  "id": 625,
   "slug": "code-smell-question",
   "title": "Code Smell Question",
   "date": "2005-09-01T23:33:28-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20050901-2333-code-smell-question"
+  "comment-count": 2,
+  "dasblog-entry-id": "e499d380-948c-41f6-8138-6cb483ea28b7",
+  "dasblog-title": "Code+Smell+Question",
+  "dasblog-unique-title": "2005/09/02/Code+Smell+Question"
 }

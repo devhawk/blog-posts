@@ -1,5 +1,4 @@
 {
-  "id": 1020,
   "slug": "where-have-all-the-soa-mashups-gone",
   "title": "Where Have All the SOA Mashups Gone?",
   "date": "2007-08-02T14:26:27-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "REST|rest,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070802-1426-where-have-all-the-soa-mashups-gone"
+  "comment-count": 1,
+  "dasblog-entry-id": "328fb172-dc3a-4fc4-84a8-0ad8634e71ed",
+  "dasblog-title": "Where+Have+All+The+SOA+Mashups+Gone",
+  "dasblog-unique-title": "2007/08/02/Where+Have+All+The+SOA+Mashups+Gone"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1086,
   "slug": "morning-coffee-135",
   "title": "Morning Coffee 135",
   "date": "2008-01-04T10:00:38-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee,Politics|politics",
   "csv-tag-slugs": "Functional Programming|functional-programming,Movies|movies,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080104-1000-morning-coffee-135"
+  "comment-count": 0,
+  "dasblog-entry-id": "673dcfe5-63f3-477f-95a4-93f9e7facfa7",
+  "dasblog-title": "Morning+Coffee+135",
+  "dasblog-unique-title": "2008/01/04/Morning+Coffee+135"
 }

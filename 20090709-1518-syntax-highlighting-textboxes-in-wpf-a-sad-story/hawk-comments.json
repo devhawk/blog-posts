@@ -1,62 +1,44 @@
 [
   {
-    "id": 2225,
     "author-name": "Matthew Wilson",
     "author-email": "diakopter@gmail.com",
     "author-url": "http://diakopter.blogspot.com",
     "date": "2009-07-09T15:49:08-07:00",
-    "content": "Sorta related: my strategy for my Silverlight mimic of Intellipad is basically the same as Ken's transparent overlay, except I'm writing my own RichTextBlock on top of TextBlock, and then FixedWidthRichTextBox on top of RichTextBlock (using the overlaid transparent TextBox for text selection and caret placement).",
-    "parent-id": 1270,
-    "RowKey": "20090709-154908"
+    "content": "Sorta related: my strategy for my Silverlight mimic of Intellipad is basically the same as Ken's transparent overlay, except I'm writing my own RichTextBlock on top of TextBlock, and then FixedWidthRichTextBox on top of RichTextBlock (using the overlaid transparent TextBox for text selection and caret placement)."
   },
   {
-    "id": 2226,
     "author-name": "Brad",
     "author-email": "",
     "author-url": "",
     "date": "2009-07-09T16:54:27-07:00",
-    "content": "Actipro have recently released a WPF SyntaxEditor:\nhttp://www.actiprosoftware.com/Products/DotNet/WPF/SyntaxEditor/Default.aspx",
-    "parent-id": 1270,
-    "RowKey": "20090709-165427"
+    "content": "Actipro have recently released a WPF SyntaxEditor:\nhttp://www.actiprosoftware.com/Products/DotNet/WPF/SyntaxEditor/Default.aspx"
   },
   {
-    "id": 2227,
     "author-name": "Jesse Ezell",
     "author-email": "jezell@gmail.com",
     "author-url": "http://www.iserviceoriented.com",
     "date": "2009-07-10T09:53:27-07:00",
-    "content": "Microsoft is great at providing frameworks, but horrible at providing tools for their frameworks. For example, WCF has almost zero quality tools from MS to work with. The WF editor blows goats. They are trying to foster all this language development with M and the DLR and the .NET framework itself, yet they don't make it easy for anyone to do anything other than build a language. If you actually want to build your own tools that don't ship inside of VS, all you will get is a big fuck you. The Java community is light years ahead on this front...",
-    "parent-id": 1270,
-    "RowKey": "20090710-095327"
+    "content": "Microsoft is great at providing frameworks, but horrible at providing tools for their frameworks. For example, WCF has almost zero quality tools from MS to work with. The WF editor blows goats. They are trying to foster all this language development with M and the DLR and the .NET framework itself, yet they don't make it easy for anyone to do anything other than build a language. If you actually want to build your own tools that don't ship inside of VS, all you will get is a big fuck you. The Java community is light years ahead on this front..."
   },
   {
-    "id": 2228,
     "author-name": "Mark",
     "author-email": "",
     "author-url": "",
     "date": "2009-07-10T16:52:12-07:00",
-    "content": "SharpDevelop has a WPF based editor called AvalonEdit.\n\nhttp://wiki.sharpdevelop.net/Default.aspx?Page=AvalonEdit&AspxAutoDetectCookieSupport=1\n\nIts still in development but the source is available from subversion and it was pretty easy to get built and working, including python highlighting.  I have a basic Python console working using and and so far it is working very well.\n",
-    "parent-id": 1270,
-    "RowKey": "20090710-165212"
+    "content": "SharpDevelop has a WPF based editor called AvalonEdit.\n\nhttp://wiki.sharpdevelop.net/Default.aspx?Page=AvalonEdit&AspxAutoDetectCookieSupport=1\n\nIts still in development but the source is available from subversion and it was pretty easy to get built and working, including python highlighting.  I have a basic Python console working using and and so far it is working very well.\n"
   },
   {
-    "id": 2229,
     "author-name": "jeff",
     "author-email": "jeff.jarrell@gmail.com",
     "author-url": "",
     "date": "2009-07-13T14:53:09-07:00",
-    "content": "Actipro has a WPF based Syntax editor.  We are looking at it for simple Python scripts.",
-    "parent-id": 1270,
-    "RowKey": "20090713-145309"
+    "content": "Actipro has a WPF based Syntax editor.  We are looking at it for simple Python scripts."
   },
   {
-    "id": 2230,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2009-07-14T22:17:03-07:00",
-    "content": "Mark, my understanding is that SharpDevelop is GPL licensed. Is AvalonEdit also GPL?",
-    "parent-id": 1270,
-    "RowKey": "20090714-221703"
+    "content": "Mark, my understanding is that SharpDevelop is GPL licensed. Is AvalonEdit also GPL?"
   }
 ]

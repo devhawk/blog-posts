@@ -1,5 +1,4 @@
 {
-  "id": 967,
   "slug": "this-isnt-the-droid-im-looking-for",
   "title": "This Isn&#8217;t The Droid I&#8217;m Looking For",
   "date": "2007-05-25T13:59:52-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "REST|rest,SOA|soa,Web Services|web-services",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 5,
-  "PartKey": "20070525-1359-this-isnt-the-droid-im-looking-for"
+  "comment-count": 5,
+  "dasblog-entry-id": "077a65c2-6dbc-42e5-b927-4be2d6e1ff98",
+  "dasblog-title": "This+Isnt+The+Droid+Im+Looking+For",
+  "dasblog-unique-title": "2007/05/25/This+Isnt+The+Droid+Im+Looking+For"
 }

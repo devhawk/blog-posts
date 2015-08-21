@@ -1,5 +1,4 @@
 {
-  "id": 181,
   "slug": "links-relevant-to-p2p",
   "title": "Links relevant to P2P",
   "date": "2003-08-31T09:10:34-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "P2P|p2p",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030831-0910-links-relevant-to-p2p"
+  "comment-count": 0,
+  "dasblog-entry-id": "0132d5ed-3de0-4c4e-b45a-878ef201e1ff",
+  "dasblog-title": "Links+Relevant+To+P2P",
+  "dasblog-unique-title": "2003/08/31/Links+Relevant+To+P2P"
 }

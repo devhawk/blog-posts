@@ -1,5 +1,4 @@
 {
-  "id": 207,
   "slug": "virtual-dogfooding",
   "title": "Virtual Dogfooding",
   "date": "2003-10-14T15:40:12-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031014-1540-virtual-dogfooding"
+  "comment-count": 0,
+  "dasblog-entry-id": "27f8ffe6-b9e8-4610-a443-b5c51df788c9",
+  "dasblog-title": "Virtual+Dogfooding",
+  "dasblog-unique-title": "2003/10/14/Virtual+Dogfooding"
 }

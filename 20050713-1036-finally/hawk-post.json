@@ -1,5 +1,4 @@
 {
-  "id": 615,
   "slug": "finally",
   "title": "Finally",
   "date": "2005-07-13T10:36:49-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20050713-1036-finally"
+  "comment-count": 2,
+  "dasblog-entry-id": "82ffbfa3-1d3f-433f-967f-eafb09cc5a55",
+  "dasblog-title": "Finally",
+  "dasblog-unique-title": "2005/07/13/Finally"
 }

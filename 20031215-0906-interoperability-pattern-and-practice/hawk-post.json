@@ -1,5 +1,4 @@
 {
-  "id": 250,
   "slug": "interoperability-pattern-and-practice",
   "title": "Interoperability Pattern and Practice",
   "date": "2003-12-15T09:06:27-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031215-0906-interoperability-pattern-and-practice"
+  "comment-count": 0,
+  "dasblog-entry-id": "396e3526-c147-4b90-b310-b02b331eb45b",
+  "dasblog-title": "Interoperability+Pattern+And+Practice",
+  "dasblog-unique-title": "2003/12/15/Interoperability+Pattern+And+Practice"
 }

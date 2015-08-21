@@ -1,5 +1,4 @@
 {
-  "id": 969,
   "slug": "responses-on-rest",
   "title": "Responses on REST",
   "date": "2007-05-29T12:54:33-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "REST|rest,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070529-1254-responses-on-rest"
+  "comment-count": 0,
+  "dasblog-entry-id": "3b335291-38c0-492b-b7cd-4463f2ced585",
+  "dasblog-title": "Responses+On+REST",
+  "dasblog-unique-title": "2007/05/29/Responses+On+REST"
 }

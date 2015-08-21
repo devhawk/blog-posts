@@ -1,5 +1,4 @@
 {
-  "id": 295,
   "slug": "article-on-ward",
   "title": "Article on Ward",
   "date": "2004-01-30T09:05:13-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Patterns|patterns",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040130-0905-article-on-ward"
+  "comment-count": 0,
+  "dasblog-entry-id": "3d68b917-2722-4a2d-b7a2-7c40ba617ec6",
+  "dasblog-title": "Article+On+Ward",
+  "dasblog-unique-title": "2004/01/30/Article+On+Ward"
 }

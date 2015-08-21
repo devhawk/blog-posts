@@ -1,22 +1,16 @@
 [
   {
-    "id": 2634,
     "author-name": "mearls@hotmail.com (Michael Earls)",
     "author-email": "mearls@hotmail.comMichaelEarls",
     "author-url": "http://www.cerkit.com/",
     "date": "2004-07-26T12:21:18-07:00",
-    "content": "RSSBandit manages my blogroll PERFECTLY.  All I have to do is add blogs to my list (arranged in subfolders) and click on Tools->Upload Feeds.",
-    "parent-id": 404,
-    "RowKey": "20040726-122118"
+    "content": "RSSBandit manages my blogroll PERFECTLY.  All I have to do is add blogs to my list (arranged in subfolders) and click on Tools->Upload Feeds."
   },
   {
-    "id": 2635,
     "author-name": "Paul Gielens",
     "author-email": "p.gielens@connexx.nl",
     "author-url": "http://weblogs.asp.net/PGielens/",
     "date": "2004-07-26T12:59:09-07:00",
-    "content": "Great stuff!",
-    "parent-id": 404,
-    "RowKey": "20040726-125909"
+    "content": "Great stuff!"
   }
 ]

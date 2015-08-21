@@ -1,5 +1,4 @@
 {
-  "id": 731,
   "slug": "the-dual-schema-problem",
   "title": "The Dual Schema Problem",
   "date": "2006-03-28T15:35:03-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Database|database,Scripting|scripting,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20060328-1535-the-dual-schema-problem"
+  "comment-count": 2,
+  "dasblog-entry-id": "3e4f284e-9be2-491c-aee3-dd427ced2020",
+  "dasblog-title": "The+Dual+Schema+Problem",
+  "dasblog-unique-title": "2006/03/28/The+Dual+Schema+Problem"
 }

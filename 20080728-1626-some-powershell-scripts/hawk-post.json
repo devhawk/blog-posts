@@ -1,5 +1,4 @@
 {
-  "id": 1159,
   "slug": "some-powershell-scripts",
   "title": "Some Powershell Scripts",
   "date": "2008-07-28T16:26:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "PowerShell|powershell",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 5,
-  "PartKey": "20080728-1626-some-powershell-scripts"
+  "comment-count": 5,
+  "dasblog-entry-id": "c5d2c168-4ed0-4e2e-b78f-a4ca4ba80695",
+  "dasblog-title": "Some+Powershell+Scripts",
+  "dasblog-unique-title": "2008/07/28/Some+Powershell+Scripts"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 275,
   "slug": "teredo-sans-p2p",
   "title": "Teredo Sans P2P",
   "date": "2004-01-12T15:29:16-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040112-1529-teredo-sans-p2p"
+  "comment-count": 0,
+  "dasblog-entry-id": "b14b4146-3ef6-4395-9098-8bca7b2c29c2",
+  "dasblog-title": "Teredo+Sans+P2P",
+  "dasblog-unique-title": "2004/01/12/Teredo+Sans+P2P"
 }

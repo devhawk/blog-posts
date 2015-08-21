@@ -1,5 +1,4 @@
 {
-  "id": 1234,
   "slug": "writing-an-ironpython-debugger-a-little-hack-err-cleanup",
   "title": "Writing an IronPython Debugger: A Little Hack&#8230;err&#8230;Cleanup",
   "date": "2009-03-21T16:27:18-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090321-1627-writing-an-ironpython-debugger-a-little-hack-err-cleanup"
+  "comment-count": 0,
+  "dasblog-entry-id": "aa1b0968-0c35-4e95-86f7-62b943d3474a",
+  "dasblog-title": "Writing+An+IronPython+Debugger+A+Little+HackhelliperrhellipCleanup",
+  "dasblog-unique-title": "2009/03/21/Writing+An+IronPython+Debugger+A+Little+HackhelliperrhellipCleanup"
 }

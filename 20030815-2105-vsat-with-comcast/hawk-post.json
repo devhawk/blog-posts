@@ -1,5 +1,4 @@
 {
-  "id": 172,
   "slug": "vsat-with-comcast",
   "title": "VSat with Comcast",
   "date": "2003-08-15T21:05:56-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030815-2105-vsat-with-comcast"
+  "comment-count": 0,
+  "dasblog-entry-id": "10597c94-daac-48da-a43e-40d8559e689a",
+  "dasblog-title": "VSat+With+Comcast",
+  "dasblog-unique-title": "2003/08/16/VSat+With+Comcast"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 528,
   "slug": "patternshare",
   "title": "PatternShare",
   "date": "2005-02-01T00:11:21-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community,Patterns|patterns",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050201-0011-patternshare"
+  "comment-count": 0,
+  "dasblog-entry-id": "0709695f-31f2-457b-b0cf-cda6ae514882",
+  "dasblog-title": "PatternShare",
+  "dasblog-unique-title": "2005/02/01/PatternShare"
 }

@@ -1,22 +1,16 @@
 [
   {
-    "id": 2199,
     "author-name": "Mark",
     "author-email": "mwatts42@gmail.com",
     "author-url": "",
     "date": "2009-04-23T12:36:10-07:00",
-    "content": "Does the DLR cache the type or will each new instance of the \"Product\" class that is created, also result in the overhead of the ClrTypeMetaclass being executed?",
-    "parent-id": 1253,
-    "RowKey": "20090423-123610"
+    "content": "Does the DLR cache the type or will each new instance of the \"Product\" class that is created, also result in the overhead of the ClrTypeMetaclass being executed?"
   },
   {
-    "id": 2200,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2009-04-24T13:55:42-07:00",
-    "content": "The CLR type only gets created once, when the associated Python class is created. We don't have the overhead of type creation for every Python class instance that gets created.",
-    "parent-id": 1253,
-    "RowKey": "20090424-135542"
+    "content": "The CLR type only gets created once, when the associated Python class is created. We don't have the overhead of type creation for every Python class instance that gets created."
   }
 ]

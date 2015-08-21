@@ -1,5 +1,4 @@
 {
-  "id": 320,
   "slug": "government-online-international-network",
   "title": "Government Online International Network",
   "date": "2004-02-25T17:27:07-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040225-1727-government-online-international-network"
+  "comment-count": 1,
+  "dasblog-entry-id": "65cfb597-afc9-441e-a8ab-8be973a87dfd",
+  "dasblog-title": "Government+Online+International+Network",
+  "dasblog-unique-title": "2004/02/26/Government+Online+International+Network"
 }

@@ -1,12 +1,9 @@
 [
   {
-    "id": 2254,
     "author-name": "Christian Weyer",
     "author-email": "",
     "author-url": "http://blogs.thinktecture.com/cweyer",
     "date": "2009-08-26T13:35:08-07:00",
-    "content": "Hm, nice post, dude.\nBut how do these two toolkits solve the NAT/Firewall issue? Without a solution to this they are pretty much useless in breadth usage.\n\nAnd don't get me started about the definition of 'real time' :)\n\n-Christian",
-    "parent-id": 1286,
-    "RowKey": "20090826-133508"
+    "content": "Hm, nice post, dude.\nBut how do these two toolkits solve the NAT/Firewall issue? Without a solution to this they are pretty much useless in breadth usage.\n\nAnd don't get me started about the definition of 'real time' :)\n\n-Christian"
   }
 ]

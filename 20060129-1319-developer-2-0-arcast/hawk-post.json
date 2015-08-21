@@ -1,5 +1,4 @@
 {
-  "id": 676,
   "slug": "developer-2-0-arcast",
   "title": "Developer 2.0 ARCast",
   "date": "2006-01-29T13:19:47-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Podcasting|podcasting",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060129-1319-developer-2-0-arcast"
+  "comment-count": 0,
+  "dasblog-entry-id": "55e305c1-09f0-4f32-a07f-808a547186b7",
+  "dasblog-title": "Developer+20+ARCast",
+  "dasblog-unique-title": "2006/01/29/Developer+20+ARCast"
 }

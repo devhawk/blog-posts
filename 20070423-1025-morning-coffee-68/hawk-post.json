@@ -1,5 +1,4 @@
 {
-  "id": 941,
   "slug": "morning-coffee-68",
   "title": "Morning Coffee 68",
   "date": "2007-04-23T10:25:56-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Family|family,LINQ|linq,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070423-1025-morning-coffee-68"
+  "comment-count": 1,
+  "dasblog-entry-id": "41860c11-08bb-43bf-b050-4839ec5ef3f4",
+  "dasblog-title": "Morning+Coffee+68",
+  "dasblog-unique-title": "2007/04/23/Morning+Coffee+68"
 }

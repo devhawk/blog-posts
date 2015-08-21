@@ -1,5 +1,4 @@
 {
-  "id": 518,
   "slug": "napster-to-go",
   "title": "Napster To Go",
   "date": "2005-01-10T13:54:07-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Music|music",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20050110-1354-napster-to-go"
+  "comment-count": 1,
+  "dasblog-entry-id": "0b50e01a-ad8a-43b3-9516-5a3e02c878f3",
+  "dasblog-title": "Napster+To+Go",
+  "dasblog-unique-title": "2005/01/10/Napster+To+Go"
 }

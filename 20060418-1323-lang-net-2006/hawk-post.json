@@ -1,5 +1,4 @@
 {
-  "id": 739,
   "slug": "lang-net-2006",
   "title": "Lang.NET 2006",
   "date": "2006-04-18T13:23:29-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Lanugages|lanugages,Scripting|scripting",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060418-1323-lang-net-2006"
+  "comment-count": 0,
+  "dasblog-entry-id": "86c20f25-28b9-4198-956c-99f1e5b1174b",
+  "dasblog-title": "LangNET+2006",
+  "dasblog-unique-title": "2006/04/18/LangNET+2006"
 }

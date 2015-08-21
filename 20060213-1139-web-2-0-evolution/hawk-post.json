@@ -1,5 +1,4 @@
 {
-  "id": 689,
   "slug": "web-2-0-evolution",
   "title": "Web 2.0 Evolution",
   "date": "2006-02-13T11:39:21-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060213-1139-web-2-0-evolution"
+  "comment-count": 0,
+  "dasblog-entry-id": "0e02c2eb-c4c1-471c-aa30-f86a22bcfe07",
+  "dasblog-title": "Web+20+Evolution",
+  "dasblog-unique-title": "2006/02/13/Web+20+Evolution"
 }

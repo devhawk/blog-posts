@@ -1,5 +1,4 @@
 {
-  "id": 545,
   "slug": "it-has-come-to-this",
   "title": "It Has Come To This",
   "date": "2005-02-16T20:19:20-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20050216-2019-it-has-come-to-this"
+  "comment-count": 2,
+  "dasblog-entry-id": "0ceb11bf-65bb-41c0-97f5-bf5bd8ecfb6f",
+  "dasblog-title": "It+Has+Come+To+This",
+  "dasblog-unique-title": "2005/02/17/It+Has+Come+To+This"
 }

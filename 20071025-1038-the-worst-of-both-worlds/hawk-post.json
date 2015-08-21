@@ -1,5 +1,4 @@
 {
-  "id": 1047,
   "slug": "the-worst-of-both-worlds",
   "title": "The Worst of Both Worlds",
   "date": "2007-10-25T10:38:59-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20071025-1038-the-worst-of-both-worlds"
+  "comment-count": 2,
+  "dasblog-entry-id": "d1296dd7-ebfe-430f-aebe-cfcc3d1b44ec",
+  "dasblog-title": "The+Worst+Of+Both+Worlds",
+  "dasblog-unique-title": "2007/10/25/The+Worst+Of+Both+Worlds"
 }

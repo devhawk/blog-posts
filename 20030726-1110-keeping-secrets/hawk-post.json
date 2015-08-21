@@ -1,5 +1,4 @@
 {
-  "id": 157,
   "slug": "keeping-secrets",
   "title": "Keeping Secrets",
   "date": "2003-07-26T11:10:10-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030726-1110-keeping-secrets"
+  "comment-count": 0,
+  "dasblog-entry-id": "d2a0bd5c-2cee-435e-b0dd-01c06b248d54",
+  "dasblog-title": "Keeping+Secrets",
+  "dasblog-unique-title": "2003/07/26/Keeping+Secrets"
 }

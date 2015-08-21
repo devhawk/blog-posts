@@ -1,5 +1,4 @@
 {
-  "id": 110,
   "slug": "driving-tour-of-phoenix",
   "title": "Driving Tour of Phoenix",
   "date": "2003-06-03T22:48:29-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030603-2248-driving-tour-of-phoenix"
+  "comment-count": 0,
+  "dasblog-entry-id": "7a035f70-8234-45b0-9a10-37b51eb175cd",
+  "dasblog-title": "Driving+Tour+Of+Phoenix",
+  "dasblog-unique-title": "2003/06/04/Driving+Tour+Of+Phoenix"
 }

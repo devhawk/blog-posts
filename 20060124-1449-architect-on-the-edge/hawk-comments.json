@@ -1,42 +1,30 @@
 [
   {
-    "id": 2876,
     "author-name": "John Cavnar-Johnson",
     "author-email": "",
     "author-url": "http://www.pluralsight.com/blogs/johncj",
     "date": "2006-01-24T17:45:10-08:00",
-    "content": "No.",
-    "parent-id": 671,
-    "RowKey": "20060124-174510"
+    "content": "No."
   },
   {
-    "id": 2877,
     "author-name": "John deVadoss",
     "author-email": "",
     "author-url": "",
     "date": "2006-01-25T21:13:09-08:00",
-    "content": "no",
-    "parent-id": 671,
-    "RowKey": "20060125-211309"
+    "content": "no"
   },
   {
-    "id": 2878,
     "author-name": "David Ing",
     "author-email": "david.ing@gmail.com",
     "author-url": "http://from9till2.com",
     "date": "2006-01-27T06:49:40-08:00",
-    "content": "DevHawk 2.0?\n\n(ducks)",
-    "parent-id": 671,
-    "RowKey": "20060127-064940"
+    "content": "DevHawk 2.0?\n\n(ducks)"
   },
   {
-    "id": 2879,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2006-01-29T23:49:34-08:00",
-    "content": "You better duck David. :)",
-    "parent-id": 671,
-    "RowKey": "20060129-234934"
+    "content": "You better duck David. :)"
   }
 ]

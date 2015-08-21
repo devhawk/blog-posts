@@ -1,5 +1,4 @@
 {
-  "id": 1183,
   "slug": "election-predictions",
   "title": "Election Predictions",
   "date": "2008-11-05T10:27:16-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Politics|politics",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 6,
-  "PartKey": "20081105-1027-election-predictions"
+  "comment-count": 6,
+  "dasblog-entry-id": "8e0159c9-0b91-472d-b5bc-50ec793c0f22",
+  "dasblog-title": "Election+Predictions",
+  "dasblog-unique-title": "2008/11/05/Election+Predictions"
 }

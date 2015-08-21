@@ -1,12 +1,9 @@
 [
   {
-    "id": 2025,
     "author-name": "Scott Hanselman",
     "author-email": "scott@hanselman.com",
     "author-url": "http://www.hanselman.com/blog",
     "date": "2008-02-01T16:43:16-08:00",
-    "content": "Beautiful Soup on IronPython (accessible from C#) has been on my list for weeks. Sigh.",
-    "parent-id": 1098,
-    "RowKey": "20080201-164316"
+    "content": "Beautiful Soup on IronPython (accessible from C#) has been on my list for weeks. Sigh."
   }
 ]

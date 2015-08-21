@@ -1,5 +1,4 @@
 {
-  "id": 79,
   "slug": "back-from-the-basement",
   "title": "Back from the Basement",
   "date": "2003-05-06T19:53:36-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030506-1953-back-from-the-basement"
+  "comment-count": 0,
+  "dasblog-entry-id": "c5c16461-fb10-4a96-9a94-c2ea236b46c7",
+  "dasblog-title": "Back+From+The+Basement",
+  "dasblog-unique-title": "2003/05/07/Back+From+The+Basement"
 }

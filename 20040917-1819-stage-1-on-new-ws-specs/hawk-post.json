@@ -1,5 +1,4 @@
 {
-  "id": 441,
   "slug": "stage-1-on-new-ws-specs",
   "title": "Stage 1 on New WS Specs",
   "date": "2004-09-17T18:19:46-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa,Web Services|web-services",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040917-1819-stage-1-on-new-ws-specs"
+  "comment-count": 2,
+  "dasblog-entry-id": "fd83ac91-720c-4053-a5ff-a3af7c547992",
+  "dasblog-title": "Stage+1+On+New+WS+Specs",
+  "dasblog-unique-title": "2004/09/18/Stage+1+On+New+WS+Specs"
 }

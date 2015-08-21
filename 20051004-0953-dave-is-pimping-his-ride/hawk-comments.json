@@ -1,22 +1,16 @@
 [
   {
-    "id": 2848,
     "author-name": "Tom Vande Stouwe",
     "author-email": "tomv@conpro.net",
     "author-url": "http://architecturematters.net",
     "date": "2005-10-04T14:08:53-07:00",
-    "content": "I think the problem is beyond the obvious disconnect between software and hardware. We first have to get to the notion of a 'fly by wire' automobile paradigm. I have been looking at the options for a fully digital car, and the issue is 'standardization' of interface. By that I mean that I should be able to bring my dashboard to any car, and plug in my smart card and it will light up as if I was in my own car. Gas right where I like it with warnings at 2.3L to reserve etc.\n\nBut to accomplish that, we need to start making cars truly modular. Some of the 'skate board' prototypes for fuel cell cars are in that mode. A set of chassis with all the mechanics inside, looking very much like a skateboard. A shell with passenger compartment is dropped on top, and that is where all the customization takes place. Once the car is 'by wire' then our OOP model starts to work. Until then, we are still in the custom tool shop mode.\n\nTom\n",
-    "parent-id": 637,
-    "RowKey": "20051004-140853"
+    "content": "I think the problem is beyond the obvious disconnect between software and hardware. We first have to get to the notion of a 'fly by wire' automobile paradigm. I have been looking at the options for a fully digital car, and the issue is 'standardization' of interface. By that I mean that I should be able to bring my dashboard to any car, and plug in my smart card and it will light up as if I was in my own car. Gas right where I like it with warnings at 2.3L to reserve etc.\n\nBut to accomplish that, we need to start making cars truly modular. Some of the 'skate board' prototypes for fuel cell cars are in that mode. A set of chassis with all the mechanics inside, looking very much like a skateboard. A shell with passenger compartment is dropped on top, and that is where all the customization takes place. Once the car is 'by wire' then our OOP model starts to work. Until then, we are still in the custom tool shop mode.\n\nTom\n"
   },
   {
-    "id": 2849,
     "author-name": "David White",
     "author-email": "ddsoft@hotmail.com",
     "author-url": "http://www.davidjwhite.net/myblog",
     "date": "2005-10-05T06:54:56-07:00",
-    "content": "I agree but the problem is an old one. The automakers only want standardization in the components they buy but not their products. There are some emerging standards used in the intercommunication of components called CAN-BUS. This will atleast simplify the communications some but the industry has seen that before in J1930 where different automakers made thier own implementation of it.\n\nStarts to sound familiar doesn't it. In fact since I deal with the automotive industry from a software level, my favorite conversation about standards, portability, and cross platform discussions start with a simple statement. So those tires on those car thingies, they are all the same right so I can take the wheels off my GM and put it on my Ford? The simple fact is every single one of them have slightly different bolt patterns. Go figure :-)",
-    "parent-id": 637,
-    "RowKey": "20051005-065456"
+    "content": "I agree but the problem is an old one. The automakers only want standardization in the components they buy but not their products. There are some emerging standards used in the intercommunication of components called CAN-BUS. This will atleast simplify the communications some but the industry has seen that before in J1930 where different automakers made thier own implementation of it.\n\nStarts to sound familiar doesn't it. In fact since I deal with the automotive industry from a software level, my favorite conversation about standards, portability, and cross platform discussions start with a simple statement. So those tires on those car thingies, they are all the same right so I can take the wheels off my GM and put it on my Ford? The simple fact is every single one of them have slightly different bolt patterns. Go figure :-)"
   }
 ]

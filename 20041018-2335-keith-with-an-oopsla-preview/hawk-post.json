@@ -1,5 +1,4 @@
 {
-  "id": 455,
   "slug": "keith-with-an-oopsla-preview",
   "title": "Keith with an OOPSLA Preview",
   "date": "2004-10-18T23:35:35-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20041018-2335-keith-with-an-oopsla-preview"
+  "comment-count": 0,
+  "dasblog-entry-id": "51581d2c-793e-4a45-918b-133008055ff0",
+  "dasblog-title": "Keith+With+An+OOPSLA+Preview",
+  "dasblog-unique-title": "2004/10/19/Keith+With+An+OOPSLA+Preview"
 }

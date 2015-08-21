@@ -1,5 +1,4 @@
 {
-  "id": 344,
   "slug": "modelling-links",
   "title": "Modelling Links",
   "date": "2004-04-06T11:38:56-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040406-1138-modelling-links"
+  "comment-count": 0,
+  "dasblog-entry-id": "fb641a36-72d8-436f-aeb1-2fd0a54fbb38",
+  "dasblog-title": "Modelling+Links",
+  "dasblog-unique-title": "2004/04/06/Modelling+Links"
 }

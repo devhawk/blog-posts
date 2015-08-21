@@ -1,5 +1,4 @@
 {
-  "id": 715,
   "slug": "my-dead-laptop",
   "title": "My Dead Laptop",
   "date": "2006-03-07T16:47:54-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "ETech|etech,Hardware|hardware",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060307-1647-my-dead-laptop"
+  "comment-count": 0,
+  "dasblog-entry-id": "384d66ca-c499-4339-8199-7f6275f5b7d7",
+  "dasblog-title": "My+Dead+Laptop",
+  "dasblog-unique-title": "2006/03/08/My+Dead+Laptop"
 }

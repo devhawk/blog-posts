@@ -1,5 +1,4 @@
 {
-  "id": 201,
   "slug": "back-in-blog",
   "title": "Back in Blog",
   "date": "2003-10-05T21:35:08-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031005-2135-back-in-blog"
+  "comment-count": 0,
+  "dasblog-entry-id": "344c6c7e-233f-4367-8787-9eea4c578ce8",
+  "dasblog-title": "Back+In+Blog",
+  "dasblog-unique-title": "2003/10/06/Back+In+Blog"
 }

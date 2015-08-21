@@ -1,5 +1,4 @@
 {
-  "id": 1106,
   "slug": "morning-coffee-148",
   "title": "Morning Coffee 148",
   "date": "2008-02-20T11:30:01-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": ".NET Framework|net-framework,Hockey|hockey,Office|office,Software + Services|software-plus-services,XNA|xna",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080220-1130-morning-coffee-148"
+  "comment-count": 0,
+  "dasblog-entry-id": "7effabef-8bb9-45f8-8480-442bdbdbf4f1",
+  "dasblog-title": "Morning+Coffee+148",
+  "dasblog-unique-title": "2008/02/20/Morning+Coffee+148"
 }

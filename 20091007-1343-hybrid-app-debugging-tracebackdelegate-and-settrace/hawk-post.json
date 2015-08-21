@@ -1,5 +1,4 @@
 {
-  "id": 1293,
   "slug": "hybrid-app-debugging-tracebackdelegate-and-settrace",
   "title": "Hybrid App Debugging &#8211; TracebackDelegate and SetTrace",
   "date": "2009-10-07T13:43:27-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger,Lightweight Debugger|lightweight-debugger,Polyglot|polyglot",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20091007-1343-hybrid-app-debugging-tracebackdelegate-and-settrace"
+  "comment-count": 0,
+  "dasblog-entry-id": "0cbc8971-2ce0-4098-b3b4-23a7f852cc86",
+  "dasblog-title": "Hybrid+App+Debugging+Ndash+TracebackDelegate+And+SetTrace",
+  "dasblog-unique-title": "2009/10/07/Hybrid+App+Debugging+Ndash+TracebackDelegate+And+SetTrace"
 }

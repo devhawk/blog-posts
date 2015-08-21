@@ -1,5 +1,4 @@
 {
-  "id": 237,
   "slug": "c-cli-binding-candidate-spec",
   "title": "C++ CLI Binding Candidate Spec",
   "date": "2003-11-24T14:40:31-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "C++|c-plus-plus",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031124-1440-c-cli-binding-candidate-spec"
+  "comment-count": 0,
+  "dasblog-entry-id": "a02fc2d3-2271-48af-bb3c-669c681f16b6",
+  "dasblog-title": "C+CLI+Binding+Candidate+Spec",
+  "dasblog-unique-title": "2003/11/24/C+CLI+Binding+Candidate+Spec"
 }

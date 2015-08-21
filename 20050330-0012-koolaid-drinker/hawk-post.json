@@ -1,5 +1,4 @@
 {
-  "id": 584,
   "slug": "koolaid-drinker",
   "title": "KoolAid Drinker",
   "date": "2005-03-30T00:12:00-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050330-0012-koolaid-drinker"
+  "comment-count": 0,
+  "dasblog-entry-id": "dfeb66bc-85d1-4283-9b7a-ebc253e14e04",
+  "dasblog-title": "KoolAid+Drinker",
+  "dasblog-unique-title": "2005/03/30/KoolAid+Drinker"
 }

@@ -1,22 +1,16 @@
 [
   {
-    "id": 2774,
     "author-name": "Ray D",
     "author-email": "ray@raysblog.com",
     "author-url": "http://raysblog.com/",
     "date": "2005-02-11T00:36:12-08:00",
-    "content": "Congrats on the upgrade!  I'm looking forward to the .2 release.  :)",
-    "parent-id": 534,
-    "RowKey": "20050211-003612"
+    "content": "Congrats on the upgrade!  I'm looking forward to the .2 release.  :)"
   },
   {
-    "id": 2775,
     "author-name": "Omar Shahine",
     "author-email": "shahineo@hotmail.com",
     "author-url": "",
     "date": "2005-02-16T22:08:26-08:00",
-    "content": "You could do a permanent redirect from your rss.aspx to something else... All RSS readers should change your subscription to the new location.",
-    "parent-id": 534,
-    "RowKey": "20050216-220826"
+    "content": "You could do a permanent redirect from your rss.aspx to something else... All RSS readers should change your subscription to the new location."
   }
 ]

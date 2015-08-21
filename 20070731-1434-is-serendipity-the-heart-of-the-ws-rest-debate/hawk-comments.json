@@ -1,32 +1,23 @@
 [
   {
-    "id": 2555,
     "author-name": "Mark Baker",
     "author-email": "distobj@acm.org",
     "author-url": "http://www.markbaker.ca",
     "date": "2007-07-31T20:49:09-07:00",
-    "content": "Serendipity derives from commonality; the more our components agree upon before they meet, the more they can accomplish without requiring a software change.\n\nYou're right about Facebook and Flickr apps, but keep in mind that all it takes to create this problem is the slightest dependency of one component on anything specific to the implementation of the other.  In the cases of Facebook/Flickr, those dependencies are solely on data.  Had those APIs been WS-* APIs, the disagreement would have been far greater.\n\nLook at it this way; one could consider Googlebot as a client of both Facebook and Flickr, but it has no dependency on any specific implementation detail of either.  It also handles other apps, including those yet to be developed, quite well too.",
-    "parent-id": 1015,
-    "RowKey": "20070731-204909"
+    "content": "Serendipity derives from commonality; the more our components agree upon before they meet, the more they can accomplish without requiring a software change.\n\nYou're right about Facebook and Flickr apps, but keep in mind that all it takes to create this problem is the slightest dependency of one component on anything specific to the implementation of the other.  In the cases of Facebook/Flickr, those dependencies are solely on data.  Had those APIs been WS-* APIs, the disagreement would have been far greater.\n\nLook at it this way; one could consider Googlebot as a client of both Facebook and Flickr, but it has no dependency on any specific implementation detail of either.  It also handles other apps, including those yet to be developed, quite well too."
   },
   {
-    "id": 2556,
     "author-name": "John Heintz",
     "author-email": "john.heintz@newaspects.com",
     "author-url": "http://johnheintz.blogspot.com/2007/08/rest-serendipity-and-hard",
     "date": "2007-08-01T20:18:59-07:00",
-    "content": "I've written a reply to your comments.\n\nMy main points are:\n\n1. I want my systems building effort to have the highest leverage possible.\n\n2. REST add uniformity constraints to promote loose-coupling and integration.\n\n3. A few more quotes from the book.\n",
-    "parent-id": 1015,
-    "RowKey": "20070801-201859"
+    "content": "I've written a reply to your comments.\n\nMy main points are:\n\n1. I want my systems building effort to have the highest leverage possible.\n\n2. REST add uniformity constraints to promote loose-coupling and integration.\n\n3. A few more quotes from the book.\n"
   },
   {
-    "id": 2557,
     "author-name": "John",
     "author-email": "jevdemon@microsoft.com",
     "author-url": "http://blogs.msdn.com/jevdemon",
     "date": "2007-08-09T16:28:16-07:00",
-    "content": "The book defines SOA as \"A loosely-coupled architecture designed to meet the business needs of the organization.\"  SOA does not necessarily require the use of Web Services or REST – these are, for most organizations, the simplest approach for implementing a loosely coupled solution architecture.   \n\nThere is no need for a REST/WS-* debate, simply use the approach best suited to the problem at hand.  The Microsoft Robotics Studio (http://msdn2.microsoft.com/en-us/robotics/default.aspx) illustrates how both can be supported, combining REST with event notifications, relationships between components and more.\n\n\"Some architectural styles are often portrayed as 'silver bullet' solutions for all forms of software. However, a good designer should select a style that matches the needs of the particular problem being solved.\"  - From Roy Fielding's REST dissertation (\"Architectural Styles and\nthe Design of Network-based Software Architectures\" - http://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_5)",
-    "parent-id": 1015,
-    "RowKey": "20070809-162816"
+    "content": "The book defines SOA as \"A loosely-coupled architecture designed to meet the business needs of the organization.\"  SOA does not necessarily require the use of Web Services or REST – these are, for most organizations, the simplest approach for implementing a loosely coupled solution architecture.   \n\nThere is no need for a REST/WS-* debate, simply use the approach best suited to the problem at hand.  The Microsoft Robotics Studio (http://msdn2.microsoft.com/en-us/robotics/default.aspx) illustrates how both can be supported, combining REST with event notifications, relationships between components and more.\n\n\"Some architectural styles are often portrayed as 'silver bullet' solutions for all forms of software. However, a good designer should select a style that matches the needs of the particular problem being solved.\"  - From Roy Fielding's REST dissertation (\"Architectural Styles and\nthe Design of Network-based Software Architectures\" - http://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_5)"
   }
 ]

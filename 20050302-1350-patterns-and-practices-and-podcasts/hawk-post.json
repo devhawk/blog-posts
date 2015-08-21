@@ -1,5 +1,4 @@
 {
-  "id": 564,
   "slug": "patterns-and-practices-and-podcasts",
   "title": "patterns And practices And podcasts",
   "date": "2005-03-02T13:50:53-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Podcasting|podcasting",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050302-1350-patterns-and-practices-and-podcasts"
+  "comment-count": 0,
+  "dasblog-entry-id": "4df5f669-486f-4396-99b8-743ea43ee745",
+  "dasblog-title": "patterns+And+Practices+And+Podcasts",
+  "dasblog-unique-title": "2005/03/02/patterns+And+Practices+And+Podcasts"
 }

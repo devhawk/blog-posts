@@ -1,5 +1,4 @@
 {
-  "id": 563,
   "slug": "devhawk-ads",
   "title": "Devhawk Ads",
   "date": "2005-03-02T15:54:18-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20050302-1554-devhawk-ads"
+  "comment-count": 2,
+  "dasblog-entry-id": "22adc1b7-b708-40ce-adc8-5eaf7018b057",
+  "dasblog-title": "Devhawk+Ads",
+  "dasblog-unique-title": "2005/03/02/Devhawk+Ads"
 }

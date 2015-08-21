@@ -1,5 +1,4 @@
 {
-  "id": 874,
   "slug": "morning-coffee-25",
   "title": "Morning Coffee 25",
   "date": "2007-02-06T11:00:15-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture,Morning Coffee|morning-coffee",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070206-1100-morning-coffee-25"
+  "comment-count": 0,
+  "dasblog-entry-id": "0f7808e6-2f6a-4c5d-b62c-5a6866caa56b",
+  "dasblog-title": "Morning+Coffee+25",
+  "dasblog-unique-title": "2007/02/06/Morning+Coffee+25"
 }

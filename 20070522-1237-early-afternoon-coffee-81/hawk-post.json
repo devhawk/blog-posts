@@ -1,5 +1,4 @@
 {
-  "id": 961,
   "slug": "early-afternoon-coffee-81",
   "title": "Early Afternoon Coffee 81",
   "date": "2007-05-22T12:37:16-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Service Broker|service-broker,SOA|soa,WF|wf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070522-1237-early-afternoon-coffee-81"
+  "comment-count": 0,
+  "dasblog-entry-id": "fce86a26-0481-4a0e-ad8a-bfb61a7ae75a",
+  "dasblog-title": "Early+Afternoon+Coffee+81",
+  "dasblog-unique-title": "2007/05/22/Early+Afternoon+Coffee+81"
 }

@@ -1,12 +1,9 @@
 [
   {
-    "id": 2451,
     "author-name": "Ramkishore",
     "author-email": "c_ramkishore@hotmail.com",
     "author-url": "",
     "date": "2007-02-22T16:29:09-08:00",
-    "content": "Hello Harry\n\nDo you know if the Composite Duplex NetMsmqBinding uses a single socket connection or two one-way socket connections as in DualHttpBinding.\n\nThanks,\nRamkishore\n",
-    "parent-id": 873,
-    "RowKey": "20070222-162909"
+    "content": "Hello Harry\n\nDo you know if the Composite Duplex NetMsmqBinding uses a single socket connection or two one-way socket connections as in DualHttpBinding.\n\nThanks,\nRamkishore\n"
   }
 ]

@@ -1,5 +1,4 @@
 {
-  "id": 1080,
   "slug": "practical-f-parsing-the-abstract-syntax-tree",
   "title": "Practical F# Parsing: The Abstract Syntax Tree",
   "date": "2007-12-19T11:00:57-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "F#|f-sharp,Parsing Expression Grammar|parsing-expression-grammar",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071219-1100-practical-f-parsing-the-abstract-syntax-tree"
+  "comment-count": 0,
+  "dasblog-entry-id": "5769c547-ec8f-438e-a34c-08508b3e8bde",
+  "dasblog-title": "Practical+F+Parsing+The+Abstract+Syntax+Tree",
+  "dasblog-unique-title": "2007/12/19/Practical+F+Parsing+The+Abstract+Syntax+Tree"
 }

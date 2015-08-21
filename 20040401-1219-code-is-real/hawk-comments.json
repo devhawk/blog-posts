@@ -1,52 +1,37 @@
 [
   {
-    "id": 3038,
     "author-name": "Chris Church",
     "author-email": "cchurch@cjsag.com",
     "author-url": "",
     "date": "2004-04-01T13:46:40-08:00",
-    "content": "I love NewsGator - its a great app, and it works really well inside Outlook.  I still visit blog sites ocassionally, but its much more convenient to have new posts all aggregated up into Outlook.  Gives me a record of posts I want to follow up on, too - better than adding something to my task list (where I'll never get to it!)...\n\n\nChris",
-    "parent-id": 340,
-    "RowKey": "20040401-134640"
+    "content": "I love NewsGator - its a great app, and it works really well inside Outlook.  I still visit blog sites ocassionally, but its much more convenient to have new posts all aggregated up into Outlook.  Gives me a record of posts I want to follow up on, too - better than adding something to my task list (where I'll never get to it!)...\n\n\nChris"
   },
   {
-    "id": 3039,
     "author-name": "Greg Reinacker",
     "author-email": "gregr@rassoc.com",
     "author-url": "http://www.rassoc.com/gregr/weblog",
     "date": "2004-04-05T09:25:57-07:00",
-    "content": "Was there anything specific that would have made the web edition more efficient for you?  Or was it just missing the convenience of Outlook that made the difference?\n\nFeel free to reply privately if you'd prefer.",
-    "parent-id": 340,
-    "RowKey": "20040405-092557"
+    "content": "Was there anything specific that would have made the web edition more efficient for you?  Or was it just missing the convenience of Outlook that made the difference?\n\nFeel free to reply privately if you'd prefer."
   },
   {
-    "id": 3040,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2004-04-05T21:43:24-07:00",
-    "content": "Nice to see you're still working on improving the product Greg. :) Most of the issue was not having Outlook running, but there were two things I'd like to see in the online version.\n\n#1 - OPML export from online service. I would like to have been able to set up some other reader in the short term until I could get Outlook (and thus NewsGator) back up and running.\n\n#2 - The ability to delete single posts. You can delete all or leave all alone. It would be nice to delete single posts. It would also be nice to provide a check box for each post (along with a check all and uncheck all option) so you can delete a subset without having to do each one manually or deleting all of them.",
-    "parent-id": 340,
-    "RowKey": "20040405-214324"
+    "content": "Nice to see you're still working on improving the product Greg. :) Most of the issue was not having Outlook running, but there were two things I'd like to see in the online version.\n\n#1 - OPML export from online service. I would like to have been able to set up some other reader in the short term until I could get Outlook (and thus NewsGator) back up and running.\n\n#2 - The ability to delete single posts. You can delete all or leave all alone. It would be nice to delete single posts. It would also be nice to provide a check box for each post (along with a check all and uncheck all option) so you can delete a subset without having to do each one manually or deleting all of them."
   },
   {
-    "id": 3041,
     "author-name": "Greg Reinacker",
     "author-email": "gregr@rassoc.com",
     "author-url": "http://www.rassoc.com/gregr/weblog",
     "date": "2004-04-06T10:21:16-07:00",
-    "content": "#1 - you can actually do this today - NGOS will automatically expose your OPML if you so choose...for example, here's mine:\n\nhttp://services.newsgator.com/ngws/opml.aspx?uid=2&mid=4\n\nTo set this up, go to:\n\nhttp://services.newsgator.com/subscriber/Machines.aspx\n\nin the subscriber site, edit (or create) a \"machine\" whose subscriptions you want to expose, and enable the public OPML exposure.  If you have some private subscriptions you don't want to expose, just create a new \"machine\", specify which subscriptions should apply to it, and expose the OPML.  This is what I do, so our internal feeds aren't exposed in my public OPML.\n\nI even use this public OPML file to generate a blogroll on my weblog at \n\nhttp://www.rassoc.com/gregr/weblog\n\nThis way, I don't have to worry about keeping it up to date - changes in Outlook and in NGOS are reflected automatically.\n\n#2 - I couldn't agree more...this is on the short list of things to address.",
-    "parent-id": 340,
-    "RowKey": "20040406-102116"
+    "content": "#1 - you can actually do this today - NGOS will automatically expose your OPML if you so choose...for example, here's mine:\n\nhttp://services.newsgator.com/ngws/opml.aspx?uid=2&mid=4\n\nTo set this up, go to:\n\nhttp://services.newsgator.com/subscriber/Machines.aspx\n\nin the subscriber site, edit (or create) a \"machine\" whose subscriptions you want to expose, and enable the public OPML exposure.  If you have some private subscriptions you don't want to expose, just create a new \"machine\", specify which subscriptions should apply to it, and expose the OPML.  This is what I do, so our internal feeds aren't exposed in my public OPML.\n\nI even use this public OPML file to generate a blogroll on my weblog at \n\nhttp://www.rassoc.com/gregr/weblog\n\nThis way, I don't have to worry about keeping it up to date - changes in Outlook and in NGOS are reflected automatically.\n\n#2 - I couldn't agree more...this is on the short list of things to address."
   },
   {
-    "id": 3042,
     "author-name": "outlook express crashes",
     "author-email": "outlook_express@ukr.net",
     "author-url": "http://www.oemailrecovery.com/outlook-express-crash.html",
     "date": "2005-09-15T00:51:20-07:00",
-    "content": "Hello!I found here a plenty of useful information for myself! I will visit you soon...",
-    "parent-id": 340,
-    "RowKey": "20050915-005120"
+    "content": "Hello!I found here a plenty of useful information for myself! I will visit you soon..."
   }
 ]

@@ -1,5 +1,4 @@
 {
-  "id": 649,
   "slug": "grady-booch-sez-throw-models-away",
   "title": "Grady Booch sez &#8220;Throw Models Away&#8221;",
   "date": "2005-11-07T15:57:58-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20051107-1557-grady-booch-sez-throw-models-away"
+  "comment-count": 3,
+  "dasblog-entry-id": "4aa1697c-9cab-4c62-be7d-c805cbd4c1c3",
+  "dasblog-title": "Grady+Booch+Sez+Throw+Models+Away",
+  "dasblog-unique-title": "2005/11/07/Grady+Booch+Sez+Throw+Models+Away"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 100,
   "slug": "xml-infoset-vs-object-graphs",
   "title": "XML Infoset vs Object Graphs",
   "date": "2003-05-21T17:33:41-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030521-1733-xml-infoset-vs-object-graphs"
+  "comment-count": 0,
+  "dasblog-entry-id": "58fc378e-7811-41dc-b950-0ee2b9096006",
+  "dasblog-title": "XML+Infoset+Vs+Object+Graphs",
+  "dasblog-unique-title": "2003/05/22/XML+Infoset+Vs+Object+Graphs"
 }

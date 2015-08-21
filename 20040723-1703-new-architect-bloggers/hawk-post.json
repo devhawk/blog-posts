@@ -1,5 +1,4 @@
 {
-  "id": 403,
   "slug": "new-architect-bloggers",
   "title": "New Architect Bloggers",
   "date": "2004-07-23T17:03:05-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040723-1703-new-architect-bloggers"
+  "comment-count": 0,
+  "dasblog-entry-id": "a14e76e5-0269-4fbf-854f-ce2f1178fc51",
+  "dasblog-title": "New+Architect+Bloggers",
+  "dasblog-unique-title": "2004/07/24/New+Architect+Bloggers"
 }

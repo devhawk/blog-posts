@@ -1,5 +1,4 @@
 {
-  "id": 387,
   "slug": "pat-and-john-are-blogging-again",
   "title": "Pat and John Are Blogging Again",
   "date": "2004-06-24T17:20:07-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040624-1720-pat-and-john-are-blogging-again"
+  "comment-count": 0,
+  "dasblog-entry-id": "514c2c1b-ee76-4157-947e-064050ee03e3",
+  "dasblog-title": "Pat+And+John+Are+Blogging+Again",
+  "dasblog-unique-title": "2004/06/25/Pat+And+John+Are+Blogging+Again"
 }

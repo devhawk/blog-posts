@@ -1,5 +1,4 @@
 {
-  "id": 1109,
   "slug": "morning-coffee-150",
   "title": "Morning Coffee 150",
   "date": "2008-02-27T10:17:22-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Entertainment|entertainment,Hockey|hockey,LINQ|linq,Microsoft|microsoft,Visual Studio|visual-studio,Washington Capitals|washington-capitals,XML|xml",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20080227-1017-morning-coffee-150"
+  "comment-count": 2,
+  "dasblog-entry-id": "5f0a893b-18d0-4e4c-9383-d53fb532b8f3",
+  "dasblog-title": "Morning+Coffee+150",
+  "dasblog-unique-title": "2008/02/27/Morning+Coffee+150"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 12,
   "slug": "l-a-funk",
   "title": "L.A. Funk",
   "date": "2003-01-25T18:09:34-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030125-1809-l-a-funk"
+  "comment-count": 0,
+  "dasblog-entry-id": "a47eedf1-2ffe-4d78-bcbb-92cf8e197204",
+  "dasblog-title": "LA+Funk",
+  "dasblog-unique-title": "2003/01/26/LA+Funk"
 }

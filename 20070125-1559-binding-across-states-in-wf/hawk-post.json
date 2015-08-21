@@ -1,5 +1,4 @@
 {
-  "id": 862,
   "slug": "binding-across-states-in-wf",
   "title": "Binding Across States in WF",
   "date": "2007-01-25T15:59:48-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "WF|wf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070125-1559-binding-across-states-in-wf"
+  "comment-count": 1,
+  "dasblog-entry-id": "325fc7b2-6102-435a-ae94-6e2686e6889f",
+  "dasblog-title": "Binding+Across+States+In+WF",
+  "dasblog-unique-title": "2007/01/25/Binding+Across+States+In+WF"
 }

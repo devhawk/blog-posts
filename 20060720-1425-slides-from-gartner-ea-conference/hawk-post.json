@@ -1,5 +1,4 @@
 {
-  "id": 769,
   "slug": "slides-from-gartner-ea-conference",
   "title": "Slides from Gartner EA Conference",
   "date": "2006-07-20T14:25:13-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060720-1425-slides-from-gartner-ea-conference"
+  "comment-count": 0,
+  "dasblog-entry-id": "47bb8802-33d5-44e8-8634-bc07268372cd",
+  "dasblog-title": "Slides+From+Gartner+EA+Conference",
+  "dasblog-unique-title": "2006/07/20/Slides+From+Gartner+EA+Conference"
 }

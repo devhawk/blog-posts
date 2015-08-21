@@ -1,22 +1,16 @@
 [
   {
-    "id": 2560,
     "author-name": "Bryant Likes",
     "author-email": "devhawk@bryantlikes.com",
     "author-url": "http://blogs.sqlxml.org/bryantlikes",
     "date": "2007-08-03T13:10:43-07:00",
-    "content": "I'm heading up there for the conference. A dinner sounds like fun. I haven't been to a geek dinner since the WS-Sushi dinner a few years back:\n\nhttp://blogs.msdn.com/kaevans/archive/2004/04/09/110423.aspx",
-    "parent-id": 1021,
-    "RowKey": "20070803-131043"
+    "content": "I'm heading up there for the conference. A dinner sounds like fun. I haven't been to a geek dinner since the WS-Sushi dinner a few years back:\n\nhttp://blogs.msdn.com/kaevans/archive/2004/04/09/110423.aspx"
   },
   {
-    "id": 2561,
     "author-name": "Erik Johnson",
     "author-email": "ejohnson@epicor.com",
     "author-url": "http://appside.blogspot.com",
     "date": "2007-08-03T15:34:27-07:00",
-    "content": "It looks like I'm coming up as well.  Let me know if a plan comes together.",
-    "parent-id": 1021,
-    "RowKey": "20070803-153427"
+    "content": "It looks like I'm coming up as well.  Let me know if a plan comes together."
   }
 ]

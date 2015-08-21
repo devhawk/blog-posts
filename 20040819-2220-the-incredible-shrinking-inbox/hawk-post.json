@@ -1,5 +1,4 @@
 {
-  "id": 420,
   "slug": "the-incredible-shrinking-inbox",
   "title": "The Incredible Shrinking Inbox",
   "date": "2004-08-19T22:20:21-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Working at MSFT|working-at-msft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040819-2220-the-incredible-shrinking-inbox"
+  "comment-count": 2,
+  "dasblog-entry-id": "ac1a911a-a94f-42b0-8e85-cd3baf5a0190",
+  "dasblog-title": "The+Incredible+Shrinking+Inbox",
+  "dasblog-unique-title": "2004/08/20/The+Incredible+Shrinking+Inbox"
 }

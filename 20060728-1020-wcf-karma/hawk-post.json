@@ -1,5 +1,4 @@
 {
-  "id": 773,
   "slug": "wcf-karma",
   "title": "WCF Karma",
   "date": "2006-07-28T10:20:02-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa,WCF|wcf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060728-1020-wcf-karma"
+  "comment-count": 0,
+  "dasblog-entry-id": "37c370c3-a33d-48c2-b6f3-f244060bf6ce",
+  "dasblog-title": "WCF+Karma",
+  "dasblog-unique-title": "2006/07/28/WCF+Karma"
 }

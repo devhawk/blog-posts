@@ -1,5 +1,4 @@
 {
-  "id": 404,
   "slug": "architect-opml",
   "title": "Architect OPML",
   "date": "2004-07-26T11:40:05-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040726-1140-architect-opml"
+  "comment-count": 2,
+  "dasblog-entry-id": "261a4267-1386-4344-a3c3-85f3ac81f3c3",
+  "dasblog-title": "Architect+OPML",
+  "dasblog-unique-title": "2004/07/26/Architect+OPML"
 }

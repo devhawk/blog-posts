@@ -1,5 +1,4 @@
 {
-  "id": 1200,
   "slug": "ironpython-and-linq-to-xml-part-3-consuming-atom-feeds",
   "title": "IronPython and Linq to XML Part 3: Consuming Atom Feeds",
   "date": "2008-11-27T10:55:12-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "LINQ|linq,Rock Band|rock-band,XML|xml,Zune|zune",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20081127-1055-ironpython-and-linq-to-xml-part-3-consuming-atom-feeds"
+  "comment-count": 1,
+  "dasblog-entry-id": "50f114cb-c9bf-4e6d-b81d-f0fad2c654a9",
+  "dasblog-title": "IronPython+And+Linq+To+XML+Part+3+Consuming+Atom+Feeds",
+  "dasblog-unique-title": "2008/11/27/IronPython+And+Linq+To+XML+Part+3+Consuming+Atom+Feeds"
 }

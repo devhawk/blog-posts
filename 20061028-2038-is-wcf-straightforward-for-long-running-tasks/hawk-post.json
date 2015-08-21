@@ -1,5 +1,4 @@
 {
-  "id": 824,
   "slug": "is-wcf-straightforward-for-long-running-tasks",
   "title": "Is WCF &#8220;Straightforward&#8221; for Long Running Tasks?",
   "date": "2006-10-28T20:38:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "WCF|wcf,Web Services|web-services",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20061028-2038-is-wcf-straightforward-for-long-running-tasks"
+  "comment-count": 1,
+  "dasblog-entry-id": "cdc11975-d7a3-4114-9efb-6964486b3b46",
+  "dasblog-title": "Is+WCF+QuotStraightforwardquot+For+Long+Running+Tasks",
+  "dasblog-unique-title": "2006/10/29/Is+WCF+QuotStraightforwardquot+For+Long+Running+Tasks"
 }

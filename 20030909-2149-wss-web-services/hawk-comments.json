@@ -1,12 +1,9 @@
 [
   {
-    "id": 2919,
     "author-name": "Daniel",
     "author-email": "danielf@resolutecorp.com",
     "author-url": "http://www.resolutecorp.com",
     "date": "2005-09-12T08:17:31-07:00",
-    "content": "I'm having trouble getting the UpdateList Web Service to work correctly. Can I take a peek at your code? Thanks.",
-    "parent-id": 189,
-    "RowKey": "20050912-081731"
+    "content": "I'm having trouble getting the UpdateList Web Service to work correctly. Can I take a peek at your code? Thanks."
   }
 ]

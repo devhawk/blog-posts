@@ -1,5 +1,4 @@
 {
-  "id": 92,
   "slug": "cool-sql-tool",
   "title": "Cool SQL Tool",
   "date": "2003-05-16T16:07:28-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030516-1607-cool-sql-tool"
+  "comment-count": 0,
+  "dasblog-entry-id": "83a3857e-83fe-4333-ba1b-ff17466eb616",
+  "dasblog-title": "Cool+SQL+Tool",
+  "dasblog-unique-title": "2003/05/16/Cool+SQL+Tool"
 }

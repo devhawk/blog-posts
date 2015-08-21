@@ -1,5 +1,4 @@
 {
-  "id": 134,
   "slug": "yapnpp",
   "title": "YAPnPP",
   "date": "2003-06-24T12:55:58-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030624-1255-yapnpp"
+  "comment-count": 0,
+  "dasblog-entry-id": "33afd3d0-36ae-4944-97b3-202e4104f09a",
+  "dasblog-title": "YAPnPP",
+  "dasblog-unique-title": "2003/06/24/YAPnPP"
 }

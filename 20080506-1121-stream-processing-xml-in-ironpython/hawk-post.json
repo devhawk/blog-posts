@@ -1,5 +1,4 @@
 {
-  "id": 1144,
   "slug": "stream-processing-xml-in-ironpython",
   "title": "Stream Processing XML in IronPython",
   "date": "2008-05-06T11:21:54-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Python|python,XML|xml",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080506-1121-stream-processing-xml-in-ironpython"
+  "comment-count": 0,
+  "dasblog-entry-id": "381bc642-1227-46ac-8b2c-447db5ea9e7b",
+  "dasblog-title": "Stream+Processing+XML+In+IronPython",
+  "dasblog-unique-title": "2008/05/06/Stream+Processing+XML+In+IronPython"
 }

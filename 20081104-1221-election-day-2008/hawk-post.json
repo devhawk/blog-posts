@@ -1,5 +1,4 @@
 {
-  "id": 1182,
   "slug": "election-day-2008",
   "title": "Election Day 2008",
   "date": "2008-11-04T12:21:12-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Politics|politics",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20081104-1221-election-day-2008"
+  "comment-count": 1,
+  "dasblog-entry-id": "c352750f-63f1-4889-95c3-42be3ebc0319",
+  "dasblog-title": "Election+Day+2008",
+  "dasblog-unique-title": "2008/11/04/Election+Day+2008"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 49,
   "slug": "ws-addressing",
   "title": "WS-Addressing",
   "date": "2003-03-21T18:44:49-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030321-1844-ws-addressing"
+  "comment-count": 0,
+  "dasblog-entry-id": "5041c729-84a6-4423-82f0-14876b6f4f24",
+  "dasblog-title": "WSAddressing",
+  "dasblog-unique-title": "2003/03/22/WSAddressing"
 }

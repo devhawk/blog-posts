@@ -1,5 +1,4 @@
 {
-  "id": 1209,
   "slug": "ironpython-nightly-builds",
   "title": "IronPython Nightly Builds",
   "date": "2009-01-07T15:18:13-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "DLR|dlr",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20090107-1518-ironpython-nightly-builds"
+  "comment-count": 1,
+  "dasblog-entry-id": "96cf813b-cc2b-4941-8fea-7bc98b3a0db9",
+  "dasblog-title": "IronPython+Nightly+Builds",
+  "dasblog-unique-title": "2009/01/07/IronPython+Nightly+Builds"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 891,
   "slug": "morning-doughnuts-4",
   "title": "Morning Doughnuts 4",
   "date": "2007-02-21T09:41:03-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "College Football|college-football,SOA|soa,WCF|wcf,Xbox 360|xbox-360",
   "author": "Dale Churchward|dale|spawn_master@hotmail.com",
-  "comment_count": 1,
-  "PartKey": "20070221-0941-morning-doughnuts-4"
+  "comment-count": 1,
+  "dasblog-entry-id": "653968ed-2e2c-4961-afb5-48bb12c72e36",
+  "dasblog-title": "Morning+Doughnuts+4",
+  "dasblog-unique-title": "2007/02/21/Morning+Doughnuts+4"
 }

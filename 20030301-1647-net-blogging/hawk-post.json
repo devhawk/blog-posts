@@ -1,5 +1,4 @@
 {
-  "id": 33,
   "slug": "net-blogging",
   "title": ".NET Blogging",
   "date": "2003-03-01T16:47:06-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030301-1647-net-blogging"
+  "comment-count": 0,
+  "dasblog-entry-id": "e69bf4bd-2011-4480-be48-5debfe4d4455",
+  "dasblog-title": "NET+Blogging",
+  "dasblog-unique-title": "2003/03/02/NET+Blogging"
 }

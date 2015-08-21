@@ -1,5 +1,4 @@
 {
-  "id": 627,
   "slug": "portability-without-productivity",
   "title": "Portability without Productivity",
   "date": "2005-09-08T10:32:19-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20050908-1032-portability-without-productivity"
+  "comment-count": 3,
+  "dasblog-entry-id": "503c5712-df5e-4a56-a558-2567d7c554cc",
+  "dasblog-title": "Portability+Without+Productivity",
+  "dasblog-unique-title": "2005/09/08/Portability+Without+Productivity"
 }

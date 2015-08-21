@@ -1,5 +1,4 @@
 {
-  "id": 1259,
   "slug": "checkin-comments-for-ironpython-source",
   "title": "Checkin Comments for IronPython Source",
   "date": "2009-05-07T11:19:38-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090507-1119-checkin-comments-for-ironpython-source"
+  "comment-count": 0,
+  "dasblog-entry-id": "9d828751-7047-4ba0-96dd-7caba92eb59f",
+  "dasblog-title": "Checkin+Comments+For+IronPython+Source",
+  "dasblog-unique-title": "2009/05/07/Checkin+Comments+For+IronPython+Source"
 }

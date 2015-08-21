@@ -1,5 +1,4 @@
 {
-  "id": 446,
   "slug": "good-iasa-meeting",
   "title": "Good IASA Meeting",
   "date": "2004-09-30T17:29:03-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040930-1729-good-iasa-meeting"
+  "comment-count": 1,
+  "dasblog-entry-id": "4cea0f4d-f822-4480-8099-ead1c2c46471",
+  "dasblog-title": "Good+IASA+Meeting",
+  "dasblog-unique-title": "2004/10/01/Good+IASA+Meeting"
 }

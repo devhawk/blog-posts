@@ -1,5 +1,4 @@
 {
-  "id": 1046,
   "slug": "morning-coffee-120",
   "title": "Morning Coffee 120",
   "date": "2007-10-25T09:50:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Concurrency|concurrency,F#|f-sharp,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20071025-0950-morning-coffee-120"
+  "comment-count": 1,
+  "dasblog-entry-id": "d30b76c1-a10f-4249-a803-1e86c939f012",
+  "dasblog-title": "Morning+Coffee+120",
+  "dasblog-unique-title": "2007/10/25/Morning+Coffee+120"
 }

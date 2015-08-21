@@ -1,12 +1,9 @@
 [
   {
-    "id": 2459,
     "author-name": "KjellSJ",
     "author-email": "kjellsj@objectware.no",
     "author-url": "http://http://kjellsj.blogspot.com",
     "date": "2007-02-21T10:50:56-08:00",
-    "content": "Have a look at AmberPoint for your service governance needs, it should cover the things you mention. In addition, Microsoft will recommend it in their ESB guidelines for BTS 2006 R2.",
-    "parent-id": 891,
-    "RowKey": "20070221-105056"
+    "content": "Have a look at AmberPoint for your service governance needs, it should cover the things you mention. In addition, Microsoft will recommend it in their ESB guidelines for BTS 2006 R2."
   }
 ]

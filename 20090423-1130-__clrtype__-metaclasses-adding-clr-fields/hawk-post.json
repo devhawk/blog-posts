@@ -1,5 +1,4 @@
 {
-  "id": 1253,
   "slug": "__clrtype__-metaclasses-adding-clr-fields",
   "title": "__clrtype__ Metaclasses: Adding CLR Fields",
   "date": "2009-04-23T11:30:07-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "__clrtype__|__clrtype__",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20090423-1130-__clrtype__-metaclasses-adding-clr-fields"
+  "comment-count": 2,
+  "dasblog-entry-id": "81b7f1ae-7663-4f84-88b7-4dc9de78102f",
+  "dasblog-title": "clrtype+Metaclasses+Adding+CLR+Fields",
+  "dasblog-unique-title": "2009/04/23/clrtype+Metaclasses+Adding+CLR+Fields"
 }

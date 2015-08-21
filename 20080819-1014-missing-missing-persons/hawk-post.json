@@ -1,5 +1,4 @@
 {
-  "id": 1170,
   "slug": "missing-missing-persons",
   "title": "Missing Missing Persons",
   "date": "2008-08-19T10:14:31-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "Microsoft|microsoft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080819-1014-missing-missing-persons"
+  "comment-count": 0,
+  "dasblog-entry-id": "d7cb17a3-d9f6-44a0-995e-50187201a6b8",
+  "dasblog-title": "Missing+Missing+Persons",
+  "dasblog-unique-title": "2008/08/19/Missing+Missing+Persons"
 }

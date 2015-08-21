@@ -1,5 +1,4 @@
 {
-  "id": 171,
   "slug": "ill-be-there",
   "title": "I&#8217;ll Be There",
   "date": "2003-08-15T21:42:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030815-2142-ill-be-there"
+  "comment-count": 0,
+  "dasblog-entry-id": "55dbf7d1-57ce-42f8-881f-1471d288011d",
+  "dasblog-title": "Ill+Be+There",
+  "dasblog-unique-title": "2003/08/16/Ill+Be+There"
 }

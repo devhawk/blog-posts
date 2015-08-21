@@ -1,5 +1,4 @@
 {
-  "id": 530,
   "slug": "rss-bandit-wolverine-thumbs-up",
   "title": "RSS Bandit &#8220;Wolverine&#8221; &#8211; Thumbs Up!",
   "date": "2005-02-06T14:43:29-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging,Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20050206-1443-rss-bandit-wolverine-thumbs-up"
+  "comment-count": 1,
+  "dasblog-entry-id": "51545cab-0ae4-4b91-8afa-57871b3e4f7f",
+  "dasblog-title": "RSS+Bandit+Wolverine+Thumbs+Up",
+  "dasblog-unique-title": "2005/02/06/RSS+Bandit+Wolverine+Thumbs+Up"
 }

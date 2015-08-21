@@ -1,32 +1,23 @@
 [
   {
-    "id": 2945,
     "author-name": "Adam Hill",
     "author-email": "adam.hill@mac.com",
     "author-url": "http://randompixels.typepad.com",
     "date": "2004-01-08T14:33:52-08:00",
-    "content": "Check out: http://www.xbox-windows.org\n\nIt is not quite homebrew, but you will have to install a mod chip.\n\nAnd orthogonal to Media and Windows:\n\nhttp://www.microsoft.com/downloads/details.aspx?familyid=ed01d0d5-a82b-41fc-8d72-8d8954d59704&displaylang=en\n\n",
-    "parent-id": 272,
-    "RowKey": "20040108-143352"
+    "content": "Check out: http://www.xbox-windows.org\n\nIt is not quite homebrew, but you will have to install a mod chip.\n\nAnd orthogonal to Media and Windows:\n\nhttp://www.microsoft.com/downloads/details.aspx?familyid=ed01d0d5-a82b-41fc-8d72-8d8954d59704&displaylang=en\n\n"
   },
   {
-    "id": 2946,
     "author-name": "mearls@hotmail.com (Michael Earls)",
     "author-email": "mearls@hotmail.comMichaelEarls",
     "author-url": "http://www.cerkit.com/",
     "date": "2004-01-08T17:09:39-08:00",
-    "content": "I've been wanting to do the exact same thing and I've had the same troubles as you finding affordable parts and good documentation.  Maybe we should start up an online community of people who are interested and then work together to get \"big company\" pricing.  We could come up with a basic setup and then document the results.  Then we could order the parts in bulk if we get enough interest.  Or something like that.\n\nI did notice that Dave Hamilton has some good entries on custom CE platforms on his weblog (http://www.daveham.net/Blog/PermaLink.aspx?guid=7848b818-d392-458e-afb1-98bd42fe30a1)",
-    "parent-id": 272,
-    "RowKey": "20040108-170939"
+    "content": "I've been wanting to do the exact same thing and I've had the same troubles as you finding affordable parts and good documentation.  Maybe we should start up an online community of people who are interested and then work together to get \"big company\" pricing.  We could come up with a basic setup and then document the results.  Then we could order the parts in bulk if we get enough interest.  Or something like that.\n\nI did notice that Dave Hamilton has some good entries on custom CE platforms on his weblog (http://www.daveham.net/Blog/PermaLink.aspx?guid=7848b818-d392-458e-afb1-98bd42fe30a1)"
   },
   {
-    "id": 2947,
     "author-name": "Matthew Flint",
     "author-email": "devhawk@KERMITmatthewspam1REMOVEFROG.org.uk",
     "author-url": "",
     "date": "2005-03-24T02:23:22-08:00",
-    "content": "Michael Earls said \"Maybe we should start up an online community of people who are interested and then work together to get \"big company\" pricing\"\n\nNot a bad idea, though it would be difficult to hit the \"thousands of units\" buying threshold.\n\nI have emailed many companies for prices for PC104, PC104+ and other small SBCs, and rarely received a reply. Some of the replies have been terse and dismissive, because I've been asking about buying single units. Few replies have been genuinely helpful, and even then the prices were prohibitively high.\n\nOnly Soekris supplies the kind of SBC I want at a reasonable price.\n\nIf anyone reads this and does want to take the \"community buying\" idea further, I'd be willing to enter discussions. (I'm based in the UK)",
-    "parent-id": 272,
-    "RowKey": "20050324-022322"
+    "content": "Michael Earls said \"Maybe we should start up an online community of people who are interested and then work together to get \"big company\" pricing\"\n\nNot a bad idea, though it would be difficult to hit the \"thousands of units\" buying threshold.\n\nI have emailed many companies for prices for PC104, PC104+ and other small SBCs, and rarely received a reply. Some of the replies have been terse and dismissive, because I've been asking about buying single units. Few replies have been genuinely helpful, and even then the prices were prohibitively high.\n\nOnly Soekris supplies the kind of SBC I want at a reasonable price.\n\nIf anyone reads this and does want to take the \"community buying\" idea further, I'd be willing to enter discussions. (I'm based in the UK)"
   }
 ]

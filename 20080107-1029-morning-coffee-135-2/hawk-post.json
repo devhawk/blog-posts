@@ -1,5 +1,4 @@
 {
-  "id": 1087,
   "slug": "morning-coffee-135-2",
   "title": "Morning Coffee 135",
   "date": "2008-01-07T10:29:46-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "F#|f-sharp,REST|rest,Reuse|reuse",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080107-1029-morning-coffee-135-2"
+  "comment-count": 0,
+  "dasblog-entry-id": "342c0182-e3a6-4f04-bea7-3ad759187dd4",
+  "dasblog-title": "Morning+Coffee+135",
+  "dasblog-unique-title": "2008/01/07/Morning+Coffee+135"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 369,
   "slug": "teched-days-2-3",
   "title": "TechEd Days 2 &#038; 3",
   "date": "2004-05-27T14:50:44-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040527-1450-teched-days-2-3"
+  "comment-count": 0,
+  "dasblog-entry-id": "ee744c12-35c8-42af-86db-c7de680a53f7",
+  "dasblog-title": "TechEd+Days+2+3",
+  "dasblog-unique-title": "2004/05/27/TechEd+Days+2+3"
 }

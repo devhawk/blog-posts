@@ -1,22 +1,16 @@
 [
   {
-    "id": 2715,
     "author-name": "Scott C. Reynolds",
     "author-email": "scott@scottcreynolds.com",
     "author-url": "http://www.scottcreynolds.com",
     "date": "2004-11-09T04:59:27-08:00",
-    "content": "Well, this question always comes down to two things: what's the hardware's primary use? (games, dev, random) and what's the personal preference of the people giving the advice?\n\nMine:  better all-around is p4 w/HT over AMD XP.  In my experience.  Your mileage may vary.\n\nHaven't had the opportunity to play with the 64...how much of what you want to do is up and running on the 64 already (and making use of the 64, not just running on it).",
-    "parent-id": 474,
-    "RowKey": "20041109-045927"
+    "content": "Well, this question always comes down to two things: what's the hardware's primary use? (games, dev, random) and what's the personal preference of the people giving the advice?\n\nMine:  better all-around is p4 w/HT over AMD XP.  In my experience.  Your mileage may vary.\n\nHaven't had the opportunity to play with the 64...how much of what you want to do is up and running on the 64 already (and making use of the 64, not just running on it)."
   },
   {
-    "id": 2716,
     "author-name": "Steve Tibbett",
     "author-email": "stevex-weblog@oakburl.net",
     "author-url": "http://www.stevex.org/dottext",
     "date": "2004-11-09T06:26:54-08:00",
-    "content": "I love AMD processors and the fact that you can get a 64 bit chip today and use it on your 32 bit OS until you have a 64 bit one is a nice selling point, but if you're a multitasker (ie doing other stuff while compiling, that sort of thing) then HT will make a huge difference.\n\nIt makes the system seem responsive even when some CPU-hungry process is running.\n\nIf I need a new system before a dual-core Athlon is available I'll be getting an Intel chip with HT.\n",
-    "parent-id": 474,
-    "RowKey": "20041109-062654"
+    "content": "I love AMD processors and the fact that you can get a 64 bit chip today and use it on your 32 bit OS until you have a 64 bit one is a nice selling point, but if you're a multitasker (ie doing other stuff while compiling, that sort of thing) then HT will make a huge difference.\n\nIt makes the system seem responsive even when some CPU-hungry process is running.\n\nIf I need a new system before a dual-core Athlon is available I'll be getting an Intel chip with HT.\n"
   }
 ]

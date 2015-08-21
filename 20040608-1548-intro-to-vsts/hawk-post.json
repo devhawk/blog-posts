@@ -1,5 +1,4 @@
 {
-  "id": 376,
   "slug": "intro-to-vsts",
   "title": "Intro to VSTS",
   "date": "2004-06-08T15:48:21-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040608-1548-intro-to-vsts"
+  "comment-count": 0,
+  "dasblog-entry-id": "ff660602-3ea2-4c0a-9b8e-0e202f69d176",
+  "dasblog-title": "Intro+To+VSTS",
+  "dasblog-unique-title": "2004/06/08/Intro+To+VSTS"
 }

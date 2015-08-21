@@ -1,5 +1,4 @@
 {
-  "id": 652,
   "slug": "what-is-up-with-the-three-amigos",
   "title": "What Is Up With The Three Amigos?",
   "date": "2005-11-14T11:15:04-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20051114-1115-what-is-up-with-the-three-amigos"
+  "comment-count": 0,
+  "dasblog-entry-id": "ffdb7145-6ab2-4433-95e7-034f620b544e",
+  "dasblog-title": "What+Is+Up+With+The+Three+Amigos",
+  "dasblog-unique-title": "2005/11/14/What+Is+Up+With+The+Three+Amigos"
 }

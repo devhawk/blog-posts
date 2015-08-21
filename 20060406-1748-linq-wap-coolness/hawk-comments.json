@@ -1,12 +1,9 @@
 [
   {
-    "id": 2347,
     "author-name": "Steve Eichert",
     "author-email": "steve.eichert@gmail.com",
     "author-url": "http://steve.emxsoftware.com/",
     "date": "2006-04-07T05:32:51-07:00",
-    "content": "Have you seen Andres post on DLinq ASP.NET Build providers [1]?  He had some issues with creating an object data source because of some limitations in ASP.NET's support for generics but it sounds like he's doing some interesting stuff.\n\nhttp://weblogs.asp.net/aaguiar/archive/2005/12/14/433143.aspx",
-    "parent-id": 733,
-    "RowKey": "20060407-053251"
+    "content": "Have you seen Andres post on DLinq ASP.NET Build providers [1]?  He had some issues with creating an object data source because of some limitations in ASP.NET's support for generics but it sounds like he's doing some interesting stuff.\n\nhttp://weblogs.asp.net/aaguiar/archive/2005/12/14/433143.aspx"
   }
 ]

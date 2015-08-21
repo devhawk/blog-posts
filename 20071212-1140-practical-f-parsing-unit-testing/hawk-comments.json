@@ -1,12 +1,9 @@
 [
   {
-    "id": 2005,
     "author-name": "James",
     "author-email": "jayhugard@hotmail.com",
     "author-url": "",
     "date": "2007-12-18T10:53:19-08:00",
-    "content": "Using the implicit class construction syntax reduces things by a few lines, but still retains a stable fixture object which gets recreated for each test (fixup the indenting as appropriate)...\n\ntype [<TestFixture>] parser_tests() =    \n\n        [<Test>]   \n        member x.test_NC() =    \n            let Some(c,text) = NC !!\"test\"  \n            Assert.Equal(c, 't')    \n            Assert.Equal(text, !!\"est\") \n\n        [<Test>]   \n        member x.test_NC_empty_string() =    \n            let ret = NC !!\"\"  \n            Assert.Equal(None, ret) \n",
-    "parent-id": 1073,
-    "RowKey": "20071218-105319"
+    "content": "Using the implicit class construction syntax reduces things by a few lines, but still retains a stable fixture object which gets recreated for each test (fixup the indenting as appropriate)...\n\ntype [<TestFixture>] parser_tests() =    \n\n        [<Test>]   \n        member x.test_NC() =    \n            let Some(c,text) = NC !!\"test\"  \n            Assert.Equal(c, 't')    \n            Assert.Equal(text, !!\"est\") \n\n        [<Test>]   \n        member x.test_NC_empty_string() =    \n            let ret = NC !!\"\"  \n            Assert.Equal(None, ret) \n"
   }
 ]

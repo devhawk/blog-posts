@@ -1,5 +1,4 @@
 {
-  "id": 1041,
   "slug": "morning-coffee-116",
   "title": "Morning Coffee 116",
   "date": "2007-10-08T09:57:40-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Blogging|blogging,College Football|college-football,Hockey|hockey,Service Broker|service-broker,Washington Capitals|washington-capitals,XML|xml",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071008-0957-morning-coffee-116"
+  "comment-count": 0,
+  "dasblog-entry-id": "65d3d053-c5e6-40be-9172-e50e8a9c14d4",
+  "dasblog-title": "Morning+Coffee+116",
+  "dasblog-unique-title": "2007/10/08/Morning+Coffee+116"
 }

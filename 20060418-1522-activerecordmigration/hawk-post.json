@@ -1,5 +1,4 @@
 {
-  "id": 737,
   "slug": "activerecordmigration",
   "title": "ActiveRecord::Migration",
   "date": "2006-04-18T15:22:14-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Database|database,Ruby|ruby",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20060418-1522-activerecordmigration"
+  "comment-count": 1,
+  "dasblog-entry-id": "d47d414a-96aa-4766-9333-bd01c3b65ac8",
+  "dasblog-title": "ActiveRecordMigration",
+  "dasblog-unique-title": "2006/04/18/ActiveRecordMigration"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 45,
   "slug": "quote-update",
   "title": "Quote Update",
   "date": "2003-03-17T23:47:33-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030317-2347-quote-update"
+  "comment-count": 0,
+  "dasblog-entry-id": "5dbc986e-628a-4071-9bc5-b02e51497a1b",
+  "dasblog-title": "Quote+Update",
+  "dasblog-unique-title": "2003/03/18/Quote+Update"
 }

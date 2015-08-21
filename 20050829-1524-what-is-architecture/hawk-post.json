@@ -1,5 +1,4 @@
 {
-  "id": 618,
   "slug": "what-is-architecture",
   "title": "What is Architecture?",
   "date": "2005-08-29T15:24:40-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20050829-1524-what-is-architecture"
+  "comment-count": 1,
+  "dasblog-entry-id": "1629f5d2-1504-436c-aa43-91419955fb5d",
+  "dasblog-title": "What+Is+Architecture",
+  "dasblog-unique-title": "2005/08/29/What+Is+Architecture"
 }

@@ -1,32 +1,23 @@
 [
   {
-    "id": 2975,
     "author-name": "Omar Shahine",
     "author-email": "shahineo@hotmail.com",
     "author-url": "",
     "date": "2004-01-30T11:57:31-08:00",
-    "content": "Can you file this bug in the bug db",
-    "parent-id": 296,
-    "RowKey": "20040130-115731"
+    "content": "Can you file this bug in the bug db"
   },
   {
-    "id": 2976,
     "author-name": "mearls@hotmail.com (Michael Earls)",
     "author-email": "mearls@hotmail.comMichaelEarls",
     "author-url": "http://www.cerkit.com/",
     "date": "2004-01-30T12:25:51-08:00",
-    "content": "Does this break existing Permalinks?",
-    "parent-id": 296,
-    "RowKey": "20040130-122551"
+    "content": "Does this break existing Permalinks?"
   },
   {
-    "id": 2977,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2004-01-30T23:23:27-08:00",
-    "content": "From what I can tell, it does not break existing permalinks. It appears that the pages handle both the query string and the google-friendly format regardless of the url rewriting setting. Turning on url rewriting basically changes the format of the permalinks.\n\nWill do on filing the bug.",
-    "parent-id": 296,
-    "RowKey": "20040130-232327"
+    "content": "From what I can tell, it does not break existing permalinks. It appears that the pages handle both the query string and the google-friendly format regardless of the url rewriting setting. Turning on url rewriting basically changes the format of the permalinks.\n\nWill do on filing the bug."
   }
 ]

@@ -1,32 +1,23 @@
 [
   {
-    "id": 2410,
     "author-name": "David Clement",
     "author-email": "david.clement@visiphor.com",
     "author-url": "",
     "date": "2006-09-28T09:39:07-07:00",
-    "content": "Ouch!  ",
-    "parent-id": 804,
-    "RowKey": "20060928-093907"
+    "content": "Ouch!  "
   },
   {
-    "id": 2411,
     "author-name": "Arnon Rotem-Gal-Oz",
     "author-email": "arnon@rgoarchitects.com",
     "author-url": "http://www.ddj.com/dept/architect",
     "date": "2006-09-28T13:03:25-07:00",
-    "content": "\n> PS - I have a barely used copy of \"Service-Oriented Architecture:\n> Concepts, Technology, and Design\" if anyone wants to trade for it\n>It's not a red paperclip, but it's like new - only flipped through once. :)\n\nI have a similar experience with his \"Service-Oriented Architecture: A Field Guide to Integrating XML and Web Services\" :)\n\nArnon",
-    "parent-id": 804,
-    "RowKey": "20060928-130325"
+    "content": "\n> PS - I have a barely used copy of \"Service-Oriented Architecture:\n> Concepts, Technology, and Design\" if anyone wants to trade for it\n>It's not a red paperclip, but it's like new - only flipped through once. :)\n\nI have a similar experience with his \"Service-Oriented Architecture: A Field Guide to Integrating XML and Web Services\" :)\n\nArnon"
   },
   {
-    "id": 2412,
     "author-name": "Erik Johnson",
     "author-email": "ejohnson@epicor.com",
     "author-url": "http://appside.blogspot.com",
     "date": "2006-10-02T09:30:33-07:00",
-    "content": "It came to me a while back that half the time I talk to someone about SOA, we aren't even talking about the same objectives.  Working for an ISV, we try to think about service-oriented application design rather than the target implementer's enterprise architecture.  They are different things.\n\nI agree you can't expect reuse in SOA to materialize any differently than you would for objects.  Cohesion is cohesion.  But if you can design an application to at least minimize the invasiveness required to deploy that app into someone else's enterprise architecture, you can get some economy back reminiscent of \"reuse\".  Anyway, I wrote up some thoughts along these lines over the weekend on the 'ol blog.  ",
-    "parent-id": 804,
-    "RowKey": "20061002-093033"
+    "content": "It came to me a while back that half the time I talk to someone about SOA, we aren't even talking about the same objectives.  Working for an ISV, we try to think about service-oriented application design rather than the target implementer's enterprise architecture.  They are different things.\n\nI agree you can't expect reuse in SOA to materialize any differently than you would for objects.  Cohesion is cohesion.  But if you can design an application to at least minimize the invasiveness required to deploy that app into someone else's enterprise architecture, you can get some economy back reminiscent of \"reuse\".  Anyway, I wrote up some thoughts along these lines over the weekend on the 'ol blog.  "
   }
 ]

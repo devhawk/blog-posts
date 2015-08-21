@@ -1,52 +1,37 @@
 [
   {
-    "id": 2279,
     "author-name": "Luiz",
     "author-email": "luiz.tuschinski@quellon.com.br",
     "author-url": "",
     "date": "2009-10-15T07:24:57-07:00",
-    "content": "Where can We download the full sourcecode of this debug routines?",
-    "parent-id": 1294,
-    "RowKey": "20091015-072457"
+    "content": "Where can We download the full sourcecode of this debug routines?"
   },
   {
-    "id": 2280,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2009-10-21T19:07:29-07:00",
-    "content": "http://github.com/devhawk/LightweightDebuggerDemo",
-    "parent-id": 1294,
-    "RowKey": "20091021-190729"
+    "content": "http://github.com/devhawk/LightweightDebuggerDemo"
   },
   {
-    "id": 2281,
     "author-name": "A B",
     "author-email": "cold_fusion@fastmail.fm",
     "author-url": "",
     "date": "2009-10-29T04:01:11-07:00",
-    "content": "Great job, I'm happy to see settrace finally implemented and put into use.\nThis actually makes IronPython a viable solution to a project we're initiating over here.\n\nThough, someone expressed concern for how slow running a script may become when break point management is implemented in the debugger.\n\nI would like to hear your thoughts about that.\n\nThanks.\n",
-    "parent-id": 1294,
-    "RowKey": "20091029-040111"
+    "content": "Great job, I'm happy to see settrace finally implemented and put into use.\nThis actually makes IronPython a viable solution to a project we're initiating over here.\n\nThough, someone expressed concern for how slow running a script may become when break point management is implemented in the debugger.\n\nI would like to hear your thoughts about that.\n\nThanks.\n"
   },
   {
-    "id": 2282,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2009-11-23T22:40:19-08:00",
-    "content": "@AB, running the script under the debugger is slower, but I'm not sure how much slower exactly. I'd ask Dino on the IronPython mailing list - he implemented it so I'm sure he can speak to the amount of overhead there is.",
-    "parent-id": 1294,
-    "RowKey": "20091123-224019"
+    "content": "@AB, running the script under the debugger is slower, but I'm not sure how much slower exactly. I'd ask Dino on the IronPython mailing list - he implemented it so I'm sure he can speak to the amount of overhead there is."
   },
   {
-    "id": 2283,
     "author-name": "loge",
     "author-email": "",
     "author-url": "",
     "date": "2009-11-25T12:41:51-08:00",
-    "content": "Thank You very much for this excellent \"debug\" series.\nIt would be good to see Your description of viewing variables during debug...",
-    "parent-id": 1294,
-    "RowKey": "20091125-124151"
+    "content": "Thank You very much for this excellent \"debug\" series.\nIt would be good to see Your description of viewing variables during debug..."
   }
 ]

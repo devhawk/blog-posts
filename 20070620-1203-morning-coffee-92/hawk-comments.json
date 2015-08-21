@@ -1,12 +1,9 @@
 [
   {
-    "id": 2530,
     "author-name": "Rob Bazinet",
     "author-email": "rbazinet@charter.net",
     "author-url": "http://www.robertbazinet.com",
     "date": "2007-06-20T14:10:07-07:00",
-    "content": "I think people will and DO use clients other than TortoiseSVN.  I use VisualSVN, http://www.visualsvn.com.  I use the Microsoft client for TFS but I also use Subversion for several of my smaller projects because it is so much easier to setup and administer than TFS.  Using VisualSVN to talk to both Subversion and TFS would be very nice since Visual Studio doesn't really like multiple source control clients.\n\nMy 2 cents.",
-    "parent-id": 989,
-    "RowKey": "20070620-141007"
+    "content": "I think people will and DO use clients other than TortoiseSVN.  I use VisualSVN, http://www.visualsvn.com.  I use the Microsoft client for TFS but I also use Subversion for several of my smaller projects because it is so much easier to setup and administer than TFS.  Using VisualSVN to talk to both Subversion and TFS would be very nice since Visual Studio doesn't really like multiple source control clients.\n\nMy 2 cents."
   }
 ]

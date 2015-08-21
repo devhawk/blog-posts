@@ -1,5 +1,4 @@
 {
-  "id": 634,
   "slug": "msr-rss",
   "title": "MSR RSS",
   "date": "2005-10-03T14:01:21-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20051003-1401-msr-rss"
+  "comment-count": 0,
+  "dasblog-entry-id": "a577606d-9f61-41a2-9ffc-5e0953ad6cff",
+  "dasblog-title": "MSR+RSS",
+  "dasblog-unique-title": "2005/10/03/MSR+RSS"
 }

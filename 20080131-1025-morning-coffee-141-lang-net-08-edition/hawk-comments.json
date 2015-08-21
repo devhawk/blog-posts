@@ -1,12 +1,9 @@
 [
   {
-    "id": 2024,
     "author-name": "Tomas Restrepo",
     "author-email": "tomas@winterdom.com",
     "author-url": "http://www.winterdom.com/weblog/",
     "date": "2008-01-31T14:18:14-08:00",
-    "content": "The DLR is pretty cool; I've been playing a bit with it using a very simplistic language (not toyscript) and certainly the DLR makes it a lot easier. \n\nThe cool thing about the DLR (for me) is that it allows you to simply with with expressions, and let the DLR itself deal with building call sites and ensuring that method calls are resolved to the right overload and such, easing things a *lot*.\n\nThe problem with the DLR, however, is that it has pretty much zero documentation (except a few comments here and there on the code), and there are several places where it expects you to create tree nodes (such as actions) in very specific ways which are totally not-intuitive, and finding out why it isn't working or why you're triggering an exception or assert is anything but clear (Example: an InvokeMember action can require on certain ocassions an extra argument that must not be on the callsignature)\n",
-    "parent-id": 1097,
-    "RowKey": "20080131-141814"
+    "content": "The DLR is pretty cool; I've been playing a bit with it using a very simplistic language (not toyscript) and certainly the DLR makes it a lot easier. \n\nThe cool thing about the DLR (for me) is that it allows you to simply with with expressions, and let the DLR itself deal with building call sites and ensuring that method calls are resolved to the right overload and such, easing things a *lot*.\n\nThe problem with the DLR, however, is that it has pretty much zero documentation (except a few comments here and there on the code), and there are several places where it expects you to create tree nodes (such as actions) in very specific ways which are totally not-intuitive, and finding out why it isn't working or why you're triggering an exception or assert is anything but clear (Example: an InvokeMember action can require on certain ocassions an extra argument that must not be on the callsignature)\n"
   }
 ]

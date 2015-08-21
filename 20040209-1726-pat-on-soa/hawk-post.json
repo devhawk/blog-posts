@@ -1,5 +1,4 @@
 {
-  "id": 307,
   "slug": "pat-on-soa",
   "title": "Pat on SOA",
   "date": "2004-02-09T17:26:26-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040209-1726-pat-on-soa"
+  "comment-count": 0,
+  "dasblog-entry-id": "6668b48c-b34f-4c7b-baa7-b01317e6e722",
+  "dasblog-title": "Pat+On+SOA",
+  "dasblog-unique-title": "2004/02/10/Pat+On+SOA"
 }

@@ -1,12 +1,9 @@
 [
   {
-    "id": 2549,
     "author-name": "Rob Bazinet",
     "author-email": "rbazinet@charter.net",
     "author-url": "http://www.robertbazinet.com",
     "date": "2007-07-20T12:59:16-07:00",
-    "content": "Speaking of Ruby on .NET, check out http://www.sapphiresteel.com/.  I am not affliated with them at all.  I bought a copy and it rocks.  Bascially it is a Visual Studio add-in for writing Ruby code as well as a strong focus on Rails applications.  \n\nOne thing that really spoiled me with all of these years of C#...Intellisense.  Ruby on it's own has no Intellisense but with this tool you get great Intellisense and the support if great.\n\nAgain, not affiliated with them but happy with the product.  They don't seem to get a ton of coverage out there, I think they deserve more.\n",
-    "parent-id": 1009,
-    "RowKey": "20070720-125916"
+    "content": "Speaking of Ruby on .NET, check out http://www.sapphiresteel.com/.  I am not affliated with them at all.  I bought a copy and it rocks.  Bascially it is a Visual Studio add-in for writing Ruby code as well as a strong focus on Rails applications.  \n\nOne thing that really spoiled me with all of these years of C#...Intellisense.  Ruby on it's own has no Intellisense but with this tool you get great Intellisense and the support if great.\n\nAgain, not affiliated with them but happy with the product.  They don't seem to get a ton of coverage out there, I think they deserve more.\n"
   }
 ]

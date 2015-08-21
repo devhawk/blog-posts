@@ -1,5 +1,4 @@
 {
-  "id": 395,
   "slug": "architecture-center-banner",
   "title": "Architecture Center Banner",
   "date": "2004-07-09T16:00:14-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040709-1600-architecture-center-banner"
+  "comment-count": 1,
+  "dasblog-entry-id": "f8f3664a-3146-4fc0-ae52-763d27c14496",
+  "dasblog-title": "Architecture+Center+Banner",
+  "dasblog-unique-title": "2004/07/09/Architecture+Center+Banner"
 }

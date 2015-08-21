@@ -1,5 +1,4 @@
 {
-  "id": 329,
   "slug": "build-slide-export",
   "title": "Build Slide Export",
   "date": "2004-03-10T17:41:16-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20040310-1741-build-slide-export"
+  "comment-count": 3,
+  "dasblog-entry-id": "5c560426-b750-4eac-b618-e254c7b14298",
+  "dasblog-title": "Build+Slide+Export",
+  "dasblog-unique-title": "2004/03/11/Build+Slide+Export"
 }

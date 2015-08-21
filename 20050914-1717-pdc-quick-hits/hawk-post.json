@@ -1,5 +1,4 @@
 {
-  "id": 630,
   "slug": "pdc-quick-hits",
   "title": "PDC Quick Hits",
   "date": "2005-09-14T17:17:35-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050914-1717-pdc-quick-hits"
+  "comment-count": 0,
+  "dasblog-entry-id": "4b986a23-4b5a-4ad4-9903-83dc69da3609",
+  "dasblog-title": "PDC+Quick+Hits",
+  "dasblog-unique-title": "2005/09/15/PDC+Quick+Hits"
 }

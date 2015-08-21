@@ -1,5 +1,4 @@
 {
-  "id": 1084,
   "slug": "morning-coffee-133",
   "title": "Morning Coffee 133",
   "date": "2008-01-02T10:21:53-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Blogging|blogging,College Football|college-football,Hockey|hockey,Home Network|home-network,Washington Capitals|washington-capitals,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080102-1021-morning-coffee-133"
+  "comment-count": 1,
+  "dasblog-entry-id": "afbe0e2d-4d94-425b-b5c2-f5f418bca1a3",
+  "dasblog-title": "Morning+Coffee+133",
+  "dasblog-unique-title": "2008/01/02/Morning+Coffee+133"
 }

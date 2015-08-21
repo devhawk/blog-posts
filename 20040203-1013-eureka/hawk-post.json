@@ -1,5 +1,4 @@
 {
-  "id": 299,
   "slug": "eureka",
   "title": "Eureka",
   "date": "2004-02-03T10:13:04-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20040203-1013-eureka"
+  "comment-count": 3,
+  "dasblog-entry-id": "a6720552-089c-4070-8cd4-32be0339138b",
+  "dasblog-title": "Eureka",
+  "dasblog-unique-title": "2004/02/03/Eureka"
 }

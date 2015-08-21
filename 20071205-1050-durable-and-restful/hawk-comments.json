@@ -1,62 +1,44 @@
 [
   {
-    "id": 1994,
     "author-name": "Erik Johnson",
     "author-email": "ejohnson@epicor.com",
     "author-url": "http://appside.blogspot.com",
     "date": "2007-12-05T21:40:18-08:00",
-    "content": "> Given that POST isn't idempotent...\n\nBut like you said, idempotency is in the eye of the HTTP implementor.  The HTTP spec says that PUT and GET are meant to be idempotent and leaves the idempotency (is that a word?) of POST lesft unsaid.  It doesn't say POST MUST NOT be idempotent.  \n\nOne issue with PUT is that the spec says that I am saving a whole resource (replacing the data rep) which implies a programming model around that semantic.  There's nothing wrong with that, but it might not be the best fit for Pat's withdraw-a-billion-bucks scenario.\n\nPOST just says I am handing data to a processor.  Your notion of having the implementing the idempotent behavior using HTTP headers is fine.  So does putting the message ID tags inside the payload.  Since the HTTP spec leaves the implementation of idempotency up to you (for all verbs) both are equally cool for RESTful apps.\n\nAnyway, I just wanted to point out that POST doesn't have to mean non-idempotent -- and then I started rambling as usual.",
-    "parent-id": 1065,
-    "RowKey": "20071205-214018"
+    "content": "> Given that POST isn't idempotent...\n\nBut like you said, idempotency is in the eye of the HTTP implementor.  The HTTP spec says that PUT and GET are meant to be idempotent and leaves the idempotency (is that a word?) of POST lesft unsaid.  It doesn't say POST MUST NOT be idempotent.  \n\nOne issue with PUT is that the spec says that I am saving a whole resource (replacing the data rep) which implies a programming model around that semantic.  There's nothing wrong with that, but it might not be the best fit for Pat's withdraw-a-billion-bucks scenario.\n\nPOST just says I am handing data to a processor.  Your notion of having the implementing the idempotent behavior using HTTP headers is fine.  So does putting the message ID tags inside the payload.  Since the HTTP spec leaves the implementation of idempotency up to you (for all verbs) both are equally cool for RESTful apps.\n\nAnyway, I just wanted to point out that POST doesn't have to mean non-idempotent -- and then I started rambling as usual."
   },
   {
-    "id": 1995,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2007-12-05T23:35:11-08:00",
-    "content": "Good point, Erik. POST isn't *naturally* idempotent. I'll change the text to reflect your comment.",
-    "parent-id": 1065,
-    "RowKey": "20071205-233511"
+    "content": "Good point, Erik. POST isn't *naturally* idempotent. I'll change the text to reflect your comment."
   },
   {
-    "id": 1996,
     "author-name": "Libor SOUCEK",
     "author-email": "lsoucek@gmail.com",
     "author-url": "http://lsblog.wordpress.com",
     "date": "2007-12-06T06:02:19-08:00",
-    "content": "Wouldn’t be generally safer base idempotent behavior rather on business data then on some kind of communication protocol?\n\nSure with described approach you will discard all duplicate messages right on transport layer which is perfectly legal and saves recipient service from unnecessary processing but works only for certain scenarios.\n\nEspecially this approach works poorly in case message source service makes “failover” to different HW/geo location where it might “rerun” already once processed messages (i.e. source service tries to ensure all data were rely processed) and start with completely different message numbers. This is more highlighted with use of GUID which is not tight to data content what so ever.\n\nWith GUID as “Unique ID” you have yet another problem. You would not be able on message recipient side define order in which messages were generated/send. This might be problem not only on UDP based messaging protocol as widely known. Another case is when sending data from two location after service failover. And much less known/mentioned message reordering problem is surprisingly on TCP based connection in certain network configurations as well (e.g. prime example of this behavior is on highly resilient network setup where are routers cross connected to ensure at least one network route cross routers is always available).\n\nI’m not saying is not usable for your scenarios but it could be generalized more. All depends on requirements and environment you are running in.\n",
-    "parent-id": 1065,
-    "RowKey": "20071206-060219"
+    "content": "Wouldn’t be generally safer base idempotent behavior rather on business data then on some kind of communication protocol?\n\nSure with described approach you will discard all duplicate messages right on transport layer which is perfectly legal and saves recipient service from unnecessary processing but works only for certain scenarios.\n\nEspecially this approach works poorly in case message source service makes “failover” to different HW/geo location where it might “rerun” already once processed messages (i.e. source service tries to ensure all data were rely processed) and start with completely different message numbers. This is more highlighted with use of GUID which is not tight to data content what so ever.\n\nWith GUID as “Unique ID” you have yet another problem. You would not be able on message recipient side define order in which messages were generated/send. This might be problem not only on UDP based messaging protocol as widely known. Another case is when sending data from two location after service failover. And much less known/mentioned message reordering problem is surprisingly on TCP based connection in certain network configurations as well (e.g. prime example of this behavior is on highly resilient network setup where are routers cross connected to ensure at least one network route cross routers is always available).\n\nI’m not saying is not usable for your scenarios but it could be generalized more. All depends on requirements and environment you are running in.\n"
   },
   {
-    "id": 1997,
     "author-name": "Mark Baker",
     "author-email": "distobj@acm.org",
     "author-url": "http://www.markbaker.ca",
     "date": "2007-12-06T12:09:25-08:00",
-    "content": "FWIW, POST is idempotent by definition.  Erik's confusing what the server does with the message with what the message means.  It is not inconsistent for the former to be idempotent and the latter to be non-idempotent.\n\nAlso, re APP and PUT vs. POST, PUT can only be used for creation when the client knows the URI it is to use.  As it doesn't in the typical scenario, the server has to provide the URI so POST is appropriate.",
-    "parent-id": 1065,
-    "RowKey": "20071206-120925"
+    "content": "FWIW, POST is idempotent by definition.  Erik's confusing what the server does with the message with what the message means.  It is not inconsistent for the former to be idempotent and the latter to be non-idempotent.\n\nAlso, re APP and PUT vs. POST, PUT can only be used for creation when the client knows the URI it is to use.  As it doesn't in the typical scenario, the server has to provide the URI so POST is appropriate."
   },
   {
-    "id": 1998,
     "author-name": "Erik Johnson",
     "author-email": "ejohnson@epicor.com",
     "author-url": "http://appside.blogspot.com",
     "date": "2007-12-06T15:53:11-08:00",
-    "content": "Mark,  I'm not the guru -- am I looking at the wrong spec (it wouldn't be the first time)?  \n\nRFC-2616 section 9.1.2 (Idempotent Methods) says:  \"Methods can also have the property of \"idempotence\"...The methods GET, HEAD, PUT and DELETE share this property.\"\n\nLooking further down at the section describing POST, I don't see anything about idempotency.  \n\n",
-    "parent-id": 1065,
-    "RowKey": "20071206-155311"
+    "content": "Mark,  I'm not the guru -- am I looking at the wrong spec (it wouldn't be the first time)?  \n\nRFC-2616 section 9.1.2 (Idempotent Methods) says:  \"Methods can also have the property of \"idempotence\"...The methods GET, HEAD, PUT and DELETE share this property.\"\n\nLooking further down at the section describing POST, I don't see anything about idempotency.  \n\n"
   },
   {
-    "id": 1999,
     "author-name": "Mark Baker",
     "author-email": "distobj@acm.org",
     "author-url": "http://www.markbaker.ca",
     "date": "2007-12-07T04:20:36-08:00",
-    "content": "Yes, of course.  I meant POST was *non*-idempotent.",
-    "parent-id": 1065,
-    "RowKey": "20071207-042036"
+    "content": "Yes, of course.  I meant POST was *non*-idempotent."
   }
 ]

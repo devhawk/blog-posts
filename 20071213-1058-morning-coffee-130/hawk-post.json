@@ -1,5 +1,4 @@
 {
-  "id": 1074,
   "slug": "morning-coffee-130",
   "title": "Morning Coffee 130",
   "date": "2007-12-13T10:58:17-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Functional Programming|functional-programming,Guidance Automation|guidance-automation,Washington Capitals|washington-capitals,XNA|xna",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071213-1058-morning-coffee-130"
+  "comment-count": 0,
+  "dasblog-entry-id": "8d6e82c6-2e64-43fd-bde1-0a983ba9a2f3",
+  "dasblog-title": "Morning+Coffee+130",
+  "dasblog-unique-title": "2007/12/13/Morning+Coffee+130"
 }

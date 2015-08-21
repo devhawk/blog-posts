@@ -1,42 +1,30 @@
 [
   {
-    "id": 2306,
     "author-name": "Robert Seso",
     "author-email": "robert.seso@gmx.net",
     "author-url": "",
     "date": "2010-10-08T06:44:16-07:00",
-    "content": "Hm...has a spaghetti code touch to it. Wouldn't using a better mocking framework that can mock sealed ASP.NET classes (such as TypeMock or JustMock) be a simpler solution in this case? ",
-    "parent-id": 1304,
-    "RowKey": "20101008-064416"
+    "content": "Hm...has a spaghetti code touch to it. Wouldn't using a better mocking framework that can mock sealed ASP.NET classes (such as TypeMock or JustMock) be a simpler solution in this case? "
   },
   {
-    "id": 2307,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2010-10-08T09:45:48-07:00",
-    "content": "Using TypeMock or JustMock might be easier, but I don't think they're widely used due to their price tag. \n\nI'm curious why you think this is spaghetti. I mean, I get why this might feel strange if you're not familiar with functional programming. But spaghetti to me is \"complex and tangled control structure\" (Wikipedia). The control structure here is very straightforward - one layer of abstraction in order to be able to test the untestable intrinsics.\n",
-    "parent-id": 1304,
-    "RowKey": "20101008-094548"
+    "content": "Using TypeMock or JustMock might be easier, but I don't think they're widely used due to their price tag. \n\nI'm curious why you think this is spaghetti. I mean, I get why this might feel strange if you're not familiar with functional programming. But spaghetti to me is \"complex and tangled control structure\" (Wikipedia). The control structure here is very straightforward - one layer of abstraction in order to be able to test the untestable intrinsics.\n"
   },
   {
-    "id": 2308,
     "author-name": "Robert Seso",
     "author-email": "robert.seso@gmx.net",
     "author-url": "",
     "date": "2010-10-08T12:05:30-07:00",
-    "content": "Well, any problem in programming could be solved by adding layers of abstraction, but at one point or another those layers start generating more problems then they solve. It's nothing to do with my understanding of functional programming, but in this case this is a clear overkill and I couldn't imagine maintaining anything but simplest classes coded in this way. In addition, you can't easily set expectations on delegates this way, e.g. test that certain delegate was called exactly X times, or that it was called with a certain input parameter etc.\n\nYes, advanced mocking frameworks do cost some money, but they are well worth it and typically cost less than one day spent debugging overly complex code.\n\nDon't get me wrong -- I do find the concept very interesting. You might have a look at Event Based Components architecture which completely evolves around similar concepts.",
-    "parent-id": 1304,
-    "RowKey": "20101008-120530"
+    "content": "Well, any problem in programming could be solved by adding layers of abstraction, but at one point or another those layers start generating more problems then they solve. It's nothing to do with my understanding of functional programming, but in this case this is a clear overkill and I couldn't imagine maintaining anything but simplest classes coded in this way. In addition, you can't easily set expectations on delegates this way, e.g. test that certain delegate was called exactly X times, or that it was called with a certain input parameter etc.\n\nYes, advanced mocking frameworks do cost some money, but they are well worth it and typically cost less than one day spent debugging overly complex code.\n\nDon't get me wrong -- I do find the concept very interesting. You might have a look at Event Based Components architecture which completely evolves around similar concepts."
   },
   {
-    "id": 2309,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2010-10-08T14:55:23-07:00",
-    "content": "Mocking delegates will be supported in Moq v4 (http://code.google.com/p/moq/issues/detail?id=235) including support for testing that a certain delegate was called exactly X times or that it was called with certain input parameters, etc.",
-    "parent-id": 1304,
-    "RowKey": "20101008-145523"
+    "content": "Mocking delegates will be supported in Moq v4 (http://code.google.com/p/moq/issues/detail?id=235) including support for testing that a certain delegate was called exactly X times or that it was called with certain input parameters, etc."
   }
 ]

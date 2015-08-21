@@ -1,5 +1,4 @@
 {
-  "id": 199,
   "slug": "geek-dinner-alert",
   "title": "Geek Dinner Alert",
   "date": "2003-09-23T14:07:53-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030923-1407-geek-dinner-alert"
+  "comment-count": 0,
+  "dasblog-entry-id": "d55f73f1-2fdf-4a8d-8b23-8c1cbd316b8b",
+  "dasblog-title": "Geek+Dinner+Alert",
+  "dasblog-unique-title": "2003/09/23/Geek+Dinner+Alert"
 }

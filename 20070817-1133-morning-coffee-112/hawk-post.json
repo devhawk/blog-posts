@@ -1,5 +1,4 @@
 {
-  "id": 1032,
   "slug": "morning-coffee-112",
   "title": "Morning Coffee 112",
   "date": "2007-08-17T11:33:11-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "PowerShell|powershell,Windows Live|windows-live",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070817-1133-morning-coffee-112"
+  "comment-count": 0,
+  "dasblog-entry-id": "cd9914c4-47f6-4ff5-80ef-599f8c0ec07a",
+  "dasblog-title": "Morning+Coffee+112",
+  "dasblog-unique-title": "2007/08/17/Morning+Coffee+112"
 }

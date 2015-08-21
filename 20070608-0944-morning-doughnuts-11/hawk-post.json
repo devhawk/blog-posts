@@ -1,5 +1,4 @@
 {
-  "id": 983,
   "slug": "morning-doughnuts-11",
   "title": "Morning Doughnuts 11",
   "date": "2007-06-08T09:44:01-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Blogging|blogging,PowerShell|powershell,SOA|soa,TechEd|teched,Xbox 360|xbox-360",
   "author": "Dale Churchward|dale|spawn_master@hotmail.com",
-  "comment_count": 0,
-  "PartKey": "20070608-0944-morning-doughnuts-11"
+  "comment-count": 0,
+  "dasblog-entry-id": "91d54537-53aa-4edd-b395-e46fbc833598",
+  "dasblog-title": "Morning+Doughnuts+11",
+  "dasblog-unique-title": "2007/06/08/Morning+Doughnuts+11"
 }

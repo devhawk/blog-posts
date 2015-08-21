@@ -1,5 +1,4 @@
 {
-  "id": 1245,
   "slug": "writing-an-ironpython-debugger-repl-console",
   "title": "Writing an IronPython Debugger: REPL Console",
   "date": "2009-04-06T12:07:39-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20090406-1207-writing-an-ironpython-debugger-repl-console"
+  "comment-count": 1,
+  "dasblog-entry-id": "6f889e12-fbf8-483a-92de-b6776cc7fd30",
+  "dasblog-title": "Writing+An+IronPython+Debugger+REPL+Console",
+  "dasblog-unique-title": "2009/04/06/Writing+An+IronPython+Debugger+REPL+Console"
 }

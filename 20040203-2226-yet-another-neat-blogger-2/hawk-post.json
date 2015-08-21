@@ -1,5 +1,4 @@
 {
-  "id": 302,
   "slug": "yet-another-neat-blogger-2",
   "title": "Yet Another NEAT Blogger",
   "date": "2004-02-03T22:26:55-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040203-2226-yet-another-neat-blogger-2"
+  "comment-count": 1,
+  "dasblog-entry-id": "94fd77ca-75d5-487c-a759-8eb3efbc75fe",
+  "dasblog-title": "Yet+Another+NEAT+Blogger",
+  "dasblog-unique-title": "2004/02/04/Yet+Another+NEAT+Blogger"
 }

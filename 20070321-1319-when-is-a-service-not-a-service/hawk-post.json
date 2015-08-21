@@ -1,5 +1,4 @@
 {
-  "id": 918,
   "slug": "when-is-a-service-not-a-service",
   "title": "When is a Service Not a Service?",
   "date": "2007-03-21T13:19:43-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070321-1319-when-is-a-service-not-a-service"
+  "comment-count": 1,
+  "dasblog-entry-id": "e177e591-1ee6-417e-a4b9-b83df97e4a57",
+  "dasblog-title": "When+Is+A+Service+Not+A+Service",
+  "dasblog-unique-title": "2007/03/21/When+Is+A+Service+Not+A+Service"
 }

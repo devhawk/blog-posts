@@ -1,22 +1,16 @@
 [
   {
-    "id": 2345,
     "author-name": "Larry O'Brien",
     "author-email": "lobrien@email.com",
     "author-url": "http://www.knowing.net/",
     "date": "2006-04-06T12:03:24-07:00",
-    "content": "That project page has been up for a _long_ time, although I see that they are now hoping for an alpha in the coming months. In the meantime, check out John Lam's Ruby-CLR bridge, which is rapidly evolving: http://www.iunknown.com/",
-    "parent-id": 732,
-    "RowKey": "20060406-120324"
+    "content": "That project page has been up for a _long_ time, although I see that they are now hoping for an alpha in the coming months. In the meantime, check out John Lam's Ruby-CLR bridge, which is rapidly evolving: http://www.iunknown.com/"
   },
   {
-    "id": 2346,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2006-04-06T17:49:36-07:00",
-    "content": "It was news to me! As for RubyCLR, I was aware of it, but thanks for the pointer anyway.",
-    "parent-id": 732,
-    "RowKey": "20060406-174936"
+    "content": "It was news to me! As for RubyCLR, I was aware of it, but thanks for the pointer anyway."
   }
 ]

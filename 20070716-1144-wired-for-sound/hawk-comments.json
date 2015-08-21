@@ -1,12 +1,9 @@
 [
   {
-    "id": 2548,
     "author-name": "Marc Brooks",
     "author-email": "IDisposable@gmail.com",
     "author-url": "http://musingmarc.blogspot.com",
     "date": "2007-07-18T13:29:26-07:00",
-    "content": "One thing to watch out for when doing WMP11 sharing is that it sends all packets out with TTL value of 1, so they will only cross one router on the way to the other devices.  Additionally, it will only stream to devices on the same subnet, so you might want to switch to the Class B private IP addresses (172.16.0.0 – 172.31.255.255) to insure you're not getting hosed by that.  More very useful information is available in the Microsoft document about building WMP11 compatible devices.\n\nhttp://www.microsoft.com/whdc/device/media/NetCompat_WMP11.mspx",
-    "parent-id": 1007,
-    "RowKey": "20070718-132926"
+    "content": "One thing to watch out for when doing WMP11 sharing is that it sends all packets out with TTL value of 1, so they will only cross one router on the way to the other devices.  Additionally, it will only stream to devices on the same subnet, so you might want to switch to the Class B private IP addresses (172.16.0.0 – 172.31.255.255) to insure you're not getting hosed by that.  More very useful information is available in the Microsoft document about building WMP11 compatible devices.\n\nhttp://www.microsoft.com/whdc/device/media/NetCompat_WMP11.mspx"
   }
 ]

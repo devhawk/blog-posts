@@ -1,5 +1,4 @@
 {
-  "id": 1052,
   "slug": "the-hawk-flies-again",
   "title": "The Hawk Flies Again",
   "date": "2007-11-16T07:48:35-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071116-0748-the-hawk-flies-again"
+  "comment-count": 0,
+  "dasblog-entry-id": "e7a6e9f1-d61f-4a8b-8828-a89cea7f3e5a",
+  "dasblog-title": "The+Hawk+Flies+Again",
+  "dasblog-unique-title": "2007/11/16/The+Hawk+Flies+Again"
 }

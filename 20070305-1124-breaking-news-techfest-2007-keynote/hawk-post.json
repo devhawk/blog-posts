@@ -1,5 +1,4 @@
 {
-  "id": 901,
   "slug": "breaking-news-techfest-2007-keynote",
   "title": "Breaking News: TechFest 2007 Keynote",
   "date": "2007-03-05T11:24:50-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Microsoft|microsoft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070305-1124-breaking-news-techfest-2007-keynote"
+  "comment-count": 0,
+  "dasblog-entry-id": "0b95bedc-09ef-4db9-a468-a95f85a4fc20",
+  "dasblog-title": "Breaking+News+TechFest+2007+Keynote",
+  "dasblog-unique-title": "2007/03/05/Breaking+News+TechFest+2007+Keynote"
 }

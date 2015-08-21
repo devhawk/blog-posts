@@ -1,5 +1,4 @@
 {
-  "id": 452,
   "slug": "waking-up",
   "title": "Waking Up",
   "date": "2004-10-13T22:56:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Politics|politics",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20041013-2256-waking-up"
+  "comment-count": 2,
+  "dasblog-entry-id": "dcb0eb06-b056-4cc8-bc41-4b10044f817b",
+  "dasblog-title": "Waking+Up",
+  "dasblog-unique-title": "2004/10/14/Waking+Up"
 }

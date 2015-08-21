@@ -1,22 +1,16 @@
 [
   {
-    "id": 2150,
     "author-name": "Ada",
     "author-email": "",
     "author-url": "http://AsimplewarppertoenableLinq-likestyle",
     "date": "2008-12-04T02:48:01-08:00",
-    "content": "import System, sys\nimport linq\n\nlinqs = {}\nfor name in dir(linq):\n    if not name.startswith('__'):\n        linqs[name] = getattr(linq, name)\n\nclass IpyLinq:\n    def __init__(self, col):\n        self.col = col\n        \n    def __iter__(self):\n        return iter(self.col)\n        \n    def __str__(self):\n        return '[%s]' % ', '.join( (str(v) for v in self) )\n        \n    def __repr__(self):\n        return str(self)\n        \n    def __getattr__(self, name):\n        def decorator(*arg, **kws):\n            self.col = linqFunc(self.col, *arg, **kws)\n            return self\n        \n        linqFunc = linqs[name]\n        return decorator\n\nif __name__ == '__main__':\n    for x in IpyLinq([1, 2, 3, 4, 5]).Where(lambda x: x > 1).Where(lambda x: x < 5):\n        print x",
-    "parent-id": 1199,
-    "RowKey": "20081204-024801"
+    "content": "import System, sys\nimport linq\n\nlinqs = {}\nfor name in dir(linq):\n    if not name.startswith('__'):\n        linqs[name] = getattr(linq, name)\n\nclass IpyLinq:\n    def __init__(self, col):\n        self.col = col\n        \n    def __iter__(self):\n        return iter(self.col)\n        \n    def __str__(self):\n        return '[%s]' % ', '.join( (str(v) for v in self) )\n        \n    def __repr__(self):\n        return str(self)\n        \n    def __getattr__(self, name):\n        def decorator(*arg, **kws):\n            self.col = linqFunc(self.col, *arg, **kws)\n            return self\n        \n        linqFunc = linqs[name]\n        return decorator\n\nif __name__ == '__main__':\n    for x in IpyLinq([1, 2, 3, 4, 5]).Where(lambda x: x > 1).Where(lambda x: x < 5):\n        print x"
   },
   {
-    "id": 2151,
     "author-name": "Ada",
     "author-email": "",
     "author-url": "",
     "date": "2008-12-04T03:29:41-08:00",
-    "content": "My original implementation has a bug.\n\nclass IpyLinq:\n    def __init__(self, col):\n        self.col = col\n        \n    def __iter__(self):\n        return iter(self.col)\n        \n    def __str__(self):\n        return '[%s]' % ', '.join( (str(v) for v in self) )\n        \n    def __repr__(self):\n        return str(self)\n        \n    def __getattr__(self, name):\n        def decorator(*arg, **kws):\n            result = linqs[name](self.col, *arg, **kws)\n            if hasattr(result, '__iter__'):\n                return IpyLinq(result)\n            else:\n                return result\n        return decorator",
-    "parent-id": 1199,
-    "RowKey": "20081204-032941"
+    "content": "My original implementation has a bug.\n\nclass IpyLinq:\n    def __init__(self, col):\n        self.col = col\n        \n    def __iter__(self):\n        return iter(self.col)\n        \n    def __str__(self):\n        return '[%s]' % ', '.join( (str(v) for v in self) )\n        \n    def __repr__(self):\n        return str(self)\n        \n    def __getattr__(self, name):\n        def decorator(*arg, **kws):\n            result = linqs[name](self.col, *arg, **kws)\n            if hasattr(result, '__iter__'):\n                return IpyLinq(result)\n            else:\n                return result\n        return decorator"
   }
 ]

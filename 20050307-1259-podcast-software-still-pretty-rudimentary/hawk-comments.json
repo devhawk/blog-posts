@@ -1,32 +1,23 @@
 [
   {
-    "id": 2803,
     "author-name": "Erwin",
     "author-email": "erwin@dopplerradio.net",
     "author-url": "http://www.dopplerradio.net",
     "date": "2005-03-12T00:47:05-08:00",
-    "content": "Nope, Doppler uses WMP for modifying the tags if you specified WMP as a target for your downloaded MP3s. There is no MP3 specific library in Doppler. Did you enable the log file? If so, any messages in there? Check out our forum at http://forum.dopplerradio.net\n\n/Erwin",
-    "parent-id": 568,
-    "RowKey": "20050312-004705"
+    "content": "Nope, Doppler uses WMP for modifying the tags if you specified WMP as a target for your downloaded MP3s. There is no MP3 specific library in Doppler. Did you enable the log file? If so, any messages in there? Check out our forum at http://forum.dopplerradio.net\n\n/Erwin"
   },
   {
-    "id": 2804,
     "author-name": "skitchSKS",
     "author-email": "",
     "author-url": "",
     "date": "2005-10-12T21:20:30-07:00",
-    "content": "Same problems as you are having here.  Doppler's tagging implemenation does not work as other's have mentioned.\n\nI am up a creek right now in trying to get these podcasts to work correctly.  I have the same setup as you with doppler.  I have upgraded the firmware of the zen micro to the 'plays for sure' firmware.\n\nI have followed the instructions for autoplaylists to be synchronized at http://www.jakeludington.com/archives/000408.html\n\nThere is one lousy problem.  When I delete the podcast and sync next time to WMP, the shows that I deleted from the zen are re-transferred.\n\nThis is obviously a great feature for regular songs, but this behavior of syncing is not working for podcasts.\n\nI am wondering, has anyone found a way to do this?     I\"m wondering if those ipods have the sync function in teh new itunes that would work better for podcasts...    The new 60 gig video ipod came out...     I feel a 'justification' reason for my purchase  ;)\n\n",
-    "parent-id": 568,
-    "RowKey": "20051012-212030"
+    "content": "Same problems as you are having here.  Doppler's tagging implemenation does not work as other's have mentioned.\n\nI am up a creek right now in trying to get these podcasts to work correctly.  I have the same setup as you with doppler.  I have upgraded the firmware of the zen micro to the 'plays for sure' firmware.\n\nI have followed the instructions for autoplaylists to be synchronized at http://www.jakeludington.com/archives/000408.html\n\nThere is one lousy problem.  When I delete the podcast and sync next time to WMP, the shows that I deleted from the zen are re-transferred.\n\nThis is obviously a great feature for regular songs, but this behavior of syncing is not working for podcasts.\n\nI am wondering, has anyone found a way to do this?     I\"m wondering if those ipods have the sync function in teh new itunes that would work better for podcasts...    The new 60 gig video ipod came out...     I feel a 'justification' reason for my purchase  ;)\n\n"
   },
   {
-    "id": 2805,
     "author-name": "skitchSKS",
     "author-email": "",
     "author-url": "",
     "date": "2005-10-12T21:25:07-07:00",
-    "content": "oh, erwin is a site admin at doppler, no wonder.\n\nhttp://forum.dopplerradio.net/viewtopic.php?t=275\n\nERWIN WRITES:\n\n\nIt has been noted, and will be fixed in 3.0 \n\n--- BTW ERWIN... version 3.0 of doppler looks promising, can't wait to use it.  \n\nFeel free to email me for beta testing! I'd love to get my hands on it to give it a whirl.. it looks great.   niXckskiXtchXXXXXcomcXast.neXt   <--- delete all X's",
-    "parent-id": 568,
-    "RowKey": "20051012-212507"
+    "content": "oh, erwin is a site admin at doppler, no wonder.\n\nhttp://forum.dopplerradio.net/viewtopic.php?t=275\n\nERWIN WRITES:\n\n\nIt has been noted, and will be fixed in 3.0 \n\n--- BTW ERWIN... version 3.0 of doppler looks promising, can't wait to use it.  \n\nFeel free to email me for beta testing! I'd love to get my hands on it to give it a whirl.. it looks great.   niXckskiXtchXXXXXcomcXast.neXt   <--- delete all X's"
   }
 ]

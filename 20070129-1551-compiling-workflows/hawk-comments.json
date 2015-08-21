@@ -1,12 +1,9 @@
 [
   {
-    "id": 2447,
     "author-name": "Some crazy guy",
     "author-email": "somecrazyguy@hotmail.com",
     "author-url": "http://somecrazyguy.com",
     "date": "2007-02-02T11:12:52-08:00",
-    "content": "if(this comment has anything interesting)\n{\n    you should read it\n}\nelse\n{\n    it is just a waste of time\n}",
-    "parent-id": 865,
-    "RowKey": "20070202-111252"
+    "content": "if(this comment has anything interesting)\n{\n    you should read it\n}\nelse\n{\n    it is just a waste of time\n}"
   }
 ]

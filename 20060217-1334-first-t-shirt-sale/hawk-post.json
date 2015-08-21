@@ -1,5 +1,4 @@
 {
-  "id": 696,
   "slug": "first-t-shirt-sale",
   "title": "First T-Shirt Sale",
   "date": "2006-02-17T13:34:48-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 5,
-  "PartKey": "20060217-1334-first-t-shirt-sale"
+  "comment-count": 5,
+  "dasblog-entry-id": "9b14227c-0afc-4cf5-b0f6-0c7eace41ea2",
+  "dasblog-title": "First+TShirt+Sale",
+  "dasblog-unique-title": "2006/02/17/First+TShirt+Sale"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 859,
   "slug": "morning-coffee-16",
   "title": "Morning Coffee 16",
   "date": "2007-01-23T09:39:49-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee,Politics|politics",
   "csv-tag-slugs": "ASP.NET|asp-net,Instrumentation|instrumentation,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20070123-0939-morning-coffee-16"
+  "comment-count": 2,
+  "dasblog-entry-id": "5f743d1c-4edd-4319-8980-5f12b7397e60",
+  "dasblog-title": "Morning+Coffee+16",
+  "dasblog-unique-title": "2007/01/23/Morning+Coffee+16"
 }

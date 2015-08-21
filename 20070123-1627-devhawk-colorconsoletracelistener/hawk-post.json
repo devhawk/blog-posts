@@ -1,5 +1,4 @@
 {
-  "id": 861,
   "slug": "devhawk-colorconsoletracelistener",
   "title": "DevHawk.ColorConsoleTraceListener",
   "date": "2007-01-23T16:27:40-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Instrumentation|instrumentation",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070123-1627-devhawk-colorconsoletracelistener"
+  "comment-count": 1,
+  "dasblog-entry-id": "2dd09457-208c-4307-b90b-85d823e5c40d",
+  "dasblog-title": "DevHawkColorConsoleTraceListener",
+  "dasblog-unique-title": "2007/01/24/DevHawkColorConsoleTraceListener"
 }

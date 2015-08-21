@@ -1,5 +1,4 @@
 {
-  "id": 750,
   "slug": "architect-connections-conference",
   "title": "Architect Connections Conference",
   "date": "2006-05-30T14:56:55-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060530-1456-architect-connections-conference"
+  "comment-count": 0,
+  "dasblog-entry-id": "1f1eaf10-cea9-4029-85c3-4819feb8af55",
+  "dasblog-title": "Architect+Connections+Conference",
+  "dasblog-unique-title": "2006/05/30/Architect+Connections+Conference"
 }

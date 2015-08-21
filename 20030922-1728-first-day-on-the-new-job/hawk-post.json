@@ -1,5 +1,4 @@
 {
-  "id": 198,
   "slug": "first-day-on-the-new-job",
   "title": "First Day on the New Job",
   "date": "2003-09-22T17:28:18-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030922-1728-first-day-on-the-new-job"
+  "comment-count": 0,
+  "dasblog-entry-id": "35863c4c-b12f-4d2f-b09c-3ba617637ae4",
+  "dasblog-title": "First+Day+On+The+New+Job",
+  "dasblog-unique-title": "2003/09/23/First+Day+On+The+New+Job"
 }

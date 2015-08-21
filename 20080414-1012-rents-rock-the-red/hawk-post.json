@@ -1,5 +1,4 @@
 {
-  "id": 1136,
   "slug": "rents-rock-the-red",
   "title": "&#8216;rents Rock the Red",
   "date": "2008-04-14T10:12:12-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Hockey|hockey,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080414-1012-rents-rock-the-red"
+  "comment-count": 0,
+  "dasblog-entry-id": "d1126e8d-29ad-4985-b4f5-9defd2b6556b",
+  "dasblog-title": "rents+Rock+The+Red",
+  "dasblog-unique-title": "2008/04/14/rents+Rock+The+Red"
 }

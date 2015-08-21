@@ -1,5 +1,4 @@
 {
-  "id": 896,
   "slug": "vacation-coffee",
   "title": "Vacation Coffee",
   "date": "2007-02-26T10:38:49-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "Entertainment|entertainment,Family|family",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070226-1038-vacation-coffee"
+  "comment-count": 0,
+  "dasblog-entry-id": "b1ff876b-e838-4e90-b0d2-78aa58e78a3d",
+  "dasblog-title": "Vacation+Coffee",
+  "dasblog-unique-title": "2007/02/26/Vacation+Coffee"
 }

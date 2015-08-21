@@ -1,12 +1,9 @@
 [
   {
-    "id": 2119,
     "author-name": "Seo Sanghyeon",
     "author-email": "sanxiyn@gmail.com",
     "author-url": "",
     "date": "2008-08-25T13:32:07-07:00",
-    "content": "WSGI is Web Server Gateway Interface, not Web Service.",
-    "parent-id": 1171,
-    "RowKey": "20080825-133207"
+    "content": "WSGI is Web Server Gateway Interface, not Web Service."
   }
 ]

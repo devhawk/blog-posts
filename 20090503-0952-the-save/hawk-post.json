@@ -1,5 +1,4 @@
 {
-  "id": 1257,
   "slug": "the-save",
   "title": "&#8220;The Save&#8221;",
   "date": "2009-05-03T09:52:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20090503-0952-the-save"
+  "comment-count": 4,
+  "dasblog-entry-id": "01ceb911-9a14-41de-ab22-9e4269fd97eb",
+  "dasblog-title": "ldquoThe+Saverdquo",
+  "dasblog-unique-title": "2009/05/03/ldquoThe+Saverdquo"
 }

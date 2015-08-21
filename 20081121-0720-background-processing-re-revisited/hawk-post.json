@@ -1,5 +1,4 @@
 {
-  "id": 1193,
   "slug": "background-processing-re-revisited",
   "title": "Background Processing Re-Revisited",
   "date": "2008-11-21T07:20:28-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Parallel Programming|parallel-programming,WPF|wpf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20081121-0720-background-processing-re-revisited"
+  "comment-count": 0,
+  "dasblog-entry-id": "04bd475a-9970-4b13-9380-eae294617f5d",
+  "dasblog-title": "Background+Processing+ReRevisited",
+  "dasblog-unique-title": "2008/11/21/Background+Processing+ReRevisited"
 }

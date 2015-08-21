@@ -1,5 +1,4 @@
 {
-  "id": 822,
   "slug": "feedflare-finally-fixed",
   "title": "FeedFlare Finally Fixed",
   "date": "2006-10-25T13:55:00-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging,dasBlog|dasblog",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20061025-1355-feedflare-finally-fixed"
+  "comment-count": 0,
+  "dasblog-entry-id": "795e7f30-8a19-4012-be45-8380e07eecc2",
+  "dasblog-title": "FeedFlare+Finally+Fixed",
+  "dasblog-unique-title": "2006/10/25/FeedFlare+Finally+Fixed"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 814,
   "slug": "hawkeye-on-standard-wcf-bindings",
   "title": "Hawkeye on Standard WCF Bindings",
   "date": "2006-10-09T12:55:01-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "WCF|wcf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20061009-1255-hawkeye-on-standard-wcf-bindings"
+  "comment-count": 1,
+  "dasblog-entry-id": "80aeee6b-3cf3-4bbe-993d-12d16e858c9c",
+  "dasblog-title": "Hawkeye+On+Standard+WCF+Bindings",
+  "dasblog-unique-title": "2006/10/09/Hawkeye+On+Standard+WCF+Bindings"
 }

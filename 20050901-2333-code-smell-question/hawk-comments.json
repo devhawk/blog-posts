@@ -1,22 +1,16 @@
 [
   {
-    "id": 2838,
     "author-name": "Harry Maes",
     "author-email": "h.maes@home.nl",
     "author-url": "",
     "date": "2005-09-02T02:50:30-07:00",
-    "content": "I think #2 is the preferable solution.\n\nI'd recommend implementing an adapter for the collection wrapping it so you're also not hit by future changes. I've for instance created a CacheManager to wrap the EntLib cachemanager.\nDoes the COM collection have a Contains or an indexer (IndexOf) to check for an existing item? I would code something like this:\n\nif (collection.Contains(x)) //or collection.IndexOf()\n{\n  collection.Remove(x);\n  collection.Add(x);\n}\n\nTrapping for a specific exception can be OK but I would assume the collection internally has to traverse or index the collection to find an already existing item. So this is not the solution IMO.\n\nHave fun!\n\nHarry\n\n\n",
-    "parent-id": 625,
-    "RowKey": "20050902-025030"
+    "content": "I think #2 is the preferable solution.\n\nI'd recommend implementing an adapter for the collection wrapping it so you're also not hit by future changes. I've for instance created a CacheManager to wrap the EntLib cachemanager.\nDoes the COM collection have a Contains or an indexer (IndexOf) to check for an existing item? I would code something like this:\n\nif (collection.Contains(x)) //or collection.IndexOf()\n{\n  collection.Remove(x);\n  collection.Add(x);\n}\n\nTrapping for a specific exception can be OK but I would assume the collection internally has to traverse or index the collection to find an already existing item. So this is not the solution IMO.\n\nHave fun!\n\nHarry\n\n\n"
   },
   {
-    "id": 2839,
     "author-name": "mearls@hotmail.com (Michael Earls)",
     "author-email": "mearls@hotmail.comMichaelEarls",
     "author-url": "http://www.cerkit.com/",
     "date": "2005-09-02T07:02:56-07:00",
-    "content": "#2 - based on your drawbacks of #1 (generic exceptions), there's a chance that your data could be corrupted.  I'd rather take the performance hit myself.\n\nIt's too bad it throws an exception rather than returning a null.  That does stink.",
-    "parent-id": 625,
-    "RowKey": "20050902-070256"
+    "content": "#2 - based on your drawbacks of #1 (generic exceptions), there's a chance that your data could be corrupted.  I'd rather take the performance hit myself.\n\nIt's too bad it throws an exception rather than returning a null.  That does stink."
   }
 ]

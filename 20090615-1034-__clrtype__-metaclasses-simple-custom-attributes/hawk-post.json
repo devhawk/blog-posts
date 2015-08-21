@@ -1,5 +1,4 @@
 {
-  "id": 1265,
   "slug": "__clrtype__-metaclasses-simple-custom-attributes",
   "title": "__clrtype__ Metaclasses: Simple Custom Attributes",
   "date": "2009-06-15T10:34:18-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "__clrtype__|__clrtype__",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090615-1034-__clrtype__-metaclasses-simple-custom-attributes"
+  "comment-count": 0,
+  "dasblog-entry-id": "6cf6cd60-25ce-4704-8a55-305e1f0a2544",
+  "dasblog-title": "clrtype+Metaclasses+Simple+Custom+Attributes",
+  "dasblog-unique-title": "2009/06/15/clrtype+Metaclasses+Simple+Custom+Attributes"
 }

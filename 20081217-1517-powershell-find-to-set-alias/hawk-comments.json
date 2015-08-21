@@ -1,22 +1,16 @@
 [
   {
-    "id": 2161,
     "author-name": "Dave",
     "author-email": "",
     "author-url": "http://famoushamsandwich.blogspot.com",
     "date": "2008-12-17T16:34:55-08:00",
-    "content": "I do the same thing and solved it using ${env:programfiles}.",
-    "parent-id": 1207,
-    "RowKey": "20081217-163455"
+    "content": "I do the same thing and solved it using ${env:programfiles}."
   },
   {
-    "id": 2162,
     "author-name": "Brad Wilson",
     "author-email": "dotnetguy@gmail.com",
     "author-url": "http://bradwilson.typepad.com/",
     "date": "2008-12-28T12:47:47-08:00",
-    "content": "Thanks for this! I posted an expanded version suitable for use as a script file, which includes optional diagnostic/debugging information:\n\nhttp://bradwilson.typepad.com/blog/2008/12/find-to-set-aliasps1.html\n",
-    "parent-id": 1207,
-    "RowKey": "20081228-124747"
+    "content": "Thanks for this! I posted an expanded version suitable for use as a script file, which includes optional diagnostic/debugging information:\n\nhttp://bradwilson.typepad.com/blog/2008/12/find-to-set-aliasps1.html\n"
   }
 ]

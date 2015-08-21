@@ -1,5 +1,4 @@
 {
-  "id": 264,
   "slug": "support-for-msnp8",
   "title": "Support for MSNP8",
   "date": "2004-01-03T12:02:16-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20040103-1202-support-for-msnp8"
+  "comment-count": 3,
+  "dasblog-entry-id": "d33ab229-68c9-4148-af8f-0f705b7e72f4",
+  "dasblog-title": "Support+For+MSNP8",
+  "dasblog-unique-title": "2004/01/03/Support+For+MSNP8"
 }

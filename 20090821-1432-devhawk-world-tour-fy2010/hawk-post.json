@@ -1,5 +1,4 @@
 {
-  "id": 1285,
   "slug": "devhawk-world-tour-fy2010",
   "title": "DevHawk World Tour FY2010",
   "date": "2009-08-21T14:32:23-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Lanugages|lanugages,Presentation|presentation,Travel|travel",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090821-1432-devhawk-world-tour-fy2010"
+  "comment-count": 0,
+  "dasblog-entry-id": "ebe6a3e3-a076-4a95-9239-44ed7ec4268d",
+  "dasblog-title": "DevHawk+World+Tour+FY2010",
+  "dasblog-unique-title": "2009/08/21/DevHawk+World+Tour+FY2010"
 }

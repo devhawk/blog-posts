@@ -1,5 +1,4 @@
 {
-  "id": 542,
   "slug": "speaking-of-steve",
   "title": "Speaking of Steve",
   "date": "2005-02-14T21:39:45-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050214-2139-speaking-of-steve"
+  "comment-count": 0,
+  "dasblog-entry-id": "9166eabb-3d3a-415f-a940-70f4457b756f",
+  "dasblog-title": "Speaking+Of+Steve",
+  "dasblog-unique-title": "2005/02/15/Speaking+Of+Steve"
 }

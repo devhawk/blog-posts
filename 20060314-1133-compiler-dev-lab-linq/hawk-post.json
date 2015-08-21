@@ -1,5 +1,4 @@
 {
-  "id": 722,
   "slug": "compiler-dev-lab-linq",
   "title": "Compiler Dev Lab &#8211; LINQ",
   "date": "2006-03-14T11:33:14-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Lanugages|lanugages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20060314-1133-compiler-dev-lab-linq"
+  "comment-count": 2,
+  "dasblog-entry-id": "d8d60ca8-7b41-4d46-9cc6-e6a4cc05dfc3",
+  "dasblog-title": "Compiler+Dev+Lab+LINQ",
+  "dasblog-unique-title": "2006/03/14/Compiler+Dev+Lab+LINQ"
 }

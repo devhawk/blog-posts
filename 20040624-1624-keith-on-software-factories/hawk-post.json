@@ -1,5 +1,4 @@
 {
-  "id": 385,
   "slug": "keith-on-software-factories",
   "title": "Keith on Software Factories",
   "date": "2004-06-24T16:24:27-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Process|process",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040624-1624-keith-on-software-factories"
+  "comment-count": 0,
+  "dasblog-entry-id": "645a0236-b797-45a2-9018-851b09db308d",
+  "dasblog-title": "Keith+On+Software+Factories",
+  "dasblog-unique-title": "2004/06/24/Keith+On+Software+Factories"
 }

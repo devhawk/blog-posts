@@ -1,5 +1,4 @@
 {
-  "id": 1254,
   "slug": "__clrtype__-metaclasses-adding-clr-properties",
   "title": "__clrtype__ Metaclasses: Adding CLR Properties",
   "date": "2009-04-24T13:47:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "__clrtype__|__clrtype__",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090424-1347-__clrtype__-metaclasses-adding-clr-properties"
+  "comment-count": 0,
+  "dasblog-entry-id": "5d800133-200d-40ec-a7b1-956d49ffaaac",
+  "dasblog-title": "clrtype+Metaclasses+Adding+CLR+Properties",
+  "dasblog-unique-title": "2009/04/24/clrtype+Metaclasses+Adding+CLR+Properties"
 }

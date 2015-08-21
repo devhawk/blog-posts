@@ -1,5 +1,4 @@
 {
-  "id": 745,
   "slug": "spell-with-flickr",
   "title": "Spell With Flickr",
   "date": "2006-04-28T16:34:21-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060428-1634-spell-with-flickr"
+  "comment-count": 0,
+  "dasblog-entry-id": "af3fadd6-101c-4911-950b-631c5312165a",
+  "dasblog-title": "Spell+With+Flickr",
+  "dasblog-unique-title": "2006/04/28/Spell+With+Flickr"
 }

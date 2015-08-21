@@ -1,5 +1,4 @@
 {
-  "id": 799,
   "slug": "stateless-stateless",
   "title": "Stateless != Stateless",
   "date": "2006-09-20T15:35:31-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060920-1535-stateless-stateless"
+  "comment-count": 0,
+  "dasblog-entry-id": "325c0630-3dbc-4292-b9a7-ad509157ffe9",
+  "dasblog-title": "Stateless+Stateless",
+  "dasblog-unique-title": "2006/09/20/Stateless+Stateless"
 }

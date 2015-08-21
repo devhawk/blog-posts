@@ -1,22 +1,16 @@
 [
   {
-    "id": 2394,
     "author-name": "Piyush",
     "author-email": "piyushpant@yahoo.com",
     "author-url": "http://unhandledx.blogspot.com/",
     "date": "2006-08-02T16:27:37-07:00",
-    "content": "Interesting points re: top down and bottom up - hadn't thought of things that way and in general I agree. For this to work, though, these things need mass adoption and in an increasingly heterogenous world where systems are not all written on the technology stack of one vendor, a bottom up approach that is trying to solve a problem with a large surface area has limitations. Also, an ambitious undertaking like this seems to assume that the solution to a communication problem ( which is essentially what a modelling language solves in my opinion) , is to teach everyone to talk the same language. It doesn't happen in the real world and I am sceptical it will happen in IT.\n\n",
-    "parent-id": 777,
-    "RowKey": "20060802-162737"
+    "content": "Interesting points re: top down and bottom up - hadn't thought of things that way and in general I agree. For this to work, though, these things need mass adoption and in an increasingly heterogenous world where systems are not all written on the technology stack of one vendor, a bottom up approach that is trying to solve a problem with a large surface area has limitations. Also, an ambitious undertaking like this seems to assume that the solution to a communication problem ( which is essentially what a modelling language solves in my opinion) , is to teach everyone to talk the same language. It doesn't happen in the real world and I am sceptical it will happen in IT.\n\n"
   },
   {
-    "id": 2395,
     "author-name": "Piyush Pant",
     "author-email": "piyushpant@yahoo.com",
     "author-url": "http://unhandledx.blogspot.com/",
     "date": "2006-08-07T06:35:00-07:00",
-    "content": "I have responded to some of your ( and Pratul Dublish's) points at\nhttp://unhandledx.blogspot.com/2006/08/further-on-sml-debate.html\n\n",
-    "parent-id": 777,
-    "RowKey": "20060807-063500"
+    "content": "I have responded to some of your ( and Pratul Dublish's) points at\nhttp://unhandledx.blogspot.com/2006/08/further-on-sml-debate.html\n\n"
   }
 ]

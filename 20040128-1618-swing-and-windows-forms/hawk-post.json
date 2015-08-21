@@ -1,5 +1,4 @@
 {
-  "id": 293,
   "slug": "swing-and-windows-forms",
   "title": "SWING and Windows Forms",
   "date": "2004-01-28T16:18:02-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Interop|interop",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040128-1618-swing-and-windows-forms"
+  "comment-count": 1,
+  "dasblog-entry-id": "6d5adf75-afc8-4ca6-b313-417d8bc9c6d1",
+  "dasblog-title": "SWING+And+Windows+Forms",
+  "dasblog-unique-title": "2004/01/29/SWING+And+Windows+Forms"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 31,
   "slug": "ipv6",
   "title": "IPv6",
   "date": "2003-02-25T09:08:01-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030225-0908-ipv6"
+  "comment-count": 0,
+  "dasblog-entry-id": "b6129527-d426-42bc-8b9a-13dddcdc5f08",
+  "dasblog-title": "IPv6",
+  "dasblog-unique-title": "2003/02/25/IPv6"
 }

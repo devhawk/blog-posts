@@ -1,22 +1,16 @@
 [
   {
-    "id": 2006,
     "author-name": "addendum",
     "author-email": "",
     "author-url": "",
     "date": "2007-12-17T07:19:56-08:00",
-    "content": "let (|TOKEN|_|) token input =\n  let rec f token input =\n    match token, input with\n    | hd::[], NC (i, itail) when hd = i -> Some itail\n    | hd::tl, NC (i, itail) when hd = i -> f tl itail\n    | _ -> None\n  f !!token !!input",
-    "parent-id": 1076,
-    "RowKey": "20071217-071956"
+    "content": "let (|TOKEN|_|) token input =\n  let rec f token input =\n    match token, input with\n    | hd::[], NC (i, itail) when hd = i -> Some itail\n    | hd::tl, NC (i, itail) when hd = i -> f tl itail\n    | _ -> None\n  f !!token !!input"
   },
   {
-    "id": 2007,
     "author-name": "Jon Harrop",
     "author-email": "jon@ffconsultancy.com",
     "author-url": "http://www.ffconsultancy.com",
     "date": "2007-12-20T12:20:32-08:00",
-    "content": "Have you tried using parser combinators? A recent F#.NET Journal article described them in detail and they should be a lot faster but just as extensible as active patterns...\n",
-    "parent-id": 1076,
-    "RowKey": "20071220-122032"
+    "content": "Have you tried using parser combinators? A recent F#.NET Journal article described them in detail and they should be a lot faster but just as extensible as active patterns...\n"
   }
 ]

@@ -1,5 +1,4 @@
 {
-  "id": 153,
   "slug": "dealing-with-spam",
   "title": "Dealing with Spam",
   "date": "2003-07-24T17:58:11-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030724-1758-dealing-with-spam"
+  "comment-count": 0,
+  "dasblog-entry-id": "db157eec-cc72-47fe-b1d5-8b4366d12d03",
+  "dasblog-title": "Dealing+With+Spam",
+  "dasblog-unique-title": "2003/07/25/Dealing+With+Spam"
 }

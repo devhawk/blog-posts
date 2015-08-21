@@ -1,5 +1,4 @@
 {
-  "id": 622,
   "slug": "architecture-innovation",
   "title": "Architecture Innovation?",
   "date": "2005-09-01T15:31:10-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050901-1531-architecture-innovation"
+  "comment-count": 0,
+  "dasblog-entry-id": "4d9211cd-7362-4eb8-9448-e85a04f01b14",
+  "dasblog-title": "Architecture+Innovation",
+  "dasblog-unique-title": "2005/09/01/Architecture+Innovation"
 }

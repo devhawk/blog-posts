@@ -1,5 +1,4 @@
 {
-  "id": 732,
   "slug": "rubynet-project",
   "title": "RubyNet Project",
   "date": "2006-04-06T10:59:42-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Ruby|ruby,Scripting|scripting,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20060406-1059-rubynet-project"
+  "comment-count": 2,
+  "dasblog-entry-id": "f4ce5882-77b1-4f05-b435-6f659414f0e8",
+  "dasblog-title": "RubyNet+Project",
+  "dasblog-unique-title": "2006/04/06/RubyNet+Project"
 }

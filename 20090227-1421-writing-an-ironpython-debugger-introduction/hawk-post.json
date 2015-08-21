@@ -1,5 +1,4 @@
 {
-  "id": 1218,
   "slug": "writing-an-ironpython-debugger-introduction",
   "title": "Writing an IronPython Debugger: Introduction",
   "date": "2009-02-27T14:21:22-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090227-1421-writing-an-ironpython-debugger-introduction"
+  "comment-count": 0,
+  "dasblog-entry-id": "54503f67-9452-4f6b-aa28-a9978416ce5b",
+  "dasblog-title": "Writing+An+IronPython+Debugger+Introduction",
+  "dasblog-unique-title": "2009/02/27/Writing+An+IronPython+Debugger+Introduction"
 }

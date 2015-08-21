@@ -1,32 +1,23 @@
 [
   {
-    "id": 2940,
     "author-name": "Robbie",
     "author-email": "",
     "author-url": "",
     "date": "2004-01-04T07:29:53-08:00",
-    "content": "All I can say is: HUH???? :::blank stare:::: ;-) ",
-    "parent-id": 264,
-    "RowKey": "20040104-072953"
+    "content": "All I can say is: HUH???? :::blank stare:::: ;-) "
   },
   {
-    "id": 2941,
     "author-name": "Simon Fell",
     "author-email": "",
     "author-url": "http://www.pocketsoap.com/weblog/",
     "date": "2004-01-12T21:36:45-08:00",
-    "content": "I tried to download the code [http://devhawk.net/ct.ashx?id=d33ab229-68c9-4148-af8f-0f705b7e72f4&url=http%3a%2f%2fdevhawk.net%2fcontent%2fbinary%2fImClient.cs] but ASP.NET won't let me download a .cs file. can you drop it in a zip or something ?\n\nTx\nSimon",
-    "parent-id": 264,
-    "RowKey": "20040112-213645"
+    "content": "I tried to download the code [http://devhawk.net/ct.ashx?id=d33ab229-68c9-4148-af8f-0f705b7e72f4&url=http%3a%2f%2fdevhawk.net%2fcontent%2fbinary%2fImClient.cs] but ASP.NET won't let me download a .cs file. can you drop it in a zip or something ?\n\nTx\nSimon"
   },
   {
-    "id": 2942,
     "author-name": "Hari Sekhar",
     "author-email": "haris@microsoft.com",
     "author-url": "http://blogs.msdn.com/harisekhar",
     "date": "2004-02-23T12:11:03-08:00",
-    "content": "Ditto, Chris, can you post the new code as a txt file or something, I'd love to get this working again.",
-    "parent-id": 264,
-    "RowKey": "20040223-121103"
+    "content": "Ditto, Chris, can you post the new code as a txt file or something, I'd love to get this working again."
   }
 ]

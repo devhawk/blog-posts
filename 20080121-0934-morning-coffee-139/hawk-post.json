@@ -1,5 +1,4 @@
 {
-  "id": 1092,
   "slug": "morning-coffee-139",
   "title": "Morning Coffee 139",
   "date": "2008-01-21T09:34:53-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": ".NET Framework|net-framework,Entertainment|entertainment,F#|f-sharp,Game Development|game-development,Hockey|hockey,Java|java,Media 2.0|media-2-0,Washington Capitals|washington-capitals,Xbox 360|xbox-360,XNA|xna",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080121-0934-morning-coffee-139"
+  "comment-count": 0,
+  "dasblog-entry-id": "2e67e840-754b-4e7c-9ddc-6c9658e61803",
+  "dasblog-title": "Morning+Coffee+139",
+  "dasblog-unique-title": "2008/01/21/Morning+Coffee+139"
 }

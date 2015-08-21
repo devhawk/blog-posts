@@ -1,5 +1,4 @@
 {
-  "id": 1290,
   "slug": "ironpython-post-2-6-roadmap",
   "title": "IronPython Post 2.6 Roadmap",
   "date": "2009-09-28T10:33:02-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20090928-1033-ironpython-post-2-6-roadmap"
+  "comment-count": 4,
+  "dasblog-entry-id": "dbf7d543-5a65-4642-a1f0-44f25aa1ff37",
+  "dasblog-title": "IronPython+Post+26+Roadmap",
+  "dasblog-unique-title": "2009/09/28/IronPython+Post+26+Roadmap"
 }

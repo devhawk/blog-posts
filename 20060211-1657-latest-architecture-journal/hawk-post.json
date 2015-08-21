@@ -1,5 +1,4 @@
 {
-  "id": 687,
   "slug": "latest-architecture-journal",
   "title": "Latest Architecture Journal",
   "date": "2006-02-11T16:57:53-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060211-1657-latest-architecture-journal"
+  "comment-count": 0,
+  "dasblog-entry-id": "54873fe0-a9d7-453b-90e9-28b6cd5369ab",
+  "dasblog-title": "Latest+Architecture+Journal",
+  "dasblog-unique-title": "2006/02/12/Latest+Architecture+Journal"
 }

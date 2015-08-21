@@ -1,5 +1,4 @@
 {
-  "id": 44,
   "slug": "quoted-in-microsoft-watch",
   "title": "Quoted in Microsoft-Watch",
   "date": "2003-03-16T21:32:38-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030316-2132-quoted-in-microsoft-watch"
+  "comment-count": 0,
+  "dasblog-entry-id": "975cee58-390f-4ada-96c9-5da2c1a88b4e",
+  "dasblog-title": "Quoted+In+MicrosoftWatch",
+  "dasblog-unique-title": "2003/03/17/Quoted+In+MicrosoftWatch"
 }

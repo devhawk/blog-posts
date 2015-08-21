@@ -1,42 +1,30 @@
 [
   {
-    "id": 2830,
     "author-name": "Udi Dahan -The Software Simplist",
     "author-email": "blog@UdiDahan.com",
     "author-url": "http://www.UdiDahan.com",
     "date": "2005-08-31T00:08:55-07:00",
-    "content": "As one that works in the defense industry I must say that things look a little different here. Could it be that the \"definition\" of Architecture (with a big 'A') is domain dependent? I hope not. Personally I prefer Fowler's description (as opposed to definition):\n\nArchitecture is the set of decisions we hope to get right at the beginning of a project.\n\nObviously only at the end of the project can we know what the quality of our original architecture was.",
-    "parent-id": 620,
-    "RowKey": "20050831-000855"
+    "content": "As one that works in the defense industry I must say that things look a little different here. Could it be that the \"definition\" of Architecture (with a big 'A') is domain dependent? I hope not. Personally I prefer Fowler's description (as opposed to definition):\n\nArchitecture is the set of decisions we hope to get right at the beginning of a project.\n\nObviously only at the end of the project can we know what the quality of our original architecture was."
   },
   {
-    "id": 2831,
     "author-name": "Hal Pierson",
     "author-email": "halpierson@hotmail.com",
     "author-url": "",
     "date": "2005-08-31T05:48:10-07:00",
-    "content": "Is there an intersection between business and IT?  \n\nTo quote Dave Welsh - \n\n   \"Business is from Mars, Technology is from Venus.\"\n\n",
-    "parent-id": 620,
-    "RowKey": "20050831-054810"
+    "content": "Is there an intersection between business and IT?  \n\nTo quote Dave Welsh - \n\n   \"Business is from Mars, Technology is from Venus.\"\n\n"
   },
   {
-    "id": 2832,
     "author-name": "James Shaw",
     "author-email": "james@dozingdogs.com",
     "author-url": "http://www.coveryourasp.net",
     "date": "2005-08-31T05:50:36-07:00",
-    "content": "Hey Harry, your mailbox is sending out:\n\nFinal-Recipient: rfc822;harry@devhawk.net\nAction: failed\nStatus: 5.5.0\nDiagnostic-Code: smtp;552 Mailbox size limit exceeded\n\nOf course, I don't know if you'll get this either, but please send me an alternate email.. Thanks!",
-    "parent-id": 620,
-    "RowKey": "20050831-055036"
+    "content": "Hey Harry, your mailbox is sending out:\n\nFinal-Recipient: rfc822;harry@devhawk.net\nAction: failed\nStatus: 5.5.0\nDiagnostic-Code: smtp;552 Mailbox size limit exceeded\n\nOf course, I don't know if you'll get this either, but please send me an alternate email.. Thanks!"
   },
   {
-    "id": 2833,
     "author-name": "Neil Macehiter",
     "author-email": "neilm@mwdadvisors.com",
     "author-url": "http://www.mwdadvisors.com",
     "date": "2005-09-01T10:01:16-07:00",
-    "content": "Harry\n\nI certainly agree that an architect 'should' sit at the intersection between business and IT to ensure that the resulting architecture aligns with business requirements and priorities. It's not so much bottom-up or top-down as middle-out. That's why I get so frustrated with much of the commentary surrounding SOA which is largely driven from a software development and integration perspective rather than considering the different types of services which constitute a service-oriented approach to IT.\n\nNeil ",
-    "parent-id": 620,
-    "RowKey": "20050901-100116"
+    "content": "Harry\n\nI certainly agree that an architect 'should' sit at the intersection between business and IT to ensure that the resulting architecture aligns with business requirements and priorities. It's not so much bottom-up or top-down as middle-out. That's why I get so frustrated with much of the commentary surrounding SOA which is largely driven from a software development and integration perspective rather than considering the different types of services which constitute a service-oriented approach to IT.\n\nNeil "
   }
 ]

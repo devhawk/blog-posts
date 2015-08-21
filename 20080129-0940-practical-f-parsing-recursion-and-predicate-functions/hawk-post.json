@@ -1,5 +1,4 @@
 {
-  "id": 1096,
   "slug": "practical-f-parsing-recursion-and-predicate-functions",
   "title": "Practical F# Parsing: Recursion and Predicate Functions",
   "date": "2008-01-29T09:40:31-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "F#|f-sharp,Functional Programming|functional-programming,Parsing Expression Grammar|parsing-expression-grammar",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 8,
-  "PartKey": "20080129-0940-practical-f-parsing-recursion-and-predicate-functions"
+  "comment-count": 8,
+  "dasblog-entry-id": "127fab83-19f7-42a5-933a-5dd273fc3040",
+  "dasblog-title": "Practical+F+Parsing+Recursion+And+Predicate+Functions",
+  "dasblog-unique-title": "2008/01/29/Practical+F+Parsing+Recursion+And+Predicate+Functions"
 }

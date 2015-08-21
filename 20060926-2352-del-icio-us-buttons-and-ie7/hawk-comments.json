@@ -1,12 +1,9 @@
 [
   {
-    "id": 2407,
     "author-name": "britta",
     "author-email": "support@del.icio.us",
     "author-url": "http://blog.del.icio.us/",
     "date": "2006-09-27T13:20:29-07:00",
-    "content": "hello! yeah, the del.icio.us toolbar doesn't support ie7 quite yet -- it can cause some nasty bugs, even. you might want to use these alternative buttons until we update it (we're working on it): http://del.icio.us/help/buttons :)",
-    "parent-id": 802,
-    "RowKey": "20060927-132029"
+    "content": "hello! yeah, the del.icio.us toolbar doesn't support ie7 quite yet -- it can cause some nasty bugs, even. you might want to use these alternative buttons until we update it (we're working on it): http://del.icio.us/help/buttons :)"
   }
 ]

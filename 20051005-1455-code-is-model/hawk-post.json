@@ -1,5 +1,4 @@
 {
-  "id": 639,
   "slug": "code-is-model",
   "title": "Code is Model",
   "date": "2005-10-05T14:55:20-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 9,
-  "PartKey": "20051005-1455-code-is-model"
+  "comment-count": 9,
+  "dasblog-entry-id": "7d6d6cb2-2300-4e39-8ad8-a2910d81d498",
+  "dasblog-title": "Code+Is+Model",
+  "dasblog-unique-title": "2005/10/05/Code+Is+Model"
 }

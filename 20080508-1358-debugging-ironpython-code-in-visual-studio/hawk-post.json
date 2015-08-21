@@ -1,5 +1,4 @@
 {
-  "id": 1146,
   "slug": "debugging-ironpython-code-in-visual-studio",
   "title": "Debugging IronPython Code in Visual Studio",
   "date": "2008-05-08T13:58:00-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Visual Studio|visual-studio",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20080508-1358-debugging-ironpython-code-in-visual-studio"
+  "comment-count": 2,
+  "dasblog-entry-id": "28860a1d-d909-4cd5-ba18-be6456a1ca5b",
+  "dasblog-title": "Debugging+IronPython+Code+In+Visual+Studio",
+  "dasblog-unique-title": "2008/05/08/Debugging+IronPython+Code+In+Visual+Studio"
 }

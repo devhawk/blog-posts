@@ -1,32 +1,23 @@
 [
   {
-    "id": 2255,
     "author-name": "Marius Mikučionis",
     "author-email": "marius@cs.aau.dk",
     "author-url": "",
     "date": "2009-09-03T02:32:58-07:00",
-    "content": "How about using Jabber (or alike) protocol for relaying?\nIt works in distributed way just like email, while it has real-time capabilities, also each user can have infinitely many resource locators (and each user has full control over their addresses), then just setup different apps to listen to a different resource name which is subscribed to whatever publisher.\nIn the end, if your mail/NAT/whatever-publicaly-facing server is Jabber-capable, you have the real-time relay infrastructure in place already. \nMoreover this setup works *everytime* you move your netbook away from home network!\nGoogle uses XMMP even for voice/video communication.\nSo what are we reinventing?",
-    "parent-id": 1287,
-    "RowKey": "20090903-023258"
+    "content": "How about using Jabber (or alike) protocol for relaying?\nIt works in distributed way just like email, while it has real-time capabilities, also each user can have infinitely many resource locators (and each user has full control over their addresses), then just setup different apps to listen to a different resource name which is subscribed to whatever publisher.\nIn the end, if your mail/NAT/whatever-publicaly-facing server is Jabber-capable, you have the real-time relay infrastructure in place already. \nMoreover this setup works *everytime* you move your netbook away from home network!\nGoogle uses XMMP even for voice/video communication.\nSo what are we reinventing?"
   },
   {
-    "id": 2256,
     "author-name": "jake",
     "author-email": "jochs@critical-masses.com",
     "author-url": "http://www.critical-masses.com/jakeofalltrades/",
     "date": "2009-09-03T08:05:30-07:00",
-    "content": "@Marius I believe that's exactly what superfeedr does",
-    "parent-id": 1287,
-    "RowKey": "20090903-080530"
+    "content": "@Marius I believe that's exactly what superfeedr does"
   },
   {
-    "id": 2257,
     "author-name": "Lo'sos'",
     "author-email": "",
     "author-url": "",
     "date": "2009-09-22T12:58:36-07:00",
-    "content": "XMPP is still polling. It's not a naive polling, but polling none the less.\nWith the client behind NAT/firewall, there doesn't seem to be any way around that. It's the client who is responsible for initiating request. Even if one uses smart tricks with multiple mini-requests and responses to emulate biderectional communications. It's still synchronous request/response model under the hood.\nOn the other side, if network lattency is low, client and server resources are abundant, and there is no true real-time requirements (all of which is typically the case for all the \"webby\" things), it should suffice for quite a few (if not most) usage scenarios.",
-    "parent-id": 1287,
-    "RowKey": "20090922-125836"
+    "content": "XMPP is still polling. It's not a naive polling, but polling none the less.\nWith the client behind NAT/firewall, there doesn't seem to be any way around that. It's the client who is responsible for initiating request. Even if one uses smart tricks with multiple mini-requests and responses to emulate biderectional communications. It's still synchronous request/response model under the hood.\nOn the other side, if network lattency is low, client and server resources are abundant, and there is no true real-time requirements (all of which is typically the case for all the \"webby\" things), it should suffice for quite a few (if not most) usage scenarios."
   }
 ]

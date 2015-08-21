@@ -1,5 +1,4 @@
 {
-  "id": 297,
   "slug": "soa-vs-oo-in-business-process",
   "title": "SOA vs. OO in Business Process",
   "date": "2004-01-30T13:34:34-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040130-1334-soa-vs-oo-in-business-process"
+  "comment-count": 2,
+  "dasblog-entry-id": "df0547d3-c573-4824-941b-25360860615a",
+  "dasblog-title": "SOA+Vs+OO+In+Business+Process",
+  "dasblog-unique-title": "2004/01/30/SOA+Vs+OO+In+Business+Process"
 }

@@ -1,52 +1,37 @@
 [
   {
-    "id": 2512,
     "author-name": "David Ing",
     "author-email": "david.ing@gmail.com",
     "author-url": "http://www.from9till2.com",
     "date": "2007-05-26T09:40:04-07:00",
-    "content": "To save valuable internet space, I'll just comment here - no one wants the tubes blocked any more than they are:\n\n1. 'I think it doesn't really matter how the rest of the world gravitates'. Ooo. Three words Harry, in, ter and op. The nearest thing I had to a point was that if your interpretation of REST is so very different to mine (it isn't, but lets go along with this), then aren't we making harder to 'walk up and use?'? The world is full of cutting-edge inspired ideas that no-one now has a clue on how to maintain (or even talk too).\n\nImagine if people rush to REST and make it an overnight/14 year success with PUTs/DELETE's on some Entity driven crusade to emulate WebDAV with everything they can find (or APP gData styling it all), then they may find your entityless system harder to interop with (or even to grok) - especially where it's so early in have some formal description of what your valid 'interface' (states) are?\n\n2. Agreed about transaction/bizprocess thing - that was a 11 keystroke spelling error that I must stop doing - the keys are right next to each other though.\n\n3. We need something like Godwins law, i.e. when anyone ever pulls out a Fielding Disseration link then all bets are off... ;-)\n\nOne important point that I forgot before is related to what Dare said about Mike Champions WS-* vibe, are you really *sure* you want to use a Web protocol for something that might not be actually used on the Web? Anyway, typing too much, I should blog at home...",
-    "parent-id": 967,
-    "RowKey": "20070526-094004"
+    "content": "To save valuable internet space, I'll just comment here - no one wants the tubes blocked any more than they are:\n\n1. 'I think it doesn't really matter how the rest of the world gravitates'. Ooo. Three words Harry, in, ter and op. The nearest thing I had to a point was that if your interpretation of REST is so very different to mine (it isn't, but lets go along with this), then aren't we making harder to 'walk up and use?'? The world is full of cutting-edge inspired ideas that no-one now has a clue on how to maintain (or even talk too).\n\nImagine if people rush to REST and make it an overnight/14 year success with PUTs/DELETE's on some Entity driven crusade to emulate WebDAV with everything they can find (or APP gData styling it all), then they may find your entityless system harder to interop with (or even to grok) - especially where it's so early in have some formal description of what your valid 'interface' (states) are?\n\n2. Agreed about transaction/bizprocess thing - that was a 11 keystroke spelling error that I must stop doing - the keys are right next to each other though.\n\n3. We need something like Godwins law, i.e. when anyone ever pulls out a Fielding Disseration link then all bets are off... ;-)\n\nOne important point that I forgot before is related to what Dare said about Mike Champions WS-* vibe, are you really *sure* you want to use a Web protocol for something that might not be actually used on the Web? Anyway, typing too much, I should blog at home..."
   },
   {
-    "id": 2513,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2007-05-26T22:38:34-07:00",
-    "content": "Two responses to point #1 above:\n\nFirst, as I pointed out in my update, Fielding specifically allows the author to choose resource identifiers as they see fit. So I might argue (if it came to down to an argument) that maybe you're not \"doing REST\" if you can't interop with a REST as Protocol system.\n\nSecond, in theory people may find it harder to grok, but in reality are we really worried about that? Is Tim's airline example really that much harder to understand than Atom Publishing? I don't think so.",
-    "parent-id": 967,
-    "RowKey": "20070526-223834"
+    "content": "Two responses to point #1 above:\n\nFirst, as I pointed out in my update, Fielding specifically allows the author to choose resource identifiers as they see fit. So I might argue (if it came to down to an argument) that maybe you're not \"doing REST\" if you can't interop with a REST as Protocol system.\n\nSecond, in theory people may find it harder to grok, but in reality are we really worried about that? Is Tim's airline example really that much harder to understand than Atom Publishing? I don't think so."
   },
   {
-    "id": 2514,
     "author-name": "David Ing",
     "author-email": "david.ing@gmail.com",
     "author-url": "http://www.from9till2.com",
     "date": "2007-05-27T09:51:49-07:00",
-    "content": "Trying hard to disagree with you here Harry, but in the interests of the discussion then how about?:\n\n- If I had a wonderful Doughnut Atom Publishing Protocol (APP) based resource on the web that you wanted to use as part of your DeliciousThingsToEat composite app, then don't you have to now treat me as a special case, i.e. I'm not expecting to return a getDetails URI in *my* response - are you going to have to write a special adaptor to make me fit in as an in-between state for your 'controller' of your state machine? The world gravitating to the PUT will make a little awkward for you to add to your application with the resources in systems that you didn't write? If you don't intend to 'promiscuously mashup' from outside resource-based services (maybe for an internal system that could be Service rather than Resource orientated?) then this point is moot.\n\n- I think the butterflies in my tummy about this issue may be related in that it smells a bit like the days of SOAP Doc/Lit vs RPC/Enc chaos, (Cough - Hey, I know how about Basic Profile 1.0 for REST usage!? Shudder!). The 'you say POST and I say PUT' chaos is probably a way of life, and maybe if it took us 4 years to figure out not to tunnel the GET through a POST it might take a similar amount of time not tunnel the PUT through POST either. :-)\n\n- Unless Roy is going to come around my house and fix the code for me when I get the wrong interpretation of REST, they I don't care/mind what he wrote on the resource-intpretation issue. :-) I could also make an argument that the Real Web isn't really REST based in practice either - and no-one took *their* REST license away...\n\n(we should blog this, it's far too interesting a topic to live in comments)",
-    "parent-id": 967,
-    "RowKey": "20070527-095149"
+    "content": "Trying hard to disagree with you here Harry, but in the interests of the discussion then how about?:\n\n- If I had a wonderful Doughnut Atom Publishing Protocol (APP) based resource on the web that you wanted to use as part of your DeliciousThingsToEat composite app, then don't you have to now treat me as a special case, i.e. I'm not expecting to return a getDetails URI in *my* response - are you going to have to write a special adaptor to make me fit in as an in-between state for your 'controller' of your state machine? The world gravitating to the PUT will make a little awkward for you to add to your application with the resources in systems that you didn't write? If you don't intend to 'promiscuously mashup' from outside resource-based services (maybe for an internal system that could be Service rather than Resource orientated?) then this point is moot.\n\n- I think the butterflies in my tummy about this issue may be related in that it smells a bit like the days of SOAP Doc/Lit vs RPC/Enc chaos, (Cough - Hey, I know how about Basic Profile 1.0 for REST usage!? Shudder!). The 'you say POST and I say PUT' chaos is probably a way of life, and maybe if it took us 4 years to figure out not to tunnel the GET through a POST it might take a similar amount of time not tunnel the PUT through POST either. :-)\n\n- Unless Roy is going to come around my house and fix the code for me when I get the wrong interpretation of REST, they I don't care/mind what he wrote on the resource-intpretation issue. :-) I could also make an argument that the Real Web isn't really REST based in practice either - and no-one took *their* REST license away...\n\n(we should blog this, it's far too interesting a topic to live in comments)"
   },
   {
-    "id": 2515,
     "author-name": "David Ing",
     "author-email": "david.ing@gmail.com",
     "author-url": "http://www.from9till2.com",
     "date": "2007-05-27T10:40:17-07:00",
-    "content": "Ug. Couldn't resist. Updated the blog here:\nhttp://www.from9till2.com/PermaLink.aspx?guid=5f9ac25b-6e8d-412f-9a16-f9f0c0dbf9be\nSorry.",
-    "parent-id": 967,
-    "RowKey": "20070527-104017"
+    "content": "Ug. Couldn't resist. Updated the blog here:\nhttp://www.from9till2.com/PermaLink.aspx?guid=5f9ac25b-6e8d-412f-9a16-f9f0c0dbf9be\nSorry."
   },
   {
-    "id": 2516,
     "author-name": "Erik Johnson",
     "author-email": "ejohnson@epicor.com",
     "author-url": "http://appside.blogspot.com",
     "date": "2007-05-29T10:35:50-07:00",
-    "content": "Me too.\n\nhttp://appside.blogspot.com/2007/05/harry-david.html\n\n",
-    "parent-id": 967,
-    "RowKey": "20070529-103550"
+    "content": "Me too.\n\nhttp://appside.blogspot.com/2007/05/harry-david.html\n\n"
   }
 ]

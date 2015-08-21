@@ -1,32 +1,23 @@
 [
   {
-    "id": 2897,
     "author-name": "Lucas Gonze",
     "author-email": "lucas@gonze.com",
     "author-url": "http://gonze.com",
     "date": "2006-02-14T13:22:07-08:00",
-    "content": "Along with a study of existing playlist formats (at http://gonze.com/playlists/playlist-format-survey.html), there was a preliminary study on RSS for this purpose:\nhttp://gonze.com/rss_plus_time.html .\n\nRSS didn't make sense for a lot of reasons.  We were paving cowpaths, and RSS for playlists was very much not a cowpath.  Playlists are about sequence, while RSS has no concept of sequence except reverse chronological order.  We needed abstractions to deal with the fact that music and movies frequently don't have URLs, and RSS didn't have them.  If not starting from scratch was critical, HTML preceded RSS and would be the default to work from.\n\nThat said, I would have liked for XSPF to be a lot closer to feed formats, even though it didn't work out that way.  Maybe in the long run that's the direction it will go.\n",
-    "parent-id": 690,
-    "RowKey": "20060214-132207"
+    "content": "Along with a study of existing playlist formats (at http://gonze.com/playlists/playlist-format-survey.html), there was a preliminary study on RSS for this purpose:\nhttp://gonze.com/rss_plus_time.html .\n\nRSS didn't make sense for a lot of reasons.  We were paving cowpaths, and RSS for playlists was very much not a cowpath.  Playlists are about sequence, while RSS has no concept of sequence except reverse chronological order.  We needed abstractions to deal with the fact that music and movies frequently don't have URLs, and RSS didn't have them.  If not starting from scratch was critical, HTML preceded RSS and would be the default to work from.\n\nThat said, I would have liked for XSPF to be a lot closer to feed formats, even though it didn't work out that way.  Maybe in the long run that's the direction it will go.\n"
   },
   {
-    "id": 2898,
     "author-name": "Online-Poker",
     "author-email": "bien@gmail.com",
     "author-url": "http://online-poker.30mb.com",
     "date": "2006-03-09T07:26:04-08:00",
-    "content": "Along with a study of existing playlist formats (at http://gonze.com/playlists/playlist-format-survey.html), there was a preliminary study on RSS for this purpose:\nhttp://gonze.com/rss_plus_time.html . ",
-    "parent-id": 690,
-    "RowKey": "20060309-072604"
+    "content": "Along with a study of existing playlist formats (at http://gonze.com/playlists/playlist-format-survey.html), there was a preliminary study on RSS for this purpose:\nhttp://gonze.com/rss_plus_time.html . "
   },
   {
-    "id": 2899,
     "author-name": "Online Poker",
     "author-email": "bien@gmail.com",
     "author-url": "http://online-poker.30mb.com",
     "date": "2006-03-09T07:27:11-08:00",
-    "content": "RSS didn't make sense for a lot of reasons. We were paving cowpaths, and RSS for playlists was very much not a cowpath. Playlists are about sequence, while RSS has no concept of sequence except reverse chronological order. We needed abstractions to deal with the fact that music and movies frequently don't have URLs, and RSS didn't have them. If not starting from scratch was critical, HTML preceded RSS and would be the default to work from. ",
-    "parent-id": 690,
-    "RowKey": "20060309-072711"
+    "content": "RSS didn't make sense for a lot of reasons. We were paving cowpaths, and RSS for playlists was very much not a cowpath. Playlists are about sequence, while RSS has no concept of sequence except reverse chronological order. We needed abstractions to deal with the fact that music and movies frequently don't have URLs, and RSS didn't have them. If not starting from scratch was critical, HTML preceded RSS and would be the default to work from. "
   }
 ]

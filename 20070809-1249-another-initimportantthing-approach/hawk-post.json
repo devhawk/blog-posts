@@ -1,5 +1,4 @@
 {
-  "id": 1025,
   "slug": "another-initimportantthing-approach",
   "title": "Another InitImportantThing Approach",
   "date": "2007-08-09T12:49:23-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "C#|c-sharp,Object Oriented|object-oriented,WCF|wcf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20070809-1249-another-initimportantthing-approach"
+  "comment-count": 3,
+  "dasblog-entry-id": "f2250067-7970-401a-8ff2-93de2fba58f6",
+  "dasblog-title": "Another+InitImportantThing+Approach",
+  "dasblog-unique-title": "2007/08/09/Another+InitImportantThing+Approach"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 313,
   "slug": "new-net-architecture-center",
   "title": "New .NET Architecture Center",
   "date": "2004-02-16T11:32:24-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040216-1132-new-net-architecture-center"
+  "comment-count": 0,
+  "dasblog-entry-id": "0677edab-1de2-4c53-9ccc-486dad4d6931",
+  "dasblog-title": "New+NET+Architecture+Center",
+  "dasblog-unique-title": "2004/02/16/New+NET+Architecture+Center"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 729,
   "slug": "clr-everywhere",
   "title": "CLR Everywhere",
   "date": "2006-03-22T08:51:53-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Xbox|xbox",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20060322-0851-clr-everywhere"
+  "comment-count": 4,
+  "dasblog-entry-id": "c1015410-a97c-415c-876c-e8ac9ac52515",
+  "dasblog-title": "CLR+Everywhere",
+  "dasblog-unique-title": "2006/03/22/CLR+Everywhere"
 }

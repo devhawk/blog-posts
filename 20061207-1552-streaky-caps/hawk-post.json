@@ -1,5 +1,4 @@
 {
-  "id": 835,
   "slug": "streaky-caps",
   "title": "Streaky Caps",
   "date": "2006-12-07T15:52:00-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Hockey|hockey,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20061207-1552-streaky-caps"
+  "comment-count": 0,
+  "dasblog-entry-id": "5f06b233-4524-4c61-ac16-46d78ac9421e",
+  "dasblog-title": "Streaky+Caps",
+  "dasblog-unique-title": "2006/12/07/Streaky+Caps"
 }

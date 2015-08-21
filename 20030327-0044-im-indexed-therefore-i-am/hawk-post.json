@@ -1,5 +1,4 @@
 {
-  "id": 56,
   "slug": "im-indexed-therefore-i-am",
   "title": "I&#8217;m Indexed, Therefore I Am",
   "date": "2003-03-27T00:44:45-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030327-0044-im-indexed-therefore-i-am"
+  "comment-count": 0,
+  "dasblog-entry-id": "7bfbe0be-5cd9-4025-9a86-09b314c05f50",
+  "dasblog-title": "Im+Indexed+Therefore+I+Am",
+  "dasblog-unique-title": "2003/03/27/Im+Indexed+Therefore+I+Am"
 }

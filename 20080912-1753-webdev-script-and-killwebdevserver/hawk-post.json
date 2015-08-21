@@ -1,5 +1,4 @@
 {
-  "id": 1174,
   "slug": "webdev-script-and-killwebdevserver",
   "title": "Webdev Script and KillWebDevServer",
   "date": "2008-09-12T17:53:41-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "ASP.NET|asp-net,PowerShell|powershell",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080912-1753-webdev-script-and-killwebdevserver"
+  "comment-count": 1,
+  "dasblog-entry-id": "7781e275-7468-40cb-8f1a-fd28c2edcc78",
+  "dasblog-title": "Webdev+Script+And+KillWebDevServer",
+  "dasblog-unique-title": "2008/09/13/Webdev+Script+And+KillWebDevServer"
 }

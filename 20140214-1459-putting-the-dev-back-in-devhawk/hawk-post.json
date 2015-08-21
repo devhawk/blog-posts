@@ -1,5 +1,4 @@
 {
-  "id": 2059,
   "slug": "putting-the-dev-back-in-devhawk",
   "title": "Putting the “Dev” Back in DevHawk",
   "date": "2014-02-14T14:59:58-08:00",
@@ -7,6 +6,5 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Working at MSFT|working-at-msft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20140214-1459-putting-the-dev-back-in-devhawk"
+  "comment-count": 1
 }

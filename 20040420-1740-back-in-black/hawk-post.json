@@ -1,5 +1,4 @@
 {
-  "id": 352,
   "slug": "back-in-black",
   "title": "Back in Black",
   "date": "2004-04-20T17:40:26-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040420-1740-back-in-black"
+  "comment-count": 0,
+  "dasblog-entry-id": "2e887642-693a-4db6-adce-04746461051e",
+  "dasblog-title": "Back+In+Black",
+  "dasblog-unique-title": "2004/04/21/Back+In+Black"
 }

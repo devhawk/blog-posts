@@ -1,5 +1,4 @@
 {
-  "id": 834,
   "slug": "multi-user-blogs",
   "title": "Multi User Blogs",
   "date": "2006-12-07T15:16:33-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20061207-1516-multi-user-blogs"
+  "comment-count": 0,
+  "dasblog-entry-id": "601b64e2-9444-466e-9d78-805e41218b7f",
+  "dasblog-title": "Multi+User+Blogs",
+  "dasblog-unique-title": "2006/12/07/Multi+User+Blogs"
 }

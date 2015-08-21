@@ -1,5 +1,4 @@
 {
-  "id": 979,
   "slug": "lunchtime-doughnuts-9",
   "title": "Lunchtime Doughnuts 9",
   "date": "2007-06-06T12:31:14-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Hardware|hardware,Microsoft|microsoft,SOA|soa,TechEd|teched,Visual Studio|visual-studio",
   "author": "Dale Churchward|dale|spawn_master@hotmail.com",
-  "comment_count": 0,
-  "PartKey": "20070606-1231-lunchtime-doughnuts-9"
+  "comment-count": 0,
+  "dasblog-entry-id": "d0240651-cf80-4a66-ba82-2e3467d16c90",
+  "dasblog-title": "Lunchtime+Doughnuts+9",
+  "dasblog-unique-title": "2007/06/06/Lunchtime+Doughnuts+9"
 }

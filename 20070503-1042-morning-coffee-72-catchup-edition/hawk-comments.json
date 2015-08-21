@@ -1,22 +1,16 @@
 [
   {
-    "id": 2493,
     "author-name": "Tomas Restrepo",
     "author-email": "tomas@winterdom.com",
     "author-url": "http://www.winterdom.com/weblog/",
     "date": "2007-05-03T13:43:01-07:00",
-    "content": "Don't you mean \"...both build on the new ADO.NET Entity Framework that is _not_ shipping in VS Orcas\"? :) http://blogs.msdn.com/adonet/archive/2007/04/28/ado-net-entity-framework-update.aspx",
-    "parent-id": 949,
-    "RowKey": "20070503-134301"
+    "content": "Don't you mean \"...both build on the new ADO.NET Entity Framework that is _not_ shipping in VS Orcas\"? :) http://blogs.msdn.com/adonet/archive/2007/04/28/ado-net-entity-framework-update.aspx"
   },
   {
-    "id": 2494,
     "author-name": "Jamie Cansdale",
     "author-email": "",
     "author-url": "http://weblogs.asp.net/nunitaddin",
     "date": "2007-05-03T19:23:06-07:00",
-    "content": "Re: Silverlight hosting model\n\nThis is as far as I've got. Nothing useful yet...\n\nAdd a reference to:\nProgram FilesMicrosoft Silverlightnpctrl.dll\n\nusing XcpControlLib;\n\nXcpControl control = new XcpControl();\ncontrol.Source = \"Page.xaml\";\nIXcpObject ob = (IXcpObject)control.Content;\n\n// Now I'm stuck. What can we do with 'ob'?\n\nI'd be very interested to hear if any of your friends at Microsoft can flesh this out at all. I'd love a add a 'Test With... Sliverlight' option to TestDriven.NET. ;)",
-    "parent-id": 949,
-    "RowKey": "20070503-192306"
+    "content": "Re: Silverlight hosting model\n\nThis is as far as I've got. Nothing useful yet...\n\nAdd a reference to:\nProgram FilesMicrosoft Silverlightnpctrl.dll\n\nusing XcpControlLib;\n\nXcpControl control = new XcpControl();\ncontrol.Source = \"Page.xaml\";\nIXcpObject ob = (IXcpObject)control.Content;\n\n// Now I'm stuck. What can we do with 'ob'?\n\nI'd be very interested to hear if any of your friends at Microsoft can flesh this out at all. I'd love a add a 'Test With... Sliverlight' option to TestDriven.NET. ;)"
   }
 ]

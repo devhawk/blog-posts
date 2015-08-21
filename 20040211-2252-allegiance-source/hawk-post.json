@@ -1,5 +1,4 @@
 {
-  "id": 309,
   "slug": "allegiance-source",
   "title": "Allegiance Source",
   "date": "2004-02-11T22:52:00-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040211-2252-allegiance-source"
+  "comment-count": 0,
+  "dasblog-entry-id": "70beeb67-a27d-4958-90ab-f3aa3f46cfd2",
+  "dasblog-title": "Allegiance+Source",
+  "dasblog-unique-title": "2004/02/12/Allegiance+Source"
 }

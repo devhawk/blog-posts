@@ -1,42 +1,30 @@
 [
   {
-    "id": 2533,
     "author-name": "Arnon Rotem-Gal-Oz",
     "author-email": "arnon@rgoarchitects.com",
     "author-url": "http://www.rgoarchitects.com",
     "date": "2007-06-26T15:04:58-07:00",
-    "content": "I would think that the closest thing is Monorail which is part of the Castle project(http://www.castleproject.org/monorail/index.html) ",
-    "parent-id": 993,
-    "RowKey": "20070626-150458"
+    "content": "I would think that the closest thing is Monorail which is part of the Castle project(http://www.castleproject.org/monorail/index.html) "
   },
   {
-    "id": 2534,
     "author-name": "Jeffrey Palermo",
     "author-email": "no@thanks.com",
     "author-url": "http://www.jeffreypalermo.com",
     "date": "2007-06-26T15:46:18-07:00",
-    "content": ">\"The agile folks like MVC because it's easier to test.\"<\n\nI would consider myself and \"agile folk\", but I like MVC for other reasons, not because it's easier to test.  I like it mostly because it separates concerns of controlling screen and rendering the screen.  It makes the application more maintainable and keeps the code easily changeable.\n\n",
-    "parent-id": 993,
-    "RowKey": "20070626-154618"
+    "content": ">\"The agile folks like MVC because it's easier to test.\"<\n\nI would consider myself and \"agile folk\", but I like MVC for other reasons, not because it's easier to test.  I like it mostly because it separates concerns of controlling screen and rendering the screen.  It makes the application more maintainable and keeps the code easily changeable.\n\n"
   },
   {
-    "id": 2535,
     "author-name": "Mitch Barnett",
     "author-email": "mbarnett@uniserve.com",
     "author-url": "http://softwareindustrialization.com",
     "date": "2007-06-26T15:59:33-07:00",
-    "content": "Slowly is right - As an old time ASP.NET developer and using ASP.NET AJAX for the last year (all early CTP's), I still need all the help I can get.  \n\nThe GridView control still needs to be sub-classed and overridden if you want something as simple as horizontal scrolls bars or remember scroll position on partial postback or even what row you selected (onpostback again).  Meaning the controls could be a lot more rich and powerful and I don’t know how improved it is in Orcas.  \n\nAlso, I end using other JavaScript frameworks (i.e. Sam Stephenson’s Prototype) or even roll my own cause I can’t get synchronous support in ASP.NET AJAX framework. ASP.NET just needs to catch up…regardless of MVC pattern.\n",
-    "parent-id": 993,
-    "RowKey": "20070626-155933"
+    "content": "Slowly is right - As an old time ASP.NET developer and using ASP.NET AJAX for the last year (all early CTP's), I still need all the help I can get.  \n\nThe GridView control still needs to be sub-classed and overridden if you want something as simple as horizontal scrolls bars or remember scroll position on partial postback or even what row you selected (onpostback again).  Meaning the controls could be a lot more rich and powerful and I don’t know how improved it is in Orcas.  \n\nAlso, I end using other JavaScript frameworks (i.e. Sam Stephenson’s Prototype) or even roll my own cause I can’t get synchronous support in ASP.NET AJAX framework. ASP.NET just needs to catch up…regardless of MVC pattern.\n"
   },
   {
-    "id": 2536,
     "author-name": "Mike Moore",
     "author-email": "mike@blowmage.com",
     "author-url": "http://blowmage.com/",
     "date": "2007-06-27T09:06:53-07:00",
-    "content": "ASP.NET does not use MVC, it uses a Page Controller.\n\nhttp://msdn2.microsoft.com/en-us/library/ms998548.aspx\n\nASP.NET punished you if you want to care about request dispatching, pretty URLs, or just keeping your code DRY.  Page controls, post-back, and view-state are great, but akin to putting lipstick on a pig.  I'd rather use IronRuby on Rails than ASP.NET for web apps of moderate to heavy complexity.",
-    "parent-id": 993,
-    "RowKey": "20070627-090653"
+    "content": "ASP.NET does not use MVC, it uses a Page Controller.\n\nhttp://msdn2.microsoft.com/en-us/library/ms998548.aspx\n\nASP.NET punished you if you want to care about request dispatching, pretty URLs, or just keeping your code DRY.  Page controls, post-back, and view-state are great, but akin to putting lipstick on a pig.  I'd rather use IronRuby on Rails than ASP.NET for web apps of moderate to heavy complexity."
   }
 ]

@@ -1,5 +1,4 @@
 {
-  "id": 1002,
   "slug": "restating-the-concurrency-problem",
   "title": "Restating the Concurrency Problem",
   "date": "2007-07-10T12:05:41-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Concurrency|concurrency,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070710-1205-restating-the-concurrency-problem"
+  "comment-count": 0,
+  "dasblog-entry-id": "9167a850-9f84-494d-a871-5fd2cb2300de",
+  "dasblog-title": "Restating+The+Concurrency+Problem",
+  "dasblog-unique-title": "2007/07/10/Restating+The+Concurrency+Problem"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 583,
   "slug": "class-designer-demo",
   "title": "Class Designer Demo",
   "date": "2005-03-30T13:24:34-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050330-1324-class-designer-demo"
+  "comment-count": 0,
+  "dasblog-entry-id": "c30646d5-e795-4f12-be36-1e320b64dc64",
+  "dasblog-title": "Class+Designer+Demo",
+  "dasblog-unique-title": "2005/03/30/Class+Designer+Demo"
 }

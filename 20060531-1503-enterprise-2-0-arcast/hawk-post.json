@@ -1,5 +1,4 @@
 {
-  "id": 751,
   "slug": "enterprise-2-0-arcast",
   "title": "Enterprise 2.0 ARCast",
   "date": "2006-05-31T15:03:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Enterprise 2.0|enterprise-2-0,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060531-1503-enterprise-2-0-arcast"
+  "comment-count": 0,
+  "dasblog-entry-id": "6e241dc2-8dd0-49d5-bb97-76e8b1225b45",
+  "dasblog-title": "Enterprise+20+ARCast",
+  "dasblog-unique-title": "2006/05/31/Enterprise+20+ARCast"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1191,
   "slug": "ironpython-and-wpf-part-4-background-processing",
   "title": "IronPython and WPF Part 4: Background Processing",
   "date": "2008-11-19T13:47:57-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Parallel Programming|parallel-programming,WPF|wpf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20081119-1347-ironpython-and-wpf-part-4-background-processing"
+  "comment-count": 0,
+  "dasblog-entry-id": "304749a7-3483-4f00-9b09-3ddc9f33b783",
+  "dasblog-title": "IronPython+And+WPF+Part+4+Background+Processing",
+  "dasblog-unique-title": "2008/11/19/IronPython+And+WPF+Part+4+Background+Processing"
 }

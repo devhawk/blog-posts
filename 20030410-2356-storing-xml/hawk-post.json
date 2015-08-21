@@ -1,5 +1,4 @@
 {
-  "id": 68,
   "slug": "storing-xml",
   "title": "Storing XML",
   "date": "2003-04-10T23:56:04-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030410-2356-storing-xml"
+  "comment-count": 0,
+  "dasblog-entry-id": "0c19c7c8-9cc0-4ee1-a1d0-8ca1d793deff",
+  "dasblog-title": "Storing+XML",
+  "dasblog-unique-title": "2003/04/11/Storing+XML"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1232,
   "slug": "writing-an-ironpython-debugger-colorful-console",
   "title": "Writing an IronPython Debugger: Colorful Console",
   "date": "2009-03-19T15:48:43-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090319-1548-writing-an-ironpython-debugger-colorful-console"
+  "comment-count": 0,
+  "dasblog-entry-id": "7a543ffb-0771-4124-9d94-08a29bb588ea",
+  "dasblog-title": "Writing+An+IronPython+Debugger+Colorful+Console",
+  "dasblog-unique-title": "2009/03/19/Writing+An+IronPython+Debugger+Colorful+Console"
 }

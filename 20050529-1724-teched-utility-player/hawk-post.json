@@ -1,5 +1,4 @@
 {
-  "id": 603,
   "slug": "teched-utility-player",
   "title": "TechEd Utility Player",
   "date": "2005-05-29T17:24:51-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050529-1724-teched-utility-player"
+  "comment-count": 0,
+  "dasblog-entry-id": "7a6e882d-6c71-4a76-8da0-01a7261909a3",
+  "dasblog-title": "TechEd+Utility+Player",
+  "dasblog-unique-title": "2005/05/30/TechEd+Utility+Player"
 }

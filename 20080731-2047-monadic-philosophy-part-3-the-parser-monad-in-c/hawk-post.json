@@ -1,5 +1,4 @@
 {
-  "id": 1165,
   "slug": "monadic-philosophy-part-3-the-parser-monad-in-c",
   "title": "Monadic Philosophy Part 3 &#8211; The Parser Monad in C#",
   "date": "2008-07-31T20:47:30-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "C#|c-sharp,F#|f-sharp,Functional Programming|functional-programming,Monads|monads",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20080731-2047-monadic-philosophy-part-3-the-parser-monad-in-c"
+  "comment-count": 2,
+  "dasblog-entry-id": "f0fb5461-eb30-4268-a4b3-7262276768cb",
+  "dasblog-title": "Monadic+Philosophy+Part+3+The+Parser+Monad+In+C",
+  "dasblog-unique-title": "2008/08/01/Monadic+Philosophy+Part+3+The+Parser+Monad+In+C"
 }

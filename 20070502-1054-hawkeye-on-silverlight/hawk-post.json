@@ -1,5 +1,4 @@
 {
-  "id": 947,
   "slug": "hawkeye-on-silverlight",
   "title": "Hawkeye on Silverlight",
   "date": "2007-05-02T10:54:35-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "HawkEye|hawkeye,Silverlight|silverlight,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070502-1054-hawkeye-on-silverlight"
+  "comment-count": 0,
+  "dasblog-entry-id": "ce7ca111-8da3-4d4d-89a2-5e20d7d9a359",
+  "dasblog-title": "Hawkeye+On+Silverlight",
+  "dasblog-unique-title": "2007/05/02/Hawkeye+On+Silverlight"
 }

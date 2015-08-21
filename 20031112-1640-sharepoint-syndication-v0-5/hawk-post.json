@@ -1,5 +1,4 @@
 {
-  "id": 231,
   "slug": "sharepoint-syndication-v0-5",
   "title": "SharePoint Syndication v0.5",
   "date": "2003-11-12T16:40:17-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "SharePoint|sharepoint",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031112-1640-sharepoint-syndication-v0-5"
+  "comment-count": 0,
+  "dasblog-entry-id": "6e424e9f-87fc-402e-b496-3d551805b0db",
+  "dasblog-title": "SharePoint+Syndication+V05",
+  "dasblog-unique-title": "2003/11/13/SharePoint+Syndication+V05"
 }

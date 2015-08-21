@@ -1,32 +1,23 @@
 [
   {
-    "id": 3025,
     "author-name": "Chris",
     "author-email": "cgillespie@extron.com",
     "author-url": "",
     "date": "2004-03-15T16:00:49-08:00",
-    "content": "I am trying to do this thing you are talking about.  i have a need to export as individual builds.  It used to be an option, but is no longer there.  HOWEVER, i am not a developer and have no idea what you are talking about?  Is there any hope for me?",
-    "parent-id": 329,
-    "RowKey": "20040315-160049"
+    "content": "I am trying to do this thing you are talking about.  i have a need to export as individual builds.  It used to be an option, but is no longer there.  HOWEVER, i am not a developer and have no idea what you are talking about?  Is there any hope for me?"
   },
   {
-    "id": 3026,
     "author-name": "Bruce Bieber",
     "author-email": "Bruce@Bieber.to",
     "author-url": "",
     "date": "2004-06-07T12:08:44-07:00",
-    "content": "\"When you invoke the Build Slide Export add-in...\"  How do you invoke this add-in?\n",
-    "parent-id": 329,
-    "RowKey": "20040607-120844"
+    "content": "\"When you invoke the Build Slide Export add-in...\"  How do you invoke this add-in?\n"
   },
   {
-    "id": 3027,
     "author-name": "Matthew O'Brien",
     "author-email": "matt@aphonic.com",
     "author-url": "",
     "date": "2006-04-04T12:40:35-07:00",
-    "content": "I am extremely excited to get this working so I don't have to keep taking build screenshots manually :)  But actually I'm not sure how to invoke the add in.  As far as I can see, there isn't actually an add in.  I've tried referencing the type library, (.tlb file,) in VBA, but I'm not sure where to go from there.  What am I missing?  Thanks alot",
-    "parent-id": 329,
-    "RowKey": "20060404-124035"
+    "content": "I am extremely excited to get this working so I don't have to keep taking build screenshots manually :)  But actually I'm not sure how to invoke the add in.  As far as I can see, there isn't actually an add in.  I've tried referencing the type library, (.tlb file,) in VBA, but I'm not sure where to go from there.  What am I missing?  Thanks alot"
   }
 ]

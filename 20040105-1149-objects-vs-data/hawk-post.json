@@ -1,5 +1,4 @@
 {
-  "id": 268,
   "slug": "objects-vs-data",
   "title": "Objects vs. Data",
   "date": "2004-01-05T11:49:12-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Lanugages|lanugages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040105-1149-objects-vs-data"
+  "comment-count": 0,
+  "dasblog-entry-id": "64a37a2f-6b8c-4f64-8ce8-0f3b73b2d8bc",
+  "dasblog-title": "Objects+Vs+Data",
+  "dasblog-unique-title": "2004/01/05/Objects+Vs+Data"
 }

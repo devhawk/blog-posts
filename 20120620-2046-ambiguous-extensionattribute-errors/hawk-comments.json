@@ -1,12 +1,9 @@
 [
   {
-    "id": 3333,
     "author-name": "jdhardy",
     "author-email": "jdhardy@gmail.com",
     "author-url": "http://jdhardy.ca",
     "date": "2012-06-22T10:23:01-07:00",
-    "content": "Newer versions of IronPython solve this problem by not supporting .NET 2. 3.5 is the minimum. I'd love to make it 4.0, but the mobile platforms aren't fully there yet.",
-    "parent-id": 2023,
-    "RowKey": "20120622-102301"
+    "content": "Newer versions of IronPython solve this problem by not supporting .NET 2. 3.5 is the minimum. I'd love to make it 4.0, but the mobile platforms aren't fully there yet."
   }
 ]

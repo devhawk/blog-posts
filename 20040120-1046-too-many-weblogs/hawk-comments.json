@@ -1,22 +1,16 @@
 [
   {
-    "id": 2969,
     "author-name": "Martin Spedding",
     "author-email": "martin@mjs-solutions.com",
     "author-url": "http://weblogs.asp.net/mspedding",
     "date": "2004-01-21T01:53:43-08:00",
-    "content": "Hi Harry,\n\nI have reached the same point as you. Just checking all the blogs on weblogs.asp.net is difficult enough. Especially with all the ex gotdotnet bloggers also being hosted there. In fact I am trying to write an application where it \"pre reads\" the set of blogs I have defined in an OMPL file and if any of my predefined keywords are found it is highlighted. The greater the number of the keywords found the higher the ranking. \n\nThe sheer volume of information is incredible but a great step forward but it is difficult to follow.",
-    "parent-id": 286,
-    "RowKey": "20040121-015343"
+    "content": "Hi Harry,\n\nI have reached the same point as you. Just checking all the blogs on weblogs.asp.net is difficult enough. Especially with all the ex gotdotnet bloggers also being hosted there. In fact I am trying to write an application where it \"pre reads\" the set of blogs I have defined in an OMPL file and if any of my predefined keywords are found it is highlighted. The greater the number of the keywords found the higher the ranking. \n\nThe sheer volume of information is incredible but a great step forward but it is difficult to follow."
   },
   {
-    "id": 2970,
     "author-name": "Devhawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2004-01-21T09:40:38-08:00",
-    "content": "Sounds cool!",
-    "parent-id": 286,
-    "RowKey": "20040121-094038"
+    "content": "Sounds cool!"
   }
 ]

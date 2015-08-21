@@ -1,5 +1,4 @@
 {
-  "id": 595,
   "slug": "other-peoples-blogs",
   "title": "Other People&#8217;s Blogs",
   "date": "2005-05-03T15:27:38-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050503-1527-other-peoples-blogs"
+  "comment-count": 0,
+  "dasblog-entry-id": "f879f0bc-5698-4a13-9d52-f4721931c55c",
+  "dasblog-title": "Other+Peoples+Blogs",
+  "dasblog-unique-title": "2005/05/03/Other+Peoples+Blogs"
 }

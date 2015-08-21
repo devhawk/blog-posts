@@ -1,5 +1,4 @@
 {
-  "id": 70,
   "slug": "sharepoint-2-0-rocks",
   "title": "SharePoint 2.0 Rocks",
   "date": "2003-04-16T07:47:41-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030416-0747-sharepoint-2-0-rocks"
+  "comment-count": 0,
+  "dasblog-entry-id": "5911a1e6-16a8-41f8-9b09-3f3743757db0",
+  "dasblog-title": "SharePoint+20+Rocks",
+  "dasblog-unique-title": "2003/04/16/SharePoint+20+Rocks"
 }

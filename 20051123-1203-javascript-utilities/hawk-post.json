@@ -1,5 +1,4 @@
 {
-  "id": 657,
   "slug": "javascript-utilities",
   "title": "JavaScript Utilities",
   "date": "2005-11-23T12:03:42-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20051123-1203-javascript-utilities"
+  "comment-count": 0,
+  "dasblog-entry-id": "1c6578cc-02cd-497f-86e7-58392de25eb0",
+  "dasblog-title": "JavaScript+Utilities",
+  "dasblog-unique-title": "2005/11/23/JavaScript+Utilities"
 }

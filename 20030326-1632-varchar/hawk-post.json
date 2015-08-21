@@ -1,5 +1,4 @@
 {
-  "id": 55,
   "slug": "varchar",
   "title": "varchar(???)",
   "date": "2003-03-26T16:32:53-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030326-1632-varchar"
+  "comment-count": 0,
+  "dasblog-entry-id": "90e2b600-f054-4923-965c-b6ac27d2da36",
+  "dasblog-title": "varchar",
+  "dasblog-unique-title": "2003/03/26/varchar"
 }

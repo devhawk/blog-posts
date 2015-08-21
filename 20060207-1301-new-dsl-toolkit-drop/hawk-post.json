@@ -1,5 +1,4 @@
 {
-  "id": 682,
   "slug": "new-dsl-toolkit-drop",
   "title": "New DSL Toolkit Drop",
   "date": "2006-02-07T13:01:25-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20060207-1301-new-dsl-toolkit-drop"
+  "comment-count": 1,
+  "dasblog-entry-id": "927e400c-d23b-41b5-848d-101feb4e6371",
+  "dasblog-title": "New+DSL+Toolkit+Drop",
+  "dasblog-unique-title": "2006/02/07/New+DSL+Toolkit+Drop"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 50,
   "slug": "recent-reading",
   "title": "Recent Reading",
   "date": "2003-03-23T18:27:48-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030323-1827-recent-reading"
+  "comment-count": 0,
+  "dasblog-entry-id": "6065120a-8d64-4331-b55d-857d079e30a6",
+  "dasblog-title": "Recent+Reading",
+  "dasblog-unique-title": "2003/03/24/Recent+Reading"
 }

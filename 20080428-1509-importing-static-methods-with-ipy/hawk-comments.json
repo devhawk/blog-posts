@@ -1,72 +1,51 @@
 [
   {
-    "id": 2065,
     "author-name": "Michael Foord",
     "author-email": "fuzzyman@voidspace.org.uk",
     "author-url": "http://www.ironpythoninaction.com/",
     "date": "2008-04-28T15:38:56-07:00",
-    "content": "Well... personally I think it is a terrible abuse of the import mechanism. LOL :-)\n",
-    "parent-id": 1141,
-    "RowKey": "20080428-153856"
+    "content": "Well... personally I think it is a terrible abuse of the import mechanism. LOL :-)\n"
   },
   {
-    "id": 2066,
     "author-name": "Michael Foord",
     "author-email": "fuzzyman@voidspace.org.uk",
     "author-url": "http://www.ironpythoninaction.com/",
     "date": "2008-04-28T16:30:23-07:00",
-    "content": "I was mostly being a troublemaker with that comment, but I know that this feature has confused at least one IronPython user.\n\nHe did exactly as you did in your example:\n\n    from System.DateTime import Now \n\nand was then surprised that when he used Now it didn't update as it should. This is because in Python you can't use the import machinery to access static members on classes.\n\nWhen you import a class method from IronPython you are doing something not normally possible from Python - so what is actually happening may not be immediately obvious to anyone reading the code.",
-    "parent-id": 1141,
-    "RowKey": "20080428-163023"
+    "content": "I was mostly being a troublemaker with that comment, but I know that this feature has confused at least one IronPython user.\n\nHe did exactly as you did in your example:\n\n    from System.DateTime import Now \n\nand was then surprised that when he used Now it didn't update as it should. This is because in Python you can't use the import machinery to access static members on classes.\n\nWhen you import a class method from IronPython you are doing something not normally possible from Python - so what is actually happening may not be immediately obvious to anyone reading the code."
   },
   {
-    "id": 2067,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2008-04-28T20:26:20-07:00",
-    "content": "No, I'd say that might be a bug. For example, if you import the static DateTime.Parse method, it works as you would expect. IPy appears to be placing the result if calling get_Now in the local scope, rather than the get_Now static method. I need to circle back with the team, but that seems wrong to me.\n\nI opened up a CodePlex bug for it. http://www.codeplex.com/IronPython/WorkItem/View.aspx?WorkItemId=16323",
-    "parent-id": 1141,
-    "RowKey": "20080428-202620"
+    "content": "No, I'd say that might be a bug. For example, if you import the static DateTime.Parse method, it works as you would expect. IPy appears to be placing the result if calling get_Now in the local scope, rather than the get_Now static method. I need to circle back with the team, but that seems wrong to me.\n\nI opened up a CodePlex bug for it. http://www.codeplex.com/IronPython/WorkItem/View.aspx?WorkItemId=16323"
   },
   {
-    "id": 2068,
     "author-name": "matt",
     "author-email": "matthew.grab@tycoelectronics.com",
     "author-url": "",
     "date": "2008-05-05T12:35:59-07:00",
-    "content": "I have this simple code.  But it returns an error:\n\"TypeError: expected ProcessPriorityClass, got int\"\n\nfrom System.Diagnostics import Process\nprocs = Process.GetProcesses()\nfor p in procs:\n\tif p.ProcessName == 'notepad':\n\t\tprint p.BasePriority\n\t\tp.PriorityClass = 8\n\nI thought one of the main points of ironpython is not have to worry about typing variables.  But this seems to imply unless I do some sort of dim x as ProcessPriorityClass, I can't call set the value of PriorityClass.\n\nI have searched hard for the answer to this, but it seems like maybe IP isn't that widely used yet.  If you have some good links to where to go to get more help with IP that would be nice.\nThanks,\nMatt",
-    "parent-id": 1141,
-    "RowKey": "20080505-123559"
+    "content": "I have this simple code.  But it returns an error:\n\"TypeError: expected ProcessPriorityClass, got int\"\n\nfrom System.Diagnostics import Process\nprocs = Process.GetProcesses()\nfor p in procs:\n\tif p.ProcessName == 'notepad':\n\t\tprint p.BasePriority\n\t\tp.PriorityClass = 8\n\nI thought one of the main points of ironpython is not have to worry about typing variables.  But this seems to imply unless I do some sort of dim x as ProcessPriorityClass, I can't call set the value of PriorityClass.\n\nI have searched hard for the answer to this, but it seems like maybe IP isn't that widely used yet.  If you have some good links to where to go to get more help with IP that would be nice.\nThanks,\nMatt"
   },
   {
-    "id": 2069,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2008-05-05T13:59:37-07:00",
-    "content": "IronPython is dynamically typed, but the underlying types from the .NET framework are still statically typed. IronPython won't auto convert an integer into an enumerated type, which is why you're getting a type exception. BasePriority is an integer, but it's read only. PriorityClass is read/write, but it takes a ProcessPriorityClass enum value.\n\nYou could write the code this way:\n\nfrom System.Diagnostics import Process, ProcessPriorityClass\nprocs = Process.GetProcesses()\nfor p in procs:\n__if p.ProcessName == 'notepad':\n____print p.BasePriority\n____p.PriorityClass = ProcessPriorityClass.BelowNormal\n\nNote, I need to figure out how to get significant whitespace to work in comments. In the meantime, I'm using underscore as space in the code above. ",
-    "parent-id": 1141,
-    "RowKey": "20080505-135937"
+    "content": "IronPython is dynamically typed, but the underlying types from the .NET framework are still statically typed. IronPython won't auto convert an integer into an enumerated type, which is why you're getting a type exception. BasePriority is an integer, but it's read only. PriorityClass is read/write, but it takes a ProcessPriorityClass enum value.\n\nYou could write the code this way:\n\nfrom System.Diagnostics import Process, ProcessPriorityClass\nprocs = Process.GetProcesses()\nfor p in procs:\n__if p.ProcessName == 'notepad':\n____print p.BasePriority\n____p.PriorityClass = ProcessPriorityClass.BelowNormal\n\nNote, I need to figure out how to get significant whitespace to work in comments. In the meantime, I'm using underscore as space in the code above. "
   },
   {
-    "id": 2070,
     "author-name": "Matt",
     "author-email": "matthew.grab@tycoelectronics.com",
     "author-url": "",
     "date": "2008-05-06T04:17:48-07:00",
-    "content": "Well that worked for me.  It's actually pretty amazing what can be done with a few lines of code.\n\nAs per your original topic, I did import Process from System.Diagnostics.  I figured ProcessPriorityClass was part of Process.\n\nIs there a simple way to know what all is included when you import or try to import a .Net class.\n\nThanks\n",
-    "parent-id": 1141,
-    "RowKey": "20080506-041748"
+    "content": "Well that worked for me.  It's actually pretty amazing what can be done with a few lines of code.\n\nAs per your original topic, I did import Process from System.Diagnostics.  I figured ProcessPriorityClass was part of Process.\n\nIs there a simple way to know what all is included when you import or try to import a .Net class.\n\nThanks\n"
   },
   {
-    "id": 2071,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2008-05-06T11:19:31-07:00",
-    "content": "Yep, use Python's built in dir function. You can also use the built-in help function to retrieve the built-in help and method signature for types and methods.\n\nfrom System import Diagnostics\ndir(Diagnostics.Process)\ndir(Diagnostics.Process.PriorityClass)\nhelp(Diagnostics.Process.GetProcesses)\n\n",
-    "parent-id": 1141,
-    "RowKey": "20080506-111931"
+    "content": "Yep, use Python's built in dir function. You can also use the built-in help function to retrieve the built-in help and method signature for types and methods.\n\nfrom System import Diagnostics\ndir(Diagnostics.Process)\ndir(Diagnostics.Process.PriorityClass)\nhelp(Diagnostics.Process.GetProcesses)\n\n"
   }
 ]

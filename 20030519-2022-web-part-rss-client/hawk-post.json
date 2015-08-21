@@ -1,5 +1,4 @@
 {
-  "id": 98,
   "slug": "web-part-rss-client",
   "title": "Web Part RSS Client",
   "date": "2003-05-19T20:22:51-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030519-2022-web-part-rss-client"
+  "comment-count": 0,
+  "dasblog-entry-id": "2c73c52b-27cb-4cd7-889b-5b61225fb33e",
+  "dasblog-title": "Web+Part+RSS+Client",
+  "dasblog-unique-title": "2003/05/20/Web+Part+RSS+Client"
 }

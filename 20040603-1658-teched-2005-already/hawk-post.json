@@ -1,5 +1,4 @@
 {
-  "id": 373,
   "slug": "teched-2005-already",
   "title": "Tech·Ed 2005 Already?",
   "date": "2004-06-03T16:58:28-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040603-1658-teched-2005-already"
+  "comment-count": 0,
+  "dasblog-entry-id": "0498242f-d0bb-4e5a-acdf-d2afeca20059",
+  "dasblog-title": "TechEd+2005+Already",
+  "dasblog-unique-title": "2004/06/03/TechEd+2005+Already"
 }

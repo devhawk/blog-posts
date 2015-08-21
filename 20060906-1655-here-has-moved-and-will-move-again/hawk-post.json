@@ -1,5 +1,4 @@
 {
-  "id": 789,
   "slug": "here-has-moved-and-will-move-again",
   "title": "Here Has Moved (And Will Move Again)",
   "date": "2006-09-06T16:55:32-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Job|job",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060906-1655-here-has-moved-and-will-move-again"
+  "comment-count": 0,
+  "dasblog-entry-id": "60608639-8cfa-4be0-8870-0677b414e160",
+  "dasblog-title": "Here+Has+Moved+And+Will+Move+Again",
+  "dasblog-unique-title": "2006/09/06/Here+Has+Moved+And+Will+Move+Again"
 }

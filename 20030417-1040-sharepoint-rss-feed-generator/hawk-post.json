@@ -1,5 +1,4 @@
 {
-  "id": 71,
   "slug": "sharepoint-rss-feed-generator",
   "title": "SharePoint RSS Feed Generator",
   "date": "2003-04-17T10:40:44-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030417-1040-sharepoint-rss-feed-generator"
+  "comment-count": 0,
+  "dasblog-entry-id": "150a5409-a036-4db8-b660-c0778e628b3a",
+  "dasblog-title": "SharePoint+RSS+Feed+Generator",
+  "dasblog-unique-title": "2003/04/17/SharePoint+RSS+Feed+Generator"
 }

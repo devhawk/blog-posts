@@ -1,5 +1,4 @@
 {
-  "id": 791,
   "slug": "python-and-dsls",
   "title": "Python and DSLs",
   "date": "2006-09-07T20:12:58-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Lanugages|lanugages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060907-2012-python-and-dsls"
+  "comment-count": 0,
+  "dasblog-entry-id": "7331ef05-9c2a-487e-87ad-78e983f9e39e",
+  "dasblog-title": "Python+And+DSLs",
+  "dasblog-unique-title": "2006/09/08/Python+And+DSLs"
 }

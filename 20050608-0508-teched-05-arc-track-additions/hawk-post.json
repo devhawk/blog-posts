@@ -1,5 +1,4 @@
 {
-  "id": 607,
   "slug": "teched-05-arc-track-additions",
   "title": "TechEd 05 ARC Track Additions",
   "date": "2005-06-08T05:08:02-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050608-0508-teched-05-arc-track-additions"
+  "comment-count": 0,
+  "dasblog-entry-id": "4914ac98-d9dc-45a2-b5ef-73feb355cd1f",
+  "dasblog-title": "TechEd+05+ARC+Track+Additions",
+  "dasblog-unique-title": "2005/06/08/TechEd+05+ARC+Track+Additions"
 }

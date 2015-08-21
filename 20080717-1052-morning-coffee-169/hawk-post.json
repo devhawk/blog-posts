@@ -1,5 +1,4 @@
 {
-  "id": 1155,
   "slug": "morning-coffee-169",
   "title": "Morning Coffee 169",
   "date": "2008-07-17T10:52:42-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "ASP.NET|asp-net,Database|database,DLR|dlr,Live Mesh|live-mesh,Washington Capitals|washington-capitals,Windows Live|windows-live",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080717-1052-morning-coffee-169"
+  "comment-count": 0,
+  "dasblog-entry-id": "e7ec112c-e747-456c-827b-71d26d92df38",
+  "dasblog-title": "Morning+Coffee+169",
+  "dasblog-unique-title": "2008/07/17/Morning+Coffee+169"
 }

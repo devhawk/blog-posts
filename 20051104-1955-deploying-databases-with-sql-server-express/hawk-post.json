@@ -1,5 +1,4 @@
 {
-  "id": 648,
   "slug": "deploying-databases-with-sql-server-express",
   "title": "Deploying Databases with SQL Server Express",
   "date": "2005-11-04T19:55:10-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20051104-1955-deploying-databases-with-sql-server-express"
+  "comment-count": 0,
+  "dasblog-entry-id": "d9ad7a13-d0ff-478d-a6f2-f9df64e7c693",
+  "dasblog-title": "Deploying+Databases+With+SQL+Server+Express",
+  "dasblog-unique-title": "2005/11/05/Deploying+Databases+With+SQL+Server+Express"
 }

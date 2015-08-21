@@ -1,52 +1,37 @@
 [
   {
-    "id": 2597,
     "author-name": "Steve Hiner",
     "author-email": "",
     "author-url": "",
     "date": "2004-05-11T15:57:45-07:00",
-    "content": "I use AvantGo to sync the Hollywood.com channel.  It pulls movie times for all the local theaters.",
-    "parent-id": 361,
-    "RowKey": "20040511-155745"
+    "content": "I use AvantGo to sync the Hollywood.com channel.  It pulls movie times for all the local theaters."
   },
   {
-    "id": 2598,
     "author-name": "julia hammon",
     "author-email": "",
     "author-url": "",
     "date": "2004-06-14T17:23:07-07:00",
-    "content": "was wondering if you figured out a way to do this yet, or what programs could be used on regular pc to just get the data feed instead of all the ads, like avantgo for pc...",
-    "parent-id": 361,
-    "RowKey": "20040614-172307"
+    "content": "was wondering if you figured out a way to do this yet, or what programs could be used on regular pc to just get the data feed instead of all the ads, like avantgo for pc..."
   },
   {
-    "id": 2599,
     "author-name": "Matt Armstrong",
     "author-email": "",
     "author-url": "",
     "date": "2005-01-25T17:30:30-08:00",
-    "content": "Anybody seen anything like this?  Surprised I can't find anything like this, seems like an obvious consumer web service.  \n\nMoviefone/AOL conspiracy?",
-    "parent-id": 361,
-    "RowKey": "20050125-173030"
+    "content": "Anybody seen anything like this?  Surprised I can't find anything like this, seems like an obvious consumer web service.  \n\nMoviefone/AOL conspiracy?"
   },
   {
-    "id": 2600,
     "author-name": "dave miller",
     "author-email": "dmmiller@hotmail.com",
     "author-url": "",
     "date": "2005-02-15T17:40:01-08:00",
-    "content": "i too am surprised that no one has done this.  it really does seem obvious.  as it is, i am resorting to screen scraping for the things i want to do.\nif anyone finds anything, please let me know (dmmillerAThotmailDOTcom)",
-    "parent-id": 361,
-    "RowKey": "20050215-174001"
+    "content": "i too am surprised that no one has done this.  it really does seem obvious.  as it is, i am resorting to screen scraping for the things i want to do.\nif anyone finds anything, please let me know (dmmillerAThotmailDOTcom)"
   },
   {
-    "id": 2601,
     "author-name": "Andy Rodriguez",
     "author-email": "andyr1@comcast.net",
     "author-url": "",
     "date": "2005-11-16T08:42:46-08:00",
-    "content": "There is a web service at:\n\nhttp://www.xmethods.net/ve2/ViewListing.po?key=uuid:CB063561-6F59-F51F-4A46-B0DDB8FDD6D1\n\n",
-    "parent-id": 361,
-    "RowKey": "20051116-084246"
+    "content": "There is a web service at:\n\nhttp://www.xmethods.net/ve2/ViewListing.po?key=uuid:CB063561-6F59-F51F-4A46-B0DDB8FDD6D1\n\n"
   }
 ]

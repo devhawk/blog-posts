@@ -1,5 +1,4 @@
 {
-  "id": 1156,
   "slug": "five-minutes-past-noon-coffee-170",
   "title": "Five Minutes Past Noon Coffee 170",
   "date": "2008-07-21T12:05:43-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "ASP.NET|asp-net,DLR|dlr,F#|f-sharp,IronRuby|ironruby,Python|python,Visual Studio|visual-studio",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080721-1205-five-minutes-past-noon-coffee-170"
+  "comment-count": 0,
+  "dasblog-entry-id": "a18942b5-00eb-411c-854e-70175a80daa5",
+  "dasblog-title": "Five+Minutes+Past+Noon+Coffee+170",
+  "dasblog-unique-title": "2008/07/21/Five+Minutes+Past+Noon+Coffee+170"
 }

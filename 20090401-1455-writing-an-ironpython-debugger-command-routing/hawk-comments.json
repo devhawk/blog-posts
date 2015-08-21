@@ -1,42 +1,30 @@
 [
   {
-    "id": 2188,
     "author-name": "Raven",
     "author-email": "",
     "author-url": "",
     "date": "2009-04-02T06:00:46-07:00",
-    "content": "What would be the tradeoffs if that _switch were built with lambdas instead of named functions, like this:\n\n_switch = {\n  'a': lambda: 'A'\n  'b': lambda: 'B'\n  'c': lambda: 'C'\n}\n\n# I can't get the indents right...whitespace got snipped",
-    "parent-id": 1241,
-    "RowKey": "20090402-060046"
+    "content": "What would be the tradeoffs if that _switch were built with lambdas instead of named functions, like this:\n\n_switch = {\n  'a': lambda: 'A'\n  'b': lambda: 'B'\n  'c': lambda: 'C'\n}\n\n# I can't get the indents right...whitespace got snipped"
   },
   {
-    "id": 2189,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2009-04-02T15:15:19-07:00",
-    "content": "Lambdas would work just fine, but they are limited to be expressions only. If you can do everything you need in a single expression, using a lambda would be fine. ",
-    "parent-id": 1241,
-    "RowKey": "20090402-151519"
+    "content": "Lambdas would work just fine, but they are limited to be expressions only. If you can do everything you need in a single expression, using a lambda would be fine. "
   },
   {
-    "id": 2190,
     "author-name": "Raven",
     "author-email": "",
     "author-url": "",
     "date": "2009-04-04T06:53:45-07:00",
-    "content": "Oops, I forgot about the expression limitation...was having too much fun with Y combinators in Python :p\n\nThanks for the answer",
-    "parent-id": 1241,
-    "RowKey": "20090404-065345"
+    "content": "Oops, I forgot about the expression limitation...was having too much fun with Y combinators in Python :p\n\nThanks for the answer"
   },
   {
-    "id": 2191,
     "author-name": "Steve Shaw",
     "author-email": "toolmakersteve98@shawstudio.com",
     "author-url": "http://toolmakersteve.com",
     "date": "2009-04-12T00:13:41-07:00",
-    "content": "Seeing this use of decorators in IPy was most interesting.\n\nBut reading this blog, I found myself thinking \"I'll stick to F#\". I realize it isn't aimed at the same language design space, but so far I'm willing to do more up-front work to prepare the functionality I want, in exchange for language depth.\n\nI can see that if I took the time to learn IPy, it would be handy for interactive scripting.\n\nJust sharing...",
-    "parent-id": 1241,
-    "RowKey": "20090412-001341"
+    "content": "Seeing this use of decorators in IPy was most interesting.\n\nBut reading this blog, I found myself thinking \"I'll stick to F#\". I realize it isn't aimed at the same language design space, but so far I'm willing to do more up-front work to prepare the functionality I want, in exchange for language depth.\n\nI can see that if I took the time to learn IPy, it would be handy for interactive scripting.\n\nJust sharing..."
   }
 ]

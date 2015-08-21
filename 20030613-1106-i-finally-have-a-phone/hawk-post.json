@@ -1,5 +1,4 @@
 {
-  "id": 124,
   "slug": "i-finally-have-a-phone",
   "title": "I Finally Have a Phone",
   "date": "2003-06-13T11:06:50-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030613-1106-i-finally-have-a-phone"
+  "comment-count": 0,
+  "dasblog-entry-id": "030c3f9f-6205-4492-8738-fcf820ecc5a6",
+  "dasblog-title": "I+Finally+Have+A+Phone",
+  "dasblog-unique-title": "2003/06/13/I+Finally+Have+A+Phone"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1123,
   "slug": "ironpython-2-0-beta-1-released",
   "title": "IronPython 2.0 Beta 1 Released",
   "date": "2008-03-14T07:42:14-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "DLR|dlr,Dynamic Languages|dynamic-languages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080314-0742-ironpython-2-0-beta-1-released"
+  "comment-count": 0,
+  "dasblog-entry-id": "43f6ec74-2b5b-4aa8-8ed9-1370a9bf2ec5",
+  "dasblog-title": "IronPython+20+Beta+1+Released",
+  "dasblog-unique-title": "2008/03/14/IronPython+20+Beta+1+Released"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1141,
   "slug": "importing-static-methods-with-ipy",
   "title": "Importing Static Methods with IPy",
   "date": "2008-04-28T15:09:45-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Python|python",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 7,
-  "PartKey": "20080428-1509-importing-static-methods-with-ipy"
+  "comment-count": 7,
+  "dasblog-entry-id": "5b8ab5a9-be5c-4fbb-9c7d-dacdf801247b",
+  "dasblog-title": "Importing+Static+Methods+With+IPy",
+  "dasblog-unique-title": "2008/04/28/Importing+Static+Methods+With+IPy"
 }

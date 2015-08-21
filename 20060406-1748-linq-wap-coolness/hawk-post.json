@@ -1,5 +1,4 @@
 {
-  "id": 733,
   "slug": "linq-wap-coolness",
   "title": "LINQ + WAP == Coolness",
   "date": "2006-04-06T17:48:43-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "LINQ|linq",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20060406-1748-linq-wap-coolness"
+  "comment-count": 1,
+  "dasblog-entry-id": "495490e7-335d-4eed-8f03-6b4512fe9601",
+  "dasblog-title": "LINQ+WAP+Coolness",
+  "dasblog-unique-title": "2006/04/07/LINQ+WAP+Coolness"
 }

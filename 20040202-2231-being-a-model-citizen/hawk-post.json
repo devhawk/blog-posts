@@ -1,5 +1,4 @@
 {
-  "id": 298,
   "slug": "being-a-model-citizen",
   "title": "Being a Model Citizen",
   "date": "2004-02-02T22:31:22-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040202-2231-being-a-model-citizen"
+  "comment-count": 1,
+  "dasblog-entry-id": "fc26ca10-091f-4cb9-8e9d-10c71cb76f8f",
+  "dasblog-title": "Being+A+Model+Citizen",
+  "dasblog-unique-title": "2004/02/03/Being+A+Model+Citizen"
 }

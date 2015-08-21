@@ -1,5 +1,4 @@
 {
-  "id": 873,
   "slug": "how-i-learned-to-stop-worrying-and-love-wcf",
   "title": "How I Learned to Stop Worrying and Love WCF",
   "date": "2007-02-06T11:16:06-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "infrastructure|infrastructure,Service Broker|service-broker,WCF|wcf,Web Services|web-services",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070206-1116-how-i-learned-to-stop-worrying-and-love-wcf"
+  "comment-count": 1,
+  "dasblog-entry-id": "0ad9411e-7bb4-4b0e-887e-5d3b16739479",
+  "dasblog-title": "How+I+Learned+To+Stop+Worrying+And+Love+WCF",
+  "dasblog-unique-title": "2007/02/06/How+I+Learned+To+Stop+Worrying+And+Love+WCF"
 }

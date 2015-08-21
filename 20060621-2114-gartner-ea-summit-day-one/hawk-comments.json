@@ -1,22 +1,16 @@
 [
   {
-    "id": 2376,
     "author-name": "Adam Stanley",
     "author-email": "astanley@echoes.com",
     "author-url": "http://www.echoes.com/",
     "date": "2006-06-22T07:02:23-07:00",
-    "content": "Good review of day one.  I need to finish posting my comments.  One of the true revalations of being an enterprise architect is in the books that Microsoft was giving away.  One on enterprise patterns, one of powerpoint.  I do a lot of powerpoint! :)",
-    "parent-id": 761,
-    "RowKey": "20060622-070223"
+    "content": "Good review of day one.  I need to finish posting my comments.  One of the true revalations of being an enterprise architect is in the books that Microsoft was giving away.  One on enterprise patterns, one of powerpoint.  I do a lot of powerpoint! :)"
   },
   {
-    "id": 2377,
     "author-name": "dudey",
     "author-email": "dudey@hotmail.com",
     "author-url": "",
     "date": "2006-07-02T07:04:25-07:00",
-    "content": "The Gartner report is one of the worst reports floating around.",
-    "parent-id": 761,
-    "RowKey": "20060702-070425"
+    "content": "The Gartner report is one of the worst reports floating around."
   }
 ]

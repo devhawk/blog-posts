@@ -1,5 +1,4 @@
 {
-  "id": 850,
   "slug": "playing-in-the-snow",
   "title": "Playing in the Snow",
   "date": "2007-01-11T16:07:46-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "Family|family",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070111-1607-playing-in-the-snow"
+  "comment-count": 0,
+  "dasblog-entry-id": "0ec6a89a-5e6a-44d9-86f5-a8f533b2fc18",
+  "dasblog-title": "Playing+In+The+Snow",
+  "dasblog-unique-title": "2007/01/12/Playing+In+The+Snow"
 }

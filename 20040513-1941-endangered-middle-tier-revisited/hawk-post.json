@@ -1,5 +1,4 @@
 {
-  "id": 364,
   "slug": "endangered-middle-tier-revisited",
   "title": "Endangered Middle-Tier, Revisited",
   "date": "2004-05-13T19:41:50-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040513-1941-endangered-middle-tier-revisited"
+  "comment-count": 2,
+  "dasblog-entry-id": "a44821ab-94c5-4970-b1c4-6c3c3c5c832a",
+  "dasblog-title": "Endangered+MiddleTier+Revisited",
+  "dasblog-unique-title": "2004/05/14/Endangered+MiddleTier+Revisited"
 }

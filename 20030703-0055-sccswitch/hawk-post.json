@@ -1,5 +1,4 @@
 {
-  "id": 142,
   "slug": "sccswitch",
   "title": "SccSwitch",
   "date": "2003-07-03T00:55:39-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030703-0055-sccswitch"
+  "comment-count": 0,
+  "dasblog-entry-id": "81b2c558-86c9-4fd1-9995-7deca01a687b",
+  "dasblog-title": "SccSwitch",
+  "dasblog-unique-title": "2003/07/03/SccSwitch"
 }

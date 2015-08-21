@@ -1,32 +1,23 @@
 [
   {
-    "id": 2550,
     "author-name": "John Heintz",
     "author-email": "john.heintz@newaspects.com",
     "author-url": "http://johnheintz.blogspot.com/2007/07/integration-forethought-o",
     "date": "2007-07-25T20:40:02-07:00",
-    "content": "Interesting reference to \"SOA in the Real World\".\n\nI haven't read it yet, but I think the summary is telling: forethought over afterthought to achieve integration.\n\nMy reaction is to choose a REST/Web architecture and design for serendipity...",
-    "parent-id": 1011,
-    "RowKey": "20070725-204002"
+    "content": "Interesting reference to \"SOA in the Real World\".\n\nI haven't read it yet, but I think the summary is telling: forethought over afterthought to achieve integration.\n\nMy reaction is to choose a REST/Web architecture and design for serendipity..."
   },
   {
-    "id": 2551,
     "author-name": "J Perseo",
     "author-email": "jperseo@hotmail.com",
     "author-url": "http://N/A",
     "date": "2007-07-26T08:30:44-07:00",
-    "content": "Re: New XML draft\n\nHere we go again ...\n\nA long time ago in a galaxy far far away during the tech boom ...\nI worked at a little company called XML Solutions that was made up of 1/2 of the XML 1.0 board.\n\nGranted, I was a sys admin and hardly dealt with the language unless it was getting the Tomcat ISAPI to work with it, but I digress ...\n\nThe problem that I forsee with this course of action is thus :\n\n- By restricting / reclassifying the XML, It has the effect of proprietizing XML. And of course, XML was created because companies couldn't agree on standards in the first place.\n\n- By adding the Binary Elements to XML, the only good I could see coming from this is *possibly* additional layers / levels of security of data within the XML Structure.\n\nOne of the earliest issues / problems that my former company had was that potential clients / customers would demand that their version be unique to them. For Example: AmEx demanded certain portions of the XML structure be included while others were dis-cluded (?) resulting in a slightly proprietary new AMEXML .\n\nSeveral others complained about the inherant openness of XML and how to secure the information in transit. This lead to a high utilization of EDI as more or less a transport layer or encryption of XML. This brought on a small boom for products such as XEDI (Pronounced Zee-Tea) to perform the EDI <-> XML translations.\n\nWhoopie. Back to the present.\n\nSo now they want to re-invent the wheel so that binary code can be brought through a structured text file all over again. I think that people have \"been there / done that\". It's called UUENCODE. Get used to it.\n\nThe problem itself seems to lie in that no-one has noticed that a similar company generic structure and way of allowing standard information passing and notification has been around for years in a slightly modified form. Is anyone familiar with a SNMP Walker ? Has anyone addressed the issues with transporting information / transforming data within the confines of SNMP yet ?\n\nI don't think so, but then again, a Pessimist is never disappointed ;-)\n",
-    "parent-id": 1011,
-    "RowKey": "20070726-083044"
+    "content": "Re: New XML draft\n\nHere we go again ...\n\nA long time ago in a galaxy far far away during the tech boom ...\nI worked at a little company called XML Solutions that was made up of 1/2 of the XML 1.0 board.\n\nGranted, I was a sys admin and hardly dealt with the language unless it was getting the Tomcat ISAPI to work with it, but I digress ...\n\nThe problem that I forsee with this course of action is thus :\n\n- By restricting / reclassifying the XML, It has the effect of proprietizing XML. And of course, XML was created because companies couldn't agree on standards in the first place.\n\n- By adding the Binary Elements to XML, the only good I could see coming from this is *possibly* additional layers / levels of security of data within the XML Structure.\n\nOne of the earliest issues / problems that my former company had was that potential clients / customers would demand that their version be unique to them. For Example: AmEx demanded certain portions of the XML structure be included while others were dis-cluded (?) resulting in a slightly proprietary new AMEXML .\n\nSeveral others complained about the inherant openness of XML and how to secure the information in transit. This lead to a high utilization of EDI as more or less a transport layer or encryption of XML. This brought on a small boom for products such as XEDI (Pronounced Zee-Tea) to perform the EDI <-> XML translations.\n\nWhoopie. Back to the present.\n\nSo now they want to re-invent the wheel so that binary code can be brought through a structured text file all over again. I think that people have \"been there / done that\". It's called UUENCODE. Get used to it.\n\nThe problem itself seems to lie in that no-one has noticed that a similar company generic structure and way of allowing standard information passing and notification has been around for years in a slightly modified form. Is anyone familiar with a SNMP Walker ? Has anyone addressed the issues with transporting information / transforming data within the confines of SNMP yet ?\n\nI don't think so, but then again, a Pessimist is never disappointed ;-)\n"
   },
   {
-    "id": 2552,
     "author-name": "Udi Dahan - The Software Simplis",
     "author-email": "blog@UdiDahan.com",
     "author-url": "http://udidahan.weblogs.us",
     "date": "2007-07-28T14:17:07-07:00",
-    "content": "\"but actually being good at what you're well known for comes in at #5 on the list. I'm sure Udi thinks that's implicit in becoming a \"top\" consultant, but I'm not so sure.\"\n\nI think that one of the key differences between those who are perceived as top IT consultants and others who are knowledgable, valuable consultants is the exposure. This is often \"the hard part\" for those wanting to move up and make \"the big bucks\" :)\n\nI think that being good is practically a prerequisite for anyone actually making a living from consulting.",
-    "parent-id": 1011,
-    "RowKey": "20070728-141707"
+    "content": "\"but actually being good at what you're well known for comes in at #5 on the list. I'm sure Udi thinks that's implicit in becoming a \"top\" consultant, but I'm not so sure.\"\n\nI think that one of the key differences between those who are perceived as top IT consultants and others who are knowledgable, valuable consultants is the exposure. This is often \"the hard part\" for those wanting to move up and make \"the big bucks\" :)\n\nI think that being good is practically a prerequisite for anyone actually making a living from consulting."
   }
 ]

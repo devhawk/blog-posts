@@ -1,5 +1,4 @@
 {
-  "id": 1262,
   "slug": "ironpython-2-6-beta-1",
   "title": "IronPython 2.6 Beta 1",
   "date": "2009-05-20T17:30:57-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090520-1730-ironpython-2-6-beta-1"
+  "comment-count": 0,
+  "dasblog-entry-id": "6af3ecd9-fef5-4181-9f8f-762b3ecdd575",
+  "dasblog-title": "IronPython+26+Beta+1",
+  "dasblog-unique-title": "2009/05/21/IronPython+26+Beta+1"
 }

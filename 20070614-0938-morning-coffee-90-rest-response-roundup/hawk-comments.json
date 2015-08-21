@@ -1,22 +1,16 @@
 [
   {
-    "id": 2528,
     "author-name": "Arnon Rotem-Gal-Oz",
     "author-email": "arnon@rgoarchitects.com",
     "author-url": "http://www.rgoarchitects.com",
     "date": "2007-06-14T11:23:01-07:00",
-    "content": "Hi Harry,\n> but he doesn't really go into detail as to why.\nI thought I did explain it - anyway I'll try that again\nREST is said to be an architectural style - i.e. it has components, relations, attributes and constrains on how to use all of them - e.g. uniform interface etc.\n\nIf it is an architectural style then you should be able to apply it in different technologies - I know I can do that with other architectural styles I know like SOA, Client/server, pipe and filters etc.\nFor me it is interesting on the theoretical level as a way to look at architectural problems and principles but also  on the practical level since you can't always use HTTP in a project or you may have to mix several communications protocols etc.\n\nArnon ",
-    "parent-id": 987,
-    "RowKey": "20070614-112301"
+    "content": "Hi Harry,\n> but he doesn't really go into detail as to why.\nI thought I did explain it - anyway I'll try that again\nREST is said to be an architectural style - i.e. it has components, relations, attributes and constrains on how to use all of them - e.g. uniform interface etc.\n\nIf it is an architectural style then you should be able to apply it in different technologies - I know I can do that with other architectural styles I know like SOA, Client/server, pipe and filters etc.\nFor me it is interesting on the theoretical level as a way to look at architectural problems and principles but also  on the practical level since you can't always use HTTP in a project or you may have to mix several communications protocols etc.\n\nArnon "
   },
   {
-    "id": 2529,
     "author-name": "Alex",
     "author-email": "Alex@aol.com",
     "author-url": "",
     "date": "2007-06-15T03:13:59-07:00",
-    "content": "Gourmet coffee at coffeebreakusa(dot)com\n",
-    "parent-id": 987,
-    "RowKey": "20070615-031359"
+    "content": "Gourmet coffee at coffeebreakusa(dot)com\n"
   }
 ]

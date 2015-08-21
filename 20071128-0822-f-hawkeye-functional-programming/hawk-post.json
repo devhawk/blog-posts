@@ -1,5 +1,4 @@
 {
-  "id": 1058,
   "slug": "f-hawkeye-functional-programming",
   "title": "F# Hawkeye : Functional Programming",
   "date": "2007-11-28T08:22:03-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "F#|f-sharp",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071128-0822-f-hawkeye-functional-programming"
+  "comment-count": 0,
+  "dasblog-entry-id": "0c9e8b59-5091-4dd4-9555-8598806a8e7f",
+  "dasblog-title": "F+Hawkeye+Functional+Programming",
+  "dasblog-unique-title": "2007/11/28/F+Hawkeye+Functional+Programming"
 }

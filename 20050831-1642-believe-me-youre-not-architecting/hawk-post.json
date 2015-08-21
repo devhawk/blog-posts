@@ -1,5 +1,4 @@
 {
-  "id": 621,
   "slug": "believe-me-youre-not-architecting",
   "title": "Believe Me, You&#8217;re Not Architecting",
   "date": "2005-08-31T16:42:33-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20050831-1642-believe-me-youre-not-architecting"
+  "comment-count": 4,
+  "dasblog-entry-id": "eb7c53ca-d48a-4de4-979a-468776cd51a7",
+  "dasblog-title": "Believe+Me+Youre+Not+Architecting",
+  "dasblog-unique-title": "2005/08/31/Believe+Me+Youre+Not+Architecting"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 120,
   "slug": "frys-is-coming",
   "title": "Fry&#8217;s Is Coming",
   "date": "2003-06-11T08:47:00-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "General Geekery|general-geekery",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030611-0847-frys-is-coming"
+  "comment-count": 0,
+  "dasblog-entry-id": "a9eb9c13-00b3-47ab-b52c-318c83325a51",
+  "dasblog-title": "Frys+Is+Coming",
+  "dasblog-unique-title": "2003/06/11/Frys+Is+Coming"
 }

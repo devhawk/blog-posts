@@ -1,5 +1,4 @@
 {
-  "id": 365,
   "slug": "road-rally-reminder",
   "title": "Road Rally Reminder",
   "date": "2004-05-14T10:17:02-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040514-1017-road-rally-reminder"
+  "comment-count": 0,
+  "dasblog-entry-id": "e4264272-16fe-4daa-86eb-9153320517d7",
+  "dasblog-title": "Road+Rally+Reminder",
+  "dasblog-unique-title": "2004/05/14/Road+Rally+Reminder"
 }

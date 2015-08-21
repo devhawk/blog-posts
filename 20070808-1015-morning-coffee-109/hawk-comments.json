@@ -1,12 +1,9 @@
 [
   {
-    "id": 2564,
     "author-name": "ScottGu",
     "author-email": "scottgu@microsoft.com",
     "author-url": "http://weblogs.asp.net/scottgu",
     "date": "2007-08-08T11:34:37-07:00",
-    "content": "Don't worry - my LINQ to SQL series isn't over.  Another one will be coming soon.... ;-)",
-    "parent-id": 1024,
-    "RowKey": "20070808-113437"
+    "content": "Don't worry - my LINQ to SQL series isn't over.  Another one will be coming soon.... ;-)"
   }
 ]

@@ -1,32 +1,23 @@
 [
   {
-    "id": 2124,
     "author-name": "Dave",
     "author-email": "almostdave@gmail.com",
     "author-url": "",
     "date": "2008-10-23T00:16:22-07:00",
-    "content": "Hi,\n\nThis is perhaps not the best place to report this, but I couldn't find the associated ticket in the CodePlex issue tracker.  I've just updated to RC1.  My project is a fairly basic WPF project and references System.Core; it previously got the warning about the duplicate definition.  Now when I build I get the following error:\n\nTarget MarkupCompilePass1:\n    C:WindowsMicrosoft.NETFrameworkv3.5Microsoft.WinFX.targets(294,9): error MC1000: Unknown build error, 'Cannot resolve dependency to assembly 'Microsoft.Scripting.ExtensionAttribute, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' because it has not been preloaded. When using the ReflectionOnly APIs, dependent assemblies must be pre-loaded or loaded on demand through the ReflectionOnlyAssemblyResolve event.' \n\n\nInitially I just used RC1 from the zip file, but I also tried installing from the .msi on the chance the it would install the assemblies into the GAC but it didn't do that.  Have I missed something in my project configuration?\n\nThanks,\nDave",
-    "parent-id": 1178,
-    "RowKey": "20081023-001622"
+    "content": "Hi,\n\nThis is perhaps not the best place to report this, but I couldn't find the associated ticket in the CodePlex issue tracker.  I've just updated to RC1.  My project is a fairly basic WPF project and references System.Core; it previously got the warning about the duplicate definition.  Now when I build I get the following error:\n\nTarget MarkupCompilePass1:\n    C:WindowsMicrosoft.NETFrameworkv3.5Microsoft.WinFX.targets(294,9): error MC1000: Unknown build error, 'Cannot resolve dependency to assembly 'Microsoft.Scripting.ExtensionAttribute, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' because it has not been preloaded. When using the ReflectionOnly APIs, dependent assemblies must be pre-loaded or loaded on demand through the ReflectionOnlyAssemblyResolve event.' \n\n\nInitially I just used RC1 from the zip file, but I also tried installing from the .msi on the chance the it would install the assemblies into the GAC but it didn't do that.  Have I missed something in my project configuration?\n\nThanks,\nDave"
   },
   {
-    "id": 2125,
     "author-name": "Chris Cavanagh",
     "author-email": "cjcavanagh@benefittech.com",
     "author-url": "http://chriscavanagh.wordpress.com",
     "date": "2008-11-12T12:44:33-08:00",
-    "content": "Harry - Will Microsoft.Scripting.Core and System.Core eventually be merged? I'm hitting some problems using Microsoft.Scripting.Core in a Silverlight 2 project (it wants a System.Core reference too).",
-    "parent-id": 1178,
-    "RowKey": "20081112-124433"
+    "content": "Harry - Will Microsoft.Scripting.Core and System.Core eventually be merged? I'm hitting some problems using Microsoft.Scripting.Core in a Silverlight 2 project (it wants a System.Core reference too)."
   },
   {
-    "id": 2126,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2008-11-18T16:17:42-08:00",
-    "content": "@Dave, Did you create a new issue on CodePlex?\n\n@Chris, Microsoft.Scripting.Core is essentially the .NET 4.0 version of System.Core. The merge has already been done",
-    "parent-id": 1178,
-    "RowKey": "20081118-161742"
+    "content": "@Dave, Did you create a new issue on CodePlex?\n\n@Chris, Microsoft.Scripting.Core is essentially the .NET 4.0 version of System.Core. The merge has already been done"
   }
 ]

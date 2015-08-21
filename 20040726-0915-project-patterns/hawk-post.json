@@ -1,5 +1,4 @@
 {
-  "id": 405,
   "slug": "project-patterns",
   "title": "Project Patterns",
   "date": "2004-07-26T09:15:37-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Patterns|patterns,Process|process",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040726-0915-project-patterns"
+  "comment-count": 0,
+  "dasblog-entry-id": "d69fd1f0-6bf2-419e-9e20-e53295fd3a4e",
+  "dasblog-title": "Project+Patterns",
+  "dasblog-unique-title": "2004/07/26/Project+Patterns"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 804,
   "slug": "thoughts-on-the-soa-workshop",
   "title": "Thoughts on the SOA Workshop",
   "date": "2006-09-27T16:11:00-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20060927-1611-thoughts-on-the-soa-workshop"
+  "comment-count": 3,
+  "dasblog-entry-id": "1ed04a69-9af6-4d7b-921a-c815b739fd66",
+  "dasblog-title": "Thoughts+On+The+SOA+Workshop",
+  "dasblog-unique-title": "2006/09/27/Thoughts+On+The+SOA+Workshop"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 6,
   "slug": "news-aggregation",
   "title": "News Aggregation",
   "date": "2003-01-21T06:26:13-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030121-0626-news-aggregation"
+  "comment-count": 0,
+  "dasblog-entry-id": "ad286cf2-c40f-45bd-b765-95ee61e7419e",
+  "dasblog-title": "News+Aggregation",
+  "dasblog-unique-title": "2003/01/21/News+Aggregation"
 }

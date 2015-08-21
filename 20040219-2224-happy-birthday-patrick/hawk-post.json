@@ -1,5 +1,4 @@
 {
-  "id": 317,
   "slug": "happy-birthday-patrick",
   "title": "Happy Birthday Patrick",
   "date": "2004-02-19T22:24:08-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "Family|family",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040219-2224-happy-birthday-patrick"
+  "comment-count": 1,
+  "dasblog-entry-id": "1fbeb822-310e-4efe-b084-0177b24796ae",
+  "dasblog-title": "Happy+Birthday+Patrick",
+  "dasblog-unique-title": "2004/02/20/Happy+Birthday+Patrick"
 }

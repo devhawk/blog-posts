@@ -1,5 +1,4 @@
 {
-  "id": 193,
   "slug": "what-are-you-listening-to",
   "title": "What Are You Listening To?",
   "date": "2003-09-13T22:41:32-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030913-2241-what-are-you-listening-to"
+  "comment-count": 0,
+  "dasblog-entry-id": "ebf1db2d-b3de-40f2-970b-770057cd2bdb",
+  "dasblog-title": "What+Are+You+Listening+To",
+  "dasblog-unique-title": "2003/09/14/What+Are+You+Listening+To"
 }

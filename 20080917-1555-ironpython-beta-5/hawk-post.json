@@ -1,5 +1,4 @@
 {
-  "id": 1176,
   "slug": "ironpython-beta-5",
   "title": "IronPython Beta 5",
   "date": "2008-09-17T15:55:02-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080917-1555-ironpython-beta-5"
+  "comment-count": 0,
+  "dasblog-entry-id": "db451118-d62b-43f7-9847-7b8f3bd50a53",
+  "dasblog-title": "IronPython+Beta+5",
+  "dasblog-unique-title": "2008/09/17/IronPython+Beta+5"
 }

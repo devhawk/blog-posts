@@ -1,12 +1,9 @@
 [
   {
-    "id": 2472,
     "author-name": "Jack van Hoof",
     "author-email": "jack.vanhoof.soa.eda@gmail.com",
     "author-url": "http://soa-eda.blogspot.com",
     "date": "2007-03-24T15:24:19-07:00",
-    "content": "Hi Harry,\n\nGreat article! I think service in SOA (as SOA is currently understood) is a software component, but a component with a strong business function constraint. In my view SOA is an instance of a component based architecture as I concluded here: http://soa-eda.blogspot.com/2007/01/what-is-service-in-soa.html\n\nThis idea makes an SOA a composition of hierarchically encapsulated layers of callable business services that map to one or more processes.\n\nI notice a misconception spreading around at a large sale between SOA-bloggers and article-writers, even by the great gurus. They are mixing up services which are functional components, and \"Web Services\" which is an interface implementation technology. To me it makes more sense to discuss at which levels of granularity the use of web services technology is appropriate. And that depends on system implementation characteristics such as degree of distribution and heterogeneity and desired openness.",
-    "parent-id": 918,
-    "RowKey": "20070324-152419"
+    "content": "Hi Harry,\n\nGreat article! I think service in SOA (as SOA is currently understood) is a software component, but a component with a strong business function constraint. In my view SOA is an instance of a component based architecture as I concluded here: http://soa-eda.blogspot.com/2007/01/what-is-service-in-soa.html\n\nThis idea makes an SOA a composition of hierarchically encapsulated layers of callable business services that map to one or more processes.\n\nI notice a misconception spreading around at a large sale between SOA-bloggers and article-writers, even by the great gurus. They are mixing up services which are functional components, and \"Web Services\" which is an interface implementation technology. To me it makes more sense to discuss at which levels of granularity the use of web services technology is appropriate. And that depends on system implementation characteristics such as degree of distribution and heterogeneity and desired openness."
   }
 ]

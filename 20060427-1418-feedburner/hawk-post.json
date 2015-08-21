@@ -1,5 +1,4 @@
 {
-  "id": 742,
   "slug": "feedburner",
   "title": "FeedBurner",
   "date": "2006-04-27T14:18:29-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging,dasBlog|dasblog",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20060427-1418-feedburner"
+  "comment-count": 3,
+  "dasblog-entry-id": "04960b18-350d-42c8-939a-e36c908b8cc4",
+  "dasblog-title": "FeedBurner",
+  "dasblog-unique-title": "2006/04/27/FeedBurner"
 }

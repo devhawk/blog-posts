@@ -1,5 +1,4 @@
 {
-  "id": 723,
   "slug": "compiler-dev-lab-scripting",
   "title": "Compiler Dev Lab &#8211; Scripting",
   "date": "2006-03-15T11:25:22-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Lanugages|lanugages,Scripting|scripting",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20060315-1125-compiler-dev-lab-scripting"
+  "comment-count": 1,
+  "dasblog-entry-id": "866fb4d2-37de-4f84-b8ba-66b9f1c9b27b",
+  "dasblog-title": "Compiler+Dev+Lab+Scripting",
+  "dasblog-unique-title": "2006/03/15/Compiler+Dev+Lab+Scripting"
 }

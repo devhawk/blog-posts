@@ -1,62 +1,44 @@
 [
   {
-    "id": 2963,
     "author-name": "Michael Earls",
     "author-email": "mearls@hotmail.com",
     "author-url": "http://www.cerkit.com",
     "date": "2004-01-19T12:45:44-08:00",
-    "content": "This is the whole reason why I switched back to RSSBandit.  Not only did you have to manually move the folders to their categories, but if you removed column headings, you had to do that 200+ times also.  Outlook just doesn't provide enough generic extensibility (or if it does, NewGator has not ytet taken advantage of it) to provide the depth of features that I've come to take for granted with RSSBandit (coloring of entries, inline comments, etc.)",
-    "parent-id": 285,
-    "RowKey": "20040119-124544"
+    "content": "This is the whole reason why I switched back to RSSBandit.  Not only did you have to manually move the folders to their categories, but if you removed column headings, you had to do that 200+ times also.  Outlook just doesn't provide enough generic extensibility (or if it does, NewGator has not ytet taken advantage of it) to provide the depth of features that I've come to take for granted with RSSBandit (coloring of entries, inline comments, etc.)"
   },
   {
-    "id": 2964,
     "author-name": "Ron Green",
     "author-email": "rgreen3@kc.rr.com",
     "author-url": "http://slightlybent.com",
     "date": "2004-01-19T13:58:23-08:00",
-    "content": "You don't need to move the folders around to get categories. Leave the folders where they are and use Search Folders to create your Categories. Then it's as simple as checking a box next to each feed in a list to add that feed to the category.",
-    "parent-id": 285,
-    "RowKey": "20040119-135823"
+    "content": "You don't need to move the folders around to get categories. Leave the folders where they are and use Search Folders to create your Categories. Then it's as simple as checking a box next to each feed in a list to add that feed to the category."
   },
   {
-    "id": 2965,
     "author-name": "Ron Green",
     "author-email": "rgreen3@kc.rr.com",
     "author-url": "http://slightlybent.com",
     "date": "2004-01-19T14:17:19-08:00",
-    "content": "That is, if you are using Outlook 2003. If not,well then, nevermind.",
-    "parent-id": 285,
-    "RowKey": "20040119-141719"
+    "content": "That is, if you are using Outlook 2003. If not,well then, nevermind."
   },
   {
-    "id": 2966,
     "author-name": "Louis Parks",
     "author-email": "",
     "author-url": "http://www.lparky.com/blog/",
     "date": "2004-02-01T10:29:04-08:00",
-    "content": "Ryan,\n\nIt seems to me that a far easier thing would be for NewsGator to create the hierarchy according to the OPML.  Why should the user have to do anything after installing it?",
-    "parent-id": 285,
-    "RowKey": "20040201-102904"
+    "content": "Ryan,\n\nIt seems to me that a far easier thing would be for NewsGator to create the hierarchy according to the OPML.  Why should the user have to do anything after installing it?"
   },
   {
-    "id": 2967,
     "author-name": "outlook express errors",
     "author-email": "outlook_express@ukr.net",
     "author-url": "http://www.oemailrecovery.com",
     "date": "2005-05-19T23:37:07-07:00",
-    "content": "I have been using Outlook Express errors repair tool  for the past few months and LOVE it.\nI've even recommended it to all my friends. Outlook Express more stable and secure than other programs.",
-    "parent-id": 285,
-    "RowKey": "20050519-233707"
+    "content": "I have been using Outlook Express errors repair tool  for the past few months and LOVE it.\nI've even recommended it to all my friends. Outlook Express more stable and secure than other programs."
   },
   {
-    "id": 2968,
     "author-name": "Outlook Express fix",
     "author-email": "outlook_express@ukr.net",
     "author-url": "http://mail-repair.com",
     "date": "2005-05-19T23:40:25-07:00",
-    "content": "I must admit to being more impressed with Tool for Outlook Express fix. I've even recommended it to all my friends. ",
-    "parent-id": 285,
-    "RowKey": "20050519-234025"
+    "content": "I must admit to being more impressed with Tool for Outlook Express fix. I've even recommended it to all my friends. "
   }
 ]

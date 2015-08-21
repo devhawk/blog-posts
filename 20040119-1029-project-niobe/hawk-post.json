@@ -1,5 +1,4 @@
 {
-  "id": 284,
   "slug": "project-niobe",
   "title": "Project Niobe",
   "date": "2004-01-19T10:29:38-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040119-1029-project-niobe"
+  "comment-count": 0,
+  "dasblog-entry-id": "ef315d5b-f0b5-4e94-b066-243c4c3f695c",
+  "dasblog-title": "Project+Niobe",
+  "dasblog-unique-title": "2004/01/19/Project+Niobe"
 }

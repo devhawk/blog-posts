@@ -1,5 +1,4 @@
 {
-  "id": 1054,
   "slug": "morning-coffee-125",
   "title": "Morning Coffee 125",
   "date": "2007-11-20T08:53:58-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Ruby|ruby,SQL Server|sql-server,Washington Capitals|washington-capitals,Xbox 360|xbox-360,XNA|xna",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20071120-0853-morning-coffee-125"
+  "comment-count": 1,
+  "dasblog-entry-id": "954c8b51-85f3-41db-852d-b8808bf87ac5",
+  "dasblog-title": "Morning+Coffee+125",
+  "dasblog-unique-title": "2007/11/20/Morning+Coffee+125"
 }

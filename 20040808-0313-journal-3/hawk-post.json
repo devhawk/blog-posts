@@ -1,5 +1,4 @@
 {
-  "id": 415,
   "slug": "journal-3",
   "title": "JOURNAL 3",
   "date": "2004-08-08T03:13:56-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040808-0313-journal-3"
+  "comment-count": 1,
+  "dasblog-entry-id": "f8cdf912-742d-4b29-9c54-6029cf5c97d3",
+  "dasblog-title": "JOURNAL+3",
+  "dasblog-unique-title": "2004/08/08/JOURNAL+3"
 }

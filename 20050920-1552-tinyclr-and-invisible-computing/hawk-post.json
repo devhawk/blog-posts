@@ -1,5 +1,4 @@
 {
-  "id": 633,
   "slug": "tinyclr-and-invisible-computing",
   "title": "TinyCLR and Invisible Computing",
   "date": "2005-09-20T15:52:21-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050920-1552-tinyclr-and-invisible-computing"
+  "comment-count": 0,
+  "dasblog-entry-id": "e9b8598e-f7ae-4b01-a3c1-08858898dfec",
+  "dasblog-title": "TinyCLR+And+Invisible+Computing",
+  "dasblog-unique-title": "2005/09/20/TinyCLR+And+Invisible+Computing"
 }

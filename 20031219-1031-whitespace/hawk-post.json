@@ -1,5 +1,4 @@
 {
-  "id": 258,
   "slug": "whitespace",
   "title": "Whitespace",
   "date": "2003-12-19T10:31:49-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Rotor|rotor",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031219-1031-whitespace"
+  "comment-count": 0,
+  "dasblog-entry-id": "c9869cb5-0a5b-4878-95a1-b65fcdebfa96",
+  "dasblog-title": "Whitespace",
+  "dasblog-unique-title": "2003/12/19/Whitespace"
 }

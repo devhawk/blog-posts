@@ -1,5 +1,4 @@
 {
-  "id": 269,
   "slug": "p2p-in-longhorn",
   "title": "P2P in Longhorn",
   "date": "2004-01-06T15:55:57-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "P2P|p2p",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040106-1555-p2p-in-longhorn"
+  "comment-count": 0,
+  "dasblog-entry-id": "7a9f7780-5866-4359-bc0c-c06889f27234",
+  "dasblog-title": "P2P+In+Longhorn",
+  "dasblog-unique-title": "2004/01/06/P2P+In+Longhorn"
 }

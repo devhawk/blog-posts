@@ -1,5 +1,4 @@
 {
-  "id": 803,
   "slug": "onenote-rocks",
   "title": "OneNote Rocks",
   "date": "2006-09-27T11:17:56-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Office|office",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20060927-1117-onenote-rocks"
+  "comment-count": 2,
+  "dasblog-entry-id": "4e86d50e-a083-47eb-b7fe-82c6d3eb58e0",
+  "dasblog-title": "OneNote+Rocks",
+  "dasblog-unique-title": "2006/09/27/OneNote+Rocks"
 }

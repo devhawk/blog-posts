@@ -1,5 +1,4 @@
 {
-  "id": 1126,
   "slug": "lunchtime-coffee-158",
   "title": "Lunchtime Coffee 158",
   "date": "2008-03-18T12:49:14-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Games|games,LINQ|linq,patterns &amp; practices|patterns-practices,PowerShell|powershell,Research|research",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080318-1249-lunchtime-coffee-158"
+  "comment-count": 1,
+  "dasblog-entry-id": "fb57d1ef-57b9-4c93-9169-98fbe5ffd8bc",
+  "dasblog-title": "Lunchtime+Coffee+158",
+  "dasblog-unique-title": "2008/03/18/Lunchtime+Coffee+158"
 }

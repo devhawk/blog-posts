@@ -1,32 +1,23 @@
 [
   {
-    "id": 2290,
     "author-name": "Henrik Liliendahl S&#248;rensen",
     "author-email": "hlsgr@mail.tele.dk",
     "author-url": "http://liliendahl.wordpress.com/",
     "date": "2009-10-28T00:10:56-07:00",
-    "content": "Harry, I follow you. You may very easy make the common sense of the SOA manifesto into a reusable ZYZ manifesto component as blogged <a href=\"http://liliendahl.wordpress.com/2009/10/26/universal-pearls-of-wisdom/\n\" rel=\"nofollow\">here</a>.\n",
-    "parent-id": 1299,
-    "RowKey": "20091028-001056"
+    "content": "Harry, I follow you. You may very easy make the common sense of the SOA manifesto into a reusable ZYZ manifesto component as blogged <a href=\"http://liliendahl.wordpress.com/2009/10/26/universal-pearls-of-wisdom/\n\" rel=\"nofollow\">here</a>.\n"
   },
   {
-    "id": 2291,
     "author-name": "ilanchelian",
     "author-email": "ilanchelian@hotmail.com",
     "author-url": "",
     "date": "2009-11-03T08:36:00-08:00",
-    "content": "punching article. nice.",
-    "parent-id": 1299,
-    "RowKey": "20091103-083600"
+    "content": "punching article. nice."
   },
   {
-    "id": 2292,
     "author-name": "W. Kevin Hazzard",
     "author-email": "wkhazzard@gmail.com",
     "author-url": "http://www.gotnet.biz/Blog",
     "date": "2009-11-07T10:36:59-08:00",
-    "content": "Hear, hear. SOA became a joke not when the has-beens realized they could sell books by repackaging common sense. It became a joke when the major software vendors decided that competing with common sense principles was more important than innovation and competency.",
-    "parent-id": 1299,
-    "RowKey": "20091107-103659"
+    "content": "Hear, hear. SOA became a joke not when the has-beens realized they could sell books by repackaging common sense. It became a joke when the major software vendors decided that competing with common sense principles was more important than innovation and competency."
   }
 ]

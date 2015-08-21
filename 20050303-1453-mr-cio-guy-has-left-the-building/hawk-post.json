@@ -1,5 +1,4 @@
 {
-  "id": 565,
   "slug": "mr-cio-guy-has-left-the-building",
   "title": "Mr. CIO Guy Has Left The Building",
   "date": "2005-03-03T14:53:01-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050303-1453-mr-cio-guy-has-left-the-building"
+  "comment-count": 0,
+  "dasblog-entry-id": "d33b4089-b73c-4bc0-a58b-f1bc92f60649",
+  "dasblog-title": "Mr+CIO+Guy+Has+Left+The+Building",
+  "dasblog-unique-title": "2005/03/03/Mr+CIO+Guy+Has+Left+The+Building"
 }

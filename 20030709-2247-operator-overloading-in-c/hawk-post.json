@@ -1,5 +1,4 @@
 {
-  "id": 145,
   "slug": "operator-overloading-in-c",
   "title": "Operator Overloading in C#",
   "date": "2003-07-09T22:47:27-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20030709-2247-operator-overloading-in-c"
+  "comment-count": 3,
+  "dasblog-entry-id": "5d6cba05-c0e4-480e-a3fb-877ebcb3e25f",
+  "dasblog-title": "Operator+Overloading+In+C",
+  "dasblog-unique-title": "2003/07/10/Operator+Overloading+In+C"
 }

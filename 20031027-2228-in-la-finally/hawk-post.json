@@ -1,5 +1,4 @@
 {
-  "id": 213,
   "slug": "in-la-finally",
   "title": "In LA Finally",
   "date": "2003-10-27T22:28:03-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031027-2228-in-la-finally"
+  "comment-count": 0,
+  "dasblog-entry-id": "304e202f-9fea-4c55-81ac-50dea1d6a56f",
+  "dasblog-title": "In+LA+Finally",
+  "dasblog-unique-title": "2003/10/28/In+LA+Finally"
 }

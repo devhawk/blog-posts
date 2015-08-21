@@ -1,5 +1,4 @@
 {
-  "id": 1284,
   "slug": "hawkcodebox",
   "title": "HawkCodeBox",
   "date": "2009-08-20T11:49:16-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "DLR|dlr,HawkCodeBox|hawkcodebox",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20090820-1149-hawkcodebox"
+  "comment-count": 1,
+  "dasblog-entry-id": "6643b4fa-0c17-4840-9456-77b83d45fae7",
+  "dasblog-title": "HawkCodeBox",
+  "dasblog-unique-title": "2009/08/20/HawkCodeBox"
 }

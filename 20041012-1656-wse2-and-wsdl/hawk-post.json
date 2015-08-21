@@ -1,5 +1,4 @@
 {
-  "id": 449,
   "slug": "wse2-and-wsdl",
   "title": "WSE2 and WSDL",
   "date": "2004-10-12T16:56:31-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "SOP|sop",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20041012-1656-wse2-and-wsdl"
+  "comment-count": 1,
+  "dasblog-entry-id": "73fc65ae-b737-4005-861e-eaf77e96e519",
+  "dasblog-title": "WSE2+And+WSDL",
+  "dasblog-unique-title": "2004/10/12/WSE2+And+WSDL"
 }

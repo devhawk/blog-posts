@@ -1,5 +1,4 @@
 {
-  "id": 305,
   "slug": "soa-vs-sop",
   "title": "SOA vs. SOP",
   "date": "2004-02-09T15:36:26-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture,Development|development",
   "csv-tag-slugs": "SOA|soa,SOP|sop",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040209-1536-soa-vs-sop"
+  "comment-count": 0,
+  "dasblog-entry-id": "d6be1655-f467-4718-9b80-ab1b311f2249",
+  "dasblog-title": "SOA+Vs+SOP",
+  "dasblog-unique-title": "2004/02/09/SOA+Vs+SOP"
 }

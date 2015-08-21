@@ -1,5 +1,4 @@
 {
-  "id": 589,
   "slug": "office-pias",
   "title": "Office PIAs",
   "date": "2005-04-18T21:17:47-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20050418-2117-office-pias"
+  "comment-count": 1,
+  "dasblog-entry-id": "6ed85be4-6a72-43a7-ae54-6f43b72652a0",
+  "dasblog-title": "Office+PIAs",
+  "dasblog-unique-title": "2005/04/19/Office+PIAs"
 }

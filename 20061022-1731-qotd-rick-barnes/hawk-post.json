@@ -1,5 +1,4 @@
 {
-  "id": 820,
   "slug": "qotd-rick-barnes",
   "title": "QOTD &#8211; Rick Barnes",
   "date": "2006-10-22T17:31:15-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Quote of the Day|quote-of-the-day",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20061022-1731-qotd-rick-barnes"
+  "comment-count": 1,
+  "dasblog-entry-id": "ea256946-cbe1-4936-8b7e-cc59d59d92d4",
+  "dasblog-title": "QOTD+Rick+Barnes",
+  "dasblog-unique-title": "2006/10/23/QOTD+Rick+Barnes"
 }

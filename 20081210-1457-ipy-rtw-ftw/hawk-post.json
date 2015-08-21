@@ -1,5 +1,4 @@
 {
-  "id": 1202,
   "slug": "ipy-rtw-ftw",
   "title": "IPy RTW FTW!",
   "date": "2008-12-10T14:57:30-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 6,
-  "PartKey": "20081210-1457-ipy-rtw-ftw"
+  "comment-count": 6,
+  "dasblog-entry-id": "9d513c68-87c3-4b16-a28f-ece87ad1ef65",
+  "dasblog-title": "IPy+RTW+FTW",
+  "dasblog-unique-title": "2008/12/10/IPy+RTW+FTW"
 }

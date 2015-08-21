@@ -1,5 +1,4 @@
 {
-  "id": 30,
   "slug": "photobob",
   "title": "PhotoBob",
   "date": "2003-02-23T19:17:11-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030223-1917-photobob"
+  "comment-count": 0,
+  "dasblog-entry-id": "9759ad2d-5fcc-43ff-b20f-b48fae3b0737",
+  "dasblog-title": "PhotoBob",
+  "dasblog-unique-title": "2003/02/24/PhotoBob"
 }

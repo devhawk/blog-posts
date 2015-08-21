@@ -1,5 +1,4 @@
 {
-  "id": 767,
   "slug": "teds-hockey-math",
   "title": "Ted&#8217;s Hockey Math",
   "date": "2006-07-14T11:52:15-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Hockey|hockey,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060714-1152-teds-hockey-math"
+  "comment-count": 0,
+  "dasblog-entry-id": "80b79914-59a8-427b-8212-705d7cdb5d18",
+  "dasblog-title": "Teds+Hockey+Math",
+  "dasblog-unique-title": "2006/07/14/Teds+Hockey+Math"
 }

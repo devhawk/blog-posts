@@ -1,5 +1,4 @@
 {
-  "id": 1214,
   "slug": "register-now-for-lang-net-symposium-2009",
   "title": "Register now for Lang.NET Symposium 2009",
   "date": "2009-02-09T15:34:09-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Domain Specific Languages|domain-specific-languages,LangNET|langnet,Lanugages|lanugages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20090209-1534-register-now-for-lang-net-symposium-2009"
+  "comment-count": 3,
+  "dasblog-entry-id": "0c2ab8f3-03de-4fa6-9bc4-1929e13eac97",
+  "dasblog-title": "Register+Now+For+LangNET+Symposium+2009",
+  "dasblog-unique-title": "2009/02/09/Register+Now+For+LangNET+Symposium+2009"
 }

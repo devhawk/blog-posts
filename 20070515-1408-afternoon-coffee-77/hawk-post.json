@@ -1,5 +1,4 @@
 {
-  "id": 955,
   "slug": "afternoon-coffee-77",
   "title": "Afternoon Coffee 77",
   "date": "2007-05-15T14:08:01-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070515-1408-afternoon-coffee-77"
+  "comment-count": 1,
+  "dasblog-entry-id": "d08c1b25-844f-4b3b-8318-2bb91a4190da",
+  "dasblog-title": "Afternoon+Coffee+77",
+  "dasblog-unique-title": "2007/05/15/Afternoon+Coffee+77"
 }

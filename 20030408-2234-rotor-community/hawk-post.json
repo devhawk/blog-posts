@@ -1,5 +1,4 @@
 {
-  "id": 67,
   "slug": "rotor-community",
   "title": "Rotor Community",
   "date": "2003-04-08T22:34:19-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030408-2234-rotor-community"
+  "comment-count": 0,
+  "dasblog-entry-id": "dcd05744-3f9a-429a-8f46-7b63f58b033d",
+  "dasblog-title": "Rotor+Community",
+  "dasblog-unique-title": "2003/04/09/Rotor+Community"
 }

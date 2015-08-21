@@ -1,42 +1,30 @@
 [
   {
-    "id": 2507,
     "author-name": "Andres Aguiar",
     "author-email": "andres.aguiar@gmail.com",
     "author-url": "http://weblogs.asp.net/aaguiar",
     "date": "2007-05-24T18:58:05-07:00",
-    "content": "There are simple scenarios with transactions that can be supported with REST.\n\nFor example, Astoria has a client side component that track changes in entities and sends them to the server. Those can be applied in a transaction (even if today implementation does not). So you could retrieve an order, delete a line, add another, change the header and invoke the service.\n\n\n\n",
-    "parent-id": 964,
-    "RowKey": "20070524-185805"
+    "content": "There are simple scenarios with transactions that can be supported with REST.\n\nFor example, Astoria has a client side component that track changes in entities and sends them to the server. Those can be applied in a transaction (even if today implementation does not). So you could retrieve an order, delete a line, add another, change the header and invoke the service.\n\n\n\n"
   },
   {
-    "id": 2508,
     "author-name": "David Ing",
     "author-email": "david.ing@gmail.com",
     "author-url": "http://www.from9till2.com",
     "date": "2007-05-25T05:30:26-07:00",
-    "content": "Hi Harry, I didn't really respond here: http://www.from9till2.com/PermaLink.aspx?guid=2dbee669-07fd-435e-a5f9-51f709ef183f\n\n- David",
-    "parent-id": 964,
-    "RowKey": "20070525-053026"
+    "content": "Hi Harry, I didn't really respond here: http://www.from9till2.com/PermaLink.aspx?guid=2dbee669-07fd-435e-a5f9-51f709ef183f\n\n- David"
   },
   {
-    "id": 2509,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2007-05-25T14:53:19-07:00",
-    "content": "Anders, I never said REST can't support transactions, I said REST as CRUD can't support transactions. I would say that your scenario of submitting a collection of changes to be applied transactionally moves you out of REST as CRUD and into REST as Protocol. ",
-    "parent-id": 964,
-    "RowKey": "20070525-145319"
+    "content": "Anders, I never said REST can't support transactions, I said REST as CRUD can't support transactions. I would say that your scenario of submitting a collection of changes to be applied transactionally moves you out of REST as CRUD and into REST as Protocol. "
   },
   {
-    "id": 2510,
     "author-name": "Alex James",
     "author-email": "Alex@base4.net",
     "author-url": "http://www.base4.net/blog.aspx?ID=436",
     "date": "2007-05-30T22:16:32-07:00",
-    "content": "...To my way of thinking programming RESTfully is all about intent.\n\nA common catch cry of the anti-REST crowd or the grudging REST adopters is that it is not appropriate for Update. Essentially according to their arguments transactions are a nightmare...",
-    "parent-id": 964,
-    "RowKey": "20070530-221632"
+    "content": "...To my way of thinking programming RESTfully is all about intent.\n\nA common catch cry of the anti-REST crowd or the grudging REST adopters is that it is not appropriate for Update. Essentially according to their arguments transactions are a nightmare..."
   }
 ]

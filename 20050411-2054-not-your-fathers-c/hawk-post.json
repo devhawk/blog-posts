@@ -1,5 +1,4 @@
 {
-  "id": 587,
   "slug": "not-your-fathers-c",
   "title": "Not Your Father&#8217;s C++",
   "date": "2005-04-11T20:54:53-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Lanugages|lanugages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20050411-2054-not-your-fathers-c"
+  "comment-count": 1,
+  "dasblog-entry-id": "770016d2-1ca7-48ad-8d21-4405b6bbb9e5",
+  "dasblog-title": "Not+Your+Fathers+C",
+  "dasblog-unique-title": "2005/04/12/Not+Your+Fathers+C"
 }

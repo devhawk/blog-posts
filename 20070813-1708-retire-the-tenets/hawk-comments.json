@@ -1,22 +1,16 @@
 [
   {
-    "id": 2568,
     "author-name": "David Ing",
     "author-email": "david.ing@gmail.com",
     "author-url": "http://www.from9till2.com",
     "date": "2007-08-14T03:35:48-07:00",
-    "content": "\nhttp://www.from9till2.com/PermaLink.aspx?guid=2354684e-5c70-4e69-b711-5097be3b57af\n\nWelcome to the builder's club, we've got jackets...",
-    "parent-id": 1027,
-    "RowKey": "20070814-033548"
+    "content": "\nhttp://www.from9till2.com/PermaLink.aspx?guid=2354684e-5c70-4e69-b711-5097be3b57af\n\nWelcome to the builder's club, we've got jackets..."
   },
   {
-    "id": 2569,
     "author-name": "Hartmut Wilms",
     "author-email": "hartmut.wilms@innoq.com",
     "author-url": "http://www.innoq.com/blog/hw/",
     "date": "2007-08-14T11:59:18-07:00",
-    "content": "http://www.innoq.com/blog/hw/2007/08/14/retire_the_tenets.html\n\nThere are better ways of expressing what SO is all about, but the tenets are a start. I agree with some of your statements, but \"service orientation is mainstream\" isn't among them. \"Boundaries are explicit is obvious.\" To whom? I thing that we (meaning all of us) still have a long way to go. ",
-    "parent-id": 1027,
-    "RowKey": "20070814-115918"
+    "content": "http://www.innoq.com/blog/hw/2007/08/14/retire_the_tenets.html\n\nThere are better ways of expressing what SO is all about, but the tenets are a start. I agree with some of your statements, but \"service orientation is mainstream\" isn't among them. \"Boundaries are explicit is obvious.\" To whom? I thing that we (meaning all of us) still have a long way to go. "
   }
 ]

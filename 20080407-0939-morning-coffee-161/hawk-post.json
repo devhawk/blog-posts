@@ -1,5 +1,4 @@
 {
-  "id": 1132,
   "slug": "morning-coffee-161",
   "title": "Morning Coffee 161",
   "date": "2008-04-07T09:39:41-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Dependency Injection|dependency-injection,F#|f-sharp,infrastructure|infrastructure,IronRuby|ironruby,Office|office,UX|ux,Washington Capitals|washington-capitals,Working at MSFT|working-at-msft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20080407-0939-morning-coffee-161"
+  "comment-count": 2,
+  "dasblog-entry-id": "6575cb8c-b295-42ec-b064-483f26c21789",
+  "dasblog-title": "Morning+Coffee+161",
+  "dasblog-unique-title": "2008/04/07/Morning+Coffee+161"
 }

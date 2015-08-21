@@ -1,5 +1,4 @@
 {
-  "id": 349,
   "slug": "is-the-middle-tier-endangered",
   "title": "Is the Middle-Tier Endangered?",
   "date": "2004-04-12T14:15:11-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20040412-1415-is-the-middle-tier-endangered"
+  "comment-count": 3,
+  "dasblog-entry-id": "950774a9-b33b-4a46-bb2b-a481cf946251",
+  "dasblog-title": "Is+The+MiddleTier+Endangered",
+  "dasblog-unique-title": "2004/04/12/Is+The+MiddleTier+Endangered"
 }

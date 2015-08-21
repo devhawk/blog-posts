@@ -1,5 +1,4 @@
 {
-  "id": 462,
   "slug": "and-now-for-something-completely-different",
   "title": "And Now For Something Completely Different",
   "date": "2004-10-27T00:12:44-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20041027-0012-and-now-for-something-completely-different"
+  "comment-count": 2,
+  "dasblog-entry-id": "59d1b2b3-12f9-409b-a4cc-8c1dbbeeac8f",
+  "dasblog-title": "And+Now+For+Something+Completely+Different",
+  "dasblog-unique-title": "2004/10/27/And+Now+For+Something+Completely+Different"
 }

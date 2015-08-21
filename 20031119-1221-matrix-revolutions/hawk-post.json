@@ -1,5 +1,4 @@
 {
-  "id": 233,
   "slug": "matrix-revolutions",
   "title": "Matrix Revolutions",
   "date": "2003-11-19T12:21:20-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Movies|movies",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031119-1221-matrix-revolutions"
+  "comment-count": 0,
+  "dasblog-entry-id": "042a62d3-59cc-4d5f-a4b0-4978d8ac66a8",
+  "dasblog-title": "Matrix+Revolutions",
+  "dasblog-unique-title": "2003/11/19/Matrix+Revolutions"
 }

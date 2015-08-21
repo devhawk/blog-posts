@@ -1,5 +1,4 @@
 {
-  "id": 13,
   "slug": "dinner-weblogs-code",
   "title": "Dinner, Weblogs &#038; Code",
   "date": "2003-01-30T18:41:28-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030130-1841-dinner-weblogs-code"
+  "comment-count": 0,
+  "dasblog-entry-id": "4eaea182-2caf-4f65-ada1-c9be7e8bb36b",
+  "dasblog-title": "Dinner+Weblogs+Amp+Code",
+  "dasblog-unique-title": "2003/01/31/Dinner+Weblogs+Amp+Code"
 }

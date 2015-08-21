@@ -1,5 +1,4 @@
 {
-  "id": 827,
   "slug": "slight-workflow-annoyance",
   "title": "Slight Workflow Annoyance",
   "date": "2006-11-03T12:36:39-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Service Broker|service-broker,WF|wf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20061103-1236-slight-workflow-annoyance"
+  "comment-count": 1,
+  "dasblog-entry-id": "e42581ae-6d27-4c06-8a28-f77432ddfcc4",
+  "dasblog-title": "Slight+Workflow+Annoyance",
+  "dasblog-unique-title": "2006/11/03/Slight+Workflow+Annoyance"
 }

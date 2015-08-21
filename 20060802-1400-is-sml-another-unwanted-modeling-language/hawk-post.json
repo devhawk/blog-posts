@@ -1,5 +1,4 @@
 {
-  "id": 777,
   "slug": "is-sml-another-unwanted-modeling-language",
   "title": "Is SML Another Unwanted Modeling Language?",
   "date": "2006-08-02T14:00:50-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling,Operations|operations",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20060802-1400-is-sml-another-unwanted-modeling-language"
+  "comment-count": 2,
+  "dasblog-entry-id": "60f69211-7e93-4175-bc70-431d479688e6",
+  "dasblog-title": "Is+SML+Another+Unwanted+Modeling+Language",
+  "dasblog-unique-title": "2006/08/02/Is+SML+Another+Unwanted+Modeling+Language"
 }

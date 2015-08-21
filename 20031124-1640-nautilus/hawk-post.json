@@ -1,5 +1,4 @@
 {
-  "id": 239,
   "slug": "nautilus",
   "title": "Nautilus",
   "date": "2003-11-24T16:40:14-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031124-1640-nautilus"
+  "comment-count": 0,
+  "dasblog-entry-id": "c0ded8bd-726d-4a81-a674-c17980e1258a",
+  "dasblog-title": "Nautilus",
+  "dasblog-unique-title": "2003/11/25/Nautilus"
 }

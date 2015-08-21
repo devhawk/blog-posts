@@ -1,5 +1,4 @@
 {
-  "id": 306,
   "slug": "architect-behavior-patterns",
   "title": "Architect Behavior Patterns",
   "date": "2004-02-09T17:08:50-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 6,
-  "PartKey": "20040209-1708-architect-behavior-patterns"
+  "comment-count": 6,
+  "dasblog-entry-id": "1418b6c7-e148-4110-b6a2-a68af40b92b5",
+  "dasblog-title": "Architect+Behavior+Patterns",
+  "dasblog-unique-title": "2004/02/10/Architect+Behavior+Patterns"
 }

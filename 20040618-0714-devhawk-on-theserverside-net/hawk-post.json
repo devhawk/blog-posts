@@ -1,5 +1,4 @@
 {
-  "id": 384,
   "slug": "devhawk-on-theserverside-net",
   "title": "DevHawk on TheServerSide.net",
   "date": "2004-06-18T07:14:29-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040618-0714-devhawk-on-theserverside-net"
+  "comment-count": 0,
+  "dasblog-entry-id": "36fe0849-05a6-4c9f-95a0-8e5d0a31b94b",
+  "dasblog-title": "DevHawk+On+TheServerSidenet",
+  "dasblog-unique-title": "2004/06/18/DevHawk+On+TheServerSidenet"
 }

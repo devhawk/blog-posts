@@ -1,5 +1,4 @@
 {
-  "id": 1139,
   "slug": "caps-season-ends",
   "title": "Caps&#8217; Season Ends",
   "date": "2008-04-22T23:09:26-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Hockey|hockey,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20080422-2309-caps-season-ends"
+  "comment-count": 2,
+  "dasblog-entry-id": "9c20a2b4-e214-4a5b-b2fc-ec0e92db39b5",
+  "dasblog-title": "Caps+Season+Ends",
+  "dasblog-unique-title": "2008/04/23/Caps+Season+Ends"
 }

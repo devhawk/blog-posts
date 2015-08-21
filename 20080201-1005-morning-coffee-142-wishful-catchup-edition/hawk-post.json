@@ -1,5 +1,4 @@
 {
-  "id": 1098,
   "slug": "morning-coffee-142-wishful-catchup-edition",
   "title": "Morning Coffee 142 &#8211; Wishful Catchup Edition",
   "date": "2008-02-01T10:05:14-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "DLR|dlr,Lanugages|lanugages,Microsoft|microsoft,Television|television,Visual Studio|visual-studio,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080201-1005-morning-coffee-142-wishful-catchup-edition"
+  "comment-count": 1,
+  "dasblog-entry-id": "959253bb-bc6e-4d7b-ab97-5c96217b56d0",
+  "dasblog-title": "Morning+Coffee+142+Wishful+Catchup+Edition",
+  "dasblog-unique-title": "2008/02/01/Morning+Coffee+142+Wishful+Catchup+Edition"
 }

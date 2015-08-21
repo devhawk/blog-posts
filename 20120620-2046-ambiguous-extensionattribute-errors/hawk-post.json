@@ -1,5 +1,4 @@
 {
-  "id": 2023,
   "slug": "ambiguous-extensionattribute-errors",
   "title": "Ambiguous ExtensionAttribute Errors",
   "date": "2012-06-20T20:46:59-07:00",
@@ -7,6 +6,5 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "C#|c-sharp,CLR|clr,Extension Methods|extension-methods,LINQ|linq,Visual Basic|visual-basic",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20120620-2046-ambiguous-extensionattribute-errors"
+  "comment-count": 1
 }

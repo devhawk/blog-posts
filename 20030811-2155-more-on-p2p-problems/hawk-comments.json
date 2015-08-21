@@ -1,12 +1,9 @@
 [
   {
-    "id": 2918,
     "author-name": "Aaron",
     "author-email": "",
     "author-url": "",
     "date": "2006-02-17T07:29:42-08:00",
-    "content": "You need to direct port 3544 UDP and possibly 3540 UDP on your router to your workstation so that Teredo can traverse the NAT and PNRP can service requests.  I had the same problem until I did this.  A better error message would have been helpful.",
-    "parent-id": 169,
-    "RowKey": "20060217-072942"
+    "content": "You need to direct port 3544 UDP and possibly 3540 UDP on your router to your workstation so that Teredo can traverse the NAT and PNRP can service requests.  I had the same problem until I did this.  A better error message would have been helpful."
   }
 ]

@@ -1,32 +1,23 @@
 [
   {
-    "id": 3659,
     "author-name": "Alex Kovacs",
     "author-email": "alex.kovacs@cirrus.com",
     "author-url": "",
     "date": "2014-04-04T10:39:23-07:00",
-    "content": "This is great! It means the voices of IHV / ISV's are being heard.",
-    "parent-id": 2071,
-    "RowKey": "20140404-103923"
+    "content": "This is great! It means the voices of IHV / ISV's are being heard."
   },
   {
-    "id": 3675,
     "author-name": "Nick Savenko",
     "author-email": "inci@dezcom.org",
     "author-url": "",
     "date": "2014-04-09T17:18:47-07:00",
-    "content": "Harry!\nThank you for the great session.\nWhen will new template be released for broked WinRT component?\n\nThanks\nNick",
-    "parent-id": 2071,
-    "RowKey": "20140409-171847"
+    "content": "Harry!\nThank you for the great session.\nWhen will new template be released for broked WinRT component?\n\nThanks\nNick"
   },
   {
-    "id": 3680,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2014-04-11T15:45:10-07:00",
-    "content": "Not sure, my old team owns this feature now. Soon I hope!",
-    "parent-id": 2071,
-    "RowKey": "20140411-154510"
+    "content": "Not sure, my old team owns this feature now. Soon I hope!"
   }
 ]

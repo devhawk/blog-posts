@@ -1,5 +1,4 @@
 {
-  "id": 1237,
   "slug": "writing-an-ironpython-debugger-getting-local-variables",
   "title": "Writing an IronPython Debugger: Getting Local Variables",
   "date": "2009-03-25T16:27:51-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20090325-1627-writing-an-ironpython-debugger-getting-local-variables"
+  "comment-count": 1,
+  "dasblog-entry-id": "c693512a-3698-478f-a95e-20d1be919b67",
+  "dasblog-title": "Writing+An+IronPython+Debugger+Getting+Local+Variables",
+  "dasblog-unique-title": "2009/03/25/Writing+An+IronPython+Debugger+Getting+Local+Variables"
 }

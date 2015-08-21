@@ -1,5 +1,4 @@
 {
-  "id": 1260,
   "slug": "microsoft-and-open-source",
   "title": "Microsoft and Open Source",
   "date": "2009-05-18T14:23:28-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "General Geekery|general-geekery",
   "csv-tag-slugs": "Microsoft|microsoft,Open Source|open-source",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 6,
-  "PartKey": "20090518-1423-microsoft-and-open-source"
+  "comment-count": 6,
+  "dasblog-entry-id": "45a06ea2-5414-452e-9e0b-c18ec6519b60",
+  "dasblog-title": "Microsoft+And+Open+Source",
+  "dasblog-unique-title": "2009/05/18/Microsoft+And+Open+Source"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 741,
   "slug": "chuck-audio-programming-language",
   "title": "ChucK Audio Programming Language",
   "date": "2006-04-26T16:13:55-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Lanugages|lanugages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060426-1613-chuck-audio-programming-language"
+  "comment-count": 0,
+  "dasblog-entry-id": "5e0c1ef3-1aef-4a9b-936c-90cbcc79614d",
+  "dasblog-title": "ChucK+Audio+Programming+Language",
+  "dasblog-unique-title": "2006/04/26/ChucK+Audio+Programming+Language"
 }

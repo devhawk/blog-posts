@@ -1,5 +1,4 @@
 {
-  "id": 1206,
   "slug": "ironpython-and-livefx-raw-http-access",
   "title": "IronPython and LiveFX: Raw HTTP Access",
   "date": "2008-12-16T15:36:48-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Live Framework|live-framework,Windows Live|windows-live",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20081216-1536-ironpython-and-livefx-raw-http-access"
+  "comment-count": 0,
+  "dasblog-entry-id": "47b36a30-e4af-42a0-8609-fbc0a83fe083",
+  "dasblog-title": "IronPython+And+LiveFX+Raw+HTTP+Access",
+  "dasblog-unique-title": "2008/12/16/IronPython+And+LiveFX+Raw+HTTP+Access"
 }

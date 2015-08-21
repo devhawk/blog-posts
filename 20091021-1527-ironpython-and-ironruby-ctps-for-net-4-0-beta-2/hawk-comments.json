@@ -1,12 +1,9 @@
 [
   {
-    "id": 2284,
     "author-name": "Randall Sutton",
     "author-email": "randallsutton@gmail.com",
     "author-url": "http://blog.randallsutton.net",
     "date": "2009-11-16T11:51:05-08:00",
-    "content": "So I downloaded the IronPython CTP for .NET 4.0 and when I reference the Dlls I get a built with a previous framework message.  Also there are not any silverlight dlls included.",
-    "parent-id": 1296,
-    "RowKey": "20091116-115105"
+    "content": "So I downloaded the IronPython CTP for .NET 4.0 and when I reference the Dlls I get a built with a previous framework message.  Also there are not any silverlight dlls included."
   }
 ]

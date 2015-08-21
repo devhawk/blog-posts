@@ -1,5 +1,4 @@
 {
-  "id": 939,
   "slug": "morning-coffee-66",
   "title": "Morning Coffee 66",
   "date": "2007-04-19T10:42:04-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Blogging|blogging,Games|games,Service Broker|service-broker",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070419-1042-morning-coffee-66"
+  "comment-count": 0,
+  "dasblog-entry-id": "f3188159-5310-4a9b-a092-8e477aa67831",
+  "dasblog-title": "Morning+Coffee+66",
+  "dasblog-unique-title": "2007/04/19/Morning+Coffee+66"
 }

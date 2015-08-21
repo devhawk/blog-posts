@@ -1,5 +1,4 @@
 {
-  "id": 1267,
   "slug": "add-bcd-vhd-ps1",
   "title": "Add-Bcd-Vhd.ps1",
   "date": "2009-06-18T13:39:57-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Windows|windows",
   "csv-tag-slugs": "PowerShell|powershell",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20090618-1339-add-bcd-vhd-ps1"
+  "comment-count": 1,
+  "dasblog-entry-id": "17cd359b-7a77-47ad-a06d-9ba7d2621021",
+  "dasblog-title": "AddBcdVhdps1",
+  "dasblog-unique-title": "2009/06/18/AddBcdVhdps1"
 }

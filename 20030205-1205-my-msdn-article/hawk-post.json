@@ -1,5 +1,4 @@
 {
-  "id": 18,
   "slug": "my-msdn-article",
   "title": "My MSDN Article",
   "date": "2003-02-05T12:05:41-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030205-1205-my-msdn-article"
+  "comment-count": 0,
+  "dasblog-entry-id": "b718a63b-de5f-4121-98f3-6777ea0e79df",
+  "dasblog-title": "My+MSDN+Article",
+  "dasblog-unique-title": "2003/02/05/My+MSDN+Article"
 }

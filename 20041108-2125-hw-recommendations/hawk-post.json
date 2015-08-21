@@ -1,5 +1,4 @@
 {
-  "id": 474,
   "slug": "hw-recommendations",
   "title": "HW Recommendations?",
   "date": "2004-11-08T21:25:19-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "General Geekery|general-geekery",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20041108-2125-hw-recommendations"
+  "comment-count": 2,
+  "dasblog-entry-id": "abbb7541-ee98-4c73-a8c2-fb4da91c4948",
+  "dasblog-title": "HW+Recommendations",
+  "dasblog-unique-title": "2004/11/09/HW+Recommendations"
 }

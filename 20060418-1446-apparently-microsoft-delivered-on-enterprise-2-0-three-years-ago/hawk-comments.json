@@ -1,32 +1,23 @@
 [
   {
-    "id": 2349,
     "author-name": "Troy Phillips",
     "author-email": "troy.phillips@zettaserve.com",
     "author-url": "http://www.zettaserve.com",
     "date": "2006-04-18T22:14:20-07:00",
-    "content": "I am very positive about SharePoint v3 (is it WSS 2007 too?) and will be keen to evaluate it once it is released. I really think that it has the potential to be Microsofts \"next Exchange\" (not to replace Exchange, but to be a reason to use Windows Servers/domain like Exchange currently is).\n\nThat said, the current version doesn't answer the Enterprise 2.0 problem as it stands. We attempted to use SPS 2003 as our sole source of collaboration/info storage and have had to back away from that. It really did not suit the storage of non-document information well (out of the box), so we have implemented mediwiki for this. I really look forward to investigating SPS 2007 and wish that MS had some sort of interim release that could have given us some of this functionality.\n\nps - I read a number of MS blogs and I have got the impression that there is still plenty of \"collaboration via email\" happening internally. Don't just look at the fact that lots of people are using the new product, but also find out why lots aren't.",
-    "parent-id": 738,
-    "RowKey": "20060418-221420"
+    "content": "I am very positive about SharePoint v3 (is it WSS 2007 too?) and will be keen to evaluate it once it is released. I really think that it has the potential to be Microsofts \"next Exchange\" (not to replace Exchange, but to be a reason to use Windows Servers/domain like Exchange currently is).\n\nThat said, the current version doesn't answer the Enterprise 2.0 problem as it stands. We attempted to use SPS 2003 as our sole source of collaboration/info storage and have had to back away from that. It really did not suit the storage of non-document information well (out of the box), so we have implemented mediwiki for this. I really look forward to investigating SPS 2007 and wish that MS had some sort of interim release that could have given us some of this functionality.\n\nps - I read a number of MS blogs and I have got the impression that there is still plenty of \"collaboration via email\" happening internally. Don't just look at the fact that lots of people are using the new product, but also find out why lots aren't."
   },
   {
-    "id": 2350,
     "author-name": "Ross Mayfield",
     "author-email": "goobox@gmail.com",
     "author-url": "http://ross.typepad.com",
     "date": "2006-04-23T16:27:38-07:00",
-    "content": "Apparently nobody is going to call you on this, not sure if you have read the article yet, but it really is a stretch to say that Sharepoint delivers Enterprise 2.0.  v3 should get it there, however.",
-    "parent-id": 738,
-    "RowKey": "20060423-162738"
+    "content": "Apparently nobody is going to call you on this, not sure if you have read the article yet, but it really is a stretch to say that Sharepoint delivers Enterprise 2.0.  v3 should get it there, however."
   },
   {
-    "id": 2351,
     "author-name": "David",
     "author-email": "david.ing@gmail.com",
     "author-url": "http://www.from9till2.com",
     "date": "2006-05-31T15:53:04-07:00",
-    "content": "Some of us are trying to 'Enterprise 2.0' email... ;-)",
-    "parent-id": 738,
-    "RowKey": "20060531-155304"
+    "content": "Some of us are trying to 'Enterprise 2.0' email... ;-)"
   }
 ]

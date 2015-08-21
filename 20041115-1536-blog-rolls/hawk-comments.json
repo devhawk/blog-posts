@@ -1,22 +1,16 @@
 [
   {
-    "id": 2719,
     "author-name": "Scott C. Reynolds",
     "author-email": "scott@scottcreynolds.com",
     "author-url": "http://www.scottcreynolds.com",
     "date": "2004-11-15T21:42:30-08:00",
-    "content": "I think the links are broken...keeps trying to \"download\" the aspx page...",
-    "parent-id": 482,
-    "RowKey": "20041115-214230"
+    "content": "I think the links are broken...keeps trying to \"download\" the aspx page..."
   },
   {
-    "id": 2720,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2004-11-16T20:23:49-08:00",
-    "content": "Scott, are you using FireFox? I have no problems with IE but with FireFox I get the issue you mention. I'll see what I can do about it.",
-    "parent-id": 482,
-    "RowKey": "20041116-202349"
+    "content": "Scott, are you using FireFox? I have no problems with IE but with FireFox I get the issue you mention. I'll see what I can do about it."
   }
 ]

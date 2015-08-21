@@ -1,5 +1,4 @@
 {
-  "id": 1128,
   "slug": "webdev-webserver-powershell-function",
   "title": "WebDev.WebServer PowerShell Function",
   "date": "2008-03-20T15:39:00-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "ASP.NET|asp-net,PowerShell|powershell",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20080320-1539-webdev-webserver-powershell-function"
+  "comment-count": 4,
+  "dasblog-entry-id": "631d2f09-cb8f-4e40-bad0-dfecce979257",
+  "dasblog-title": "WebDevWebServer+PowerShell+Function",
+  "dasblog-unique-title": "2008/03/20/WebDevWebServer+PowerShell+Function"
 }

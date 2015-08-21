@@ -1,5 +1,4 @@
 {
-  "id": 761,
   "slug": "gartner-ea-summit-day-one",
   "title": "Gartner EA Summit Day One",
   "date": "2006-06-21T21:14:16-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20060621-2114-gartner-ea-summit-day-one"
+  "comment-count": 2,
+  "dasblog-entry-id": "147ea496-930c-429d-8a3e-73fe9fa914b7",
+  "dasblog-title": "Gartner+EA+Summit+Day+One",
+  "dasblog-unique-title": "2006/06/22/Gartner+EA+Summit+Day+One"
 }

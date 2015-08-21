@@ -1,5 +1,4 @@
 {
-  "id": 1089,
   "slug": "superman-signed",
   "title": "Superman Signed",
   "date": "2008-01-11T10:20:07-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Hockey|hockey,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080111-1020-superman-signed"
+  "comment-count": 0,
+  "dasblog-entry-id": "e86955e5-fd39-431a-b2fa-745ecaa303c6",
+  "dasblog-title": "Superman+Signed",
+  "dasblog-unique-title": "2008/01/11/Superman+Signed"
 }

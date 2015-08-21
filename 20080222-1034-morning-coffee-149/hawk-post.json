@@ -1,5 +1,4 @@
 {
-  "id": 1107,
   "slug": "morning-coffee-149",
   "title": "Morning Coffee 149",
   "date": "2008-02-22T10:34:30-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "F#|f-sharp,Hardware|hardware,Lanugages|lanugages,Microsoft|microsoft,Parsing Expression Grammar|parsing-expression-grammar,Silverlight|silverlight,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080222-1034-morning-coffee-149"
+  "comment-count": 0,
+  "dasblog-entry-id": "3696bb29-8d2c-468a-a313-801e35d19a17",
+  "dasblog-title": "Morning+Coffee+149",
+  "dasblog-unique-title": "2008/02/22/Morning+Coffee+149"
 }

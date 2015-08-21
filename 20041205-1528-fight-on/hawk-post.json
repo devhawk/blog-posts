@@ -1,5 +1,4 @@
 {
-  "id": 488,
   "slug": "fight-on",
   "title": "Fight On!",
   "date": "2004-12-05T15:28:16-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20041205-1528-fight-on"
+  "comment-count": 2,
+  "dasblog-entry-id": "fb73968d-d2fb-4fd5-b1bc-c8c5f8702ec3",
+  "dasblog-title": "Fight+On",
+  "dasblog-unique-title": "2004/12/05/Fight+On"
 }

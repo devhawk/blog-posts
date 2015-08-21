@@ -1,5 +1,4 @@
 {
-  "id": 1175,
   "slug": "dlr-namespace-change-fire-drill",
   "title": "DLR Namespace Change Fire Drill",
   "date": "2008-09-17T16:46:18-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "DLR|dlr,IronRuby|ironruby",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080917-1646-dlr-namespace-change-fire-drill"
+  "comment-count": 1,
+  "dasblog-entry-id": "d36d596b-e086-49dd-a05e-2a83fa790bdf",
+  "dasblog-title": "DLR+Namespace+Change+Fire+Drill",
+  "dasblog-unique-title": "2008/09/17/DLR+Namespace+Change+Fire+Drill"
 }

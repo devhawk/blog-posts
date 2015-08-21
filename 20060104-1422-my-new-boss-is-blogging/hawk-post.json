@@ -1,5 +1,4 @@
 {
-  "id": 667,
   "slug": "my-new-boss-is-blogging",
   "title": "My New Boss is Blogging",
   "date": "2006-01-04T14:22:38-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060104-1422-my-new-boss-is-blogging"
+  "comment-count": 0,
+  "dasblog-entry-id": "3723c219-6ea8-4a87-99e4-265ce85bdbcc",
+  "dasblog-title": "My+New+Boss+Is+Blogging",
+  "dasblog-unique-title": "2006/01/04/My+New+Boss+Is+Blogging"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 340,
   "slug": "code-is-real",
   "title": "Code is Real",
   "date": "2004-04-01T12:19:02-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 5,
-  "PartKey": "20040401-1219-code-is-real"
+  "comment-count": 5,
+  "dasblog-entry-id": "227a309b-23c1-4297-8129-e289d5506ff1",
+  "dasblog-title": "Code+Is+Real",
+  "dasblog-unique-title": "2004/04/01/Code+Is+Real"
 }

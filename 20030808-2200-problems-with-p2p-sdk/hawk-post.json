@@ -1,5 +1,4 @@
 {
-  "id": 168,
   "slug": "problems-with-p2p-sdk",
   "title": "Problems with P2P SDK",
   "date": "2003-08-08T22:00:37-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "P2P|p2p",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030808-2200-problems-with-p2p-sdk"
+  "comment-count": 0,
+  "dasblog-entry-id": "ce69b89e-2f35-48e0-912a-d7ba3919dc43",
+  "dasblog-title": "Problems+With+P2P+SDK",
+  "dasblog-unique-title": "2003/08/09/Problems+With+P2P+SDK"
 }

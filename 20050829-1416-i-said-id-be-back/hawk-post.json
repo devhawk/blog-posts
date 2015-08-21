@@ -1,5 +1,4 @@
 {
-  "id": 616,
   "slug": "i-said-id-be-back",
   "title": "I Said I&#8217;d Be Back",
   "date": "2005-08-29T14:16:38-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050829-1416-i-said-id-be-back"
+  "comment-count": 0,
+  "dasblog-entry-id": "f63bae64-9040-453a-90c7-4380b8e26826",
+  "dasblog-title": "I+Said+Id+Be+Back",
+  "dasblog-unique-title": "2005/08/29/I+Said+Id+Be+Back"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1167,
   "slug": "including-the-batteries-in-ironpython",
   "title": "Including the Batteries in IronPython",
   "date": "2008-08-06T07:50:23-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20080806-0750-including-the-batteries-in-ironpython"
+  "comment-count": 2,
+  "dasblog-entry-id": "355828d2-3864-47f4-9baf-3abb037fcf1d",
+  "dasblog-title": "Including+The+Batteries+In+IronPython",
+  "dasblog-unique-title": "2008/08/06/Including+The+Batteries+In+IronPython"
 }

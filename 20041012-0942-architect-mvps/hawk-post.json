@@ -1,5 +1,4 @@
 {
-  "id": 447,
   "slug": "architect-mvps",
   "title": "Architect MVPs",
   "date": "2004-10-12T09:42:31-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20041012-0942-architect-mvps"
+  "comment-count": 1,
+  "dasblog-entry-id": "b31d2f8f-f299-41f9-9ede-a5f925f5b32d",
+  "dasblog-title": "Architect+MVPs",
+  "dasblog-unique-title": "2004/10/12/Architect+MVPs"
 }

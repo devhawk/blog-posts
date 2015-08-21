@@ -1,5 +1,4 @@
 {
-  "id": 1152,
   "slug": "ironpython-1-1-2-rc",
   "title": "IronPython 1.1.2 RC",
   "date": "2008-07-15T11:16:25-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080715-1116-ironpython-1-1-2-rc"
+  "comment-count": 0,
+  "dasblog-entry-id": "3d24829f-4d1d-45cd-aec2-4f83d0a206ad",
+  "dasblog-title": "IronPython+112+RC",
+  "dasblog-unique-title": "2008/07/15/IronPython+112+RC"
 }

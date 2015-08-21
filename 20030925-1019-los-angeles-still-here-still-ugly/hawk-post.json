@@ -1,5 +1,4 @@
 {
-  "id": 200,
   "slug": "los-angeles-still-here-still-ugly",
   "title": "Los Angeles: Still Here, Still Ugly",
   "date": "2003-09-25T10:19:55-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030925-1019-los-angeles-still-here-still-ugly"
+  "comment-count": 0,
+  "dasblog-entry-id": "6a765941-b4aa-4585-8104-869cac1e94a1",
+  "dasblog-title": "Los+Angeles+Still+Here+Still+Ugly",
+  "dasblog-unique-title": "2003/09/25/Los+Angeles+Still+Here+Still+Ugly"
 }

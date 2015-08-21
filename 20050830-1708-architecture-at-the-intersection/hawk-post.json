@@ -1,5 +1,4 @@
 {
-  "id": 620,
   "slug": "architecture-at-the-intersection",
   "title": "Architecture at the Intersection",
   "date": "2005-08-30T17:08:53-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20050830-1708-architecture-at-the-intersection"
+  "comment-count": 4,
+  "dasblog-entry-id": "26a8a400-285c-4810-aca7-3ba38a433a01",
+  "dasblog-title": "Architecture+At+The+Intersection",
+  "dasblog-unique-title": "2005/08/31/Architecture+At+The+Intersection"
 }

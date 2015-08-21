@@ -1,5 +1,4 @@
 {
-  "id": 1228,
   "slug": "writing-an-ironpython-debugger-refactoring",
   "title": "Writing an IronPython Debugger: Refactoring",
   "date": "2009-03-11T20:42:22-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090311-2042-writing-an-ironpython-debugger-refactoring"
+  "comment-count": 0,
+  "dasblog-entry-id": "c1a4f587-9497-48b8-b958-fc95c8127e73",
+  "dasblog-title": "Writing+An+IronPython+Debugger+Refactoring",
+  "dasblog-unique-title": "2009/03/12/Writing+An+IronPython+Debugger+Refactoring"
 }

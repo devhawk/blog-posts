@@ -1,5 +1,4 @@
 {
-  "id": 457,
   "slug": "oopsla-day-1",
   "title": "OOPSLA Day -1",
   "date": "2004-10-24T15:50:34-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20041024-1550-oopsla-day-1"
+  "comment-count": 0,
+  "dasblog-entry-id": "15e452a0-0a2b-4ae4-9ae3-5e11fe19f7e0",
+  "dasblog-title": "OOPSLA+Day+1",
+  "dasblog-unique-title": "2004/10/24/OOPSLA+Day+1"
 }

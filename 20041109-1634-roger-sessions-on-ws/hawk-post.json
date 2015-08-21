@@ -1,5 +1,4 @@
 {
-  "id": 479,
   "slug": "roger-sessions-on-ws",
   "title": "Roger Sessions on WS-*",
   "date": "2004-11-09T16:34:44-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20041109-1634-roger-sessions-on-ws"
+  "comment-count": 0,
+  "dasblog-entry-id": "657b75b9-0347-4ab5-8cf3-7c1de7dfbcce",
+  "dasblog-title": "Roger+Sessions+On+WS",
+  "dasblog-unique-title": "2004/11/10/Roger+Sessions+On+WS"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 28,
   "slug": "digital-pictures",
   "title": "Digital Pictures",
   "date": "2003-02-23T14:34:54-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20030223-1434-digital-pictures"
+  "comment-count": 1,
+  "dasblog-entry-id": "c091118f-6458-416b-a701-7399d6e4238f",
+  "dasblog-title": "Digital+Pictures",
+  "dasblog-unique-title": "2003/02/23/Digital+Pictures"
 }

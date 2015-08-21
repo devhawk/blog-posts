@@ -1,5 +1,4 @@
 {
-  "id": 568,
   "slug": "podcast-software-still-pretty-rudimentary",
   "title": "Podcast Software Still Pretty Rudimentary",
   "date": "2005-03-07T12:59:42-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging,Podcasting|podcasting",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20050307-1259-podcast-software-still-pretty-rudimentary"
+  "comment-count": 3,
+  "dasblog-entry-id": "6d7e2968-a595-40e0-8666-24b22b6d33e0",
+  "dasblog-title": "Podcast+Software+Still+Pretty+Rudimentary",
+  "dasblog-unique-title": "2005/03/07/Podcast+Software+Still+Pretty+Rudimentary"
 }

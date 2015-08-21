@@ -1,5 +1,4 @@
 {
-  "id": 246,
   "slug": "to-err-is-human",
   "title": "To Err Is Human",
   "date": "2003-12-09T16:00:12-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031209-1600-to-err-is-human"
+  "comment-count": 0,
+  "dasblog-entry-id": "e2d55e21-3063-40ba-a23d-b1ac4d569d8f",
+  "dasblog-title": "To+Err+Is+Human",
+  "dasblog-unique-title": "2003/12/10/To+Err+Is+Human"
 }

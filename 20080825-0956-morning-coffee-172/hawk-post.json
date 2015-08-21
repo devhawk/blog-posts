@@ -1,5 +1,4 @@
 {
-  "id": 1171,
   "slug": "morning-coffee-172",
   "title": "Morning Coffee 172",
   "date": "2008-08-25T09:56:01-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "F#|f-sharp,Family|family,IronRuby|ironruby,Silverlight|silverlight,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080825-0956-morning-coffee-172"
+  "comment-count": 1,
+  "dasblog-entry-id": "1446b623-c799-4f44-9cf7-a69fd666ca26",
+  "dasblog-title": "Morning+Coffee+172",
+  "dasblog-unique-title": "2008/08/25/Morning+Coffee+172"
 }

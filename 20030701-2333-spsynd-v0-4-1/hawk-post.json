@@ -1,5 +1,4 @@
 {
-  "id": 141,
   "slug": "spsynd-v0-4-1",
   "title": "SPSynd v0.4.1",
   "date": "2003-07-01T23:33:12-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030701-2333-spsynd-v0-4-1"
+  "comment-count": 0,
+  "dasblog-entry-id": "9a925fb9-83e4-43fb-94c4-5b1697fde033",
+  "dasblog-title": "SPSynd+V041",
+  "dasblog-unique-title": "2003/07/02/SPSynd+V041"
 }

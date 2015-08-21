@@ -1,82 +1,58 @@
 [
   {
-    "id": 2950,
     "author-name": "Wesner Moise",
     "author-email": "wesnerm@yahoo.com",
     "author-url": "",
     "date": "2004-01-14T16:36:25-08:00",
-    "content": "You can get rid of the alerts from the property box.",
-    "parent-id": 278,
-    "RowKey": "20040114-163625"
+    "content": "You can get rid of the alerts from the property box."
   },
   {
-    "id": 2951,
     "author-name": "Peter Bruinsma",
     "author-email": "peterbru@intraVnews.com",
     "author-url": "http://www.intravnews.com",
     "date": "2004-01-14T17:04:04-08:00",
-    "content": "Hi Harry!\n\nYou can use the same intraVnews view in your search folders that you use in your subscription folders. Simply copy the view to a new name and make sure to select the bottom option, so the view becomes available to all Mail/Post foldes. Then, when you are in the search folder, all you have to do is select the new view! \n\nRegards,\nPeter Bruinsma\nintraVnews",
-    "parent-id": 278,
-    "RowKey": "20040114-170404"
+    "content": "Hi Harry!\n\nYou can use the same intraVnews view in your search folders that you use in your subscription folders. Simply copy the view to a new name and make sure to select the bottom option, so the view becomes available to all Mail/Post foldes. Then, when you are in the search folder, all you have to do is select the new view! \n\nRegards,\nPeter Bruinsma\nintraVnews"
   },
   {
-    "id": 2952,
     "author-name": "Dominic Hopton",
     "author-email": "dominichopton@hotmail.com",
     "author-url": "http://www.codevoid.net",
     "date": "2004-01-14T18:06:11-08:00",
-    "content": "I use the unread items search folder, and then work my way through it. That stated, if your like any of the 'softies I know, you'll have reams of un-read items, so this doesnt work so well. To get around this you can setup a unread folder that only shows items below a parent folder (like a root feeds folder).\n\nTo move between items with just they keyboard, just hit space. This scrolls & moves to next unread item.",
-    "parent-id": 278,
-    "RowKey": "20040114-180611"
+    "content": "I use the unread items search folder, and then work my way through it. That stated, if your like any of the 'softies I know, you'll have reams of un-read items, so this doesnt work so well. To get around this you can setup a unread folder that only shows items below a parent folder (like a root feeds folder).\n\nTo move between items with just they keyboard, just hit space. This scrolls & moves to next unread item."
   },
   {
-    "id": 2953,
     "author-name": "Rick Culpepper",
     "author-email": "rickculpepper@msn.com",
     "author-url": "http://rickculpepper.net/",
     "date": "2004-01-14T20:53:21-08:00",
-    "content": "You know, I've been looking for an alternative to SharpReader. It was good at first, but it seems to really bog down my system at work (1.6GHz P4 w/1GB RAM).\n\nI downloaded intraVnews this afternoon and installed it. Wow! I use Outlook for my Exchange mail, so this is really nice.",
-    "parent-id": 278,
-    "RowKey": "20040114-205321"
+    "content": "You know, I've been looking for an alternative to SharpReader. It was good at first, but it seems to really bog down my system at work (1.6GHz P4 w/1GB RAM).\n\nI downloaded intraVnews this afternoon and installed it. Wow! I use Outlook for my Exchange mail, so this is really nice."
   },
   {
-    "id": 2954,
     "author-name": "Dan Woolstencroft",
     "author-email": "mail@dtw.me.uk",
     "author-url": "",
     "date": "2004-01-15T01:50:50-08:00",
-    "content": "Have a look at FeedDemon. I'm using it at the moment as a replacement for SharpReader. It isn't free (there's a trial) but I find I prefer the way it handles things.",
-    "parent-id": 278,
-    "RowKey": "20040115-015050"
+    "content": "Have a look at FeedDemon. I'm using it at the moment as a replacement for SharpReader. It isn't free (there's a trial) but I find I prefer the way it handles things."
   },
   {
-    "id": 2955,
     "author-name": "changeboy",
     "author-email": "iiklavier@yahoo.com.cn",
     "author-url": "http://www.51zhao.com/en/",
     "date": "2004-01-15T09:33:27-08:00",
-    "content": "Both Feeddemon and Desktop Sidebar(free) are better choices.\nI like desktop sidebar which notifies the newest news to me in my desktop. \n",
-    "parent-id": 278,
-    "RowKey": "20040115-093327"
+    "content": "Both Feeddemon and Desktop Sidebar(free) are better choices.\nI like desktop sidebar which notifies the newest news to me in my desktop. \n"
   },
   {
-    "id": 2956,
     "author-name": "Peter Provost",
     "author-email": "peter@provost.org",
     "author-url": "http://www.peterprovost.org/",
     "date": "2004-01-16T14:50:02-08:00",
-    "content": "You can use Search Folders in OL2K3 and group by Folder to get the categorization that you are looking for. I use NewsGator and Search Folders extensively.",
-    "parent-id": 278,
-    "RowKey": "20040116-145002"
+    "content": "You can use Search Folders in OL2K3 and group by Folder to get the categorization that you are looking for. I use NewsGator and Search Folders extensively."
   },
   {
-    "id": 2957,
     "author-name": "Louis Parks",
     "author-email": "",
     "author-url": "http://www.lparky.com/blog/",
     "date": "2004-02-01T10:45:32-08:00",
-    "content": "I just switched to intraVnews yesterday.  Here's how I solved the new blog entries vs. new email issue.\n\nRight click on \"Unread Mail\" and select \"Customize this Search Folder\"\n\nClick Browse.\n\nClear all check marks, then check Inbox.\n\nNow, the \"Unread Mail\" search folder will only contain mail items and not blog posts.\n\nTo create a folder for blog posts...\n\nRight click on Search Folders.\n\nSelect New Search Folder.\n\nSelect Unread mail.  (by defaul, it will search for mail in Personal Folders, we'll fix that in a sec)\n\nClick OK.  (Outlook will create the folder and start running the query.)\n\nNow, right click on the newly created search folder, probably called \"Unread Mail1\"\n\nSelect \"Customize this Search Folder\"\n\nClick Browse.\n\nUncheck Personal Folders.\n\nCheck intraVnews.\n\nClick OK\n\nYou can then name this something like \"Unread Blogs\"\n\nNow your email and blogs are completely separate.",
-    "parent-id": 278,
-    "RowKey": "20040201-104532"
+    "content": "I just switched to intraVnews yesterday.  Here's how I solved the new blog entries vs. new email issue.\n\nRight click on \"Unread Mail\" and select \"Customize this Search Folder\"\n\nClick Browse.\n\nClear all check marks, then check Inbox.\n\nNow, the \"Unread Mail\" search folder will only contain mail items and not blog posts.\n\nTo create a folder for blog posts...\n\nRight click on Search Folders.\n\nSelect New Search Folder.\n\nSelect Unread mail.  (by defaul, it will search for mail in Personal Folders, we'll fix that in a sec)\n\nClick OK.  (Outlook will create the folder and start running the query.)\n\nNow, right click on the newly created search folder, probably called \"Unread Mail1\"\n\nSelect \"Customize this Search Folder\"\n\nClick Browse.\n\nUncheck Personal Folders.\n\nCheck intraVnews.\n\nClick OK\n\nYou can then name this something like \"Unread Blogs\"\n\nNow your email and blogs are completely separate."
   }
 ]

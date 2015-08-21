@@ -1,5 +1,4 @@
 {
-  "id": 1219,
   "slug": "writing-an-ironpython-debugger-mdbg-101",
   "title": "Writing an IronPython Debugger: MDbg 101",
   "date": "2009-02-27T15:33:06-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20090227-1533-writing-an-ironpython-debugger-mdbg-101"
+  "comment-count": 1,
+  "dasblog-entry-id": "c122a8ee-102f-4478-a33b-cc0864b82d83",
+  "dasblog-title": "Writing+An+IronPython+Debugger+MDbg+101",
+  "dasblog-unique-title": "2009/02/27/Writing+An+IronPython+Debugger+MDbg+101"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 262,
   "slug": "messenger-net-currently-hosed",
   "title": "Messenger.NET Currently Hosed",
   "date": "2003-12-29T21:55:57-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031229-2155-messenger-net-currently-hosed"
+  "comment-count": 0,
+  "dasblog-entry-id": "241895c7-2b35-4bdc-8942-39a725f0b1d0",
+  "dasblog-title": "MessengerNET+Currently+Hosed",
+  "dasblog-unique-title": "2003/12/30/MessengerNET+Currently+Hosed"
 }

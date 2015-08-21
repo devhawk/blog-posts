@@ -1,5 +1,4 @@
 {
-  "id": 1258,
   "slug": "happy-birthday-riley",
   "title": "Happy Birthday Riley!",
   "date": "2009-05-05T20:29:12-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "Family|family",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20090505-2029-happy-birthday-riley"
+  "comment-count": 2,
+  "dasblog-entry-id": "1c82ad37-d471-4444-b906-0c93c9fbadff",
+  "dasblog-title": "Happy+Birthday+Riley",
+  "dasblog-unique-title": "2009/05/06/Happy+Birthday+Riley"
 }

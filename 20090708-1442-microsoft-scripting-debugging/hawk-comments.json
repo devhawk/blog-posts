@@ -1,32 +1,23 @@
 [
   {
-    "id": 2222,
     "author-name": "Kevin Hazzard",
     "author-email": "kevin@gotnet.biz",
     "author-url": "http://www,gotnet.biz/Blog",
     "date": "2009-07-08T16:11:56-07:00",
-    "content": "This is awesome, Harry. I've been wanting this is a long time. I do script embedding for my applications most of the time. This will be a great help. You folks on the DLR team are the best and brightest inside Microsoft. Keep it up!",
-    "parent-id": 1269,
-    "RowKey": "20090708-161156"
+    "content": "This is awesome, Harry. I've been wanting this is a long time. I do script embedding for my applications most of the time. This will be a great help. You folks on the DLR team are the best and brightest inside Microsoft. Keep it up!"
   },
   {
-    "id": 2223,
     "author-name": "Lukas",
     "author-email": "cenovsky@bakalari.cz",
     "author-url": "",
     "date": "2009-07-09T01:29:55-07:00",
-    "content": "Cool!",
-    "parent-id": 1269,
-    "RowKey": "20090709-012955"
+    "content": "Cool!"
   },
   {
-    "id": 2224,
     "author-name": "Jeff Brown",
     "author-email": "jeff.brown@gmail.com",
     "author-url": "http://blog.bits-in-motion.com/",
     "date": "2009-07-18T22:46:43-07:00",
-    "content": "Very cool!\n\nI was just adding support to Gallio for running RSpec tests with IronRuby and was wondering what the DLR debugging story was eventually going to look like.\n\nBTW, I'm quite happy integrating one or more IronPython supported testing frameworks too, if you have some to recommend.",
-    "parent-id": 1269,
-    "RowKey": "20090718-224643"
+    "content": "Very cool!\n\nI was just adding support to Gallio for running RSpec tests with IronRuby and was wondering what the DLR debugging story was eventually going to look like.\n\nBTW, I'm quite happy integrating one or more IronPython supported testing frameworks too, if you have some to recommend."
   }
 ]

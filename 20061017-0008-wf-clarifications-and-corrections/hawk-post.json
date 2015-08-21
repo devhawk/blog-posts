@@ -1,5 +1,4 @@
 {
-  "id": 818,
   "slug": "wf-clarifications-and-corrections",
   "title": "WF Clarifications and Corrections",
   "date": "2006-10-17T00:08:48-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging,WF|wf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20061017-0008-wf-clarifications-and-corrections"
+  "comment-count": 1,
+  "dasblog-entry-id": "6e2a5b96-56eb-43ef-9bb8-cd5bb0aa57e3",
+  "dasblog-title": "WF+Clarifications+And+Corrections",
+  "dasblog-unique-title": "2006/10/17/WF+Clarifications+And+Corrections"
 }

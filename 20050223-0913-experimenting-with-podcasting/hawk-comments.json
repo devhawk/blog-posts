@@ -1,22 +1,16 @@
 [
   {
-    "id": 2789,
     "author-name": "mearls@hotmail.com (Michael Earls)",
     "author-email": "mearls@hotmail.comMichaelEarls",
     "author-url": "http://www.cerkit.com/",
     "date": "2005-02-23T12:50:02-08:00",
-    "content": "I agree.  I wonder if there is an interim solution involving transcoding.  Perhaps a simple app that ran automatically and time-compressed all the audio or video files in a directory would be possible.",
-    "parent-id": 552,
-    "RowKey": "20050223-125002"
+    "content": "I agree.  I wonder if there is an interim solution involving transcoding.  Perhaps a simple app that ran automatically and time-compressed all the audio or video files in a directory would be possible."
   },
   {
-    "id": 2790,
     "author-name": "Matt",
     "author-email": "",
     "author-url": "http://technovangelist.com",
     "date": "2005-02-24T18:07:09-08:00",
-    "content": "As sson as I find a player that supports this, I am buying it. Just transcoding the full file doesn't work because sometime they include music that I want to listen to at regualr speed. When you hear of something, let me know.",
-    "parent-id": 552,
-    "RowKey": "20050224-180709"
+    "content": "As sson as I find a player that supports this, I am buying it. Just transcoding the full file doesn't work because sometime they include music that I want to listen to at regualr speed. When you hear of something, let me know."
   }
 ]

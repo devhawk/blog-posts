@@ -1,22 +1,16 @@
 [
   {
-    "id": 2685,
     "author-name": "David Ing",
     "author-email": "david.ing@gmail.com",
     "author-url": "",
     "date": "2004-09-30T19:28:53-07:00",
-    "content": "Oh, I kind of pictured using it like this (warning, ASCII art now follows... ;)\n\n- PurchaseOrder (Service)\n . GET (WS-T)\n . PUT (WS-T)\n * CheckStock() (service specific)\n- Foo (Service)\n . GET (WS-T)\n . PUT (WS-T)\n * Bar (service specific)\n\ni.e. the services and their data *are* typed with schemas but the actions share a kind of very simple interface type where applicable.\n\nI say again, this doesn't work for everything (i.e. a framework mindset that the client has to play in too),and you (of course) still need extra methods/actions; but where you can boil it down to services being able to 'facade' a 'resource like' business entity like a PurchaseOrder or such, then you can (a) walk up to a service a priori and have a chance at using it in context and (b) be able to aggregate the services (oh my, reporting with services, what next? :).\n\nSo all a bit too much to squeeze into a comment, but I would certainly agree that it's not 100% convincing as a set of specs, but interesting never the less...",
-    "parent-id": 444,
-    "RowKey": "20040930-192853"
+    "content": "Oh, I kind of pictured using it like this (warning, ASCII art now follows... ;)\n\n- PurchaseOrder (Service)\n . GET (WS-T)\n . PUT (WS-T)\n * CheckStock() (service specific)\n- Foo (Service)\n . GET (WS-T)\n . PUT (WS-T)\n * Bar (service specific)\n\ni.e. the services and their data *are* typed with schemas but the actions share a kind of very simple interface type where applicable.\n\nI say again, this doesn't work for everything (i.e. a framework mindset that the client has to play in too),and you (of course) still need extra methods/actions; but where you can boil it down to services being able to 'facade' a 'resource like' business entity like a PurchaseOrder or such, then you can (a) walk up to a service a priori and have a chance at using it in context and (b) be able to aggregate the services (oh my, reporting with services, what next? :).\n\nSo all a bit too much to squeeze into a comment, but I would certainly agree that it's not 100% convincing as a set of specs, but interesting never the less..."
   },
   {
-    "id": 2686,
     "author-name": "Steven Campbell",
     "author-email": "stevenjcampbell@hotmail.com",
     "author-url": "http://dukeytoo.blogspot.com",
     "date": "2004-10-04T11:17:10-07:00",
-    "content": "Regarding your laptop...I had a similar problem with my Compaq, and my current hypothesis is that the anti-spyware utility called AdAware had somehow messed up my settings.  I tried a registry hack to correct the problem, but my laptop did not survive the surgery.",
-    "parent-id": 444,
-    "RowKey": "20041004-111710"
+    "content": "Regarding your laptop...I had a similar problem with my Compaq, and my current hypothesis is that the anti-spyware utility called AdAware had somehow messed up my settings.  I tried a registry hack to correct the problem, but my laptop did not survive the surgery."
   }
 ]

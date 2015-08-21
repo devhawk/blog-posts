@@ -1,5 +1,4 @@
 {
-  "id": 1119,
   "slug": "morning-coffee-155-dueling-conference-edition",
   "title": "Morning Coffee 155 &#8211; Dueling Conference Edition",
   "date": "2008-03-06T09:51:17-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Blogging|blogging,Hardware|hardware,Microsoft|microsoft,Music|music,Research|research,Silverlight|silverlight,Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080306-0951-morning-coffee-155-dueling-conference-edition"
+  "comment-count": 1,
+  "dasblog-entry-id": "cec54f31-0f3a-4bf5-9e42-633b60b0a874",
+  "dasblog-title": "Morning+Coffee+155+Dueling+Conference+Edition",
+  "dasblog-unique-title": "2008/03/06/Morning+Coffee+155+Dueling+Conference+Edition"
 }

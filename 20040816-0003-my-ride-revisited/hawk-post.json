@@ -1,5 +1,4 @@
 {
-  "id": 417,
   "slug": "my-ride-revisited",
   "title": "My Ride (Revisited)",
   "date": "2004-08-16T00:03:12-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040816-0003-my-ride-revisited"
+  "comment-count": 0,
+  "dasblog-entry-id": "5f1ee012-9bba-4bab-be59-ae73dd19abfd",
+  "dasblog-title": "My+Ride+Revisited",
+  "dasblog-unique-title": "2004/08/16/My+Ride+Revisited"
 }

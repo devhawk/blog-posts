@@ -1,5 +1,4 @@
 {
-  "id": 1037,
   "slug": "durable-services-with-fake-persistence",
   "title": "Durable Services with Fake Persistence",
   "date": "2007-08-31T13:48:14-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "WCF|wcf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070831-1348-durable-services-with-fake-persistence"
+  "comment-count": 0,
+  "dasblog-entry-id": "a54fd2d7-faae-4d70-833d-5056c47afbc9",
+  "dasblog-title": "Durable+Services+With+Fake+Persistence",
+  "dasblog-unique-title": "2007/08/31/Durable+Services+With+Fake+Persistence"
 }

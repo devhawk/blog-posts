@@ -1,5 +1,4 @@
 {
-  "id": 658,
   "slug": "thoughts-on-cab",
   "title": "Thoughts on CAB",
   "date": "2005-11-23T00:01:02-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20051123-0001-thoughts-on-cab"
+  "comment-count": 2,
+  "dasblog-entry-id": "6e17873f-9d5b-401e-a9b4-609394e97e3f",
+  "dasblog-title": "Thoughts+On+CAB",
+  "dasblog-unique-title": "2005/11/23/Thoughts+On+CAB"
 }

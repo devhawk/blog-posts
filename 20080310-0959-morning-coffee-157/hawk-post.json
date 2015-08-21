@@ -1,5 +1,4 @@
 {
-  "id": 1121,
   "slug": "morning-coffee-157",
   "title": "Morning Coffee 157",
   "date": "2008-03-10T09:59:10-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "F#|f-sharp,Functional Programming|functional-programming,Hockey|hockey,Microsoft|microsoft,Silverlight|silverlight,Washington Capitals|washington-capitals,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080310-0959-morning-coffee-157"
+  "comment-count": 0,
+  "dasblog-entry-id": "0fe95201-dce1-47c8-88d0-a9a65808c262",
+  "dasblog-title": "Morning+Coffee+157",
+  "dasblog-unique-title": "2008/03/10/Morning+Coffee+157"
 }

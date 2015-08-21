@@ -1,22 +1,16 @@
 [
   {
-    "id": 2368,
     "author-name": "Anonymous",
     "author-email": "",
     "author-url": "",
     "date": "2006-06-21T12:31:18-07:00",
-    "content": "... can you tell this is an acidemic project?\n\nCan you tell that this blog isn't ;)",
-    "parent-id": 758,
-    "RowKey": "20060621-123118"
+    "content": "... can you tell this is an acidemic project?\n\nCan you tell that this blog isn't ;)"
   },
   {
-    "id": 2369,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2006-06-21T21:22:08-07:00",
-    "content": "Yes. :)",
-    "parent-id": 758,
-    "RowKey": "20060621-212208"
+    "content": "Yes. :)"
   }
 ]

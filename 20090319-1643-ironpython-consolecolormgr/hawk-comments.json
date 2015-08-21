@@ -1,32 +1,23 @@
 [
   {
-    "id": 2181,
     "author-name": "Christopher Bermingham",
     "author-email": "christopher.bermingham@us.bosch.com",
     "author-url": "http://bermingham.blogspot.com",
     "date": "2009-03-20T09:07:08-07:00",
-    "content": "Hello-  I am trying to get your consolecolor sample running...  What version of IronPython is that?  I am running the latest release 2.0.0.0 (which is really 2.0.1 file version 2.0.20209.00).  I believe the CPython 2.5 'with' statement doesn't seem to be recognized.\n\n>>> with consolecolor.Red:\n  File \"<stdin>\", line 1\n    with consolecolor.Red\n\n         ^\nSyntaxError: unexpected token 'consolecolor'",
-    "parent-id": 1231,
-    "RowKey": "20090320-090708"
+    "content": "Hello-  I am trying to get your consolecolor sample running...  What version of IronPython is that?  I am running the latest release 2.0.0.0 (which is really 2.0.1 file version 2.0.20209.00).  I believe the CPython 2.5 'with' statement doesn't seem to be recognized.\n\n>>> with consolecolor.Red:\n  File \"<stdin>\", line 1\n    with consolecolor.Red\n\n         ^\nSyntaxError: unexpected token 'consolecolor'"
   },
   {
-    "id": 2182,
     "author-name": "Christopher Bermingham",
     "author-email": "christopher.bermingham@us.bosch.com",
     "author-url": "http://bermingham.blogspot.com",
     "date": "2009-03-20T12:26:33-07:00",
-    "content": "Me again-\nI found it in an article that it looks like you have bookmarked :)\nfrom __future__ import with_statement\n\nhttp://langexplr.blogspot.com/2009/02/writing-xml-with-ironpython-xmlwriter.html\n\nYour sample looks great.  Thanks!",
-    "parent-id": 1231,
-    "RowKey": "20090320-122633"
+    "content": "Me again-\nI found it in an article that it looks like you have bookmarked :)\nfrom __future__ import with_statement\n\nhttp://langexplr.blogspot.com/2009/02/writing-xml-with-ironpython-xmlwriter.html\n\nYour sample looks great.  Thanks!"
   },
   {
-    "id": 2183,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2009-03-20T13:45:26-07:00",
-    "content": "Woops, thanks for pointing out my mistake Christoper. I've updated the code to include the __future__ import.\n\nAs for that xmlwriter article, that was the inspiration for this approach!",
-    "parent-id": 1231,
-    "RowKey": "20090320-134526"
+    "content": "Woops, thanks for pointing out my mistake Christoper. I've updated the code to include the __future__ import.\n\nAs for that xmlwriter article, that was the inspiration for this approach!"
   }
 ]

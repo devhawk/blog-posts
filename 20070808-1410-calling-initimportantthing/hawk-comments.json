@@ -1,22 +1,16 @@
 [
   {
-    "id": 2562,
     "author-name": "Thomas Eyde",
     "author-email": "thomas.eyde@gmail.com",
     "author-url": "",
     "date": "2007-08-09T10:23:55-07:00",
-    "content": "Here's a way to initialize last in the constructor:\n\nnamespace SnippetsFromBlogs.InitializeInConstructor\n{\n    [TestFixture]\n    public class ClassTests\n    {\n        [Test]\n        public void InitializeLastInContructor()\n        {\n            Base b = new Base(new Implementation(DateTime.Today));\n            Assert.IsNotNull(b.ImportantThing);\n        }\n\n        [Test, ExpectedException(typeof (Exception))]\n        public void FailFastOnMissingConstructorInitializing()\n        {\n            new Base(new FlawedImplementation());\n        }\n    }\n\n    internal class Base\n    {\n        private string _importantThing;\n\n        public Base(IInitializer implementation)\n        {\n            // Do initial setup\n            InitImportantThing(implementation);\n        }\n\n        private void InitImportantThing(IInitializer implementation)\n        {\n            _importantThing = implementation.CreateImportantThing();\n            if (_importantThing == null)\n                throw new Exception();\n        }\n\n        public string ImportantThing\n        {\n            get { return _importantThing; }\n        }\n    }\n\n    internal class Implementation : IInitializer\n    {\n        private readonly object _data;\n\n        public Implementation(DateTime dt)\n        {\n            _data = dt;\n        }\n\n        public string CreateImportantThing()\n        {\n            return _data.ToString();\n        }\n    }\n\n    internal class FlawedImplementation : IInitializer\n    {\n        public string CreateImportantThing()\n        {\n            return null;\n        }\n    }\n\n    internal interface IInitializer\n    {\n        string CreateImportantThing();\n    }\n}",
-    "parent-id": 1023,
-    "RowKey": "20070809-102355"
+    "content": "Here's a way to initialize last in the constructor:\n\nnamespace SnippetsFromBlogs.InitializeInConstructor\n{\n    [TestFixture]\n    public class ClassTests\n    {\n        [Test]\n        public void InitializeLastInContructor()\n        {\n            Base b = new Base(new Implementation(DateTime.Today));\n            Assert.IsNotNull(b.ImportantThing);\n        }\n\n        [Test, ExpectedException(typeof (Exception))]\n        public void FailFastOnMissingConstructorInitializing()\n        {\n            new Base(new FlawedImplementation());\n        }\n    }\n\n    internal class Base\n    {\n        private string _importantThing;\n\n        public Base(IInitializer implementation)\n        {\n            // Do initial setup\n            InitImportantThing(implementation);\n        }\n\n        private void InitImportantThing(IInitializer implementation)\n        {\n            _importantThing = implementation.CreateImportantThing();\n            if (_importantThing == null)\n                throw new Exception();\n        }\n\n        public string ImportantThing\n        {\n            get { return _importantThing; }\n        }\n    }\n\n    internal class Implementation : IInitializer\n    {\n        private readonly object _data;\n\n        public Implementation(DateTime dt)\n        {\n            _data = dt;\n        }\n\n        public string CreateImportantThing()\n        {\n            return _data.ToString();\n        }\n    }\n\n    internal class FlawedImplementation : IInitializer\n    {\n        public string CreateImportantThing()\n        {\n            return null;\n        }\n    }\n\n    internal interface IInitializer\n    {\n        string CreateImportantThing();\n    }\n}"
   },
   {
-    "id": 2563,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2007-08-09T13:56:45-07:00",
-    "content": "Thomas, that's an interesting implementation. However, this works because your implementation class doesn't inherit from the base class. Removing that restriction makes solving the problem fairly straightforward. \n\nPlus, the way you built this makes constructing a your constructor fairly cumbersome. I'm sure the WCF team wouldn't want to force all developers to construct two objects every time they need to create a service host.",
-    "parent-id": 1023,
-    "RowKey": "20070809-135645"
+    "content": "Thomas, that's an interesting implementation. However, this works because your implementation class doesn't inherit from the base class. Removing that restriction makes solving the problem fairly straightforward. \n\nPlus, the way you built this makes constructing a your constructor fairly cumbersome. I'm sure the WCF team wouldn't want to force all developers to construct two objects every time they need to create a service host."
   }
 ]

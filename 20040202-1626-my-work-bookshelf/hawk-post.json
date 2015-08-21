@@ -1,5 +1,4 @@
 {
-  "id": 300,
   "slug": "my-work-bookshelf",
   "title": "My Work Bookshelf",
   "date": "2004-02-02T16:26:42-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Working at MSFT|working-at-msft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 5,
-  "PartKey": "20040202-1626-my-work-bookshelf"
+  "comment-count": 5,
+  "dasblog-entry-id": "dd06efd1-cf51-4eed-927a-c82a01273b47",
+  "dasblog-title": "My+Work+Bookshelf",
+  "dasblog-unique-title": "2004/02/03/My+Work+Bookshelf"
 }

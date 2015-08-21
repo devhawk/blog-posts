@@ -1,22 +1,16 @@
 [
   {
-    "id": 2783,
     "author-name": "mearls@hotmail.com (Michael Earls)",
     "author-email": "mearls@hotmail.comMichaelEarls",
     "author-url": "http://www.cerkit.com/",
     "date": "2005-02-18T07:13:02-08:00",
-    "content": "Hey Harry, I was just looking through my Active Channels.  After I got done reading the Disney and Pointcast feeds, I was disappointed to learn that your site no longer supports Active Channels.  What gives?\n\nSincerely,\n\nMichael Earls\nCurator of the \"Push\" technology museum",
-    "parent-id": 546,
-    "RowKey": "20050218-071302"
+    "content": "Hey Harry, I was just looking through my Active Channels.  After I got done reading the Disney and Pointcast feeds, I was disappointed to learn that your site no longer supports Active Channels.  What gives?\n\nSincerely,\n\nMichael Earls\nCurator of the \"Push\" technology museum"
   },
   {
-    "id": 2784,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2005-02-18T10:13:47-08:00",
-    "content": "Michael, please resubscribe to my CDF feed at http://devhawk.net/cdf.ashx (instead of .aspx). I didn't get rid of the CDF feed, I just don't want to have a bunch of empty files in my web app just to fool the Title Mapper. Note, I've updated my template so that all my feeds now point to the .ashx files instead of the .aspx ones.",
-    "parent-id": 546,
-    "RowKey": "20050218-101347"
+    "content": "Michael, please resubscribe to my CDF feed at http://devhawk.net/cdf.ashx (instead of .aspx). I didn't get rid of the CDF feed, I just don't want to have a bunch of empty files in my web app just to fool the Title Mapper. Note, I've updated my template so that all my feeds now point to the .ashx files instead of the .aspx ones."
   }
 ]

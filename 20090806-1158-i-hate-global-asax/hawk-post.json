@@ -1,5 +1,4 @@
 {
-  "id": 1276,
   "slug": "i-hate-global-asax",
   "title": "I Hate Global.asax",
   "date": "2009-08-06T11:58:58-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "ASP.NET|asp-net,IronRuby|ironruby",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 6,
-  "PartKey": "20090806-1158-i-hate-global-asax"
+  "comment-count": 6,
+  "dasblog-entry-id": "f8806ba3-a1bb-4c6f-8a39-a0ca8a81ef58",
+  "dasblog-title": "I+Hate+Globalasax",
+  "dasblog-unique-title": "2009/08/06/I+Hate+Globalasax"
 }

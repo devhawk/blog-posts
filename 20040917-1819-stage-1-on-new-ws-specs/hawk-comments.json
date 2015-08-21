@@ -1,22 +1,16 @@
 [
   {
-    "id": 2683,
     "author-name": "David",
     "author-email": "david.ing@gmail.com",
     "author-url": "",
     "date": "2004-09-18T10:38:55-07:00",
-    "content": "WS-Transfer, as I see it, is all about uniformity of a simple interface, i.e. being able to offer different business functions through a common set of simple predefined verbs. \n\nNow while not everything can be squeezed into that metaphor when it can be, i.e. the client expects that framework etc, then the advantage is that an agent/client/whatever can 'walk up' to a series of services and have some sort of semantic understanding on what the action will do without a developer having to grok and discriminate between 'UpdatePO', 'SavePOrder', 'PersistPurchOrder' offered on different services.\n\nIf SOA is about integration then this 'dynamic discovery' of action can in some cases be very useful. IMO, maybe a set of WS-Profile REST assertions would be just as good to 'discover this verbage association', but I would need to understand more about WS-Transfer and their intentions behind it. Regardless, baking this into a messaging protocol *above* SOAP gives people the choice to see what flowers and blooms. \n\nYou're trust relationship comment is valid, but just because a client makes a claim to perform an action doesn’t mean the service has to perform it, i.e. the trust claim can be validated behind the service?\n",
-    "parent-id": 441,
-    "RowKey": "20040918-103855"
+    "content": "WS-Transfer, as I see it, is all about uniformity of a simple interface, i.e. being able to offer different business functions through a common set of simple predefined verbs. \n\nNow while not everything can be squeezed into that metaphor when it can be, i.e. the client expects that framework etc, then the advantage is that an agent/client/whatever can 'walk up' to a series of services and have some sort of semantic understanding on what the action will do without a developer having to grok and discriminate between 'UpdatePO', 'SavePOrder', 'PersistPurchOrder' offered on different services.\n\nIf SOA is about integration then this 'dynamic discovery' of action can in some cases be very useful. IMO, maybe a set of WS-Profile REST assertions would be just as good to 'discover this verbage association', but I would need to understand more about WS-Transfer and their intentions behind it. Regardless, baking this into a messaging protocol *above* SOAP gives people the choice to see what flowers and blooms. \n\nYou're trust relationship comment is valid, but just because a client makes a claim to perform an action doesn’t mean the service has to perform it, i.e. the trust claim can be validated behind the service?\n"
   },
   {
-    "id": 2684,
     "author-name": "Ian",
     "author-email": "",
     "author-url": "http://ianwhite.is-a-geek.net",
     "date": "2004-09-22T10:04:54-07:00",
-    "content": "No, its not.\nIn fact its a total bugbear of mine.\n\nWhat's wrong with good old html (or even better xml and a stylesheet). I means thats readable, oh I don't know EVERYWHERE? - without the huge overhead of having to download acrobat onto every platform you want to view the damn spec on, not to mention what for it to load up everytime you want to read the spec.\n\nI have some issues with the spec, but I have MAJOR problems with how it was packaged. I'm hoping this isn't going to become the way Microsoft publishes documents in the future. If it is, I hope you also publish a 'PDF to usefully portable format conversion tool'.\n\nPS, I think I'm at stage 2. Actually enumeration isn't make as much sense as transfer to me but I've only scan read that one so far.",
-    "parent-id": 441,
-    "RowKey": "20040922-100454"
+    "content": "No, its not.\nIn fact its a total bugbear of mine.\n\nWhat's wrong with good old html (or even better xml and a stylesheet). I means thats readable, oh I don't know EVERYWHERE? - without the huge overhead of having to download acrobat onto every platform you want to view the damn spec on, not to mention what for it to load up everytime you want to read the spec.\n\nI have some issues with the spec, but I have MAJOR problems with how it was packaged. I'm hoping this isn't going to become the way Microsoft publishes documents in the future. If it is, I hope you also publish a 'PDF to usefully portable format conversion tool'.\n\nPS, I think I'm at stage 2. Actually enumeration isn't make as much sense as transfer to me but I've only scan read that one so far."
   }
 ]

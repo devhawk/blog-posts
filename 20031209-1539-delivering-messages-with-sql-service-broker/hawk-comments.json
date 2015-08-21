@@ -1,12 +1,9 @@
 [
   {
-    "id": 2924,
     "author-name": "Benjamin Mitchell",
     "author-email": "benjaminm@benjaminm.net",
     "author-url": "http://benjaminm.net",
     "date": "2003-12-11T00:58:22-08:00",
-    "content": "Good to see more information about the Service Broker.  I think many people are confused about the different approaches to messaging that Microsoft are offering and have collected information about the Yukon Service Broker and how it compares to Indigo and MSMQ in my post 'More on the Microsoft Messaging message[1]'\n[1] - http://benjaminm.net/PermaLink.aspx?guid=dceab3fe-5eae-47e1-87a4-c795ca369d2d ",
-    "parent-id": 242,
-    "RowKey": "20031211-005822"
+    "content": "Good to see more information about the Service Broker.  I think many people are confused about the different approaches to messaging that Microsoft are offering and have collected information about the Yukon Service Broker and how it compares to Indigo and MSMQ in my post 'More on the Microsoft Messaging message[1]'\n[1] - http://benjaminm.net/PermaLink.aspx?guid=dceab3fe-5eae-47e1-87a4-c795ca369d2d "
   }
 ]

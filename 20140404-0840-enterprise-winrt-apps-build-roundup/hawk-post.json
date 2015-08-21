@@ -1,5 +1,4 @@
 {
-  "id": 2071,
   "slug": "enterprise-winrt-apps-build-roundup",
   "title": "Enterprise WinRT Apps Build Roundup",
   "date": "2014-04-04T08:40:18-07:00",
@@ -7,6 +6,5 @@
   "csv-category-slugs": "Development|development,Windows|windows,Windows Runtime|windows-runtime",
   "csv-tag-slugs": "brokered components|brokered-components,network loopback|network-loopback,sideload|sideload",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20140404-0840-enterprise-winrt-apps-build-roundup"
+  "comment-count": 3
 }

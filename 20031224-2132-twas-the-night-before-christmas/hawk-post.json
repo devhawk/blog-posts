@@ -1,5 +1,4 @@
 {
-  "id": 261,
   "slug": "twas-the-night-before-christmas",
   "title": "Twas the Night Before Christmas",
   "date": "2003-12-24T21:32:38-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031224-2132-twas-the-night-before-christmas"
+  "comment-count": 0,
+  "dasblog-entry-id": "d47af399-6087-4e9e-ad78-5e6d2d36e5d6",
+  "dasblog-title": "Twas+The+Night+Before+Christmas",
+  "dasblog-unique-title": "2003/12/25/Twas+The+Night+Before+Christmas"
 }

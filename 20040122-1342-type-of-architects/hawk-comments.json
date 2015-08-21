@@ -1,32 +1,23 @@
 [
   {
-    "id": 2971,
     "author-name": "David Williams",
     "author-email": "daviddwilliams@earthlink.net",
     "author-url": "",
     "date": "2004-01-23T03:25:18-08:00",
-    "content": "How about meta-systems architects?",
-    "parent-id": 289,
-    "RowKey": "20040123-032518"
+    "content": "How about meta-systems architects?"
   },
   {
-    "id": 2972,
     "author-name": "Rand Anderson",
     "author-email": "rand@executableabstractions.com",
     "author-url": "http://www.executableabstractions.com",
     "date": "2004-01-23T11:59:32-08:00",
-    "content": "I use 'enterprise architect' to represent this scale of architecture. So the full range becomes:\n- component\n- system\n- enterprise\n\nHTH,\nRand",
-    "parent-id": 289,
-    "RowKey": "20040123-115932"
+    "content": "I use 'enterprise architect' to represent this scale of architecture. So the full range becomes:\n- component\n- system\n- enterprise\n\nHTH,\nRand"
   },
   {
-    "id": 2973,
     "author-name": "Michael Earls",
     "author-email": "mearls@hotmail.com",
     "author-url": "http://www.cerkit.com",
     "date": "2004-02-05T05:58:37-08:00",
-    "content": "I think Rand is onto something.  +1\n\nYour post inspired me to think a lot about the behavioral patterns of our architects in addition to their titles and tasks.\n\nI wrote up a little piece based on observations of our team:\n\nhttp://www.cerkit.com/cerkitBlog/PermaLink.aspx?guid=e0b5eb55-efb5-4748-9cb1-0ff8f3170fc2\n\nThanks for the inspiration.",
-    "parent-id": 289,
-    "RowKey": "20040205-055837"
+    "content": "I think Rand is onto something.  +1\n\nYour post inspired me to think a lot about the behavioral patterns of our architects in addition to their titles and tasks.\n\nI wrote up a little piece based on observations of our team:\n\nhttp://www.cerkit.com/cerkitBlog/PermaLink.aspx?guid=e0b5eb55-efb5-4748-9cb1-0ff8f3170fc2\n\nThanks for the inspiration."
   }
 ]

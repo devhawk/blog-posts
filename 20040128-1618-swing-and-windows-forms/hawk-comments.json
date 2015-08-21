@@ -1,12 +1,9 @@
 [
   {
-    "id": 2974,
     "author-name": "Hal Pierson",
     "author-email": "halpierson@hotmail.com",
     "author-url": "",
     "date": "2004-01-29T08:52:29-08:00",
-    "content": "The neat thing about having the forms in a different process is that the engine could be remoted - a'la X-Windows.",
-    "parent-id": 293,
-    "RowKey": "20040129-085229"
+    "content": "The neat thing about having the forms in a different process is that the engine could be remoted - a'la X-Windows."
   }
 ]

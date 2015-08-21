@@ -1,5 +1,4 @@
 {
-  "id": 1149,
   "slug": "programming-languages-pdc08",
   "title": "Programming Languages @ PDC08",
   "date": "2008-07-01T10:37:57-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "C#|c-sharp,C++|c-plus-plus,DLR|dlr,F#|f-sharp,IronRuby|ironruby,Lanugages|lanugages,Microsoft|microsoft,PDC08|pdc08,Visual Basic|visual-basic",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080701-1037-programming-languages-pdc08"
+  "comment-count": 0,
+  "dasblog-entry-id": "5bc87995-3e97-4630-ba7a-cfe8f091d9f4",
+  "dasblog-title": "Programming+Languages+PDC08",
+  "dasblog-unique-title": "2008/07/01/Programming+Languages+PDC08"
 }

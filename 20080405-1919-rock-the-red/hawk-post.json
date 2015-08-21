@@ -1,5 +1,4 @@
 {
-  "id": 1131,
   "slug": "rock-the-red",
   "title": "Rock the Red",
   "date": "2008-04-05T19:19:08-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080405-1919-rock-the-red"
+  "comment-count": 0,
+  "dasblog-entry-id": "c471ef71-95e8-4550-ad77-d884195ff51e",
+  "dasblog-title": "Rock+The+Red",
+  "dasblog-unique-title": "2008/04/06/Rock+The+Red"
 }

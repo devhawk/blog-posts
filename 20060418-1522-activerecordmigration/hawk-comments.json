@@ -1,12 +1,9 @@
 [
   {
-    "id": 2348,
     "author-name": "Robby Russell",
     "author-email": "robby@planetargon.com",
     "author-url": "http://www.robbyonrails.com",
     "date": "2006-04-19T11:28:54-07:00",
-    "content": "Correct, ActiveRecord migrations were added early last fall and those articles are about a year old. :-)\n\n",
-    "parent-id": 737,
-    "RowKey": "20060419-112854"
+    "content": "Correct, ActiveRecord migrations were added early last fall and those articles are about a year old. :-)\n\n"
   }
 ]

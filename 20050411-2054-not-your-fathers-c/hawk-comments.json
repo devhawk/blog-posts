@@ -1,12 +1,9 @@
 [
   {
-    "id": 2811,
     "author-name": "your father",
     "author-email": "halpierson@hotmail.com",
     "author-url": "",
     "date": "2005-04-12T06:01:19-07:00",
-    "content": "So what's the syntax for a \"generic template\"?  And is it different from a \"templated generic\"?  Programmers find it hard to ignore features in a language.  I'm afraid this will lead to unreadable code.",
-    "parent-id": 587,
-    "RowKey": "20050412-060119"
+    "content": "So what's the syntax for a \"generic template\"?  And is it different from a \"templated generic\"?  Programmers find it hard to ignore features in a language.  I'm afraid this will lead to unreadable code."
   }
 ]

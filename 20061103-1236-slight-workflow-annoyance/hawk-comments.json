@@ -1,12 +1,9 @@
 [
   {
-    "id": 2423,
     "author-name": "Ingo Rammer",
     "author-email": "ingo.rammer@thinktecture.com",
     "author-url": "",
     "date": "2006-11-03T13:10:25-08:00",
-    "content": "I'd respectfully tend to disagree. I am a firm believer in the idea that exceptions should be thrown when a method can't perform the operation which is implied by its name. (This is a bit more concrete than the \"exceptional condition\"). Which now means that the semantic implication of \"get\" (as in GetWorkflow) is the thing we'd need to argue about. Here, I usually tend to prefer the pattern that get/load/retrieve-methods do indeed throw an exception if the can't get the specified item (after all, they couldn't do what their name implies) whereas methods like FindWorkflow() - if they would exist - would happily return empty lists if there were no matches for the given criteria. In essence, I would have expected the WF runtime to perform this operation exactly in the way it does.\n\nJust my 2c,\n-Ingo",
-    "parent-id": 827,
-    "RowKey": "20061103-131025"
+    "content": "I'd respectfully tend to disagree. I am a firm believer in the idea that exceptions should be thrown when a method can't perform the operation which is implied by its name. (This is a bit more concrete than the \"exceptional condition\"). Which now means that the semantic implication of \"get\" (as in GetWorkflow) is the thing we'd need to argue about. Here, I usually tend to prefer the pattern that get/load/retrieve-methods do indeed throw an exception if the can't get the specified item (after all, they couldn't do what their name implies) whereas methods like FindWorkflow() - if they would exist - would happily return empty lists if there were no matches for the given criteria. In essence, I would have expected the WF runtime to perform this operation exactly in the way it does.\n\nJust my 2c,\n-Ingo"
   }
 ]

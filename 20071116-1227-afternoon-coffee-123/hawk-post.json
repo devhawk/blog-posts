@@ -1,5 +1,4 @@
 {
-  "id": 1051,
   "slug": "afternoon-coffee-123",
   "title": "Afternoon Coffee 123",
   "date": "2007-11-16T12:27:41-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "ASP.NET|asp-net,Family|family,REST|rest,Security|security,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071116-1227-afternoon-coffee-123"
+  "comment-count": 0,
+  "dasblog-entry-id": "cbba8c52-bc17-472f-b216-5e0d2d4f74de",
+  "dasblog-title": "Afternoon+Coffee+123",
+  "dasblog-unique-title": "2007/11/16/Afternoon+Coffee+123"
 }

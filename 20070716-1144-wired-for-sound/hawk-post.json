@@ -1,5 +1,4 @@
 {
-  "id": 1007,
   "slug": "wired-for-sound",
   "title": "Wired for Sound",
   "date": "2007-07-16T11:44:05-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "General Geekery|general-geekery",
   "csv-tag-slugs": "DIY|diy,Home Electronics|home-electronics,Music|music",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070716-1144-wired-for-sound"
+  "comment-count": 1,
+  "dasblog-entry-id": "1f519169-d2e0-4f8e-9b58-0967796c2da8",
+  "dasblog-title": "Wired+For+Sound",
+  "dasblog-unique-title": "2007/07/16/Wired+For+Sound"
 }

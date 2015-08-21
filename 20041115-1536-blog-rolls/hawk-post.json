@@ -1,5 +1,4 @@
 {
-  "id": 482,
   "slug": "blog-rolls",
   "title": "Blog Rolls",
   "date": "2004-11-15T15:36:41-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20041115-1536-blog-rolls"
+  "comment-count": 2,
+  "dasblog-entry-id": "19da9047-d333-49ea-b151-3268c434f1a1",
+  "dasblog-title": "Blog+Rolls",
+  "dasblog-unique-title": "2004/11/15/Blog+Rolls"
 }

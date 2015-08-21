@@ -1,5 +1,4 @@
 {
-  "id": 1221,
   "slug": "writing-an-ironpython-debugger-hello-debugger",
   "title": "Writing an IronPython Debugger: Hello, Debugger!",
   "date": "2009-02-27T17:41:21-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20090227-1741-writing-an-ironpython-debugger-hello-debugger"
+  "comment-count": 2,
+  "dasblog-entry-id": "f7cea3aa-460b-4f8d-a76e-a24df4543e38",
+  "dasblog-title": "Writing+An+IronPython+Debugger+Hello+Debugger",
+  "dasblog-unique-title": "2009/02/28/Writing+An+IronPython+Debugger+Hello+Debugger"
 }

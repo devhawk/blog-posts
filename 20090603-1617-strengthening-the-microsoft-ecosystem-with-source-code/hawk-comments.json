@@ -1,52 +1,37 @@
 [
   {
-    "id": 2215,
     "author-name": "lawch",
     "author-email": "wschae@gmail.com",
     "author-url": "http://kldp.org/blog/10621",
     "date": "2009-06-10T15:25:46-07:00",
-    "content": "Thank you for sharing this. Your presentation is really impressive and I would like to share it with my friends in Korea. Do you mind if I translate your script into Korean and post it on my blog? Thank you again. -lawch",
-    "parent-id": 1264,
-    "RowKey": "20090610-152546"
+    "content": "Thank you for sharing this. Your presentation is really impressive and I would like to share it with my friends in Korea. Do you mind if I translate your script into Korean and post it on my blog? Thank you again. -lawch"
   },
   {
-    "id": 2216,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2009-06-12T10:33:44-07:00",
-    "content": "@lawch, That would be great! please drop me a note when it's done - I'd love to see it and blog about it as well.",
-    "parent-id": 1264,
-    "RowKey": "20090612-103344"
+    "content": "@lawch, That would be great! please drop me a note when it's done - I'd love to see it and blog about it as well."
   },
   {
-    "id": 2217,
     "author-name": "lawch",
     "author-email": "wschae@gmail.com",
     "author-url": "http://kldp.org/node/106276",
     "date": "2009-06-15T14:01:23-07:00",
-    "content": "Thanks for your permission. I just post my translation at http://kldp.org/node/106276. If there are any useful comments on it, I will let you know. Thanks. -lawch",
-    "parent-id": 1264,
-    "RowKey": "20090615-140123"
+    "content": "Thanks for your permission. I just post my translation at http://kldp.org/node/106276. If there are any useful comments on it, I will let you know. Thanks. -lawch"
   },
   {
-    "id": 2218,
     "author-name": "Bruce Pierson",
     "author-email": "bpierson@connexatools.com",
     "author-url": "http://www.connexatools.com",
     "date": "2009-07-08T10:41:19-07:00",
-    "content": "Good stuff, as always. It cracks me up that the \"Open Source\" logo itself has a \"TM\" on it :)",
-    "parent-id": 1264,
-    "RowKey": "20090708-104119"
+    "content": "Good stuff, as always. It cracks me up that the \"Open Source\" logo itself has a \"TM\" on it :)"
   },
   {
-    "id": 2220,
     "author-name": "Arvindra Sehmi",
     "author-email": "asehmi@onalytica.com",
     "author-url": "http://www.onalytica.com",
     "date": "2009-07-24T07:52:12-07:00",
-    "content": "Hi Harry,\n\nOne of the things I did before I left MS was to write a ThinkWeek paper, co-authored with Mauricio Ulargui. It was entitled: \"Capturing Community Innovation - A call to move research and development to the next level through communities, collaboration and customers\". After reading this post I could see our thoughts are very much aligned.\n\nAll the best - Arvindra\n",
-    "parent-id": 1264,
-    "RowKey": "20090724-075212"
+    "content": "Hi Harry,\n\nOne of the things I did before I left MS was to write a ThinkWeek paper, co-authored with Mauricio Ulargui. It was entitled: \"Capturing Community Innovation - A call to move research and development to the next level through communities, collaboration and customers\". After reading this post I could see our thoughts are very much aligned.\n\nAll the best - Arvindra\n"
   }
 ]

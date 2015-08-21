@@ -1,5 +1,4 @@
 {
-  "id": 1059,
   "slug": "f-hawkeye-pattern-matching",
   "title": "F# Hawkeye : Pattern Matching",
   "date": "2007-11-29T07:40:04-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "F#|f-sharp",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 5,
-  "PartKey": "20071129-0740-f-hawkeye-pattern-matching"
+  "comment-count": 5,
+  "dasblog-entry-id": "13219b39-a182-4488-a97d-2dc78e63780e",
+  "dasblog-title": "F+Hawkeye+Pattern+Matching",
+  "dasblog-unique-title": "2007/11/29/F+Hawkeye+Pattern+Matching"
 }

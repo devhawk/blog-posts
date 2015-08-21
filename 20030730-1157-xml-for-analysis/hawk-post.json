@@ -1,5 +1,4 @@
 {
-  "id": 163,
   "slug": "xml-for-analysis",
   "title": "XML for Analysis",
   "date": "2003-07-30T11:57:05-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030730-1157-xml-for-analysis"
+  "comment-count": 0,
+  "dasblog-entry-id": "25e11b87-88de-48bc-932e-ba7f2382f63f",
+  "dasblog-title": "XML+For+Analysis",
+  "dasblog-unique-title": "2003/07/30/XML+For+Analysis"
 }

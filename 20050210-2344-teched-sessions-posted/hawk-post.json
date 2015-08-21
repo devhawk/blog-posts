@@ -1,5 +1,4 @@
 {
-  "id": 535,
   "slug": "teched-sessions-posted",
   "title": "TechEd Sessions Posted",
   "date": "2005-02-10T23:44:02-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050210-2344-teched-sessions-posted"
+  "comment-count": 0,
+  "dasblog-entry-id": "7610d8b8-e40a-4e07-91bb-de5348f0d11f",
+  "dasblog-title": "TechEd+Sessions+Posted",
+  "dasblog-unique-title": "2005/02/11/TechEd+Sessions+Posted"
 }

@@ -1,32 +1,23 @@
 [
   {
-    "id": 2698,
     "author-name": "brant",
     "author-email": "brantcarter@hotmail.com",
     "author-url": "",
     "date": "2004-10-27T07:27:31-07:00",
-    "content": "There was a big difference between Kay's lecture and the keynote that I don't think you are capturing.\n\n- The product demo during the Keynote was delivered by the Program Manager for the tool; not from the primary speaker (Head of MS Research)\n\n- The product demo was very hard to follow and didn't seem to re-enforce any of the topics that the speaker had let up to; it felt very disconnected: hence the commercial feel to it\n\n- Kay's lecture was really his business; the lecture is the reward he gets for all the great contributions he has made during his career; if he wan't to show some products that's his choice.  A Keynote is different; its supposed to setup the theme of the conference: there are plenty of other times during the conference for product demos\n\n- Kay's demo wasn't really pushing a vendor or a product; but rather (IMO) trying to show the lack of innovation in computing science; this fit very well with his entire lecture which was positioned as a challenge to the community to teach better, and innovate more.  (BTW: it is clear that he views MS as one of the companies NOT innovating I would be interested to see you blog about that)\n\nI saw MANY people just walk out during the MS Keynote demo it was clear that\n- Many (more than 50%) were Java developers that really have no use for MS only tools\n- Many felt it inappropriate to be doing a product demo at that time\n- MS \"abused\" its priviledge of the Keynote by resorting to blatant produt advertising\n\ncheers\n\nb\n\nPS: One my Day 1 highlights was Ward Cunningham's lecture did you attend that?",
-    "parent-id": 464,
-    "RowKey": "20041027-072731"
+    "content": "There was a big difference between Kay's lecture and the keynote that I don't think you are capturing.\n\n- The product demo during the Keynote was delivered by the Program Manager for the tool; not from the primary speaker (Head of MS Research)\n\n- The product demo was very hard to follow and didn't seem to re-enforce any of the topics that the speaker had let up to; it felt very disconnected: hence the commercial feel to it\n\n- Kay's lecture was really his business; the lecture is the reward he gets for all the great contributions he has made during his career; if he wan't to show some products that's his choice.  A Keynote is different; its supposed to setup the theme of the conference: there are plenty of other times during the conference for product demos\n\n- Kay's demo wasn't really pushing a vendor or a product; but rather (IMO) trying to show the lack of innovation in computing science; this fit very well with his entire lecture which was positioned as a challenge to the community to teach better, and innovate more.  (BTW: it is clear that he views MS as one of the companies NOT innovating I would be interested to see you blog about that)\n\nI saw MANY people just walk out during the MS Keynote demo it was clear that\n- Many (more than 50%) were Java developers that really have no use for MS only tools\n- Many felt it inappropriate to be doing a product demo at that time\n- MS \"abused\" its priviledge of the Keynote by resorting to blatant produt advertising\n\ncheers\n\nb\n\nPS: One my Day 1 highlights was Ward Cunningham's lecture did you attend that?"
   },
   {
-    "id": 2699,
     "author-name": "Anon",
     "author-email": "",
     "author-url": "",
     "date": "2004-10-28T18:19:42-07:00",
-    "content": "GME has been around for a long time - your comments display a patronizing attitude.  If I were Gan I nmight very well say it's nice to finally see DSL support from Industry.",
-    "parent-id": 464,
-    "RowKey": "20041028-181942"
+    "content": "GME has been around for a long time - your comments display a patronizing attitude.  If I were Gan I nmight very well say it's nice to finally see DSL support from Industry."
   },
   {
-    "id": 2700,
     "author-name": "Anon",
     "author-email": "",
     "author-url": "",
     "date": "2004-10-30T02:44:02-07:00",
-    "content": "If all Microsoft has got to offer is a highly bespoke VS specific tool that is based on XML to VS translation, then this is a weak effort indeed, and certainly not the vision of DSL's that people had in mind.\n\nMetatools such as GME and EMF and standards such as MOF have emerged because DSL development is very much dependent on a technology independent meta-data foundation. Because MS has chosen to ignore this, it will end up producing tools that are ultimately constrained by what they can offer the community.",
-    "parent-id": 464,
-    "RowKey": "20041030-024402"
+    "content": "If all Microsoft has got to offer is a highly bespoke VS specific tool that is based on XML to VS translation, then this is a weak effort indeed, and certainly not the vision of DSL's that people had in mind.\n\nMetatools such as GME and EMF and standards such as MOF have emerged because DSL development is very much dependent on a technology independent meta-data foundation. Because MS has chosen to ignore this, it will end up producing tools that are ultimately constrained by what they can offer the community."
   }
 ]

@@ -1,5 +1,4 @@
 {
-  "id": 170,
   "slug": "on-the-road-again",
   "title": "On the Road Again",
   "date": "2003-08-12T15:58:59-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030812-1558-on-the-road-again"
+  "comment-count": 0,
+  "dasblog-entry-id": "f0f690e0-4d50-4654-9199-49181ee36a35",
+  "dasblog-title": "On+The+Road+Again",
+  "dasblog-unique-title": "2003/08/12/On+The+Road+Again"
 }

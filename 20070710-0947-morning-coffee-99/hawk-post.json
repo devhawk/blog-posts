@@ -1,5 +1,4 @@
 {
-  "id": 1001,
   "slug": "morning-coffee-99",
   "title": "Morning Coffee 99",
   "date": "2007-07-10T09:47:39-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Concurrency|concurrency,Durable Messaging|durable-messaging,Robotics|robotics,SOA|soa,Unit Testing|unit-testing",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070710-0947-morning-coffee-99"
+  "comment-count": 0,
+  "dasblog-entry-id": "46853dc8-1178-4992-b9b7-11dd23fc2da8",
+  "dasblog-title": "Morning+Coffee+99",
+  "dasblog-unique-title": "2007/07/10/Morning+Coffee+99"
 }

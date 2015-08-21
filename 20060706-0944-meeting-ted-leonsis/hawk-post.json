@@ -1,5 +1,4 @@
 {
-  "id": 765,
   "slug": "meeting-ted-leonsis",
   "title": "Meeting Ted Leonsis",
   "date": "2006-07-06T09:44:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Hockey|hockey,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060706-0944-meeting-ted-leonsis"
+  "comment-count": 0,
+  "dasblog-entry-id": "5cf15e92-68a4-47de-92df-4c35037b11ac",
+  "dasblog-title": "Meeting+Ted+Leonsis",
+  "dasblog-unique-title": "2006/07/06/Meeting+Ted+Leonsis"
 }

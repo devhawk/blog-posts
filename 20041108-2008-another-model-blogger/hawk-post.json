@@ -1,5 +1,4 @@
 {
-  "id": 471,
   "slug": "another-model-blogger",
   "title": "Another Model Blogger",
   "date": "2004-11-08T20:08:39-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging,Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20041108-2008-another-model-blogger"
+  "comment-count": 0,
+  "dasblog-entry-id": "730a03fc-d060-4e28-8734-19b646597a28",
+  "dasblog-title": "Another+Model+Blogger",
+  "dasblog-unique-title": "2004/11/09/Another+Model+Blogger"
 }

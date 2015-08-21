@@ -1,12 +1,9 @@
 [
   {
-    "id": 2875,
     "author-name": "T.Parker",
     "author-email": "tparker@microlinkllc.com",
     "author-url": "",
     "date": "2006-03-15T10:50:50-08:00",
-    "content": "I am curious about the explorer_close and inspector_close events.  I have noticed that the code throws all sorts of \"first chance exceptions\" during runtime and shutdown.  The problem I see is that there is no way to integrate custom images or position information(loaded at instantiation,saved at shutdown).  The concept is very good, but I think it needs more tweaking to become a true Utility class.\n\nStill it is a very good piece of work, and an awesome accelerator for Outlook Smart Client creation.",
-    "parent-id": 670,
-    "RowKey": "20060315-105050"
+    "content": "I am curious about the explorer_close and inspector_close events.  I have noticed that the code throws all sorts of \"first chance exceptions\" during runtime and shutdown.  The problem I see is that there is no way to integrate custom images or position information(loaded at instantiation,saved at shutdown).  The concept is very good, but I think it needs more tweaking to become a true Utility class.\n\nStill it is a very good piece of work, and an awesome accelerator for Outlook Smart Client creation."
   }
 ]

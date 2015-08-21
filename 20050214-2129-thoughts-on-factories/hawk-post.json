@@ -1,5 +1,4 @@
 {
-  "id": 543,
   "slug": "thoughts-on-factories",
   "title": "Thoughts on Factories",
   "date": "2005-02-14T21:29:26-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050214-2129-thoughts-on-factories"
+  "comment-count": 0,
+  "dasblog-entry-id": "195132d4-52fe-4dc8-93ac-4d8e57c6f954",
+  "dasblog-title": "Thoughts+On+Factories",
+  "dasblog-unique-title": "2005/02/15/Thoughts+On+Factories"
 }

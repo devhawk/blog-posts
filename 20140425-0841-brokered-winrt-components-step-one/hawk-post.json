@@ -1,5 +1,4 @@
 {
-  "id": 2088,
   "slug": "brokered-winrt-components-step-one",
   "title": "Brokered WinRT Components Step One",
   "date": "2014-04-25T08:41:29-07:00",
@@ -7,6 +6,5 @@
   "csv-category-slugs": "Development|development,Windows|windows,Windows Runtime|windows-runtime",
   "csv-tag-slugs": "brokered components|brokered-components,sideload|sideload,tutorial|tutorial",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20140425-0841-brokered-winrt-components-step-one"
+  "comment-count": 2
 }

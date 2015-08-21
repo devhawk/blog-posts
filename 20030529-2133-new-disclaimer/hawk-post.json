@@ -1,5 +1,4 @@
 {
-  "id": 106,
   "slug": "new-disclaimer",
   "title": "New Disclaimer",
   "date": "2003-05-29T21:33:08-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030529-2133-new-disclaimer"
+  "comment-count": 0,
+  "dasblog-entry-id": "7f8bdbae-4eb2-43de-ba52-513b7b5d3f0d",
+  "dasblog-title": "New+Disclaimer",
+  "dasblog-unique-title": "2003/05/30/New+Disclaimer"
 }

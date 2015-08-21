@@ -1,5 +1,4 @@
 {
-  "id": 695,
   "slug": "redundant-specifications",
   "title": "Redundant Specifications",
   "date": "2006-02-16T15:31:28-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060216-1531-redundant-specifications"
+  "comment-count": 0,
+  "dasblog-entry-id": "93a0f86c-28e8-40dc-a5ef-8b9a99f79f46",
+  "dasblog-title": "Redundant+Specifications",
+  "dasblog-unique-title": "2006/02/16/Redundant+Specifications"
 }

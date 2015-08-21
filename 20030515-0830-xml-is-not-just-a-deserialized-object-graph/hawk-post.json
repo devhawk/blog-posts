@@ -1,5 +1,4 @@
 {
-  "id": 90,
   "slug": "xml-is-not-just-a-deserialized-object-graph",
   "title": "XML Is Not Just a Deserialized Object Graph",
   "date": "2003-05-15T08:30:13-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030515-0830-xml-is-not-just-a-deserialized-object-graph"
+  "comment-count": 0,
+  "dasblog-entry-id": "5643b052-f1f2-4c53-ac33-e33d0910f917",
+  "dasblog-title": "XML+Is+Not+Just+A+Deserialized+Object+Graph",
+  "dasblog-unique-title": "2003/05/15/XML+Is+Not+Just+A+Deserialized+Object+Graph"
 }

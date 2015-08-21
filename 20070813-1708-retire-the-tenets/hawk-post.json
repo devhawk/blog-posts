@@ -1,5 +1,4 @@
 {
-  "id": 1027,
   "slug": "retire-the-tenets",
   "title": "Retire the Tenets",
   "date": "2007-08-13T17:08:12-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Object Oriented|object-oriented,SOA|soa,WCF|wcf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20070813-1708-retire-the-tenets"
+  "comment-count": 2,
+  "dasblog-entry-id": "16c1b1f6-0620-4b18-af29-28ddd5a87877",
+  "dasblog-title": "Retire+The+Tenets",
+  "dasblog-unique-title": "2007/08/14/Retire+The+Tenets"
 }

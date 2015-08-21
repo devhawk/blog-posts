@@ -1,5 +1,4 @@
 {
-  "id": 1169,
   "slug": "monadic-philosophy-part-5-reader-comments",
   "title": "Monadic Philosophy Part 5 &#8211; Reader Comments",
   "date": "2008-08-08T17:20:06-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "C#|c-sharp,F#|f-sharp,Functional Programming|functional-programming,Monads|monads",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080808-1720-monadic-philosophy-part-5-reader-comments"
+  "comment-count": 1,
+  "dasblog-entry-id": "c7d7d1db-0c17-4845-b30f-0fbed21e5741",
+  "dasblog-title": "Monadic+Philosophy+Part+5+Reader+Comments",
+  "dasblog-unique-title": "2008/08/09/Monadic+Philosophy+Part+5+Reader+Comments"
 }

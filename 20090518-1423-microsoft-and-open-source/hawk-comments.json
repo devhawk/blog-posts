@@ -1,62 +1,44 @@
 [
   {
-    "id": 2208,
     "author-name": "Greg Leonardo",
     "author-email": "gleonardo@laacware.com",
     "author-url": "http://www.devenvy.com/",
     "date": "2009-05-18T15:20:31-07:00",
-    "content": "In the simplest of terms many of the good ideas are overlooked or understated simply because I company is too tied up in maintaining its propriety code and updating it for the community.  I have found the biggest enhancements come from the simplest ideas and from those that don't look at the code or products everyday.  The biggest point behind open source is the ability to contribute and become a part of the process - empower the user empower the change.  Look though-out technologies history and you will see how empowering the user has create vast advancements in technology as a whole.  Most of Microsoft's community have had a say in the \"direction\" of Microsoft products, now you will just give them the stirring wheel and allow them to fix their own car.",
-    "parent-id": 1260,
-    "RowKey": "20090518-152031"
+    "content": "In the simplest of terms many of the good ideas are overlooked or understated simply because I company is too tied up in maintaining its propriety code and updating it for the community.  I have found the biggest enhancements come from the simplest ideas and from those that don't look at the code or products everyday.  The biggest point behind open source is the ability to contribute and become a part of the process - empower the user empower the change.  Look though-out technologies history and you will see how empowering the user has create vast advancements in technology as a whole.  Most of Microsoft's community have had a say in the \"direction\" of Microsoft products, now you will just give them the stirring wheel and allow them to fix their own car."
   },
   {
-    "id": 2209,
     "author-name": "Greg Leonardo",
     "author-email": "gleonardo@laacware.com",
     "author-url": "http://www.devenvy.com/",
     "date": "2009-05-18T15:24:21-07:00",
-    "content": "In the simplest of terms many of the good ideas are overlooked or understated simply because the company is too tied up in maintaining its propriety code and updating it for the community. I have found the biggest enhancements come from the simplest ideas and from those that don't look at the code or products everyday. The biggest point behind open source is the ability to contribute and become a part of the process - empower the user empower the change. Look thoughout technologies history and you will see how empowering the user has created vast advancements in technology as a whole. Most of Microsoft's community have had a say in the \"direction\" of Microsoft products, now you will just give them the stirring wheel and allow them to fix their own car.\n\nSorry the post above had some mistakes that I corrected but did not get posted - sorry for the repost.",
-    "parent-id": 1260,
-    "RowKey": "20090518-152421"
+    "content": "In the simplest of terms many of the good ideas are overlooked or understated simply because the company is too tied up in maintaining its propriety code and updating it for the community. I have found the biggest enhancements come from the simplest ideas and from those that don't look at the code or products everyday. The biggest point behind open source is the ability to contribute and become a part of the process - empower the user empower the change. Look thoughout technologies history and you will see how empowering the user has created vast advancements in technology as a whole. Most of Microsoft's community have had a say in the \"direction\" of Microsoft products, now you will just give them the stirring wheel and allow them to fix their own car.\n\nSorry the post above had some mistakes that I corrected but did not get posted - sorry for the repost."
   },
   {
-    "id": 2210,
     "author-name": "Ruiyi Zhang",
     "author-email": "ruiyizhang@gmail.com",
     "author-url": "",
     "date": "2009-05-18T19:52:00-07:00",
-    "content": "You may want to listen to the latest Herding Code episode interviewing DotNetNuke co-founder Joe Brinkman (http://herdingcode.com/?p=183). Even though the main topic is about webforms vs asp.net mvc. Towards the end of the show, he did address his experiences and thoughts on maintaining a large-scale open source project.\n\nTo summarize his ideas around the issues of accepting community contributions in large scale open source projects backed by commercial companies:\n\n* Community contributions are generally welcomed, or even begged, when a project is small.\n* When project grows bigger, the cost and risk of accepting community contributions become prohibitively high.\n* A community contributor usually doesn't have the big picture of the project in mind when he/she contributes his/her patches.\n\nThis is really a poor summary (mainly due to my broken English) of the things discussed in the show. So be sure to listen to the original podcast.\n\nTo make your presentation more interesting than political rallies, I believe it will do more impact if you could focus the presentation on proposing some constructive resolutions to the many known hurdles a commercial company backed open source project faces in accepting community contributions. After all, the Internet doesn't lack blank arguments of urging Microsoft to be more open.",
-    "parent-id": 1260,
-    "RowKey": "20090518-195200"
+    "content": "You may want to listen to the latest Herding Code episode interviewing DotNetNuke co-founder Joe Brinkman (http://herdingcode.com/?p=183). Even though the main topic is about webforms vs asp.net mvc. Towards the end of the show, he did address his experiences and thoughts on maintaining a large-scale open source project.\n\nTo summarize his ideas around the issues of accepting community contributions in large scale open source projects backed by commercial companies:\n\n* Community contributions are generally welcomed, or even begged, when a project is small.\n* When project grows bigger, the cost and risk of accepting community contributions become prohibitively high.\n* A community contributor usually doesn't have the big picture of the project in mind when he/she contributes his/her patches.\n\nThis is really a poor summary (mainly due to my broken English) of the things discussed in the show. So be sure to listen to the original podcast.\n\nTo make your presentation more interesting than political rallies, I believe it will do more impact if you could focus the presentation on proposing some constructive resolutions to the many known hurdles a commercial company backed open source project faces in accepting community contributions. After all, the Internet doesn't lack blank arguments of urging Microsoft to be more open."
   },
   {
-    "id": 2211,
     "author-name": "stacy",
     "author-email": "stacy@uncall.com",
     "author-url": "http://www.uncall.com",
     "date": "2009-05-18T20:14:05-07:00",
-    "content": "This is not a time to be elegant with words. Push it to them VERY hard. Either Microsft stops being an island, or lose developers to open source, probably forever. It's just that simple. The steps they have taken to date may seem like a big deal to Microsoft, but it's no more a bigger-deal than spitting in the ocean. The entire massive growth of the Internet is due to community involvement, not a single company. \n\nMicrosoft has defined open source as its enemy. Everybody feels that. Balmer projects that often. So even though high-profile MVC is released, developers know deep down that there's not one ounce of \"corporate\" passion behind those bits. Let them know that we know that. Let them know we are looking at open source stacks right now. ",
-    "parent-id": 1260,
-    "RowKey": "20090518-201405"
+    "content": "This is not a time to be elegant with words. Push it to them VERY hard. Either Microsft stops being an island, or lose developers to open source, probably forever. It's just that simple. The steps they have taken to date may seem like a big deal to Microsoft, but it's no more a bigger-deal than spitting in the ocean. The entire massive growth of the Internet is due to community involvement, not a single company. \n\nMicrosoft has defined open source as its enemy. Everybody feels that. Balmer projects that often. So even though high-profile MVC is released, developers know deep down that there's not one ounce of \"corporate\" passion behind those bits. Let them know that we know that. Let them know we are looking at open source stacks right now. "
   },
   {
-    "id": 2212,
     "author-name": "Kevin Gregg",
     "author-email": "kevin@infination.com",
     "author-url": "http://infination.info/contacts",
     "date": "2009-05-19T02:53:32-07:00",
-    "content": "After 30 years of profit, making (at one point) Bill Gates not only the richest man in America, but also personally owning 40% of the US GDP.  I'd say it's time to give back in a big, big way.  Not to the stockholders.  It's time to go back to grassroots, streamlined, security-minded coding--pure interoperability--where the focus is not on how much profit can be milked out of a proprietary sale of a technology solution, but rather everyone on the same page and working together to solve the issues that IT faces today.  No arguments; a good product will make the developer profit from his hard work.  It's time to take the venom out of the proprietary code and ensure that all pieces of code written work seamlessly on all platforms.  The days of narrow-minded, one-dimensional operating system software should have already been behind us as an IT community. Let's embrace the opportunities we have to collaborate and make software work for our nations, our states, and our cities.  The future has been now for over a decade and a half, and yet another development of a new OS is a tired idea.  Let's improve the ones we have, all work to make our days go by better, and a sense of pride and honor and integrity will increase the morale of the IT community at-large.  \n\nKG\nNetwork Security Research Analyst\nInfination Technology Research\nkevin@infination.com\n662.497.2890\nhttp://infination.info/contacts",
-    "parent-id": 1260,
-    "RowKey": "20090519-025332"
+    "content": "After 30 years of profit, making (at one point) Bill Gates not only the richest man in America, but also personally owning 40% of the US GDP.  I'd say it's time to give back in a big, big way.  Not to the stockholders.  It's time to go back to grassroots, streamlined, security-minded coding--pure interoperability--where the focus is not on how much profit can be milked out of a proprietary sale of a technology solution, but rather everyone on the same page and working together to solve the issues that IT faces today.  No arguments; a good product will make the developer profit from his hard work.  It's time to take the venom out of the proprietary code and ensure that all pieces of code written work seamlessly on all platforms.  The days of narrow-minded, one-dimensional operating system software should have already been behind us as an IT community. Let's embrace the opportunities we have to collaborate and make software work for our nations, our states, and our cities.  The future has been now for over a decade and a half, and yet another development of a new OS is a tired idea.  Let's improve the ones we have, all work to make our days go by better, and a sense of pride and honor and integrity will increase the morale of the IT community at-large.  \n\nKG\nNetwork Security Research Analyst\nInfination Technology Research\nkevin@infination.com\n662.497.2890\nhttp://infination.info/contacts"
   },
   {
-    "id": 2213,
     "author-name": "Anthony Tarlano",
     "author-email": "",
     "author-url": "",
     "date": "2009-05-19T08:49:57-07:00",
-    "content": "I recommend reading Pip Coburn's book \"The Change Function\" \n\nBut the elevator pitch is simple.. present the change function; i.e.\n\nf(perceived crises vs. total perceived pain of adoption)\n\nYou should clearly state that by reducing the TPPA (which includes more than cost, such as system requirements, fear of control, etc) by releasing under Ms-PL you are more likely to have more user-oriented adoption. \n\nAnd if you can only get one more thing out the door, please put on you slides to release Powershell as Ms-PL for Mono!\n\nThanks,\n\nAnthony",
-    "parent-id": 1260,
-    "RowKey": "20090519-084957"
+    "content": "I recommend reading Pip Coburn's book \"The Change Function\" \n\nBut the elevator pitch is simple.. present the change function; i.e.\n\nf(perceived crises vs. total perceived pain of adoption)\n\nYou should clearly state that by reducing the TPPA (which includes more than cost, such as system requirements, fear of control, etc) by releasing under Ms-PL you are more likely to have more user-oriented adoption. \n\nAnd if you can only get one more thing out the door, please put on you slides to release Powershell as Ms-PL for Mono!\n\nThanks,\n\nAnthony"
   }
 ]

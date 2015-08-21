@@ -1,22 +1,16 @@
 [
   {
-    "id": 2148,
     "author-name": "Michael Letterle",
     "author-email": "michaeldotnet@gmail.com",
     "author-url": "http://blog.prokrams.com",
     "date": "2008-11-27T21:20:05-08:00",
-    "content": "For me the biggest news was IronRuby moving to github along with a more \"open\" structure.  Far overshadowed the 1.0 alpha 2 release for me!\n\nhttp://github.com/ironruby/ironruby/tree/master",
-    "parent-id": 1197,
-    "RowKey": "20081127-212005"
+    "content": "For me the biggest news was IronRuby moving to github along with a more \"open\" structure.  Far overshadowed the 1.0 alpha 2 release for me!\n\nhttp://github.com/ironruby/ironruby/tree/master"
   },
   {
-    "id": 2149,
     "author-name": "Sesh",
     "author-email": "",
     "author-url": "http://blogs.msdn.com/seshadripv",
     "date": "2008-12-05T10:10:22-08:00",
-    "content": "\"Sesh has promised “weekly code drops”.\"\n\nHere it is - http://www.codeplex.com/dlr/SourceControl/ListDownloadableCommits.aspx. My blog post on the same is here - http://blogs.msdn.com/seshadripv/archive/2008/12/04/codeplex-com-dlr-is-now-setup-to-receive-regular-source-updates.aspx",
-    "parent-id": 1197,
-    "RowKey": "20081205-101022"
+    "content": "\"Sesh has promised “weekly code drops”.\"\n\nHere it is - http://www.codeplex.com/dlr/SourceControl/ListDownloadableCommits.aspx. My blog post on the same is here - http://blogs.msdn.com/seshadripv/archive/2008/12/04/codeplex-com-dlr-is-now-setup-to-receive-regular-source-updates.aspx"
   }
 ]

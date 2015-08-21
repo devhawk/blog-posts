@@ -1,5 +1,4 @@
 {
-  "id": 1120,
   "slug": "morning-coffee-156",
   "title": "Morning Coffee 156",
   "date": "2008-03-07T10:34:35-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Dynamic Languages|dynamic-languages,Hockey|hockey,Lanugages|lanugages,Silverlight|silverlight,Visual Studio|visual-studio",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080307-1034-morning-coffee-156"
+  "comment-count": 0,
+  "dasblog-entry-id": "0be6050f-4ac1-4d32-a5e6-46cb9e175221",
+  "dasblog-title": "Morning+Coffee+156",
+  "dasblog-unique-title": "2008/03/07/Morning+Coffee+156"
 }

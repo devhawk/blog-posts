@@ -1,5 +1,4 @@
 {
-  "id": 485,
   "slug": "new-smartphones",
   "title": "New Smartphone(s)",
   "date": "2004-11-19T19:21:23-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "General Geekery|general-geekery",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20041119-1921-new-smartphones"
+  "comment-count": 1,
+  "dasblog-entry-id": "f5adb795-eba8-4913-96bc-c323d649f4ac",
+  "dasblog-title": "New+Smartphones",
+  "dasblog-unique-title": "2004/11/20/New+Smartphones"
 }

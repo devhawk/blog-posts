@@ -1,5 +1,4 @@
 {
-  "id": 430,
   "slug": "software-factories-at-oopsla",
   "title": "Software Factories at OOPSLA",
   "date": "2004-09-02T14:22:59-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040902-1422-software-factories-at-oopsla"
+  "comment-count": 2,
+  "dasblog-entry-id": "ad410e9f-27e0-4226-b9c4-ef579939012b",
+  "dasblog-title": "Software+Factories+At+OOPSLA",
+  "dasblog-unique-title": "2004/09/02/Software+Factories+At+OOPSLA"
 }

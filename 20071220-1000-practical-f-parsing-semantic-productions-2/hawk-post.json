@@ -1,5 +1,4 @@
 {
-  "id": 1083,
   "slug": "practical-f-parsing-semantic-productions-2",
   "title": "Practical F# Parsing: Semantic Productions (2)",
   "date": "2007-12-20T10:00:50-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "F#|f-sharp,Parsing Expression Grammar|parsing-expression-grammar",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071220-1000-practical-f-parsing-semantic-productions-2"
+  "comment-count": 0,
+  "dasblog-entry-id": "01f3a3c9-30ce-4a3c-81fa-f495e8dccab0",
+  "dasblog-title": "Practical+F+Parsing+Semantic+Productions+2",
+  "dasblog-unique-title": "2007/12/20/Practical+F+Parsing+Semantic+Productions+2"
 }

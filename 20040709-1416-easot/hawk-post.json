@@ -1,5 +1,4 @@
 {
-  "id": 396,
   "slug": "easot",
   "title": "EASOT?",
   "date": "2004-07-09T14:16:45-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community,Patterns|patterns",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040709-1416-easot"
+  "comment-count": 0,
+  "dasblog-entry-id": "c068e347-904a-4ae5-88ea-d45e914e93e8",
+  "dasblog-title": "EASOT",
+  "dasblog-unique-title": "2004/07/09/EASOT"
 }

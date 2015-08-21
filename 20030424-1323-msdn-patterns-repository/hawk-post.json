@@ -1,5 +1,4 @@
 {
-  "id": 76,
   "slug": "msdn-patterns-repository",
   "title": "MSDN Patterns Repository",
   "date": "2003-04-24T13:23:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030424-1323-msdn-patterns-repository"
+  "comment-count": 0,
+  "dasblog-entry-id": "d9d41e73-172f-4f56-8350-8421c697cb39",
+  "dasblog-title": "MSDN+Patterns+Repository",
+  "dasblog-unique-title": "2003/04/24/MSDN+Patterns+Repository"
 }

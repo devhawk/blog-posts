@@ -1,5 +1,4 @@
 {
-  "id": 214,
   "slug": "webloggers-bof",
   "title": "Weblogger&#8217;s BOF",
   "date": "2003-10-28T02:01:01-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20031028-0201-webloggers-bof"
+  "comment-count": 0,
+  "dasblog-entry-id": "39f0bfa6-e77c-4d79-8e10-a80d1c5f5a7a",
+  "dasblog-title": "Webloggers+BOF",
+  "dasblog-unique-title": "2003/10/28/Webloggers+BOF"
 }

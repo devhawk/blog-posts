@@ -1,22 +1,16 @@
 [
   {
-    "id": 2443,
     "author-name": "Tim Marman",
     "author-email": "spam@slahstar.com",
     "author-url": "http://slashstar.com/blogs/tim",
     "date": "2007-01-23T11:54:25-08:00",
-    "content": "My gamerscore is 9709. I've played 11 Arcade games (many of which have been demos) and 32 retail games. My GS completion rate is 29.15% (30.82% for non-demos). \n\nThere are some people out there with ridiculous scores.. I don't know how they do it :) ",
-    "parent-id": 859,
-    "RowKey": "20070123-115425"
+    "content": "My gamerscore is 9709. I've played 11 Arcade games (many of which have been demos) and 32 retail games. My GS completion rate is 29.15% (30.82% for non-demos). \n\nThere are some people out there with ridiculous scores.. I don't know how they do it :) "
   },
   {
-    "id": 2444,
     "author-name": "Rich McCollister",
     "author-email": "kraki5525@gmail.com",
     "author-url": "",
     "date": "2007-01-23T12:04:47-08:00",
-    "content": "If you are still interested in the xml file membership provider approach, then check out this codeplex project \n\nASP.NET XmlProvider Library\nhttp://www.codeplex.com/XmlProviderLibrary\n\nThey got a fairly complete implementation of the membership, role, profile, and personalization providers",
-    "parent-id": 859,
-    "RowKey": "20070123-120447"
+    "content": "If you are still interested in the xml file membership provider approach, then check out this codeplex project \n\nASP.NET XmlProvider Library\nhttp://www.codeplex.com/XmlProviderLibrary\n\nThey got a fairly complete implementation of the membership, role, profile, and personalization providers"
   }
 ]

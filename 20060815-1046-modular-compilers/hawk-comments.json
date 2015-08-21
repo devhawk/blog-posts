@@ -1,42 +1,30 @@
 [
   {
-    "id": 2398,
     "author-name": "Kenny Kerr",
     "author-email": "",
     "author-url": "http://weblogs.asp.net/kennykerr/",
     "date": "2006-08-15T13:09:44-07:00",
-    "content": "You should take a look at the Phoenix project. \n\nhttp://research.microsoft.com/phoenix/",
-    "parent-id": 781,
-    "RowKey": "20060815-130944"
+    "content": "You should take a look at the Phoenix project. \n\nhttp://research.microsoft.com/phoenix/"
   },
   {
-    "id": 2399,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2006-08-15T13:51:16-07:00",
-    "content": "As far as I can tell, Phoenix only includes back end tools - i.e. no grammar definition and no parser. Sounds like a good choice for my #3 above, but what about the other two capabilities?",
-    "parent-id": 781,
-    "RowKey": "20060815-135116"
+    "content": "As far as I can tell, Phoenix only includes back end tools - i.e. no grammar definition and no parser. Sounds like a good choice for my #3 above, but what about the other two capabilities?"
   },
   {
-    "id": 2400,
     "author-name": "Kenny Kerr",
     "author-email": "",
     "author-url": "http://weblogs.asp.net/kennykerr/",
     "date": "2006-08-15T16:01:59-07:00",
-    "content": "Yep, it’s a long way off but I hope the Phoenix project (or something like it) will one day provide more support for developing the grammar and front-end for compilers.\n\nI’ve typically resorted to rolling my own but that’s obviously not practical in many cases.\n",
-    "parent-id": 781,
-    "RowKey": "20060815-160159"
+    "content": "Yep, it’s a long way off but I hope the Phoenix project (or something like it) will one day provide more support for developing the grammar and front-end for compilers.\n\nI’ve typically resorted to rolling my own but that’s obviously not practical in many cases.\n"
   },
   {
-    "id": 2401,
     "author-name": "Max",
     "author-email": "",
     "author-url": "",
     "date": "2006-09-10T02:10:47-07:00",
-    "content": "The .NET language Boo actually implements its \"using\" keyword as a short piece of Boo code that does a transformation on the abstract syntax tree at compile time like so (pseudocode):\n\nusing object:\n  code block\n\nBecomes:\n\nLock(object)\ntry:\n  code block\nfinally:\n  Unlock(object)\n\nYou can define these AST transformations in your own program to implement most any construct you like, and they are really easy to write! Neat, eh? \n\nhttp://boo.codehaus.org/",
-    "parent-id": 781,
-    "RowKey": "20060910-021047"
+    "content": "The .NET language Boo actually implements its \"using\" keyword as a short piece of Boo code that does a transformation on the abstract syntax tree at compile time like so (pseudocode):\n\nusing object:\n  code block\n\nBecomes:\n\nLock(object)\ntry:\n  code block\nfinally:\n  Unlock(object)\n\nYou can define these AST transformations in your own program to implement most any construct you like, and they are really easy to write! Neat, eh? \n\nhttp://boo.codehaus.org/"
   }
 ]

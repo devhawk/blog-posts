@@ -1,5 +1,4 @@
 {
-  "id": 1104,
   "slug": "morning-coffee-147",
   "title": "Morning Coffee 147",
   "date": "2008-02-19T11:29:21-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Blogging|blogging,Education|education,Family|family,Guidance Automation|guidance-automation,Hockey|hockey,Washington Capitals|washington-capitals,Xbox 360|xbox-360,XNA|xna",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080219-1129-morning-coffee-147"
+  "comment-count": 1,
+  "dasblog-entry-id": "43e36e54-1ce0-4ecc-b64a-884752e29648",
+  "dasblog-title": "Morning+Coffee+147",
+  "dasblog-unique-title": "2008/02/19/Morning+Coffee+147"
 }

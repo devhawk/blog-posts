@@ -1,12 +1,9 @@
 [
   {
-    "id": 2466,
     "author-name": "Arnon Rotem-Gal-Oz",
     "author-email": "arnon@rgoarchitects.com",
     "author-url": "http://www.rgoarchitects.com/blog",
     "date": "2007-03-16T23:32:19-07:00",
-    "content": "Regarding your point #1\nIt does look that SQL 2005 has almost everything to become an application server (I wrote about it Jul 2005: \nhttp://www.rgoarchitects.com/blog/PermaLink,guid,4dcc5298-e9ff-4a9a-880a-aa886d143f9e.aspx)\nBut it seems that Microsoft got cold feet somewhere along the way and never really promoted this as an option. \n\nAlso in regard to SSB. It offers some great features but having only an SQL API (I know you can createa C# facade - been there, done that, got the t-shirt) and a proprietary transport directs it into a niche instead of main-stream\n\n",
-    "parent-id": 910,
-    "RowKey": "20070316-233219"
+    "content": "Regarding your point #1\nIt does look that SQL 2005 has almost everything to become an application server (I wrote about it Jul 2005: \nhttp://www.rgoarchitects.com/blog/PermaLink,guid,4dcc5298-e9ff-4a9a-880a-aa886d143f9e.aspx)\nBut it seems that Microsoft got cold feet somewhere along the way and never really promoted this as an option. \n\nAlso in regard to SSB. It offers some great features but having only an SQL API (I know you can createa C# facade - been there, done that, got the t-shirt) and a proprietary transport directs it into a niche instead of main-stream\n\n"
   }
 ]

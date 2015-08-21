@@ -1,5 +1,4 @@
 {
-  "id": 954,
   "slug": "morning-coffee-76",
   "title": "Morning Coffee 76",
   "date": "2007-05-10T10:30:19-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Silverlight|silverlight,SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070510-1030-morning-coffee-76"
+  "comment-count": 0,
+  "dasblog-entry-id": "4f0a9a85-87c3-4df0-a8f8-88ded97d277a",
+  "dasblog-title": "Morning+Coffee+76",
+  "dasblog-unique-title": "2007/05/10/Morning+Coffee+76"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 582,
   "slug": "crupi-blog",
   "title": "Crupi Blog",
   "date": "2005-03-20T21:01:30-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050320-2101-crupi-blog"
+  "comment-count": 0,
+  "dasblog-entry-id": "68d35d17-625e-41bc-bc4c-64a899935959",
+  "dasblog-title": "Crupi+Blog",
+  "dasblog-unique-title": "2005/03/21/Crupi+Blog"
 }

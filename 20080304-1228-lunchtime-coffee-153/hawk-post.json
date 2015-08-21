@@ -1,5 +1,4 @@
 {
-  "id": 1114,
   "slug": "lunchtime-coffee-153",
   "title": "Lunchtime Coffee 153",
   "date": "2008-03-04T12:28:36-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "ASP.NET|asp-net,Blogging|blogging,DLR|dlr,Guidance|guidance,Silverlight|silverlight,Software + Services|software-plus-services",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080304-1228-lunchtime-coffee-153"
+  "comment-count": 0,
+  "dasblog-entry-id": "386b040e-1705-44b6-ad0b-0be2d648b722",
+  "dasblog-title": "Lunchtime+Coffee+153",
+  "dasblog-unique-title": "2008/03/04/Lunchtime+Coffee+153"
 }

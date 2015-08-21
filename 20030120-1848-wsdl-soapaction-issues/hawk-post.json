@@ -1,5 +1,4 @@
 {
-  "id": 8,
   "slug": "wsdl-soapaction-issues",
   "title": "WSDL soapAction Issues",
   "date": "2003-01-20T18:48:42-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030120-1848-wsdl-soapaction-issues"
+  "comment-count": 0,
+  "dasblog-entry-id": "c2eeb3f8-ca88-4627-bea7-ec49e75f0a1f",
+  "dasblog-title": "WSDL+SoapAction+Issues",
+  "dasblog-unique-title": "2003/01/21/WSDL+SoapAction+Issues"
 }

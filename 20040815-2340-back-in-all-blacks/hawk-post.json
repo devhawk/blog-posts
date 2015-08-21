@@ -1,5 +1,4 @@
 {
-  "id": 416,
   "slug": "back-in-all-blacks",
   "title": "Back in All Blacks",
   "date": "2004-08-15T23:40:21-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040815-2340-back-in-all-blacks"
+  "comment-count": 2,
+  "dasblog-entry-id": "5c43480e-bab5-4bbd-8750-94852c6443c4",
+  "dasblog-title": "Back+In+All+Blacks",
+  "dasblog-unique-title": "2004/08/16/Back+In+All+Blacks"
 }

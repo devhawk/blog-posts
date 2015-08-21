@@ -1,5 +1,4 @@
 {
-  "id": 1100,
   "slug": "morning-coffee-144",
   "title": "Morning Coffee 144",
   "date": "2008-02-07T10:05:13-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "C#|c-sharp,Hockey|hockey,Parsing Expression Grammar|parsing-expression-grammar,Washington Capitals|washington-capitals,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20080207-1005-morning-coffee-144"
+  "comment-count": 0,
+  "dasblog-entry-id": "134c840d-db07-419e-a13f-2c06e67467ee",
+  "dasblog-title": "Morning+Coffee+144",
+  "dasblog-unique-title": "2008/02/07/Morning+Coffee+144"
 }

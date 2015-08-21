@@ -1,5 +1,4 @@
 {
-  "id": 1295,
   "slug": "hybrid-app-debugging-threading",
   "title": "Hybrid App Debugging &#8211; Threading",
   "date": "2009-10-08T18:42:38-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger,Lightweight Debugger|lightweight-debugger,Polyglot|polyglot",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20091008-1842-hybrid-app-debugging-threading"
+  "comment-count": 0,
+  "dasblog-entry-id": "d69568b9-9021-46d6-aeb4-0e1bb554fbf1",
+  "dasblog-title": "Hybrid+App+Debugging+Ndash+Threading",
+  "dasblog-unique-title": "2009/10/09/Hybrid+App+Debugging+Ndash+Threading"
 }

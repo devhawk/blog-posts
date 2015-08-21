@@ -1,12 +1,9 @@
 [
   {
-    "id": 2201,
     "author-name": "David Mohundro",
     "author-email": "drmohundro@gmail.com",
     "author-url": "http://www.mohundro.com/blog/",
     "date": "2009-05-11T15:26:14-07:00",
-    "content": "Nice - I like the cleanness of your usage of find-to-set-alias in your prompt. Definitely makes working with versioned folders nicer.\n\nI'm curious, is there something your find-in-path does that the get-command cmdlet doesn't do?\n\nThanks for sharing!",
-    "parent-id": 1256,
-    "RowKey": "20090511-152614"
+    "content": "Nice - I like the cleanness of your usage of find-to-set-alias in your prompt. Definitely makes working with versioned folders nicer.\n\nI'm curious, is there something your find-in-path does that the get-command cmdlet doesn't do?\n\nThanks for sharing!"
   }
 ]

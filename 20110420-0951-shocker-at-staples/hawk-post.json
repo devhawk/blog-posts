@@ -1,5 +1,4 @@
 {
-  "id": 1842,
   "slug": "shocker-at-staples",
   "title": "Shocker at Staples",
   "date": "2011-04-20T09:51:15-07:00",
@@ -7,6 +6,5 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Epic Fail|epic-fail,Hockey|hockey,Los Angeles Kings|los-angeles-kings,Playoffs|playoffs",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20110420-0951-shocker-at-staples"
+  "comment-count": 1
 }

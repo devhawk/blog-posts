@@ -1,5 +1,4 @@
 {
-  "id": 1063,
   "slug": "morning-coffee-127",
   "title": "Morning Coffee 127",
   "date": "2007-12-03T10:12:14-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "ASP.NET|asp-net,Concurrency|concurrency,F#|f-sharp,Silverlight|silverlight",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071203-1012-morning-coffee-127"
+  "comment-count": 0,
+  "dasblog-entry-id": "58aed908-943d-43c4-a477-8022cbdb313d",
+  "dasblog-title": "Morning+Coffee+127",
+  "dasblog-unique-title": "2007/12/03/Morning+Coffee+127"
 }

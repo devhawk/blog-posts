@@ -1,5 +1,4 @@
 {
-  "id": 1064,
   "slug": "studio-busting",
   "title": "Studio Busting",
   "date": "2007-12-03T11:25:55-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Entertainment|entertainment,Media 2.0|media-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071203-1125-studio-busting"
+  "comment-count": 0,
+  "dasblog-entry-id": "054e8f9b-d398-4904-835e-b6586c8a087d",
+  "dasblog-title": "Studio+Busting",
+  "dasblog-unique-title": "2007/12/03/Studio+Busting"
 }

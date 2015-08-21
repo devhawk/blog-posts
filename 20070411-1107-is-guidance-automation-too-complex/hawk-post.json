@@ -1,5 +1,4 @@
 {
-  "id": 932,
   "slug": "is-guidance-automation-too-complex",
   "title": "Is Guidance Automation Too Complex?",
   "date": "2007-04-11T11:07:34-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Guidance|guidance,Software Factories|software-factories",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20070411-1107-is-guidance-automation-too-complex"
+  "comment-count": 1,
+  "dasblog-entry-id": "4fbb71b8-cf62-4e64-ac2c-eac81d8b6c41",
+  "dasblog-title": "Is+Guidance+Automation+Too+Complex",
+  "dasblog-unique-title": "2007/04/11/Is+Guidance+Automation+Too+Complex"
 }

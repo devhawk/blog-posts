@@ -1,5 +1,4 @@
 {
-  "id": 590,
   "slug": "system-definition-model-sdk",
   "title": "System Definition Model SDK",
   "date": "2005-04-19T23:28:13-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Modelling|modelling",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050419-2328-system-definition-model-sdk"
+  "comment-count": 0,
+  "dasblog-entry-id": "cbcf93de-a91a-4333-ab9d-d06ff0f61df7",
+  "dasblog-title": "System+Definition+Model+SDK",
+  "dasblog-unique-title": "2005/04/20/System+Definition+Model+SDK"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 279,
   "slug": "a-friend-returns",
   "title": "A Friend Returns",
   "date": "2004-01-14T16:19:20-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040114-1619-a-friend-returns"
+  "comment-count": 1,
+  "dasblog-entry-id": "9f42eb9b-cebe-4984-afb5-3bb20c395319",
+  "dasblog-title": "A+Friend+Returns",
+  "dasblog-unique-title": "2004/01/15/A+Friend+Returns"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1300,
   "slug": "job-opening-on-my-team",
   "title": "Job Opening on my Team",
   "date": "2009-12-07T11:49:10-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Windows|windows",
   "csv-tag-slugs": "Working at MSFT|working-at-msft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20091207-1149-job-opening-on-my-team"
+  "comment-count": 0,
+  "dasblog-entry-id": "8b7ad043-5c02-4753-b59a-c897bce205b5",
+  "dasblog-title": "Job+Opening+On+My+Team",
+  "dasblog-unique-title": "2009/12/07/Job+Opening+On+My+Team"
 }

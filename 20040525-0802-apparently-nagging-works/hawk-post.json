@@ -1,5 +1,4 @@
 {
-  "id": 367,
   "slug": "apparently-nagging-works",
   "title": "Apparently, Nagging Works",
   "date": "2004-05-25T08:02:04-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging,Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20040525-0802-apparently-nagging-works"
+  "comment-count": 4,
+  "dasblog-entry-id": "48196bf6-e2e4-4d50-b255-14fc237e41a4",
+  "dasblog-title": "Apparently+Nagging+Works",
+  "dasblog-unique-title": "2004/05/25/Apparently+Nagging+Works"
 }

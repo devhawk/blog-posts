@@ -1,5 +1,4 @@
 {
-  "id": 290,
   "slug": "shaking-off-the-ice",
   "title": "Shaking Off The Ice",
   "date": "2004-01-27T15:35:19-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Blogging|blogging",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040127-1535-shaking-off-the-ice"
+  "comment-count": 0,
+  "dasblog-entry-id": "058e4731-4c6b-4481-8b34-62c6d3ecb23f",
+  "dasblog-title": "Shaking+Off+The+Ice",
+  "dasblog-unique-title": "2004/01/27/Shaking+Off+The+Ice"
 }

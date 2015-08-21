@@ -1,22 +1,16 @@
 [
   {
-    "id": 2449,
     "author-name": "Alex James",
     "author-email": "Alex@base4.net",
     "author-url": "http://www.base4.net/blog.aspx?ID=300",
     "date": "2007-01-31T20:31:49-08:00",
-    "content": "I'm with you 100% on LINQ to whatever. In fact I've just started a series of posts on 'whatever'.",
-    "parent-id": 869,
-    "RowKey": "20070131-203149"
+    "content": "I'm with you 100% on LINQ to whatever. In fact I've just started a series of posts on 'whatever'."
   },
   {
-    "id": 2450,
     "author-name": "Joe McKendrick",
     "author-email": "joe@mckendrickresearch.com",
     "author-url": "http://blogs.zdnet.com/service-oriented/",
     "date": "2007-02-01T13:11:56-08:00",
-    "content": "Thanks for the mention. I actually lean to letting users do their own thing, with technology as the behind-the-scenes enabler. Service-Oriented Anarchy, I know.  :-)",
-    "parent-id": 869,
-    "RowKey": "20070201-131156"
+    "content": "Thanks for the mention. I actually lean to letting users do their own thing, with technology as the behind-the-scenes enabler. Service-Oriented Anarchy, I know.  :-)"
   }
 ]

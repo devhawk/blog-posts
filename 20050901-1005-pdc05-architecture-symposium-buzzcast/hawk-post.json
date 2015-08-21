@@ -1,5 +1,4 @@
 {
-  "id": 623,
   "slug": "pdc05-architecture-symposium-buzzcast",
   "title": "PDC05 Architecture Symposium Buzzcast",
   "date": "2005-09-01T10:05:07-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Community|community",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20050901-1005-pdc05-architecture-symposium-buzzcast"
+  "comment-count": 0,
+  "dasblog-entry-id": "d6d91632-4666-49aa-b8c7-c11999e6dcbe",
+  "dasblog-title": "PDC05+Architecture+Symposium+Buzzcast",
+  "dasblog-unique-title": "2005/09/01/PDC05+Architecture+Symposium+Buzzcast"
 }

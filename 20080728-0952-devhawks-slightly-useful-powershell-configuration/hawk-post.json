@@ -1,5 +1,4 @@
 {
-  "id": 1158,
   "slug": "devhawks-slightly-useful-powershell-configuration",
   "title": "DevHawk&#8217;s Slightly Useful Powershell Configuration",
   "date": "2008-07-28T09:52:25-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "PowerShell|powershell",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 5,
-  "PartKey": "20080728-0952-devhawks-slightly-useful-powershell-configuration"
+  "comment-count": 5,
+  "dasblog-entry-id": "a64069d4-9084-46d2-b0c9-2cbf350b3d75",
+  "dasblog-title": "DevHawks+Slightly+Useful+Powershell+Configuration",
+  "dasblog-unique-title": "2008/07/28/DevHawks+Slightly+Useful+Powershell+Configuration"
 }

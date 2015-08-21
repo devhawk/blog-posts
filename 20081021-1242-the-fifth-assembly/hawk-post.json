@@ -1,5 +1,4 @@
 {
-  "id": 1178,
   "slug": "the-fifth-assembly",
   "title": "The Fifth Assembly",
   "date": "2008-10-21T12:42:41-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "DLR|dlr",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20081021-1242-the-fifth-assembly"
+  "comment-count": 3,
+  "dasblog-entry-id": "c229d24e-6da3-40cc-8d5f-b09193b85d65",
+  "dasblog-title": "The+Fifth+Assembly",
+  "dasblog-unique-title": "2008/10/21/The+Fifth+Assembly"
 }

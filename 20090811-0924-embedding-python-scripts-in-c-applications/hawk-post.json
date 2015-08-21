@@ -1,5 +1,4 @@
 {
-  "id": 1280,
   "slug": "embedding-python-scripts-in-c-applications",
   "title": "Embedding Python Scripts in C# Applications",
   "date": "2009-08-11T09:24:42-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "DLR|dlr,Pygments|pygments",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20090811-0924-embedding-python-scripts-in-c-applications"
+  "comment-count": 1,
+  "dasblog-entry-id": "ac6fe2e5-6c82-4898-8ee3-1bde31026655",
+  "dasblog-title": "Embedding+Python+Scripts+In+C+Applications",
+  "dasblog-unique-title": "2009/08/11/Embedding+Python+Scripts+In+C+Applications"
 }

@@ -1,32 +1,23 @@
 [
   {
-    "id": 2145,
     "author-name": "Lukas Cenovsky",
     "author-email": "cenovsky@bakalari.cz",
     "author-url": "http://gui-at.blogspot.com/",
     "date": "2008-11-25T05:58:36-08:00",
-    "content": "Hi,\nwhat about using ThreadPool? See my post: http://gui-at.blogspot.com/2008/06/exploring-test-application-ironpython-2.html\nI don't see any functional difference and you don't need to care about Invoke.",
-    "parent-id": 1196,
-    "RowKey": "20081125-055836"
+    "content": "Hi,\nwhat about using ThreadPool? See my post: http://gui-at.blogspot.com/2008/06/exploring-test-application-ironpython-2.html\nI don't see any functional difference and you don't need to care about Invoke."
   },
   {
-    "id": 2146,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2008-11-26T21:50:48-08:00",
-    "content": "@lukas, I tried using the ThreadPool instead of manually spinning up a thread and it crashed. At least for WPF, the UI objects must be created on an STA thread and the ThreadPool threads are all MTA. \n\nAs for not caring about Invoke, this code does not work without the command dispatcher calling Invoke. Just for kicks, I tried commenting it out and I get a \"The calling thread cannot access this object because a different thread owns it.\" if I try to interact with the WPF objects in any way. \n\nI see from your blog entry that you're using WinForms not WPF, but I'm 99% sure the rules are the same. From http://msdn.microsoft.com/en-us/library/system.windows.forms.control.invokerequired.aspx: \"Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, if you are calling a control's method from a different thread, you must use one of the control's invoke methods to marshal the call to the proper thread.\"",
-    "parent-id": 1196,
-    "RowKey": "20081126-215048"
+    "content": "@lukas, I tried using the ThreadPool instead of manually spinning up a thread and it crashed. At least for WPF, the UI objects must be created on an STA thread and the ThreadPool threads are all MTA. \n\nAs for not caring about Invoke, this code does not work without the command dispatcher calling Invoke. Just for kicks, I tried commenting it out and I get a \"The calling thread cannot access this object because a different thread owns it.\" if I try to interact with the WPF objects in any way. \n\nI see from your blog entry that you're using WinForms not WPF, but I'm 99% sure the rules are the same. From http://msdn.microsoft.com/en-us/library/system.windows.forms.control.invokerequired.aspx: \"Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, if you are calling a control's method from a different thread, you must use one of the control's invoke methods to marshal the call to the proper thread.\""
   },
   {
-    "id": 2147,
     "author-name": "Lukas Cenovsky",
     "author-email": "cenovsky@bakalari.cz",
     "author-url": "http://gui-at.blogspot.com/",
     "date": "2008-11-27T09:37:30-08:00",
-    "content": "The threading is still kind of mystery for me. Especially when something works for me which shouldn't according to others.\n\nYour first point is correct - I use WinForms instead of WPF. I also use IronPython 1.1.1 on .NET 2.0.50727.3053.\n\nI do not call methods on WinForms. I only read properties because I simulate all methods via Win32 API calls. For example, when I want to click button, I send mouse click event to the position of the button. \n\nInterestingly, when I directly call OnClick method of a button, the method runs OK and the button is clicked. For example, using http://gui-at.cendaweb.cz/GUIAT_PoC.exe run:\n\nIronPython 1.1.1 (1.1.1) on .NET 2.0.50727.3053\nCopyright (c) Microsoft Corporation. All rights reserved.\n>>> import clr\n>>> clr.AddReference('System')\n>>> clr.AddReference(\"System.Windows.Forms\")\n>>> from System import *\n>>> from System.Reflection import *\n>>> from System.Threading import *\n>>> from System.Windows.Forms import Application\n>>> from time import sleep\n>>>\n>>> def RunMeCallBack(var):\n...     global App\n...     asm = Assembly.LoadFrom('GUIAT_PoC.exe')\n...     asm_type = asm.GetType('GUIAT_PoC.frmGUIAT')\n...     App = Activator.CreateInstance(asm_type)\n...     Application.Run(App)\n...\n>>> App = None\n>>> ThreadPool.QueueUserWorkItem(WaitCallback(RunMeCallBack))\n\nWait a moment until the app is loaded and run:\n>>> App.Controls[2].Text = 'text'\n>>> App.Controls[0].OnClick(None)\n\nThe 'text' is added to the listbox. Is this just a lucky chance I have or is it correct behavior? I do not know...\n\nPS: I tried it on IronPython 20 RC2 (IronPython 2.0 (2.0.0.0) on .NET 2.0.50727.3053) now and it behaves the same.",
-    "parent-id": 1196,
-    "RowKey": "20081127-093730"
+    "content": "The threading is still kind of mystery for me. Especially when something works for me which shouldn't according to others.\n\nYour first point is correct - I use WinForms instead of WPF. I also use IronPython 1.1.1 on .NET 2.0.50727.3053.\n\nI do not call methods on WinForms. I only read properties because I simulate all methods via Win32 API calls. For example, when I want to click button, I send mouse click event to the position of the button. \n\nInterestingly, when I directly call OnClick method of a button, the method runs OK and the button is clicked. For example, using http://gui-at.cendaweb.cz/GUIAT_PoC.exe run:\n\nIronPython 1.1.1 (1.1.1) on .NET 2.0.50727.3053\nCopyright (c) Microsoft Corporation. All rights reserved.\n>>> import clr\n>>> clr.AddReference('System')\n>>> clr.AddReference(\"System.Windows.Forms\")\n>>> from System import *\n>>> from System.Reflection import *\n>>> from System.Threading import *\n>>> from System.Windows.Forms import Application\n>>> from time import sleep\n>>>\n>>> def RunMeCallBack(var):\n...     global App\n...     asm = Assembly.LoadFrom('GUIAT_PoC.exe')\n...     asm_type = asm.GetType('GUIAT_PoC.frmGUIAT')\n...     App = Activator.CreateInstance(asm_type)\n...     Application.Run(App)\n...\n>>> App = None\n>>> ThreadPool.QueueUserWorkItem(WaitCallback(RunMeCallBack))\n\nWait a moment until the app is loaded and run:\n>>> App.Controls[2].Text = 'text'\n>>> App.Controls[0].OnClick(None)\n\nThe 'text' is added to the listbox. Is this just a lucky chance I have or is it correct behavior? I do not know...\n\nPS: I tried it on IronPython 20 RC2 (IronPython 2.0 (2.0.0.0) on .NET 2.0.50727.3053) now and it behaves the same."
   }
 ]

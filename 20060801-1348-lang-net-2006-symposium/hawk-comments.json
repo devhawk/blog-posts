@@ -1,32 +1,23 @@
 [
   {
-    "id": 2391,
     "author-name": "Jason Bock",
     "author-email": "jason@jasonbock.net",
     "author-url": "http://www.jasonbock.net",
     "date": "2006-08-01T13:54:33-07:00",
-    "content": "I'm posting my own day-to-day summaries as well:\n\nhttp://www.dotnetlanguages.net\n\nWhere are you? I'm the bald guy with a green shirt on :)\n\nRegards,\nJason",
-    "parent-id": 775,
-    "RowKey": "20060801-135433"
+    "content": "I'm posting my own day-to-day summaries as well:\n\nhttp://www.dotnetlanguages.net\n\nWhere are you? I'm the bald guy with a green shirt on :)\n\nRegards,\nJason"
   },
   {
-    "id": 2392,
     "author-name": "Jason Bock",
     "author-email": "jason@jasonbock.net",
     "author-url": "http://www.jasonbock.net",
     "date": "2006-08-01T13:57:01-07:00",
-    "content": "Ah, never mind - I missed that point where you said you couldn't attend all three days.",
-    "parent-id": 775,
-    "RowKey": "20060801-135701"
+    "content": "Ah, never mind - I missed that point where you said you couldn't attend all three days."
   },
   {
-    "id": 2393,
     "author-name": "Max Lybbert",
     "author-email": "mlybbert@users.sourceforge.net",
     "author-url": "",
     "date": "2006-08-09T09:40:09-07:00",
-    "content": "Just because I've followed Chris Diggins for a little while, I'd like to point out that Cat isn't about compiler optimization so much as it's about making cross platform compilers easy to write.\n\nDiggins has spent about a decade coming up with Heron, which in its current incarnation compiles to C++ (Heron.Standard) or can be run as an interpreted language (Heron.Script).  He wants it to compile to other platforms, and to interoperate well with other languages.  The way I understand things, he wants to compile Heron to Cat, and Cat to .Net, i386 assembly code, JVM, and whatever other platforms catch his eye.  It's a lot like GCC's register type language.\n\nYeah, Cat's supposed to make it possible to optimize according to whatever optimizations are available on that platform, but it's also supposed to make it easier to target several platforms.  And it should be reusabel for anyone else working on a language who doesn't want to do as much low-level dirty work.",
-    "parent-id": 775,
-    "RowKey": "20060809-094009"
+    "content": "Just because I've followed Chris Diggins for a little while, I'd like to point out that Cat isn't about compiler optimization so much as it's about making cross platform compilers easy to write.\n\nDiggins has spent about a decade coming up with Heron, which in its current incarnation compiles to C++ (Heron.Standard) or can be run as an interpreted language (Heron.Script).  He wants it to compile to other platforms, and to interoperate well with other languages.  The way I understand things, he wants to compile Heron to Cat, and Cat to .Net, i386 assembly code, JVM, and whatever other platforms catch his eye.  It's a lot like GCC's register type language.\n\nYeah, Cat's supposed to make it possible to optimize according to whatever optimizations are available on that platform, but it's also supposed to make it easier to target several platforms.  And it should be reusabel for anyone else working on a language who doesn't want to do as much low-level dirty work."
   }
 ]

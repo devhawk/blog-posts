@@ -1,5 +1,4 @@
 {
-  "id": 81,
   "slug": "programming-digital-media",
   "title": "Programming Digital Media",
   "date": "2003-05-11T22:08:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030511-2208-programming-digital-media"
+  "comment-count": 0,
+  "dasblog-entry-id": "07e9c43f-82d9-45a2-869f-9d31818afd1f",
+  "dasblog-title": "Programming+Digital+Media",
+  "dasblog-unique-title": "2003/05/12/Programming+Digital+Media"
 }

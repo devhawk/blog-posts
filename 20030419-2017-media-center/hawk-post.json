@@ -1,5 +1,4 @@
 {
-  "id": 74,
   "slug": "media-center",
   "title": "Media Center",
   "date": "2003-04-19T20:17:02-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030419-2017-media-center"
+  "comment-count": 0,
+  "dasblog-entry-id": "6afbbdd5-69a6-4f18-bd48-e59fbb7ab904",
+  "dasblog-title": "Media+Center",
+  "dasblog-unique-title": "2003/04/20/Media+Center"
 }

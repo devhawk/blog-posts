@@ -1,5 +1,4 @@
 {
-  "id": 784,
   "slug": "language-features-i-wish-c-had-tuples",
   "title": "Language Features I Wish C# Had &#8211; Tuples",
   "date": "2006-08-21T23:01:53-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "C#|c-sharp,Lanugages|lanugages",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20060821-2301-language-features-i-wish-c-had-tuples"
+  "comment-count": 4,
+  "dasblog-entry-id": "ead6b18d-9203-4d86-a7ad-7e1e6c6277d6",
+  "dasblog-title": "Language+Features+I+Wish+C+Had+Tuples",
+  "dasblog-unique-title": "2006/08/22/Language+Features+I+Wish+C+Had+Tuples"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 1230,
   "slug": "writing-an-ironpython-debugger-stepping-thru-code",
   "title": "Writing an IronPython Debugger: Stepping Thru Code",
   "date": "2009-03-13T10:31:17-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090313-1031-writing-an-ironpython-debugger-stepping-thru-code"
+  "comment-count": 0,
+  "dasblog-entry-id": "be843f79-26c2-4593-95ae-b271fe4442b3",
+  "dasblog-title": "Writing+An+IronPython+Debugger+Stepping+Thru+Code",
+  "dasblog-unique-title": "2009/03/13/Writing+An+IronPython+Debugger+Stepping+Thru+Code"
 }

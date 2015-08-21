@@ -1,5 +1,4 @@
 {
-  "id": 1298,
   "slug": "joining-windows",
   "title": "Joining Windows",
   "date": "2009-10-26T17:22:43-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Windows|windows",
   "csv-tag-slugs": "Working at MSFT|working-at-msft",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20091026-1722-joining-windows"
+  "comment-count": 4,
+  "dasblog-entry-id": "16570446-12d5-47c1-be94-5a8d1754110a",
+  "dasblog-title": "Joining+Windows",
+  "dasblog-unique-title": "2009/10/27/Joining+Windows"
 }

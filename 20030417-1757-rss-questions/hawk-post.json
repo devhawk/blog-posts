@@ -1,5 +1,4 @@
 {
-  "id": 72,
   "slug": "rss-questions",
   "title": "RSS Questions",
   "date": "2003-04-17T17:57:42-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030417-1757-rss-questions"
+  "comment-count": 0,
+  "dasblog-entry-id": "8f35b62e-1fb3-4d05-b588-1544ff8fd1bb",
+  "dasblog-title": "RSS+Questions",
+  "dasblog-unique-title": "2003/04/18/RSS+Questions"
 }

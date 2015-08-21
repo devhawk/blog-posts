@@ -1,5 +1,4 @@
 {
-  "id": 1112,
   "slug": "morning-coffee-152",
   "title": "Morning Coffee 152",
   "date": "2008-03-03T10:58:00-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "Hockey|hockey,LINQ|linq,Microsoft|microsoft,Silverlight|silverlight",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080303-1058-morning-coffee-152"
+  "comment-count": 1,
+  "dasblog-entry-id": "2a391220-3950-43ef-bf17-773e2a6a364a",
+  "dasblog-title": "Morning+Coffee+152",
+  "dasblog-unique-title": "2008/03/03/Morning+Coffee+152"
 }

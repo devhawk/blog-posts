@@ -1,5 +1,4 @@
 {
-  "id": 671,
   "slug": "architect-on-the-edge",
   "title": "Architect on the Edge",
   "date": "2006-01-24T14:49:55-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Web 2.0|web-2-0",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20060124-1449-architect-on-the-edge"
+  "comment-count": 4,
+  "dasblog-entry-id": "6deaa854-eaa8-42e8-8d94-3e616040cfc3",
+  "dasblog-title": "Architect+On+The+Edge",
+  "dasblog-unique-title": "2006/01/24/Architect+On+The+Edge"
 }

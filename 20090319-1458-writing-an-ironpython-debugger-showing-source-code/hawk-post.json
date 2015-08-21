@@ -1,5 +1,4 @@
 {
-  "id": 1233,
   "slug": "writing-an-ironpython-debugger-showing-source-code",
   "title": "Writing an IronPython Debugger: Showing Source Code",
   "date": "2009-03-19T14:58:25-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "IronPython|ironpython",
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20090319-1458-writing-an-ironpython-debugger-showing-source-code"
+  "comment-count": 0,
+  "dasblog-entry-id": "b77d89ec-e843-428a-824f-2719f11b88ee",
+  "dasblog-title": "Writing+An+IronPython+Debugger+Showing+Source+Code",
+  "dasblog-unique-title": "2009/03/19/Writing+An+IronPython+Debugger+Showing+Source+Code"
 }

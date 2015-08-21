@@ -1,5 +1,4 @@
 {
-  "id": 310,
   "slug": "services-are-neither-applications-nor-components",
   "title": "Services Are Neither Applications Nor Components",
   "date": "2004-02-11T23:37:00-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040211-2337-services-are-neither-applications-nor-components"
+  "comment-count": 0,
+  "dasblog-entry-id": "aa3b0461-e6c8-47ac-996e-84185054b746",
+  "dasblog-title": "Services+Are+Neither+Applications+Nor+Components",
+  "dasblog-unique-title": "2004/02/12/Services+Are+Neither+Applications+Nor+Components"
 }

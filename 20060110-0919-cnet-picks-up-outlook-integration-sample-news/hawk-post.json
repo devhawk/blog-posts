@@ -1,5 +1,4 @@
 {
-  "id": 668,
   "slug": "cnet-picks-up-outlook-integration-sample-news",
   "title": "CNET Picks Up Outlook Integration Sample News",
   "date": "2006-01-10T09:19:39-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20060110-0919-cnet-picks-up-outlook-integration-sample-news"
+  "comment-count": 0,
+  "dasblog-entry-id": "1876afe5-5a8d-43fd-a6dd-08b5bd0eb25e",
+  "dasblog-title": "CNET+Picks+Up+Outlook+Integration+Sample+News",
+  "dasblog-unique-title": "2006/01/10/CNET+Picks+Up+Outlook+Integration+Sample+News"
 }

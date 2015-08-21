@@ -1,5 +1,4 @@
 {
-  "id": 260,
   "slug": "live-on-xbox",
   "title": "Live on XBOX",
   "date": "2003-12-23T19:37:02-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Games|games",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20031223-1937-live-on-xbox"
+  "comment-count": 1,
+  "dasblog-entry-id": "6096f080-f220-4580-b001-3e5d28f2474c",
+  "dasblog-title": "Live+On+XBOX",
+  "dasblog-unique-title": "2003/12/24/Live+On+XBOX"
 }

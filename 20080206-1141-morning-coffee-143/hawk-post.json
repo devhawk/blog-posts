@@ -1,5 +1,4 @@
 {
-  "id": 1099,
   "slug": "morning-coffee-143",
   "title": "Morning Coffee 143",
   "date": "2008-02-06T11:41:41-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "DLR|dlr,Entertainment|entertainment,F#|f-sharp,Parsing Expression Grammar|parsing-expression-grammar,Ruby|ruby,Washington Capitals|washington-capitals,Xbox 360|xbox-360",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20080206-1141-morning-coffee-143"
+  "comment-count": 1,
+  "dasblog-entry-id": "e9931753-bba3-4441-8076-80545e84ba0b",
+  "dasblog-title": "Morning+Coffee+143",
+  "dasblog-unique-title": "2008/02/06/Morning+Coffee+143"
 }

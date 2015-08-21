@@ -1,5 +1,4 @@
 {
-  "id": 303,
   "slug": "p2p-blogger",
   "title": "P2P Blogger",
   "date": "2004-02-08T10:39:16-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "Blogging|blogging,P2P|p2p",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20040208-1039-p2p-blogger"
+  "comment-count": 0,
+  "dasblog-entry-id": "2d25a86d-e4e1-4d60-bb55-750ac609318e",
+  "dasblog-title": "P2P+Blogger",
+  "dasblog-unique-title": "2004/02/08/P2P+Blogger"
 }

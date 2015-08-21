@@ -1,5 +1,4 @@
 {
-  "id": 813,
   "slug": "cool-toy-from-the-teacher",
   "title": "Cool Toy From the Teacher",
   "date": "2006-10-09T15:31:29-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "AJAX|ajax,WF|wf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20061009-1531-cool-toy-from-the-teacher"
+  "comment-count": 0,
+  "dasblog-entry-id": "63dad24c-4db8-4f80-a612-e6e613ae1b26",
+  "dasblog-title": "Cool+Toy+From+The+Teacher",
+  "dasblog-unique-title": "2006/10/09/Cool+Toy+From+The+Teacher"
 }

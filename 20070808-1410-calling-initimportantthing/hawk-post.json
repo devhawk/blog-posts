@@ -1,5 +1,4 @@
 {
-  "id": 1023,
   "slug": "calling-initimportantthing",
   "title": "Calling InitImportantThing",
   "date": "2007-08-08T14:10:03-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20070808-1410-calling-initimportantthing"
+  "comment-count": 2,
+  "dasblog-entry-id": "388d28fc-03b8-4cb8-a28d-53915fde9250",
+  "dasblog-title": "Calling+InitImportantThing",
+  "dasblog-unique-title": "2007/08/08/Calling+InitImportantThing"
 }

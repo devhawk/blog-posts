@@ -1,5 +1,4 @@
 {
-  "id": 825,
   "slug": "essential-windows-workflow-foundation",
   "title": "Essential Windows Workflow Foundation",
   "date": "2006-11-01T15:10:54-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "WF|wf",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20061101-1510-essential-windows-workflow-foundation"
+  "comment-count": 0,
+  "dasblog-entry-id": "018a041d-5395-46db-be26-12dc4a747390",
+  "dasblog-title": "Essential+Windows+Workflow+Foundation",
+  "dasblog-unique-title": "2006/11/01/Essential+Windows+Workflow+Foundation"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 980,
   "slug": "teched-2007-day-three",
   "title": "TechEd 2007 Day Three",
   "date": "2007-06-06T06:28:24-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "Microsoft|microsoft,TechEd|teched",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20070606-0628-teched-2007-day-three"
+  "comment-count": 0,
+  "dasblog-entry-id": "d088074d-567b-449a-8e7a-b5e20d83fff9",
+  "dasblog-title": "TechEd+2007+Day+Three",
+  "dasblog-unique-title": "2007/06/06/TechEd+2007+Day+Three"
 }

@@ -1,32 +1,23 @@
 [
   {
-    "id": 2054,
     "author-name": "Michael Foord",
     "author-email": "fuzzyman@voidspace.org.uk",
     "author-url": "http://ironpython-urls.blogspot.com",
     "date": "2008-04-02T13:51:12-07:00",
-    "content": "Heh - thanks for the mention. You forgot the IronPython-URLs blog though. ;-)\n\nIf the lack of attributes in IronPython makes it hard to use the 'in browser' Silverlight test runner, then maybe you need to prod Dino Veihland to add IP support for attributes. That would be *fantastic* as it is the glaring hole in the IronPython .NET integration.\n\nNow that class decorators have made it into Python 2.6 there is no syntactic reason not to. :-)\n\n(Running Silverlight tests in the browser is fantastic - great to see a focus on testing.)",
-    "parent-id": 1130,
-    "RowKey": "20080402-135112"
+    "content": "Heh - thanks for the mention. You forgot the IronPython-URLs blog though. ;-)\n\nIf the lack of attributes in IronPython makes it hard to use the 'in browser' Silverlight test runner, then maybe you need to prod Dino Veihland to add IP support for attributes. That would be *fantastic* as it is the glaring hole in the IronPython .NET integration.\n\nNow that class decorators have made it into Python 2.6 there is no syntactic reason not to. :-)\n\n(Running Silverlight tests in the browser is fantastic - great to see a focus on testing.)"
   },
   {
-    "id": 2055,
     "author-name": "Michael Foord",
     "author-email": "fuzzyman@voidspace.org.uk",
     "author-url": "http://www.voidspace.org.uk/python/weblog/",
     "date": "2008-04-02T13:55:39-07:00",
-    "content": "Any word on whether Win Mobile 6.1 will support Silverlight 2?",
-    "parent-id": 1130,
-    "RowKey": "20080402-135539"
+    "content": "Any word on whether Win Mobile 6.1 will support Silverlight 2?"
   },
   {
-    "id": 2056,
     "author-name": "Brent",
     "author-email": "brent@brentter.com",
     "author-url": "http://www.brentter.com",
     "date": "2008-04-02T14:54:05-07:00",
-    "content": "wait, so you're holding out for the next release of WMobile and not the next model of iPhone which rumor has it will incorporate 3G (finally)?!??!\nj/k\n\nthanks for the links... ",
-    "parent-id": 1130,
-    "RowKey": "20080402-145405"
+    "content": "wait, so you're holding out for the next release of WMobile and not the next model of iPhone which rumor has it will incorporate 3G (finally)?!??!\nj/k\n\nthanks for the links... "
   }
 ]

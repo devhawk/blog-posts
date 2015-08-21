@@ -1,5 +1,4 @@
 {
-  "id": 1,
   "slug": "devhawk-pagelayout-control",
   "title": "DevHawk PageLayout Control",
   "date": "2003-01-14T20:54:01-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030114-2054-devhawk-pagelayout-control"
+  "comment-count": 0,
+  "dasblog-entry-id": "49f1713e-c04e-4a4a-ad26-fa58c678bf9b",
+  "dasblog-title": "DevHawk+PageLayout+Control",
+  "dasblog-unique-title": "2003/01/15/DevHawk+PageLayout+Control"
 }

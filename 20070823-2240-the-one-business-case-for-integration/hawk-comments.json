@@ -1,12 +1,9 @@
 [
   {
-    "id": 2579,
     "author-name": "Jack van Hoof",
     "author-email": "jack.vanhoof.soa.eda@gmail.com",
     "author-url": "http://soa-eda.blogspot.com",
     "date": "2007-08-25T07:41:15-07:00",
-    "content": "What is integration at all?\n\nApplication Integration is – ironically – about application division. I recently posted my view on how applications can be divided into separated components and how the components are glued together. Several “glue-areas” are recognized where mashups, portals, shared databases, SOA and EDA all play a role in gluing the pieces together.\n\nhttp://soa-eda.blogspot.com/2007/08/what-is-eai.html\n\nI agree not to sell integration to the business, but just do it. \n\n\nJack",
-    "parent-id": 1035,
-    "RowKey": "20070825-074115"
+    "content": "What is integration at all?\n\nApplication Integration is – ironically – about application division. I recently posted my view on how applications can be divided into separated components and how the components are glued together. Several “glue-areas” are recognized where mashups, portals, shared databases, SOA and EDA all play a role in gluing the pieces together.\n\nhttp://soa-eda.blogspot.com/2007/08/what-is-eai.html\n\nI agree not to sell integration to the business, but just do it. \n\n\nJack"
   }
 ]

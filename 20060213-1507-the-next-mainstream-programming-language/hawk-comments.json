@@ -1,12 +1,9 @@
 [
   {
-    "id": 2896,
     "author-name": "Matt Dotson",
     "author-email": "",
     "author-url": "http://blogs.msdn.com/mattdotson/",
     "date": "2006-02-21T21:42:52-08:00",
-    "content": "Interesting stuff.  I wonder if it would catch on with the \"write to the metal\" approach of most game devs.  I could see this sort of thing catching on much better with windows devs where abstraction is everywhere.  I'd like to see this built into existing languages with language extensions to C# (or others) enabled by the phoenix compiler project?\n\nEven if the languages were better equipped to deal with concurrency, we are stuck with so many libraries that don't do concurrency well.  How long will we be bound by windows' single UI thread concept, which is unfortunately not resolved with WPF?\n\nFinally, I'm excited to see a bunch of C++ people saying that the future is garbage collected!!  It makes sense that once you get a bunch of hardware threads (they talked of 20+ hardware threads), giving up 5% processing power would mean the gc could run all of the time and not add any latency to the apps.  With our single threaded apps now, the whole app has to freeze while GC takes place.",
-    "parent-id": 688,
-    "RowKey": "20060221-214252"
+    "content": "Interesting stuff.  I wonder if it would catch on with the \"write to the metal\" approach of most game devs.  I could see this sort of thing catching on much better with windows devs where abstraction is everywhere.  I'd like to see this built into existing languages with language extensions to C# (or others) enabled by the phoenix compiler project?\n\nEven if the languages were better equipped to deal with concurrency, we are stuck with so many libraries that don't do concurrency well.  How long will we be bound by windows' single UI thread concept, which is unfortunately not resolved with WPF?\n\nFinally, I'm excited to see a bunch of C++ people saying that the future is garbage collected!!  It makes sense that once you get a bunch of hardware threads (they talked of 20+ hardware threads), giving up 5% processing power would mean the gc could run all of the time and not add any latency to the apps.  With our single threaded apps now, the whole app has to freeze while GC takes place."
   }
 ]

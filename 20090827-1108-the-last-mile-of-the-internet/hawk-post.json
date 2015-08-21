@@ -1,5 +1,4 @@
 {
-  "id": 1287,
   "slug": "the-last-mile-of-the-internet",
   "title": "The Last Mile of the Internet",
   "date": "2009-08-27T11:08:02-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Async Messaging|async-messaging,Web 2.0|web-2-0,Web Services|web-services",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 3,
-  "PartKey": "20090827-1108-the-last-mile-of-the-internet"
+  "comment-count": 3,
+  "dasblog-entry-id": "71dfa192-0234-4f3d-9939-bc35274f3f5a",
+  "dasblog-title": "The+Last+Mile+Of+The+Internet",
+  "dasblog-unique-title": "2009/08/27/The+Last+Mile+Of+The+Internet"
 }

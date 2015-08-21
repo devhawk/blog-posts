@@ -1,5 +1,4 @@
 {
-  "id": 97,
   "slug": "small-wss-rss-update",
   "title": "Small WSS RSS Update",
   "date": "2003-05-19T22:05:07-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030519-2205-small-wss-rss-update"
+  "comment-count": 0,
+  "dasblog-entry-id": "cdecfa58-31d6-4da5-bb22-3d0246b25747",
+  "dasblog-title": "Small+WSS+RSS+Update",
+  "dasblog-unique-title": "2003/05/20/Small+WSS+RSS+Update"
 }

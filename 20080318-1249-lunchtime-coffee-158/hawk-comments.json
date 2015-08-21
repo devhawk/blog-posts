@@ -1,12 +1,9 @@
 [
   {
-    "id": 2048,
     "author-name": "Tomas Restrepo",
     "author-email": "tomas@winterdom.com",
     "author-url": "http://www.winterdom.com/weblog/",
     "date": "2008-03-18T13:39:11-07:00",
-    "content": "Thanks for the link to Chris tavares blog, Harry; I had honestly not seen it before. The trick he uses is cool, but not sure it would work for me (as I modify a bunch of other env variables on my profile and blindly replacing them with the output of vcvars32.bat might not work. \nIn any case, my desire for creating a custom script was mostly so that I could keep a single script that worked on all my machines, regardless of the VS version installed, and since it's doing that very nicely, no need to switch for now.\n\nOn a different topic, Ted does have a good point. I haven't been to \"real\" conferences in a few years, but certainly the networking opportunities where by far the most productive part of the conferences. I wonder how many people totally miss that.\n\nLooking forward to your thoughts on PyCon.... hope it wasn't all as bad as Bruce Eckel was complaining about :)",
-    "parent-id": 1126,
-    "RowKey": "20080318-133911"
+    "content": "Thanks for the link to Chris tavares blog, Harry; I had honestly not seen it before. The trick he uses is cool, but not sure it would work for me (as I modify a bunch of other env variables on my profile and blindly replacing them with the output of vcvars32.bat might not work. \nIn any case, my desire for creating a custom script was mostly so that I could keep a single script that worked on all my machines, regardless of the VS version installed, and since it's doing that very nicely, no need to switch for now.\n\nOn a different topic, Ted does have a good point. I haven't been to \"real\" conferences in a few years, but certainly the networking opportunities where by far the most productive part of the conferences. I wonder how many people totally miss that.\n\nLooking forward to your thoughts on PyCon.... hope it wasn't all as bad as Bruce Eckel was complaining about :)"
   }
 ]

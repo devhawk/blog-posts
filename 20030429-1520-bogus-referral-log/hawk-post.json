@@ -1,5 +1,4 @@
 {
-  "id": 78,
   "slug": "bogus-referral-log",
   "title": "Bogus Referral Log",
   "date": "2003-04-29T15:20:12-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030429-1520-bogus-referral-log"
+  "comment-count": 0,
+  "dasblog-entry-id": "b9c472a9-b7f8-47b2-a46e-a795bce57663",
+  "dasblog-title": "Bogus+Referral+Log",
+  "dasblog-unique-title": "2003/04/29/Bogus+Referral+Log"
 }

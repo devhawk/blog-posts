@@ -1,5 +1,4 @@
 {
-  "id": 350,
   "slug": "microsoft-solutions-framework",
   "title": "Microsoft Solutions Framework",
   "date": "2004-04-12T15:15:42-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "Process|process",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20040412-1515-microsoft-solutions-framework"
+  "comment-count": 1,
+  "dasblog-entry-id": "ea4c2c03-791d-4eba-97ea-e09d3c11bdea",
+  "dasblog-title": "Microsoft+Solutions+Framework",
+  "dasblog-unique-title": "2004/04/12/Microsoft+Solutions+Framework"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 495,
   "slug": "ssb-wrapper-class",
   "title": "SSB Wrapper Class",
   "date": "2004-12-10T15:09:39-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Architecture|architecture",
   "csv-tag-slugs": "SOA|soa",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 1,
-  "PartKey": "20041210-1509-ssb-wrapper-class"
+  "comment-count": 1,
+  "dasblog-entry-id": "d4d897c9-a23a-4110-9e94-0e698dd07bae",
+  "dasblog-title": "SSB+Wrapper+Class",
+  "dasblog-unique-title": "2004/12/10/SSB+Wrapper+Class"
 }

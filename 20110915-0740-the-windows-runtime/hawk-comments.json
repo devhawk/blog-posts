@@ -1,62 +1,44 @@
 [
   {
-    "id": 3183,
     "author-name": "anvaka",
     "author-email": "anvaka@gmail.com",
     "author-url": "http://anvaka.blogspot.com",
     "date": "2011-09-15T09:01:35-07:00",
-    "content": "Congratulations with release :). Now it's out, and I can't wait to learn more about WinRT internals. Please keep posting :)!",
-    "parent-id": 1919,
-    "RowKey": "20110915-090135"
+    "content": "Congratulations with release :). Now it's out, and I can't wait to learn more about WinRT internals. Please keep posting :)!"
   },
   {
-    "id": 3184,
     "author-name": "Using WinRT from C# //build Demo &#8211; DevHawk",
     "author-email": "",
     "author-url": "http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/",
     "date": "2011-09-15T09:39:50-07:00",
-    "content": "[...] DevHawk Designs                       &laquo; The Windows Runtime [...] ",
-    "parent-id": 1919,
-    "RowKey": "20110915-093950"
+    "content": "[...] DevHawk Designs                       &laquo; The Windows Runtime [...] "
   },
   {
-    "id": 3185,
     "author-name": "Cristian Remy",
     "author-email": "alhudson.alhudson@gmail.com",
     "author-url": "http://www.gamespot.com",
     "date": "2011-09-15T14:45:46-07:00",
-    "content": "Great!\n\nFinally the Longhorn promise is a fact",
-    "parent-id": 1919,
-    "RowKey": "20110915-144546"
+    "content": "Great!\n\nFinally the Longhorn promise is a fact"
   },
   {
-    "id": 3186,
     "author-name": "Dev{eloper} Stonez",
     "author-email": "dev.stonez@gmail.com",
     "author-url": "http://twitter.com/devstonez",
     "date": "2011-09-16T00:49:44-07:00",
-    "content": "I’m just wondering how the HTML5/JavaScript Metro applications will be packaged and protected against reversal …\n For packaging I’ll expect some sort of signed zip/jar (no mention about .appx on MSDN) but for protection, outside of heavy obfuscation for JavaScript I can’t envision any other way (maybe a new precompiled/binary format ?)\n If the protection is not good, writing HTML5/JavaScript apps will not flourish to much IMHO.\n\nSince the Metro documentation state that the applications are self-consistent (no shared DLL’s, etc), I’m just wondering how you can create a modular, BIG Metro application by creating reusable components/libraries … Another issue that bother me relate to the library reuse, since the Metro documentation state that the applications are self-consistent (no shared DLL's, etc), so I'm just wondering how you can create a modular, BIG Metro application by creating reusable components/libraries ... \n\nIf all the HTML5/JavaScript Metro apps should contain the same CSS and WinJS scripts then it doesn't look quite good ... I expected some form of libraries/reuse to exist from the start.\n\nDo you have more details for all of these ?\n\nBTW, all the HTML5/JavaScript way of programming Metro apps remind me about Opera widgets that you can build for several years now",
-    "parent-id": 1919,
-    "RowKey": "20110916-004944"
+    "content": "I’m just wondering how the HTML5/JavaScript Metro applications will be packaged and protected against reversal …\n For packaging I’ll expect some sort of signed zip/jar (no mention about .appx on MSDN) but for protection, outside of heavy obfuscation for JavaScript I can’t envision any other way (maybe a new precompiled/binary format ?)\n If the protection is not good, writing HTML5/JavaScript apps will not flourish to much IMHO.\n\nSince the Metro documentation state that the applications are self-consistent (no shared DLL’s, etc), I’m just wondering how you can create a modular, BIG Metro application by creating reusable components/libraries … Another issue that bother me relate to the library reuse, since the Metro documentation state that the applications are self-consistent (no shared DLL's, etc), so I'm just wondering how you can create a modular, BIG Metro application by creating reusable components/libraries ... \n\nIf all the HTML5/JavaScript Metro apps should contain the same CSS and WinJS scripts then it doesn't look quite good ... I expected some form of libraries/reuse to exist from the start.\n\nDo you have more details for all of these ?\n\nBTW, all the HTML5/JavaScript way of programming Metro apps remind me about Opera widgets that you can build for several years now"
   },
   {
-    "id": 3187,
     "author-name": "Dev{eloper} Stonez",
     "author-email": "dev.stonez@gmail.com",
     "author-url": "http://twitter.com/devstonez",
     "date": "2011-09-16T05:21:09-07:00",
-    "content": "A deep-dive into WinRT and CLR  under Windows 8 and better details of the actual Windows 8 architecture can be found here <a href=\"http://dougseven.com/2011/09/15/a-bad-picture-is-worth-a-thousand-long-discussions/\" rel=\"nofollow\">A bad picture is worth a thousand long discussions.</a>",
-    "parent-id": 1919,
-    "RowKey": "20110916-052109"
+    "content": "A deep-dive into WinRT and CLR  under Windows 8 and better details of the actual Windows 8 architecture can be found here <a href=\"http://dougseven.com/2011/09/15/a-bad-picture-is-worth-a-thousand-long-discussions/\" rel=\"nofollow\">A bad picture is worth a thousand long discussions.</a>"
   },
   {
-    "id": 3188,
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2011-09-18T09:34:58-07:00",
-    "content": "Dev{eloper} Stonez, would you mind re-asking your questions over on the <a href=\"http://forums.dev.windows.com\" rel=\"nofollow\">Metro style apps Forum</a>? We have support engineers actively monitoring those forums and it will be easier to for others with similar questions to find answers posted there rather than here. Thanks!",
-    "parent-id": 1919,
-    "RowKey": "20110918-093458"
+    "content": "Dev{eloper} Stonez, would you mind re-asking your questions over on the <a href=\"http://forums.dev.windows.com\" rel=\"nofollow\">Metro style apps Forum</a>? We have support engineers actively monitoring those forums and it will be easier to for others with similar questions to find answers posted there rather than here. Thanks!"
   }
 ]

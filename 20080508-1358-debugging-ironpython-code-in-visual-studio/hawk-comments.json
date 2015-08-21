@@ -1,22 +1,16 @@
 [
   {
-    "id": 2079,
     "author-name": "nice air force ones",
     "author-email": "airforcenice@yahoo.com",
     "author-url": "http://www.sneakernice.com",
     "date": "2008-05-17T06:01:43-07:00",
-    "content": "Very helpful, thanks!! ",
-    "parent-id": 1146,
-    "RowKey": "20080517-060143"
+    "content": "Very helpful, thanks!! "
   },
   {
-    "id": 2080,
     "author-name": "Mitch",
     "author-email": "mbarnett@uniserve.com",
     "author-url": "http://globalsystembuider.com",
     "date": "2008-07-05T18:26:36-07:00",
-    "content": "Thanks Harry!  One question I have is - is it possible to step through app.py in Jim Hugunin's wonderful DLR Console?  It is 2k lines of Python code that I am trying to wrap my head around, but have not found a way in VS 2008 to step through the code.  Any help appreciated.  Keep up the good writings!",
-    "parent-id": 1146,
-    "RowKey": "20080705-182636"
+    "content": "Thanks Harry!  One question I have is - is it possible to step through app.py in Jim Hugunin's wonderful DLR Console?  It is 2k lines of Python code that I am trying to wrap my head around, but have not found a way in VS 2008 to step through the code.  Any help appreciated.  Keep up the good writings!"
   }
 ]

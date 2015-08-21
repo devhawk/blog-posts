@@ -1,12 +1,9 @@
 [
   {
-    "id": 2221,
     "author-name": "Barry Kelly",
     "author-email": "bkelly.ie@gmail.com",
     "author-url": "http://barrkel.blogspot.com/",
     "date": "2009-06-18T15:34:08-07:00",
-    "content": "How about a return to tried and trusted technology from the 70s? Why the hell was boot.ini gotten rid of?\n\nOh I know, \"too vulnerable to malicious attacks\". That makes no sense at all; if the OS can't protect boot.ini with permissions, why the hell does anyone think an obfuscated format will do better?\n\nIt's crap like this which have meant I haven't moved on (I can't say \"upgraded\") to Vista, and is only one of many reasons why I won't move to Win7 either, not for a good few years, or at least until I can replace the shell with an XP-alike - most especially the Start Menu, the Explorer items pane, and getting rid of the Mac-alike task bar. (I hate Macs more.) Sigh.",
-    "parent-id": 1267,
-    "RowKey": "20090618-153408"
+    "content": "How about a return to tried and trusted technology from the 70s? Why the hell was boot.ini gotten rid of?\n\nOh I know, \"too vulnerable to malicious attacks\". That makes no sense at all; if the OS can't protect boot.ini with permissions, why the hell does anyone think an obfuscated format will do better?\n\nIt's crap like this which have meant I haven't moved on (I can't say \"upgraded\") to Vista, and is only one of many reasons why I won't move to Win7 either, not for a good few years, or at least until I can replace the shell with an XP-alike - most especially the Start Menu, the Explorer items pane, and getting rid of the Mac-alike task bar. (I hate Macs more.) Sigh."
   }
 ]

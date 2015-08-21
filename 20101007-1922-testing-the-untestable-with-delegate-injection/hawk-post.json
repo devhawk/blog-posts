@@ -1,5 +1,4 @@
 {
-  "id": 1304,
   "slug": "testing-the-untestable-with-delegate-injection",
   "title": "Testing the Untestable with Delegate Injection",
   "date": "2010-10-07T19:22:18-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "ASP.NET|asp-net,ASP.NET MVC|asp-net-mvc,C#|c-sharp,Functional Programming|functional-programming,Unit Testing|unit-testing",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 4,
-  "PartKey": "20101007-1922-testing-the-untestable-with-delegate-injection"
+  "comment-count": 4,
+  "dasblog-entry-id": "d978e50d-1158-4448-ab5e-c45d1ae8eb67",
+  "dasblog-title": "Testing+The+Untestable+With+Delegate+Injection",
+  "dasblog-unique-title": "2010/10/08/Testing+The+Untestable+With+Delegate+Injection"
 }

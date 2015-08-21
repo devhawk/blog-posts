@@ -1,32 +1,23 @@
 [
   {
-    "id": 2653,
     "author-name": "John Cavnar-Johnson",
     "author-email": "",
     "author-url": "",
     "date": "2004-08-17T04:16:19-07:00",
-    "content": "I amazed you can't see the problem. The term factory is indelibly linked to economies of scale in our culture. Choosing the title \"Software Factories\" and expecting his readers to understand the point he was trying to make is an act of overwhelming ignorance or simple stupidity. The closest analogy he makes between physical production and software production is construction. Do you actually think we build bridges in factories? Don't blame the readers when the author fails to communicate his point.",
-    "parent-id": 418,
-    "RowKey": "20040817-041619"
+    "content": "I amazed you can't see the problem. The term factory is indelibly linked to economies of scale in our culture. Choosing the title \"Software Factories\" and expecting his readers to understand the point he was trying to make is an act of overwhelming ignorance or simple stupidity. The closest analogy he makes between physical production and software production is construction. Do you actually think we build bridges in factories? Don't blame the readers when the author fails to communicate his point."
   },
   {
-    "id": 2654,
     "author-name": "Justin Pitts",
     "author-email": "",
     "author-url": "",
     "date": "2004-08-17T04:27:35-07:00",
-    "content": "What part of \"We can, however, expect the industrialization of software development to exploit economies of scope\" fails to effectively communicate the point? Fault the reader for failing to consume more than the title and first paragraph.",
-    "parent-id": 418,
-    "RowKey": "20040817-042735"
+    "content": "What part of \"We can, however, expect the industrialization of software development to exploit economies of scope\" fails to effectively communicate the point? Fault the reader for failing to consume more than the title and first paragraph."
   },
   {
-    "id": 2655,
     "author-name": "Chris R. Chapman",
     "author-email": "chris.chapman@imason.com",
     "author-url": "",
     "date": "2004-08-23T08:36:49-07:00",
-    "content": "I agree with Justin;  we're all supposedly \"intelligent\" people (God knows the average SlashDot fanboy claims to be incredibly moreso than the average bear) who can read without a lot of handholding.\n\nI've been following and reading up on the concepts of software factories and totally get it and why it needs to happen, as I've witnessed too many reinventions of the wheel and far too little uptake of practices that would enable a good number of small and medium-sized software shops to punch well above their weight.\n\nBravo for supporting and helping champion the ideas.",
-    "parent-id": 418,
-    "RowKey": "20040823-083649"
+    "content": "I agree with Justin;  we're all supposedly \"intelligent\" people (God knows the average SlashDot fanboy claims to be incredibly moreso than the average bear) who can read without a lot of handholding.\n\nI've been following and reading up on the concepts of software factories and totally get it and why it needs to happen, as I've witnessed too many reinventions of the wheel and far too little uptake of practices that would enable a good number of small and medium-sized software shops to punch well above their weight.\n\nBravo for supporting and helping champion the ideas."
   }
 ]

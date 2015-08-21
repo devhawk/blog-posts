@@ -1,5 +1,4 @@
 {
-  "id": 325,
   "slug": "url-addressability",
   "title": "URL Addressability",
   "date": "2004-03-04T15:33:51-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 2,
-  "PartKey": "20040304-1533-url-addressability"
+  "comment-count": 2,
+  "dasblog-entry-id": "7933dc2b-d9ae-46d0-8827-f67e7a884b39",
+  "dasblog-title": "URL+Addressability",
+  "dasblog-unique-title": "2004/03/04/URL+Addressability"
 }

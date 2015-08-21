@@ -1,5 +1,4 @@
 {
-  "id": 1049,
   "slug": "morning-coffee-122",
   "title": "Morning Coffee 122",
   "date": "2007-11-09T10:26:59-08:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "Morning Coffee|morning-coffee",
   "csv-tag-slugs": "ASP.NET|asp-net,C++|c-plus-plus,PowerShell|powershell,REST|rest,SOA|soa,Windows Live|windows-live",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20071109-1026-morning-coffee-122"
+  "comment-count": 0,
+  "dasblog-entry-id": "29dfca7a-dca5-489a-b198-f176140b5378",
+  "dasblog-title": "Morning+Coffee+122",
+  "dasblog-unique-title": "2007/11/09/Morning+Coffee+122"
 }

@@ -1,5 +1,4 @@
 {
-  "id": 103,
   "slug": "updated-blogroll",
   "title": "Updated Blogroll",
   "date": "2003-05-25T22:11:25-07:00",
@@ -7,6 +6,8 @@
   "csv-category-slugs": "",
   "csv-tag-slugs": "",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment_count": 0,
-  "PartKey": "20030525-2211-updated-blogroll"
+  "comment-count": 0,
+  "dasblog-entry-id": "5c970a78-67ba-4abe-9ff5-24b1dff8edb4",
+  "dasblog-title": "Updated+Blogroll",
+  "dasblog-unique-title": "2003/05/26/Updated+Blogroll"
 }
