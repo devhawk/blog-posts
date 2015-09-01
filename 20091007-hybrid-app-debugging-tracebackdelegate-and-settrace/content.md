@@ -50,7 +50,7 @@ themselves, some other TracebackDelegate, or null if they don’t want any
 more traceback events for the current scope. It’s kinda confusing, so
 here’s a picture:
 
-![](http://hawkblogstorage.blob.core.windows.net/blog-content/20091007-1343-hybrid-app-debugging-tracebackdelegate-and-settrace/TracebackDelegateDiagram.png)
+![](http://image.devhawk.net/blog-content/20091007-1343-hybrid-app-debugging-tracebackdelegate-and-settrace/TracebackDelegateDiagram.png)
 
 You’ll notice three different traceback event types in the picture
 above: call, line and return. Call indicates the start of a scope, and

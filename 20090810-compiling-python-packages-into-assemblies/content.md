@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20090810-1116-compiling-python-packages-into-assemblies/compilepython-image_1_thumb.png)](http://hawkblogstorage.blob.core.windows.net/blog-content/20090810-1116-compiling-python-packages-into-assemblies/compilepython-image_1.png)
+[![](http://image.devhawk.net/blog-content/20090810-1116-compiling-python-packages-into-assemblies/compilepython-image_1_thumb.png)](http://image.devhawk.net/blog-content/20090810-1116-compiling-python-packages-into-assemblies/compilepython-image_1.png)
 :::
 
 In looking at my [hybrid IronPython / C\# Windows Live Writer

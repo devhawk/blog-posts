@@ -9,7 +9,7 @@ a space elevator is pretty exciting, the presentation itself left quite
 a bit to be desired.
 
 ::: image-left
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/240px-Space_elevator_structural_diagram_svg.png)](http://en.wikipedia.org/wiki/Space_elevator) 
+[![](http://image.devhawk.net/blog-content/240px-Space_elevator_structural_diagram_svg.png)](http://en.wikipedia.org/wiki/Space_elevator) 
 :::
 
 For the un-initiated, a [space

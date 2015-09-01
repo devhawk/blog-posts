@@ -62,4 +62,4 @@ with a slightly different take.
     so that it is aware of when the second web service becomes available
     again.
 
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20070216-0816-morning-doughnuts-1/heartbeat_services_thumb.png)](http://hawkblogstorage.blob.core.windows.net/blog-content/20070216-0816-morning-doughnuts-1/heartbeat_services.png)
+[![](http://image.devhawk.net/blog-content/20070216-0816-morning-doughnuts-1/heartbeat_services_thumb.png)](http://image.devhawk.net/blog-content/20070216-0816-morning-doughnuts-1/heartbeat_services.png)

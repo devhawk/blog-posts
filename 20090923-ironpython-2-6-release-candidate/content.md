@@ -1,4 +1,4 @@
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20090923-1026-ironpython-2-6-release-candidate/image_3.png)](http://ironpython.codeplex.com/)
+[![](http://image.devhawk.net/blog-content/20090923-1026-ironpython-2-6-release-candidate/image_3.png)](http://ironpython.codeplex.com/)
 
 We released the [IronPython 2.6 release
 candidate](http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=30315)

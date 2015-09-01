@@ -1,5 +1,5 @@
 ::: image-right
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20091006-1411-lightweight-debugging-for-hybrid-cironpython-apps/designallCAZM93SM_3.jpg)](http://www.zazzle.com/you_had_me_at_dynamic_shirt-235421109922997983)
+[![](http://image.devhawk.net/blog-content/20091006-1411-lightweight-debugging-for-hybrid-cironpython-apps/designallCAZM93SM_3.jpg)](http://www.zazzle.com/you_had_me_at_dynamic_shirt-235421109922997983)
 :::
 
 One of the IronPython scenarios that I’m hearing more and more about

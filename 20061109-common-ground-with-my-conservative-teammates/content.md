@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014_thumb.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014.jpg)
+[![](http://image.devhawk.net/blog-content/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014_thumb.jpg)](http://image.devhawk.net/blog-content/20061109-1101-common-ground-with-my-conservative-teammates/IMAGE_00014.jpg)
 :::
 
 I came in this morning to discover my boss and next cube neighbor

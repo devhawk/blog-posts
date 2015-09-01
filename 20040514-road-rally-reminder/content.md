@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20040514-1017-road-rally-reminder/RoadRally_250x75.gif)](http://www.dynamicevents.com/ArchitectRoadRally.asp)
+[![](http://image.devhawk.net/blog-content/20040514-1017-road-rally-reminder/RoadRally_250x75.gif)](http://www.dynamicevents.com/ArchitectRoadRally.asp)
 :::
 
 TechEd is almost upon us – just over one week to go. We had our last

@@ -8,7 +8,7 @@ template](http://visualstudiogallery.msdn.microsoft.com/527286e4-b06a-4234-adde-
 care of these small tweaks for you.
 
 ::: image-left
-[![BRT\_NewProject](http://hawkblogstorage.blob.core.windows.net/blog-content/20140425-0841-brokered-winrt-components-step-one/BRT_NewProject-300x207.png)](http://hawkblogstorage.blob.core.windows.net/blog-content/20140425-0841-brokered-winrt-components-step-one/BRT_NewProject.png) 
+[![BRT\_NewProject](http://image.devhawk.net/blog-content/20140425-0841-brokered-winrt-components-step-one/BRT_NewProject-300x207.png)](http://image.devhawk.net/blog-content/20140425-0841-brokered-winrt-components-step-one/BRT_NewProject.png) 
 :::
 
 Start by selecting File -\> New -\> Project in Visual Studio. With the sheer

@@ -6,7 +6,7 @@ for Windows Live Writer
 plugin](http://devhawk.net/2009/08/07/pygments-for-windows-live-writer-v1-0-2/).
 
 ::: image-right
-![pygments\_logo](http://hawkblogstorage.blob.core.windows.net/blog-content/20090810-0804-building-a-hybrid-c-ironpython-app-without-dynamic-type/pygments_logo.png "pygments_logo")
+![pygments\_logo](http://image.devhawk.net/blog-content/20090810-0804-building-a-hybrid-c-ironpython-app-without-dynamic-type/pygments_logo.png "pygments_logo")
 :::
 
 [Pygments](http://pygments.org/) is a syntax highlighter, written in
@@ -20,7 +20,7 @@ inserted in my blog posts. So it made perfect sense to use Pygments as
 the basis of a Windows Live Writer plugin.
 
 ::: image-left
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20090810-0804-building-a-hybrid-c-ironpython-app-without-dynamic-type/WLW_pygments_layers_thumb.png)](http://hawkblogstorage.blob.core.windows.net/blog-content/20090810-0804-building-a-hybrid-c-ironpython-app-without-dynamic-type/WLW_pygments_layers.png)
+[![](http://image.devhawk.net/blog-content/20090810-0804-building-a-hybrid-c-ironpython-app-without-dynamic-type/WLW_pygments_layers_thumb.png)](http://image.devhawk.net/blog-content/20090810-0804-building-a-hybrid-c-ironpython-app-without-dynamic-type/WLW_pygments_layers.png)
 :::
 
 As great a tool as Windows Live Writer is, it’s developers haven’t

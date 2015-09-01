@@ -1,5 +1,5 @@
 ::: image-right
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20040902-1422-software-factories-at-oopsla/OOPSLA04LogoSplash.gif)](http://www.oopsla.org/2004)
+[![](http://image.devhawk.net/blog-content/20040902-1422-software-factories-at-oopsla/OOPSLA04LogoSplash.gif)](http://www.oopsla.org/2004)
 :::
 
 Keith [blogged](http://blogs.msdn.com/keith_short/archive/2004/09/01/224317.aspx)

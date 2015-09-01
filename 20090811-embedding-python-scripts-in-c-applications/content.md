@@ -1,5 +1,5 @@
 ::: image-left
-![](http://hawkblogstorage.blob.core.windows.net/blog-content/20090811-0924-embedding-python-scripts-in-c-applications/image_thumb_1.png)
+![](http://image.devhawk.net/blog-content/20090811-0924-embedding-python-scripts-in-c-applications/image_thumb_1.png)
 :::
 
 Now that I’ve got Pygments and its dependencies [packaged up in an

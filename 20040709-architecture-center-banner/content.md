@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://hawkblogstorage.blob.core.windows.net/blog-content/20040709-1600-architecture-center-banner/ArchCenterBanner_1_thumb.jpg)](http://hawkblogstorage.blob.core.windows.net/blog-content/20040709-1600-architecture-center-banner/ArchCenterBanner_1.jpg)
+[![](http://image.devhawk.net/blog-content/20040709-1600-architecture-center-banner/ArchCenterBanner_1_thumb.jpg)](http://image.devhawk.net/blog-content/20040709-1600-architecture-center-banner/ArchCenterBanner_1.jpg)
 :::
 
 For TechEd, we got a big banner to hang in the lunch room to advertise

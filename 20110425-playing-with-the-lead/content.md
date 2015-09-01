@@ -1,5 +1,5 @@
 ::: image-right
-[![Ovechkin Celebrates the Capitals' First Goal in Game 5](http://hawkblogstorage.blob.core.windows.net/blog-content/20110425-0003-playing-with-the-lead/OviCelebratesGoal-300x200.jpg "Ovechkin Celebrates the Capitals' First Goal in Game 5")](http://www.nhl.com/ice/recap.htm?id=2010030115)
+[![Ovechkin Celebrates the Capitals' First Goal in Game 5](http://image.devhawk.net/blog-content/20110425-0003-playing-with-the-lead/OviCelebratesGoal-300x200.jpg "Ovechkin Celebrates the Capitals' First Goal in Game 5")](http://www.nhl.com/ice/recap.htm?id=2010030115)
 :::
 
 Obviously, the [Capitals win
