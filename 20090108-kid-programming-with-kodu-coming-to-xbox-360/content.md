@@ -7,7 +7,7 @@ father myself, I want my kids to have a similar opportunity, even if
 they never choose to go into the “family business”.
 
 ::: image-left
-[![kodu\_guy](http://image.devhawk.net/blog-content/20090108-1119-kid-programming-with-kodu-coming-to-xbox-360/kodu_guy_5.jpg "kodu_guy")](http://research.microsoft.com/en-us/projects/kodu/default.aspx)
+[![kodu\_guy](http://image.devhawk.net/blog-content/20090108-kid-programming-with-kodu-coming-to-xbox-360/kodu_guy_5.jpg "kodu_guy")](http://research.microsoft.com/en-us/projects/kodu/default.aspx)
 :::
 Of course, the technology has moved on significantly since the days of
 “You are in a maze of twisty little passages, all alike”. At CES
@@ -21,7 +21,7 @@ as a tool for teaching kids how to program. The programming language is
 very visual and iconic and you use the Xbox controller exclusively for
 all input. Here’s a screenshot:
 
-![](http://image.devhawk.net/blog-content/20090108-1119-kid-programming-with-kodu-coming-to-xbox-360/kodu_programming_ui.jpg)
+![](http://image.devhawk.net/blog-content/20090108-kid-programming-with-kodu-coming-to-xbox-360/kodu_programming_ui.jpg)
 
 To demo Kodu at CES, Robbie Bach brought a 12 year old girl named
 Sparrow up on stage to demo. I showed the video to my kids this morning

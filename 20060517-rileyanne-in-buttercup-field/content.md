@@ -4,4 +4,4 @@ Spaces](http://spaces.msn.com/devhawk). But this time I had to make an
 exception. Check out this awesome picture of my daughter Rileyanne in a
 field of buttercups. Isn’t she cute? :smile:
 
-![](http://image.devhawk.net/blog-content/20060517-2044-rileyanne-in-buttercup-field/RileyButtercupField.jpg)
+![](http://image.devhawk.net/blog-content/20060517-rileyanne-in-buttercup-field/RileyButtercupField.jpg)

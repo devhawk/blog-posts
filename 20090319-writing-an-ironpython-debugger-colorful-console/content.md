@@ -7,7 +7,7 @@ current line of source is in yellow. Here’s what it looks like on my
 machine (note, the top line with the green [11] is PowerShell and ipy2
 is a PowerShell alias to ipy.exe v2.0.1)
 
-![ipydbg on the console](http://image.devhawk.net/blog-content/20090319-1548-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-1.png "ipydbg on the console")
+![ipydbg on the console](http://image.devhawk.net/blog-content/20090319-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-1.png "ipydbg on the console")
 
 Writing color to the windows console is a hassle because of the
 [stateful API](http://msdn.microsoft.com/en-us/library/system.console.foregroundcolor.aspx)
@@ -62,7 +62,7 @@ entire line of python source. But as we see below, sometimes only part
 of a given line of source text is associated with a given sequence
 point.
 
-![](http://image.devhawk.net/blog-content/20090319-1548-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-2.png)
+![](http://image.devhawk.net/blog-content/20090319-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-2.png)
 
 The other issue I ran into is that there’s a always a sequence point at
 the very end of a function. Unlike the break at the start of the
@@ -74,7 +74,7 @@ However, I wanted a way of showing that we’re about to step out in the
 source code line view. I decided on writing a series of carets \^\^\^ to
 indicate that we’re at the end of a function.
 
-![](http://image.devhawk.net/blog-content/20090319-1548-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-3.png)
+![](http://image.devhawk.net/blog-content/20090319-writing-an-ironpython-debugger-colorful-console/ipydbg-colorcon-3.png)
 
 As you can see in the dark grey line in the screenshot above, the
 current sequence point starts and ends at line 4 column 23. Column 23 is

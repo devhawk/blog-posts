@@ -20,7 +20,7 @@ albums](http://techiewife.spaces.live.com/photos/cns!3DAECC033B88329C!2885/feed.
 So I built out a simple WPF based photo viewer for my wife’s WL Space
 photos in IronPython.
 
-[![TechieWife Photo Viewer screenshot](http://image.devhawk.net/blog-content/20081112-1718-ironpython-and-wpf-part-1-introduction/ipywpf_thumb.png "TechieWife Photo Viewer screenshot")](http://image.devhawk.net/blog-content/20081112-1718-ironpython-and-wpf-part-1-introduction/ipywpf.png)
+[![TechieWife Photo Viewer screenshot](http://image.devhawk.net/blog-content/20081112-ironpython-and-wpf-part-1-introduction/ipywpf_thumb.png "TechieWife Photo Viewer screenshot")](http://image.devhawk.net/blog-content/20081112-ironpython-and-wpf-part-1-introduction/ipywpf.png)
 
 As you can see, I’m not quitting my job to go pursue a career in design
 anytime soon. But hey, the point is demonstrate building a WPF app in

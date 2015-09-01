@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20060929-1703-working-from-home-as-the-office-moves/map09acefc72c79.jpg)](http://local.live.com/default.aspx?v=2&cp=47.54693~-122.0346&lvl=1&style=o&scene=3713755&sp=aN.47.54674_-122.0346_New%2520Issquah%2520Black%2520Building_ "Click to view this map on Live.com")
+[![](http://image.devhawk.net/blog-content/20060929-working-from-home-as-the-office-moves/map09acefc72c79.jpg)](http://local.live.com/default.aspx?v=2&cp=47.54693~-122.0346&lvl=1&style=o&scene=3713755&sp=aN.47.54674_-122.0346_New%2520Issquah%2520Black%2520Building_ "Click to view this map on Live.com")
 
 **New Microsoft Issaquah Black Building**
 ::: 

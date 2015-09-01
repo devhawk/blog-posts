@@ -1,5 +1,5 @@
 ::: image-left
-[![Gamer Card Writer Plugin](http://image.devhawk.net/blog-content/20060929-1715-new-version-of-gamer-card-writer-plugin/xbox_logo.jpg)](http://gallery.live.com/liveitemdetail.aspx?li=0dfb3c1d-bb4e-4661-ad80-82c1994b424e&l=8)
+[![Gamer Card Writer Plugin](http://image.devhawk.net/blog-content/20060929-new-version-of-gamer-card-writer-plugin/xbox_logo.jpg)](http://gallery.live.com/liveitemdetail.aspx?li=0dfb3c1d-bb4e-4661-ad80-82c1994b424e&l=8)
 :::
 
 There’s a new version of WL Writer, so I spent a little time updating my

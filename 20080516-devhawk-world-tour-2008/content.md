@@ -6,7 +6,7 @@ submitting sessions for, in discussions with, but these are the ones
 that are confirmed.
 
 ::: image-right
-[![dutchdevdays](http://image.devhawk.net/blog-content/20080516-1541-devhawk-world-tour-2008/dutchdevdays_3.jpg)](http://www.devdays.nl/)
+[![dutchdevdays](http://image.devhawk.net/blog-content/20080516-devhawk-world-tour-2008/dutchdevdays_3.jpg)](http://www.devdays.nl/)
 :::
 **[DevDays 2008](http://www.devdays.nl)**\
 May 22nd – 23rd, Amsterdam, The Netherlands
@@ -37,7 +37,7 @@ at the last minute (technically, later than the last minute) so this one
 has no abstract.
 
 ::: image-right
-![teched](http://image.devhawk.net/blog-content/20080516-1541-devhawk-world-tour-2008/teched_3.jpg)
+![teched](http://image.devhawk.net/blog-content/20080516-devhawk-world-tour-2008/teched_3.jpg)
 :::
 **TechEd [New Zealand](http://www.microsoft.com/nz/teched08/index.aspx)
 and [Australia](http://www.microsoft.com.au/teched/default.aspx)**\
@@ -50,7 +50,7 @@ architecture session. There’s also rumor of a web futures panel
 discussion that I’ll be participating in.
 
 ::: image-right
-![PDC](http://image.devhawk.net/blog-content/20080516-1541-devhawk-world-tour-2008/pdc_flair_thumb.jpg)
+![PDC](http://image.devhawk.net/blog-content/20080516-devhawk-world-tour-2008/pdc_flair_thumb.jpg)
 :::
 **[PDC08](http://microsoftpdc.com/)**\
 Oct 27th – 30th, Los Angeles, California
@@ -61,7 +61,7 @@ we need a dynamic language [open space
 session](http://microsoftpdc.com/Agenda/UnSessions.aspx#open-space).
 
 ::: image-right
-![](http://image.devhawk.net/blog-content/20080516-1541-devhawk-world-tour-2008/pnpSummitHero_ba4d0b19-a8c8-4db7-b1ff-79ceffba7109.jpg)
+![](http://image.devhawk.net/blog-content/20080516-devhawk-world-tour-2008/pnpSummitHero_ba4d0b19-a8c8-4db7-b1ff-79ceffba7109.jpg)
 :::
 **[patterns & practices Summit 2008](http://www.pnpsummit.com/west2008/west2008.aspx)**\
 Nov 3rd-7th, Redmond, Washington

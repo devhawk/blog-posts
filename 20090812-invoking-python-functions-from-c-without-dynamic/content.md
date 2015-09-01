@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20090812-1010-invoking-python-functions-from-c-without-dynamic/image_thumb.png)](http://image.devhawk.net/blog-content/20090812-1010-invoking-python-functions-from-c-without-dynamic/image_2.png)
+[![](http://image.devhawk.net/blog-content/20090812-invoking-python-functions-from-c-without-dynamic/image_thumb.png)](http://image.devhawk.net/blog-content/20090812-invoking-python-functions-from-c-without-dynamic/image_2.png)
 :::
 
 So I’ve [compiled the Pygments package into a CLR

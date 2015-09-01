@@ -1,5 +1,5 @@
 ::: image-right
-[![Conque(red)](http://image.devhawk.net/blog-content/20080405-1919-rock-the-red/Conque(red)_3.jpg)](http://japersrink.blogspot.com/2008/04/southeast-division.html)
+[![Conque(red)](http://image.devhawk.net/blog-content/20080405-rock-the-red/Conque(red)_3.jpg)](http://japersrink.blogspot.com/2008/04/southeast-division.html)
 :::
 
 Japers says all there needs to be said:
@@ -26,7 +26,7 @@ should be a lock for the
 [Adams](http://www.nhl.com/trophies/adams.html).
 
 ::: image-left
-[![Rock the Red](http://image.devhawk.net/blog-content/20080405-1919-rock-the-red/rock_the_red_3.png)](http://capitals.nhl.com)
+[![Rock the Red](http://image.devhawk.net/blog-content/20080405-rock-the-red/rock_the_red_3.png)](http://capitals.nhl.com)
 :::
 
 I just spoke to my parents, who were at the game and have almost no

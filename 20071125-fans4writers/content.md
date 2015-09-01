@@ -1,5 +1,5 @@
 ::: image-right
-![](http://image.devhawk.net/blog-content/20071125-2325-fans4writers/wga-support.png) 
+![](http://image.devhawk.net/blog-content/20071125-fans4writers/wga-support.png) 
 :::
 
 Most of my

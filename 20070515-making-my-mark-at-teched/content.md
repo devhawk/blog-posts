@@ -1,5 +1,5 @@
 ::: image-left
-![](http://image.devhawk.net/blog-content/20070515-1121-making-my-mark-at-teched/teched07_120X90_v2w.jpg) 
+![](http://image.devhawk.net/blog-content/20070515-making-my-mark-at-teched/teched07_120X90_v2w.jpg) 
 :::
 
 One of the things that’s different about being in MSIT is that it’s cut my

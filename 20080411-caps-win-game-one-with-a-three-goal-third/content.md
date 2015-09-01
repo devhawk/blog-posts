@@ -10,7 +10,7 @@ Oh me of little faith.
 :smile:
 
 ::: image-right
-[![](http://image.devhawk.net/blog-content/20080411-2343-caps-win-game-one-with-a-three-goal-third/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)
+[![](http://image.devhawk.net/blog-content/20080411-caps-win-game-one-with-a-three-goal-third/ovechkin-alex-ap-080411_3.jpg)](http://capitals.nhl.com/team/app/?service=page&page=Recap&seas=20072008&gtype=3&gnum=131)
 :::
 
 Caps [took game

@@ -17,7 +17,7 @@ revisit two items that I think will be interesting to my blog readers –
 the Buildings of Sydney and the Sydney Opera House.
 
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20040815-2340-back-in-all-blacks/TouringSydneySatMorning-30-small.jpg)](http://image.devhawk.net/blog-content/20040815-2340-back-in-all-blacks/TouringSydneySatMorning-30.jpg)
+[![](http://image.devhawk.net/blog-content/20040815-back-in-all-blacks/TouringSydneySatMorning-30-small.jpg)](http://image.devhawk.net/blog-content/20040815-back-in-all-blacks/TouringSydneySatMorning-30.jpg)
 ::: 
 
 I went to Australia (and New Zealand) to present
@@ -35,7 +35,7 @@ TV. Drive around LA and you’ll find miles and miles of mini malls, but
 no history.
 
 ::: image-right
-[![](http://image.devhawk.net/blog-content/20040815-2340-back-in-all-blacks/TouringSydneyThurs-1-small.jpg)](http://image.devhawk.net/blog-content/20040815-2340-back-in-all-blacks/TouringSydneyThurs-1.jpg)
+[![](http://image.devhawk.net/blog-content/20040815-back-in-all-blacks/TouringSydneyThurs-1-small.jpg)](http://image.devhawk.net/blog-content/20040815-back-in-all-blacks/TouringSydneyThurs-1.jpg)
 :::
 
 Sydney is very different. Many of the older buildings are under “heritage
@@ -45,7 +45,7 @@ with modern skyscrapers. [Paddy’s
 Markets](http://www.paddysmarkets.com.au/paddys/index.htm), which has
 been there since at least 1834, is housed in a building originally built
 in 1909 (according to the building’s facade). However, if you check out the
-[picture](http://image.devhawk.net/blog-content/20040815-2340-back-in-all-blacks/TouringSydneyThurs-1.jpg),
+[picture](http://image.devhawk.net/blog-content/20040815-back-in-all-blacks/TouringSydneyThurs-1.jpg),
 you’ll notice that the building’s second floor is notably more modern
 than the first floor. That’s Sydney to a “T”, new sitting right next to,
 or on top of, the old. I imagine that some of the older eastern seaboard
@@ -53,7 +53,7 @@ cities of America have the same combination of historical and current,
 but none that I’ve spent a significant amount of time in.
 
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20040815-2340-back-in-all-blacks/TouringSydneyMonday-58-small.jpg)](http://image.devhawk.net/blog-content/20040815-2340-back-in-all-blacks/TouringSydneyMonday-58.jpg)
+[![](http://image.devhawk.net/blog-content/20040815-back-in-all-blacks/TouringSydneyMonday-58-small.jpg)](http://image.devhawk.net/blog-content/20040815-back-in-all-blacks/TouringSydneyMonday-58.jpg)
 :::
 
 Of course, you can’t go to Sydney and *not* visit the world famous [Sydney

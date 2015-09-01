@@ -1,5 +1,5 @@
 ::: image-right
-![](http://image.devhawk.net/blog-content/20040603-1658-teched-2005-already/140x100_BloggerBtn_2005.gif)
+![](http://image.devhawk.net/blog-content/20040603-teched-2005-already/140x100_BloggerBtn_2005.gif)
 :::
 
 I updated my theme to reflect the brand-spanking-new Tech·Ed 2005 logo,
