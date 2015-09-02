@@ -1,4 +1,4 @@
-**Update**: This approach <u>*doesn’t work*</u>. Please see
+**Update**: This approach *doesn’t work*. Please see
 the [followup article](http://devhawk.net/2008/10/21/the-fifth-assembly/)
 for the gory details.
 
