@@ -15,7 +15,7 @@ Seriously, I’ve actually enjoyed working for
 works for a while and I chatted about it with some of my friends who I
 saw at TechEd. Someone quipped that I was “getting my brain back”. Maybe
 I’m not getting the whole brain back, but I don’t really see it that
-way. Marketing is very *very**very*** different from technical jobs like
+way. Marketing is very *very* *very* different from technical jobs like
 development and architecture but it’s just as hard. However, it does use
 a different part of the brain. So while I’m excited to moving into a
 role that plays to my strength, I’m walking away from my marketing

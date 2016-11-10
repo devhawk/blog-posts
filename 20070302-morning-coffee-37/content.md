@@ -10,7 +10,7 @@ vacation?
     on the Inside vs. Data on the
     Outside](http://msdn2.microsoft.com/en-us/library/ms954587.aspx),
     [The Nerd, the Suit, and the Fortune
-    Teller](javascript:ShowWindow('http://msdn.microsoft.com/seminar/shared/asp/view.asp?url=/architecture/media/en/nerdsuitfortune/manifest.xml%20');) and
+    Teller](http://msdn.microsoft.com/seminar/shared/asp/view.asp?url=/architecture/media/en/nerdsuitfortune/manifest.xml) and
     his greatest hit [Mr. CIO
     Guy](http://channel9.msdn.com/ShowPost.aspx?PostID=11950).
 -   The new [4.0

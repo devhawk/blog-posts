@@ -22,8 +22,7 @@ interest of full disclosure:
     required to “provide justification whenever a proprietary software
     product is acquired rather than open source software” if HB 2892
     passes.
--   Employees of said Oregon State agency asked me my opinion of HB
-    2892.
+-   Employees of said Oregon State agency asked me my opinion of HB 2892.
 
 I’ll post here what I told them: I am completely willing take the
 Microsoft Platform (Windows + Office + Enterprise Servers + Visual
