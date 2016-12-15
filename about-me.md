@@ -15,4 +15,4 @@ I spent the early part of 2016 on loan to the [Desktop Bridge team (aka Project 
 These days, I spend most of my time on the [platform plumbing for Share](https://msdn.microsoft.com/en-us/windows/uwp/app-to-app/share-data). 
 I've also been tangentally involved with the [C++/WinRT project](https://github.com/Microsoft/cppwinrt).
 
-I always say that the only way to build great products is to talk to the people who use it. So feel free to contact me via [email](mailto:harry@@devhawk.net), [Skype](skype:harrypierson) or [Twitter](http://twitter.com/devhawk).
+I always say that the only way to build great products is to talk to the people who use it. So feel free to contact me via [email](mailto:harry@devhawk.net), [Skype](skype:harrypierson) or [Twitter](http://twitter.com/devhawk).
