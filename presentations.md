@@ -1,7 +1,7 @@
 * [Brokered Components Demo from Build 2014 Keynote](https://channel9.msdn.com/Events/Build/2014/KEY01#time=1h35m39s)
 * [Using the Windows Runtime from C# and Visual Basic (Build 2011)](https://channel9.msdn.com/Events/BUILD/BUILD2011/TOOL-531T)
 * [Developer 2.0](http://1drv.ms/1Jls58l)
-* [[Insert Funny Title â€‹About API Design Here] (VSLive 2015)](http://1drv.ms/1EYathK)
+* [[Insert Funny Title About API Design Here] (VSLive 2015)](http://1drv.ms/1EYathK)
 * [Pumping Iron: Dynamic Languages on .NET](https://channel9.msdn.com/Blogs/martinesmann/Pumping-Iron-Dynamic-Languages-on-NET)
 * [Moving Beyong Industrial Software](http://1drv.ms/1JlsaJc)
 * [Respecting Your Investments (Build 2014)](https://channel9.msdn.com/events/Build/2014/2-515)
