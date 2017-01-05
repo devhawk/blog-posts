@@ -6,5 +6,6 @@
   "csv-category-slugs": "Development|development,Windows|windows,Windows Runtime|windows-runtime",
   "csv-tag-slugs": "brokered components|brokered-components,sideload|sideload,tutorial|tutorial",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment-count": 2
+  "comment-count": 2,
+  "series": "brokered-winrt-components"  
 }

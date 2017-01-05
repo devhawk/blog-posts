@@ -7,6 +7,7 @@
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
   "comment-count": 0,
+  "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "48c4a70d-e243-43e5-9709-85d2119c592b",
   "dasblog-title": "Writing+An+IronPython+Debugger+Dynamic+Stack+Trace",
   "dasblog-unique-title": "2009/03/09/Writing+An+IronPython+Debugger+Dynamic+Stack+Trace"

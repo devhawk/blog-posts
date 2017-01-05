@@ -7,6 +7,7 @@
   "csv-tag-slugs": "Debugger|debugger",
   "author": "DevHawk|devhawk|harry@devhawk.net",
   "comment-count": 0,
+  "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "b77d89ec-e843-428a-824f-2719f11b88ee",
   "dasblog-title": "Writing+An+IronPython+Debugger+Showing+Source+Code",
   "dasblog-unique-title": "2009/03/19/Writing+An+IronPython+Debugger+Showing+Source+Code"
