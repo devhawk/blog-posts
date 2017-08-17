@@ -36,7 +36,7 @@ posts.
     containing “ironpython”](http://summize.com/search?q=ironpython) of
     late. For example, [via
     Summize](http://twitter.com/jjude/statuses/912592287) I discovered
-    [Joseph Jude’s blog finally{}](http://www.jjude.com/) where he has
+    [Joseph Jude’s blog finally](http://www.jjude.com/) where he has
     posted a [time tracking
     tool](http://www.jjude.com/index.php/archives/2008/09/01/a-time-tracking-tool/)
     he built in IPy as well as his initial [IPy
