@@ -1,0 +1,15 @@
+<p>I love my <a href="http://www.olympusamerica.com/cpg_section/cpg_support_product.asp?product=868&amp;l=1&amp;p=16&amp;bc=27">Olympus digital
+camera</a>,
+but it does have one annoying issue. Occasionally, it “forgets” the
+current time and date. This leaves me with a bunch of images with a
+corrupt “Date Picture Taken” field (here’s an
+<a href="http://winisp.net/harrypierson/Photos/Raking%20the%20Yard%20(9).JPG">example</a>).
+Luckily,
+<a href="http://www.shahine.com/omar/default.aspx">Omar’s</a>
+<a href="http://wiki.shahine.com/default.aspx/MyWiki.PhotoLibrary">PhotoLibrary</a>
+let me hack up a little program to update the date fields in the EXIF
+header. I couldn’t use <a href="http://workspaces.gotdotnet.com.jpeg">JPEG
+Hammer</a> out-of-the-box becuase it
+doesn’t handle the corrupt date fields. No matter. My app is a total
+hack, but since I only need to use it once-in-a-great-while, it’s no big
+deal. </p>

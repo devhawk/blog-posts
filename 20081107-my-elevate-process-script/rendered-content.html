@@ -1,0 +1,75 @@
+<p>I used to use the <a href="http://technet.microsoft.com/en-us/magazine/cc162321.aspx">Script Elevation
+PowerToys</a> to
+provide a simple way to launch an elevated command window from a
+Powershell prompt. However, that required installing said PowerToys in
+order to work, which I invariably forgot to install when paving my
+machine. That got annoying, so I went in search of a pure Powershell
+solution, which <a href="http://www.peterprovost.org/blog/post/Powershell-Sudo-(sort-of)-for-Vista-UAC-REDUX.aspx">Peter Provost conveniently
+provided</a>
+on his blog.</p>
+<p>However, one of the benefits of the Script Elevation PowerToys was the
+ability to launch an admin command prompt in a specific directory –
+including the current one. I wanted the ability to default to launching
+Powershell when the user doesn’t specify a command to run. I thought I
+could just set $psi.WorkingDirectory, but as I’ve <a href="http://devhawk.net/2008/07/28/devhawks-slightly-useful-powershell-configuration/">described
+previously</a>,
+I update $home in my profile script to D:HPierson.Files (I keep my
+important files on my D: drive so I can pave C: with impunity) then set
+my current location to $home. So I can’t set the current location by
+using $psi.WorkingDirectory – it just gets overridden by my profile
+script.</p>
+<p>However, it turns out you can pass arbitrary script code to Powershell
+via the –Command arguments. You also have to pass –NoExit to keep the
+command window around. The script passed in via -Command is executed
+after the profile script, so I can pass in a little script code to set
+the current location to the right location.</p>
+<p>I modified Peter’s elevate-process script to launch a new Powershell
+command window when zero arguments or one folder argument are passed in.
+In those cases, elevate-process sets the location to the specified
+directory (current directory as the default when no arguments are
+provided) via the –NoExit and –Command arguments.</p>
+<p>I’ve <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/elevate-process.ps1">posted the
+script</a>
+to my SkyDrive as well as providing it below. Feel free to <del>steal</del> use
+it as you need.</p>
+<div class="lang-powershell editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">function</span> elevate<span style="color:Gray;">-</span><span style="color:Blue;">process</span>  
+{  
+  <span style="color:OrangeRed;">$psi</span> <span style="color:Gray;">=</span> new<span style="color:Gray;">-</span>object System.Diagnostics.ProcessStartInfo
+  <span style="color:OrangeRed;">$psi</span>.Verb <span style="color:Gray;">=</span> <span style="color:#A31515;">&quot;runas&quot;</span>;
+
+  <span style="color:Green;">#if we pass no parameters, then launch PowerShell in the current location</span>
+  <span style="color:Blue;">if</span> (<span style="color:OrangeRed;">$args</span>.length <span style="color:Gray;">-eq</span> 0)
+  {
+    <span style="color:OrangeRed;">$psi</span>.FileName <span style="color:Gray;">=</span> <span style="color:#A31515;">&#39;powershell&#39;</span>
+    <span style="color:OrangeRed;">$psi</span>.Arguments <span style="color:Gray;">=</span>  
+      <span style="color:#A31515;">&quot;-NoExit -Command &amp;{set-location &#39;&quot;</span> <span style="color:Gray;">+</span> (get<span style="color:Gray;">-</span>location).Path <span style="color:Gray;">+</span> <span style="color:#A31515;">&quot;&#39;}&quot;</span>
+  }
+
+  <span style="color:Green;">#if we pass in a folder location, then launch powershell in that location</span>
+  <span style="color:Blue;">elseif</span> ((<span style="color:OrangeRed;">$args</span>.Length <span style="color:Gray;">-eq</span> 1) <span style="color:Gray;">-and</span>  
+          (test<span style="color:Gray;">-</span>path <span style="color:OrangeRed;">$args</span><span style="color:Gray;">[</span><span style="color:Teal;">0</span><span style="color:Gray;">]</span> <span style="color:Gray;">-</span>pathType Container))
+  {
+    <span style="color:OrangeRed;">$psi</span>.FileName <span style="color:Gray;">=</span> <span style="color:#A31515;">&#39;powershell&#39;</span>
+    <span style="color:OrangeRed;">$psi</span>.Arguments <span style="color:Gray;">=</span>  
+        <span style="color:#A31515;">&quot;-NoExit -Command &amp;{set-location &#39;&quot;</span> <span style="color:Gray;">+</span> (resolve<span style="color:Gray;">-</span>path <span style="color:OrangeRed;">$args</span><span style="color:Gray;">[</span><span style="color:Teal;">0</span><span style="color:Gray;">]</span>) <span style="color:Gray;">+</span> <span style="color:#A31515;">&quot;&#39;}&quot;</span>
+  }
+
+  <span style="color:Green;">#otherwise, launch the application specified in the arguments</span>
+  <span style="color:Blue;">else</span>
+  {
+    <span style="color:OrangeRed;">$file</span>, <span style="color:Gray;">[</span><span style="color:Teal;">string</span><span style="color:Gray;">]</span><span style="color:OrangeRed;">$arguments</span> <span style="color:Gray;">=</span> <span style="color:OrangeRed;">$args</span>;
+    <span style="color:OrangeRed;">$psi</span>.FileName <span style="color:Gray;">=</span> <span style="color:OrangeRed;">$file</span>
+    <span style="color:OrangeRed;">$psi</span>.Arguments <span style="color:Gray;">=</span> <span style="color:OrangeRed;">$arguments</span>
+  }
+
+  <span style="color:Gray;">[</span><span style="color:Teal;">System.Diagnostics.Process</span><span style="color:Gray;">]</span><span style="color:Gray;">::</span>Start(<span style="color:OrangeRed;">$psi</span>) | out<span style="color:Gray;">-</span>null
+}
+
+</pre></div>
+</div>
+<p><strong>Update</strong>: I tried to run my elevate-process script from c:Program
+Files and discovered a bug. The set-location scripts need the path
+parameter to be encapsulated in single quotes in order to handle paths
+with spaces. I’ve updated both the code above as well as the copy on my
+SkyDrive.</p>

@@ -1,0 +1,64 @@
+<p>I’m interested in parsing because I’m interested in Domain Specific
+Languages. F# is <a href="http://tomasp.net/blog/fsharp-iv-lang.aspx">pretty good for internal
+DSLs</a>, but internal DSLs are
+obviously limited by the syntax of the host language. If you want
+complete control over the language, you’ve got to build your own parser.</p>
+<p>The defacto standard for parser development is <a href="http://en.wikipedia.org/wiki/Yacc">Yet Another Compiler
+Compiler</a>, or yacc. There’s a version
+of <a href="http://devhawk.net/2006/09/17/managed-lex-and-yacc/">yacc for
+.NET</a> as well
+as one <a href="http://research.microsoft.com/fsharp/manual/parsing.aspx">specifically for
+F#</a>. However,
+I’m not a fan of yacc. Yacc parsers are specified using <a href="http://en.wikipedia.org/wiki/Context-free_grammar">context-free
+grammar</a> (aka CFG).
+But CFG’s can be ambiguous – actually, it’s <a href="http://en.wikipedia.org/wiki/Dangling_else">nearly
+impossible</a> to build an
+unambiguous CFG. Personally, I’m a big fan of <a href="http://pdos.csail.mit.edu/%7Ebaford/packrat/">Parsing Expression
+Grammars</a> (or PEGs) which
+among other advantages makes it impossible to develop ambiguous
+grammars. Furthermore, PEGs don’t require a separate lexical analyzer
+like <a href="http://en.wikipedia.org/wiki/Lex_programming_tool">lex</a>, so I
+think they’re more suitable for building <a href="http://devhawk.net/2006/08/15/modular-compilers/">modular
+compilers</a>.</p>
+<p>Since I like PEGs and F# so much, I developed a parser for the PEG
+grammar from the <a href="http://pdos.csail.mit.edu/%7Ebaford/packrat/popl04/">original PEG
+whitepaper</a> using
+F#. The grammar is much simpler than a language like C#, but with
+twenty nine grammar productions it’s certainly not trivial. The F#
+implementation is fairly straightforward backtracking recursive decent
+parser, which makes it easy to understand even if you’re not a parser
+guru. It’s also small – around 400 lines of code including comments. But
+I think the code illustrates both the general value of Functional
+Programming as well as the specific value of F#. Here’s how the series
+is shaping up (though this is subject to change):</p>
+<ul>
+<li><a href="http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/">The Parse Buffer</a></li>
+<li><a href="http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/">Unit Testing</a></li>
+<li><a href="http://devhawk.net/2007/12/13/practical-f-parsing-syntactical-productions-1/">Syntactical Productions (1)</a></li>
+<li><a href="http://devhawk.net/2007/12/14/practical-f-parsing-active-patterns/">Active Patterns</a></li>
+<li><a href="http://devhawk.net/2007/12/17/practical-f-parsing-syntactical-productions-2/">Syntactical Productions (2)</a></li>
+<li><a href="http://devhawk.net/2007/12/18/practical-f-parsing-semantic-productions-1/">Semantic Productions (1)</a></li>
+<li><a href="http://devhawk.net/2007/12/19/practical-f-parsing-the-abstract-syntax-tree/">The Abstract Syntax Tree</a></li>
+<li><a href="http://devhawk.net/2007/12/20/practical-f-parsing-semantic-productions-2/">Semantic Productions (2)</a></li>
+<li><a href="http://devhawk.net/2008/01/29/practical-f-parsing-recursion-and-predicate-functions/">Recursion and Predicate Functions</a></li>
+<li>Caching and Tracing</li>
+<li>C# Interop</li>
+</ul>
+<p>I was originally planning to post the code for the parser itself with
+this post. However, i find that I’m revising the code as I write the
+articles in this series, so I’m going to hold off for now. If you’re
+really desperate, <a href="mailto:harry@devhawk.net">drop me a line</a> and I’ll
+see what I can do.</p>
+<p><strong>Update</strong>: Almost forgot, if you’re going to follow along at home, I’m
+using the <a href="http://research.microsoft.com/research/downloads/Details/e8478d6b-49c0-4750-80eb-0e424d1631a3/Details.aspx">latest version of F#,
+v1.9.3.7</a>.
+Note, the <a href="http://research.microsoft.com/fsharp/release.aspx">F# Downloads
+page</a> on the MS
+Research is woefully out of date, so go to the <a href="http://research.microsoft.com/research/downloads/Browse.aspx?categoryID=0&amp;sortCriteria=releaseDate&amp;sortOrder=descending">MS Research Downloads
+page</a>.
+Currently, it’s the most recent release. It snaps into VS 2005 and 2008
+plus has command line tools. If you’re an VS Express user, Douglas
+Stockwell <a href="http://11011.net/archives/000721.html">explained</a> how to roll
+your own F# Express.</p>
+<p><strong>Much Later Update</strong>: The code is now available <a href="http://cid-0d9bc809858885a4.skydrive.live.com/browse.aspx/DevHawk%20Content/Projects/Practical%20Parsing%20in%20F%7C3">on my
+Skydrive</a>.</p>

@@ -1,0 +1,56 @@
+<p>Randomly jumping around on the web (waiting for the <a href="http://whatisthematrix.warnerbros.com/rl_cmp/trailer_final_frames.html">final Matrix
+trailer</a>
+to download) I discovered <a href="http://xml.apache.org/xindice/">Apache
+Xindice</a>, a native XML database written
+in Java. It’s very read focused – getting XML documents into the system
+is pretty easy, querying them with XPath is pretty easy, updating them
+with
+<a href="http://xml.apache.org/xindice/guide-developer.html#N1025F">XUpdate</a> is
+not. I’m not sure I’m a big fan of XML based command grammars like this.
+DOM’s interface is ugly enough, XUpdate appears to be DOM’s interface
+cast in XML, so you end up with something like this:</p>
+<div class="lang-xml editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">&lt;</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">modifications</span> <span style="color:Red;">version</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">1.0</span><span style="color:Black;">&quot;</span> <span style="color:Red;">xmlns:xupdate</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">http://www.xmldb.org/xupdate</span><span style="color:Black;">&quot;</span><span style="color:Blue;">&gt;</span>
+  <span style="color:Blue;">&lt;</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">insert-after</span> <span style="color:Red;">select</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">/addresses/address[1]</span><span style="color:Black;">&quot;</span> <span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">element</span> <span style="color:Red;">name</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">address</span><span style="color:Black;">&quot;</span><span style="color:Blue;">&gt;</span>
+      <span style="color:Blue;">&lt;</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">attribute</span> <span style="color:Red;">name</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">id</span><span style="color:Black;">&quot;</span><span style="color:Blue;">&gt;</span>2<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">attribute</span><span style="color:Blue;">&gt;</span>
+      <span style="color:Blue;">&lt;</span><span style="color:#A31515;">fullname</span><span style="color:Blue;">&gt;</span>John Smith<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">fullname</span><span style="color:Blue;">&gt;</span>
+      <span style="color:Blue;">&lt;</span><span style="color:#A31515;">born</span> <span style="color:Red;">day</span><span style="color:Blue;">=</span><span style="color:Black;">&#39;</span><span style="color:Blue;">2</span><span style="color:Black;">&#39;</span> <span style="color:Red;">month</span><span style="color:Blue;">=</span><span style="color:Black;">&#39;</span><span style="color:Blue;">12</span><span style="color:Black;">&#39;</span> <span style="color:Red;">year</span><span style="color:Blue;">=</span><span style="color:Black;">&#39;</span><span style="color:Blue;">1974</span><span style="color:Black;">&#39;</span><span style="color:Blue;">/&gt;</span>
+      <span style="color:Blue;">&lt;</span><span style="color:#A31515;">country</span><span style="color:Blue;">&gt;</span>Germany<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">country</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;/</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">element</span><span style="color:Blue;">&gt;</span>
+  <span style="color:Blue;">&lt;/</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">insert-after</span><span style="color:Blue;">&gt;</span>
+<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">xupdate</span><span style="color:Blue;">:</span><span style="color:#A31515;">modifications</span><span style="color:Blue;">&gt;</span>
+
+</pre></div>
+</div>
+<p>[<a href="http://xml.apache.org/xindice/guide-developer.html#N1025F">Xindice Developers Guide</a>]</p>
+<p>As I said, not very pretty.</p>
+<p>Other Notes:</p>
+<ul>
+<li>Just watched the Final Matrix Trailer – wow. Also check out the
+“<a href="http://whatisthematrix.warnerbros.com/rl_cmp/tv_spot_im_in_frames.html">I’m
+In</a>”
+and
+“<a href="http://whatisthematrix.warnerbros.com/rl_cmp/tv_spot_prophecy_frames.html">Prophecy</a>”
+TV spots and the <a href="http://www.enterthematrixgame.com/html/trailer_index.html">Enter the
+Matrix</a>
+game trailer. Only disappointment: graphics on the game don’t look
+that great. I guess that what happens when you have to support
+<a href="http://www.nintendogamecube.com/home.jsp">sub</a><a href="http://www.playstation.com/">standard</a>
+game consoles – you can’t take advantage of <a href="http://www.xbox.com/">true
+power</a>.</li>
+<li>Seven of the lower seeded teams in the <a href="http://sports.espn.go.com/nhl/playoffs2003/index">NHL
+Playoffs</a> won
+their opening game. Only <a href="http://sports.espn.go.com/nhl/playoffs2003/series?series=bosnjd">New
+Jersey</a>
+came out on top of the top seeds.</li>
+<li>As there is no hockey team in Seattle, I still root for teams from
+my previous home towns: Washington Capitals and Los Angeles Kings.
+Caps were <a href="http://sports.espn.go.com/nhl/recap?gameId=230410020">3-0
+winners</a> on
+the road in Tampa Bay tonight.</li>
+<li>In further hockey news, Microsoft announced “<a href="http://www.teamxbox.com/news.php?id=4271">NHL Rivals
+2004</a>” for XBOX today. I
+wonder if it will feature the <a href="http://www.mshockeychallenge.com">Microsoft Hockey
+Challenge</a>?</li>
+</ul>

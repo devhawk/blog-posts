@@ -1,0 +1,90 @@
+<p>The cross platform CLR isn’t the only big news out of MIX this week.
+Other big news includes:</p>
+<ul>
+<li>The <a href="http://blogs.msdn.com/hugunin/archive/2007/04/30/a-dynamic-language-runtime-dlr.aspx">Dynamic Language
+Runtime</a>,
+an extension to the CLR that implements typical dynamic language
+features. According to Jim Hugunin, this will make it “dramatically
+easier to build high-quality dynamic language implementations on
+.NET.” Also, it works with Silverlight’s CLR. And we’ll be releasing
+the source, like we do with IronPython.</li>
+<li>We’re building four dynamic languages on top of the DLR: IronPython
+v2, JavaScript, Visual Basic “10″ (aka
+<a href="http://www.panopticoncentral.net/archive/2007/05/01/20383.aspx">VBx</a>)
+and IronRuby. <a href="http://www.knowing.net/PermaLink,guid,a3baaf7a-1af3-460a-8486-6b459dab51ed.aspx">He-man
+Programmer</a> <a href="http://www.iunknown.com/">John
+Lam</a> has a
+<a href="http://silverlight.net/Learn/learnvideo.aspx?video=74">screencast</a>
+demonstrating these the languages interoping on Silverlight. You can
+get an <a href="http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=438">alpha of the new
+IPy</a> which
+includes the DLR bits.</li>
+<li><a href="http://www.microsoft.com/expression">Expression Studio</a> is
+available, as is the first preview of <a href="http://www.microsoft.com/Expression/products/download.aspx?key=blend2maypreview">Blend
+v2</a>,
+which allows you to target Silverlight. There’s also a Silverlight
+targeting <a href="http://www.microsoft.com/Expression/products/download.aspx?key=encoder">Media Encoder
+preview</a>
+available.</li>
+<li>Projects
+<a href="http://blogs.msdn.com/adonet/archive/2007/04/30/project-codename-astoria-announced-at-mix-07.aspx">Astoria</a>
+and
+<a href="http://blogs.msdn.com/adonet/archive/2007/04/30/project-codename-jasper-announced-at-mix-07.aspx">Jasper</a>
+are two new <a href="http://msdn2.microsoft.com/en-us/data/bb419139.aspx">data access incubation
+projects</a>.
+Astoria is for exposing your data as data services for consumption
+by other clients (think mashups) while Jasper is for quickly writing
+code that access databases. Both appear to build on the new <a href="http://msdn2.microsoft.com/en-us/data/bb419139.aspx">ADO.NET
+Entity
+Framework</a>
+that’s shipping <del>in VS Orcas</del><a href="http://blogs.msdn.com/adonet/archive/2007/04/28/ado-net-entity-framework-update.aspx">sometime after VS
+Orcas</a>.</li>
+<li>Windows Live has a new <a href="http://msdn2.microsoft.com/en-us/library/bb463989.aspx">Contacts
+API</a>,
+<a href="http://msdn2.microsoft.com/en-us/library/bb447732.aspx">Spaces API and
+Feeds</a>, a
+<a href="http://silverlight.live.com/">media hosting/streaming service for
+Silverlight</a> and <a href="http://dev.live.com/blogs/devlive/archive/2007/04/30/108.aspx">simpler terms of use
+and pricing
+model</a>
+based on the number unique users. “Sites or Web applications with
+fewer than one million UUs pay no fees.”</li>
+<li>All the MIX sessions are <a href="http://sessions.visitmix.com/">getting
+posted</a> in very quickly – about a day
+after the session. The sessions are available for download a WMV or
+to view using a Silverlight based viewer. Nice.</li>
+</ul>
+<p>A few quick thoughts on these announcements:</p>
+<ul>
+<li>On the subject of dynamic languages, IronRuby is probably the
+biggest news since we already have various implementations of the
+other languages. I wonder how well it will support
+<a href="http://www.rubyonrails.com/">Rails</a>? ASP.NET already has a <a href="http://quickstarts.asp.net/Futures/dlr/doc/intro.aspx">model
+for dynamic language
+support</a> that
+I would assume IronRuby will plug into eventually. Between that,
+rumblings of <a href="http://codebetter.com/blogs/jeffrey.palermo/archive/2007/03/16/Big-News-_2D00_-MVC-framework-for-ASP.NET-in-the-works-_2D00_-level-300.aspx">MVC support for
+ASP.NET</a>
+and Project Jasper, you’ve covered most of the surface area Rails
+covers. But I would assume many folks would like to see RoR proper
+running under IronRuby on ASP.NET.</li>
+<li>I wonder what the hosting model for the <a href="http://blogs.msdn.com/jasonz/archive/2007/05/01/origin-of-the-silverlight-clr-and-net-framework.aspx">Silverlight
+CLR</a>
+looks like? According to the “<a href="http://msdn2.microsoft.com/en-us/library/bb404713.aspx">essential
+architecture</a>“,
+Silverlight includes the .NET Framework, the Core Presentation
+Framework and the Browser Host. But can you host somewhere <em>other</em>
+than the browser?</li>
+<li>Astoria sounds like web service based ODBC. While there are
+scenarios where that makes sense, I’m not sure I like the idea of
+delegating control of my data outside the service like that. Udi
+Dahan is <a href="http://udidahan.weblogs.us/2007/05/01/astoria-sdo-and-irrelevance/">also
+skeptical</a>
+of this approach.</li>
+</ul>
+<p><strong>Update</strong>: The ADO.NET team <a href="http://blogs.msdn.com/adonet/archive/2007/04/28/ado-net-entity-framework-update.aspx">recently
+announced</a>
+that Entity Framework will ship “during the first half of 2008 as an
+update to the Orcas release of the .NET Framework and Visual Studio”.
+(<a href="http://devhawk.net/CommentView,guid,1EE971D4-CCE6-403C-BF3E-8BFD28E82BBE.aspx#3fc5b2c6-9353-444e-a4d4-1da98a8e0bbd">h/t Tomas
+Restrpro</a>)</p>

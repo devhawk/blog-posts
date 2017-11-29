@@ -1,0 +1,147 @@
+<p>At PDC 1996, <a href="http://blogs.msdn.com/pathelland/">Pat Helland</a> did a six
+minute bit where he compared personal computing to the <a href="http://en.wikipedia.org/wiki/Sack_of_Rome_(455)">sacking of
+Rome</a> and <a href="http://en.wikipedia.org/wiki/Microsoft_Transaction_Server">Microsoft
+Transaction
+Server</a> to
+the <a href="http://en.wikipedia.org/wiki/Renissance">Renaissance</a>. It was
+called “<a href="http://blogs.msdn.com/pathelland/archive/2009/01/19/transaction-processing-and-the-barbarian-hordes.aspx">Transaction Processing and the Barbarian
+Hordes</a>”
+and in my opinion it should be required viewing for everyone in the tech
+industry.</p>
+<p>Of course, the tech industry has changed significantly since PDC96. In
+particular, personal computing has become the new “Classical Rome” and
+web developers are the new barbarians. Just as Microsoft rediscovered
+transaction processing in the 90’s, it seems that RESTifarians are on
+the verge of rediscovering asynchronous messaging.</p>
+<blockquote>
+<p>“The internet <a href="http://blogmaverick.com/2008/02/10/the-internet-is-officially-dead-and-boring-its-the-economy-stupi/">has been dead and
+boring</a>
+for a while now.  It has reached a point of stability where flashes of
+technological creativity are rare, but every now and then some new
+technology can put a spark back in the ole gal (no sexism intended).</p>
+</blockquote>
+<blockquote>
+<p>If you haven’t heard of
+<a href="http://www.slideshare.net/progrium/using-web-hooks?src=embed">WebHooks</a>
+or<a href="http://code.google.com/p/pubsubhubbub/">PubSubHubBub</a> its about
+time you did. Both are designed to  simplify and optimize the web.”</p>
+<p>Mark Cuban, <a href="http://blogmaverick.com/2009/08/25/the-internet-is-about-to-change/">The Internet is about to
+change</a></p>
+</blockquote>
+<p>Not to put too fine a point on it, but these “flashes of technological
+creativity” that Mark’s going gaga over aren’t new at all. Both Web
+Hooks and PubSubHubbub are essentially async messaging, the oldest form
+of messaging in the history of networking. But just as personal
+computing ignored the importance of transaction processing for a long
+time, REST has long ignored the importance of async messaging. Instead,
+web development has instead been focused exclusively on request/response
+– something <a href="http://devhawk.net/2007/12/05/durable-and-restful/">I’ve struggled
+with</a> for quite
+some time. But the rise of Twitter has driven many people to realize
+that something I’ve known since 2003: “<a href="http://devhawk.net/2003/12/16/reliable-syndication/">In order to truly evolve
+syndication…we need to break free of the synchronous polling
+model</a>.” <a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a></p>
+<div class="image-left"><p><img src="http://image.devhawk.net/blog-content/20090826-async-messaging-and-the-barbarian-hordes/webhooks.png" alt="image" title="webhooks" /></p>
+</div>
+<p>I love the slogan from <a href="http://blog.webhooks.org/2009/04/23/slides-from-pivotal-labs-talk/">this Web Hooks
+presentation</a>:
+“so simple you’ll think it’s stupid”. Web Hooks aren’t stupid – far from
+it – but they certainly are simple. They’re basically
+<a href="http://en.wikipedia.org/wiki/Callback_(computer_science)">callbacks</a> –
+which Web Hooks creator <a href="http://blogrium.com">Jeff Lindsay</a> readily
+acknowledges – invoked across the network using standard REST technology
+like HTTP and XML or JSON. The canonical webhook examples are <a href="https://www.paypal.com/ipn">Paypal
+Instant Payment Notification</a> and <a href="http://github.com/guides/post-receive-hooks">GitHub
+Post-Receive Hooks</a>. In
+both cases, you register a custom notification URL with the system in
+question. Then, when something specific happens in the system, a message
+gets POSTed to the registered URL. In some scenarios, it’s a simple
+notification. For example, when GitHub receives a commmit push, it POSTs
+a JSON message about the commit to the registered URL. In other
+scenarios, the initial message is the start of an async conversation –
+the system expects you to POST a message back to them sometime in the
+future. For example, when a customer makes a payment, PayPal POSTs a
+message to the URL you registered. You then confirm the payment by
+posting a message back to a well known PayPal URL.</p>
+<p>Note, by the way, that both of these canonical examples depend on async
+messaging. GitHub isn’t going to do anything with a response anyway, so
+there’s no point in sending them a response. PayPal, on the other hand,
+is expecting a response. Yet, they use async messaging instead of an
+arguably simpler HTTP request/response operation. They do this for same
+reason
+<a href="https://www.ibm.com/developerworks/webservices/library/ws-transjta/">WS-Transaction</a>
+is the <a href="http://blogs.msdn.com/pathelland/archive/2007/05/20/soa-and-newton-s-universe.aspx">Anti-Availability
+Protocol</a>
+– the last thing you want to do is lock up precious resources in your
+system waiting for some nimrod on the other side of the Internet to
+respond to a request you sent. Instead you what PayPal does – send an
+async message, listen on a separate channel for a response, correlate
+the messages explicitly via some kind of conversation identifier and
+release your precious resources to do other work while you wait for the
+response.</p>
+<div class="image-right"><p><img src="http://image.devhawk.net/blog-content/20090826-async-messaging-and-the-barbarian-hordes/pubsubhubbub.png" alt="image" title="PubSubHubBub" /></p>
+</div>
+<p>As for <a href="http://code.google.com/p/pubsubhubbub/">PubSubHubbub</a>, it’s
+focused on real time delivery of new information. <a href="http://rsscloud.org">Dave Winer’s recent
+RSS Cloud efforts</a> focus on real-time notification
+as well. In both cases, instead of subscribers polling a given RSS feed
+for changes every X amount of time, they register for notification when
+the feed is updated. This is very similar to the way GitHub uses async
+messages for commit push notification as described above.</p>
+<div class="image-left"><p><a href="http://image.devhawk.net/blog-content/20090826-async-messaging-and-the-barbarian-hordes/pshb_diagram.png"><img src="http://image.devhawk.net/blog-content/20090826-async-messaging-and-the-barbarian-hordes/pshb_diagram_thumb.png" alt="" /></a></p>
+</div>
+<p>Both PubSubHubbub and RSS Cloud include an intermediary that’s responsible
+for managing the list of current subscribers and relaying the
+notification when the publisher makes a change.  Honestly, I’m not a fan
+of the Hub/Cloud intermediary – it feels a little too ESB-like to me.
+However, since it’s only relaying notifications it receives without
+transformation, I can live with it. Besides, there’s no reason why a
+publisher can’t act as it’s own hub. The vast number of blogs and
+twitter users have so few subscribers that the extra layer of
+abstraction is probably not worth it. On the other hand, if you’re going
+to run a notification hub for the largest users, you might as well use
+it for smaller ones as well.</p>
+<p>While I think Mark’s laid the “new technology” hype on pretty thick, I
+do think he hits the nail on the head regarding the major new business
+opportunities that can come from adopting the heretofore ignored async
+messaging model on the web:</p>
+<blockquote>
+<p>“This could be an open door for the content business…Using The
+Associated Press as an example, AP could post their stories to a HUB.
+In realtime, the HUB can update member websites so that they will
+always have information first, before any aggregator. It may not take
+long for aggregators to recognize the new data on the member sites,
+but they won’t have it first.</p>
+<p>The New York Times could do the same thing. Subscribers could get
+everything first, in realtime. Then after some delay which might be 1
+minute, it might be 30 minutes depending on what the paper thinks is
+the value related to timeliness, it could post on the website and on
+twitter and facebook as updates. Would NY Times online readers pay $1
+a month to be guaranteed that they get their news first, before anyone
+else ? I dont know.</p>
+<p>In the sports world, text based play by play websites could be updated
+in realtime rather than pulling every 30 seconds or requiring the user
+to hit refresh every few seconds.”</p>
+</blockquote>
+<p>Arguably, this opportunity is easier to realize <em>precisely because async
+messaging isn’t new technology</em>. Getting people to adopt a new
+technology is incredibly hard. It’s much easier to get people to adopt a
+new pattern for using an existing technology. And async messaging has
+been possible as long as the web has been in existence.</p>
+<p>Web Hooks and PubSubHubbub are long overdue but very welcome steps
+forward in the evolution of the Internet. I wonder what the barbarians
+will rediscover next?</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Of course, writing a prediction like this is a far sight from
+actually implementing it. If I had actually put some engineering effort
+behind this in 2003, maybe I’d be a household name in the tech community
+by now. On the other hand, I said some things in that same post that
+have turned out to be spectacularly incorrect (“Indigo is going to make
+Longhorn a great platform for SOA”) so it probably wouldn’t have made
+much of a difference.<a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>

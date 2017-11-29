@@ -1,0 +1,42 @@
+<p>I still haven’t seen a good general session on
+<a href="http://microformats.org/">microformats</a>. I’m thinking it’s because any
+one given microformat is so simple that you can’t really fill more than
+about ten minutes talking about it. So this panel was about six or seven
+different microformats. The format of the panel stunk – I lost track of
+what was being discussed pretty quickly so I spent the time surfing the
+microformats website.</p>
+<p>The idea of microformats is to adorn visual markup (i.e. xhtml) with
+semantic information about the data underneath. Probably the best
+example of this is <a href="http://microformats.org/wiki/hcard">hCard</a>, the
+microformat version of vCard. Here’s the markup for my hCard (as produced by the <a href="http://microformats.org/code/hcard/creator">hCard
+Creator</a>)</p>
+<div class="lang-html editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">&lt;</span><span style="color:#A31515;">div</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;vcard&quot;</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">a</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;url fn&quot;</span> <span style="color:Red;">href</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;http://devhawk.net&quot;</span><span style="color:Blue;">&gt;</span>Harry Pierson<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">a</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">div</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;org&quot;</span><span style="color:Blue;">&gt;</span>Microsoft<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">div</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">a</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;email&quot;</span> <span style="color:Red;">href</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;mailto:hpierson@microsoft.com&quot;</span><span style="color:Blue;">&gt;</span>hpierson@microsoft.com<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">a</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">div</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;adr&quot;</span><span style="color:Blue;">&gt;</span>
+        <span style="color:Blue;">&lt;</span><span style="color:#A31515;">div</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;street-address&quot;</span><span style="color:Blue;">&gt;</span>One Microsoft Way, 18/2194<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">div</span><span style="color:Blue;">&gt;</span>
+        <span style="color:Blue;">&lt;</span><span style="color:#A31515;">span</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;locality&quot;</span><span style="color:Blue;">&gt;</span>Redmond<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">span</span><span style="color:Blue;">&gt;</span>,
+        <span style="color:Blue;">&lt;</span><span style="color:#A31515;">span</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;region&quot;</span><span style="color:Blue;">&gt;</span>WA<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">span</span><span style="color:Blue;">&gt;</span>
+        <span style="color:Blue;">&lt;</span><span style="color:#A31515;">span</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;postal-code&quot;</span><span style="color:Blue;">&gt;</span>98052<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">span</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;/</span><span style="color:#A31515;">div</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">div</span> <span style="color:Red;">class</span><span style="color:Blue;">=</span><span style="color:Blue;">&quot;tel&quot;</span><span style="color:Blue;">&gt;</span>425/705-6045<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">div</span><span style="color:Blue;">&gt;</span>
+<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">div</span><span style="color:Blue;">&gt;</span>
+
+</pre></div>
+</div>
+<p>See how the class attributes provide the semantics for the underlying
+text? Cool.</p>
+<p>I’m beginning to get microformats. At first, I was bothered because I
+thought they were hijacking the semantics of the class attribute. But I
+didn’t realize the <a href="http://www.w3.org/TR/html4/struct/global.html#adef-class">class
+attribute</a>
+could be used for “general purpose processing by user agents”. And the
+link microformats like <a href="http://gmpg.org/xfn/">XFN</a> and
+<a href="http://www.microformats.com/wiki/rel-tag">rel-tag</a> are even simpler
+than hCard.</p>
+<p>So again, bad session but cool concept. I really see potential for
+mashing up <a href="http://devhawk.net/2006/03/07/ray-ozzie-on-simple-bridge-building/">Ray Ozzie’s Live
+Clipboard</a>
+with microformats.</p>

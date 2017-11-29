@@ -1,0 +1,39 @@
+<p><a href="http://blogs.msdn.com/oriamiga/">Ori Amiga</a> is a Group Program Manager
+over in the Live Framework team whom you might have seen at PDC08
+delivering the <a href="http://channel9.msdn.com/pdc2008/BB04/">Lap Around LiveFX &amp; Mesh
+Services</a> and <a href="http://channel9.msdn.com/pdc2008/BB19/">LiveFX
+Programming Model Architecture and
+Insights</a> talks. And apparently,
+he’s an IronPython fan as posted a small <a href="http://blogs.msdn.com/oriamiga/archive/2008/11/09/livefx-using-ironpython.aspx">LiveFX Python
+module</a>
+to his blog. It’s pretty simple – it only wraps Connect and ConnectLocal
+– but it does cut about ten lines of path appending, reference adding
+and module importing code into a single import statement. Here’s the
+profile access script from <a href="http://devhawk.net/2008/12/12/ironpython-and-livefx-accessing-profiles/">my last
+post</a>
+rewritten to use Ori’s LiveOE module.</p>
+<div class="lang-python editor-colors">import LiveOE     
+from devhawk import linq
+
+uid = raw_input("Enter Windows Live ID: ")
+pwd = raw_input("Enter Password: ")
+
+loe = LiveOE.Connect(uid, pwd)
+
+general = linq.Single(loe.Profiles.Entries,  
+  lambda e: e.Resource.Type == LiveOE.ProfileResource.ProfileType.General)
+
+print loe.Mesh.ProvisionedUser.Name
+print loe.Mesh.ProvisionedUser.Email
+print general.Resource.ProfileInfo.PersonalStatusMessage
+print linq.Count(loe.Contacts.Entries)
+
+</div>
+<p>FYI, make sure you update the sdkLibsPath in LiveOE.py – I’m not sure
+where Ori has installed the LiveFX SDK, but it’s *not* in the location
+suggested by the read me file.</p>
+<p>BTW, it turns out the <a href="http://social.msdn.microsoft.com/Forums/en-US/liveframework/thread/81ab8f62-3244-4ca5-b376-2d5879f47c9f/">WL Profile information is read
+only</a>
+which answers a question I had. However, reading the thread it sounds
+like they will eventually get around to making it read-write at some
+point.</p>

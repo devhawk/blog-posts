@@ -1,0 +1,59 @@
+<p>Like .NET, Python uses namespaces to avoid name collisions. However, the
+semantics are a bit different. If you want to use a type or function
+from a a given namespace in Python, you have to import it into your
+current scope. For example, if you want to use the Python datetime
+built-in module, you would import it into the current scope and use it
+like this:</p>
+<div class="lang-python editor-colors">import datetime
+bush_last_day = datetime.date(2009,1,20)
+
+</div>
+<p>Notice that when I import a Python module this way, it’s scoped into
+it’s namespace, which forces me to use the entire namespace scoped name
+to access the type. Of course, that gets tedious quickly, so Python
+provides a way to import a type from a specific namespace into your
+current scope like this:</p>
+<div class="lang-python editor-colors">from datetime import date
+bush_last_day = date(2009,1,20)
+
+</div>
+<p>With IronPython, you can do import .NET namespaces as well. Here’s that
+same code using the standard .NET <a href="http://msdn2.microsoft.com/library/System.DateTime">DateTime
+class</a>.</p>
+<div class="lang-python editor-colors">from System import DateTime
+bush_last_day = DateTime(2009,1,20)
+
+</div>
+<p>What I didn’t know is that you can import static methods &amp; properties
+from .NET types into the current scope using the same syntax. Here’s an
+example:</p>
+<div class="lang-python editor-colors">from System.DateTime import Now
+
+if Now >= bush_last_day:
+    print 'celebrate'
+else:
+    print (bush_last_day - Now).Days, 'days left'
+
+</div>
+<p>Being able to import a static method into the current scope is pretty
+convenient. Thanks to <a href="http://blog.jimmy.schementi.com/">my teammate
+Jimmy</a> for cluing me into this IPy
+feature.</p>
+<p>One caveat though: in Python, you can import an entire namespace into
+your current scope. You can do that with .NET namespaces, but not with
+.NET types</p>
+<div class="lang-python editor-colors">from datetime import *         # this works
+from System import *           # so does this
+from System.DateTime import *  # this doesn’t work
+
+</div>
+<p><strong>Update</strong>: <a href="http://www.voidspace.org.uk/python/weblog/index.shtml">Michael
+Foord</a> <a href="http://devhawk.net/2008/04/28/importing-static-methods-with-ipy/">pointed
+out</a>
+that if you import Now as I describe above, it places a DateTime object
+representing the time you imported it into local scope, rather than
+placing the underlying get_Now static method in local scope. So while
+DateTime.Now always returns a new value, Now never changes. Sounds like
+an <a href="http://www.codeplex.com/IronPython/WorkItem/View.aspx?WorkItemId=16323">IPy
+bug</a>
+to me, but I’ll have to circle back with the team to be sure.</p>

@@ -1,0 +1,54 @@
+<p>Usually, my <a href="http://devhawk.net/CategoryView,category,PowerShell.aspx">PowerShell
+posts</a> are
+effusive in their praise. However, who thought up this “feature” gets no
+praise from me:</p>
+<pre><code>PS»Resolve-Path ~missing.file
+Resolve-Path : Cannot find path 'C:Usershpiersonmissing.file' because it does not exist.
+</code></pre>
+<p>In my opinion, this is a bad design. Resolve-Path assumes that if the
+filename being resolved doesn’t exist, then it must be an error. But in
+the script I’m building, I’m resolving the path of a file that I’m going
+to create. In other words, I know a priori that the file doesn’t exist.
+Yet Resolve-Path insists on throwing an error. I would have expected
+there to be some switch you could pass to Resolve-Path telling it to
+skip path validation, but there’s not.</p>
+<p>And the worst thing is, I can see that Resolve-Path came up with the
+“right” answer – it’s right there in the error message!</p>
+<p>Searching around, I found <a href="http://www.vistax64.com/powershell/24603-resolve-path-non-existing-file.html">a
+thread</a>
+where someone else was having the same problem. Jeffrey Snover – aka
+Distinguished Engineer, inventor of Powershell and <a href="http://www.langnetsymposium.com/2009/talks/23-ErikMeijer-LiveLabsReactiveFramework.html">target of Erik
+Meijer’s Lang.NET coin throwing
+stunt</a>
+– suggested using <a href="http://blogs.msdn.com/powershell/archive/2006/11/03/erroraction-and-errorvariable.aspx">–ErrorAction and
+–ErrorVariable</a>
+to ignore the error and retrieve the resolved path from the TargetObject
+property error variable. Like Maximilian from the thread, using this
+approach feels fragile and frankly kinda messy, but I needed a solution.
+So I wrote the following function that wraps up access to the error
+variable so at least I don’t have fragile messy code sprinkled through
+out my script.</p>
+<div class="lang-powershell editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">function</span> force<span style="color:Gray;">-</span>resolve<span style="color:Gray;">-</span>path(<span style="color:OrangeRed;">$filename</span>)
+{
+  <span style="color:OrangeRed;">$filename</span> <span style="color:Gray;">=</span> Resolve<span style="color:Gray;">-</span>Path <span style="color:OrangeRed;">$filename</span> <span style="color:Gray;">-</span>ErrorAction SilentlyContinue
+                                     <span style="color:Gray;">-</span>ErrorVariable _frperror
+  <span style="color:Blue;">if</span> (!<span style="color:OrangeRed;">$filename</span>)
+  {
+    <span style="color:Blue;">return</span> <span style="color:OrangeRed;">$_frperror</span><span style="color:Gray;">[</span><span style="color:Teal;">0</span><span style="color:Gray;">]</span>.TargetObject
+  }
+  <span style="color:Blue;">return</span> <span style="color:OrangeRed;">$filename</span>
+}
+
+</pre></div>
+</div>
+<p>The script is pretty straightforward. –ErrorAction SilentlyContinue is
+PowerShell’s version of <a href="http://msdn.microsoft.com/en-us/library/5hsw66as.aspx">On Error Resume
+Next</a> in Visual
+Basic. If the cmdlet encounters an error, it gets stashed away in the
+variable specified by ErrorVariable (it’s also added to $Error so you
+can still retrieve the error object if ErrorVariable isn’t specified)
+and continues processing. Then I manually check to see if resolve-path
+succeeded – i.e. did it return a value – and return the TargetObject of
+the Error object if it didn’t.</p>
+<p>As I said, fragile and kinda messy. But it works.</p>

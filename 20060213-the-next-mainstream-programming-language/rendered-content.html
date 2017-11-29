@@ -1,0 +1,32 @@
+<p><a href="http://terranova.blogs.com/">Terra Nova</a> is not the usual place I go to
+get news around programming language improvements. But <a href="http://terranova.blogs.com/terra_nova/2006/02/troubles_with_t.html">they
+linked</a>
+to a great presentation from <a href="http://www.cs.princeton.edu/%7Edpw/popl/06/">POPL
+2006</a> by Tim Sweeney of <a href="http://epicgames.com/">Epic
+Games</a>. Tim’s talk is called <a href="http://www.cs.princeton.edu/%7Edpw/popl/06/Tim-POPL.ppt">The Next Mainstream
+Programming Language: A Game Developer’s
+Perspective</a> and
+it talks at great length the major issues facing game developers today.
+As Nate Combs at Terra Nova remarked, most of these issues are not
+specific to the game industry, but will likely be seen there first.</p>
+<p>Most interesting (to me) was the issue of concurrency. Tim uses <a href="http://www.xbox.com/en-US/games/g/gearsofwar/">Gears
+of War</a> for all his
+examples. Of course, Gears of War is an Xbox 360 exclusive. Xbox 360, as
+many of you probably know, has three hyper-threaded CPUs for a total
+capactiy of six hardware threads. Herb Sutter talked about this in his
+DDJ article <a href="http://www.gotw.ca/publications/concurrency-ddj.htm">The Free Lunch Is
+Over</a>. Tim points
+out – rightly so – that “C++ is ill-equipped for concurrency”. C#, Java
+and VB aren’t much better. Tim conculdes that we’ll need a combination
+of effects-free non-imperative code (which can safely be executed in
+parallel) and software transactional memory (to manage parallel
+modifications to system state).</p>
+<p>Tim also touches on topics of performance, modularity and reliability.
+And he has an eye on the practical at all times. For example, he points
+out that even a four times performance overhead of software
+transactional memory is acceptable, if it allows the code to scale to
+many threads.</p>
+<p>Anyway, it’s a great read so check it out. Also, MS Research has a
+<a href="http://www.cs.brown.edu/%7Emph/sxm.htm">software transactional memory
+project</a> you can download if
+you’re so inclined.</p>

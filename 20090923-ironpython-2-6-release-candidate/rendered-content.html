@@ -1,0 +1,124 @@
+<p><a href="http://ironpython.codeplex.com/"><img src="http://image.devhawk.net/blog-content/20090923-ironpython-2-6-release-candidate/image_3.png" alt="" /></a></p>
+<p>We released the <a href="http://ironpython.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=30315">IronPython 2.6 release
+candidate</a>
+on CodePlex yesterday. If all goes well, this will be the ONLY RC and
+we’ll republish it as the RTW build in about a month. So if you’ve been
+holding off on experimenting with the 2.6 release, now’s the time to
+jump in with both feet.</p>
+<p>As I’ve written before on this blog, this is a HUGE release for us:</p>
+<ul>
+<li>Python 2.6 features such as <a href="http://docs.python.org/whatsnew/2.6.html#pep-343-the-with-statement">with
+statement</a>,
+<a href="http://docs.python.org/whatsnew/2.6.html#pep-3129-class-decorators">class
+decorators</a>
+and <a href="http://docs.python.org/whatsnew/2.6.html#pep-3112-byte-literals">byte
+literals</a></li>
+<li><a href="http://devhawk.net/2009/03/27/ironpython-2-6-alpha-1/">Adaptive
+Compilation</a></li>
+<li><a href="http://devhawk.net/CategoryView,category,__clrtype__.aspx">__clrtype__
+Metaclasses</a></li>
+<li><a href="http://devhawk.net/2009/05/20/ironpython-2-6-beta-1/">ctypes and Frames
+support</a></li>
+<li><a href="http://devhawk.net/2009/07/08/MicrosoftScriptingDebugging.aspx">Lightweight
+Debugging</a></li>
+<li>417 bugs fixed!</li>
+</ul>
+<p>Anyway, with 2.6 winding down, the IronPython team finds ourselves in a
+unique position that we’ve never been in before: caught up. As far as I
+can tell, most of the Python community hasn’t made the move to <a href="http://www.python.org/download/releases/3.1">Python
+3.1</a> and <a href="http://www.python.org/dev/peps/pep-0373/">Python
+2.7</a> is looking like it will
+be released <a href="http://mail.python.org/pipermail/python-dev/2009-September/092005.html">next
+summer</a>.
+So IronPython is caught up with the latest version of Python most of the
+Python community appears to be using.</p>
+<p>So that begs the question: what do we do now?</p>
+<p>Of course, we want to hear from you regarding our next steps, but some
+things we are looking at include:</p>
+<ul>
+<li><strong>.NET Framework 4.0</strong><br />
+We’ve shipped CTP releases of IronPython for each public beta of
+Visual Studio 2010 and  .NET Framework 4.0. You can expect that to
+continue as Visual Studio 2010 winds down and ships.</li>
+<li><strong>Fixing Bugs</strong><br />
+417 bugs fixed is good, but there are still 839 active work items in
+our issue tracker. In previous releases, we’ve done minor bug fix
+releases every few months so we’ll probably keep up that cadence.
+Make sure you go vote for bugs you think are important.</li>
+<li><strong>App Compatibility</strong><br />
+One thing we can do is take some of the more popular Python apps
+such as Django and Mercurial and make sure they run well on
+IronPython. In some cases, there may need to be changes to the
+Python apps to get them to run on IronPython (for example, see <a href="http://jdhardy.blogspot.com/2008/07/django-on-ironpython.html">Jeff
+Hardy’s
+patch</a>
+for running Django on IronPython) which assuredly means more time
+with lawyers for me.</li>
+<li><strong>Missing Modules</strong><br />
+While IronPython 2.6 is our implementation of Python 2.6, there are
+binary modules we haven’t implemented yet like
+<a href="http://docs.python.org/library/csv.html">_csv</a>,
+<a href="http://docs.python.org/library/ast.html">_ast</a> and
+<a href="http://docs.python.org/library/pyexpat.html">pyexpat</a>. You could
+consider this App Compatibility work, but we have a different
+internal process for bug fixing and implementing new features so I
+broke this out separately.</li>
+<li><strong>Documentation</strong><br />
+Invariably an area for improvement in all software, our doc story
+today is pretty much “go look at docs.python.org”. Of course, that
+doesn’t cover any IronPython specific functionality. Of course, what
+would be great would be to combine existing Python docs with
+IronPython specific docs in a single reference, which also assuredly
+means more time with lawyers for me.</li>
+<li><strong>Tutorials</strong><br />
+If you haven’t seen Michael Foord’s <a href="http://www.trypython.org/">Try
+Python</a>, it’s awesome. However, it was
+recently pointed out to me that it doesn’t include any IronPython
+specific behavior (importing and interoperating with .NET types for
+example). The <a href="http://jimmy.schementi.com/silverlight/Tutorial/">IronRuby
+Tutorial</a> has
+specific IronRuby features and it would be awesome to do the same
+for IronPython. Of course, if we wrote new tutorials in
+<a href="http://docutils.sourceforge.net/rst.html">reStructured Text</a>, then
+I’m guessing it would be easy for Michael to include it in Try
+Python via his <a href="http://code.google.com/p/rst2xaml/">rst2xaml</a> tool.</li>
+<li><strong>“Just Text” in Silverlight</strong><br />
+If you haven’t seen MIX Online Labs <a href="http://www.visitmix.com/Labs/gestalt/">Gestalt
+project</a>, browse to <a href="http://www.visitmix.com/labs/gestalt/samples/getting.started/05_final.html">one of
+the
+samples</a>
+and View Source. Python as “just text” in the browser. Cool, eh?
+<a href="http://blog.jimmy.schementi.com/">Jimmy</a> is working on
+<a href="http://rubyforge.org/pipermail/ironruby-core/2009-September/005245.html">implementing the “just text”
+model</a>
+for the Silverlight version of IronPython (and
+<a href="http://www.visitmix.com/labs/gestalt/samples/getting.started/01_ruby.html">IronRuby</a>).</li>
+<li><strong>Visual Studio</strong><br />
+There’s no work item for VS Integration in our issue tracker, but
+there have been <a href="https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=475830">112 votes for IronPython
+integration</a>
+(as well as <a href="https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=479957">79 votes for IronRuby
+integration</a>)
+in the VS 2010 connect bug database. No promises here, but we are
+acutely aware of how popular this suggestion is.</li>
+<li><strong>CodePlex Foundation</strong><br />
+The <a href="http://codeplex.org/">CodePlex Foundation</a> is a new non-profit
+foundation sponsored by Microsoft with the explicit mission “to
+enable the exchange of code and understanding among software
+companies and open source communities.” As one of the oldest open
+source projects at Microsoft, we are very interested in the CodePlex
+Foundation as you might imagine. However, CodePlex Foundation is
+VERY new – everything is tagged “interim” for the first 100 days.
+Once the Foundation elects non-interim board members and establishes
+things like a charter and by-laws, you can be sure we’ll be
+investigating it more thoroughly. In other words, definitely more
+time with lawyers for me.</li>
+</ul>
+<p>In case I haven’t said it lately, it’s great working on the IronPython
+team with <a href="http://blogs.msdn.com/dinoviehland/">Dino Viehland</a>, <a href="http://knowbody.livejournal.com">Dave
+Fugate</a> and <a href="http://lists.ironpython.com/pipermail/users-ironpython.com/2008-December/009154.html">David
+DiCato</a>
+(The IronRuby guys aren’t bad either!). Also, I may whine about the
+amount of time I spend with lawyers, but honestly Yong, Kathryn and
+Kevin – our main LCA contacts – do a great job helping us figure out how
+and where to push the envelope so thanks to them as well.</p>

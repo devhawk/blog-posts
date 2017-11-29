@@ -1,0 +1,50 @@
+<p><a href="http://www.agileprogrammer.com/dotnetguy">Brad Wilson</a> and <a href="http://www.hanselman.com/blog/" title="Scott Hanselman">Scott
+Hanselman</a> took me to
+task for my
+<a href="http://devhawk.net/2007/03/13/morning-coffee-44/">comment</a> the
+other day that no “mainstream” language had implemented <a href="http://weblogs.asp.net/scottgu/archive/2007/03/13/new-orcas-language-feature-extension-methods.aspx">extension
+methods</a>:</p>
+<blockquote>
+<p>How mainstream is Ruby on Rails for you? Ruby is a full fledged
+dynamic language. No hacks for “extension methods” (Brad)</p>
+<p>Ya, I kind of blanched at that statement too…method_missing is pretty
+mainstream… (Scott)</p>
+</blockquote>
+<p>They’re right, Ruby does support the addition (and redefinition I think)
+of methods on a class at any time. There’s a sample of this in the
+<a href="http://www.ruby-doc.org/docs/ProgrammingRuby/html/classes.html">Classes and
+Objects</a>
+chapter of <a href="http://www.ruby-doc.org/docs/ProgrammingRuby/">Programming
+Ruby</a> (aka the pick-axe
+book) where they add a basic documentation facility “available to any
+module or class” in Ruby by adding a doc instance method to the Module
+class.</p>
+<p> </p>
+<div class="lang-ruby editor-colors">class Module
+  @@docs = Hash.new(nil)
+  def doc(str)
+    @@docs[self.name] = str
+  end
+  def Module::doc(aClass)
+    # If we’re passed a class or module, convert to string
+    # (‘<=’ for classes checks for same class or subtype)
+    aClass = aClass.name if aClass.type <= Module
+    @@docs[aClass] || “No documentation for #{aClass}”
+  end
+end
+
+</div>
+<p>Given how Ruby classes are defined, I think the newly added methods have
+access to the private data of the class. Extension methods in C#3/VB9
+only have access the public interface of the object. But that’s a fairly
+minor difference.</p>
+<p> </p>
+<p>FYI, Powershell can do this as well, though not as succinctly as Ruby.
+Scott has <a href="http://www.hanselman.com/blog/AccessingEXIFPhotoDataFromJPEGsWithPowerShell.aspx">an
+example</a>
+how you can add a DatePhotoTaken property to System.IO.FileInfo using
+<a href="http://www.shahine.com/omar">Omar
+Shahine’s</a><a href="http://wiki.shahine.com/default.aspx/MyWiki.PhotoLibrary">PhotoLibrary</a>
+project.</p>
+<p>Chalk this up to my continuing ignorance of dynamic languages. I’m
+working on it, albeit slowly.</p>

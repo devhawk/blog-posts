@@ -1,0 +1,54 @@
+<p>Even though I haven’t finished my ETech postings, I’m already onto
+another event. This week, thanks to an invite from <a href="http://blogs.msdn.com/mglehman/">Michael
+Lehman</a>, I’m sitting in on a Compiler
+Lab discussing implementing other languages for CLR. The first day was
+about <a href="http://msdn.microsoft.com/netframework/future/linq/">LINQ</a>. Much
+of the info is rehashed from PDC or the docs up on MSDN. However, I have
+learned a few new things.</p>
+<ul>
+<li>One of the standard features of LINQ is Extension Methods. That
+enables you to declare a static method like “static void Foo(this
+string source)” and then use it like “stringvar.Foo()”. Apparently,
+they are considering adding other types of extension members
+including properties and fields. The idea of extension fields is
+somewhat scary but powerful.</li>
+<li>LINQ uses something Anders called deferred query execution. The
+query isn’t executed until the values are asked for (typically by
+calling foreach on the query). That means you can compose queries to
+your hearts content with no perf impact until you actually invoke
+the query.</li>
+<li><a href="http://msdn.microsoft.com/vbasic/Future/default.aspx?pull=/library/en-us/dnvs05/html/vb9overview.asp#vb9overview_topic7">Query
+Comprehensions</a>
+in C# and VB is a pattern implementation in a similar vein to
+foreach. Foreach is relatively simple shorthand for iterating
+through an collection by calling IEnumerator.MoveNext until it
+returns false. While LINQ enables arbitrary composition of queries,
+there is obvious gravitational pull towards the SELECT / FROM /
+WHERE / ORDER BY / GROUP BY approach favored by SQL. So if you build
+your own query operator, you can include it in a LINQ query, but C#
+and VB won’t be able to include it in the Query Comprehension
+syntax. Probably not a big deal, given the breadth of standard query
+operators as well as the deferred query execution, but it’s good to
+understand how the abstraction works.</li>
+<li>I want to know more about how
+<a href="http://download.microsoft.com/download/c/f/b/cfbbc093-f3b3-4fdb-a170-604db2e29e99/DLinq%20Overview.doc">DLinq</a>
+is implemented. I’ve been refining my thinking about data since
+<a href="http://devhawk.net/2006/02/27/experimenting-with-ning/">working with Ning’s content
+store</a>
+and I’m convinced of the need for a simplified datastore. SQL is
+designed for significantly complex database schemas, which means a
+significantly complex development environment.</li>
+<li>I’m looking much more closely at VB, given the new features in <a href="http://msdn.microsoft.com/vbasic/Future/default.aspx?pull=/library/en-us/dnvs05/html/vb9overview.asp">VB
+9.0</a>.
+Not only the LINQ stuff from C# like type inference, extension
+methods and anonymous types but also VB specific stuff like <a href="http://msdn.microsoft.com/vbasic/Future/default.aspx?pull=/library/en-us/dnvs05/html/vb9overview.asp#vb9overview_topic6">XML
+Literals</a>
+and <a href="http://msdn.microsoft.com/vbasic/Future/default.aspx?pull=/library/en-us/dnvs05/html/vb9overview.asp#vb9overview_topic12">Duck
+Typing</a>.
+Combined with VB’s existing support for late binding, there are
+compelling features to make VB attractive over C#.</li>
+<li>I’ve been hanging out with <a href="http://weblogs.asp.net/brianbec">Brian
+Beckman</a>. He’s a hoot.</li>
+<li>I think I need to take a deeper look at
+<a href="http://research.microsoft.com/fsharp/">F#</a>.</li>
+</ul>

@@ -1,0 +1,91 @@
+<p>Now that I have my <a href="http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/">parse buffer
+functions</a>
+and <a href="http://devhawk.net/2007/12/12/practical-f-parsing-unit-testing/">unit test
+framework</a>
+taken care of, it’s time to write some parsing expression grammar
+productions <a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a>. In any grammar, there are productions that have
+semantic meaning and productions that are only used to specify syntax.
+For example, in C# statements end with a semicolon and code blocks are
+delineated with curly braces. Syntactical elements don’t end up in the
+abstract syntax tree, so they’re easier to implement.</p>
+<p>Most of PEG’s grammar productions are syntactical in nature. Let’s start
+with the simplest production, EndOfFile.</p>
+<div class="lang-fsharp editor-colors">///EndOfFile <- !.
+let EndOfFile input =
+    match NC input with
+    | None -> Some()
+    | _ -> None
+
+</div>
+<p>Similar to the underscore in F#, the period represents any character In
+the PEG grammar and the exclamation point is a backtracking not. In
+other words, EndOfFile succeeds if NC fails, which only happens when the
+parse buffer is empty. Since the parse buffer is empty on a successful
+match, there’s no value to return so I return Some(). Some() is kinda
+like Nullable, which doesn’t make much sense in C#. But here it means I
+have a successful match but no data to pass back to the caller.</p>
+<p>Here’s a slightly more complex grammar production, EndOfLine:</p>
+<div class="lang-fsharp editor-colors">///EndOfLine <- ‘rn’ / ‘n’ / ‘r’
+let EndOfLine input =
+    match NC input with
+    | Some(‘r’, input) ->
+        match NC input with
+        | Some (‘n’, input) -> Some(input)
+        | _ -> Some(input)
+    | Some(‘n’, input) -> Some(input)
+    | _ -> None
+
+</div>
+<p>EndOfLine has three possible matches: rn, n and r. Here, you see the use
+of nested match statements in the r match clause. If the top character
+is r, the function checks the top of the remaining text buffer for n.
+F#’s ability to reuse symbols comes in very handy here.</p>
+<p>Unfortunately, this isn’t code very readable. In particular, the match
+priority order, which matters in PEGs, is totally lost. For this
+production, it’s no big deal, but that won’t always be the case. I’m
+also not using the handy TOKEN function I wrote in <a href="http://devhawk.net/2007/12/11/practical-f-parsing-the-parse-buffer/">a few posts
+ago</a>.
+Here’s an alternative version that uses TOKEN and preserves the match
+priority order.</p>
+<div class="lang-fsharp editor-colors">///EndOfLine <- ‘rn’ / ‘n’ / ‘r’
+let EndOfLine input =
+    match TOKEN “rn” input with
+    | Some(input) -> Some(input)
+    | _ ->
+        match TOKEN “n” input with
+        | Some(input) -> Some(input)
+        | _ ->
+            match TOKEN “r” input with
+            | Some(input) -> Some(input)
+            | _ -> None
+
+</div>
+<p>This time, I use the TOKEN function and nested match statements to chain
+the results together. The previous method is probably faster, but this
+approach is more readable and explicitly preserves the match order.
+However, it sure is a pain to type. Wouldn’t it be great if we could
+write something like this:</p>
+<div class="lang-fsharp editor-colors">///EndOfLine <- 'rn' / 'n' / 'r'
+let EndOfLine input =
+    match input with
+    | TOKEN "rn" (input) -> Some(input)
+    | TOKEN "n" (input) -> Some(input)
+    | TOKEN "r" (input) -> Some(input)
+    | _ -> None
+
+</div>
+<p>Turns out, F#’s <a href="http://devhawk.net/2007/11/29/f-hawkeye-pattern-matching/">Active Patterns
+feature</a>
+let’s me implement EndOfLine exactly like this. We’ll look at how it
+works in the next post.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The full PEG grammar is listed in “<a href="http://pdos.csail.mit.edu/%7Ebaford/packrat/popl04/">Parsing Expression Grammars: A
+Recognition-Based Syntactic
+Foundation</a>” by
+<a href="http://www.brynosaurus.com/">Brian Ford</a>.<a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>

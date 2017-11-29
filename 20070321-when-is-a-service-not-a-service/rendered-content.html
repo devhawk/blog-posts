@@ -1,0 +1,77 @@
+<p>Conceptually, I like both Service Oriented Architecture (aka SOA) and
+Software as a Service (aka SaaS). However, I think we’ve done the
+industry a disservice by overloading the term “service”.</p>
+<p>John deVadoss
+<a href="http://blogs.msdn.com/jdevados/archive/2007/03/04/what-is-software-as-a-service.aspx">likes</a>
+the following definition of SaaS from
+<a href="http://en.wikipedia.org/wiki/Software_as_a_Service">Wikipedia</a>. So do
+I.</p>
+<blockquote>
+<p><strong>Software as a service</strong> (<strong>SaaS</strong>) is a model of software delivery
+where the software company provides maintenance, daily technical
+operation, and support for the software provided to their client. SaaS
+is a model of software delivery rather than a market segment; it
+assumes the software is delivered over the Internet. Software can be
+delivered using this method to any market segment including home
+consumers, small business, medium and large business.</p>
+</blockquote>
+<p>To paraphrase, SaaS is software that traditionally you might have
+bought, installed and run yourself but instead now can access over the
+network where someone else is responsible for installing and running it.
+For example, instead of buying, setting up and managing my own mail
+server to handle a <a href="mailto:harry@devhawk.net">single @devhawk.net email
+address</a>, I use the <a href="http://domains.live.com/">WL Custom
+Domains</a> service.</p>
+<p>SOA on the other hand isn’t a model of software delivery, it’s a model
+of software segmentation. Again, here’s the <a href="http://en.wikipedia.org/wiki/Service-oriented_architecture">Wikipedia
+definition</a>,
+this time for SOA:</p>
+<blockquote>
+<p>There is no widely-agreed upon definition of <strong>Service-oriented
+architecture</strong> other than its literal translation that it is an
+architecture that relies on service-orientation as its fundamental
+design principle.</p>
+</blockquote>
+<p>Err, that’s not very helpful. Let’s check out the
+<a href="http://www.oasis-open.org/">OASIS</a> definition (cribbed from Wikipedia).</p>
+<blockquote>
+<p>[SOA is] A paradigm for organizing and utilizing distributed
+capabilities that may be under the control of different ownership
+domains. It provides a uniform means to offer, discover, interact with
+and use capabilities to produce desired effects consistent with
+measurable preconditions and expectations.</p>
+</blockquote>
+<p>Well, at least it’s not a self-referential recursive definition. But it
+is littered with committee-speak. (Who talks like that in real life?)
+Frak it, here’s my definition:</p>
+<blockquote>
+<p>SOA is a way of implementing IT systems as a web of interconnected yet
+independent loosely coupled subsystems (typically called services)
+instead of as big honking systems we have traditionally built that
+tend to be unwieldy, in-agile, difficult to change and probably
+obsolete by the time they were deployed.</p>
+</blockquote>
+<p>We could argue about the language, but you get the point. There would be
+a ton of argument about the <em>size</em> of the subsystems (i.e. the service
+granularity), but I think most people can agree that SOA encourages
+building multiple smaller interconnected subsystems instead of one big
+(honking) system.</p>
+<p>Which brings me back to my original point: Service, in the SOA sense,
+describes the approach to factoring parts of an software solution.
+Service, in the SaaS sense, describes a software delivery mechanism.
+Certainly, you can use both together and take an SOA approach to
+building a SaaS product. But you don’t have to. So having the same term
+“service” used in both is very confusing.</p>
+<p>How many SaaS products use SOA today? I would guess “not many” since
+there hasn’t been much demand for it. When you’re selling to the long
+tail of the LOB market, support for service-oriented integration isn’t a
+critical selling feature. As SaaS becomes more attractive to larger
+companies (i.e. ones with dedicated IT staffs), using a SOA approach
+will be more important to SaaS product vendors. So they will converge in
+a way, but not in the way their naming suggests.</p>
+<p>Of the two uses, SaaS seems closer to the <a href="http://dictionary.reference.com/browse/service">dictionary
+definition</a> of service.
+Maybe the S in SOA should stand for “Subsystem”? Nah, I like the term
+“<a href="http://msdn2.microsoft.com/en-us/architecture/aa699418.aspx">connected
+systems</a>”
+better than “service oriented” anyway.</p>

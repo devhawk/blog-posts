@@ -1,0 +1,114 @@
+<div class="image-left"><p><a href="http://image.devhawk.net/blog-content/20090812-invoking-python-functions-from-c-without-dynamic/image_2.png"><img src="http://image.devhawk.net/blog-content/20090812-invoking-python-functions-from-c-without-dynamic/image_thumb.png" alt="" /></a></p>
+</div>
+<p>So I’ve <a href="http://devhawk.net/2009/08/10/compiling-python-packages-into-assemblies/">compiled the Pygments package into a CLR
+assembly</a>
+and <a href="http://devhawk.net/2009/08/11/embedding-python-scripts-in-c-applications/">loaded an embedded Python
+script</a>,
+so now all that remains is calling into the functions in that embedded
+Python script. Turns out, this is the easiest step so far.</p>
+<p>We’ll start with get_all_lexers and get_all_styles, since they’re
+nearly identical. Both functions are called once on initialization, take
+zero arguments and return a PythonGenerator (for you C# devs, a
+PythonGenerator is kind of like the IEnumerable that gets created when
+you yield return from a function). In fact, the only difference between
+them is that get_all_styles returns a generator of simple strings,
+while get_all_lexers returns a PythonTuple of the long name, a tuple
+of aliases, a tuple of filename patterns and a tuple of mime types.
+Here’s the implementation of Languages property:</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+PygmentLanguage[] _lanugages;
+
+<span style="color:Blue;">public</span> PygmentLanguage[] Languages
+{
+    <span style="color:Blue;">get</span>
+    {
+        <span style="color:Blue;">if</span> (_lanugages == <span style="color:Blue;">null</span>)
+        {
+            _init_thread.Join();
+
+            <span style="color:Blue;">var</span> f = _scope.GetVariable&lt;PythonFunction&gt;(<span style="color:#A31515;">&quot;get_all_lexers&quot;</span>);
+            <span style="color:Blue;">var</span> r = (PythonGenerator)_engine.Operations.Invoke(f);
+            <span style="color:Blue;">var</span> lanugages_list = <span style="color:Blue;">new</span> List&lt;PygmentLanguage&gt;();
+            <span style="color:Blue;">foreach</span> (PythonTuple o <span style="color:Blue;">in</span> r)
+            {
+                lanugages_list.Add(<span style="color:Blue;">new</span> PygmentLanguage()
+                    {
+                        LongName = (<span style="color:Blue;">string</span>)o[0],
+                        LookupName = (<span style="color:Blue;">string</span>)((PythonTuple)o[1])[0]
+                    });
+            }
+
+            _lanugages = lanugages_list.ToArray();
+        }
+
+        <span style="color:Blue;">return</span> _lanugages;
+    }
+}
+
+</pre></div>
+</div>
+<p>If you recall from my last post, I initialized the _scope on a
+background thread, so I first have to wait for the thread to complete.
+If I was using C# 4.0, I’d simply be able to run
+_scope.get_all_lexers, but since I’m not I have to manually reach
+into the _scope and retrieve the get_all_lexers function via the
+GetVariable method. I can’t invoke the PythonFunction directly from C#,
+instead I have to use the Invoke method that hangs off
+_engine.Operations. I cast the return value from Invoke to a
+PythonGenerator and iterate over it to populate the array of languages.</p>
+<p>If you’re working with dynamic languages from C#, the
+<a href="http://ironpython.codeplex.com/SourceControl/changeset/view/57985#760280">ObjectOperations</a>
+instance than hangs off the ScriptEngine instance is amazingly useful.
+Dynamic objects can participate in a powerful but somewhat complex
+protocol for binding a wide variety of dynamic operation types. The
+<a href="http://ironpython.codeplex.com/SourceControl/changeset/view/57985#760650">DynamicMetaObject</a>
+class supports twelve different Bind operations. But the
+DynamicMetaObject binder methods are designed to be used by language
+implementors. The ObjectOperations class lets you invoke them fairly
+easily from a higher level of abstraction.</p>
+<p>The last Python function I call from C# is generate_html. Unlike
+get_all_lexers, generate_html takes three parameters and can be
+called multiple times. The Invoke method has a params argument so it can
+accept any number of additional parameters, but when I tried to call it
+I got a NotImplemented exception. It turns out that Invoke currently
+throws NotImplemented if it receives more than 2 parameters. Yes, we
+realize that’s kinda broken and we are looking to fix it. However, it
+turns out there’s another way that’s also more efficient for a function
+like generate_html that we are likely to call more than once. Here’s my
+implementation of GenerateHtml in C#.</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+Func&lt;<span style="color:Blue;">object</span>, <span style="color:Blue;">object</span>, <span style="color:Blue;">object</span>, <span style="color:Blue;">string</span>&gt; _generatehtml_function;
+
+<span style="color:Blue;">public</span> <span style="color:Blue;">string</span> GenerateHtml(<span style="color:Blue;">string</span> code, <span style="color:Blue;">string</span> lexer, <span style="color:Blue;">string</span> style)
+{
+    <span style="color:Blue;">if</span> (_generatehtml_function == <span style="color:Blue;">null</span>)
+    {
+        _init_thread.Join();
+
+        <span style="color:Blue;">var</span> f = _scope.GetVariable&lt;PythonFunction&gt;(<span style="color:#A31515;">&quot;generate_html&quot;</span>);
+        _generatehtml_function = _engine.Operations.ConvertTo
+                           &lt;Func&lt;<span style="color:Blue;">object</span>, <span style="color:Blue;">object</span>, <span style="color:Blue;">object</span>, <span style="color:Blue;">string</span>&gt;&gt;(f);
+    }
+
+    <span style="color:Blue;">return</span> _generatehtml_function(code, lexer, style);
+}
+
+</pre></div>
+</div>
+<p>Instead of calling Invoke, I convert the PythonFunction instance into a
+delegate using Operations.ConvertTo which I then cache and call like any
+other delegate from C#. Not only does Invoke fail for more than two
+parameters, it creates a new dynamic call site every time it’s called.
+Since get_all_lexers and get_all_styles are each only called once,
+it’s no big deal. But you typically call generate_html multiple times
+for a block of source code. Using ConvertTo generates a dynamic call
+site as part of the delegate, so that’s more efficient than creating one
+on every call.</p>
+<p>The rest of the C# code is fairly pedestrian and has nothing to do with
+IronPython, as all access to Python code is hidden behind GenerateHtml
+as well as the Languages and Styles property.</p>
+<p>So as I’ve shown in the last few posts, embedding IronPython inside a
+C# application – even before we get the new dynamic functionality of
+C# 4.0 – isn’t really all that hard. Of course, we’re always interested
+in ways to make it easier. If you’ve got any questions or suggestions,
+please feel free to leave a comment or drop me a line.</p>

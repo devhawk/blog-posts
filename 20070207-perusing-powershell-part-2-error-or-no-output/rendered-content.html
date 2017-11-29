@@ -1,0 +1,85 @@
+<p>In <a href="http://devhawk.net/2007/02/06/perusing-powershell-part-1-get-sqlserver/">yesterday’s post on
+PS</a>,
+I provided the source for my implementation of Get-SQLServer. I realized
+after I made the post that there was a significant bug in the
+ProcessRecord method. If you specify a service instance (default or
+named), the cmdlet makes no effort to actually validate that such a SQL
+server instance exists. So if you ask for a instance that doesn’t exist,
+Get-SQLServer will happily write an invalid Server object to the
+pipeline. So I changed it to actually validate that the specified
+instance exists. I connect to the specified machine (local machine if
+not specified) using
+<a href="http://msdn2.microsoft.com/library/microsoft.sqlserver.management.smo.wmi.managedcomputer.aspx">ManagedComputer</a>
+and look in it’s ServerInstances collection for the specified SQL
+instance.</p>
+<p>The question is, what should you do if the specified SQL instance
+<em>doesn’t</em> exist on the specified machine? One the one hand, you could
+<a href="http://msdn2.microsoft.com/library/system.management.automation.cmdlet.writeerror.aspx">write an
+error</a>
+indicating that the SQL instance doesn’t exist. Or, you could simply
+write nothing to the output pipeline, which may cause an error down the
+line.</p>
+<p>Which is the right approach?</p>
+<p>At first, I wrote an error when I couldn’t find the instance, but
+decided that wasn’t the right approach. It isn’t really an error unless
+you attempt to act on that instance, right? So I thought the more PS
+friendly approach would be to write nothing and let the down stream
+cmdlets deal with it. I do <a href="http://msdn2.microsoft.com/library/system.management.automation.cmdlet.writedebug.aspx">write a debug
+message</a>
+if the specified instance doesn’t exist, so the scripter isn’t
+completely in the dark.</p>
+<p>So here’s the new and improved ProcessRecord method of my Get-SQLServer
+cmdlet:</p>
+<p> </p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">protected</span> <span style="color:Blue;">override</span> <span style="color:Blue;">void</span> ProcessRecord()
+{
+    <span style="color:Green;">//Make sure both -Name and -Default aren’t specified</span>
+    <span style="color:Blue;">if</span> (!<span style="color:Blue;">string</span>.IsNullOrEmpty(_Name) &amp;&amp; _Default.IsPresent)
+    {
+        WriteError(<span style="color:Blue;">new</span> ErrorRecord(
+            <span style="color:Blue;">new</span> ArgumentException(
+                “Default and Name parameters can’t both be specified”),
+            “DefaultAndName”,
+            ErrorCategory.InvalidArgument,
+            <span style="color:Blue;">null</span>));
+        <span style="color:Blue;">return</span>;
+    }
+
+    <span style="color:Green;">//If the machine name is not specified, assume the local machine</span>
+    <span style="color:Green;">//(via the “.” value)</span>
+    <span style="color:Blue;">string</span> machine = <span style="color:Blue;">string</span>.IsNullOrEmpty(_MachineName) ? “.” : _MachineName;
+
+    <span style="color:Green;">//Connect to the specified machine via the SMO WMI ManagedComputer object</span>
+    SmoWmi.ManagedComputer mc = <span style="color:Blue;">new</span> SmoWmi.ManagedComputer(machine);
+
+    <span style="color:Blue;">if</span> (<span style="color:Blue;">string</span>.IsNullOrEmpty(_Name) &amp;&amp; !_Default.IsPresent)
+    {
+        <span style="color:Green;">//If neither Name or Default are specified, write all the</span>
+        <span style="color:Green;">//server instances on specified machine</span>
+        <span style="color:Blue;">foreach</span> (SmoWmi.ServerInstance si <span style="color:Blue;">in</span> mc.ServerInstances)
+            WriteServerObject(si);
+
+        <span style="color:Blue;">return</span>;
+    }
+
+    <span style="color:Blue;">string</span> instanceName = _Default.IsPresent ? “MSSQLSERVER” : _Name;
+
+    <span style="color:Blue;">if</span> (mc.ServerInstances.Contains(instanceName))
+        WriteServerObject(mc.ServerInstances[instanceName]);
+    <span style="color:Blue;">else</span>
+        WriteDebug(“The specified SQL instance does not exist”);
+}
+
+<span style="color:Green;">//Helper method to create a SMO Server object from a</span>
+<span style="color:Green;">//SMO WMI ServerInstance object and write it to the pipeline</span>
+<span style="color:Blue;">private</span> <span style="color:Blue;">void</span> WriteServerObject(SmoWmi.ServerInstance si)
+{
+    <span style="color:Blue;">if</span> (si.Name == “MSSQLSERVER”)
+        WriteObject(<span style="color:Blue;">new</span> Smo.Server(si.Parent.Name));
+    <span style="color:Blue;">else</span>
+        WriteObject(<span style="color:Blue;">new</span> Smo.Server(si.Parent.Name + “\” + si.Name));
+}
+
+</pre></div>
+</div>

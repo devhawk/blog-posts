@@ -1,0 +1,18 @@
+<p>Ruby’s symbols are <a href="http://wiki.rubygarden.org/Ruby/page/show/UnderstandingSymbols">often talked
+about</a>
+in terms of efficiency – taking up less memory and executing faster.
+While these are both laudable goals, symbols are more than just
+performance improvers. The ability to name things is valuable
+semantically. Take a look thru p&amp;p’s <a href="http://msdn.microsoft.com/library/en-us/dnpag2/html/CAB.asp">Composite UI
+AppBlock</a>
+and you’ll see strings used as names for things all over the place. It’s
+great for loose coupling, you see. But how do you tell the difference
+between a string used as a name and a string used for some other reason
+like user input? You can’t.</p>
+<p><a href="http://www.rubyonrails.com/">Rails</a> makes extensive use of symbols –
+anyone who has <a href="http://www.onlamp.com/pub/a/onlamp/2005/01/20/rails.html">Rolled on
+Rails</a> has
+seen “scaffold :recipe”. That’s just the tip of the iceberg. Rails uses
+symbols extensively across both ActionPack and ActiveRecord (and
+probably others I’m not familiar with). It’s a great approach, but one
+that’s unique to Ruby as far as I’m aware.</p>

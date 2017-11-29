@@ -1,0 +1,130 @@
+<p>A while back I
+<a href="http://devhawk.net/2007/06/05/a-rest-question/">wondered</a> if it’s
+still REST if you don’t use HTTP. The reason I wondered that is because
+like many I’ve become disillusioned with the WS-* stack over time and
+see REST as a viable alternative to all that spec-driven complexity.
+However, just because I’m looking to REST means I’m willing to give up
+on <a href="http://devhawk.net/2007/05/30/the-case-for-durable-messaging-in-service-orientation/">durable
+messaging</a>.
+So I shouldn’t be asking “can I do REST without HTTP?” I should be
+asking “what protocol can I use to do durable messaging with REST?”</p>
+<p>It turns out HTTP is just fine for RESTful durable messaging, if you
+take the time to make your POSTs idempotent. There’s even a IETF RFC
+that builds on HTTP and specifies a mechanism to do it.</p>
+<p>As I wrote last month, <a href="http://devhawk.net/2007/11/09/the-importance-of-idempotence/">idempotence is critically
+important</a>
+to ensuring “things” happen exactly once when connecting disparate
+systems together. At the end of that post, I asked you, dear reader, to
+contemplate just how durable messaging systems ensures exactly once
+delivery. They do it by assigning messages to be delivered a unique
+identifier. Any non-idempotent operations can be made idempotent with
+unique identifiers and a message ID log.</p>
+<blockquote>
+<p>“Not Idempotent:<br />
+     Withdrawing $1 Billion.<br />
+Idempotent:<br />
+     If Haven’t Yet Done Withdrawal #XYZ for $1 Billion,<br />
+     Then Withdraw $1 Billion and Label as #XYZ”<br />
+Pat Helland</p>
+</blockquote>
+<p>For example, when you send a message in MSMQ, it’s assigned a <a href="http://msdn2.microsoft.com/en-us/library/ms705091.aspx">20 byte
+identifier</a>
+which is “unique within your enterprise.” <a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a> If the destination system
+receives multiple messages with the same message ID, it knows they are
+duplicates and can safely toss all but one of the messages with the same
+ID. Exactly once, no transactions.</p>
+<p>While many operations in REST are naturally idempotent, using REST
+doesn’t magically make all your operations idempotent, contrary to
+<a href="http://diveintomark.org/archives/2004/09/29/restagra">popular belief</a>.
+Have you ever seen a message like “please don’t press submit order
+twice” on the checkout page of an e-commerce website? It’s there because
+POST is not naturally idempotent and the site hasn’t taken any extra
+steps to identify duplicate POSTs. If the site embedded a unique ID in a
+hidden form field, it could use that to identify duplicate orders.</p>
+<p>If you’re a RESTifarian, haven’t you <a href="http://bitworking.org/projects/atom/rfc5023.html">seen this approach somewhere
+before</a>?</p>
+<p>Given that POST isn’t naturally idempotent, I think it’s kinda
+surprising that new <a href="http://bitworking.org/projects/atom/rfc5023.html#crwp">resources are created in
+AtomPub</a> by
+POSTing them to a collection rather than PUTting them to a specific URL.
+<a href="http://www.oreilly.com/catalog/9780596529260/">RESTful Web Services</a>
+specifically points out that PUT is idempotent, so I wonder why AtomPub
+uses POST. I’d guess most AtomPub implementations (aka blogs) aren’t
+much concerned about ensuring Exactly Once. If an blog entry gets posted
+twice, you delete one and go on with your life.</p>
+<p>However, if you wanted to use AtomPub and ensure Exactly Once, you can
+use the fact that Atom entries <a href="http://tools.ietf.org/html/rfc4287#section-4.1.2">must contain exactly one ID
+element</a> which as per
+the spec <a href="http://tools.ietf.org/html/rfc4287#section-4.2.6">must be universally
+unique</a>. From reading
+the Atom spec, the ID element seems primarily designed for Atom feed
+consumers, but AtomPub servers could also use it as an “idempotence
+identifier”, similar to how MSMQ uses the message ID. If you end up with
+multiple entries with the same entry ID, discard all but one.</p>
+<p>So by creating a unique identifier on the client side and logging that
+identifier on the server side, we can make any REST service idempotent.
+We can make it a durable service if we write the outgoing message – with
+the message ID we generate – to a durable store before trying to send
+it. If you write it to a durable store within the scope of a local
+transaction, you’re even closer to duplicating MSMQ’s functionality, yet
+the only protocol requirement beyond vanilla HTTP is having a unique
+message ID.</p>
+<p>The one problem with the Atom entity ID approach is that it requires
+cracking the message in order to see if we should process it. For REST
+services, I would think we’d want to stick the idempotence identifier in
+an HTTP header. We already headers to implement <a href="http://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers">conditional
+GET</a>,
+why not a header for what amounts to conditional POST?</p>
+<p>Turns out such a header exists in the <a href="http://www.ietf.org/rfc/rfc4130.txt">AS2
+spec</a>, i.e. “MIME-Based Secure
+Peer-to-Peer Business Data Interchange Using HTTP”. AS2 defines a
+<a href="http://tools.ietf.org/html/rfc4130#section-5.3.3">Message-Id HTTP
+header</a> which “SHOULD
+be globally unique”. In the case of <a href="http://tools.ietf.org/html/rfc4130#section-5.5">an HTTP
+error</a>, AS2 specifies
+the “POST operation with identical content, including same Message-ID,
+SHOULD be repeated” and that “Servers SHOULD be prepared to receive a
+POST with a repeated Message-ID.” I assume this implies a server
+shouldn’t process a message with the same ID twice.</p>
+<p>So what would a durable REST service look like? I think like this:</p>
+<ol>
+<li>Sending system records the intent to send a message by saving it to
+a local durable store, potentially in the scope of a local
+transaction. As part of saving the message, a unique message id is
+generated (I’d use a <a href="http://en.wikipedia.org/wiki/Guid">GUID</a>, but
+as long as it’s unique it doesn’t matter.)</li>
+<li>A background thread in the sending system monitors the durable
+message store. When a new to-be-sent message arrives, the thread
+POSTs it to the destination, setting the Message-Id HTTP header to
+the unique identifier generated in step 1.</li>
+<li>The receiving system stores the Message-Id header value in a log
+table and processes the received message, potentially in the scope
+of a local transaction. Optionally, it can store the return message
+(if there is one) in the durable store as well.</li>
+<li>If the sending system doesn’t receive a 2xx status code, it rePOSTs
+the message to the receiving system until it does.</li>
+<li>If the receiving system receives a message that’s already listed in
+the log table, it ignores it and returns a success status code.
+Optionally, if the return message has been saved, the receiving
+system can resend the return message as long as it doesn’t redo the
+work.</li>
+</ol>
+<p>This seems like a better approach than my original direction of doing
+REST over a durable protocol like MSMQ or SSB. What do you think?</p>
+<p><strong>Update</strong>: <a href="http://appside.blogspot.com/">Erik Johnson</a> <a href="http://devhawk.net/CommentView,guid,becd3f0f-5484-4a9e-ae6a-4a61cebc2a4a.aspx#commentstart">points
+out</a>
+that an HTTP POST’s idempotency is “left unsaid”. So my statement that
+“POST isn’t idempotent” isn’t quite correct. POST isn’t <em>naturally</em>
+idempotent. I’ve updated the post accordingly.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Technically, the MSMQ message ID isn’t universally unique as it is a
+16 byte GUID representing the source system + a 4 byte sequence number.
+The sequence number can rollover, after sending 2^32 messages. In
+practice, rolling over the message ID after 4 billion messages is rarely
+an issue.<a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>

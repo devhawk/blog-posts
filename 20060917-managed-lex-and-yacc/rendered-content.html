@@ -1,0 +1,42 @@
+<p>Buried deep in the docs for v3 of the <a href="http://msdn2.microsoft.com/en-us/library/aa411710.aspx">Visual Studio
+SDK</a> is
+something called the <a href="http://msdn2.microsoft.com/en-us/library/aa405796.aspx">Managed Babel
+System</a>. Babel –
+in the context of Visual Studio – is the framework for creating language
+services for stuff like syntax highlighting, brace matching, and
+IntelliSense completion. As part of the Managed version of Babel, the VS
+SDK includes the Managed Package Lex Scanner Generator (MPLEX) and the
+Managed Package Parser Generator (MPPG). Online docs are pretty thin,
+but there are a few white papers in the additional documentation of the
+VS SDK install.</p>
+<p>Interestingly enough, the white papers were written by John Gough of
+QUT’s <a href="http://plas.fit.qut.edu.au/">Programming Languages and Systems</a>
+group. John wrote <a href="http://www.amazon.com/dp/0130622966">Compiling for the .NET Common Language
+Runtime</a> and PLAS has several
+interesting language projects including
+<a href="http://plas.fit.qut.edu.au/metaphor/">Metaphor</a> and
+<a href="http://plas.fit.qut.edu.au/Ruby.NET/">Ruby.NET</a>. As you might expect
+for a group that focuses on languages on .NET, they have a <a href="http://plas.fit.qut.edu.au/gppg/">managed
+version of YACC called GPPG</a> available
+and John said at <a href="http://www.langnetsymposium.com/">Lang.NET</a> that they
+would be releasing a managed version of LEX “soon”. I’m thinking that
+QUT’s GPPG/GPLEX combo has been absorbed into the VS SDK and renamed
+MPPG/MPLEX. Unfortunately, my laptop power connector is broken, so I
+can’t verify this until Monday.</p>
+<p>It’s not a <a href="http://www.knowing.net/PermaLink,guid,c201c6a5-3deb-433f-b38a-6541498159ab.aspx">Rosetta
+stone</a>
+and the lex/yacc model is <a href="http://www.knowing.net/PermaLink,guid,0d0f3a62-45ae-4c8e-9438-6c082ef83039.aspx">getting pretty long in the
+tooth</a>,
+but I’m thinking at least <a href="http://www.knowing.net/">Larry O’Brien</a> will
+be interested in these tools.</p>
+<p><strong>Update</strong>: Apparently, this is somewhat old news, as per <a href="https://blogs.msdn.com/aaronmar">Aaron
+Marten</a>:</p>
+<blockquote>
+<p>The tools we’re including are called MPPG &amp; MPLex (which stand for
+Managed Package Parser Generator and Managed Package Lexer). They are
+derivative works from the open-source <a href="http://plas.fit.qut.edu.au/gppg/">GPPG/GPLex tools developed at
+the Queensland University of
+Technology</a>.<br />
+[<a href="https://blogs.msdn.com/aaronmar/archive/2006/08/15/701300.aspx">Managed Language Tools in Visual Studio 2005
+SDK</a>]</p>
+</blockquote>

@@ -1,0 +1,91 @@
+<p>I just pushed out a new drop of ipydbg that includes the first cut of
+support for showing local variables. Getting the value for a local
+variable is actually pretty simple. The CorFrame object (which hangs off
+active_thread) includes a method to <a href="http://github.com/devhawk/ipydbg/blob/442527b0aed3ac2f7ecf6ab8f5f7e93ad03090f2/CorDebug/CorDebug/Thread.cs#L448">get a local variable by
+index</a>
+as well getting a <a href="http://github.com/devhawk/ipydbg/blob/442527b0aed3ac2f7ecf6ab8f5f7e93ad03090f2/CorDebug/CorDebug/Thread.cs#L475">count of all local
+variables</a>.
+The problem with these functions is that they don’t provide the name of
+the variable. For that, you’ve got to look in debug symbols.</p>
+<p>From a CorFrame, you can retrieve the associated CorFunction. Since I
+added <a href="http://devhawk.net/2009/03/21/writing-an-ironpython-debugger-a-little-hack-err-cleanup/">symbol reader support to
+CorModule</a>,
+I <a href="http://github.com/devhawk/ipydbg/commit/fc6dd0684f6b299db2eabcfe1803cab6231ea93f#diff-2">added support for directly
+retrieving</a>
+the ISymbolMethod for a CorFunction. From the method symbols, I can get
+the <a href="http://github.com/devhawk/ipydbg/blob/442527b0aed3ac2f7ecf6ab8f5f7e93ad03090f2/CorDebug/CorSymbolStore/symmethod.cs#L167">root lexical
+scope</a>
+of the method. And from the symbol scope, I can <a href="http://github.com/devhawk/ipydbg/blob/442527b0aed3ac2f7ecf6ab8f5f7e93ad03090f2/CorDebug/CorSymbolStore/SymScope.cs#L156">get the
+locals</a>.
+Scopes can be nested, so to get all the locals for a given function, you
+need to iterate thru all the <a href="http://github.com/devhawk/ipydbg/blob/442527b0aed3ac2f7ecf6ab8f5f7e93ad03090f2/CorDebug/CorSymbolStore/SymScope.cs#L119">child
+scopes</a>
+as well.</p>
+<p>So here’s my get_locals function:</p>
+<div class="lang-python editor-colors">def get_locals(frame, scope=None, offset=None, show_hidden=False):  
+    #if the scope is unspecified, try and get it from the frame
+    if scope == None:  
+        symmethod = frame.Function.GetSymbolMethod()  
+        if symmethod != None:  
+            scope = symmethod.RootScope  
+        #if scope still not available, yield the local variables
+        #from the frame, with auto-gen'ed names (local_1, etc)
+        else:  
+          for i in range(frame.GetLocalVariablesCount()):  
+            yield "local_%d" % i, frame.GetLocalVariable(i)  
+          return  
+
+    #if we have a scope, get the locals from the scope  
+    #and their values from the frame
+    for lv in scope.GetLocals():  
+        #always skip $site locals - they are cached callsites and  
+        #not relevant to the ironpython developer
+        if lv.Name == "$site": continue  
+        if not lv.Name.startswith("$") or show_hidden:  
+          v = frame.GetLocalVariable(lv.AddressField1)  
+          yield lv.Name, v  
+
+    if offset == None: offset = frame.GetIP()[0]  
+
+    #recusively call get_locals for all the child scopes
+    for s in scope.GetChildren():  
+      if s.StartOffset <= offset and s.EndOffset >= offset:  
+        for ret in get_locals(frame, s, offset, show_hidden):  
+          yield ret
+
+</div>
+<p>The function is designed to automatically retrieve the scope and offset,
+if they’re available. That way, I can simply call get_locals with the
+frame argument and it does the right thing. For example, if you don’t
+pass in a symbol scope explicitly get_locals will attempt to retrieve
+the debug symbols. If debug symbols aren’t available, iterates over the
+locals in the frame and yields each with a fake name (local_0,
+local_1, etc). If the debug symbols are available, then it iterates
+over the locals in the scope, then calls itself for each of the child
+scopes (skipping child scopes who’s offset range doesn’t overlap with
+the current offset).</p>
+<p>The other feature of get_locals is deciding which locals to include. As
+you might expect, IronPython emits some local variables that are for
+internal runtime use. These variables get prefixed with a dollar sign.
+The dollar sign is not a legal identifier character in C# or Python,
+but IL has no problem with it. If you pass in False for show_hidden (or
+use the default value), then get_locals skips over any local variables
+who’s name starts with the dollar sign.</p>
+<p>Even if you pass in True for show_hidden, get_locals still skips over
+any variable named “$site”. $site variables are <a href="http://msdn.microsoft.com/en-us/magazine/cc163344.aspx#S7">dynamic call site
+caches</a>, a
+DLR feature that are used to efficiently dispatch dynamic calls by
+caching the results of previous invocations. Martin Maly’s blog <a href="http://blogs.msdn.com/mmaly/archive/2008/04/22/dlr-caches.aspx">has
+more
+details</a>
+on these caches. As they are part of method dispatch, I never want to
+show them to the ipydbg user, so they get skipped regardless of the
+value of show_hidden.</p>
+<p>Now that I can get the local variables for a given frame, we need to
+convert those variables to something you can print on the screen. That
+turns out to be more complicated that you might expect, so it’ll have to
+wait for the next post (which may be a while, given that
+<a href="http://devhawk.net/2009/03/11/ironpython-at-pycon/">PyCon</a> is this
+weekend). In the meantime, you can get the <a href="http://github.com/devhawk/ipydbg/tree/442527b0aed3ac2f7ecf6ab8f5f7e93ad03090f2">latest version of
+ipydbg</a>
+from GitHub.</p>

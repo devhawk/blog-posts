@@ -1,0 +1,78 @@
+<p>I thought of another approach to the InitImportantThing problem that I
+<a href="http://devhawk.net/2007/08/08/calling-initimportantthing/">blogged about
+yesterday</a>.
+I think it’s a bit harder to code, but it’s certainly explicit and
+avoids the magic method that Jon <a href="http://www.masteringbiztalk.com/blogs/jon/PermaLink,guid,fa3c471d-a0f5-4790-a1b7-1fc374df651b.aspx">dislikes so
+much</a>.</p>
+<p>The crux of the problem is that ServiceHostBase needs a valid
+ServiceDescription in order to operate. The WCF team chose to provide
+said description to ServiceHostBase via the abstract CreateDescription
+method. But as we saw, ServiceHostBase can’t call CreateDescription from
+it’s own constructor. So instead, derived classes are forced to call
+InitializeDescription in their own constructor. Since that call isn’t
+enforced by the compiler, it’s easy to forget to include it. Since the
+exception that gets thrown doesn’t really tell you what went wrong, it’s
+easy to spend hours trying to figure it out.</p>
+<p>So here’s a better approach: since the ServiceHostBase needs a valid
+ServiceDescription in order to operate, why not pass it in as a
+constructor parameter?</p>
+<p>ServiceHostBase has a protected constructor with no parameters. But
+since it needs you to call InitializeDescription in your derived class
+constructor, it really needs the ServiceDescription, a collection of
+ContractDescriptions (also returned from CreateDescription) and a
+collection of base addresses (passed into InitalizeDescription). If
+these were parameters on ServiceHostBase’s constructor, it could
+validate that information directly, without needing abstract or magic
+methods.</p>
+<p>The one problem with this approach is that the creation of a
+ServiceDescription is non-trivial. ServiceHost’s <a href="http://referencesource.microsoft.com/#System.ServiceModel/System/ServiceModel/ServiceHost.cs,1943">implementation of
+CreateDescription</a>
+generates the ServiceDescription by reflecting over the service type.
+You still need that code, but now you would call it from the base
+constructor initializer instead. That means it has to be a static
+method, but otherwise it would work just fine. Here’s yesterday’s code,
+updated for this approach:</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">public</span> <span style="color:Blue;">abstract</span> <span style="color:Blue;">class</span> Base
+{
+    <span style="color:Blue;">public</span> Base(<span style="color:Blue;">string</span> importantThing)
+    {
+        <span style="color:Blue;">if</span> (<span style="color:Blue;">string</span>.IsNullOrEmpty(importantThing))
+            <span style="color:Blue;">throw</span> <span style="color:Blue;">new</span> Exception();
+
+        _importantThing = importantThing;
+
+    }
+
+    <span style="color:Blue;">private</span> <span style="color:Blue;">string</span> _importantThing;
+
+    <span style="color:Blue;">public</span> <span style="color:Blue;">string</span> ImportantThing  
+    {  
+        <span style="color:Blue;">get</span> { <span style="color:Blue;">return</span> _importantThing; }  
+    }
+}
+
+<span style="color:Blue;">public</span> <span style="color:Blue;">class</span> Derived : Base
+{
+    <span style="color:Blue;">private</span> <span style="color:Blue;">object</span> _data;
+
+    <span style="color:Blue;">public</span> Derived(DateTime dt) : <span style="color:Blue;">base</span>(CreateImportantThing(dt))
+    {
+        _data = dt;
+    }
+
+    <span style="color:Blue;">private</span> <span style="color:Blue;">static</span> <span style="color:Blue;">string</span> CreateImportantThing(DateTime dt)
+    {
+        <span style="color:Green;">//this is obviously trivial, but could be much</span>
+        <span style="color:Green;">//more complicated if need be</span>
+        <span style="color:Blue;">return</span> dt.ToLongDateString();
+    }
+}
+
+</pre></div>
+</div>
+<p>This seems like the best approach to me. You remove the un-obvious magic
+method call requirement when deriving your own service host while still
+enforcing the data consistency check in the base class during
+construction. Best of both worlds, right?</p>
+<p>So I wonder why the WCF team didn’t do it this way? </p>

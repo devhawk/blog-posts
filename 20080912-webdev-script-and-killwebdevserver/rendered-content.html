@@ -1,0 +1,26 @@
+<p>I was updating <a href="http://devhawk.net/2008/03/20/webdev-webserver-powershell-function/">my webdev powershell
+script</a>
+today. I wanted to add support for a -browser switch that would
+automatically launch a browser window the way chiron from the
+<a href="http://codeplex.com/sdlsdk">Silverlight Dynamic Languages SDK</a>. does. I
+also set the script to serve up the current directory by default. I
+posted <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Powershell/webdev.ps1">the new
+version</a>
+up on my SkyDrive.</p>
+<p>While I was working on the script, I thought about how one might
+shutdown the WebDev server from the command line. That turned out to be
+much harder. Basically, you have to look thru all the top level windows
+for one that has “ASP.NET Development Server” in the window text, then
+you send that window two messages – WM_QUERYENDSESSION and WM_QUIT.
+Not sure why the WebDev server uses WM_QUERYENDSESSION to shut down
+it’s tray icon, but if you look at WebDev.WebServer.exe in Reflector,
+you’ll see the tray icon form overrides WinProc in order to look for
+message 0×11, i.e. WM_QUERYENDSESSION.</p>
+<p>I threw together a quick little <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Utilities/KillWebDevServer.exe">C# console
+app</a>
+to shutdown the WebDev server and stuck it up on my SkyDrive as well.
+<a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/Utilities/KillWebDevServer.zip">Source
+code</a>
+is up there too. I had to use a bunch of P/Invokes to make it work, or I
+would have written it in Powershell or IronPython.</p>
+<p>Enjoy.</p>

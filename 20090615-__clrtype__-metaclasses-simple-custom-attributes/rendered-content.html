@@ -1,0 +1,92 @@
+<p>I know it’s been a while since my <a href="http://devhawk.net/2009/04/24/__clrtype__-metaclasses-demo-silverlight-databinding/">last __clrtype__
+post</a>,
+but I was blocked on some bug fixes that shipped as part of <a href="http://devhawk.net/2009/05/20/ironpython-2-6-beta-1/">IronPython
+2.6 Beta 1</a>. So
+now let’s start looking at one of the <a href="http://ironpython.codeplex.com/WorkItem/View.aspx?WorkItemId=20489">most requested IronPython
+features</a>
+– custom attributes!</p>
+<p>Over the course of the next three blog posts, I’m going to build out a
+mechanism for specifying custom attributes on the CLR type we’re
+generating via __clrtype__. All the various Builder classes in
+<a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.aspx">System.Reflection.Emit</a>
+support a
+<a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.typebuilder.setcustomattribute.aspx">SetCustomAttribute</a>
+method that works basically the same way. There are two overloads – the
+<a href="http://msdn.microsoft.com/en-us/library/sd003w15.aspx">one I’m going to
+use</a> takes a
+single
+<a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.customattributebuilder.aspx">CustomAttributeBuilder</a>
+as a parameter.</p>
+<p>For this first post, I’m going to focus on the basic custom attribute
+infrastructure, so we’re going to use the extremely simple
+<a href="http://msdn.microsoft.com/en-us/library/system.obsoleteattribute.aspx">ObsoleteAttribute</a>.
+While you can pass some arguments to the constructor, for this first
+post I’m going to use the <a href="http://msdn.microsoft.com/en-us/library/0xwcsd3h.aspx">parameterless
+constructor</a>. To
+keep things less confusing, I’m going back to the <a href="http://devhawk.net/2009/04/22/__clrtype__-metaclasses-customizing-the-type-name/">original
+version</a>
+of the Product class, before I introduced CLR
+<a href="http://devhawk.net/2009/04/23/__clrtype__-metaclasses-adding-clr-fields/">fields</a>
+and
+<a href="http://devhawk.net/2009/04/24/__clrtype__-metaclasses-adding-clr-properties/">properties</a>.
+The one change I’m making is that I’m adding a list of attributes I want
+to add to the class.</p>
+<div class="lang-python editor-colors">from System import ObsoleteAttribute
+
+class Product(object):
+  __metaclass__ = ClrTypeMetaclass
+  _clrnamespace = "DevHawk.IronPython.ClrTypeSeries"
+  _clrclassattribs = [ObsoleteAttribute]
+
+  # remainder of class omitted for clarity
+
+</div>
+<p>Python <a href="http://docs.python.org/reference/expressions.html#list-displays">list
+comprehensions</a>
+use the same square bracket syntax as C# properties, so it kinda looks
+right to someone with a C# eye – though having the attribute
+specifications inside the class, rather than above it, is totally
+different. I wish I could use Python’s <a href="http://docs.python.org/whatsnew/2.6.html#pep-3129-class-decorators">class
+decorators</a>
+for custom class attributes, but class decorators run after metaclasses
+so unfortunately that doesn’t work. Also, I can’t leave off the
+“Attribute” suffix like you can in C#. If I really wanted to, I could
+provide a new type name in the import statement (“from System import
+ObsoleteAttribute as Obsolete”) but I thought spelling it out was
+clearer for this post.</p>
+<p>Now that I have specified the class attributes, I can update the
+metaclass __clrtype__ method to set the attribute on the generated
+CLR class:</p>
+<div class="lang-python editor-colors">if hasattr(cls, '_clrclassattribs'):
+      for attribtype in cls._clrclassattribs:
+        ci = clr.GetClrType(attribtype).GetConstructor(())
+        cab = CustomAttributeBuilder(ci, ())
+        typebld.SetCustomAttribute(cab)
+
+</div>
+<p>I’m simply iterating over the list of _clrclassattribs (if it exists),
+getting the default parameterless constructor for each attribute type,
+creating a CustomAttributeBuilder instance from that constructor and
+then calling SetCustomAttribute. Of course, this is very simple because
+we’re not supporting any custom arguments or setting of named
+properties. We’ll get to that in the next post. In the mean time, you
+can get the full code for this post <a href="http://cid-0d9bc809858885a4.skydrive.live.com/self.aspx/DevHawk%20Content/IronPython%20Stuff/%7C_%7C_clrtype%7C_%7C_/simple%7C_custom%7C_attributes.py">from my
+SkyDrive</a>.</p>
+<p>There is one significant issue with this custom attribute code.
+Attributes are typically marked with the <a href="http://msdn.microsoft.com/en-us/library/system.attributeusageattribute.aspx">AttributeUsage
+attribute</a>
+that specifies a set of constraints, such as the kind of targets a given
+attribute can be attached to and if it can be specified multiple times.
+For example, the <a href="http://msdn.microsoft.com/en-us/library/system.mtathreadattribute.aspx">MTAThread
+attribute</a>
+can’t be specified multiple times and it can only be attached to
+methods. However, those attribute constraints are validated by the
+compiler, not the runtime. I haven’t written any code yet to validate
+those constraints, so you can specify invalid combinations like multiple
+MTAThread attributes on a class. For now, I’m just going to leave it to
+the developer <em>not</em> to specify invalid attribute combinations. Custom
+attributes are passive anyway so I’m figure no one will come looking for
+a MTAThread attribute on a class or other such scenarios.</p>
+<p>However, I’m interested in your opinion: When we get to actually
+productizing a higher-level API for __clrtype__, what kinds of
+attribute validation should we do, if any?</p>

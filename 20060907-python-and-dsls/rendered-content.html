@@ -1,0 +1,32 @@
+<p>When I read <a href="http://www.knowing.net/">Larry O’Brien’s</a> post <a href="http://www.knowing.net/PermaLink,guid,fde14e86-4d1e-461d-9751-950a1f2e6974.aspx">IronPython
+as a Foundation for
+DSLs</a>,
+I had a strong sense of deja-vu. I went thru a very similar thought
+process when I discovered the early versions of IronPython were written
+in Python. I figured that meant Python must have some support that makes
+building compilers easier. Unfortunately, that doesn’t turn out to be
+the case. Python provides a <a href="http://docs.python.org/lib/module-parser.html">standard module called
+parser</a> which “provides
+an interface to Python’s internal parser”. That means that compiling
+Python is easy, but there’s no support for compiling any language other
+than Python.</p>
+<p>I’ve been doing a little experimenting in this space. First, as I’ve
+<a href="http://devhawk.net/2006/08/15/modular-compilers/">written before</a>,
+I’ve been playing with <a href="http://pdos.csail.mit.edu/%7Ebaford/packrat/">parsing expression
+grammars</a>. Second, I want to
+take a close look at
+<a href="http://plas.fit.qut.edu.au/metaphor/">Metaphor</a> from
+<a href="http://plas.fit.qut.edu.au/Default.aspx">QUT</a>:</p>
+<blockquote>
+<p>Metaphor is a programming language with support for type-safe run-time
+code generation — a form of meta-programming. Metaphor is based on a
+subset of C# or Java and combines the imperative, object-oriented
+nature of these languages with the multi-stage programming constructs
+from <a href="http://www.metaocaml.org">MetaOCaml</a>. Metaphor uses the static
+type system of multi-stage languages to achieve compile-time safety of
+run-time generated code…</p>
+<p>Metaphor is implemented as a compiler on the Microsoft CLR.</p>
+</blockquote>
+<p>Finally, I need to take a closer look at <a href="http://www.antlr.org/">ANTLR</a>.
+Don’t know how I missed it, but I had never seen
+<a href="http://www.antlr.org/works/">ANTLRWorks</a> until Larry linked to it.</p>

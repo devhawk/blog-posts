@@ -1,0 +1,134 @@
+<p>Here’s the short version of this post: data binding in WPF to IPy
+objects just works…mostly. However, I’m guessing you are much more
+interested in the long version.</p>
+<p>Typically, data binding depends on reflection. For example, the
+following snippet of XAML defines a data bound list box where the title
+property of each object in the bound collection gets bound to the text
+property of a text block control. WPF would typically find the title
+property of the bound objects via reflection.</p>
+<div class="lang-xml editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">&lt;</span><span style="color:#A31515;">ListBox</span> <span style="color:Red;">Grid.Column</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">0</span><span style="color:Black;">&quot;</span> <span style="color:Red;">x:Name</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">listbox1</span><span style="color:Black;">&quot;</span> <span style="color:Blue;">&gt;</span>
+  <span style="color:Blue;">&lt;</span><span style="color:#A31515;">ListBox.ItemTemplate</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">DataTemplate</span><span style="color:Blue;">&gt;</span>
+      <span style="color:Blue;">&lt;</span><span style="color:#A31515;">TextBlock</span> <span style="color:Red;">Text</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">{Binding Path=title}</span><span style="color:Black;">&quot;</span> <span style="color:Blue;">/&gt;</span>
+    <span style="color:Blue;">&lt;/</span><span style="color:#A31515;">DataTemplate</span><span style="color:Blue;">&gt;</span>
+  <span style="color:Blue;">&lt;/</span><span style="color:#A31515;">ListBox.ItemTemplate</span><span style="color:Blue;">&gt;</span>
+<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">ListBox</span><span style="color:Blue;">&gt;</span>
+
+</pre></div>
+</div>
+<p>The problem is that IronPython objects don’t support reflection – or
+more accurately, reflection won’t give you the answer you’re expecting.
+Every IPy object does have a static type, but it implements Python’s
+dynamic type model. <a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a> Thus, if you reflect on the IPy object looking
+for the title property or field, you won’t find it. It might seem we’re
+in a bit of a bind (pun intended). However, WPF does <a href="http://msdn.microsoft.com/en-us/library/ms743643.aspx">provide an
+out</a>:</p>
+<blockquote>
+<p>“You can bind to public properties, sub-properties, as well as
+indexers of any common language runtime (CLR) object. The binding
+engine uses CLR reflection to get the values of the properties.
+Alternatively, objects that implement
+<a href="http://msdn.microsoft.com/en-us/library/system.componentmodel.icustomtypedescriptor.aspx">ICustomTypeDescriptor</a>
+or have a registered
+<a href="http://msdn.microsoft.com/en-us/library/system.componentmodel.typedescriptionprovider.aspx">TypeDescriptionProvider</a>
+also work with the binding engine.”<br />
+WPF <a href="http://msdn.microsoft.com/en-us/library/ms743643.aspx">Binding Sources
+Overview</a>, MSDN
+Library</p>
+</blockquote>
+<p>Luckily for us, IronPython objects implement ICustomTypeDescriptor <a id="fnref:2" href="#fn:2" class="footnote-ref"><sup>2</sup></a>.
+That snippet of XAML above? It’s straight from my photo viewing app. All
+I had to do was define the data template in the list box XAML then set
+the ItemsSource property of the list box instance.</p>
+<div class="lang-python editor-colors">w.listbox1.ItemsSource = albumsFeed.channel.item
+
+</div>
+<p>As I said, it just works. However, I did hit one small snag – hence the
+“mostly” caveat above.</p>
+<p>If you look at the <a href="http://techiewife.spaces.live.com/photos/feed.rss">top level WL Spaces photos
+feed</a>, you’ll see
+that each item’s title starts with “Photo Album:”. Yet in the
+<a href="http://image.devhawk.net/blog-content/20081117-ironpython-and-wpf-part-3-data-binding/ipywpf-image_4.png">screenshot of my
+app</a>,
+you’ll notice that I’ve stripped that redundant text out of the title.
+Typically, if you want to change the bound value during the binding
+process, you build an
+<a href="http://msdn.microsoft.com/en-us/library/ms752347.aspx#data_conversion">IValueConverter</a>
+class. I needed two value conversions in my app, stripping “Photo
+Album:” for the album list box and converting a string URL into a
+BitmapImage for the image list box.</p>
+<p>IronPython objects can inherit from a .NET interface, so there’s no
+problem building an IValueConverter. However, in order to use a custom
+IValueConverter from XAML, you need to <a href="http://msdn.microsoft.com/en-us/library/ms752091.aspx">declare it in XAML as a static
+resource</a>.
+However, as you might imagine, dynamic IPy objects don’t work as static
+resources. So while I can define an IValueConverter in Python, I can’t
+create one from XAML.</p>
+<p>There are a few possible solutions to this. The first is to build up the
+data template in code. If you do that, they you can <a href="http://msdn.microsoft.com/en-us/library/ms742863.aspx">programmatically
+add the converter to the
+binding</a>. I was
+hopeful that I could define the data template in XAML then manipulate
+the binding, but there doesn’t appear to be any way to do that. Another
+option would be to build some type of generic IValueConverter class in
+C# that loads either an IPy based IValueConverter or embedded python
+conversion code. That’s problematic because those IPy object would need
+to be created in the right ScriptRuntime, and there’s no built-in way to
+access that. There are also a small set of XamlReader extensions such as
+<a href="http://msdn.microsoft.com/en-us/library/system.windows.markup.xamltypemapper.aspx">XamlTypeMapper</a>
+that might be able to provide the right hook into the XAML parsing to
+allow IronPython based conversion.</p>
+<p>In the end, I took the easiest way out – I transformed the data to be
+bound before binding it. It’s cheating of sorts, but given the read-only
+nature of this app, it was the easiest thing to do. So the actual line
+of code to set listbox1’s ItemsSource looks like this:</p>
+<div class="lang-python editor-colors">class Album(object):
+  def __init__(self, item):
+    self.title = item.title.Substring(13)
+    self.itemRSS = item.itemRSS
+
+w.listbox1.ItemsSource = [Album(item) for item in albumsFeed.channel.item]
+
+</div>
+<p>I create a Python class for each RSS item in the feed, saving the
+stripped title and the album RSS URL as fields. It’s kinda annoying to
+basically be parsing the feed twice, but at least it’s not much code.
+Python’s list comprehension syntax makes creating a list of Albums from
+a list of RSS items a single line of code. I do something very similar
+for data binding the second list box:</p>
+<div class="lang-python editor-colors">class Picture(object):
+  def __init__(self, item):
+    self.title = item.title  
+    self.picture = BitmapImage(Uri(item.enclosure.url + ":thumbnail"))
+
+w.listbox2.ItemsSource = [Picture(item) for item in albumfeed.channel.item]
+
+</div>
+<p>Here I’m not only converting the raw data (adding “:thumbnail” at the
+end of the URL) but also changing the data type from string to
+BitmapImage. I’m binding to an image object in the second list box, but
+to do that I need a BitmapImage instead of a string.</p>
+<p>This “convert the data first” approach feels like a hack to me. After I
+get this series of posts done, I am planning on going back and improving
+this sample. Hopefully, I can find a better approach to value
+conversions. Any gurus out there on XAML parsing, please feel free to
+drop me a line or leave me a comment.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<p>you can access the underlying CLR type for any Python type via the
+clr.GetClrType method. You an also check out the CreateNewType method
+from
+<a href="http://www.codeplex.com/IronPython/SourceControl/FileView.aspx?itemId=649510&amp;changeSetId=43433">NewTypeMaker.cs</a><a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>I spent the better part of an afternoon trying to make
+TypeDescriptionProviders work before Dino pointed out that we already
+support ICustomTypeDescriptor in Python objects. I didn’t realize at
+first because I had a case sensitivity bug in my original prototype code
+– it turns out that “Title” != “title”.<a href="#fnref:2" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>

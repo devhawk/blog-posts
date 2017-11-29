@@ -1,0 +1,146 @@
+<p>Several weeks ago, I did a talk on <a href="http://devhawk.net/2012/06/08/building-winrt-components-with-cpp-cx/">building Windows Runtime components
+in
+C++</a>.
+As part of that talk, I did a demo that showed accessing a WinRT
+component written in C++ from a C# XAML application. Like I did for <a href="http://devhawk.net/2011/09/15/using-winrt-from-csharp-build-demo/">my
+//build
+talk</a>,
+I’ve written this walkthrough so you can follow along at home without
+having to read code off the recorded video stream. I’ve also published
+the source up on <a href="https://github.com/devhawk/WindowsCampDemo">GitHub</a>.</p>
+<p>The demo had two parts – the first was a “Hello, world!” style demo, the
+second demonstrated wrapping an <a href="http://bitmap.codeplex.com/">existing C++
+library</a> in a WinRT component to make it
+callable from other languages. This post covers the first part of the
+demo. I’ll post a walkthrough of the second part of the demo soon.</p>
+<p>In order to follow along, you’ll need the <a href="http://windows.microsoft.com/en-US/windows-8/release-preview">Windows 8 Release
+Preview</a>
+as well as <a href="http://msdn.microsoft.com/en-us/windows/apps/hh852659">Visual Studio 2012 Express RC for Windows
+8</a>. You should be
+able to use the RC version of VS 2012
+<a href="http://www.microsoft.com/visualstudio/11/en-us/professional">Pro</a>,
+<a href="http://www.microsoft.com/visualstudio/11/en-us/premium">Premium</a> or
+<a href="http://www.microsoft.com/visualstudio/11/en-us/ultimate">Ultimate</a>, but
+I’ve only tested with Express. Note, the original presentation was done
+on Win8 Consumer Preview / VS 11 Beta, but I figured it made more sense
+to write up the walkthrough on the latest bits.</p>
+<p>We’re going to start by creating the C# XAML app we’ll use as the
+component client. Fire up VS 2012 RC and select new project. Select
+Visual C# -&gt; Windows Metro Style -&gt; Blank App (XAML), name the
+project “WindowsCamp” and press OK. Once the project has been created,
+open up the MainPage.xaml file, replace the Grid element that’s there by
+default with the following XAML code:</p>
+<div class="lang-xml editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">&lt;</span><span style="color:#A31515;">StackPanel</span> <span style="color:Red;">Background</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">{StaticResource ApplicationPageBackgroundThemeBrush}</span><span style="color:Black;">&quot;</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">Button</span> <span style="color:Red;">Click</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">Button_Click_1</span><span style="color:Black;">&quot;</span><span style="color:Blue;">&gt;</span>Click me<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">Button</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">TextBlock</span> <span style="color:Red;">x:Name</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">myText</span><span style="color:Black;">&quot;</span> <span style="color:Red;">FontSize</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">20</span><span style="color:Black;">&quot;</span><span style="color:Blue;">&gt;</span><span style="color:Blue;">&lt;/</span><span style="color:#A31515;">TextBlock</span><span style="color:Blue;">&gt;</span>
+    <span style="color:Blue;">&lt;</span><span style="color:#A31515;">Image</span> <span style="color:Red;">x:Name</span><span style="color:Blue;">=</span><span style="color:Black;">&quot;</span><span style="color:Blue;">myImage</span><span style="color:Black;">&quot;</span><span style="color:Blue;">&gt;</span><span style="color:Blue;">&lt;/</span><span style="color:#A31515;">Image</span><span style="color:Blue;">&gt;</span>
+<span style="color:Blue;">&lt;/</span><span style="color:#A31515;">StackPanel</span><span style="color:Blue;">&gt;</span>
+
+</pre></div>
+</div>
+<p>As you can see, my UX skills have not improved since //build.</p>
+<p>Now, we need to add a project for the C++ WinRT component. Right click
+on solution in the Solution Explorer and select Add -&gt; New Project. In
+the New Project dialog, Select Visual C++ -&gt; Windows Metro Style -&gt;
+Windows Runtime Component, name the project “WindowsCampComponent” and
+press OK.</p>
+<p>Once the component project has been created, we’re going to add some
+code to it. Open Class1.h if it’s not already open. Update the file to
+read as follows:</p>
+<div class="lang-cpp editor-colors"><div style="color:Black;background-color:White;"><pre>
+#pragma once
+
+<span style="color:Blue;">using</span> <span style="color:Blue;">namespace</span> Platform;
+
+<span style="color:Blue;">namespace</span> WindowsCampComponent
+{
+    <span style="color:Blue;">public</span> <span style="color:Blue;">ref class</span> Class1 <span style="color:Blue;">sealed</span>
+    {
+    <span style="color:Blue;">public</span>:
+        Class1();
+
+        String^ SayHello(String^ name) {
+            <span style="color:Blue;">return</span> String::Concat(
+                ref <span style="color:Blue;">new</span> String(L<span style="color:#A31515;">&quot;Hello there &quot;</span>),
+                name);
+        };
+    };
+}
+
+</pre></div>
+</div>
+<p>The code is a bit more complex than your typical Hello, world. The
+SayHello method takes a string parameter that represents someone’s name.
+The method concatenates the provided name with a hard coded greeting
+string and returns the resulting string. Doesn’t get much simpler.
+However, even though it’s just a single line of code there are several
+concepts that are important to point out:</p>
+<ul>
+<li>ref class – WinRT objects are projected in C++/CX as ref classes and
+vise-versa. Since we’re building a WinRT component to consume from
+C#, we define it as a ref class. Note, unless you’re writing a XAML
+control, all WinRT classes must be sealed.</li>
+<li>Hats – The ‘^’ character after the String type declarations is the
+handle-to-object modifier. It’s basically the pointer-to-object
+modifier (aka ‘*’) but for ref classes. We’ll see in the second
+part of the demo that you invoke members on a ref class using the
+same ‘-&gt;’ syntax that you use in vanilla C++.</li>
+<li>ref new – You create instances of ref clases using “ref new” instead
+of “new” as you do in vanilla C++. Ref new returns a handle to the
+newly created ref class – a String^ in this case.</li>
+<li>Platform<span>String – C++/CX projects some non-class WinRT types as ref
+classes in the Platform namespace. In this case, C++/CX projects the
+new language interoperable string type
+<a href="http://msdn.microsoft.com/en-us/library/br205775(v=vs.85).aspx">HSTRING</a>
+as a Platform</span>String ref class. HSTRINGS are UTF-16, so
+Platform<span>String provides a constructor that takes a wide string
+literal. We imported the Platform namespace via the “using
+namespace” directive so we wouldn’t have to type “Platform</span>”
+multiple times.</li>
+</ul>
+<p>For more information about the design of the C++/CX language, check out
+<a href="http://blogs.msdn.com/b/vcblog/archive/2011/10/20/10228473.aspx">Jim Springfield’s
+post</a>
+on the <a href="http://blogs.msdn.com/b/vcblog/">Visual C++ team blog</a>.</p>
+<p>Now that we’ve written our WinRT component, we’ll write the code to
+consume it in C#. First, we need to add a reference to the C++ WinRT
+component project in our C# Metro style XAML app. WinRT references are
+added just like traditional CLR references – via the Add Reference
+dialog. Right click on the WindowsCamp node of the Solution explorer,
+select “Add Reference…” from the menu, click the check box next to the
+WindowsCampComponent project from the solution and press OK.</p>
+<p>Go back to MainPage.xaml and double click on the button labeled “Click
+Me” in the designer. This will add a click event handler named
+Button_Click_1 and take you to MainPage.xaml.cs so you can write the
+code for it. Type in “var wcc = new Windows” and look at the resulting
+intellisense list. Notice that WindowsCampComponent is missing.</p>
+<p><img src="http://image.devhawk.net/blog-content/20120619-windows-camp-demo-part-one/WCDemo1-Intellisense1.png" alt="" title="WCDemo1-Intellisense1" /></p>
+<p>This is because the C++ component hasn’t been compiled yet. We need
+compile the C++ component project in order to generate the Windows
+metadata file (aka the file with the .winmd extension) that is used to
+drive intellisense. Delete the line of code you just added and compile
+the solution. Now type that line of code again, and you’ll notice that
+the WindowsCampComponent namespace is available.</p>
+<p><img src="http://image.devhawk.net/blog-content/20120619-windows-camp-demo-part-one/WCDemo1-Intellisense2.png" alt="" title="WCDemo1-Intellisense2" /></p>
+<p>Now, update the button click event handler to read as follows:</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">private</span> <span style="color:Blue;">void</span> Button_Click_1(<span style="color:Blue;">object</span> sender, RoutedEventArgs e)
+{
+    <span style="color:Blue;">var</span> wcc = <span style="color:Blue;">new</span> WindowsCampComponent.Class1();
+    myText.Text = wcc.SayHello(<span style="color:#A31515;">&quot;Herb Sutter&quot;</span>);
+}
+
+</pre></div>
+</div>
+<div class="image-left"><p><img src="http://image.devhawk.net/blog-content/20120619-windows-camp-demo-part-one/WCDemo1-RunningApp-e1340161688130-150x74.png" alt="" title="WCDemo1-RunningApp" /></p>
+</div>
+<p>Now, run the app, click the “Click Me” button and marvel at the wonder of
+WinRT language interop to print a greeting to Herb Sutter. I used <a href="http://herbsutter.com/">Herb
+Sutter</a> from the C++ team since he was the
+keynote speaker at the Windows Camp event and was standing in the back
+of the room when I did the demo.</p>
+<p>And that’s it for the Hello, world demo. Kind of a lot of steps for
+essentially 3 lines of code – 1 line of component code and 2 lines of
+client code. However, we did get the infrastructure set up so we add
+more substantial code in the next post.</p>

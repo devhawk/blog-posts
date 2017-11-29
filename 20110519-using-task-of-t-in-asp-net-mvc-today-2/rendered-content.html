@@ -1,0 +1,163 @@
+<p>I’ve been experimenting with the <a href="http://msdn.microsoft.com/en-us/vstudio/async.aspx">new async
+support</a> coming in
+the next version of C# (and VB). I must say, I’m very impressed. Async
+is one of those things you know you’re supposed to be doing. However,
+traditionally it has taken a lot of code and been hard to get right. The
+new await keyword changes all that.</p>
+<p>For example, here’s an async function to download the <a href="http://dev.twitter.com/doc/get/statuses/public_timeline">Twitter public
+timeline</a>:</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">public</span> async Task PublicTimelineAsync()
+{
+  <span style="color:Blue;">var</span> url = <span style="color:#A31515;">&quot;http://api.twitter.com/1/statuses/public_timeline.xml&quot;</span>;
+  <span style="color:Blue;">var</span> xml = await <span style="color:Blue;">new</span> WebClient().DownloadStringTaskAsync(url);
+  <span style="color:Blue;">return</span> XDocument.Parse(xml);
+}
+
+</pre></div>
+</div>
+<p>That’s not much more difficult that writing the synchronous version. By
+using the new async and await keywords, all the ugly async
+<a href="http://en.wikipedia.org/wiki/Continuation-passing_style">CPS</a> code
+you’re supposed to write is generated for you automatically by the
+compiler. That’s a huge win.</p>
+<p>The only downside to async is that support for it is spotty in the .NET
+Framework today. Each major release of .NET to date has introduced a new
+async API pattern. .NET 1.0 had the <a href="http://msdn.microsoft.com/en-us/library/ms228963.aspx">Async Programming Model
+(APM)</a>. .NET 2.0
+introduced the <a href="http://msdn.microsoft.com/en-us/library/wewwczdw.aspx">Event-based Async Pattern
+(EAP)</a>. Finally
+.NET 4.0 gave us the <a href="http://msdn.microsoft.com/en-us/library/dd537609.aspx">Task Parallel Library
+(TPL)</a>. The await
+keyword only works with APIs writen using the TPL pattern. APIs using
+older async patterns have to be wrapped as TPL APIs to work with await.
+The <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=4738205d-5682-47bf-b62e-641f6441735b&amp;displaylang=en">Async
+CTP</a>
+includes a bunch of extension methods that wrap common async APIs, such
+as DownloadStringTaskAsync from the code above.</p>
+<p>The async wrappers are nice, but there are a few places where we really
+need the TPL pattern plumbed deeper. For example, ASP.NET
+MVC supports <a href="http://msdn.microsoft.com/en-us/library/ee728598.aspx">AsyncControllers</a>.
+AsyncControllers are used to avoid blocking IIS threads waiting on long
+running I/O operations – such as getting the public timeline from
+Twitter. Now that I’ve been bitten by the <a href="http://blogs.msdn.com/b/lucian/archive/2011/04/15/async-ctp-refresh-design-changes.aspx">async zombie
+virus</a>,
+I want to write my async controller methods using await:</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">public</span> async Task&lt;ActionResult&gt; Index()
+{
+    <span style="color:Blue;">var</span> t = <span style="color:Blue;">new</span> Twitter();
+    <span style="color:Blue;">var</span> timeline = await t.PublicTimelineAsync();
+    <span style="color:Blue;">var</span> data = timeline.Root.Elements(<span style="color:#A31515;">&quot;status&quot;</span>)
+        .Elements(<span style="color:#A31515;">&quot;text&quot;</span>).Select(e =&gt; e.Value);
+    <span style="color:Blue;">return</span> View(data);
+}
+
+</pre></div>
+</div>
+<p>Unfortunately, neither the main trunk of MVC nor the MVC futures project
+has support for the TPL model [1]. Instead, I have to manually write
+some semblance of the async code that await would have emitted on my
+behalf. In particular, I have to manage the outstanding operations,
+implement a continuation method and map the parameters in my controller
+manually.</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">public</span> <span style="color:Blue;">void</span> IndexAsync()
+{
+    <span style="color:Blue;">var</span> twitter = <span style="color:Blue;">new</span> Twitter();
+
+    AsyncManager.OutstandingOperations.Increment();
+    twitter
+        .PublicTimelineAsync()
+        .ContinueWith(task =&gt;
+        {
+            AsyncManager.Parameters[<span style="color:#A31515;">&quot;timeline&quot;</span>] = task.Result;
+            AsyncManager.OutstandingOperations.Decrement();
+        });
+}
+
+<span style="color:Blue;">public</span> ActionResult IndexCompleted(XDocument timeline)
+{
+    <span style="color:Blue;">var</span> data = timeline.Root.Elements(<span style="color:#A31515;">&quot;status&quot;</span>)
+        .Elements(<span style="color:#A31515;">&quot;text&quot;</span>).Select(e =&gt; e.Value);
+    <span style="color:Blue;">return</span> View(data);
+}
+
+</pre></div>
+</div>
+<p>I promise you, writing that boilerplate code over and over gets old
+pretty darn quick. So I wrote the following helper function to eliminate
+as much boilerplate code as I could.</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">public</span> <span style="color:Blue;">static</span> <span style="color:Blue;">void</span> RegisterTask&lt;T&gt;(
+    <span style="color:Blue;">this</span> AsyncManager asyncManager,
+    Task&lt;T&gt; task,
+    Func&lt;T, <span style="color:Blue;">object</span>&gt; func)
+{
+    asyncManager.OutstandingOperations.Increment();
+    task.ContinueWith(task2 =&gt;
+    {
+        <span style="color:Green;">//invoke the provided function with the</span>
+        <span style="color:Green;">//result of running the task</span>
+        <span style="color:Blue;">var</span> o = func(task2.Result);
+
+        <span style="color:Green;">//use reflection to set asyncManager.Parameters</span>
+        <span style="color:Green;">//for the returned object&#39;s fields and properties</span>
+        <span style="color:Blue;">var</span> ty = o.GetType();
+        <span style="color:Blue;">foreach</span> (<span style="color:Blue;">var</span> f <span style="color:Blue;">in</span> ty.GetFields())
+        {
+            asyncManager.Parameters[f.Name] = f.GetValue(o);
+        }
+        <span style="color:Blue;">foreach</span> (<span style="color:Blue;">var</span> p <span style="color:Blue;">in</span> ty.GetProperties())
+        {
+            <span style="color:Blue;">var</span> v = p.GetGetMethod().Invoke(o, <span style="color:Blue;">null</span>);
+            asyncManager.Parameters[p.Name] = v;
+        }
+
+        asyncManager.OutstandingOperations.Decrement();
+    });
+}
+
+</pre></div>
+</div>
+<p>With this helper function, you pass in the Task&lt;T&gt; that you are
+waiting on as well as a delegate to invoke when the task completes.
+RegisterTask takes care of incrementing and decrementing the outstanding
+operations count as appropriate. It also registers a continuation that
+reflects over the object returned from the invoked delegate to
+populate the Parameters collection.</p>
+<p>With this helper function, you can write the async controller method
+like this:</p>
+<div class="lang-csharp editor-colors"><div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">public</span> <span style="color:Blue;">void</span> IndexAsync()
+{
+    <span style="color:Blue;">var</span> twitter = <span style="color:Blue;">new</span> Twitter();
+
+    AsyncManager.RegisterTask(
+        twitter.PublicTimelineAsync(),
+        data =&gt; <span style="color:Blue;">new</span> { timeline = data });
+}
+
+<span style="color:Green;">//IndexCompleted hasn&#39;t changed</span>
+<span style="color:Blue;">public</span> ActionResult IndexCompleted(XDocument timeline)
+{
+    <span style="color:Blue;">var</span> data = timeline.Root.Elements(<span style="color:#A31515;">&quot;status&quot;</span>)
+        .Elements(<span style="color:#A31515;">&quot;text&quot;</span>).Select(e =&gt; e.Value);
+    <span style="color:Blue;">return</span> View(data);
+}
+
+</pre></div>
+</div>
+<p>It’s not as clean as the purely TPL based version. In particular, you
+still need to write separate Async and Completed methods for each
+controller method. You also need to build an object to map values from
+the completed tasks into parameters in the completed method. Mapping
+parameters is a pain, but the anonymous object syntax is terser than
+setting values in the AsyncManager Parameter collection.</p>
+<p>It’s not full TPL support, but it’ll do for now. Here’s hoping that the
+MVC team has async controller methods with TPL on their backlog.</p>
+<hr />
+<p>[1] I’m familiar with Craig Cavalier’s <a href="http://craigcav.wordpress.com/2010/12/23/asynchronous-mvc-using-the-task-parallel-library/">Async MVC with
+TPL</a>
+post, but a fork of the MVC Futures project is a bit too bleeding edge
+for my needs at this point.</p>

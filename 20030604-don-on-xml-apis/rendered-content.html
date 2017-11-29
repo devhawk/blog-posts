@@ -1,0 +1,32 @@
+<p>I watched <a href="http://www.gotdotnet.com/team/dbox/">Don’s</a> <a href="http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20030603XMLDB/manifest.xml">MSDN TV
+talk</a>
+on passing XML around within a managed application. The value of
+XPathNavigaor has been <a href="http://www.gotdotnet.com/team/dbox/default.aspx?key=2003-05-13T06:47:59Z">discussed in
+blogsphere</a>,
+but it was nice to see it explained by the master.</p>
+<p>&lt;nostalgicMusic action=”cue”&gt;</p>
+<p>It reminded my of one of my first encounters with Don. I was a recent
+addition to <a href="http://www.microsoft.com/business/services/mcs.asp">MCS</a> in
+SoCal and we were having a team meeting / training at
+<a href="http://www.develop.com/">DevelopMentor</a>. Among other speakers, Don was
+scheduled to discuss the then-brand-new SOAP spec. As is expected with
+Don, the presentation started with thirty minutes of “look what cool
+code I whipped up at 3am this morning”. In this case, the code was a COM
+based <a href="http://www.saxproject.org/">SAX</a> parser based on
+<a href="http://www.jclark.com/xml/expat.html">expat</a>. In his implementation,
+Don had mirrored the SAX API exactly, including providing the
+setXxxHandler methods. I asked him why he hadn’t used <a href="http://msdn.microsoft.com/library/?url=/library/en-us/com/htm/events_27cd.asp?frame=true">COM
+Events</a>.
+He commented that I had really drunk the kool-aid and that was the end
+of it.</p>
+<p>Personally, I hate registration API’s like SAX’s setXxxHandler methods.
+While COM Events has a lot of plumbing overhead to get nailed up, but
+the benefit was that it provided a late bound mechanism for locating
+event sources. Using registration API’s like setXxxHandler means having
+to redefine your interface to support new event types. Of course, CLR
+delegates, the pull model XmlReader and XPathNavigator have made the
+registration API vs. COM events discussion moot.</p>
+<p>Interesting follow up to this story: I ran into Don at an internal event
+last November. He couldn’t remember my name, but he remembered the event
+at DM and that I was the one who asked about that COM events stuff.</p>
+<p>&lt;/nostalgicMusic&gt;</p>

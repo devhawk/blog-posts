@@ -1,0 +1,73 @@
+<p>One of the big new features in <a href="http://www.microsoft.com/visualstudio/en-us/products/2010/default.mspx">VS
+2010</a>
+is the <a href="http://msdn.microsoft.com/en-us/library/dd885242(VS.100).aspx">WPF based
+editor</a>.
+With it, you can build all sorts of cool stuff like <a href="http://blogs.msdn.com/vseditor/archive/2009/05/13/visualizing-xml-doc-comments.aspx">control the
+visualization of XML doc
+comments</a>,
+<a href="http://editorsamples.codeplex.com/Wiki/View.aspx?title=IntelliSense%20Presenter">change how intellisense
+looks</a>,
+even <a href="http://code.msdn.microsoft.com/caretfisheye">scale the size of text based on the location of the
+caret</a>. Huzzah for the WPF
+Visual Studio editor!</p>
+<p>However, as wicked awesome as the new editor is, AFAIK it’s not going to
+be released as a separate component. So while the
+<a href="http://blogs.msdn.com/powershell/archive/2008/10/31/powershell-ise-and-visual-studio.aspx">PowerShell</a>,
+<a href="http://blogs.msdn.com/intellipad/archive/2009/03/25/font-sizes-in-intellipad.aspx">Intellipad</a>
+and other teams inside Microsoft can reuse the VS editor bits, nobody
+else can. So if you want to do something like <a href="http://www.iunknown.com/2009/05/dynamic-languages-at-teched-2009.html">embed a colorizing REPL
+in your WPF
+app</a>,
+you’ll have to use something else.</p>
+<p>I’ve <a href="http://devhawk.net/2009/02/27/writing-an-ironpython-debugger-mdbg-101/">thought
+about</a>
+putting a WPF based UI on top of ipydbg (though now I’d probably use the
+new <a href="http://devhawk.net/2009/07/08/MicrosoftScriptingDebugging.aspx">lightweight
+debugger</a>
+instead). So I downloaded <a href="http://github.com/jflam/repl-lib/tree/master">John’s repl-lib
+code</a> to see how he was
+doing it. Turns out his <a href="http://github.com/jflam/repl-lib/blob/5b597ab4b92a6d85f3e7f22d3ae9af271444b1d4/Core/Repl.xaml">REPL
+control</a>
+is essentially a wrapper around WPF’s <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.richtextbox.aspx">RichTextBox
+control</a>.
+It works, but it seems kinda kludgy. For example, the RichTextBox
+supports bold, italics and underline hotkeys, so John’s REPL does too.
+Though it is possible to <a href="http://blogs.msdn.com/prajakta/archive/2006/10/12/customize-richtextbox-to-allow-only-plain-text-input.aspx">turn off these formatting
+commands</a>,
+I decided to take a look at modifying how the plain-old TextBox renders.
+After all, WPF controls are supposed to be
+<a href="http://www.drwpf.com/blog/Home/tabid/36/EntryID/53/Default.aspx">lookless</a>,
+right?</p>
+<p>Well, apparently not all the WPF controls are lookless. In particular to
+this post, the TextBox is definitely NOT lookless. It looks like the
+text editing capabilities of TextBox are provided by the
+Sys.Win.Documents.TextEditor class while the text rendering is provided
+by the Sys.Win.Controls.TextBoxView class. Both of those classes are
+internal, so don’t even think about trying to customize or reuse them.</p>
+<p>The best (and I use that term loosely) way I found for customizing the
+TextBox rendering was a
+<a href="http://www.codeproject.com/KB/WPF/CodeBox.aspx">couple</a> of
+<a href="http://www.codeproject.com/KB/WPF/CodeBox2.aspx">articles</a> on
+CodeProject by <a href="http://www.codeproject.com/Members/KenJohnson">Ken
+Johnson</a>. Ken’s CodeBox
+control inherits from TextBox and sets the Foreground and Background to
+transparent (to hide the result of TextBoxView) and then overloads
+OnRender to render the text with colorization. Rendering the text twice
+– once transparently and once correctly – seems like a better solution
+than using the RichTextBox, but it’s still pretty kludgy. (Note, I’m
+calling the TextBox design kludgy – Ken’s code is a pretty good work
+around).</p>
+<p>So if you want a colorized text box in WPF, your choices are:</p>
+<ul>
+<li>Build your own class that inherits from RichTextBox, disabling all
+the formatting commands and handling the TextChanged event to do
+colorization</li>
+<li>Build your own class that inherits from TextBox, but set Foreground
+an Background colors to transparent and overload OnRender to do the
+visible text rendering.</li>
+<li>Use a 3rd party control. The only one I found was the <a href="http://www.aqistar.com">AqiStar
+TextBox</a>. No idea how good it is, but <a href="http://www.aqistar.com/FeaturesVisualization.aspx">they
+claim</a> to be a
+true lookless control. Any other syntax highlighting WPF controls
+around that I don’t know about?</li>
+</ul>
