@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-and-livefx-raw-http-access",
   "title": "IronPython and LiveFX: Raw HTTP Access",
   "date": "2008-12-16T15:36:48-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "47b36a30-e4af-42a0-8609-fbc0a83fe083",
   "dasblog-title": "IronPython+And+LiveFX+Raw+HTTP+Access",
-  "dasblog-unique-title": "2008/12/16/IronPython+And+LiveFX+Raw+HTTP+Access"
+  "dasblog-unique-title": "2008/12/16/IronPython+And+LiveFX+Raw+HTTP+Access",
+  "sha1": "a54de1bac0d8895732775940cdf789cda3051f8a"
 }

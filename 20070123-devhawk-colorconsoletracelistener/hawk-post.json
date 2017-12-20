@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "devhawk-colorconsoletracelistener",
   "title": "DevHawk.ColorConsoleTraceListener",
   "date": "2007-01-23T16:27:40-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "2dd09457-208c-4307-b90b-85d823e5c40d",
   "dasblog-title": "DevHawkColorConsoleTraceListener",
-  "dasblog-unique-title": "2007/01/24/DevHawkColorConsoleTraceListener"
+  "dasblog-unique-title": "2007/01/24/DevHawkColorConsoleTraceListener",
+  "sha1": "d88b8dfe59198f5f382252ae14ef18bb2f47a168"
 }

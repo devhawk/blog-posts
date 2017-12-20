@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "build-your-own-wds-discovery-image",
   "title": "Build Your Own WDS Discovery Image",
   "date": "2011-05-19T06:19:23-07:00",
@@ -6,5 +6,6 @@
   "csv-category-slugs": "General Geekery|general-geekery",
   "csv-tag-slugs": "Deployment|deployment,WDS|wds,Windows|windows",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment-count": 2
+  "comment-count": 2,
+  "sha1": "ad09fe691b67172735c62e8e34746856786b6e1a"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-setting-a-breakpoint",
   "title": "Writing an IronPython Debugger: Setting a Breakpoint",
   "date": "2009-03-02T15:59:04-08:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "08c13b80-ad18-43f8-955d-6fa5fd5d9714",
   "dasblog-title": "Writing+An+IronPython+Debugger+Setting+A+Breakpoint",
-  "dasblog-unique-title": "2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint"
+  "dasblog-unique-title": "2009/03/02/Writing+An+IronPython+Debugger+Setting+A+Breakpoint",
+  "sha1": "3bb671d65ec4c48ef285d6a6bd42c5d7e47c1b61"
 }

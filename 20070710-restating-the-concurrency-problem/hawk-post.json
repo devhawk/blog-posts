@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "restating-the-concurrency-problem",
   "title": "Restating the Concurrency Problem",
   "date": "2007-07-10T12:05:41-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "9167a850-9f84-494d-a871-5fd2cb2300de",
   "dasblog-title": "Restating+The+Concurrency+Problem",
-  "dasblog-unique-title": "2007/07/10/Restating+The+Concurrency+Problem"
+  "dasblog-unique-title": "2007/07/10/Restating+The+Concurrency+Problem",
+  "sha1": "ecc18437a1f241ede6ac45e17ede7a3789c8cb2e"
 }

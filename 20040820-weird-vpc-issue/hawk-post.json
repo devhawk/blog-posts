@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "weird-vpc-issue",
   "title": "Weird VPC Issue",
   "date": "2004-08-20T22:01:48-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "7b4fa06d-cae8-4dd9-bb3f-bc6fc2626c41",
   "dasblog-title": "Weird+VPC+Issue",
-  "dasblog-unique-title": "2004/08/21/Weird+VPC+Issue"
+  "dasblog-unique-title": "2004/08/21/Weird+VPC+Issue",
+  "sha1": "631d43e103e8d1a85ad23874d0504d8d2ee05248"
 }

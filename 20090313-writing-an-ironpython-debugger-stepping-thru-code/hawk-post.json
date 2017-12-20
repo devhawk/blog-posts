@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-stepping-thru-code",
   "title": "Writing an IronPython Debugger: Stepping Thru Code",
   "date": "2009-03-13T10:31:17-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "be843f79-26c2-4593-95ae-b271fe4442b3",
   "dasblog-title": "Writing+An+IronPython+Debugger+Stepping+Thru+Code",
-  "dasblog-unique-title": "2009/03/13/Writing+An+IronPython+Debugger+Stepping+Thru+Code"
+  "dasblog-unique-title": "2009/03/13/Writing+An+IronPython+Debugger+Stepping+Thru+Code",
+  "sha1": "587aca9da34556e573ad2b53f8686c75be8b5a6a"
 }

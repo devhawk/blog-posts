@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "datareaders-linq-to-xml-and-range-generation",
   "title": "DataReaders, LINQ to XML and Range Generation",
   "date": "2007-08-17T16:55:01-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 4,
   "dasblog-entry-id": "90dc9487-d2bc-436b-8446-25b249f1539d",
   "dasblog-title": "DataReaders+LINQ+To+XML+And+Range+Generation",
-  "dasblog-unique-title": "2007/08/17/DataReaders+LINQ+To+XML+And+Range+Generation"
+  "dasblog-unique-title": "2007/08/17/DataReaders+LINQ+To+XML+And+Range+Generation",
+  "sha1": "97939b20e3d7400bd6de95699e8e6af7aba3209c"
 }

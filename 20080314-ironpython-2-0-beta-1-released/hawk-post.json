@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-2-0-beta-1-released",
   "title": "IronPython 2.0 Beta 1 Released",
   "date": "2008-03-14T07:42:14-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "43f6ec74-2b5b-4aa8-8ed9-1370a9bf2ec5",
   "dasblog-title": "IronPython+20+Beta+1+Released",
-  "dasblog-unique-title": "2008/03/14/IronPython+20+Beta+1+Released"
+  "dasblog-unique-title": "2008/03/14/IronPython+20+Beta+1+Released",
+  "sha1": "ffec0ba2b1564fe68f955d54ce6c07bc66539ea2"
 }

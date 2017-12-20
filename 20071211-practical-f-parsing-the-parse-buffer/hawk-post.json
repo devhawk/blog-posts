@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "practical-f-parsing-the-parse-buffer",
   "title": "Practical F# Parsing: The Parse Buffer",
   "date": "2007-12-11T13:18:05-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "543a281a-570c-4560-996f-5b550e480c76",
   "dasblog-title": "Practical+F+Parsing+The+Parse+Buffer",
-  "dasblog-unique-title": "2007/12/11/Practical+F+Parsing+The+Parse+Buffer"
+  "dasblog-unique-title": "2007/12/11/Practical+F+Parsing+The+Parse+Buffer",
+  "sha1": "c1c8dbd39eef6dfcb07afd6606dbabe922c8da1f"
 }

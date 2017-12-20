@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "invoking-python-functions-from-c-without-dynamic",
   "title": "Invoking Python Functions from C# (Without Dynamic)",
   "date": "2009-08-12T10:10:00-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "03f74f91-03a2-4aa2-a456-33967f739b18",
   "dasblog-title": "Invoking+Python+Functions+From+C+Without+Dynamic",
-  "dasblog-unique-title": "2009/08/12/Invoking+Python+Functions+From+C+Without+Dynamic"
+  "dasblog-unique-title": "2009/08/12/Invoking+Python+Functions+From+C+Without+Dynamic",
+  "sha1": "1df72e27a2777d2cb085a6c78b05bcf84fbaa9c5"
 }

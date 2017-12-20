@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-breakpoint-management",
   "title": "Writing an IronPython Debugger: Breakpoint Management",
   "date": "2009-04-08T14:45:44-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "871d10b6-2dd2-4b8f-9dc8-b5aee43d8983",
   "dasblog-title": "Writing+An+IronPython+Debugger+Breakpoint+Management",
-  "dasblog-unique-title": "2009/04/08/Writing+An+IronPython+Debugger+Breakpoint+Management"
+  "dasblog-unique-title": "2009/04/08/Writing+An+IronPython+Debugger+Breakpoint+Management",
+  "sha1": "1ca877ba3a9462d6de3f6144b8df81a6acd4d274"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "strongly-typed-wmi-and-ad-access",
   "title": "Strongly Typed WMI and AD Access",
   "date": "2003-05-23T21:10:02-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "5452eb39-4987-4f0e-b1b8-57e5c0041837",
   "dasblog-title": "Strongly+Typed+WMI+And+AD+Access",
-  "dasblog-unique-title": "2003/05/24/Strongly+Typed+WMI+And+AD+Access"
+  "dasblog-unique-title": "2003/05/24/Strongly+Typed+WMI+And+AD+Access",
+  "sha1": "4df64adc9f814e5a0892af49d8660c3d9bfceccc"
 }

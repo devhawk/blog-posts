@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-and-ironpython-debugger-adding-interactivity",
   "title": "Writing and IronPython Debugger: Adding Interactivity",
   "date": "2009-03-04T14:06:27-08:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "69b55d54-3aed-4ec4-bb36-09eb7e9ec02d",
   "dasblog-title": "Writing+And+IronPython+Debugger+Adding+Interactivity",
-  "dasblog-unique-title": "2009/03/04/Writing+And+IronPython+Debugger+Adding+Interactivity"
+  "dasblog-unique-title": "2009/03/04/Writing+And+IronPython+Debugger+Adding+Interactivity",
+  "sha1": "b03ead583c698ab471faf2311438437838afd57d"
 }

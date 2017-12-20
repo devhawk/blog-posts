@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "variadic-powershell-functions-with-optional-named-params",
   "title": "Variadic Powershell Functions With Optional Named Params",
   "date": "2011-02-02T21:38:51-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 4,
   "dasblog-entry-id": "41f3e3dd-5165-4025-b4dc-8d216fb63d4e",
   "dasblog-title": "Variadic+Powershell+Functions+With+Optional+Named+Params",
-  "dasblog-unique-title": "2011/02/03/Variadic+Powershell+Functions+With+Optional+Named+Params"
+  "dasblog-unique-title": "2011/02/03/Variadic+Powershell+Functions+With+Optional+Named+Params",
+  "sha1": "d326631fac07b9d42290d6c41fe4ca210744f049"
 }

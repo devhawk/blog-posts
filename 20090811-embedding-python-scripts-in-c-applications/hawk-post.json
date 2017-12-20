@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "embedding-python-scripts-in-c-applications",
   "title": "Embedding Python Scripts in C# Applications",
   "date": "2009-08-11T09:24:42-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "ac6fe2e5-6c82-4898-8ee3-1bde31026655",
   "dasblog-title": "Embedding+Python+Scripts+In+C+Applications",
-  "dasblog-unique-title": "2009/08/11/Embedding+Python+Scripts+In+C+Applications"
+  "dasblog-unique-title": "2009/08/11/Embedding+Python+Scripts+In+C+Applications",
+  "sha1": "3554e0b7c03ff94433392844f3e40f32c46a6c24"
 }

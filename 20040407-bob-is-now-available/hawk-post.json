@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "bob-is-now-available",
   "title": "Bob is *now* available",
   "date": "2004-04-07T13:33:38-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 2,
   "dasblog-entry-id": "c03a5767-ba8c-4ee6-af8f-aa6b049bb934",
   "dasblog-title": "Bob+Is+Now+Available",
-  "dasblog-unique-title": "2004/04/07/Bob+Is+Now+Available"
+  "dasblog-unique-title": "2004/04/07/Bob+Is+Now+Available",
+  "sha1": "971d61ec9d0673b664cea6d4813892296b914bec"
 }

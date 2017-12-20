@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-2-0-release-candidate",
   "title": "IronPython 2.0 Release Candidate",
   "date": "2008-10-24T11:13:22-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "d5dfce96-a6fd-4604-b625-2435d5d53b96",
   "dasblog-title": "IronPython+20+Release+Candidate",
-  "dasblog-unique-title": "2008/10/24/IronPython+20+Release+Candidate"
+  "dasblog-unique-title": "2008/10/24/IronPython+20+Release+Candidate",
+  "sha1": "9ea4d8cdda2d6281c45e145e070a12c9fcb4d6ce"
 }

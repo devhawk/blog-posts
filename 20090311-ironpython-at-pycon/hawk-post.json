@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-at-pycon",
   "title": "IronPython at PyCon",
   "date": "2009-03-11T16:22:31-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "51071c10-46be-4ed0-bf4b-ba671aa7e4de",
   "dasblog-title": "IronPython+At+PyCon",
-  "dasblog-unique-title": "2009/03/11/IronPython+At+PyCon"
+  "dasblog-unique-title": "2009/03/11/IronPython+At+PyCon",
+  "sha1": "02ec46e34d9f72c1bbebd2ce4c03d8bc1f34b020"
 }

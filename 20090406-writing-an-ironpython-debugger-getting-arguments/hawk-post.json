@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-getting-arguments",
   "title": "Writing an IronPython Debugger: Getting Arguments",
   "date": "2009-04-06T09:46:01-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "635ad93b-7f23-4c66-9226-f7449f8229d6",
   "dasblog-title": "Writing+An+IronPython+Debugger+Getting+Arguments",
-  "dasblog-unique-title": "2009/04/06/Writing+An+IronPython+Debugger+Getting+Arguments"
+  "dasblog-unique-title": "2009/04/06/Writing+An+IronPython+Debugger+Getting+Arguments",
+  "sha1": "917fd2035a42ce9e8078f31b69f7fd084b1b37a7"
 }

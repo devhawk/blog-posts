@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "new-toy",
   "title": "New Toy",
   "date": "2004-04-22T07:57:31-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 3,
   "dasblog-entry-id": "75f886b0-06db-4cf1-9534-604a518841f8",
   "dasblog-title": "New+Toy",
-  "dasblog-unique-title": "2004/04/22/New+Toy"
+  "dasblog-unique-title": "2004/04/22/New+Toy",
+  "sha1": "45ecc36a80545ced842c5f8f3165c3900a792ba4"
 }

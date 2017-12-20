@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-and-linq-to-xml-part-4-generating-xml",
   "title": "IronPython and Linq to XML Part 4: Generating XML",
   "date": "2008-12-01T23:13:39-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "ef4d7cdf-1c52-4f62-8aec-5a7e9c278a09",
   "dasblog-title": "IronPython+And+Linq+To+XML+Part+4+Generating+XML",
-  "dasblog-unique-title": "2008/12/02/IronPython+And+Linq+To+XML+Part+4+Generating+XML"
+  "dasblog-unique-title": "2008/12/02/IronPython+And+Linq+To+XML+Part+4+Generating+XML",
+  "sha1": "b6afd7ab7c298aed5a0b0b0f6b37ed0d5a2a70c7"
 }

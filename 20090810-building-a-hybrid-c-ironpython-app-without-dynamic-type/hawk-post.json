@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "building-a-hybrid-c-ironpython-app-without-dynamic-type",
   "title": "Building a Hybrid C# / IronPython App Without Dynamic Type",
   "date": "2009-08-10T08:04:21-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "13f1d88e-c057-427c-bb8f-d85062ba910a",
   "dasblog-title": "Building+A+Hybrid+C+IronPython+App+Without+Dynamic+Type",
-  "dasblog-unique-title": "2009/08/10/Building+A+Hybrid+C+IronPython+App+Without+Dynamic+Type"
+  "dasblog-unique-title": "2009/08/10/Building+A+Hybrid+C+IronPython+App+Without+Dynamic+Type",
+  "sha1": "cbf7a4038d4fb99155f9015bb01785dc2a09ca90"
 }

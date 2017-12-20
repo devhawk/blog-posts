@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "net-blogging",
   "title": ".NET Blogging",
   "date": "2003-03-01T16:47:06-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "e69bf4bd-2011-4480-be48-5debfe4d4455",
   "dasblog-title": "NET+Blogging",
-  "dasblog-unique-title": "2003/03/02/NET+Blogging"
+  "dasblog-unique-title": "2003/03/02/NET+Blogging",
+  "sha1": "1729a34def949de8ee886b6dc3f53f5f9aa3820f"
 }

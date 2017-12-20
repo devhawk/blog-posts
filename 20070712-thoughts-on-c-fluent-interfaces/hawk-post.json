@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "thoughts-on-c-fluent-interfaces",
   "title": "Thoughts on C# Fluent Interfaces",
   "date": "2007-07-12T14:38:19-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "f55c7062-3698-4b55-8a27-218408aa5714",
   "dasblog-title": "Thoughts+On+C+Fluent+Interfaces",
-  "dasblog-unique-title": "2007/07/12/Thoughts+On+C+Fluent+Interfaces"
+  "dasblog-unique-title": "2007/07/12/Thoughts+On+C+Fluent+Interfaces",
+  "sha1": "273dfe03f48f8cc8fa77e556d7b892b373c68ac7"
 }

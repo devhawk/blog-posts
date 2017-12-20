@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "compiler-dev-lab-linq",
   "title": "Compiler Dev Lab &#8211; LINQ",
   "date": "2006-03-14T11:33:14-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 2,
   "dasblog-entry-id": "d8d60ca8-7b41-4d46-9cc6-e6a4cc05dfc3",
   "dasblog-title": "Compiler+Dev+Lab+LINQ",
-  "dasblog-unique-title": "2006/03/14/Compiler+Dev+Lab+LINQ"
+  "dasblog-unique-title": "2006/03/14/Compiler+Dev+Lab+LINQ",
+  "sha1": "b21bbb865c7bf227b02b7dc7c15026fc1f14745c"
 }

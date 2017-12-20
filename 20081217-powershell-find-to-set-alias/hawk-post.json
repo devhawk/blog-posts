@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "powershell-find-to-set-alias",
   "title": "PowerShell find-to-set-alias",
   "date": "2008-12-17T15:17:09-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 2,
   "dasblog-entry-id": "ae593a6d-e9b4-40ad-9a2e-fe46accd5f78",
   "dasblog-title": "PowerShell+Findtosetalias",
-  "dasblog-unique-title": "2008/12/17/PowerShell+Findtosetalias"
+  "dasblog-unique-title": "2008/12/17/PowerShell+Findtosetalias",
+  "sha1": "6c0f0170fe3039cb967f0a8be18658ce5b234622"
 }

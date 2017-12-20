@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "practical-f-parsing-unit-testing",
   "title": "Practical F# Parsing: Unit Testing",
   "date": "2007-12-12T11:40:37-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "c195cf67-9986-4b53-863a-6e4897517809",
   "dasblog-title": "Practical+F+Parsing+Unit+Testing",
-  "dasblog-unique-title": "2007/12/12/Practical+F+Parsing+Unit+Testing"
+  "dasblog-unique-title": "2007/12/12/Practical+F+Parsing+Unit+Testing",
+  "sha1": "dc3b940c64249a563c2f36d3733ea71505aceb3a"
 }

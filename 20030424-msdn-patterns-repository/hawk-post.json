@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "msdn-patterns-repository",
   "title": "MSDN Patterns Repository",
   "date": "2003-04-24T13:23:24-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "d9d41e73-172f-4f56-8350-8421c697cb39",
   "dasblog-title": "MSDN+Patterns+Repository",
-  "dasblog-unique-title": "2003/04/24/MSDN+Patterns+Repository"
+  "dasblog-unique-title": "2003/04/24/MSDN+Patterns+Repository",
+  "sha1": "e8f16d6702a2f4e8b2d792ee3a703693f79c7d8c"
 }

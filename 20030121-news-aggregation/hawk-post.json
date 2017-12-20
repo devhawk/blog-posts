@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "news-aggregation",
   "title": "News Aggregation",
   "date": "2003-01-21T06:26:13-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "ad286cf2-c40f-45bd-b765-95ee61e7419e",
   "dasblog-title": "News+Aggregation",
-  "dasblog-unique-title": "2003/01/21/News+Aggregation"
+  "dasblog-unique-title": "2003/01/21/News+Aggregation",
+  "sha1": "0fa2dfe0486883747ce66759495a8b3131af6b44"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-showing-source-code",
   "title": "Writing an IronPython Debugger: Showing Source Code",
   "date": "2009-03-19T14:58:25-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "b77d89ec-e843-428a-824f-2719f11b88ee",
   "dasblog-title": "Writing+An+IronPython+Debugger+Showing+Source+Code",
-  "dasblog-unique-title": "2009/03/19/Writing+An+IronPython+Debugger+Showing+Source+Code"
+  "dasblog-unique-title": "2009/03/19/Writing+An+IronPython+Debugger+Showing+Source+Code",
+  "sha1": "e5b5e2d483eb1a5f255302fafa66af1d76c85e52"
 }

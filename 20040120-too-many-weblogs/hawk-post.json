@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "too-many-weblogs",
   "title": "Too Many Weblogs",
   "date": "2004-01-20T10:46:13-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 2,
   "dasblog-entry-id": "d268e761-eb24-4515-a707-9b35394f6dd1",
   "dasblog-title": "Too+Many+Weblogs",
-  "dasblog-unique-title": "2004/01/20/Too+Many+Weblogs"
+  "dasblog-unique-title": "2004/01/20/Too+Many+Weblogs",
+  "sha1": "31e0786a47eb640371f1a4871785444cec8b6278"
 }

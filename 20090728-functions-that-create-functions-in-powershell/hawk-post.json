@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "functions-that-create-functions-in-powershell",
   "title": "Functions that Create Functions in Powershell",
   "date": "2009-07-28T16:59:13-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "fc763e0f-f263-4dfb-b656-df6642994b92",
   "dasblog-title": "Functions+That+Create+Functions+In+Powershell",
-  "dasblog-unique-title": "2009/07/28/Functions+That+Create+Functions+In+Powershell"
+  "dasblog-unique-title": "2009/07/28/Functions+That+Create+Functions+In+Powershell",
+  "sha1": "24fe509ebd2918e969c9bd72a7cc7c4f37a8e6e5"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-refactoring",
   "title": "Writing an IronPython Debugger: Refactoring",
   "date": "2009-03-11T20:42:22-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "c1a4f587-9497-48b8-b958-fc95c8127e73",
   "dasblog-title": "Writing+An+IronPython+Debugger+Refactoring",
-  "dasblog-unique-title": "2009/03/12/Writing+An+IronPython+Debugger+Refactoring"
+  "dasblog-unique-title": "2009/03/12/Writing+An+IronPython+Debugger+Refactoring",
+  "sha1": "90f68cd57ce540f180f4552674d89760751f72b5"
 }

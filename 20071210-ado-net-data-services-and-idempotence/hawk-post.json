@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ado-net-data-services-and-idempotence",
   "title": "ADO.NET Data Services and Idempotence",
   "date": "2007-12-10T16:44:38-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "d2e3f3cb-e0c1-4444-b8cd-16cc663b6404",
   "dasblog-title": "ADONET+Data+Services+And+Idempotence",
-  "dasblog-unique-title": "2007/12/11/ADONET+Data+Services+And+Idempotence"
+  "dasblog-unique-title": "2007/12/11/ADONET+Data+Services+And+Idempotence",
+  "sha1": "7150461e8189ba0de9dcfed60271b35d48d1334f"
 }

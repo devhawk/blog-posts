@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "building-dsls-in-vs",
   "title": "Building DSLs in VS",
   "date": "2004-10-27T12:03:45-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "e2080d6f-10d9-4778-8c17-ff937450ff59",
   "dasblog-title": "Building+DSLs+In+VS",
-  "dasblog-unique-title": "2004/10/27/Building+DSLs+In+VS"
+  "dasblog-unique-title": "2004/10/27/Building+DSLs+In+VS",
+  "sha1": "38c70386227d9ad025669a62fe5ebd88960b32ad"
 }

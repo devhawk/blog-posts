@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-and-wpf-part-3-data-binding",
   "title": "IronPython and WPF Part 3: Data Binding",
   "date": "2008-11-17T17:00:17-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "81c4ca71-425d-4f5b-90c2-dba60eab4333",
   "dasblog-title": "IronPython+And+WPF+Part+3+Data+Binding",
-  "dasblog-unique-title": "2008/11/18/IronPython+And+WPF+Part+3+Data+Binding"
+  "dasblog-unique-title": "2008/11/18/IronPython+And+WPF+Part+3+Data+Binding",
+  "sha1": "947f04bcfa517662e29ef0e447cb107ba14de1ce"
 }

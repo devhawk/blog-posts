@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "rest-is-neither-crud-nor-crap",
   "title": "REST is neither CRUD nor CRAP",
   "date": "2007-05-24T11:09:32-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 4,
   "dasblog-entry-id": "8db9fdf7-636d-4bf0-bac0-c47cbe10664c",
   "dasblog-title": "REST+Is+Neither+CRUD+Nor+CRAP",
-  "dasblog-unique-title": "2007/05/24/REST+Is+Neither+CRUD+Nor+CRAP"
+  "dasblog-unique-title": "2007/05/24/REST+Is+Neither+CRUD+Nor+CRAP",
+  "sha1": "29ebdba710617a9428e9591a7950828daf71d19a"
 }

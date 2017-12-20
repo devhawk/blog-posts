@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "some-powershell-scripts",
   "title": "Some Powershell Scripts",
   "date": "2008-07-28T16:26:24-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 5,
   "dasblog-entry-id": "c5d2c168-4ed0-4e2e-b78f-a4ca4ba80695",
   "dasblog-title": "Some+Powershell+Scripts",
-  "dasblog-unique-title": "2008/07/28/Some+Powershell+Scripts"
+  "dasblog-unique-title": "2008/07/28/Some+Powershell+Scripts",
+  "sha1": "9d328b39dede82fa024f8ed545f80b93cd52b19f"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "democonfig-macro",
   "title": "DemoConfig Macro",
   "date": "2003-07-16T14:14:28-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "c1adb369-53d0-4633-8d87-f9903116771f",
   "dasblog-title": "DemoConfig+Macro",
-  "dasblog-unique-title": "2003/07/16/DemoConfig+Macro"
+  "dasblog-unique-title": "2003/07/16/DemoConfig+Macro",
+  "sha1": "093948c620c782103e3cee1383205e8f4f58c121"
 }

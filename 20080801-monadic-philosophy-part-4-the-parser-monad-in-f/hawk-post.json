@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "monadic-philosophy-part-4-the-parser-monad-in-f",
   "title": "Monadic Philosophy Part 4 &#8211; The Parser Monad in F#",
   "date": "2008-08-01T15:42:57-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "9b8f0a29-ba33-46a2-a34d-ab470fa5e59a",
   "dasblog-title": "Monadic+Philosophy+Part+4+The+Parser+Monad+In+F",
-  "dasblog-unique-title": "2008/08/01/Monadic+Philosophy+Part+4+The+Parser+Monad+In+F"
+  "dasblog-unique-title": "2008/08/01/Monadic+Philosophy+Part+4+The+Parser+Monad+In+F",
+  "sha1": "d34af37a49ef9c686ec76cdcd43daaa854a1c1bf"
 }

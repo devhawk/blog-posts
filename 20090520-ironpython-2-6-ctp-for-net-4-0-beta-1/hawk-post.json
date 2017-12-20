@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-2-6-ctp-for-net-4-0-beta-1",
   "title": "IronPython 2.6 CTP for .NET 4.0 Beta 1",
   "date": "2009-05-20T11:54:30-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "892c4513-9a42-440c-9971-b28b231f8bcf",
   "dasblog-title": "IronPython+26+CTP+For+NET+40+Beta+1",
-  "dasblog-unique-title": "2009/05/20/IronPython+26+CTP+For+NET+40+Beta+1"
+  "dasblog-unique-title": "2009/05/20/IronPython+26+CTP+For+NET+40+Beta+1",
+  "sha1": "6b4edab1e75fad6b55a2f5fff8d6f5f9418615dd"
 }

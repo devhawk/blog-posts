@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "my-first-point-in-ten-years",
   "title": "My First Point in Ten Years",
   "date": "2008-02-22T10:20:20-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "75c52011-3dae-4d88-8235-3f2eec5cecbb",
   "dasblog-title": "My+First+Point+In+Ten+Years",
-  "dasblog-unique-title": "2008/02/22/My+First+Point+In+Ten+Years"
+  "dasblog-unique-title": "2008/02/22/My+First+Point+In+Ten+Years",
+  "sha1": "ff5dbc3637e380478cbbf98fc486898a48b05acc"
 }

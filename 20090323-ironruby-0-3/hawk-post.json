@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironruby-0-3",
   "title": "IronRuby 0.3",
   "date": "2009-03-23T10:42:28-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "9f1f0602-c737-4ae8-8004-c122c433d254",
   "dasblog-title": "IronRuby+03",
-  "dasblog-unique-title": "2009/03/23/IronRuby+03"
+  "dasblog-unique-title": "2009/03/23/IronRuby+03",
+  "sha1": "9d209711c7a9e39b48668e928a0bff316b1495a6"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-dynamic-stack-trace",
   "title": "Writing an IronPython Debugger: Dynamic Stack Trace",
   "date": "2009-03-09T15:10:02-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "48c4a70d-e243-43e5-9709-85d2119c592b",
   "dasblog-title": "Writing+An+IronPython+Debugger+Dynamic+Stack+Trace",
-  "dasblog-unique-title": "2009/03/09/Writing+An+IronPython+Debugger+Dynamic+Stack+Trace"
+  "dasblog-unique-title": "2009/03/09/Writing+An+IronPython+Debugger+Dynamic+Stack+Trace",
+  "sha1": "f3f979587bca2311cee1986bf6e649826ed08ce1"
 }

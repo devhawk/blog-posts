@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "brokered-winrt-components-step-three",
   "title": "Brokered WinRT Components Step Three",
   "date": "2014-04-25T08:45:36-07:00",
@@ -7,5 +7,6 @@
   "csv-tag-slugs": "brokered components|brokered-components,sideload|sideload,tutorial|tutorial",
   "author": "DevHawk|devhawk|harry@devhawk.net",
   "comment-count": 0,
-  "series": "brokered-winrt-components"
+  "series": "brokered-winrt-components",
+  "sha1": "1e54637b5b18c40c2648159d3ad0726ffd2f6e32"
 }

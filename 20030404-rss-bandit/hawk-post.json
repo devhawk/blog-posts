@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "rss-bandit",
   "title": "RSS Bandit",
   "date": "2003-04-04T10:54:16-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "1da32122-4e10-4752-96ec-30896fe07d39",
   "dasblog-title": "RSS+Bandit",
-  "dasblog-unique-title": "2003/04/04/RSS+Bandit"
+  "dasblog-unique-title": "2003/04/04/RSS+Bandit",
+  "sha1": "ca2d50e207eb35486223c34119109eee64133b82"
 }

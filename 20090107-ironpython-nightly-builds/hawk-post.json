@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-nightly-builds",
   "title": "IronPython Nightly Builds",
   "date": "2009-01-07T15:18:13-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "96cf813b-cc2b-4941-8fea-7bc98b3a0db9",
   "dasblog-title": "IronPython+Nightly+Builds",
-  "dasblog-unique-title": "2009/01/07/IronPython+Nightly+Builds"
+  "dasblog-unique-title": "2009/01/07/IronPython+Nightly+Builds",
+  "sha1": "c12723018fc98a89433b2f63020518f60c4c40d3"
 }

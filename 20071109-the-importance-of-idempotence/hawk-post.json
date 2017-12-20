@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "the-importance-of-idempotence",
   "title": "The Importance of Idempotence",
   "date": "2007-11-09T12:28:48-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "e0aad463-d046-4638-8877-3960e099ee98",
   "dasblog-title": "The+Importance+Of+Idempotence",
-  "dasblog-unique-title": "2007/11/09/The+Importance+Of+Idempotence"
+  "dasblog-unique-title": "2007/11/09/The+Importance+Of+Idempotence",
+  "sha1": "1cd8fac7ecfd086bda4355efbd681223fc0122cd"
 }

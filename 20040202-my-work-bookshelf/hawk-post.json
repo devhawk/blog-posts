@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "my-work-bookshelf",
   "title": "My Work Bookshelf",
   "date": "2004-02-02T16:26:42-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 5,
   "dasblog-entry-id": "dd06efd1-cf51-4eed-927a-c82a01273b47",
   "dasblog-title": "My+Work+Bookshelf",
-  "dasblog-unique-title": "2004/02/03/My+Work+Bookshelf"
+  "dasblog-unique-title": "2004/02/03/My+Work+Bookshelf",
+  "sha1": "0022555394b2f659d0bdb19fe8c412d0dd2c561b"
 }

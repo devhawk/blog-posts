@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "custom-dasblog-macro",
   "title": "Custom dasBlog Macro",
   "date": "2003-12-14T21:59:48-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 2,
   "dasblog-entry-id": "9d236e19-3fbc-4b20-9471-a48b085dc26a",
   "dasblog-title": "Custom+DasBlog+Macro",
-  "dasblog-unique-title": "2003/12/15/Custom+DasBlog+Macro"
+  "dasblog-unique-title": "2003/12/15/Custom+DasBlog+Macro",
+  "sha1": "5e4ec0530318623580f4a5c5798b479f174ffecf"
 }

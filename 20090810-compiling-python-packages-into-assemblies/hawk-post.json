@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "compiling-python-packages-into-assemblies",
   "title": "Compiling Python Packages into Assemblies",
   "date": "2009-08-10T11:16:41-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "058b7415-e1e2-43e8-b6ed-6d9e67a32e1f",
   "dasblog-title": "Compiling+Python+Packages+Into+Assemblies",
-  "dasblog-unique-title": "2009/08/10/Compiling+Python+Packages+Into+Assemblies"
+  "dasblog-unique-title": "2009/08/10/Compiling+Python+Packages+Into+Assemblies",
+  "sha1": "0d179c71d6eacbe10478094696b03738638e23ee"
 }

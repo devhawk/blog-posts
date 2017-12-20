@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "an-architecture-aware-vsvars-ps1",
   "title": "An Architecture Aware VsVars.ps1",
   "date": "2014-04-11T18:28:55-07:00",
@@ -6,5 +6,6 @@
   "csv-category-slugs": "Development|development",
   "csv-tag-slugs": "command line|command-line,PowerShell|powershell,Visual Studio|visual-studio,vsvars|vsvars",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment-count": 1
+  "comment-count": 1,
+  "sha1": "69339674c5a728c717202012702c4467ddbc0870"
 }

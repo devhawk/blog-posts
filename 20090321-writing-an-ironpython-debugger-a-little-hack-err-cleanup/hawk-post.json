@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-a-little-hack-err-cleanup",
   "title": "Writing an IronPython Debugger: A Little Hack&#8230;err&#8230;Cleanup",
   "date": "2009-03-21T16:27:18-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "aa1b0968-0c35-4e95-86f7-62b943d3474a",
   "dasblog-title": "Writing+An+IronPython+Debugger+A+Little+HackhelliperrhellipCleanup",
-  "dasblog-unique-title": "2009/03/21/Writing+An+IronPython+Debugger+A+Little+HackhelliperrhellipCleanup"
+  "dasblog-unique-title": "2009/03/21/Writing+An+IronPython+Debugger+A+Little+HackhelliperrhellipCleanup",
+  "sha1": "27e20dca839fd014c90d9c71d941b87bfda0b10a"
 }

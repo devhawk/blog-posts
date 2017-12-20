@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "my-next-job",
   "title": "My Next Job",
   "date": "2005-06-24T13:53:35-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 4,
   "dasblog-entry-id": "6612dee1-c7a5-46c5-90c5-aa41685d1951",
   "dasblog-title": "My+Next+Job",
-  "dasblog-unique-title": "2005/06/24/My+Next+Job"
+  "dasblog-unique-title": "2005/06/24/My+Next+Job",
+  "sha1": "ee6821841eba483b50055bed57243af8598dbe87"
 }

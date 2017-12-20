@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "services-arent-stateless",
   "title": "Services Aren&#8217;t Stateless",
   "date": "2006-07-27T13:27:40-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 6,
   "dasblog-entry-id": "4d427e9f-7775-4aae-a487-8cf8c1d8a991",
   "dasblog-title": "Services+Arent+Stateless",
-  "dasblog-unique-title": "2006/07/27/Services+Arent+Stateless"
+  "dasblog-unique-title": "2006/07/27/Services+Arent+Stateless",
+  "sha1": "1c53da20f22a503185b20a1eca56bfbe13b1f874"
 }

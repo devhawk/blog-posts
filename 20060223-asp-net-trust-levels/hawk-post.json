@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "asp-net-trust-levels",
   "title": "ASP.NET Trust Levels",
   "date": "2006-02-23T18:27:39-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "04804785-fe5f-40c1-83b5-7d1c1c50d3c5",
   "dasblog-title": "ASPNET+Trust+Levels",
-  "dasblog-unique-title": "2006/02/24/ASPNET+Trust+Levels"
+  "dasblog-unique-title": "2006/02/24/ASPNET+Trust+Levels",
+  "sha1": "76704f00c66e5bca1f0256c5957dd7af8f1cc2bb"
 }

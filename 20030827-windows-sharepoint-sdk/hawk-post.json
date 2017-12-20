@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "windows-sharepoint-sdk",
   "title": "Windows SharePoint SDK",
   "date": "2003-08-27T13:55:34-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "14e187c6-0c72-4312-9cfc-72b90c50a67e",
   "dasblog-title": "Windows+SharePoint+SDK",
-  "dasblog-unique-title": "2003/08/27/Windows+SharePoint+SDK"
+  "dasblog-unique-title": "2003/08/27/Windows+SharePoint+SDK",
+  "sha1": "fbebcbc6fe6ce4b4ffbafca93ce2df22ce63e68a"
 }

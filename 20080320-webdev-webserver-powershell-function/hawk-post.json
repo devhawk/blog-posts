@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "webdev-webserver-powershell-function",
   "title": "WebDev.WebServer PowerShell Function",
   "date": "2008-03-20T15:39:00-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 4,
   "dasblog-entry-id": "631d2f09-cb8f-4e40-bad0-dfecce979257",
   "dasblog-title": "WebDevWebServer+PowerShell+Function",
-  "dasblog-unique-title": "2008/03/20/WebDevWebServer+PowerShell+Function"
+  "dasblog-unique-title": "2008/03/20/WebDevWebServer+PowerShell+Function",
+  "sha1": "31265f0289944facb13dc055207023107da4d810"
 }

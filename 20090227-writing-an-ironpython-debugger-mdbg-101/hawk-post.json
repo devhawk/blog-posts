@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-mdbg-101",
   "title": "Writing an IronPython Debugger: MDbg 101",
   "date": "2009-02-27T15:33:06-08:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "c122a8ee-102f-4478-a33b-cc0864b82d83",
   "dasblog-title": "Writing+An+IronPython+Debugger+MDbg+101",
-  "dasblog-unique-title": "2009/02/27/Writing+An+IronPython+Debugger+MDbg+101"
+  "dasblog-unique-title": "2009/02/27/Writing+An+IronPython+Debugger+MDbg+101",
+  "sha1": "c43b5a86c97ff9b77c5d8e035f1efdf239646861"
 }

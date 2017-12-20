@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "my-upcoming-article",
   "title": "My Upcoming Article",
   "date": "2003-01-23T04:11:23-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "f1f1eb59-062f-480c-b7c5-e08026ffbaed",
   "dasblog-title": "My+Upcoming+Article",
-  "dasblog-unique-title": "2003/01/23/My+Upcoming+Article"
+  "dasblog-unique-title": "2003/01/23/My+Upcoming+Article",
+  "sha1": "aedcf60a66515fe27a165dff0ace529ed9dca23f"
 }

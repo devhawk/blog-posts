@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "wsdl-soapaction-issues",
   "title": "WSDL soapAction Issues",
   "date": "2003-01-20T18:48:42-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "c2eeb3f8-ca88-4627-bea7-ec49e75f0a1f",
   "dasblog-title": "WSDL+SoapAction+Issues",
-  "dasblog-unique-title": "2003/01/21/WSDL+SoapAction+Issues"
+  "dasblog-unique-title": "2003/01/21/WSDL+SoapAction+Issues",
+  "sha1": "50e5b0d52c20b5f2165ed218997b4bfbd39d38e5"
 }

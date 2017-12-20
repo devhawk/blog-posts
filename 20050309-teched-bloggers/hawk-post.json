@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "teched-bloggers",
   "title": "TechEd Bloggers",
   "date": "2005-03-09T23:49:50-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "2c14d7c3-b48a-4a27-a015-3c1455c94416",
   "dasblog-title": "TechEd+Bloggers",
-  "dasblog-unique-title": "2005/03/10/TechEd+Bloggers"
+  "dasblog-unique-title": "2005/03/10/TechEd+Bloggers",
+  "sha1": "3b7e32e43da365e7fb6b03a4392703e882be224d"
 }

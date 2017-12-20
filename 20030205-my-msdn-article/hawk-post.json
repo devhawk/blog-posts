@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "my-msdn-article",
   "title": "My MSDN Article",
   "date": "2003-02-05T12:05:41-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "b718a63b-de5f-4121-98f3-6777ea0e79df",
   "dasblog-title": "My+MSDN+Article",
-  "dasblog-unique-title": "2003/02/05/My+MSDN+Article"
+  "dasblog-unique-title": "2003/02/05/My+MSDN+Article",
+  "sha1": "bd6f855dc31c03c0c3945a3fff95e02b0b47d989"
 }

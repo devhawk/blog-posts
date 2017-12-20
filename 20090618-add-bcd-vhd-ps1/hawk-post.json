@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "add-bcd-vhd-ps1",
   "title": "Add-Bcd-Vhd.ps1",
   "date": "2009-06-18T13:39:57-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "17cd359b-7a77-47ad-a06d-9ba7d2621021",
   "dasblog-title": "AddBcdVhdps1",
-  "dasblog-unique-title": "2009/06/18/AddBcdVhdps1"
+  "dasblog-unique-title": "2009/06/18/AddBcdVhdps1",
+  "sha1": "992fa585a10df77c604417990f9641309635edde"
 }

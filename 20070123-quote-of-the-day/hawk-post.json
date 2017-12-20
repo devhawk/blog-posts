@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "quote-of-the-day",
   "title": "Quote of the Day",
   "date": "2007-01-23T13:01:03-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "f15f7cf9-fb71-4d38-ab31-b18e6dd7aeeb",
   "dasblog-title": "Quote+Of+The+Day",
-  "dasblog-unique-title": "2007/01/23/Quote+Of+The+Day"
+  "dasblog-unique-title": "2007/01/23/Quote+Of+The+Day",
+  "sha1": "4b2c69984e0d25026176ea8101b1f2b456492e39"
 }

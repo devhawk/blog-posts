@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-and-codedom-dynamically-compiling-c-files",
   "title": "IronPython and CodeDOM: Dynamically Compiling C# Files",
   "date": "2009-01-29T16:53:30-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "34f7ae3f-7d89-46d9-832a-981283b8df2f",
   "dasblog-title": "IronPython+And+CodeDOM+Dynamically+Compiling+C+Files",
-  "dasblog-unique-title": "2009/01/30/IronPython+And+CodeDOM+Dynamically+Compiling+C+Files"
+  "dasblog-unique-title": "2009/01/30/IronPython+And+CodeDOM+Dynamically+Compiling+C+Files",
+  "sha1": "ce8839406a9de95b2910b7a0739c20bb397feda7"
 }

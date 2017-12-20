@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "first-t-shirt-sale",
   "title": "First T-Shirt Sale",
   "date": "2006-02-17T13:34:48-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 5,
   "dasblog-entry-id": "9b14227c-0afc-4cf5-b0f6-0c7eace41ea2",
   "dasblog-title": "First+TShirt+Sale",
-  "dasblog-unique-title": "2006/02/17/First+TShirt+Sale"
+  "dasblog-unique-title": "2006/02/17/First+TShirt+Sale",
+  "sha1": "da4bc561bbda15ab441d86fbcd373d8423b3d4a2"
 }

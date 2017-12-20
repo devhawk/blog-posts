@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "outlook-integration-sample",
   "title": "Outlook Integration Sample",
   "date": "2006-01-09T23:51:09-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "bc361aff-7651-46c6-9003-027486707695",
   "dasblog-title": "Outlook+Integration+Sample",
-  "dasblog-unique-title": "2006/01/10/Outlook+Integration+Sample"
+  "dasblog-unique-title": "2006/01/10/Outlook+Integration+Sample",
+  "sha1": "44f81bcb83adef35a604b0ece4bb2a97f03b92c4"
 }

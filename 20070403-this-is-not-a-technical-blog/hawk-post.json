@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "this-is-not-a-technical-blog",
   "title": "This Is Not A Technical Blog",
   "date": "2007-04-03T11:23:14-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 3,
   "dasblog-entry-id": "8e4bec1f-a5d3-4dd5-b0e3-f9938d290427",
   "dasblog-title": "This+Is+Not+A+Technical+Blog",
-  "dasblog-unique-title": "2007/04/03/This+Is+Not+A+Technical+Blog"
+  "dasblog-unique-title": "2007/04/03/This+Is+Not+A+Technical+Blog",
+  "sha1": "b33b724e5d78127561a3d4229319ca213de148c0"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "minor-dasblog-bugfix",
   "title": "Minor DasBlog Bugfix",
   "date": "2003-12-08T15:38:38-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 2,
   "dasblog-entry-id": "3e585d35-7570-4538-b7e9-ea04df02df10",
   "dasblog-title": "Minor+DasBlog+Bugfix",
-  "dasblog-unique-title": "2003/12/08/Minor+DasBlog+Bugfix"
+  "dasblog-unique-title": "2003/12/08/Minor+DasBlog+Bugfix",
+  "sha1": "ee0595eaf8064d727f7e16d346e319ae243e0ab7"
 }

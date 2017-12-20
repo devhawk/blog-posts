@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "go-ahead-call-it-a-comeback",
   "title": "Go Ahead, Call It a Comeback",
   "csv-category-slugs": "General Geekery|general-geekery",
@@ -6,5 +6,6 @@
   "date": "2015-08-31T13:55:03-07:00",
   "modified": "2015-08-31T13:55:03-07:00",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment-count": 0
+  "comment-count": 0,
+  "sha1": "2f41a12011ba0d937c9dd61fda1b6f9c44ee4995"
 }

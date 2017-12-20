@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "blogging-f-code",
   "title": "Blogging F# Code",
   "date": "2007-12-07T13:47:39-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "597d1f99-a4ca-435b-b3fb-04f9162cfd3c",
   "dasblog-title": "Blogging+F+Code",
-  "dasblog-unique-title": "2007/12/07/Blogging+F+Code"
+  "dasblog-unique-title": "2007/12/07/Blogging+F+Code",
+  "sha1": "4b0e3a323d2473b96b287b767858c12e0a12c83c"
 }

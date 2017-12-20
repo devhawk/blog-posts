@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "another-neat-blogger",
   "title": "Another .NEAT Blogger",
   "date": "2004-01-04T22:37:16-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "0a3fa095-8f84-4a68-8a1f-711c6e09b98e",
   "dasblog-title": "Another+NEAT+Blogger",
-  "dasblog-unique-title": "2004/01/05/Another+NEAT+Blogger"
+  "dasblog-unique-title": "2004/01/05/Another+NEAT+Blogger",
+  "sha1": "93f6f4a160a5078684d01870bd39c5ea24ab5c2f"
 }

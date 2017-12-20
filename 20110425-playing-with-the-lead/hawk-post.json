@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "playing-with-the-lead",
   "title": "Playing With The Lead",
   "date": "2011-04-25T00:03:07-07:00",
@@ -6,5 +6,6 @@
   "csv-category-slugs": "Sports|sports",
   "csv-tag-slugs": "Hockey|hockey,Playoffs|playoffs,Washington Capitals|washington-capitals",
   "author": "DevHawk|devhawk|harry@devhawk.net",
-  "comment-count": 0
+  "comment-count": 0,
+  "sha1": "7091c07c760c839d0389618667751bd918be8fa3"
 }

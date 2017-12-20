@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "the-sql-complexity-problem",
   "title": "The SQL Complexity Problem",
   "date": "2006-03-16T00:51:32-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 3,
   "dasblog-entry-id": "dc8da217-b67e-4aa0-9cb9-fe57d0ad28c1",
   "dasblog-title": "The+SQL+Complexity+Problem",
-  "dasblog-unique-title": "2006/03/16/The+SQL+Complexity+Problem"
+  "dasblog-unique-title": "2006/03/16/The+SQL+Complexity+Problem",
+  "sha1": "df5d6b460632a96a1efc82a444cb15c3d159ca21"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-repl-console",
   "title": "Writing an IronPython Debugger: REPL Console",
   "date": "2009-04-06T12:07:39-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "6f889e12-fbf8-483a-92de-b6776cc7fd30",
   "dasblog-title": "Writing+An+IronPython+Debugger+REPL+Console",
-  "dasblog-unique-title": "2009/04/06/Writing+An+IronPython+Debugger+REPL+Console"
+  "dasblog-unique-title": "2009/04/06/Writing+An+IronPython+Debugger+REPL+Console",
+  "sha1": "943ca522d729bd67f8819da103f687ee7c9a82cc"
 }

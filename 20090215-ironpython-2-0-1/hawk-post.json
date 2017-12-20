@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-2-0-1",
   "title": "IronPython 2.0.1",
   "date": "2009-02-15T20:20:21-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 2,
   "dasblog-entry-id": "abcc82dd-e7ba-4210-9b3d-51b360aaaedf",
   "dasblog-title": "IronPython+201",
-  "dasblog-unique-title": "2009/02/16/IronPython+201"
+  "dasblog-unique-title": "2009/02/16/IronPython+201",
+  "sha1": "410b643f9eafbc24d81fe9bcd0e32677acb71730"
 }

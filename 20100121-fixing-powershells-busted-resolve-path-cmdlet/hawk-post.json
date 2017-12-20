@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "fixing-powershells-busted-resolve-path-cmdlet",
   "title": "Fixing Powershell&#8217;s Busted Resolve-Path Cmdlet",
   "date": "2010-01-21T23:38:51-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "0f11ab8d-df0d-458c-8ee5-105b1fdedcd3",
   "dasblog-title": "Fixing+Powershellrsquos+Busted+ResolvePath+Cmdlet",
-  "dasblog-unique-title": "2010/01/22/Fixing+Powershellrsquos+Busted+ResolvePath+Cmdlet"
+  "dasblog-unique-title": "2010/01/22/Fixing+Powershellrsquos+Busted+ResolvePath+Cmdlet",
+  "sha1": "cfcd52ba86f7a30ae21f7aab0de1b8437c0248d4"
 }

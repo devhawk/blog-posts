@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "journal-3",
   "title": "JOURNAL 3",
   "date": "2004-08-08T03:13:56-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "f8cdf912-742d-4b29-9c54-6029cf5c97d3",
   "dasblog-title": "JOURNAL+3",
-  "dasblog-unique-title": "2004/08/08/JOURNAL+3"
+  "dasblog-unique-title": "2004/08/08/JOURNAL+3",
+  "sha1": "9757f92dec886dc1da5c4954f4d11f753cc9901d"
 }

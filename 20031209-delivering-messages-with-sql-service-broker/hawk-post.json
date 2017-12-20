@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "delivering-messages-with-sql-service-broker",
   "title": "Delivering Messages with SQL Service Broker",
   "date": "2003-12-09T15:39:29-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "974e04d8-30fe-44ba-9103-b8397a2c7b2e",
   "dasblog-title": "Delivering+Messages+With+SQL+Service+Broker",
-  "dasblog-unique-title": "2003/12/09/Delivering+Messages+With+SQL+Service+Broker"
+  "dasblog-unique-title": "2003/12/09/Delivering+Messages+With+SQL+Service+Broker",
+  "sha1": "73155e42cb263508415e096a0c2cfb91ddbd99a2"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-and-linq-to-xml-part-1-introduction",
   "title": "IronPython and Linq to XML Part 1: Introduction",
   "date": "2008-11-26T17:07:59-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "0b2bdf02-2039-4ad7-a5d6-4b717a24755c",
   "dasblog-title": "IronPython+And+Linq+To+XML+Part+1+Introduction",
-  "dasblog-unique-title": "2008/11/27/IronPython+And+Linq+To+XML+Part+1+Introduction"
+  "dasblog-unique-title": "2008/11/27/IronPython+And+Linq+To+XML+Part+1+Introduction",
+  "sha1": "67a2d87df7c368ef757d734ecfe4e895d7f3cc57"
 }

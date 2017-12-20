@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "writing-an-ironpython-debugger-command-routing",
   "title": "Writing an IronPython Debugger: Command Routing",
   "date": "2009-04-01T14:55:22-07:00",
@@ -10,5 +10,6 @@
   "series": "writing-an-ironpython-debugger",
   "dasblog-entry-id": "456c99c2-0438-4403-ab21-ed2f937cacfb",
   "dasblog-title": "Writing+An+IronPython+Debugger+Command+Routing",
-  "dasblog-unique-title": "2009/04/01/Writing+An+IronPython+Debugger+Command+Routing"
+  "dasblog-unique-title": "2009/04/01/Writing+An+IronPython+Debugger+Command+Routing",
+  "sha1": "accee814359b94295fab656e848c83de4e7bc0f0"
 }

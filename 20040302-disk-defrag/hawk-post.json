@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "disk-defrag",
   "title": "Disk Defrag",
   "date": "2004-03-02T16:49:05-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 4,
   "dasblog-entry-id": "9b22b1d4-7c4a-4c3b-8aae-56803a8e7e7e",
   "dasblog-title": "Disk+Defrag",
-  "dasblog-unique-title": "2004/03/03/Disk+Defrag"
+  "dasblog-unique-title": "2004/03/03/Disk+Defrag",
+  "sha1": "a26af38699818ed258662b0c2a68f3f7f5d50f4d"
 }

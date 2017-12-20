@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "developing-with-vpc",
   "title": "Developing with VPC",
   "date": "2003-11-10T21:41:16-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "32f0e177-6ec8-49f2-b629-32a68ed1f49c",
   "dasblog-title": "Developing+With+VPC",
-  "dasblog-unique-title": "2003/11/11/Developing+With+VPC"
+  "dasblog-unique-title": "2003/11/11/Developing+With+VPC",
+  "sha1": "ff219a0583e9b40a08a5695677257eb0e1e668d9"
 }

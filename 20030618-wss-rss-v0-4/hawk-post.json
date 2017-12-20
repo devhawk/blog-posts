@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "wss-rss-v0-4",
   "title": "WSS RSS v0.4",
   "date": "2003-06-18T23:14:13-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 1,
   "dasblog-entry-id": "bb5bdce4-1995-4ac7-b803-6f4b6db3a783",
   "dasblog-title": "WSS+RSS+V04",
-  "dasblog-unique-title": "2003/06/19/WSS+RSS+V04"
+  "dasblog-unique-title": "2003/06/19/WSS+RSS+V04",
+  "sha1": "83e12a80f01a299da42cd70bfb96b1c1798ac341"
 }

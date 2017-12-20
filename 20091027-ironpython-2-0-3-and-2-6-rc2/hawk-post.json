@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "ironpython-2-0-3-and-2-6-rc2",
   "title": "IronPython 2.0.3 and 2.6 RC2",
   "date": "2009-10-27T14:29:29-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "a105b675-f06a-4548-a8f3-3525a5b96654",
   "dasblog-title": "IronPython+203+And+26+RC2",
-  "dasblog-unique-title": "2009/10/27/IronPython+203+And+26+RC2"
+  "dasblog-unique-title": "2009/10/27/IronPython+203+And+26+RC2",
+  "sha1": "7daaf30f56348d720fe0ef376197adf26d8644bc"
 }

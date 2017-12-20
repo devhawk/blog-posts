@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "soa-sample-scenario",
   "title": "SOA Sample Scenario",
   "date": "2006-09-06T18:26:27-07:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "ba972500-1097-4649-b09e-95959c2a459e",
   "dasblog-title": "SOA+Sample+Scenario",
-  "dasblog-unique-title": "2006/09/07/SOA+Sample+Scenario"
+  "dasblog-unique-title": "2006/09/07/SOA+Sample+Scenario",
+  "sha1": "de5ad47d9cbd9df53bb4fdaa82f8a10e7ba6f8f9"
 }

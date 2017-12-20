@@ -1,4 +1,4 @@
-{
+﻿{
   "slug": "varchar",
   "title": "varchar(???)",
   "date": "2003-03-26T16:32:53-08:00",
@@ -9,5 +9,6 @@
   "comment-count": 0,
   "dasblog-entry-id": "90e2b600-f054-4923-965c-b6ac27d2da36",
   "dasblog-title": "varchar",
-  "dasblog-unique-title": "2003/03/26/varchar"
+  "dasblog-unique-title": "2003/03/26/varchar",
+  "sha1": "fc9edf15b544817c91b52acfc069c6858d86775d"
 }
