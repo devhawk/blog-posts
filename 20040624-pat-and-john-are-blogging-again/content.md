@@ -2,7 +2,7 @@ I keep bugging [Greg](http://www.rassoc.com/gregr/weblog) about better
 folder hierarchy support in [NewsGator](http://www.newsgator.com/).
 While I have some news feeds directly under my news folder ([Don
 Box](http://www.gotdotnet.com/team/dbox),
-[Dilbert](http://devhawk.net/www.dilbert.com), [my
+[Dilbert](http://www.dilbert.com), [my
 dad](http://halpierson.blogspot.com/)) I categorize most of my feeds
 into subfolders. One subfolder is for MSFT architects – my teammates,
 [Michael](http://blogs.msdn.com/michael_platt/),
