@@ -14,5 +14,5 @@ Center](http://msdn.microsoft.com/architecture/default.aspx).
 Speaking of wikis, the source code [FlexWiki](http://www.flexwiki.com),
 another .NET based wiki, is available online. I need to dig thru
 FlexWiki to see if having [DevHawk
-Wiki](http://www.devhawk.net/prj_wiki.aspx) around anymore makes any
+Wiki](http://devhawk.net/prj_wiki.aspx) around anymore makes any
 sense.

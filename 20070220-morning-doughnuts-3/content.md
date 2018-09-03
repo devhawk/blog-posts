@@ -23,5 +23,5 @@
     been using it on these Morning Doughnuts posts. My favorite feature
     is that you can preview your post and see exactly how it will appear
     on your website. This has been particularly useful since
-    [Devhawk](http://www.devhawk.net/) and my site look quite different.
+    [Devhawk](http://devhawk.net/) and my site look quite different.
 

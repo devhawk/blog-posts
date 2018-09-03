@@ -4,7 +4,7 @@ Advice](http://www.hanselman.com/blog/PermaLink.aspx?guid=d017c9f3-aa3d-47bc-8d3
 He couldn’t be more right about not reading slides (and not just because
 he linked to me). This is a sure sign of a presenter who doesn’t know
 the material. Back when I was [explaining
-.NET](http://www.devhawk.net/Presentations/NET_Vision.ppt) to customers
+.NET](http://devhawk.net/Presentations/NET_Vision.ppt) to customers
 3-5 times a week, I could do the presentation on a whiteboard while
 hanging upside down blindfolded
 

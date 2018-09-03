@@ -18,7 +18,7 @@ dev focused as well as more IPy focused.
     IPy developer for [Resolver
     Systems](http://www.resolversystems.com/) (the cool spreadsheet app
     hybrid [I wrote about @
-    Lang.NET](http://www.devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx))
+    Lang.NET](http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx))
     and he’s working on an [IPy book](http://www.manning.com/foord).
 -   Still speaking of IPy, Jeff Hardy [dropped his first
     release](http://lists.ironpython.com/pipermail/users-ironpython.com/2008-March/006649.html)

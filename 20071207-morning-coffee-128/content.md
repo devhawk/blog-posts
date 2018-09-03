@@ -37,7 +37,7 @@
     not so much. Arnon’s argument that being able to postponing
     architectural decisions is to good to be true is fairly compelling,
     and not just because he [quotes
-    me](http://www.devhawk.net/2007/08/14/Retire+The+Tenets.aspx) to
+    me](http://devhawk.net/2007/08/14/Retire+The+Tenets.aspx) to
     support his argument. But I’ll download it and provide further
     comment after I experiment with it myself.
 -   Simple Sharing Extensions is now
