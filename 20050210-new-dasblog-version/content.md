@@ -10,7 +10,7 @@ the blogs on that list to a new “friends and family” blogroll. I did add
 a link to the new [Archives](http://devhawk.net/archives.aspx) page,
 which lists all the posts I’ve ever made, by category. And I added flair
 links to add this blog to your [desktop
-newsreader](feed://devhawk.net/rss.ashx) of choice (that supports
+newsreader](http://devhawk.net/rss.ashx) of choice (that supports
 feed://) as well as to [My
 MSN](http://my.msn.com/addtomymsn.armx?id=rss&ut=http://devhawk.net/rss.ashx&ru=http://devhawk.net)
 and
