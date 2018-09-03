@@ -12,7 +12,7 @@ the [.netcpu](http://www.dotnetcpu.com/):
 
 Note the words “Embedded CLR“…i.e. I’m 99% sure this is the same CLR
 that powers the [SPOT watch](http://direct.msn.com/). [Rick
-Rashid](http://devhawk.net/www.microsoft.com/presspass/exec/rick) had
+Rashid](http://www.microsoft.com/presspass/exec/rick) had
 something in his OOPSLA keynote about this SDK. You can order the
 [.netcpu Starter Kit](http://www.dotnetcpu.com/products.aspx?3) for
 \$499 or just the [CPU module](http://www.dotnetcpu.com/products.aspx?7)
