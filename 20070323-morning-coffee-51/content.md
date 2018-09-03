@@ -1,5 +1,5 @@
 -   Visual Studio for DB Professionals – my [favorite new
-    part](http://feeds.feedburner.com/~r/Devhawk/~3/102926655/VSTDB+Where+Have+You+Been+All+My+Life.aspx)
+    part](http://devhawk.net/2007/03/20/VSTDB+Where+Have+You+Been+All+My+Life.aspx)
     of the Visual Studio – won a [JOLT
     award](http://www.knowing.net/PermaLink,guid,497576ed-8387-43aa-8f76-342484865b36.aspx).
     Congrats to the Data Dudes! (via

@@ -1,5 +1,5 @@
 -   My friend David “LetsKillDave” Weller [writes a long
-    post](http://feeds.feedburner.com/~r/LetsKillDave/~3/128471126/penny-arcade-s-jerry-quot-tycho-quot-holkins-gripes-about-microsoft-blogging-i-respond.aspx)
+    post](http://letskilldave.com/archive/2007/06/27/penny-arcade-s-jerry-quot-tycho-quot-holkins-gripes-about-microsoft-blogging-i-respond.aspx)
     on corporate blogging, responding to [comments on the
     subject](http://www.penny-arcade.com/2007/06/27#1182927600) from
     Penny Arcade. Andre “Ozymandias” Vrignaud [also

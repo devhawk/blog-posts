@@ -25,7 +25,7 @@
     notes. Hopefully they will post talks like they did [last
     year](http://www.langnetsymposium.com/speakers.asp).
 -   Speaking of languages, Scott Hanselman
-    [explains](http://feeds.feedburner.com/~r/ScottHanselman/~3/118922284/ProgrammerIntentOrWhatYoureNotGettingAboutRubyAndWhyItsTheTits.aspx)
+    [explains](http://www.hanselman.com/blog/ProgrammerIntentOrWhatYoureNotGettingAboutRubyAndWhyItsTheTits.aspx)
     why he thinks Ruby is “the tits”. Personally, on the scale between
     “I can’t see where Ruby is such hot shit” and “Ruby is the tits”,
     I’m somewhere near the middle, leaning towards tits. I love the

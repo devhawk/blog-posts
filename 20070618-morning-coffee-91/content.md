@@ -57,7 +57,7 @@
     it’s “not that similar” to my concept of REST, but I going to read
     the spec before I comment.
 -   Scott Hanselman
-    [writes](http://feeds.feedburner.com/~r/ScottHanselman/~3/125204676/TeachingChildrenAndKidsToProgramTheOldSchoolWay.aspx)
+    [writes](http://www.hanselman.com/blog/TeachingChildrenAndKidsToProgramTheOldSchoolWay.aspx)
     about how he learned to program and some thoughts about teaching his
     son. Patrick has recently started expressing interest in programming
     (he want’s to do what Daddy does). At four, I’m thinking I’ll start

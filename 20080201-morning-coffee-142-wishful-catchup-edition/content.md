@@ -38,7 +38,7 @@
     I’m much more interested in the DLR code generator, but at least the
     hosting interface is documented.
 -   Scott Hanselman has a [nice
-    post](http://feeds.feedburner.com/~r/ScottHanselman/~3/226341924/TheWeeklySourceCode14FluentInterfaceEdition.aspx)
+    post](http://www.hanselman.com/blog/TheWeeklySourceCode14FluentInterfaceEdition.aspx)
     on fluent interfaces. Note to self, find out if [Beautiful
     Soup](http://www.crummy.com/software/BeautifulSoup/) works with
     [IronPython](http://www.codeplex.com/IronPython).

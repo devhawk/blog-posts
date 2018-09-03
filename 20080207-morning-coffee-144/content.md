@@ -32,7 +32,7 @@
 > - [Mark Steyn, National
 > Review](http://corner.nationalreview.com/post/?q=NGUyNjRmZGQ2NzBiZjY5OTIwYTExMGVjMWYzZjc2YTY=) \
 > (via [Carpetbagger
-> Report](http://feeds.feedburner.com/~r/TheCarpetbaggerReport/~3/230563498/14495.html),
+> Report](http://www.thecarpetbaggerreport.com/archives/14495.html),
 > lest you think I regularly read National Review)
 
 -   Charlie Calvert is starting a new series on the future of C\#. First

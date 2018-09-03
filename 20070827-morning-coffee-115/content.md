@@ -35,7 +35,7 @@
     in the [FAA](http://www.faa.gov/) and he thinks FEA is too high
     level to be particularly useful.
 -   The [2007
-    edition](http://feeds.feedburner.com/~r/ScottHanselman/~3/147518722/ScottHanselmans2007UltimateDeveloperAndPowerUsersToolListForWindows.aspx)
+    edition](http://www.hanselman.com/blog/ScottHanselmans2007UltimateDeveloperAndPowerUsersToolListForWindows.aspx)
     version of [Scott Hanselman’s ultimate tool
     list](http://www.hanselman.com/tools) is now available.
 -   A bunch of [XNA Gamefest

@@ -19,7 +19,7 @@ on my recent SSB and WCF posts:
 > were not completely tied to the DB (or a single DB for that matter).
 
 Sam Gentile [follows
-up](http://feeds.feedburner.com/~r/SamGentile/~3/43478464/New-and-Notable-118.aspx):
+up](http://codebetter.com/blogs/sam.gentile/archive/2006/10/30/New-and-Notable-118.aspx):
 
 > In that same post, but I needed to call it out separate, Tomas
 > rightfully says, “I’d say SSSB is a good match only as long as the

@@ -31,7 +31,7 @@
 -   Speaking of the DLR, I know I mentioned [Martin Maly’s
     blog](http://blogs.msdn.com/mmaly/default.aspx) in my [Lang.NET
     Morning Coffee
-    Post](http://feeds.feedburner.com/~r/Devhawk/~3/226700178/Morning+Coffee+141+LangNET+08+Edition.aspx),
+    Post](http://devhawk.net/2008/01/31/Morning+Coffee+141+LangNET+08+Edition.aspx),
     but I didn’t actually get to read his posts on targeting the DLR
     until I unexpectedly had several days off sick. If you are at all
     interested in writing your own language for the .NET platform: [Go.
@@ -51,7 +51,7 @@
     code](http://www.quanttec.com/fparsec/). It’s taken me a little bit
     to learn FParsec, but so far I’m pretty happy with it.
 -   Scott Hanselman [points
-    to](http://feeds.feedburner.com/~r/ScottHanselman/~3/227718172/MSDeployNewIISWebDeploymentTool.aspx)
+    to](http://www.hanselman.com/blog/MSDeployNewIISWebDeploymentTool.aspx)
     the new [MS
     Deploy](http://blogs.iis.net/msdeploy/archive/2008/01/22/welcome-to-the-web-deployment-team-blog.aspx)
     project, a tool for managing content and configuration on web

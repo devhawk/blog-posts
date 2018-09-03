@@ -37,12 +37,12 @@
     it tells me they’re experiencing technical difficulties. (Their
     error page is Oops.aspx. Funny!)
 -   Scott Hanselman has [Programming Personas
-    2.0](http://feeds.feedburner.com/~r/ScottHanselman/~3/130939370/BeyondElvisEinsteinAndMortNewProgrammingStereotypesForWeb20.aspx).
+    2.0](http://www.hanselman.com/blog/BeyondElvisEinsteinAndMortNewProgrammingStereotypesForWeb20.aspx).
     Who are you? I thought I was and “Order n” Architect (the quote
     “Where’s the whiteboard” is spot on) but my CS background isn’t as
     strong as the persona’s.
 -   Sam Gentile is [starting to
-    dig](http://feeds.feedburner.com/~r/SamGentile/~3/131750053/parallel-computing-and-concurrency-on-net.aspx)
+    dig](http://codebetter.com/blogs/sam.gentile/archive/2007/07/08/parallel-computing-and-concurrency-on-net.aspx)
     into Concurrency and he has a great list of links that have
     influenced his design.
 

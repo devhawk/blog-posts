@@ -44,7 +44,7 @@
     to the mainstream or enterprise developer.
 -   Speaking of game development, David Weller points to all the [new
     XNA GS 2.0
-    content](http://feeds.feedburner.com/~r/LetsKillDave/~3/218525110/tons-of-content-for-xna-game-studio-2-0.aspx)
+    content](http://letskilldave.com/archive/2008/01/17/tons-of-content-for-xna-game-studio-2-0.aspx)
     up on [Creators Club Online](http://creators.xna.com/).
 -   There’s a [new version (1.9.3.14) of F\#
     out](http://research.microsoft.com/research/downloads/Details/7ac148a7-149b-4056-aa06-1e6754efd36f/Details.aspx),

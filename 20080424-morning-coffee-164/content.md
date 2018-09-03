@@ -84,7 +84,7 @@ Other Stuff
 -   I need to take a look at
     [VLinq](http://blogs.msdn.com/mitsu/archive/2008/04/02/visual-linq-query-builder-for-linq-to-sql-vlinq.aspx).
     Charlie and [Scott
-    Hanselman](http://feeds.feedburner.com/~r/ScottHanselman/~3/267517424/TheWeeklySourceCode23BigSolutionEdition.aspx)
+    Hanselman](http://www.hanselman.com/blog/TheWeeklySourceCode23BigSolutionEdition.aspx)
     both mentioned it recently.
 -   I would like to have been [in the
     conversation](http://blogs.tedneward.com/2008/04/16/Do+You+Fall+Prey+To+Technical+Folk+Etymology.aspx)

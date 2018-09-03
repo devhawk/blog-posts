@@ -50,7 +50,7 @@
     Architecture](http://pragdave.pragprog.com/pragdave/2007/03/the_radar_archi.html)
     yet, but the fact that DAR in the acronym stands for “Dumb-Ass
     Recipient” made me laugh. (via [Sam
-    Gentile](http://feeds.feedburner.com/~r/SamGentile/~3/109318225/New-and-Notable-157.aspx))
+    Gentile](http://codebetter.com/blogs/sam.gentile/archive/2007/04/15/New-and-Notable-157.aspx))
 -   MIT Media Lab has cointed the latest 2.0-ism: [Human
     2.0](http://h20.media.mit.edu/). I love Nick Carr’s [take on
     it](http://www.roughtype.com/archives/2007/04/mit_announces_h.php):

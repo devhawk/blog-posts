@@ -16,7 +16,7 @@ refactor service? How about refactoring your enterprise?
 As for the Achilles Heel “data problem”, I think that’s an artifact of
 the prevailing stateless request/response mindset most people have about
 services that I [touched
-on](http://feeds.feedburner.com/~r/Devhawk/~3/6182983/Services+Arent+Stateless.aspx)
+on](http://devhawk.net/2006/07/27/Services+Arent+Stateless.aspx)
 yesterday. I think Pat Helland
 [described](http://msdn.microsoft.com/library/en-us/dnbda/html/dataoutsideinside.asp)
 a very good approach for dealing with data in an SOA, but I haven’t seen

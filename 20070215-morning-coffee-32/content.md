@@ -12,7 +12,7 @@
     Service Oriented Stout? Architecture Ale? Programmer’s Porter? (you
     get the idea)
 -   Scott Hanselman provides a [detailed look at static
-    analysis](http://feeds.feedburner.com/~r/ScottHanselman/~3/91074204/ExitingTheZoneOfPainStaticAnalysisWithNDepend.aspx)
+    analysis](http://www.hanselman.com/blog/ExitingTheZoneOfPainStaticAnalysisWithNDepend.aspx)
     in general and NDepend in particular. I hereby coin the acronym
     YAGTSR, which stands for “Yet Another Great Tool Scott Recommends”.
 -   Jeff Atwood thinks we should [code

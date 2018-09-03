@@ -17,7 +17,7 @@ Of course, by far the most important thing that shipped at Mix09 was
 0.3](http://rubyforge.org/frs/download.php/53552/ironruby-0.3.0.zip).
 
 Jimmy has [the
-details](http://feedproxy.google.com/~r/jimmy-thinking/~3/ygbSDcv9_AU/ironruby-03-released.html)
+details](http://jimmy.schementi.com/2009/03/ironruby-03-released.html)
 on the new release and John Lam [did a talk at
 Mix](http://sessions.visitmix.com/MIX09/T22F) on dynamic languages in
 Silverlight. I haven’t seen an announcement, but it also looks like

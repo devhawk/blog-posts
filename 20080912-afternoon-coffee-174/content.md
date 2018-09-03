@@ -94,7 +94,7 @@ posts.
     be extremely useful. (via [Don
     Syme](http://blogs.msdn.com/dsyme/archive/2008/08/30/an-introduction-to-units-of-measure-by-andrew-kennedy.aspx))
 -   Oh look, Chris Smith built an [F\# version of artillery
-    game](http://feeds.feedburner.com/~r/ChrisSmithsCompletelyUniqueView/~3/383195149/simple-f-game-using-wpf.aspx)
+    game](https://blogs.msdn.microsoft.com/chrsmith/2008/09/04/simple-f-game-using-wpf/)
     that uses Units of Measure for the physics code. I’ll bet UoM was
     extremely useful.
     :smile:

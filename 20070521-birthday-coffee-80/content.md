@@ -32,7 +32,7 @@
     and Windows. We believe we can make Popfly a great tool for building
     and sharing applications on the Web.”
 -   Scott Hanselman
-    [wonders](http://feeds.feedburner.com/~r/ScottHanselman/~3/118288319/IsMicrosoftLosingTheAlphaGeeks.aspx)
+    [wonders](http://www.hanselman.com/blog/IsMicrosoftLosingTheAlphaGeeks.aspx)
     if Microsoft is losing the Alpha Geeks. In a related vein, I wonder
     if MS should be learning more aggressively from the community. MS
     has been the source of many developer innovations, but certainly not

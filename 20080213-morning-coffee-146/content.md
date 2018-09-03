@@ -43,7 +43,7 @@
     occasional one off stuff, but that’s it – so it doesn’t seem worth
     the effort.
 -   Speaking of Scott & Tomas, Scott also has a [nice gallery of VS
-    themes](http://feeds.feedburner.com/~r/ScottHanselman/~3/231269818/VisualStudioProgrammerThemesGallery.aspx).
+    themes](http://www.hanselman.com/blog/VisualStudioProgrammerThemesGallery.aspx).
     I’m partial to Tomas’ [Ragnarok
     Grey](http://www.winterdom.com/weblog/2007/10/13/RagnarokAVS2005ColorScheme.aspx).
     Is there a VSThemesGallery.com site somewhere?

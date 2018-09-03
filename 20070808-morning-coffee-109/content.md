@@ -18,7 +18,7 @@
     your PC – take your pick).
 -   Finally on the gaming front, if you’re not busy Monday you can
     [watch the first
-    day](http://feeds.feedburner.com/~r/LetsKillDave/~3/141730154/gamefest-webcasts-keynote-plus-first-day-of-xna-game-studio-track.aspx)
+    day](http://letskilldave.com/archive/2007/08/07/gamefest-webcasts-keynote-plus-first-day-of-xna-game-studio-track.aspx)
     of [Gamefest 2007](http://www.xnagamefest.com/) online. Get the
     scoop on XNA 2.0 as well as the new XNA networking support. I, alas,
     am busy Monday so I’ll have to catch it on demand.
