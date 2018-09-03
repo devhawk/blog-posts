@@ -4,7 +4,7 @@ blogging experience for all. Well, at least an improved blogging
 experience for me. You, you’re on your own.
 
 I [wrote two months
-ago](http://64.94.229.113/PermaLink.aspx?guid=344c6c7e-233f-4367-8787-9eea4c578ce8)
+ago](http://devhawk.net/PermaLink.aspx?guid=344c6c7e-233f-4367-8787-9eea4c578ce8)
 that I was planning a switch to dasBlog. I [helped
 out](http://staff.newtelligence.net/clemensv/PermaLink.aspx?guid=4fdf3142-1e5e-473f-a40a-5ff740e01a95)
 with a few features (so far just CDF support and comment deletion, but
@@ -27,9 +27,9 @@ submitted the Tagline code to dasBlog, but
 grounds that it pretty much a Harry-only feature.
 
 Since I haven’t got story support figured out, I’m just using static
-files for my [articles](http://64.94.229.113/articles.aspx),
-[projects](http://64.94.229.113/projects.aspx) and
-[presentations](http://64.94.229.113/presentations.aspx). DasBlog has a
+files for my [articles](http://devhawk.net/articles.aspx),
+[projects](http://devhawk.net/projects.aspx) and
+[presentations](http://devhawk.net/presentations.aspx). DasBlog has a
 feature called FormatPage for rendering static content inline with the
 weblog template. Combined with the built-in URL rewriting engine, I was
 able to create simple URLs for my static content. Unfortunately, I still
