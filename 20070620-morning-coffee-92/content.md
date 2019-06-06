@@ -27,7 +27,7 @@
     so he can include some information about how these services get
     built.
 -   Scott Hanselman
-    [tackles](http://feeds.feedburner.com/~r/ScottHanselman/~3/126242743/AssemblyFiefdomsWhatsTheRightNumberOfAssembliesLibraries.aspx)
+    [tackles](http://www.hanselman.com/blog/AssemblyFiefdomsWhatsTheRightNumberOfAssembliesLibraries.aspx)
     the tricky question of assembly granularity.
 -   [PowerShell
     Analyzer](http://powershell.com/store/index.php?act=viewProd&productId=2)

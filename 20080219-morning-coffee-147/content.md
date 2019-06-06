@@ -41,7 +41,7 @@
     students](http://www.mercurynews.com/ci_8302312) will be able to
     access the DreamSpark program too. However, since they’re minors,
     they have to get the software via their teachers. (via
-    [LiveSide](http://feeds.feedburner.com/~r/liveside/~3/237535721/microsoft-dreamspark-free-software-development-tools-for-students.aspx))
+    [LiveSide](http://www.liveside.net/blogs/main/archive/2008/02/19/microsoft-dreamspark-free-software-development-tools-for-students.aspx))
 -   The winners of the [XNA Silicon Minds
     contest](http://dreambuildplay.com/main/winners.aspx) have been
     announced. Of the five winners,

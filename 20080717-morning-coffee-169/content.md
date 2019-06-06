@@ -32,7 +32,7 @@
     Phil Haack has [a few
     details](http://haacked.com/archive/2008/07/16/aspnetmvc-codeplex-preview4.aspx)
     that ScottGu didn’t cover. Scott Hanselman shows off [some AJAX
-    stuff](http://feeds.feedburner.com/~r/ScottHanselman/~3/337456906/ASPNETMVCPreview4UsingAjaxAndAjaxForm.aspx).
+    stuff](http://www.hanselman.com/blog/ASPNETMVCPreview4UsingAjaxAndAjaxForm.aspx).
 -   Speaking of Scott Hanselman, he
     [highlights](http://www.hanselman.com/blog/LearningOpportunityNETTerrariumIsBack.aspx)
     the [return of

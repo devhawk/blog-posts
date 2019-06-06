@@ -10,7 +10,7 @@ is](http://sdlsdk.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=25120).
 There are some really cool new features including Silverlight 3
 Transparent Platform Extension support, In-Browser REPL and In-Browser
 testing of Silverlight apps. As with IronRuby 0.3, Jimmy [has the a
-summary](http://feedproxy.google.com/~r/jimmy-thinking/~3/MB3l79dtHsM/silverlight-dynamic-languages-sdk-05.html)
+summary](http://jimmy.schementi.com/2009/03/silverlight-dynamic-languages-sdk-05.html)
 of the new AgDLR release.
 
 One feature of the new release I did want to highlight was
