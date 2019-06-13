@@ -1,6 +1,7 @@
 ﻿{
   "slug": "practical-f-parsing-the-abstract-syntax-tree",
   "title": "Practical F# Parsing: The Abstract Syntax Tree",
+  "series": "Practical F# Parsing|practical-fsharp-parsing",
   "date": "2007-12-19T11:00:57-08:00",
   "modified": "2011-04-17T16:02:36-07:00",
   "csv-category-slugs": "Development|development",

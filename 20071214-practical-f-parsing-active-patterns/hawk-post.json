@@ -1,6 +1,7 @@
 ﻿{
   "slug": "practical-f-parsing-active-patterns",
   "title": "Practical F# Parsing: Active Patterns",
+  "series": "Practical F# Parsing|practical-fsharp-parsing",
   "date": "2007-12-14T10:11:03-08:00",
   "modified": "2011-04-17T16:03:04-07:00",
   "csv-category-slugs": "Development|development",

@@ -1,6 +1,7 @@
 ﻿{
   "slug": "practical-f-parsing-unit-testing",
   "title": "Practical F# Parsing: Unit Testing",
+  "series": "Practical F# Parsing|practical-fsharp-parsing",
   "date": "2007-12-12T11:40:37-08:00",
   "modified": "2011-04-17T16:03:55-07:00",
   "csv-category-slugs": "Development|development",
