@@ -1,6 +1,7 @@
 ﻿{
   "slug": "practical-parsing-in-f",
   "title": "Practical Parsing in F#",
+  "series": "Practical F# Parsing|practical-fsharp-parsing",
   "date": "2007-12-10T14:40:10-08:00",
   "modified": "2011-04-17T16:04:36-07:00",
   "csv-category-slugs": "Development|development",
