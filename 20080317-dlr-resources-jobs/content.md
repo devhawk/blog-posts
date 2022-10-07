@@ -15,7 +15,7 @@ team blog](http://blogs.msdn.com/ironpython/):
 -   [Dev and Test Job Openings on IronPython, IronRuby &
     F\#](http://blogs.msdn.com/ironpython/archive/2008/02/25/ironpython-ironruby-and-f-openings-in-dev-test-and-pm.aspx).
     We’re hiring, so if you’re interested in working on language
-    development @ MSFT, [drop me a line](mailto://harry@devhawk.net) and
+    development @ MSFT, [drop me a line](mailto:harry@devhawk.net) and
     I’ll make sure it gets to the right people. BTW, I hear the
     IronPython PM position [has been
     filled](http://devhawk.net/2008/03/11/joining-the-dynamic-languages-team/).

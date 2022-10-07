@@ -49,4 +49,4 @@ Or I might be able to use
 instead.
 
 Anyone have any ideas? If so, leave a comment or [drop me a
-line](mailto:hpierson_at_microsoft_dot_com).
+line](mailto:hpierson@microsoft.com).

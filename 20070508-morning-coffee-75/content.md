@@ -1,7 +1,7 @@
 -   3D Printing is going to be huge. [According to the
     NYT](http://www.nytimes.com/2007/05/07/technology/07copy.html?_r=1&oref=slogin),
     we’ll be looking at around \$1,000 for one within four years. For
-    the impatient, check out <Fab@Home> and build one *right now*.
+    the impatient, check out Fab@Home and build one *right now*.
 -   It’s [been a
     while](http://devhawk.net/2003/12/18/p2p-revisited/) since I
     experimented with the P2P stack in Windows, but it looks like it’s

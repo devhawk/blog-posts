@@ -45,7 +45,7 @@ new stuff. Here’s a roundup of stuff I’ve been tracking:
     demo](http://msdn.microsoft.com/practices/narrator/narratorstart.html)
     of the GBI Narrator. Of course, the flash demo doesn’t connect to a
     running system, but it’s otherwise a very similar experience to the
-    “real” narrator. [Let us know](mailto:hpiersonATmicrosoftDOTcom) what
+    “real” narrator. [Let us know](mailto:hpierson@microsoft.com) what
     you think of this approach.
 -   Lots of other people have linked to the new [VSTO
     Outlook](http://www.microsoft.com/downloads/details.aspx?familyid=74b56c72-7a1f-431f-a29c-58eb39e97a86&displaylang=en)
