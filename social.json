@@ -1,0 +1,34 @@
+[
+    {
+        "href": "mailto:devhawk@outlook.com",
+        "text": "email"
+    },
+    {
+        "href": "skype:harrypierson",
+        "text": "skype"
+    },
+    {
+        "href": "https://github.com/devhawk/",
+        "text": "github"
+    },
+    {
+        "href": "http://stackoverflow.com/users/1179731/devhawk",
+        "text": "stack overflow"
+    },
+    {
+        "href": "http://twitter.com/devhawk",
+        "text": "twitter"
+    },
+    {
+        "href": "http://facebook.com/devhawk",
+        "text": "facebook"
+    },
+    {
+        "href": "https://www.linkedin.com/in/harrypierson",
+        "text": "linkedin"
+    },
+    {
+        "href": "https://www.instagram.com/devhawk/",
+        "text": "instagram"
+    }
+]
