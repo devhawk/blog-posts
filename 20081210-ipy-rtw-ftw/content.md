@@ -1,5 +1,5 @@
 ::: image-left
-[![image](http://image.devhawk.net/blog-content/20081210-ipy-rtw-ftw/image_5.png "image")](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365) 
+[![image](image_5.png "image")](http://www.codeplex.com/IronPython/Release/ProjectReleases.aspx?ReleaseId=8365) 
 :::
 
 This is a very pretty sight. It’s a screenshot from the IronPython CodePlex

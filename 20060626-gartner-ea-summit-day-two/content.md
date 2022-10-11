@@ -13,7 +13,7 @@ will have me back next year with twelve months of my new project under
 my belt.
 
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20060626-gartner-ea-summit-day-two/img393_small.jpg)](http://image.devhawk.net/blog-content/20060626-gartner-ea-summit-day-two/img393.jpg)
+[![](img393_small.jpg)](img393.jpg)
 :::
 
 One suggestion for the Gartner folks. Next year, don’t pick a logo with

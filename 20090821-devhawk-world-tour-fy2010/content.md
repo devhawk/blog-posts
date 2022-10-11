@@ -10,7 +10,7 @@ There are several other conferences I’m considering, submitting sessions
 for, in discussions with, but these are the ones that are confirmed.
 
 ::: image-right
-[![250px-Dannebrog](http://image.devhawk.net/blog-content/20090821-devhawk-world-tour-fy2010/250px-Dannebrog_3.jpg "250px-Dannebrog")](http://www.microsoft.com/danmark/mdcc/news/ironpython.mspx)
+[![250px-Dannebrog](250px-Dannebrog_3.jpg "250px-Dannebrog")](http://www.microsoft.com/danmark/mdcc/news/ironpython.mspx)
 :::
 **Danish University Tour, Sept 7-11**\
 My FY10 travels first take me to Copenhagen, where I was invited by the
@@ -40,7 +40,7 @@ there’s also some interest in language development on the DLR so I’ll be
 talking on that topic as well.
 
 ::: image-right
-![](http://image.devhawk.net/blog-content/20090821-devhawk-world-tour-fy2010/n79454152413_3738_thumb.png)
+![](n79454152413_3738_thumb.png)
 :::
 **[patterns & practices Summit Redmond 2009](http://www.pnpsummit.com/west2009/west2009.aspx), Oct 12-16**\
 This will be my third p&p Summit in a row and fourth in five years. This
@@ -65,7 +65,7 @@ year.
 > engineering efforts.
 
 ::: image-right
-![TechEd\_Europe\_2009](http://image.devhawk.net/blog-content/20090821-devhawk-world-tour-fy2010/TechEd_Europe_2009_3.png "TechEd_Europe_2009")
+![TechEd\_Europe\_2009](TechEd_Europe_2009_3.png "TechEd_Europe_2009")
 :::
 **[Tech·Ed Europe 2009](https://www.msteched.com/europe/Public/default.aspx), Nov 9-13**\
 I knew I was going to be updating this post over time, but I didn’t
@@ -96,7 +96,7 @@ university talk while I’m in town. Any takers?
 
 ::: image-right
 ![Find out what's
-next](http://image.devhawk.net/blog-content/20090821-devhawk-world-tour-fy2010/PDC09Bling_General_WhatsNext_136.jpg) 
+next](PDC09Bling_General_WhatsNext_136.jpg) 
 :::
 **~~[Microsoft Professional Developers Conference 2009](http://microsoftpdc.com/), Nov 17-19~~**\
 **Update**:
@@ -119,7 +119,7 @@ submit a talk for~~ [~~SoCal Code Camp~~](http://www.lacodecamp.com/)
 ~~as well.~~
 
 ::: image-right
-![pycon logo](http://image.devhawk.net/blog-content/20090821-devhawk-world-tour-fy2010/pycon_logo_thumb.gif "pycon_logo")
+![pycon logo](pycon_logo_thumb.gif "pycon_logo")
 :::
 **[PyCon 2010](http://us.pycon.org/2010/about/), Feb 19-21**\
 This will also be my third PyCon in a row, though PyCon last year was a

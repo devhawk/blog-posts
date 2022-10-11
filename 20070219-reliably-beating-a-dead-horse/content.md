@@ -55,7 +55,7 @@ result not to completely live up to the original vision. But I have a
 specific requirements in this case, so I wanted to know more.
 
 ::: image-right
-[![](http://image.devhawk.net/blog-content/20070219-reliably-beating-a-dead-horse/mq_integration_thumb.png)](http://image.devhawk.net/blog-content/20070219-reliably-beating-a-dead-horse/mq_integration.png)
+[![](mq_integration_thumb.png)](mq_integration.png)
 :::
 
 By calling it “misnamed”, it sounds like WS-RM was never really intended

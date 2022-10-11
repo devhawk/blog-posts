@@ -1,5 +1,5 @@
 ::: image-right
-[![](http://image.devhawk.net/blog-content/20050310-the-story-of-a-fierce-bad-rabbit/PotBad13_thumbnail.jpg)](http://image.devhawk.net/blog-content/20050310-the-story-of-a-fierce-bad-rabbit/PotBad13.jpg)
+[![](PotBad13_thumbnail.jpg)](PotBad13.jpg)
 :::
 
 [Matt](http://www.technovangelist.com/) got [this

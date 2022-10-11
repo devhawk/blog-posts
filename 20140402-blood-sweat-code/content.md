@@ -1,5 +1,5 @@
 ::: image-left
-[![CNN](http://image.devhawk.net/blog-content/20140402-blood-sweat-code/CNN-300x190.jpg)](http://image.devhawk.net/blog-content/20140402-blood-sweat-code/CNN.jpg) 
+[![CNN](CNN-300x190.jpg)](CNN.jpg) 
 :::
 
 Today was a \***HUGE**\* thrill as I got to present in the keynote at

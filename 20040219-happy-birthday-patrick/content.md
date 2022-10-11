@@ -1,5 +1,5 @@
 ::: image-right
-[![](http://image.devhawk.net/blog-content/20040219-happy-birthday-patrick/CakeThumbnail1.jpg)](http://image.devhawk.net/blog-content/20040219-happy-birthday-patrick/CakeFullSize.jpg)
+[![](CakeThumbnail1.jpg)](CakeFullSize.jpg)
 :::
 
 Almost exactly year ago, my life was changed forever by the

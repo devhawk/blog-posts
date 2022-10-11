@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20040211-teched-architecture-track/teched2004.gif)](http://go.microsoft.com/?LinkID=404299)
+[![](teched2004.gif)](http://go.microsoft.com/?LinkID=404299)
 :::
 
 For those who read my site in a news reader, I added a TechEd 2004 flair

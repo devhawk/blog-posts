@@ -1,6 +1,6 @@
 ::: image-right
 [![Michael K. Lee as
-Tommy](http://image.devhawk.net/blog-content/20070509-that-deaf-dumb-and-blind-kid-sure-plays-a-mean-pinball/TOMMY_pre-press_3.jpg)](http://www.villagetheatre.org/mainstage_tommy07.shtml)
+Tommy](TOMMY_pre-press_3.jpg)](http://www.villagetheatre.org/mainstage_tommy07.shtml)
 :::
 
 Last night, I got to see the final dress rehearsal of [The Who’s

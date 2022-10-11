@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20060606-number-one-sydney-picture-on-windows-live-and-google/TouringSydneyMonday_small.jpg)](http://image.devhawk.net/blog-content/20060606-number-one-sydney-picture-on-windows-live-and-google/TouringSydneyMonday.jpg)
+[![](TouringSydneyMonday_small.jpg)](TouringSydneyMonday.jpg)
 :::
 
 I typically don’t [search Technorati for incoming

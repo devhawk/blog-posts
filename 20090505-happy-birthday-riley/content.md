@@ -1,5 +1,5 @@
 ::: image-right
-[![](http://image.devhawk.net/blog-content/20090505-happy-birthday-riley/HappyBdayRiley_thumb.jpg)](http://image.devhawk.net/blog-content/20090505-happy-birthday-riley/HappyBdayRiley.jpg) 
+[![](HappyBdayRiley_thumb.jpg)](HappyBdayRiley.jpg) 
 :::
 
 Today is my daughter Rileyanne’s fourth birthday. She was born on 5-5-05 (at

@@ -1,5 +1,5 @@
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/AlbertParkPDT-4-small.jpg)](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/AlbertParkPDT-4.jpg)
+[![](AlbertParkPDT-4-small.jpg)](AlbertParkPDT-4.jpg)
 :::
 
 [TechEd New Zealand](http://www.microsoft.com/nz/teched) is at the Sky City
@@ -48,15 +48,15 @@ variety of fried food – fish, chicken and crab. They sure like fried
 food here – at dinner last night, we were served fried mashed potatoes.
 
 ::: image-right
-[![](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-61-small.jpg)](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-61.jpg)\
-[![](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-20-small.jpg)](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-20.jpg)\
-[![](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-85-small.jpg)](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-85.jpg)
+[![](HobbitonNZT-61-small.jpg)](HobbitonNZT-61.jpg)\
+[![](HobbitonNZT-20-small.jpg)](HobbitonNZT-20.jpg)\
+[![](HobbitonNZT-85-small.jpg)](HobbitonNZT-85.jpg)
 :::
 
 ::: image-left
-[![](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-24-small.jpg)](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-24.jpg)\
-[![](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-55-small.jpg)](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-55.jpg)\
-[![](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-70-small.jpg)](http://image.devhawk.net/blog-content/20040801-hanging-in-hobbiton/HobbitonNZT-70.jpg)
+[![](HobbitonNZT-24-small.jpg)](HobbitonNZT-24.jpg)\
+[![](HobbitonNZT-55-small.jpg)](HobbitonNZT-55.jpg)\
+[![](HobbitonNZT-70-small.jpg)](HobbitonNZT-70.jpg)
 :::
 
 While most of [LOTR](http://lordoftherings.net/) was filmed on the

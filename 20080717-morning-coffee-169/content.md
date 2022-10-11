@@ -1,6 +1,6 @@
 -   [Check out the crowd](http://peerlessprognosticator.blogspot.com/2008/07/sro-at-kcidevelopment-camp-closes.html)
 	::: image-right
-	[![](http://image.devhawk.net/blog-content/20080717-morning-coffee-169/071208_development_camp009.JPG)](http://peerlessprognosticator.blogspot.com/2008/07/sro-at-kcidevelopment-camp-closes.html)
+	[![](071208_development_camp009.JPG)](http://peerlessprognosticator.blogspot.com/2008/07/sro-at-kcidevelopment-camp-closes.html)
 	:::
 	for a the Washington Capitals developmental camp scrimmage last week
     (My parents are in their somewhere). Standing room only in the

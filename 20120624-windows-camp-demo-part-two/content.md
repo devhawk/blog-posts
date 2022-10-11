@@ -235,7 +235,7 @@ private async void Button_Click_1(object sender, RoutedEventArgs e)
 
 And it works!
 
-[![](http://image.devhawk.net/blog-content/20120624-windows-camp-demo-part-two/WCDemo2-RunningApp-300x187.png "WCDemo2-RunningApp")](http://image.devhawk.net/blog-content/20120624-windows-camp-demo-part-two/WCDemo2-RunningApp.png)
+[![](WCDemo2-RunningApp-300x187.png "WCDemo2-RunningApp")](WCDemo2-RunningApp.png)
 
 And that’s the entire demo. About 20 lines of code to wrap a
  pre-existing library function and make it available to other languages

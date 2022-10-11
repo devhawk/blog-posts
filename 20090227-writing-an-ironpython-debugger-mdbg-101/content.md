@@ -26,7 +26,7 @@ making it available to any managed language, including IronPython.
 
 The basic design of MDbg looks like this:
 
-![image](http://image.devhawk.net/blog-content/20090227-writing-an-ironpython-debugger-mdbg-101/mdbg_layers.png)
+![image](mdbg_layers.png)
 
 At the bottom is the “raw” assembly, which contains the C\# definitions
 of the unmanaged debugger API – basically anything that starts with

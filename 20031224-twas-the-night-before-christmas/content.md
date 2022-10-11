@@ -1,5 +1,5 @@
 ::: image-right
-[![Patrick and Santa](http://image.devhawk.net/blog-content/20031224-twas-the-night-before-christmas/PatrickWithSanta_thumb.JPG)](http://image.devhawk.net/blog-content/20031224-twas-the-night-before-christmas/PatrickWithSanta.JPG)
+[![Patrick and Santa](PatrickWithSanta_thumb.JPG)](PatrickWithSanta.JPG)
 :::
 
 My son (pictured with Santa) finally fell asleep for his first Christmas

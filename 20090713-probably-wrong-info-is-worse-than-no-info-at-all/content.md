@@ -1,7 +1,7 @@
 Like many geeks, I love [Dilbert](http://dilbert.com/). However, I
 rarely identify with it as well as I did Sunday.
 
-[![](http://image.devhawk.net/blog-content/20090713-probably-wrong-info-is-worse-than-no-info-at-all/60359.strip.sunday.gif)](http://dilbert.com/strip/2009-07-12)
+[![](60359.strip.sunday.gif)](http://dilbert.com/strip/2009-07-12)
 
 I kid you not, I’ve had almost exactly this conversation back when I
 worked in MS IT. They have this big repository of information about

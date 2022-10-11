@@ -1,5 +1,5 @@
 ::: image-right
-![RayTracer](http://image.devhawk.net/blog-content/20031223-live-on-xbox/gamertag.gif)
+![RayTracer](gamertag.gif)
 ::: 
 
 After months of having my [XBOX](http://xbox.com/) hooked up on my [big

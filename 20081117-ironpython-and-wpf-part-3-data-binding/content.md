@@ -54,7 +54,7 @@ If you look at the [top level WL Spaces photos
 feed](http://techiewife.spaces.live.com/photos/feed.rss), you’ll see
 that each item’s title starts with “Photo Album:”. Yet in the
 [screenshot of my
-app](http://image.devhawk.net/blog-content/20081117-ironpython-and-wpf-part-3-data-binding/ipywpf-image_4.png),
+app](ipywpf-image_4.png),
 you’ll notice that I’ve stripped that redundant text out of the title.
 Typically, if you want to change the bound value during the binding
 process, you build an
