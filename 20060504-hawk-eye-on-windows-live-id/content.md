@@ -17,4 +17,4 @@ beta](http://spaces.msn.com/messengersays/Blog/cns!5B410F7FD930829E!14406.entry)
 new features, better perf and a more polished experience. AFAIK, you
 still need to be invited to join the beta. I have a bunch of invites –
 if you want one, [drop me a
-line](mailto:harry@devhawk.net?subject=WLM%20Invite).
+line](mailto:devhawk@outlook.com?subject=WLM%20Invite).

@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2006-02-16T10:39:41-08:00",
     "content": "I believe your understanding of RSS to be flawed. If you read the 2.0 spec, you'll notice that there are no assumptions baked into the spec. Sure, it's primarily used for weblogs, but RSS doesn't mandate weblogs. For example, your point about pubDate is incorrect. PubDate, like all other defined item elements, is optional. \n\nFrom the link you left in your last post, it's pretty clear you were looking at the 1.0 version of the RSS spec which was significantly more verbose. Have you looked at the 2.0 spec?\n\nI'm not looking at multimedia through RSS-colored glasses. I'm seeing yet another list format that is semantically similar but syntactically different from RSS. That means that instead of using well known (and well tested) RSS libraries to process playlist feeds, I have to write everything from scratch. That creates more bugs, not less.\n\nGiven the popularity of podcasting - which of course uses RSS as the feed format - RSS for multimedia seems to be working well already. From my reading of the spec, an XPSF feed is basically an RSS feed without some of the elements that are optional in RSS anyway. "

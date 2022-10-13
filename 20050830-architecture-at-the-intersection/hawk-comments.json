@@ -18,7 +18,7 @@
     "author-email": "james@dozingdogs.com",
     "author-url": "http://www.coveryourasp.net",
     "date": "2005-08-31T05:50:36-07:00",
-    "content": "Hey Harry, your mailbox is sending out:\n\nFinal-Recipient: rfc822;harry@devhawk.net\nAction: failed\nStatus: 5.5.0\nDiagnostic-Code: smtp;552 Mailbox size limit exceeded\n\nOf course, I don't know if you'll get this either, but please send me an alternate email.. Thanks!"
+    "content": "Hey Harry, your mailbox is sending out:\n\nFinal-Recipient: rfc822;devhawk@outlook.com\nAction: failed\nStatus: 5.5.0\nDiagnostic-Code: smtp;552 Mailbox size limit exceeded\n\nOf course, I don't know if you'll get this either, but please send me an alternate email.. Thanks!"
   },
   {
     "author-name": "Neil Macehiter",

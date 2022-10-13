@@ -38,4 +38,4 @@ thinking of adding support for
 [GamerScoreChart.com](http://gamerscorechart.com/).
 
 Download [GamerCard.WriterPlugin.Setup.zip (142.41 KB)](http://cid-0d9bc809858885a4.office.live.com/self.aspx/DevHawk%20Content/BlogFiles/GamerCard.WriterPlugin.Setup.zip)
-and enjoy. [Let me know](mailto:harry@devhawk.net) what you think.
+and enjoy. [Let me know](mailto:devhawk@outlook.com) what you think.

@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2004-01-30T23:32:38-08:00",
     "content": "Chris, we're in violent agreement. OO is the way to go inside the service and you KNOW I am a big fan of the .NET framework. Ram's opinion on abstraction levels was right on the money - I didn't reiterate since he did such a great job. Part of what I'm saying is that some OO ideas - i.e. the entity / control seperation - also work in an Service-Oriented (SO?) world. \n\nThe problem is that many people still don't see the value of SO systems. Advocating an OO/SO balanced viewpoint over a pure OO one does sometimes look like OO hatemail. I didn't mean it to be. \n\nHey, shouldn't you be writing this on a blog of your own? :)"

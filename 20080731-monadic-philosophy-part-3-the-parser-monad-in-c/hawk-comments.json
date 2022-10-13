@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2008-08-01T12:58:11-07:00",
     "content": "Yeah, there's not a direct match between Bind and Result as I defined them and C#'s Query comprehension syntax, so I decided to skip discussing Luke's post (for now). But as you rightly point out, F#'s monadic syntax rocks (as we'll see in my next post!)"

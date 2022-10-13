@@ -1,6 +1,6 @@
 After a week offline, I think I’ve finally gotten DevHawk back online.
 I’m having a few issues from my personal laptop, so if you’re having
-issues seeing the site, please [let me know](mailto:harry@devhawk.net).
+issues seeing the site, please [let me know](mailto:devhawk@outlook.com).
 
 I took the downtime to make a few changes to the site. I fixed up a few
 things with the theme – I run 120 DPI on both my machines and the theme

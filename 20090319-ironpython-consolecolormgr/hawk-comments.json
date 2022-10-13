@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2009-03-20T13:45:26-07:00",
     "content": "Woops, thanks for pointing out my mistake Christoper. I've updated the code to include the __future__ import.\n\nAs for that xmlwriter article, that was the inspiration for this approach!"

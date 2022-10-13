@@ -42,4 +42,4 @@ antenna wherever there’s a cable jack. Anyone have any experience with
 that product?
 
 Anyone who wants to give me free advice, feel free to leave a comment or
-[drop me a line](mailto:harry@devhawk.net). Thanks in advance.
+[drop me a line](mailto:devhawk@outlook.com). Thanks in advance.

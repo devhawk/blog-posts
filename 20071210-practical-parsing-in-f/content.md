@@ -49,7 +49,7 @@ is shaping up (though this is subject to change):
 I was originally planning to post the code for the parser itself with
 this post. However, i find that I’m revising the code as I write the
 articles in this series, so I’m going to hold off for now. If you’re
-really desperate, [drop me a line](mailto:harry@devhawk.net) and I’ll
+really desperate, [drop me a line](mailto:devhawk@outlook.com) and I’ll
 see what I can do.
 
 **Update**: Almost forgot, if you’re going to follow along at home, I’m

@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2009-04-02T15:15:19-07:00",
     "content": "Lambdas would work just fine, but they are limited to be expressions only. If you can do everything you need in a single expression, using a lambda would be fine. "

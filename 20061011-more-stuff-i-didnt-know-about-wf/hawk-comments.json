@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2006-10-13T22:59:31-07:00",
     "content": "I'm not sure I would call WF's transactions a toy. It certainly could be better - the stuff I'm working on right now I'd like to flow the Tx from outside the workflow (i.e. in a WF Service) into the Workflow, but I don't think there's any way to do that. \n\nThen again, on the other hand, transactions are really hard and easy to screw up. So maybe having specific boundaries to what you can and can't do in a workflow is a good thing?\n\nA MemoryPersistenceService? That's funny..."

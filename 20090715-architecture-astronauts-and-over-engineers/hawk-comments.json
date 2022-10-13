@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2009-07-17T07:24:34-07:00",
     "content": "@Michael, as I've said above \"I will readily admit that often a single person is responsible for both architecture and engineering. But that doesn't make them the same activity.\"\n\n@Eric, I never intimated that \"that use of interfaces, respect for visibility of type members and use of dependency injection\" == over-engineering. There are good reasons to use those techniques that has exactly zero to do with thinking you can predict the future. There's good engineering and then there's over engineering. I guess that's will be the subject of my next Architecture post!"

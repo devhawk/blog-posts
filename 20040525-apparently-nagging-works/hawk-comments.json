@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2004-06-02T20:02:52-07:00",
     "content": "Greg, thanks for pointing out the ATOM url.\n\nJoshua, as with all things, there is a middle ground between the model-every-last-detail and the just-start-coding approaches. It really depends on what you're building. The approach taken to construct a doghouse is very different from constructing a skyscraper. Likewise, you would take different approaches to building an ERP system vs. the company picnic registration system. The bigger the problem to solve, the better off modeling the problem and solution first. "

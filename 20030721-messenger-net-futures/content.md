@@ -1,6 +1,6 @@
 Two things have revived my interest in
 [Messenger.NET](prj_messenger.aspx) (though it needs a new name – [any
-suggestions](mailto:harry@devhawk.net)?).
+suggestions](mailto:devhawk@outlook.com)?).
 [Jamie’s](http://weblogs.asp.net/NUnitAddin/) [addin](http://www.managedaddins.net/gallery/)
 and the upcoming release of [RTC Client API
 v1.2](http://msdn.microsoft.com/library/en-us/rtcclnt/rtc/real_time_communications_rtc_client_start_page.asp).

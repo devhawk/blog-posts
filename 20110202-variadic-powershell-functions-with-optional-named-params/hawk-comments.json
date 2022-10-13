@@ -22,7 +22,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2011-02-03T10:17:42-08:00",
     "content": "@Barry - you can set the ambient shell environment in powershell ($env:PYTHONPATH = /whatever/you/like) but I'm not aware of way to apply the environment changes to a forked process w/o affecting the current one. I would suspect it's possible, but it's not out of the box AFAIK.\n\n@Michael - I didn't know about .pth files - I'll take a look at that!"

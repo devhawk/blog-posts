@@ -7,7 +7,7 @@ smoother:
 -   Add Users
 
 The only even slightly tricky point is that I had set up a passport for
-<harry@devhawk.net> in the distant past and long forgotten the password.
+<devhawk@outlook.com> in the distant past and long forgotten the password.
 However, Custom Domains allows be to “evict” a user from the domain so I
 was able to recreate it with little trouble.
 

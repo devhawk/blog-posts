@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2011-05-24T09:39:51-07:00",
     "content": "@gautam, The code in this post is C#. There is a managed version of C++ (aka <a href=\"http://en.wikipedia.org/wiki/C%2B%2B/CLI\" rel=\"nofollow\">C++/CLI</a>) but I don't think it works with ASP.NET."
@@ -43,7 +43,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2011-06-01T22:08:17-07:00",
     "content": "With an async controller, you can choose which of your controller methods are async and which are sync - they don't all have to be sync.\n\nAs for DownloadStringTaskAsync, it's provided as part of the Async CTP and works with any site that DownloadString would work with AFAIK"

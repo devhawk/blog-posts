@@ -59,4 +59,4 @@ Symposium a raging success. Please let us know how we can continue and
 improve this for future conferences. You can reach me via the info on my
 [virtual business
 card](http://devhawk.net/2003/10/13/reading-writing-and-business-cards/) or you
-can reach me on IM @ <harry@devhawk.net>.
+can reach me on IM @ <devhawk@outlook.com>.

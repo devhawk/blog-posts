@@ -36,7 +36,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2009-08-26T23:14:26-07:00",
     "content": "@Dody, I was leaning that way as well.\n\n@Joe, I don't see why you couldn't setup the route table in HttpApplication::Init. And since Init is virtual, that would solve the App_Start reflection problem. However, I'm not sure how to inject IronPython into the ASP.NET pipeline that early or how to configure an HttpApplication subclass without using global.asax. I'll ask around with my friends on the ASP.NET team though. Thanks for the suggestion!"

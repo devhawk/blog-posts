@@ -21,7 +21,7 @@ bought, installed and run yourself but instead now can access over the
 network where someone else is responsible for installing and running it.
 For example, instead of buying, setting up and managing my own mail
 server to handle a [single @devhawk.net email
-address](mailto:harry@devhawk.net), I use the [WL Custom
+address](mailto:devhawk@outlook.com), I use the [WL Custom
 Domains](http://domains.live.com/) service.
 
 SOA on the other hand isn’t a model of software delivery, it’s a model

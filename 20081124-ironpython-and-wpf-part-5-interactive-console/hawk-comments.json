@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2008-11-26T21:50:48-08:00",
     "content": "@lukas, I tried using the ThreadPool instead of manually spinning up a thread and it crashed. At least for WPF, the UI objects must be created on an STA thread and the ThreadPool threads are all MTA. \n\nAs for not caring about Invoke, this code does not work without the command dispatcher calling Invoke. Just for kicks, I tried commenting it out and I get a \"The calling thread cannot access this object because a different thread owns it.\" if I try to interact with the WPF objects in any way. \n\nI see from your blog entry that you're using WinForms not WPF, but I'm 99% sure the rules are the same. From http://msdn.microsoft.com/en-us/library/system.windows.forms.control.invokerequired.aspx: \"Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, if you are calling a control's method from a different thread, you must use one of the control's invoke methods to marshal the call to the proper thread.\""

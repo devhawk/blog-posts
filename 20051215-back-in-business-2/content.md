@@ -9,4 +9,4 @@ much a test post as anything else.
 
 One quick note, thanks to the relatively-new [Windows Live Custom
 Domains](http://domains.live.com/), my [blog
-email](mailto:harry@devhawk.net) is also working again.
+email](mailto:devhawk@outlook.com) is also working again.

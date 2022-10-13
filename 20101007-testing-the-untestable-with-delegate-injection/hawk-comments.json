@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2010-10-08T09:45:48-07:00",
     "content": "Using TypeMock or JustMock might be easier, but I don't think they're widely used due to their price tag. \n\nI'm curious why you think this is spaghetti. I mean, I get why this might feel strange if you're not familiar with functional programming. But spaghetti to me is \"complex and tangled control structure\" (Wikipedia). The control structure here is very straightforward - one layer of abstraction in order to be able to test the untestable intrinsics.\n"
@@ -22,7 +22,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2010-10-08T14:55:23-07:00",
     "content": "Mocking delegates will be supported in Moq v4 (http://code.google.com/p/moq/issues/detail?id=235) including support for testing that a certain delegate was called exactly X times or that it was called with certain input parameters, etc."

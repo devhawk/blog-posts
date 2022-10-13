@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2007-08-09T13:56:45-07:00",
     "content": "Thomas, that's an interesting implementation. However, this works because your implementation class doesn't inherit from the base class. Removing that restriction makes solving the problem fairly straightforward. \n\nPlus, the way you built this makes constructing a your constructor fairly cumbersome. I'm sure the WCF team wouldn't want to force all developers to construct two objects every time they need to create a service host."

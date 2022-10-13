@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2007-08-09T17:03:28-07:00",
     "content": "\"Copying bad code and modifying it slightly to fit your needs tends to carry the problems instead of offering desired solutions.\" \n\nI don't know for sure, but I'd bet that's probably how the ServiceHostBase design got broken in the first place! "

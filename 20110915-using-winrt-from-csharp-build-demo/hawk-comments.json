@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2011-09-19T13:56:10-07:00",
     "content": "Glad you liked the talk Volker! As I said in the talk, WinRT is built on a foundation of COM. So, yes, whenever you use WinRT from C#, you're using COM interop and RCWs (I'm assuming you meant \"RCW\" aka Runtime Callable Wrapper when you wrote \"RTW stuff\".)\n\nAs you might imagine, I took the weekend off, but I'll be surfing the forums regularly answering questions in the future."
@@ -36,7 +36,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2011-09-23T19:57:56-07:00",
     "content": "1) I'm not sure how compelling a pure XAML app would be. But Windows XAML does not depend on .NET. If you build a Metro style app with XAML and C++, you don't load the CLR.\n\n2) No, JS only works with HTML."

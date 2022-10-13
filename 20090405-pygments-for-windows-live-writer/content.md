@@ -59,7 +59,7 @@ Some features I’m thinking about adding:
     With the Python work I do, I often need to be able to select a bunch
     of text and change it’s indenting via tab and shift-tab. If anyone
     has a suggestion for a good WinForms text editing control, [let me
-    know](mailto:harry@devhawk.net).
+    know](mailto:devhawk@outlook.com).
 -   Being able to specify the font and size of the Pygmented code.
 -   Storing user preferences – remembering the most recent syntax and
     color scheme the user used.

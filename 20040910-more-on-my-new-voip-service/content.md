@@ -19,4 +19,4 @@ I figure I’ll be completely switched over in a month or so.
 
 BTW, like other VoIP vendors, Lingo offers incentives to sign up your
 friends. If you want Lingo and an extra \$25 credit, [drop me a
-line](mailto:harry@devhawk.net?subject=I%20Want%20Lingo).
+line](mailto:devhawk@outlook.com?subject=I%20Want%20Lingo).

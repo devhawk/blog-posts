@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2005-02-28T18:52:06-08:00",
     "content": "Charles, I'm not sure I'd call this a diatribe, but your point is well taken. I did not realize you can use OCL to constrain the model - in the discussion that we had at the IASA user group meeting last week, that idea was rejected by those that use UML tools in this way as \"not working very well\". So maybe they're just using the wrong tool. \n\nEither way, as you point out, you end up with a DSL! My primary point is that how more similar these approachs are than they are different."

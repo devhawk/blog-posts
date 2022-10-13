@@ -1,7 +1,7 @@
 I recently had to repave my main machine. Among other things I installed
 [MSN Premium](http://join.msn.com/?pgmarket=en-us&page=byoa/prem) which
 I use to manage my [hotmail](mailto:harrypierson@hotmail.com) and
-[DevHawk](mailto:harry@devhawk.net) emails. However, this time I
+[DevHawk](mailto:devhawk@outlook.com) emails. However, this time I
 installed the [Outlook Connector for
 MSN](http://join.msn.com/?pgmarket=en-us&page=features/connector), which
 enables you to use Outlook 2002 or later to manage your hotmail account.

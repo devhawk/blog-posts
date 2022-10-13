@@ -10,7 +10,7 @@ namespace. According to the profile draft, using a default namespace
 should be considered “optionally permissible”. [RSS
 Bandit](http://www.gotdotnet.com/Community/Workspaces/Workspace.aspx?id=cb8d3173-9f65-46fe-bf17-122e3703bb00)
 handled the updates. Since I’m curious, [email
-me](mailto:harry@devhawk.net?subject=My%20News%20Reader%20doesn't%20handle%20the%20DevHawk%20RSS%20Feed)
+me](mailto:devhawk@outlook.com?subject=My%20News%20Reader%20doesn't%20handle%20the%20DevHawk%20RSS%20Feed)
 if your reader doesn’t.
 
 I also added support for

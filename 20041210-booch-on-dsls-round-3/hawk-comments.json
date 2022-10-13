@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2004-12-16T22:35:32-08:00",
     "content": "JTD, that's not what I'm saying. Many DSL's need to relate to each other. Take Whitehorse for example: You have a app modeller and a data center modeler. These each have some unique semantics and some related semantics. If you go to deploy a web app onto a web server, some type of translation or corolation needs to take place. But within that web app, there are going to be a wide variety of semantics and abstractions - pages, controls, process flows, style sheets, postbacks, etc - that have no corolation in the data center model. Trying to make a single modeling language that supports all these semantics will be overcomplex and unusable. "

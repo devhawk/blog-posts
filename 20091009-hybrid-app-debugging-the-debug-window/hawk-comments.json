@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2009-10-21T19:07:29-07:00",
     "content": "http://github.com/devhawk/LightweightDebuggerDemo"
@@ -22,7 +22,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2009-11-23T22:40:19-08:00",
     "content": "@AB, running the script under the debugger is slower, but I'm not sure how much slower exactly. I'd ask Dino on the IronPython mailing list - he implemented it so I'm sure he can speak to the amount of overhead there is."

@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2011-06-01T22:14:38-07:00",
     "content": "Interesting. I'll have to look into this approach. Can you load the WIM files from the WDS server or do they need to be placed on a traditional file share?"

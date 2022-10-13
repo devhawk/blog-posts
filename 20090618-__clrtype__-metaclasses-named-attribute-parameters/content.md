@@ -97,5 +97,5 @@ straightforward to add them to methods, properties, etc as well. The
 hardest part at this point is coming up with a well designed API that
 works within the Python syntax. If you’ve got any opinions on that, feel
 free to share them in the comments, via
-[email](mailto:harry@devhawk.net), or on the [IronPython mailing
+[email](mailto:devhawk@outlook.com), or on the [IronPython mailing
 list](http://lists.ironpython.com/listinfo.cgi/users-ironpython.com).

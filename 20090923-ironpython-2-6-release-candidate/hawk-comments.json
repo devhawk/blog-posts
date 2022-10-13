@@ -64,7 +64,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2009-09-24T16:36:34-07:00",
     "content": "@Bob, We're big fans of Python 3k (though we'll skip 3.0 and go directly to 3.1) as ascii stings is a big source of incompatibility for IronPython. Now that we're (almost) past 2.6, we're trying to figure out our post 2.6 roadmap including when we ship IronPython 3.1.\n\n@Jonathan, I think the best way for people to vote is to create work items on the IronPython CodePlex site since it's got a built in voting system. Also, have you looked tried the new 2.6 - I'd love to hear your thoughts on our improved startup time.\n\n@Eric, Agreed on VS integration\n\n@Dody, Agreed on app compat. Any suggestions beyond Michael's (Django, Trac, Mercurial)?"

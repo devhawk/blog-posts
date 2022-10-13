@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2008-04-28T20:26:20-07:00",
     "content": "No, I'd say that might be a bug. For example, if you import the static DateTime.Parse method, it works as you would expect. IPy appears to be placing the result if calling get_Now in the local scope, rather than the get_Now static method. I need to circle back with the team, but that seems wrong to me.\n\nI opened up a CodePlex bug for it. http://www.codeplex.com/IronPython/WorkItem/View.aspx?WorkItemId=16323"
@@ -29,7 +29,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2008-05-05T13:59:37-07:00",
     "content": "IronPython is dynamically typed, but the underlying types from the .NET framework are still statically typed. IronPython won't auto convert an integer into an enumerated type, which is why you're getting a type exception. BasePriority is an integer, but it's read only. PriorityClass is read/write, but it takes a ProcessPriorityClass enum value.\n\nYou could write the code this way:\n\nfrom System.Diagnostics import Process, ProcessPriorityClass\nprocs = Process.GetProcesses()\nfor p in procs:\n__if p.ProcessName == 'notepad':\n____print p.BasePriority\n____p.PriorityClass = ProcessPriorityClass.BelowNormal\n\nNote, I need to figure out how to get significant whitespace to work in comments. In the meantime, I'm using underscore as space in the code above. "
@@ -43,7 +43,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2008-05-06T11:19:31-07:00",
     "content": "Yep, use Python's built in dir function. You can also use the built-in help function to retrieve the built-in help and method signature for types and methods.\n\nfrom System import Diagnostics\ndir(Diagnostics.Process)\ndir(Diagnostics.Process.PriorityClass)\nhelp(Diagnostics.Process.GetProcesses)\n\n"

@@ -8,7 +8,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2008-07-30T11:32:21-07:00",
     "content": "@Richard, Thanks. However, that doesn't appear to let me set the background for the command shell window as a whole though. Only, the Warning, Error, Debug, Verbose and Progress fore & background colors. I can see the value of that, but my goal with that line of script is to set the entire background to red."
@@ -29,7 +29,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2008-08-01T13:10:52-07:00",
     "content": "Thanks Tommy and Richard! I updated my _profile script to use instead of $host.UI.RawUI.Backgroundcolor cmd.exe /c color. "

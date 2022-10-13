@@ -15,7 +15,7 @@
   },
   {
     "author-name": "DevHawk",
-    "author-email": "harry@devhawk.net",
+    "author-email": "devhawk@outlook.com",
     "author-url": "",
     "date": "2005-09-13T10:07:22-07:00",
     "content": "Larry, while I apprectiate your comments, I have to disagree with some of your points about Java. Java was originally pushed as a client side technology. Remember the failed WordPerfect for Java project? Sun started pushing Java on the server because of the rise of web servers and the failure of Java on the client. \n\nAs for the stable and scalable server OS point, that would be much easier to agree with if the Java server stack wasn't so obviously cloned from Windows. Also, if you include VBScript under the general heading of VB, I'm not sure that Java would come out ahead of VB in adoption. I don't have access to numbers right this second, but if memory serves, there were ASP than JSP sites out there in the late 90's."

@@ -5,7 +5,7 @@ behind the times).
 However, I have to blog on my favorite new feature – [integrated POP3
 email](http://join.msn.com/?pgmarket=en-us&page=features/richmail). I
 started using [Thunderbird](http://mozilla.org/products/thunderbird/)
-because I wanted to keep my [DevHawk email](mailto:harry@devhawk.net)
+because I wanted to keep my [DevHawk email](mailto:devhawk@outlook.com)
 seperate from my [work](mailto:hpierson@microsoft.com) and personal
 email addresses. I used to use [Outlook
 Express](http://www.microsoft.com/windows/oe/) but the lack of junk mail
