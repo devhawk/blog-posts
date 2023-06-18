@@ -1,34 +1,42 @@
 [
     {
-        "href": "mailto:devhawk@outlook.com",
-        "text": "email"
-    },
-    {
-        "href": "skype:harrypierson",
-        "text": "skype"
-    },
-    {
         "href": "https://github.com/devhawk/",
         "text": "github"
     },
     {
-        "href": "http://stackoverflow.com/users/1179731/devhawk",
-        "text": "stack overflow"
+        "href": "https://discordapp.com/users/514663152730898462",
+        "text": "discord"
+    },
+    {
+        "href": "https://t.me/devhawk",
+        "text": "telegram"
     },
     {
         "href": "http://twitter.com/devhawk",
         "text": "twitter"
     },
     {
-        "href": "http://facebook.com/devhawk",
-        "text": "facebook"
-    },
-    {
-        "href": "https://www.linkedin.com/in/harrypierson",
+        "href": "https://www.linkedin.com/in/devhawk",
         "text": "linkedin"
     },
     {
         "href": "https://www.instagram.com/devhawk/",
         "text": "instagram"
+    },
+    {
+        "href": "https://www.tiktok.com/@devhawk",
+        "text": "tiktok"
+    },
+    {
+        "href": "https://techhub.social/@devhawk",
+        "text": "mastodon"
+    },
+    {
+        "href": "http://stackoverflow.com/users/1179731/devhawk",
+        "text": "stack overflow"
+    },
+    {
+        "href": "mailto:devhawk@outlook.com",
+        "text": "email"
     }
 ]
