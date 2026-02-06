@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: "/blog/tags/{{ tag.slug }}/"
+eleventyComputed:
+  title: "{{ tag.name }}"
+---
+<h1>{{ tag.name }}</h1>
+<p>{{ tag.count }} post{{ "s" if tag.count != 1 }}</p>
+<ul class="post-list">
+{%- for post in posts %}
+  {%- for ptag in post.tags %}
+    {%- if ptag.slug == tag.slug %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+  </li>
+    {%- endif %}
+  {%- endfor %}
+{%- endfor %}
+</ul>

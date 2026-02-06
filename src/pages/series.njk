@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.seriesList
+  size: 1
+  alias: seriesItem
+permalink: "/blog/series/{{ seriesItem.slug }}/"
+eleventyComputed:
+  title: "{{ seriesItem.name }}"
+---
+<h1>{{ seriesItem.name }}</h1>
+<p>{{ seriesItem.count }} post{{ "s" if seriesItem.count != 1 }}</p>
+<ol class="post-list series-list">
+{%- set seriesPosts = [] %}
+{%- for post in posts %}
+  {%- if post.series and post.series.slug == seriesItem.slug %}
+    {%- set seriesPosts = (seriesPosts.push(post), seriesPosts) %}
+  {%- endif %}
+{%- endfor %}
+{%- for post in seriesPosts | reverse %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+  </li>
+{%- endfor %}
+</ol>

@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Tags
+permalink: /blog/tags/
+---
+<h1>Tags</h1>
+<ul class="taxonomy-list">
+{%- for slug, tag in tagData %}
+  <li>
+    <a href="/blog/tags/{{ tag.slug }}/">{{ tag.name }}</a>
+    <span class="count">({{ tag.count }})</span>
+  </li>
+{%- endfor %}
+</ul>

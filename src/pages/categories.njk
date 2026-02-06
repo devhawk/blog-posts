@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Categories
+permalink: /blog/categories/
+---
+<h1>Categories</h1>
+<ul class="taxonomy-list">
+{%- for slug, cat in categories %}
+  <li>
+    <a href="/blog/categories/{{ cat.slug }}/">{{ cat.name }}</a>
+    <span class="count">({{ cat.count }})</span>
+  </li>
+{%- endfor %}
+</ul>

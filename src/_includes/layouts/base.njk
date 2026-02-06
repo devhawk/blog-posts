@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">DevHawk</a>
+      <nav class="site-nav">
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+        <a href="/blog/categories/">Categories</a>
+        <a href="/blog/tags/">Tags</a>
+        <a href="/blog/archive/">Archive</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-links">
+        {%- for link in social %}
+        <a href="{{ link.href }}" rel="me noopener" target="_blank">{{ link.text }}</a>
+        {%- endfor %}
+      </div>
+      <p>&copy; {{ site.author.name }}</p>
+    </div>
+  </footer>
+</body>
+</html>

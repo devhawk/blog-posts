@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+title: Blog
+pagination:
+  data: posts
+  size: 5
+permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+<h1>Blog</h1>
+<ul class="post-list">
+{%- for post in pagination.items %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+    {%- if post.categories and post.categories.length %}
+    <span class="post-categories">
+      {%- for cat in post.categories %}
+      <a href="/blog/categories/{{ cat.slug }}/" class="badge badge-category">{{ cat.name }}</a>
+      {%- endfor %}
+    </span>
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ul>
+<nav class="pagination" aria-label="Blog pagination">
+  {% if pagination.href.previous %}
+  <a href="{{ pagination.href.previous }}" class="pagination-prev">&laquo; Newer</a>
+  {% endif %}
+  <span class="pagination-info">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</span>
+  {% if pagination.href.next %}
+  <a href="{{ pagination.href.next }}" class="pagination-next">Older &raquo;</a>
+  {% endif %}
+</nav>

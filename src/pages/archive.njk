@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+title: Archive
+permalink: /blog/archive/
+---
+<h1>Archive</h1>
+{%- set yearCounts = {} %}
+{%- for post in posts %}
+  {%- set yr = post.year %}
+  {%- if yearCounts[yr] %}
+    {%- set yearCounts = yearCounts | mergeObj(yr, yearCounts[yr] + 1) %}
+  {%- else %}
+    {%- set yearCounts = yearCounts | mergeObj(yr, 1) %}
+  {%- endif %}
+{%- endfor %}
+<ul class="archive-list">
+{%- for post in posts %}
+  {%- set yr = post.year %}
+  {%- set prevYr = "" %}
+  {%- if loop.index0 > 0 %}
+    {%- set prevYr = posts[loop.index0 - 1].year %}
+  {%- endif %}
+  {%- if yr != prevYr %}
+    {%- if loop.index0 > 0 %}</ul>{% endif %}
+  <h2>{{ yr }}</h2>
+  <ul class="post-list">
+  {%- endif %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+  </li>
+{%- endfor %}
+</ul>

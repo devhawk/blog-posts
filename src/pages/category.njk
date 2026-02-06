@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.categoryList
+  size: 1
+  alias: category
+permalink: "/blog/categories/{{ category.slug }}/"
+eleventyComputed:
+  title: "{{ category.name }}"
+---
+<h1>{{ category.name }}</h1>
+<p>{{ category.count }} post{{ "s" if category.count != 1 }}</p>
+<ul class="post-list">
+{%- for post in posts %}
+  {%- for cat in post.categories %}
+    {%- if cat.slug == category.slug %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+  </li>
+    {%- endif %}
+  {%- endfor %}
+{%- endfor %}
+</ul>
