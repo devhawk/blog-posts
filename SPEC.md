@@ -147,6 +147,23 @@ Output a Cloudflare Pages `_redirects` file in the build output. Cloudflare supp
 
 **Deferred:** Legacy URL redirects are out of scope for the initial build.
 
+### 5.6 Build-Time Link Rewriting
+
+Intra-blog links in `content.md` and `about-me.md` use several legacy URL formats. The build must rewrite these to canonical URLs. All patterns resolve against the post index built from `hawk-post.json` metadata.
+
+| Pattern | Example | Count | Resolution |
+|---------|---------|-------|------------|
+| `http://devhawk.net/YYYY/MM/DD/slug` | `http://devhawk.net/2003/01/25/l-a-funk/` | ~680 | Strip domain, zero-pad date, prefix `/blog/` |
+| `http://devhawk.net/blog/YYYY/M/D/slug` | `http://devhawk.net/blog/2015/9/2/the-brilliant-magic-of-edgejs` | ~5 | Strip domain, zero-pad date |
+| `/blog/YYYY/M/D/slug` | `/blog/2015/8/31/go-ahead-call-it-a-comeback` | ~9 | Zero-pad date |
+| `/blog/Title.aspx` | `/blog/ADDAndFlamingPotatoDevelopment.aspx` | ~117 | Match against `dasblog-title` to find slug + date |
+| `/blog/*.html` | `/blog/2008/02/dell-xps-m1330.html` | ~53 | Match against post index by date + partial slug |
+| `/blog/archive/YYYY/MM/DD/NNN.aspx` | `/blog/archive/2004/01/11/572.aspx` | subset of .aspx | Match by date + `dasblog-entry-id` or title |
+| `~/blog/slug` | `~/blog/new-and-improved-devhawk` | 3 | Look up slug in post index |
+| `http://devhawk.net/*.aspx` (non-blog) | `http://devhawk.net/presentations.aspx` | ~10 | Map to static pages or leave as-is |
+
+The link rewriter runs during the data indexing step and produces rewritten markdown. Links that cannot be resolved are left as-is and logged as warnings.
+
 ## 6. Templates
 
 ### 6.1 Layouts (Nunjucks)
