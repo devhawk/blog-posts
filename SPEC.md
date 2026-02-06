@@ -37,6 +37,8 @@ This repo contains 1,335 blog posts (2003–2019) originally hosted on DasBlog a
 
 **Hosting target:** Cloudflare Pages — free tier, global CDN, native `_redirects` file support for legacy URL preservation.
 
+**Domain:** `devhawk.net` (custom domain on Cloudflare Pages)
+
 ## 4. Source Data Model
 
 ### 4.1 Post Directories
@@ -143,7 +145,7 @@ Output a Cloudflare Pages `_redirects` file in the build output. Cloudflare supp
 /old/path /new/path 301
 ```
 
-**Open question:** What are the exact historical devhawk.net URL patterns that must be preserved? An audit of old sitemaps or web archive data should be performed before finalizing redirect rules.
+**Deferred:** Legacy URL redirects are out of scope for the initial build.
 
 ## 6. Templates
 
@@ -165,13 +167,14 @@ Output a Cloudflare Pages `_redirects` file in the build output. Cloudflare supp
 5. **Categories index + category pages** — one page per category (10 categories)
 6. **Series index + series pages** — one page per series
 7. **Archive index + year + month pages**
-8. **RSS feed** — `/feed.xml` (RSS 2.0)
-9. **Sitemap** — `/sitemap.xml`
-10. **404 page**
+8. **About page** — rendered from `about-me.md` in repo root
+9. **RSS feed** — `/feed.xml` (RSS 2.0)
+10. **Sitemap** — `/sitemap.xml`
+11. **404 page**
 
 ### 6.3 Navigation
 
-Header nav: Home, Blog, Categories, Tags, Archive, About, Presentations
+Header nav: Home, Blog, Categories, Tags, Archive, About
 
 Social links from `social.json` in footer.
 
@@ -354,15 +357,14 @@ Automated checks the build should verify:
 - Add RSS feed and sitemap
 - Add basic styling
 
-### Phase 3 — Legacy URLs and polish
+### Phase 3 — Polish
 
-- Implement redirect generation for legacy DasBlog URLs
-- Perform URL audit and add test fixtures
 - Add SEO metadata, Open Graph tags
-- Add About and Presentations pages using repo JSON data
+- Configure Cloudflare Pages custom domain (`devhawk.net`)
+- Legacy URL redirects (deferred, future phase)
 
 ## Appendix A — Open Questions
 
 1. ~~**Hosting target**~~ — Resolved: Cloudflare Pages.
-2. **Historical URL patterns** — What exact DasBlog URL shapes need redirects? Provide examples or old sitemap data if available.
-3. **About page content** — `.gitignore` references `about-me.html`; source content for this page needs to be identified or authored.
+2. ~~**Historical URL patterns**~~ — Deferred. Legacy redirects out of scope for initial build.
+3. ~~**About page content**~~ — Resolved: Use `about-me.md` from repo root.
