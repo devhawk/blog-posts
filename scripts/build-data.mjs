@@ -26,6 +26,8 @@ function parseSeries(raw) {
 }
 
 function parseDateParts(isoDate) {
+  const m = isoDate.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (m) return { year: m[1], month: m[2], day: m[3] };
   const d = new Date(isoDate);
   const year = String(d.getUTCFullYear());
   const month = String(d.getUTCMonth() + 1).padStart(2, '0');
