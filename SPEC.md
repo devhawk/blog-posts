@@ -153,7 +153,7 @@ Output a Cloudflare Pages `_redirects` file in the build output. Cloudflare supp
 
 ### 5.6 Build-Time Link Rewriting
 
-Intra-blog links in `content.md` and `about-me.md` use several legacy URL formats. The build must rewrite these to canonical URLs. All patterns resolve against the post index built from `hawk-post.json` metadata.
+Intra-blog links in `content.md` and `about-me.md` use several legacy URL formats. The build must rewrite all of these to **relative canonical paths** (e.g. `/blog/2003/01/25/l-a-funk/`). Absolute `http://devhawk.net` links are converted to relative paths so all intra-blog links are consistent and domain-independent. All patterns resolve against the post index built from `hawk-post.json` metadata.
 
 | Pattern | Example | Count | Resolution |
 |---------|---------|-------|------------|
