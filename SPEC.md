@@ -35,6 +35,8 @@ This repo contains 1,335 blog posts (2003–2019) originally hosted on DasBlog a
 
 **Output directory:** `_site/`
 
+**Hosting target:** Cloudflare Pages — free tier, global CDN, native `_redirects` file support for legacy URL preservation.
+
 ## 4. Source Data Model
 
 ### 4.1 Post Directories
@@ -133,13 +135,13 @@ Example: `/blog/2008/10/31/introducing-foo/`
 
 ### 5.5 Legacy URL Redirects
 
-Generate redirect mappings from legacy DasBlog fields (`dasblog-unique-title`, `dasblog-title`, `dasblog-entry-id`) to canonical permalinks. Output at least one of:
+Generate redirect mappings from legacy DasBlog fields (`dasblog-unique-title`, `dasblog-title`, `dasblog-entry-id`) to canonical permalinks.
 
-- Netlify `_redirects` file
-- HTML meta-refresh redirect stubs at legacy paths
-- Platform-specific config (`staticwebapp.config.json`, `vercel.json`)
+Output a Cloudflare Pages `_redirects` file in the build output. Cloudflare supports up to 2,000 static redirects and 100 dynamic redirects. Format:
 
-Choose the appropriate format based on the hosting target.
+```
+/old/path /new/path 301
+```
 
 **Open question:** What are the exact historical devhawk.net URL patterns that must be preserved? An audit of old sitemaps or web archive data should be performed before finalizing redirect rules.
 
@@ -361,6 +363,6 @@ Automated checks the build should verify:
 
 ## Appendix A — Open Questions
 
-1. **Hosting target** — GitHub Pages, Netlify, Azure Static Web Apps, or other? This determines the redirect rule format.
+1. ~~**Hosting target**~~ — Resolved: Cloudflare Pages.
 2. **Historical URL patterns** — What exact DasBlog URL shapes need redirects? Provide examples or old sitemap data if available.
 3. **About page content** — `.gitignore` references `about-me.html`; source content for this page needs to be identified or authored.
