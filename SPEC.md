@@ -98,6 +98,8 @@ Array of objects:
 
 **Series:** Split by `|` into `{ name, slug }`.
 
+**Dates:** Parse ISO 8601 with timezone from `date` field. Display as `YYYY-MM-DD` (e.g. `2003-12-14`). Use full timestamp for sort ordering (handles multiple posts on the same day). Preserve exact timestamps for RSS/Atom feeds and metadata.
+
 ## 5. URL Scheme
 
 ### 5.1 Canonical Post URLs
@@ -134,6 +136,8 @@ Example: `/blog/2008/10/31/introducing-foo/`
 | Home | `/` |
 | Blog index | `/blog/` |
 | Blog page N | `/blog/page/{N}/` |
+
+Pagination size: **5 posts per page**.
 
 ### 5.5 Legacy URL Redirects
 
