@@ -168,6 +168,8 @@ Intra-blog links in `content.md` and `about-me.md` use several legacy URL format
 
 The link rewriter runs during the data indexing step and produces rewritten markdown. Links that cannot be resolved are left as-is and logged as warnings.
 
+Some early posts contain relative links to old devhawk.net pages (e.g. `prj_pagelayoutctl.aspx`) that are not blog posts. The build should warn on these broken references but not fail.
+
 ## 6. Templates
 
 ### 6.1 Layouts (Nunjucks)
@@ -181,15 +183,15 @@ The link rewriter runs during the data indexing step and produces rewritten mark
 
 ### 6.2 Pages to Generate
 
-1. **Home page** — recent posts (e.g. latest 10)
-2. **Blog index** — paginated list of all posts (e.g. 20 per page)
+1. **Home page** — distinct landing page with about-me content and recent posts
+2. **Blog index** — paginated list of all posts (5 per page)
 3. **Post pages** — 1,335 individual post pages
 4. **Tags index + tag pages** — one page per tag
 5. **Categories index + category pages** — one page per category (10 categories)
 6. **Series index + series pages** — one page per series
 7. **Archive index + year + month pages**
 8. **About page** — rendered from `about-me.md` in repo root
-9. **RSS feed** — `/feed.xml` (RSS 2.0)
+9. **RSS feed** — `/feed.xml` (RSS 2.0, 10 most recent items, full content)
 10. **Sitemap** — `/sitemap.xml`
 11. **404 page**
 
@@ -336,7 +338,7 @@ Eleventy consumes `_generated/*.json` as global data.
 - `<title>` tag per page
 - Meta description: first ~160 characters of post content (stripped of HTML)
 - Canonical `<link>` tag pointing to canonical permalink
-- Open Graph tags: `og:title`, `og:url`, `og:type=article`, `article:published_time`, `article:modified_time`
+- Open Graph tags: `og:title`, `og:url`, `og:type=article`, `article:published_time`
 - RSS feed at `/feed.xml`
 - Sitemap at `/sitemap.xml`
 - `robots.txt`
@@ -373,7 +375,7 @@ Automated checks the build should verify:
 
 ### Phase 2 — Navigation and feeds
 
-- Add tag, category, series, and archive pages
+- Add tag, category, series, and archive pages (series pages in chronological/reading order)
 - Add blog index with pagination
 - Add RSS feed and sitemap
 - Add basic styling
