@@ -4,3 +4,6 @@ categories.json
 tags.json
 about-me.html
 presentations.html
+node_modules/
+_site/
+_generated/

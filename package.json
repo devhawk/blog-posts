@@ -1,0 +1,18 @@
+{
+  "name": "devhawk-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-data": "node scripts/build-data.mjs",
+    "build": "npm run build-data && npx @11ty/eleventy",
+    "serve": "npm run build-data && npx @11ty/eleventy --serve",
+    "clean": "rm -rf _site _generated"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "luxon": "^3.0.0",
+    "markdown-it": "^14.0.0",
+    "markdown-it-container": "^4.0.0"
+  }
+}
