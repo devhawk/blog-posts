@@ -73,6 +73,25 @@ export default function (eleventyConfig) {
     return { ...obj, [key]: value };
   });
 
+  eleventyConfig.addFilter('monthName', (month) => {
+    const names = ['January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'];
+    return names[parseInt(month, 10) - 1] || '';
+  });
+
+  eleventyConfig.addFilter('tagCloudStyle', (count, minCount, maxCount) => {
+    const minSize = 0.75;
+    const maxSize = 2.5;
+    if (minCount === maxCount) {
+      return `font-size: ${((minSize + maxSize) / 2).toFixed(2)}rem`;
+    }
+    const logMin = Math.log(minCount);
+    const logMax = Math.log(maxCount);
+    const scale = (Math.log(count) - logMin) / (logMax - logMin);
+    const size = minSize + scale * (maxSize - minSize);
+    return `font-size: ${size.toFixed(2)}rem`;
+  });
+
   // Collections from taxonomy data
   eleventyConfig.addCollection('categoryList', async () => {
     const raw = await readFile(resolve('_generated/categories.json'), 'utf8');

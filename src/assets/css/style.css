@@ -120,6 +120,19 @@ img {
   font-size: 0.85rem;
 }
 
+/* Tag cloud */
+
+.tag-cloud {
+  line-height: 2.2;
+}
+
+.tag-cloud a {
+  display: inline-block;
+  padding: 0.15em 0.4em;
+  margin: 0.15em 0.1em;
+  white-space: nowrap;
+}
+
 /* Badges */
 
 .badge {
@@ -343,6 +356,13 @@ pre[class*="language-"] {
 .archive-list h2 {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+.archive-list h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+  color: #555;
 }
 
 /* Series list (chronological) */

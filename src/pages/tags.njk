@@ -4,11 +4,14 @@ title: Tags
 permalink: /blog/tags/
 ---
 <h1>Tags</h1>
-<ul class="taxonomy-list">
+{%- set minCount = 999999 %}
+{%- set maxCount = 0 %}
 {%- for slug, tag in tagData %}
-  <li>
-    <a href="/blog/tags/{{ tag.slug }}/">{{ tag.name }}</a>
-    <span class="count">({{ tag.count }})</span>
-  </li>
+  {%- if tag.count < minCount %}{% set minCount = tag.count %}{% endif %}
+  {%- if tag.count > maxCount %}{% set maxCount = tag.count %}{% endif %}
 {%- endfor %}
-</ul>
+<div class="tag-cloud">
+{%- for slug, tag in tagData %}
+  <a href="/blog/tags/{{ tag.slug }}/" title="{{ tag.count }} post{{ 's' if tag.count != 1 }}" style="{{ tag.count | tagCloudStyle(minCount, maxCount) }}">{{ tag.name }}</a>
+{%- endfor %}
+</div>
