@@ -5,6 +5,21 @@ const ROOT = resolve(import.meta.dirname, '..');
 const OUT = join(ROOT, '_generated');
 const DIR_RE = /^\d{8}-/;
 
+const HTML_ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'",
+  ndash: '\u2013', mdash: '\u2014', hellip: '\u2026',
+  lsquo: '\u2018', rsquo: '\u2019', ldquo: '\u201C', rdquo: '\u201D',
+  nbsp: '\u00A0',
+};
+
+function decodeHtmlEntities(str) {
+  if (!str) return str;
+  return str
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&([a-zA-Z]+);/g, (full, name) => HTML_ENTITIES[name] ?? full);
+}
+
 function parseCSV(csv) {
   if (!csv) return [];
   return csv.split(',').map(s => s.trim()).filter(Boolean).map(entry => {
@@ -295,7 +310,7 @@ async function main() {
 
     const safeComments = comments
       ? comments.map(c => ({
-          authorName: c['author-name'] || '',
+          authorName: decodeHtmlEntities(c['author-name'] || ''),
           authorUrl: c['author-url'] || '',
           date: c.date,
           content: c.content,
@@ -304,7 +319,7 @@ async function main() {
 
     return {
       slug,
-      title: meta.title,
+      title: decodeHtmlEntities(meta.title),
       date: meta.date,
       year,
       month,

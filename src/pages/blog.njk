@@ -7,11 +7,14 @@ pagination:
 permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 <h1>Blog</h1>
-<ul class="post-list">
 {%- for post in pagination.items %}
-  <li>
-    <a href="{{ post.permalink }}">{{ post.title }}</a>
+<article class="post">
+  <header class="post-header">
+    <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
     <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+    {%- if post.author and post.author.username != "devhawk" %}
+    <span class="post-author">by {{ post.author.name }}</span>
+    {%- endif %}
     {%- if post.categories and post.categories.length %}
     <span class="post-categories">
       {%- for cat in post.categories %}
@@ -19,9 +22,17 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumbe
       {%- endfor %}
     </span>
     {%- endif %}
-  </li>
+    {%- if post.series %}
+    <span class="post-series">
+      <a href="/blog/series/{{ post.series.slug }}/" class="badge badge-series">{{ post.series.name }}</a>
+    </span>
+    {%- endif %}
+  </header>
+  <div class="post-content">
+    {{ post.content | markdownify | safe }}
+  </div>
+</article>
 {%- endfor %}
-</ul>
 <nav class="pagination" aria-label="Blog pagination">
   {% if pagination.href.previous %}
   <a href="{{ pagination.href.previous }}" class="pagination-prev">&laquo; Newer</a>
