@@ -73,6 +73,16 @@ export default function (eleventyConfig) {
     return { ...obj, [key]: value };
   });
 
+  eleventyConfig.addFilter('excerpt', (str, len = 160) => {
+    if (!str) return '';
+    const plain = md.render(String(str))
+      .replace(/<[^>]+>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (plain.length <= len) return plain;
+    return plain.substring(0, len).replace(/\s\S*$/, '') + '...';
+  });
+
   eleventyConfig.addFilter('monthName', (month) => {
     const names = ['January', 'February', 'March', 'April', 'May', 'June',
       'July', 'August', 'September', 'October', 'November', 'December'];
