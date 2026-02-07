@@ -3,6 +3,7 @@ import { resolve, join, dirname } from 'node:path';
 import { existsSync } from 'node:fs';
 import markdownIt from 'markdown-it';
 import markdownItContainer from 'markdown-it-container';
+import markdownItFootnote from 'markdown-it-footnote';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 
 const md = markdownIt({ html: true, linkify: true, typographer: true });
@@ -23,6 +24,7 @@ function containerRenderer(name) {
 
 md.use(markdownItContainer, 'image-right', containerRenderer('image-right'));
 md.use(markdownItContainer, 'image-left', containerRenderer('image-left'));
+md.use(markdownItFootnote);
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
