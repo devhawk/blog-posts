@@ -37,6 +37,19 @@ layout: layouts/base.njk
   <div class="post-content">
     {{ post.content | markdownify | safe }}
   </div>
+  {% if post.seriesPrev or post.seriesNext %}
+  <nav class="series-nav">
+    <div class="series-nav-label">{{ post.series.name }}</div>
+    <div class="series-nav-links">
+      {% if post.seriesPrev %}
+      <a href="{{ post.seriesPrev.permalink }}" class="series-nav-prev">&larr; {{ post.seriesPrev.title }}</a>
+      {% endif %}
+      {% if post.seriesNext %}
+      <a href="{{ post.seriesNext.permalink }}" class="series-nav-next">{{ post.seriesNext.title }} &rarr;</a>
+      {% endif %}
+    </div>
+  </nav>
+  {% endif %}
   {% if post.comments and post.comments.length %}
   <section class="comments">
     <h2>Comments ({{ post.comments.length }})</h2>

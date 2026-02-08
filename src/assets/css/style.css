@@ -369,6 +369,7 @@ pre {
   border-radius: 6px;
   padding: 1rem 1.25rem;
   overflow-x: auto;
+  font-family: var(--font-mono);
   font-size: 0.85rem;
   line-height: 1.6;
 }
@@ -376,6 +377,7 @@ pre {
 code {
   font-family: var(--font-mono);
   font-size: 0.875em;
+  font-variant-ligatures: none;
 }
 
 :not(pre) > code {
@@ -397,7 +399,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #546e7a;
+  color: #6a9955;
 }
 
 .token.punctuation {
@@ -446,11 +448,45 @@ pre[class*="language-"] {
   padding-top: 1.5rem;
 }
 
+.series-nav {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-top: 2rem;
+}
+
+.series-nav-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.series-nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.series-nav-prev,
+.series-nav-next {
+  font-size: 0.9rem;
+  color: var(--badge-series-text);
+}
+
+.series-nav-prev:hover,
+.series-nav-next:hover {
+  color: #f0be26;
+}
+
+.series-nav-next {
+  margin-left: auto;
+}
+
 .comments h2 {
   font-size: 1.25rem;
 }
 
-.comment {
+.comments > .comment {
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 1rem;

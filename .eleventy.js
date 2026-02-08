@@ -1,12 +1,16 @@
 import { readFile, copyFile, mkdir } from 'node:fs/promises';
 import { resolve, join, dirname } from 'node:path';
 import { existsSync } from 'node:fs';
+import { createRequire } from 'node:module';
 import markdownIt from 'markdown-it';
 import markdownItContainer from 'markdown-it-container';
 import markdownItFootnote from 'markdown-it-footnote';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 
-const md = markdownIt({ html: true, linkify: true, typographer: true });
+const require = createRequire(import.meta.url);
+const markdownPrismJs = require('@11ty/eleventy-plugin-syntaxhighlight/src/markdownSyntaxHighlightOptions');
+
+const md = markdownIt({ html: true, linkify: true, typographer: true, highlight: markdownPrismJs() });
 
 function containerRenderer(name) {
   return {
