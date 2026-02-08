@@ -76,7 +76,7 @@ I can’t overstate the importance of designing your cross-system
 communication to be idempotent. If you care about ensuring Exactly Once,
 each step of your process has to be either transactional or idempotent,
 or you’ll be screwed. It’s interesting to note that you have to be
-transactional *\*OR\** idempotent, but not both. You can chain together
+transactional **OR** idempotent, but not both. You can chain together
 multiple steps in long business process, across multiple disparate
 systems, but as long as each step is either transactional or idempotent,
 you can guarantee Exactly Once across the entire process. In other
