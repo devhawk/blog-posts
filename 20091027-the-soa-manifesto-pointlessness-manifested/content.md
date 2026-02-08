@@ -1,5 +1,5 @@
 ::: image-right
-[![](agile_manifesto_background_thumb.jpg))](http://www.agilemanifesto.org/) 
+[![](agile_manifesto_background_thumb.jpg)](http://www.agilemanifesto.org/) 
 :::
 
 You know what the [Agile Manifesto](http://www.agilemanifesto.org/) doesn’t
