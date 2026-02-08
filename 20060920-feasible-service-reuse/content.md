@@ -53,7 +53,7 @@ the code you’re refactoring. Some other existing piece of code that you
 don’t want to change – i.e. that you want to reuse.
 
 When you refactor, you still reuse a significant amount of the code, but
-you’re not having to predict the future to do it. Refactoring**is the
+you’re not having to predict the future to do it. Refactoring **is** the
 kind of reuse I believe in.
 
 In his article, David talks about types of reuse such as business
