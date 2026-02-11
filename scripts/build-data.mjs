@@ -159,6 +159,19 @@ function buildLinkRewriter(posts) {
       return null;
     }
 
+    // Pattern: http://devhawk.net/monthview.aspx?year=YYYY → year archive page
+    match = url.match(/^http:\/\/devhawk\.net\/monthview\.aspx\?year=(\d{4})$/i);
+    if (match) {
+      rewriteCount++;
+      return `/blog/${match[1]}/`;
+    }
+
+    // Pattern: http://devhawk.net/monthView.aspx or archives.aspx → archive page
+    if (url.match(/^http:\/\/devhawk\.net\/(monthView|archives)\.aspx$/i)) {
+      rewriteCount++;
+      return '/blog/archive/';
+    }
+
     // Pattern 8: http://devhawk.net/*.aspx (non-blog pages) → leave as-is, log warning
     if (url.match(/^http:\/\/devhawk\.net\/[^/]*\.aspx/)) {
       warningCount++;
