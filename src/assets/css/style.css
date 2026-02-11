@@ -555,11 +555,27 @@ pre[class*="language-"] {
 }
 
 .archive-list h3 {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   margin-bottom: 0.25rem;
   font-size: 1.1rem;
   color: var(--text-muted);
   border-bottom: none;
+  font-weight: 600;
+}
+
+.archive-list h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.archive-list h3 a:hover {
+  text-decoration: underline;
+}
+
+.archive-list .post-list li {
+  border-bottom: none;
+  padding: 0.25rem 0;
+  margin-bottom: 0;
 }
 
 /* Series list (chronological) */
