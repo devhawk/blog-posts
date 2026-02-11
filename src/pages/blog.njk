@@ -11,7 +11,7 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumbe
 <article class="post">
   <header class="post-header">
     <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+    <time datetime="{{ post.date | htmlDateString }}"><a href="/blog/{{ post.year }}/{{ post.month }}/{{ post.day }}/">{{ post.date | dateDisplay }}</a></time>
     {%- if post.author and post.author.username != "devhawk" %}
     <span class="post-author">by {{ post.author.name }}</span>
     {%- endif %}

@@ -25,16 +25,16 @@ permalink: /blog/archive/
   {%- endif %}
   {%- if yr != prevYr %}
     {%- if loop.index0 > 0 %}</ul>{% endif %}
-  <h2>{{ yr }}</h2>
+  <h2><a href="/blog/{{ yr }}/">{{ yr }}</a></h2>
   {%- endif %}
   {%- if yr != prevYr or mo != prevMo %}
     {%- if loop.index0 > 0 and yr == prevYr %}</ul>{% endif %}
-  <h3>{{ mo | monthName }} <span class="count">({{ monthCounts[yr + "-" + mo] }})</span></h3>
+  <h3><a href="/blog/{{ yr }}/{{ mo }}/">{{ mo | monthName }}</a> <span class="count">({{ monthCounts[yr + "-" + mo] }})</span></h3>
   <ul class="post-list">
   {%- endif %}
   <li>
     <a href="{{ post.permalink }}">{{ post.title }}</a>
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+    <time datetime="{{ post.date | htmlDateString }}"><a href="/blog/{{ yr }}/{{ mo }}/{{ post.day }}/">{{ post.date | dateDisplay }}</a></time>
   </li>
 {%- endfor %}
 </ul>
