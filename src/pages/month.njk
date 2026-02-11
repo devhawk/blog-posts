@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.monthList
+  size: 1
+  alias: archiveMonth
+permalink: "/blog/{{ archiveMonth.year }}/{{ archiveMonth.month }}/"
+eleventyComputed:
+  title: "{{ archiveMonth.month | monthName }} {{ archiveMonth.year }}"
+---
+<h1><a href="/blog/{{ archiveMonth.year }}/">{{ archiveMonth.year }}</a> &rsaquo; {{ archiveMonth.month | monthName }}</h1>
+<p>{{ archiveMonth.count }} post{{ "s" if archiveMonth.count != 1 }}</p>
+<ul class="post-list">
+{%- for post in posts %}
+  {%- if post.year == archiveMonth.year and post.month == archiveMonth.month %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+  </li>
+  {%- endif %}
+{%- endfor %}
+</ul>

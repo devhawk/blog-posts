@@ -131,25 +131,25 @@ function buildLinkRewriter(posts) {
       return url;
     }
 
-    // Pattern: http://devhawk.net/default.aspx?date=YYYY-MM-DD → first post on that date
+    // Pattern: http://devhawk.net/default.aspx?date=YYYY-MM-DD → day archive page
     match = url.match(/^http:\/\/devhawk\.net\/default\.aspx\?date=(\d{4})-(\d{1,2})-(\d{1,2})/);
     if (match) {
       const [, y, m, d] = match;
       const dateKey = `${y}/${zeroPad(m)}/${zeroPad(d)}`;
       if (dateIndex.has(dateKey)) {
         rewriteCount++;
-        return dateIndex.get(dateKey);
+        return `/blog/${dateKey}/`;
       }
     }
 
-    // Pattern: http://devhawk.net/default,date,YYYY-MM-DD.aspx → first post on that date
+    // Pattern: http://devhawk.net/default,date,YYYY-MM-DD.aspx → day archive page
     match = url.match(/^http:\/\/devhawk\.net\/default,date,(\d{4})-(\d{1,2})-(\d{1,2})\.aspx/);
     if (match) {
       const [, y, m, d] = match;
       const dateKey = `${y}/${zeroPad(m)}/${zeroPad(d)}`;
       if (dateIndex.has(dateKey)) {
         rewriteCount++;
-        return dateIndex.get(dateKey);
+        return `/blog/${dateKey}/`;
       }
     }
 

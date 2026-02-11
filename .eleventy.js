@@ -124,6 +124,42 @@ export default function (eleventyConfig) {
     return Object.values(JSON.parse(raw));
   });
 
+  eleventyConfig.addCollection('yearList', async () => {
+    const posts = JSON.parse(await readFile(resolve('_generated/posts.json'), 'utf8'));
+    const years = new Map();
+    for (const p of posts) {
+      if (!years.has(p.year)) years.set(p.year, 0);
+      years.set(p.year, years.get(p.year) + 1);
+    }
+    return [...years.entries()]
+      .map(([year, count]) => ({ year, count }))
+      .sort((a, b) => b.year.localeCompare(a.year));
+  });
+
+  eleventyConfig.addCollection('monthList', async () => {
+    const posts = JSON.parse(await readFile(resolve('_generated/posts.json'), 'utf8'));
+    const months = new Map();
+    for (const p of posts) {
+      const key = `${p.year}/${p.month}`;
+      if (!months.has(key)) months.set(key, { year: p.year, month: p.month, count: 0 });
+      months.get(key).count++;
+    }
+    return [...months.values()]
+      .sort((a, b) => `${b.year}/${b.month}`.localeCompare(`${a.year}/${a.month}`));
+  });
+
+  eleventyConfig.addCollection('dayList', async () => {
+    const posts = JSON.parse(await readFile(resolve('_generated/posts.json'), 'utf8'));
+    const days = new Map();
+    for (const p of posts) {
+      const key = `${p.year}/${p.month}/${p.day}`;
+      if (!days.has(key)) days.set(key, { year: p.year, month: p.month, day: p.day, count: 0 });
+      days.get(key).count++;
+    }
+    return [...days.values()]
+      .sort((a, b) => `${b.year}/${b.month}/${b.day}`.localeCompare(`${a.year}/${a.month}/${a.day}`));
+  });
+
   // Copy post assets after build
   eleventyConfig.on('eleventy.after', async () => {
     const postsPath = resolve('_generated/posts.json');

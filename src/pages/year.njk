@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.yearList
+  size: 1
+  alias: archiveYear
+permalink: "/blog/{{ archiveYear.year }}/"
+eleventyComputed:
+  title: "{{ archiveYear.year }}"
+---
+<h1>{{ archiveYear.year }}</h1>
+<p>{{ archiveYear.count }} post{{ "s" if archiveYear.count != 1 }}</p>
+{%- set monthCounts = {} %}
+{%- for post in posts %}
+  {%- if post.year == archiveYear.year %}
+    {%- set key = post.month %}
+    {%- if monthCounts[key] %}
+      {%- set monthCounts = monthCounts | mergeObj(key, monthCounts[key] + 1) %}
+    {%- else %}
+      {%- set monthCounts = monthCounts | mergeObj(key, 1) %}
+    {%- endif %}
+  {%- endif %}
+{%- endfor %}
+{%- set prevMo = "" %}
+{%- for post in posts %}
+  {%- if post.year == archiveYear.year %}
+    {%- if post.month != prevMo %}
+      {%- if prevMo != "" %}</ul>{% endif %}
+  <h2><a href="/blog/{{ archiveYear.year }}/{{ post.month }}/">{{ post.month | monthName }}</a> <span class="count">({{ monthCounts[post.month] }})</span></h2>
+  <ul class="post-list">
+      {%- set prevMo = post.month %}
+    {%- endif %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+  </li>
+  {%- endif %}
+{%- endfor %}
+{%- if prevMo != "" %}</ul>{% endif %}
