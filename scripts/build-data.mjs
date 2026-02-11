@@ -184,6 +184,31 @@ function buildLinkRewriter(posts) {
       return url;
     }
 
+    // Pattern: http://devhawk.net/ → site root
+    if (url === 'http://devhawk.net/' || url === 'http://devhawk.net') {
+      rewriteCount++;
+      return '/';
+    }
+
+    // Pattern: http://devhawk.net/YYYY/ → year archive page
+    match = url.match(/^http:\/\/devhawk\.net\/(\d{4})\/$/);
+    if (match) {
+      rewriteCount++;
+      return `/blog/${match[1]}/`;
+    }
+
+    // Pattern: http://devhawk.net/rss.ashx → feed.xml
+    if (url === 'http://devhawk.net/rss.ashx') {
+      rewriteCount++;
+      return '/feed.xml';
+    }
+
+    // Pattern: http://devhawk.net/cdf.ashx or static files → strip link
+    if (url.match(/^http:\/\/devhawk\.net\/(cdf\.ashx|Presentations\/|themes\/)/)) {
+      rewriteCount++;
+      return null;
+    }
+
     // Other http://devhawk.net links without date pattern
     if (url.match(/^http:\/\/devhawk\.net\//)) {
       warningCount++;
