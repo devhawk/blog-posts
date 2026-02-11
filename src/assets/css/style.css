@@ -572,7 +572,8 @@ pre[class*="language-"] {
   text-decoration: underline;
 }
 
-.archive-list .post-list li {
+.archive-list .post-list li,
+.archive-date .post-list li {
   border-bottom: none;
   padding: 0.25rem 0;
   margin-bottom: 0;

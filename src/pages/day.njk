@@ -8,6 +8,7 @@ permalink: "/blog/{{ archiveDay.year }}/{{ archiveDay.month }}/{{ archiveDay.day
 eleventyComputed:
   title: "{{ archiveDay.month | monthName }} {{ archiveDay.day }}, {{ archiveDay.year }}"
 ---
+<div class="archive-date">
 <h1><a href="/blog/{{ archiveDay.year }}/">{{ archiveDay.year }}</a> &rsaquo; <a href="/blog/{{ archiveDay.year }}/{{ archiveDay.month }}/">{{ archiveDay.month | monthName }}</a> &rsaquo; {{ archiveDay.day }}</h1>
 <p>{{ archiveDay.count }} post{{ "s" if archiveDay.count != 1 }}</p>
 <ul class="post-list">
@@ -20,3 +21,4 @@ eleventyComputed:
   {%- endif %}
 {%- endfor %}
 </ul>
+</div>

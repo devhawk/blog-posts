@@ -8,6 +8,7 @@ permalink: "/blog/{{ archiveYear.year }}/"
 eleventyComputed:
   title: "{{ archiveYear.year }}"
 ---
+<div class="archive-date">
 <h1>{{ archiveYear.year }}</h1>
 <p>{{ archiveYear.count }} post{{ "s" if archiveYear.count != 1 }}</p>
 {%- set monthCounts = {} %}
@@ -37,3 +38,4 @@ eleventyComputed:
   {%- endif %}
 {%- endfor %}
 {%- if prevMo != "" %}</ul>{% endif %}
+</div>
