@@ -58,6 +58,7 @@ function buildLinkRewriter(posts) {
   const slugIndex = new Map();
   const dasblogTitleIndex = new Map();
   const dateSlugIndex = new Map();
+  const dateIndex = new Map();
 
   for (const p of posts) {
     const { year, month, day } = parseDateParts(p.meta.date);
@@ -74,6 +75,11 @@ function buildLinkRewriter(posts) {
     }
 
     dateSlugIndex.set(`${year}/${month}/${day}/${slug}`, canonical);
+
+    const dateKey = `${year}/${month}/${day}`;
+    if (!dateIndex.has(dateKey)) {
+      dateIndex.set(dateKey, canonical);
+    }
   }
 
   let rewriteCount = 0;
@@ -123,6 +129,34 @@ function buildLinkRewriter(posts) {
     // Pattern: http://devhawk.net/PermaLink... → leave as-is
     if (url.match(/^http:\/\/devhawk\.net\/PermaLink/)) {
       return url;
+    }
+
+    // Pattern: http://devhawk.net/default.aspx?date=YYYY-MM-DD → first post on that date
+    match = url.match(/^http:\/\/devhawk\.net\/default\.aspx\?date=(\d{4})-(\d{1,2})-(\d{1,2})/);
+    if (match) {
+      const [, y, m, d] = match;
+      const dateKey = `${y}/${zeroPad(m)}/${zeroPad(d)}`;
+      if (dateIndex.has(dateKey)) {
+        rewriteCount++;
+        return dateIndex.get(dateKey);
+      }
+    }
+
+    // Pattern: http://devhawk.net/default,date,YYYY-MM-DD.aspx → first post on that date
+    match = url.match(/^http:\/\/devhawk\.net\/default,date,(\d{4})-(\d{1,2})-(\d{1,2})\.aspx/);
+    if (match) {
+      const [, y, m, d] = match;
+      const dateKey = `${y}/${zeroPad(m)}/${zeroPad(d)}`;
+      if (dateIndex.has(dateKey)) {
+        rewriteCount++;
+        return dateIndex.get(dateKey);
+      }
+    }
+
+    // Pattern: http://devhawk.net/default.aspx#disclaimer → remove link (no equivalent page)
+    if (url.match(/^http:\/\/devhawk\.net\/default\.aspx#disclaimer$/)) {
+      rewriteCount++;
+      return null;
     }
 
     // Pattern 8: http://devhawk.net/*.aspx (non-blog pages) → leave as-is, log warning
@@ -222,6 +256,9 @@ function buildLinkRewriter(posts) {
   function rewriteContent(markdown, sourceDir) {
     return markdown.replace(/\[([^\]]*)\]\(([^)]+)\)/g, (full, text, url) => {
       const newUrl = rewriteUrl(url, sourceDir);
+      if (newUrl === null) {
+        return text;
+      }
       if (newUrl !== url) {
         return `[${text}](${newUrl})`;
       }
