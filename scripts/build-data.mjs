@@ -203,8 +203,14 @@ function buildLinkRewriter(posts) {
       return '/feed.xml';
     }
 
+    // Pattern: http://devhawk.net/themes/devhawk/images/gamertag.gif → post asset
+    if (url === 'http://devhawk.net/themes/devhawk/images/gamertag.gif') {
+      rewriteCount++;
+      return '/blog/2003/12/23/live-on-xbox/gamertag.gif';
+    }
+
     // Pattern: http://devhawk.net/cdf.ashx or static files → strip link
-    if (url.match(/^http:\/\/devhawk\.net\/(cdf\.ashx|Presentations\/|themes\/)/)) {
+    if (url.match(/^http:\/\/devhawk\.net\/(cdf\.ashx|Presentations\/)/)) {
       rewriteCount++;
       return null;
     }
