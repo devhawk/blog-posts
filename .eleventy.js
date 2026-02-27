@@ -124,6 +124,30 @@ export default function (eleventyConfig) {
     return Object.values(JSON.parse(raw));
   });
 
+  eleventyConfig.addCollection('seriesPages', async () => {
+    const seriesData = Object.values(JSON.parse(await readFile(resolve('_generated/series.json'), 'utf8')));
+    const allPosts = JSON.parse(await readFile(resolve('_generated/posts.json'), 'utf8'));
+    const pageSize = 5;
+    const pages = [];
+    for (const series of seriesData) {
+      const seriesPosts = allPosts
+        .filter(p => p.series && p.series.slug === series.slug)
+        .sort((a, b) => a.date.localeCompare(b.date));
+      const totalPages = Math.max(1, Math.ceil(seriesPosts.length / pageSize));
+      for (let i = 0; i < totalPages; i++) {
+        pages.push({
+          slug: series.slug,
+          name: series.name,
+          count: seriesPosts.length,
+          pageNumber: i,
+          totalPages,
+          posts: seriesPosts.slice(i * pageSize, (i + 1) * pageSize),
+        });
+      }
+    }
+    return pages;
+  });
+
   eleventyConfig.addCollection('yearList', async () => {
     const posts = JSON.parse(await readFile(resolve('_generated/posts.json'), 'utf8'));
     const years = new Map();

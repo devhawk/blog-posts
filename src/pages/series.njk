@@ -1,26 +1,41 @@
 ---
 layout: layouts/base.njk
 pagination:
-  data: collections.seriesList
+  data: collections.seriesPages
   size: 1
-  alias: seriesItem
-permalink: "/blog/series/{{ seriesItem.slug }}/"
+  alias: seriesPage
+permalink: "/blog/series/{{ seriesPage.slug }}/{% if seriesPage.pageNumber > 0 %}page/{{ seriesPage.pageNumber + 1 }}/{% endif %}"
 eleventyComputed:
-  title: "{{ seriesItem.name }}"
+  title: "{{ seriesPage.name }}"
 ---
-<h1>{{ seriesItem.name }}</h1>
-<p>{{ seriesItem.count }} post{{ "s" if seriesItem.count != 1 }}</p>
-<ol class="post-list series-list">
-{%- set seriesPosts = [] %}
-{%- for post in posts %}
-  {%- if post.series and post.series.slug == seriesItem.slug %}
-    {%- set seriesPosts = (seriesPosts.push(post), seriesPosts) %}
-  {%- endif %}
+<h1>{{ seriesPage.name }}</h1>
+<p>{{ seriesPage.count }} post{{ "s" if seriesPage.count != 1 }}</p>
+{%- for post in seriesPage.posts %}
+<article class="post">
+  <header class="post-header">
+    <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+    <time datetime="{{ post.date | htmlDateString }}"><a href="/blog/{{ post.year }}/{{ post.month }}/{{ post.day }}/">{{ post.date | dateDisplay }}</a></time>
+    {%- if post.categories and post.categories.length %}
+    <span class="post-categories">
+      {%- for cat in post.categories %}
+      <a href="/blog/categories/{{ cat.slug }}/" class="badge badge-category">{{ cat.name }}</a>
+      {%- endfor %}
+    </span>
+    {%- endif %}
+  </header>
+  <div class="post-content">
+    {{ post.content | markdownify | safe }}
+  </div>
+</article>
 {%- endfor %}
-{%- for post in seriesPosts | reverse %}
-  <li>
-    <a href="{{ post.permalink }}">{{ post.title }}</a>
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
-  </li>
-{%- endfor %}
-</ol>
+{% if seriesPage.totalPages > 1 %}
+<nav class="pagination" aria-label="Series pagination">
+  {% if seriesPage.pageNumber > 0 %}
+  <a href="/blog/series/{{ seriesPage.slug }}/{% if seriesPage.pageNumber > 1 %}page/{{ seriesPage.pageNumber }}/{% endif %}" class="pagination-prev">&laquo; Newer</a>
+  {% endif %}
+  <span class="pagination-info">Page {{ seriesPage.pageNumber + 1 }} of {{ seriesPage.totalPages }}</span>
+  {% if seriesPage.pageNumber < seriesPage.totalPages - 1 %}
+  <a href="/blog/series/{{ seriesPage.slug }}/page/{{ seriesPage.pageNumber + 2 }}/" class="pagination-next">Older &raquo;</a>
+  {% endif %}
+</nav>
+{% endif %}

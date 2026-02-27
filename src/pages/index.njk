@@ -2,15 +2,20 @@
 layout: layouts/base.njk
 permalink: /
 ---
-<div class="about-content">
-  {{ aboutMe | markdownify | safe }}
-</div>
-<h2>Recent Posts</h2>
-<ul class="post-list">
-{%- for post in posts | head(5) %}
-  <li>
-    <a href="{{ post.permalink }}">{{ post.title }}</a>
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
-  </li>
-{%- endfor %}
-</ul>
+<section class="hero">
+  <div class="hero-content">
+    {{ aboutMe | markdownify | safe }}
+  </div>
+</section>
+<section class="recent-posts">
+  <h2>Recent Posts</h2>
+  <ul class="post-list">
+  {%- for post in posts | head(10) %}
+    <li>
+      <a href="{{ post.permalink }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateDisplay }}</time>
+    </li>
+  {%- endfor %}
+  </ul>
+  <a href="/blog/" class="view-all">View all posts &rarr;</a>
+</section>
