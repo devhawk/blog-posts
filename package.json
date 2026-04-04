@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build-data": "node scripts/build-data.mjs",
-    "build": "npm run build-data && npx @11ty/eleventy",
-    "serve": "npm run build-data && npx @11ty/eleventy --serve",
+    "build-data": "\"$npm_execpath\" scripts/build-data.mjs",
+    "build": "\"$npm_execpath\" run build-data && eleventy",
+    "serve": "\"$npm_execpath\" run build-data && eleventy --serve",
     "clean": "rm -rf _site _generated"
   },
   "dependencies": {
