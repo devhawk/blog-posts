@@ -8,7 +8,7 @@ really anything to see, yet.
 
 On a similar note, [Cory](http://www.addressof.com/blog/) (who
 provided my [Xbox Live
-Flair](http://devhawk.net/themes/devhawk/images/gamertag.gif)) has an
+Flair](./gamertag.gif)) has an
 app called [Xbox Friends](http://www.xboxfriends.com/xboxfriends.aspx)
 where you can see your friends playing habits in addition to their
 current status. For those who don’t have it, I can save you the bother
