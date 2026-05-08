@@ -27,6 +27,6 @@ So I built out a new blog engine called Hawk.
 It's written in [C#](https://msdn.microsoft.com/en-us/library/vstudio/kx37x362.aspx) 
 (plus about 30 lines of JavaScript), uses [ASP.NET 5](https://github.com/aspnet/home/) and runs on [Azure](http://azure.microsoft.com/). 
 It's specifically designed for my needs - for example, it automatically 
-redirects old DasBlog style links like [http://devhawk.net/2005/10/05/code+is+model.aspx](/2005/10/05/code+is+model.aspx). 
+redirects old DasBlog style links like [http://devhawk.net/2005/10/05/code+is+model.aspx](2005/10/05/code+is+model.aspx). 
 But I'm happy to let other people use it and would welcome contributions. 
 When I get a chance, I'll push the code up to GitHub. 
