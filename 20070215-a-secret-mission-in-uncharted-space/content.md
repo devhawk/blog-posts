@@ -1,7 +1,7 @@
 I’m taking some time off, starting tomorrow. I’ll be out all next week.
 That means that you’ll have to look elsewhere for your daily dose of
 [Morning
-Coffee](http://devhawk.net/CategoryView,category,Morning%2BCoffee.aspx).
+Coffee](http://devhawk.net/CategoryView,category,morning-coffee.aspx).
 I do have a few posts I’ve been holding back to auto post next week, so
 you don’t have to go completely DevHawk free. But if something big
 happens next week, don’t expect any immediate reaction from me.

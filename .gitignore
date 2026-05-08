@@ -2,5 +2,7 @@
 authors.json
 categories.json
 tags.json
+series.json
+rewrites.txt
 about-me.html
 presentations.html

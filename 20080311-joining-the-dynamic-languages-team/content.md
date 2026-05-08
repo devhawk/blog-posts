@@ -41,7 +41,7 @@ role, though the Dynamic Languages team is pretty open and many other
 members blog (as linked above) so I doubt I’m going anywhere. I’m going
 to try and keep blogging Morning Coffee, but I’m guessing it won’t be
 quite as regular as it has been in the past. Unfortunately, I am going
-to stop coding [F\#](http://devhawk.net/CategoryView,category,F%23.aspx)
+to stop coding [F\#](http://devhawk.net/CategoryView,category,f-sharp.aspx)
 for a while (sorry, [Don](http://blogs.msdn.com/dsyme/)!) I can’t focus
 on learning two languages at once and obviously Python is my new top
 priority.
