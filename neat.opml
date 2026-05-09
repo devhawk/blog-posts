@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <head>
+    <windowTop>0</windowTop>
+    <windowLeft>0</windowLeft>
+    <windowBottom>0</windowBottom>
+    <windowRight>0</windowRight>
+  </head>
+  <body>
+    <outline description="" title="Architect Evangelists" xmlUrl="" htmlUrl="">
+      <outline description="Architecture, Architecture, Architecture!" title="Anna Liu " xmlUrl="http://blogs.msdn.com/annali/Rss.aspx" htmlUrl="http://blogs.msdn.com/annali/" />
+      <outline description="Architecture Talk and Other FABRIQATIONS " title="Arvindra Sehmi" xmlUrl="http://www.thearchitectexchange.com/asehmi/SyndicationService.asmx/GetRss" htmlUrl="http://www.thearchitectexchange.com/asehmi/" />
+      <outline description="Beat Schwegler's 2 Cents" title="Beat Schwegler" xmlUrl="http://blogs.msdn.com/beatsch/Rss.aspx" htmlUrl="http://blogs.msdn.com/beatsch/" />
+      <outline description="" title="Bill O'Brien " xmlUrl="http://weblogs.asp.net/bobrien/Rss.aspx" htmlUrl="http://weblogs.asp.net/bobrien" />
+      <outline description="" title="David 'Lottery' White" xmlUrl="http://www.davidjwhite.net/blog/SyndicationService.asmx/GetRss" htmlUrl="http://www.davidjwhite.net/blog/" />
+      <outline description="Beaudreaux's Blog" title="David Solivan" xmlUrl="http://weblogs.asp.net/beaudreaux/Rss.aspx" htmlUrl="http://weblogs.asp.net/beaudreaux" />
+      <outline description="Architect" title="Jeromy Carriere" xmlUrl="http://blogs.msdn.com/jeromyc/Rss.aspx" htmlUrl="http://blogs.msdn.com/jeromyc/" />
+      <outline description="Architect Evangelist" title="Kevin W. Hammond" xmlUrl="http://weblogs.asp.net/kevinha/Rss.aspx" htmlUrl="http://weblogs.asp.net/kevinha/" />
+      <outline description="Technical musings and travel log... " title="Marley Gray" xmlUrl="http://blogs.msdn.com/marleyg/Rss.aspx" htmlUrl="http://blogs.msdn.com/marleyg" />
+      <outline description="" title="Michael Platt" xmlUrl="http://blogs.msdn.com/michael_platt/rss.aspx" htmlUrl="http://blogs.msdn.com/michael_platt/" />
+      <outline description="" title="Raj Wall" xmlUrl="http://blogs.msdn.com/rajwall/Rss.aspx" htmlUrl="http://blogs.msdn.com/rajwall/" />
+      <outline description="" title="Ramkumar Kothandaraman" xmlUrl="http://blogs.msdn.com/ramkoth/Rss.aspx" htmlUrl="http://blogs.msdn.com/ramkoth" />
+      <outline description="" title="William Zentmayer" xmlUrl="http://blogs.msdn.com/william_zentmayer/rss.aspx" htmlUrl="http://blogs.msdn.com/william_zentmayer/" />
+    </outline>
+    <outline description="" title="Architecture Strategy Team" xmlUrl="" htmlUrl="">
+      <outline description="" title="Chris Keyser " xmlUrl="http://blogs.msdn.com/chriskeyser/Rss.aspx" htmlUrl="http://blogs.msdn.com/chriskeyser" />
+      <outline description="" title="Dave Welsh" xmlUrl="http://blogs.msdn.com/dave_welsh/Rss.aspx" htmlUrl="http://blogs.msdn.com/dave_welsh" />
+      <outline description="Smart Clients for Smart People" title="David Hilll" xmlUrl="http://weblogs.asp.net/dphill/Rss.aspx" htmlUrl="http://weblogs.asp.net/dphill/" />
+      <outline description="" title="Drew Gude" xmlUrl="http://blogs.msdn.com/drewg/rss.aspx" htmlUrl="http://blogs.msdn.com/drewg" />
+      <outline description="Passion * Technology * Ruthless Competence" title="Harry Pierson" xmlUrl="http://devhawk.net/rss.aspx" htmlUrl="http://devhawk.net/" />
+      <outline description="RFID...it's time! Compliance and beyond " title="Javed Sikander" xmlUrl="http://blogs.msdn.com/javeds/Rss.aspx" htmlUrl="http://blogs.msdn.com/javeds" />
+      <outline description="Red River" title="Jim Clark" xmlUrl="http://blogs.msdn.com/jimclark/Rss.aspx" htmlUrl="http://blogs.msdn.com/jimclark" />
+      <outline description="Enterprise Architecture" title="John deVadoss" xmlUrl="http://blogs.msdn.com/jdevados/Rss.aspx" htmlUrl="http://blogs.msdn.com/jdevados/" />
+      <outline description="Web Services for Vertical Solutions " title="John Evdemon" xmlUrl="http://blogs.msdn.com/jevdemon/Rss.aspx" htmlUrl="http://blogs.msdn.com/jevdemon" />
+      <outline description="Josh Lee's Financial Services Blog" title="Josh Lee" xmlUrl="http://blogs.msdn.com/finservguy/rss.aspx" htmlUrl="http://blogs.msdn.com/finservguy" />
+      <outline description="" title="Maarten Mullender" xmlUrl="http://blogs.msdn.com/maarten_mullender/Rss.aspx" htmlUrl="http://blogs.msdn.com/maarten_mullender" />
+      <outline description="Atlas Brand View" title="Norman Guadagno" xmlUrl="http://atlasbrandview.blogspot.com/atom.xml" htmlUrl="http://atlasbrandview.blogspot.com" />
+      <outline description="" title="Pat Helland" xmlUrl="http://blogs.msdn.com/pathelland/Rss.aspx" htmlUrl="http://blogs.msdn.com/pathelland" />
+      <outline description="The only guy at Microsoft allowed to login as 'guest'" title="Simon Guest" xmlUrl="http://weblogs.asp.net/smguest/Rss.aspx" htmlUrl="http://weblogs.asp.net/smguest/" />
+    </outline>
+  </body>
+</opml>
