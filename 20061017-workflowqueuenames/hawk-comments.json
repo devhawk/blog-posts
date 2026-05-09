@@ -4,6 +4,7 @@
     "author-email": "tomas@winterdom.com",
     "author-url": "http://www.winterdom.com/weblog/",
     "date": "2006-10-17T15:36:59-07:00",
-    "content": "Yep, the queueing system is actually pretty nifty once you get the hang of it, and you can certainly pass data through the queues if you need to, as it will be serialized alongside the workflow instance if needed."
+    "content": "Yep, the queueing system is actually pretty nifty once you get the hang of it, and you can certainly pass data through the queues if you need to, as it will be serialized alongside the workflow instance if needed.",
+    "tid": "33237mbdaa222"
   }
 ]

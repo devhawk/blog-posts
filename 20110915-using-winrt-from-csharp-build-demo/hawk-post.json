@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "using-winrt-from-csharp-build-demo",
   "title": "Using WinRT from C# //build Demo",
   "date": "2011-09-15T09:39:30-07:00",
@@ -7,5 +7,6 @@
   "csv-tag-slugs": "//build|build,C#|c-sharp,Metro style apps|metro-style-apps,Windows 8|windows-8",
   "author": "DevHawk|devhawk|devhawk@outlook.com",
   "comment-count": 6,
-  "sha1": "4fb5c0cba251998dda1724a9861ac7f28bcd2eab"
+  "sha1": "4fb5c0cba251998dda1724a9861ac7f28bcd2eab",
+  "tid": "37gzq4ov76222"
 }

@@ -4,13 +4,15 @@
     "author-email": "rpanick@msn.com",
     "author-url": "http://photos.panick.com",
     "date": "2011-06-01T17:37:07-07:00",
-    "content": "Alternately you can create the WinPE disk, copy the Windows WIM files and simply use ImageX to extract the WIM file to your target disk.  Then when Windows has stared add the network drivers.  In this case you don't even need the network drivers until you are ready to join the domain, and you may be able to use your WiFi network."
+    "content": "Alternately you can create the WinPE disk, copy the Windows WIM files and simply use ImageX to extract the WIM file to your target disk.  Then when Windows has stared add the network drivers.  In this case you don't even need the network drivers until you are ready to join the domain, and you may be able to use your WiFi network.",
+    "tid": "376pzf5hwq222"
   },
   {
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2011-06-01T22:14:38-07:00",
-    "content": "Interesting. I'll have to look into this approach. Can you load the WIM files from the WDS server or do they need to be placed on a traditional file share?"
+    "content": "Interesting. I'll have to look into this approach. Can you load the WIM files from the WDS server or do they need to be placed on a traditional file share?",
+    "tid": "376qivf44w222"
   }
 ]

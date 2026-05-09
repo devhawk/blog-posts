@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "ironpython-and-wpf-part-2-loading-xaml",
   "title": "IronPython and WPF Part 2: Loading XAML",
   "date": "2008-11-14T15:06:49-08:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "IronPython+And+WPF+Part+2+Loading+XAML",
   "dasblog-unique-title": "2008/11/14/IronPython+And+WPF+Part+2+Loading+XAML",
   "series": "IronPython And *|ironpython-and-star",
-  "sha1": "3c9f7bceb206ad81ee0a1d63632d500862eb9d30"
+  "sha1": "3c9f7bceb206ad81ee0a1d63632d500862eb9d30",
+  "tid": "34vpt6fax4222"
 }

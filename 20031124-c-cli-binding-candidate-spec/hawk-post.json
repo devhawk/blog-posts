@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "c-cli-binding-candidate-spec",
   "title": "C++ CLI Binding Candidate Spec",
   "date": "2003-11-24T14:40:31-08:00",
@@ -10,5 +10,6 @@
   "dasblog-entry-id": "a02fc2d3-2271-48af-bb3c-669c681f16b6",
   "dasblog-title": "C+CLI+Binding+Candidate+Spec",
   "dasblog-unique-title": "2003/11/24/C+CLI+Binding+Candidate+Spec",
-  "sha1": "33a1489e6b8aa431e00e8c026bb94e8fd62709af"
+  "sha1": "33a1489e6b8aa431e00e8c026bb94e8fd62709af",
+  "tid": "2ygwsijthi222"
 }

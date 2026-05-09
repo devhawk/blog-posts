@@ -4,13 +4,15 @@
     "author-email": "",
     "author-url": "",
     "date": "2007-10-25T15:36:56-07:00",
-    "content": "Does DNS count as centralized management for the internet?"
+    "content": "Does DNS count as centralized management for the internet?",
+    "tid": "33xf5jlfgk222"
   },
   {
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "http://devhawk.net",
     "date": "2007-10-30T09:11:20-07:00",
-    "content": "DNS isn't really management, it's addressing and naming. And it certainly isn't centralized. So I'd say, no it's not."
+    "content": "DNS isn't really management, it's addressing and naming. And it certainly isn't centralized. So I'd say, no it's not.",
+    "tid": "33xr2coiik222"
   }
 ]

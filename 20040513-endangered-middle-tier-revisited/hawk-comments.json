@@ -4,13 +4,15 @@
     "author-email": "darrel@tavis.ca",
     "author-url": "",
     "date": "2004-05-14T15:28:55-07:00",
-    "content": "Absolutely it will happen.\n\nIt just makes so much sense to move the application server logic into the database, closer to the data.\n\nI also think with the rising popularity of smart clients, more business logic will be moved down to the client tier. \n\n"
+    "content": "Absolutely it will happen.\n\nIt just makes so much sense to move the application server logic into the database, closer to the data.\n\nI also think with the rising popularity of smart clients, more business logic will be moved down to the client tier. \n\n",
+    "tid": "2yuhc25e7y222"
   },
   {
     "author-name": "stellenmarktplatz",
     "author-email": "sa@we.de",
     "author-url": "http://www.stellenmarktplatz.ch/index.htm",
     "date": "2004-05-20T03:25:20-07:00",
-    "content": "nice comment"
+    "content": "nice comment",
+    "tid": "2yuv4fse32222"
   }
 ]

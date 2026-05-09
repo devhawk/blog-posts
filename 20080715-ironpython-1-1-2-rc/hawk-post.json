@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "ironpython-1-1-2-rc",
   "title": "IronPython 1.1.2 RC",
   "date": "2008-07-15T11:16:25-07:00",
@@ -10,5 +10,6 @@
   "dasblog-entry-id": "3d24829f-4d1d-45cd-aec2-4f83d0a206ad",
   "dasblog-title": "IronPython+112+RC",
   "dasblog-unique-title": "2008/07/15/IronPython+112+RC",
-  "sha1": "35f388f24f2c33f472abc135df00b3254c401097"
+  "sha1": "35f388f24f2c33f472abc135df00b3254c401097",
+  "tid": "34m4k2s764222"
 }

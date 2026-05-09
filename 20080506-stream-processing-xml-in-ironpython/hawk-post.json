@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "stream-processing-xml-in-ironpython",
   "title": "Stream Processing XML in IronPython",
   "date": "2008-05-06T11:21:54-07:00",
@@ -10,5 +10,6 @@
   "dasblog-entry-id": "381bc642-1227-46ac-8b2c-447db5ea9e7b",
   "dasblog-title": "Stream+Processing+XML+In+IronPython",
   "dasblog-unique-title": "2008/05/06/Stream+Processing+XML+In+IronPython",
-  "sha1": "52c0f7937a06813dbd66f418bebac6222469896e"
+  "sha1": "52c0f7937a06813dbd66f418bebac6222469896e",
+  "tid": "34gmjq5ox6222"
 }

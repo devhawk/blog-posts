@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "brokered-winrt-components-step-one",
   "title": "Brokered WinRT Components Step One",
   "date": "2014-04-25T08:41:29-07:00",
@@ -8,5 +8,6 @@
   "author": "DevHawk|devhawk|devhawk@outlook.com",
   "comment-count": 2,
   "series": "Brokered WinRT Components|brokered-winrt-components",
-  "sha1": "f4d565d45c438b64ed27f890ae96167e021abbc5"
+  "sha1": "f4d565d45c438b64ed27f890ae96167e021abbc5",
+  "tid": "3brvzadgb4222"
 }

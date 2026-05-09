@@ -4,13 +4,15 @@
     "author-email": "",
     "author-url": "http://famoushamsandwich.blogspot.com",
     "date": "2008-12-17T16:34:55-08:00",
-    "content": "I do the same thing and solved it using ${env:programfiles}."
+    "content": "I do the same thing and solved it using ${env:programfiles}.",
+    "tid": "34ycxiclmi222"
   },
   {
     "author-name": "Brad Wilson",
     "author-email": "dotnetguy@gmail.com",
     "author-url": "http://bradwilson.typepad.com/",
     "date": "2008-12-28T12:47:47-08:00",
-    "content": "Thanks for this! I posted an expanded version suitable for use as a script file, which includes optional diagnostic/debugging information:\n\nhttp://bradwilson.typepad.com/blog/2008/12/find-to-set-aliasps1.html\n"
+    "content": "Thanks for this! I posted an expanded version suitable for use as a script file, which includes optional diagnostic/debugging information:\n\nhttp://bradwilson.typepad.com/blog/2008/12/find-to-set-aliasps1.html\n",
+    "tid": "34z67wbycq222"
   }
 ]

@@ -1,9 +1,10 @@
-﻿{
+{
   "slug": "my-next-adventure",
   "title": "My Next Adventure",
   "csv-category-slugs": "Personal|personal",
   "csv-tag-slugs": "Working at MSFT|working-at-msft,NEO|neo,NEO Global Development|neo-global-development",
   "date": "2019-06-02T08:30:00.0000000-07:00",
   "author": "DevHawk|devhawk|devhawk@outlook.com",
-  "comment-count": 0
+  "comment-count": 0,
+  "tid": "3gef5pvjnk222"
 }

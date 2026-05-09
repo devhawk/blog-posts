@@ -4,13 +4,15 @@
     "author-email": "fuzzyman@voidspace.org.uk",
     "author-url": "http://www.ironpythoninaction.com/",
     "date": "2008-07-14T09:37:22-07:00",
-    "content": "As Powershell is all implemented as .NET assemblies (surprise!) calling into Powershell from IronPython is quite easy. There are examples of it (and embedding IronPython in Powershell) in IronPython in Action."
+    "content": "As Powershell is all implemented as .NET assemblies (surprise!) calling into Powershell from IronPython is quite easy. There are examples of it (and embedding IronPython in Powershell) in IronPython in Action.",
+    "tid": "34lzu2r2h6222"
   },
   {
     "author-name": "DevHawk",
     "author-email": "harry@devhawk.net",
     "author-url": "",
     "date": "2008-07-15T21:54:33-07:00",
-    "content": "Looking forward to it Michael!"
+    "content": "Looking forward to it Michael!",
+    "tid": "34m5npui74222"
   }
 ]

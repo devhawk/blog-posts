@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "windows-camp-demo-part-two",
   "title": "Windows Camp Demo, Part Two",
   "date": "2012-06-24T20:15:24-07:00",
@@ -7,5 +7,6 @@
   "csv-tag-slugs": "C++|c-plus-plus,C++/cx|c-plus-plus-cx,Channel 9|channel-9,Metro style apps|metro-style-apps,Windows 8|windows-8,Windows Camp|windows-camp,WinRT Components|winrt-components",
   "author": "DevHawk|devhawk|devhawk@outlook.com",
   "comment-count": 0,
-  "sha1": "7deeef391fa55404b0ab81a5d701c5c8dee68cf2"
+  "sha1": "7deeef391fa55404b0ab81a5d701c5c8dee68cf2",
+  "tid": "3a5chmct4s222"
 }

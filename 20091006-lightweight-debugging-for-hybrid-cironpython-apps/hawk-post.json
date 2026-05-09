@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "lightweight-debugging-for-hybrid-cironpython-apps",
   "title": "Lightweight Debugging for Hybrid C#/IronPython Apps",
   "date": "2009-10-06T14:11:38-07:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "Lightweight+Debugging+For+Hybrid+CIronPython+Apps",
   "dasblog-unique-title": "2009/10/06/Lightweight+Debugging+For+Hybrid+CIronPython+Apps",
   "series": "IronPython Hybrid App Debugging|hybrid-app-debugging",
-  "sha1": "abe956521b3bea40a9e81d909246ded3f6a247c1"
+  "sha1": "abe956521b3bea40a9e81d909246ded3f6a247c1",
+  "tid": "35pdeqkoho222"
 }

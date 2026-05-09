@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "__clrtype__-metaclasses-customizing-the-type-name",
   "title": "__clrtype__ Metaclasses: Customizing the Type Name",
   "date": "2009-04-22T12:51:03-07:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "clrtype+Metaclasses+Customizing+The+Type+Name",
   "dasblog-unique-title": "2009/04/22/clrtype+Metaclasses+Customizing+The+Type+Name",
   "series": "__clrtype__ Metaclasses|__clrtype__-metaclasses",
-  "sha1": "e7a766bdc73e5c2e99c26ac137e50dc9110afdb2"
+  "sha1": "e7a766bdc73e5c2e99c26ac137e50dc9110afdb2",
+  "tid": "35c7cepopy222"
 }

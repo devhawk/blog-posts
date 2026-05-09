@@ -4,6 +4,7 @@
     "author-email": "waseem@sadiq.nl",
     "author-url": "http://waseem.sadiq.nl/blog/",
     "date": "2006-10-10T01:06:29-07:00",
-    "content": "\"Anyone got any cool uses for netPeerTCPBinding?\"\n\nMost certainly... how about PeerChannel which enables p2p scenario's under WCF. Check it out, very cool stuff."
+    "content": "\"Anyone got any cool uses for netPeerTCPBinding?\"\n\nMost certainly... how about PeerChannel which enables p2p scenario's under WCF. Check it out, very cool stuff.",
+    "tid": "32zi3paouu222"
   }
 ]

@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "__clrtype__-metaclasses-ironpython-classes-under-the-hood",
   "title": "__clrtype__ Metaclasses: IronPython Classes Under the Hood",
   "date": "2009-04-21T10:59:35-07:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "clrtype+Metaclasses+IronPython+Classes+Under+The+Hood",
   "dasblog-unique-title": "2009/04/21/clrtype+Metaclasses+IronPython+Classes+Under+The+Hood",
   "series": "__clrtype__ Metaclasses|__clrtype__-metaclasses",
-  "sha1": "b10e70171fed5b55cc2dee81246dc8f1b26e947e"
+  "sha1": "b10e70171fed5b55cc2dee81246dc8f1b26e947e",
+  "tid": "35c4loi2fy222"
 }

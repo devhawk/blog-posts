@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "xml-is-not-just-a-deserialized-object-graph",
   "title": "XML Is Not Just a Deserialized Object Graph",
   "date": "2003-05-15T08:30:13-07:00",
@@ -10,5 +10,6 @@
   "dasblog-entry-id": "5643b052-f1f2-4c53-ac33-e33d0910f917",
   "dasblog-title": "XML+Is+Not+Just+A+Deserialized+Object+Graph",
   "dasblog-unique-title": "2003/05/15/XML+Is+Not+Just+A+Deserialized+Object+Graph",
-  "sha1": "835f1369e1164fb4b92491dfe2a54058378d9d31"
+  "sha1": "835f1369e1164fb4b92491dfe2a54058378d9d31",
+  "tid": "2xxqqhfvuu222"
 }

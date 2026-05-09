@@ -4,6 +4,7 @@
     "author-email": "randallsutton@gmail.com",
     "author-url": "http://blog.randallsutton.net",
     "date": "2009-08-11T09:50:12-07:00",
-    "content": "Good Post.  Seems like managing the engine/scope startup time is the biggest issue when executing python scripts from C#."
+    "content": "Good Post.  Seems like managing the engine/scope startup time is the biggest issue when executing python scripts from C#.",
+    "tid": "35kw3zjjqc222"
   }
 ]

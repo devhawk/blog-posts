@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "ironpython-and-wpf-background-processing-revisited",
   "title": "IronPython and WPF Background Processing Revisited",
   "date": "2008-11-20T14:57:18-08:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "IronPython+And+WPF+Background+Processing+Revisited",
   "dasblog-unique-title": "2008/11/20/IronPython+And+WPF+Background+Processing+Revisited",
   "series": "IronPython And *|ironpython-and-star",
-  "sha1": "62cf834f7f5dae0d1baa31ed5804f3a85e113afa"
+  "sha1": "62cf834f7f5dae0d1baa31ed5804f3a85e113afa",
+  "tid": "34w6vgvhvw222"
 }

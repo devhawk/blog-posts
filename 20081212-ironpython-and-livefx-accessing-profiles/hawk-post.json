@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "ironpython-and-livefx-accessing-profiles",
   "title": "IronPython and LiveFX: Accessing Profiles",
   "date": "2008-12-12T17:50:08-08:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "IronPython+And+LiveFX+Accessing+Profiles",
   "dasblog-unique-title": "2008/12/13/IronPython+And+LiveFX+Accessing+Profiles",
   "series": "IronPython And *|ironpython-and-star",
-  "sha1": "cba865aa538d201802be6aa3c2d42225576e41c6"
+  "sha1": "cba865aa538d201802be6aa3c2d42225576e41c6",
+  "tid": "34xwje77p2222"
 }

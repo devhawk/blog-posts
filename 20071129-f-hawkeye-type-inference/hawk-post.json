@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "f-hawkeye-type-inference",
   "title": "F# Hawkeye : Type Inference",
   "series": "F# Hawkeye|fsharp-hawkeye",
@@ -11,5 +11,6 @@
   "dasblog-entry-id": "2cb86ed8-f847-44e8-8f95-62758e370a45",
   "dasblog-title": "F+Hawkeye+Type+Inference",
   "dasblog-unique-title": "2007/11/29/F+Hawkeye+Type+Inference",
-  "sha1": "300763f8588baa63648fcab6146947942497265f"
+  "sha1": "300763f8588baa63648fcab6146947942497265f",
+  "tid": "3424gmjvbs222"
 }

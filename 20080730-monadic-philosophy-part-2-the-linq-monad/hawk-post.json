@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "monadic-philosophy-part-2-the-linq-monad",
   "title": "Monadic Philosophy Part 2 &#8211; The LINQ Monad",
   "date": "2008-07-30T09:53:19-07:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "Monadic+Philosophy+Part+2+The+LINQ+Monad",
   "dasblog-unique-title": "2008/07/30/Monadic+Philosophy+Part+2+The+LINQ+Monad",
   "series": "Monadic Philosophy|monadic-philosophy",
-  "sha1": "45c6c878f288b1220c7276e176058731b7a8cd79"
+  "sha1": "45c6c878f288b1220c7276e176058731b7a8cd79",
+  "tid": "34nc4fz3ri222"
 }

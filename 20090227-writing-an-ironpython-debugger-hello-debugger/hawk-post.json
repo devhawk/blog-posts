@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "writing-an-ironpython-debugger-hello-debugger",
   "title": "Writing an IronPython Debugger: Hello, Debugger!",
   "date": "2009-02-27T17:41:21-08:00",
@@ -11,5 +11,6 @@
   "dasblog-title": "Writing+An+IronPython+Debugger+Hello+Debugger",
   "dasblog-unique-title": "2009/02/28/Writing+An+IronPython+Debugger+Hello+Debugger",
   "series": "Writing an IronPython Debugger|writing-an-ironpython-debugger",
-  "sha1": "c9cc908412b025ddae8e2a383e16a7230563a013"
+  "sha1": "c9cc908412b025ddae8e2a383e16a7230563a013",
+  "tid": "355y4rf4om222"
 }
