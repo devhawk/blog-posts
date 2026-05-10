@@ -12,8 +12,8 @@
         "text": "telegram"
     },
     {
-        "href": "http://twitter.com/devhawk",
-        "text": "twitter"
+        "href": "https://bsky.app/profile/devhawk.net",
+        "text": "bluesky"
     },
     {
         "href": "https://www.linkedin.com/in/devhawk",
@@ -28,12 +28,12 @@
         "text": "tiktok"
     },
     {
-        "href": "https://techhub.social/@devhawk",
-        "text": "mastodon"
-    },
-    {
         "href": "http://stackoverflow.com/users/1179731/devhawk",
         "text": "stack overflow"
+    },
+    {
+        "href": "http://twitter.com/devhawk",
+        "text": "twitter"
     },
     {
         "href": "mailto:devhawk@outlook.com",
