@@ -1,0 +1,7 @@
+[
+    {
+        "slug": "net_vision.ppt",
+        "slides": "C:\\Users\\harry\\OneDrive\\DevHawk Content\\Presentations\\Old Presentations\\NET_Vision.ppt",
+        "summary": "The .NET Vision presentation outlines a strategic transition toward an internet-centric computing model designed to break down traditional boundaries between different programming languages and platforms. By leveraging XML Web Services and standard protocols like SOAP and HTTP, the framework aims to provide a unified foundation for \"Smart Clients\" and high-availability servers that allow software to function seamlessly across any device. The presentation emphasizes significant business value and technical efficiency, specifically highlighting that .NET implementations require substantially less code and hardware compared to contemporary J2EE environments, ultimately promising faster development cycles and reduced operational costs for the enterprise."
+    }
+]

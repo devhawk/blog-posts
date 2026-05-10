@@ -1,0 +1,22 @@
+{
+    "archive-link": "https://web.archive.org/web/20050221104907/http://devhawk.net/projects.ashx",
+    "records": [
+        {
+            "slug": "sharepointsynd",
+            "archive-link": "https://web.archive.org/web/20050220151534/http://www.devhawk.net/prj_SharePointSynd.ashx"
+        },
+        {
+            "slug": "messenger",
+            "archive-link": "https://web.archive.org/web/20050220151745/http://www.devhawk.net/prj_messenger.ashx"
+        },
+        {
+            "slug": "webskin",
+            "archive-link": "https://web.archive.org/web/20050226045803/http://devhawk.net/prj_webskin.ashx",
+            "link": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2003/march/xml-classes-enable-personalized-user-experiences-on-asp-net-sites"
+        },
+        {
+            "slug": "wiki",
+            "archive-link": "https://web.archive.org/web/20050220151614/http://www.devhawk.net/prj_wiki.ashx"
+        }
+    ]
+}
