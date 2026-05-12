@@ -1,11 +1,20 @@
 ---
 title: "Pumping Iron: The State of Dynamic Languages on the .NET Framework"
 video: "https://youtu.be/K2_e8Xj-Xls"
+categories:
+    - name: Development
+      slug: development
+    - name: Microsoft
+      slug: microsoft
+    - name: IronPython
+      slug: ironpython
+
 ---
+
 This is a presenation I delivered a few times [in 2009](blog:post:devhawk-world-tour-fy2010). 
 I had the slides but thanks to [Internet Wayback Machine](https://web.archive.org/web/20101206021319/https://channel9.msdn.com/Blogs/martinesmann/Pumping-Iron-Dynamic-Languages-on-NET), I was able to retrieve a copy of the video!
 
-Original Summary:
+Original Abstract:
 
 > As is commonly known, Microsoft is developing IronPython and IronRuby, .NET implementations of the popular open-source programming languages Python and Ruby.
 >

@@ -1,6 +1,12 @@
 ---
 title: Microsoft .NET: Built on the Internet Foundation
+categories:
+    - name: Development
+      slug: development
+    - name: Microsoft
+      slug: microsoft
 ---
+
 These are the slides I originally used to do the 'What is .NET?' presenation for business decision makers 
 as an architect evangelist back in the early 2000s.
 They primarily focus on the vision of "XML Web Services", which has morphed over the decades into JSON + RESTful services.
