@@ -1,6 +1,6 @@
 ---
-title: Developer 2.0
-conference: patterns & practices Summit 2005
+title: "Developer 2.0"
+conference: "patterns & practices Summit 2005"
 categories:
     - name: Architecture
       slug: architecture

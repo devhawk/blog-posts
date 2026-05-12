@@ -4,7 +4,7 @@ Oriented Architecture. I think figured out how I want to talk about it
 since last
 [Tuesday](http://devhawk.net/2003/03/25/service-oriented-architecture-presenation/). So
 I’m starting work on a new [deck](presentations.aspx) which evolves my
-[.NET Vision presentation](presentations/net_vision.ppt) (that I have
+[.NET Vision presentation](presentations/net-vision.ppt) (that I have
 been delivering for over 2 years now) into something more related to
 SOA.
 

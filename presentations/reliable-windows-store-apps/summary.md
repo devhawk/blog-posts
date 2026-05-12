@@ -1,5 +1,5 @@
 ---
-title: Making your Windows Store app more reliable 
+title: "Making your Windows Store app more reliable" 
 conference: "//build 2013"
 video: https://youtu.be/o64bCdYQkT0
 categories:
